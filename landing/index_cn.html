@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCAI | 高性能 AI 枢纽 & 工作站专家</title>
+    <meta name="description" content="QCAI 是顶级的 AI 枢纽。提供 AI 硬件路线图、DIY 工作站指南、专业安装服务以及智能城市工具。">
+
+    <!-- SEO & Favicon -->
+    <link rel="icon" type="image/png" href="/static/qcaiIcon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #00D2FF;
+            --secondary: #3A7BD5;
+            --accent: #9D50BB;
+            --bg: #050505;
+            --card-bg: #111111;
+            --text: #FFFFFF;
+            --text-muted: #A0A0A0;
+            --radius: 24px;
+            --glass: rgba(255, 255, 255, 0.03);
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Ambient Background Blur */
+        .ambient-glow {
+            position: fixed;
+            top: -10%;
+            right: -10%;
+            width: 50%;
+            height: 50%;
+            background: radial-gradient(circle, rgba(0, 210, 255, 0.05) 0%, transparent 70%);
+            z-index: -1;
+            filter: blur(100px);
+        }
+
+        .ambient-glow-2 {
+            position: fixed;
+            bottom: -10%;
+            left: -10%;
+            width: 50%;
+            height: 50%;
+            background: radial-gradient(circle, rgba(157, 80, 187, 0.05) 0%, transparent 70%);
+            z-index: -1;
+            filter: blur(100px);
+        }
+
+        .navbar {
+            background: rgba(10, 10, 10, 0.7);
+            backdrop-filter: blur(20px);
+            padding: 1.25rem 5%;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+            letter-spacing: -1px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .nav-links a:hover {
+            color: var(--text);
+        }
+
+        /* Mobile Menu Toggle */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            cursor: pointer;
+            z-index: 1001;
+            padding: 10px;
+            margin-right: -10px;
+        }
+
+        .menu-toggle span {
+            width: 24px;
+            height: 2px;
+            background: var(--text);
+            transition: 0.3s;
+            border-radius: 2px;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .mobile-get-app {
+            display: none;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 100px;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 10px 20px rgba(0, 210, 255, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px rgba(0, 210, 255, 0.3);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 5%;
+        }
+
+        .hero {
+            padding-top: 10rem;
+            padding-bottom: 6rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .badge {
+            background: var(--glass);
+            border: 1px solid var(--border);
+            padding: 0.5rem 1rem;
+            border-radius: 100px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 2rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin: 0 0 1.5rem 0;
+            letter-spacing: -0.02em;
+            max-width: 900px;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin-bottom: 3rem;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 1000px;
+            border-radius: var(--radius);
+            margin-top: 2rem;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border);
+            transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .hero-image:hover {
+            transform: scale(1.02);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 8rem;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 3rem;
+            transition: border-color 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card:hover {
+            border-color: var(--primary);
+        }
+
+        .feature-card .icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card p {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        .app-status {
+            padding: 6rem 0;
+            text-align: center;
+            background: linear-gradient(to bottom, transparent, var(--glass), transparent);
+        }
+
+        .device-logos {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 3rem;
+            opacity: 0.6;
+        }
+
+        .device-logos i {
+            font-size: 3rem;
+        }
+
+        /* FAQ Section (Support) */
+        .support-section {
+            padding: 4rem 0;
+        }
+
+        .faq-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .navbar {
+                padding: 1rem 5%;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 100%;
+                height: 100vh;
+                background: rgba(5, 5, 5, 0.98);
+                backdrop-filter: blur(20px);
+                flex-direction: column;
+                justify-content: center;
+                gap: 2.5rem;
+                transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+                z-index: 1000;
+                padding: 0;
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            .nav-links a {
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+
+            .menu-toggle {
+                display: flex;
+            }
+
+            .mobile-get-app {
+                display: block;
+                padding: 0.6rem 1.2rem;
+                font-size: 0.85rem;
+            }
+
+            .btn-primary.desktop-only {
+                display: none;
+            }
+
+            /* Hamburger animation */
+            .menu-toggle.active span:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+
+            .menu-toggle.active span:nth-child(2) {
+                opacity: 0;
+            }
+
+            .menu-toggle.active span:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+        }
+
+        .faq-item {
+            margin-bottom: 2rem;
+        }
+
+        .faq-question {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
+            color: var(--text);
+        }
+
+        .faq-answer {
+            color: var(--text-muted);
+        }
+
+        footer {
+            padding: 4rem 0;
+            text-align: center;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .footer-logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: inline-block;
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        .tech-stack {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .tech-stack span {
+            color: var(--primary);
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate {
+            animation: fadeIn 1s ease forwards;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ambient-glow"></div>
+    <div class="ambient-glow-2"></div>
+
+    <nav class="navbar">
+        <a href="#" class="logo">QCAI</a>
+        <div class="nav-right">
+            <div class="nav-links" id="navLinks">
+                <a href="#features" onclick="closeMenu()">功能特性</a>
+                <a href="#apps" onclick="closeMenu()">下载应用</a>
+                <a href="#support" onclick="closeMenu()">技术支持</a>
+                <a href="/static/privacy_policy.html">隐私政策</a>
+                <button onclick="document.getElementById('apps').scrollIntoView()"
+                    class="btn-primary desktop-only">获取应用</button>
+            </div>
+            <button onclick="document.getElementById('apps').scrollIntoView()"
+                class="btn-primary mobile-get-app">获取应用</button>
+            <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <header class="hero">
+            <div class="badge animate">
+                <span>✨</span> 终极 AI 枢纽
+            </div>
+            <h1 class="animate">高性能 AI 枢纽</h1>
+            <p class="animate" style="animation-delay: 0.2s">加速您的技术生活。从 AI 硬件路线图和定制工作站专家建议，到无缝的城市智能工具——专业人士的一站式平台。</p>
+
+            <div class="animate" style="animation-delay: 0.4s">
+                <img src="/static/hero_ai.png" alt="QCAI 界面" class="hero-image">
+            </div>
+        </header>
+
+        <section id="features">
+            <div class="section-title">
+                <h2>智能核心支柱</h2>
+                <p>涵盖硬件、本地 AI 和城市生活的全方位生态系统。</p>
+            </div>
+            <div class="features-grid">
+                <!-- 1: Hardware Roadmaps -->
+                <div class="feature-card animate">
+                    <span class="icon">🛠️</span>
+                    <h3>AI 硬件路线图</h3>
+                    <p>告别盲目猜测。根据您需要运行的特定 AI 模型（Llama 3, DeepSeek）获取定制的 GPU、内存和散热方案建议。</p>
+                </div>
+                <!-- 2: DIY Guide -->
+                <div class="feature-card animate" style="animation-delay: 0.1s">
+                    <span class="icon">🖥️</span>
+                    <h3>DIY 工作站指南</h3>
+                    <p>打造您的本地动力源。提供从入门级到多 GPU 企业级神器的详细组装指南和精选配件清单。</p>
+                </div>
+                <!-- 3: Pro Install -->
+                <div class="feature-card animate" style="animation-delay: 0.2s">
+                    <span class="icon">👨‍🔧</span>
+                    <h3>专业硬件安装</h3>
+                    <p>偏好专家服务？我们提供上门工作站组装、系统配置以及本地 LLM 环境搭建，适用于团队和企业。</p>
+                </div>
+                <!-- 4: City OS -->
+                <div class="feature-card animate" style="animation-delay: 0.3s">
+                    <span class="icon">🏢</span>
+                    <h3>无缝城市工具</h3>
+                    <p>优化城市生活。作为 QCAI
+                        生态的智能衍生，我们自然处理<strong>垃圾清理计划</strong>、<strong>学校日历</strong>和<strong>生活缴费</strong>等细节。</p>
+                </div>
+                <!-- 5: Stock Analysis -->
+                <div class="feature-card animate" style="animation-delay: 0.4s">
+                    <span class="icon">📈</span>
+                    <h3>AI 股票洞察</h3>
+                    <p>专业级分析。利用实时的金融数据，获取 AI 生成的风险报告、操作建议和市场预测。</p>
+                </div>
+                <!-- 6: Global News -->
+                <div class="feature-card animate" style="animation-delay: 0.5s">
+                    <span class="icon">📰</span>
+                    <h3>全球与金融新闻</h3>
+                    <p>通过实时头条新闻和深度金融报道保持领先，AI 精心挑选对您的投资组合最重要的信息。</p>
+                </div>
+                <!-- 7: Reality Check -->
+                <div class="feature-card animate" style="animation-delay: 0.6s">
+                    <span class="icon">🏠</span>
+                    <h3>现实检查与租金</h3>
+                    <p>更智能地生活。根据实时市场数据获取有关<strong>学区</strong>、<strong>社区安全</strong>和<strong>租金公平性</strong>的即时分析报告。</p>
+                </div>
+                <!-- 8: Tax Tool -->
+                <div class="feature-card animate" style="animation-delay: 0.7s">
+                    <span class="icon">📝</span>
+                    <h3>2025 税务助手</h3>
+                    <p>使用专用报税助手应对 2025 纳税季。简单、本地、智能，助您轻松理财。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Visual Intel Section -->
+        <section id="visual-intel" style="padding-bottom: 8rem;">
+            <div class="section-title">
+                <h2>可视化智能卡片</h2>
+                <p>以直观、丰富的数据形式呈现 AI 洞察。</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+                <div style="background: var(--glass); border: 1px solid var(--border); padding: 1.5rem; border-radius: 20px; transition: transform 0.3s;"
+                    onmouseover="this.style.transform='translateY(-5px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <span
+                        style="color: var(--primary); font-weight: 800; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px;">硬件洞察</span>
+                    <h4 style="margin: 0.5rem 0; font-size: 1.25rem;">显存优化器 (VRAM)</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.4;">
+                        为本地模型自动适配。准确认知哪些 GPU 配置可以流畅运行 DeepSeek、Llama 等大模型。</p>
+                </div>
+                <div style="background: var(--glass); border: 1px solid var(--border); padding: 1.5rem; border-radius: 20px; transition: transform 0.3s;"
+                    onmouseover="this.style.transform='translateY(-5px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <span
+                        style="color: var(--accent); font-weight: 800; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px;">现实检查
+                        (Reality Check)</span>
+                    <h4 style="margin: 0.5rem 0; font-size: 1.25rem;">社区统计</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.4;">关于社区安全、学校排名和当地投资趋势的公正指标。
+                    </p>
+                </div>
+                <div style="background: var(--glass); border: 1px solid var(--border); padding: 1.5rem; border-radius: 20px; transition: transform 0.3s;"
+                    onmouseover="this.style.transform='translateY(-5px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <span
+                        style="color: #9C27B0; font-weight: 800; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px;">场域动态
+                        (The Scene)</span>
+                    <h4 style="margin: 0.5rem 0; font-size: 1.25rem;">脉搏探索</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.4;">实时跟踪夏洛特的技术聚会、音乐活动和社区联谊。
+                    </p>
+                </div>
+            </div>
+
+            <!-- Sample Questions Grid -->
+            <div style="margin-top: 5rem; text-align: center;">
+                <h3 style="margin-bottom: 2.5rem; font-size: 1.5rem; letter-spacing: -0.5px;">试试这样问 QCAI...</h3>
+                <div
+                    style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; max-width: 900px; margin: 0 auto;">
+                    <span
+                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">“DeepSeek
+                        32B 需要多少显存？”</span>
+                    <span
+                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">“如何并在本地部署
+                        Llama 3？”</span>
+                    <span
+                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">“找一个
+                        $1200 以下的入门级 AI 组装方案。”</span>
+                    <span
+                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">“我附近的所属学校安全吗？”</span>
+                    <span
+                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">“Dilworth
+                        的垃圾清理日是哪天？”</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="apps" class="app-status">
+            <div class="section-title">
+                <h2>立即下载</h2>
+                <p>为规模化设计的全功能原生应用。</p>
+            </div>
+            <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <div
+                    style="background: var(--card-bg); border: 1px solid var(--border); padding: 2rem; border-radius: 20px; width: 280px; display: flex; flex-direction: column; align-items: center;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;"></div>
+                    <h4 style="margin-bottom: 1rem;">iOS 版本</h4>
+                    <a href="https://apps.apple.com/app/id6757207914" target="_blank" class="btn-primary"
+                        style="font-size: 0.9rem; padding: 0.6rem 1.2rem;">从 App Store 下载</a>
+                </div>
+                <div
+                    style="background: var(--card-bg); border: 1px solid var(--border); padding: 2rem; border-radius: 20px; width: 280px; display: flex; flex-direction: column; align-items: center;">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">🤖</div>
+                    <h4 style="margin-bottom: 1rem;">Android 版本</h4>
+                    <a href="https://play.google.com/store/apps/details?id=com.quantumproperty.qcai" target="_blank"
+                        class="btn-primary" style="font-size: 0.9rem; padding: 0.6rem 1.2rem; margin-bottom: 15px;">从
+                        Google Play 获取</a>
+
+                    <a href="https://queencityai.net/static/QCAI.apk"
+                        style="color: var(--primary); text-decoration: none; font-size: 0.9rem; border: 1px solid var(--primary); padding: 0.5rem 1rem; border-radius: 100px; transition: background 0.3s;">
+                        ⬇️ 直接下载 APK
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="support" class="support-section">
+            <div class="section-title">
+                <h2>支持与安全</h2>
+                <p>QCAI 社区资源</p>
+            </div>
+
+            <div class="faq-grid">
+                <div>
+                    <div class="faq-item">
+                        <div class="faq-question">QCAI 如何使用 AI？</div>
+                        <div class="faq-answer">先进的 AI 模型充当我们的数据编排引擎，可在我们的城市新闻流、金融数据和语音交互中实现复杂的多模态推理。</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="faq-item">
+                        <div class="faq-question">是否需要 AI 设置？</div>
+                        <div class="faq-answer">不。QCAI 设计为零配置使用。所有 AI 功能均可使用我们的安全生产后端开箱即用。</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="faq-item">
+                        <div class="faq-question">市场安全</div>
+                        <div class="faq-answer">安全是我们的首要任务。我们为所有社区生成的内容（租赁、市场、活动）提供强大的举报和屏蔽功能（24 小时审核）。</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="faq-item">
+                        <div class="faq-question">技术援助</div>
+                        <div class="faq-answer">需要帮助？请通过 <a href="mailto:admin@queencityai.net"
+                                style="color: var(--primary)">admin@queencityai.net</a> 联系我们或访问我们的 <a
+                                href="/static/privacy_policy.html" style="color: var(--primary)">隐私与条款</a>。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="#" class="footer-logo">QCAI</a>
+        <p>&copy; 2026 Queen City AI. 版权所有。</p>
+        <div class="tech-stack">
+            开发技术 <span>AI 模型</span> • <span>FastAPI</span> • <span>SwiftUI</span> • <span>Kotlin</span>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            const menuToggle = document.getElementById('menuToggle');
+            navLinks.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+
+            // Prevent scrolling when menu is open
+            if (navLinks.classList.contains('active')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = 'auto';
+            }
+        }
+
+        function closeMenu() {
+            const navLinks = document.getElementById('navLinks');
+            const menuToggle = document.getElementById('menuToggle');
+            navLinks.classList.remove('active');
+            menuToggle.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Simple Intersection Observer for scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.animate').forEach(el => observer.observe(el));
+    </script>
+</body>
+
+</html>
