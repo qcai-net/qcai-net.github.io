@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QCAI | Personal AI & City Companion</title>
-    <meta name="description"
-        content="QCAI is Charlotte's premier smart city platform. Connect to your self-hosted OpenClaw Gateway for proactive, privacy-first ambient intelligence.">
+    <title>QCAI | 个人 AI 与城市伴侣</title>
+    <meta name="description" content="QCAI 是夏洛特首屈一指的智慧城市平台。连接到您的自托管 OpenClaw 网关，体验主动式、隐私优先的场景智能。">
 
     <!-- SEO & Favicon -->
     <link rel="icon" type="image/png" href="/static/qcaiIcon.png">
@@ -36,7 +35,7 @@
         }
 
         body {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
             margin: 0;
             padding: 0;
             background-color: var(--bg);
@@ -188,11 +187,11 @@
         }
 
         .hero h1 {
-            font-size: clamp(3rem, 8vw, 5rem);
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
             font-weight: 800;
             line-height: 1.1;
             margin: 0 0 1.5rem 0;
-            letter-spacing: -0.04em;
+            letter-spacing: -0.02em;
             max-width: 900px;
         }
 
@@ -429,15 +428,15 @@
         <a href="#" class="logo">QCAI</a>
         <div class="nav-right">
             <div class="nav-links" id="navLinks">
-                <a href="#features" onclick="closeMenu()">Features</a>
-                <a href="#apps" onclick="closeMenu()">Apps</a>
-                <a href="#support" onclick="closeMenu()">Support</a>
-                <a href="/static/privacy_policy.html">Privacy</a>
-                <button onclick="document.getElementById('apps').scrollIntoView()" class="btn-primary desktop-only">Get
-                    App</button>
+                <a href="#features" onclick="closeMenu()">功能特性</a>
+                <a href="#apps" onclick="closeMenu()">下载应用</a>
+                <a href="#support" onclick="closeMenu()">技术支持</a>
+                <a href="/static/privacy_policy.html">隐私政策</a>
+                <button onclick="document.getElementById('apps').scrollIntoView()"
+                    class="btn-primary desktop-only">获取应用</button>
             </div>
-            <button onclick="document.getElementById('apps').scrollIntoView()" class="btn-primary mobile-get-app">Get
-                App</button>
+            <button onclick="document.getElementById('apps').scrollIntoView()"
+                class="btn-primary mobile-get-app">获取应用</button>
             <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
@@ -450,69 +449,69 @@
 
         <header class="hero">
             <div class="badge animate">
-                <span>✨</span> The Ultimate Context OS
+                <span>✨</span> 终极 Context OS
             </div>
-            <h1 class="animate">Your Personal AI.<br>Your City Companion.</h1>
-            <p class="animate" style="animation-delay: 0.2s">Discover Charlotte like a local while supercharging your digital life. Connect QCAI to your self-hosted <strong>OpenClaw Gateway</strong> for proactive, privacy-first ambient intelligence.</p>
+            <h1 class="animate">您的专属 AI。<br>您的城市伴侣。</h1>
+            <p class="animate" style="animation-delay: 0.2s">像本地人一样探索夏洛特，同时为您的数字生活增注活力。将 QCAI 连接到您自托管的 <strong>OpenClaw 网关</strong>，体验主动式、隐私优先的场景智能。</p>
 
             <div class="animate" style="animation-delay: 0.4s">
-                <img src="/static/hero_ai.png" alt="QCAI Interface" class="hero-image">
+                <img src="/static/hero_ai.png" alt="QCAI 界面" class="hero-image">
             </div>
         </header>
 
         <section id="features">
             <div class="section-title">
-                <h2>The Intelligence Pillars</h2>
-                <p>A comprehensive ecosystem for local knowledge and sovereign AI automation.</p>
+                <h2>智能核心支柱</h2>
+                <p>涵盖本地知识与主权 AI 自动化的全方位生态系统。</p>
             </div>
             <div class="features-grid">
                 <!-- 1: Context OS -->
                 <div class="feature-card animate">
                     <span class="icon">🧠</span>
-                    <h3>Context OS</h3>
-                    <p>Ambient automation powered by your environment. QCAI securely triggers workflows on your <strong>OpenClaw Gateway</strong> using real-time location and calendar data.</p>
+                    <h3>场景引擎 (Context OS)</h3>
+                    <p>基于您的环境提供无感自动化服务。QCAI 会利用实时定位和日历数据，安全地在您的 <strong>OpenClaw 网关</strong> 上触发自定义工作流。</p>
                 </div>
                 <!-- 2: City Pulse -->
                 <div class="feature-card animate" style="animation-delay: 0.1s">
                     <span class="icon">🏙️</span>
-                    <h3>City Pulse Intelligence</h3>
-                    <p>Urban living, optimized. Get daily AI-curated briefings on Charlotte weather, top local stories, and neighborhood growth insights.</p>
+                    <h3>城市脉搏</h3>
+                    <p>为您优化都市生活。每天获取由 AI 精选的夏洛特天气、本地头条新闻以及社区发展深度解析。</p>
                 </div>
                 <!-- 3: Sovereign Assistant -->
                 <div class="feature-card animate" style="animation-delay: 0.2s">
                     <span class="icon">🔐</span>
-                    <h3>Sovereign Assistant</h3>
-                    <p>Ask anything via voice or text. Your queries bypass corporate servers and route directly to your personal OpenClaw Node for total privacy.</p>
+                    <h3>主权 AI 助手</h3>
+                    <p>支持语音和文字交互。您的请求将避开企业服务器，直接路由至您的个人 OpenClaw 节点，实现绝对隐私保护。</p>
                 </div>
                 <!-- 4: Photo Analysis -->
                 <div class="feature-card animate" style="animation-delay: 0.3s">
                     <span class="icon">📸</span>
-                    <h3>Visual Analysis</h3>
-                    <p>Snap a photo and let your AI Gateway assist with DIY home projects, translate text, or quickly identify local Charlotte landmarks.</p>
+                    <h3>视觉分析</h3>
+                    <p>拍张照片，让您的 AI 网关协助您进行 DIY 住宅项目、翻译外语，或快速识别夏洛特的本地地标。</p>
                 </div>
                 <!-- 5: Reality Check -->
                 <div class="feature-card animate" style="animation-delay: 0.4s">
                     <span class="icon">🏠</span>
-                    <h3>Reality Check & Rent</h3>
-                    <p>Live smarter. Get instant reports on <strong>School Zones</strong>, <strong>Neighborhood Safety</strong>, and <strong>Rent Fairness</strong> based on real-time market data.</p>
+                    <h3>现实检查与租金</h3>
+                    <p>更智能地生活。根据实时市场数据，获取有关<strong>学区规划</strong>、<strong>社区安全性</strong>以及<strong>租金公平度</strong>的即时分析报告。</p>
                 </div>
                 <!-- 6: The Scene -->
                 <div class="feature-card animate" style="animation-delay: 0.5s">
                     <span class="icon">🎸</span>
-                    <h3>The Scene</h3>
-                    <p>Discover real-time events and social vibes. Live tracking of tech meetups, music events, and community mixers across Charlotte.</p>
+                    <h3>场域动态</h3>
+                    <p>探索实时活动和社交氛围。跟踪夏洛特各地的技术聚会、音乐演出和社区联谊。</p>
                 </div>
                 <!-- 7: Marketplace -->
                 <div class="feature-card animate" style="animation-delay: 0.6s">
                     <span class="icon">🤝</span>
-                    <h3>Local Marketplace</h3>
-                    <p>Buy and sell items securely within your community. Browse housing rentals and post listings governed by robust safety guidelines.</p>
+                    <h3>本地集市</h3>
+                    <p>在社区内安全地买卖闲置物品。浏览租房信息发布，所有内容均受健全的准则系统安全守护。</p>
                 </div>
                 <!-- 8: Privacy First -->
                 <div class="feature-card animate" style="animation-delay: 0.7s">
                     <span class="icon">🛡️</span>
-                    <h3>Zero Corporate Tracking</h3>
-                    <p>Your data stays yours. No cross-app profiling and no third-party data harvesting. You completely own your AI interactions.</p>
+                    <h3>零企业追踪</h3>
+                    <p>您的数据只属于您。无跨应用画像追踪，无第三方数据挖掘。您拥有对 AI 交互的完全控制权与所有权。</p>
                 </div>
             </div>
         </section>
@@ -520,90 +519,88 @@
         <!-- New Visual Intel Section -->
         <section id="visual-intel" style="padding-bottom: 8rem;">
             <div class="section-title">
-                <h2>Visual Intelligence Cards</h2>
-                <p>AI insights delivered as actionable, data-rich visuals.</p>
+                <h2>可视化智能卡片</h2>
+                <p>以直观、丰富的数据形式呈现 AI 洞察。</p>
             </div>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
                 <div style="background: var(--glass); border: 1px solid var(--border); padding: 1.5rem; border-radius: 20px; transition: transform 0.3s;"
                     onmouseover="this.style.transform='translateY(-5px)'"
                     onmouseout="this.style.transform='translateY(0)'">
                     <span
-                        style="color: var(--primary); font-weight: 800; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px;">Hardware
-                        Intel</span>
-                    <h4 style="margin: 0.5rem 0; font-size: 1.25rem;">VRAM Optimizer</h4>
-                    <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.4;">Automatic sizing for local
-                        models. Know exactly which GPU builds can handle DeepSeek, Llama, and more.</p>
+                        style="color: var(--primary); font-weight: 800; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px;">硬件洞察</span>
+                    <h4 style="margin: 0.5rem 0; font-size: 1.25rem;">显存优化器 (VRAM)</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.4;">
+                        为本地模型自动适配。准确认知哪些 GPU 配置可以流畅运行 DeepSeek、Llama 等大模型。</p>
                 </div>
                 <div style="background: var(--glass); border: 1px solid var(--border); padding: 1.5rem; border-radius: 20px; transition: transform 0.3s;"
                     onmouseover="this.style.transform='translateY(-5px)'"
                     onmouseout="this.style.transform='translateY(0)'">
                     <span
-                        style="color: var(--accent); font-weight: 800; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px;">Reality
-                        Check</span>
-                    <h4 style="margin: 0.5rem 0; font-size: 1.25rem;">Neighborhood Stats</h4>
-                    <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.4;">Unbiased metrics on
-                        neighborhood safety, school rankings, and local investment trends.</p>
+                        style="color: var(--accent); font-weight: 800; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px;">现实检查
+                        (Reality Check)</span>
+                    <h4 style="margin: 0.5rem 0; font-size: 1.25rem;">社区统计</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.4;">关于社区安全、学校排名和当地投资趋势的公正指标。
+                    </p>
                 </div>
                 <div style="background: var(--glass); border: 1px solid var(--border); padding: 1.5rem; border-radius: 20px; transition: transform 0.3s;"
                     onmouseover="this.style.transform='translateY(-5px)'"
                     onmouseout="this.style.transform='translateY(0)'">
                     <span
-                        style="color: #9C27B0; font-weight: 800; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px;">The
-                        Scene</span>
-                    <h4 style="margin: 0.5rem 0; font-size: 1.25rem;">Pulse Discovery</h4>
-                    <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.4;">Live tracking of tech
-                        meetups, music events, and community mixers across Charlotte.</p>
+                        style="color: #9C27B0; font-weight: 800; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px;">场域动态
+                        (The Scene)</span>
+                    <h4 style="margin: 0.5rem 0; font-size: 1.25rem;">脉搏探索</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.4;">实时跟踪夏洛特的技术聚会、音乐活动和社区联谊。
+                    </p>
                 </div>
             </div>
 
             <!-- Sample Questions Grid -->
             <div style="margin-top: 5rem; text-align: center;">
-                <h3 style="margin-bottom: 2.5rem; font-size: 1.5rem; letter-spacing: -0.5px;">Try Asking QCAI...</h3>
+                <h3 style="margin-bottom: 2.5rem; font-size: 1.5rem; letter-spacing: -0.5px;">试试这样问 QCAI...</h3>
                 <div
                     style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; max-width: 900px; margin: 0 auto;">
                     <span
-                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">"What
-                        VRAM do I need for DeepSeek 32B?"</span>
+                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">“DeepSeek
+                        32B 需要多少显存？”</span>
                     <span
-                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">"How
-                        do I setup Llama 3 locally?"</span>
+                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">“如何并在本地部署
+                        Llama 3？”</span>
                     <span
-                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">"Find
-                        me a Budget AI build for under $1200."</span>
+                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">“找一个
+                        $1200 以下的入门级 AI 组装方案。”</span>
                     <span
-                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">"Is
-                        my neighborhood school safe?"</span>
+                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">“我附近的所属学校安全吗？”</span>
                     <span
-                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">"When
-                        is trash day in Dilworth?"</span>
+                        style="background: var(--glass); padding: 0.75rem 1.5rem; border-radius: 100px; font-size: 0.95rem; color: var(--text-muted); border: 1px solid var(--border);">“Dilworth
+                        的垃圾清理日是哪天？”</span>
                 </div>
             </div>
         </section>
 
         <section id="apps" class="app-status">
             <div class="section-title">
-                <h2>Download Now</h2>
-                <p>Full-featured native applications designed for scale.</p>
+                <h2>立即下载</h2>
+                <p>为规模化设计的全功能原生应用。</p>
             </div>
             <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
                 <div
                     style="background: var(--card-bg); border: 1px solid var(--border); padding: 2rem; border-radius: 20px; width: 280px; display: flex; flex-direction: column; align-items: center;">
                     <div style="font-size: 2rem; margin-bottom: 1rem;"></div>
-                    <h4 style="margin-bottom: 1rem;">iOS Version</h4>
+                    <h4 style="margin-bottom: 1rem;">iOS 版本</h4>
                     <a href="https://apps.apple.com/app/id6757207914" target="_blank" class="btn-primary"
-                        style="font-size: 0.9rem; padding: 0.6rem 1.2rem;">Download on App Store</a>
+                        style="font-size: 0.9rem; padding: 0.6rem 1.2rem;">从 App Store 下载</a>
                 </div>
                 <div
                     style="background: var(--card-bg); border: 1px solid var(--border); padding: 2rem; border-radius: 20px; width: 280px; display: flex; flex-direction: column; align-items: center;">
                     <div style="font-size: 2rem; margin-bottom: 1rem;">🤖</div>
-                    <h4 style="margin-bottom: 1rem;">Android Version</h4>
+                    <h4 style="margin-bottom: 1rem;">Android 版本</h4>
                     <a href="https://play.google.com/store/apps/details?id=com.quantumproperty.qcai" target="_blank"
-                        class="btn-primary" style="font-size: 0.9rem; padding: 0.6rem 1.2rem; margin-bottom: 15px;">Get
-                        it on Google Play</a>
+                        class="btn-primary" style="font-size: 0.9rem; padding: 0.6rem 1.2rem; margin-bottom: 15px;">从
+                        Google Play 获取</a>
 
                     <a href="https://queencityai.net/static/QCAI.apk"
                         style="color: var(--primary); text-decoration: none; font-size: 0.9rem; border: 1px solid var(--primary); padding: 0.5rem 1rem; border-radius: 100px; transition: background 0.3s;">
-                        ⬇️ Direct APK Download
+                        ⬇️ 直接下载 APK
                     </a>
                 </div>
             </div>
@@ -611,39 +608,35 @@
 
         <section id="support" class="support-section">
             <div class="section-title">
-                <h2>Support & Safety</h2>
-                <p>Resources for the QCAI Community</p>
+                <h2>支持与安全</h2>
+                <p>QCAI 社区资源</p>
             </div>
 
             <div class="faq-grid">
                 <div>
                     <div class="faq-item">
-                        <div class="faq-question">How does QCAI use AI?</div>
-                        <div class="faq-answer">Advanced AI models serve as our data orchestration engine, enabling
-                            complex multi-modal reasoning across our city-wide news feeds, financial data, and voice
-                            interactions.</div>
+                        <div class="faq-question">QCAI 如何使用 AI？</div>
+                        <div class="faq-answer">先进的 AI 模型充当我们的数据编排引擎，可在我们的城市新闻流、金融数据和语音交互中实现复杂的多模态推理。</div>
                     </div>
                 </div>
                 <div>
                     <div class="faq-item">
-                        <div class="faq-question">Is an AI setup required?</div>
-                        <div class="faq-answer">No. QCAI is designed for zero-configuration use. All AI features work
-                            out-of-the-box using our secure production backend.</div>
+                        <div class="faq-question">是否需要 AI 设置？</div>
+                        <div class="faq-answer">不。QCAI 设计为零配置使用。所有 AI 功能均可使用我们的安全生产后端开箱即用。</div>
                     </div>
                 </div>
                 <div>
                     <div class="faq-item">
-                        <div class="faq-question">Marketplace Safety</div>
-                        <div class="faq-answer">Safety is our priority. We provide robust report and block functionality
-                            (24h review) for all community-generated content (Rentals, Marketplace, Events).</div>
+                        <div class="faq-question">市场安全</div>
+                        <div class="faq-answer">安全是我们的首要任务。我们为所有社区生成的内容（租赁、市场、活动）提供强大的举报和屏蔽功能（24 小时审核）。</div>
                     </div>
                 </div>
                 <div>
                     <div class="faq-item">
-                        <div class="faq-question">Technical Assistance</div>
-                        <div class="faq-answer">Need help? Contact us at <a href="mailto:admin@queencityai.net"
-                                style="color: var(--primary)">admin@queencityai.net</a> or visit our <a
-                                href="/static/privacy_policy.html" style="color: var(--primary)">Privacy & Terms</a>.
+                        <div class="faq-question">技术援助</div>
+                        <div class="faq-answer">需要帮助？请通过 <a href="mailto:admin@queencityai.net"
+                                style="color: var(--primary)">admin@queencityai.net</a> 联系我们或访问我们的 <a
+                                href="/static/privacy_policy.html" style="color: var(--primary)">隐私与条款</a>。
                         </div>
                     </div>
                 </div>
@@ -654,9 +647,9 @@
 
     <footer>
         <a href="#" class="footer-logo">QCAI</a>
-        <p>&copy; 2026 Queen City AI. All rights reserved.</p>
+        <p>&copy; 2026 Queen City AI. 版权所有。</p>
         <div class="tech-stack">
-            Developed with <span>AI Models</span> • <span>FastAPI</span> • <span>SwiftUI</span> • <span>Kotlin</span>
+            开发技术 <span>AI 模型</span> • <span>FastAPI</span> • <span>SwiftUI</span> • <span>Kotlin</span>
         </div>
     </footer>
 
