@@ -10,154 +10,81 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 .container { max-width: 900px; margin: 40px auto; padding: 30px; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
 h1 { color: var(--primary); margin-bottom: 5px; }
 h2 { margin-top: 35px; border-bottom: 1px solid var(--border); padding-bottom: 6px; color: #334155; }
-h3 { color: var(--primary); font-size: 1.1em; margin-top: 20px; }
 .quick-start { background: #eff6ff; border: 1px solid #bfdbfe; padding: 20px; border-radius: 8px; margin: 20px 0; }
 .step { border-left: 4px solid var(--primary); padding-left: 20px; margin: 20px 0; }
 .discovery-box { border: 2px solid var(--accent); background: #fffbeb; padding: 20px; border-radius: 8px; margin: 25px 0; }
 pre { background: var(--code-bg); color: #d4d4d4; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 0.9em; }
 code { background: #f1f5f9; padding: 2px 5px; border-radius: 4px; font-family: monospace; }
-.badge { font-size: 0.7em; padding: 4px 8px; border-radius: 4px; margin-left: 10px; color: white; }
-.win { background: #00a4ef; } .unix { background: #000; }
 .download-box { background: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 8px; margin: 20px 0; }
 .download-link { display: inline-block; margin: 5px 10px 5px 0; padding: 8px 15px; background: var(--primary); color: white; text-decoration: none; border-radius: 6px; font-size: 0.9em; }
-.test-section { background: #faf5ff; border: 1px solid #e9d5ff; padding: 20px; border-radius: 8px; margin-top: 30px; }
-.warning { background: #fff7ed; border: 1px solid #fed7aa; padding: 15px; border-radius: 8px; color: #9a3412; }
 </style>
 </head>
 <body>
 
 <div class="container">
     <h1>Momentum Gateway Setup Guide</h1>
-    <p>Deploy a high-agency "Chief of Staff" on your OpenClaw Gateway to optimize your time and mental state.</p>
+    <p>The <strong>QCAI App</strong> (iOS/Android) sends sensor data. The <strong>Gateway</strong> uses logic to decide, and Tools to discover solutions.</p>
 
     <div class="quick-start">
-        <h2>🚀 Quick Start (2 Minutes)</h2>
+        <h2>🚀 Deployment Steps</h2>
         <ol>
-            <li>Sync files to <code>~/.openclaw/workspace/</code> and <code>~/.openclaw/skills/momentum/</code>.</li>
-            <li>Configure <strong>Discovery (Section 4)</strong> using the <code>_openclaw-gw._tcp</code> type.</li>
-            <li>Run the <strong>Acid Test (Section 5)</strong> and expect <code>ALIGN</code>.</li>
+            <li>Sync <strong>Knowledge & Logic</strong> files (Section 1).</li>
+            <li>Connect <strong>Google Maps & Perplexity</strong> (Section 2) so the Gateway can see and think.</li>
+            <li>Activate the <strong>Momentum Agent</strong> (Section 3).</li>
         </ol>
     </div>
 
-    <h2>1. Correct Folder Structure</h2>
-    <pre>
-~/.openclaw/
-├── workspace/          &lt;-- Place .md Files Here
-│   ├── SOUL.md
-│   ├── HEARTBEAT.md
-│   └── TOOLS.md
-└── skills/
-    └── momentum/       &lt;-- Place Logic Here
-        └── logic.py</pre>
-
-    <h2>2. Download Required Files</h2>
+    <h2>1. Download Required Files</h2>
     <div class="download-box">
-        <p>Place these files into your <code>~/.openclaw/workspace/</code> folder:</p>
+        <p><strong>A. Knowledge</strong> (Save to <code>~/.openclaw/workspace/</code>):</p>
         <a href="https://qcai-net.github.io/openclaw/SOUL.md" class="download-link">SOUL.md</a>
         <a href="https://qcai-net.github.io/openclaw/HEARTBEAT.md" class="download-link">HEARTBEAT.md</a>
-        <a href="https://qcai-net.github.io/openclaw/TOOLS.md" class="download-link">TOOLS.md (Win)</a>
-        <a href="https://qcai-net.github.io/openclaw/unixTOOLS.md" class="download-link">TOOLS.md (Mac/Linux)</a>
-        <p><small>Note: Mac/Linux users must rename <code>unixTOOLS.md</code> to <code>TOOLS.md</code>.</small></p>
-    </div>
+        <a href="https://qcai-net.github.io/openclaw/TOOLS.md" class="download-link">TOOLS.md</a>
 
-    <h2>3. The Engine (logic.py)</h2>
-    <div class="step">
-        <p>Create <code>logic.py</code> in <code>~/.openclaw/skills/momentum/</code> and paste this code:</p>
-        <pre>
-import sys, json, datetime
-
-def calculate():
-    try:
-        data = json.load(sys.stdin)
-        now = datetime.datetime.fromisoformat(data["metadata"]["current_timestamp"].replace("Z",""))
-        events = data.get("temporal_intelligence", {}).get("upcoming_events", [])
-        gap_min, is_remote, is_low_effort = 999, True, False
-        if events:
-            e = events[0]
-            start = datetime.datetime.fromisoformat(e["start_date"].replace("Z",""))
-            gap_min = (start - now).total_seconds() / 60
-            loc, title = e.get("location", "").lower(), e.get("title", "").lower()
-            is_remote = any(k in loc for k in ["http", "zoom", "teams"])
-            is_low_effort = any(k in title for k in ["webinar", "lecture", "sync", "listen"])
-        
-        state = data.get("user_state", {})
-        stress, distracted = state.get("stress_score", 0.5), state.get("attention", {}).get("mode") == "DISTRACTED"
-        battery = state.get("device", {}).get("battery_level", 1.0)
-
-        if gap_min < 20: return out("PROTECT", gap_min)
-        if (distracted and stress > 0.5) or stress > 0.75: return out("ALIGN", gap_min)
-
-        conf = 0.0
-        if gap_min > 60: conf += 0.4
-        if is_remote: conf += 0.2
-        if is_low_effort: conf += 0.1
-        if stress < 0.5: conf += 0.2
-        if battery > 0.3: conf += 0.1
-
-        return out("ENHANCE" if conf >= 0.8 else "SILENCE", gap_min)
-    except: return out("SILENCE", 0)
-
-def out(d, g): print(json.dumps({"decision": d, "gap": g}))
-
-if __name__ == "__main__": calculate()</pre>
+        <p><strong>B. Engine</strong> (Save to <code>~/.openclaw/skills/momentum/</code>):</p>
+        <a href="https://qcai-net.github.io/openclaw/logic.py" class="download-link" style="background: #10b981;">logic.py</a>
     </div>
 
     <div class="discovery-box">
-        <h2>4. Mandatory: Setup Discovery (iOS App)</h2>
-        <p>The iOS app requires mDNS (Bonjour) with a specific service type to find your gateway.</p>
+        <h2>2. Connect Discovery Tools (Maps + Perplexity)</h2>
+        <p>The Gateway needs <strong>Google Maps</strong> for physical locations and <strong>Perplexity</strong> for high-agency reasoning. Run these on your Gateway:</p>
         
-        <h3>A. Enable Network Discovery</h3>
-        <p>Run these commands in your terminal to update your <code>openclaw.json</code>:</p>
         <pre>
+# Enable Google Maps (For physical discovery/GPS)
+openclaw config set tools.maps.provider "google"
+openclaw config set tools.maps.api_key "YOUR_GOOGLE_MAPS_KEY"
+
+# Enable Perplexity (For reasoning and smart recommendations)
+openclaw config set tools.search.provider "perplexity"
+openclaw config set tools.search.api_key "YOUR_PERPLEXITY_KEY"
+
+# Ensure Gateway allows data from the QCAI phone app
 openclaw config set gateway.mode remote
-openclaw config set gateway.discovery.enabled true
-openclaw config set gateway.discovery.type "_openclaw-gw._tcp"
-openclaw config set gateway.discovery.name "Momentum-Gateway"
 openclaw gateway restart</pre>
-
-        <h3>B. Network Requirements</h3>
-        <ul>
-            <li><strong>Port:</strong> Ensure <strong>UDP Port 5353</strong> is open in your firewall.</li>
-            <li><strong>Visibility:</strong> iPhone must be on the same local Wi-Fi network.</li>
-        </ul>
-
-        <h3>C. Pairing</h3>
-        <p>Once "Momentum-Gateway" appears in the iOS app, tap it and approve the link in your terminal:</p>
-        <pre>openclaw nodes approve --all</pre>
     </div>
 
-    <div class="test-section">
-        <h2>5. The Acid Test</h2>
-        <p>Save this as <code>test_state.json</code> and run the command for your OS:</p>
-        <pre>
-{
-  "metadata": { "current_timestamp": "2026-03-26T14:30:00Z" },
-  "temporal_intelligence": {
-    "upcoming_events": [{ "title": "Webinar", "start_date": "2026-03-26T16:00:00Z", "location": "http://zoom.us" }]
-  },
-  "user_state": { "stress_score": 0.85, "attention": { "mode": "DISTRACTED" }, "device": { "battery_level": 0.9 } }
-}</pre>
-
-        <h3><span class="badge win">Windows</span></h3>
-        <pre>Get-Content test_state.json | python logic.py</pre>
-
-        <h3><span class="badge unix">macOS / Linux</span></h3>
-        <pre>cat test_state.json | python3 logic.py</pre>
-
-        <div class="warning">
-            <strong>Expected Outcomes:</strong><br>
-            • High stress → <code>ALIGN</code><br>
-            • Tight schedule (&lt; 20m) → <code>PROTECT</code><br>
-            • Everything else → <code>SILENCE</code>
-        </div>
-    </div>
-
-    <h2>6. Example Output</h2>
+    <h2>3. Activate the Momentum Agent</h2>
     <div class="step">
-        <p>When the system triggers an <strong>ENHANCE</strong> decision, your Gateway will provide high-agency recommendations:</p>
-        <pre>"You've got a clean hour before your webinar. Better move is 7th Street Market—3 min walk, quieter, and perfect for a low-effort call."</pre>
+        <p>This command registers your logic engine and knowledge workspace with the Gateway service:</p>
+        <pre>
+openclaw config set agents.momentum.enabled true
+openclaw config set agents.momentum.logic "./skills/momentum/logic.py"
+openclaw config set agents.momentum.workspace "./workspace/"
+openclaw gateway restart</pre>
     </div>
 
+    <h2>4. How it Works (The Full Loop)</h2>
+    <ol>
+        <li><strong>QCAI App:</strong> Reports high stress and location data.</li>
+        <li><strong><code>logic.py</code>:</strong> Triggers an <code>ALIGN</code> state.</li>
+        <li><strong>Google Maps:</strong> Gateway finds 3 quiet spots within a 5-minute walk.</li>
+        <li><strong>Perplexity:</strong> Gateway evaluates which of those 3 spots matches your <code>SOUL.md</code> preferences best.</li>
+        <li><strong>Insight:</strong> Phone displays: <em>"Chief of Staff: You're red-lining. Head to the 4th floor balcony—Google says it's empty, and it's 1 min away."</em></li>
+    </ol>
+
+    <h2>5. Verify Logic Engine</h2>
+    <p>Run a local test to ensure <code>logic.py</code> is processing sensor data correctly:</p>
+    <pre>cat test_state.json | python3 logic.py</pre>
 </div>
 
 </body>
