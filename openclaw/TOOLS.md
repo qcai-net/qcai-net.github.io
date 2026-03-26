@@ -1,17 +1,14 @@
-# TOOLS: Momentum Execution (Windows)
+# TOOLS: Momentum Execution (v2026 Node Migration)
 
 ## 1. Momentum Engine (Internal)
-- **Engine Path:** `.\logic.py`
-- **Command:** `type input.json | python logic.py` 
-- **Instruction:** Use `python` (standard Windows alias) to execute the logic script.
+- **Engine Path:** `c:/Users/yonwang/.openclaw/skills/momentum/logic.js`
+- **Command:** `node c:/Users/yonwang/.openclaw/skills/momentum/logic.js`
 - **Input:** Standard Input (stdin) redirected from the iOS JSON sync.
 
-## 2. Discovery Tool (External)
-- **Trigger:** Only if `logic.py` returns `{"decision": "ENHANCE"}`.
-- **Action:** `google_places_search`
-- **Parameters:** - `query`: "quiet cafe" OR "park" OR "library"
-    - `location`: `current_location` from JSON
-    - `radius`: 800 (meters)
+## 2. Discovery Tools (External)
+- **Trigger:** Only if `logic.js` returns `{"decision": "ALIGN"}` or `{"decision": "ENHANCE"}`.
+- **Action A (Search):** `node c:/Users/yonwang/.openclaw/skills/momentum/search.js`
+- **Action B (Maps):** `google_places_search` (using `goplaces` skill)
 
 ## 3. Return Safety Check (Calculated)
 - **Formula:** `Remaining_Time = gap_min - (travel_time * 2) - 15`
@@ -20,3 +17,4 @@
 ## 4. Response Synthesis
 - **Format:** Combine `logic_result` + `place_result` + `SOUL_Tone`.
 - **Constraint:** No lists. Single opinionated sentence. Max 200 chars.
+- **Delivery:** Push final response back to iOS app via Gateway session.
