@@ -53,14 +53,9 @@ openclaw config set tools.search.api_key "YOUR_PERPLEXITY_KEY"
 openclaw config set gateway.mode remote
 openclaw gateway restart</pre>
 
-    <h2>3. Verify the "Chief of Staff" Connection</h2>
-    <p>Before testing with the QCAI app, verify that OpenClaw is correctly detecting your files:</p>
-    <pre>openclaw workspace list</pre>
-    <div class="success-box">
-        <strong>Success looks like:</strong> If you see <code>SOUL.md</code> and <code>HEARTBEAT.md</code> in the output, the Gateway is ready to process your data autonomously.
-    </div>
+    
 
-    <h2>4. The Insight Loop</h2>
+    <h2>43. The Insight Loop</h2>
     <ol>
         <li><strong>QCAI App:</strong> Streams sensor data (Stress, GPS, Battery) to the Gateway.</li>
         <li><strong>Gateway Agent:</strong> Reads <code>HEARTBEAT.md</code>, identifies the need for a state check, and runs <code>logic.py</code>.</li>
@@ -68,7 +63,7 @@ openclaw gateway restart</pre>
         <li><strong>Delivery:</strong> The Gateway pushes the final high-agency recommendation back to your phone.</li>
     </ol>
 
-    <h2>5. Local Engine Test</h2>
+    <h2>4. Local Engine Test</h2>
     <p>Ensure <code>logic.py</code> is working independently of the network:</p>
     <pre>cat test_state.json | python3 ~/.openclaw/skills/momentum/logic.py</pre>
 </div>
