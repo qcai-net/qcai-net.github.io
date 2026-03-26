@@ -61,9 +61,9 @@
     <h3>A. Knowledge Base (Save to <code>~/.openclaw/workspace/</code>)</h3>
     <p>Ensure these files are present in your workspace. They define the proactivity triggers and tool access rules.</p>
     <ul>
-        <li><strong>HEARTBEAT.md</strong>: Defines the logic gating and execution interval.</li>
-        <li><strong>SOUL.md</strong>: Provides the persona and high-level behavioral constraints.</li>
-        <li><strong>TOOLS.md</strong>: Lists the available discovery tools for the agent.</li>
+        <li><a href="https://qcai-net.github.io/openclaw/HEARTBEAT.md">HEARTBEAT.md</a>: Defines the logic gating and execution interval.</li>
+        <li><a href="https://qcai-net.github.io/openclaw/SOUL.md">SOUL.md</a>: Provides the persona and high-level behavioral constraints.</li>
+        <li><a href="https://qcai-net.github.io/openclaw/TOOLS.md">TOOLS.md</a> (Windows) or <a href="https://qcai-net.github.io/openclaw/unixTOOLS.md">unixTOOLS.md</a> (Linux/MacOS): Discovery tools configuration.</li>
     </ul>
 
     <pre><code># Sample HEARTBEAT.md Execution Line
@@ -75,6 +75,7 @@
 
     <h3>B. Decision Engine (Save to <code>~/.openclaw/skills/momentum/</code>)</h3>
     <p>The decision engine processes incoming JSON from the app and returns an action (PROTECT, ALIGN, ENHANCE, or SILENCE).</p>
+    <p>Download: <a href="https://qcai-net.github.io/openclaw/logic.py">logic.py (Original Python)</a></p>
     
     <div class="note">
         <strong>Node.js Preferred:</strong> We recommend using the Node.js version (<code>logic.js</code>) as it leverages the existing OpenClaw environment without requiring a Python installation.
