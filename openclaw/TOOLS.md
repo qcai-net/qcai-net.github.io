@@ -1,23 +1,22 @@
-# TOOLS.md - Feature Logic & Priority v9.2
+# TOOLS: Execution & Enrichment
 
-## 1. Priority Arbitration & Passive Hint Ranking
-- **Primary Action:** ONE high-priority action button.
-- **Passive Hint Gating:** Append ONE situational hint only if it adds awareness without redundancy. 
-- **Hint Ranking:** 1. Battery (<15%) | 2. Time Disruption | 3. Environmental (Weather/Traffic).
-- **Suppression:** No hints during `DEEP_WORK` or `SILENT_MODE`.
+## 1. Momentum Engine (Internal)
+- **Tool:** `python3 logic.py`
+- **Input:** Full `user_state` + `temporal_intelligence` JSON.
+- **Output:** `{decision: "PROTECT/ALIGN/ENHANCE/SILENCE", gap: min}`.
 
-## 2. Transition Anticipation (Robust Logic)
-- **Predictive Layer:** Pre-brief 10-15m before a state change.
-- **Cancellation Rule:** Suppress/Cancel brief if:
-  - User is already in motion (`activity` matches transition).
-  - Meeting start time shifts.
-  - Confidence < 0.7.
+## 2. Discovery Tool (External)
+- **Trigger:** Only if `decision == ENHANCE`.
+- **Action:** `google_places_search`
+- **Params:** - `query`: "quiet cafe" OR "park" OR "library" (based on weather).
+    - `radius`: 0.5 miles from `current_location`.
+- **Filtering:** Pick the TOP result with a "Quiet" or "Wi-Fi" tag.
 
-## 3. Tiered WOW Engine
-- **Mini-WOW (P > 0.75):** Lightweight 2-step optimization.
-- **Full WOW (P > 0.90):** Full afternoon restructuring proposal.
-- **Rule:** Always present as a proposal. Respect the user's "Autonomy Preference" in the phrasing.
+## 3. Return Safety Check (Calculated)
+- **Formula:** `Usable_Time = gap_min - (travel_time * 2) - 15`.
+- **Constraint:** If `Usable_Time < 20`, downgrade to `SILENCE`. 
 
-## 4. Long-Term Memory (Pattern Confidence)
-- **Promotion Criteria:** Only promote a routine (e.g., "Gym at 17:30") if consistency > 70% over 10+ occurrences.
-- **Decay:** Patterns not observed for 7 days are demoted to avoid "Stale Intelligence."
+## 4. Response Synthesis
+- Combine `decision` + `Discovery_Result` + `SOUL_Tone`.
+- **Example ENHANCE:** "You've got a clean window before that webinar. 7th Street Market is a 3-min walk—better spot to reset than the lobby."
+- **Example ALIGN:** "You're redlining. Skip the next task and take 5 minutes to reset before your 4 PM."
