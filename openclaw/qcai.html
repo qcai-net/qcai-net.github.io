@@ -1,72 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Momentum Gateway | Deployment Guide</title>
-<style>
-:root { --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; --code-bg: #1e1e1e; --border: #e2e8f0; --accent: #f59e0b; }
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); margin: 0; }
-.container { max-width: 900px; margin: 40px auto; padding: 30px; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-h1 { color: var(--primary); margin-bottom: 5px; }
-h2 { margin-top: 35px; border-bottom: 1px solid var(--border); padding-bottom: 6px; color: #334155; }
-.quick-start { background: #eff6ff; border: 1px solid #bfdbfe; padding: 20px; border-radius: 8px; margin: 20px 0; }
-.download-box { background: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 8px; margin: 20px 0; }
-.download-link { display: inline-block; margin: 5px 10px 5px 0; padding: 8px 15px; background: var(--primary); color: white; text-decoration: none; border-radius: 6px; font-size: 0.9em; }
-pre { background: var(--code-bg); color: #d4d4d4; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 0.9em; }
-.success-box { border: 1px solid #bbf7d0; background: #f0fdf4; padding: 15px; border-radius: 8px; font-size: 0.9em; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCAI Momentum Gateway | v2026 Deployment Guide</title>
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --text: #e0e0e0;
+            --accent: #58a6ff;
+            --code-bg: #161b22;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1, h2, h3 { color: var(--accent); }
+        code {
+            background: var(--code-bg);
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        }
+        pre {
+            background: var(--code-bg);
+            padding: 16px;
+            border-radius: 8px;
+            overflow-x: auto;
+            border: 1px solid #30363d;
+        }
+        .note {
+            background: rgba(88, 166, 255, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 10px 20px;
+            margin: 20px 0;
+        }
+        .warning {
+            background: rgba(255, 126, 7, 0.1);
+            border-left: 4px solid #ff7e07;
+            padding: 10px 20px;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
+    <h1>Momentum Gateway Setup Guide (v2026.3+)</h1>
+    <p>The QCAI App (iOS/Android) transforms your mobile device into a high-fidelity sensor hub. This guide ensures your OpenClaw Gateway correctly processes sensor data via the <strong>Insight Loop</strong>.</p>
 
-<div class="container">
-    <h1>Momentum Gateway Setup Guide</h1>
-    <p>The <strong>QCAI App</strong> (iOS/Android) acts as your sensor hub. The Gateway uses <code>HEARTBEAT.md</code> instructions to monitor your state and trigger <code>logic.py</code>.</p>
-
-    <div class="quick-start">
-        <h2>🚀 Deployment Steps</h2>
-        <ol>
-            <li>Download <strong>Knowledge & Logic</strong> files (Section 1).</li>
-            <li>Connect <strong>Google Maps & Perplexity</strong> (Section 2).</li>
-            <li><strong>Verify Connection</strong> (Section 3) to ensure the Gateway sees your files.</li>
-        </ol>
+    <div class="note">
+        <strong>Updated for v2026.3.24:</strong> This guide includes the new <code>skills.entries</code> configuration namespace and Node.js logic migration instructions.
     </div>
 
-    <h2>1. Download Required Files</h2>
-    <div class="download-box">
-        <p><strong>A. Knowledge Base</strong> (Save to <code>~/.openclaw/workspace/</code>):</p>
-        <a href="https://qcai-net.github.io/openclaw/SOUL.md" class="download-link">SOUL.md</a>
-        <a href="https://qcai-net.github.io/openclaw/HEARTBEAT.md" class="download-link">HEARTBEAT.md</a>
-        <a href="https://qcai-net.github.io/openclaw/TOOLS.md" class="download-link">TOOLS.md</a>
-
-        <p><strong>B. Decision Engine</strong> (Save to <code>~/.openclaw/skills/momentum/</code>):</p>
-        <a href="https://qcai-net.github.io/openclaw/logic.py" class="download-link" style="background: #10b981;">logic.py</a>
-    </div>
-
-    <h2>2. Connect API Discovery Tools</h2>
-    <p>Run these on your Gateway to enable Google Maps and Perplexity reasoning:</p>
-    <pre>
-openclaw config set tools.maps.provider "google"
-openclaw config set tools.maps.api_key "YOUR_GOOGLE_MAPS_KEY"
-openclaw config set tools.search.provider "perplexity"
-openclaw config set tools.search.api_key "YOUR_PERPLEXITY_KEY"
-openclaw config set gateway.mode remote
-openclaw gateway restart</pre>
-
+    <h2>1. Deploy Knowledge & Logic</h2>
     
+    <h3>A. Knowledge Base (Save to <code>~/.openclaw/workspace/</code>)</h3>
+    <p>Ensure these files are present in your workspace. They define the proactivity triggers and tool access rules.</p>
+    <ul>
+        <li><strong>HEARTBEAT.md</strong>: Defines the logic gating and execution interval.</li>
+        <li><strong>SOUL.md</strong>: Provides the persona and high-level behavioral constraints.</li>
+        <li><strong>TOOLS.md</strong>: Lists the available discovery tools for the agent.</li>
+    </ul>
 
-    <h2>43. The Insight Loop</h2>
-    <ol>
-        <li><strong>QCAI App:</strong> Streams sensor data (Stress, GPS, Battery) to the Gateway.</li>
-        <li><strong>Gateway Agent:</strong> Reads <code>HEARTBEAT.md</code>, identifies the need for a state check, and runs <code>logic.py</code>.</li>
-        <li><strong>Discovery:</strong> If <code>logic.py</code> returns <code>ALIGN</code>, the Gateway uses <strong>Google Maps</strong> to find a quiet location.</li>
-        <li><strong>Delivery:</strong> The Gateway pushes the final high-agency recommendation back to your phone.</li>
-    </ol>
+    <pre><code># Sample HEARTBEAT.md Execution Line
+# If using logic.js (Recommended):
+15. Execute `node logic.js`.
 
-    <h2>4. Local Engine Test</h2>
-    <p>Ensure <code>logic.py</code> is working independently of the network:</p>
-    <pre>cat test_state.json | python3 ~/.openclaw/skills/momentum/logic.py</pre>
-</div>
+# If using logic.py:
+15. Execute `python3 logic.py`.</code></pre>
 
+    <h3>B. Decision Engine (Save to <code>~/.openclaw/skills/momentum/</code>)</h3>
+    <p>The decision engine processes incoming JSON from the app and returns an action (PROTECT, ALIGN, ENHANCE, or SILENCE).</p>
+    
+    <div class="note">
+        <strong>Node.js Preferred:</strong> We recommend using the Node.js version (<code>logic.js</code>) as it leverages the existing OpenClaw environment without requiring a Python installation.
+    </div>
+
+    <pre><code>// Save as ~/.openclaw/skills/momentum/logic.js
+const fs = require('fs');
+function calculate() {
+    const data = JSON.parse(fs.readFileSync(0, 'utf-8'));
+    // Simplified logic: High stress triggers ALIGN
+    const stress = data.user_state?.stress_score || 0;
+    const decision = stress > 0.75 ? "ALIGN" : "SILENCE";
+    console.log(JSON.stringify({ decision, gap: 999 }));
+}
+calculate();</code></pre>
+
+    <h2>2. Configure API Discovery Tools</h2>
+    <p>Run these commands to enable Google Maps and Perplexity reasoning for the "Discovery" phase.</p>
+
+    <pre><code># Set Google Maps API Key
+openclaw config set skills.entries.goplaces.apiKey "YOUR_KEY"
+
+# Set Perplexity Search API Key
+openclaw config set skills.entries.perplexity.apiKey "YOUR_KEY"
+
+# Gateway Mode
+# Use "remote" for public access, or "local" if using Tailscale/VPN.
+openclaw config set gateway.mode "local"
+
+openclaw gateway restart</code></pre>
+
+    <h2>3. Security & Connectivity</h2>
+    <div class="warning">
+        <strong>Tailscale/VPN Users:</strong> You can keep <code>gateway.mode local</code>. Ensure your OpenClaw config includes <code>"allowTailscale": true</code> and that the Tailscale IP range (<code>100.0.0.0/8</code>) is in your <code>trustedProxies</code>.
+    </div>
+
+    <h2>4. End-to-End Verification</h2>
+    <p>Check the Gateway logs to ensure the connection is active and data is flowing.</p>
+    <pre><code>openclaw logs --follow | grep "heartbeat"</code></pre>
+    <p>Look for the <code>heartbeat: started</code> log and subsequent sessions from <code>userAgent: OpenClaw-Mobile-AI</code>.</p>
+
+    <p style="margin-top: 50px; font-size: 0.8em; opacity: 0.6;">&copy; 2026 Momentum AI Gateway System.</p>
 </body>
 </html>
+
