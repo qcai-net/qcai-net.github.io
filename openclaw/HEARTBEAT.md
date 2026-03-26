@@ -12,6 +12,6 @@
 
 ## 3. Logic Pipeline
 1. Receive iOS JSON.
-2. Execute `node c:/Users/yonwang/.openclaw/skills/momentum/logic.js`.
+2. Execute `node ~/.openclaw/skills/momentum/logic.js`. 
 3. If `decision == SILENCE` or `within_cooldown`: Stop.
-4. Else: Proceed to TOOLS.md for enrichment
+4. Else: Proceed to TOOLS.md for enrichment.

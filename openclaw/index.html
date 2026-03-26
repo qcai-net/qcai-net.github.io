@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCAI Momentum Gateway | Deployment Hub</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --surface: #161b22;
+            --text: #c9d1d9;
+            --accent: #58a6ff;
+            --border: #30363d;
+            --code-bg: #0a0c10;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 40px;
+        }
+        h1, h2, h3 { color: var(--accent); border-bottom: 1px solid var(--border); padding-bottom: 10px; }
+        .hero { text-align: center; padding: 40px 0; background: linear-gradient(180deg, #161b22 0%, #0d1117 100%); }
+        .hero h1 { border: none; font-size: 2.5em; margin-bottom: 10px; }
+        .hero p { opacity: 0.8; font-size: 1.1em; }
+        
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 20px 0;
+        }
+        .download-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .download-btn {
+            display: block;
+            text-align: center;
+            background: var(--accent);
+            color: #000;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+        .download-btn:hover { opacity: 0.9; }
+        
+        pre {
+            background: var(--code-bg);
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            font-size: 0.9em;
+        }
+        code { color: #ff7b72; font-family: "SFMono-Regular", Consolas, monospace; }
+        
+        .badge {
+            background: rgba(88, 166, 255, 0.1);
+            color: var(--accent);
+            padding: 2px 8px;
+            border-radius: 99px;
+            font-size: 0.8em;
+            margin-left: 8px;
+        }
+        .warning-box {
+            border-left: 4px solid #d29922;
+            background: rgba(210, 153, 34, 0.1);
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <h1>QCAI Momentum</h1>
+            <p>Deploy your high-agency AI Chief of Staff in minutes.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <section>
+            <h2>1. Download Workspace Artifacts</h2>
+            <p>Save these files to your <code>~/.openclaw/workspace/</code> directory. They define your agent's soul and execution pipeline.</p>
+            
+            <div class="download-grid">
+                <a href="SOUL.md" class="download-btn">Download SOUL.md</a>
+                <a href="HEARTBEAT.md" class="download-btn">Download HEARTBEAT.md</a>
+                <a href="TOOLS.md" class="download-btn">Download TOOLS.md (Win)</a>
+                <a href="unixTOOLS.md" class="download-btn">Download TOOLS.md (Unix)</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>2. Deploy Decision Engine</h2>
+            <p>Save your choice of logic engine to <code>~/.openclaw/skills/momentum/</code>.</p>
+            
+            <div class="card">
+                <h3>Node.js Engine <span class="badge">Recommended</span></h3>
+                <p>High compatibility, no external dependencies required (works with standard OpenClaw install).</p>
+                <div class="download-grid">
+                    <a href="logic.js" class="download-btn">Download logic.js</a>
+                    <a href="search.js" class="download-btn">Download search.js</a>
+                </div>
+            </div>
+
+            <div class="card" style="opacity: 0.7;">
+                <h3>Python Engine <span class="badge">Legacy</span></h3>
+                <p>Requires Python 3.8+ and Pip installed in your system PATH.</p>
+                <a href="logic.py" class="download-btn" style="background: #30363d; color: var(--text);">Download logic.py</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Configure Discovery Tools</h2>
+            <p>Run these commands in your terminal to enable Google Maps and Perplexity reasoning.</p>
+            <pre><code># Set Discovery API Keys (v2026.3.24+)
+openclaw config set skills.entries.goplaces.apiKey "YOUR_GOOGLE_KEY"
+openclaw config set skills.entries.perplexity.apiKey "YOUR_PERPLEXITY_KEY"
+
+# Optional: Set Network Mode
+# "local" is recommended for Tailscale/VPN users.
+openclaw config set gateway.mode "local"
+
+# Apply Changes
+openclaw gateway restart</code></pre>
+
+            <div class="warning-box">
+                <strong>Tailscale Users:</strong> Ensure <code>"allowTailscale": true</code> is set in your <code>openclaw.json</code> and the Tailscale IP range (<code>100.0.0.0/8</code>) is added to <code>trustedProxies</code>.
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Verify Insight Loop</h2>
+            <p>Monitor your logs to ensure the QCAI App is successfully submitting sensor data:</p>
+            <pre><code>openclaw logs --follow | grep "heartbeat"</code></pre>
+            <p>You should see <code>heartbeat: started</code> and successful session completions from <code>OpenClaw-Mobile-AI</code>.</p>
+        </section>
+
+        <footer style="margin-top: 60px; padding: 20px 0; border-top: 1px solid var(--border); text-align: center; opacity: 0.6; font-size: 0.9em;">
+            &copy; 2026 QCAI Network & Momentum Gateway. Open Source.
+        </footer>
+    </div>
+</body>
+</html>
