@@ -4,180 +4,86 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Momentum Gateway | Deployment Guide</title>
-
 <style>
-:root {
-    --primary: #2563eb;
-    --bg: #f8fafc;
-    --text: #1e293b;
-    --code-bg: #1e1e1e;
-    --border: #e2e8f0;
-}
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    line-height: 1.6;
-    color: var(--text);
-    background: var(--bg);
-    margin: 0;
-}
-
-.container {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 30px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-h1 { color: var(--primary); margin-bottom: 10px; }
-h2 { margin-top: 35px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
-
-.step {
-    border-left: 4px solid var(--primary);
-    padding-left: 20px;
-    margin: 20px 0;
-}
-
-pre {
-    background: var(--code-bg);
-    color: #d4d4d4;
-    padding: 15px;
-    border-radius: 8px;
-    overflow-x: auto;
-    font-size: 0.9em;
-}
-
-code {
-    background: #f1f5f9;
-    padding: 2px 5px;
-    border-radius: 4px;
-}
-
-.badge {
-    font-size: 0.7em;
-    padding: 4px 8px;
-    border-radius: 4px;
-    margin-left: 10px;
-    color: white;
-}
-
-.win { background: #00a4ef; }
-.unix { background: #000; }
-
-.download-box {
-    background: #f0fdf4;
-    border: 1px solid #bbf7d0;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-}
-
-.download-link {
-    display: inline-block;
-    margin: 5px 10px 5px 0;
-    padding: 8px 15px;
-    background: var(--primary);
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-}
-
-.warning {
-    background: #fff7ed;
-    border: 1px solid #fed7aa;
-    padding: 15px;
-    border-radius: 8px;
-    color: #9a3412;
-    margin-top: 20px;
-}
-
-.test-section {
-    background: #faf5ff;
-    border: 1px solid #e9d5ff;
-    padding: 20px;
-    border-radius: 8px;
-    margin-top: 30px;
-}
+:root { --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; --code-bg: #1e1e1e; --border: #e2e8f0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); margin: 0; }
+.container { max-width: 900px; margin: 40px auto; padding: 30px; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+h1 { color: var(--primary); margin-bottom: 5px; }
+h2 { margin-top: 35px; border-bottom: 1px solid var(--border); padding-bottom: 6px; color: #334155; }
+.quick-start { background: #eff6ff; border: 1px solid #bfdbfe; padding: 20px; border-radius: 8px; margin: 20px 0; }
+.step { border-left: 4px solid var(--primary); padding-left: 20px; margin: 20px 0; }
+pre { background: var(--code-bg); color: #d4d4d4; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 0.9em; }
+code { background: #f1f5f9; padding: 2px 5px; border-radius: 4px; font-family: monospace; }
+.badge { font-size: 0.7em; padding: 4px 8px; border-radius: 4px; margin-left: 10px; color: white; }
+.win { background: #00a4ef; } .unix { background: #000; }
+.download-box { background: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 8px; margin: 20px 0; }
+.download-link { display: inline-block; margin: 5px 10px 5px 0; padding: 8px 15px; background: var(--primary); color: white; text-decoration: none; border-radius: 6px; font-size: 0.9em; }
+.test-section { background: #faf5ff; border: 1px solid #e9d5ff; padding: 20px; border-radius: 8px; margin-top: 30px; }
+.warning { background: #fff7ed; border: 1px solid #fed7aa; padding: 15px; border-radius: 8px; color: #9a3412; }
 </style>
 </head>
-
 <body>
 
 <div class="container">
+    <h1>Momentum Gateway Setup Guide</h1>
+    <p>Deploy a high-agency "Chief of Staff" on your OpenClaw Gateway to optimize your time and mental state.</p>
 
-<h1>Momentum Gateway Setup Guide</h1>
+    <div class="quick-start">
+        <h2>🚀 Quick Start (2 Minutes)</h2>
+        <ol>
+            <li>Create folder: <code>~/.openclaw/skills/momentum/</code></li>
+            <li>Download <code>SOUL.md</code>, <code>HEARTBEAT.md</code>, and your OS-specific <code>TOOLS.md</code>.</li>
+            <li>Create <code>logic.py</code> (paste code from Section 3).</li>
+            <li>Run the <strong>Acid Test</strong> (Section 4) and expect <code>ALIGN</code>.</li>
+        </ol>
+    </div>
 
-<p>
-Turn your iOS app into a <strong>Context-Aware Decision Engine</strong>.
-The Gateway evaluates your <strong>time, stress, and attention</strong> and decides:
-protect, reset, enhance—or stay silent.
-</p>
-
-<div class="warning">
-<strong>Endpoint:</strong> Your iOS app must send JSON to <code>/v1/state</code> on this Gateway.
-</div>
-
-<!-- Folder -->
-<h2>1. Folder Structure</h2>
-<pre>
+    <h2>1. Folder Structure</h2>
+    <pre>
 ~/.openclaw/
 └── skills/
     └── momentum/
-        ├── logic.py
-        ├── SOUL.md
-        ├── HEARTBEAT.md
-        └── TOOLS.md
-</pre>
+        ├── logic.py        <-- Decision Engine
+        ├── SOUL.md         <-- Voice/Tone
+        ├── HEARTBEAT.md    <-- Timing/Triggers
+        └── TOOLS.md        <-- Execution Logic</pre>
 
-<!-- Download -->
-<h2>2. Download Required Files</h2>
-<div class="download-box">
-<p>Place these files into the <code>momentum</code> folder:</p>
+    <h2>2. Download Required Files</h2>
+    <div class="download-box">
+        <p>Place these files into your <code>momentum</code> folder:</p>
+        <a href="https://qcai-net.github.io/openclaw/SOUL.md" class="download-link">SOUL.md</a>
+        <a href="https://qcai-net.github.io/openclaw/HEARTBEAT.md" class="download-link">HEARTBEAT.md</a>
+        <a href="https://qcai-net.github.io/openclaw/TOOLS.md" class="download-link">TOOLS.md (Win)</a>
+        <a href="https://qcai-net.github.io/openclaw/unixTOOLS.md" class="download-link">TOOLS.md (Mac/Linux)</a>
+        <p><small>Note: Mac/Linux users must rename <code>unixTOOLS.md</code> to <code>TOOLS.md</code>.</small></p>
+    </div>
 
-<a href="https://qcai-net.github.io/openclaw/SOUL.md" class="download-link">SOUL.md</a>
-<a href="https://qcai-net.github.io/openclaw/HEARTBEAT.md" class="download-link">HEARTBEAT.md</a>
-<a href="https://qcai-net.github.io/openclaw/TOOLS.md" class="download-link">TOOLS.md (Windows)</a>
-<a href="https://qcai-net.github.io/openclaw/unixTOOLS.md" class="download-link">TOOLS.md (Mac/Linux)</a>
-
-<p><small>Mac/Linux: rename <code>unixTOOLS.md</code> → <code>TOOLS.md</code></small></p>
-</div>
-
-<!-- logic.py -->
-<h2>3. Create the Decision Engine (logic.py)</h2>
-<div class="step">
-<pre>
+    <h2>3. The Engine (logic.py)</h2>
+    <div class="step">
+        <p>Create <code>logic.py</code> and paste this code. It handles the Priority Stack (PROTECT > ALIGN > ENHANCE):</p>
+        <pre>
 import sys, json, datetime
 
 def calculate():
     try:
         data = json.load(sys.stdin)
         now = datetime.datetime.fromisoformat(data["metadata"]["current_timestamp"].replace("Z",""))
-
         events = data.get("temporal_intelligence", {}).get("upcoming_events", [])
         gap_min, is_remote, is_low_effort = 999, True, False
-
         if events:
             e = events[0]
             start = datetime.datetime.fromisoformat(e["start_date"].replace("Z",""))
             gap_min = (start - now).total_seconds() / 60
-            loc = e.get("location", "").lower()
-            title = e.get("title", "").lower()
-
+            loc, title = e.get("location", "").lower(), e.get("title", "").lower()
             is_remote = any(k in loc for k in ["http", "zoom", "teams"])
             is_low_effort = any(k in title for k in ["webinar", "lecture", "sync", "listen"])
-
+        
         state = data.get("user_state", {})
-        stress = state.get("stress_score", 0.5)
-        distracted = state.get("attention", {}).get("mode") == "DISTRACTED"
+        stress, distracted = state.get("stress_score", 0.5), state.get("attention", {}).get("mode") == "DISTRACTED"
         battery = state.get("device", {}).get("battery_level", 1.0)
 
-        if gap_min < 20:
-            return out("PROTECT", gap_min)
-
-        if (distracted and stress > 0.5) or stress > 0.75:
-            return out("ALIGN", gap_min)
+        if gap_min < 20: return out("PROTECT", gap_min)
+        if (distracted and stress > 0.5) or stress > 0.75: return out("ALIGN", gap_min)
 
         conf = 0.0
         if gap_min > 60: conf += 0.4
@@ -187,103 +93,46 @@ def calculate():
         if battery > 0.3: conf += 0.1
 
         return out("ENHANCE" if conf >= 0.8 else "SILENCE", gap_min)
+    except: return out("SILENCE", 0)
 
-    except:
-        return out("SILENCE", 0)
+def out(d, g): print(json.dumps({"decision": d, "gap": g}))
 
-def out(d, g):
-    print(json.dumps({"decision": d, "gap": g}))
+if __name__ == "__main__": calculate()</pre>
+    </div>
 
-if __name__ == "__main__":
-    calculate()
-</pre>
-</div>
-
-<!-- Test -->
-<div class="test-section">
-<h2>4. Verify Your Setup</h2>
-
-<p><strong>Test 1: ALIGN (High Stress)</strong></p>
-
-<pre>
+    <div class="test-section">
+        <h2>4. The Acid Test</h2>
+        <p>Save this as <code>test_state.json</code> and run the command for your OS:</p>
+        <pre>
 {
   "metadata": { "current_timestamp": "2026-03-26T14:30:00Z" },
   "temporal_intelligence": {
-    "upcoming_events": [{
-      "title": "Strategy Webinar",
-      "start_date": "2026-03-26T16:00:00Z",
-      "location": "http://zoom.us"
-    }]
+    "upcoming_events": [{ "title": "Webinar", "start_date": "2026-03-26T16:00:00Z", "location": "http://zoom.us" }]
   },
-  "user_state": {
-    "stress_score": 0.85,
-    "attention": { "mode": "DISTRACTED" },
-    "device": { "battery_level": 0.9 }
-  }
-}
-</pre>
+  "user_state": { "stress_score": 0.85, "attention": { "mode": "DISTRACTED" }, "device": { "battery_level": 0.9 } }
+}</pre>
 
-<p><strong>Expected:</strong> ALIGN</p>
+        <h3><span class="badge win">Windows</span></h3>
+        <pre>Get-Content test_state.json | python logic.py</pre>
 
-<p><strong>Test 2: ENHANCE (Low Stress + Big Gap)</strong></p>
+        <h3><span class="badge unix">macOS / Linux</span></h3>
+        <pre>cat test_state.json | python3 logic.py</pre>
 
-<pre>
-{
-  "metadata": { "current_timestamp": "2026-03-26T14:00:00Z" },
-  "temporal_intelligence": {
-    "upcoming_events": [{
-      "title": "Team Webinar",
-      "start_date": "2026-03-26T16:00:00Z",
-      "location": "http://zoom.us"
-    }]
-  },
-  "user_state": {
-    "stress_score": 0.2,
-    "attention": { "mode": "FOCUSED" },
-    "device": { "battery_level": 0.9 }
-  }
-}
-</pre>
+        <div class="warning">
+            <strong>Expected Outcomes:</strong><br>
+            • High stress → <code>ALIGN</code><br>
+            • Low stress + big gap → <code>ENHANCE</code><br>
+            • Tight schedule (< 20m) → <code>PROTECT</code><br>
+            • Everything else → <code>SILENCE</code>
+        </div>
+        <p><small>Note: Windows does <strong>not</strong> require <code>chmod</code>. Just ensure Python is in your PATH.</small></p>
+    </div>
 
-<p><strong>Expected:</strong> ENHANCE</p>
-
-<h3><span class="badge win">Windows</span></h3>
-<pre>Get-Content test_state.json | python logic.py</pre>
-
-<h3><span class="badge unix">macOS / Linux</span></h3>
-<pre>cat test_state.json | python3 logic.py</pre>
-
-<div class="warning">
-If result is <code>SILENCE</code>, system is working correctly.
-</div>
-
-</div>
-
-<!-- Discovery -->
-<h2>5. Enable Discovery (Optional)</h2>
-<div class="step">
-<pre>openclaw config set tools.google_maps.api_key "YOUR_API_KEY"</pre>
-<p>Enable Google Places API in Google Cloud.</p>
-</div>
-
-<!-- What happens -->
-<h2>6. What Happens Next?</h2>
-<p>
-When decision = <strong>ENHANCE</strong>, the Gateway:
-</p>
-<ul>
-<li>Searches one nearby place (cafe, park, library)</li>
-<li>Applies safety time buffer</li>
-<li>Sends ONE recommendation to your iOS app</li>
-</ul>
-
-<h2>7. Architecture Summary</h2>
-<p>
-Priority: <strong>PROTECT → ALIGN → ENHANCE → SILENCE</strong>
-</p>
-<p>
-The system only speaks when it improves your day.
-</p>
+    <h2>5. Example Output</h2>
+    <div class="step">
+        <p>When the system triggers an <strong>ENHANCE</strong> decision, your Gateway will search and provide a high-agency recommendation:</p>
+        <pre>"You've got a clean hour before your webinar. Better move is 7th Street Market—3 min walk, quieter, and perfect for a low-effort call."</pre>
+    </div>
 
 </div>
 
