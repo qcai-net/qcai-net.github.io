@@ -1,22 +1,22 @@
-# TOOLS: Execution & Enrichment
+# TOOLS: Momentum Execution (Windows)
 
 ## 1. Momentum Engine (Internal)
-- **Tool:** `python3 logic.py`
-- **Input:** Full `user_state` + `temporal_intelligence` JSON.
-- **Output:** `{decision: "PROTECT/ALIGN/ENHANCE/SILENCE", gap: min}`.
+- **Engine Path:** `.\logic.py`
+- **Command:** `type input.json | python logic.py` 
+- **Instruction:** Use `python` (standard Windows alias) to execute the logic script.
+- **Input:** Standard Input (stdin) redirected from the iOS JSON sync.
 
 ## 2. Discovery Tool (External)
-- **Trigger:** Only if `decision == ENHANCE`.
+- **Trigger:** Only if `logic.py` returns `{"decision": "ENHANCE"}`.
 - **Action:** `google_places_search`
-- **Params:** - `query`: "quiet cafe" OR "park" OR "library" (based on weather).
-    - `radius`: 0.5 miles from `current_location`.
-- **Filtering:** Pick the TOP result with a "Quiet" or "Wi-Fi" tag.
+- **Parameters:** - `query`: "quiet cafe" OR "park" OR "library"
+    - `location`: `current_location` from JSON
+    - `radius`: 800 (meters)
 
 ## 3. Return Safety Check (Calculated)
-- **Formula:** `Usable_Time = gap_min - (travel_time * 2) - 15`.
-- **Constraint:** If `Usable_Time < 20`, downgrade to `SILENCE`. 
+- **Formula:** `Remaining_Time = gap_min - (travel_time * 2) - 15`
+- **Constraint:** If `Remaining_Time < 20`, force `decision = "SILENCE"`.
 
 ## 4. Response Synthesis
-- Combine `decision` + `Discovery_Result` + `SOUL_Tone`.
-- **Example ENHANCE:** "You've got a clean window before that webinar. 7th Street Market is a 3-min walk—better spot to reset than the lobby."
-- **Example ALIGN:** "You're redlining. Skip the next task and take 5 minutes to reset before your 4 PM."
+- **Format:** Combine `logic_result` + `place_result` + `SOUL_Tone`.
+- **Constraint:** No lists. Single opinionated sentence. Max 200 chars.
