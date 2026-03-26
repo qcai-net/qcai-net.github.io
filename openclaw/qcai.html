@@ -11,89 +11,63 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 h1 { color: var(--primary); margin-bottom: 5px; }
 h2 { margin-top: 35px; border-bottom: 1px solid var(--border); padding-bottom: 6px; color: #334155; }
 .quick-start { background: #eff6ff; border: 1px solid #bfdbfe; padding: 20px; border-radius: 8px; margin: 20px 0; }
-.step { border-left: 4px solid var(--primary); padding-left: 20px; margin: 20px 0; }
 .discovery-box { border: 2px solid var(--accent); background: #fffbeb; padding: 20px; border-radius: 8px; margin: 25px 0; }
 pre { background: var(--code-bg); color: #d4d4d4; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 0.9em; }
-code { background: #f1f5f9; padding: 2px 5px; border-radius: 4px; font-family: monospace; }
 .download-box { background: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 8px; margin: 20px 0; }
 .download-link { display: inline-block; margin: 5px 10px 5px 0; padding: 8px 15px; background: var(--primary); color: white; text-decoration: none; border-radius: 6px; font-size: 0.9em; }
-.warning { background: #fff7ed; border: 1px solid #fed7aa; padding: 15px; border-radius: 8px; color: #9a3412; }
 </style>
 </head>
 <body>
 
 <div class="container">
     <h1>Momentum Gateway Setup Guide</h1>
-    <p>The <strong>QCAI App</strong> (iOS/Android) is your mobile sensor hub. The <strong>OpenClaw Gateway</strong> is the intelligence layer that processes your state and discovers real-world solutions.</p>
+    <p>Follow these steps to ensure your OpenClaw Gateway correctly links your <code>logic.py</code> and <code>.md</code> files to the <strong>QCAI App</strong>.</p>
 
     <div class="quick-start">
-        <h2>🚀 Deployment Steps</h2>
+        <h2>🚀 Complete Deployment</h2>
         <ol>
-            <li>Sync <strong>Knowledge & Logic</strong> files (Section 1).</li>
-            <li>Connect <strong>Google Maps & Perplexity</strong> (Section 2) for discovery.</li>
-            <li>Activate the <strong>Momentum Agent</strong> (Section 3).</li>
+            <li>Download <strong>Knowledge & Logic</strong> (Section 1).</li>
+            <li>Connect <strong>Google Maps & Perplexity</strong> (Section 2).</li>
+            <li>Run the <strong>Glue Commands</strong> (Section 3) to link everything.</li>
         </ol>
     </div>
 
     <h2>1. Download Required Files</h2>
     <div class="download-box">
-        <p><strong>A. Knowledge Base</strong> (Save to <code>~/.openclaw/workspace/</code>):</p>
+        <p><strong>A. Knowledge</strong> (Save to <code>~/.openclaw/workspace/</code>):</p>
         <a href="https://qcai-net.github.io/openclaw/SOUL.md" class="download-link">SOUL.md</a>
         <a href="https://qcai-net.github.io/openclaw/HEARTBEAT.md" class="download-link">HEARTBEAT.md</a>
         <a href="https://qcai-net.github.io/openclaw/TOOLS.md" class="download-link">TOOLS.md</a>
 
-        <p><strong>B. Decision Engine</strong> (Save to <code>~/.openclaw/skills/momentum/</code>):</p>
+        <p><strong>B. Engine</strong> (Save to <code>~/.openclaw/skills/momentum/</code>):</p>
         <a href="https://qcai-net.github.io/openclaw/logic.py" class="download-link" style="background: #10b981;">logic.py</a>
     </div>
 
     <div class="discovery-box">
-        <h2>2. Connect Discovery Tools (Maps + Perplexity)</h2>
-        <p>To find specific locations and provide high-agency reasoning, the Gateway needs its "Eyes" (Google Maps) and "Brain" (Perplexity). Run these on your Gateway:</p>
-        
+        <h2>2. Connect API Discovery Tools</h2>
         <pre>
-# 1. Enable Google Maps (Physical Location Discovery)
 openclaw config set tools.maps.provider "google"
 openclaw config set tools.maps.api_key "YOUR_GOOGLE_MAPS_KEY"
-
-# 2. Enable Perplexity (High-Agency Reasoning)
 openclaw config set tools.search.provider "perplexity"
-openclaw config set tools.search.api_key "YOUR_PERPLEXITY_KEY"
+openclaw config set tools.search.api_key "YOUR_PERPLEXITY_KEY"</pre>
+    </div>
 
-# 3. Enable Remote Access for QCAI Apps
+    <h2>3. The "Glue" (Connecting Files to Logic)</h2>
+    <p>Crucial: Run these commands so OpenClaw knows to read your files and run your script when phone data arrives:</p>
+    <pre>
+# 1. Point the Gateway to your .md files
+openclaw config set workspace.path "~/.openclaw/workspace/"
+
+# 2. Register logic.py as the primary decision engine
+openclaw config set gateway.hooks.on_data "python3 ~/.openclaw/skills/momentum/logic.py"
+
+# 3. Set to Remote Mode and Restart
 openclaw config set gateway.mode remote
 openclaw gateway restart</pre>
-    </div>
 
-    <h2>3. Activate the Momentum Agent</h2>
-    <div class="step">
-        <p>This command tells the Gateway to use your <code>logic.py</code> engine and <code>workspace</code> files for active monitoring:</p>
-        <pre>
-openclaw config set agents.momentum.enabled true
-openclaw config set agents.momentum.logic "./skills/momentum/logic.py"
-openclaw config set agents.momentum.workspace "./workspace/"
-openclaw gateway restart</pre>
-    </div>
-
-    <h2>4. The Insight Loop</h2>
-    
-    <ul>
-        <li><strong>QCAI App:</strong> Reports high stress and current location.</li>
-        <li><strong>logic.py:</strong> Analyzes the priority stack and flags an <code>ALIGN</code> state.</li>
-        <li><strong>Discovery:</strong> The Gateway uses <strong>Google Maps</strong> to find quiet spots and <strong>Perplexity</strong> to vet them against your <code>SOUL.md</code>.</li>
-        <li><strong>Final Delivery:</strong> The phone displays: <em>"Chief of Staff: You're red-lining. Head to the 4th floor balcony—it's empty and 1 min away."</em></li>
-    </ul>
-
-    <div class="test-section">
-        <h2>5. Verification (The Acid Test)</h2>
-        <p>Test the <code>logic.py</code> decision engine locally to ensure it handles stress correctly:</p>
-        <pre>cat test_state.json | python3 logic.py</pre>
-        <div class="warning">
-            <strong>Expected Outcomes:</strong><br>
-            • Stress > 0.75 → <code>ALIGN</code><br>
-            • Gap < 20m → <code>PROTECT</code><br>
-            • High confidence + Big gap → <code>ENHANCE</code>
-        </div>
-    </div>
+    <h2>4. Final Test</h2>
+    <p>To verify the Gateway is "hearing" the logic, run this on your PC:</p>
+    <pre>cat test_state.json | python3 ~/.openclaw/skills/momentum/logic.py</pre>
 </div>
 
 </body>
