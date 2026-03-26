@@ -5,13 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Momentum Gateway | Deployment Guide</title>
 <style>
-:root { --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; --code-bg: #1e1e1e; --border: #e2e8f0; }
+:root { --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; --code-bg: #1e1e1e; --border: #e2e8f0; --accent: #f59e0b; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); margin: 0; }
 .container { max-width: 900px; margin: 40px auto; padding: 30px; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
 h1 { color: var(--primary); margin-bottom: 5px; }
 h2 { margin-top: 35px; border-bottom: 1px solid var(--border); padding-bottom: 6px; color: #334155; }
+h3 { color: var(--primary); font-size: 1.1em; margin-top: 20px; }
 .quick-start { background: #eff6ff; border: 1px solid #bfdbfe; padding: 20px; border-radius: 8px; margin: 20px 0; }
 .step { border-left: 4px solid var(--primary); padding-left: 20px; margin: 20px 0; }
+.discovery-box { border: 2px solid var(--accent); background: #fffbeb; padding: 20px; border-radius: 8px; margin: 25px 0; }
 pre { background: var(--code-bg); color: #d4d4d4; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 0.9em; }
 code { background: #f1f5f9; padding: 2px 5px; border-radius: 4px; font-family: monospace; }
 .badge { font-size: 0.7em; padding: 4px 8px; border-radius: 4px; margin-left: 10px; color: white; }
@@ -34,7 +36,8 @@ code { background: #f1f5f9; padding: 2px 5px; border-radius: 4px; font-family: m
             <li>Create folder: <code>~/.openclaw/skills/momentum/</code></li>
             <li>Download <code>SOUL.md</code>, <code>HEARTBEAT.md</code>, and your OS-specific <code>TOOLS.md</code>.</li>
             <li>Create <code>logic.py</code> (paste code from Section 3).</li>
-            <li>Run the <strong>Acid Test</strong> (Section 4) and expect <code>ALIGN</code>.</li>
+            <li><strong>Configure Discovery (Section 4)</strong> to enable the iOS app.</li>
+            <li>Run the <strong>Acid Test</strong> (Section 5) and expect <code>ALIGN</code>.</li>
         </ol>
     </div>
 
@@ -100,8 +103,32 @@ def out(d, g): print(json.dumps({"decision": d, "gap": g}))
 if __name__ == "__main__": calculate()</pre>
     </div>
 
+    <div class="discovery-box">
+        <h2>4. Mandatory: Setup Discovery (iOS App)</h2>
+        <p>The iOS app will not function unless the Gateway is broadcasting its presence via mDNS.</p>
+        
+        <h3>A. Enable Network Discovery</h3>
+        <p>Run these commands in your terminal to allow the iOS app to find the gateway:</p>
+        <pre>
+openclaw config set gateway.mode remote
+openclaw config set gateway.discovery.enabled true
+openclaw config set gateway.discovery.name "My-Momentum-Gateway"
+openclaw gateway restart</pre>
+
+        <h3>B. Network Requirements</h3>
+        <ul>
+            <li><strong>Same WiFi:</strong> iPhone and Gateway PC must be on the same local network.</li>
+            <li><strong>Firewall:</strong> Ensure UDP Port <code>5353</code> is open (mDNS/Bonjour).</li>
+            <li><strong>Linux Users:</strong> Ensure Avahi is running: <code>sudo systemctl enable --now avahi-daemon</code></li>
+        </ul>
+
+        <h3>C. Pairing</h3>
+        <p>Once you see your Gateway in the iOS app settings, tap it. To approve the link, run:</p>
+        <pre>openclaw nodes approve --all</pre>
+    </div>
+
     <div class="test-section">
-        <h2>4. The Acid Test</h2>
+        <h2>5. The Acid Test</h2>
         <p>Save this as <code>test_state.json</code> and run the command for your OS:</p>
         <pre>
 {
@@ -125,10 +152,9 @@ if __name__ == "__main__": calculate()</pre>
             • Tight schedule (< 20m) → <code>PROTECT</code><br>
             • Everything else → <code>SILENCE</code>
         </div>
-        <p><small>Note: Windows does <strong>not</strong> require <code>chmod</code>. Just ensure Python is in your PATH.</small></p>
     </div>
 
-    <h2>5. Example Output</h2>
+    <h2>6. Example Output</h2>
     <div class="step">
         <p>When the system triggers an <strong>ENHANCE</strong> decision, your Gateway will search and provide a high-agency recommendation:</p>
         <pre>"You've got a clean hour before your webinar. Better move is 7th Street Market—3 min walk, quieter, and perfect for a low-effort call."</pre>
