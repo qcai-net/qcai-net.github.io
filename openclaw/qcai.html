@@ -33,27 +33,26 @@ code { background: #f1f5f9; padding: 2px 5px; border-radius: 4px; font-family: m
     <div class="quick-start">
         <h2>🚀 Quick Start (2 Minutes)</h2>
         <ol>
-            <li>Create folder: <code>~/.openclaw/skills/momentum/</code></li>
-            <li>Download <code>SOUL.md</code>, <code>HEARTBEAT.md</code>, and your OS-specific <code>TOOLS.md</code>.</li>
-            <li>Create <code>logic.py</code> (paste code from Section 3).</li>
-            <li><strong>Configure Discovery (Section 4)</strong> to enable the iOS app.</li>
-            <li>Run the <strong>Acid Test</strong> (Section 5) and expect <code>ALIGN</code>.</li>
+            <li>Sync files to <code>~/.openclaw/workspace/</code> and <code>~/.openclaw/skills/momentum/</code>.</li>
+            <li>Configure <strong>Discovery (Section 4)</strong> using the <code>_openclaw-gw._tcp</code> type.</li>
+            <li>Run the <strong>Acid Test (Section 5)</strong> and expect <code>ALIGN</code>.</li>
         </ol>
     </div>
 
-    <h2>1. Folder Structure</h2>
+    <h2>1. Correct Folder Structure</h2>
     <pre>
 ~/.openclaw/
+├── workspace/          &lt;-- Place .md Files Here
+│   ├── SOUL.md
+│   ├── HEARTBEAT.md
+│   └── TOOLS.md
 └── skills/
-    └── momentum/
-        ├── logic.py        <-- Decision Engine
-        ├── SOUL.md         <-- Voice/Tone
-        ├── HEARTBEAT.md    <-- Timing/Triggers
-        └── TOOLS.md        <-- Execution Logic</pre>
+    └── momentum/       &lt;-- Place Logic Here
+        └── logic.py</pre>
 
     <h2>2. Download Required Files</h2>
     <div class="download-box">
-        <p>Place these files into your <code>momentum</code> folder:</p>
+        <p>Place these files into your <code>~/.openclaw/workspace/</code> folder:</p>
         <a href="https://qcai-net.github.io/openclaw/SOUL.md" class="download-link">SOUL.md</a>
         <a href="https://qcai-net.github.io/openclaw/HEARTBEAT.md" class="download-link">HEARTBEAT.md</a>
         <a href="https://qcai-net.github.io/openclaw/TOOLS.md" class="download-link">TOOLS.md (Win)</a>
@@ -63,7 +62,7 @@ code { background: #f1f5f9; padding: 2px 5px; border-radius: 4px; font-family: m
 
     <h2>3. The Engine (logic.py)</h2>
     <div class="step">
-        <p>Create <code>logic.py</code> and paste this code. It handles the Priority Stack (PROTECT > ALIGN > ENHANCE):</p>
+        <p>Create <code>logic.py</code> in <code>~/.openclaw/skills/momentum/</code> and paste this code:</p>
         <pre>
 import sys, json, datetime
 
@@ -105,25 +104,25 @@ if __name__ == "__main__": calculate()</pre>
 
     <div class="discovery-box">
         <h2>4. Mandatory: Setup Discovery (iOS App)</h2>
-        <p>The iOS app will not function unless the Gateway is broadcasting its presence via mDNS.</p>
+        <p>The iOS app requires mDNS (Bonjour) with a specific service type to find your gateway.</p>
         
         <h3>A. Enable Network Discovery</h3>
-        <p>Run these commands in your terminal to allow the iOS app to find the gateway:</p>
+        <p>Run these commands in your terminal to update your <code>openclaw.json</code>:</p>
         <pre>
 openclaw config set gateway.mode remote
 openclaw config set gateway.discovery.enabled true
-openclaw config set gateway.discovery.name "My-Momentum-Gateway"
+openclaw config set gateway.discovery.type "_openclaw-gw._tcp"
+openclaw config set gateway.discovery.name "Momentum-Gateway"
 openclaw gateway restart</pre>
 
         <h3>B. Network Requirements</h3>
         <ul>
-            <li><strong>Same WiFi:</strong> iPhone and Gateway PC must be on the same local network.</li>
-            <li><strong>Firewall:</strong> Ensure UDP Port <code>5353</code> is open (mDNS/Bonjour).</li>
-            <li><strong>Linux Users:</strong> Ensure Avahi is running: <code>sudo systemctl enable --now avahi-daemon</code></li>
+            <li><strong>Port:</strong> Ensure <strong>UDP Port 5353</strong> is open in your firewall.</li>
+            <li><strong>Visibility:</strong> iPhone must be on the same local Wi-Fi network.</li>
         </ul>
 
         <h3>C. Pairing</h3>
-        <p>Once you see your Gateway in the iOS app settings, tap it. To approve the link, run:</p>
+        <p>Once "Momentum-Gateway" appears in the iOS app, tap it and approve the link in your terminal:</p>
         <pre>openclaw nodes approve --all</pre>
     </div>
 
@@ -148,15 +147,14 @@ openclaw gateway restart</pre>
         <div class="warning">
             <strong>Expected Outcomes:</strong><br>
             • High stress → <code>ALIGN</code><br>
-            • Low stress + big gap → <code>ENHANCE</code><br>
-            • Tight schedule (< 20m) → <code>PROTECT</code><br>
+            • Tight schedule (&lt; 20m) → <code>PROTECT</code><br>
             • Everything else → <code>SILENCE</code>
         </div>
     </div>
 
     <h2>6. Example Output</h2>
     <div class="step">
-        <p>When the system triggers an <strong>ENHANCE</strong> decision, your Gateway will search and provide a high-agency recommendation:</p>
+        <p>When the system triggers an <strong>ENHANCE</strong> decision, your Gateway will provide high-agency recommendations:</p>
         <pre>"You've got a clean hour before your webinar. Better move is 7th Street Market—3 min walk, quieter, and perfect for a low-effort call."</pre>
     </div>
 
