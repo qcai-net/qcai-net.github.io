@@ -178,34 +178,35 @@
         </section>
 
         <section>
-            <h2>4. AI Smart Assistant & Context OS</h2>
-            <p>QCAI includes an AI-powered Context OS that uses your local environment and device state to provide intelligent automation. QCAI operates on a <strong>self-hosted architecture</strong> using the OpenClaw platform, meaning your data never touches our corporate servers.</p>
+            <h2>4. AI Intelligence Architecture: Two Tiers of Privacy</h2>
+            <p>QCAI utilizes a dual-tier AI architecture to maximize your privacy and control. It is critical to understand the different destinations for your data based on the feature used:</p>
 
             <div class="compliance-box" style="border-left: 4px solid var(--primary);">
-                <h3 style="color: var(--primary);">4a. What data is collected</h3>
+                <h3 style="color: var(--primary);">Tier 1: Cloud-Powered AI Features</h3>
+                <p>Standard AI features (Chat, Analysis, DIY Help) utilize cloud-based models for high-performance processing.</p>
                 <ul>
-                    <li><strong>Your queries and chat messages</strong>.</li>
-                    <li><strong>Photos you attach</strong> for analysis (e.g., DIY help or Marketplace listings).</li>
-                    <li><strong>Ambient Context</strong>: Background location, motion state, and calendar/reminders for proactive AI awareness, <em>if you grant permission.</em></li>
+                    <li><strong>Data Sent:</strong> Your typed messages, specific questions, and any photos you manually attach.</li>
+                    <li><strong>Destination:</strong> Professional AI providers (OpenAI or Google) or our secure QCAI Backend.</li>
+                    <li><strong>Protection:</strong> Your data is protected by strict API privacy terms and is never used for advertising.</li>
                 </ul>
             </div>
 
             <div class="compliance-box" style="border-left: 4px solid var(--accent);">
-                <h3 style="color: var(--accent);">4b. Your Personal OpenClaw Gateway</h3>
-                <p>All AI requests and context data are transmitted exclusively to your <strong>personally configured OpenClaw Gateway</strong> (either hosted on your local network or a custom domain). </p>
+                <h3 style="color: var(--accent);">Tier 2: Context OS & Personal Gateway</h3>
+                <p>Sensitive sensor data used for proactive awareness is handled with strict local-first principles.</p>
                 <ul>
-                    <li>QCAI (the app developers) <strong>do not intercept, collect, or store</strong> any of your AI queries or context data.</li>
-                    <li>Your OpenClaw Gateway acts as an intermediary, and may be configured by you to connect to third-party providers (like OpenAI or Google). You control your Gateway's privacy agreements directly with those providers.</li>
+                    <li><strong>Data Collected:</strong> Steps/Vitals (HealthKit), Motion state, Local Calendar, and Semantic Location.</li>
+                    <li><strong>Destination:</strong> This data is transmitted <strong>EXCLUSIVELY</strong> to your personally owned and managed OpenClaw Gateway.</li>
+                    <li><strong>Privacy:</strong> QCAI developers and third-party cloud AI providers <strong>NEVER</strong> receive, intercept, or store this sensor data. It remains entirely within your private infrastructure.</li>
                 </ul>
             </div>
 
             <div class="compliance-box" style="border-left: 4px solid #34C759;">
-                <h3 style="color: #34C759;">4c. What is NOT shared by the app</h3>
+                <h3 style="color: #34C759;">Data Governance</h3>
                 <ul>
-                    <li>Your QCAI account password.</li>
-                    <li>Your browsing history.</li>
-                    <li>Your financial or payment information.</li>
-                    <li>We do <strong>not</strong> sell any AI interaction data or context telemetry to advertisers.</li>
+                    <li>Your account credentials and financial information are never shared with any AI tier.</li>
+                    <li>You have granular control over each sensor domain in <em>Settings → Context OS</em>.</li>
+                    <li>Revoking AI consent immediately stops all data transmission to both tiers.</li>
                 </ul>
             </div>
         </section>
