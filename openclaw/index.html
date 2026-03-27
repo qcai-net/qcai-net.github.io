@@ -3,147 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QCAI Momentum Gateway | v2026 Deployment Guide</title>
+    <title>Deploying OpenClaw AI Gateway</title>
     <style>
-        :root {
-            --bg: #0a0a0c;
-            --text: #e0e0e0;
-            --accent: #58a6ff;
-            --code-bg: #161b22;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-        h1, h2, h3 { color: var(--accent); }
-        code {
-            background: var(--code-bg);
-            padding: 2px 4px;
-            border-radius: 4px;
-            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-        }
-        pre {
-            background: var(--code-bg);
-            padding: 16px;
-            border-radius: 8px;
-            overflow-x: auto;
-            border: 1px solid #30363d;
-        }
-        .note {
-            background: rgba(88, 166, 255, 0.1);
-            border-left: 4px solid var(--accent);
-            padding: 10px 20px;
-            margin: 20px 0;
-        }
-        .warning {
-            background: rgba(255, 126, 7, 0.1);
-            border-left: 4px solid #ff7e07;
-            padding: 10px 20px;
-            margin: 20px 0;
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; color: #333; }
+        h1, h2, h3 { color: #2c3e50; }
+        code { background: #f4f4f4; padding: 2px 5px; border-radius: 4px; font-family: monospace; font-size: 0.9em; }
+        pre { background: #f4f4f4; padding: 15px; border-radius: 8px; overflow-x: auto; border-left: 4px solid #3498db; }
+        .alert { padding: 15px; background-color: #e8f4fd; border-left: 4px solid #3498db; margin-bottom: 20px; border-radius: 4px; }
+        .download-btn { display: inline-block; padding: 8px 15px; background-color: #2ea44f; color: white; text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 0.9em; margin-right: 10px; margin-bottom: 10px; }
+        .download-btn:hover { background-color: #2c974b; }
+        .file-list { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+        .option-box { border: 1px solid #ddd; padding: 15px; border-radius: 8px; margin-bottom: 15px; background: #fafafa; }
     </style>
 </head>
 <body>
-    <h1>Momentum Gateway Setup Guide (v2026.3+)</h1>
-    <p>The QCAI App (iOS/Android) transforms your mobile device into a high-fidelity sensor hub. This guide ensures your OpenClaw Gateway correctly processes sensor data via the <strong>Insight Loop</strong>.</p>
-
-    <div class="note">
-        <strong>Updated for v2026.3.24:</strong> This guide includes the new <code>skills.entries</code> configuration namespace and Node.js logic migration instructions.
+    <h1>Deploying Your OpenClaw AI Gateway</h1>
+    <p>This guide provides everything you need to connect your Mobile AI App to your personal OpenClaw Gateway. You must choose whether to run your Gateway's Decision Engine using <strong>Node.js</strong> (Recommended) or <strong>Python</strong>.</p>
+    
+    <div class="alert">
+        <strong>Important:</strong> We strongly recommend using the Node.js skills, as they do not require a separate Python environment and are fully compatible with your existing OpenClaw installation.
     </div>
 
-    <h2>1. Deploy Knowledge & Logic</h2>
+    <h2>1. Download Required Files</h2>
+    <p>Depending on your choice of environment (Node.js vs Python), download the corresponding files below:</p>
     
-    <h3>A. Knowledge Base (Save to <code>~/.openclaw/workspace/</code>)</h3>
-    <p>Ensure these files are present in your workspace. They define the proactivity triggers and tool access rules.</p>
-    <ul>
-        <li><a href="https://qcai-net.github.io/openclaw/HEARTBEAT.md">HEARTBEAT.md</a>: Defines the logic gating and execution interval.</li>
-        <li><a href="https://qcai-net.github.io/openclaw/SOUL.md">SOUL.md</a>: Provides the persona and high-level behavioral constraints.</li>
-        <li><a href="https://qcai-net.github.io/openclaw/TOOLS.md">TOOLS.md</a> (Windows) or <a href="https://qcai-net.github.io/openclaw/unixTOOLS.md">unixTOOLS.md</a> (Linux/MacOS): Discovery tools configuration.</li>
-    </ul>
-
-    <pre><code># Sample HEARTBEAT.md Execution Line
-# If using logic.js (Recommended):
-15. Execute `node logic.js`.
-
-# If using logic.py:
-15. Execute `python3 logic.py`.</code></pre>
-
-    <h3>B. Decision Engine (Save to <code>~/.openclaw/skills/momentum/</code>)</h3>
-    <p>The decision engine processes incoming JSON from the app and returns an action (PROTECT, ALIGN, ENHANCE, or SILENCE).</p>
-    
-    <div class="note">
-        <strong>Node.js vs Python:</strong> We strongly recommend the Node.js version (<code>logic.js</code>) for maximum compatibility, as OpenClaw users already have Node installed. Use Python (<code>logic.py</code>) only if you have specific library requirements or an existing environment.
+    <div class="option-box">
+        <h3>Option A: Node.js Skills (Recommended)</h3>
+        <p>Download these files to use the native JavaScript decision engine.</p>
+        <div class="file-list">
+            <a href="SOUL.md" class="download-btn" download>📥 SOUL.md</a>
+            <a href="HEARTBEAT.md" class="download-btn" download>📥 HEARTBEAT.md</a>
+            <a href="TOOLS.md" class="download-btn" download>📥 TOOLS.md (Windows)</a>
+            <a href="unixTOOLS.md" class="download-btn" download>📥 unixTOOLS.md (Mac/Linux)</a>
+            <a href="logic.js" class="download-btn" download>📥 logic.js</a>
+            <a href="search.js" class="download-btn" download>📥 search.js</a>
+        </div>
+        <p><strong>Placement:</strong></p>
+        <ul>
+            <li><code>SOUL.md</code> → <code>~/.openclaw/workspace/SOUL.md</code></li>
+            <li><code>HEARTBEAT.md</code> → <code>~/.openclaw/workspace/HEARTBEAT.md</code></li>
+            <li><code>TOOLS.md</code> (or <code>unixTOOLS.md</code>) → <code>~/.openclaw/workspace/TOOLS.md</code></li>
+            <li><code>logic.js</code> → <code>~/.openclaw/skills/momentum/logic.js</code></li>
+            <li><code>search.js</code> → <code>~/.openclaw/skills/momentum/search.js</code></li>
+        </ul>
+        <div class="warning">
+            <strong>CRITICAL STEP:</strong> You MUST open <code>search.js</code> in a text editor (like Notepad or VS Code) and replace <code>"YOUR_PERPLEXITY_KEY"</code> on Line 1 with your actual Perplexity API key before the discovery engine will work.
+        </div>
     </div>
 
-    <h4>Option 1: Node.js Logic (Recommended)</h4>
-    <p>Save this as <code>~/.openclaw/skills/momentum/logic.js</code>:</p>
-    <pre><code>const fs = require('fs');
+    <div class="option-box">
+        <h3>Option B: Python Skills (Legacy)</h3>
+        <p>If you already have a configured Python 3 environment, you can use the original python scripts.</p>
+        <div class="file-list">
+            <a href="SOUL.md" class="download-btn" download>📥 SOUL.md</a>
+            <a href="HEARTBEAT.md" class="download-btn" download>📥 HEARTBEAT.md</a>
+            <a href="TOOLS.md" class="download-btn" download>📥 TOOLS.md (Windows)</a>
+            <a href="unixTOOLS.md" class="download-btn" download>📥 unixTOOLS.md (Mac/Linux)</a>
+            <a href="logic.py" class="download-btn" download>📥 logic.py</a>
+        </div>
+        <p><strong>Placement:</strong></p>
+        <ul>
+            <li><code>logic.py</code> → <code>~/.openclaw/skills/momentum/logic.py</code></li>
+        </ul>
+        <p><strong>Required Edit:</strong> Open <code>HEARTBEAT.md</code> and change step #15 to execute <code>python3 logic.py</code> instead of <code>node logic.js</code>.</p>
+    </div>
 
-function calculate() {
-    try {
-        const data = JSON.parse(fs.readFileSync(0, 'utf-8'));
-        const state = data.user_state || {};
-        const stress = state.stress_score || 0.5;
-        // High stress or distraction triggers ALIGN
-        const decision = (stress > 0.75) ? "ALIGN" : "SILENCE";
-        console.log(JSON.stringify({ decision, gap: 999 }));
-    } catch (e) {
-        console.log(JSON.stringify({ decision: "SILENCE", gap: 0 }));
-    }
-}
-calculate();</code></pre>
+    <h2>2. Configure Gateway Settings</h2>
+    <p>Run these commands in your terminal to configure the gateway port, security, and the built-in API keys.</p>
 
-    <h4>Option 2: Python Logic (Legacy)</h4>
-    <p>Download: <a href="https://qcai-net.github.io/openclaw/logic.py">logic.py</a></p>
+<pre><code># Disable device pairing (allows mobile app connection)
+openclaw config set plugins.entries.device-pair.enabled false
 
-    <h3>C. Discovery Scripts (Save to <code>~/.openclaw/skills/momentum/</code>)</h3>
-    <p>If you don't have Python 3 for the Perplexity skill, use this Node.js replacement for <code>search.js</code>:</p>
-    <pre><code>// Save as ~/.openclaw/skills/momentum/search.js
-const apiKey = process.env.PERPLEXITY_API_KEY;
-const query = process.argv.slice(2).join(' ') || "quiet cafes nearby";
+# Set authentication to token mode
+openclaw config set gateway.auth.mode "token"
 
-async function search() {
-    const response = await fetch("https://api.perplexity.ai/chat/completions", {
-        method: "POST",
-        headers: { "Authorization": `Bearer ${apiKey}`, "Content-Type": "application/json" },
-        body: JSON.stringify({ model: "sonar", messages: [{ role: "user", content: query }] })
-    });
-    const data = await response.json();
-    console.log(data.choices[0].message.content);
-}
-search();</code></pre>
+# Bind listener to localhost on port 18789
+openclaw config set gateway.port 18789
+openclaw config set gateway.url "http://127.0.0.1:18789"
 
-    <h2>2. Configure API Discovery Tools</h2>
-    <p>Run these commands to enable Google Maps and Perplexity reasoning for the "Discovery" phase.</p>
-
-    <pre><code># Set Google Maps API Key (Built-in Skill)
+# Set Google Maps API Key (Built-in Skill)
 openclaw config set skills.entries.goplaces.apiKey "YOUR_GOOGLE_MAPS_KEY"
 
-# For the Perplexity Search tool, you must edit the script directly.
-# Open ~/.openclaw/skills/momentum/search.js in a text editor and 
-# replace "YOUR_PERPLEXITY_KEY" on line 1 with your actual API key.
-
-# Gateway Mode
-# Use "remote" for public access, or "local" if using Tailscale/VPN.
-openclaw config set gateway.mode "local"
-
+# Apply changes by restarting the gateway
 openclaw gateway restart</code></pre>
 
-    <h2>3. Security & Connectivity</h2>
-    <div class="warning">
-        <strong>Tailscale/VPN Users:</strong> You can keep <code>gateway.mode local</code>. Ensure your OpenClaw config includes <code>"allowTailscale": true</code> and that the Tailscale IP range (<code>100.0.0.0/8</code>) is in your <code>trustedProxies</code>.
-    </div>
+    <h2>3. Start the Tailscale Proxy</h2>
+    <p>To expose your gateway securely to the internet (so your mobile app can reach it), run a Tailscale Funnel. Run this exact command to forward traffic to port <code>18789</code>:</p>
 
-    <h2>4. End-to-End Verification</h2>
-    <p>Check the Gateway logs to ensure the connection is active and data is flowing.</p>
-    <pre><code>openclaw logs --follow | grep "heartbeat"</code></pre>
-    <p>Look for the <code>heartbeat: started</code> log and subsequent sessions from <code>userAgent: OpenClaw-Mobile-AI</code>.</p>
+<pre><code>tailscale serve --bg --https=443 http://127.0.0.1:18789</code></pre>
 
-    <p style="margin-top: 50px; font-size: 0.8em; opacity: 0.6;">&copy; 2026 Momentum AI Gateway System.</p>
+    <h2>4. Connect Your Mobile App</h2>
+    <p>To connect the iOS/Android app to your newly configured gateway, you will need your Tailscale endpoint URL and your Gateway Authentication Token.</p>
+    
+    <ol>
+        <li>Run <code>tailscale serve status</code> to get your public Tailscale URL.</li>
+        <li>Run <code>openclaw status --deep</code> to retrieve your Gateway Token.</li>
+        <li>Enter both pieces of information into your mobile app settings.</li>
+    </ol>
 </body>
 </html>
