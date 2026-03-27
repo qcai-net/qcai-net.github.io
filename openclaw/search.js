@@ -1,15 +1,7 @@
-/**
- * QCAI Discovery Tool: Perplexity Search (Node.js)
- */
-const apiKey = process.env.PERPLEXITY_API_KEY;
+const apiKey = process.env.PERPLEXITY_API_KEY || "YOUR_PERPLEXITY_KEY";
 const query = process.argv.slice(2).join(' ') || "quiet cafes nearby";
 
 async function search() {
-    if (!apiKey) {
-        console.error("Error: PERPLEXITY_API_KEY not found in environment.");
-        return;
-    }
-
     try {
         const response = await fetch("https://api.perplexity.ai/chat/completions", {
             method: "POST",
@@ -20,7 +12,7 @@ async function search() {
             body: JSON.stringify({
                 model: "sonar",
                 messages: [
-                    { role: "system", content: "You are a high-agency agent. Provide a single, concise recommendation based on search results." },
+                    { role: "system", content: "Summarize search results for a high-agency agent. Be concise." },
                     { role: "user", content: query }
                 ]
             })

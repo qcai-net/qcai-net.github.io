@@ -1,13 +1,13 @@
-# TOOLS: Momentum Execution (Windows)
+# TOOLS: Momentum Execution (v2026 Node Migration)
 
 ## 1. Momentum Engine (Internal)
-- **Engine Path:** `~/.openclaw/skills/momentum/logic.js`
-- **Command:** `node ~/.openclaw/skills/momentum/logic.js`
+- **Engine Path:** `c:/Users/yonwang/.openclaw/skills/momentum/logic.js`
+- **Command:** `node c:/Users/yonwang/.openclaw/skills/momentum/logic.js`
 - **Input:** Standard Input (stdin) redirected from the iOS JSON sync.
 
 ## 2. Discovery Tools (External)
 - **Trigger:** Only if `logic.js` returns `{"decision": "ALIGN"}` or `{"decision": "ENHANCE"}`.
-- **Action A (Search):** `node ~/.openclaw/skills/momentum/search.js` (Optional Node search)
+- **Action A (Search):** `node c:/Users/yonwang/.openclaw/skills/momentum/search.js`
 - **Action B (Maps):** `google_places_search` (using `goplaces` skill)
 
 ## 3. Return Safety Check (Calculated)
@@ -16,5 +16,5 @@
 
 ## 4. Response Synthesis
 - **Format:** Combine `logic_result` + `place_result` + `SOUL_Tone`.
-- **Constraint:** No lists. Single opinionated sentence. Max 200 characters.
+- **Constraint:** No lists. Single opinionated sentence. Max 200 chars.
 - **Delivery:** Push final response back to iOS app via Gateway session.
