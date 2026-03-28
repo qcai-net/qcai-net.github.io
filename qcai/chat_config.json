@@ -1,0 +1,178 @@
+{
+    "version": 1,
+    "last_updated": "2026-02-09",
+    "welcome_message": {
+        "en": "Hey! I'm your Charlotte guide. Try one of the quick prompts below, or ask me anything!",
+        "zh": "你好！我是你的夏洛特城市助手。试试下面的快捷问题，或随便问我！"
+    },
+    "suggestions": [
+        {
+            "id": "school_zone",
+            "emoji": "🏫",
+            "label": {
+                "en": "School Zone",
+                "zh": "学区查询"
+            },
+            "prompt": {
+                "en": "What school am I zoned for at [your address]?",
+                "zh": "我家地址所属的学校是什么？"
+            },
+            "category": "education",
+            "is_featured": true
+        },
+        {
+            "id": "cms_calendar",
+            "emoji": "📅",
+            "label": {
+                "en": "CMS Calendar",
+                "zh": "学校日历"
+            },
+            "prompt": {
+                "en": "When is CMS spring break?",
+                "zh": "CMS 学校的春假是什么时候？"
+            },
+            "category": "education",
+            "is_featured": false
+        },
+        {
+            "id": "hidden_gems",
+            "emoji": "✨",
+            "label": {
+                "en": "Hidden Gems",
+                "zh": "本地秘境"
+            },
+            "prompt": {
+                "en": "Show me some hidden gems in Charlotte.",
+                "zh": "带我看看夏洛特的本地秘境。"
+            },
+            "category": "lifestyle",
+            "is_featured": true
+        },
+        {
+            "id": "trash",
+            "emoji": "🗑️",
+            "label": {
+                "en": "Trash Day",
+                "zh": "垃圾日"
+            },
+            "prompt": {
+                "en": "When is trash day at [your address]?",
+                "zh": "我家地址的垃圾收集日是哪天？"
+            },
+            "category": "city_services",
+            "is_featured": true
+        },
+        {
+            "id": "coffee",
+            "emoji": "☕",
+            "label": {
+                "en": "Coffee",
+                "zh": "咖啡"
+            },
+            "prompt": {
+                "en": "Where can I get good coffee in Charlotte?",
+                "zh": "夏洛特哪里有好喝的咖啡？"
+            },
+            "category": "vibe",
+            "is_featured": true
+        },
+        {
+            "id": "late_night",
+            "emoji": "🌙",
+            "label": {
+                "en": "Late Night",
+                "zh": "深夜"
+            },
+            "prompt": {
+                "en": "What's open late tonight in Charlotte?",
+                "zh": "夏洛特今晚有什么地方营业到很晚？"
+            },
+            "category": "vibe",
+            "is_featured": false
+        },
+        {
+            "id": "rent_fairness",
+            "emoji": "🏠",
+            "label": {
+                "en": "Rent Fair?",
+                "zh": "房租合算吗？"
+            },
+            "prompt": {
+                "en": "Is $2300 fair for a 2BR in South End?",
+                "zh": "在 South End 租一个两居室 $2300 划算吗？"
+            },
+            "category": "lifestyle",
+            "is_featured": true
+        },
+        {
+            "id": "report_pothole",
+            "emoji": "🕳️",
+            "label": {
+                "en": "Report Pothole",
+                "zh": "报修路坑"
+            },
+            "prompt": {
+                "en": "How do I report a pothole?",
+                "zh": "如何报修路面坑洞？"
+            },
+            "category": "city_services",
+            "is_featured": true
+        },
+        {
+            "id": "events",
+            "emoji": "🎫",
+            "label": {
+                "en": "Events",
+                "zh": "活动"
+            },
+            "prompt": {
+                "en": "What events are happening today in Charlotte?",
+                "zh": "夏洛特今天有什么活动？"
+            },
+            "category": "events",
+            "is_featured": false
+        },
+        {
+            "id": "col_compare",
+            "emoji": "🏠",
+            "label": {
+                "en": "COL Check",
+                "zh": "生活成本"
+            },
+            "prompt": {
+                "en": "How is the cost of living in Charlotte right now?",
+                "zh": "现在夏洛特的生活成本怎么样？"
+            },
+            "category": "lifestyle",
+            "is_featured": true
+        },
+        {
+            "id": "utility_check",
+            "emoji": "⚡",
+            "label": {
+                "en": "Utility fair?",
+                "zh": "电费贵吗？"
+            },
+            "prompt": {
+                "en": "Is $150 high for electricity in a 1BR South End apartment?",
+                "zh": "在 South End 的 1居室公寓，150 美元的电费算高吗？"
+            },
+            "category": "city_services",
+            "is_featured": true
+        }
+    ],
+    "pro_tips": [
+        {
+            "en": "Ask 'When is trash day at [address]?' to get your pickup schedule",
+            "zh": "问'我家的垃圾日是哪天'可以获取垃圾收集日程"
+        },
+        {
+            "en": "Ask 'What school am I zoned for at [address]?' to check school districts",
+            "zh": "问'我所属的学区'可以查询学校分配"
+        },
+        {
+            "en": "Try 'Show me some hidden gems' for local secrets",
+            "zh": "试试问'有哪些本地秘境'获取深度推荐"
+        }
+    ]
+}
