@@ -1,0 +1,966 @@
+{
+    "verified_professionals": [
+        {
+            "id": "qcai-specialist",
+            "name": "Queen City AI Specialist",
+            "title": "AI Infrastructure Lead",
+            "image_url": "https://quantumpropertyllc.github.io/aihardware/assets/pro1.jpg",
+            "linkedin_url": "https://www.linkedin.com/company/queencityai",
+            "facebook_url": "https://www.facebook.com/queencityai",
+            "instagram_url": "https://www.instagram.com/queencityai",
+            "x_url": "https://x.com/queencityai",
+            "email": "admin@queencityai.net",
+            "experience": "10+ Years in Distributed Systems & AI Deployment",
+            "bio": "Expert in scaling local LLM clusters and integrating private AI pipelines for enterprise clients. Leading the Queen City AI initiative to democratize high-performance hardware.",
+            "specialties": [
+                "LLM Ops",
+                "Hardware Optimization",
+                "Private Cloud"
+            ],
+            "why_verified": "Founding member of QCAI with proven track record in workstation builds."
+        },
+        {
+            "id": "clt-web-pro",
+            "name": "Charlotte Web Expert",
+            "title": "Senior Full-Stack Architect",
+            "image_url": "https://quantumpropertyllc.github.io/aihardware/assets/pro2.jpg",
+            "linkedin_url": "https://www.linkedin.com/company/queencityai",
+            "facebook_url": "https://www.facebook.com/queencityai",
+            "instagram_url": "https://www.instagram.com/queencityai",
+            "x_url": "https://x.com/queencityai",
+            "email": "dev@queencityai.net",
+            "experience": "8 Years in Modern Web & Mobile Architecture",
+            "bio": "Specializes in building high-performance web interfaces and mobile applications that integrate seamlessly with AI backends.",
+            "specialties": [
+                "React/Next.js",
+                "SwiftUI",
+                "AI Integration"
+            ],
+            "why_verified": "Technical lead for the QCAI mobile app ecosystem."
+        }
+    ],
+    "cloud_providers": [
+        {
+            "id": "public_cloud",
+            "name": "Public AI Cloud",
+            "description": "Instant access to SOTA models via API",
+            "options": [
+                {
+                    "name": "Google AI",
+                    "url": "https://ai.google.dev/"
+                },
+                {
+                    "name": "OpenAI Platform",
+                    "url": "https://platform.openai.com/"
+                },
+                {
+                    "name": "Anthropic Claude",
+                    "url": "https://www.anthropic.com/api"
+                }
+            ],
+            "best_for": "SaaS, rapid prototyping, zero maintenance"
+        },
+        {
+            "id": "private_cloud_compute",
+            "name": "Private Cloud Compute",
+            "description": "Rent dedicated H100s/A100s for training & inference",
+            "provider": "Lambda Labs",
+            "url": "https://lambdalabs.com/service/gpu-cloud",
+            "best_for": "Training runs, batch processing, scalability"
+        },
+        {
+            "id": "private_infrastructure",
+            "name": "Private Infrastructure",
+            "description": "Custom high-performance servers for your rack",
+            "provider": "Puget Systems",
+            "url": "https://www.pugetsystems.com/solutions/ai-development-workstations/",
+            "best_for": "On-prem data security, long-term TCO"
+        }
+    ],
+    "hardware_bundles": [
+        {
+            "id": "value_tier_amd_7900xtx",
+            "name": "Value King: RX 7900 XT (20GB)",
+            "gpu": "AMD Radeon RX 7900 XT",
+            "price": 699.99,
+            "vram": 20,
+            "memory_bandwidth": 960,
+            "tier": "mid",
+            "hardware_tier": 2,
+            "diy_template": "diy_midrange",
+            "best_for": "Budget 24GB VRAM (ROCm)",
+            "partner_name": "Amazon",
+            "purchase_url": "https://www.amazon.com/dp/B0BNLSDRKB?tag=queencityai-20",
+            "image_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0BNLSDRKB&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL500_",
+            "specs": "Ryzen 9 7950X, 64GB DDR5, 2TB NVMe",
+            "ai_compatibility": [
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "baichuan-2-13b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "vicuna-13b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "entry_tier_4060ti",
+            "name": "Entry: RTX 4060 Ti 16GB (Value King)",
+            "gpu": "NVIDIA RTX 4060 Ti (16GB)",
+            "price": 1339.99,
+            "vram": 16,
+            "memory_bandwidth": 288,
+            "tier": "entry",
+            "hardware_tier": 1,
+            "diy_template": "diy_midrange_ai",
+            "best_for": "7B Models, Learning (CUDA)",
+            "partner_name": "Amazon",
+            "purchase_url": "https://www.amazon.com/dp/B0DCMMZS61?tag=queencityai-20",
+            "image_url": "https://m.media-amazon.com/images/I/71fV9p-8O9L._AC_SL1500_.jpg",
+            "specs": "Intel i7-14700F, 16GB DDR5, 1TB NVMe",
+            "ai_compatibility": [
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "baichuan-2-13b",
+                    "recommended": false
+                },
+                {
+                    "model_id": "vicuna-13b",
+                    "recommended": false
+                }
+            ]
+        },
+        {
+            "id": "entry_tier_5060",
+            "name": "Entry: RTX 5060 Next Gen",
+            "gpu": "NVIDIA RTX 5060 (12GB)",
+            "price": 1499.88,
+            "vram": 12,
+            "memory_bandwidth": 456,
+            "tier": "entry",
+            "diy_template": "diy_midrange_ai",
+            "best_for": "Fast Inference & Dev Workstations",
+            "partner_name": "Amazon",
+            "purchase_url": "https://www.amazon.com/dp/B0FQYXTPVH?tag=queencityai-20",
+            "image_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0FQYXTPVH&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL500_",
+            "specs": "Intel i7-14700F, 32GB DDR5, 1TB SSD",
+            "ai_compatibility": [
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "gemma-2-9b",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "mobile_tier_amd",
+            "name": "Mobile: RTX 4060 Laptop (MSI)",
+            "gpu": "NVIDIA RTX 4060 Laptop (8GB)",
+            "price": 1888.08,
+            "vram": 8,
+            "memory_bandwidth": 125,
+            "tier": "mobile",
+            "hardware_tier": 2,
+            "diy_template": "diy_budget",
+            "best_for": "On-the-Go AI",
+            "partner_name": "Amazon",
+            "purchase_url": "https://www.amazon.com/dp/B0F15TM77B?tag=queencityai-20",
+            "image_url": "https://m.media-amazon.com/images/I/71p7eKk8IuL._AC_SL1500_.jpg",
+            "specs": "RTX 4060 Laptop, 16GB RAM, 1TB SSD",
+            "ai_compatibility": [
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "entry_tier_amd_rx9070",
+            "name": "AMD Entry: RX 9070 XT",
+            "gpu": "Radeon RX 9070 XT (16GB)",
+            "price": 1999.99,
+            "vram": 16,
+            "memory_bandwidth": 640,
+            "tier": "entry",
+            "hardware_tier": 2,
+            "diy_template": "diy_midrange_ai",
+            "best_for": "Gaming, ROCm Inference",
+            "partner_name": "Amazon",
+            "purchase_url": "https://www.amazon.com/dp/B0GL94LKRR?tag=queencityai-20",
+            "image_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0GL94LKRR&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL500_",
+            "specs": "Ryzen 7 9800X3D, 32GB DDR5, 2TB NVMe",
+            "ai_compatibility": [
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "mid_tier_5070",
+            "name": "Mid: RTX 5070 (Speed)",
+            "gpu": "NVIDIA RTX 5070 (12GB)",
+            "price": 2099.99,
+            "vram": 12,
+            "memory_bandwidth": 672,
+            "tier": "mid",
+            "diy_template": "diy_70b_midrange",
+            "best_for": "Fast Inference (CUDA)",
+            "partner_name": "Amazon",
+            "purchase_url": "https://www.amazon.com/dp/B0GM37G1Z3?tag=queencityai-20",
+            "image_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0GM37G1Z3&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL500_",
+            "specs": "Intel Ultra 7, 32GB DDR5, 2TB NVMe",
+            "ai_compatibility": [
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "mid_tier_4070s",
+            "name": "Mid: RTX 4070 Super (Alienware)",
+            "gpu": "NVIDIA RTX 4070 Super",
+            "price": 2169.0,
+            "vram": 12,
+            "memory_bandwidth": 504,
+            "tier": "mid",
+            "hardware_tier": 2,
+            "diy_template": "diy_70b_midrange",
+            "best_for": "13B Models, Balanced (CUDA)",
+            "partner_name": "Amazon",
+            "purchase_url": "https://www.amazon.com/dp/B0DKG8G5J3?tag=queencityai-20",
+            "image_url": "https://m.media-amazon.com/images/I/81+Xl9Z-MGL._AC_SL1500_.jpg",
+            "specs": "Intel i7, 32GB DDR5, 1TB SSD",
+            "ai_compatibility": [
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "gemma-2-9b",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "creative_tier_m4",
+            "name": "Creative: Mac Studio M4 Max",
+            "gpu": "Apple M4 Max",
+            "price": 2199.0,
+            "vram": 128,
+            "memory_bandwidth": 546,
+            "tier": "creative",
+            "hardware_tier": 4,
+            "diy_template": "diy_70b_midrange",
+            "best_for": "Unified Memory, MLX",
+            "partner_name": "Amazon",
+            "purchase_url": "https://www.amazon.com/dp/B0FMGSLPJQ?tag=queencityai-20",
+            "image_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0FMGSLPJQ&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL500_",
+            "specs": "64GB Unified RAM, 1TB SSD",
+            "ai_compatibility": [
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "mixtral-8x7b",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "pro_tier_amd_w7900",
+            "name": "AMD Workstation: Pro W7900",
+            "gpu": "AMD Radeon PRO W7900 (48GB)",
+            "price": 2799.0,
+            "vram": 48,
+            "memory_bandwidth": 864,
+            "tier": "enterprise",
+            "hardware_tier": 3,
+            "diy_template": "diy_titan_ai",
+            "best_for": "Large Models (ROCm)",
+            "partner_name": "Amazon",
+            "purchase_url": "https://www.amazon.com/dp/B0F7RVZNR3?tag=queencityai-20",
+            "image_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0F7RVZNR3&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL500_",
+            "specs": "Threadripper 7000, 64GB DDR5, 4TB NVMe",
+            "ai_compatibility": [
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "mixtral-8x7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "gpt-oss-20b",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "pro_tier_5080",
+            "name": "Pro: RTX 5080 (Powerhouse)",
+            "gpu": "NVIDIA RTX 5080 (16GB)",
+            "price": 3149.0,
+            "vram": 16,
+            "memory_bandwidth": 960,
+            "tier": "pro",
+            "hardware_tier": 3,
+            "diy_template": "diy_70b_midrange",
+            "best_for": "Research, 13B-33B (CUDA)",
+            "partner_name": "Amazon",
+            "purchase_url": "https://www.amazon.com/dp/B0DXFVSDNX?tag=queencityai-20",
+            "image_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0DXFVSDNX&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL500_",
+            "specs": "Intel Ultra 9, 64GB DDR5, 2TB Gen5 NVMe",
+            "ai_compatibility": [
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "baichuan-2-13b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "vicuna-13b",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "ultimate_tier_5090",
+            "name": "Ultimate: RTX 5090 (God Mode)",
+            "gpu": "NVIDIA RTX 5090 (32GB)",
+            "price": 6199.0,
+            "vram": 32,
+            "memory_bandwidth": 1792,
+            "tier": "ultimate",
+            "hardware_tier": 3,
+            "diy_template": "diy_titan_ai",
+            "best_for": "Enterprise, 70B (CUDA)",
+            "partner_name": "Amazon",
+            "purchase_url": "https://www.amazon.com/dp/B0GH2PZBF3?tag=queencityai-20",
+            "image_url": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0GH2PZBF3&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL500_",
+            "specs": "Intel Ultra 9 / Threadripper, 96GB DDR5, 4TB RAID",
+            "ai_compatibility": [
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "olmo-3-1-32b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "mixtral-8x7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "kimi-linear-48b",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "enterprise_tier_amd_mi300",
+            "name": "AMD Enterprise: Instinct MI300X",
+            "gpu": "AMD Instinct MI300X (192GB)",
+            "price": 15000.0,
+            "vram": 192,
+            "memory_bandwidth": 5300,
+            "tier": "enterprise",
+            "hardware_tier": 5,
+            "diy_template": "diy_titan_ai",
+            "best_for": "HPC, Training Clusters",
+            "partner_name": "AMD",
+            "purchase_url": "https://www.amd.com/en/products/accelerators/instinct/mi300.html",
+            "image_url": "https://placehold.co/600x400/D0021B/FFFFFF?text=AMD+Instinct+MI300X",
+            "specs": "CDNA 3, 192GB HBM3, 5.3TB/s Bandwidth",
+            "ai_compatibility": [
+                {
+                    "model_id": "kimi-k2-5",
+                    "recommended": true
+                },
+                {
+                    "model_id": "deepseek-v3-671b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "qwen-3.5-397b-a17",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "mac_m4_ultra_256",
+            "name": "Ultra: Mac Studio M4 Ultra (2026)",
+            "gpu": "Apple M4 Ultra (256GB Unified)",
+            "price": 12900.0,
+            "vram": 256,
+            "memory_bandwidth": 800,
+            "tier": "creative",
+            "hardware_tier": 5,
+            "diy_template": "diy_titan_ai",
+            "best_for": "SOTA 400B+ Models (Unified Memory)",
+            "partner_name": "Apple",
+            "purchase_url": "https://www.apple.com/mac-studio/",
+            "image_url": "https://www.apple.com/v/mac-studio/f/images/overview/hero/static_front__eo0f7p4p8lyu_large.jpg",
+            "specs": "256GB Unified RAM, 2TB SSD, M4 Ultra Chip",
+            "ai_compatibility": [
+                {
+                    "model_id": "qwen-3.5-397b-a17",
+                    "recommended": true
+                },
+                {
+                    "model_id": "kimi-k2-5",
+                    "recommended": true
+                }
+            ]
+        },
+        {
+            "id": "expert_dual_5090_offload",
+            "name": "Expert: Dual RTX 5090 (RAM Offload)",
+            "gpu": "2x NVIDIA RTX 5090 (64GB VRAM)",
+            "price": 14500.0,
+            "vram": 256,
+            "memory_bandwidth": 3584,
+            "tier": "ultimate",
+            "hardware_tier": 5,
+            "diy_template": "diy_titan_ai",
+            "best_for": "Professional Inference & Offload",
+            "partner_name": "Custom Build",
+            "purchase_url": "https://quantumpropertyllc.github.io/aihardware/diy.html?template=diy_titan_ai",
+            "image_url": "https://m.media-amazon.com/images/I/71fV9p-8O9L._AC_SL1500_.jpg",
+            "specs": "2x RTX 5090, 256GB DDR5-6000, Ryzen 9 9950X, 1600W PSU",
+            "ai_compatibility": [
+                {
+                    "model_id": "qwen-3.5-397b-a17",
+                    "recommended": true
+                }
+            ]
+        }
+    ],
+    "ai_models": [
+        {
+            "id": "qwen-3.5-397b-a17",
+            "name": "Qwen3.5-397B-A17",
+            "family": "Alibaba Qwen",
+            "parameter_size": "397B (MoE)",
+            "parameters": 397.0,
+            "context_window": 262144,
+            "is_open_weights": true,
+            "vram_requirements": {
+                "q4": 224,
+                "q8": 440
+            },
+            "min_vram": 224,
+            "model_url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF"
+        },
+        {
+            "id": "kimi-k2-5",
+            "name": "Kimi K2.5",
+            "family": "Moonshot",
+            "parameter_size": "1000B (MoE)",
+            "parameters": 1000.0,
+            "context_window": 256000,
+            "is_open_weights": true,
+            "vram_requirements": {
+                "q4": 529,
+                "q8": 1054
+            },
+            "min_vram": 530,
+            "model_url": "https://huggingface.co/moonshotai/Kimi-K2.5"
+        },
+        {
+            "id": "deepseek-v3-671b",
+            "name": "DeepSeek-V3 671B",
+            "family": "DeepSeek",
+            "parameter_size": "671B (MoE)",
+            "parameters": 671.0,
+            "context_window": 128000,
+            "is_open_weights": true,
+            "vram_requirements": {
+                "q4": 356,
+                "q8": 708
+            },
+            "min_vram": 360,
+            "model_url": "https://huggingface.co/deepseek-ai/DeepSeek-V3"
+        },
+        {
+            "id": "glm-5",
+            "name": "GLM-5",
+            "family": "Z.ai",
+            "parameter_size": "744B (MoE)",
+            "parameters": 744.0,
+            "context_window": 200000,
+            "is_open_weights": true,
+            "vram_requirements": {
+                "q4": 401,
+                "q8": 791
+            },
+            "min_vram": 405,
+            "model_url": "https://huggingface.co/zai-org/GLM-5"
+        },
+        {
+            "id": "kimi-linear-48b",
+            "name": "Kimi Linear 48B",
+            "family": "Moonshot",
+            "parameter_size": "48B",
+            "parameters": 48.0,
+            "context_window": 1000000,
+            "is_open_weights": true,
+            "vram_requirements": {
+                "q4": 28,
+                "q8": 53
+            },
+            "min_vram": 32,
+            "model_url": "https://huggingface.co/moonshotai/Kimi-Linear-48B"
+        },
+        {
+            "id": "olmo-3-1-32b",
+            "name": "OLMo 3.1 32B",
+            "family": "Ai2",
+            "parameter_size": "32B",
+            "parameters": 32.0,
+            "context_window": 65536,
+            "is_open_weights": true,
+            "vram_requirements": {
+                "q4": 25,
+                "q8": 42
+            },
+            "min_vram": 32,
+            "model_url": "https://huggingface.co/allenai/OLMo-3.1-32B"
+        },
+        {
+            "id": "llama-3.1-8b",
+            "name": "LLaMA 3.1 8B",
+            "family": "Meta LLaMA",
+            "parameter_size": "8B",
+            "parameters": 8.0,
+            "context_window": 128000,
+            "is_open_weights": true,
+            "vram_requirements": {
+                "q4": 6,
+                "q8": 10
+            },
+            "min_vram": 8,
+            "model_url": "https://huggingface.co/meta-llama/Llama-3.1-8B"
+        },
+        {
+            "id": "gemma-3-12b",
+            "name": "Gemma 3 12B",
+            "family": "Google Gemma",
+            "parameter_size": "12B",
+            "parameters": 12.0,
+            "context_window": 128000,
+            "is_open_weights": true,
+            "vram_requirements": {
+                "q4": 11,
+                "q8": 17
+            },
+            "min_vram": 12,
+            "model_url": "https://huggingface.co/google/gemma-3-12b-it"
+        },
+        {
+            "id": "llama-4-scout-109b",
+            "name": "Llama 4 Scout (109B)",
+            "family": "Meta Llama",
+            "parameter_size": "109B (MoE)",
+            "parameters": 109.0,
+            "context_window": 10000000,
+            "is_open_weights": true,
+            "vram_requirements": {
+                "q4": 69,
+                "q8": 120
+            },
+            "min_vram": 70,
+            "model_url": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+        },
+        {
+            "id": "ministral-3-8b",
+            "name": "Ministral 3 8B",
+            "family": "Mistral AI",
+            "parameter_size": "8B",
+            "parameters": 8.0,
+            "context_window": 256000,
+            "is_open_weights": true,
+            "vram_requirements": {
+                "q4": 9,
+                "q8": 13
+            },
+            "min_vram": 10,
+            "model_url": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512"
+        }
+    ],
+    "diy_templates": [
+        {
+            "id": "diy_70b_midrange",
+            "name": "Mid-Range 70B AI Workstation",
+            "estimated_cost": 2600,
+            "max_model_support": "70B Q4",
+            "gpu_vram": "24GB",
+            "upgrade_ready": true,
+            "ai_compatibility": [
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "baichuan-2-13b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "vicuna-13b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "llama-3.1-70b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "gpt-oss-20b",
+                    "recommended": false
+                }
+            ],
+            "parts": [
+                {
+                    "item": "CPU",
+                    "name": "AMD Ryzen 9 7900",
+                    "asin": "B0BBJ59WJ4",
+                    "url": "https://www.amazon.com/dp/B0BBJ59WJ4?tag=queencityai-20"
+                },
+                {
+                    "item": "GPU",
+                    "name": "MSI Gaming GeForce RTX 4090 24GB",
+                    "asin": "B0BG94PS2F",
+                    "url": "https://www.amazon.com/dp/B0BG94PS2F?tag=queencityai-20"
+                },
+                {
+                    "item": "Motherboard",
+                    "name": "MSI MAG B650 Tomahawk WiFi ATX",
+                    "asin": "B0BHCGV5YB",
+                    "url": "https://www.amazon.com/dp/B0BHCGV5YB?tag=queencityai-20"
+                },
+                {
+                    "item": "RAM",
+                    "name": "Corsair Vengeance 96GB (2x48GB) DDR5-5600",
+                    "asin": "B0CHW8QS5V",
+                    "url": "https://www.amazon.com/dp/B0CHW8QS5V?tag=queencityai-20"
+                },
+                {
+                    "item": "Storage",
+                    "name": "Samsung 990 PRO 2TB NVMe SSD",
+                    "asin": "B0BHJJ9Y77",
+                    "url": "https://www.amazon.com/dp/B0BHJJ9Y77?tag=queencityai-20"
+                },
+                {
+                    "item": "PSU",
+                    "name": "Corsair RM1000x Shift 1000W PSU",
+                    "asin": "B0BR7W87ZP",
+                    "url": "https://www.amazon.com/dp/B0BR7W87ZP?tag=queencityai-20"
+                },
+                {
+                    "item": "Case",
+                    "name": "Corsair 4000D Airflow Mid Tower",
+                    "asin": "B08C7BGV3D",
+                    "url": "https://www.amazon.com/dp/B08C7BGV3D?tag=queencityai-20"
+                },
+                {
+                    "item": "CPU Cooler",
+                    "name": "DeepCool AK620 Dual Tower",
+                    "asin": "B09CSXS3X4",
+                    "url": "https://www.amazon.com/dp/B09CSXS3X4?tag=queencityai-20"
+                }
+            ]
+        },
+        {
+            "id": "diy_70b_optimized",
+            "name": "The 70B Optimizer",
+            "estimated_cost": 3400,
+            "max_model_support": "70B Q4",
+            "gpu_vram": "24GB",
+            "upgrade_ready": true,
+            "ai_compatibility": [
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "baichuan-2-13b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "vicuna-13b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "llama-3.1-70b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "gpt-oss-20b",
+                    "recommended": false
+                }
+            ],
+            "parts": [
+                {
+                    "item": "CPU",
+                    "name": "AMD Ryzen 9 7900",
+                    "asin": "B0BBJ59WJ4",
+                    "url": "https://www.amazon.com/dp/B0BBJ59WJ4?tag=queencityai-20"
+                },
+                {
+                    "item": "GPU",
+                    "name": "MSI RTX 4090 24GB",
+                    "asin": "B0BG94PS2F",
+                    "url": "https://www.amazon.com/dp/B0BG94PS2F?tag=queencityai-20"
+                },
+                {
+                    "item": "Motherboard",
+                    "name": "MSI MAG B650 Tomahawk WiFi",
+                    "asin": "B0BHCGV5YB",
+                    "url": "https://www.amazon.com/dp/B0BHCGV5YB?tag=queencityai-20"
+                },
+                {
+                    "item": "RAM",
+                    "name": "Corsair Vengeance 128GB DDR5-5600",
+                    "asin": "B0CHS1M2KZ",
+                    "url": "https://www.amazon.com/dp/B0CHS1M2KZ?tag=queencityai-20"
+                },
+                {
+                    "item": "Storage",
+                    "name": "Samsung 990 PRO 2TB NVMe",
+                    "asin": "B0BHJJ9Y77",
+                    "url": "https://www.amazon.com/dp/B0BHJJ9Y77?tag=queencityai-20"
+                },
+                {
+                    "item": "PSU",
+                    "name": "Corsair RM1000x Shift 1000W",
+                    "asin": "B0BR7W87ZP",
+                    "url": "https://www.amazon.com/dp/B0BR7W87ZP?tag=queencityai-20"
+                },
+                {
+                    "item": "Case",
+                    "name": "Corsair 4000D Airflow",
+                    "asin": "B08C7BGV3D",
+                    "url": "https://www.amazon.com/dp/B08C7BGV3D?tag=queencityai-20"
+                },
+                {
+                    "item": "Cooler",
+                    "name": "DeepCool AK620",
+                    "asin": "B09CSXS3X4",
+                    "url": "https://www.amazon.com/dp/B09CSXS3X4?tag=queencityai-20"
+                }
+            ]
+        },
+        {
+            "id": "diy_titan_ai",
+            "name": "Titan AI Workstation",
+            "estimated_cost": 4800,
+            "max_model_support": "70B+",
+            "gpu_vram": "24GB+",
+            "upgrade_ready": true,
+            "ai_compatibility": [
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "baichuan-2-13b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "vicuna-13b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "llama-3.1-70b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "gpt-oss-20b",
+                    "recommended": true
+                }
+            ],
+            "parts": [
+                {
+                    "item": "CPU",
+                    "name": "AMD Ryzen 9 7950X",
+                    "url": "https://www.amazon.com/dp/B0BBHD5D8Y?tag=queencityai-20"
+                },
+                {
+                    "item": "Motherboard",
+                    "name": "ASUS ROG Strix X670E-E Gaming WiFi",
+                    "url": "https://www.amazon.com/dp/B0BF8V4V6B?tag=queencityai-20"
+                },
+                {
+                    "item": "GPU",
+                    "name": "MSI RTX 4090 Gaming Trio 24GB",
+                    "url": "https://www.amazon.com/dp/B0BG94PS2F?tag=queencityai-20"
+                },
+                {
+                    "item": "RAM",
+                    "name": "Corsair Vengeance 128GB (4x32GB) DDR5 5600",
+                    "url": "https://www.amazon.com/dp/B0BLYL6R4L?tag=queencityai-20"
+                },
+                {
+                    "item": "Storage",
+                    "name": "WD Black SN850X 4TB NVMe",
+                    "url": "https://www.amazon.com/dp/B0B7CPSN2K?tag=queencityai-20"
+                },
+                {
+                    "item": "PSU",
+                    "name": "Corsair HX1200 1200W Platinum",
+                    "url": "https://www.amazon.com/dp/B0CBP3C2S9?tag=queencityai-20"
+                },
+                {
+                    "item": "Case",
+                    "name": "Corsair 7000D Airflow Full Tower",
+                    "url": "https://www.amazon.com/dp/B094442NL5?tag=queencityai-20"
+                },
+                {
+                    "item": "CPU Cooler",
+                    "name": "Corsair iCUE H150i Elite Capellix XT",
+                    "url": "https://www.amazon.com/dp/B0B3T6XQ6M?tag=queencityai-20"
+                }
+            ]
+        },
+        {
+            "id": "diy_midrange_ai",
+            "name": "Balanced AI Workstation",
+            "estimated_cost": 2400,
+            "max_model_support": "13B-33B",
+            "gpu_vram": "16GB",
+            "upgrade_ready": true,
+            "ai_compatibility": [
+                {
+                    "model_id": "llama-3.1-8b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "mistral-7b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "baichuan-2-13b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "vicuna-13b",
+                    "recommended": true
+                },
+                {
+                    "model_id": "llama-3.1-70b",
+                    "recommended": false
+                },
+                {
+                    "model_id": "gpt-oss-20b",
+                    "recommended": false
+                }
+            ],
+            "parts": [
+                {
+                    "item": "CPU",
+                    "name": "Intel Core i7-14700K",
+                    "url": "https://www.amazon.com/dp/B0CGJC178L?tag=queencityai-20"
+                },
+                {
+                    "item": "Motherboard",
+                    "name": "MSI MAG Z790 Tomahawk WiFi DDR5",
+                    "url": "https://www.amazon.com/dp/B0BG7DY6MT?tag=queencityai-20"
+                },
+                {
+                    "item": "GPU",
+                    "name": "ASUS TUF RTX 4070 Ti Super 16GB",
+                    "url": "https://www.amazon.com/dp/B0CSJY8G9B?tag=queencityai-20"
+                },
+                {
+                    "item": "RAM",
+                    "name": "G.Skill Ripjaws S5 64GB (2x32GB) DDR5 6000",
+                    "url": "https://www.amazon.com/dp/B0BJN9F5FK?tag=queencityai-20"
+                },
+                {
+                    "item": "Storage",
+                    "name": "Samsung 990 Pro 2TB NVMe",
+                    "url": "https://www.amazon.com/dp/B0BHJJ9Y77?tag=queencityai-20"
+                },
+                {
+                    "item": "PSU",
+                    "name": "MSI MPG A1000G PCIe5 1000W",
+                    "url": "https://www.amazon.com/dp/B0B4345YV7?tag=queencityai-20"
+                },
+                {
+                    "item": "Case",
+                    "name": "NZXT H6 Flow",
+                    "url": "https://www.amazon.com/dp/B0C5S5YH43?tag=queencityai-20"
+                },
+                {
+                    "item": "CPU Cooler",
+                    "name": "ARCTIC Liquid Freezer II 360",
+                    "url": "https://www.amazon.com/dp/B07WNJCVNW?tag=queencityai-20"
+                }
+            ]
+        }
+    ]
+}
