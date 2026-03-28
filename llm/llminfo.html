@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCAI | LLM Knowledge Base</title>
+    <meta name="description"
+        content="A curated list of major knowledge base regarding LLM models, performance, and hardware requirements.">
+    <!-- Google Fonts: Outfit for titles, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@700;900&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #030303;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --primary: #007aff;
+            --secondary: #32ade6;
+            --accent: #af52de;
+            --text-main: #f5f5f7;
+            --text-muted: #86868b;
+            --glass-blur: blur(25px);
+            --row-hover: rgba(255, 255, 255, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            overflow-x: hidden;
+            line-height: 1.5;
+            min-height: 100vh;
+        }
+
+        .ambient-glow {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+            background:
+                radial-gradient(circle at 15% 15%, rgba(0, 122, 255, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 85% 85%, rgba(175, 82, 222, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 50% 50%, rgba(50, 173, 230, 0.05) 0%, transparent 60%);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: clamp(2.2rem, 8vw, 3.8rem);
+            font-weight: 900;
+            margin-bottom: 20px;
+            letter-spacing: -0.04em;
+            background: linear-gradient(135deg, #fff 30%, #a1a1a6 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Controls Area */
+        .controls {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 40px;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            padding: 24px;
+            border-radius: 24px;
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+        }
+
+        .search-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .search-container input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            padding: 14px 20px 14px 45px;
+            color: var(--text-main);
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .search-container input:focus {
+            border-color: var(--primary);
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.15);
+        }
+
+        .search-container svg {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .filter-label {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-right: 8px;
+        }
+
+        .filter-chip {
+            padding: 8px 16px;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--card-border);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        .filter-chip:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-main);
+        }
+
+        .filter-chip.active {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+
+        /* Table Styles */
+        .table-wrapper {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            overflow: hidden;
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+            margin-bottom: 60px;
+        }
+
+        .scroll-hint {
+            display: none;
+            padding: 8px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            background: rgba(255, 255, 255, 0.02);
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 18px 20px;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            color: var(--text-main);
+            border-bottom: 1px solid var(--card-border);
+            cursor: pointer;
+            user-select: none;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th:hover {
+            color: var(--primary);
+        }
+
+        th span {
+            margin-left: 6px;
+            opacity: 0.5;
+        }
+
+        td {
+            padding: 18px 20px;
+            border-bottom: 1px solid var(--card-border);
+            color: var(--text-main);
+            vertical-align: middle;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr.model-row {
+            transition: background 0.2s;
+            cursor: pointer;
+        }
+
+        tr.model-row:hover {
+            background: var(--row-hover);
+        }
+
+        .model-name {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .provider-tag {
+            font-size: 0.8rem;
+            padding: 4px 10px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 6px;
+            color: var(--text-muted);
+        }
+
+        .detail-row {
+            background: rgba(0, 0, 0, 0.2);
+            display: none;
+        }
+
+        .detail-row.expanded {
+            display: table-row;
+        }
+
+        .detail-content {
+            padding: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            animation: slideDown 0.3s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .detail-card {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 20px;
+            border-radius: 16px;
+            border: 1px solid var(--card-border);
+        }
+
+        .detail-title {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            color: var(--secondary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .detail-text {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .btn-download {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: transform 0.2s, background 0.2s;
+            margin-top: 15px;
+        }
+
+        .btn-download:hover {
+            background: #1a8bff;
+            transform: scale(1.02);
+        }
+
+        .btn-strategy {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 14px 28px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-top: 25px;
+            box-shadow: 0 10px 25px rgba(0, 122, 255, 0.25);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-strategy:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(0, 122, 255, 0.45);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* External Resources */
+        .resources-section {
+            margin-top: 80px;
+        }
+
+        .section-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 24px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .card-icon {
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+        }
+
+        .card-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .card-desc {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 16px;
+            flex-grow: 1;
+        }
+
+        .card-link {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        footer {
+            margin-top: 100px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--card-border);
+            padding-top: 40px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 900px) {
+            .table-wrapper {
+                overflow-x: auto;
+            }
+
+            .scroll-hint {
+                display: block;
+            }
+
+            th,
+            td {
+                padding: 14px 15px;
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 16px;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            .controls {
+                padding: 16px;
+            }
+
+            .detail-content {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ambient-glow"></div>
+
+    <div class="container">
+        <header>
+            <h1>LLM Knowledge Base</h1>
+            <p class="subtitle">An advanced research directory for Large Language Models, optimizing hardware builds and
+                performance benchmarking.</p>
+            <a href="https://quantumpropertyllc.github.io/aihardware/aistrategy.html" class="btn-strategy">
+                🎯 Build Your AI Strategy Roadmap
+            </a>
+        </header>
+
+        <section class="controls">
+            <div class="search-container">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" id="modelSearch" placeholder="Search models, providers, or capabilities...">
+            </div>
+
+            <div class="filters" id="providerFilters">
+                <span class="filter-label">Providers:</span>
+                <span class="filter-chip active" data-provider="all">All</span>
+                <!-- Providers will be injected here -->
+            </div>
+
+            <div class="filters" id="modalityFilters">
+                <span class="filter-label">Modality:</span>
+                <span class="filter-chip active" data-modality="all">All</span>
+                <!-- Modalities will be injected here -->
+            </div>
+        </section>
+
+        <div class="table-wrapper">
+            <div class="scroll-hint">Swipe left to see more data →</div>
+            <table id="modelTable">
+                <thead>
+                    <tr>
+                        <th data-sort="Model">Model <span>⇅</span></th>
+                        <th data-sort="Provider">Provider <span>⇅</span></th>
+                        <th data-sort="Parameters (Total)">Params (Total) <span>⇅</span></th>
+                        <th data-sort="Context">Context <span>⇅</span></th>
+                        <th data-sort="Tokens/s (RTX 5090)">Speed (5090) <span>⇅</span></th>
+                        <th data-sort="VRAM Q4 (32k ctx)">VRAM Q4 (GB) <span>⇅</span></th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Data rows injected here -->
+                </tbody>
+            </table>
+        </div>
+
+        <section class="resources-section">
+            <h2 class="section-title">External Resources</h2>
+            <div class="grid">
+                <a href="https://apxml.com/models" class="card" target="_blank">
+                    <span class="card-icon">🧠</span>
+                    <h3 class="card-title">LLM Models, VRAM calculator, and more</h3>
+                    <p class="card-desc">Original source database for context windows and performance metadata.</p>
+                    <div class="card-link">Explore Site <span>→</span></div>
+                </a>
+                <a href="https://www.reddit.com/r/LocalLLaMA/" class="card" target="_blank">
+                    <span class="card-icon">📡</span>
+                    <h3 class="card-title">r/LocalLLaMA</h3>
+                    <p class="card-desc">The primary community hub for edge-computing AI and local inference.</p>
+                    <div class="card-link">Visit Reddit <span>→</span></div>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 QCAI Business Hub. Empowering the Charlotte AI Ecosystem.</p>
+        </footer>
+    </div>
+    <script id="modelData" type="application/json">
+[
+  {
+    "Model": "Llama 4 Scout",
+    "Provider": "Meta",
+    "Parameters (Total)": "109.0",
+    "Parameters (Active)": "17.0",
+    "Context": "10000000",
+    "Tokens/s (RTX 5090)": "40 - 70 tok/s",
+    "GGUF Download Link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "VRAM Q4 (32k ctx)": "69.4",
+    "VRAM Q8 (32k ctx)": "120.0",
+    "VRAM FP16 (32k ctx)": "220.0",
+    "Buyer's Guide (Budget <$5k)": "Tier 4: Professional ($4,000 - $6,000). Sweet spot for high reasoning.",
+    "Step-by-Step Build Guide": "Recommended Hardware (Mac): Mac Studio M4 Ultra 128GB. Recommended Hardware (PC): 3x RTX 5090.",
+    "Target/Best For": "Frontier-class reasoning, 10M token context window, mult-doc analysis.",
+    "Modality": "Native Vision + Text",
+    "Architecture": "MoE with 16 experts (17B active)"
+  },
+  {
+    "Model": "Qwen3.5-397B-A17",
+    "Provider": "Alibaba Qwen",
+    "Parameters (Total)": "397.0",
+    "Parameters (Active)": "17.0",
+    "Context": "262144",
+    "Tokens/s (RTX 5090)": "25 - 40 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF",
+    "VRAM Q4 (32k ctx)": "224.0",
+    "VRAM Q8 (32k ctx)": "440.0",
+    "VRAM FP16 (32k ctx)": "800.0",
+    "Buyer's Guide (Budget <$5k)": "Requires Tier 5: Expert System RAM Offload or M4 Ultra Cluster ($12k+).",
+    "Step-by-Step Build Guide": "Option A: Mac Studio M4 Ultra 256GB. Option B: 2x RTX 5090 + 256GB DDR5 RAM Offload.",
+    "Target/Best For": "Complex Accounting & Tax Logic, Expert Coding, System Architecture.",
+    "Modality": "Native Vision + Video + Text",
+    "Architecture": "Hybrid Gated DeltaNet + MoE"
+  },
+  {
+    "Model": "Kimi K2.5",
+    "Provider": "Moonshot",
+    "Parameters (Total)": "1000.0",
+    "Parameters (Active)": "32.0",
+    "Context": "256000",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/moonshotai/Kimi-K2.5",
+    "VRAM Q4 (32k ctx)": "529.09",
+    "VRAM Q8 (32k ctx)": "1054.09",
+    "VRAM FP16 (32k ctx)": "2104.09",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "Long context document processing, legal, coding.",
+    "Modality": "Text",
+    "Released Date": "2025-12",
+    "Layers (L)": "61",
+    "KV Heads": "1",
+    "Head Dimension": "512",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "DeepSeek-V3.1",
+    "Provider": "DeepSeek",
+    "Parameters (Total)": "671.0",
+    "Parameters (Active)": "37.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/DeepSeek-V3.1-GGUF",
+    "VRAM Q4 (32k ctx)": "356.37",
+    "VRAM Q8 (32k ctx)": "708.64",
+    "VRAM FP16 (32k ctx)": "1413.19",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "Advanced coding, mathematical reasoning, agentic tasks.",
+    "Modality": "Text/Code",
+    "Released Date": "2025-10",
+    "Layers (L)": "61",
+    "KV Heads": "1",
+    "Head Dimension": "512",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "GLM-5",
+    "Provider": "Z.ai",
+    "Parameters (Total)": "744.0",
+    "Parameters (Active)": "40.0",
+    "Context": "200000",
+    "Tokens/s (RTX 5090)": "10 - 20 tok/s",
+    "GGUF Download Link": "https://huggingface.co/zai-org/GLM-5",
+    "VRAM Q4 (32k ctx)": "401.34",
+    "VRAM Q8 (32k ctx)": "791.94",
+    "VRAM FP16 (32k ctx)": "1573.14",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "Multilingual complex reasoning, enterprise agents.",
+    "Modality": "Text",
+    "Released Date": "2026-01",
+    "Layers (L)": "80",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Mistral Large 3",
+    "Provider": "Mistral",
+    "Parameters (Total)": "675.0",
+    "Parameters (Active)": "41.0",
+    "Context": "256000",
+    "Tokens/s (RTX 5090)": "10 - 20 tok/s",
+    "GGUF Download Link": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512",
+    "VRAM Q4 (32k ctx)": "365.11",
+    "VRAM Q8 (32k ctx)": "719.49",
+    "VRAM FP16 (32k ctx)": "1428.24",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "RAG, enterprise document processing, logical reasoning.",
+    "Modality": "Text",
+    "Released Date": "2025-11",
+    "Layers (L)": "80",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "DeepSeek-V3.2 Thinking",
+    "Provider": "DeepSeek",
+    "Parameters (Total)": "671.0",
+    "Parameters (Active)": "37.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+    "VRAM Q4 (32k ctx)": "356.37",
+    "VRAM Q8 (32k ctx)": "708.64",
+    "VRAM FP16 (32k ctx)": "1413.19",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "Deep chain-of-thought, complex math, AIME level problems.",
+    "Modality": "Text/Code",
+    "Released Date": "2026-02",
+    "Layers (L)": "61",
+    "KV Heads": "1",
+    "Head Dimension": "512",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "GLM-4.7",
+    "Provider": "Z.ai",
+    "Parameters (Total)": "358.0",
+    "Parameters (Active)": "32.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/GLM-4.7-GGUF",
+    "VRAM Q4 (32k ctx)": "196.54",
+    "VRAM Q8 (32k ctx)": "384.49",
+    "VRAM FP16 (32k ctx)": "760.39",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "Agentic coding, UI generation, terminal tasks.",
+    "Modality": "Text",
+    "Released Date": "2025-12",
+    "Layers (L)": "64",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "GLM-4.5-Air",
+    "Provider": "Z.ai",
+    "Parameters (Total)": "106.0",
+    "Parameters (Active)": "12.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "40 - 70 tok/s",
+    "GGUF Download Link": "https://huggingface.co/zai-org/GLM-4.5-Air",
+    "VRAM Q4 (32k ctx)": "62.09",
+    "VRAM Q8 (32k ctx)": "117.74",
+    "VRAM FP16 (32k ctx)": "229.04",
+    "Buyer's Guide (Budget <$5k)": "Tier 4: $4,000 - $6,000 (Mac Studio M4 Max/Ultra)",
+    "Step-by-Step Build Guide": "Device: Mac Studio | Processor: M4 Ultra | Memory: 128GB Unified | Storage: 2TB SSD",
+    "Target/Best For": "High-efficiency chat, mobile agents, fast reasoning.",
+    "Modality": "Text",
+    "Released Date": "2025-06",
+    "Layers (L)": "48",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "DeepSeek-V3 671B",
+    "Provider": "DeepSeek",
+    "Parameters (Total)": "671.0",
+    "Parameters (Active)": "37.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/GreenBitAI/DeepSeek-V3-0324-671B-layer-mix-bpw-4.0-mlx",
+    "VRAM Q4 (32k ctx)": "356.37",
+    "VRAM Q8 (32k ctx)": "708.64",
+    "VRAM FP16 (32k ctx)": "1413.19",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "General high-performance open MoE, coding.",
+    "Modality": "Text/Code",
+    "Released Date": "2024-12",
+    "Layers (L)": "61",
+    "KV Heads": "1",
+    "Head Dimension": "512",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "NVIDIA Nemotron 3 Nano 30B-A3B",
+    "Provider": "NVIDIA",
+    "Parameters (Total)": "31.6",
+    "Parameters (Active)": "3.2",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "120 - 150 tok/s",
+    "GGUF Download Link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4",
+    "VRAM Q4 (32k ctx)": "18.33",
+    "VRAM Q8 (32k ctx)": "34.92",
+    "VRAM FP16 (32k ctx)": "68.1",
+    "Buyer's Guide (Budget <$5k)": "Tier 2: $1,200 - $1,800 (Used RTX 3090 24GB)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 7 7700X | GPU: Used RTX 3090 24GB | RAM: 32GB DDR5-6000 | PSU: 850W Gold Modular | Case: Fractal Meshify 2",
+    "Target/Best For": "On-device reasoning, low-latency agents, translation.",
+    "Modality": "Text",
+    "Released Date": "2025-12",
+    "Layers (L)": "52",
+    "KV Heads": "2",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "OLMo 3.1 32B Instruct",
+    "Provider": "Ai2",
+    "Parameters (Total)": "32.0",
+    "Parameters (Active)": "32.0",
+    "Context": "65536",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct",
+    "VRAM Q4 (32k ctx)": "24.85",
+    "VRAM Q8 (32k ctx)": "41.65",
+    "VRAM FP16 (32k ctx)": "75.25",
+    "Buyer's Guide (Budget <$5k)": "Tier 3: $2,500 - $3,000 (RTX 5090 32GB)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 9 9950X | GPU: RTX 5090 32GB | MB: ASUS X870E | RAM: 64GB DDR5 | PSU: 1500W ATX 3.1 | Cooler: 360mm AIO",
+    "Target/Best For": "Fully open scientific research, instruction following.",
+    "Modality": "Text",
+    "Released Date": "2025-11",
+    "Layers (L)": "60",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "OLMo 3.1 32B Think",
+    "Provider": "Ai2",
+    "Parameters (Total)": "32.0",
+    "Parameters (Active)": "32.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/Olmo-3.1-32B-Think-GGUF",
+    "VRAM Q4 (32k ctx)": "24.85",
+    "VRAM Q8 (32k ctx)": "41.65",
+    "VRAM FP16 (32k ctx)": "75.25",
+    "Buyer's Guide (Budget <$5k)": "Tier 3: $2,500 - $3,000 (RTX 5090 32GB)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 9 9950X | GPU: RTX 5090 32GB | MB: ASUS X870E | RAM: 64GB DDR5 | PSU: 1500W ATX 3.1 | Cooler: 360mm AIO",
+    "Target/Best For": "Inspectable chain-of-thought, academic reasoning.",
+    "Modality": "Text",
+    "Released Date": "2025-11",
+    "Layers (L)": "60",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "MiMo V2 Flash",
+    "Provider": "Xiaomi",
+    "Parameters (Total)": "309.0",
+    "Parameters (Active)": "15.0",
+    "Context": "256000",
+    "Tokens/s (RTX 5090)": "40 - 70 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/MiMo-V2-Flash-GGUF",
+    "VRAM Q4 (32k ctx)": "168.67",
+    "VRAM Q8 (32k ctx)": "330.89",
+    "VRAM FP16 (32k ctx)": "655.34",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "Fast reasoning, agentic tool use, SWE-bench coding.",
+    "Modality": "Text",
+    "Released Date": "2026-01",
+    "Layers (L)": "48",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Ministral 3 8B",
+    "Provider": "Mistral",
+    "Parameters (Total)": "8.0",
+    "Parameters (Active)": "8.0",
+    "Context": "256000",
+    "Tokens/s (RTX 5090)": "90 - 120 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/Ministral-3-8B-Instruct-2512-GGUF",
+    "VRAM Q4 (32k ctx)": "8.76",
+    "VRAM Q8 (32k ctx)": "12.96",
+    "VRAM FP16 (32k ctx)": "21.36",
+    "Buyer's Guide (Budget <$5k)": "Tier 1: Under $800 (RTX 3060 12GB / 4070)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 5 7600 | GPU: RTX 4070 12GB | RAM: 32GB DDR5 | PSU: 650W Gold | Case: Corsair 4000D",
+    "Target/Best For": "Edge device multimodal, mobile assistants.",
+    "Modality": "Text/Image",
+    "Released Date": "2026-01",
+    "Layers (L)": "34",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Ministral 3 14B",
+    "Provider": "Mistral",
+    "Parameters (Total)": "14.0",
+    "Parameters (Active)": "14.0",
+    "Context": "256000",
+    "Tokens/s (RTX 5090)": "40 - 70 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/Ministral-3-14B-Instruct-2512-GGUF",
+    "VRAM Q4 (32k ctx)": "12.72",
+    "VRAM Q8 (32k ctx)": "20.07",
+    "VRAM FP16 (32k ctx)": "34.77",
+    "Buyer's Guide (Budget <$5k)": "Tier 2: $1,200 - $1,800 (Used RTX 3090 24GB)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 7 7700X | GPU: Used RTX 3090 24GB | RAM: 32GB DDR5-6000 | PSU: 850W Gold Modular | Case: Fractal Meshify 2",
+    "Target/Best For": "Mid-tier multimodal, stable instruction following.",
+    "Modality": "Text/Image",
+    "Released Date": "2026-01",
+    "Layers (L)": "40",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Ministral 3 3B",
+    "Provider": "Mistral",
+    "Parameters (Total)": "3.0",
+    "Parameters (Active)": "3.0",
+    "Context": "256000",
+    "Tokens/s (RTX 5090)": "120 - 150 tok/s",
+    "GGUF Download Link": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF",
+    "VRAM Q4 (32k ctx)": "5.06",
+    "VRAM Q8 (32k ctx)": "6.64",
+    "VRAM FP16 (32k ctx)": "9.79",
+    "Buyer's Guide (Budget <$5k)": "Tier 1: Under $800 (RTX 3060 12GB / 4070)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 5 7600 | GPU: RTX 4070 12GB | RAM: 32GB DDR5 | PSU: 650W Gold | Case: Corsair 4000D",
+    "Target/Best For": "Ultra-lightweight edge AI, low-latency chat.",
+    "Modality": "Text/Image",
+    "Released Date": "2026-01",
+    "Layers (L)": "26",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "MiniMax M2",
+    "Provider": "MiniMax",
+    "Parameters (Total)": "450.0",
+    "Parameters (Active)": "30.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/MiniMax-M2.5-GGUF",
+    "VRAM Q4 (32k ctx)": "244.84",
+    "VRAM Q8 (32k ctx)": "481.09",
+    "VRAM FP16 (32k ctx)": "953.59",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "Roleplay, creative writing, emotional intelligence.",
+    "Modality": "Text",
+    "Released Date": "2025-08",
+    "Layers (L)": "64",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Kimi K2 Thinking",
+    "Provider": "Moonshot",
+    "Parameters (Total)": "1043.0",
+    "Parameters (Active)": "32.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/Kimi-K2-Thinking-GGUF",
+    "VRAM Q4 (32k ctx)": "551.67",
+    "VRAM Q8 (32k ctx)": "1099.24",
+    "VRAM FP16 (32k ctx)": "2194.39",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "Complex planning, verifiable reasoning, math.",
+    "Modality": "Text",
+    "Released Date": "2025-09",
+    "Layers (L)": "61",
+    "KV Heads": "1",
+    "Head Dimension": "512",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Kimi Linear 48B A3B Instruct",
+    "Provider": "Moonshot",
+    "Parameters (Total)": "48.0",
+    "Parameters (Active)": "3.0",
+    "Context": "1000000",
+    "Tokens/s (RTX 5090)": "120 - 150 tok/s",
+    "GGUF Download Link": "https://huggingface.co/ymcki/Kimi-Linear-48B-A3B-Instruct-GGUF",
+    "VRAM Q4 (32k ctx)": "28.42",
+    "VRAM Q8 (32k ctx)": "53.62",
+    "VRAM FP16 (32k ctx)": "104.02",
+    "Buyer's Guide (Budget <$5k)": "Tier 3: $2,500 - $3,000 (RTX 5090 32GB)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 9 9950X | GPU: RTX 5090 32GB | MB: ASUS X870E | RAM: 64GB DDR5 | PSU: 1500W ATX 3.1 | Cooler: 360mm AIO",
+    "Target/Best For": "Infinite context retrieval, high-throughput chat.",
+    "Modality": "Text",
+    "Released Date": "2025-11",
+    "Layers (L)": "48",
+    "KV Heads": "1",
+    "Head Dimension": "512",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Gemma 3 270M",
+    "Provider": "Google",
+    "Parameters (Total)": "0.27",
+    "Parameters (Active)": "0.27",
+    "Context": "8192",
+    "Tokens/s (RTX 5090)": "120 - 150 tok/s",
+    "GGUF Download Link": "https://huggingface.co/google/gemma-3-270m",
+    "VRAM Q4 (32k ctx)": "0.68",
+    "VRAM Q8 (32k ctx)": "0.82",
+    "VRAM FP16 (32k ctx)": "1.1",
+    "Buyer's Guide (Budget <$5k)": "Tier 1: Under $800 (RTX 3060 12GB / 4070)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 5 7600 | GPU: RTX 4070 12GB | RAM: 32GB DDR5 | PSU: 650W Gold | Case: Corsair 4000D",
+    "Target/Best For": "IoT, simple embedded tasks, browser extensions.",
+    "Modality": "Text",
+    "Released Date": "2025-12",
+    "Layers (L)": "16",
+    "KV Heads": "4",
+    "Head Dimension": "64",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "GPT-OSS 20B",
+    "Provider": "OpenAI/Community",
+    "Parameters (Total)": "21.0",
+    "Parameters (Active)": "3.6",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "120 - 150 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF",
+    "VRAM Q4 (32k ctx)": "12.64",
+    "VRAM Q8 (32k ctx)": "23.66",
+    "VRAM FP16 (32k ctx)": "45.71",
+    "Buyer's Guide (Budget <$5k)": "Tier 2: $1,200 - $1,800 (Used RTX 3090 24GB)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 7 7700X | GPU: Used RTX 3090 24GB | RAM: 32GB DDR5-6000 | PSU: 850W Gold Modular | Case: Fractal Meshify 2",
+    "Target/Best For": "Low-latency open-weight GPT alternative.",
+    "Modality": "Text",
+    "Released Date": "2025-08",
+    "Layers (L)": "24",
+    "KV Heads": "8",
+    "Head Dimension": "64",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "GPT-OSS 120B",
+    "Provider": "OpenAI/Community",
+    "Parameters (Total)": "117.0",
+    "Parameters (Active)": "5.1",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "90 - 120 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/gpt-oss-120b-GGUF",
+    "VRAM Q4 (32k ctx)": "63.84",
+    "VRAM Q8 (32k ctx)": "125.27",
+    "VRAM FP16 (32k ctx)": "248.12",
+    "Buyer's Guide (Budget <$5k)": "Tier 4: $4,000 - $6,000 (Mac Studio M4 Max/Ultra)",
+    "Step-by-Step Build Guide": "Device: Mac Studio | Processor: M4 Ultra | Memory: 128GB Unified | Storage: 2TB SSD",
+    "Target/Best For": "Enterprise-grade open MoE, reasoning, coding.",
+    "Modality": "Text",
+    "Released Date": "2025-08",
+    "Layers (L)": "36",
+    "KV Heads": "8",
+    "Head Dimension": "64",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Qwen3 Coder 480B A35B",
+    "Provider": "Alibaba Qwen",
+    "Parameters (Total)": "480.0",
+    "Parameters (Active)": "35.0",
+    "Context": "262144",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/Qwen3-Coder-480B-A35B-Instruct-GGUF",
+    "VRAM Q4 (32k ctx)": "262.74",
+    "VRAM Q8 (32k ctx)": "514.74",
+    "VRAM FP16 (32k ctx)": "1018.74",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "Professional coding, repository management, system architecture.",
+    "Modality": "Text/Code",
+    "Released Date": "2025-11",
+    "Layers (L)": "80",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Qwen3 Next 80B A3B",
+    "Provider": "Alibaba Qwen",
+    "Parameters (Total)": "80.0",
+    "Parameters (Active)": "3.9",
+    "Context": "262144",
+    "Tokens/s (RTX 5090)": "120 - 150 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/Qwen3-Next-80B-A3B-Instruct-GGUF",
+    "VRAM Q4 (32k ctx)": "45.22",
+    "VRAM Q8 (32k ctx)": "87.22",
+    "VRAM FP16 (32k ctx)": "171.22",
+    "Buyer's Guide (Budget <$5k)": "Tier 4: $4,000 - $6,000 (Mac Studio M4 Max/Ultra)",
+    "Step-by-Step Build Guide": "Device: Mac Studio | Processor: M4 Ultra | Memory: 128GB Unified | Storage: 2TB SSD",
+    "Target/Best For": "High-throughput agents, low-cost reasoning.",
+    "Modality": "Text",
+    "Released Date": "2025-09",
+    "Layers (L)": "48",
+    "KV Heads": "2",
+    "Head Dimension": "256",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Gemma 3 27B",
+    "Provider": "Google",
+    "Parameters (Total)": "27.0",
+    "Parameters (Active)": "27.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/gemma-3-27b-it-GGUF",
+    "VRAM Q4 (32k ctx)": "20.62",
+    "VRAM Q8 (32k ctx)": "34.79",
+    "VRAM FP16 (32k ctx)": "63.14",
+    "Buyer's Guide (Budget <$5k)": "Tier 2: $1,200 - $1,800 (Used RTX 3090 24GB)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 7 7700X | GPU: Used RTX 3090 24GB | RAM: 32GB DDR5-6000 | PSU: 850W Gold Modular | Case: Fractal Meshify 2",
+    "Target/Best For": "Strong general-purpose dense model, academic tasks.",
+    "Modality": "Text/Multimodal",
+    "Released Date": "2025-12",
+    "Layers (L)": "48",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Gemma 3 12B",
+    "Provider": "Google",
+    "Parameters (Total)": "12.0",
+    "Parameters (Active)": "12.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "40 - 70 tok/s",
+    "GGUF Download Link": "https://huggingface.co/google/gemma-3-12b-it",
+    "VRAM Q4 (32k ctx)": "11.13",
+    "VRAM Q8 (32k ctx)": "17.43",
+    "VRAM FP16 (32k ctx)": "30.03",
+    "Buyer's Guide (Budget <$5k)": "Tier 1: Under $800 (RTX 3060 12GB / 4070)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 5 7600 | GPU: RTX 4070 12GB | RAM: 32GB DDR5 | PSU: 650W Gold | Case: Corsair 4000D",
+    "Target/Best For": "Consumer GPU high-quality chat/vision.",
+    "Modality": "Text/Multimodal",
+    "Released Date": "2025-12",
+    "Layers (L)": "36",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Qwen3 235B A22B Thinking",
+    "Provider": "Alibaba Qwen",
+    "Parameters (Total)": "235.0",
+    "Parameters (Active)": "22.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Thinking",
+    "VRAM Q4 (32k ctx)": "131.96",
+    "VRAM Q8 (32k ctx)": "255.34",
+    "VRAM FP16 (32k ctx)": "502.09",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "Logical reasoning, competitive math, specialized research.",
+    "Modality": "Text",
+    "Released Date": "2025-07",
+    "Layers (L)": "64",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "DeepSeek-V3.2",
+    "Provider": "DeepSeek",
+    "Parameters (Total)": "671.0",
+    "Parameters (Active)": "37.0",
+    "Context": "128000",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/unsloth/DeepSeek-V3.2-GGUF",
+    "VRAM Q4 (32k ctx)": "356.37",
+    "VRAM Q8 (32k ctx)": "708.64",
+    "VRAM FP16 (32k ctx)": "1413.19",
+    "Buyer's Guide (Budget <$5k)": "Tier 5: Enterprise / $10k+ (H100 Cluster / Mac Studio Maxed)",
+    "Step-by-Step Build Guide": "Requires Cluster Setup: Multiple H100s or Multi-node Mac Studio setup.",
+    "Target/Best For": "Balanced reasoning and high-speed generation.",
+    "Modality": "Text/Code",
+    "Released Date": "2026-02",
+    "Layers (L)": "61",
+    "KV Heads": "1",
+    "Head Dimension": "512",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "LLaMA 3.1 8B",
+    "Provider": "Meta",
+    "Parameters (Total)": "8.03",
+    "Parameters (Active)": "8.03",
+    "Context": "131072",
+    "Tokens/s (RTX 5090)": "90 - 120 tok/s",
+    "GGUF Download Link": "https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
+    "VRAM Q4 (32k ctx)": "8.51",
+    "VRAM Q8 (32k ctx)": "12.73",
+    "VRAM FP16 (32k ctx)": "21.16",
+    "Buyer's Guide (Budget <$5k)": "Tier 1: Under $800 (RTX 3060 12GB / 4070)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 5 7600 | GPU: RTX 4070 12GB | RAM: 32GB DDR5 | PSU: 650W Gold | Case: Corsair 4000D",
+    "Target/Best For": "General purpose, edge devices, high-speed chat.",
+    "Modality": "Text",
+    "Released Date": "2024-07",
+    "Layers (L)": "32",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Mistral 7B",
+    "Provider": "Mistral",
+    "Parameters (Total)": "7.24",
+    "Parameters (Active)": "7.24",
+    "Context": "32768",
+    "Tokens/s (RTX 5090)": "90 - 120 tok/s",
+    "GGUF Download Link": "https://huggingface.co/bartowski/Mistral-7B-Instruct-v0.3-GGUF",
+    "VRAM Q4 (32k ctx)": "8.1",
+    "VRAM Q8 (32k ctx)": "11.9",
+    "VRAM FP16 (32k ctx)": "19.5",
+    "Buyer's Guide (Budget <$5k)": "Tier 1: Under $800 (RTX 3060 12GB / 4070)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 5 7600 | GPU: RTX 4070 12GB | RAM: 32GB DDR5 | PSU: 650W Gold | Case: Corsair 4000D",
+    "Target/Best For": "Summarization, light reasoning, historical benchmark.",
+    "Modality": "Text",
+    "Released Date": "2023-09",
+    "Layers (L)": "32",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Baichuan 2 13B",
+    "Provider": "Baichuan",
+    "Parameters (Total)": "13.0",
+    "Parameters (Active)": "13.0",
+    "Context": "4096",
+    "Tokens/s (RTX 5090)": "40 - 70 tok/s",
+    "GGUF Download Link": "https://huggingface.co/mav23/Baichuan2-13B-Chat-GGUF",
+    "VRAM Q4 (32k ctx)": "33.67",
+    "VRAM Q8 (32k ctx)": "40.49",
+    "VRAM FP16 (32k ctx)": "54.14",
+    "Buyer's Guide (Budget <$5k)": "Tier 4: $4,000 - $6,000 (Mac Studio M4 Max/Ultra)",
+    "Step-by-Step Build Guide": "Device: Mac Studio | Processor: M4 Ultra | Memory: 128GB Unified | Storage: 2TB SSD",
+    "Target/Best For": "Chinese language tasks, medical and legal domain knowledge.",
+    "Modality": "Text",
+    "Released Date": "2023-09",
+    "Layers (L)": "40",
+    "KV Heads": "40",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Vicuna 13B",
+    "Provider": "LMSYS",
+    "Parameters (Total)": "13.0",
+    "Parameters (Active)": "13.0",
+    "Context": "2048",
+    "Tokens/s (RTX 5090)": "40 - 70 tok/s",
+    "GGUF Download Link": "https://huggingface.co/lmsys/vicuna-13b-v1.5",
+    "VRAM Q4 (32k ctx)": "33.67",
+    "VRAM Q8 (32k ctx)": "40.49",
+    "VRAM FP16 (32k ctx)": "54.14",
+    "Buyer's Guide (Budget <$5k)": "Tier 4: $4,000 - $6,000 (Mac Studio M4 Max/Ultra)",
+    "Step-by-Step Build Guide": "Device: Mac Studio | Processor: M4 Ultra | Memory: 128GB Unified | Storage: 2TB SSD",
+    "Target/Best For": "Conversational AI, instruction following legacy.",
+    "Modality": "Text",
+    "Released Date": "2023-03",
+    "Layers (L)": "40",
+    "KV Heads": "40",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Gemma 2 9B",
+    "Provider": "Google",
+    "Parameters (Total)": "9.24",
+    "Parameters (Active)": "9.24",
+    "Context": "8192",
+    "Tokens/s (RTX 5090)": "90 - 120 tok/s",
+    "GGUF Download Link": "https://huggingface.co/bartowski/gemma-2-9b-it-GGUF",
+    "VRAM Q4 (32k ctx)": "16.13",
+    "VRAM Q8 (32k ctx)": "20.98",
+    "VRAM FP16 (32k ctx)": "30.68",
+    "Buyer's Guide (Budget <$5k)": "Tier 2: $1,200 - $1,800 (Used RTX 3090 24GB)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 7 7700X | GPU: Used RTX 3090 24GB | RAM: 32GB DDR5-6000 | PSU: 850W Gold Modular | Case: Fractal Meshify 2",
+    "Target/Best For": "Creative writing, creative assistance, small GPU hosting.",
+    "Modality": "Text",
+    "Released Date": "2024-06",
+    "Layers (L)": "42",
+    "KV Heads": "8",
+    "Head Dimension": "256",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Qwen 3 32B",
+    "Provider": "Alibaba Qwen",
+    "Parameters (Total)": "32.5",
+    "Parameters (Active)": "32.5",
+    "Context": "131072",
+    "Tokens/s (RTX 5090)": "20 - 45 tok/s",
+    "GGUF Download Link": "https://huggingface.co/Qwen/Qwen3-VL-32B-Instruct",
+    "VRAM Q4 (32k ctx)": "25.65",
+    "VRAM Q8 (32k ctx)": "42.71",
+    "VRAM FP16 (32k ctx)": "76.84",
+    "Buyer's Guide (Budget <$5k)": "Tier 3: $2,500 - $3,000 (RTX 5090 32GB)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 9 9950X | GPU: RTX 5090 32GB | MB: ASUS X870E | RAM: 64GB DDR5 | PSU: 1500W ATX 3.1 | Cooler: 360mm AIO",
+    "Target/Best For": "Coding assistance, complex math, logical deduction.",
+    "Modality": "Text",
+    "Released Date": "2025-10",
+    "Layers (L)": "64",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  },
+  {
+    "Model": "Mixtral 8x7B",
+    "Provider": "Mistral",
+    "Parameters (Total)": "46.7",
+    "Parameters (Active)": "12.9",
+    "Context": "32768",
+    "Tokens/s (RTX 5090)": "40 - 70 tok/s",
+    "GGUF Download Link": "https://huggingface.co/MaziyarPanahi/Mixtral-8x7B-v0.1-GGUF",
+    "VRAM Q4 (32k ctx)": "28.81",
+    "VRAM Q8 (32k ctx)": "53.33",
+    "VRAM FP16 (32k ctx)": "102.36",
+    "Buyer's Guide (Budget <$5k)": "Tier 3: $2,500 - $3,000 (RTX 5090 32GB)",
+    "Step-by-Step Build Guide": "CPU: Ryzen 9 9950X | GPU: RTX 5090 32GB | MB: ASUS X870E | RAM: 64GB DDR5 | PSU: 1500W ATX 3.1 | Cooler: 360mm AIO",
+    "Target/Best For": "Multilingual chat, efficient inference, balanced reasoning.",
+    "Modality": "Text",
+    "Released Date": "2023-12",
+    "Layers (L)": "32",
+    "KV Heads": "8",
+    "Head Dimension": "128",
+    "KV Precision (Bytes)": "2"
+  }
+]
+    </script>
+
+    <script>
+        // Load data from script tag
+        const llmModels = JSON.parse(document.getElementById('modelData').textContent);
+
+        // Initial state
+        let filteredModels = [...llmModels];
+        let currentSort = { key: 'Model', direction: 'asc' };
+        let activeProvider = 'all';
+        let activeModality = 'all';
+        let searchQuery = '';
+
+        const tableBody = document.getElementById('tableBody');
+        const searchInput = document.getElementById('modelSearch');
+        const providerFilters = document.getElementById('providerFilters');
+        const modalityFilters = document.getElementById('modalityFilters');
+
+        // Setup Filters
+        function initFilters() {
+            const providers = [...new Set(llmModels.map(m => m.Provider))].sort();
+            providers.forEach(p => {
+                const chip = document.createElement('span');
+                chip.className = 'filter-chip';
+                chip.textContent = p;
+                chip.dataset.provider = p;
+                providerFilters.appendChild(chip);
+            });
+
+            const modalities = [...new Set(llmModels.map(m => m.Modality))].sort();
+            modalities.forEach(m => {
+                const chip = document.createElement('span');
+                chip.className = 'filter-chip';
+                chip.textContent = m;
+                chip.dataset.modality = m;
+                modalityFilters.appendChild(chip);
+            });
+        }
+
+        function renderTable() {
+            tableBody.innerHTML = '';
+
+            filteredModels.forEach((model, index) => {
+                const row = document.createElement('tr');
+                row.className = 'model-row';
+                row.innerHTML = `
+                    <td class="model-name">${model.Model}</td>
+                    <td><span class="provider-tag">${model.Provider}</span></td>
+                    <td>${model['Parameters (Total)']}B</td>
+                    <td>${(parseInt(model.Context) / 1000).toFixed(0)}k</td>
+                    <td>${model['Tokens/s (RTX 5090)']}</td>
+                    <td>${model['VRAM Q4 (32k ctx)']}</td>
+                `;
+
+                const detailRow = document.createElement('tr');
+                detailRow.className = 'detail-row';
+                detailRow.innerHTML = `
+                    <td colspan="6">
+                        <div class="detail-content">
+                            <div class="detail-card">
+                                <h4 class="detail-title">🎯 Target / Best For</h4>
+                                <p class="detail-text">${model['Target/Best For']}</p>
+                                <a href="${model['GGUF Download Link']}" target="_blank" class="btn-download">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                    Download GGUF
+                                </a>
+                            </div>
+                            <div class="detail-card">
+                                <h4 class="detail-title">💡 Buyer's Guide</h4>
+                                <p class="detail-text">${model["Buyer's Guide (Budget <$5k)"]}</p>
+                            </div>
+                            <div class="detail-card">
+                                <h4 class="detail-title">🛠️ Build Specs</h4>
+                                <p class="detail-text">${model["Step-by-Step Build Guide"]}</p>
+                                <div style="margin-top: 15px; font-size: 0.8rem; color: var(--accent);">
+                                    Active Layers: ${model['Layers (L)']} • KV Heads: ${model['KV Heads']}
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                `;
+
+                row.onclick = () => {
+                    const isExpanded = detailRow.classList.contains('expanded');
+                    document.querySelectorAll('.detail-row').forEach(r => r.classList.remove('expanded'));
+                    if (!isExpanded) detailRow.classList.add('expanded');
+                };
+
+                tableBody.appendChild(row);
+                tableBody.appendChild(detailRow);
+            });
+        }
+
+        function filterAndSort() {
+            filteredModels = llmModels.filter(m => {
+                const matchesSearch = Object.values(m).some(val =>
+                    val.toString().toLowerCase().includes(searchQuery.toLowerCase())
+                );
+                const matchesProvider = activeProvider === 'all' || m.Provider === activeProvider;
+                const matchesModality = activeModality === 'all' || m.Modality === activeModality;
+                return matchesSearch && matchesProvider && matchesModality;
+            });
+
+            filteredModels.sort((a, b) => {
+                let valA = a[currentSort.key];
+                let valB = b[currentSort.key];
+
+                // Numeric sort
+                if (!isNaN(parseFloat(valA)) && !isNaN(parseFloat(valB))) {
+                    valA = parseFloat(valA);
+                    valB = parseFloat(valB);
+                }
+
+                if (valA < valB) return currentSort.direction === 'asc' ? -1 : 1;
+                if (valA > valB) return currentSort.direction === 'asc' ? 1 : -1;
+                return 0;
+            });
+
+            renderTable();
+        }
+
+        // Listeners
+        searchInput.oninput = (e) => {
+            searchQuery = e.target.value;
+            filterAndSort();
+        };
+
+        document.querySelectorAll('.filters').forEach(group => { group.onclick = (e) => { if (e.target.classList.contains('filter-chip')) { group.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active')); e.target.classList.add('active'); if (e.target.dataset.provider) activeProvider = e.target.dataset.provider; if (e.target.dataset.modality) activeModality = e.target.dataset.modality; filterAndSort(); } }; });
+
+        document.querySelectorAll('th').forEach(th => {
+            th.onclick = () => {
+                const key = th.dataset.sort;
+                if (currentSort.key === key) {
+                    currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+                } else {
+                    currentSort.key = key;
+                    currentSort.direction = 'asc';
+                }
+                filterAndSort();
+            };
+        });
+
+        initFilters();
+        filterAndSort();
+    </script>
+</body>
+
+</html>
