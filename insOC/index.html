@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw oMLX Deployment Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-hover: #4338CA;
+            --bg: #0F172A;
+            --surface: #1E293B;
+            --text: #F8FAFC;
+            --text-muted: #94A3B8;
+            --accent: #38BDF8;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #38BDF8, #818CF8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background-color: var(--surface);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+            border-color: rgba(56, 189, 248, 0.3);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+            margin-top: 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: var(--primary-hover);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border: 1px solid var(--primary);
+            color: var(--accent);
+        }
+
+        .btn-outline:hover {
+            background-color: rgba(79, 70, 229, 0.1);
+        }
+
+        code {
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            color: #A78BFA;
+        }
+
+        .code-block {
+            background-color: #000;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            display: block;
+            margin: 15px 0;
+            color: #4ADE80;
+            overflow-x: auto;
+        }
+
+        ul {
+            padding-left: 20px;
+            color: var(--text-muted);
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a.link {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a.link:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 80px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Modal Styles */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(8px);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background-color: var(--surface);
+            width: 90%;
+            max-width: 900px;
+            height: 85vh;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            animation: modalFade 0.3s ease;
+        }
+
+        @keyframes modalFade {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .modal-header {
+            padding: 20px 30px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-body {
+            flex-grow: 1;
+            padding: 30px;
+            overflow-y: auto;
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 2rem;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .close-btn:hover { color: var(--text); }
+
+        /* Rendered Content Styles */
+        .preview-markdown h1, .preview-markdown h2 { color: var(--accent); margin-top: 2rem; }
+        .preview-markdown code { color: #A78BFA; background: rgba(0,0,0,0.3); padding: 2px 5px; border-radius: 4px; }
+        .preview-markdown pre { background: #000; padding: 15px; border-radius: 10px; overflow-x: auto; margin: 15px 0; }
+        .preview-markdown blockquote { border-left: 4px solid var(--primary); padding-left: 15px; margin-left: 0; color: var(--text-muted); font-style: italic; }
+
+        /* Prism Dark Theme Override */
+        code[class*="language-"], pre[class*="language-"] { color: #ccc; font-family: monospace; }
+    </style>
+    <!-- External Dependencies for Preview -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.2/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Autonomous Agent Portal</h1>
+            <div class="subtitle">Deploy, manage, and extend your private Qwen 3.5 system (oMLX Optimized)</div>
+        </header>
+
+        <div class="grid">
+            <!-- Installation Section -->
+            <div class="card">
+                <h2>🚀 1. Installation</h2>
+                <p>Get started by downloading the automated setup script and the deployment guide. The script handles
+                    the Qwen 3.5 Model, OpenClaw gateway, and background services.</p>
+
+                <a href="setup_openclaw_qwen.sh" class="btn" download>Download Setup Script</a>
+                <button onclick="previewFile('setup_openclaw_qwen.sh', 'bash')" class="btn btn-outline">Preview Script</button>
+                
+                <a href="DEPLOYMENT_GUIDE.md" class="btn" download>Download Guide (.md)</a>
+                <button onclick="previewFile('DEPLOYMENT_GUIDE.md', 'markdown')" class="btn btn-outline">Preview Guide</button>
+
+                <p style="margin-top: 20px; font-size: 0.9rem; color: var(--text-muted);">
+                    Run in terminal: <br>
+                    <span class="code-block">bash setup_openclaw_qwen.sh</span>
+                </p>
+            </div>
+
+            <!-- Management Section -->
+            <div class="card">
+                <h2>🖥️ 2. Control UI (Dashboard)</h2>
+                <p>Access your professional management dashboard to chat, see full message history, connect Telegram
+                    channels, and tweak settings visually.</p>
+
+                <a href="http://localhost:18789/" target="_blank" class="btn">Open Web Dashboard</a>
+
+                <p style="margin-top: 10px; font-size: 0.85rem; color: #FCA5A5;">
+                    ⚠️ <strong>Note:</strong> If you see "Unauthorized", use the command below to log in automatically.
+                </p>
+
+                <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-muted);">
+                    Open via terminal with auto-authentication:<br>
+                    <span class="code-block">openclaw dashboard</span>
+                </p>
+            </div>
+
+            <!-- Mobile Management Section -->
+            <div class="card">
+                <h2>📱 3. Remote Management (iOS)</h2>
+                <p>After installing LLM+OpenClaw on your home computer, you can manage the OpenClaw gateway remotely from anywhere using the QCAI iOS app.</p>
+                
+                <a href="https://apps.apple.com/app/id6757207914" target="_blank" class="btn">Download QCAI (App Store)</a>
+                <a href="https://www.queencityai.net" target="_blank" class="btn btn-outline">Visit Website</a>
+                
+                <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-muted);">
+                    QCAI allows for secure, remote access to your private agent via encrypted channels.
+                </p>
+            </div>
+
+            <!-- Plugins & Skills Section -->
+            <div class="card">
+                <h2>🧩 4. Install Plugins</h2>
+                <p>Your agent can be extended to use email, search the web, and control your apps. OpenClaw uses
+                    <strong>Plugins</strong> and <strong>Skills</strong>.
+                </p>
+
+                <p>To see all available skills:</p>
+                <code>openclaw skills list</code>
+
+                <p style="margin-top: 15px;">To install a new community plugin via ClawHub:</p>
+                <span class="code-block">npx clawhub install [plugin-name]</span>
+
+                <p style="font-size: 0.9rem; color: var(--text-muted);">Example:
+                    <code>npx clawhub install @openclaw/plugin-web-search</code>
+                </p>
+            </div>
+
+            <!-- Resources Section -->
+            <div class="card">
+                <h2>📚 5. Community Resources</h2>
+                <p>Discover new capabilities, read documentation, and find third-party skills built by the community to
+                    supercharge your agent.</p>
+                <ul>
+                    <li><a href="https://clawhub.ai/" target="_blank" class="link">ClawHub Official Registry</a></li>
+                    <li><a href="https://github.com/SamurAIGPT/awesome-openclaw" target="_blank" class="link">Awesome
+                            OpenClaw Resource List</a></li>
+                    <li><a href="https://github.com/VoltAgent/awesome-openclaw-skills" target="_blank"
+                            class="link">Awesome OpenClaw Skills</a></li>
+                </ul>
+            </div>
+
+            <!-- Service Management Section -->
+            <div class="card">
+                <h2>🛠️ 6. Service Management</h2>
+                <p>Use the professional service manager to check status, restart, or stop your OpenClaw services
+                    from the terminal.</p>
+
+                <a href="manage_services.sh" class="btn" download>Download Service Manager</a>
+                <button onclick="previewFile('manage_services.sh', 'bash')" class="btn btn-outline">Preview Script</button>
+
+                <p style="margin-top: 20px; font-size: 0.9rem; color: var(--text-muted);">
+                    Usage examples (Terminal): <br>
+                    <code>chmod +x manage_services.sh</code> (First time)<br>
+                    <code>./manage_services.sh status</code><br>
+                    <code>./manage_services.sh restart</code>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>100% Local. 100% Private. Powered by OpenClaw & Apple Silicon oMLX.</p>
+        </div>
+    </div>
+
+    <!-- Preview Modal -->
+    <div id="previewModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle" style="margin:0; color: var(--accent);">File Preview</h3>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div id="modalBody" class="modal-body">
+                <!-- Content injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function previewFile(url, type) {
+            const modal = document.getElementById('previewModal');
+            const body = document.getElementById('modalBody');
+            const title = document.getElementById('modalTitle');
+            
+            title.innerText = `Preview: ${url}`;
+            body.innerHTML = '<p style="text-align:center;">Loading content...</p>';
+            modal.style.display = 'flex';
+
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error('Could not fetch file');
+                const text = await response.text();
+
+                if (type === 'markdown') {
+                    body.className = 'modal-body preview-markdown';
+                    body.innerHTML = marked.parse(text);
+                } else {
+                    body.className = 'modal-body';
+                    const pre = document.createElement('pre');
+                    const code = document.createElement('code');
+                    code.className = `language-${type}`;
+                    code.innerText = text;
+                    pre.appendChild(code);
+                    body.innerHTML = '';
+                    body.appendChild(pre);
+                    Prism.highlightElement(code);
+                }
+            } catch (err) {
+                body.innerHTML = `<p style="color:#FCA5A5;">Error loading preview: ${err.message}</p>`;
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('previewModal').style.display = 'none';
+        }
+
+        // Close on overlay click
+        window.onclick = function(event) {
+            const modal = document.getElementById('previewModal');
+            if (event.target == modal) closeModal();
+        }
+    </script>
+</body>
+
+</html>
