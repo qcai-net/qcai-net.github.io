@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCAI WeChat Bridge | macOS Setup Guide</title>
+    <style>
+        :root {
+            --primary-color: #07C160;
+            --secondary-color: #007AFF;
+            --bg-color: #f5f5f7;
+            --card-bg: #ffffff;
+            --text-color: #1d1d1f;
+            --code-bg: #1d1d1f;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0; padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container { max-width: 850px; margin: 40px auto; padding: 20px; }
+        
+        header { text-align: center; margin-bottom: 40px; }
+        header h1 { font-size: 2.4rem; font-weight: 700; color: var(--primary-color); margin-bottom: 8px; }
+        
+        .card { background: var(--card-bg); border-radius: 18px; padding: 30px; margin-bottom: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.04); }
+        
+        h2 { font-size: 1.5rem; font-weight: 600; display: flex; align-items: center; border-bottom: 1px solid #eee; padding-bottom: 12px; }
+        .step { background: var(--primary-color); color: white; width: 28px; height: 28px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.9rem; margin-right: 12px; }
+
+        pre { background: var(--code-bg); color: #f5f5f7; padding: 20px; border-radius: 12px; overflow-x: auto; font-family: "SF Mono", "Monaco", monospace; font-size: 0.85rem; line-height: 1.45; }
+        
+        .filename { color: #ff9f0a; font-weight: bold; font-family: monospace; display: block; margin-bottom: 8px; }
+        
+        .alert { background: #fff4e5; border-left: 4px solid #ff9f0a; padding: 16px; border-radius: 8px; margin: 20px 0; font-size: 0.95rem; }
+        
+        footer { text-align: center; padding: 40px; color: #86868b; font-size: 0.8rem; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🍏 QCAI WeChat Bridge (macOS)</h1>
+        <p>Utilizing the Model Context Protocol (MCP) for seamless integration.</p>
+    </header>
+
+    <div class="card">
+        <h2>Requirements</h2>
+        <ul>
+            <li><strong>macOS:</strong> 14.0 (Sonoma) or newer.</li>
+            <li><strong>Python:</strong> 3.12 or higher installed.</li>
+            <li><strong>WeChat for Mac:</strong> Installed and currently running.</li>
+        </ul>
+        <div class="alert">
+            <strong>Critical:</strong> On macOS, you must grant <strong>Accessibility</strong> and <strong>Screen Recording</strong> permissions to your Terminal for the AI to interact with WeChat.
+        </div>
+    </div>
+
+    <div class="card">
+        <h2><span class="step">1</span> Install WeChat-MCP</h2>
+        <p>Open your Terminal (Terminal.app or iTerm2) and install the native MCP server:</p>
+        <pre><code>pip install wechat-mcp-server</code></pre>
+    </div>
+
+    <div class="card">
+        <h2><span class="step">2</span> Grant System Permissions</h2>
+        <ol>
+            <li>Go to <strong>System Settings</strong> > <strong>Privacy & Security</strong>.</li>
+            <li>Select <strong>Accessibility</strong> and add your Terminal app.</li>
+            <li>Select <strong>Screen Recording</strong> and add your Terminal app.</li>
+        </ol>
+        <p><i>Note: These permissions are required so the bridge can "read" the WeChat window to find messages.</i></p>
+    </div>
+
+    <div class="card">
+        <h2><span class="step">3</span> Configure the QCAI Skill</h2>
+        <p>Navigate to <code>~/.openclaw/skills/</code> and create a folder named <code>qcai-wechat-mcp</code>. Inside, create your manifest:</p>
+        
+        <span class="filename">SKILL.md</span>
+        <pre><code>---
+name: qcai-wechat-mcp
+description: "macOS Native WeChat Bridge using Accessibility API."
+metadata:
+  openclaw:
+    emoji: 🍎
+    category: Communication
+---
+
+# QCAI macOS Bridge
+This skill connects OpenClaw to the local WeChat-MCP server running on your Mac.
+
+## Instructions
+The agent will automatically use the `wechat-mcp` command to fetch and send messages.</code></pre>
+    </div>
+
+    <div class="card">
+        <h2><span class="step">4</span> Register the Server</h2>
+        <p>Tell OpenClaw to start the WeChat-MCP server whenever it boots. Add this to your OpenClaw config file:</p>
+        <pre><code>{
+  "mcpServers": {
+    "wechat-mcp": {
+      "command": "wechat-mcp",
+      "transport": "stdio"
+    }
+  }
+}</code></pre>
+    </div>
+
+    <div class="card">
+        <h2>Final Step: Verify</h2>
+        <ol>
+            <li>Restart your <strong>OpenClaw Gateway</strong> on your Mac.</li>
+            <li>Open the <strong>QCAI App</strong> on your iPhone.</li>
+            <li>Ask the agent: <i>"Check my latest WeChat messages"</i>.</li>
+            <li>If the Mac asks for permission, click <strong>Allow</strong>.</li>
+        </ol>
+    </div>
+
+    <footer>
+        &copy; 2026 QCAI & Quantum Property LLC. Built for Apple Silicon.
+    </footer>
+</div>
+
+</body>
+</html>
