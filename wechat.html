@@ -6,89 +6,110 @@
     <title>QCAI WeChat Bridge | Complete Setup Guide</title>
     <style>
         :root {
-            --primary-color: #07C160;
-            --secondary-color: #007AFF;
-            --bg-color: #f4f7f6;
-            --card-bg: #ffffff;
-            --text-color: #2c3e50;
-            --code-bg: #1e1e1e;
+            --bg: #0d1117;
+            --text: #c9d1d9;
+            --accent: #07C160; /* WeChat Green */
+            --code-bg: #161b22;
         }
-
         body {
-            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
             line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0; padding: 0;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
         }
-
-        .container { max-width: 900px; margin: 40px auto; padding: 20px; }
-        
-        .header { text-align: center; padding-bottom: 30px; border-bottom: 2px solid #eee; margin-bottom: 30px; }
-        .header h1 { color: var(--primary-color); font-size: 2.2rem; margin-bottom: 10px; }
-        
-        .card { background: var(--card-bg); border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-        
-        h2 { color: #34495e; display: flex; align-items: center; font-size: 1.5rem; }
-        .step-tag { background: var(--primary-color); color: white; padding: 2px 12px; border-radius: 20px; font-size: 0.9rem; margin-right: 12px; }
-
-        pre { background: var(--code-bg); color: #dcdcdc; padding: 20px; border-radius: 8px; overflow-x: auto; font-family: 'Consolas', 'Monaco', monospace; line-height: 1.4; position: relative; }
-        code { font-size: 0.9rem; }
-
-        .filename { display: inline-block; background: #eee; padding: 4px 10px; border-radius: 4px; font-family: monospace; font-weight: bold; margin-bottom: 10px; color: #d35400; }
-        
-        .note { background: #fff3cd; border-left: 5px solid #ffeeba; padding: 15px; margin: 20px 0; border-radius: 4px; font-size: 0.95rem; }
-        
-        .directory-tree { background: #fdfdfd; border: 1px dashed #ccc; padding: 15px; font-family: monospace; font-size: 0.9rem; }
-
-        footer { text-align: center; padding: 40px; color: #95a5a6; font-size: 0.85rem; }
+        h1, h2, h3 { color: var(--accent); }
+        .code-container {
+            position: relative;
+            margin: 20px 0;
+            background: var(--code-bg);
+            border-radius: 8px;
+            border: 1px solid #30363d;
+        }
+        pre {
+            margin: 0;
+            padding: 16px;
+            overflow-x: auto;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 14px;
+        }
+        code {
+            font-family: inherit;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: #21262d;
+            border: 1px solid #30363d;
+            color: #c9d1d9;
+            padding: 5px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+        .copy-btn:hover {
+            background: #30363d;
+        }
+        .copy-btn.copied {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+        .note {
+            background: rgba(7, 193, 96, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 10px 20px;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+        }
     </style>
 </head>
 <body>
+    <h1>💬 QCAI WeChat Bridge Setup</h1>
+    <p>This guide allows you to control your Windows WeChat desktop client remotely using your OpenClaw Gateway.</p>
 
-<div class="container">
-    <div class="header">
-        <h1>💬 QCAI WeChat Bridge Setup</h1>
-        <p>Transform your Windows PC into a remote-controlled AI WeChat Station.</p>
-    </div>
-
-    <div class="card">
-        <h2>Requirements</h2>
+    <div class="note">
+        <strong>Requirements:</strong>
         <ul>
-            <li><strong>Windows PC:</strong> Logged into WeChat Desktop.</li>
-            <li><strong>OpenClaw:</strong> Installed and connected via Tailscale.</li>
-            <li><strong>Python:</strong> Version 3.10+ installed on Windows.</li>
+            <li>Windows PC with WeChat Desktop installed and logged in.</li>
+            <li>Python 3.10+ installed on your Windows machine.</li>
         </ul>
-        <div class="note">
-            <strong>⚠️ Setup Note:</strong> Your Windows PC must stay awake for the bridge to function. Ensure "Sleep" is disabled in Windows Power Settings.
-        </div>
     </div>
 
-    <div class="card">
-        <h2><span class="step-tag">Step 1</span> Install Automation Driver</h2>
-        <p>Open <strong>PowerShell</strong> or <strong>Command Prompt</strong> on your Windows PC and run:</p>
-        <pre><code>pip install wxauto4</code></pre>
+    <h2>Step 1: Install Automation Driver</h2>
+    <p>Open PowerShell or Command Prompt on your Windows PC and install the WeChat automation driver:</p>
+
+    <div class="code-container">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>pip install wxauto4</code></pre>
     </div>
 
-    <div class="card">
-        <h2><span class="step-tag">Step 2</span> Create the Workspace</h2>
-        <p>Create a dedicated folder for the bridge. Navigate to your OpenClaw skills directory and create this path:</p>
-        <div class="directory-tree">
-            C:\Users\&lt;YourUser&gt;\.openclaw\skills\qcai-wechat\
-        </div>
+    <h2>Step 2: Create the Workspace</h2>
+    <p>You must create a dedicated folder for the WeChat bridge inside your OpenClaw skills directory. Run this in PowerShell:</p>
+
+    <div class="code-container">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>mkdir -Force ~/.openclaw/skills/wechat</code></pre>
     </div>
 
-    <div class="card">
-        <h2><span class="step-tag">Step 3</span> The Manifest</h2>
-        <p>Create a file named <span class="filename">SKILL.md</span> in that folder and paste the following:</p>
-        <pre><code>---
-name: qcai-wechat
+    <h2>Step 3: The Manifest</h2>
+    <p>Create a file named <code>SKILL.md</code> inside the <code>~/.openclaw/skills/wechat</code> folder and paste the following:</p>
+
+    <div class="code-container">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>---
+name: "qcai-wechat"
 description: "QCAI WeChat Bridge: Remote control your WeChat desktop via AI."
 metadata:
   openclaw:
-    emoji: 💬
-    category: Communication
-    homepage: "./gui.html"  # This loads our custom dashboard
+    emoji: "💬"
+    category: "Communication"
+    homepage: "./gui.html"
 ---
 
 # QCAI WeChat Tool
@@ -102,13 +123,16 @@ Send a message to a specific contact or group.
 
 ### `sync`
 Fetch the latest messages from a specific chat.
-- **Usage**: `python wechat_bridge.py --action sync --who "Group Name"`</code></pre>
+- **Usage**: `python wechat_bridge.py --action sync --who "Group Name"`
+</code></pre>
     </div>
 
-    <div class="card">
-        <h2><span class="step-tag">Step 4</span> The Logic Engine</h2>
-        <p>Create a file named <span class="filename">wechat_bridge.py</span> in the same folder and paste this code:</p>
-        <pre><code>import sys
+    <h2>Step 4: The Logic Engine</h2>
+    <p>Create a file named <code>wechat_bridge.py</code> in the same folder and paste this proper execution script:</p>
+
+    <div class="code-container">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>import sys
 import argparse
 import json
 from wxauto4 import WeChat
@@ -122,95 +146,113 @@ def main():
 
     try:
         wx = WeChat()
-        
         if args.action == 'send':
             if not args.msg:
                 print(json.dumps({"status": "error", "message": "No message content"}))
                 return
             wx.SendMsg(msg=args.msg, who=args.who)
             print(json.dumps({"status": "success", "detail": f"Sent to {args.who}"}))
-
+            
         elif args.action == 'sync':
-            msgs = wx.GetGroupMessages(args.who)
+            # Correct method to get chat history in wxauto
+            wx.ChatWith(args.who)
+            msgs = wx.GetAllMessage()
             output = [{"sender": m[0], "content": m[1]} for m in msgs]
             print(json.dumps(output, ensure_ascii=False))
-
+            
     except Exception as e:
         print(json.dumps({"status": "error", "message": str(e)}))
 
 if __name__ == "__main__":
-    main()</code></pre>
+    main()
+</code></pre>
     </div>
 
-    <div class="card">
-        <h2><span class="step-tag">Step 5</span> The Visual Dashboard</h2>
-        <p>Create a file named <span class="filename">gui.html</span> in the same folder. This is what you'll see in the QCAI App:</p>
-        <pre><code>&lt;!DOCTYPE html&gt;
+    <h2>Step 5: The Visual Dashboard</h2>
+    <p>Create a file named <code>gui.html</code> in the same folder. This provides the UI inside your QCAI App:</p>
+
+    <div class="code-container">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-    &lt;style&gt;
-        body { font-family: sans-serif; padding: 20px; background: #f4f4f9; color: #333; }
-        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        input, button { width: 100%; padding: 12px; margin: 8px 0; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box; }
-        button { background: #07C160; color: white; border: none; font-weight: bold; cursor: pointer; }
-        button:active { opacity: 0.8; }
-        .sync-btn { background: #007AFF; }
-    &lt;/style&gt;
+&lt;style&gt;
+    body { font-family: sans-serif; padding: 20px; background: #f4f4f9; color: #333; }
+    .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    input, button { width: 100%; padding: 12px; margin: 8px 0; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box; }
+    button { background: #07C160; color: white; border: none; font-weight: bold; cursor: pointer; }
+    button:active { opacity: 0.8; }
+    .sync-btn { background: #007AFF; }
+&lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-    &lt;div class="card"&gt;
-        &lt;h3&gt;💬 QCAI WeChat Remote&lt;/h3&gt;
-        &lt;input type="text" id="target" placeholder="Chat Name (e.g. Charlotte Real Estate)"&gt;
-        &lt;input type="text" id="message" placeholder="Type your message..."&gt;
-        &lt;button onclick="execute('send')"&gt;Send Message&lt;/button&gt;
-        &lt;hr&gt;
-        &lt;button class="sync-btn" onclick="execute('sync')"&gt;Sync History&lt;/button&gt;
-        &lt;div id="status" style="margin-top:15px; font-size: 13px; color: #555;"&gt;&lt;/div&gt;
-    &lt;/div&gt;
+&lt;div class="card"&gt;
+    &lt;h3&gt;💬 QCAI WeChat Remote&lt;/h3&gt;
+    &lt;input type="text" id="target" placeholder="Chat Name (e.g. Charlotte Real Estate)"&gt;
+    &lt;input type="text" id="message" placeholder="Type your message..."&gt;
+    &lt;button onclick="execute('send')"&gt;Send Message&lt;/button&gt;
+    &lt;hr&gt;
+    &lt;button class="sync-btn" onclick="execute('sync')"&gt;Sync History&lt;/button&gt;
+    &lt;div id="status" style="margin-top:15px; font-size: 13px; color: #555;"&gt;&lt;/div&gt;
+&lt;/div&gt;
 
-    &lt;script&gt;
-        async function execute(action) {
-            const who = document.getElementById('target').value;
-            const msg = document.getElementById('message').value;
-            const status = document.getElementById('status');
-            
-            if (!who) { alert("Please enter a Chat Name"); return; }
-            status.innerText = "Running command on Windows PC...";
-
-            let cmd = `python wechat_bridge.py --action ${action} --who "${who}"`;
-            if (action === 'send') cmd += ` --msg "${msg}"`;
-
-            try {
-                const resp = await fetch('/api/exec', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ cmd: cmd })
-                });
-                const data = await resp.json();
-                status.innerText = action === 'send' ? "Sent!" : "Sync complete. Check logs.";
-            } catch (e) {
-                status.innerText = "Error: Could not connect to OpenClaw.";
-            }
-        }
-    &lt;/script&gt;
+&lt;script&gt;
+async function execute(action) {
+    const who = document.getElementById('target').value;
+    const msg = document.getElementById('message').value;
+    const status = document.getElementById('status');
+    
+    if (!who) {
+        alert("Please enter a Chat Name");
+        return;
+    }
+    
+    status.innerText = "Running command on Windows PC...";
+    
+    let cmd = `python wechat_bridge.py --action ${action} --who "${who}"`;
+    if (action === 'send') cmd += ` --msg "${msg}"`;
+    
+    try {
+        const resp = await fetch('/api/exec', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ cmd: cmd })
+        });
+        const data = await resp.json();
+        status.innerText = action === 'send' ? "Sent!" : "Sync complete. Check logs.";
+    } catch (e) {
+        status.innerText = "Error: Could not connect to OpenClaw.";
+    }
+}
+&lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
     </div>
 
-    <div class="card">
-        <h2>Final Step</h2>
-        <ol>
-            <li>Restart your <strong>OpenClaw Gateway</strong>.</li>
-            <li>Open the <strong>QCAI iOS App</strong>.</li>
-            <li>Click your <strong>OpenClaw Dashboard</strong> icon.</li>
-            <li>Select the <strong>💬 qcai-wechat</strong> skill to open your new remote control!</li>
-        </ol>
-    </div>
+    <h2>Final Step</h2>
+    <ol>
+        <li>Restart your OpenClaw Gateway.</li>
+        <li>Open the QCAI iOS App.</li>
+        <li>Click your OpenClaw Dashboard icon.</li>
+        <li>Select the 💬 <strong>qcai-wechat</strong> skill to open your new remote control!</li>
+    </ol>
 
-    <footer>
-        &copy; 2026 QCAI & Quantum Property LLC. Distributed under MIT License.
-    </footer>
-</div>
-
+    <script>
+        function copyCode(button) {
+            const codeBlock = button.nextElementSibling.innerText;
+            navigator.clipboard.writeText(codeBlock).then(() => {
+                const originalText = button.innerText;
+                button.innerText = 'Copied!';
+                button.classList.add('copied');
+                setTimeout(() => {
+                    button.innerText = originalText;
+                    button.classList.remove('copied');
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        }
+    </script>
 </body>
 </html>
