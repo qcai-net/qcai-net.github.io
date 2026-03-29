@@ -77,21 +77,23 @@
         <strong>Requirements:</strong>
         <ul>
             <li>Windows PC with WeChat Desktop installed and logged in.</li>
-            <li>Python 3.10+ installed on your Windows machine.</li>
+            <li>Python 3.10+ and <strong>Git</strong> installed on your Windows machine.</li>
         </ul>
     </div>
 
     <h2>Step 1: Install Automation Driver</h2>
-    <p>Open PowerShell or Command Prompt on your Windows PC and install the WeChat automation driver:</p>
+    <p>Open PowerShell or Command Prompt on your Windows PC and install the WeChat automation driver from the QCAI repository:</p>
 
     <div class="code-container">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-<pre><code>pip install git+https://github.com/JamzYang/wxauto4.git</code></pre>
+<pre><code>pip install git+https://github.com/qcai-net/wxauto4.git</code></pre>
     </div>
 
     <div class="note" style="border-left-color: #ffcc00; background: rgba(255, 204, 0, 0.1);">
-        <strong>Troubleshooting <code>'pip' is not recognized</code>:</strong> If you get an error that pip or python is not found, it means Python is not in your system PATH.<br>
-        <strong>Fix:</strong> Re-run the Python Windows installer, and at the very bottom of the first screen, check the box that says <strong>"Add python.exe to PATH"</strong> before clicking Install. After installing, restart PowerShell.
+        <strong>Troubleshooting <code>'pip'</code> or <code>'git'</code> errors:</strong><br>
+        1. <strong>If pip is missing:</strong> Re-run the <a href="https://www.python.org/downloads/" style="color: var(--accent);">Python installer</a> and check <strong>"Add python.exe to PATH"</strong>.<br>
+        2. <strong>If git is missing:</strong> Download and install <a href="https://git-scm.com/download/win" style="color: var(--accent);">Git for Windows</a> to allow installation from GitHub.<br>
+        3. <strong>Fast Fix:</strong> You can run <code>winget install Python.Python.3</code> and <code>winget install Git.Git</code> in PowerShell to install both automatically.
     </div>
 
     <h2>Step 2: Create the Workspace</h2>
