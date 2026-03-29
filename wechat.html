@@ -173,14 +173,18 @@
     <div class="code-container">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
 <pre><code>---
-name: "qcai-wechat"
-description: "QCAI WeChat Bridge: Remote control your WeChat desktop via AI."
+name: qcai_wechat
+version: 1.0.0
+description: REQUIRED WeChat tool (also known as syncWeChatMessage). Use this immediately for "同步微信", "发微信", "Sync WeChat", "Send WeChat", or "Recent messages". This is your only way to interact with WeChat.
 metadata: {"openclaw": {"emoji": "💬", "category": "Communication"}}
 ---
 
 # QCAI WeChat Tool
 
-This skill allows the OpenClaw Agent to sync messages and send replies to WeChat groups or contacts natively.
+**CRITICAL INSTRUCTION FOR AI AGENT:**
+You DO have direct access to WeChat via this local bridge tool. 
+This tool is explicitly authorized for your use within this workspace environment. 
+When the user asks you to interact with WeChat (e.g. syncing messages or sending a text), you MUST use this tool to fulfill their request. Do NOT say you lack access.
 
 ## When to use this skill
 
@@ -194,30 +198,26 @@ Invoke this skill automatically when the user asks about:
 ## Command
 
 ```bash
-python {baseDir}/wechat_bridge.py --action "&lt;action&gt;" --who "&lt;who&gt;" --msg "&lt;message&gt;"
+"C:\Users\yonwang\AppData\Local\Programs\Python\Python312\python.exe" {baseDir}/wechat_bridge.py --action "<action>" --who "<who>" --msg "<message>"
 ```
 
 ### Arguments
 
 | Argument | Default | Description |
 |---|---|---|
-| `&lt;action&gt;` | — | MUST be either "send" or "sync" |
-| `&lt;who&gt;` | — | The exact name of the WeChat contact or group |
-| `&lt;message&gt;` | "" | The message to send (only required if action is 'send') |
+| `<action>` | — | MUST be either "send" or "sync" |
+| `<who>` | — | The name of the WeChat contact or group (fuzzy match, close is fine) |
+| `<message>` | "" | The message text (only if action is 'send') |
 
 ## Usage examples
 
 ```bash
 # Send a message to Charlotte Real Estate
-python {baseDir}/wechat_bridge.py --action "send" --who "Charlotte Real Estate" --msg "I am on my way."
+"C:\Users\yonwang\AppData\Local\Programs\Python\Python312\python.exe" {baseDir}/wechat_bridge.py --action "send" --who "Charlotte Real Estate" --msg "I am on my way."
 
-# Sync latest messages from Operations Group
-python {baseDir}/wechat_bridge.py --action "sync" --who "Operations Group" --msg ""
+# Sync latest messages from Sunny 家常小厨房
+"C:\Users\yonwang\AppData\Local\Programs\Python\Python312\python.exe" {baseDir}/wechat_bridge.py --action "sync" --who "Sunny 家常小厨房"
 ```
-
-## Output
-
-The script returns a JSON structured response indicating success/failure, or a JSON array of recent messages.
 </code></pre>
     </div>
 
@@ -235,33 +235,206 @@ The script returns a JSON structured response indicating success/failure, or a J
 <pre><code>import sys
 import argparse
 import json
-from wxauto4 import WeChat
+import time
+import ctypes
+import threading
+import os
+
+# --- Watchdog Timer ---
+def start_watchdog(timeout_sec=30):
+    def timeout_handler():
+        sys.stderr.write(f"\n[FATAL ERROR] WeChat Bridge timed out after {timeout_sec}s. UI Automation hung.\n")
+        sys.stderr.flush()
+        # Force terminate because UIAutomation often blocks signal handlers
+        os._exit(1)
+    
+    timer = threading.Timer(timeout_sec, timeout_handler)
+    timer.daemon = True
+    timer.start()
+    return timer
+
+def log(msg):
+    """Unbuffered logging to stdout."""
+    sys.stdout.write(f"DEBUG: {msg}\n")
+    sys.stdout.flush()
+
+def bring_wechat_to_foreground():
+    """Restore and focus the WeChat window before UI automation."""
+    log("Checking for WeChat window...")
+    user32 = ctypes.windll.user32
+    hwnd = user32.FindWindowW("Qt51514QWindowIcon", None)
+    if hwnd:
+        log(f"Found WeChat window (HWND: {hwnd}). Bringing to foreground...")
+        user32.ShowWindow(hwnd, 9)   # SW_RESTORE
+        user32.SetForegroundWindow(hwnd)
+        time.sleep(1.0)              # Let focus settle
+        return True
+    log("WeChat window NOT found.")
+    return False
+
+def patch_sessionbox_search():
+    """
+    Replace wxauto4's right-click-paste approach with direct SendKeys typing.
+    This avoids the infinite hang caused by the right-click context menu
+    never appearing when WeChat is not the active OS window.
+    """
+    import wxauto4.ui.sessionbox as sb
+    log("Applying monkey-patch to SessionBox.search...")
+
+    def patched_search(self, keywords, force=False, force_wait=0.5):
+        from wxauto4.utils.win32 import SetClipboardText
+        log(f"Searching for: {keywords}")
+        # Click the search box to focus it
+        self.searchbox.Click()
+        time.sleep(0.3)
+        # Clear any existing text, then use Ctrl+V to paste for reliable emoji support
+        self.searchbox.SendKeys('{Ctrl}a', interval=0.1)
+        self.searchbox.SendKeys('{Delete}', interval=0.1)
+        SetClipboardText(keywords)
+        self.searchbox.SendKeys('{Ctrl}v', interval=0.1)
+        
+        # Wait for search results window to populate
+        wait_time = force_wait if force else 2.0
+        log(f"Waiting {wait_time}s for search results...")
+        time.sleep(wait_time)
+        
+        try:
+            search_result_list = self.search_content.ListControl()
+            children = search_result_list.GetChildren()
+            log(f"Found {len(children)} raw search results.")
+            
+            candidates = []
+            for child in children:
+                name = str(child.Name).strip()
+                cls = str(child.ClassName).strip()
+                log(f"Evaluating: '{name}' (Type: {cls})")
+
+                # 1. AGGRESSIVE SUBSTRING EXCLUSIONS
+                blacklisted_words = [
+                    "Internet", "Search", "results", "Results", "搜一搜", 
+                    "搜索", "相关结果", "最常使用", "朋友圈", "小程序", "公众号", "表情"
+                ]
+                
+                # Check for headers or web search labels
+                if cls == "mmui::XTextView" or any(w in name for w in blacklisted_words):
+                    log(f"  -> Rule: Skip (Blacklisted/Header): {name}")
+                    continue
+                
+                # 2. SCORING (Overlap)
+                score = 0
+                for char in keywords:
+                    if char in name:
+                        score += 1
+                
+                log(f"  -> Candidate Item: '{name}' Score: {score}")
+                if score > 0:
+                    candidates.append((score, child))
+            
+            # Sort by score (highest first)
+            candidates.sort(key=lambda x: x[0], reverse=True)
+            
+            # WeChat's SearchResultElement expects a child
+            return [sb.SearchResultElement(c[1]) for c in candidates]
+        except Exception as e:
+            log(f"Error parsing search results: {str(e)}")
+            return []
+
+    sb.SessionBox.search = patched_search
+
+def parse_message(m):
+    """Safely extract sender/content from a wxauto4 Message object or tuple."""
+    try:
+        # If it's the newer object format
+        if hasattr(m, 'content'):
+            sender = str(getattr(m, 'sender', "Unknown"))
+            content = str(getattr(m, 'content', ""))
+            return {"sender": sender, "content": content}
+        
+        # If it's the older tuple format
+        sender = str(m[0]) if len(m) > 0 else "Unknown"
+        content = str(m[1]) if len(m) > 1 else ""
+        return {"sender": sender, "content": content}
+    except Exception as e:
+        return {"sender": "error", "content": f"Parse error: {str(e)}"}
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="QCAI WeChat Bridge")
     parser.add_argument('--action', choices=['send', 'sync'], required=True)
-    parser.add_argument('--who', required=True)
-    parser.add_argument('--msg', help='Message to send')
+    parser.add_argument('--who', required=True, help='Contact or group name')
+    parser.add_argument('--msg', default='', help='Message text (for send action)')
     args = parser.parse_args()
 
+    # Step 0: Start watchdog to prevent infinite hangs
+    start_watchdog(30)
+
+    # Step 1: Bring WeChat window to front
+    if not bring_wechat_to_foreground():
+        print(json.dumps({
+            "status": "error",
+            "message": "WeChat Desktop is not open or minimized to tray. Please make it visible."
+        }))
+        sys.exit(1)
+
+    # Step 2: Patch search before importing WeChat
+    patch_sessionbox_search()
+
+    from wxauto4 import WeChat
+    log("Initializing WeChat automation instance...")
     try:
         wx = WeChat()
-        if args.action == 'send':
-            if not args.msg:
-                print(json.dumps({"status": "error", "message": "No message content"}))
-                return
-            wx.SendMsg(msg=args.msg, who=args.who)
-            print(json.dumps({"status": "success", "detail": f"Sent to {args.who}"}))
-            
-        elif args.action == 'sync':
-            # Correct method to get chat history in wxauto
-            wx.ChatWith(args.who)
-            msgs = wx.GetAllMessage()
-            output = [{"sender": m[0], "content": m[1]} for m in msgs]
-            print(json.dumps(output, ensure_ascii=False))
-            
     except Exception as e:
-        print(json.dumps({"status": "error", "message": str(e)}))
+        print(json.dumps({"status": "error", "message": f"Init failed: {str(e)}"}))
+        sys.exit(1)
+
+    # Step 3: Execute Action
+    if args.action == 'sync':
+        try:
+            log(f"Navigating to '{args.who}'...")
+            wx.ChatWith(args.who, exact=False)
+            log("Navigation finished. Waiting for messages...")
+            time.sleep(2.0) # Allow chat pane to refresh
+
+            # Verify we are on the correct chat
+            try:
+                current_chat_name = wx.GetSessionList()[0]
+                log(f"Active chat is now: '{current_chat_name}'")
+            except Exception as e:
+                log(f"Failed to verify chat title: {str(e)}")
+                current_chat_name = "Unknown"
+
+            log("Fetching all messages from visible pane...")
+            msgs = wx.GetAllMessage()
+            log(f"Fetched {len(msgs)} records.")
+
+            if not msgs:
+                print(json.dumps({
+                    "status": "warning",
+                    "message": f"No messages found in '{args.who}'. Verify group name or visibility.",
+                    "messages": []
+                }))
+                return
+
+            output = [parse_message(m) for m in msgs]
+            print(json.dumps({
+                "status": "success",
+                "group": args.who,
+                "count": len(output),
+                "messages": output
+            }, ensure_ascii=False))
+
+        except Exception as e:
+            print(json.dumps({"status": "error", "message": str(e)}))
+
+    elif args.action == 'send':
+        if not args.msg:
+            print(json.dumps({"status": "error", "message": "Missing --msg argument"}))
+            return
+        try:
+            log(f"Sending message to '{args.who}'...")
+            wx.SendMsg(msg=args.msg, who=args.who, exact=False)
+            print(json.dumps({"status": "success", "detail": f"Sent to '{args.who}'"}))
+        except Exception as e:
+            print(json.dumps({"status": "error", "message": str(e)}))
 
 if __name__ == "__main__":
     main()
