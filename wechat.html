@@ -11,6 +11,26 @@
             --accent: #07C160; /* WeChat Green */
             --code-bg: #161b22;
         }
+        /* Bilingual support */
+        .zh { display: none; }
+        body.lang-zh .zh { display: inline; }
+        body.lang-zh h1.zh, body.lang-zh h2.zh, body.lang-zh p.zh, body.lang-zh li.zh, body.lang-zh strong.zh { display: block; }
+        body.lang-zh .en { display: none; }
+
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switch a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             background: var(--bg);
@@ -70,19 +90,41 @@
     </style>
 </head>
 <body>
-    <h1>💬 QCAI WeChat Bridge Setup</h1>
-    <p>This guide allows you to control your Windows WeChat desktop client remotely using your OpenClaw Gateway.</p>
+    <div class="lang-switch"><a href="#" onclick="toggleLanguage()">中文</a></div>
+    <h1>
+        <span class="en">💬 QCAI WeChat Bridge Setup</span>
+        <span class="zh">💬 QCAI 微信桥接设置</span>
+    </h1>
+    <p>
+        <span class="en">This guide allows you to control your Windows WeChat desktop client remotely using your OpenClaw Gateway.</span>
+        <span class="zh">本指南允许您通过 OpenClaw 网关远程控制您的 Windows 微信桌面客户端。</span>
+    </p>
 
     <div class="note">
-        <strong>Requirements:</strong>
+        <strong>
+            <span class="en">Requirements:</span>
+            <span class="zh">环境要求：</span>
+        </strong>
         <ul>
-            <li>Windows PC with WeChat Desktop installed and logged in.</li>
-            <li>Python 3.10+ and <strong>Git</strong> installed on your Windows machine.</li>
+            <li>
+                <span class="en">Windows PC with WeChat Desktop installed and logged in.</span>
+                <span class="zh">安装并登录了微信桌面版的 Windows 电脑。</span>
+            </li>
+            <li>
+                <span class="en">Python 3.10+ and <strong>Git</strong> installed on your Windows machine.</span>
+                <span class="zh">在您的 Windows 机器上安装了 Python 3.10+ 和 <strong>Git</strong>。</span>
+            </li>
         </ul>
     </div>
 
-    <h2>Step 1: Install Automation Driver</h2>
-    <p>Open PowerShell or Command Prompt on your Windows PC and install the WeChat automation driver from the QCAI repository:</p>
+    <h2>
+        <span class="en">Step 1: Install Automation Driver</span>
+        <span class="zh">步骤 1：安装自动化驱动</span>
+    </h2>
+    <p>
+        <span class="en">Open PowerShell or Command Prompt on your Windows PC and install the WeChat automation driver from the QCAI repository:</span>
+        <span class="zh">在您的 Windows 电脑上打开 PowerShell 或命令提示符，并从 QCAI 仓库安装微信自动化驱动：</span>
+    </p>
 
     <div class="code-container">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
@@ -90,22 +132,43 @@
     </div>
 
     <div class="note" style="border-left-color: #ffcc00; background: rgba(255, 204, 0, 0.1);">
-        <strong>Troubleshooting <code>'pip'</code> or <code>'git'</code> errors:</strong><br>
-        1. <strong>If pip is missing:</strong> Re-run the <a href="https://www.python.org/downloads/" style="color: var(--accent);">Python installer</a> and check <strong>"Add python.exe to PATH"</strong>.<br>
-        2. <strong>If git is missing:</strong> Download and install <a href="https://git-scm.com/download/win" style="color: var(--accent);">Git for Windows</a> to allow installation from GitHub.<br>
-        3. <strong>Fast Fix:</strong> You can run <code>winget install Python.Python.3</code> and <code>winget install Git.Git</code> in PowerShell to install both automatically.
+        <strong>
+            <span class="en">Troubleshooting <code>'pip'</code> or <code>'git'</code> errors:</span>
+            <span class="zh">问题排查 (<code>'pip'</code> 或 <code>'git'</code> 错误):</span>
+        </strong><br>
+        1. <strong><span class="en">If pip is missing:</span><span class="zh">如果缺少 pip：</span></strong> 
+        <span class="en">Re-run the <a href="https://www.python.org/downloads/" style="color: var(--accent);">Python installer</a> and check <strong>"Add python.exe to PATH"</strong>.</span>
+        <span class="zh">重新运行 <a href="https://www.python.org/downloads/" style="color: var(--accent);">Python 安装程序</a> 并勾选 <strong>"Add python.exe to PATH"</strong>。</span><br>
+        2. <strong><span class="en">If git is missing:</span><span class="zh">如果缺少 git：</span></strong> 
+        <span class="en">Download and install <a href="https://git-scm.com/download/win" style="color: var(--accent);">Git for Windows</a> to allow installation from GitHub.</span>
+        <span class="zh">下载并安装 <a href="https://git-scm.com/download/win" style="color: var(--accent);">Git for Windows</a> 以允许从 GitHub 进行安装。</span><br>
+        3. <strong><span class="en">Fast Fix:</span><span class="zh">快速修复：</span></strong> 
+        <span class="en">You can run <code>winget install Python.Python.3</code> and <code>winget install Git.Git</code> in PowerShell to install both automatically.</span>
+        <span class="zh">您可以在 PowerShell 中运行 <code>winget install Python.Python.3</code> 和 <code>winget install Git.Git</code> 来自动安装两者。</span>
     </div>
 
-    <h2>Step 2: Create the Workspace</h2>
-    <p>You must create a dedicated folder for the WeChat bridge inside your OpenClaw skills directory. Run this in PowerShell:</p>
+    <h2>
+        <span class="en">Step 2: Create the Workspace</span>
+        <span class="zh">步骤 2：创建工作空间</span>
+    </h2>
+    <p>
+        <span class="en">You must create a dedicated folder for the WeChat bridge inside your OpenClaw skills directory. Run this in PowerShell:</span>
+        <span class="zh">您必须在 OpenClaw 技能目录中为微信桥接创建一个专用文件夹。在 PowerShell 中运行：</span>
+    </p>
 
     <div class="code-container">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
 <pre><code>mkdir -Force ~/.openclaw/skills/wechat</code></pre>
     </div>
 
-    <h2>Step 3: The Manifest</h2>
-    <p>Create a file named <code>SKILL.md</code> inside the <code>~/.openclaw/skills/wechat</code> folder and paste the following:</p>
+    <h2>
+        <span class="en">Step 3: The Manifest</span>
+        <span class="zh">步骤 3：清单文件 (Manifest)</span>
+    </h2>
+    <p>
+        <span class="en">Create a file named <code>SKILL.md</code> inside the <code>~/.openclaw/skills/wechat</code> folder and paste the following:</span>
+        <span class="zh">在 <code>~/.openclaw/skills/wechat</code> 文件夹中创建一个名为 <code>SKILL.md</code> 的文件并粘贴以下内容：</span>
+    </p>
 
     <div class="code-container">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
@@ -134,8 +197,14 @@ Fetch the latest messages from a specific chat.
 </code></pre>
     </div>
 
-    <h2>Step 4: The Logic Engine</h2>
-    <p>Create a file named <code>wechat_bridge.py</code> in the same folder and paste this proper execution script:</p>
+    <h2>
+        <span class="en">Step 4: The Logic Engine</span>
+        <span class="zh">步骤 4：逻辑引擎</span>
+    </h2>
+    <p>
+        <span class="en">Create a file named <code>wechat_bridge.py</code> in the same folder and paste this proper execution script:</span>
+        <span class="zh">在同一文件夹中创建一个名为 <code>wechat_bridge.py</code> 的文件并粘贴这个正确的执行脚本：</span>
+    </p>
 
     <div class="code-container">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
@@ -175,8 +244,14 @@ if __name__ == "__main__":
 </code></pre>
     </div>
 
-    <h2>Step 5: The Visual Dashboard</h2>
-    <p>Create a file named <code>gui.html</code> in the same folder. This provides the UI inside your QCAI App:</p>
+    <h2>
+        <span class="en">Step 5: The Visual Dashboard</span>
+        <span class="zh">步骤 5：可视化仪表板</span>
+    </h2>
+    <p>
+        <span class="en">Create a file named <code>gui.html</code> in the same folder. This provides the UI inside your QCAI App:</span>
+        <span class="zh">在同一文件夹中创建一个名为 <code>gui.html</code> 的文件。这将在您的 QCAI 应用程序中提供 UI：</span>
+    </p>
 
     <div class="code-container">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
@@ -237,15 +312,35 @@ async function execute(action) {
 </code></pre>
     </div>
 
-    <h2>Final Step</h2>
+    <h2>
+        <span class="en">Final Step</span>
+        <span class="zh">最后步骤</span>
+    </h2>
     <ol>
-        <li>Restart your OpenClaw Gateway.</li>
-        <li>Open the QCAI iOS App.</li>
-        <li>Click your OpenClaw Dashboard icon.</li>
-        <li>Select the 💬 <strong>qcai-wechat</strong> skill to open your new remote control!</li>
+        <li>
+            <span class="en">Restart your OpenClaw Gateway.</span>
+            <span class="zh">重启您的 OpenClaw 网关。</span>
+        </li>
+        <li>
+            <span class="en">Open the QCAI iOS App.</span>
+            <span class="zh">打开 QCAI iOS 应用程序。</span>
+        </li>
+        <li>
+            <span class="en">Click your OpenClaw Dashboard icon.</span>
+            <span class="zh">点击您的 OpenClaw 仪表板图标。</span>
+        </li>
+        <li>
+            <span class="en">Select the 💬 <strong>qcai-wechat</strong> skill to open your new remote control!</span>
+            <span class="zh">选择 💬 <strong>qcai-wechat</strong> 技能来打开您的新远程控制！</span>
+        </li>
     </ol>
 
     <script>
+        function toggleLanguage() {
+            const isZh = document.body.classList.toggle('lang-zh');
+            document.querySelector('.lang-switch a').innerText = isZh ? 'English' : '中文';
+        }
+
         function copyCode(button) {
             const codeBlock = button.nextElementSibling.innerText;
             navigator.clipboard.writeText(codeBlock).then(() => {
