@@ -158,7 +158,7 @@
 
     <div class="code-container">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-<pre><code>mkdir -Force ~/.openclaw/skills/wechat</code></pre>
+<pre><code>mkdir -Force ~/.openclaw/workspace/skills/wechat</code></pre>
     </div>
 
     <h2>
@@ -166,8 +166,8 @@
         <span class="zh">步骤 3：清单文件 (Manifest)</span>
     </h2>
     <p>
-        <span class="en">Create a file named <code>SKILL.md</code> inside the <code>~/.openclaw/skills/wechat</code> folder and paste the following:</span>
-        <span class="zh">在 <code>~/.openclaw/skills/wechat</code> 文件夹中创建一个名为 <code>SKILL.md</code> 的文件并粘贴以下内容：</span>
+        <span class="en">Create a file named <code>SKILL.md</code> inside the <code>~/.openclaw/workspace/skills/wechat</code> folder and paste the following:</span>
+        <span class="zh">在 <code>~/.openclaw/workspace/skills/wechat</code> 文件夹中创建一个名为 <code>SKILL.md</code> 的文件并粘贴以下内容：</span>
     </p>
 
     <div class="code-container">
@@ -175,25 +175,49 @@
 <pre><code>---
 name: "qcai-wechat"
 description: "QCAI WeChat Bridge: Remote control your WeChat desktop via AI."
-metadata:
-  openclaw:
-    emoji: "💬"
-    category: "Communication"
-    homepage: "./gui.html"
+metadata: {"openclaw": {"emoji": "💬", "category": "Communication"}}
 ---
 
 # QCAI WeChat Tool
-This tool allows you to sync messages and send replies to WeChat groups or contacts.
 
-## Commands
+This skill allows the OpenClaw Agent to sync messages and send replies to WeChat groups or contacts natively.
 
-### `send`
-Send a message to a specific contact or group.
-- **Usage**: `python wechat_bridge.py --action send --who "Contact Name" --msg "Your message"`
+## When to use this skill
 
-### `sync`
-Fetch the latest messages from a specific chat.
-- **Usage**: `python wechat_bridge.py --action sync --who "Group Name"`
+Invoke this skill automatically when the user asks about:
+- Sending a message to someone on WeChat
+- Reading, syncing, or fetching the latest messages from a WeChat group or contact
+- Replying to a WeChat conversation
+
+**Trigger phrases:** "Send a WeChat message", "Sync WeChat", "Read WeChat", "message on WeChat"
+
+## Command
+
+```bash
+python {baseDir}/wechat_bridge.py --action "&lt;action&gt;" --who "&lt;who&gt;" --msg "&lt;message&gt;"
+```
+
+### Arguments
+
+| Argument | Default | Description |
+|---|---|---|
+| `&lt;action&gt;` | — | MUST be either "send" or "sync" |
+| `&lt;who&gt;` | — | The exact name of the WeChat contact or group |
+| `&lt;message&gt;` | "" | The message to send (only required if action is 'send') |
+
+## Usage examples
+
+```bash
+# Send a message to Charlotte Real Estate
+python {baseDir}/wechat_bridge.py --action "send" --who "Charlotte Real Estate" --msg "I am on my way."
+
+# Sync latest messages from Operations Group
+python {baseDir}/wechat_bridge.py --action "sync" --who "Operations Group" --msg ""
+```
+
+## Output
+
+The script returns a JSON structured response indicating success/failure, or a JSON array of recent messages.
 </code></pre>
     </div>
 
@@ -245,95 +269,40 @@ if __name__ == "__main__":
     </div>
 
     <h2>
-        <span class="en">Step 5: The Visual Dashboard</span>
-        <span class="zh">步骤 5：可视化仪表板</span>
-    </h2>
-    <p>
-        <span class="en">Create a file named <code>gui.html</code> in the same folder. This provides the UI inside your QCAI App:</span>
-        <span class="zh">在同一文件夹中创建一个名为 <code>gui.html</code> 的文件。这将在您的 QCAI 应用程序中提供 UI：</span>
-    </p>
-
-    <div class="code-container">
-        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;style&gt;
-    body { font-family: sans-serif; padding: 20px; background: #f4f4f9; color: #333; }
-    .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-    input, button { width: 100%; padding: 12px; margin: 8px 0; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box; }
-    button { background: #07C160; color: white; border: none; font-weight: bold; cursor: pointer; }
-    button:active { opacity: 0.8; }
-    .sync-btn { background: #007AFF; }
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class="card"&gt;
-    &lt;h3&gt;💬 QCAI WeChat Remote&lt;/h3&gt;
-    &lt;input type="text" id="target" placeholder="Chat Name (e.g. Charlotte Real Estate)"&gt;
-    &lt;input type="text" id="message" placeholder="Type your message..."&gt;
-    &lt;button onclick="execute('send')"&gt;Send Message&lt;/button&gt;
-    &lt;hr&gt;
-    &lt;button class="sync-btn" onclick="execute('sync')"&gt;Sync History&lt;/button&gt;
-    &lt;div id="status" style="margin-top:15px; font-size: 13px; color: #555;"&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;script&gt;
-async function execute(action) {
-    const who = document.getElementById('target').value;
-    const msg = document.getElementById('message').value;
-    const status = document.getElementById('status');
-    
-    if (!who) {
-        alert("Please enter a Chat Name");
-        return;
-    }
-    
-    status.innerText = "Running command on Windows PC...";
-    
-    let cmd = `python wechat_bridge.py --action ${action} --who "${who}"`;
-    if (action === 'send') cmd += ` --msg "${msg}"`;
-    
-    try {
-        const resp = await fetch('/api/exec', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ cmd: cmd })
-        });
-        const data = await resp.json();
-        status.innerText = action === 'send' ? "Sent!" : "Sync complete. Check logs.";
-    } catch (e) {
-        status.innerText = "Error: Could not connect to OpenClaw.";
-    }
-}
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-    </div>
-
-    <h2>
         <span class="en">Final Step</span>
         <span class="zh">最后步骤</span>
     </h2>
     <ol>
         <li>
-            <span class="en">Restart your OpenClaw Gateway.</span>
-            <span class="zh">重启您的 OpenClaw 网关。</span>
+            <span class="en">Restart your OpenClaw Gateway to load the new Skill configuration.</span>
+            <span class="zh">重启您的 OpenClaw 网关以加载新的技能配置。</span>
         </li>
         <li>
             <span class="en">Open the QCAI iOS App.</span>
             <span class="zh">打开 QCAI iOS 应用程序。</span>
         </li>
-        <li>
-            <span class="en">Click your OpenClaw Dashboard icon.</span>
-            <span class="zh">点击您的 OpenClaw 仪表板图标。</span>
-        </li>
-        <li>
-            <span class="en">Select the 💬 <strong>qcai-wechat</strong> skill to open your new remote control!</span>
-            <span class="zh">选择 💬 <strong>qcai-wechat</strong> 技能来打开您的新远程控制！</span>
-        </li>
     </ol>
+
+    <h2>
+        <span class="en">How to Communicate</span>
+        <span class="zh">使用指南 (如何通信)</span>
+    </h2>
+    <p>
+        <span class="en">OpenClaw directly integrates this skill into your Natural Language AI Agent.</span>
+        <span class="zh">OpenClaw 将此技能直接集成到您的自然语言 AI 代理中。</span>
+    </p>
+
+    <div class="note" style="background: rgba(0, 122, 255, 0.1); border-left-color: #007AFF;">
+        <strong>💬 <span class="en">AI Chat Control</span><span class="zh">AI 聊天控制</span></strong><br>
+        <span class="en">You can now talk to your AI agent directly (in the QCAI App or Telegram) and say: <em>"Send 'I'm on my way' to Charlotte Real Estate on WeChat."</em> or <em>"Sync the latest messages from the Operations Group on WeChat."</em> The AI will parse the request, invoke the `wechat_bridge.py` script automatically, and tell you the result.</span>
+        <span class="zh">您现在可以直接与您的 AI 代理（在 QCAI 应用程序或 Telegram 中）交谈并说：<em>“在微信上给 Charlotte 发送‘我快到了’”。</em> 或 <em>“同步微信上的运营组最新消息。”</em> AI 会自动解析请求，调用 `wechat_bridge.py` 脚本，并告诉您结果。</span>
+    </div>
+
+    <div class="note" style="border-left-color: #ff3b30; background: rgba(255, 59, 48, 0.1);">
+        <strong>⚠️ <span class="en">Important Requirement</span><span class="zh">重要要求</span></strong><br>
+        <span class="en">For the automation to work, your <strong>WeChat PC Client must be open and the window must be visible</strong> (not minimized). The automation driver "sees" the screen to interact with the UI.</span>
+        <span class="zh">为了使自动化正常工作，您的<strong>微信电脑客户端必须处于打开状态且窗口可见</strong>（不能最小化）。自动化驱动程序通过“查看”屏幕来与 UI 交互。</span>
+    </div>
 
     <script>
         function toggleLanguage() {
