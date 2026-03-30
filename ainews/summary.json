@@ -1,0 +1,154 @@
+[
+  {
+    "title": "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round",
+    "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+    "industry": "Semiconductors",
+    "summary": "AI chip startup Rebellions secured $400 million in a pre-IPO funding round at a $2.3 billion valuation, signaling strong investor confidence in the company's AI inference chip designs.",
+    "charlotte_impact": "This funding validates the growing market for specialized AI chips beyond Nvidia, fostering innovation and competition in the semiconductor industry. It drives investment and job creation in chip design and manufacturing, impacting sectors from data centers to autonomous vehicles and potentially reducing reliance on a single dominant chip supplier.",
+    "impact_score": 9
+  },
+  {
+    "title": "Why SoftBank\u2019s new $40B loan points to a 2026 OpenAI IPO",
+    "url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
+    "industry": "Finance",
+    "summary": "SoftBank secured a $40 billion loan, leading to speculation about a potential 2026 OpenAI IPO, indicating significant financial backing for the generative AI leader.",
+    "charlotte_impact": "A potential OpenAI IPO would be a landmark event, generating significant activity for investment banks and hedge funds. This could fuel further investment into AI and related technologies, potentially creating ripples in the broader stock market and influencing investment strategies globally.",
+    "impact_score": 8
+  },
+  {
+    "title": "Starcloud raises $170 million Series A to build data centers in space",
+    "url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
+    "industry": "Data Centers",
+    "summary": "Starcloud, a startup building data centers in space, raised a $170 million Series A round, achieving unicorn status in record time, illustrating the growing demand for novel AI infrastructure.",
+    "charlotte_impact": "Investing in space-based data centers highlights the urgent need for massive computing power for AI. This audacious move suggests the terrestrial limits of infrastructure are being reached, accelerating a shift toward space-based industrialization with implications for national security, materials science, and the future of energy consumption.",
+    "impact_score": 7
+  },
+  {
+    "title": "Why OpenAI really shut down Sora",
+    "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+    "industry": "AI Safety",
+    "summary": "Concerns arise regarding OpenAI's motives for shutting down Sora, its AI video-generation tool, triggering user unease about potential data collection practices.",
+    "charlotte_impact": "The shutdown of Sora, regardless of OpenAI's intentions, impacts the trajectory of AI-generated video technology.  If user data practices were the root cause, it could lead to greater regulatory scrutiny and consumer awareness concerning data privacy within the AI sector.",
+    "impact_score": 6
+  },
+  {
+    "title": "VCs are betting billions on AI\u2019s next wave, so why is OpenAI killing Sora?",
+    "url": "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
+    "industry": "Venture Capital",
+    "summary": "The article questions the simultaneous bullish venture capital investments in AI and OpenAI's decision to kill Sora, highlighting uncertainty and possible shifts in AI video strategies.",
+    "charlotte_impact": "This highlights the inherent risk and volatility within the AI investment space. While overall investment remains strong, specific sectors, like AI video generation, could experience temporary setbacks or shifts in focus. This underscores the need for diversified AI investment strategies.",
+    "impact_score": 6
+  },
+  {
+    "title": "Mantis Biotech is making \u2018digital twins\u2019 of humans to help solve medicine\u2019s data availability problem",
+    "url": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
+    "industry": "Healthcare",
+    "summary": "Mantis Biotech is creating 'digital twins' of humans to address data scarcity in medicine, building synthetic datasets representing human anatomy and physiology.",
+    "charlotte_impact": "Digital twins in healthcare offer potential for personalized medicine and drug development. This approach can reduce reliance on clinical trials and improve treatment outcomes, while raising ethical considerations around data privacy and consent.",
+    "impact_score": 8
+  },
+  {
+    "title": "ScaleOps raises $130M to improve computing efficiency amid AI demand",
+    "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
+    "industry": "Cloud Computing",
+    "summary": "ScaleOps secured $130M to optimize computing efficiency amidst growing AI demands by automating infrastructure management in real-time.",
+    "charlotte_impact": "ScaleOps' funding underlines the growing pressure on computing resources fueled by AI. Improved efficiency in cloud infrastructure is essential to mitigate GPU shortages, control cloud costs, and ensure continued development and deployment of AI solutions. Success in this domain would significantly broaden access to AI capabilities across industries.",
+    "impact_score": 9
+  },
+  {
+    "title": "Mistral AI raises $830M in debt to set up a data center near Paris",
+    "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
+    "industry": "Data Centers",
+    "summary": "Mistral AI raised $830 million in debt to establish a new data center near Paris, aiming to begin operations in the second quarter of 2026.",
+    "charlotte_impact": "This signifies the massive infrastructure investments needed to support AI model training and deployment. The location near Paris also points towards the growth of AI capabilities beyond Silicon Valley, potentially fostering AI innovation hubs across Europe.",
+    "impact_score": 8
+  },
+  {
+    "title": "Qodo raises $70M for code verification as AI coding scales",
+    "url": "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
+    "industry": "Software Development",
+    "summary": "Qodo secured $70 million to focus on code verification solutions as AI coding tools become more prevalent.",
+    "charlotte_impact": "This addresses a critical concern: the quality and reliability of AI-generated code. Qodo's success will be vital to maintain the integrity of software and minimize bugs as AI increasingly automates software development tasks. This impacts virtually every industry reliant on software.",
+    "impact_score": 9
+  },
+  {
+    "title": "Sora\u2019s shutdown could be a reality check moment for AI video",
+    "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+    "industry": "AI Video Generation",
+    "summary": "The shutdown of Sora raises questions about the future of AI video and whether OpenAI's move represents a broader industry pullback.",
+    "charlotte_impact": "A potential pullback on AI video generation could hinder innovation and adoption in creative industries and marketing. It might signal the technology is not yet mature or raises unresolved ethical concerns, such as deepfakes or misinformation.",
+    "impact_score": 6
+  },
+  {
+    "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+    "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+    "industry": "Social Media",
+    "summary": "Bluesky introduces Attie, an AI-powered app for creating custom feeds, demonstrating AI's potential to personalize social media experiences.",
+    "charlotte_impact": "This development could significantly impact content consumption and information discovery on social platforms. If AI-powered feeds become dominant, it raises questions about filter bubbles, echo chambers, and the overall diversity of information people are exposed to.",
+    "impact_score": 5
+  },
+  {
+    "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
+    "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+    "industry": "AI Ethics",
+    "summary": "A Stanford study highlights the potential dangers of seeking personal advice from AI chatbots, cautioning against their sycophantic tendencies.",
+    "charlotte_impact": "The study underscores the risks of over-reliance on AI for personal decision-making.  It could lead to recommendations that lack nuance, promote harmful biases, or even endanger users. This suggests a need for caution and further research into the ethical implications of AI-driven advice.",
+    "impact_score": 7
+  },
+  {
+    "title": "Elon Musk\u2019s last co-founder reportedly leaves xAI",
+    "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+    "industry": "AI Talent",
+    "summary": "The reported departure of Elon Musk's last co-founder from xAI, continuing a trend of co-founder exits, signifies internal challenges or strategic shifts at the AI company.",
+    "charlotte_impact": "High turnover in leadership can impact a company's direction, potentially delaying product development and creating instability. It may also signal disagreements over strategy or internal friction, affecting xAI's competitiveness.",
+    "impact_score": 5
+  },
+  {
+    "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
+    "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
+    "industry": "Government Regulation",
+    "summary": "Anthropic won an injunction against the Trump administration, rescinding restrictions placed on the AI company by the Defense Department.",
+    "charlotte_impact": "This case illustrates the increasing politicization of AI and the ongoing debate around government regulation of the industry. The outcome demonstrates the potential for legal challenges to government actions that are perceived as anti-competitive or discriminatory against AI companies.",
+    "impact_score": 6
+  },
+  {
+    "title": "Wikipedia cracks down on the use of AI in article writing",
+    "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/",
+    "industry": "Content Creation",
+    "summary": "Wikipedia is cracking down on the use of AI in article writing, reflecting concerns about accuracy and quality of AI-generated content.",
+    "charlotte_impact": "This decision could potentially lead to stricter standards for online content creation. If implemented effectively, Wikipedia's action would force producers to focus on fact-checking and original research.",
+    "impact_score": 7
+  },
+  {
+    "title": "New pro-AI group backed by Trump allies plans $100M midterm spending push",
+    "url": "https://www.foxnews.com/politics/new-pro-ai-group-backed-trump-allies-plans-100m-midterm-spending-push",
+    "industry": "Politics",
+    "summary": "A new pro-AI group backed by Trump allies plans a $100 million midterm spending push, signaling AI's emergence as a significant political issue.",
+    "charlotte_impact": "This indicates the growing politicization of AI regulation. The $100M investment suggests a deliberate effort to influence policy, potentially leading to deregulation and a more laissez-faire approach to AI development.  This could accelerate AI deployment but raise concerns around safety and ethical considerations.",
+    "impact_score": 7
+  },
+  {
+    "title": "Modernizing Organizations: How AI Is Reshaping Corporate Learning Frameworks",
+    "url": "https://elearningindustry.com/modernizing-organizations-how-ai-is-reshaping-corporate-learning-frameworks",
+    "industry": "Education",
+    "summary": "AI is reshaping corporate learning frameworks by personalizing learning paths, powered by AI-driven Learning Management Systems (LMS).",
+    "charlotte_impact": "AI-powered personalization can improve the effectiveness and efficiency of corporate training. However, issues of bias in AI algorithms, access to AI tools, and the deskilling of human trainers need to be addressed.",
+    "impact_score": 6
+  },
+  {
+    "title": "Dana White tells anti-AI UFC fans to \u2018shut the f\u2014k up and watch the fights\u2019",
+    "url": "https://www.mmamania.com/ufc-news/432362/dana-white-tells-anti-ai-ufc-fans-to-shut-the-f-k-up-and-watch-the-fights",
+    "industry": "Entertainment",
+    "summary": "Dana White defends the UFC's use of AI in promotional material, pushing back against fans critical of its increasing use.",
+    "charlotte_impact": "This exemplifies the broader adoption of AI in entertainment, affecting the creation and distribution of content. Fan reaction suggests potential resistance to over-reliance on AI, highlighting the need for transparency and human oversight in creative processes.",
+    "impact_score": 5
+  },
+  {
+    "title": "Engineer rejects AI-written email, sparks debate on professional use of technology",
+    "url": "https://indianexpress.com/article/trending/trending-in-india/engineer-rejects-ai-written-email-sparks-debate-on-professional-use-of-technology-10608375/",
+    "industry": "Software Development",
+    "summary": "An engineer rejecting an AI-written email sparks a debate on the appropriate use of AI in professional communications.",
+    "charlotte_impact": "This signals growing awareness around the limitations and potential inappropriateness of AI in certain professional contexts. While AI can increase efficiency, concerns over authenticity, personalization, and job displacement are likely to temper its wholesale adoption in communication.",
+    "impact_score": 5
+  }
+]
