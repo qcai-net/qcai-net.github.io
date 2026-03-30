@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCAI Portal | OpenClaw Gateway Setup</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --text: #1e293b;
+            --code-bg: #1e293b;
+            --code-text: #f8fafc;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: var(--card); padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        h1 { color: var(--primary); margin-top: 0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+        h2 { margin-top: 30px; font-size: 1.25rem; display: flex; align-items: center; }
+        .step-num { background: var(--primary); color: white; width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 14px; margin-right: 10px; }
+        p { margin: 10px 0; color: #475569; }
+        .code-block { position: relative; background: var(--code-bg); color: var(--code-text); padding: 15px; border-radius: 8px; font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 14px; margin: 15px 0; overflow-x: auto; }
+        .copy-btn { position: absolute; right: 10px; top: 10px; background: #334155; color: white; border: none; padding: 4px 8px; border-radius: 4px; cursor: pointer; font-size: 11px; }
+        .copy-btn:hover { background: #475569; }
+        .note { background: #eff6ff; border-left: 4px solid var(--primary); padding: 15px; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        footer { text-align: center; margin-top: 40px; font-size: 12px; color: #94a3b8; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>QCAI Portal Setup</h1>
+    <p>Follow these steps to enable the <strong>QCAI Portal</strong> on your OpenClaw Gateway. This allows the QCAI app to securely access dashboards, GUI controls, and generated documents via your private Tailscale network.</p>
+
+    <div class="note">
+        <strong>Prerequisite:</strong> Ensure <strong>Tailscale MagicDNS</strong> is enabled in your Tailscale Admin Console.
+    </div>
+
+    <h2><span class="step-num">1</span> Create the Portal Directory</h2>
+    <p>Open your terminal on the Gateway computer and create the folder where assets will be stored:</p>
+    <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <pre>mkdir -p ~/.openclaw/workspace/portal</pre>
+    </div>
+
+    <h2><span class="step-num">2</span> Start the Asset Server</h2>
+    <p>Run the following command to start the HTTP server on port <strong>18790</strong>. This server is only accessible to devices on your Tailnet.</p>
+    <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <pre>cd ~/.openclaw/workspace/portal && nohup python3 -m http.server 18790 &</pre>
+    </div>
+
+    <h2><span class="step-num">3</span> Configure your QCAI App</h2>
+    <p>In the QCAI App settings, enter your <strong>MagicDNS</strong> hostname. The app will automatically connect to the following endpoints:</p>
+    <ul>
+        <li><strong>Command Center:</strong> <code>ws://[hostname]:18789</code></li>
+        <li><strong>Portal View:</strong> <code>http://[hostname]:18790</code></li>
+    </ul>
+
+    <h2><span class="step-num">4</span> Verification</h2>
+    <p>To test if it's working, create a test file:</p>
+    <div class="code-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <pre>echo "&lt;h1&gt;Portal Active&lt;/h1&gt;" > ~/.openclaw/workspace/portal/index.html</pre>
+    </div>
+    <p>Now, tap the <strong>Portal</strong> icon in your QCAI app. You should see "Portal Active" on your screen.</p>
+
+    <footer>
+        &copy; 2026 QCAI Network. All data stays within your private Tailnet.
+    </footer>
+</div>
+
+<script>
+    function copyCode(btn) {
+        const code = btn.nextElementSibling.innerText;
+        navigator.clipboard.writeText(code);
+        btn.innerText = "Copied!";
+        setTimeout(() => { btn.innerText = "Copy"; }, 2000);
+    }
+</script>
+
+</body>
+</html>
