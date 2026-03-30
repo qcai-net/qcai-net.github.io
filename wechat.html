@@ -477,6 +477,146 @@ if __name__ == "__main__":
         <span class="zh">为了使自动化正常工作，您的<strong>微信电脑客户端必须处于打开状态且窗口可见</strong>（不能最小化）。自动化驱动程序通过“查看”屏幕来与 UI 交互。</span>
     </div>
 
+    <h2>
+        <span class="en">Step 5: Portal Infrastructure (Backend)</span>
+        <span class="zh">步骤 5：门户基础设施 (后端)</span>
+    </h2>
+    <p>
+        <span class="en">Create a dedicated <code>portal/</code> directory in your workspace and add <code>dashboard.py</code>. This handles the communication between the QCAI App and your bridge.</span>
+        <span class="zh">在您的工作空间中创建一个专用的 <code>portal/</code> 目录，并添加 <code>dashboard.py</code>。这负责处理 QCAI 应用程序与您的网关之间的通信。</span>
+    </p>
+
+    <div class="code-container">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>import http.server
+import socketserver
+import json
+import subprocess
+import os
+
+PORT = 18790
+
+class PortalHandler(http.server.SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        super().end_headers()
+
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.end_headers()
+
+    def do_POST(self):
+        if self.path == '/api/exec':
+            content_length = int(self.headers['Content-Length'])
+            post_data = self.rfile.read(content_length)
+            data = json.loads(post_data.decode('utf-8'))
+            cmd = data.get('cmd')
+            if not cmd:
+                self.send_response(400)
+                self.end_headers()
+                return
+
+            try:
+                skills_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "skills", "wechat"))
+                result = subprocess.run(cmd, shell=True, capture_output=True, text=True, cwd=skills_dir)
+                output_str = result.stdout
+                if result.stderr: output_str += "\n" + result.stderr
+                try:
+                    response_data = json.loads(result.stdout)
+                except ValueError:
+                    response_data = {"status": "success", "output": output_str}
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps(response_data).encode('utf-8'))
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
+        else:
+            self.send_response(404)
+            self.end_headers()
+
+if __name__ == "__main__":
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    with socketserver.TCPServer(("", PORT), PortalHandler) as httpd:
+        print(f"ClawPortal Server running at http://127.0.0.1:{PORT}")
+        httpd.serve_forever()
+</code></pre>
+    </div>
+
+    <h2>
+        <span class="en">Step 6: Portal GUI (Interface)</span>
+        <span class="zh">步骤 6：门户 GUI (界面)</span>
+    </h2>
+    <p>
+        <span class="en">Save this <code>index.html</code> inside the same <code>portal/</code> folder. This is the premium "Glassmorphism" interface you will see on your phone.</span>
+        <span class="zh">将此 <code>index.html</code> 保存到同一个 <code>portal/</code> 文件夹中。这是您将在手机上看到的优质“磨砂玻璃”界面。</span>
+    </p>
+
+    <div class="code-container">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    &lt;title&gt;QCAI WeChat Portal&lt;/title&gt;
+    &lt;style&gt;
+        :root { --primary: #07C160; --bg: #0d1117; --glass: rgba(255, 255, 255, 0.05); }
+        body { font-family: -apple-system, sans-serif; background: var(--bg); color: white; margin: 0; padding: 0; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+        header { padding: 15px; background: var(--glass); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center; }
+        #chat-area { flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; }
+        .message { max-width: 80%; margin-bottom: 10px; padding: 10px; border-radius: 12px; font-size: 14px; }
+        .message.received { align-self: flex-start; background: rgba(255,255,255,0.1); }
+        .message.sent { align-self: flex-end; background: var(--primary); }
+        footer { padding: 15px; background: var(--glass); border-top: 1px solid rgba(255,255,255,0.1); }
+        .controls { display: grid; grid-template-columns: 1fr auto; gap: 10px; }
+        input { background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 10px; color: white; }
+        button { padding: 10px 20px; border-radius: 8px; border: none; background: var(--primary); color: white; font-weight: bold; cursor: pointer; }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;&lt;h4&gt;WeChat Portal&lt;/h4&gt; &lt;button onclick="executeAction('sync')" style="font-size:10px"&gt;Sync All&lt;/button&gt;&lt;/header&gt;
+    &lt;main id="chat-area"&gt;&lt;/main&gt;
+    &lt;footer&gt;
+        &lt;div class="controls" style="margin-bottom:10px"&gt;&lt;input type="text" id="target" placeholder="Group Name..."&gt;&lt;/div&gt;
+        &lt;div class="controls"&gt;&lt;input type="text" id="message" placeholder="Type..."&gt;&lt;button onclick="executeAction('send')"&gt;Send&lt;/button&gt;&lt;/div&gt;
+    &lt;/footer&gt;
+    &lt;script&gt;
+        async function executeAction(action) {
+            const who = document.getElementById('target').value;
+            const msg = document.getElementById('message').value;
+            // UPDATE: Use your absolute python path
+            let cmd = `C:\\Users\\yonwang\\AppData\\Local\\Programs\\Python\\Python312\\python.exe ..\\skills\\wechat\\wechat_bridge.py --action ${action} --who "${who}"`;
+            if (action === 'send') cmd += ` --msg "${msg}"`;
+            const resp = await fetch('/api/exec', { method: 'POST', body: JSON.stringify({ cmd }) });
+            const data = await resp.json();
+            if (data.messages) {
+                document.getElementById('chat-area').innerHTML = data.messages.map(m => `&lt;div class="message ${m.sender==='Me'?'sent':'received'}"&gt;&lt;b&gt;${m.sender}&lt;/b&gt;&lt;br&gt;${m.content}&lt;/div&gt;`).join('');
+            }
+        }
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    </div>
+
+    <h2>
+        <span class="en">Step 7: Portal Deployment</span>
+        <span class="zh">步骤 7：门户部署</span>
+    </h2>
+    <div class="note" style="background: rgba(56, 189, 248, 0.1); border-left-color: #38bdf8;">
+        1. <strong><span class="en">Run the Server:</span><span class="zh">运行服务器：</span></strong> 
+        <span class="en">Open PowerShell and run:</span><span class="zh">打开 PowerShell 并运行：</span><br>
+        <code>Start-Process python -ArgumentList "dashboard.py" -NoNewWindow -WorkingDirectory "C:\Users\YourUser\.openclaw\workspace\portal\"</code><br>
+        2. <strong><span class="en">Open QCAI:</span><span class="zh">打开 QCAI：</span></strong> 
+        <span class="en">Tap the 🌐 **Portal** icon in your app. Your new WeChat interface is now live via MagicDNS!</span>
+        <span class="zh">点击应用程序中的 🌐 **门户** 图标。您的新微信界面现在已通过 MagicDNS 上线！</span>
+    </div>
+
     <script>
         function toggleLanguage() {
             const isZh = document.body.classList.toggle('lang-zh');
