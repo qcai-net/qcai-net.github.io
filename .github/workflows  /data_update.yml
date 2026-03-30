@@ -2,7 +2,7 @@ name: Charlotte Data Update
 
 on:
   schedule:
-    # Runs at 00:00 every day
+    # Runs at 00:00 every day (UTC)
     - cron: '0 0 * * *'
   workflow_dispatch: 
     inputs:
@@ -30,9 +30,11 @@ jobs:
           pip install requests
 
       - name: Run update script
-        working-directory: airealestate
         run: |
-          if [ "${{ github.event.inputs.all_layers }}" == "true" ]; then
+          # Use the input value if triggered manually, otherwise default to false for cron
+          ALL_LAYERS="${{ github.event.inputs.all_layers || 'false' }}"
+          
+          if [ "$ALL_LAYERS" == "true" ]; then
             python scraper/scrape_data.py --all
           else
             python scraper/scrape_data.py
@@ -42,6 +44,14 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Add the specific data directory
           git add airealestate/data/
-          git commit -m "Data refresh (Rotation/Full): $(date)" || echo "No changes to commit"
-          git push
+          
+          # Only commit if there are actual differences to avoid workflow errors
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Data refresh (Rotation/Full): $(date)"
+            git push
+          fi
