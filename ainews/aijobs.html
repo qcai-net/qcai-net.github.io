@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charlotte & Industry AI Jobs</title>
+    <style>
+:root { --bg:#f8fafc; --card:#ffffff; --text:#0f172a; --accent:#2563eb; --meta:#64748b; --border:rgba(226, 232, 240, 0.8); }
+body { margin:0; padding:20px; font-family:'Inter', -apple-system, system-ui, sans-serif; background:var(--bg); color:var(--text); line-height:1.5; }
+.container { max-width:850px; margin:0 auto; }
+header { margin-bottom:40px; text-align:center; padding:40px 20px; background:white; border-radius:24px; box-shadow:0 4px 20px rgba(0,0,0,0.03); border:1px solid var(--border); }
+h1 { font-size:36px; font-weight:800; margin:0; letter-spacing:-1px; background: linear-gradient(135deg, #1e293b 0%, #2563eb 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.timestamp { color:var(--meta); font-size:14px; margin-top:10px; font-weight:500; }
+
+.section-title { font-size:18px; font-weight:700; margin:30px 0 15px 0; display:flex; align-items:center; gap:10px; color:#1e293b; }
+.section-title::after { content:''; flex:1; height:1px; background:var(--border); }
+
+/* Industry Links Grid */
+.industry-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap:12px; margin-bottom:40px; }
+.lab-card { background:white; padding:16px; border-radius:16px; border:1px solid var(--border); text-decoration:none; color:inherit; transition:0.2s; display:flex; flex-direction:column; gap:4px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+.lab-card:hover { transform:translateY(-2px); border-color:var(--accent); box-shadow: 0 8px 16px rgba(37,99,235,0.06); }
+.lab-name { font-weight:700; color:var(--text); font-size:15px; }
+.lab-meta { font-size:12px; color:var(--meta); }
+
+/* Filter Dropdown */
+.controls { background:white; padding:20px; border-radius:20px; margin-bottom:20px; display:flex; align-items:center; justify-content:space-between; border:1px solid var(--border); }
+.filter-label { font-size:14px; font-weight:600; color:var(--meta); }
+select { padding:10px 16px; border-radius:12px; border:1px solid var(--border); background:#f1f5f9; font-family:inherit; font-size:14px; font-weight:600; color:var(--text); cursor:pointer; outline:none; transition:0.2s; min-width:200px; -webkit-appearance:none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; background-size: 16px; padding-right: 40px; }
+select:hover { border-color:var(--accent); background-color:white; }
+
+.card { background:var(--card); border-radius:20px; padding:24px; margin-bottom:16px; box-shadow:0 4px 12px rgba(0,0,0,0.03); border:1px solid var(--border); transition:0.3s; }
+.card:hover { transform:scale(1.01); border-color:var(--accent); box-shadow:0 12px 30px rgba(37,99,235,0.07); }
+.company-tag { display:inline-block; font-size:11px; font-weight:700; text-transform:uppercase; color:var(--accent); background:rgba(37,99,235,0.1); padding:4px 12px; border-radius:100px; margin-bottom:12px; letter-spacing:0.5px; }
+.job-title { font-size:20px; font-weight:700; margin:0 0 8px 0; line-height:1.3; letter-spacing:-0.2px; }
+.job-meta { color:var(--meta); font-size:14px; font-weight:500; display:flex; gap:16px; }
+.apply-link { display:inline-block; margin-top:20px; color:var(--accent); text-decoration:none; font-weight:700; font-size:15px; display:flex; align-items:center; gap:4px; }
+.apply-link:hover { gap:8px; }
+
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#020617; --card:#0f172a; --text:#f1f5f9; --meta:#94a3b8; --border:rgba(30, 41, 59, 0.7); }
+  header, .controls, .lab-card { background:#0f172a; }
+  select { background:#1e293b; color:white; }
+}
+@media (max-width: 600px) {
+    .controls { flex-direction:column; align-items:flex-start; gap:12px; }
+    select { width:100% !important; }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Careers Intelligence</h1>
+            <div class="timestamp">Personalized Discovery · Updated 2026-03-30 17:26 UTC</div>
+        </header>
+
+        <div class="section-title">Major AI Lab Careers</div>
+        <div class="industry-grid">
+    
+            <a href="https://openai.com/careers/search/?c=e1e973fe-6f0a-475f-9361-a9b6c095d869%2Cf002fe09-4cec-46b0-8add-8bf9ff438a62%2Cab2b9da4-24a4-47df-8bed-1ed5a39c7036%2C29457f80-62c5-4420-b64b-53037e8dc25e%2C0399e0ca-0edf-4955-a676-fb63ca68232a&l=6252b4ed-714d-469a-a970-7a13101bac9d%2Cbbd9f7fe-aae5-476a-9108-f25aea8f6cd2%2Ce8062547-b090-4206-8f1e-7329e0014e98%2C07ed9191-5bc6-421b-9883-f1ac2e276ad7%2C16c48b76-8036-4fe3-a18f-e9d357395713" target="_blank" class="lab-card">
+                <span class="lab-name">OpenAI</span>
+                <span class="lab-meta">Research & Product →</span>
+            </a>
+            <a href="https://www.anthropic.com/careers/jobs?team=4002061008" target="_blank" class="lab-card">
+                <span class="lab-name">Anthropic</span>
+                <span class="lab-meta">AI Safety & Systems →</span>
+            </a>
+            <a href="https://job-boards.greenhouse.io/deepmind?keyword=AI" target="_blank" class="lab-card">
+                <span class="lab-name">Gemini (DeepMind)</span>
+                <span class="lab-meta">Agentic & Foundational →</span>
+            </a>
+            <a href="https://mistral.ai/careers" target="_blank" class="lab-card">
+                <span class="lab-name">Mistral AI</span>
+                <span class="lab-meta">Open Weights Models →</span>
+            </a>
+            <a href="https://jobs.ashbyhq.com/perplexity" target="_blank" class="lab-card">
+                <span class="lab-name">Perplexity</span>
+                <span class="lab-meta">AI Search Engine →</span>
+            </a>
+            <a href="https://apply.workable.com/huggingface/" target="_blank" class="lab-card">
+                <span class="lab-name">Hugging Face</span>
+                <span class="lab-meta">ML Infrastructure →</span>
+            </a>
+            <a href="https://x.ai/careers/open-roles?dept=4024733007,4062428007,4046295007,4052172007,4046294007" target="_blank" class="lab-card">
+                <span class="lab-name">xAI</span>
+                <span class="lab-meta">Advanced Reasoning →</span>
+            </a>
+        </div>
+
+        <div class="section-title">Verified Local Roles (Charlotte, NC)</div>
+        <div class="controls">
+            <span class="filter-label">Filter by Employer</span>
+            <select id="co-filter" onchange="runFilter()">
+                <option value="all">All Local Companies (50)</option>
+                <option value="Ally Financial">Ally Financial (6)</option>
+                <option value="Bank of America">Bank of America (23)</option>
+                <option value="Lowe's">Lowe's (1)</option>
+                <option value="Wells Fargo">Wells Fargo (20)</option>
+            </select>
+        </div>
+
+        <div id="job-list">
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Lead AI Engineer</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-530054/lead-ai-engineer/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Forward Deployed Principal AI Engineer</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-529111/forward-deployed-principal-ai-engineer/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Senior Lead HR Business Execution Consultant, AI Analytics</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-527626/senior-lead-hr-business-execution-consultant-ai-analytics/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">COO AI COE Senior Lead Digital Product Manager - Strategy and Planning Lead</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-529485/coo-ai-coe-senior-lead-digital-product-manager-strategy-and-planning-lead/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Senior Software Engineer</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-524869/senior-software-engineer/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Lead Software Engineer</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-530292/lead-software-engineer/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Engineering Associate – Java Application Development</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-533218/engineering-associate-java-application-development/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Lead Machine Learning Engineer</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-531278/lead-machine-learning-engineer/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Engineering Associate – Java & UI Technologies</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-533235/engineering-associate-java-ui-technologies/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Principal Data Management Analyst</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-530765/principal-data-management-analyst/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Engineering Associate – Java API & Microservices Development</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-533184/engineering-associate-java-api-microservices-development/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Senior Systems Operations Engineer- ITSM Governance</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-525136/senior-systems-operations-engineer-itsm-governance/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Lead Infrastructure Engineer - Solace</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-529840/lead-infrastructure-engineer-solace/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Principal Engineer</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-530294/principal-engineer/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Digital Assets Software Engineer - Full Stack</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-530622/digital-assets-software-engineer-full-stack/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Senior Digital Assets Software Engineer- Full-Stack</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-526610/senior-digital-assets-software-engineer-full-stack/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Claims & Recovery Product Owner</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-532024/claims-recovery-product-owner/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Information Security Engineering Manager</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-524895/information-security-engineering-manager/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Lead Digital Assets Software Engineer- Full-Stack</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-526621/lead-digital-assets-software-engineer-full-stack/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Wells Fargo">
+                <span class="company-tag">Wells Fargo</span>
+                <h2 class="job-title">Senior Software Engineer (Hogan IDS)</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Wells Fargo Jobs</span>
+                </div>
+                <a href="https://www.wellsfargojobs.com/en/jobs/r-520213/senior-software-engineer-hogan-ids/" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Flight Attendant</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26011214/flight-attendant-charlotte-north-carolina-united-states" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Experience Design (XD) Principal, Content Design - Bank of America Experience Design</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26010972/experience-design-xd-principal-content-design-bank-of-america-experience-design-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Treasury Sales Officer II - Healthcare Not For Profit - Higher Education</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26011287/treasury-sales-officer-ii-healthcare-not-for-profit-higher-education-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Senior Project Consultant - Finance Solutions (Innovation and Emerging Tech Lead)</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26000880/senior-project-consultant-finance-solutions-innovation-and-emerging-tech-lead-charlotte-north-carolina-united-states" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Transaction Management Ops Analyst</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/25042724/transaction-management-ops-analyst-charlotte-north-carolina-united-states" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Conversational AI & Language Engineering Lead</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/25036341/conversational-ai-language-engineering-lead-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">SEM/Paid Search Marketing Manager</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26009631/sem-paid-search-marketing-manager-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Fraud Analytics and Innovation Senior Leader -  Industry Trends and Capabilities Leader</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26010099/fraud-analytics-and-innovation-senior-leader-industry-trends-and-capabilities-leader-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Principal Engineer - Merchant Core</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26003692/principal-engineer-merchant-core-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Senior Engineer – SIEM Platform Engineering & Operations</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26009717/senior-engineer-siem-platform-engineering-operations-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Infrastructure Financial Management Platform Engineering Lead</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26008523/infrastructure-financial-management-platform-engineering-lead-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Audit manager</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26005266/audit-manager-charlotte-north-carolina-united-states" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Technology Executive - Senior AI Platform</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26008588/technology-executive-senior-ai-platform-charlotte-north-carolina-united-states" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Sr Data Architect</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26005647/sr-data-architect-charlotte-north-carolina-united-states" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Senior Leasing Officer - Commercial Aircraft Group</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/26004428/senior-leasing-officer-commercial-aircraft-group-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Software Engineer III-Python</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/25028369/software-engineer-iii-python-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Software Engineer III-AI/ML/GenAI</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/25031110/software-engineer-iii-ai-ml-genai-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Artificial Intelligence Engineering Manager</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/25047779/artificial-intelligence-engineering-manager-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Senior Data Engineer-AI/BI Analytics</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/25045393/senior-data-engineer-ai-bi-analytics-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Data Scientist I</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/25030183/data-scientist-i-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Senior Engineer-AI Inference</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/25029879/senior-engineer-ai-inference-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Software Engineer III -Gen AI Inferencing</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/25032986/software-engineer-iii-gen-ai-inferencing-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Bank of America">
+                <span class="company-tag">Bank of America</span>
+                <h2 class="job-title">Software Engineer III-Gen AI Inferencing</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 BofA Careers</span>
+                </div>
+                <a href="https://careers.bankofamerica.com/en-us/job-detail/25032988/software-engineer-iii-gen-ai-inferencing-multiple-locations" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Ally Financial">
+                <span class="company-tag">Ally Financial</span>
+                <h2 class="job-title">Principal Engineer – Agentic AI for IT Operations</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Ally Careers</span>
+                </div>
+                <a href="https://ally.avature.net/careers/JobDetail/Principal-Engineer-Agentic-AI-for-IT-Operations/15837" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Ally Financial">
+                <span class="company-tag">Ally Financial</span>
+                <h2 class="job-title">Director - Responsible AI</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Ally Careers</span>
+                </div>
+                <a href="https://ally.avature.net/careers/JobDetail/Director-Responsible-AI/16099" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Ally Financial">
+                <span class="company-tag">Ally Financial</span>
+                <h2 class="job-title">Principal - Security Architect - Artificial Intelligence (AI/LLM)</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Ally Careers</span>
+                </div>
+                <a href="https://ally.avature.net/careers/JobDetail/Principal-Security-Architect-Artificial-Intelligence-AI-LLM/16049" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Ally Financial">
+                <span class="company-tag">Ally Financial</span>
+                <h2 class="job-title">Manager - Software Engineering (Salesforce)</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Ally Careers</span>
+                </div>
+                <a href="https://ally.avature.net/careers/JobDetail/Manager-Software-Engineering-Salesforce/15954" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Ally Financial">
+                <span class="company-tag">Ally Financial</span>
+                <h2 class="job-title">Principal React Native Developer - Platform</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Ally Careers</span>
+                </div>
+                <a href="https://ally.avature.net/careers/JobDetail/Principal-React-Native-Developer-Platform/15984" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Ally Financial">
+                <span class="company-tag">Ally Financial</span>
+                <h2 class="job-title">ServiceNow Developer</h2>
+                <div class="job-meta">
+                    <span>📍 Charlotte, NC</span>
+                    <span>🔍 Ally Careers</span>
+                </div>
+                <a href="https://ally.avature.net/careers/JobDetail/ServiceNow-Developer/15785" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+            <div class="card" data-co="Lowe's">
+                <span class="company-tag">Lowe's</span>
+                <h2 class="job-title">Associate AI Engineer - Launchpad</h2>
+                <div class="job-meta">
+                    <span>📍 Lowe's Charlotte Technology Hub 3505</span>
+                    <span>🔍 Lowe's Careers</span>
+                </div>
+                <a href="https://talent.lowes.com/us/en/job/JR-02449005" target="_blank" class="apply-link">Apply on Company Site →</a>
+            </div>
+        </div>
+        <div style="text-align:center; padding:60px 0; color:var(--meta); font-size:13px; font-weight:500;">
+            Premium AI Jobs Feed · qcai-net.github.io
+        </div>
+    </div>
+
+    <script>
+    function runFilter() {
+        const val = document.getElementById('co-filter').value;
+        document.querySelectorAll('.card').forEach(card => {
+            if (val === 'all' || card.getAttribute('data-co') === val) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+    </script>
+</body>
+</html>
