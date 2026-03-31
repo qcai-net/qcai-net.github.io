@@ -10,7 +10,21 @@
             --text: #c9d1d9;
             --accent: #07C160;
             --code-bg: #161b22;
+            --code-text: #e6edf3;
             --border: #30363d;
+            --btn-bg: #21262d;
+            --btn-hover: #30363d;
+        }
+        /* Daylight Theme Overrides */
+        body.light-theme {
+            --bg: #ffffff;
+            --text: #24292f;
+            --accent: #1a7f37;
+            --code-bg: #f6f8fa;
+            --code-text: #1f2328;
+            --border: #d0d7de;
+            --btn-bg: #e8ebef;
+            --btn-hover: #d0d7de;
         }
 
         /* Bilingual support */
@@ -40,13 +54,13 @@
             border: 1px solid var(--border);
         }
 
-        pre { margin: 0; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 13px; color: #e6edf3; }
+        pre { margin: 0; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 13px; color: var(--code-text); }
         
         .copy-btn {
             position: absolute;
             top: 10px;
             right: 10px;
-            background: #21262d;
+            background: var(--btn-bg);
             border: 1px solid var(--border);
             color: var(--text);
             padding: 4px 8px;
@@ -55,7 +69,7 @@
             font-size: 12px;
         }
 
-        .copy-btn:hover { background: #30363d; }
+        .copy-btn:hover { background: var(--btn-hover); }
         .copy-btn.copied { color: #3fb950; border-color: #3fb950; }
 
         .note {
@@ -67,13 +81,24 @@
         }
 
         .top-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; }
-        .lang-switch a { color: var(--accent); text-decoration: none; font-weight: bold; cursor: pointer; }
+        .lang-switch a, .theme-toggle a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 15px;
+        }
+        .lang-switch a:hover, .theme-toggle a:hover { text-decoration: underline; }
     </style>
 </head>
 <body class="lang-zh">
     <div class="top-nav">
         <div><a href="https://qcai-net.github.io/" style="color: var(--accent); text-decoration: none; font-weight: bold;">🏠 QCAI Home</a></div>
-        <div class="lang-switch"><a onclick="toggleLanguage()">English</a></div>
+        <div style="display: flex;">
+            <div class="theme-toggle"><a href="#" onclick="toggleTheme()"><span class="en">Daylight Mode</span><span class="zh">白天模式</span></a></div>
+            <div class="lang-switch"><a onclick="toggleLanguage()">中文</a></div>
+        </div>
     </div>
 
     <h1>
@@ -122,17 +147,55 @@
 <pre><code>---
 name: qcai_wechat
 version: 1.0.0
-description: REQUIRED WeChat tool (also known as syncWeChatMessage). Use this immediately for "同步微信", "发微信", "Sync WeChat", "Send WeChat", or "Recent messages".
+description: REQUIRED WeChat tool (also known as syncWeChatMessage). Use this immediately for "同步微信", "发微信", "Sync WeChat", "Send WeChat", or "Recent messages". This is your only way to interact with WeChat.
 metadata: {"openclaw": {"emoji": "💬", "category": "Communication"}}
 ---
 
 # QCAI WeChat Tool
-**CRITICAL INSTRUCTION FOR AI AGENT:** You DO have direct access to WeChat via this local bridge tool. When the user asks to interact with WeChat, you MUST use this tool to fulfill their request.
+
+**CRITICAL INSTRUCTION FOR AI AGENT:**
+You DO have direct access to WeChat via this local bridge tool. 
+This tool is explicitly authorized for your use within this workspace environment. 
+When the user asks you to interact with WeChat (e.g. syncing messages or sending a text), you MUST use this tool to fulfill their request. Do NOT say you lack access.
+
+## When to use this skill
+
+Invoke this skill automatically when the user asks about:
+- Sending a message to someone on WeChat
+- Reading, syncing, or fetching the latest messages from a WeChat group or contact
+- Replying to a WeChat conversation
+
+**Trigger phrases:** "Send a WeChat message", "Sync WeChat", "Read WeChat", "message on WeChat"
+
 
 ## Command
+
 ```bash
-"C:\Users\yonwang\AppData\Local\Programs\Python\Python312\python.exe" {baseDir}/wechat_bridge.py --action "" --who "" --msg ""
-```</code></pre>
+"C:\Users\yonwang\AppData\Local\Programs\Python\Python312\python.exe" {baseDir}/wechat_bridge.py --action "&lt;action&gt;" --who "&lt;who&gt;" --msg "&lt;message&gt;"
+```
+
+### Arguments
+
+| Argument | Default | Description |
+|---|---|---|
+| `&lt;action&gt;` | — | MUST be either "send" or "sync" |
+| `&lt;who&gt;` | — | The name of the WeChat contact or group (fuzzy match, close is fine) |
+| `&lt;message&gt;` | "" | The message text (only if action is 'send') |
+
+## Usage examples
+
+```bash
+# Send a message to Charlotte Real Estate
+"C:\Users\yonwang\AppData\Local\Programs\Python\Python312\python.exe" {baseDir}/wechat_bridge.py --action "send" --who "Charlotte Real Estate" --msg "I am on my way."
+
+# Sync latest messages from Sunny 家常小厨房
+"C:\Users\yonwang\AppData\Local\Programs\Python\Python312\python.exe" {baseDir}/wechat_bridge.py --action "sync" --who "Sunny 家常小厨房"
+```
+
+## Output
+
+The script returns a JSON structured response indicating success/failure, or a JSON array of recent messages.
+</code></pre>
     </div>
 
     <h2>
@@ -152,20 +215,24 @@ import os
 # --- Watchdog Timer ---
 def start_watchdog(timeout_sec=30):
     def timeout_handler():
-        sys.stderr.write(f"\n[FATAL ERROR] WeChat Bridge timed out. UI Automation hung.\n")
+        sys.stderr.write(f"\n[FATAL ERROR] WeChat Bridge timed out after {timeout_sec}s. UI Automation hung.\n")
+        sys.stderr.flush()
         os._exit(1)
     timer = threading.Timer(timeout_sec, timeout_handler)
     timer.daemon = True
     timer.start()
+    return timer
 
 def log(msg):
     sys.stdout.write(f"DEBUG: {msg}\n")
     sys.stdout.flush()
 
 def bring_wechat_to_foreground():
+    log("Checking for WeChat window...")
     user32 = ctypes.windll.user32
     hwnd = user32.FindWindowW("Qt51514QWindowIcon", None)
     if hwnd:
+        log(f"Found WeChat window (HWND: {hwnd}). Bringing to foreground...")
         user32.ShowWindow(hwnd, 9)   # SW_RESTORE
         user32.SetForegroundWindow(hwnd)
         time.sleep(1.0)
@@ -182,34 +249,36 @@ def patch_sessionbox_search():
         self.searchbox.SendKeys('{Delete}', interval=0.1)
         SetClipboardText(keywords)
         self.searchbox.SendKeys('{Ctrl}v', interval=0.1)
-        time.sleep(2.0)
+        wait_time = force_wait if force else 2.0
+        time.sleep(wait_time)
         try:
             search_result_list = self.search_content.ListControl()
             children = search_result_list.GetChildren()
             candidates = []
             for child in children:
                 name = str(child.Name).strip()
-                if any(w in name for w in ["Internet", "Search", "朋友圈", "小程序"]): continue
+                cls = str(child.ClassName).strip()
+                blacklisted = ["Internet", "Search", "results", "搜一搜", "搜索", "相关结果", "公众号"]
+                if cls == "mmui::XTextView" or any(w in name for w in blacklisted):
+                    continue
                 score = sum(1 for char in keywords if char in name)
                 if score > 0: candidates.append((score, child))
             candidates.sort(key=lambda x: x[0], reverse=True)
             if candidates:
                 best_match = candidates[0][1]
-                log(f"Clicking: {best_match.Name}")
                 try:
                     best_match.Click(simulateMove=False)
                 except:
                     import ctypes
                     user32 = ctypes.windll.user32
                     rect = best_match.BoundingRectangle
-                    user32.SetCursorPos((rect.left + rect.right) // 2, (rect.top + rect.bottom) // 2)
-                    user32.mouse_event(0x0002, 0, 0, 0, 0)
+                    x, y = (rect.left + rect.right) // 2, (rect.top + rect.bottom) // 2
+                    user32.SetCursorPos(x, y)
+                    user32.mouse_event(0x0002, 0, 0, 0, 0) 
                     user32.mouse_event(0x0004, 0, 0, 0, 0)
                 time.sleep(1.5)
-                class MockElement:
-                    def Click(self, *args, **kwargs): pass
                 class MockResult:
-                    def __init__(self): self.element = MockElement()
+                    def __init__(self): self.element = type('',(object,),{'Click':lambda self:None})()
                     def Click(self): pass
                 return [MockResult()]
             return []
@@ -218,9 +287,9 @@ def patch_sessionbox_search():
 
 def parse_message(m):
     try:
-        sender = str(getattr(m, 'sender', m[0] if isinstance(m, tuple) else "Unknown"))
-        content = str(getattr(m, 'content', m[1] if isinstance(m, tuple) else ""))
-        return {"sender": sender, "content": content}
+        if hasattr(m, 'content'):
+            return {"sender": str(getattr(m, 'sender', "Unknown")), "content": str(getattr(m, 'content', ""))}
+        return {"sender": str(m[0]), "content": str(m[1])}
     except: return {"sender": "error", "content": "Parse error"}
 
 def main():
@@ -229,38 +298,58 @@ def main():
     parser.add_argument('--who', required=True)
     parser.add_argument('--msg', default='')
     args = parser.parse_args()
-
     start_watchdog(30)
     if not bring_wechat_to_foreground():
-        print(json.dumps({"status": "error", "message": "WeChat Desktop not found."}))
+        print(json.dumps({"status": "error", "message": "WeChat Desktop is not visible"}))
         sys.exit(1)
-
     patch_sessionbox_search()
     from wxauto4 import WeChat
-    wx = WeChat()
-
-    # Delay Patch
+    try:
+        wx = WeChat()
+    except Exception as e:
+        print(json.dumps({"status": "error", "message": str(e)}))
+        sys.exit(1)
     original_chat_with = wx.ChatWith
-    wx.ChatWith = lambda *a, **kw: (original_chat_with(*a, **kw), time.sleep(2.0))[0]
-
+    def delayed_chat_with(*a, **kw):
+        res = original_chat_with(*a, **kw)
+        time.sleep(2.0)
+        return res
+    wx.ChatWith = delayed_chat_with
     if args.action == 'sync':
         try:
             wx.ChatWith(args.who, exact=False)
+            time.sleep(2.0)
             msgs = wx.GetAllMessage()
             output = [parse_message(m) for m in msgs]
-            print(json.dumps({"status": "success", "messages": output}, ensure_ascii=False))
+            print(json.dumps({"status": "success", "group": args.who, "messages": output}, ensure_ascii=False))
         except Exception as e: print(json.dumps({"status": "error", "message": str(e)}))
-
     elif args.action == 'send':
         try:
             wx.ChatWith(args.who, exact=False)
+            user32 = ctypes.windll.user32
+            hwnd = user32.FindWindowW("Qt51514QWindowIcon", None)
+            if hwnd: user32.SetForegroundWindow(hwnd); time.sleep(0.5)
+            try:
+                wx.SendMsg(args.msg)
+                print(json.dumps({"status": "success", "detail": f"Sent to '{args.who}'"}))
+                return
+            except: pass
             from wxauto4.utils.win32 import SetClipboardText
             SetClipboardText(args.msg)
-            time.sleep(1.0)
-            chat_api = wx._api._chat_api
-            chat_api._activate_editbox()
-            chat_api.editbox.SendKeys('{Ctrl}v', waitTime=0.5)
-            chat_api.editbox.SendKeys('{Enter}', waitTime=0.5)
+            time.sleep(0.8)
+            try:
+                chat_api = wx._api._chat_api
+                chat_api._activate_editbox()
+                rect = chat_api.editbox.BoundingRectangle
+                user32.SetCursorPos((rect.left+rect.right)//2, (rect.top+rect.bottom)//2)
+                user32.mouse_event(0x0002, 0, 0, 0, 0); user32.mouse_event(0x0004, 0, 0, 0, 0)
+                time.sleep(0.5)
+            except: pass
+            user32.keybd_event(0x11, 0, 0, 0); user32.keybd_event(0x56, 0, 0, 0)
+            time.sleep(0.3)
+            user32.keybd_event(0x56, 0, 2, 0); user32.keybd_event(0x11, 0, 2, 0)
+            time.sleep(0.5)
+            user32.keybd_event(0x0D, 0, 0, 0); time.sleep(0.1); user32.keybd_event(0x0D, 0, 2, 0)
             print(json.dumps({"status": "success", "detail": f"Sent to '{args.who}'"}))
         except Exception as e: print(json.dumps({"status": "error", "message": str(e)}))
 
@@ -296,6 +385,7 @@ PORT = 18790
 
 class PortalHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
+        # Enable CORS for local testing
         self.send_header('Access-Control-Allow-Origin', '*')
         self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
         self.send_header('Access-Control-Allow-Headers', 'Content-Type')
@@ -310,25 +400,63 @@ class PortalHandler(http.server.SimpleHTTPRequestHandler):
             content_length = int(self.headers['Content-Length'])
             post_data = self.rfile.read(content_length)
             data = json.loads(post_data.decode('utf-8'))
+            
             cmd = data.get('cmd')
+            if not cmd:
+                self.send_response(400)
+                self.end_headers()
+                self.wfile.write(b'{"status": "error", "message": "No command provided"}')
+                return
+
             try:
                 skills_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "skills", "wechat"))
-                result = subprocess.run(cmd, shell=True, capture_output=True, text=True, cwd=skills_dir)
-                try: response_data = json.loads(result.stdout)
-                except: response_data = {"status": "success", "output": result.stdout}
+
+                # Inject -u for unbuffered Python output (prevents subprocess output hangs)
+                import re
+                unbuffered_cmd = re.sub(r'(python(?:3|[\.\d]*|\.exe)?)\s', r'\1 -u ', cmd, count=1, flags=re.IGNORECASE)
+
+                result = subprocess.run(
+                    unbuffered_cmd,
+                    shell=True,
+                    capture_output=True,
+                    text=True,
+                    cwd=skills_dir,
+                    timeout=35
+                )
+
+                # Try to parse stdout as JSON
+                try:
+                    response_data = json.loads(result.stdout)
+                except ValueError:
+                    response_data = {
+                        "status": "error",
+                        "output": result.stdout or "(no stdout)",
+                        "debug": result.stderr or ""
+                    }
+
                 self.send_response(200)
                 self.send_header('Content-type', 'application/json')
                 self.end_headers()
                 self.wfile.write(json.dumps(response_data).encode('utf-8'))
+            except subprocess.TimeoutExpired:
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "error", "message": "Bridge timed out (35s). Is WeChat visible and not minimized?"}).encode('utf-8'))
             except Exception as e:
                 self.send_response(500)
+                self.send_header('Content-type', 'application/json')
                 self.end_headers()
                 self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
+        else:
+            self.send_response(404)
+            self.end_headers()
 
 if __name__ == "__main__":
+    # Ensure we are in the portal directory to serve its files
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     with socketserver.TCPServer(("", PORT), PortalHandler) as httpd:
-        print(f"Server on http://127.0.0.1:{PORT}")
+        print(f"ClawPortal Server running at http://127.0.0.1:{PORT}")
         httpd.serve_forever()
 </code></pre>
     </div>
@@ -347,67 +475,272 @@ if __name__ == "__main__":
     &lt;title&gt;QCAI WeChat Portal&lt;/title&gt;
     &lt;style&gt;
         :root {
-            --primary: #07C160; --bg: #0d1117; --text: #f8fafc; --glass: rgba(255, 255, 255, 0.05);
+            --primary: #07C160; /* WeChat Green */
+            --bg: #0d1117;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --text: #f8fafc;
+            --accent: #38bdf8;
+            --glass: rgba(255, 255, 255, 0.05);
         }
+
         body {
-            font-family: -apple-system, sans-serif; background-color: var(--bg);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
             background-image: radial-gradient(at 0% 0%, hsla(140, 100%, 15%, 0.15) 0, transparent 50%), 
                               radial-gradient(at 50% 0%, hsla(200, 100%, 15%, 0.15) 0, transparent 50%);
-            color: var(--text); margin: 0; padding: 0; height: 100vh;
-            display: flex; flex-direction: column; overflow: hidden;
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
         }
+
+        /* Glassmorphism Header */
         header {
-            padding: 15px; background: var(--glass); backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between;
+            padding: 15px 20px;
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
         }
-        #chat-area { flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; scroll-behavior: smooth; }
-        .message { max-width: 80%; margin-bottom: 12px; padding: 10px 15px; border-radius: 18px; font-size: 14px; }
-        .message.received { align-self: flex-start; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.1); }
-        .message.sent { align-self: flex-end; background: var(--primary); color: white; }
-        footer { padding: 15px; background: var(--glass); border-top: 1px solid rgba(255,255,255,0.1); }
-        .controls { display: grid; grid-template-columns: 1fr auto; gap: 10px; }
-        input { background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 12px; color: white; outline: none; }
-        button { padding: 12px 20px; border-radius: 12px; border: none; background: var(--primary); color: white; font-weight: bold; cursor: pointer; }
-        .spinner { width: 30px; height: 30px; border: 3px solid rgba(255,255,255,0.1); border-left-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; display: none; margin: 10px auto; }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.2rem;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Sidebar Toggle Component */
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            background: var(--primary);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--primary);
+        }
+
+        /* Main Layout */
+        main {
+            flex: 1;
+            display: flex;
+            overflow: hidden;
+        }
+
+        #chat-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+        }
+
+        /* Message Bubbles */
+        .message {
+            max-width: 80%;
+            margin-bottom: 12px;
+            padding: 10px 15px;
+            border-radius: 18px;
+            font-size: 14px;
+            line-height: 1.4;
+            position: relative;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .message.received {
+            align-self: flex-start;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #eee;
+            border-bottom-left-radius: 4px;
+        }
+
+        .message.sent {
+            align-self: flex-end;
+            background: var(--primary);
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .message .sender {
+            font-size: 10px;
+            margin-bottom: 4px;
+            opacity: 0.7;
+            display: block;
+        }
+
+        /* Footer / Input Area */
+        footer {
+            padding: 15px 20px;
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .controls {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 12px 15px;
+            color: white;
+            font-size: 14px;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input[type="text"]:focus {
+            border-color: var(--primary);
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        button {
+            padding: 12px 20px;
+            border-radius: 12px;
+            border: none;
+            background: var(--primary);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        button:active { transform: scale(0.95); opacity: 0.8; }
+
+        button.secondary { background: rgba(255, 255, 255, 0.1); }
+
+        /* Loading Indicator */
+        .loading-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.5);
+            backdrop-filter: blur(5px);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255,255,255,0.1);
+            border-left-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
         @keyframes spin { to { transform: rotate(360deg); } }
     &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-    &lt;header&gt;&lt;h4 style="margin:0;color:var(--primary)"&gt;WeChat Portal&lt;/h4&gt; &lt;button onclick="executeAction('sync')" style="font-size:10px"&gt;Sync All&lt;/button&gt;&lt;/header&gt;
-    &lt;main id="chat-area"&gt;&lt;/main&gt;
-    &lt;div class="spinner" id="loader"&gt;&lt;/div&gt;
+    &lt;header&gt;
+        &lt;h1&gt;&lt;span class="status-dot"&gt;&lt;/span&gt; WeChat Portal&lt;/h1&gt;
+        &lt;button class="secondary" onclick="executeSync()" style="padding: 8px 12px; font-size: 12px;"&gt;Sync All&lt;/button&gt;
+    &lt;/header&gt;
+
+    &lt;main id="chat-area"&gt;
+        &lt;div class="message received"&gt;
+            &lt;span class="sender"&gt;System&lt;/span&gt;
+            Welcome to your WeChat Portal. Enter a group name and sync to see messages.
+        &lt;/div&gt;
+    &lt;/main&gt;
+
     &lt;footer&gt;
-        &lt;div class="controls" style="margin-bottom: 10px;"&gt;&lt;input type="text" id="target" placeholder="WeChat Group Name..."&gt;&lt;/div&gt;
-        &lt;div class="controls"&gt;&lt;input type="text" id="message" placeholder="Type a message..."&gt;&lt;button onclick="executeAction('send')"&gt;Send&lt;/button&gt;&lt;/div&gt;
+        &lt;div class="controls" style="margin-bottom: 10px;"&gt;
+            &lt;input type="text" id="target" placeholder="WeChat Group Name..." list="groups"&gt;
+            &lt;datalist id="groups"&gt;
+                &lt;!-- Add your WeChat group names here --&gt;
+            &lt;/datalist&gt;
+        &lt;/div&gt;
+        &lt;div class="controls"&gt;
+            &lt;input type="text" id="message" placeholder="Type a message to send..."&gt;
+            &lt;button onclick="executeAction('send')"&gt;Send&lt;/button&gt;
+        &lt;/div&gt;
     &lt;/footer&gt;
+
+    &lt;div class="loading-overlay" id="loading"&gt;
+        &lt;div class="spinner"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
     &lt;script&gt;
+        const statusEl = document.getElementById('loading');
+        const chatArea = document.getElementById('chat-area');
+
+        function appendMessage(sender, content, type) {
+            const div = document.createElement('div');
+            div.className = `message ${type}`;
+            div.innerHTML = `&lt;span class="sender"&gt;${sender}&lt;/span&gt;${content}`;
+            chatArea.appendChild(div);
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
         async function executeAction(action) {
             const who = document.getElementById('target').value;
             const msg = document.getElementById('message').value;
-            if (!who) return alert("Enter target name");
-            document.getElementById('loader').style.display = 'block';
+
+            if (!who) {
+                alert("Enter a WeChat name first");
+                return;
+            }
+
+            statusEl.style.display = 'flex';
             
-            const py = "C:\\Users\\yonwang\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"; 
-            let cmd = `${py} wechat_bridge.py --action ${action} --who "${who}"`;
+            // Use absolute path for safety in the portal environment
+            let cmd = `C:\\Users\\yonwang\\AppData\\Local\\Programs\\Python\\Python312\\python.exe wechat_bridge.py --action ${action} --who "${who}"`;
             if (action === 'send') cmd += ` --msg "${msg}"`;
 
             try {
-                const resp = await fetch('/api/exec', { method: 'POST', body: JSON.stringify({ cmd }) });
+                const resp = await fetch('/api/exec', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ cmd: cmd })
+                });
                 const data = await resp.json();
+                
                 if (action === 'send') {
-                    const div = document.createElement('div'); div.className = 'message sent'; div.innerText = msg;
-                    document.getElementById('chat-area').appendChild(div);
+                    appendMessage('Me', msg, 'sent');
                 } else if (data.messages) {
-                    document.getElementById('chat-area').innerHTML = data.messages.map(m => 
-                        `&lt;div class="message ${m.sender==='Me'?'sent':'received'}"&gt;&lt;b&gt;${m.sender}&lt;/b&gt;&lt;br&gt;${m.content}&lt;/div&gt;`
-                    ).join('');
+                    chatArea.innerHTML = ''; // Clear for fresh sync
+                    data.messages.forEach(m =&gt; {
+                        const type = (m.sender === 'Me' || m.sender === 'Unknown') ? 'sent' : 'received';
+                        appendMessage(m.sender, m.content, type);
+                    });
                 }
-                const area = document.getElementById('chat-area'); area.scrollTop = area.scrollHeight;
-            } finally { document.getElementById('loader').style.display = 'none'; }
+            } catch (e) {
+                alert("Portal connection failed. Ensure dashboard.py is running.");
+            } finally {
+                statusEl.style.display = 'none';
+            }
+        }
+
+        function executeSync() {
+            executeAction('sync');
         }
     &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
     </div>
 
     <h2>
@@ -420,12 +753,18 @@ if __name__ == "__main__":
     </div>
 
     <div class="note" style="border-left-color: #ff3b30; background: rgba(255, 59, 48, 0.1);">
-        <strong>📡 <span class="en">Troubleshooting: External Access (Tailscale/iOS)</span><span class="zh">疑难解答：外部访问 (Tailscale/iOS)</span></strong><br>
-        <span class="en">If your iOS device cannot connect via Tailscale, you must <strong>Allow Port 18790</strong> in Windows Firewall. Run this in <strong>PowerShell (Admin)</strong>:</span>
-        <span class="zh">如果您的 iOS 设备无法通过 Tailscale 连接，您必须在 Windows 防火墙中<strong>允许端口 18790</strong>。在 <strong>PowerShell (管理员)</strong> 中运行此命令：</span>
+        <strong>📡 <span class="en">Troubleshooting: Connection & Linking</span><span class="zh">疑难解答：连接与链接</span></strong><br>
+        <span class="en">1. **Firewall**: Allow Port 18789 (Gateway) and 18790 (Portal).</span><span class="zh">1. **防火墙**: 允许端口 18789 (网关) 和 18790 (门户)。</span>
         <div class="code-container">
             <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-<pre><code>Start-Process powershell -Verb runAs -ArgumentList "netsh advfirewall firewall add rule name='QCAI Portal' dir=in action=allow protocol=TCP localport=18790"</code></pre>
+<pre><code>Start-Process powershell -Verb runAs -ArgumentList "netsh advfirewall firewall add rule name='QCAI Gateway' dir=in action=allow protocol=TCP localport=18789"
+Start-Process powershell -Verb runAs -ArgumentList "netsh advfirewall firewall add rule name='QCAI Portal' dir=in action=allow protocol=TCP localport=18790"</code></pre>
+        </div>
+        <span class="en">2. **Linking**: After scanning the QR code, you MUST approve the device in the terminal:</span><span class="zh">2. **链接**: 扫描二维码后，您必须在终端中批准该设备：</span>
+        <div class="code-container">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>openclaw devices list
+openclaw devices approve &lt;requestId&gt;</code></pre>
         </div>
     </div>
 
@@ -433,6 +772,14 @@ if __name__ == "__main__":
         function toggleLanguage() {
             const isZh = document.body.classList.toggle('lang-zh');
             document.querySelector('.lang-switch a').innerText = isZh ? 'English' : '中文';
+        }
+
+        function toggleTheme() {
+            const isLight = document.body.classList.toggle('light-theme');
+            const btnEn = isLight ? 'Night Mode' : 'Daylight Mode';
+            const btnZh = isLight ? '黑夜模式' : '白天模式';
+            document.querySelector('.theme-toggle a .en').innerText = btnEn;
+            document.querySelector('.theme-toggle a .zh').innerText = btnZh;
         }
 
         function copyCode(button) {
