@@ -10,6 +10,10 @@
             --text: #c9d1d9;
             --accent: #38bdf8;
             --code-bg: #161b22;
+            --code-text: #e6edf3;
+            --border: #30363d;
+            --btn-bg: #21262d;
+            --btn-hover: #30363d;
         }
         /* Daylight Theme Overrides */
         body.light-theme {
@@ -17,6 +21,10 @@
             --text: #24292f;
             --accent: #096ada;
             --code-bg: #f6f8fa;
+            --code-text: #1f2328;
+            --border: #d0d7de;
+            --btn-bg: #e8ebef;
+            --btn-hover: #d0d7de;
         }
 
         /* Bilingual support */
@@ -58,9 +66,9 @@
             margin: 20px 0;
             background: var(--code-bg);
             border-radius: 8px;
-            border: 1px solid #30363d;
+            border: 1px solid var(--border);
         }
-        pre { margin: 0; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 14px; }
+        pre { color: var(--code-text); margin: 0; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 14px; }
         .note {
             background: rgba(56, 189, 248, 0.1);
             border-left: 4px solid var(--accent);
@@ -69,12 +77,27 @@
             border-radius: 0 4px 4px 0;
         }
         .example-card {
-            border: 1px solid #30363d;
+            border: 1px solid var(--border);
             border-radius: 12px;
             padding: 20px;
             margin-bottom: 20px;
             background: rgba(255,255,255,0.02);
         }
+
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: var(--btn-bg);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 4px 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .copy-btn:hover { background: var(--btn-hover); }
+        .copy-btn.copied { color: #3fb950; border-color: #3fb950; }
     </style>
 </head>
 <body>
@@ -102,6 +125,7 @@
         <span class="zh">步骤 1：创建门户目录</span>
     </h2>
     <div class="code-container">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
 <pre><code>mkdir -p ~/.openclaw/workspace/portal</code></pre>
     </div>
 
@@ -121,6 +145,7 @@
             <span class="zh">如果您只想访问 OpenClaw 网关生成的信息（例如视频、音频或报告），一个简单的 Python Web 服务器就足够了。</span>
         </p>
         <div class="code-container">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
 <pre><code>cd ~/.openclaw/workspace/portal && python -m http.server 18790</code></pre>
         </div>
     </div>
@@ -136,6 +161,7 @@
             <span class="zh">您可以在 <a href="https://qcai-net.github.io/wechat.html" style="color: var(--accent);">微信设置指南</a> 中找到 <code>dashboard.py</code> 的完整源代码。</span>
         </div>
         <div class="code-container">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
 <pre><code>cd ~/.openclaw/workspace/portal && python dashboard.py</code></pre>
         </div>
     </div>
@@ -188,14 +214,15 @@
     
     <div class="note" style="border-left-color: #ff3b30; background: rgba(255, 59, 48, 0.1);">
         <strong>📡 <span class="en">Troubleshooting: External Access (Tailscale/iOS)</span><span class="zh">疑难解答：外部访问 (Tailscale/iOS)</span></strong><br>
-        <span class="en">By default, Windows Firewall blocks incoming connections to new ports even if you are on Tailscale. If your iOS device cannot connect via your Tailscale IP, you must <strong>Allow Port 18790</strong> in Windows Firewall.</span>
-        <span class="zh">默认情况下，即使您使用 Tailscale，Windows 防火墙也会阻止对新端口的传入连接。如果您的 iOS 设备无法通过 Tailscale IP 连接，您必须在 Windows 防火墙中<strong>允许端口 18790</strong>。</span>
+        <span class="en">By default, Windows Firewall blocks incoming connections to new ports even if you are on Tailscale. If your iOS device cannot connect via your Tailscale IP, you must <strong>Allow Port 18789 (Gateway) and 18790 (Portal)</strong>.</span>
+        <span class="zh">默认情况下，即使您使用 Tailscale，Windows 防火墙也会阻止对新端口的传入连接。如果您的 iOS 设备无法通过 Tailscale IP 连接，您必须在 Windows 防火墙中<strong>允许端口 18789 (网关) 和 18790 (门户)</strong>。</span>
         <br><br>
-        <span class="en">Run this command in <strong>PowerShell (Admin)</strong>:</span>
-        <span class="zh">在 <strong>PowerShell (管理员)</strong> 中运行此命令：</span>
+        <span class="en">Run these commands in <strong>PowerShell (Admin)</strong>:</span>
+        <span class="zh">在 <strong>PowerShell (管理员)</strong> 中运行这些命令：</span>
         <div class="code-container">
             <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-<pre><code>Start-Process powershell -Verb runAs -ArgumentList "netsh advfirewall firewall add rule name='QCAI Portal' dir=in action=allow protocol=TCP localport=18790"</code></pre>
+<pre><code>Start-Process powershell -Verb runAs -ArgumentList "netsh advfirewall firewall add rule name='QCAI Gateway' dir=in action=allow protocol=TCP localport=18789"
+Start-Process powershell -Verb runAs -ArgumentList "netsh advfirewall firewall add rule name='QCAI Portal' dir=in action=allow protocol=TCP localport=18790"</code></pre>
         </div>
     </div>
 
@@ -219,6 +246,16 @@
             const btnZh = isLight ? '黑夜模式' : '白天模式';
             document.querySelector('.theme-toggle a .en').innerText = btnEn;
             document.querySelector('.theme-toggle a .zh').innerText = btnZh;
+        }
+
+        function copyCode(button) {
+            const codeBlock = button.nextElementSibling.innerText;
+            navigator.clipboard.writeText(codeBlock).then(() => {
+                const originalText = button.innerText;
+                button.innerText = 'Copied!';
+                button.classList.add('copied');
+                setTimeout(() => { button.innerText = originalText; button.classList.remove('copied'); }, 2000);
+            });
         }
     </script>
 </body>
