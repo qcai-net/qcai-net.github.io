@@ -194,7 +194,8 @@
         <span class="en">Run this command in <strong>PowerShell (Admin)</strong>:</span>
         <span class="zh">在 <strong>PowerShell (管理员)</strong> 中运行此命令：</span>
         <div class="code-container">
-<pre><code>netsh advfirewall firewall add rule name="QCAI Portal" dir=in action=allow protocol=TCP localport=18790</code></pre>
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>Start-Process powershell -Verb runAs -ArgumentList "netsh advfirewall firewall add rule name='QCAI Portal' dir=in action=allow protocol=TCP localport=18790"</code></pre>
         </div>
     </div>
 
