@@ -184,10 +184,24 @@
 
     <hr>
 
+    <hr>
+    
+    <div class="note" style="border-left-color: #ff3b30; background: rgba(255, 59, 48, 0.1);">
+        <strong>📡 <span class="en">Troubleshooting: External Access (Tailscale/iOS)</span><span class="zh">疑难解答：外部访问 (Tailscale/iOS)</span></strong><br>
+        <span class="en">By default, Windows Firewall blocks incoming connections to new ports even if you are on Tailscale. If your iOS device cannot connect via your Tailscale IP, you must <strong>Allow Port 18790</strong> in Windows Firewall.</span>
+        <span class="zh">默认情况下，即使您使用 Tailscale，Windows 防火墙也会阻止对新端口的传入连接。如果您的 iOS 设备无法通过 Tailscale IP 连接，您必须在 Windows 防火墙中<strong>允许端口 18790</strong>。</span>
+        <br><br>
+        <span class="en">Run this command in <strong>PowerShell (Admin)</strong>:</span>
+        <span class="zh">在 <strong>PowerShell (管理员)</strong> 中运行此命令：</span>
+        <div class="code-container">
+<pre><code>netsh advfirewall firewall add rule name="QCAI Portal" dir=in action=allow protocol=TCP localport=18790</code></pre>
+        </div>
+    </div>
+
     <div class="note" style="border-left-color: #07C160; background: rgba(7, 193, 96, 0.1);">
         <strong>🔧 <span class="en">How to Access in QCAI App:</span><span class="zh">如何在 QCAI 应用中访问：</span></strong>
         <ol>
-            <li><span class="en">Enter your Tailscale MagicDNS in Settings.</span><span class="zh">在设置中输入您的 Tailscale MagicDNS。</span></li>
+            <li><span class="en">Enter your Tailscale IP or MagicDNS in Settings.</span><span class="zh">在设置中输入您的 Tailscale IP 或 MagicDNS。</span></li>
             <li><span class="en">Tap the 🏠 **Portal** icon on the bottom navigation bar.</span><span class="zh">点击底部导航栏上的 🏠 **门户** 图标。</span></li>
         </ol>
     </div>
