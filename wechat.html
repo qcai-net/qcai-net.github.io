@@ -117,6 +117,27 @@
         </ul>
     </div>
 
+    <div class="note" style="background: rgba(7, 193, 96, 0.1); border-left: 5px solid var(--accent);">
+        <h3>🛡️ <span class="en">Choose Your Control Level</span><span class="zh">选择您的控制级别</span></h3>
+        <p>
+            <strong><span class="en">Part 1: Core Bridge (Steps 1-4)</span><span class="zh">第一部分：核心桥接 (步骤 1-4)</span></strong><br>
+            <span class="en">REQUIRED. Enable AI chat control (sync/send) via OpenClaw and Telegram.</span>
+            <span class="zh">必选。通过 OpenClaw 和 Telegram 启用 AI 聊天控制 (同步/发送)。</span>
+        </p>
+        <p>
+            <strong><span class="en">Part 2: Visual Portal (Steps 5-7)</span><span class="zh">第二部分：可视化门户 (步骤 5-7)</span></strong><br>
+            <span class="en">OPTIONAL. Adds a premium mobile GUI to your QCAI iOS app. <em>(Requires Part 1)</em></span>
+            <span class="zh">可选。在您的 QCAI iOS 应用程序中添加优质移动 GUI。<em>（需要第一部分）</em></span>
+        </p>
+    </div>
+
+    <hr>
+
+    <h2 style="color: #07C160; border-bottom: 2px solid #07C160; padding-bottom: 10px;">
+        <span class="en">Part 1: Core Bridge (AI Chat Control)</span>
+        <span class="zh">第一部分：核心桥接 (AI 聊天控制)</span>
+    </h2>
+
     <h2>
         <span class="en">Step 1: Install Automation Driver</span>
         <span class="zh">步骤 1：安装自动化驱动</span>
@@ -477,6 +498,19 @@ if __name__ == "__main__":
         <span class="zh">为了使自动化正常工作，您的<strong>微信电脑客户端必须处于打开状态且窗口可见</strong>（不能最小化）。自动化驱动程序通过“查看”屏幕来与 UI 交互。</span>
     </div>
 
+    <hr style="margin: 50px 0; border: 1px solid #30363d;">
+
+    <h2 style="color: #38bdf8; border-bottom: 2px solid #38bdf8; padding-bottom: 10px;">
+        <span class="en">Part 2: Visual Portal (Mobile GUI Extension)</span>
+        <span class="zh">第二部分：可视化门户 (移动 GUI 扩展)</span>
+    </h2>
+
+    <div class="note" style="border-left-color: #38bdf8; background: rgba(56, 189, 248, 0.1);">
+        <strong>💎 <span class="en">Advanced Feature</span><span class="zh">高级功能</span></strong><br>
+        <span class="en">This section is optional. Follow these steps only if you want a **Visual Chat Interface** inside your QCAI App. These scripts depend on the <code>wechat_bridge.py</code> from Part 1.</span>
+        <span class="zh">本部分是可选的。仅当您想要在 QCAI 应用程序中拥有<strong>可视化聊天界面</strong>时，才执行这些步骤。这些脚本依赖于第一部分中的 <code>wechat_bridge.py</code>。</span>
+    </div>
+
     <h2>
         <span class="en">Step 5: Portal Infrastructure (Backend)</span>
         <span class="zh">步骤 5：门户基础设施 (后端)</span>
@@ -610,8 +644,13 @@ if __name__ == "__main__":
     </h2>
     <div class="note" style="background: rgba(56, 189, 248, 0.1); border-left-color: #38bdf8;">
         1. <strong><span class="en">Run the Server:</span><span class="zh">运行服务器：</span></strong> 
-        <span class="en">Open PowerShell and run:</span><span class="zh">打开 PowerShell 并运行：</span><br>
-        <code>Start-Process python -ArgumentList "dashboard.py" -NoNewWindow -WorkingDirectory "C:\Users\YourUser\.openclaw\workspace\portal\"</code><br>
+        <span class="en">Open PowerShell and run the following command to start the portal backend in the background:</span><span class="zh">打开 PowerShell 并运行以下命令以在后台启动门户后端：</span><br>
+        
+        <div class="code-container">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>Start-Process python -ArgumentList "dashboard.py" -NoNewWindow -WorkingDirectory "~/.openclaw/workspace/portal/"</code></pre>
+        </div>
+
         2. <strong><span class="en">Open QCAI:</span><span class="zh">打开 QCAI：</span></strong> 
         <span class="en">Tap the 🌐 **Portal** icon in your app. Your new WeChat interface is now live via MagicDNS!</span>
         <span class="zh">点击应用程序中的 🌐 **门户** 图标。您的新微信界面现在已通过 MagicDNS 上线！</span>
