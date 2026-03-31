@@ -11,24 +11,35 @@
             --accent: #07C160; /* WeChat Green */
             --code-bg: #161b22;
         }
+        /* Daylight Theme Overrides */
+        body.light-theme {
+            --bg: #ffffff;
+            --text: #24292f;
+            --accent: #059669; /* Darker green */
+            --code-bg: #f6f8fa;
+        }
+
         /* Bilingual support */
         .zh { display: none; }
         body.lang-zh .zh { display: inline; }
         body.lang-zh h1.zh, body.lang-zh h2.zh, body.lang-zh p.zh, body.lang-zh li.zh, body.lang-zh strong.zh { display: block; }
         body.lang-zh .en { display: none; }
 
-        .lang-switch {
-            text-align: right;
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             margin-bottom: 20px;
         }
-        .lang-switch a {
+        .lang-switch a, .theme-toggle a {
             color: var(--accent);
             text-decoration: none;
             font-size: 14px;
             font-weight: bold;
             cursor: pointer;
+            margin-left: 15px;
         }
-        .lang-switch a:hover {
+        .lang-switch a:hover, .theme-toggle a:hover {
             text-decoration: underline;
         }
         body {
@@ -90,14 +101,23 @@
     </style>
 </head>
 <body>
-    <div class="lang-switch"><a href="#" onclick="toggleLanguage()">中文</a></div>
+    <div class="top-nav">
+        <div>
+            <a href="https://qcai-net.github.io/" style="color: var(--accent); text-decoration: none; font-weight: bold; font-size: 14px;">🏠 QCAI Home</a>
+        </div>
+        <div style="display: flex;">
+            <div class="theme-toggle"><a href="#" onclick="toggleTheme()"><span class="en">Daylight Mode</span><span class="zh">白天模式</span></a></div>
+            <div class="lang-switch"><a href="#" onclick="toggleLanguage()">中文</a></div>
+        </div>
+    </div>
+
     <h1>
         <span class="en">💬 QCAI WeChat Bridge Setup</span>
         <span class="zh">💬 QCAI 微信桥接设置</span>
     </h1>
     <p>
-        <span class="en">This guide allows you to control your Windows WeChat desktop client remotely using your OpenClaw Gateway.</span>
-        <span class="zh">本指南允许您通过 OpenClaw 网关远程控制您的 Windows 微信桌面客户端。</span>
+        <span class="en">This guide allows you to control your Windows WeChat desktop client remotely using your OpenClaw Gateway. For the best experience, use the <a href="https://qcai-net.github.io/" style="color: var(--accent);">QCAI App</a> for Android and iOS.</span>
+        <span class="zh">本指南允许您通过 OpenClaw 网关远程控制您的 Windows 微信桌面客户端。为了获得最佳体验，请使用适用于 Android 和 iOS 的 <a href="https://qcai-net.github.io/" style="color: var(--accent);">QCAI 应用程序</a>。</span>
     </p>
 
     <div class="note">
@@ -338,7 +358,7 @@ def patch_sessionbox_search():
                 
                 # Check for headers or web search labels
                 if cls == "mmui::XTextView" or any(w in name for w in blacklisted_words):
-                    log(f"  -> Rule: Skip (Blacklisted/Header): {name}")
+                    log(f"  -&gt; Rule: Skip (Blacklisted/Header): {name}")
                     continue
                 
                 # 2. SCORING (Overlap)
@@ -347,15 +367,41 @@ def patch_sessionbox_search():
                     if char in name:
                         score += 1
                 
-                log(f"  -> Candidate Item: '{name}' Score: {score}")
-                if score > 0:
+                log(f"  -&gt; Candidate Item: '{name}' Score: {score}")
+                if score &gt; 0:
                     candidates.append((score, child))
             
             # Sort by score (highest first)
             candidates.sort(key=lambda x: x[0], reverse=True)
             
-            # WeChat's SearchResultElement expects a child
-            return [sb.SearchResultElement(c[1]) for c in candidates]
+            if candidates:
+                best_match = candidates[0][1]
+                log(f"Explicitly clicking best match: {best_match.Name}")
+                try:
+                    best_match.Click(simulateMove=False)
+                except Exception as e:
+                    log(f"UIAutomation click failed, trying fallback: {str(e)}")
+                    # Fallback to pure OS mouse click if UI tree prevents simulateMove
+                    import ctypes
+                    user32 = ctypes.windll.user32
+                    rect = best_match.BoundingRectangle
+                    x = (rect.left + rect.right) // 2
+                    y = (rect.top + rect.bottom) // 2
+                    user32.SetCursorPos(x, y)
+                    user32.mouse_event(0x0002, 0, 0, 0, 0) # LEFTDOWN
+                    user32.mouse_event(0x0004, 0, 0, 0, 0) # LEFTUP
+                    
+                time.sleep(1.5) # Wait for chat panel to render
+                
+                class MockElement:
+                    def Click(self, *args, **kwargs): pass
+                class MockResult:
+                    def __init__(self):
+                        self.element = MockElement()
+                    def Click(self): pass
+                return [MockResult()]
+            else:
+                return []
         except Exception as e:
             log(f"Error parsing search results: {str(e)}")
             return []
@@ -372,8 +418,8 @@ def parse_message(m):
             return {"sender": sender, "content": content}
         
         # If it's the older tuple format
-        sender = str(m[0]) if len(m) > 0 else "Unknown"
-        content = str(m[1]) if len(m) > 1 else ""
+        sender = str(m[0]) if len(m) &gt; 0 else "Unknown"
+        content = str(m[1]) if len(m) &gt; 1 else ""
         return {"sender": sender, "content": content}
     except Exception as e:
         return {"sender": "error", "content": f"Parse error: {str(e)}"}
@@ -400,12 +446,21 @@ def main():
     patch_sessionbox_search()
 
     from wxauto4 import WeChat
-    log("Initializing WeChat automation instance...")
+    log("Initializing WeChat automation...")
     try:
         wx = WeChat()
     except Exception as e:
-        print(json.dumps({"status": "error", "message": f"Init failed: {str(e)}"}))
+        print(json.dumps({"status": "error", "message": f"Initialization failed: {str(e)}"}))
         sys.exit(1)
+
+    # Monkey-patch wx.ChatWith to universally guarantee WeChat finishes UI transitions!
+    # This solves the 'typed in different recipient window' bug since the UI takes time to catch up.
+    original_chat_with = wx.ChatWith
+    def delayed_chat_with(*a, **kw):
+        res = original_chat_with(*a, **kw)
+        time.sleep(2.0) # Wait 2 seconds for the chat panel to physically appear
+        return res
+    wx.ChatWith = delayed_chat_with
 
     # Step 3: Execute Action
     if args.action == 'sync':
@@ -450,9 +505,36 @@ def main():
         if not args.msg:
             print(json.dumps({"status": "error", "message": "Missing --msg argument"}))
             return
+        
         try:
-            log(f"Sending message to '{args.who}'...")
-            wx.SendMsg(msg=args.msg, who=args.who, exact=False)
+            log(f"Sending to '{args.who}'...")
+            
+            # Switch to chat and natively type the message using wxauto4's SendMsg.
+            # Our perfectly patched ChatWith guarantees it clicks the right element and sleeps 2.0s 
+            log(f"Sending to '{args.who}' via explicit Enter strike...")
+            
+            # Switch to chat accurately using our improved search patch
+            # This works flawlessly and leaves the chat window open and input focused!
+            wx.ChatWith(args.who, exact=False)
+            
+            # Use raw Windows API to copy text to clipboard securely
+            from wxauto4.utils.win32 import SetClipboardText
+            SetClipboardText(args.msg)
+            
+            time.sleep(1.0) # Ensure window transitions are complete
+            log("Accessing WeChat internal edit box...")
+            chat_api = wx._api._chat_api
+            chat_api._activate_editbox()
+            
+            log("Injecting message natively...")
+            chat_api.editbox.SendKeys('{Ctrl}v', waitTime=0.5)
+            
+            log("Striking pure RETURN natively into the focused editbox...")
+            chat_api.editbox.SendKeys('{Enter}', waitTime=0.5)
+            
+            # Wait to confirm the text disappeared
+            time.sleep(0.5)
+
             print(json.dumps({"status": "success", "detail": f"Sent to '{args.who}'"}))
         except Exception as e:
             print(json.dumps({"status": "error", "message": str(e)}))
@@ -507,8 +589,8 @@ if __name__ == "__main__":
 
     <div class="note" style="border-left-color: #38bdf8; background: rgba(56, 189, 248, 0.1);">
         <strong>💎 <span class="en">Advanced Feature</span><span class="zh">高级功能</span></strong><br>
-        <span class="en">This section is optional. Follow these steps only if you want a **Visual Chat Interface** inside your QCAI App. These scripts depend on the <code>wechat_bridge.py</code> from Part 1.</span>
-        <span class="zh">本部分是可选的。仅当您想要在 QCAI 应用程序中拥有<strong>可视化聊天界面</strong>时，才执行这些步骤。这些脚本依赖于第一部分中的 <code>wechat_bridge.py</code>。</span>
+        <span class="en">This section is optional. Please refer to the <a href="https://qcai-net.github.io/clawportal.html" style="color: var(--accent); font-weight: bold;">QCAI Portal Setup Guide</a> for setting up the general OpenClaw gateway portal before continuing. These specialized WeChat scripts depend on that portal infrastructure and the <code>wechat_bridge.py</code> from Part 1.</span>
+        <span class="zh">本部分是可选的。在继续之前，请参考 <a href="https://qcai-net.github.io/clawportal.html" style="color: var(--accent); font-weight: bold;">QCAI 门户设置指南</a> 以在 OpenClaw 网关上设置通用门户。这些专门的微信脚本依赖于该门户基础设施和第一部分中的 <code>wechat_bridge.py</code>。</span>
     </div>
 
     <h2>
@@ -532,6 +614,7 @@ PORT = 18790
 
 class PortalHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
+        # Enable CORS for local testing
         self.send_header('Access-Control-Allow-Origin', '*')
         self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
         self.send_header('Access-Control-Allow-Headers', 'Content-Type')
@@ -546,21 +629,38 @@ class PortalHandler(http.server.SimpleHTTPRequestHandler):
             content_length = int(self.headers['Content-Length'])
             post_data = self.rfile.read(content_length)
             data = json.loads(post_data.decode('utf-8'))
+            
             cmd = data.get('cmd')
             if not cmd:
                 self.send_response(400)
                 self.end_headers()
+                self.wfile.write(b'{"status": "error", "message": "No command provided"}')
                 return
 
             try:
+                # Skill folder is usually one level up or at specific location
+                # We aim for the workspace skills folder
                 skills_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "skills", "wechat"))
-                result = subprocess.run(cmd, shell=True, capture_output=True, text=True, cwd=skills_dir)
+                
+                # Run the command and capture output
+                result = subprocess.run(
+                    cmd, 
+                    shell=True,
+                    capture_output=True, 
+                    text=True,
+                    cwd=skills_dir
+                )
+                
                 output_str = result.stdout
-                if result.stderr: output_str += "\n" + result.stderr
+                if result.stderr:
+                    output_str += "\n" + result.stderr
+
+                # Try to parse script output if it's JSON
                 try:
                     response_data = json.loads(result.stdout)
                 except ValueError:
                     response_data = {"status": "success", "output": output_str}
+                
                 self.send_response(200)
                 self.send_header('Content-type', 'application/json')
                 self.end_headers()
@@ -575,6 +675,7 @@ class PortalHandler(http.server.SimpleHTTPRequestHandler):
             self.end_headers()
 
 if __name__ == "__main__":
+    # Ensure we are in the portal directory to serve its files
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     with socketserver.TCPServer(("", PORT), PortalHandler) as httpd:
         print(f"ClawPortal Server running at http://127.0.0.1:{PORT}")
@@ -624,13 +725,25 @@ if __name__ == "__main__":
         async function executeAction(action) {
             const who = document.getElementById('target').value;
             const msg = document.getElementById('message').value;
-            // UPDATE: Use your absolute python path
-            let cmd = `C:\\Users\\yonwang\\AppData\\Local\\Programs\\Python\\Python312\\python.exe ..\\skills\\wechat\\wechat_bridge.py --action ${action} --who "${who}"`;
+            
+            // IMPORTANT: Update this to your local Python installation path if 'python' is not in PATH
+            const pythonPath = "C:\\Users\\yonwang\\AppData\\Local\\Programs\\Python\\Python312\\python.exe";
+            
+            let cmd = `${pythonPath} wechat_bridge.py --action ${action} --who "${who}"`;
             if (action === 'send') cmd += ` --msg "${msg}"`;
-            const resp = await fetch('/api/exec', { method: 'POST', body: JSON.stringify({ cmd }) });
+            
+            const resp = await fetch('/api/exec', { 
+                method: 'POST', 
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ cmd }) 
+            });
+            
             const data = await resp.json();
             if (data.messages) {
                 document.getElementById('chat-area').innerHTML = data.messages.map(m => `&lt;div class="message ${m.sender==='Me'?'sent':'received'}"&gt;&lt;b&gt;${m.sender}&lt;/b&gt;&lt;br&gt;${m.content}&lt;/div&gt;`).join('');
+                // Scroll to bottom
+                const area = document.getElementById('chat-area');
+                area.scrollTop = area.scrollHeight;
             }
         }
     &lt;/script&gt;
@@ -660,6 +773,14 @@ if __name__ == "__main__":
         function toggleLanguage() {
             const isZh = document.body.classList.toggle('lang-zh');
             document.querySelector('.lang-switch a').innerText = isZh ? 'English' : '中文';
+        }
+
+        function toggleTheme() {
+            const isLight = document.body.classList.toggle('light-theme');
+            const btnEn = isLight ? 'Night Mode' : 'Daylight Mode';
+            const btnZh = isLight ? '黑夜模式' : '白天模式';
+            document.querySelector('.theme-toggle a .en').innerText = btnEn;
+            document.querySelector('.theme-toggle a .zh').innerText = btnZh;
         }
 
         function copyCode(button) {
