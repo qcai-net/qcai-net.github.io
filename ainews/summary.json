@@ -3,192 +3,200 @@
     "title": "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round",
     "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
     "industry": "Semiconductors",
-    "summary": "AI chip startup Rebellions secures $400 million in pre-IPO funding, valuing the company at $2.3 billion. Rebellions is focused on AI inference chips, directly competing with Nvidia's market dominance.",
-    "charlotte_impact": "This funding event highlights the intense competition in the AI chip market. Rebellions' success signals investors' belief in the potential for alternative chip architectures and specialized AI hardware. This could drive innovation and lower costs for AI computing, benefitting businesses that rely on these technologies.",
+    "summary": "AI chip startup Rebellions secured $400 million in a pre-IPO round at a $2.3 billion valuation, aiming to challenge Nvidia's dominance in AI inference chips. The company plans to go public later this year, indicating strong investor confidence in its technology.",
+    "charlotte_impact": "Rebellions' successful funding and IPO plans signal a growing market for specialized AI chips, creating opportunities for other chip manufacturers and potentially reducing reliance on a single vendor. This increased competition and innovation within the semiconductor industry could lead to more efficient and cost-effective AI solutions across various sectors.",
     "impact_score": 9
   },
   {
     "title": "Why SoftBank\u2019s new $40B loan points to a 2026 OpenAI IPO",
     "url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
-    "industry": "Finance",
-    "summary": "SoftBank secures a new $40 billion loan, fueling speculation about an upcoming OpenAI IPO in 2026. JPMorgan and Goldman Sachs are providing the unsecured loan to the Japanese conglomerate.",
-    "charlotte_impact": "A potential OpenAI IPO would be a massive event, signaling continued strong investor confidence in the AI sector. It would also create significant opportunities for institutional investors and potentially reshape the competitive landscape of the AI industry, setting higher valuation benchmarks.",
+    "industry": "Finance/AI",
+    "summary": "SoftBank is receiving a $40 billion loan, fueling speculation about a potential 2026 IPO for OpenAI.  The significant loan from JPMorgan and Goldman Sachs highlights the immense value and anticipated future growth of OpenAI.",
+    "charlotte_impact": "A successful OpenAI IPO would represent a massive infusion of capital into the AI sector, validating the industry's potential and attracting further investment. This event would create significant wealth for OpenAI stakeholders and potentially drive further innovation and adoption of AI technologies across various industries.",
     "impact_score": 8
+  },
+  {
+    "title": "Exclusive: Runway launches $10M fund, Builders program to support early stage AI startups",
+    "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
+    "industry": "Venture Capital/AI Video",
+    "summary": "Runway launched a $10 million fund and startup program to support early-stage AI startups building with its AI video models. This initiative aims to foster innovation in interactive, real-time \"video intelligence\" applications.",
+    "charlotte_impact": "Runway's fund and program will accelerate the development of new applications leveraging AI video technology.  This could lead to advancements in areas like video editing, content creation, and visual communication, creating new business opportunities and potentially disrupting existing industries.",
+    "impact_score": 7
+  },
+  {
+    "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+    "url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+    "industry": "AI Security",
+    "summary": "LiteLLM, an AI gateway startup, severed ties with security compliance firm Delve after falling victim to credential-stealing malware. This incident underscores the critical importance of cybersecurity and robust security practices in the AI space.",
+    "charlotte_impact": "The incident highlights the need for rigorous due diligence when selecting security vendors and the importance of implementing robust cybersecurity measures to protect AI systems and data. It serves as a reminder that the AI sector is not immune to cyber threats and that security must be a top priority.",
+    "impact_score": 6
   },
   {
     "title": "Starcloud raises $170 million Series A to build data centers in space",
     "url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
-    "industry": "Data Centers",
-    "summary": "Starcloud raises a $170 million Series A to build data centers in space, achieving unicorn status just 17 months after Y Combinator demo day. This reflects the intense demand for AI compute.",
-    "charlotte_impact": "Space-based data centers offer potential benefits in terms of latency, cooling, and geographic distribution. If successful, this could revolutionize data center infrastructure, providing new options for compute-intensive AI applications. However, challenges remain around cost, reliability, and regulatory compliance.",
+    "industry": "Space/Data Centers",
+    "summary": "Starcloud raised $170 million in Series A funding to build data centers in space, achieving unicorn status in a record 17 months. This venture aims to overcome terrestrial limitations and provide data processing capabilities in orbit.",
+    "charlotte_impact": "Starcloud's funding and ambitious plans could pave the way for a new era of space-based infrastructure and data processing. If successful, this could lead to faster processing speeds, reduced latency, and new applications in areas like Earth observation, satellite communication, and scientific research.",
     "impact_score": 7
   },
   {
     "title": "Why OpenAI really shut down Sora",
     "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
-    "industry": "Generative AI",
-    "summary": "Speculation surrounds OpenAI's decision to shut down Sora, its AI video-generation tool, just six months after public release. Theories include data privacy concerns and strategic shifts.",
-    "charlotte_impact": "The shutdown of Sora creates uncertainty in the AI-generated video market. It could signal that the technology is not yet mature for widespread deployment or that OpenAI is re-evaluating its strategy. It also emphasizes the importance of data privacy and responsible AI practices.",
+    "industry": "AI Video",
+    "summary": "OpenAI's decision to shut down Sora, its AI video-generation tool, after only six months raised concerns. Speculation arose regarding data privacy and potential misuse of user-uploaded faces.",
+    "charlotte_impact": "The shutdown of Sora may signal a re-evaluation of the risks and challenges associated with AI video generation, particularly concerning data privacy, ethical considerations, and potential misuse. It could lead to more cautious approaches and stricter guidelines for the development and deployment of similar technologies.",
     "impact_score": 6
+  },
+  {
+    "title": "VCs are betting billions on AI\u2019s next wave, so why is OpenAI killing Sora?",
+    "url": "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
+    "industry": "Real Estate/AI Infrastructure",
+    "summary": "An 82-year-old woman rejected a $26 million offer from an AI company to build a data center on her land. This highlights the growing tension between the need for AI infrastructure and the concerns of local communities.",
+    "charlotte_impact": "This event illustrates the challenges of siting new data centers and AI infrastructure due to community resistance and land use conflicts. As AI continues to expand, companies will need to address community concerns and engage in transparent communication to gain local support for their projects.",
+    "impact_score": 5
+  },
+  {
+    "title": "With its new app store, Ring bets on AI to go beyond home security",
+    "url": "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/",
+    "industry": "Home Security/AI Applications",
+    "summary": "Ring launched an app store, betting on AI to expand its capabilities beyond home security. The store will target use cases like elder care and business needs, showcasing the versatility of AI-powered solutions.",
+    "charlotte_impact": "Ring's app store strategy demonstrates the potential for AI to transform home security devices into versatile platforms for a variety of applications. This approach could unlock new revenue streams for Ring and drive innovation in areas like elder care, remote monitoring, and smart home automation.",
+    "impact_score": 7
+  },
+  {
+    "title": "15% of Americans say they\u2019d be willing to work for an AI boss, according to new poll",
+    "url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
+    "industry": "Workforce/AI",
+    "summary": "A poll reveals that only 15% of Americans are willing to work for an AI boss. This highlights the ongoing debate about the role of AI in the workplace and the potential for resistance to AI-driven management.",
+    "charlotte_impact": "The low acceptance rate of AI bosses reflects concerns about job displacement, lack of human interaction, and potential biases in AI decision-making. Companies will need to address these concerns and prioritize transparency and fairness to gain employee acceptance of AI-driven management systems.",
+    "impact_score": 5
   },
   {
     "title": "As more Americans adopt AI tools, fewer say they can trust the results",
     "url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
-    "industry": "AI Ethics",
-    "summary": "A new poll shows that AI adoption is increasing in the U.S., but trust in AI remains low. Americans are concerned about transparency, regulation, and AI's societal impact.",
-    "charlotte_impact": "This highlights the growing need for transparency, explainability, and ethical considerations in AI development and deployment. Lack of trust could hinder adoption and create regulatory challenges for the industry, as well as increased scrutiny from public consumers.",
-    "impact_score": 8
+    "industry": "Public Opinion/AI",
+    "summary": "While AI adoption is increasing in the U.S., trust in AI remains low. Americans are concerned about transparency, regulation, and the broader societal impact of the technology.",
+    "charlotte_impact": "The lack of public trust in AI could hinder its widespread adoption and limit its potential benefits. Building trust requires greater transparency in AI algorithms, robust regulatory frameworks, and proactive efforts to address societal concerns about job displacement, bias, and data privacy.",
+    "impact_score": 6
   },
   {
     "title": "Mantis Biotech is making \u2018digital twins\u2019 of humans to help solve medicine\u2019s data availability problem",
     "url": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
-    "industry": "Healthcare AI",
-    "summary": "Mantis Biotech is building 'digital twins' of humans using synthetic datasets to address data availability issues in medicine. These digital twins simulate human anatomy, physiology, and behavior.",
-    "charlotte_impact": "Digital twins in healthcare have the potential to revolutionize drug discovery, personalized medicine, and clinical trials. They can help reduce the cost and time required to develop new treatments and improve patient outcomes. However, data privacy and security concerns need to be addressed.",
-    "impact_score": 7
+    "industry": "Healthcare/AI",
+    "summary": "Mantis Biotech is creating 'digital twins' of humans to address data availability challenges in medicine. These synthetic datasets represent anatomy, physiology, and behavior, enabling research and development without relying solely on real-world data.",
+    "charlotte_impact": "Mantis Biotech's digital twin approach has the potential to revolutionize medical research and development by overcoming limitations in data availability. This could accelerate the discovery of new treatments, improve personalized medicine, and enhance our understanding of human health.",
+    "impact_score": 8
   },
   {
     "title": "ScaleOps raises $130M to improve computing efficiency amid AI demand",
     "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
-    "industry": "Cloud Computing",
-    "summary": "ScaleOps raises $130 million to improve computing efficiency amid soaring AI demand. The company automates infrastructure management in real-time to address GPU shortages and high cloud costs.",
-    "charlotte_impact": "ScaleOps' funding round reflects the growing importance of optimizing cloud infrastructure for AI workloads. Improving computing efficiency can significantly reduce costs and improve the performance of AI applications, enabling more businesses to adopt AI technologies.",
+    "industry": "Cloud Computing/AI Infrastructure",
+    "summary": "ScaleOps raised $130 million to improve computing efficiency amid high AI demand. They automate infrastructure in real time to alleviate GPU shortages and reduce AI cloud costs.",
+    "charlotte_impact": "ScaleOps' focus on infrastructure automation directly addresses the growing demand for computing power required by AI. This can lead to lowered costs and improved efficiency of AI development and deployment, making AI more accessible to organizations of all sizes.",
     "impact_score": 8
   },
   {
     "title": "Mistral AI raises $830M in debt to set up a data center near Paris",
     "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
-    "industry": "Data Centers",
-    "summary": "Mistral AI raises $830 million in debt to establish a data center near Paris. The data center is projected to be operational by Q2 2026.",
-    "charlotte_impact": "This significant investment highlights the ongoing expansion of AI infrastructure in Europe. It underscores Mistral AI's commitment to building a robust AI ecosystem and competing with U.S.-based AI giants. This may increase competition within the GenAI space.",
-    "impact_score": 8
+    "industry": "AI Infrastructure/Data Centers",
+    "summary": "Mistral AI secured $830 million in debt financing to establish a data center near Paris, aiming for operations to commence in the second quarter of 2026. This signifies a major investment in AI infrastructure within Europe.",
+    "charlotte_impact": "Mistral AI's investment in a European data center promotes greater regional AI infrastructure capacity and potentially reduces reliance on US-based providers.  This supports local AI innovation and may address data sovereignty concerns.",
+    "impact_score": 7
   },
   {
     "title": "Qodo raises $70M for code verification as AI coding scales",
     "url": "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
-    "industry": "Software Development",
-    "summary": "Qodo raises $70 million for code verification as AI coding tools become more prevalent. The company focuses on ensuring the reliability and functionality of AI-generated code.",
-    "charlotte_impact": "The rise of AI-assisted coding is creating new challenges in software quality assurance. Qodo's focus on code verification is crucial for mitigating risks associated with AI-generated code and ensuring the reliability of software systems. This will be increasingly vital as AI coding assistants mature.",
-    "impact_score": 7
+    "industry": "Software Development/AI Coding",
+    "summary": "Qodo raised $70 million for code verification, focusing on ensuring the reliability of AI-generated code. As AI increasingly contributes to software development, code verification becomes crucial.",
+    "charlotte_impact": "Qodo's focus on code verification is crucial for maintaining the quality and reliability of software developed with AI assistance. This can reduce the risk of errors, bugs, and security vulnerabilities, ensuring the safe and effective deployment of AI-powered applications.",
+    "impact_score": 8
   },
   {
     "title": "Sora\u2019s shutdown could be a reality check moment for AI video",
     "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
-    "industry": "Generative AI",
-    "summary": "Sora's shutdown raises questions about the future of AI-generated video. Analysts are wondering whether it's a normal strategic shift or a sign of broader challenges in the space.",
-    "charlotte_impact": "The AI video generation market is still in its early stages, and technical and ethical challenges remain. The shutdown of Sora highlights the need for responsible development and deployment of AI video technologies. It may cause developers and users to be more cautious moving forward.",
-    "impact_score": 6
+    "industry": "AI Video",
+    "summary": "The shutdown of Sora raises questions about the sustainability and practical applications of AI-generated video. It may be a moment of reflection for the AI video sector.",
+    "charlotte_impact": "Sora's shutdown forces a reassessment of the current state and future direction of AI video. It encourages greater scrutiny of ethical considerations, technological limitations, and market demand before heavily investing in the technology.",
+    "impact_score": 5
   },
   {
     "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
     "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
-    "industry": "Social Media",
-    "summary": "Bluesky introduces Attie, an AI-powered app for creating custom feeds. Attie leverages AI to personalize the user experience on the decentralized social network.",
-    "charlotte_impact": "Bluesky's investment in AI-powered features demonstrates the potential for AI to enhance social media platforms. Custom feeds could improve user engagement and content discovery, offering a more personalized experience. However, concerns around algorithmic bias and echo chambers need to be addressed.",
+    "industry": "Social Media/AI Applications",
+    "summary": "Bluesky is incorporating AI by launching Attie, an app to create custom feeds within their social network. The tool allows for curated content experiences.",
+    "charlotte_impact": "Bluesky's adoption of AI for content customization highlights a potential path for social media evolution. It could lead to more personalized and relevant user experiences, increasing engagement and potentially attracting a wider audience.",
     "impact_score": 6
   },
   {
     "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
     "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
-    "industry": "AI Ethics",
-    "summary": "A Stanford study reveals the dangers of seeking personal advice from AI chatbots. The study measures the potential harm caused by AI sycophancy.",
-    "charlotte_impact": "This research underscores the importance of understanding the limitations of AI chatbots and avoiding reliance on them for sensitive personal advice. It emphasizes the need for clear guidelines and warnings about the potential risks of using AI for emotional support or decision-making.",
+    "industry": "AI Ethics/Healthcare",
+    "summary": "A Stanford study underscores the dangers of seeking personal advice from AI chatbots, citing potential for harmful recommendations.",
+    "charlotte_impact": "This study reinforces the need for caution and oversight when using AI for sensitive personal advice. Healthcare providers should educate patients on the limitations of AI and ensure human oversight in medical decision-making.",
     "impact_score": 7
   },
   {
     "title": "Elon Musk\u2019s last co-founder reportedly leaves xAI",
     "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
     "industry": "AI Talent",
-    "summary": "Reportedly, Elon Musk\u2019s last co-founder leaves xAI. Most original co-founders have already departed the company.",
-    "charlotte_impact": "High turnover among co-founders can signal internal challenges or strategic shifts within the company. It could impact xAI's ability to execute its long-term vision and attract top talent. This may open up opportunities for other players in the AI field to attract skilled developers.",
-    "impact_score": 5
-  },
-  {
-    "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
-    "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
-    "industry": "Government & AI",
-    "summary": "Anthropic wins an injunction against the Trump administration regarding restrictions on the AI company imposed by the Department of Defense.",
-    "charlotte_impact": "This legal victory is important for the AI industry as it signals limits to government overreach and restrictions on AI companies, highlighting the increasing intersection of politics and AI development.",
-    "impact_score": 6
-  },
-  {
-    "title": "Amazon buys Fauna Robotics, maker of the Sprout humanoid robot that can dance, pick up toys, and go on a stroll",
-    "url": "https://fortune.com/2026/03/29/amazon-acquisition-fauna-robotics-sprout-humanoid-robot-homes-schools-disney/",
-    "industry": "Robotics",
-    "summary": "Amazon acquires Fauna Robotics, known for its Sprout humanoid robot that can perform tasks like dancing and picking up toys. Early clients include Disney.",
-    "charlotte_impact": "This acquisition signals Amazon's continued interest in robotics and home automation. The Sprout robot could be integrated into Amazon's ecosystem of products and services, potentially impacting the consumer robotics market and the future of home assistance.",
-    "impact_score": 7
-  },
-  {
-    "title": "Apple Recruits Google Shopping Exec to Lead AI Marketing",
-    "url": "https://www.pymnts.com/apple/2026/apple-recruits-google-shopping-exec-to-lead-ai-marketing/",
-    "industry": "Marketing",
-    "summary": "Apple hires a former Google Shopping executive to lead its AI marketing efforts. Apple is intensifying its focus on AI-driven marketing strategies.",
-    "charlotte_impact": "Apple's strategic hire indicates its commitment to leveraging AI to enhance its marketing efforts and improve customer engagement. This could lead to more personalized and effective marketing campaigns, potentially impacting sales and brand loyalty. It could also signal increased competition between tech giants in the AI-powered marketing space.",
-    "impact_score": 6
-  },
-  {
-    "title": "Scaling industrial AI is more a human than a technical challenge",
-    "url": "https://siliconangle.com/2026/03/29/scaling-industrial-ai-human-technical-challenge/",
-    "industry": "Industrial AI",
-    "summary": "A study indicates that scaling industrial AI is more of a human than a technical challenge. Organizations face challenges in integrating AI into existing workflows and upskilling their workforce.",
-    "charlotte_impact": "This emphasizes the need for organizations to focus on change management, training, and cultural shifts to successfully implement industrial AI. Investing in employee education and fostering collaboration between humans and AI systems is crucial for realizing the full potential of AI in industrial settings.",
-    "impact_score": 7
-  },
-  {
-    "title": "aait 3.3.10",
-    "url": "https://pypi.org/project/aait/3.3.10/",
-    "industry": "Software",
-    "summary": "The AAIT, Advanced Artificial Intelligence Tools package is updated to version 3.3.10. It is meant to develop and enable advanced AI functionalities in Orange",
-    "charlotte_impact": "This signals continued development of accessible AI tools. It could empower new businesses by creating a low-code environment for more people to create with AI.",
+    "summary": "Reportedly, another co-founder departs Elon Musk's xAI, continuing a trend of leadership turnover within the company. Most of Musk's co-founders left before this week.",
+    "charlotte_impact": "High co-founder turnover at xAI may impact public perception and potentially indicate leadership or strategic challenges within the organization. It could influence talent acquisition and investor confidence.",
     "impact_score": 4
   },
   {
-    "title": "Breaking: \u2018I feel betrayed\u2019: New scam figures show Australians lost more than $2 billion",
-    "url": "https://www.abc.net.au/news/2026-03-30/accc-scam-figures-released-two-billion-loss/106502482",
-    "industry": "Cybersecurity",
-    "summary": "Australians lost over $2 billion to scammers in 2025, according to the ACCC. This underscores the need for improved cybersecurity measures and AI-powered fraud detection systems.",
-    "charlotte_impact": "This statistic reveals the growing threat of online scams and the need for more sophisticated cybersecurity measures. AI-powered fraud detection systems can help identify and prevent scams in real-time, protecting consumers and businesses from financial losses.",
-    "impact_score": 8
-  },
-  {
-    "title": "Autonomous vulnerability in U.S. maritime defense",
-    "url": "https://www.wnd.com/2026/03/autonomous-vulnerability-u-s-maritime-defense/",
-    "industry": "Defense",
-    "summary": "The US's maritime defense capabilities are vulnerable to autonomous systems, according to recent analysis. This highlights the need for proactive measures to address potential threats.",
-    "charlotte_impact": "The increasing reliance on autonomous systems in naval warfare creates new vulnerabilities that must be addressed. Developing countermeasures and ensuring the security of autonomous systems is crucial for maintaining maritime security.",
+    "title": "AI Won\u2019t Replace Travel Booking But It\u2019s Changing Everything Else",
+    "url": "https://skift.com/2026/03/30/ai-wont-replace-travel-booking-but-its-changing-everything-else/",
+    "industry": "Travel/AI",
+    "summary": "Experts argue AI will enhance the travel experience behind the scenes, but will not replace travel booking, which is a human-centric interaction.",
+    "charlotte_impact": "This shift underscores the importance of customer service and retaining human interaction in key points of the travel experience. Companies may allocate budget from booking technologies into personalization, support, and customer service technologies.",
     "impact_score": 6
   },
   {
-    "title": "Medical AI Named First-Ever Recipient of ACC Global Digital Health Award at American College of Cardiology Annual Scientific Session",
-    "url": "https://www.globenewswire.com/news-release/2026/03/29/3264255/0/en/Medical-AI-Named-First-Ever-Recipient-of-ACC-Global-Digital-Health-Award-at-American-College-of-Cardiology-Annual-Scientific-Session.html",
-    "industry": "Medical AI",
-    "summary": "Medical AI receives the inaugural Global Digital Health Award at the American College of Cardiology Annual Scientific Session. This recognizes the growing impact of AI in healthcare.",
-    "charlotte_impact": "This award demonstrates the increasing recognition of AI's potential to transform healthcare. AI-powered tools can improve diagnostic accuracy, personalize treatment plans, and streamline clinical workflows, ultimately leading to better patient outcomes.",
+    "title": "Life with AI causing human brain 'fry'",
+    "url": "https://slashdot.org/submission/17346046/life-with-ai-causing-human-brain-fry",
+    "industry": "Workplace/Human Resources",
+    "summary": "Consultants are dubbing the feeling of overwork in AI-driven environments as 'AI brain fry'. This is due to vast amounts of code, drafting, and information needed in adopting AI assistants.",
+    "charlotte_impact": "As companies adopt AI, employees may experience burnout. Organizations should provide additional training and support in AI workflow adoption and implementation to minimize stress.",
     "impact_score": 6
   },
   {
-    "title": "How Organizations Are Now Using AI",
-    "url": "https://www.psychologytoday.com/us/blog/mind-of-the-manager/202603/how-organizations-are-now-using-ai",
-    "industry": "AI Adoption",
-    "summary": "A McKinsey study analyzes the current state of AI implementation in organizations, revealing both progress and challenges.",
-    "charlotte_impact": "This study provides valuable insights into the strategies and best practices for successful AI implementation. It can help organizations avoid common pitfalls and maximize the return on their AI investments.",
+    "title": "How GCCs are boosting demand for premium office spaces",
+    "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/how-gccs-are-boosting-demand-for-premium-office-spaces/articleshow/129903560.cms",
+    "industry": "Real Estate/Office Spaces",
+    "summary": "Global Capability Centers in India are boosting the demand for premium office spaces, transitioning to sustainable, flexible, and managed solutions.",
+    "charlotte_impact": "India's shift to premium office spaces is a boost for its economy, while also showing trends for other companies to focus on more sustianble spaces as well.",
+    "impact_score": 6
+  },
+  {
+    "title": "Advanced machine learning approaches for predicting neglected tropical disease co-endemicity in Kenya: A focus on soil-transmitted helminths, schistosomiasis, and lymphatic filariasis",
+    "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014156",
+    "industry": "Healthcare/Machine Learning",
+    "summary": "ML is used to forecast, identify, and map high-risk areas of neglected tropical diseases in Africa. This can help prepare and protect the affected populations.",
+    "charlotte_impact": "Using AI to predict NTDs increases the chances of getting ahead of them and protecting lives. This strategy can be implented in other sectors of healthcare, ultimately boosting its innovation and efficiency.",
+    "impact_score": 7
+  },
+  {
+    "title": "Multidimensional factors influencing continuance usage intention of university library self-service systems: An empirical analysis based on an extended TAM-UTAUT",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346014",
+    "industry": "Education/Automation",
+    "summary": "Analysis based on an extended TAM-UTAUT has shown that Smart library initiatives are becoming a critical component in automation.",
+    "charlotte_impact": "By allowing the automation of circulation services, librarians can alleviate their work load and boost efficiency.",
     "impact_score": 5
   },
   {
-    "title": "Dana White dismisses fan complaints over UFC\u2019s use of AI in 2026",
-    "url": "https://www.hitc.com/dana-white-dismisses-fan-complaints-over-ufcs-use-of-ai-in-2026/",
-    "industry": "Entertainment",
-    "summary": "Dana White dismisses fan complaints about the UFC's use of AI in 2026, indicating a growing acceptance and integration of AI in sports and entertainment.",
-    "charlotte_impact": "This suggests that the integration of AI in sports and entertainment is becoming more commonplace, potentially impacting various aspects such as broadcasting, athlete training, and fan engagement.",
-    "impact_score": 3
+    "title": "Vibration-based bearing fault diagnosis in noisy conditions using matrix pencil mean frequency and multilayer perceptron neural networks",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345870",
+    "industry": "Engineering/Machine Learning",
+    "summary": "Fault detection in noisy environments remains a major challenge, this paper proposes a novel method for Vibration-based bearing fault diagnosis in noisy conditions using matrix pencil mean frequency and multilayer perceptron neural networks.",
+    "charlotte_impact": "This paper can help solve issues of fault detection in noisy environments, thus improving quality and efficiency overall.",
+    "impact_score": 6
   },
   {
-    "title": "One AI bubble has already burst. The next one\u2014a 'rare' kind\u2014is still growing, economist warns - Fortune",
-    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=181180212",
-    "industry": "Economics",
-    "summary": "An economist warns that one AI bubble has already burst, while another\u2014a 'rare' kind\u2014is still growing, suggesting a complex economic landscape for AI investments.",
-    "charlotte_impact": "This highlights the importance of careful analysis and due diligence when investing in AI. While the AI sector offers significant growth potential, it also carries risks of overvaluation and market corrections.",
-    "impact_score": 6
+    "title": "Private Credit Funds Understating Their Exposure to Software Struggles",
+    "url": "https://www.pymnts.com/loans/2026/private-credit-funds-understating-their-exposure-to-software-struggles/",
+    "industry": "Financial/Software",
+    "summary": "Private credit fund managers are reportedly downplaying their exposure to software struggles amid market upheaval. According to an analysis of the industry\u00a0published\u00a0Sunday (March 29) by The Wall Street Journal (WSJ).",
+    "charlotte_impact": "The software struggle can affect the market and cause losses. However, analysts may be downplaying the situation to protect their companies.",
+    "impact_score": 5
   }
 ]
