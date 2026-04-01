@@ -1,202 +1,194 @@
 [
   {
+    "title": "OpenAI, aún no pública, recauda 3.000 millones de dólares de inversores minoristas en una monstruosa recaudación de fondos de 122.000 millones de dólares",
+    "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
+    "industry": "Investment",
+    "summary": "OpenAI obtiene 3.000 millones de dólares de inversores minoristas como parte de una enorme recaudación de fondos de 122.000 millones de dólares, valorando el laboratorio de IA en 852.000 millones de dólares. Amazon, Nvidia y SoftBank lideran esta ronda mientras OpenAI se prepara para su IPO.",
+    "charlotte_impact": "Esta ronda de financiación masiva valida la posición de liderazgo de OpenAI en IA y señala el entusiasmo continuo de los inversores por las aplicaciones de IA generativa. La inminente IPO podría tener un efecto dominó en toda la industria tecnológica, influyendo en las valoraciones y estrategias de inversión de otras nuevas empresas de IA. Además, muestra la creciente disposición de los inversores minoristas a invertir en empresas de IA de alto riesgo y alta recompensa, lo que podría democratizar la inversión en IA, pero también plantea preocupaciones sobre la educación de los inversores y la estabilidad del mercado.",
+    "impact_score": 10
+  },
+  {
     "title": "La startup de chips de IA Rebellions recauda 400 millones de dólares con una valoración de 2.300 millones de dólares en la ronda previa a la IPO",
     "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
     "industry": "Semiconductors",
-    "summary": "La startup de chips de IA Rebellions recauda 400 millones de dólares con una valoración de 2.300 millones de dólares en una ronda previa a la IPO y planea salir a bolsa este año.  Diseñan chips específicamente para la inferencia de IA, lo que plantea un desafío directo al dominio de Nvidia en el mercado de chips de IA.",
-    "charlotte_impact": "Esta gran ronda de financiación pone de relieve la competencia actual en el espacio de los chips de IA.  El éxito de Rebellions podría reducir el costo de la inferencia de IA, haciendo que la IA sea más accesible para empresas de todos los tamaños.  Valida aún más la demanda del mercado de hardware de IA especializado.",
+    "summary": "La startup de chips de IA Rebellions recauda 400 millones de dólares con una valoración de 2.300 millones de dólares en una ronda previa a la IPO. Esta financiación impulsará el desarrollo de chips de inferencia de IA, lo que plantea un desafío al dominio de Nvidia en el mercado de hardware de IA.",
+    "charlotte_impact": "La financiación de Rebellions y la oferta pública inicial prevista ponen de relieve la creciente competencia en el mercado de chips de IA. Esta inversión significa la demanda de hardware especializado optimizado para la inferencia de IA. El éxito de empresas como Rebellions impulsará la innovación y potencialmente reducirá los costos, beneficiando a las empresas que integran la IA en sus operaciones.",
     "impact_score": 9
   },
   {
-    "title": "Yupp.ai cierra después de recaudar $ 33 millones de Chris Dixon de a16z crypto",
+    "title": "Yupp cierra después de recaudar $ 33 millones de Chris Dixon de a16z crypto",
     "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-    "industry": "AI Platforms",
-    "summary": "Yupp.ai, una startup de retroalimentación de modelos de IA de colaboración colectiva, cierra menos de un año después de su lanzamiento, a pesar de haber recaudado 33 millones de dólares de inversores destacados.  Este cierre sugiere posibles dificultades en el mercado de retroalimentación de IA o problemas con el modelo de negocio de Yupp.ai.",
-    "charlotte_impact": "El cierre de Yupp.ai sirve como advertencia para las nuevas empresas de IA.  Subraya la importancia de la adecuación del producto al mercado y de su ejecución efectiva, incluso con una financiación sustancial y un respaldo de alto perfil, destacando los riesgos inherentes a las empresas emergentes en sus primeras etapas.",
-    "impact_score": 5
+    "industry": "AI Feedback",
+    "summary": "Yupp, una startup de retroalimentación de modelos de IA de colaboración colectiva, cierra menos de un año después de recaudar 33 millones de dólares de destacados inversores. Esto sugiere los desafíos en el mercado de retroalimentación de IA y la importancia de una sólida validación del mercado.",
+    "charlotte_impact": "El cierre de Yupp indica los desafíos a la hora de monetizar la retroalimentación del modelo de IA y la necesidad de un modelo de negocio viable. Este evento podría generar cautela entre los inversores que buscan plataformas similares de retroalimentación de IA, enfatizando la necesidad de una debida diligencia cuidadosa y un análisis de mercado sólido.",
+    "impact_score": 4
   },
   {
     "title": "Exclusivo: Runway lanza un fondo de 10 millones de dólares y un programa Builders para apoyar a las empresas emergentes de IA en sus primeras etapas",
     "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
-    "industry": "AI Video",
-    "summary": "Runway lanza un fondo de $10 millones y un programa Builders para apoyar la creación de nuevas empresas de IA en etapa inicial con sus modelos de video de IA.  This move reflects Runway's commitment to fostering an ecosystem around its video AI technology and expanding its applications.",
-    "charlotte_impact": "El fondo de Runway podría estimular la innovación en aplicaciones de vídeo de IA en diversas industrias.  Esto incluye oportunidades para nuevas herramientas de edición de video, generación de contenido de marketing y otros usos creativos de la IA en la producción de video. Impulsará la industria de la IA del vídeo.",
+    "industry": "Venture Capital",
+    "summary": "Runway lanza un fondo de 10 millones de dólares y un programa Builders para apoyar a las empresas emergentes de IA en etapa inicial que construyen con sus modelos de video. Esto demuestra el compromiso de Runway de fomentar la innovación dentro de su ecosistema y ampliar la aplicación de la IA en la creación de vídeos.",
+    "charlotte_impact": "El fondo y el programa de Runway proporcionan recursos esenciales para las empresas emergentes de vídeos de IA en sus primeras etapas. Esta inversión enfocada puede acelerar la innovación en herramientas de edición y generación de videos impulsadas por inteligencia artificial. Esta iniciativa puede establecer aún más a Runway como un actor clave en el espacio de video de IA.",
     "impact_score": 7
-  },
-  {
-    "title": "La popular startup de puerta de enlace de IA LiteLLM abandona la controvertida startup Delve",
-    "url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
-    "industry": "AI Security",
-    "summary": "LiteLLM, una popular startup de puerta de enlace de IA, abandona Delve después de obtener certificaciones de cumplimiento de seguridad y ser víctima de malware de robo de credenciales.  Este incidente resalta la importancia crucial de prácticas sólidas de ciberseguridad en el espacio de la IA.",
-    "charlotte_impact": "La situación de LiteLLM subraya la creciente necesidad de soluciones de seguridad especializadas y adaptadas al panorama de la IA. El evento enfatiza los posibles riesgos financieros y de reputación que pueden surgir al seleccionar proveedores de cumplimiento de seguridad y manejar datos confidenciales.",
-    "impact_score": 6
   },
   {
     "title": "Starcloud recauda 170 millones de dólares Serie A para construir centros de datos en el espacio",
     "url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
     "industry": "Data Centers",
-    "summary": "Starcloud recauda una Serie A de 170 millones de dólares para construir centros de datos en el espacio, convirtiéndose en la startup de Y Combinator más rápida en alcanzar el estatus de unicornio.  Este ambicioso proyecto tiene como objetivo proporcionar soluciones de almacenamiento y procesamiento de datos de baja latencia, particularmente para aplicaciones de IA.",
-    "charlotte_impact": "Los centros de datos espaciales de Starcloud podrían revolucionar la infraestructura de IA.  Podría ofrecer importantes ventajas en términos de latencia, ancho de banda y cobertura geográfica, abriendo nuevas posibilidades para aplicaciones de IA en áreas como la teledetección, los vehículos autónomos y la comunicación global.",
+    "summary": "Starcloud recauda 170 millones de dólares en financiación Serie A para construir centros de datos en el espacio, convirtiéndose en la startup de Y Combinator más rápida en alcanzar el estatus de unicornio. Este ambicioso proyecto tiene como objetivo proporcionar capacidades de procesamiento de datos en un entorno único.",
+    "charlotte_impact": "La financiación de Starcloud y su estatus de unicornio resaltan el potencial de la infraestructura espacial para el procesamiento de datos. Esta iniciativa puede atraer inversiones adicionales en el mercado de centros de datos espaciales y acelerar los avances tecnológicos en esta área. Sin embargo, será necesario abordar las preocupaciones regulatorias y ambientales.",
     "impact_score": 8
   },
   {
-    "title": "Por qué OpenAI realmente cerró a Sora",
-    "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
-    "industry": "AI Video",
-    "summary": "OpenAI cerró Sora, su herramienta de generación de vídeos mediante IA, apenas seis meses después de su lanzamiento público, lo que generó sospechas de apropiación de datos.  El rápido cierre genera preocupaciones sobre la privacidad de los datos y el posible uso indebido del contenido subido por los usuarios.",
-    "charlotte_impact": "El cierre de Sora plantea cuestiones éticas sobre la generación de vídeos con IA. La transparencia con los datos de los usuarios y cómo los utiliza la tecnología es crucial para mantener la confianza del consumidor. La falta de transparencia erosiona la confianza en la IA y en la empresa que proporciona la herramienta de IA.",
-    "impact_score": 7
+    "title": "Salesforce anuncia un cambio de imagen intenso en inteligencia artificial para Slack, con 30 funciones nuevas",
+    "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
+    "industry": "Software",
+    "summary": "Salesforce anuncia una renovación intensa de IA para Slack, integrando 30 nuevas funciones impulsadas por IA para mejorar la productividad y la colaboración. Esto subraya la creciente importancia de la IA en las plataformas de comunicación empresarial.",
+    "charlotte_impact": "Las mejoras de Salesforce impulsadas por la IA en Slack indican la creciente tendencia de integrar la IA en el software empresarial. Esta integración puede mejorar la eficiencia del flujo de trabajo, la automatización y el análisis de datos para las empresas que utilizan Slack. Es probable que las empresas en el ámbito de la colaboración sigan su ejemplo, lo que dará como resultado una mayor adopción de la IA en la empresa.",
+    "impact_score": 8
   },
   {
     "title": "Nomadic recauda 8,4 millones de dólares para gestionar los datos que emiten los vehículos autónomos",
     "url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
     "industry": "Autonomous Vehicles",
-    "summary": "Nomadic recauda 8,4 millones de dólares para gestionar los datos procedentes de vehículos autónomos, utilizando el aprendizaje profundo para convertir imágenes en conjuntos de datos estructurados y con capacidad de búsqueda.  Esta inversión refleja la creciente necesidad de soluciones eficientes de gestión de datos en la industria de vehículos autónomos.",
-    "charlotte_impact": "La tecnología de Nomadic puede acelerar el desarrollo y despliegue de vehículos autónomos. La gestión eficaz de las grandes cantidades de datos generados por los vehículos autónomos es esencial para entrenar modelos de IA, mejorar la seguridad y habilitar funciones avanzadas.",
+    "summary": "Nomadic recauda 8,4 millones de dólares para gestionar los datos que salen de los vehículos autónomos, transformando imágenes de robots en conjuntos de datos estructurados y con capacidad de búsqueda mediante aprendizaje profundo. Esto aborda el desafío crucial de gestionar y utilizar las enormes cantidades de datos generados por los vehículos autónomos.",
+    "charlotte_impact": "La financiación de Nomadic aborda una necesidad crítica en la industria de los vehículos autónomos (AV): la gestión eficiente de datos. Su tecnología permitirá un mejor análisis de los datos AV, acelerando el desarrollo y la implementación de sistemas autónomos más seguros y confiables. La inversión en soluciones de procesamiento de datos similares será crucial para el crecimiento del mercado audiovisual.",
     "impact_score": 7
   },
   {
     "title": "Con su nueva tienda de aplicaciones, Ring apuesta por la IA para ir más allá de la seguridad del hogar",
     "url": "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/",
-    "industry": "Home Security",
-    "summary": "Ring apuesta por la IA para expandirse más allá de la seguridad del hogar con su nueva tienda de aplicaciones. La tienda de aplicaciones permite a Ring apuntar a casos de uso más amplios, como aplicaciones comerciales y de cuidado de personas mayores, aprovechando la inteligencia artificial para funciones mejoradas.",
-    "charlotte_impact": "La estrategia de Ring destaca el potencial de la IA para transformar los productos y servicios existentes. Al integrar la IA en su plataforma, Ring puede crear nuevas fuentes de ingresos y fortalecer su ventaja competitiva en el creciente mercado de soluciones para el hogar inteligente. Es probable que esto se expanda a nuevas aplicaciones para dispositivos de seguridad del hogar.",
-    "impact_score": 6
+    "industry": "Smart Home",
+    "summary": "Ring presenta una tienda de aplicaciones, apostando por la IA para expandirse más allá de la seguridad del hogar hacia áreas como el cuidado de personas mayores y las necesidades comerciales. Este movimiento demuestra la visión de Ring de aprovechar la IA para diversas aplicaciones dentro del ecosistema del hogar inteligente.",
+    "charlotte_impact": "La tienda de aplicaciones de Ring señala un cambio estratégico hacia el aprovechamiento de la IA para una gama más amplia de aplicaciones domésticas inteligentes. La expansión al cuidado de personas mayores y soluciones comerciales crea nuevas fuentes de ingresos para Ring y fortalece su posición en el mercado. Otros proveedores de hogares inteligentes pueden adoptar estrategias similares para aprovechar el potencial de la IA.",
+    "impact_score": 7
   },
   {
     "title": "El 15% de los estadounidenses dice que estaría dispuesto a trabajar para un jefe de IA, según una nueva encuesta",
     "url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
     "industry": "Workforce",
-    "summary": "Una nueva encuesta revela que sólo el 15% de los estadounidenses están dispuestos a trabajar para un jefe de IA que asigne tareas y establezca horarios.  Estos datos reflejan importantes reservas sobre la adopción de la IA en funciones de gestión.",
-    "charlotte_impact": "La encuesta destaca los desafíos de integrar la IA en la fuerza laboral. Para introducir con éxito una gestión impulsada por la IA es necesario abordar las preocupaciones sobre el desplazamiento laboral, la falta de interacción humana y el potencial de sesgo en la toma de decisiones algorítmicas.",
-    "impact_score": 5
+    "summary": "Una nueva encuesta muestra que sólo el 15% de los estadounidenses estaría dispuesto a trabajar para un jefe de IA. Esto ilustra las preocupaciones actuales sobre el papel de la IA en el lugar de trabajo y la posible resistencia a la gestión impulsada por la IA.",
+    "charlotte_impact": "La baja tasa de aceptación de los jefes de IA enfatiza la necesidad de una cuidadosa consideración del elemento humano en la implementación de la IA. Las empresas que estén considerando una gestión impulsada por la IA deben abordar las preocupaciones de los empleados sobre la seguridad laboral, la transparencia y la equidad. Una transición exitosa a lugares de trabajo mejorados con IA requiere una comunicación y colaboración efectivas entre los humanos y la IA.",
+    "impact_score": 6
   },
   {
     "title": "A medida que más estadounidenses adoptan herramientas de inteligencia artificial, menos dicen que pueden confiar en los resultados",
     "url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
     "industry": "Public Opinion",
-    "summary": "Según una encuesta, a medida que más estadounidenses adoptan herramientas de inteligencia artificial, menos dicen confiar en los resultados, lo que les preocupa sobre la transparencia, la regulación y el impacto social.  Esta tendencia subraya la necesidad de una mayor explicabilidad y consideraciones éticas de la IA.",
-    "charlotte_impact": "La creciente desconfianza en la IA puede obstaculizar su adopción y limitar sus beneficios potenciales.  Abordar las preocupaciones sobre la transparencia, la regulación y las implicaciones éticas es crucial para generar confianza pública en la IA y fomentar la innovación responsable.",
-    "impact_score": 6
+    "summary": "A medida que más estadounidenses adoptan herramientas de IA, menos dicen que pueden confiar en los resultados, lo que genera preocupaciones sobre la transparencia, la regulación y el impacto social de la IA. Esto pone de relieve la creciente necesidad de un desarrollo y despliegue éticos de la IA.",
+    "charlotte_impact": "La disminución de la confianza en la IA significa una creciente conciencia de los riesgos potenciales asociados con la IA. Esta tendencia enfatiza la necesidad de regulaciones sólidas, transparencia en los algoritmos de IA y educación pública. Las empresas deben priorizar las prácticas éticas de IA para fomentar la confianza y fomentar una adopción más amplia de tecnologías de IA.",
+    "impact_score": 9
   },
   {
     "title": "Mantis Biotech está creando 'gemelos digitales' de humanos para ayudar a resolver el problema de disponibilidad de datos de la medicina",
     "url": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
-    "industry": "Healthcare",
-    "summary": "Mantis Biotech está creando \"gemelos digitales\" de humanos para abordar el problema de disponibilidad de datos de la medicina, utilizando conjuntos de datos sintéticos para representar la anatomía, la fisiología y el comportamiento.  Este enfoque tiene el potencial de acelerar el descubrimiento de fármacos y la medicina personalizada.",
-    "charlotte_impact": "La tecnología de gemelos digitales de Mantis Biotech podría revolucionar la investigación y el desarrollo sanitario. La creación de datos y conjuntos de datos digitales podría acelerar los ensayos clínicos, reducir los costos de desarrollo y permitir el desarrollo de tratamientos más específicos y eficaces.",
+    "industry": "Biotech",
+    "summary": "Mantis Biotech recauda fondos para crear \"gemelos digitales\" de humanos, utilizando conjuntos de datos sintéticos para abordar el problema de disponibilidad de datos en medicina. Estos gemelos digitales se pueden utilizar para simular la anatomía, fisiología y comportamiento humanos con fines de investigación y desarrollo.",
+    "charlotte_impact": "La tecnología de gemelos digitales de Mantis Biotech aborda un importante cuello de botella en la investigación médica. Este enfoque acelera el desarrollo de nuevas terapias y diagnósticos. Los avances en la tecnología de gemelos digitales pueden revolucionar el descubrimiento de fármacos y la medicina personalizada.",
     "impact_score": 8
   },
   {
     "title": "ScaleOps recauda 130 millones de dólares para mejorar la eficiencia informática en medio de la demanda de IA",
     "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
     "industry": "Cloud Computing",
-    "summary": "ScaleOps recauda 130 millones de dólares para mejorar la eficiencia informática en medio de la demanda de IA mediante la automatización de la infraestructura en tiempo real para abordar la escasez de GPU y los crecientes costos de la nube de IA. La financiación se destinará a la automatización de Kubernetes.",
-    "charlotte_impact": "La financiación demuestra el deseo del mercado de crear eficiencias en la infraestructura para la computación en la nube, particularmente con casos de uso de IA. Esta tecnología tiene el potencial de reducir el costo de la informática para organizaciones más pequeñas.",
+    "summary": "ScaleOps recauda 130 millones de dólares para mejorar la eficiencia informática en medio de la demanda de IA mediante la automatización de la infraestructura en tiempo real. Esto aborda las crecientes preocupaciones sobre la escasez de GPU y el aumento de los costos de la nube de IA.",
+    "charlotte_impact": "La tecnología de ScaleOps aborda directamente los desafíos de escalar la infraestructura de IA de manera eficiente. La solución ayuda a reducir la escasez de GPU y los costos de la nube para las organizaciones que implementan IA. Una mayor eficiencia informática es vital para el crecimiento sostenido de la industria de la IA.",
     "impact_score": 8
   },
   {
     "title": "Mistral AI recauda 830 millones de dólares de deuda para montar un centro de datos cerca de París",
     "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
     "industry": "Data Centers",
-    "summary": "Mistral AI recauda 830 millones de dólares en deuda para establecer un centro de datos cerca de París, con el objetivo de comenzar a operar en el segundo trimestre de 2026. Esta importante inversión pone de relieve la creciente demanda de infraestructura de IA en Europa y más allá.",
-    "charlotte_impact": "Los centros de datos de IA de Mistral destacan aún más los gastos de capital que se producen dentro de la industria de la IA. La ubicación permite la infraestructura de IA dentro de Francia, lo que permitirá que surjan nuevos mercados.",
-    "impact_score": 8
+    "summary": "Mistral AI recauda 830 millones de dólares en deuda para establecer un centro de datos cerca de París, con el objetivo de iniciar operaciones en el segundo trimestre de 2026. Esta inversión subraya la necesidad de una infraestructura de IA dedicada y competencia en el mercado de la nube.",
+    "charlotte_impact": "La inversión de Mistral en un centro de datos dedicado demuestra la creciente demanda de infraestructura optimizada para IA. Esta instalación apoyará la investigación y el desarrollo de la IA en Europa, fomentando la innovación y la competencia. La inversión en centros de datos regionales impulsará el crecimiento económico y reducirá la dependencia de proveedores de nube centralizados.",
+    "impact_score": 9
   },
   {
     "title": "Qodo recauda 70 millones de dólares para la verificación de códigos a medida que aumenta la codificación con IA",
     "url": "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
     "industry": "Software Development",
-    "summary": "Qodo recauda 70 millones de dólares para la verificación de códigos a medida que la codificación de IA crece, apostando a que garantizar que el código generado por IA funcione correctamente es el verdadero desafío. Esta inversión reconoce la creciente importancia del aseguramiento de la calidad del código en la era de la IA.",
-    "charlotte_impact": "La ronda de financiación de Qodo ilustra la creciente necesidad de herramientas que puedan validar y verificar el código generado por IA. A medida que la IA se integra más en los flujos de trabajo de desarrollo de software, garantizar la calidad y confiabilidad del código se vuelve aún más crítico para mitigar el riesgo de errores y vulnerabilidades de seguridad.",
+    "summary": "Qodo recauda 70 millones de dólares para la verificación de códigos a medida que la codificación de IA crece, abordando el desafío de garantizar la confiabilidad del código generado por IA. Esto destaca la creciente importancia de la garantía de calidad del código en el desarrollo de software asistido por IA.",
+    "charlotte_impact": "La financiación de Qodo significa la creciente importancia de garantizar la calidad y confiabilidad del código generado por IA. A medida que las herramientas de inteligencia artificial automatizan cada vez más el desarrollo de software, la necesidad de una verificación sólida del código se vuelve crítica. El éxito de empresas como Qodo contribuirá a que las aplicaciones de software sean más seguras y fiables.",
     "impact_score": 8
   },
   {
-    "title": "El cierre de Sora podría ser un momento de control de la realidad para el vídeo de IA",
-    "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
-    "industry": "AI Video",
-    "summary": "El cierre de Sora podría ser una prueba de la realidad para los videos con IA, planteando la pregunta de si estamos a punto de ver un retroceso más amplio en los videos generados con IA debido a preocupaciones sobre la calidad de los datos, consideraciones éticas o limitaciones técnicas.",
-    "charlotte_impact": "El cierre de Sora introduce incertidumbre en la industria de generación de vídeos con IA. La medida podría afectar la inversión en videos de IA y afectar el desarrollo de productos.",
-    "impact_score": 5
+    "title": "Corning y Meta inician la construcción de la planta de cable óptico más grande del mundo, destinada a respaldar los centros de datos de IA, en Hickory",
+    "url": "https://www.wcnc.com/article/money/business/corning-meta-break-ground-on-worlds-largest-optical-cable-plant-aimed-at-supporting-ai-data-centers-in-hickory/275-5132c18f-2c9f-4c47-9059-e21459bf3520",
+    "industry": "Infrastructure",
+    "summary": "Corning y Meta inician la construcción de la planta de cable óptico más grande del mundo en Hickory, destinada a respaldar los centros de datos de IA. Este proyecto refleja la creciente demanda corporativa de una infraestructura de centro de datos sólida.",
+    "charlotte_impact": "Esta inversión en la fabricación de cables ópticos crea empleos e impulsa la economía. La planta proporcionará infraestructura crítica para respaldar el crecimiento de los centros de datos de IA, aumentando la importancia de la región en el ecosistema de IA. Se espera que a continuación se realicen más inversiones en capacidad y conectividad de los centros de datos.",
+    "impact_score": 8
   },
   {
-    "title": "Bluesky se apoya en la IA con Attie, una aplicación para crear feeds personalizados",
-    "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
-    "industry": "Social Media",
-    "summary": "Bluesky se inclina hacia la IA con Attie, una aplicación para crear feeds personalizados en el protocolo de redes sociales atproto. Este movimiento refleja la creciente tendencia de incorporar IA en las plataformas de redes sociales para mejorar la experiencia del usuario y el descubrimiento de contenido.",
-    "charlotte_impact": "Los feeds personalizados impulsados ​​por IA de Bluesky podrían mejorar significativamente la participación del usuario y la personalización del contenido en la plataforma. Puede proporcionar una ventaja competitiva a medida que la red siga creciendo.",
-    "impact_score": 5
+    "title": "Un legislador busca otorgar subvenciones para modelos de inteligencia artificial para la prevención del suicidio de veteranos",
+    "url": "https://www.nextgov.com/artificial-intelligence/2026/03/lawmaker-looks-award-grants-veteran-suicide-prevention-ai-models/412514/",
+    "industry": "Healthcare",
+    "summary": "Un legislador propone subvenciones para modelos de IA de prevención del suicidio de veteranos, que buscan identificar y abordar los factores de riesgo que contribuyen al suicidio. Esto pone de relieve el potencial de la IA para abordar cuestiones sociales críticas.",
+    "charlotte_impact": "Esta iniciativa demuestra el potencial de la IA para mejorar los resultados de salud mental y prevenir el suicidio entre los veteranos. El desarrollo y la implementación de herramientas de evaluación de riesgos impulsadas por IA pueden mejorar significativamente los servicios de apoyo y de intervención temprana. Este esfuerzo podría ampliarse a otras poblaciones en riesgo, fomentando una mejor atención de salud mental.",
+    "impact_score": 8
   },
   {
-    "title": "Un estudio de Stanford describe los peligros de pedir consejo personal a los chatbots de IA",
-    "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
-    "industry": "AI Ethics",
-    "summary": "Un estudio de Stanford describe los peligros de pedir consejo personal a los chatbots de IA, intentando medir cuán dañina podría ser la adulación de la IA. El estudio se suma al debate en curso sobre las consideraciones éticas que rodean la interacción entre la IA y los humanos.",
-    "charlotte_impact": "Los peligros podrían influir en cómo se diseñan los sistemas de IA. Será cada vez más importante garantizar la confianza de los usuarios en los consejos del chatbot.",
+    "title": "Las acciones de NVIDIA aumentan un 3% a medida que la demanda de IA alivia los temores geopolíticos en medio del fuerte impulso de Blackwell",
+    "url": "https://www.ibtimes.com.au/nvidia-stock-surges-3-ai-demand-eases-geopolitical-fears-amid-strong-blackwell-momentum-1865109",
+    "industry": "Finance",
+    "summary": "El precio de las acciones de NVIDIA aumentó un 3% en medio de una fuerte demanda de su plataforma Blackwell. Los inversores apuestan por una demanda explosiva y continua de los procesadores de inteligencia artificial de la empresa.",
+    "charlotte_impact": "El aumento de las acciones de NVIDIA es indicativo de una gran demanda de sus productos relacionados con la IA. Esto afecta al mercado en general a medida que crece la demanda de soluciones de IA, lo que da como resultado valoraciones más altas y una expansión del mercado de IA.",
     "impact_score": 7
   },
   {
-    "title": "Según los informes, el último cofundador de Elon Musk deja xAI",
-    "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
-    "industry": "AI Companies",
-    "summary": "Según se informa, el último cofundador de Elon Musk abandona xAI, dejando sólo dos de los once fundadores originales. Esto plantea dudas sobre la dirección de la empresa, la dinámica interna y la estabilidad a largo plazo.",
-    "charlotte_impact": "Las salidas de los fundadores afectan la cultura de la empresa y la trayectoria general. Tiene el potencial de aumentar la incertidumbre y afectar la ejecución de la empresa.",
-    "impact_score": 4
-  },
-  {
-    "title": "Lo que TurboQuant de Google puede y no puede hacer por el creciente costo de la IA",
-    "url": "https://www.zdnet.com/article/what-googles-turboquant-can-and-cant-do-for-ais-spiraling-cost/",
-    "industry": "AI Infrastructure",
-    "summary": "TurboQuant de Google podría ser importante para ejecutar la IA local, impactando los crecientes costos de la IA. La cuantificación en tiempo real puede ahorrar dinero en inferencias.",
-    "charlotte_impact": "La tecnología TurboQuant de Google podría reducir el consumo de energía y los requisitos informáticos de los modelos de IA, haciéndolos más accesibles para empresas y particulares más pequeños. La tecnología reduce la necesidad de una potente infraestructura en la nube.",
+    "title": "9fin acelera su expansión global con una ronda de financiación de 170 millones de dólares",
+    "url": "https://www.pymnts.com/news/investment-tracker/2026/9fin-accelerates-global-expansion-with-170-million-funding-round/",
+    "industry": "Finance",
+    "summary": "9fin recaudó 170 millones de dólares para escalar su plataforma nativa de inteligencia artificial para los mercados de deuda globales. La ronda valoró a la empresa en 1.300 millones de dólares.",
+    "charlotte_impact": "Esto es indicativo de la expansión general del sector de la IA. Las soluciones impulsadas por IA están recibiendo financiación a medida que aumenta la demanda.",
     "impact_score": 7
   },
   {
-    "title": "La IA impulsa el comercio electrónico B2B hacia menos plataformas a medida que cambian los presupuestos",
-    "url": "https://www.digitalcommerce360.com/2026/03/30/ai-pushes-b2b-ecommerce-toward-fewer-platforms-as-budgets-shift/",
-    "industry": "E-commerce",
-    "summary": "La IA impulsa el comercio electrónico B2B hacia menos plataformas a medida que cambian los presupuestos, lo que impulsa la consolidación entre los proveedores de software y la demanda de plataformas integradas. Las empresas desean evitar gastar dinero en muchas plataformas diferentes.",
-    "charlotte_impact": "La consolidación en las plataformas B2B está siendo impulsada por empresas que buscan crear un ecosistema eficiente. Esto afecta a las empresas que necesitan tecnologías especializadas. La integración de la IA acelera la transición a menos plataformas.",
+    "title": "Las acciones de Microsoft suben más del 2% mientras los inversores miran la recuperación de la IA en medio de la flexibilización geopolítica y el impulso de la nube",
+    "url": "https://www.ibtimes.com.au/microsoft-stock-jumps-over-2-investors-eye-ai-recovery-amid-geopolitical-easing-cloud-momentum-1865108",
+    "industry": "Finance",
+    "summary": "Las acciones de Microsoft Corp. subieron más del 2% mientras los inversores se centraban en la recuperación de la IA. El optimismo generalizado del mercado impulsó a los nombres tecnológicos y los inversores dejaron de lado las preocupaciones sobre las altas valoraciones.",
+    "charlotte_impact": "Al igual que NVidia, el aumento del precio de las acciones muestra un mayor apoyo de los inversores en la IA y los mercados relacionados. Esto debería continuar hasta que haya una gran falla en el campo.",
+    "impact_score": 7
+  },
+  {
+    "title": "La ola de acuerdos con Nvidia continúa; La empresa dirigida por Jensen Huang invertirá 2.000 millones de dólares en Marvell a medida que se intensifica la carrera por la IA",
+    "url": "https://www.livemint.com/companies/news/nvidia-deal-spree-continues-jensen-huang-led-company-to-invest-2-billion-in-marvell-as-ai-race-heats-up-11774963365447.html",
+    "industry": "Semiconductors",
+    "summary": "Nvidia invertirá 2.000 millones de dólares en Marvell Technology para ampliar su asociación con la IA, incluido el trabajo en fotónica de silicio. El acuerdo impulsa las acciones de Marvell y fortalece los esfuerzos para construir una infraestructura de inteligencia artificial escalable en las telecomunicaciones y la energía.",
+    "charlotte_impact": "La enorme inversión está diseñada para permitir la ampliación de productos y soluciones tanto en los sectores de telecomunicaciones como de energía y es una indicación de las crecientes necesidades.",
+    "impact_score": 7
+  },
+  {
+    "title": "La EIA lanza estudios piloto para evaluar la demanda de energía del centro de datos",
+    "url": "https://www.rigzone.com/news/eia_launches_pilot_studies_to_assess_data_center_energy_demand-31-mar-2026-183341-article/",
+    "industry": "Energy",
+    "summary": "La Administración de Información Energética de EE. UU. anunció que está lanzando tres estudios piloto de campo voluntarios para evaluar el consumo de energía en los centros de datos.",
+    "charlotte_impact": "Dado que los centros de datos requieren mucha electricidad, estos estudios piloto probablemente afectarán las futuras regulaciones energéticas. Esto impulsará la adopción de soluciones más eficientes energéticamente en los centros de datos para reducir el uso de energía.",
     "impact_score": 6
   },
   {
-    "title": "QCI implementa Chatalytics™ en Batavia Downs Gaming & Hotel, aportando inteligencia conversacional a los juegos",
-    "url": "https://www.globenewswire.com/news-release/2026/03/30/3264998/0/en/QCI-Deploys-Chatalytics-at-Batavia-Downs-Gaming-Hotel-Bringing-Conversational-Intelligence-to-Gaming.html",
-    "industry": "Gaming",
-    "summary": "QCI implementa Chatalytics™ en Batavia Downs Gaming & Hotel, brindando inteligencia conversacional a los juegos, según un comunicado de prensa. La plataforma de IA lleva la inteligencia conversacional a un hotel de juegos.",
-    "charlotte_impact": "La inteligencia conversacional ofrece una oportunidad para mejorar la experiencia del cliente. Los casinos pueden mejorar la participación y el apoyo a los clientes mediante el uso de chatalytics para proporcionar respuestas automatizadas a las preguntas.",
-    "impact_score": 5
-  },
-  {
-    "title": "¿Es ético su sistema de IA? Pruebe esta evaluación",
-    "url": "https://knowledge.wharton.upenn.edu/article/is-your-ai-system-ethical-try-this-assessment/",
-    "industry": "AI Ethics",
-    "summary": "El Índice Prosocial AI ofrece a los líderes empresariales una forma práctica y auditable de evaluar si sus sistemas de IA son realmente buenos. El índice proporciona a las empresas herramientas para analizar si su IA es ética.",
-    "charlotte_impact": "Los sistemas de IA deben ser éticos para que los usuarios tengan confianza en ellos. Las empresas podrán crear herramientas que sean más confiables.",
+    "title": "Bots en el campo de batalla de las encuestas: desde el seguimiento de opiniones hasta la mensajería dirigida",
+    "url": "https://www.thehindubusinessline.com/news/bots-in-the-poll-battlefield-from-sentiment-tracking-to-targeted-messaging/article70807848.ece",
+    "industry": "Political Campaigns",
+    "summary": "Explore cómo la IA está transformando las campañas políticas a través del análisis de sentimientos, mensajes dirigidos y creación rápida de contenido.",
+    "charlotte_impact": "El uso de IA para campañas políticas tiene varias ventajas, ya que brinda acceso a grupos demográficos específicos. Sin embargo, existe preocupación por la difusión de información errónea entre los votantes. Se requieren regulaciones sobre el uso de IA en campañas políticas.",
     "impact_score": 6
   },
   {
-    "title": "Cómo hacer que la IA funcione para nosotros",
-    "url": "https://www.wbur.org/onpoint/2026/03/30/how-to-make-ai-work-for-us",
-    "industry": "General AI",
-    "summary": "En esta noticia se analiza cómo hacer que la IA funcione para nosotros. Se centra en lo que podemos hacer para asegurarnos de que realmente nos ayude y no nos dañe.",
-    "charlotte_impact": "La discusión gira en torno a cómo hacer que la IA funcione para nosotros y garantizar que sea útil. Se debate sobre la ética de la IA y la creación de herramientas útiles de IA.",
-    "impact_score": 5
+    "title": "Newsom ordena reglas más estrictas para la inteligencia artificial, desafiando a Trump",
+    "url": "https://www.newser.com/story/386405/newsom-orders-tougher-ai-rules-defying-trump.html",
+    "industry": "Regulations",
+    "summary": "El gobernador de California, Gavin Newsom, está rediseñando las reglas sobre cómo el estado hace negocios con empresas de inteligencia artificial y está aprovechando el momento para atacar al presidente Trump.",
+    "charlotte_impact": "Esto demuestra que las regulaciones relativas a las empresas de IA están cambiando y es una indicación de que se sigue reconociendo a la industria en general como algo que se debe monitorear y supervisar.",
+    "impact_score": 6
   },
   {
-    "title": "Se han emitido las primeras “multas” para cámaras con IA: 130 multas por saltarse semáforos en rojo y no usar casco desde el sábado hasta hoy, 40.000 infracciones graves en un mes",
-    "url": "https://en.protothema.gr/2026/03/30/the-first-ai-camera-tickets-have-been-issued-130-fines-for-running-red-lights-not-wearing-helmets-from-saturday-until-today-40000-serious-violations-in-one-month/",
-    "industry": "Law Enforcement",
-    "summary": "Se han emitido las primeras “multas” para cámaras de IA: 130 multas por saltarse semáforos en rojo y no usar casco desde el sábado hasta hoy, 40.000 infracciones graves en un mes, según un artículo de prensa. La IA se está implementando para hacer cumplir la ley.",
-    "charlotte_impact": "Las multas muestran que las fuerzas del orden están comenzando a utilizar tecnología de inteligencia artificial. Estos pueden resultar útiles para detectar infracciones de una forma más segura.",
-    "impact_score": 5
-  },
-  {
-    "title": "Cómo la explosión de capital de la IA señala oportunidades, pero también revela una necesidad crítica de un retorno de la inversión medible y un impacto significativo",
-    "url": "https://thenextweb.com/news/how-ais-capital-explosion-signals-opportunity-but-also-reveals-a-critical-need-for-measurable-roi-and-meaningful-impact/",
-    "industry": "Venture Capital",
-    "summary": "La explosión de capital de la IA señala oportunidades, pero también revela una necesidad crítica de un retorno de la inversión medible y un impacto significativo. El ROI está siendo debatido en la comunidad de Venture Capital.",
-    "charlotte_impact": "El enfoque de los inversores se está desplazando hacia métricas de retorno de la inversión y un impacto significativo. Si lo entienden, las empresas de capital de riesgo y otras querrán invertir en tecnologías impulsadas por la IA.",
+    "title": "El mercado de soluciones de identidad digital aumentará a 132,14 mil millones de dólares para 2031 | CAGR 20,0%",
+    "url": "https://www.globenewswire.com/news-release/2026/03/31/3265727/0/en/Digital-Identity-Solutions-Market-Surges-to-132-14-billion-by-2031-CAGR-20-0.html",
+    "industry": "Security",
+    "summary": "El mercado de soluciones de identidad digital aumentará a 132,14 mil millones de dólares para 2031 | CAGR 20,0%",
+    "charlotte_impact": "La ciberseguridad es un gran riesgo para la industria de la IA. La inversión en ciberseguridad muestra la creciente importancia y demanda de la IA.",
     "impact_score": 5
   }
 ]
