@@ -6,25 +6,27 @@
     <title>QCAI Portal | Advanced Gateway Setup & Examples</title>
     <style>
         :root {
-            --bg: #0d1117;
-            --text: #c9d1d9;
+            --bg: #030712;
+            --text: #f3f4f6;
             --accent: #38bdf8;
-            --code-bg: #161b22;
-            --code-text: #e6edf3;
-            --border: #30363d;
-            --btn-bg: #21262d;
-            --btn-hover: #30363d;
+            --code-bg: #111827;
+            --code-text: #e5e7eb;
+            --border: #374151;
+            --btn-bg: #1f2937;
+            --btn-hover: #374151;
+            --card-glass: rgba(17, 24, 39, 0.6);
         }
         /* Daylight Theme Overrides */
         body.light-theme {
-            --bg: #ffffff;
-            --text: #24292f;
-            --accent: #096ada;
-            --code-bg: #f6f8fa;
-            --code-text: #1f2328;
-            --border: #d0d7de;
-            --btn-bg: #e8ebef;
-            --btn-hover: #d0d7de;
+            --bg: #f9fafb;
+            --text: #111827;
+            --accent: #0284c7;
+            --code-bg: #f3f4f6;
+            --code-text: #1f2937;
+            --border: #d1d5db;
+            --btn-bg: #e5e7eb;
+            --btn-hover: #d1d5db;
+            --card-glass: rgba(255, 255, 255, 0.8);
         }
 
         /* Bilingual support */
@@ -37,65 +39,84 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border);
         }
         .lang-switch a, .theme-toggle a {
             color: var(--accent);
             text-decoration: none;
             font-size: 14px;
-            font-weight: bold;
+            font-weight: 600;
             cursor: pointer;
             margin-left: 15px;
+            transition: 0.2s;
         }
         .lang-switch a:hover, .theme-toggle a:hover {
+            opacity: 0.8;
             text-decoration: underline;
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             background: var(--bg);
             color: var(--text);
             line-height: 1.6;
-            max-width: 850px;
-            margin: 40px auto;
-            padding: 0 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
         }
-        h1, h2, h3 { color: var(--accent); }
+        h1, h2, h3 { color: var(--accent); letter-spacing: -0.5px; }
+        h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; }
+        h2 { font-size: 1.75rem; margin-top: 3rem; border-bottom: 1px solid var(--border); padding-bottom: 10px; }
+        
         .code-container {
             position: relative;
             margin: 20px 0;
             background: var(--code-bg);
-            border-radius: 8px;
+            border-radius: 12px;
             border: 1px solid var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
-        pre { color: var(--code-text); margin: 0; padding: 16px; overflow-x: auto; font-family: monospace; font-size: 14px; }
+        pre { color: var(--code-text); margin: 0; padding: 20px; overflow-x: auto; font-family: 'Fira Code', monospace; font-size: 14px; }
+        
         .note {
-            background: rgba(56, 189, 248, 0.1);
+            background: var(--card-glass);
+            backdrop-filter: blur(8px);
             border-left: 4px solid var(--accent);
-            padding: 10px 20px;
-            margin: 20px 0;
-            border-radius: 0 4px 4px 0;
+            padding: 15px 25px;
+            margin: 25px 0;
+            border-radius: 4px 12px 12px 4px;
         }
+        
         .example-card {
             border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 20px;
-            background: rgba(255,255,255,0.02);
+            border-radius: 16px;
+            padding: 25px;
+            margin: 30px 0;
+            background: var(--card-glass);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .example-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent);
         }
 
         .copy-btn {
             position: absolute;
-            top: 10px;
-            right: 10px;
+            top: 12px;
+            right: 12px;
             background: var(--btn-bg);
             border: 1px solid var(--border);
             color: var(--text);
-            padding: 4px 8px;
-            border-radius: 6px;
+            padding: 6px 12px;
+            border-radius: 8px;
             cursor: pointer;
             font-size: 12px;
+            font-weight: 600;
+            transition: 0.2s;
         }
+
         .copy-btn:hover { background: var(--btn-hover); }
         .copy-btn.copied { color: #3fb950; border-color: #3fb950; }
     </style>
@@ -116,9 +137,10 @@
         <span class="zh">🌐 QCAI 门户设置与示例</span>
     </h1>
     <p>
-        <span class="en">The QCAI Portal allows you to transform your OpenClaw Gateway into a visual command center. It serves dashboards, documents, and GUI interfaces directly to your <a href="https://qcai-net.github.io/" style="color: var(--accent);">QCAI App</a>. Looking for the flagship example? Check out the <strong><a href="https://qcai-net.github.io/wechat.html" style="color: var(--accent);">WeChat Setup Guide</a></strong> to build your first professional automation bridge.</span>
-        <span class="zh">QCAI 门户允许您将 OpenClaw 网关转换为可视化指挥中心。它直接向您的 <a href="https://qcai-net.github.io/" style="color: var(--accent);">QCAI 应用程序</a>提供仪表板、文档和 GUI 界面。正在寻找旗舰示例？请查看<strong><a href="https://qcai-net.github.io/wechat.html" style="color: var(--accent);">微信设置指南</a></strong>以构建您的第一个专业自动化桥梁。</span>
+        <span class="en">The QCAI Portal allows you to transform your OpenClaw Gateway into a visual command center. It serves dashboards, documents, and GUI interfaces directly to your <a href="https://qcai-net.github.io/" style="color: var(--accent);">QCAI App</a>. Looking for the flagship example? Check our <strong><a href="#use-case-examples" style="color: var(--accent);">Use Case Examples</a></strong> below.</span>
+        <span class="zh">QCAI 门户允许您将 OpenClaw 网关转换为可视化指挥中心。它直接向您的 <a href="https://qcai-net.github.io/" style="color: var(--accent);">QCAI 应用程序</a>提供仪表板、文档和 GUI 界面。正在寻找旗舰示例？请查看下方的 <strong><a href="#use-case-examples" style="color: var(--accent);">使用案例示例</a></strong>。</span>
     </p>
+
 
     <h2>
         <span class="en">Step 1: Create the Portal Directory</span>
@@ -130,50 +152,136 @@
     </div>
 
     <h2>
-        <span class="en">Step 2: Start the Portal Server</span>
-        <span class="zh">步骤 2：启动门户服务器</span>
+        <span class="en">Step 2: The Portal Server (dashboard.py)</span>
+        <span class="zh">步骤 2：门户服务器 (dashboard.py)</span>
     </h2>
     <p>
-        <span class="en">Depending on your needs, you can choose between two serving modes:</span>
-        <span class="zh">根据您的需求，您可以选择两种服务模式：</span>
+        <span class="en">Create <code>dashboard.py</code> in your <code>portal/</code> directory. Running this dynamic server allows your mobile app to send commands back to the computer (e.g., triggering WeChat messages or clearing logs).</span>
+        <span class="zh">在 <code>portal/</code> 目录中创建 <code>dashboard.py</code>。运行动态服务器允许您的移动应用程序将命令发送回计算机（例如，触发微信消息或清除日志）。</span>
     </p>
-
-    <div class="example-card" style="border-left: 4px solid #007AFF;">
-        <h4>📦 <span class="en">Option A: Static Serving (View Only)</span><span class="zh">选项 A：静态服务 (仅查看)</span></h4>
-        <p>
-            <span class="en">If you only want to access information generated by the OpenClaw Gateway (e.g., video, audio, or reports), a simple Python web server is enough.</span>
-            <span class="zh">如果您只想访问 OpenClaw 网关生成的信息（例如视频、音频或报告），一个简单的 Python Web 服务器就足够了。</span>
-        </p>
-        <div class="code-container">
+    <div class="code-container">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-<pre><code>cd ~/.openclaw/workspace/portal && python -m http.server 18790</code></pre>
-        </div>
+<pre><code>import http.server
+import socketserver
+import json
+import subprocess
+import os
+
+PORT = 18790
+
+class PortalHandler(http.server.SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        super().end_headers()
+
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.end_headers()
+
+    def do_POST(self):
+        if self.path == '/api/exec':
+            content_length = int(self.headers['Content-Length'])
+            post_data = self.rfile.read(content_length)
+            data = json.loads(post_data.decode('utf-8'))
+            cmd = data.get('cmd')
+            try:
+                # Skill directory for WeChat bridge
+                skills_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "skills", "wechat"))
+                import re
+                unbuffered_cmd = re.sub(r'(python(?:3|[\.\d]*|\.exe)?)\s', r'\1 -u ', cmd, count=1, flags=re.IGNORECASE)
+                result = subprocess.run(unbuffered_cmd, shell=True, capture_output=True, text=True, cwd=skills_dir, timeout=35)
+                try:
+                    response_data = json.loads(result.stdout)
+                except ValueError:
+                    response_data = {"status": "error", "output": result.stdout, "debug": result.stderr}
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps(response_data).encode('utf-8'))
+            except Exception as e:
+                self.send_response(500)
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
+
+if __name__ == "__main__":
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    socketserver.TCPServer.allow_reuse_address = True
+    with socketserver.TCPServer(("", PORT), PortalHandler) as httpd:
+        print(f"==========================================")
+        print(f"🚀 QCAI Multi-App Portal Active")
+        print(f"📡 Portal:  http://127.0.0.1:{PORT}")
+        print(f"------------------------------------------")
+        print(f" Apps mapped on Launcher:")
+        print(f" - /index.html  -> Operation Hub")
+        print(f" - /wechat.html -> WeChat GUI")
+        print(f"==========================================")
+        httpd.serve_forever()
+</code></pre>
     </div>
 
-    <div class="example-card" style="border-left: 4px solid #07C160;">
-        <h4>⚡ <span class="en">Option B: Dynamic Serving (Remote Control)</span><span class="zh">选项 B：动态服务 (远程控制)</span></h4>
-        <p>
-            <span class="en">If you want to **send commands** to your computer to perform Windows automation (like controlling WeChat remotely), you MUST use the <code>dashboard.py</code> bridge.</span>
-            <span class="zh">如果您想向计算机**发送命令**以执行 Windows 自动化（如远程控制微信），您必须使用 <code>dashboard.py</code> 桥接程序。</span>
-        </p>
-        <div class="note">
-            <span class="en">You can find the full source code for <code>dashboard.py</code> in the <a href="https://qcai-net.github.io/wechat.html" style="color: var(--accent);">WeChat Setup Guide</a>.</span>
-            <span class="zh">您可以在 <a href="https://qcai-net.github.io/wechat.html" style="color: var(--accent);">微信设置指南</a> 中找到 <code>dashboard.py</code> 的完整源代码。</span>
-        </div>
-        <div class="code-container">
+    <h2>
+        <span class="en">Step 3: The Hub Launcher (index.html)</span>
+        <span class="zh">步骤 3：门户启动器 (index.html)</span>
+    </h2>
+    <p>
+        <span class="en">Place this file in the <code>portal/</code> directory to create a visual landing page for your mobile app.</span>
+        <span class="zh">将此文件放在 <code>portal/</code> 目录中，为您的移动应用创建一个可视化的落地页。</span>
+    </p>
+    <div class="code-container">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-<pre><code>cd ~/.openclaw/workspace/portal && python dashboard.py</code></pre>
-        </div>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    &lt;title&gt;QCAI Hub&lt;/title&gt;
+    &lt;style&gt;
+        :root { --primary: #38bdf8; --bg: #030712; --card-bg: rgba(17, 24, 39, 0.7); --text: #f3f4f6; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); display: flex; flex-direction: column; align-items: center; min-height: 100vh; margin: 0; }
+        header { padding: 40px; text-align: center; }
+        .launcher-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; width: 100%; max-width: 900px; padding: 20px; }
+        .app-card { background: var(--card-bg); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.1); border-radius: 24px; padding: 30px; text-decoration: none; color: inherit; text-align: center; transition: 0.3s; }
+        .app-card:hover { transform: translateY(-5px); border-color: var(--primary); }
+        .icon { font-size: 3rem; margin-bottom: 15px; }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;&lt;h1&gt;QCAI Operation Hub&lt;/h1&gt;&lt;/header&gt;
+    &lt;div class="launcher-grid"&gt;
+        &lt;a href="wechat.html" class="app-card"&gt;&lt;div class="icon"&gt;💬&lt;/div&gt;&lt;h3&gt;WeChat&lt;/h3&gt;&lt;p&gt;Remote Messaging&lt;/p&gt;&lt;/a&gt;
+        &lt;a href="#" id="link-claude" class="app-card"&gt;&lt;div class="icon"&gt;🐚&lt;/div&gt;&lt;h3&gt;Claude&lt;/h3&gt;&lt;p&gt;Agentic Coding&lt;/p&gt;&lt;/a&gt;
+        &lt;a href="#" id="link-antigravity" class="app-card"&gt;&lt;div class="icon"&gt;🛸&lt;/div&gt;&lt;h3&gt;Antigravity&lt;/h3&gt;&lt;p&gt;Mobile IDE&lt;/p&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+        const host = window.location.hostname;
+        document.getElementById('link-claude').href = `http://${host}:18791`;
+        document.getElementById('link-antigravity').href = `http://${host}:3000`;
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
     </div>
+
+    <h2>
+        <span class="en">Step 4: Startup & Network Binding</span>
+        <span class="zh">步骤 4：启动与网络绑定</span>
+    </h2>
+    <div class="code-container">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code># Start the Portal Hub
+Start-Process python -ArgumentList "dashboard.py" -NoNewWindow -WorkingDirectory "~/.openclaw/workspace/portal/"</code></pre>
+    </div>
+
 
     <hr>
 
-    <h2>
+    <h2 id="use-case-examples">
         <span class="en">🌟 Use Case Examples</span>
         <span class="zh">🌟 使用案例示例</span>
     </h2>
 
-    <div class="example-card">
+    <div class="example-card" style="border-left: 4px solid #07C160;">
         <h3>
             <span class="en">1. Remote WeChat GUI Control</span>
             <span class="zh">1. 远程微信 GUI 控制</span>
@@ -193,7 +301,7 @@
         </div>
     </div>
 
-    <div class="example-card">
+    <div class="example-card" style="border-left: 4px solid #38bdf8;">
         <h3>
             <span class="en">2. Workflow Output Visualization</span>
             <span class="zh">2. 工作流输出可视化</span>
@@ -203,27 +311,140 @@
             <span class="zh">如果您的 OpenClaw 代理执行复杂任务（如生成市场报告或税务摘要），它可以将结果保存为 <code>portal/</code> 目录中的 HTML 文件。</span>
         </p>
         <div class="note">
-            <span class="en">Example: Tap the portal icon to instantly view the tax report your AI agent generated 5 minutes ago while you were away.</span>
-            <span class="zh">示例：点击门户图标，立即查看 AI 代理在您离开时 5 分钟前生成的税务报告。</span>
+            <strong>🚀 <span class="en">How to implement:</span><span class="zh">如何实现：</span></strong>
+            <ol>
+                <li><span class="en">Ensure you have started the server using <strong>Option A (Static)</strong> or <strong>Option B (Dynamic)</strong> in Step 2.</span><span class="zh">确保您已在步骤 2 中使用<strong>选项 A (静态)</strong> 或<strong>选项 B (动态)</strong> 启动了服务器。</span></li>
+                <li><span class="en">Configure your OpenClaw agent to save outputs (HTML, images, or PDFs) to the following path:</span><span class="zh">配置您的 OpenClaw 代理将输出（HTML、图像或 PDF）保存到以下路径：</span></li>
+            </ol>
+            <div class="code-container">
+                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>~/.openclaw/workspace/portal/</code></pre>
+            </div>
+            <li><span class="en">Example: Tap the portal icon to instantly view the report your AI agent generated 5 minutes ago while you were away.</span><span class="zh">示例：点击门户图标，立即查看 AI 代理在您离开时 5 分钟前生成的报告。</span></li>
         </div>
+    </div>
+
+
+
+    <div class="example-card" style="border-left: 4px solid #f59e0b;">
+        <h3>
+            <span class="en">3. Claude Code Remote Access (Terminal)</span>
+            <span class="zh">3. Claude Code 远程访问 (终端)</span>
+        </h3>
+        <p>
+            <span class="en">Claude Code is a powerful agentic terminal tool. By hosting a web-accessible terminal on your <strong>OpenClaw Gateway computer</strong>, you can use Claude's coding abilities directly from your mobile device.</span>
+            <span class="zh">Claude Code 是一个强大的代理终端工具。通过在您的 <strong>OpenClaw 网关计算机</strong>上托管一个可从 Web 访问的终端，您可以直接从移动设备使用 Claude 的编码能力。</span>
+        </p>
+        <div class="note">
+            <strong>🛠️ <span class="en">Setup on Gateway PC:</span><span class="zh">在网关 PC 上设置：</span></strong>
+            <ol>
+                <li>
+                    <strong><span class="en">Install ttyd:</span><span class="zh">安装 ttyd：</span></strong><br>
+                    <span class="en">Choose the command for your OS:</span><span class="zh">选择适合您系统的命令：</span>
+                    <ul>
+                        <li><strong>Windows:</strong> <code>scoop install ttyd</code> <span class="en">(or download the .exe from <a href="https://github.com/tsl0922/ttyd/releases" style="color:var(--accent)">GitHub</a>)</span><span class="zh">(或从 <a href="https://github.com/tsl0922/ttyd/releases" style="color:var(--accent)">GitHub</a> 下载 .exe)</span></li>
+                        <li><strong>macOS:</strong> <code>brew install ttyd</code></li>
+                        <li><strong>Linux:</strong> <code>sudo apt install ttyd</code> <span class="en">(Ubuntu/Debian)</span><span class="zh">(Ubuntu/Debian)</span></li>
+                    </ul>
+                </li>
+                <li>
+                    <strong><span class="en">Run the Command:</span><span class="zh">运行命令：</span></strong><br>
+                    <span class="en">Open your terminal (PowerShell, Terminal, or Bash) on the <strong>Gateway Computer</strong> and run:</span><span class="zh">在<strong>网关计算机</strong>上打开终端（PowerShell、Terminal 或 Bash）并运行：</span>
+                </li>
+            </ol>
+            <div class="code-container">
+                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<pre><code>ttyd -p 18790 -W claude</code></pre>
+            </div>
+            <div class="note" style="background: rgba(255, 165, 0, 0.1); border-left-color: #ffa500; font-size: 0.9rem;">
+                <strong>⚠️ <span class="en">Port Note:</span><span class="zh">端口提示：</span></strong><br>
+                <span class="en">We are using <strong>Port 18790</strong> here for direct compatibility with the QCAI App's default Portal button. If you are also running the <code>dashboard.py</code> launcher, make sure to stop it first or run ttyd on a different port like 18791.</span>
+                <span class="zh">我们在此处使用 <strong>端口 18790</strong> 以直接兼容 QCAI 应用程序的默认门户按钮。如果您还在运行 <code>dashboard.py</code> 启动器，请务必先停止它，或者在 18791 等不同端口上运行 ttyd。</span>
+            </div>
+        </div>
+
+        <div class="note">
+            <strong>📱 <span class="en">Access via QCAI App:</span><span class="zh">通过 QCAI 应用访问：</span></strong>
+            <ol>
+                <li><span class="en">Open the <strong>QCAI App</strong> on your iPhone/Android.</span><span class="zh">在您的 iPhone/Android 上打开 <strong>QCAI 应用程序</strong>。</span></li>
+                <li><span class="en">Tap the 🏠 **Portal** icon on the bottom navigation bar.</span><span class="zh">点击底部导航栏上的 🏠 **门户** 图标。</span></li>
+                <li><span class="en">From the <strong>Operation Hub</strong>, tap the 🐚 **Claude Code** card.</span><span class="zh">在<strong>操作中心</strong>中，点击 🐚 **Claude Code** 卡片。</span></li>
+            </ol>
+            <div class="note" style="border-left-color: #38bdf8; background: rgba(56, 189, 248, 0.05); font-size: 0.9rem;">
+                <strong>💡 <span class="en">Port Customization:</span><span class="zh">端口自定义：</span></strong><br>
+                <span class="en">If you start <code>ttyd</code> on a different port (e.g., 18791), ensure you update the <strong>Port Configuration</strong> in your QCAI app settings to match.</span>
+                <span class="zh">如果您在不同的端口（例如 18791）上启动 <code>ttyd</code>，请务必更新 QCAI 应用程序设置中的<strong>端口配置</strong>以进行匹配。</span>
+            </div>
+            <span class="en">You now have a full-screen, touch-optimized terminal to run <code>/edit</code>, <code>/test</code>, and <code>/compact</code> commands remotely!</span>
+            <span class="zh">您现在拥有一个全屏、触摸优化的终端，可以远程运行 <code>/edit</code>、<code>/test</code> 和 <code>/compact</code> 命令！</span>
+        </div>
+
+    </div>
+
+
+    <div class="example-card" style="border-left: 4px solid #8b5cf6;">
+        <h3>
+            <span class="en">4. Antigravity IDE: The "Porta" or "Levitation" Bridge</span>
+            <span class="zh">4. Antigravity IDE：“Porta” 或 “Levitation” 桥接</span>
+        </h3>
+        <p>
+            <span class="en">Antigravity is a powerful agentic IDE. Because it is a heavy GUI application, streaming it directly to mobile can be difficult. Community members use lightweight mobile bridges specifically for this purpose.</span>
+            <span class="zh">Antigravity 是一个强大的代理 IDE。因为它是一个大型 GUI 应用程序，直接流式传输到移动设备可能会很困难。社区成员专门为此目的使用轻量级移动桥接器。</span>
+        </p>
+
+        <div class="note">
+            <strong>🚀 <span class="en">Option A: Levitation / Porta (Mobile-First)</span><span class="zh">选项 A：Levitation / Porta (移动优先)</span></strong><br>
+            <span class="en">These are open-source mobile interfaces designed to talk to Antigravity's Language Server. Instead of streaming a heavy desktop, they only transfer chat data and code diffs.</span>
+            <span class="zh">这些是开源的移动界面，旨在与 Antigravity 的语言服务器通信。它们不再流传繁重的桌面，而仅传输聊天数据和代码差异。</span>
+            
+            <div class="note" style="background: rgba(139, 92, 246, 0.05); font-size: 0.9rem;">
+                <strong>🛠️ <span class="en">Setup:</span><span class="zh">设置：</span></strong><br>
+                <span class="en">Run the bridge client on the same machine as Antigravity. It usually exposes a web dashboard on a local port (e.g., 3000).</span>
+                <span class="zh">在运行 Antigravity 的同一台机器上运行桥接客户端。它通常在本地端口（例如 3000）上公开 Web 仪表板。</span>
+            </div>
+            
+            <strong>📱 <span class="en">Access:</span><span class="zh">访问：</span></strong><br>
+            <span class="en">Point your QCAI app's Portal or Port Configuration to <code>http://&lt;your-tailscale-ip&gt;:3000</code>.</span>
+            <span class="zh">将 QCAI 应用程序的门户或端口配置指向 <code>http://&lt;您的 tailscale-ip&gt;:3000</code>。</span>
+        </div>
+
+        <div class="note">
+            <strong>🌐 <span class="en">Option B: Code-Server (VS Code in Browser)</span><span class="zh">选项 B：Code-Server (浏览器中的 VS Code)</span></strong><br>
+            <span class="en">If you are using Antigravity via VS Code extensions, you can run <code>code-server</code>. This renders the entire IDE in a web-compatible format that works perfectly in the QCAI App's web view.</span>
+            <span class="zh">如果您通过 VS Code 扩展使用 Antigravity，则可以运行 <code>code-server</code>。这会以 Web 兼容格式渲染整个 IDE，在 QCAI 应用程序的网页视图中完美运行。</span>
+        </div>
+    </div>
+
+
+    <div class="example-card" style="border-left: 4px solid #4b5563; border-style: dashed;">
+        <h3>
+            <span class="en">5. Future Showcase</span>
+            <span class="zh">5. 未来展示厅</span>
+        </h3>
+        <p>
+            <span class="en">We are building unified dashboards for multi-agent coordination, live sensor data visualization, and advanced RAG-based search engines. Stay tuned!</span>
+            <span class="zh">我们正在构建用于多代理协调、实时传感器数据可视化和基于 RAG 的高级搜索引擎的统一仪表板。敬请期待！</span>
+        </p>
     </div>
 
     <hr>
 
-    <hr>
     
     <div class="note" style="border-left-color: #ff3b30; background: rgba(255, 59, 48, 0.1);">
         <strong>📡 <span class="en">Troubleshooting: External Access (Tailscale/iOS)</span><span class="zh">疑难解答：外部访问 (Tailscale/iOS)</span></strong><br>
-        <span class="en">By default, Windows Firewall blocks incoming connections to new ports even if you are on Tailscale. If your iOS device cannot connect via your Tailscale IP, you must <strong>Allow Port 18789 (Gateway) and 18790 (Portal)</strong>.</span>
-        <span class="zh">默认情况下，即使您使用 Tailscale，Windows 防火墙也会阻止对新端口的传入连接。如果您的 iOS 设备无法通过 Tailscale IP 连接，您必须在 Windows 防火墙中<strong>允许端口 18789 (网关) 和 18790 (门户)</strong>。</span>
-        <br><br>
-        <span class="en">Run these commands in <strong>PowerShell (Admin)</strong>:</span>
-        <span class="zh">在 <strong>PowerShell (管理员)</strong> 中运行这些命令：</span>
+        <span class="en">Run these commands in <strong>PowerShell (Admin)</strong> to open all necessary ports:</span>
+        <span class="zh">在 <strong>PowerShell (管理员)</strong> 中运行这些命令以打开所有必要的端口：</span>
         <div class="code-container">
             <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-<pre><code>Start-Process powershell -Verb runAs -ArgumentList "netsh advfirewall firewall add rule name='QCAI Gateway' dir=in action=allow protocol=TCP localport=18789"
-Start-Process powershell -Verb runAs -ArgumentList "netsh advfirewall firewall add rule name='QCAI Portal' dir=in action=allow protocol=TCP localport=18790"</code></pre>
+<pre><code># Gateway & Portal Ports
+netsh advfirewall firewall add rule name="QCAI Gateway" dir=in action=allow protocol=TCP localport=18789
+netsh advfirewall firewall add rule name="QCAI Portal" dir=in action=allow protocol=TCP localport=18790
+
+# Claude & Antigravity Ports
+netsh advfirewall firewall add rule name="QCAI Claude" dir=in action=allow protocol=TCP localport=8080
+netsh advfirewall firewall add rule name="QCAI Antigravity" dir=in action=allow protocol=TCP localport=3000</code></pre>
         </div>
+
     </div>
 
     <div class="note" style="border-left-color: #07C160; background: rgba(7, 193, 96, 0.1);">
