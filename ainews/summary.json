@@ -2,201 +2,161 @@
   {
     "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
     "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-    "industry": "Artificial Intelligence",
-    "summary": "OpenAI has raised $3 billion from retail investors as part of a $122 billion funding round led by Amazon, Nvidia, and SoftBank, valuing the company at $852 billion as it prepares for a potential IPO.",
-    "charlotte_impact": "This significant investment underscores the ongoing investor confidence in OpenAI's ability to monetize AI, particularly in enterprise solutions. This has a major impact on job creation, as Open AI needs to rapidly hire a highly skilled workforce to deliver on customer commitments. The massive funding can allow for significant expansion into new AI verticals and M&A opportunities within the AI tooling landscape.",
+    "industry": "AI",
+    "summary": "OpenAI is raising $3 billion from retail investors, part of a massive $122 billion fund raise led by Amazon, Nvidia, and SoftBank, valuing the AI lab at $852 billion as it nears an IPO.",
+    "charlotte_impact": "This massive funding round for OpenAI signals continued investor confidence in the potential of generative AI and its applications.  The large scale of investment will likely accelerate AI development, leading to increased competition and innovation, influencing companies globally that are building AI applications.",
     "impact_score": 10
   },
   {
     "title": "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round",
     "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
     "industry": "Semiconductors",
-    "summary": "AI chip startup Rebellions has raised $400 million at a $2.3B valuation in a pre-IPO round. The company designs chips specifically for AI inference, positioning it as a challenger to Nvidia's dominance in the AI chip market.",
-    "charlotte_impact": "Rebellions' success in securing funding and its focus on AI inference chips signals a diversification in the semiconductor market. This could result in lowered costs and increased availability of AI-optimized hardware. It will drive new business models for cloud providers who can leverage lower cost inference silicon to offer cheaper AI services.",
+    "summary": "AI chip startup Rebellions raised $400 million at a $2.3B valuation in a pre-IPO round, planning to go public later this year, designing chips for AI inference, and challenging Nvidia's dominance.",
+    "charlotte_impact": "The success of Rebellions highlights the growing demand for specialized AI chips beyond general-purpose GPUs. This will push existing chip manufacturers to innovate and could open opportunities for other startups focusing on niche AI hardware, affecting the global chip supply chain and pricing.",
     "impact_score": 9
   },
   {
     "title": "Yupp shuts down after raising $33M from a16z crypto\u2019s Chris Dixon",
     "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-    "industry": "Artificial Intelligence",
-    "summary": "Crowdsourced AI model feedback startup Yupp is shutting down less than a year after launching, despite raising $33M from prominent investors, including a16z's Chris Dixon.",
-    "charlotte_impact": "The closure of Yupp demonstrates the inherent risks in the AI startup ecosystem, even with substantial funding. The failure might indicate challenges in the business model of crowdsourced AI feedback, or a need for stronger execution, leading investors to re-evaluate similar startups.",
+    "industry": "AI",
+    "summary": "Crowdsourced AI model feedback startup Yupp is shutting down less than a year after launching, despite raising $33M from notable Silicon Valley investors.",
+    "charlotte_impact": "The closure of Yupp highlights the challenges of building a sustainable business model in the competitive AI space.  It underscores the importance of product-market fit and execution, showing that even well-funded AI startups can fail if they don't meet market needs. This will likely lead investors to conduct more rigorous due diligence on early-stage AI companies.",
     "impact_score": 6
   },
   {
     "title": "Exclusive: Runway launches $10M fund, Builders program to support early-stage AI startups",
     "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
-    "industry": "Artificial Intelligence",
-    "summary": "Runway is launching a $10 million fund and startup program to support early-stage AI startups building with its AI video models, as it aims for interactive, real-time video intelligence applications.",
-    "charlotte_impact": "Runway's initiative could foster innovation in AI video applications, encouraging more developers to leverage its platform. This will increase demand for specialized expertise in video editing, animation, and AI integration, and it may lead to the emergence of new AI-powered video content creation tools and businesses.",
-    "impact_score": 7
-  },
-  {
-    "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
-    "url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
-    "industry": "Cybersecurity",
-    "summary": "AI gateway startup LiteLLM has ditched controversial security compliance startup Delve after suffering a credential-stealing malware incident.",
-    "charlotte_impact": "This incident highlights the importance of thorough due diligence when selecting security vendors in the AI space. A breach like this can result in significant reputational damage, loss of customer trust, and potential regulatory penalties.",
-    "impact_score": 7
-  },
-  {
-    "title": "Microsoft and NVIDIA Are Using AI to Fast-Track Nuclear Power Development",
-    "url": "https://oilprice.com/Energy/Energy-General/Microsoft-and-NVIDIA-Are-Using-AI-to-Fast-Track-Nuclear-Power-Development.html",
-    "industry": "Energy",
-    "summary": "Microsoft and NVIDIA are collaborating on an AI project to fast-track nuclear power development, addressing the growing energy demands of AI.",
-    "charlotte_impact": "The collaboration between Microsoft and NVIDIA signifies the growing recognition of AI's energy consumption. This move signals a potential shift towards more sustainable energy solutions like nuclear power to fuel AI development and deployment.",
+    "industry": "AI",
+    "summary": "Runway is launching a $10 million fund and startup program to back companies building with its AI video models, pushing toward interactive, real-time \u201cvideo intelligence\u201d applications.",
+    "charlotte_impact": "Runway's fund aims to cultivate an ecosystem around its AI video models.  This initiative can foster innovation in areas like video editing, content creation, and interactive media. It may give Runway a competitive advantage by encouraging developers to build applications on its platform and create a lock-in effect.",
     "impact_score": 8
-  },
-  {
-    "title": "OpenAI Valued At $852 Billion After Latest Funding Round",
-    "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/03/31/openai-valuation-reaches-852-billion-after-massive-funding-round/",
-    "industry": "Artificial Intelligence",
-    "summary": "OpenAI's valuation has reached $852 billion after its latest funding round, positioning the AI company for a potential IPO.",
-    "charlotte_impact": "This high valuation and anticipation of an IPO further solidify OpenAI's position as a leader in the AI industry. A successful IPO could attract even more investment into the AI sector.",
-    "impact_score": 9
   },
   {
     "title": "Cognichip wants AI to design the chips that power AI, and just raised $60M to try",
     "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
     "industry": "Semiconductors",
-    "summary": "Cognichip raised $60M to use AI to design chips, with the goal of reducing chip development costs by over 75% and timelines by more than half.",
-    "charlotte_impact": "Cognichip's approach to AI-driven chip design has the potential to drastically accelerate semiconductor innovation. This technology can significantly lower the barrier to entry for new chip manufacturers, promoting competition and potentially mitigating supply chain issues.",
-    "impact_score": 8
+    "summary": "Cognichip raised $60M to use AI to design chips that power AI, claiming it can reduce chip development costs by over 75% and cut timelines by more than half.",
+    "charlotte_impact": "Cognichip's approach has the potential to dramatically reduce the cost and time associated with chip development, which is traditionally a complex and expensive process. This could enable smaller companies to enter the chip market, accelerating innovation and reducing reliance on a few major players. It could also significantly speed up the development of AI-specific hardware.",
+    "impact_score": 9
   },
   {
     "title": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
     "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
-    "industry": "Software",
-    "summary": "Salesforce has announced an AI-heavy makeover for Slack, introducing 30 new AI-powered features to enhance productivity and collaboration.",
-    "charlotte_impact": "Salesforce's AI integration into Slack demonstrates the pervasive adoption of AI in enterprise software. These new features can improve the efficiency of internal communication and project management, driving productivity gains and potentially reducing operational costs for businesses.",
-    "impact_score": 7
+    "industry": "Enterprise Software",
+    "summary": "Salesforce announced an AI-heavy makeover for Slack, with 30 new features, aiming to make the platform more useful and integrated with AI capabilities.",
+    "charlotte_impact": "The integration of AI into Slack by Salesforce is part of a broader trend of embedding AI into existing enterprise software platforms. This will enhance productivity and workflows for users, driving adoption of AI-powered tools within businesses and creating new opportunities for developers to build AI-driven applications on the Slack platform.",
+    "impact_score": 8
   },
   {
     "title": "Nomadic raises $8.4 million to wrangle the data pouring off autonomous vehicles",
     "url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
     "industry": "Autonomous Vehicles",
-    "summary": "Nomadic raises $8.4 million to wrangle the data pouring off autonomous vehicles, using deep learning models to turn footage into structured, searchable datasets.",
-    "charlotte_impact": "The investment in Nomadic highlights the critical need for efficient data management and analysis in the autonomous vehicle space. Structured data derived from AV footage helps improve the accuracy and reliability of autonomous driving systems, and accelerates their development.",
+    "summary": "Nomadic raised $8.4 million to wrangle the data pouring off autonomous vehicles, turning footage from robots into structured, searchable datasets with a deep learning model.",
+    "charlotte_impact": "Nomadic's data processing capabilities are crucial for the development and deployment of autonomous vehicles. By turning raw sensor data into structured information, the company enables better AI training and decision-making for autonomous systems. This could help accelerate the adoption of self-driving technology in various industries.",
     "impact_score": 7
   },
   {
     "title": "With its new app store, Ring bets on AI to go beyond home security",
     "url": "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/",
-    "industry": "Smart Home",
-    "summary": "Ring is betting on AI to go beyond home security with its new app store, targeting use cases like elder care and business needs.",
-    "charlotte_impact": "Ring's app store expansion driven by AI can unlock new revenue streams and broaden its market reach. It may fuel the development of new AI-powered applications for home monitoring, remote assistance, and workplace automation, and increase the value proposition of Ring's existing hardware.",
+    "industry": "Home Security",
+    "summary": "Ring is betting on AI to go beyond home security with its new app store, targeting broader use cases like elder care or business needs.",
+    "charlotte_impact": "Ring's expansion into new use cases signifies the growing role of AI in home automation and monitoring. The app store model will encourage developers to create innovative AI-powered applications that leverage Ring's hardware and data, opening up new revenue streams and expanding the company's reach.",
     "impact_score": 7
   },
   {
     "title": "15% of Americans say they\u2019d be willing to work for an AI boss, according to new poll",
     "url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
-    "industry": "Workforce",
-    "summary": "A new poll shows that 15% of Americans would be willing to work for an AI boss.",
-    "charlotte_impact": "While still a minority, the 15% acceptance rate signals a gradual shift in attitudes toward AI in the workplace. This trend will likely grow as AI-powered management tools become more sophisticated and demonstrably improve efficiency and fairness in task allocation and performance evaluation.",
-    "impact_score": 6
+    "industry": "Workplace",
+    "summary": "A new poll indicates that 15% of Americans would be willing to work for an AI boss, assigning tasks and setting schedules.",
+    "charlotte_impact": "This poll highlights the growing acceptance of AI in the workplace, although a significant majority remains hesitant. As AI becomes more capable of managing tasks and processes, businesses may explore implementing AI-powered management systems.  However, ethical considerations and the need for human oversight will be important factors in determining the success of such initiatives.",
+    "impact_score": 5
   },
   {
     "title": "As more Americans adopt AI tools, fewer say they can trust the results",
     "url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
-    "industry": "Artificial Intelligence",
-    "summary": "As more Americans adopt AI tools, fewer say they can trust the results, raising concerns about transparency, regulation, and societal impact.",
-    "charlotte_impact": "Declining trust despite increasing AI adoption underscores the need for more robust AI governance and explainability measures. This will drive demand for AI audit and compliance solutions, and potentially increase regulatory scrutiny on AI deployments.",
+    "industry": "AI Ethics",
+    "summary": "As more Americans adopt AI tools, fewer say they can trust the results, raising concerns about transparency, regulation, and the technology\u2019s broader societal impact.",
+    "charlotte_impact": "The declining trust in AI underscores the importance of building transparent and explainable AI systems. Companies need to address concerns about bias, accountability, and the potential for misuse.  Regulation and industry standards may be needed to ensure that AI is developed and deployed responsibly, fostering greater public confidence.",
     "impact_score": 8
   },
   {
     "title": "Mantis Biotech is making \u2018digital twins\u2019 of humans to help solve medicine\u2019s data availability problem",
     "url": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
     "industry": "Healthcare",
-    "summary": "Mantis Biotech is creating 'digital twins' of humans using disparate data sources to solve medicine\u2019s data availability problem, representing anatomy, physiology, and behavior.",
-    "charlotte_impact": "Mantis Biotech's approach can revolutionize drug discovery and personalized medicine. These digital twins enable researchers to simulate clinical trials, predict treatment outcomes, and develop tailored therapies, significantly reducing development costs and improving patient outcomes.",
-    "impact_score": 9
+    "summary": "Mantis Biotech is creating 'digital twins' of humans to help solve medicine's data availability problem by building synthetic datasets that represent anatomy, physiology, and behavior.",
+    "charlotte_impact": "Mantis Biotech's digital twin technology addresses a critical challenge in healthcare: limited data availability. By creating synthetic datasets, the company enables researchers and clinicians to train AI models and personalize treatments without relying on sensitive patient information. This can accelerate drug discovery, improve diagnostic accuracy, and advance personalized medicine.",
+    "impact_score": 8
   },
   {
     "title": "ScaleOps raises $130M to improve computing efficiency amid AI demand",
     "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
     "industry": "Cloud Computing",
-    "summary": "ScaleOps raised $130M to improve computing efficiency amid AI demand by automating infrastructure in real-time to tackle GPU shortages and soaring cloud costs.",
-    "charlotte_impact": "ScaleOps' focus on Kubernetes efficiency directly addresses the increasing costs and resource constraints associated with AI workloads. The funding could significantly improve GPU utilization, reduce cloud spending, and enable more businesses to adopt AI solutions.",
+    "summary": "ScaleOps raised $130M to improve computing efficiency amid AI demand by automating infrastructure in real time to tackle GPU shortages and soaring AI cloud costs.",
+    "charlotte_impact": "ScaleOps' solution addresses a significant bottleneck in AI development: the scarcity and high cost of computing resources, particularly GPUs. By optimizing infrastructure utilization, the company can help lower the barrier to entry for AI companies and accelerate the deployment of AI applications. This benefits industries that heavily rely on AI computing like drug discovery, autonomous vehicles, and advanced manufacturing.",
     "impact_score": 8
   },
   {
     "title": "Mistral AI raises $830M in debt to set up a data center near Paris",
     "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
-    "industry": "Artificial Intelligence",
-    "summary": "Mistral AI raises $830M in debt to set up a data center near Paris, aiming to start operations by the second quarter of 2026.",
-    "charlotte_impact": "Mistral AI's investment in a dedicated data center is a strategic move to secure compute resources and reduce reliance on third-party cloud providers. This will improve performance, reduce latency, and allow Mistral AI to control its infrastructure and associated costs, and provide sovereign AI solutions.",
+    "industry": "AI Infrastructure",
+    "summary": "Mistral AI raised $830M in debt to set up a data center near Paris, aiming to start operating it by the second quarter of 2026.",
+    "charlotte_impact": "Mistral AI's investment in a new data center signals the increasing demand for AI infrastructure. The strategic location of the data center in Paris could help foster AI innovation in Europe and reduce reliance on US-based cloud providers. This could create new opportunities for European AI companies and strengthen the region's competitiveness in the global AI landscape.",
+    "impact_score": 9
+  },
+  {
+    "title": "After Nvidia Surge: 3 ASX AI Stocks Poised for Breakout Gains in April 2026",
+    "url": "https://www.ibtimes.com.au/after-nvidia-surge-3-asx-ai-stocks-poised-breakout-gains-april-2026-1865155",
+    "industry": "Financial Markets",
+    "summary": "Nvidia's surge has ignited enthusiasm for AI infrastructure, potentially benefiting several ASX AI stocks in April 2026.",
+    "charlotte_impact": "The surge in Nvidia's stock price has a ripple effect on the broader AI ecosystem, including the Australian Securities Exchange. Australian AI companies positioned to capitalize on increased AI infrastructure spending are seeing heightened investor interest, highlighting the global interconnectedness of the AI market and the potential for regional players to benefit from global trends.",
+    "impact_score": 6
+  },
+  {
+    "title": "World\u2019s Biggest Humanoid Robotics Maker Unitree Is Going Public",
+    "url": "https://www.ponoko.com/blog/ponoko/worlds-biggest-humanoid-robotics-maker-unitree-is-going-public/",
+    "industry": "Robotics",
+    "summary": "Unitree, a major humanoid robotics maker, is going public after turning a profit and cutting prices while scaling up.",
+    "charlotte_impact": "Unitree's IPO demonstrates the growing commercial viability of humanoid robotics. Their ability to scale production while lowering costs is a significant achievement, paving the way for wider adoption of robots in various industries, from manufacturing to logistics and even personal assistance. It will force the broader robotics industry to innovate on price and capabilities.",
     "impact_score": 8
   },
   {
-    "title": "Qodo raises $70M for code verification as AI coding scales",
-    "url": "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
+    "title": "Future of Security: Video Surveillance Industry to Touch $88.06 Billion by 2031",
+    "url": "https://www.globenewswire.com/news-release/2026/04/01/3266788/0/en/Future-of-Security-Video-Surveillance-Industry-to-Touch-88-06-Billion-by-2031.html",
+    "industry": "Security",
+    "summary": "The video surveillance market is projected to reach $88.06 billion by 2031, driven by demand for advanced security solutions.",
+    "charlotte_impact": "The growth in the video surveillance market will incentivize new tech development, particularly in AI-powered video analytics. These AI improvements will have implications across many areas, including in manufacturing, supply chain management, and autonomous transportation.",
+    "impact_score": 7
+  },
+  {
+    "title": "'I hate customer-service chatbots': The consumer-AI refund relationship is off to a rocky start",
+    "url": "https://www.cnbc.com/2026/04/01/ai-chatbot-customer-service-complaints-refunds.html",
+    "industry": "Customer Service",
+    "summary": "Consumers are expressing dissatisfaction with customer-service chatbots, particularly when seeking refunds, highlighting the challenges of implementing AI in customer interactions.",
+    "charlotte_impact": "This article illustrates the critical need for improvements in AI customer service experiences. The challenges faced by customers highlights a misalignment between perceived benefits and customer outcomes. Companies will need to allocate resources to developing more intuitive, helpful, and customer-centric experiences.",
+    "impact_score": 6
+  },
+  {
+    "title": "AI can clone open-source software in minutes",
+    "url": "https://slashdot.org/submission/17346112/ai-can-clone-open-source-software-in-minutes",
     "industry": "Software Development",
-    "summary": "Qodo raises $70M for code verification as AI coding scales, betting that the challenge is ensuring AI-generated code actually works.",
-    "charlotte_impact": "Qodo's focus on code verification becomes increasingly critical as AI-assisted coding gains traction. This will drive demand for automated testing and quality assurance tools, reducing the risk of errors and vulnerabilities in AI-generated software.",
-    "impact_score": 8
-  },
-  {
-    "title": "Corning, Meta break ground on world's largest optical cable plant, aimed at supporting AI data centers, in Hickory",
-    "url": "https://www.wcnc.com/article/money/business/corning-meta-break-ground-on-worlds-largest-optical-cable-plant-aimed-at-supporting-ai-data-centers-in-hickory/275-5132c18f-2c9f-4c47-9059-e21459bf3520",
-    "industry": "Manufacturing",
-    "summary": "Corning and Meta break ground on the world's largest optical cable plant in Hickory, NC, aimed at supporting AI data centers.",
-    "charlotte_impact": "This investment demonstrates the increasing demand for high-speed data transmission infrastructure to support AI workloads. The plant will create new jobs and stimulate economic growth in the region, solidifying its position as a hub for tech manufacturing.",
-    "impact_score": 8
-  },
-  {
-    "title": "Aussie AI health-tech Heidi aims to cure clinical burnout",
-    "url": "https://www.computerweekly.com/news/366640992/Aussie-AI-health-tech-Heidi-aims-to-cure-clinical-burnout",
-    "industry": "Healthcare",
-    "summary": "Aussie AI health-tech Heidi aims to cure clinical burnout with over $100m in funding. Heidi is building AI models and wearable hardware to automate documentation and reduce administrative burden on doctors.",
-    "charlotte_impact": "Heidi's solution will revolutionize healthcare by mitigating clinical burnout with AI and automation. This will improve patient outcomes, reduce healthcare costs, and streamline administrative tasks for medical professionals.",
-    "impact_score": 8
-  },
-  {
-    "title": "The Biggest Photography Stories of March 2026",
-    "url": "https://fstoppers.com/news/biggest-photography-stories-march-2026-901312",
-    "industry": "Photography",
-    "summary": "March 2026 was a transformative month for photography, marked by a semiconductor crisis driven by AI infrastructure and a Supreme Court decision on AI copyright.",
-    "charlotte_impact": "The photography industry is undergoing significant changes due to AI. AI-driven image generation and editing tools are impacting workflows, copyright laws, and potentially job roles. The industry must adapt to the integration of AI to maximize its benefits while addressing ethical concerns.",
+    "summary": "AI tools can clone open-source software in minutes, creating proprietary versions, raising legal and ethical concerns.",
+    "charlotte_impact": "The ability of AI to clone open-source software creates a complex situation for IP law and software development. It opens the door for copyright and licensing violations, while it simultaneously opens the door for businesses to enhance features and build competitive advantage quickly.",
     "impact_score": 7
   },
   {
-    "title": "Anthropic leaks part of Claude Code's internal source code",
-    "url": "https://www.cnbc.com/2026/03/31/anthropic-leak-claude-code-internal-source.html",
-    "industry": "Artificial Intelligence",
-    "summary": "Anthropic leaks part of Claude Code's internal source code, which has seen massive adoption and substantial revenue growth.",
-    "charlotte_impact": "This leak could expose proprietary algorithms and trade secrets, potentially giving competitors an advantage. It also highlights the ongoing challenge of securing valuable AI models and code, emphasizing the importance of robust security measures.",
+    "title": "AI giant Anthropic suffers strategic code hemorrhage",
+    "url": "https://www.rt.com/news/636952-anthropic-leaks-claude-code/",
+    "industry": "AI",
+    "summary": "AI giant Anthropic reportedly exposed internal code for its Claude AI system due to a release error, raising concerns over potential misuse",
+    "charlotte_impact": "A code hemorrhage for a large language model has the potential to lead to many negative outcomes, including the ability to manipulate the model's outputs. This reinforces the need to audit model security and develop robust guardrails.",
     "impact_score": 7
   },
   {
-    "title": "Apple tests Siri feature that could finally let it handle multiple commands at once",
-    "url": "https://macdailynews.com/2026/03/31/apple-tests-siri-feature-that-could-finally-let-it-handle-multiple-commands-at-once/",
-    "industry": "Consumer Technology",
-    "summary": "Apple is testing a Siri feature that could finally enable it to handle multiple commands at once.",
-    "charlotte_impact": "The improvement of Siri can further enhance Apple's ecosystem. The added ability to handle multiple commands at once can increase convenience and make more users rely on Siri-integrated devices.",
-    "impact_score": 6
-  },
-  {
-    "title": "Most Surveyed Photographers Use AI for Tedious Tasks, Not Creative Editing",
-    "url": "https://petapixel.com/2026/03/31/most-surveyed-photographers-use-ai-for-tedious-tasks-not-creative-editing/",
-    "industry": "Photography",
-    "summary": "A survey of photographers indicates that most AI is used for tedious tasks, not creative editing, signifying a growing role of AI in workflow automation.",
-    "charlotte_impact": "This shift demonstrates the practical applications of AI in photography beyond pure creativity. AI is making existing workflows more efficient by automating time-consuming tasks, allowing photographers to focus on creative aspects.",
-    "impact_score": 6
-  },
-  {
-    "title": "Intermap Reports Fourth Quarter and Full Year 2025 Results",
-    "url": "https://financialpost.com/globe-newswire/intermap-reports-fourth-quarter-and-full-year-2025-results",
-    "industry": "Geospatial",
-    "summary": "Intermap reports 29% year-over-year growth in subscription and data revenue, driven by its AI-enabled risk assistant, and has been selected for all four remaining lots of Indonesia's ILASP project.",
-    "charlotte_impact": "Intermap's performance demonstrates the growing demand for AI-powered geospatial analytics. These tools will provide insights for risk assessment, urban planning, infrastructure management, and resource allocation. The company's expansion into Indonesia opens up significant market opportunities for geospatial technologies.",
+    "title": "AI\u2019s Biggest Opportunity Lies in the 92% of Work It Hasn\u2019t Touched",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/ais-biggest-opportunity-lies-in-the-92percent-of-work-it-hasnt-touched/",
+    "industry": "AI Adoption",
+    "summary": "AI's biggest opportunity lies in the 92% of work it hasn't touched.  A MIT study mapped 13,275 commercial AI technologies.",
+    "charlotte_impact": "There remains a massive opportunity to find real-world problems that AI models can solve in many areas. The MIT study suggests that companies that can solve these problems can scale dramatically. This creates a boom for companies in AI.",
     "impact_score": 7
-  },
-  {
-    "title": "Axe Compute Inc. Reports Full-Year 2025 Financial Results",
-    "url": "https://www.globenewswire.com/news-release/2026/03/31/3266074/37244/en/Axe-Compute-Inc-Reports-Full-Year-2025-Financial-Results.html",
-    "industry": "Cloud Computing",
-    "summary": "Axe Compute Inc. raised $343.5M, built an ATH-based Strategic Compute Reserve, & gained access to 435k+ GPUs, focusing on distributed compute business in 2026.",
-    "charlotte_impact": "Axe Compute's accumulation of GPU resources and focus on distributed compute suggests a strategy to capitalize on the growing demand for AI compute. This has the potential to drive competition in the cloud computing market and potentially lower the cost of GPU-intensive AI workloads.",
-    "impact_score": 8
   }
 ]
