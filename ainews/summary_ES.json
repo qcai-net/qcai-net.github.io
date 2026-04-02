@@ -2,161 +2,201 @@
   {
     "title": "OpenAI, aún no pública, recauda 3.000 millones de dólares de inversores minoristas en una monstruosa recaudación de fondos de 122.000 millones de dólares",
     "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-    "industry": "AI",
-    "summary": "OpenAI está recaudando 3.000 millones de dólares de inversores minoristas, parte de una enorme recaudación de fondos de 122.000 millones de dólares liderada por Amazon, Nvidia y SoftBank, valorando el laboratorio de IA en 852.000 millones de dólares a medida que se acerca una oferta pública inicial.",
-    "charlotte_impact": "Esta ronda de financiación masiva para OpenAI indica la confianza continua de los inversores en el potencial de la IA generativa y sus aplicaciones.  La gran escala de inversión probablemente acelerará el desarrollo de la IA, lo que generará una mayor competencia e innovación, lo que influirá en las empresas de todo el mundo que están creando aplicaciones de IA.",
-    "impact_score": 10
-  },
-  {
-    "title": "La startup de chips de IA Rebellions recauda 400 millones de dólares con una valoración de 2.300 millones de dólares en la ronda previa a la IPO",
-    "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
-    "industry": "Semiconductors",
-    "summary": "La startup de chips de IA Rebellions recaudó 400 millones de dólares con una valoración de 2.300 millones de dólares en una ronda previa a la IPO, y planea salir a bolsa a finales de este año, diseñando chips para la inferencia de IA y desafiando el dominio de Nvidia.",
-    "charlotte_impact": "El éxito de Rebellions pone de relieve la creciente demanda de chips de IA especializados más allá de las GPU de uso general. Esto impulsará a los fabricantes de chips existentes a innovar y podría abrir oportunidades para otras nuevas empresas que se centren en hardware de IA de nicho, lo que afectará la cadena de suministro y los precios de chips a nivel mundial.",
+    "industry": "Artificial Intelligence",
+    "summary": "OpenAI ha conseguido 3.000 millones de dólares en financiación de inversores minoristas, parte de una enorme recaudación de fondos de 122.000 millones de dólares liderada por importantes actores tecnológicos como Amazon, Nvidia y SoftBank, valorando a la empresa en 852.000 millones de dólares a medida que se acerca una posible oferta pública inicial (IPO).",
+    "charlotte_impact": "Esta importante inversión valida aún más la posición de OpenAI en el mercado de la IA y señala un crecimiento continuo. La disponibilidad de un capital significativo probablemente permitirá a OpenAI expandir sus esfuerzos de investigación y desarrollo, lo que podría conducir a modelos y aplicaciones de IA más avanzados. Esto podría acelerar la adopción de la IA en diversas industrias, con posibles beneficios e interrupciones para las empresas de todo el mundo.",
     "impact_score": 9
   },
   {
-    "title": "Yupp cierra después de recaudar $ 33 millones de Chris Dixon de a16z crypto",
-    "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-    "industry": "AI",
-    "summary": "Yupp, la startup de retroalimentación de modelos de inteligencia artificial de colaboración colectiva, cerrará menos de un año después de su lanzamiento, a pesar de haber recaudado 33 millones de dólares de destacados inversores de Silicon Valley.",
-    "charlotte_impact": "El cierre de Yupp pone de relieve los desafíos de construir un modelo de negocio sostenible en el competitivo espacio de la IA.  Subraya la importancia del ajuste y la ejecución del producto en el mercado, y muestra que incluso las nuevas empresas de IA bien financiadas pueden fracasar si no satisfacen las necesidades del mercado. Esto probablemente llevará a los inversores a realizar una debida diligencia más rigurosa sobre las empresas de IA en sus primeras etapas.",
+    "title": "OpenAI adquiere TBPN, el animado programa de entrevistas sobre negocios dirigido por fundadores",
+    "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
+    "industry": "Media",
+    "summary": "OpenAI adquiere TBPN, un popular programa de entrevistas sobre negocios dirigido por sus fundadores, que integra medios directamente bajo el paraguas del gigante de la IA, mientras que el programa mantiene la independencia operativa supervisada por Chris Lehane.",
+    "charlotte_impact": "La adquisición de TBPN por parte de OpenAI indica una inversión en creación de contenido y control narrativo dentro del espacio tecnológico. Esta adquisición sugiere una estrategia para influir directamente en la conversación sobre la IA, moldeando potencialmente la percepción pública y promoviendo la visión de OpenAI. Esta medida podría afectar las estrategias de contenido de otras empresas de tecnología, ya que buscan contrarrestar o amplificar narrativas específicas sobre la industria.",
     "impact_score": 6
   },
   {
-    "title": "Exclusivo: Runway lanza un fondo de 10 millones de dólares y un programa Builders para apoyar a las empresas emergentes de IA en sus primeras etapas",
-    "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
-    "industry": "AI",
-    "summary": "Runway está lanzando un fondo de 10 millones de dólares y un programa de inicio para respaldar a las empresas que construyen con sus modelos de video de IA, impulsando aplicaciones de “inteligencia de video” interactivas en tiempo real.",
-    "charlotte_impact": "El fondo de Runway tiene como objetivo cultivar un ecosistema en torno a sus modelos de vídeo de IA.  Esta iniciativa puede fomentar la innovación en áreas como la edición de videos, la creación de contenido y los medios interactivos. Puede darle a Runway una ventaja competitiva al alentar a los desarrolladores a crear aplicaciones en su plataforma y crear un efecto de bloqueo.",
+    "title": "Microsoft se enfrenta a rivales de IA con tres nuevos modelos fundamentales",
+    "url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
+    "industry": "Artificial Intelligence",
+    "summary": "Microsoft ha presentado tres nuevos modelos fundamentales a través de su división MAI, capaces de transcribir voz, generar audio y producir imágenes, lo que supone un desafío importante para los proveedores de modelos de IA existentes.",
+    "charlotte_impact": "El agresivo desarrollo de nuevos modelos de IA por parte de Microsoft está intensificando la competencia en el sector de la IA. Esta mayor competencia probablemente reducirá el costo de los servicios de IA y promoverá una mayor innovación en el diseño y la funcionalidad de los modelos. Las empresas tendrán más opciones para integrar la IA en sus operaciones, lo que conducirá a una adopción más amplia de herramientas y procesos impulsados ​​por la IA.",
     "impact_score": 8
   },
   {
     "title": "Cognichip quiere que la IA diseñe los chips que impulsan la IA y acaba de recaudar 60 millones de dólares para intentarlo",
     "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
     "industry": "Semiconductors",
-    "summary": "Cognichip recaudó 60 millones de dólares para utilizar la IA para diseñar chips que impulsen la IA, afirmando que puede reducir los costos de desarrollo de chips en más de un 75 % y reducir los plazos a más de la mitad.",
-    "charlotte_impact": "El enfoque de Cognichip tiene el potencial de reducir drásticamente el costo y el tiempo asociados con el desarrollo de chips, que tradicionalmente es un proceso complejo y costoso. Esto podría permitir que las empresas más pequeñas ingresen al mercado de chips, acelerando la innovación y reduciendo la dependencia de unos pocos actores importantes. También podría acelerar significativamente el desarrollo de hardware específico de IA.",
-    "impact_score": 9
+    "summary": "Cognichip ha recaudado 60 millones de dólares para desarrollar un diseño de chips impulsado por IA, con el objetivo de reducir drásticamente el coste y el tiempo asociados con el desarrollo de chips en más de un 75 % y un 50 % respectivamente.",
+    "charlotte_impact": "El desarrollo de chips diseñados con IA podría revolucionar la industria de los semiconductores, que es fundamental para todos los avances tecnológicos. Reducir el costo y el cronograma del diseño de chips podría conducir a una informática más asequible y potente, acelerando el crecimiento de la propia IA y campos relacionados. Esto también podría crear oportunidades para que nuevas empresas ingresen al mercado de chips, fomentando una mayor competencia e innovación.",
+    "impact_score": 8
   },
   {
     "title": "Salesforce anuncia un cambio de imagen intenso en inteligencia artificial para Slack, con 30 funciones nuevas",
     "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
-    "industry": "Enterprise Software",
-    "summary": "Salesforce anunció una renovación de Slack con mucha inteligencia artificial, con 30 nuevas características, con el objetivo de hacer que la plataforma sea más útil e integrada con capacidades de inteligencia artificial.",
-    "charlotte_impact": "La integración de la IA en Slack por parte de Salesforce es parte de una tendencia más amplia de incorporar la IA en las plataformas de software empresarial existentes. Esto mejorará la productividad y los flujos de trabajo de los usuarios, impulsando la adopción de herramientas impulsadas por IA dentro de las empresas y creando nuevas oportunidades para que los desarrolladores creen aplicaciones impulsadas por IA en la plataforma Slack.",
-    "impact_score": 8
+    "industry": "Software",
+    "summary": "Salesforce está introduciendo un importante cambio de imagen impulsado por IA para Slack, incorporando 30 nuevas características destinadas a mejorar su funcionalidad e integración con los procesos comerciales.",
+    "charlotte_impact": "La integración de la IA en plataformas de colaboración como Slack significa un impulso hacia flujos de trabajo más inteligentes y automatizados. Estas nuevas funciones de IA prometen agilizar los procesos de comunicación y toma de decisiones, aumentando potencialmente la productividad de las empresas que utilizan Slack. Es posible que los competidores necesiten mejorar sus ofertas con funcionalidades de IA similares para seguir siendo competitivos en el mercado de software de colaboración.",
+    "impact_score": 7
+  },
+  {
+    "title": "Schneider Electric implementa IA en 100 casos de uso en operaciones industriales",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/schneider-electric-deploys-ai-across-100-use-cases-in-industrial-operations/",
+    "industry": "Industrial Automation",
+    "summary": "Schneider Electric ha implementado IA en 100 casos de uso en sus operaciones industriales, yendo más allá de las fases piloto para lograr la aplicación de la IA en el mundo real en la gestión del servicio al cliente y otros procesos.",
+    "charlotte_impact": "La adopción generalizada de la IA por parte de Schneider Electric en sus operaciones industriales resalta el potencial de la IA para mejorar la eficiencia y optimizar los procesos en la fabricación y las industrias relacionadas. El enfoque de la empresa en aplicaciones prácticas, en lugar de solo pilotos teóricos, sugiere una maduración de la tecnología de IA y una comprensión cada vez mayor de cómo se puede implementar de manera efectiva. Esto puede motivar a otras empresas industriales a acelerar sus iniciativas de IA.",
+    "impact_score": 7
+  },
+  {
+    "title": "Exclusivo: Runway lanza un fondo de 10 millones de dólares y un programa Builders para apoyar a las empresas emergentes de IA en sus primeras etapas",
+    "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
+    "industry": "Venture Capital",
+    "summary": "Runway ha lanzado un fondo de 10 millones de dólares y un programa de inicio centrado en apoyar a las empresas emergentes de IA en etapa inicial que están creando soluciones innovadoras utilizando sus modelos de video de IA.",
+    "charlotte_impact": "El fondo de inversión de Runway dirigido específicamente a nuevas empresas de vídeo con IA indica una fuerte creencia en el futuro de la tecnología de vídeo impulsada por IA. Es probable que este fondo estimule la innovación en este nicho, lo que podría generar avances en áreas como la edición de videos, la creación de contenido y los medios interactivos. Esto también podría atraer más capital de riesgo al sector del vídeo con IA, acelerando aún más su crecimiento.",
+    "impact_score": 6
   },
   {
     "title": "Nomadic recauda 8,4 millones de dólares para gestionar los datos que emiten los vehículos autónomos",
     "url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
     "industry": "Autonomous Vehicles",
-    "summary": "Nomadic recaudó 8,4 millones de dólares para gestionar los datos que salen de los vehículos autónomos, convirtiendo imágenes de robots en conjuntos de datos estructurados y con capacidad de búsqueda con un modelo de aprendizaje profundo.",
-    "charlotte_impact": "Las capacidades de procesamiento de datos de Nomadic son cruciales para el desarrollo y despliegue de vehículos autónomos. Al convertir los datos sin procesar de los sensores en información estructurada, la empresa permite una mejor capacitación en inteligencia artificial y una mejor toma de decisiones para los sistemas autónomos. Esto podría ayudar a acelerar la adopción de tecnología de conducción autónoma en diversas industrias.",
-    "impact_score": 7
+    "summary": "Nomadic ha obtenido 8,4 millones de dólares en financiación para desarrollar su modelo de aprendizaje profundo que transforma los datos de vehículos autónomos en conjuntos de datos estructurados y con capacidad de búsqueda.",
+    "charlotte_impact": "La inversión en Nomadic destaca la importancia de la gestión y el procesamiento de datos para la industria de los vehículos autónomos. Discutir y analizar de manera eficiente las grandes cantidades de datos generados por los vehículos autónomos es crucial para mejorar su rendimiento y seguridad. Esto podría conducir a un desarrollo y despliegue más rápidos de vehículos autónomos, con implicaciones para el transporte, la logística y la planificación urbana.",
+    "impact_score": 6
   },
   {
     "title": "Con su nueva tienda de aplicaciones, Ring apuesta por la IA para ir más allá de la seguridad del hogar",
     "url": "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/",
     "industry": "Home Security",
-    "summary": "Ring apuesta por la IA para ir más allá de la seguridad del hogar con su nueva tienda de aplicaciones, dirigida a casos de uso más amplios, como el cuidado de personas mayores o las necesidades comerciales.",
-    "charlotte_impact": "La expansión de Ring a nuevos casos de uso significa el creciente papel de la IA en la automatización y el monitoreo del hogar. El modelo de tienda de aplicaciones alentará a los desarrolladores a crear aplicaciones innovadoras impulsadas por IA que aprovechen el hardware y los datos de Ring, abriendo nuevas fuentes de ingresos y ampliando el alcance de la empresa.",
-    "impact_score": 7
+    "summary": "Ring está lanzando una tienda de aplicaciones, ampliando su enfoque más allá de la seguridad del hogar para apuntar a aplicaciones más amplias como el cuidado de personas mayores y las necesidades comerciales, aprovechando la inteligencia artificial para ofrecer diversas funcionalidades.",
+    "charlotte_impact": "La decisión de Ring de crear una tienda de aplicaciones representa un cambio estratégico para diversificar sus ofertas y aprovechar la IA para ingresar a nuevos mercados. Esto podría crear oportunidades para que los desarrolladores creen aplicaciones innovadoras para dispositivos Ring, ampliando su utilidad y atractivo. Esto también ejerce presión sobre los competidores para que ofrezcan plataformas y funcionalidades similares para seguir siendo competitivos en el mercado del hogar conectado.",
+    "impact_score": 6
+  },
+  {
+    "title": "Yupp cierra después de recaudar $ 33 millones de Chris Dixon de a16z crypto",
+    "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
+    "industry": "Artificial Intelligence",
+    "summary": "Yupp, una startup de retroalimentación de modelos de IA de colaboración colectiva, cerrará menos de un año después de su lanzamiento, a pesar de haber recaudado 33 millones de dólares de destacados inversores.",
+    "charlotte_impact": "El cierre de Yupp, a pesar de una importante financiación, subraya el alto riesgo asociado con las nuevas empresas de IA. Destaca los desafíos de construir un modelo de negocio exitoso en el panorama de la IA en rápida evolución. Este cierre puede hacer que los inversores sean más cautelosos a la hora de financiar empresas similares centradas en la IA y enfatizar la importancia de una ejecución sólida y una validación del mercado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La popular startup de puerta de enlace de IA LiteLLM abandona la controvertida startup Delve",
+    "url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+    "industry": "Cybersecurity",
+    "summary": "LiteLLM, una popular startup de puerta de enlace de inteligencia artificial, rompió vínculos con Delve, una startup controvertida, después de ser víctima de malware de robo de credenciales.",
+    "charlotte_impact": "El incidente que involucra a LiteLLM resalta la creciente importancia de la ciberseguridad para la infraestructura y los servicios relacionados con la IA. Los sistemas de inteligencia artificial son cada vez más vulnerables a los ciberataques, que pueden comprometer los datos e interrumpir las operaciones. Las empresas deben priorizar las medidas de ciberseguridad y examinar cuidadosamente a sus proveedores para mitigar estos riesgos. El episodio puede generar una mayor necesidad de certificaciones y estándares de seguridad.",
+    "impact_score": 5
   },
   {
     "title": "El 15% de los estadounidenses dice que estaría dispuesto a trabajar para un jefe de IA, según una nueva encuesta",
     "url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
-    "industry": "Workplace",
-    "summary": "Una nueva encuesta indica que el 15% de los estadounidenses estarían dispuestos a trabajar para un jefe de IA, asignándole tareas y estableciendo horarios.",
-    "charlotte_impact": "Esta encuesta destaca la creciente aceptación de la IA en el lugar de trabajo, aunque una mayoría significativa sigue dudando. A medida que la IA se vuelve más capaz de gestionar tareas y procesos, las empresas pueden explorar la posibilidad de implementar sistemas de gestión basados ​​en IA.  Sin embargo, las consideraciones éticas y la necesidad de supervisión humana serán factores importantes para determinar el éxito de tales iniciativas.",
+    "industry": "Workforce",
+    "summary": "Una encuesta reciente indica que sólo el 15% de los estadounidenses están dispuestos a trabajar bajo un jefe de IA que asigne tareas y establezca horarios.",
+    "charlotte_impact": "La baja tasa de aceptación de los jefes de IA sugiere desafíos potenciales para la implementación de sistemas de gestión impulsados ​​por IA. Las preocupaciones sobre la seguridad laboral, la equidad y la transparencia pueden contribuir a esta desgana. Las empresas deben abordar estas preocupaciones y considerar cuidadosamente el impacto humano de las prácticas de gestión impulsadas por la IA para garantizar una implementación exitosa y mantener la moral de los empleados.",
     "impact_score": 5
   },
   {
     "title": "A medida que más estadounidenses adoptan herramientas de inteligencia artificial, menos dicen que pueden confiar en los resultados",
     "url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
-    "industry": "AI Ethics",
-    "summary": "A medida que más estadounidenses adoptan herramientas de inteligencia artificial, menos dicen que pueden confiar en los resultados, lo que genera preocupaciones sobre la transparencia, la regulación y el impacto social más amplio de la tecnología.",
-    "charlotte_impact": "La disminución de la confianza en la IA subraya la importancia de crear sistemas de IA transparentes y explicables. Las empresas deben abordar las preocupaciones sobre el sesgo, la responsabilidad y el potencial de uso indebido.  Es posible que se necesiten regulaciones y estándares industriales para garantizar que la IA se desarrolle y despliegue de manera responsable, fomentando una mayor confianza del público.",
-    "impact_score": 8
+    "industry": "Public Opinion",
+    "summary": "A pesar de la creciente adopción de herramientas de IA en los EE. UU., la confianza en la IA sigue siendo baja, lo que genera preocupaciones sobre la transparencia, la regulación y el impacto social.",
+    "charlotte_impact": "La cada vez menor confianza en la IA, a pesar de su creciente adopción, es un desafío importante para la industria de la IA. Esta falta de confianza podría obstaculizar una mayor adopción y generar mayores llamados a la regulación. Las empresas y los formuladores de políticas deben abordar estas preocupaciones promoviendo la transparencia, desarrollando pautas éticas y fomentando la comprensión pública de las capacidades y limitaciones de la IA.",
+    "impact_score": 5
   },
   {
     "title": "Mantis Biotech está creando 'gemelos digitales' de humanos para ayudar a resolver el problema de disponibilidad de datos de la medicina",
     "url": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
     "industry": "Healthcare",
-    "summary": "Mantis Biotech está creando \"gemelos digitales\" de humanos para ayudar a resolver el problema de disponibilidad de datos de la medicina mediante la creación de conjuntos de datos sintéticos que representan la anatomía, la fisiología y el comportamiento.",
-    "charlotte_impact": "La tecnología de gemelos digitales de Mantis Biotech aborda un desafío crítico en la atención médica: la disponibilidad limitada de datos. Al crear conjuntos de datos sintéticos, la empresa permite a investigadores y médicos entrenar modelos de IA y personalizar tratamientos sin depender de información confidencial del paciente. Esto puede acelerar el descubrimiento de fármacos, mejorar la precisión del diagnóstico y promover la medicina personalizada.",
-    "impact_score": 8
-  },
-  {
-    "title": "ScaleOps recauda 130 millones de dólares para mejorar la eficiencia informática en medio de la demanda de IA",
-    "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
-    "industry": "Cloud Computing",
-    "summary": "ScaleOps recaudó 130 millones de dólares para mejorar la eficiencia informática en medio de la demanda de IA mediante la automatización de la infraestructura en tiempo real para abordar la escasez de GPU y los crecientes costos de la nube de IA.",
-    "charlotte_impact": "La solución de ScaleOps aborda un importante cuello de botella en el desarrollo de la IA: la escasez y el alto coste de los recursos informáticos, en particular las GPU. Al optimizar la utilización de la infraestructura, la empresa puede ayudar a reducir la barrera de entrada para las empresas de IA y acelerar la implementación de aplicaciones de IA. Esto beneficia a las industrias que dependen en gran medida de la informática de IA, como el descubrimiento de fármacos, los vehículos autónomos y la fabricación avanzada.",
-    "impact_score": 8
-  },
-  {
-    "title": "Mistral AI recauda 830 millones de dólares de deuda para montar un centro de datos cerca de París",
-    "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
-    "industry": "AI Infrastructure",
-    "summary": "Mistral AI recaudó 830 millones de dólares en deuda para establecer un centro de datos cerca de París, con el objetivo de comenzar a operarlo en el segundo trimestre de 2026.",
-    "charlotte_impact": "La inversión de Mistral AI en un nuevo centro de datos indica la creciente demanda de infraestructura de IA. La ubicación estratégica del centro de datos en París podría ayudar a fomentar la innovación en IA en Europa y reducir la dependencia de los proveedores de nube con sede en Estados Unidos. Esto podría crear nuevas oportunidades para las empresas europeas de IA y fortalecer la competitividad de la región en el panorama global de la IA.",
-    "impact_score": 9
-  },
-  {
-    "title": "Después del aumento de Nvidia: 3 acciones de IA de ASX preparadas para obtener grandes ganancias en abril de 2026",
-    "url": "https://www.ibtimes.com.au/after-nvidia-surge-3-asx-ai-stocks-poised-breakout-gains-april-2026-1865155",
-    "industry": "Financial Markets",
-    "summary": "El aumento de Nvidia ha encendido el entusiasmo por la infraestructura de IA, lo que podría beneficiar a varias acciones de ASX AI en abril de 2026.",
-    "charlotte_impact": "El aumento en el precio de las acciones de Nvidia tiene un efecto dominó en el ecosistema de inteligencia artificial más amplio, incluida la Bolsa de Valores de Australia. Las empresas australianas de IA posicionadas para capitalizar el mayor gasto en infraestructura de IA están viendo un mayor interés de los inversores, lo que destaca la interconexión global del mercado de IA y el potencial de los actores regionales para beneficiarse de las tendencias globales.",
+    "summary": "Mantis Biotech está desarrollando 'gemelos digitales' de humanos que utilizan fuentes de datos dispares para crear conjuntos de datos sintéticos para la investigación médica, abordando el problema de la disponibilidad de datos.",
+    "charlotte_impact": "La creación de gemelos digitales por parte de Mantis Biotech tiene el potencial de acelerar la investigación médica y el desarrollo de fármacos. Al superar las limitaciones de los datos, estos conjuntos de datos sintéticos pueden permitir a los investigadores estudiar procesos biológicos complejos y probar nuevas terapias de manera más eficaz. Esto podría conducir a avances más rápidos en el tratamiento de enfermedades y mejorar los resultados de la atención sanitaria.",
     "impact_score": 6
   },
   {
-    "title": "Unitree, el mayor fabricante de robótica humanoide del mundo, se hace público",
-    "url": "https://www.ponoko.com/blog/ponoko/worlds-biggest-humanoid-robotics-maker-unitree-is-going-public/",
-    "industry": "Robotics",
-    "summary": "Unitree, un importante fabricante de robótica humanoide, saldrá a bolsa después de obtener ganancias y reducir los precios mientras crece.",
-    "charlotte_impact": "La oferta pública inicial de Unitree demuestra la creciente viabilidad comercial de la robótica humanoide. Su capacidad para escalar la producción y al mismo tiempo reducir los costos es un logro significativo, que allana el camino para una adopción más amplia de robots en diversas industrias, desde la manufactura hasta la logística e incluso la asistencia personal. Obligará a la industria de la robótica en general a innovar en precios y capacidades.",
-    "impact_score": 8
+    "title": "Deutsche Bank preguntó a AI si es cierto que la IA resolverá los problemas de inflación de la economía. Los robots respondieron",
+    "url": "https://fortune.com/2026/04/01/deutsche-bank-asks-ai-will-solve-inflation/",
+    "industry": "Economics",
+    "summary": "Deutsche Bank consultó a AI para determinar si puede solucionar la inflación, pero los resultados fueron desfavorables para las expectativas de Wall Street.",
+    "charlotte_impact": "La dependencia del Deutsche Bank de la IA para predecir tendencias macroeconómicas indica un uso creciente de la IA en el análisis financiero. Sin embargo, el hecho de que la respuesta de la IA no fuera la que Wall Street quería escuchar pone de relieve las limitaciones de la IA a la hora de predecir fenómenos económicos complejos. Esto sugiere que la experiencia y el juicio humanos siguen siendo cruciales para tomar decisiones financieras informadas.",
+    "impact_score": 4
   },
   {
-    "title": "El futuro de la seguridad: la industria de la videovigilancia alcanzará los 88 060 millones de dólares en 2031",
-    "url": "https://www.globenewswire.com/news-release/2026/04/01/3266788/0/en/Future-of-Security-Video-Surveillance-Industry-to-Touch-88-06-Billion-by-2031.html",
-    "industry": "Security",
-    "summary": "Se prevé que el mercado de la videovigilancia alcance los 88.060 millones de dólares en 2031, impulsado por la demanda de soluciones de seguridad avanzadas.",
-    "charlotte_impact": "El crecimiento del mercado de videovigilancia incentivará el desarrollo de nuevas tecnologías, particularmente en análisis de video impulsado por inteligencia artificial. Estas mejoras en la IA tendrán implicaciones en muchas áreas, incluida la fabricación, la gestión de la cadena de suministro y el transporte autónomo.",
+    "title": "TransUnion completa la adquisición de la división móvil de RealNetworks",
+    "url": "https://www.globenewswire.com/news-release/2026/04/01/3266981/0/en/TransUnion-Completes-Acquisition-of-the-Mobile-Division-of-RealNetworks.html",
+    "industry": "Telecommunications",
+    "summary": "TransUnion completó la adquisición de la división móvil de RealNetworks para aumentar las capacidades de soluciones de comunicaciones de TransUnion.",
+    "charlotte_impact": "La adquisición de la división móvil de RealNetworks por parte de TransUnion podría proporcionar a la empresa herramientas y tecnologías valiosas para mejorar sus capacidades de análisis de datos y comunicaciones. Esta adquisición tiene como objetivo fortalecer la posición de TransUnion en el espacio de la identidad digital y la prevención del fraude.",
+    "impact_score": 4
+  },
+  {
+    "title": "SpaceX de Elon Musk presenta de forma confidencial una oferta pública inicial récord de 1,75 billones de dólares",
+    "url": "https://decrypt.co/363074/elon-musk-spacex-files-ipo",
+    "industry": "Space Exploration/Finance",
+    "summary": "SpaceX ha solicitado de forma confidencial una posible oferta pública inicial de venta de 1,75 billones de dólares, lo que podría crear una de las cotizaciones públicas más grandes de la historia.",
+    "charlotte_impact": "La posible oferta pública inicial de SpaceX traería un capital sustancial al sector de exploración espacial, lo que permitiría una mayor inversión en tecnología e infraestructura. El éxito de la IPO de SpaceX podría atraer más inversión privada a la industria espacial, acelerando la innovación y la comercialización. Además, la IPO podría tener implicaciones más amplias para los mercados dado su valor potencial.",
     "impact_score": 7
   },
   {
-    "title": "'Odio los chatbots de servicio al cliente': la relación de reembolso entre el consumidor y la IA ha tenido un comienzo difícil",
-    "url": "https://www.cnbc.com/2026/04/01/ai-chatbot-customer-service-complaints-refunds.html",
-    "industry": "Customer Service",
-    "summary": "Los consumidores expresan su insatisfacción con los chatbots de servicio al cliente, particularmente cuando solicitan reembolsos, lo que destaca los desafíos de implementar la IA en las interacciones con los clientes.",
-    "charlotte_impact": "Este artículo ilustra la necesidad crítica de mejorar las experiencias de servicio al cliente de IA. Los desafíos que enfrentan los clientes resaltan una desalineación entre los beneficios percibidos y los resultados del cliente. Las empresas deberán asignar recursos para desarrollar experiencias más intuitivas, útiles y centradas en el cliente.",
-    "impact_score": 6
+    "title": "El elenco de 'The Audacity' advierte sobre una amenaza en línea aún mayor que la IA: 'No haga clic en Aceptar en las cookies'",
+    "url": "https://www.thewrap.com/creative-content/tv-shows/the-audacity-cast-ai-internet-privacy-billy-magnussen-interview/",
+    "industry": "Media/Cybersecurity",
+    "summary": "El elenco de 'La Audacia' advierte sobre las amenazas en línea, enfatizando la importancia de la privacidad en Internet y la aceptación cautelosa de las cookies.",
+    "charlotte_impact": "La creciente conciencia y preocupación en torno a la privacidad en línea, especialmente en relación con la recopilación de datos a través de cookies, enfatiza el papel crucial de la ciberseguridad y la protección de datos en el panorama digital actual. Esto subraya la necesidad de regulaciones de privacidad sólidas y una mayor conciencia de los consumidores sobre sus derechos digitales.",
+    "impact_score": 3
   },
   {
-    "title": "La IA puede clonar software de código abierto en minutos",
-    "url": "https://slashdot.org/submission/17346112/ai-can-clone-open-source-software-in-minutes",
-    "industry": "Software Development",
-    "summary": "Las herramientas de inteligencia artificial pueden clonar software de código abierto en minutos, creando versiones propietarias, lo que genera preocupaciones legales y éticas.",
-    "charlotte_impact": "La capacidad de la IA para clonar software de código abierto crea una situación compleja para el derecho de propiedad intelectual y el desarrollo de software. Abre la puerta a violaciones de derechos de autor y licencias, al mismo tiempo que abre la puerta para que las empresas mejoren las funciones y construyan ventajas competitivas rápidamente.",
-    "impact_score": 7
+    "title": "3 ETF de ASX baratos para comprar durante el repunte tecnológico",
+    "url": "https://www.fool.com.au/2026/04/02/3-cheap-asx-etfs-to-buy-for-the-tech-rebound/",
+    "industry": "Finance/Investment",
+    "summary": "Un artículo sugiere ETF de ASX baratos como una inversión potencial para el repunte tecnológico.",
+    "charlotte_impact": "La sugerencia de comprar ETF de ASX indica optimismo sobre la recuperación del sector tecnológico, lo que refleja posibles oportunidades de inversión. Esto puede indicar un sentimiento general positivo hacia el crecimiento del mercado tecnológico, atrayendo a inversores potenciales al mercado de valores australiano.",
+    "impact_score": 3
   },
   {
-    "title": "El gigante de la IA Anthropic sufre una hemorragia de código estratégico",
-    "url": "https://www.rt.com/news/636952-anthropic-leaks-claude-code/",
-    "industry": "AI",
-    "summary": "Se informa que el gigante de la IA Anthropic expuso el código interno de su sistema Claude AI debido a un error de lanzamiento, lo que generó preocupaciones sobre un posible uso indebido",
-    "charlotte_impact": "Una hemorragia de código para un modelo de lenguaje grande tiene el potencial de generar muchos resultados negativos, incluida la capacidad de manipular los resultados del modelo. Esto refuerza la necesidad de auditar la seguridad del modelo y desarrollar barreras de seguridad sólidas.",
-    "impact_score": 7
+    "title": "Mostrar HN: análisis de negocios 4D con agentes de IA paralelos (inspirado en AofA)",
+    "url": "https://wasaconf.org/",
+    "industry": "Business Analytics",
+    "summary": "Un sistema que utiliza 4 agentes de IA paralelos para el análisis empresarial 4D, donde las contradicciones señalan información útil.",
+    "charlotte_impact": "El desarrollo y utilización de agentes de IA paralelos para el análisis empresarial demuestra un avance en los procesos de toma de decisiones basados ​​en datos. La identificación de contradicciones podría conducir a conocimientos novedosos, que pueden resultar ventajosos en mercados dinámicos y complejos. También introduce un método de verificación y validación del modelo mediante la identificación de discrepancias.",
+    "impact_score": 4
   },
   {
-    "title": "La mayor oportunidad de la IA reside en el 92% del trabajo que no ha tocado",
-    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/ais-biggest-opportunity-lies-in-the-92percent-of-work-it-hasnt-touched/",
-    "industry": "AI Adoption",
-    "summary": "La mayor oportunidad de la IA reside en el 92% del trabajo que no ha tocado.  Un estudio del MIT mapeó 13.275 tecnologías comerciales de IA.",
-    "charlotte_impact": "Sigue existiendo una gran oportunidad de encontrar problemas del mundo real que los modelos de IA puedan resolver en muchas áreas. El estudio del MIT sugiere que las empresas que puedan resolver estos problemas pueden escalar dramáticamente. Esto crea un auge para las empresas en IA.",
-    "impact_score": 7
+    "title": "El senador Warren acusa a la Casa Blanca de utilizar aranceles para ayudar a las grandes empresas tecnológicas",
+    "url": "https://www.pymnts.com/news/regulation/2026/sen-warren-accuses-white-house-of-using-tariffs-to-help-big-tech/",
+    "industry": "Politics/Technology",
+    "summary": "El senador Warren acusa a la Casa Blanca de utilizar aranceles para beneficiar a las grandes empresas tecnológicas protegiéndolas de la regulación.",
+    "charlotte_impact": "Las acusaciones de políticas que favorecen a las Big Tech resaltan la compleja interacción entre el gobierno, la regulación y las empresas tecnológicas. El escrutinio sobre la posible captura regulatoria enfatiza la necesidad de políticas transparentes y equitativas para evitar influencias indebidas de los principales actores de la industria, que afectan la competitividad económica y la innovación del mercado.",
+    "impact_score": 3
+  },
+  {
+    "title": "La mayor fuente de petróleo de Singapur está bloqueada y los expertos advierten que los australianos pagarán",
+    "url": "https://www.abc.net.au/news/2026-04-02/singapore-oil-refineries-energy-shock-response/106504438",
+    "industry": "Energy",
+    "summary": "El mayor suministro de petróleo de Singapur está bloqueado y los expertos sugieren que, como resultado, los australianos tendrán que pagar más por el combustible.",
+    "charlotte_impact": "El bloqueo de la fuente de petróleo de Singapur pone de relieve las vulnerabilidades en la cadena de suministro global y el impacto potencial en los precios de la energía. El aumento de los precios podría influir en las tasas de inflación y los hábitos de gasto de los consumidores.",
+    "impact_score": 4
+  },
+  {
+    "title": "Los vendedores luchan por superar las consecuencias de la prohibición antrópica",
+    "url": "https://www.nextgov.com/acquisition/2026/04/vendors-struggle-navigate-anthropic-bans-fallout/412563/",
+    "industry": "Government/Technology",
+    "summary": "Los proveedores están luchando para sortear las posibles restricciones contra los productos Anthropic.",
+    "charlotte_impact": "La ambigüedad en torno al uso de la IA de Anthropic en proyectos con el gobierno federal podría crear confusión en el mercado y restringir las oportunidades comerciales para los proveedores. Esto indica la necesidad de directrices claras y completas sobre cómo se deben aplicar las herramientas de IA a tareas sensibles relacionadas con el gobierno.",
+    "impact_score": 3
+  },
+  {
+    "title": "La broma del Día de los Inocentes de la USPTO dice la parte tranquila en voz alta",
+    "url": "https://patentlyo.com/patent/2026/04/usptos-april-fools-prank-says-the-quiet-part-out-loud.html",
+    "industry": "Intellectual Property",
+    "summary": "El chiste del Día de los Inocentes de la USPTO refleja inquietantemente las políticas reales que afectan la elegibilidad de las patentes.",
+    "charlotte_impact": "La broma de la Oficina de Patentes y Marcas de EE. UU. sobre la correlación de la IA con precisión con la política real subraya las preocupaciones persistentes en torno a la elegibilidad de las patentes, particularmente para las patentes de IA y software. La cuestión exige una mayor claridad y coherencia en el examen de patentes.",
+    "impact_score": 3
+  },
+  {
+    "title": "La próxima generación se dirige a la Luna",
+    "url": "https://www.abc.net.au/news/2026-04-02/the-artemis-ii-mission-to-the-moon/106300532",
+    "industry": "Space Exploration",
+    "summary": "La próxima generación se dirige a la Luna. Se espera que la misión Artemis II de la NASA sea la más lejos que los humanos hayan viajado jamás.",
+    "charlotte_impact": "El avance de la misión Artemis II proporciona el impulso para un mayor avance tecnológico de muchas industrias. Una misión exitosa seguirá atrayendo el apoyo del público a la exploración espacial.",
+    "impact_score": 3
   }
 ]
