@@ -1,202 +1,122 @@
 [
   {
-    "title": "OpenAI 尚未上市，在 122B 美元的巨额融资中从散户投资者那里筹集了 30 亿美元",
-    "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-    "industry": "Venture Capital",
-    "summary": "OpenAI 在一轮 122B 美元的大规模融资中从散户投资者那里筹集了 30 亿美元，在接近 IPO 之际，该公司估值达到 8520 亿美元。",
-    "charlotte_impact": "这一轮巨额融资重申了投资者对人工智能潜力的信心，推动了该领域的进一步创新和竞争。它给 OpenAI 带来了实现投资回报的压力，可能会导致产品的快速开发和市场扩张，从而影响依赖人工智能技术的各个行业。",
-    "impact_score": 10
+    "title": "人工智能公司正在建造大型天然气工厂来为数据中心供电。可能会出什么问题？",
+    "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
+    "industry": "Energy",
+    "summary": "Meta、微软和谷歌正在大力投资天然气发电厂以支持其人工智能数据中心，引发了环境和可持续发展方面的担忧。",
+    "charlotte_impact": "人工智能数据中心对天然气的依赖凸显了人工智能日益增长的能源需求。这凸显了对可再生能源和更高效的数据中心技术进行投资的必要性，以减轻环境影响并解决长期能源安全问题。",
+    "impact_score": 8
   },
   {
-    "title": "人工智能公司正在建造大型天然气工厂来为数据中心供电。可能会出什么问题？",
-    "url": "https://techcrunch.com/2026/04/03/ai-energy-microsoft-meta-google-natural-gas-mining-fomo/",
-    "industry": "Energy",
-    "summary": "Meta、微软和谷歌正在大力投资天然气发电厂为其人工智能数据中心供电，这可能会导致环境问题。",
-    "charlotte_impact": "人工智能不断增长的能源需求为绿色能源公司创造了机会，并推动节能计算的创新。然而，对化石燃料的依赖可能会引起人们对可持续性和环境影响的担忧，从而要求公司采取更负责任的能源实践。",
-    "impact_score": 8
+    "title": "OpenAI 高管洗牌，首席运营官 Brad Lightcap 担任新职务，领导“特别项目”",
+    "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+    "industry": "AI",
+    "summary": "OpenAI 正在进行高管洗牌，首席运营官 Brad Lightcap 负责“特殊项目”，首席营销官 Kate Rouch 因健康原因辞职。",
+    "charlotte_impact": "像 OpenAI 这样的领先人工智能公司的高管变动可能标志着战略方向和优先事项的转变。这可能会影响正在开发的人工智能解决方案的类型及其目标行业，从而可能影响投资和采用趋势。",
+    "impact_score": 6
+  },
+  {
+    "title": "OpenAI 收购 TBPN，这是一档由创始人主导的热门商业脱口秀节目",
+    "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
+    "industry": "Media",
+    "summary": "OpenAI 收购了硅谷科技脱口秀节目 TBPN，将其触角扩展到媒体和内容创作领域。",
+    "charlotte_impact": "OpenAI 收购 TBPN 标志着围绕人工智能和技术塑造叙事的举措。这可能会影响公众对人工智能的看法和理解，并可能影响政策和投资决策。",
+    "impact_score": 5
   },
   {
     "title": "微软通过三种新的基础模型与人工智能竞争对手展开较量",
     "url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
-    "industry": "AI Model Development",
-    "summary": "微软通过发布三种新的基础模型来挑战人工智能竞争对手，这些模型能够将语音转录为文本、生成音频和创建图像。",
-    "charlotte_impact": "新基础模型的引入加速了人工智能在各行业的采用，可能会扰乱现有市场，并为利用这些技术的企业创造新的机会。公司必须适应快速发展的人工智能能力才能保持竞争优势。",
-    "impact_score": 9
-  },
-  {
-    "title": "Yupp 在从 a16z crypto 的 Chris Dixon 筹集了 3300 万美元后关闭",
-    "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-    "industry": "AI Startups",
-    "summary": "Yupp 是一家人工智能模型反馈初创公司，尽管从知名投资者那里筹集了 3300 万美元，但在推出后不到一年就关闭了。",
-    "charlotte_impact": "此次活动强调了投资早期人工智能初创企业的高风险性质以及实现快速市场验证的重要性。初创公司应专注于展示清晰的价值主张和可持续的商业模式，以吸引和留住投资者。",
-    "impact_score": 6
-  },
-  {
-    "title": "独家：Runway 推出 1000 万美元基金和 Builders 计划以支持早期人工智能初创公司",
-    "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
-    "industry": "Venture Capital",
-    "summary": "Runway 推出了 1000 万美元的基金和启动计划，以支持早期人工智能初创公司利用其人工智能视频模型进行构建，重点关注交互式实时视频智能。",
-    "charlotte_impact": "这项投资促进了人工智能视频领域的创新，并支持视频智能新应用的开发。它为初创公司创造了利用 Runway 模型的机会，并有可能颠覆依赖传统视频制作方法的行业。",
+    "industry": "AI",
+    "summary": "微软发布了三种新的基础模型，旨在与语音转文本、音频和图像生成方面的竞争对手竞争。",
+    "charlotte_impact": "微软发布新的基础模型标志着人工智能领域竞争和创新的加剧。这为人工智能解决方案提供了更多选择并降低了成本，从而使企业受益。",
     "impact_score": 7
+  },
+  {
+    "title": "技术下载：随着美国和海湾国家转向技术，国防初创公司着眼于伊朗战争的意外收获",
+    "url": "https://www.cnbc.com/2026/04/03/the-tech-download-defense-startups-eye-iran-war-windfall.html",
+    "industry": "Defense",
+    "summary": "随着军队寻求利用先进技术实现现代化，对国防初创公司的资助有所增加。",
+    "charlotte_impact": "对开发人工智能解决方案的国防初创公司的资金增加表明国家安全对这些技术的需求不断增长。这可以为专门从事人工智能驱动的国防应用的公司带来经济机会，同时也引发人们对在战争中使用人工智能的道德担忧。",
+    "impact_score": 7
+  },
+  {
+    "title": "OpenAI 收购科技脱口秀 TBPN 进行媒体扩张",
+    "url": "https://www.pymnts.com/acquisitions/2026/openai-buys-tech-talk-show-tbpn-in-media-expansion/",
+    "industry": "Media",
+    "summary": "OpenAI 收购了 TBPN 科技脱口秀节目，以进军媒体领域，这笔交易的价值仅为数亿美元。",
+    "charlotte_impact": "OpenAI 收购 TBPN 指向了控制信息流和塑造围绕 AI 的舆论的更大战略。这可能会影响各个领域人工智能技术的采用率和认知度。",
+    "impact_score": 5
   },
   {
     "title": "Facebook 内部人士为人工智能时代构建内容审核",
     "url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
-    "industry": "Content Moderation",
-    "summary": "Moonbounce 筹集了 1200 万美元来开发其 AI 控制引擎，该引擎可将内容审核策略转换为一致的 AI 行为。",
-    "charlotte_impact": "人工智能驱动的内容审核工具的开发对依赖用户生成内容的社交媒体平台、在线社区和企业具有广泛的影响。它可以提高安全性、减少错误信息的传播并保护品牌声誉，但也会引发对偏见和审查制度的担忧。",
+    "industry": "AI, Content Moderation",
+    "summary": "Moonbounce 获得了 1200 万美元的资金来开发其人工智能控制引擎，以实现一致且可预测的人工智能驱动的内容审核。",
+    "charlotte_impact": "人工智能驱动的内容审核的兴起对于维护在线安全和品牌声誉至关重要。对 Moonbounce 的投资表明对可靠内容审核解决方案的需求不断增长，这可以对在线生态系统产生积极影响。",
+    "impact_score": 8
+  },
+  {
+    "title": "多传感器数据标签和 AI 数据操作：企业 AV 团队的作用",
+    "url": "https://www.globenewswire.com/news-release/2026/04/03/3267980/0/en/Multi-Sensor-Data-Labeling-and-AI-Data-Operations-What-Enterprise-AV-Teams.html",
+    "industry": "Autonomous Vehicles",
+    "summary": "多传感器数据标签对于确保自动驾驶汽车人工智能的安全性和生产就绪性至关重要。",
+    "charlotte_impact": "对自动驾驶汽车数据标注和AI数据运算的重视，凸显了高质量数据在AI开发中的重要性。这凸显了专门从事数据注释和验证服务的公司的机遇，这对于自动驾驶汽车的安全可靠部署至关重要。",
+    "impact_score": 7
+  },
+  {
+    "title": "聊天机器人现在正在开精神科药物",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/906525/ai-chatbot-prescribe-refill-psychiatric-drugs",
+    "industry": "Healthcare",
+    "summary": "犹他州允许人工智能系统在没有医生直接监督的情况下开出精神科药物，以降低成本并缓解短缺。",
+    "charlotte_impact": "允许人工智能系统开出精神科药物的举动引发了有关患者安全、责任以及人类医生在医疗保健中的作用的问题。虽然它可以潜在地降低成本并改善获得护理的机会，但仔细的监控和监管对于减轻潜在风险至关重要。",
+    "impact_score": 9
+  },
+  {
+    "title": "人工智能如何帮助一个人（和他的兄弟）建立了一家价值 18 亿美元的公司",
+    "url": "https://freerepublic.com/focus/f-chat/4373465/posts",
+    "industry": "AI, Software Development",
+    "summary": "一家初创公司是使用人工智能工具进行编码而建立的，投资和时间很少。",
+    "charlotte_impact": "使用人工智能进行编码的初创公司的成功故事证明了人工智能工具的可访问性和威力不断增强。这可能会导致新软件公司的激增和传统软件开发格局的转变。",
+    "impact_score": 7
+  },
+  {
+    "title": "航空业内部真正发生的变化是什么",
+    "url": "https://skift.com/2026/04/03/whats-really-changing-inside-the-airline-industry/",
+    "industry": "Airlines",
+    "summary": "航空业正在经历领导层变化、联盟调整以及人工智能驱动的发现的采用。",
+    "charlotte_impact": "人工智能与航空业的融合意味着航空公司运营和服务客户​​方式的转变。从航班优化和预测性维护到个性化客户体验，人工智能具有提高效率、降低成本和提高乘客满意度的潜力。",
+    "impact_score": 6
+  },
+  {
+    "title": "领导力困境：管理“代理人工智能”劳动力",
+    "url": "https://www.techradar.com/pro/the-leadership-dilemma-governing-the-agentic-ai-workforce",
+    "industry": "AI, Human Resources",
+    "summary": "代理人工智能正在重塑劳动力，如果没有强有力的治理，它可能会带来组织风险。",
+    "charlotte_impact": "代理人工智能系统的出现对传统的劳动力管理提出了挑战，需要新的治理方法。这包括为人工智能自主制定明确的指导方针，确保透明度和问责制，以及对员工进行再培训以与人工智能代理有效协作。",
+    "impact_score": 8
+  },
+  {
+    "title": "人工智能在医学和药物开发中的真正问题",
+    "url": "https://kevinmd.com/2026/04/the-real-problem-with-ai-in-medicine-and-drug-development.html",
+    "industry": "Healthcare",
+    "summary": "人工智能在医学和药物开发中的真正问题是幻觉、决策不透明和引人注目的失败。",
+    "charlotte_impact": "医学人工智能中的幻觉和不透明决策的挑​​战凸显了人工智能系统强大的验证和透明度的必要性。这需要仔细关注数据质量、算法设计和可解释性，以建立信任并确保患者安全。",
     "impact_score": 8
   },
   {
     "title": "Cognichip 希望 AI 能够设计驱动 AI 的芯片，并刚刚筹集了 6000 万美元进行尝试",
     "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
     "industry": "Semiconductors",
-    "summary": "Cognichip 筹集了 6000 万美元，用于使用人工智能来设计驱动人工智能的芯片，旨在显着降低芯片开发成本和时间。",
-    "charlotte_impact": "人工智能驱动的芯片设计可以通过加速创新、降低成本和提高芯片性能来彻底改变半导体行业。这可能会带来更便宜、更强大的人工智能硬件，进一步加速人工智能在各个领域的采用。",
+    "summary": "Cognichip 筹集了 6000 万美元，用于使用 AI 来设计驱动 AI 的芯片，有望显着降低成本和开发时间。",
+    "charlotte_impact": "人工智能驱动的芯片设计有可能通过加速创新和降低成本来彻底改变半导体行业。这可能会带来更强大、更节能的人工智能硬件，使依赖人工智能技术的各个行业受益。",
     "impact_score": 9
   },
   {
     "title": "Salesforce 宣布对 Slack 进行人工智能改造，新增 30 项功能",
     "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
     "industry": "Enterprise Software",
-    "summary": "Salesforce 宣布对 Slack 进行人工智能改造，推出 30 项新功能，使该平台更加有用。",
-    "charlotte_impact": "将人工智能集成到 Slack 等企业软件中可以提高生产力、自动化任务并改善沟通。这推动了对人工智能工具的需求，并提高了工作场所的效率。",
+    "summary": "Salesforce 宣布对 Slack 进行人工智能改造，推出 30 项新的人工智能功能。",
+    "charlotte_impact": "将人工智能集成到 Slack 等企业协作工具中可以提高生产力并简化工作流程。这标志着将人工智能嵌入现有业务应用程序以增强功能和用户体验的更广泛趋势。",
     "impact_score": 7
-  },
-  {
-    "title": "Nomadic 融资 840 万美元，用于处理自动驾驶汽车中涌出的数据",
-    "url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
-    "industry": "Autonomous Vehicles",
-    "summary": "Nomadic 筹集了 840 万美元，用于处理自动驾驶汽车的数据，利用深度学习将视频片段转化为结构化、可搜索的数据集。",
-    "charlotte_impact": "有效处理和分析自动驾驶汽车数据的能力对于自动驾驶汽车的开发和部署至关重要。这笔资金支持数据管理和人工智能的创新，为自动驾驶汽车行业的进步做出贡献。",
-    "impact_score": 7
-  },
-  {
-    "title": "通过新的应用商店，Ring 押注人工智能将超越家庭安全",
-    "url": "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/",
-    "industry": "Home Security",
-    "summary": "Ring 推出了一个应用程序商店，将​​业务扩展到家庭安全之外，利用人工智能来满足老年人护理和业务需求等应用。",
-    "charlotte_impact": "这一战略举措使 Ring 能够实现收入来源多元化，并利用其现有的硬件和人工智能功能开拓新市场。它扩大了家庭安全技术的用例，并为第三方开发人员构建创新应用程序创造了机会。",
-    "impact_score": 6
-  },
-  {
-    "title": "最新民意调查显示，15% 的美国人表示他们愿意为人工智能老板工作",
-    "url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
-    "industry": "Workforce Management",
-    "summary": "一项民意调查显示，15% 的美国人愿意为分配任务和设定时间表的人工智能老板工作。",
-    "charlotte_impact": "人工智能在工作场所管理中的日益采用引发了人们对工作的未来和人类管理者的角色的疑问。它还强调需要明确的道德准则和透明度，以确保公平公正地对待员工。",
-    "impact_score": 6
-  },
-  {
-    "title": "人工智能引领创纪录的交易流，而能源现实迫在眉睫",
-    "url": "https://oilprice.com/Energy/Energy-General/AI-Leads-Record-Deal-Flow-While-Energy-Reality-Looms.html",
-    "industry": "Investment",
-    "summary": "人工智能引领创纪录的交易流，而能源现实迫在眉睫，这表明尽管存在能源问题，人工智能公司在第一季度的并购数量仍然领先。",
-    "charlotte_impact": "这一趋势凸显出，尽管面临更广泛的经济挑战，但对人工智能的持续强劲投资。这表明投资者相信人工智能将成为未来增长和价值创造的关键驱动力，尽管它会带来能源成本。",
-    "impact_score": 8
-  },
-  {
-    "title": "人工智能文档的谎言和错误平衡",
-    "url": "https://www.techdirt.com/2026/04/02/the-ai-docs-falsehoods-and-false-balance/",
-    "industry": "Media",
-    "summary": "AI Doc’s Falsehoods And False Balance - 讨论当证据支持一方时，媒体未能将相反的观点呈现为同样有效。",
-    "charlotte_impact": "这篇评论强调了在消费人工智能信息时对媒体素养和批判性思维的迫切需要。平衡的报告不应等同于接受错误信息，尤其是在具有深远社会影响的领域。",
-    "impact_score": 5
-  },
-  {
-    "title": "国际事实核查日，刷新AI识别技能",
-    "url": "https://www.bostonherald.com/2026/04/02/fact-checking-ai-images/",
-    "industry": "Media Literacy",
-    "summary": "在国际事实核查日，由于人工智能生成内容的激增，需要更新人工智能识别技能。",
-    "charlotte_impact": "越来越多地使用人工智能来创建内容，迫切需要加强事实核查和媒体素养。这就产生了对能够识别人工智能生成的内容并打击错误信息的工具和资源的需求。",
-    "impact_score": 7
-  },
-  {
-    "title": "高原杀戮：Tinubu 订购 5,000 个闭路电视摄像机",
-    "url": "https://punchng.com/plateau-killings-tinubu-orders-5000-cctv-cameras/",
-    "industry": "Government/Security",
-    "summary": "蒂努布总统下令在高原州安装 5,000 个人工智能闭路电视摄像机，以遏制暴力。",
-    "charlotte_impact": "人工智能监控技术的部署引发了有关隐私和公民自由的问题。该项目需要仔细考虑道德影响并制定强有力的保障措施以防止滥用和误用该技术。",
-    "impact_score": 8
-  },
-  {
-    "title": "与人工智能的战争不可避免吗？",
-    "url": "https://www.psychologytoday.com/us/blog/experimentations/202604/is-war-with-ai-unavoidable",
-    "industry": "Ethics",
-    "summary": "检查人工智能战争的风险，并强调我们如何看待和处理潜在威胁的危险。",
-    "charlotte_impact": "本文强调需要对人工智能的开发和部署进行积极的道德讨论。至关重要的是，我们积极塑造人工智能的发展轨迹，使其与我们的价值观保持一致，并确保它仍然是进步的工具，而不是冲突的工具。",
-    "impact_score": 7
-  },
-  {
-    "title": "房东正在使用“极其不可靠”的人工智能来解决与租户的纠纷",
-    "url": "https://www.realtor.com/advice/rent/landlord-renter-problems-ai-solutions-legal-issues/?cid=eml__1946:66e221571a4446d4e6969d41:rm202604021030_Marketing_Consumer_Daily_EditorialRSSDynamic",
-    "industry": "Real Estate",
-    "summary": "房东正在使用“极其不可靠”的人工智能来解决与租户的纠纷，引发了人们对公平性的担忧。",
-    "charlotte_impact": "这揭示了在没有适当验证和监督的情况下使用人工智能的陷阱。使用不可靠的人工智能系统可能会导致不公平或有偏见的结果，给企业带来法律和道德风险。它强调了人工智能透明度和问责制的重要性。",
-    "impact_score": 7
-  },
-  {
-    "title": "前人工智能内部人士表示，人工智能如何摧毁或拯救人类",
-    "url": "https://www.businessinsider.com/former-ai-insiders-share-hard-truths-about-living-with-technology-2026-4",
-    "industry": "Future of AI",
-    "summary": "前人工智能内部人士争论人工智能是否会消除就业机会、重塑权力并在医学和教育领域实现突破。",
-    "charlotte_impact": "这概括了围绕人工智能未来的核心焦虑和希望。它强调了政策制定者、研究人员和企业迫切需要共同努力，以最大限度地发挥人工智能的优势，同时降低其风险。",
-    "impact_score": 8
-  },
-  {
-    "title": "雇主透露，人工智能在短短三个月内就让 2026 年科技公司裁员人数超过 5 万人",
-    "url": "https://nypost.com/2026/04/02/business/ai-pushes-2026-tech-layoffs-past-50k-and-counting-employers-say/",
-    "industry": "Employment",
-    "summary": "人工智能在短短三个月内就让 2026 年科技公司裁员人数超过 5 万人，引发了人们对人工智能对就业影响的担忧。",
-    "charlotte_impact": "这一统计数据表明人工智能驱动的自动化对就业市场的影响越来越大。它强调了劳动力再培训计划和社会安全网的必要性，以支持因人工智能而失业的工人，并确保向未来工作的公正过渡。",
-    "impact_score": 9
-  },
-  {
-    "title": "OpenAI 收购 TBPN，这是一档由创始人主导的热门商业脱口秀节目",
-    "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
-    "industry": "Media",
-    "summary": "OpenAI 收购了由创始人主导的热门商业脱口秀节目 TBPN，并在首席政治执行官 Chris Lehane 的领导下独立运营。",
-    "charlotte_impact": "此次收购为 OpenAI 提供了一个宝贵的平台，可以塑造围绕人工智能的公共话语并影响政策决策。它标志着与政策制定者和公众接触的战略努力，可能会影响人工智能技术的监管环境和社会接受度。",
-    "impact_score": 6
-  },
-  {
-    "title": "OpenAI：结束其人工智能视频功能",
-    "url": "https://theweek.com/business/openai-ending-ai-video-sora",
-    "industry": "AI Development",
-    "summary": "OpenAI 即将结束其人工智能视频功能，这标志着公司内部进入了新的紧缩时代。",
-    "charlotte_impact": "这一决定可能标志着 OpenAI 战略的转变，可能会关注核心 AI 功能而不是实验功能。它还可能影响人工智能视频生成的创新步伐，并为其他参与者创造填补空白的机会。",
-    "impact_score": 5
-  },
-  {
-    "title": "黑客利用 CVE-2025-55182 破坏 766 个 Next.js 主机，窃取凭证",
-    "url": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
-    "industry": "Cybersecurity",
-    "summary": "黑客利用 CVE-2025-55182 入侵 766 个 Next.js 主机，窃取凭证和敏感信息。",
-    "charlotte_impact": "这一事件凸显了人工智能系统越来越容易受到网络攻击。随着人工智能越来越融入关键基础设施，强大的安全措施和持续监控对于防止数据泄露和恶意使用至关重要。",
-    "impact_score": 7
-  },
-  {
-    "title": "有报道称克里斯蒂·诺姆的丈夫布莱恩变装。这是你需要知道的",
-    "url": "https://www.snopes.com//news/2026/04/02/kristi-noem-husband-bryon-cross-dresses/",
-    "industry": "Political Misinformation",
-    "summary": "有报道称克里斯蒂·诺姆的丈夫布莱恩曾女扮男装；分析的图像没有显示出数字操纵或人工智能软件的迹象。",
-    "charlotte_impact": "虽然这个故事与人工智能没有直接关系，但提到验证图像以进行人工智能操纵，凸显了人们对使用人工智能制造和传播错误信息的日益担忧，特别是在政治领域。它强调了验证各种来源信息的重要性。",
-    "impact_score": 4
-  },
-  {
-    "title": "WildBrain 澄清了人工智能在“超级马里奥兄弟超级秀！”和其他修复中的使用",
-    "url": "https://www.cartoonbrew.com/artificial-intelligence/wildbrain-comment-ai-mario-super-show-259792.html",
-    "industry": "Entertainment",
-    "summary": "WildBrain 澄清了其在“超级马里奥兄弟超级秀！”中使用人工智能的情况和其他修复工作，并表示它使用“人类主导、人工智能辅助的流程”。",
-    "charlotte_impact": "这说明人工智能在创意产业中越来越多地用于内容恢复和增强。然而，它也强调了人工智能应用中透明度和道德考虑的重要性，以确保人类创造力保持在最前沿。",
-    "impact_score": 5
-  },
-  {
-    "title": "大黄蜂表现出节奏感，令科学家大吃一惊",
-    "url": "https://www.newscientist.com/article/2522005-bumblebees-surprise-scientists-by-showing-a-sense-of-rhythm/",
-    "industry": "Science",
-    "summary": "大黄蜂表现出节奏感，挑战了之前关于大脑大小和认知能力的假设，令科学家们感到惊讶。",
-    "charlotte_impact": "虽然与人工智能没有直接关系，但这一发现强调了生物和人工智能和学习的复杂性。它可以通过从自然中汲取洞察并探索意想不到的地方智能行为的潜力，从而激发人工智能开发的新方法。",
-    "impact_score": 4
   }
 ]
