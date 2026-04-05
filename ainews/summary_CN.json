@@ -1,170 +1,98 @@
 [
   {
-    "title": "OpenAI 尚未上市，在 122B 美元的巨额融资中从散户投资者那里筹集了 30 亿美元",
-    "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-    "industry": "Artificial Intelligence",
-    "summary": "OpenAI 在 122B 轮融资中从散户投资者那里筹集了 30 亿美元，该公司估值达到 8520 亿美元，这表明投资者对该公司准备潜在 IPO 的信心强劲。",
-    "charlotte_impact": "对OpenAI的巨额投资凸显了巨大的资本流入人工智能领域，有可能推动创新并吸引人才进入人工智能相关领域。这进一步凸显了人工智能的竞争格局以及公司获得资金以保持竞争力的必要性。人工智能投资间接惠及云计算、数据中心和芯片制造等其他行业。",
-    "impact_score": 9
-  },
-  {
     "title": "人工智能公司正在建造大型天然气工厂来为数据中心供电。可能会出什么问题？",
     "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
-    "industry": "Energy",
-    "summary": "Meta、微软和谷歌等科技巨头正在大力投资天然气发电厂，为其人工智能数据中心提供动力，这引发了人们对环境可持续性和长期能源战略的担忧。",
-    "charlotte_impact": "人工智能不断增长的能源需求可能会导致对天然气基础设施的投资和依赖增加。需求的增加可能会推高能源成本，并增加人们对这些投资对环境影响的担忧。可再生能源和分布式能源解决方案的需求可能会增加。",
+    "industry": "Energy, Technology",
+    "summary": "Meta、微软和谷歌正在大力投资天然气发电厂以支持其人工智能数据中心，引发了人们对长期可持续性和未来潜在遗憾的环境担忧。",
+    "charlotte_impact": "这一趋势凸显了人工智能的巨大能源消耗，可能会增加对天然气的需求和依赖。这可能会导致能源基础设施投资的转变，可能会倾向于天然气动力设施而不是可再生能源，并引发有关人工智能开发的环境成本的问题。对确保可靠能源的关注将影响能源市场、技术开发（能源生产和效率）以及潜在的数据中心周围的监管环境。",
     "impact_score": 8
   },
   {
-    "title": "OpenAI 高管洗牌，首席运营官 Brad Lightcap 担任新职务，领导“特殊项目”",
+    "title": "OpenAI 高管洗牌，首席运营官 Brad Lightcap 担任新职务，领导“特别项目”",
     "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
-    "industry": "Artificial Intelligence",
-    "summary": "OpenAI 宣布进行高管改组，首席运营官 Brad Lightcap 负责新的“特殊项目”，首席营销官 Kate Rouch 因健康问题辞职。",
-    "charlotte_impact": "主要人工智能公司的高管变动可能标志着战略转变和优先事项的潜在调整。在这种情况下，此举意味着 OpenAI 正在优先考虑与战略问题相关的“特殊项目”。这些举措通过影响其他人工智能公司的招聘、投资和发展优先事项，在更广泛的行业中产生连锁反应。",
+    "industry": "Technology",
+    "summary": "OpenAI 宣布进行高管改组，首席运营官 Brad Lightcap 承担“特殊项目”，首席营销官 Kate Rouch 因健康原因辞职，这标志着公司内部战略的转变。",
+    "charlotte_impact": "OpenAI 等领先人工智能公司的高管洗牌可能会影响研发方向。领导角色的变化可能会改变战略优先事项，从而可能影响人工智能生态系统内的特定项目和举措。这些转变可能会影响创新的步伐和所追求的人工智能解决方案的类型。 Brad Lightcap 的经验可以让 OpenAI 关注新领域。",
     "impact_score": 5
   },
   {
     "title": "OpenAI 收购 TBPN，这是一档由创始人主导的热门商业脱口秀节目",
     "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
-    "industry": "Media",
-    "summary": "OpenAI 收购了热门商业脱口秀节目 TBPN，这表明 OpenAI 正在努力扩大其在科技和商业界的影响力。",
-    "charlotte_impact": "收购媒体平台可以帮助人工智能公司塑造公众认知并吸引人才。此次收购表明 OpenAI 有兴趣影响人工智能的叙述并利用媒体来渗透更广泛的市场。此类举措可能会刺激更多科技公司投资或收购媒体资产。",
+    "industry": "Media, Technology",
+    "summary": "OpenAI 收购了热门科技播客 TBPN，在首席政治执行官 Chris Lehane 的监督下独立运营，标志着其进军媒体和内容创作领域。",
+    "charlotte_impact": "此次收购表明 OpenAI 希望影响人工智能的叙事，并通​​过媒体直接与技术社区互动。它还强调了内容和通信在塑造公众认知和人工智能技术采用方面日益重要。 Chris Lehane 的背景表明了管理人工智能的政治和社会影响的战略利益。",
     "impact_score": 4
   },
   {
     "title": "微软通过三种新的基础模型与人工智能竞争对手展开较量",
     "url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
-    "industry": "Artificial Intelligence",
-    "summary": "微软发布了三个新的基础人工智能模型，展示了其对人工智能领域竞争的持续承诺，并提供语音转文本、音频生成和图像生成工具。",
-    "charlotte_impact": "微软对人工智能模型开发的投资加速了基本人工智能功能的商品化，使企业更容易将人工智能集成到其工作流程中。它还会增加竞争，并可能降低人工智能解决方案的成本，从而增加小企业和初创企业的机会。",
+    "industry": "Technology",
+    "summary": "微软发布了三种新的基础人工智能模型，能够转录语音、生成音频和创建图像，展示了其与 OpenAI 和谷歌等其他人工智能巨头竞争的承诺。",
+    "charlotte_impact": "微软发布新的基础模型加剧了人工智能领域的竞争，推动了创新并可能降低人工智能服务的成本。这些模型可以集成到各种 Microsoft 产品和服务中，从而影响依赖 Microsoft 生态系统的企业。更广泛的影响是不同行业加速采用人工智能功能。",
     "impact_score": 7
   },
   {
-    "title": "Yupp 在从 a16z crypto 的 Chris Dixon 筹集了 3300 万美元后关闭",
-    "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-    "industry": "Artificial Intelligence",
-    "summary": "AI 模型反馈初创公司 Yupp 在筹集 3300 万美元后不到一年就关闭了，这表明快速发展的 AI 初创公司面临着挑战和风险。",
-    "charlotte_impact": "Yupp 的关闭凸显了投资早期人工智能初创公司的高风险性质，即使有大量资金。这表明提供众包人工智能模型反馈是一种困难的商业模式，可能会导致人工智能领域的投资者进行更严格的尽职调查。",
-    "impact_score": 6
-  },
-  {
-    "title": "据《纽约时报》报道，埃隆·马斯克要求 SpaceX IPO 银行购买 Grok AI 订阅服务",
-    "url": "https://economictimes.indiatimes.com/tech/technology/elon-musk-asks-spacex-ipo-banks-to-buy-grok-ai-subscriptions-nyt-reports/articleshow/130008859.cms",
-    "industry": "Finance",
-    "summary": "据报道，埃隆·马斯克 (Elon Musk) 要求 SpaceX IPO 银行购买 Grok AI 订阅，这可能会影响其 AI 聊天机器人的采用。",
-    "charlotte_impact": "马斯克的这一举动可能会迫使金融机构采用 Grok AI 来支持 SpaceX 的 IPO，这可能会扭曲市场的采用，并引发人们对使用经济激励来推广人工智能技术的道德影响的质疑。它凸显了科技和金融领域的有权势人物在塑造人工智能市场方面的影响力。",
-    "impact_score": 7
-  },
-  {
-    "title": "SpaceX IPO：埃隆·马斯克要求 SpaceX IPO 银行购买 Grok AI 订阅。这就是为什么",
-    "url": "https://economictimes.indiatimes.com/news/international/us/spacex-ipo-elon-musk-asks-spacex-ipo-banks-to-buy-grok-ai-subscriptions-heres-why/articleshow/130008801.cms",
-    "industry": "Finance",
-    "summary": "受购买 Grok AI 订阅指令的影响，摩根士丹利、高盛、摩根大通、美国银行和花旗集团等顶级银行担任 SpaceX IPO 的活跃账簿管理人。",
-    "charlotte_impact": "作为 SpaceX IPO 交易的一部分，主要金融机构参与推广 Grok AI 可能会加速人工智能在金融领域的整合。它还凸显了这些机构对新兴人工智能技术的依赖。这种整合的成功或失败可能会影响其他金融公司的人工智能采用策略。",
-    "impact_score": 6
+    "title": "人工智能招聘初创公司 Mercor 遭受网络攻击； Meta 停止合作",
+    "url": "https://economictimes.indiatimes.com/tech/technology/ai-recruiting-startup-mercor-hit-by-cyberattack-meta-halts-collaboration/articleshow/130017880.cms",
+    "industry": "Cybersecurity, Recruiting",
+    "summary": "人工智能招聘初创公司 Mercor 因广泛使用的平台 LiteLLM 遭到攻击而遭受网络攻击，导致 Meta 停止合作并引发人们对人工智能供应链安全的担忧。",
+    "charlotte_impact": "这一事件凸显了人工智能系统易受网络攻击的脆弱性以及强有力的安全措施的重要性。它强调了 LiteLLM 等共享资源泄露的潜在连锁反应，影响了众多组织。这需要对人工智能生态系统内的网络安全进行更多的尽职调查和投资，特别是在第三方依赖性方面。 Meta 停止合作是潜在严重影响的迹象。",
+    "impact_score": 9
   },
   {
     "title": "Facebook 内部人士为人工智能时代构建内容审核",
     "url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
-    "industry": "Artificial Intelligence",
-    "summary": "Moonbounce 为其旨在内容审核的人工智能控制引擎筹集了 1200 万美元，这反映出对人工智能驱动的解决方案来管理在线内容的需求不断增长。",
-    "charlotte_impact": "Moonbounce 的融资凸显了对人工智能驱动的内容审核工具不断增长的需求。生成式人工智能的兴起需要先进的审核工具来确保在线安全和合规性。 Moonbounce 的成功将影响在线平台、社交媒体和企业通信工具的信任和安全措施。",
-    "impact_score": 7
+    "industry": "Technology, Content Moderation",
+    "summary": "Moonbounce 筹集了 1200 万美元用于开发其 AI 控制引擎，旨在将内容审核策略转化为可预测的 AI 行为，解决确保 AI 内容审核一致性的挑战。",
+    "charlotte_impact": "Moonbounce 的技术满足了人工智能生成内容时代对一致且可预测的内容审核的关键需求。这可以减轻人类版主的负担，提高内容过滤的准确性和公平性，从而减轻声誉风险并促进负责任的人工智能使用。此次融资表明投资者对人工智能驱动的内容审核解决方案日益增长的需求充满信心。",
+    "impact_score": 6
   },
   {
     "title": "Cognichip 希望 AI 能够设计驱动 AI 的芯片，并刚刚筹集了 6000 万美元进行尝试",
     "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
-    "industry": "Semiconductors",
-    "summary": "Cognichip筹集了6000万美元用于开发人工智能驱动的芯片设计，旨在大幅降低芯片开发所需的成本和时间。",
-    "charlotte_impact": "人工智能驱动的芯片设计有望彻底改变半导体行业，降低成本并加速创新。这对所有依赖先进芯片的技术领域都有更广泛的影响。其影响可能包括提高芯片制造的竞争力、缩短产品开发周期以及更容易获得定制芯片解决方案。",
+    "industry": "Semiconductors, Technology",
+    "summary": "Cognichip获得了6000万美元的资金，用于开发设计AI芯片的AI，旨在显着降低与芯片开发相关的成本和时间。",
+    "charlotte_impact": "Cognichip 的方法可能会彻底改变芯片设计，从而为人工智能应用带来更快的创新周期和更高效的硬件。这有可能降低开发人工智能解决方案的公司的进入门槛，创造更具竞争力的格局。该技术还可以创建针对特定人工智能工作负载的专用芯片，从而提高性能并降低能耗。",
     "impact_score": 8
   },
   {
-    "title": "Salesforce 宣布对 Slack 进行人工智能改造，新增 30 项功能",
-    "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
-    "industry": "Software",
-    "summary": "Salesforce 宣布对 Slack 进行人工智能改造，推出 30 项新功能，这表明人工智能已广泛集成到企业软件中。",
-    "charlotte_impact": "将人工智能集成到 Slack 等平台中标志着人工智能在企业协作和生产力中的作用日益增强。人工智能驱动的功能提高了效率和工作流程自动化。人工智能集成 Slack 的成功可以为企业通信平台设立新的行业标准。",
+    "title": "曼尼托巴省新民主党政府向温尼伯人工智能呼叫筛选公司提供 47.5 万美元贷款",
+    "url": "https://www.cbc.ca/news/canada/manitoba/jasper-vocal-ai-insurance-grant-ndp-govrnment-9.7151769",
+    "industry": "Government, Technology, Insurance",
+    "summary": "马尼托巴省政府向专注于保险行业的人工智能销售电话筛选公司 JasperVOCAL 提供了 475,000 美元的贷款，反映了政府对特定行业采用人工智能的支持。",
+    "charlotte_impact": "政府对 JasperVOCAL 等人工智能初创公司的投资可以促进当地科技行业的创新和经济增长。此类支持可以鼓励保险等传统行业采用人工智能，从而提高效率和潜在的新商业模式。然而，它也引发了有关政府参与私营部门企业以及选择接受者的标准的问题。",
+    "impact_score": 3
+  },
+  {
+    "title": "Google Stitch：改变交互式原型的构建方式",
+    "url": "https://www.geeky-gadgets.com/google-stitch-features/",
+    "industry": "Technology, Design",
+    "summary": "Google Stitch 将人工智能集成到创意工作流程中，将对话界面与先进的设计功能相结合，实现 ID8 创意生成器等功能。",
+    "charlotte_impact": "Google Stitch 可以通过提供人工智能驱动的构思和原型设计工具来提高设计师的生产力和创造力。将人工智能融入设计工作流程有可能加速设计过程，并能够创造出更具创新性和用户友好性的产品。该平台还可以通过提供人工智能驱动的设计帮助来降低有抱负的设计师的进入门槛。",
+    "impact_score": 5
+  },
+  {
+    "title": "人工智能现在可以在犹他州为你开精神科药物",
+    "url": "https://uk.pcmag.com/ai/164231/ai-can-now-prescribe-you-psychiatric-medication-in-utah",
+    "industry": "Healthcare, Technology",
+    "summary": "犹他州的一个试点项目允许 Doctronic 的人工智能聊天机器人开出精神科药物，但对其可以开出的药物有警告。",
+    "charlotte_impact": "使用人工智能来开精神科药物有可能增加获得精神保健的机会，特别是在服务不足的地区。然而，它引起了重大的道德和安全问题，包括误诊、过度处方和缺乏人工监督的可能性。广泛采用需要仔细的监管、强大的测试以及公众对人工智能能力的信任。",
     "impact_score": 7
   },
   {
-    "title": "马斯克想要一百万颗数据中心卫星。贝索斯想要 51,600。科学家想知道原因。",
-    "url": "https://thenextweb.com/news/musk-wants-a-million-data-centre-satellites-bezos-wants-51600-scientists-want-to-know-why/",
-    "industry": "Aerospace",
-    "summary": "马斯克和贝佐斯计划启动重要的卫星网络来支持数据中心，这引发了人们对此类项目对环境和科学影响的担忧。",
-    "charlotte_impact": "将数据中心移入轨道进行人工智能处理的努力可能会为航空航天、卫星技术和太空发电领域的公司带来经济机会。然而，环境和科学后果要求进行彻底的风险评估和监管框架，以保护地球轨道并尽量减少空间碎片。",
-    "impact_score": 6
-  },
-  {
-    "title": "在首席执行官表示正在拥抱 Gen AI 两个月后，Take-Two 解雇了 AI 主管和几名团队成员",
-    "url": "https://www.tweaktown.com/news/110863/take-two-lays-off-its-head-of-ai-and-several-team-members-just-two-months-after-the-ceo-said-it-was-embracing-gen-ai/index.html",
-    "industry": "Gaming",
-    "summary": "Take-Two 在表达了对 GenAI 的热情后不久就解雇了 AI 主管和团队成员，并指出了在游戏中实施 AI 的一些挑战。",
-    "charlotte_impact": "Take-Two 的裁员表明人工智能在游戏行业并不能保证成功，采用人工智能可能需要仔细的规划和明确的策略。此举可能会导致其他游戏公司重新评估其人工智能投资和部署计划。这可能会影响未来的游戏开发以及 GenAI 与创意工作流程的集成。",
+    "title": "第一夫人梅拉尼娅·特朗普：人工智能可以改善教学并帮助为我们的孩子提供世界一流的教育",
+    "url": "https://www.foxnews.com/opinion/first-lady-melania-trump-ai-could-improve-teaching-help-deliver-world-class-education-children",
+    "industry": "Education, Technology",
+    "summary": "梅拉尼娅·特朗普强调了人工智能通过个性化辅导工具改善教学并使服务不足的社区接受教育民主化的潜力。",
+    "charlotte_impact": "人工智能驱动的辅导工具可以个性化学习体验，并为学生提供个性化支持，从而有可能解决教育差异。更广泛的采用还可以推动对更容易获得和负担得起的教育技术的需求，从而形成更公平的教育体系。需要解决围绕数据隐私和算法偏见的道德考虑，以确保公平和包容的结果。",
     "impact_score": 4
   },
   {
-    "title": "特朗普的 27 财年预算既增加又削减了科技业务",
-    "url": "https://www.nextgov.com/policy/2026/04/trumps-fy27-budget-makes-both-boosts-and-cuts-tech-operations/412621/",
-    "industry": "Government",
-    "summary": "特朗普的 27 财年预算包括对各种科技业务的增加和削减，反映了联邦优先事项和技术投资的变化。",
-    "charlotte_impact": "CISA 和 NIST 预算的削减以及能源和 VA 项目资金的增加意味着技术资源的重新分配，这将重塑这些机构各自的人工智能计划。这种重新分配将影响联邦政府机构和私营部门的技术开发和研究。",
-    "impact_score": 5
-  },
-  {
-    "title": "两架美国空军飞机在伊朗附近坠毁后，假视频已经开始传播",
-    "url": "https://gizmodo.com/fake-videos-are-already-spreading-after-two-us-air-force-planes-go-down-near-iran-2000742160",
-    "industry": "Media",
-    "summary": "两架美国空军飞机坠毁后，虚假视频开始传播，这表明利用生成式人工智能工具打击错误信息所面临的持续挑战。",
-    "charlotte_impact": "人工智能生成的围绕敏感事件的错误信息的迅速传播表明，打击深度造假和虚假信息的挑战仍在继续。这需要改进内容认证和检测技术。这个问题对媒体素养、公众信任和信息生态系统的完整性具有影响。",
+    "title": "这项新的人工智能法案不仅仅是禁止监视美国人",
+    "url": "https://www.bgr.com/2134999/ai-bill-bans-mass-surveillance-kill-decisions/",
+    "industry": "Government, Technology",
+    "summary": "美国一项新的人工智能法案旨在规范人工智能的使用，包括禁止大规模监视和“杀戮决定”。",
+    "charlotte_impact": "该法案标志着人们越来越意识到负责任的人工智能开发和部署的必要性。有关监视和自主决策的法规可能会影响依赖这些技术的行业，要求它们采取更严格的道德准则和透明度措施。该立法的影响将取决于其具体条款和执行机制，但这一努力标志着人工智能治理的更广泛趋势。",
     "impact_score": 6
-  },
-  {
-    "title": "数字货币有一个新的支付标准，但它不是为人类而设计的",
-    "url": "https://www.pymnts.com/digital-payments/2026/digital-money-has-a-new-payment-standard-and-its-not-built-for-humans/",
-    "industry": "Finance",
-    "summary": "一种专为机器对机器交易而设计的新数字支付标准的出现，凸显了对自动化数字金融系统日益增长的需求。",
-    "charlotte_impact": "为机器对机器交易构建的数字支付标准的开发简化了自动化金融系统。这种新结构提高了业务效率并减少了人际交互的开销。这一趋势将加速供应链、电子商务和其他交易服务的自动化，从而有可能降低运营成本并扩大市场准入。",
-    "impact_score": 6
-  },
-  {
-    "title": "麻省理工学院创建了重复的人工智能工作者来处理数千个不同的任务。判决结果？大多数时候人工智能仍然只是“最低限度足够”",
-    "url": "https://fortune.com/2026/04/03/mit-finds-ai-mostly-produces-minimally-sufficient-work/",
-    "industry": "Artificial Intelligence",
-    "summary": "麻省理工学院的研究表明，人工智能在大约 65% 的情况下是“最低限度足够的”，这突显了在实现复杂而可靠的人工智能方面持续存在的局限性和挑战。",
-    "charlotte_impact": "麻省理工学院的研究表明，人工智能在简单任务上比在复杂任务上更成功。这向企业和消费者发出信号，过度依赖人工智能可能会产生负面影响，特别是在处理复杂问题时。这项研究强调了人工智能期望与当前现实世界表现之间的差距，并可以导致人工智能在商业环境中更好的集成。",
-    "impact_score": 5
-  },
-  {
-    "title": "英国金融科技公司 VibePay 和 Smartlayer 关闭",
-    "url": "https://www.pymnts.com/business/2026/uk-fintechs-vibepay-and-smartlayer-close-down/",
-    "industry": "Finance",
-    "summary": "英国金融科技公司 VibePay 和 Smartlayer 倒闭，表明一些金融科技公司在数字支付市场的竞争中举步维艰。",
-    "charlotte_impact": "英国金融科技公司 VibePay 和 Smartlayer 的关闭标志着数字支付领域的竞争日益激烈，即使在成熟经济体也是如此。这次失败表明金融科技公司需要有明确的价值主张和可持续的商业模式。这一结果凸显了初创企业在获得资本和适应市场变化方面面临的挑战。",
-    "impact_score": 3
-  },
-  {
-    "title": "流数据集 0.1.2",
-    "url": "https://pypi.org/project/stream-dataset/0.1.2/",
-    "industry": "Artificial Intelligence",
-    "summary": "STREAM（评估人工记忆的顺序任务回顾）是一个包含 12 个不同顺序任务的数据集，用于评估神经网络的记忆。",
-    "charlotte_impact": "用于评估人工记忆能力的 STREAM 的开发强调了业界对提高人工智能的长期记忆和预测能力的关注。这类基准数据集对于人工智能和机器学习领域的进步非常重要。",
-    "impact_score": 6
-  },
-  {
-    "title": "随着 NAND 稀缺性的加剧，人工智能的上下文内存爆炸式增长撞上了存储墙",
-    "url": "https://siliconangle.com/2026/04/03/context-memory-explosion-hits-storage-wall-nvidiagtcai/",
-    "industry": "Data Storage",
-    "summary": "随着 NAND 稀缺性的加剧，人工智能不断增长的上下文内存需求正在引发存储墙问题。",
-    "charlotte_impact": "由于人工智能模型需要增加上下文记忆才能发挥作用，存储行业也会做出同样的反应。这凸显了专门从事更大、更快存储解决方案的公司的机会，同时可能增加人工智能硬件的成本。",
-    "impact_score": 7
-  },
-  {
-    "title": "播客回放：Apple 的 AI 未来、Legion Go 的回归、Niléane 的应用程序以及 MacSparky 的采访",
-    "url": "https://www.macstories.net/news/podcast-rewind-apples-ai-future-the-legion-gos-return-nileanes-app-and-an-interview-with-macsparky/",
-    "industry": "Technology Media",
-    "summary": "播客讨论 Apple 的 AI 未来、Legion Go 的回归等。",
-    "charlotte_impact": "尽管内容很高级，但此类讨论通过在市场中建立技术对话并影响投资者的前景来推动投资和创新。",
-    "impact_score": 3
   }
 ]
