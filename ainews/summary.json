@@ -1,98 +1,98 @@
 [
   {
-    "title": "AI companies are building huge natural gas plants to power data centers. What could go wrong?",
-    "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
-    "industry": "Energy, Technology",
-    "summary": "Meta, Microsoft, and Google are investing heavily in natural gas power plants to support their AI data centers, raising environmental concerns about long-term sustainability and potential future regrets.",
-    "charlotte_impact": "This trend highlights the significant energy consumption of AI, potentially increasing demand for and dependence on natural gas. This could lead to shifts in energy infrastructure investment, potentially favoring gas-powered facilities over renewable energy sources, and raising questions about the environmental costs of AI development. The focus on securing reliable energy sources will impact energy markets, technology development (for both energy production and efficiency), and potentially the regulatory landscape surrounding data centers.",
-    "impact_score": 8
-  },
-  {
-    "title": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead \u2018special projects\u2019",
-    "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
-    "industry": "Technology",
-    "summary": "OpenAI announced an executive shuffle, with COO Brad Lightcap taking on 'special projects' and CMO Kate Rouch stepping back for health reasons, signaling internal strategic shifts within the company.",
-    "charlotte_impact": "Executive shuffles in leading AI companies like OpenAI can influence the direction of research and development. Changes in leadership roles might alter strategic priorities, potentially impacting specific projects and initiatives within the AI ecosystem. These shifts could affect the pace of innovation and the types of AI solutions being pursued. Brad Lightcap's experience could bring focus to new areas for OpenAI.",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI acquires TBPN, the buzzy founder-led business talk show",
-    "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
-    "industry": "Media, Technology",
-    "summary": "OpenAI acquired TBPN, a popular tech podcast, to operate independently under the supervision of chief political operative Chris Lehane, marking a move into media and content creation.",
-    "charlotte_impact": "This acquisition shows OpenAI's desire to influence the narrative around AI and engage directly with the tech community through media. It also highlights the growing importance of content and communication in shaping public perception and adoption of AI technologies. Chris Lehane's background points to a strategic interest in managing the political and social implications of AI.",
-    "impact_score": 4
+    "title": "Copilot is \u2018for entertainment purposes only,\u2019 according to Microsoft\u2019s terms of use",
+    "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+    "industry": "AI Governance",
+    "summary": "Microsoft's terms of use for Copilot state it is 'for entertainment purposes only,' highlighting the inherent risks and limitations of AI models and the need for user discretion.",
+    "charlotte_impact": "This statement forces users to accept full responsibility for any actions that arise from using Microsoft Copilot. While disclaimers like this protect the creators from liability, businesses need to perform comprehensive oversight to ensure quality outputs and avoid mistakes from overreliance on AI tools.",
+    "impact_score": 7
   },
   {
     "title": "Microsoft takes on AI rivals with three new foundational models",
     "url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
-    "industry": "Technology",
-    "summary": "Microsoft released three new foundational AI models capable of transcribing voice, generating audio, and creating images, demonstrating its commitment to competing with other AI giants like OpenAI and Google.",
-    "charlotte_impact": "The release of new foundational models by Microsoft intensifies competition in the AI sector, driving innovation and potentially lowering the cost of AI-powered services. These models could be integrated into various Microsoft products and services, impacting businesses that rely on the Microsoft ecosystem. The broader effect is accelerated adoption of AI capabilities across different industries.",
-    "impact_score": 7
+    "industry": "AI Development",
+    "summary": "Microsoft released three new foundational AI models. This marks Microsoft's ongoing investment and competition in the AI foundational model space.",
+    "charlotte_impact": "New foundational models offer improved performance and capabilities. Businesses can leverage these advances to create more sophisticated AI-powered solutions, leading to greater efficiency and innovation across various industries. This increased competition among foundational model providers could drive down costs, making AI more accessible.",
+    "impact_score": 8
   },
   {
-    "title": "AI recruiting startup Mercor hit by cyberattack; Meta halts collaboration",
-    "url": "https://economictimes.indiatimes.com/tech/technology/ai-recruiting-startup-mercor-hit-by-cyberattack-meta-halts-collaboration/articleshow/130017880.cms",
-    "industry": "Cybersecurity, Recruiting",
-    "summary": "AI recruiting startup Mercor suffered a cyberattack through a compromise of LiteLLM, a widely used platform, leading to Meta halting collaboration and raising concerns about AI supply chain security.",
-    "charlotte_impact": "This incident underscores the vulnerability of AI systems to cyberattacks and the importance of robust security measures. It highlights the potential ripple effects of a breach in a shared resource like LiteLLM, impacting numerous organizations. This necessitates greater due diligence and investment in cybersecurity within the AI ecosystem, particularly concerning third-party dependencies. Meta's halting of collaboration is a sign of potentially serious impact.",
+    "title": "Meta freezes AI data work after breach puts training secrets at risk",
+    "url": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk/",
+    "industry": "AI Security",
+    "summary": "Meta has suspended its collaboration with Mercor, an AI data startup, due to a supply chain attack that potentially compromised crucial AI training methodologies.",
+    "charlotte_impact": "This breach highlights the importance of robust security measures in AI supply chains. Companies must carefully vet third-party partners and implement strong data protection protocols to prevent the leakage of sensitive training data and algorithms. This may lead to increased investment in cybersecurity and risk management within the AI sector.",
     "impact_score": 9
   },
   {
     "title": "The Facebook insider building content moderation for the AI era",
     "url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
-    "industry": "Technology, Content Moderation",
-    "summary": "Moonbounce raised $12 million to develop its AI control engine, which aims to translate content moderation policies into predictable AI behavior, addressing the challenges of ensuring consistency in AI content moderation.",
-    "charlotte_impact": "Moonbounce's technology addresses a critical need for consistent and predictable content moderation in the age of AI-generated content. This could reduce the burden on human moderators and improve the accuracy and fairness of content filtering, thus mitigating reputational risk and promoting responsible AI usage. The funding indicates investor confidence in the growing demand for AI-powered content moderation solutions.",
-    "impact_score": 6
+    "industry": "AI Safety",
+    "summary": "Moonbounce raised $12 million to build an AI control engine that enforces content moderation policies on AI systems.",
+    "charlotte_impact": "The AI content moderation market needs specialized tools to ensure that AI behavior aligns with established policies. Investment in such solutions promotes safer and more responsible AI deployments, which becomes increasingly important as AI systems are used in sensitive decision-making areas. This will fuel the demand for AI safety and governance solutions.",
+    "impact_score": 8
+  },
+  {
+    "title": "How flexibility and ambassadors can secure the AI-enabled enterprise",
+    "url": "https://siliconangle.com/2026/04/04/flexibility-ambassadors-can-secure-ai-enabled-enterprise/",
+    "industry": "Enterprise AI",
+    "summary": "The article discusses the necessity of flexibility and the use of 'ambassadors' to secure AI-enabled enterprises against emerging AI threats and to manage AI systems effectively.",
+    "charlotte_impact": "The enterprise AI deployment process must include a change management element alongside the tech implementation to ensure successful integration. This drives the need for training programs, internal AI advocates, and flexible security policies to manage the risks inherent in using AI systems at scale.",
+    "impact_score": 7
+  },
+  {
+    "title": "AI Influencing Elections: Anthropic Forms PAC Leading into Midterms as It Fights Trump Administration",
+    "url": "https://www.breitbart.com/tech/2026/04/04/ai-influencing-elections-anthropic-forms-pac-leading-into-midterms-as-it-fights-trump-administration/",
+    "industry": "AI Policy",
+    "summary": "AI company Anthropic forms a political action committee (PAC), AnthroPAC, to make bipartisan donations to candidates amidst a legal battle with the Trump Administration, raising concerns about AI's influence on elections.",
+    "charlotte_impact": "The formation of AI-related PACs will lead to political debate about AI regulations. Public opinion may shift as the influence of large tech companies become more apparent. This will also drive increased demand for regulatory oversight regarding AI's role in political discourse and election campaigns.",
+    "impact_score": 8
+  },
+  {
+    "title": "Anthropic cuts Claude subscribers off from OpenClaw in cost crackdown",
+    "url": "https://thenextweb.com/news/anthropic-openclaw-claude-subscription-ban-cost/",
+    "industry": "AI Pricing",
+    "summary": "Anthropic has blocked Claude Pro and Max subscribers from using their flat-rate plans with third-party AI agent frameworks (like OpenClaw), shifting the cost of running autonomous agents onto users.",
+    "charlotte_impact": "This change represents a shifting pricing model for AI services where providers are focusing on cost management and user consumption. Users will need to carefully assess their AI agent usage and related costs. This suggests that the market is maturing and cost efficiency is becoming a major competitive factor.",
+    "impact_score": 9
+  },
+  {
+    "title": "AI companies are building huge natural gas plants to power data centers. What could go wrong?",
+    "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
+    "industry": "Infrastructure",
+    "summary": "AI companies like Meta, Microsoft, and Google are investing in natural gas power plants to supply their AI data centers, raising environmental concerns.",
+    "charlotte_impact": "The demand for AI computing power is straining current infrastructure, necessitating massive investment in new data centers and power generation. This trend creates a business opportunity for the energy sector but raises significant sustainability challenges. Companies will face increased pressure to reduce their carbon footprint and explore alternative, renewable energy sources.",
+    "impact_score": 9
   },
   {
     "title": "Cognichip wants AI to design the chips that power AI, and just raised $60M to try",
     "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
-    "industry": "Semiconductors, Technology",
-    "summary": "Cognichip secured $60 million in funding to develop AI that designs AI chips, aiming to significantly reduce the cost and time associated with chip development.",
-    "charlotte_impact": "Cognichip's approach could revolutionize chip design, leading to faster innovation cycles and more efficient hardware for AI applications. This has the potential to lower the barrier to entry for companies developing AI solutions, creating a more competitive landscape. The technology could also enable the creation of specialized chips tailored to specific AI workloads, improving performance and reducing energy consumption.",
+    "industry": "Semiconductors",
+    "summary": "Cognichip raised $60 million to develop AI-driven chip design, promising to reduce chip development costs and timelines significantly.",
+    "charlotte_impact": "This could drastically change the chip design and manufacturing landscape, potentially accelerating innovation in AI hardware and reducing reliance on traditional design methods. The lower costs and faster development cycles could enable the creation of more specialized chips for diverse AI applications.",
     "impact_score": 8
   },
   {
-    "title": "Manitoba NDP government loans $475K to Winnipeg AI call-screening company",
-    "url": "https://www.cbc.ca/news/canada/manitoba/jasper-vocal-ai-insurance-grant-ndp-govrnment-9.7151769",
-    "industry": "Government, Technology, Insurance",
-    "summary": "The Manitoba government provided a $475,000 loan to JasperVOCAL, an AI sales-call screening company focused on the insurance industry, reflecting government support for AI adoption in specific sectors.",
-    "charlotte_impact": "Government investment in AI startups like JasperVOCAL can foster innovation and economic growth within the local tech sector. This type of support can encourage the adoption of AI in traditional industries, such as insurance, leading to improved efficiency and potentially new business models. However, it also raises questions about government involvement in private sector ventures and the criteria for selecting recipients.",
-    "impact_score": 3
-  },
-  {
-    "title": "Google Stitch : Changing the Way Interactive Prototypes Are Built",
-    "url": "https://www.geeky-gadgets.com/google-stitch-features/",
-    "industry": "Technology, Design",
-    "summary": "Google Stitch integrates AI into creative workflows, combining conversational interfaces with advanced design capabilities, enabling features like the ID8 idea generator.",
-    "charlotte_impact": "Google Stitch could enhance the productivity and creativity of designers by providing AI-powered tools for ideation and prototyping. This integration of AI into design workflows has the potential to accelerate the design process and enable the creation of more innovative and user-friendly products. The platform could also lower the barrier to entry for aspiring designers by providing access to AI-powered design assistance.",
-    "impact_score": 5
-  },
-  {
-    "title": "AI Can Now Prescribe You Psychiatric Medication in Utah",
-    "url": "https://uk.pcmag.com/ai/164231/ai-can-now-prescribe-you-psychiatric-medication-in-utah",
-    "industry": "Healthcare, Technology",
-    "summary": "A pilot program in Utah allows an AI chatbot from Doctronic to prescribe psychiatric medication, with caveats on what it can prescribe.",
-    "charlotte_impact": "The use of AI to prescribe psychiatric medication has the potential to increase access to mental healthcare, particularly in underserved areas. However, it raises significant ethical and safety concerns, including the potential for misdiagnosis, over-prescription, and a lack of human oversight. Widespread adoption would require careful regulation, robust testing, and public trust in the AI's capabilities.",
+    "title": "Google Officially Unveils Gemini Nano 4 For On-Device Android AI",
+    "url": "https://www.ubergizmo.com/2026/04/gemini-nano-4/",
+    "industry": "Mobile AI",
+    "summary": "Google officially unveiled Gemini Nano 4, its latest on-device AI model for Android, with a broader rollout planned for 2026.",
+    "charlotte_impact": "The integration of more powerful AI models directly into mobile devices will enable new user experiences and features without relying on cloud connectivity. This has the potential to revolutionize mobile applications and services, boosting demand for AI-enabled devices.",
     "impact_score": 7
   },
   {
-    "title": "FIRST LADY MELANIA TRUMP: AI could improve teaching and help deliver a world-class education to our children",
-    "url": "https://www.foxnews.com/opinion/first-lady-melania-trump-ai-could-improve-teaching-help-deliver-world-class-education-children",
-    "industry": "Education, Technology",
-    "summary": "Melania Trump highlights the potential of AI to improve teaching and democratize access to education for underserved communities through personalized tutoring tools.",
-    "charlotte_impact": "AI-powered tutoring tools could personalize learning experiences and provide individualized support to students, potentially addressing educational disparities. Wider adoption could also drive demand for more accessible and affordable educational technology, leading to a more equitable educational system. Ethical considerations around data privacy and algorithmic bias need to be addressed to ensure fair and inclusive outcomes.",
-    "impact_score": 4
+    "title": "How to Become AI-Native: A Practical Guide",
+    "url": "https://www.c-sharpcorner.com/article/how-to-become-ai-native-a-practical-guide/",
+    "industry": "AI Education",
+    "summary": "This article provides a practical guide on how to become AI-native, focusing on mindset shifts and actionable strategies.",
+    "charlotte_impact": "The widespread adoption of AI requires that workers at all levels can leverage these tools successfully. This article may become a useful training resource for employers.",
+    "impact_score": 5
   },
   {
-    "title": "This New AI Bill Would Do More Than Just Ban Surveilling Americans",
-    "url": "https://www.bgr.com/2134999/ai-bill-bans-mass-surveillance-kill-decisions/",
-    "industry": "Government, Technology",
-    "summary": "A new AI bill in the US aims to regulate AI use, including banning mass surveillance and 'kill decisions'.",
-    "charlotte_impact": "This bill signals a growing awareness of the need for responsible AI development and deployment. Regulations around surveillance and autonomous decision-making could impact industries relying on these technologies, requiring them to adopt stricter ethical guidelines and transparency measures. The legislation's impact will depend on its specific provisions and enforcement mechanisms, but the effort signifies a broader trend towards AI governance.",
-    "impact_score": 6
+    "title": "Machine Learning Predicts Fatigue Patterns in Elite Women's Handball Players \u2014 Health to Longevity",
+    "url": "https://healthtolongevity.com/article/10864/machine-learning-predicts-fatigue-patterns-in-elite-womens-handball-players",
+    "industry": "Sports Analytics",
+    "summary": "Machine learning is being used to predict fatigue patterns in elite women's handball players.",
+    "charlotte_impact": "Machine learning tools can be leveraged to predict fatigue and optimize training programs for elite athletes. This allows coaches to develop more effective programs. This technique can extend to other professional sports.",
+    "impact_score": 4
   }
 ]
