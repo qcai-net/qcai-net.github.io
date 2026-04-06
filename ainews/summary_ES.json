@@ -1,98 +1,82 @@
 [
   {
+    "title": "Las empresas de inteligencia artificial están construyendo enormes plantas de gas natural para alimentar los centros de datos. ¿Qué podría salir mal?",
+    "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
+    "industry": "Energy, Technology",
+    "summary": "Meta, Microsoft y Google están invirtiendo en plantas de energía de gas natural para alimentar sus centros de datos de inteligencia artificial, lo que genera preocupaciones sobre el impacto ambiental y la sostenibilidad a largo plazo. Esta medida pone de relieve la naturaleza intensiva en energía de la IA y los desafíos de impulsar su crecimiento continuo.",
+    "charlotte_impact": "La creciente demanda de energía por parte de los centros de datos de IA requiere evaluar fuentes de energía alternativas y renovables para mitigar el impacto ambiental y promover el desarrollo sostenible de la IA. La industria podría enfrentar un mayor escrutinio regulatorio y presión pública si no aborda su huella energética.",
+    "impact_score": 8
+  },
+  {
     "title": "Copilot es \"solo para fines de entretenimiento\", según los términos de uso de Microsoft",
     "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
-    "industry": "AI Governance",
-    "summary": "Los términos de uso de Microsoft para Copilot establecen que es \"solo para fines de entretenimiento\", destacando los riesgos y limitaciones inherentes de los modelos de IA y la necesidad de discreción del usuario.",
-    "charlotte_impact": "Esta declaración obliga a los usuarios a aceptar total responsabilidad por cualquier acción que surja del uso de Microsoft Copilot. Si bien descargos de responsabilidad como este protegen a los creadores de responsabilidad, las empresas deben realizar una supervisión integral para garantizar resultados de calidad y evitar errores derivados de una dependencia excesiva de las herramientas de inteligencia artificial.",
+    "industry": "Technology, Legal",
+    "summary": "Los términos de uso de Microsoft para Copilot establecen que es \"solo para fines de entretenimiento\", enfatizando la necesidad de que los usuarios evalúen críticamente los resultados de la IA. Esto pone de relieve las limitaciones actuales y la posible falta de fiabilidad de los modelos de IA y transfiere la responsabilidad al usuario.",
+    "charlotte_impact": "El descargo de responsabilidad subraya los posibles riesgos legales y de reputación asociados con depender únicamente de contenido o conocimientos generados por IA. Las empresas deben establecer directrices claras y medidas de control de calidad para garantizar el uso responsable de la IA y evitar la desinformación.",
     "impact_score": 7
   },
   {
     "title": "Microsoft se enfrenta a rivales de IA con tres nuevos modelos fundamentales",
     "url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
-    "industry": "AI Development",
-    "summary": "Microsoft lanzó tres nuevos modelos fundamentales de IA. Esto marca la inversión y competencia continuas de Microsoft en el espacio del modelo fundamental de IA.",
-    "charlotte_impact": "Los nuevos modelos fundamentales ofrecen rendimiento y capacidades mejorados. Las empresas pueden aprovechar estos avances para crear soluciones más sofisticadas impulsadas por IA, lo que conducirá a una mayor eficiencia e innovación en diversas industrias. Esta mayor competencia entre los proveedores de modelos fundamentales podría reducir los costos y hacer que la IA sea más accesible.",
+    "industry": "Technology",
+    "summary": "Microsoft ha presentado tres nuevos modelos fundamentales de IA, intensificando la competencia con otras empresas de IA. Estos modelos, que incluyen capacidades para transcripción de voz, generación de audio y creación de imágenes, demuestran el compromiso de Microsoft con el avance de la tecnología de inteligencia artificial.",
+    "charlotte_impact": "Esto fortalece la posición de Microsoft en el mercado de la IA y ofrece a los clientes más opciones, fomentando una mayor adopción e innovación de la IA en todos los sectores. Podría conducir a una mayor integración de herramientas impulsadas por IA dentro del ecosistema empresarial de Microsoft, mejorando potencialmente la productividad y la eficiencia.",
     "impact_score": 8
   },
   {
-    "title": "Meta congela el trabajo de datos de IA después de que una violación pusiera en riesgo los secretos de entrenamiento",
-    "url": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk/",
-    "industry": "AI Security",
-    "summary": "Meta suspendió su colaboración con Mercor, una startup de datos de IA, debido a un ataque a la cadena de suministro que potencialmente comprometió metodologías cruciales de entrenamiento de IA.",
-    "charlotte_impact": "Esta violación resalta la importancia de medidas de seguridad sólidas en las cadenas de suministro de IA. Las empresas deben examinar cuidadosamente a los socios externos e implementar protocolos sólidos de protección de datos para evitar la filtración de algoritmos y datos de capacitación confidenciales. Esto puede conducir a una mayor inversión en ciberseguridad y gestión de riesgos dentro del sector de la IA.",
+    "title": "Ex asesor de la CIA: La industria de la inteligencia artificial está utilizando las mismas \"finanzas creativas\" que hicieron estallar el sistema bancario en 2008",
+    "url": "https://www.globenewswire.com/news-release/2026/04/05/3268229/0/en/Former-CIA-Advisor-The-AI-Industry-Is-Using-the-Same-Creative-Finance-That-Blew-Up-the-Banking-System-in-2008.html",
+    "industry": "Finance, Technology",
+    "summary": "Un ex asesor de la CIA afirma que la industria de la inteligencia artificial está empleando técnicas arriesgadas de \"finanzas creativas\" similares a las que causaron la crisis financiera de 2008. Este informe plantea preocupaciones sobre la posible inestabilidad financiera dentro del sector de la IA y exige una mayor transparencia y supervisión regulatoria.",
+    "charlotte_impact": "De ser cierto, esto podría dar como resultado una corrección significativa en la inversión y las valoraciones de la IA, lo que afectaría la financiación tanto de las empresas emergentes como de las establecidas. También podría conducir a un mayor escrutinio regulatorio y a una demanda de prácticas financieras más sostenibles en la industria de la IA.",
     "impact_score": 9
+  },
+  {
+    "title": "La española Xoople recauda 130 millones de dólares Serie B para mapear la Tierra para la IA",
+    "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
+    "industry": "Technology, Space",
+    "summary": "Xoople, una empresa española que mapea la Tierra para IA, obtuvo 130 millones de dólares en financiación Serie B y una asociación con L3Harris para construir sensores para naves espaciales. Esto indica un interés creciente en el uso de la IA para el análisis de datos geoespaciales y la observación de la Tierra.",
+    "charlotte_impact": "Esta inversión impulsa avances en mapeo y análisis basados ​​en inteligencia artificial, beneficiando a industrias como la agricultura, la planificación urbana y la respuesta a desastres. El acuerdo de Xoople con L3Harris significa la creciente colaboración entre las empresas de IA y las empresas aeroespaciales establecidas.",
+    "impact_score": 7
   },
   {
     "title": "El experto de Facebook que crea moderación de contenido para la era de la IA",
     "url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
-    "industry": "AI Safety",
-    "summary": "Moonbounce recaudó 12 millones de dólares para construir un motor de control de IA que aplica políticas de moderación de contenido en los sistemas de IA.",
-    "charlotte_impact": "El mercado de moderación de contenidos de IA necesita herramientas especializadas para garantizar que el comportamiento de la IA se alinee con las políticas establecidas. La inversión en este tipo de soluciones promueve implementaciones de IA más seguras y responsables, lo que se vuelve cada vez más importante a medida que los sistemas de IA se utilizan en áreas sensibles de toma de decisiones. Esto impulsará la demanda de soluciones de gobernanza y seguridad de IA.",
-    "impact_score": 8
-  },
-  {
-    "title": "Cómo la flexibilidad y los embajadores pueden proteger la empresa basada en IA",
-    "url": "https://siliconangle.com/2026/04/04/flexibility-ambassadors-can-secure-ai-enabled-enterprise/",
-    "industry": "Enterprise AI",
-    "summary": "El artículo analiza la necesidad de flexibilidad y el uso de 'embajadores' para proteger a las empresas habilitadas con IA contra las amenazas emergentes de la IA y para gestionar los sistemas de IA de manera efectiva.",
-    "charlotte_impact": "El proceso de implementación de IA empresarial debe incluir un elemento de gestión de cambios junto con la implementación de tecnología para garantizar una integración exitosa. Esto impulsa la necesidad de programas de capacitación, defensores internos de la IA y políticas de seguridad flexibles para gestionar los riesgos inherentes al uso de sistemas de IA a escala.",
+    "industry": "Technology, Content Moderation",
+    "summary": "Moonbounce recaudó 12 millones de dólares para desarrollar su motor de control de IA para la moderación de contenidos, con el objetivo de estandarizar y predecir el comportamiento de la IA en función de políticas de moderación. Esto significa una necesidad creciente de gestionar y controlar la IA en la moderación de contenido en línea para reducir el sesgo y mejorar la precisión.",
+    "charlotte_impact": "El desarrollo de herramientas de moderación de contenido de IA más confiables y consistentes es crucial para que las plataformas combatan la información errónea, el discurso de odio y el contenido dañino. La moderación eficaz del contenido puede mejorar la experiencia del usuario y la reputación de la marca, lo que genera una mayor participación e ingresos publicitarios.",
     "impact_score": 7
   },
   {
-    "title": "La IA influye en las elecciones: formas antrópicas que conducen a las elecciones intermedias mientras luchan contra la administración Trump",
-    "url": "https://www.breitbart.com/tech/2026/04/04/ai-influencing-elections-anthropic-forms-pac-leading-into-midterms-as-it-fights-trump-administration/",
-    "industry": "AI Policy",
-    "summary": "La empresa de inteligencia artificial Anthropic forma un comité de acción política (PAC), AnthroPAC, para realizar donaciones bipartidistas a candidatos en medio de una batalla legal con la administración Trump, lo que genera preocupaciones sobre la influencia de AI en las elecciones.",
-    "charlotte_impact": "La formación de PAC relacionados con la IA dará lugar a un debate político sobre las regulaciones de la IA. La opinión pública puede cambiar a medida que la influencia de las grandes empresas tecnológicas se haga más evidente. Esto también impulsará una mayor demanda de supervisión regulatoria con respecto al papel de la IA en el discurso político y las campañas electorales.",
+    "title": "Acciones de NVIDIA en 2026: los analistas instan a comprar, ya que la demanda de IA impulsa el crecimiento a pesar de las preocupaciones sobre la valoración",
+    "url": "https://www.ibtimes.com.au/nvidia-stock-2026-analysts-urge-buy-ai-demand-powers-growth-despite-valuation-concerns-1865473",
+    "industry": "Finance, Technology",
+    "summary": "Los analistas instan a una calificación de \"compra\" para las acciones de NVIDIA, citando la alta demanda de infraestructura de IA que impulsa el crecimiento, a pesar de las preocupaciones sobre la valoración. Esto refuerza la posición de NVIDIA como líder en hardware de IA y la inversión sostenida en capacidades de IA.",
+    "charlotte_impact": "El éxito continuo de NVIDIA indica la salud general y el potencial de crecimiento del mercado de la IA, incentivando una mayor inversión e innovación. La demanda de productos de NVIDIA también impulsa la industria de los semiconductores y respalda los empleos relacionados.",
     "impact_score": 8
   },
   {
-    "title": "Anthropic excluye a los suscriptores de Claude de OpenClaw en una campaña de reducción de costos",
-    "url": "https://thenextweb.com/news/anthropic-openclaw-claude-subscription-ban-cost/",
-    "industry": "AI Pricing",
-    "summary": "Anthropic ha impedido que los suscriptores de Claude Pro y Max utilicen sus planes de tarifa plana con marcos de agentes de inteligencia artificial de terceros (como OpenClaw), trasladando el costo de ejecutar agentes autónomos a los usuarios.",
-    "charlotte_impact": "Este cambio representa un modelo de precios cambiante para los servicios de IA, donde los proveedores se centran en la gestión de costos y el consumo de los usuarios. Los usuarios deberán evaluar cuidadosamente el uso de sus agentes de IA y los costos relacionados. Esto sugiere que el mercado está madurando y la eficiencia de costos se está convirtiendo en un factor competitivo importante.",
-    "impact_score": 9
-  },
-  {
-    "title": "Las empresas de inteligencia artificial están construyendo enormes plantas de gas natural para alimentar los centros de datos. ¿Qué podría salir mal?",
-    "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
-    "industry": "Infrastructure",
-    "summary": "Empresas de inteligencia artificial como Meta, Microsoft y Google están invirtiendo en plantas de energía de gas natural para abastecer sus centros de datos de inteligencia artificial, lo que genera preocupaciones ambientales.",
-    "charlotte_impact": "La demanda de potencia informática de IA está poniendo a prueba la infraestructura actual, lo que requiere una inversión masiva en nuevos centros de datos y generación de energía. Esta tendencia crea una oportunidad de negocio para el sector energético, pero plantea importantes desafíos de sostenibilidad. Las empresas enfrentarán una mayor presión para reducir su huella de carbono y explorar fuentes de energía alternativas y renovables.",
-    "impact_score": 9
-  },
-  {
-    "title": "Cognichip quiere que la IA diseñe los chips que impulsan la IA y acaba de recaudar 60 millones de dólares para intentarlo",
-    "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
-    "industry": "Semiconductors",
-    "summary": "Cognichip recaudó 60 millones de dólares para desarrollar un diseño de chip impulsado por IA, prometiendo reducir significativamente los costos y los plazos de desarrollo de chips.",
-    "charlotte_impact": "Esto podría cambiar drásticamente el panorama de diseño y fabricación de chips, acelerando potencialmente la innovación en hardware de IA y reduciendo la dependencia de los métodos de diseño tradicionales. Los costos más bajos y los ciclos de desarrollo más rápidos podrían permitir la creación de chips más especializados para diversas aplicaciones de IA.",
-    "impact_score": 8
-  },
-  {
-    "title": "Google presenta oficialmente Gemini Nano 4 para IA Android en el dispositivo",
-    "url": "https://www.ubergizmo.com/2026/04/gemini-nano-4/",
-    "industry": "Mobile AI",
-    "summary": "Google presentó oficialmente Gemini Nano 4, su último modelo de IA en dispositivo para Android, con un lanzamiento más amplio previsto para 2026.",
-    "charlotte_impact": "La integración de modelos de IA más potentes directamente en los dispositivos móviles permitirá nuevas experiencias y funciones de usuario sin depender de la conectividad en la nube. Esto tiene el potencial de revolucionar las aplicaciones y servicios móviles, impulsando la demanda de dispositivos habilitados para IA.",
+    "title": "Encontré 7 aplicaciones de Windows que utilizan la NPU de su PC para mejorar la eficiencia y el rendimiento con IA. Es posible que se sorprenda de lo que hay en la lista.",
+    "url": "https://www.windowscentral.com/artificial-intelligence/apps-use-npu-ai-pcs",
+    "industry": "Software, Technology",
+    "summary": "Muchas aplicaciones de Windows ahora utilizan NPU (Unidades de procesamiento neuronal) para mejorar la eficiencia y el rendimiento con IA. Esto significa un cambio hacia el procesamiento de IA en el dispositivo, que ofrece beneficios como tiempos de respuesta más rápidos y una mayor privacidad.",
+    "charlotte_impact": "La mayor adopción de NPU anima a los desarrolladores a crear más aplicaciones y funciones basadas en IA, mejorando la experiencia general del usuario. También impulsa la demanda de hardware con NPU integradas, estimulando la innovación en los mercados de PC y dispositivos móviles.",
     "impact_score": 7
   },
   {
-    "title": "Cómo convertirse en nativo de la IA: una guía práctica",
-    "url": "https://www.c-sharpcorner.com/article/how-to-become-ai-native-a-practical-guide/",
-    "industry": "AI Education",
-    "summary": "Este artículo proporciona una guía práctica sobre cómo convertirse en nativo de la IA, centrándose en cambios de mentalidad y estrategias viables.",
-    "charlotte_impact": "La adopción generalizada de la IA requiere que los trabajadores de todos los niveles puedan aprovechar estas herramientas con éxito. Este artículo puede convertirse en un recurso de formación útil para los empleadores.",
-    "impact_score": 5
+    "title": "La IA está empeorando aún más el problema de seguridad de las criptomonedas, advierte el CTO de Ledger",
+    "url": "https://www.coindesk.com/tech/2026/04/05/ai-is-making-crypto-s-security-problem-even-worse-ledger-cto-warns",
+    "industry": "Finance, Technology",
+    "summary": "El CTO de Ledger advierte que la IA está exacerbando los problemas de seguridad de las criptomonedas al hacer que los hacks sean más baratos y rápidos. Esto aumenta la necesidad de medidas de seguridad sólidas y de innovación continua en ciberseguridad para proteger los sistemas criptográficos de las amenazas impulsadas por la IA.",
+    "charlotte_impact": "Los mayores riesgos de seguridad podrían obstaculizar la adopción de las criptomonedas si los usuarios pierden la confianza en su seguridad. También crea oportunidades para que las empresas especializadas en ciberseguridad impulsada por IA desarrollen defensas y soluciones avanzadas.",
+    "impact_score": 7
   },
   {
-    "title": "El aprendizaje automático predice los patrones de fatiga en jugadoras de balonmano de élite: de la salud a la longevidad",
-    "url": "https://healthtolongevity.com/article/10864/machine-learning-predicts-fatigue-patterns-in-elite-womens-handball-players",
-    "industry": "Sports Analytics",
-    "summary": "El aprendizaje automático se utiliza para predecir patrones de fatiga en jugadoras de balonmano de élite.",
-    "charlotte_impact": "Se pueden aprovechar las herramientas de aprendizaje automático para predecir la fatiga y optimizar los programas de entrenamiento para atletas de élite. Esto permite a los entrenadores desarrollar programas más efectivos. Esta técnica puede extenderse a otros deportes profesionales.",
-    "impact_score": 4
+    "title": "Target advierte que si su agente de compras con IA comete un error costoso, tendrá que pagar por ello",
+    "url": "http://futurism.com/artificial-intelligence/target-ai-agent-tos",
+    "industry": "Retail, Technology",
+    "summary": "Target advierte a los usuarios que serán responsables de los errores cometidos por su agente de compras de IA. Esto pone de relieve una preocupación clave en torno al uso de agentes de IA y el desafío de asignar responsabilidad por los errores.",
+    "charlotte_impact": "Esta política podría disuadir a algunos usuarios de adoptar agentes de compras con IA debido a los posibles riesgos financieros. Los minoristas deben considerar cuidadosamente los términos de servicio y brindar salvaguardas para proteger a los usuarios de costosos errores relacionados con la IA.",
+    "impact_score": 6
   }
 ]
