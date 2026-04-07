@@ -1,106 +1,130 @@
 [
   {
-    "title": "Las empresas de inteligencia artificial están construyendo enormes plantas de gas natural para alimentar los centros de datos. ¿Qué podría salir mal?",
-    "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
-    "industry": "Energy, Technology",
-    "summary": "Meta, Microsoft y Google están construyendo plantas de energía de gas natural para sus centros de datos de inteligencia artificial, lo que genera preocupación sobre el impacto ambiental y la sostenibilidad a largo plazo.",
-    "charlotte_impact": "La tendencia de las empresas de IA a construir sus propias plantas de energía pone de relieve las crecientes demandas de energía de la IA y el potencial de inversiones significativas en infraestructura energética, particularmente en regiones con grandes centros de datos o políticas energéticas favorables. Este cambio podría incentivar un mayor desarrollo de fuentes de energía alternativas o regulaciones ambientales más estrictas.",
+    "title": "La fiebre del oro de la IA está arrastrando la riqueza privada hacia apuestas más riesgosas y tempranas",
+    "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
+    "industry": "Finance",
+    "summary": "Las oficinas familiares están invirtiendo cada vez más directamente en nuevas empresas de IA en sus etapas iniciales, evitando a los capitalistas de riesgo tradicionales y convirtiéndose en participantes más activos en el ecosistema de IA.",
+    "charlotte_impact": "Esta tendencia señala un cambio en la forma en que se financian las empresas de IA, lo que podría conducir a una innovación más rápida y una mayor competencia. Proporciona a las empresas emergentes opciones de financiación más diversas y potencialmente más capital paciente, lo que afecta las estrategias de crecimiento y las valoraciones de las empresas de IA.",
+    "impact_score": 8
+  },
+  {
+    "title": "La startup de IA Rocket ofrece informes estilo McKinsey a una fracción del costo",
+    "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
+    "industry": "Consulting",
+    "summary": "La startup de IA Rocket ofrece servicios de consultoría que tradicionalmente brindan empresas como McKinsey a una fracción del costo, aprovechando la IA para estrategia, creación de productos e inteligencia competitiva.",
+    "charlotte_impact": "El surgimiento de servicios de consultoría impulsados ​​por IA podría alterar la industria de consultoría tradicional, obligando a las empresas a adaptarse incorporando IA en sus propios servicios o enfrentar una pérdida de participación de mercado. Esto podría reducir la barrera de entrada para las empresas que necesitan conocimientos empresariales, democratizando la toma de decisiones estratégicas.",
+    "impact_score": 7
+  },
+  {
+    "title": "Los alumnos de OpenAI han estado invirtiendo silenciosamente en un nuevo fondo potencialmente de 100 millones de dólares",
+    "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+    "industry": "Venture Capital",
+    "summary": "Los alumnos de OpenAI han lanzado Zero Shot, un nuevo fondo de capital de riesgo que tiene como objetivo recaudar 100 millones de dólares para invertir en empresas de IA en etapa inicial, impulsando aún más el ecosistema de startups de IA.",
+    "charlotte_impact": "La creación de fondos centrados específicamente en la IA, especialmente aquellos dirigidos por personas con una profunda experiencia en el campo, sugiere una creencia fuerte y continua en el crecimiento y la rentabilidad futuros de la IA. Esta nueva inyección de capital puede acelerar el desarrollo y la implementación de soluciones innovadoras de IA en diversas industrias.",
     "impact_score": 8
   },
   {
     "title": "Google lanzó silenciosamente una aplicación de dictado con IA que funciona sin conexión",
     "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-    "industry": "Technology, Software",
-    "summary": "Google lanzó una aplicación de dictado con IA que funciona sin conexión, impulsada por modelos de IA de Gemma, y ​​compite con otras aplicaciones de dictado.",
-    "charlotte_impact": "Las aplicaciones de IA fuera de línea son cada vez más valiosas. El lanzamiento de la aplicación de dictado de Google puede aumentar la productividad para muchos y hacer que las opciones de dictado sean más privadas, seguras y confiables.",
+    "industry": "Software",
+    "summary": "Google lanzó silenciosamente una aplicación de dictado de IA que funciona sin conexión y utiliza modelos de IA de Gemma para competir con las aplicaciones de dictado existentes.",
+    "charlotte_impact": "Este lanzamiento indica una tendencia creciente hacia el procesamiento de IA en el dispositivo, mejorando la privacidad y la accesibilidad, lo que podría afectar a las industrias que dependen de interfaces basadas en voz y entrada de datos, como la atención médica y el servicio al cliente. La funcionalidad sin conexión aborda los problemas de confiabilidad en áreas con conectividad a Internet limitada.",
     "impact_score": 6
   },
   {
     "title": "La visión de OpenAI para la economía de la IA: fondos públicos, impuestos a los robots y una semana laboral de cuatro días",
     "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
-    "industry": "Economics, Policy, Technology",
-    "summary": "OpenAI propone impuestos sobre las ganancias de la IA, los fondos públicos y una semana laboral de cuatro días para abordar el posible desplazamiento de empleo y la desigualdad causada por los avances de la IA.",
-    "charlotte_impact": "Las propuestas de OpenAI señalan una creciente conciencia de la necesidad de políticas económicas y sociales que aborden las posibles desventajas de la IA. La implementación de impuestos a los robots u otros mecanismos de redistribución de la riqueza podría afectar la tasa de crecimiento económico general de las empresas que fabrican productos de inteligencia artificial y afectar el lugar donde basan sus operaciones.",
+    "industry": "Economics",
+    "summary": "OpenAI propone impuestos sobre las ganancias de la IA, los fondos públicos y una semana laboral de cuatro días para mitigar las posibles pérdidas de empleo y la desigualdad causada por la IA, lo que generó un debate sobre el impacto económico de la IA.",
+    "charlotte_impact": "La propuesta de OpenAI destaca la creciente preocupación por el impacto social de la IA y la necesidad de intervenciones políticas proactivas. El debate sobre los impuestos a los robots y la redistribución de la riqueza podría alterar significativamente el panorama económico, obligando a las empresas a considerar las consecuencias sociales más amplias de la adopción de la IA.",
     "impact_score": 9
   },
   {
     "title": "Copilot es \"solo para fines de entretenimiento\", según los términos de uso de Microsoft",
     "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
-    "industry": "Technology, Legal",
-    "summary": "Los términos de servicio de Microsoft para Copilot establecen que es \"solo para fines de entretenimiento\", destacando las limitaciones y la posible falta de confiabilidad de los modelos de IA.",
-    "charlotte_impact": "El descargo de responsabilidad de Microsoft enfatiza la necesidad de una evaluación crítica de los resultados de la IA y la importancia de la supervisión humana, que puede limitar la adopción generalizada de herramientas de IA en ciertos campos donde la confiabilidad es crucial. Esto también puede crear una oportunidad para los proveedores que se especializan en herramientas de inteligencia artificial confiables y precisas.",
+    "industry": "Technology",
+    "summary": "Los términos de servicio de Microsoft establecen que Copilot es \"solo para fines de entretenimiento\", destacando las limitaciones y la posible falta de confiabilidad de los modelos de IA actuales.",
+    "charlotte_impact": "Este descargo de responsabilidad subraya las limitaciones actuales de la IA y la importancia de la supervisión humana. Esto podría ralentizar la adopción acrítica de la IA en determinadas aplicaciones y aumentar la presión sobre los desarrolladores de IA para que mejoren la precisión y fiabilidad de sus modelos.",
     "impact_score": 7
-  },
-  {
-    "title": "La reorganización ejecutiva de OpenAI incluye un nuevo rol para el director de operaciones, Brad Lightcap, para liderar \"proyectos especiales\"",
-    "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
-    "industry": "Technology, Business",
-    "summary": "OpenAI está atravesando una reorganización ejecutiva, con el director de operaciones Brad Lightcap asumiendo un nuevo rol para liderar \"proyectos especiales\" y la CMO Kate Rouch retirándose por razones de salud.",
-    "charlotte_impact": "Los cambios en el liderazgo ejecutivo de las principales empresas de IA pueden indicar cambios en las prioridades estratégicas y la dirección empresarial. El nuevo rol de Lightcap sugiere un enfoque en nuevas empresas o iniciativas internas. La salida de Rouch puede afectar la estrategia de marca y marketing de OpenAI.",
-    "impact_score": 5
   },
   {
     "title": "Irán amenaza los centros de datos de inteligencia artificial 'Stargate'",
     "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
-    "industry": "Geopolitics, Security, Technology",
-    "summary": "Irán amenaza con atacar centros de datos vinculados a Estados Unidos con ataques con misiles, lo que intensifica las tensiones entre Estados Unidos e Irán.",
-    "charlotte_impact": "Las amenazas geopolíticas contra los centros de datos subrayan la importancia de las medidas de seguridad y redundancia de los datos. El aumento de los riesgos podría generar mayores costos de seguro para los centros de datos e incentivar el desarrollo de una infraestructura más resiliente y geográficamente diversa. También refuerza la necesidad de innovación en ciberseguridad.",
+    "industry": "Geopolitics",
+    "summary": "Irán amenaza con atacar con misiles los centros de datos vinculados a Estados Unidos, lo que refleja las crecientes tensiones geopolíticas en torno a la infraestructura de inteligencia artificial.",
+    "charlotte_impact": "La amenaza contra los centros de datos enfatiza la importancia estratégica de la infraestructura de IA y la necesidad de mejorar las medidas de seguridad. Los riesgos geopolíticos podrían perturbar el desarrollo y la implementación de la IA, lo que podría generar mayores costos y vulnerabilidades en la cadena de suministro.",
     "impact_score": 8
   },
   {
     "title": "La española Xoople recauda 130 millones de dólares Serie B para mapear la Tierra para la IA",
     "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
-    "industry": "Geospatial, AI, Funding",
-    "summary": "La española Xoople recauda 130 millones de dólares Serie B para mapear la Tierra para IA y tiene un acuerdo con L3Harris para construir los sensores para la nave espacial de Xoople.",
-    "charlotte_impact": "La ronda de financiación de Xoople destaca la demanda de datos geoespaciales de alta calidad para entrenar y potenciar modelos de IA. Un mapa de la Tierra más completo y en tiempo real puede permitir mejores simulaciones basadas en IA.",
+    "industry": "Geospatial Technology",
+    "summary": "La española Xoople recauda 130 millones de dólares Serie B para mapear la Tierra para aplicaciones de IA y se asocia con L3Harris para construir sensores para su nave espacial.",
+    "charlotte_impact": "La financiación de Xoople demuestra la creciente demanda de datos geoespaciales de alta calidad para entrenar y mejorar modelos de IA. Es probable que esto fomente el desarrollo de nuevas aplicaciones de IA en áreas como la agricultura, la planificación urbana y el monitoreo ambiental.",
     "impact_score": 7
   },
   {
-    "title": "El experto de Facebook que crea moderación de contenido para la era de la IA",
-    "url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
-    "industry": "Technology, Content Moderation",
-    "summary": "Moonbounce ha recaudado 12 millones de dólares para hacer crecer su motor de control de IA, que convierte las políticas de moderación de contenido en un comportamiento de IA consistente y predecible.",
-    "charlotte_impact": "La inversión en Moonbounce resalta la creciente necesidad de soluciones de moderación de contenido efectivas y confiables en la era del contenido generado por IA. La automatización será cada vez más importante para mantenerse al día con el volumen de contenido en línea y es probable que se acelere la inversión en herramientas de moderación de contenido impulsadas por IA.",
-    "impact_score": 7
-  },
-  {
-    "title": "Inteligencia artificial en cirugía: equilibrando la precisión con la sabiduría clínica",
-    "url": "https://kevinmd.com/2026/04/artificial-intelligence-in-surgery-balancing-precision-with-clinical-wisdom.html",
-    "industry": "Healthcare, Technology",
-    "summary": "La precisión en la cirugía ha alcanzado niveles sin precedentes con la ayuda de sistemas de navegación, inteligencia artificial, asistencia robótica y análisis predictivos, lo que requiere un equilibrio con la sabiduría clínica.",
-    "charlotte_impact": "La integración de la IA en la cirugía tiene el potencial de mejorar los resultados y reducir los errores, pero también plantea preocupaciones sobre el papel del juicio humano y la posibilidad de una dependencia excesiva de la tecnología. Los hospitales que invierten en esta tecnología pueden atraer pacientes y mejorar los resultados.",
-    "impact_score": 7
-  },
-  {
-    "title": "Taurox (TAUX) supera el millón de dólares en preventa y ofrece sólidas actualizaciones de desarrollo",
-    "url": "https://www.globenewswire.com/news-release/2026/04/05/3268248/0/en/Taurox-TAUX-Crosses-1-Million-in-Presale-While-Delivering-Strong-Development-Updates.html",
-    "industry": "Cryptocurrency, AI",
-    "summary": "Taurox (TAUX) ha superado el millón de dólares en su preventa, ofreciendo sólidas actualizaciones de desarrollo",
-    "charlotte_impact": "La financiación destaca un aumento potencial en las inversiones impulsadas por criptomonedas y una posible intersección de blockchain y tecnología de inteligencia artificial.",
-    "impact_score": 4
-  },
-  {
-    "title": "La inteligencia estadounidense dice que las imágenes satelitales chinas de las bases están ayudando a Irán",
-    "url": "https://www.abc.net.au/news/2026-04-06/us-intelligence-chinese-satellite-imagery-middle-east/106508322",
-    "industry": "Geopolitics, Technology, Security",
-    "summary": "La inteligencia estadounidense cree que las imágenes satelitales chinas de las bases están ayudando a Irán a identificar objetivos. Las imágenes están mejoradas por IA.",
-    "charlotte_impact": "Destaca cómo se puede utilizar la tecnología de inteligencia artificial para empoderar a los enemigos de EE. UU. y los peligros que rodean estas herramientas. Plantea preocupaciones de seguridad.",
+    "title": "Generalist lanza el modelo básico de inteligencia artificial robótica de alta capacidad GEN-1",
+    "url": "https://siliconangle.com/2026/04/06/generalist-releases-gen-1-highly-capable-robotic-intelligence-ai-foundation-model/",
+    "industry": "Robotics",
+    "summary": "Generalist AI Inc. lanza GEN-1, un modelo básico de gran capacidad para el aprendizaje de robots y el dominio de tareas físicas.",
+    "charlotte_impact": "El lanzamiento de GEN-1 significa un avance importante en la IA robótica incorporada, acelerando potencialmente el desarrollo de robots capaces de realizar tareas complejas en diversas industrias, como la fabricación, la logística y la atención médica.",
     "impact_score": 9
   },
   {
-    "title": "Sindicato de guionistas y estudios de Hollywood llegan a un acuerdo tentativo por cuatro años",
-    "url": "https://www.dailynews.com/2026/04/05/screenwriters-union-and-hollywood-studios-reach-four-year-tentative-agreement/",
-    "industry": "Entertainment, Labor",
-    "summary": "Sindicato de guionistas y estudios de Hollywood llegan a un acuerdo tentativo por cuatro años.",
-    "charlotte_impact": "Un acuerdo de cuatro años destaca una sensación de estabilidad laboral dentro de la industria del entretenimiento, lo que permite la creación de entretenimiento impulsado por IA.",
-    "impact_score": 5
+    "title": "Experto del MIT encuentra límites en la capacidad de la IA para ofrecer asesoramiento financiero",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/mit-expert-finds-limits-in-ais-ability-to-offer-financial-advice/",
+    "industry": "Finance",
+    "summary": "Un experto del MIT sugiere que la IA tiene limitaciones a la hora de brindar asesoramiento financiero debido a la falta de deber fiduciario.",
+    "charlotte_impact": "Es probable que las conclusiones del experto desaceleren la adopción de la IA en los servicios de asesoramiento financiero, destacando la necesidad crítica de directrices éticas y marcos regulatorios para garantizar que la IA actúe en el mejor interés de los clientes.",
+    "impact_score": 6
   },
   {
-    "title": "Su teléfono inteligente utiliza IA mucho más de lo que cree: así es como",
-    "url": "https://www.bgr.com/2135558/smartphone-uses-more-ai-than-you-think/",
-    "industry": "Technology, Mobile",
-    "summary": "Si bien las funciones de IA generativa aparecen en los titulares, los teléfonos inteligentes utilizan la IA para potenciar una variedad de funciones críticas, como informes meteorológicos y optimización de la batería.",
-    "charlotte_impact": "Destaca la omnipresencia de las herramientas y la tecnología de IA en la vida moderna. A medida que los chips se vuelven más poderosos, incluso las herramientas pequeñas pueden incluir tecnología de inteligencia artificial sofisticada.",
-    "impact_score": 6
+    "title": "Mercado de servidores de IA generativo valorado en 448.600 millones de dólares para 2030 - Informe exclusivo de MarketsandMarkets™",
+    "url": "https://www.prnewswire.co.uk/news-releases/generative-ai-server-market-worth-448-60-billion-by-2030---exclusive-report-by-marketsandmarkets-302734594.html",
+    "industry": "AI Infrastructure",
+    "summary": "Un informe predice que el mercado de servidores de IA generativa alcanzará los 448.60 mil millones de dólares para 2030, creciendo a una tasa compuesta anual del 34,0% a partir de 2025.",
+    "charlotte_impact": "Esto indica una inversión sustancial en el hardware y la infraestructura necesarios para respaldar la IA generativa. Este crecimiento beneficia a los fabricantes de servidores, proveedores de centros de datos y otras industrias relacionadas. Destaca el impacto económico de la creciente demanda de aplicaciones de IA generativa.",
+    "impact_score": 8
+  },
+  {
+    "title": "Las empresas de inteligencia artificial están construyendo enormes plantas de gas natural para alimentar los centros de datos. ¿Qué podría salir mal?",
+    "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
+    "industry": "Energy",
+    "summary": "Las empresas de inteligencia artificial están construyendo plantas de gas natural para alimentar centros de datos, lo que genera preocupaciones ambientales y de sostenibilidad.",
+    "charlotte_impact": "La dependencia del gas natural plantea preocupaciones sobre la sostenibilidad y aumenta la huella de carbono del desarrollo de la IA. El aumento de la demanda de energía podría ejercer presión sobre las redes energéticas. Las soluciones energéticas alternativas y más ecológicas pueden convertirse en una prioridad.",
+    "impact_score": 7
+  },
+  {
+    "title": "Licorne Gulf Ltd y el programa de socios de innovación ZGC-GCC forjan un acuerdo de cooperación estratégica en Beijing",
+    "url": "https://www.globenewswire.com/news-release/2026/04/06/3268523/0/en/Licorne-Gulf-Ltd-and-ZGC-GCC-Innovation-Partners-Program-Forge-Strategic-Cooperation-Agreement-in-Beijing.html",
+    "industry": "International Relations",
+    "summary": "Licorne Gulf Ltd y el Programa de Socios de Innovación ZGC-GCC establecen un acuerdo para permitir que las empresas chinas de ciencia y tecnología ingresen a Qatar.",
+    "charlotte_impact": "Esto puede provocar una mayor competencia e innovación a medida que China expanda su influencia internacional.",
+    "impact_score": 3
+  },
+  {
+    "title": "Los metadespidos afectaron a empleados y regiones: ¿quiénes se verán afectados y cuándo? Cronograma de recortes de empleo, equipos afectados, roles, planes de contratación",
+    "url": "https://economictimes.indiatimes.com/news/international/us/meta-layoffs-affected-employees-and-regions-who-will-be-affected-and-when-job-cuts-timeline-impacted-teams-roles-hiring-plans/articleshow/130063187.cms",
+    "industry": "Technology",
+    "summary": "Meta planea realizar despidos a finales de mayo en Silicon Valley, lo que afectará principalmente a los equipos de ventas, reclutamiento y Reality Labs, a pesar de la contratación en curso para otros roles.",
+    "charlotte_impact": "Afecta a los empleados y reduce la reserva de talentos disponible para que aprovechen las nuevas empresas.",
+    "impact_score": 4
+  },
+  {
+    "title": "La reorganización ejecutiva de OpenAI incluye un nuevo rol para el director de operaciones, Brad Lightcap, para liderar \"proyectos especiales\"",
+    "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+    "industry": "Technology",
+    "summary": "OpenAI está atravesando una reorganización ejecutiva, con el director de operaciones Brad Lightcap asumiendo un nuevo rol liderando \"proyectos especiales\" y la CMO Kate Rouch retirándose por razones de salud.",
+    "charlotte_impact": "El cambio ejecutivo provoca una reorganización de equipos y prioridades, y esto cambiará la dirección de la organización.",
+    "impact_score": 4
+  },
+  {
+    "title": "Sam Altman da todo menos una respuesta directa cuando se le pregunta por qué debería confiar en él",
+    "url": "https://dailycaller.com/2026/04/06/sam-altman-gives-anything-but-straight-answer-when-asked-why-you-should-trust-him/",
+    "industry": "Technology",
+    "summary": "Sam Altman da respuestas ambiguas a la pregunta de por qué la gente debería confiarle el desarrollo de la IA.",
+    "charlotte_impact": "La incertidumbre sobre el liderazgo de Altman podría causar una disminución en la confianza de los inversores o usuarios en sus esfuerzos de IA.",
+    "impact_score": 4
   }
 ]

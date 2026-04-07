@@ -1,106 +1,130 @@
 [
   {
-    "title": "AI companies are building huge natural gas plants to power data centers. What could go wrong?",
-    "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
-    "industry": "Energy, Technology",
-    "summary": "Meta, Microsoft, and Google are building natural gas power plants for their AI data centers, raising concerns about environmental impact and long-term sustainability.",
-    "charlotte_impact": "The trend of AI companies building their own power plants highlights the increasing energy demands of AI and the potential for significant investment in power infrastructure, particularly in regions with large data centers or favorable energy policies. This shift could incentivize further development of alternative energy sources or stricter environmental regulations.",
+    "title": "The AI gold rush is pulling private wealth into riskier, earlier bets",
+    "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
+    "industry": "Finance",
+    "summary": "Family offices are increasingly investing directly in early-stage AI startups, bypassing traditional VCs and becoming more active participants in the AI ecosystem.",
+    "charlotte_impact": "This trend signals a shift in how AI companies are funded, potentially leading to faster innovation and increased competition. It provides startups with more diverse funding options and potentially more patient capital, impacting the growth strategies and valuations of AI companies.",
+    "impact_score": 8
+  },
+  {
+    "title": "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost",
+    "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
+    "industry": "Consulting",
+    "summary": "AI startup Rocket offers consulting services traditionally provided by firms like McKinsey at a fraction of the cost, leveraging AI for strategy, product building, and competitive intelligence.",
+    "charlotte_impact": "The emergence of AI-powered consulting services could disrupt the traditional consulting industry, forcing firms to adapt by incorporating AI into their own services or face losing market share. This could lower the entry barrier for companies needing business insights, democratizing strategic decision-making.",
+    "impact_score": 7
+  },
+  {
+    "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
+    "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+    "industry": "Venture Capital",
+    "summary": "OpenAI alums have launched Zero Shot, a new venture capital fund aiming to raise $100 million to invest in early-stage AI companies, further fueling the AI startup ecosystem.",
+    "charlotte_impact": "The creation of funds specifically focused on AI, especially those led by individuals with deep domain expertise, suggests a continued strong belief in the future growth and profitability of AI. This new capital injection can accelerate the development and deployment of innovative AI solutions across various industries.",
     "impact_score": 8
   },
   {
     "title": "Google quietly launched an AI dictation app that works offline",
     "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-    "industry": "Technology, Software",
-    "summary": "Google launched an AI dictation app that works offline, powered by Gemma AI models, competing with other dictation apps.",
-    "charlotte_impact": "Offline AI applications are increasingly valuable. The launch of Google's dictation app may increase productivity for many and make dictation options more private, secure, and reliable.",
+    "industry": "Software",
+    "summary": "Google has quietly launched an AI dictation app that works offline, utilizing Gemma AI models to compete with existing dictation apps.",
+    "charlotte_impact": "This launch indicates a growing trend towards on-device AI processing, enhancing privacy and accessibility, which could impact industries reliant on voice-based interfaces and data entry, such as healthcare and customer service. Offline functionality addresses reliability concerns in areas with limited internet connectivity.",
     "impact_score": 6
   },
   {
-    "title": "OpenAI\u2019s vision for the AI economy: public wealth funds, robot taxes, and a four-day work week",
+    "title": "OpenAI\u2019s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
     "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
-    "industry": "Economics, Policy, Technology",
-    "summary": "OpenAI proposes taxes on AI profits, public wealth funds, and a four-day work week to address potential job displacement and inequality caused by AI advancements.",
-    "charlotte_impact": "OpenAI's proposals signal a growing awareness of the need for economic and social policies that address the potential downsides of AI. Implementing robot taxes or other wealth redistribution mechanisms could impact the overall economic growth rate of companies building AI products and affect where they base their operations.",
+    "industry": "Economics",
+    "summary": "OpenAI proposes taxes on AI profits, public wealth funds, and a four-day workweek to mitigate potential job losses and inequality caused by AI, sparking debate on AI's economic impact.",
+    "charlotte_impact": "OpenAI's proposal highlights the growing concern over the societal impact of AI and the need for proactive policy interventions. The discussion around robot taxes and wealth redistribution could significantly alter the economic landscape, forcing companies to consider the broader social consequences of AI adoption.",
     "impact_score": 9
   },
   {
     "title": "Copilot is \u2018for entertainment purposes only,\u2019 according to Microsoft\u2019s terms of use",
     "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
-    "industry": "Technology, Legal",
-    "summary": "Microsoft's terms of service for Copilot state that it is 'for entertainment purposes only,' highlighting the limitations and potential unreliability of AI models.",
-    "charlotte_impact": "The disclaimer by Microsoft emphasizes the need for critical evaluation of AI outputs and the importance of human oversight, which may limit widespread adoption of AI tools in certain fields where reliability is crucial. This can also create an opportunity for vendors who specialize in reliable and accurate AI tools.",
+    "industry": "Technology",
+    "summary": "Microsoft's terms of service state that Copilot is 'for entertainment purposes only,' highlighting the limitations and potential unreliability of current AI models.",
+    "charlotte_impact": "This disclaimer underscores the current limitations of AI and the importance of human oversight. This could slow down the uncritical adoption of AI in certain applications and increase pressure on AI developers to improve the accuracy and reliability of their models.",
     "impact_score": 7
-  },
-  {
-    "title": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead \u2018special projects\u2019",
-    "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
-    "industry": "Technology, Business",
-    "summary": "OpenAI is undergoing an executive shuffle, with COO Brad Lightcap taking on a new role to lead 'special projects,' and CMO Kate Rouch stepping away due to health reasons.",
-    "charlotte_impact": "Changes in executive leadership at major AI companies can signal shifts in strategic priorities and business direction. Lightcap's new role suggests a focus on new ventures or internal initiatives. Rouch's departure may impact OpenAI's marketing and brand strategy.",
-    "impact_score": 5
   },
   {
     "title": "Iran threatens \u2018Stargate\u2019 AI data centers",
     "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
-    "industry": "Geopolitics, Security, Technology",
-    "summary": "Iran threatens to target U.S.-linked data centers with missile strikes, escalating tensions between the U.S. and Iran.",
-    "charlotte_impact": "Geopolitical threats against data centers underscore the importance of data security and redundancy measures. Increased risks could lead to higher insurance costs for data centers and incentivize the development of more resilient and geographically diverse infrastructure. It also reinforces the need for cybersecurity innovation.",
+    "industry": "Geopolitics",
+    "summary": "Iran threatens to target U.S.-linked data centers with missile strikes, reflecting the growing geopolitical tensions surrounding AI infrastructure.",
+    "charlotte_impact": "The threat against data centers emphasizes the strategic importance of AI infrastructure and the need for enhanced security measures. Geopolitical risks could disrupt AI development and deployment, potentially leading to increased costs and supply chain vulnerabilities.",
     "impact_score": 8
   },
   {
     "title": "Spain\u2019s Xoople raises $130 million Series B to map the Earth for AI",
     "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
-    "industry": "Geospatial, AI, Funding",
-    "summary": "Spain\u2019s Xoople raises $130 million Series B to map the Earth for AI and has a deal with L3Harris to build the sensors for Xoople's spacecraft.",
-    "charlotte_impact": "Xoople's funding round highlights the demand for high-quality geospatial data to train and power AI models. A more complete, real-time map of earth may allow for better AI-driven simulations.",
+    "industry": "Geospatial Technology",
+    "summary": "Spain's Xoople raises $130 million Series B to map the Earth for AI applications and partners with L3Harris to build sensors for its spacecraft.",
+    "charlotte_impact": "Xoople's funding demonstrates the increasing demand for high-quality geospatial data to train and improve AI models. This will likely foster the development of new AI applications in areas such as agriculture, urban planning, and environmental monitoring.",
     "impact_score": 7
   },
   {
-    "title": "The Facebook insider building content moderation for the AI era",
-    "url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
-    "industry": "Technology, Content Moderation",
-    "summary": "Moonbounce has raised $12 million to grow its AI control engine, which converts content moderation policies into consistent, predictable AI behavior.",
-    "charlotte_impact": "The investment in Moonbounce highlights the growing need for effective and reliable content moderation solutions in the age of AI-generated content. Automation will become increasingly important to keep up with the volume of online content and the investment in AI driven content moderation tools will likely accelerate.",
-    "impact_score": 7
-  },
-  {
-    "title": "Artificial intelligence in surgery: Balancing precision with clinical wisdom",
-    "url": "https://kevinmd.com/2026/04/artificial-intelligence-in-surgery-balancing-precision-with-clinical-wisdom.html",
-    "industry": "Healthcare, Technology",
-    "summary": "Precision in surgery has reached unprecedented levels with the help of navigation systems, AI, robotic assistance, and predictive analytics, requiring a balance with clinical wisdom.",
-    "charlotte_impact": "The integration of AI into surgery has the potential to improve outcomes and reduce errors, but it also raises concerns about the role of human judgment and the potential for over-reliance on technology. Hospitals that invest in this technology may attract patients and improve outcomes.",
-    "impact_score": 7
-  },
-  {
-    "title": "Taurox (TAUX) Crosses $1 Million in Presale While Delivering Strong Development Updates",
-    "url": "https://www.globenewswire.com/news-release/2026/04/05/3268248/0/en/Taurox-TAUX-Crosses-1-Million-in-Presale-While-Delivering-Strong-Development-Updates.html",
-    "industry": "Cryptocurrency, AI",
-    "summary": "Taurox (TAUX) has crossed $1 million in its presale, delivering strong development updates",
-    "charlotte_impact": "The funding highlights a potential increase in cryptocurrency driven investments and a possible intersection of blockchain and AI tech.",
-    "impact_score": 4
-  },
-  {
-    "title": "US intelligence says Chinese satellite imagery of bases is helping Iran",
-    "url": "https://www.abc.net.au/news/2026-04-06/us-intelligence-chinese-satellite-imagery-middle-east/106508322",
-    "industry": "Geopolitics, Technology, Security",
-    "summary": "US intelligence believes Chinese satellite imagery of bases is helping Iran identify targets. The imagery is AI enhanced.",
-    "charlotte_impact": "Highlights how AI tech can be used to empower enemies of the US and the dangers surrounding these tools. Raises security concerns.",
+    "title": "Generalist releases GEN-1 highly capable robotic intelligence AI foundation model",
+    "url": "https://siliconangle.com/2026/04/06/generalist-releases-gen-1-highly-capable-robotic-intelligence-ai-foundation-model/",
+    "industry": "Robotics",
+    "summary": "Generalist AI Inc. releases GEN-1, a highly capable foundation model for robot learning and mastery of physical tasks.",
+    "charlotte_impact": "The release of GEN-1 signifies a major advancement in embodied robotics AI, potentially accelerating the development of robots capable of performing complex tasks in various industries such as manufacturing, logistics, and healthcare.",
     "impact_score": 9
   },
   {
-    "title": "Screenwriters union and Hollywood studios reach four-year tentative agreement",
-    "url": "https://www.dailynews.com/2026/04/05/screenwriters-union-and-hollywood-studios-reach-four-year-tentative-agreement/",
-    "industry": "Entertainment, Labor",
-    "summary": "Screenwriters union and Hollywood studios reach four-year tentative agreement.",
-    "charlotte_impact": "A four-year agreement highlights a sense of labor stability within the entertainment industry, allowing for the creation of AI-driven entertainment.",
-    "impact_score": 5
+    "title": "MIT Expert Finds Limits in AI\u2019s Ability to Offer Financial Advice",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/mit-expert-finds-limits-in-ais-ability-to-offer-financial-advice/",
+    "industry": "Finance",
+    "summary": "An MIT expert suggests that AI has limitations in providing financial advice due to a lack of fiduciary duty.",
+    "charlotte_impact": "The expert's findings will likely slow the adoption of AI in financial advisory services, highlighting the critical need for ethical guidelines and regulatory frameworks to ensure that AI acts in the best interests of clients.",
+    "impact_score": 6
   },
   {
-    "title": "Your Smartphone Uses AI Way More Than You Think - Here's How",
-    "url": "https://www.bgr.com/2135558/smartphone-uses-more-ai-than-you-think/",
-    "industry": "Technology, Mobile",
-    "summary": "While generative AI features make headlines, smartphones use AI to power a variety of critical features, such as weather reporting and battery optimization.",
-    "charlotte_impact": "Highlights the omnipresence of AI tools and tech within modern day life. As chips become more powerful, even small tools can pack sophisticated AI tech.",
-    "impact_score": 6
+    "title": "Generative AI Server Market worth $448.60 billion by 2030 - Exclusive Report by MarketsandMarkets\u2122",
+    "url": "https://www.prnewswire.co.uk/news-releases/generative-ai-server-market-worth-448-60-billion-by-2030---exclusive-report-by-marketsandmarkets-302734594.html",
+    "industry": "AI Infrastructure",
+    "summary": "A report predicts that the Generative AI Server Market will reach $448.60 billion by 2030, growing at a CAGR of 34.0% from 2025.",
+    "charlotte_impact": "This indicates substantial investment in the hardware and infrastructure needed to support generative AI. This growth benefits server manufacturers, data center providers, and other related industries. It highlights the economic impact of the increasing demand for generative AI applications.",
+    "impact_score": 8
+  },
+  {
+    "title": "AI companies are building huge natural gas plants to power data centers. What could go wrong?",
+    "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
+    "industry": "Energy",
+    "summary": "AI companies are building natural gas plants to power data centers, raising environmental and sustainability concerns.",
+    "charlotte_impact": "The reliance on natural gas raises sustainability concerns and increases the carbon footprint of AI development. The increased demand for power could put strain on energy grids. Alternative, greener energy solutions may become a priority.",
+    "impact_score": 7
+  },
+  {
+    "title": "Licorne Gulf Ltd and ZGC-GCC Innovation Partners Program Forge Strategic Cooperation Agreement in Beijing",
+    "url": "https://www.globenewswire.com/news-release/2026/04/06/3268523/0/en/Licorne-Gulf-Ltd-and-ZGC-GCC-Innovation-Partners-Program-Forge-Strategic-Cooperation-Agreement-in-Beijing.html",
+    "industry": "International Relations",
+    "summary": "Licorne Gulf Ltd and ZGC-GCC Innovation Partners Program establish an agreement to allow Chinese Sci-Tech companies to enter Qatar.",
+    "charlotte_impact": "This may cause increased competition and innovation as China expands its international influence.",
+    "impact_score": 3
+  },
+  {
+    "title": "Meta layoffs affected employees and regions: Who will be affected and when? Job cuts timeline, impacted teams, roles, hiring plans",
+    "url": "https://economictimes.indiatimes.com/news/international/us/meta-layoffs-affected-employees-and-regions-who-will-be-affected-and-when-job-cuts-timeline-impacted-teams-roles-hiring-plans/articleshow/130063187.cms",
+    "industry": "Technology",
+    "summary": "Meta plans to conduct layoffs in late May in Silicon Valley, primarily affecting teams in sales, recruiting, and Reality Labs, despite ongoing hiring for other roles.",
+    "charlotte_impact": "Impacts employees, and decreases the talent pool available for new companies to draw upon.",
+    "impact_score": 4
+  },
+  {
+    "title": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead \u2018special projects\u2019",
+    "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+    "industry": "Technology",
+    "summary": "OpenAI is undergoing an executive shuffle, with COO Brad Lightcap taking on a new role leading 'special projects' and CMO Kate Rouch stepping away for health reasons.",
+    "charlotte_impact": "The executive shuffle causes a re-organization of teams and priorities, and this will shift the direction of the organization",
+    "impact_score": 4
+  },
+  {
+    "title": "Sam Altman Gives Anything But Straight Answer When Asked Why You Should Trust Him",
+    "url": "https://dailycaller.com/2026/04/06/sam-altman-gives-anything-but-straight-answer-when-asked-why-you-should-trust-him/",
+    "industry": "Technology",
+    "summary": "Sam Altman gives ambiguous responses to the question of why people should trust him with AI development.",
+    "charlotte_impact": "Uncertainty regarding Altman's leadership could cause a decrease in investor or user confidence in his AI endeavors.",
+    "impact_score": 4
   }
 ]
