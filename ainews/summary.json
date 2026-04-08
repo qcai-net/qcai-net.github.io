@@ -3,200 +3,144 @@
     "title": "Uber is the latest to be won over by Amazon\u2019s AI chips",
     "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
     "industry": "Transportation",
-    "summary": "Uber is increasing its reliance on Amazon's AWS infrastructure, specifically utilizing Amazon's AI chips for ride-sharing operations, marking a shift away from Oracle and Google.",
-    "charlotte_impact": "Uber's decision highlights the growing competition among cloud providers in the AI space. This adoption reinforces Amazon's position as a leading provider of AI infrastructure and could drive down the cost of AI compute for businesses, accelerating the adoption of AI in various industries, not just transportation. It will drive up investment in chip manufacturing, impacting the supply chain.",
+    "summary": "Uber is expanding its AWS contract to leverage Amazon's custom AI chips, moving away from Oracle and Google's offerings. This move aims to optimize ride-sharing features and other digital services using specialized hardware.",
+    "charlotte_impact": "Uber's adoption of Amazon's AI chips signals a shift in the cloud services landscape. This strategic choice impacts the competitiveness of cloud providers, driving them to innovate further in specialized hardware and AI-optimized solutions. It also highlights the growing importance of customized silicon in meeting the specific needs of large tech companies, potentially leading to increased demand for specialized chip design and manufacturing.",
+    "impact_score": 8
+  },
+  {
+    "title": "Google quietly launched an AI dictation app that works offline",
+    "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+    "industry": "Software",
+    "summary": "Google has quietly launched an offline-first AI dictation app powered by Gemma AI models for iOS. This app directly competes with established players like Wispr Flow, providing users with on-device speech-to-text capabilities.",
+    "charlotte_impact": "The introduction of Google's offline dictation app showcases the increasing accessibility and efficiency of smaller AI models.  The successful deployment of Gemma AI in this context suggests that smaller, more efficient models can effectively compete with larger ones, especially for specific tasks. This could drive adoption of on-device AI processing, reducing reliance on cloud connectivity and enhancing user privacy.",
     "impact_score": 7
+  },
+  {
+    "title": "I can\u2019t help rooting for tiny open source AI model maker Arcee",
+    "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
+    "industry": "AI Development",
+    "summary": "Arcee, a 26-person startup, has built a high-performing, massive, open-source LLM gaining popularity among OpenClaw users. Its emergence challenges the dominance of larger, closed-source AI models.",
+    "charlotte_impact": "Arcee's success demonstrates the potential for smaller teams to create impactful open-source AI models. This democratizes AI development, lowering the barrier to entry for researchers and developers. The rise of open-source LLMs fosters collaboration and innovation, potentially leading to faster advancements in AI technology and greater transparency in AI algorithms.",
+    "impact_score": 8
   },
   {
     "title": "Firmus, the \u2018Southgate\u2019 AI data center builder backed by Nvidia, hits $5.5B valuation",
     "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
     "industry": "Data Centers",
-    "summary": "Firmus, an AI data center builder backed by Nvidia, has achieved a $5.5 billion valuation after raising $1.35 billion in six months, showcasing the massive capital influx into AI infrastructure.",
-    "charlotte_impact": "The surge in valuation and funding for Firmus reflects the intense demand for AI-specific data centers, which require specialized hardware and infrastructure. This trend indicates a growing market for companies building and managing these facilities and could stimulate investments in related technologies, such as cooling systems and power management solutions. It underscores that the AI economy relies on real-world infrastructure at a scale never seen before.",
+    "summary": "Firmus, an Nvidia-backed AI data center provider in Asia, has reached a $5.5B valuation after raising $1.35 billion in six months. This reflects the booming demand for specialized infrastructure to support AI workloads.",
+    "charlotte_impact": "The substantial valuation and funding of Firmus underscore the critical need for AI-specific data centers. This trend is driving significant investment in data center infrastructure globally. The focus on Asia as a key region for AI development suggests increased economic activity and technological advancement in the area, further escalating demand for skilled labor in construction, maintenance and software development.",
     "impact_score": 9
   },
   {
     "title": "Google Maps can now write captions for your photos using AI",
     "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
-    "industry": "Mapping",
-    "summary": "Google Maps is integrating AI, specifically Gemini, to automatically generate captions for user-uploaded photos, aiming to enhance local knowledge contributions within the platform.",
-    "charlotte_impact": "This move by Google streamlines content creation and makes it easier for users to contribute to Google Maps. By automating caption generation, Google is enhancing the user experience and improving the quality of its mapping data. In the long run this gives Google a competitive advantage over its competitors and improves the quality of data available to advertisers and local businesses.",
+    "industry": "Mapping/Social Media",
+    "summary": "Google Maps is integrating Gemini AI to generate captions for user-uploaded photos and videos, enhancing local knowledge contributions within the platform.",
+    "charlotte_impact": "The integration of generative AI into Google Maps highlights the potential for AI to enhance user-generated content. This feature improves the user experience by making it easier to share and discover local information. As AI-powered content generation becomes more prevalent, it could shift the balance between human-created and AI-assisted content, requiring businesses to adapt their content strategies.",
     "impact_score": 6
   },
   {
     "title": "The AI gold rush is pulling private wealth into riskier, earlier bets",
     "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
     "industry": "Venture Capital",
-    "summary": "Family offices are increasingly directly investing in early-stage AI startups, bypassing traditional venture capital firms, indicating a shift in investment strategies and a desire for greater control and higher returns.",
-    "charlotte_impact": "The shift towards direct investment by family offices indicates a maturing AI investment landscape. This trend could lead to more diverse funding sources for AI startups, potentially democratizing access to capital. Family offices are more likely to pursue longer-term gains than VCs, meaning that the AI market is likely to see less turbulence.",
+    "summary": "Family offices are increasingly bypassing traditional VCs to directly invest in early-stage AI startups, demonstrating a shift towards more active participation in the AI investment landscape.",
+    "charlotte_impact": "The influx of private wealth directly into AI startups is disrupting traditional venture capital models. This trend can lead to faster funding cycles and greater flexibility for AI startups. The direct involvement of family offices also brings valuable expertise and networks, potentially accelerating the growth and development of promising AI ventures and possibly leading to faster innovation cycles and wider adoption of advanced AI.",
     "impact_score": 8
   },
   {
     "title": "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost",
     "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
     "industry": "Consulting",
-    "summary": "Rocket, an Indian AI startup, is offering McKinsey-style consulting services at a significantly lower cost using its new AI platform, challenging the traditional consulting model.",
-    "charlotte_impact": "Rocket's model could disrupt the consulting industry by providing affordable access to strategic insights and competitive intelligence. This could particularly benefit smaller businesses and startups that cannot afford traditional consulting services. It also challenges the assumption that human consultants are absolutely necessary to provide such services.",
+    "summary": "Rocket, an Indian AI startup, offers McKinsey-style consulting reports at a lower cost using its AI platform. This platform combines strategy, product building, and competitive intelligence, moving beyond simple code generation.",
+    "charlotte_impact": "Rocket's emergence poses a potential challenge to traditional consulting firms. By automating aspects of consulting, AI platforms like Rocket can offer cost-effective solutions, particularly for smaller businesses. This trend can lead to increased competition in the consulting industry, forcing firms to adapt by incorporating AI into their own services or focusing on niche areas where human expertise remains essential.",
     "impact_score": 7
   },
   {
     "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
     "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
     "industry": "Venture Capital",
-    "summary": "Zero Shot, a new venture capital fund founded by OpenAI alumni, is raising a $100 million fund to invest in early-stage AI startups, highlighting the growing ecosystem around OpenAI and the continued interest in funding novel AI ventures.",
-    "charlotte_impact": "The emergence of Zero Shot signals a further maturation of the AI venture capital market. The deep expertise of the fund's founders could provide valuable guidance and validation to portfolio companies, increasing their chances of success and further consolidating OpenAI's influence within the AI ecosystem.",
+    "summary": "Zero Shot, a new VC fund founded by OpenAI alums, aims to raise $100 million to invest in AI startups. This reflects continued interest and confidence in the AI sector from experienced professionals.",
+    "charlotte_impact": "The creation of Zero Shot signifies the continued momentum in AI investment. Funds founded by individuals with deep expertise in AI can provide valuable guidance and support to startups. This can further accelerate the development and deployment of new AI technologies, fueling economic growth and innovation in related sectors.",
     "impact_score": 7
-  },
-  {
-    "title": "Google quietly launched an AI dictation app that works offline",
-    "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-    "industry": "Software",
-    "summary": "Google has quietly released an offline AI dictation app powered by Gemma models, competing with existing apps like Wispr Flow and bringing AI-powered speech recognition to users even without an internet connection.",
-    "charlotte_impact": "Google's offline dictation app makes voice input more accessible and reliable, particularly in areas with limited or no internet connectivity. This could have a significant impact on productivity and communication, especially for users in developing countries. The use of Gemma also signifies Google's commitment to bringing advanced AI features to mobile devices.",
-    "impact_score": 6
   },
   {
     "title": "OpenAI\u2019s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
     "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
-    "industry": "Policy",
-    "summary": "OpenAI is proposing novel economic policies, including taxes on AI profits, public wealth funds, and a four-day workweek, to address the potential job displacement and inequality caused by AI, sparking debate about the future of work and economic systems.",
-    "charlotte_impact": "OpenAI's proposals highlight the growing concern about the societal impact of AI and the need for proactive policy interventions. Implementing such policies could have far-reaching consequences for businesses and workers, requiring careful consideration of potential benefits and drawbacks. The discussion will likely lead to changes in policy and labour practices in the future.",
+    "industry": "Economics",
+    "summary": "OpenAI proposes robot taxes, public wealth funds, and a four-day workweek to address the potential economic impact of AI, sparking debate on AI's role in shaping the future economy.",
+    "charlotte_impact": "OpenAI's vision raises important questions about the societal implications of widespread AI adoption. Robot taxes, public wealth funds, and a shorter workweek could have significant impacts on business models, employment, and wealth distribution. These discussions are crucial for shaping policy and ensuring a more equitable and sustainable future in an AI-driven economy.",
     "impact_score": 9
   },
   {
-    "title": "Copilot is \u2018for entertainment purposes only,\u2019 according to Microsoft\u2019s terms of use",
-    "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+    "title": "Atlassian launches visual\u00a0AI tools\u00a0and third-party agents\u00a0in Confluence",
+    "url": "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/",
     "industry": "Software",
-    "summary": "Microsoft's terms of use for Copilot state that it is 'for entertainment purposes only,' highlighting the limitations and potential unreliability of AI models and cautioning users against blindly trusting their outputs.",
-    "charlotte_impact": "This disclaimer by Microsoft underscores the importance of critical thinking and human oversight when using AI tools. Businesses need to be aware of the limitations of AI and implement appropriate safeguards to prevent errors and biases from negatively impacting their operations or customers. It reinforces the need for ethical considerations when designing AI algorithms.",
-    "impact_score": 6
-  },
-  {
-    "title": "Nvidia acquisition of SchedMD sparks worry among AI specialists about software access",
-    "url": "https://www.channelnewsasia.com/business/nvidia-acquisition-schedmd-sparks-worry-among-ai-specialists-about-software-access-6039596",
-    "industry": "Semiconductors",
-    "summary": "Nvidia's acquisition of SchedMD has raised concerns among AI specialists regarding software access and the potential for Nvidia to control the ecosystem, testing its commitment to a fair playing field for chip competition.",
-    "charlotte_impact": "Nvidia's dominant position in the AI chip market is further reinforced by this acquisition, raising concerns about potential anti-competitive behavior. If Nvidia restricts access to SchedMD's software, it could stifle innovation and limit choices for AI researchers and developers.",
+    "summary": "Atlassian launches visual AI tools and third-party agents in Confluence, enabling users to create visual assets and integrate AI-powered functionalities directly within the platform.",
+    "charlotte_impact": "Atlassian's integration of visual AI and third-party agents demonstrates the growing trend of embedding AI into existing software platforms. This enhances productivity and creativity for users, while also opening up opportunities for AI developers to build and deploy their agents within established ecosystems. This can further accelerate AI adoption across various industries and business functions.",
     "impact_score": 7
   },
   {
     "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
     "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
     "industry": "Cybersecurity",
-    "summary": "Anthropic has unveiled a preview of its new AI model, Mythos, specifically designed for defensive cybersecurity work, indicating the increasing role of AI in protecting against cyber threats.",
-    "charlotte_impact": "Anthropic's Mythos represents a significant advancement in AI-powered cybersecurity. This technology could enable businesses to detect and respond to cyberattacks more effectively, reducing the risk of data breaches and financial losses. However, it also raises concerns about the potential for AI-powered cyberattacks, creating an ongoing arms race in the cybersecurity space.",
-    "impact_score": 8
-  },
-  {
-    "title": "Iran threatens \u2018Stargate\u2019 AI data centers",
-    "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
-    "industry": "Geopolitics",
-    "summary": "Iran has threatened to target U.S.-linked data centers with missile strikes, escalating geopolitical tensions and raising concerns about the security of critical AI infrastructure.",
-    "charlotte_impact": "This threat underscores the vulnerability of AI infrastructure to geopolitical risks and the need for robust security measures to protect data centers from attack. It could lead to increased investment in data center security and diversification of AI infrastructure across multiple locations.",
+    "summary": "Anthropic unveils a preview of its powerful new AI model, Mythos, designed for defensive cybersecurity work, providing advanced capabilities to select companies.",
+    "charlotte_impact": "Anthropic's Mythos highlights the increasing use of AI in cybersecurity. This model can enhance threat detection, incident response, and vulnerability management. The use of advanced AI models in cybersecurity is crucial for protecting businesses and critical infrastructure from increasingly sophisticated cyberattacks, potentially leading to increased demand for AI-powered security solutions.",
     "impact_score": 9
   },
   {
     "title": "Spain\u2019s Xoople raises $130 million Series B to map the Earth for AI",
     "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
-    "industry": "Geospatial",
-    "summary": "Spain's Xoople has raised $130 million in Series B funding to map the Earth for AI applications, including a deal with L3Harris to build sensors for its spacecraft, demonstrating the demand for high-quality geospatial data to train and deploy AI models.",
-    "charlotte_impact": "Xoople's funding and partnership with L3Harris highlight the importance of accurate and up-to-date geospatial data for a wide range of AI applications, from autonomous vehicles to urban planning. This could spur further innovation in remote sensing technologies and create new business opportunities in the geospatial data market.",
-    "impact_score": 7
-  },
-  {
-    "title": "OpenAI asks California, Delaware to investigate Musk's 'anti-competitive behavior' ahead of April trial",
-    "url": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
-    "industry": "Legal",
-    "summary": "OpenAI has requested investigations by California and Delaware attorneys general into Elon Musk's 'anti-competitive behavior' ahead of their April trial, escalating the legal battle between the two entities.",
-    "charlotte_impact": "This legal challenge could have significant implications for the AI industry, potentially shaping the competitive landscape and influencing the future of AI development. The outcome of the trial could affect the ability of companies to attract talent, secure funding, and commercialize their AI technologies.",
+    "industry": "Geospatial Data/Space",
+    "summary": "Spain\u2019s Xoople raises $130 million Series B to map the Earth for AI purposes, also announcing a deal with L3Harris to build sensors for their spacecraft.",
+    "charlotte_impact": "Xoople's funding and partnership demonstrate the growing demand for high-quality geospatial data for AI applications. Mapping the Earth for AI purposes can enable advancements in areas such as autonomous vehicles, agriculture, and urban planning. The use of spacecraft-based sensors highlights the increasing role of space technology in data collection and analysis.",
     "impact_score": 8
   },
   {
-    "title": "OpenAI Calls for Global Shift in Taxation, Labor Policy as AI Takes Over",
-    "url": "https://decrypt.co/363431/openai-global-shift-labor-taxation-ai-sam-altman",
-    "industry": "Policy",
-    "summary": "OpenAI is advocating for a global shift in taxation and labor policy in response to the widespread adoption of AI, raising complex questions about the future of work and economic equity.",
-    "charlotte_impact": "OpenAI's call for policy changes reflects the growing recognition that AI could fundamentally alter the labor market and require new approaches to social welfare. Governments may need to consider implementing new taxes, retraining programs, and social safety nets to mitigate the potential negative impacts of AI on workers and society.",
-    "impact_score": 9
+    "title": "Uber bets on Amazon's custom chips to boost AI efforts",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/uber-bets-on-amazons-custom-chips-to-boost-ai-efforts/articleshow/130089420.cms",
+    "industry": "Transportation",
+    "summary": "Uber is utilizing Amazon's custom chips to enhance its AI capabilities, specifically to accelerate computing and training of AI models. This improves ride-matching and delivery services.",
+    "charlotte_impact": "This highlights the growing importance of specialized hardware for AI applications. Companies are increasingly seeking custom silicon solutions to optimize performance and efficiency. This increased demand can drive innovation in chip design and manufacturing, leading to more advanced and cost-effective AI hardware.",
+    "impact_score": 8
   },
   {
-    "title": "Retailers Bet on AI Fitting Rooms to Slash Costly Returns",
-    "url": "https://www.pymnts.com/news/ecommerce/2026/retailers-bet-on-ai-fitting-rooms-to-slash-costly-returns/",
-    "industry": "Retail",
-    "summary": "Retailers are investing in AI-powered fitting rooms to reduce the high costs associated with online clothing returns, showcasing AI's potential to improve efficiency and customer satisfaction in the retail sector.",
-    "charlotte_impact": "AI fitting rooms could significantly reduce return rates, saving retailers money on shipping, handling, and inventory management. This technology could also improve the customer experience by helping shoppers find the right size and fit, increasing customer satisfaction and loyalty. They will drive a focus on improved personalization and customer analytics.",
+    "title": "So\u2026 what are we doing with AI? Innovating in an age of caution",
+    "url": "https://fortune.com/2026/04/07/ai-innovation-caution-pwc-experian-vml/",
+    "industry": "Business Strategy",
+    "summary": "Boards of directors are demanding AI results, yet capital is tighter and risks feel higher, forcing leaders to experiment quickly without destabilizing their businesses.",
+    "charlotte_impact": "This shows the pressure on companies to demonstrate tangible ROI from AI investments. Leaders need to strike a balance between innovation and stability. This trend can drive demand for AI solutions that are proven, scalable, and aligned with business objectives.",
     "impact_score": 7
   },
   {
-    "title": "Oracle taps new CFO to navigate data centre building spree",
-    "url": "https://financialpost.com/technology/oracle-taps-new-cfo-data-centres",
-    "industry": "Cloud Computing",
-    "summary": "Oracle has appointed a new CFO to manage its extensive data center expansion plans, reflecting the growing demand for cloud computing infrastructure driven by AI and other technologies.",
-    "charlotte_impact": "Oracle's data center expansion indicates a strong commitment to the cloud computing market and its potential for growth. This investment could create new jobs in construction, engineering, and IT, and it could also attract more businesses to the region, boosting the local economy. It strengthens Oracle's position as a leader in enterprise infrastructure.",
-    "impact_score": 6
-  },
-  {
-    "title": "volnix 0.1.0",
-    "url": "https://pypi.org/project/volnix/0.1.0/",
-    "industry": "AI Research",
-    "summary": "The release of volnix 0.1.0, a Python package for programmable worlds for AI, contributes to the development of environments for training and testing AI agents.",
-    "charlotte_impact": "This is an important step forward for reinforcement learning and AI development. These types of tools are critical to creating sophisticated AI applications. There are applications for this technology far beyond traditional training and research.",
-    "impact_score": 5
-  },
-  {
-    "title": "volnix added to PyPI",
-    "url": "https://pypi.org/project/volnix/",
-    "industry": "AI Research",
-    "summary": "The addition of volnix to PyPI signals increased availability of tools for creating programmable worlds for AI.",
-    "charlotte_impact": "The addition of volnix makes development easier and cheaper for companies to build AI models. This will drive adoption and provide more resources for the AI community.",
-    "impact_score": 4
-  },
-  {
-    "title": "'Up to 75% higher': Experts say your next SSD or memory upgrade will get a lot more expensive \u2014 and I fear the Iran war will make it even worse",
-    "url": "https://www.techradar.com/pro/up-to-75-percent-higher-experts-say-your-next-ssd-or-memory-upgrade-will-get-a-lot-more-expensive-and-i-fear-the-iran-war-will-make-it-even-worse",
+    "title": "Intel Stock Surges on $14.2B Ireland Fab Buyback as Chipmaker Signals Turnaround Momentum",
+    "url": "https://www.ibtimes.com.au/intel-stock-surges-142b-ireland-fab-buyback-chipmaker-signals-turnaround-momentum-1865696",
     "industry": "Semiconductors",
-    "summary": "Experts predict a significant increase in the cost of SSDs and memory upgrades due to AI demand and geopolitical issues.",
-    "charlotte_impact": "Increased memory and SSD prices hurt consumers, but manufacturers stand to benefit. These rising costs could limit AI adoption for some companies. It incentivizes research in alternative data storage technology.",
-    "impact_score": 6
+    "summary": "Intel's stock surges on a $14.2B Ireland fab buyback, signaling a turnaround as the chipmaker aims to reclaim leadership in advanced semiconductor manufacturing.",
+    "charlotte_impact": "Intel's investment signals a renewed focus on advanced manufacturing, which is essential for supporting AI innovation. Strengthening semiconductor manufacturing capabilities helps ensure a stable supply chain for AI chips and reduces reliance on external sources. This can foster greater competition and innovation in the AI hardware market.",
+    "impact_score": 7
   },
   {
-    "title": "JPMorgan\u2019s Dimon Adds\u00a0Fresh Twist to\u00a0Argument for Keeping Teams Small",
-    "url": "https://www.livemint.com/companies/jpmorgans-dimon-adds-fresh-twist-to-argument-for-keeping-teams-small-11775503938971.html",
-    "industry": "Management",
-    "summary": "JPMorgan Chase CEO Jamie Dimon advocates for smaller teams, echoing similar sentiments from executives at Amazon and HSBC.",
-    "charlotte_impact": "This is generally a reference to the Two Pizza Rule, which means teams shouldn't be larger than can be fed by two pizzas. While not specifically about AI, the size of teams will inevitably change with AI. Fewer people will be needed on certain teams while new teams will have to be created to work with new data and algorithms.",
-    "impact_score": 3
-  },
-  {
-    "title": "Unlocking the Future of Content Marketing in Africa",
-    "url": "https://mauconline.net/future-of-content-marketing-in-africa/",
-    "industry": "Marketing",
-    "summary": "This article covers the impact and the possible future of content marketing in Africa.",
-    "charlotte_impact": "Because of the growing economies in Africa, content marketing is seen as a way to drive growth for the continent.",
-    "impact_score": 3
-  },
-  {
-    "title": "Cisco Appoints Pete Shimer to its Board of Directors",
-    "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m04/cisco-appoints-pete-shimer-to-its-board-of-directors.html",
-    "industry": "Networking",
-    "summary": "Cisco Appoints Pete Shimer to its Board of Directors",
-    "charlotte_impact": "As a leading company in the networking space, Cisco is positioned to capitalize on the need for greater bandwidth as AI is more widely used.",
-    "impact_score": 2
-  },
-  {
-    "title": "Knowledge and wisdom",
-    "url": "https://economictimes.indiatimes.com/opinion/speaking-tree/knowledge-and-wisdom/articleshow/130070057.cms",
-    "industry": "AI Philosophy",
-    "summary": "This article focuses on the difference between knowledge and wisdom in the AI context.",
-    "charlotte_impact": "While AI is able to process knowledge, it can't replicate wisdom. While AI is able to take roles as knowledge bearers, it cannot take on the role of the wiseman or guide decisions based on experience.",
-    "impact_score": 3
-  },
-  {
-    "title": "AI \"Hallucinated Cases\" Lead to $47K Sanctions",
-    "url": "https://reason.com/volokh/2026/04/07/ai-hallucinated-cases-lead-to-47k-sanctions/",
-    "industry": "Legal",
-    "summary": "A lawyer was sanctioned $47K for submitting AI hallucinated cases.",
-    "charlotte_impact": "This serves as a warning to lawyers about the importance of fact checking the information produced by AI algorithms.",
+    "title": "Just One Day Away \u2013 Don\u2019t Miss It. C-Level Technology Leadership and the Rise of Iconic Leaders Will Shape the Conversation at HMG Strategy\u2019s 2026 Dallas Summit. Be a Part of It. Register Now",
+    "url": "https://www.globenewswire.com/news-release/2026/04/07/3269398/0/en/Just-One-Day-Away-Don-t-Miss-It-C-Level-Technology-Leadership-and-the-Rise-of-Iconic-Leaders-Will-Shape-the-Conversation-at-HMG-Strategy-s-2026-Dallas-Summit-Be-a-Part-of-It-Regist.html",
+    "industry": "Technology Leadership/Events",
+    "summary": "HMG Strategy's 2026 Dallas Summit brings together CIOs to discuss AI, security, and technology shaping business futures to 2030.",
+    "charlotte_impact": "Summits like this help shape the technology roadmap of many companies. Sharing best-practices, networking and discussion around use cases will help to drive better strategic alignment between technology organizations and broader business goals. This also allows organizations to evaluate different solutions and partnerships to keep pace with the rapid advancement of technological products.",
     "impact_score": 5
+  },
+  {
+    "title": "Data Dominion: How Zeta Global Cracked the AI Code for the Next Generation of Martech",
+    "url": "https://www.adweek.com/brand-marketing/data-dominion-how-zeta-global-cracked-the-ai-code-for-the-next-generation-of-martech/",
+    "industry": "Marketing Technology",
+    "summary": "Zeta Global leverages AI to drive significant growth in the martech sector, outperforming the broader market.",
+    "charlotte_impact": "Zeta Global showcases the power of AI-driven marketing solutions. Their success demonstrates the potential for AI to personalize marketing campaigns, improve customer engagement, and drive sales growth. This can encourage more businesses to adopt AI-powered martech solutions to gain a competitive advantage.",
+    "impact_score": 7
+  },
+  {
+    "title": "Top 10 Best AI Video Generators in 2026: Realistic Clips, Audio Sync and Creative Tools Ranked",
+    "url": "https://www.ibtimes.com.au/top-10-best-ai-video-generators-2026-realistic-clips-audio-sync-creative-tools-ranked-1865693",
+    "industry": "AI Video Generation",
+    "summary": "AI video generation has advanced significantly in 2026, offering near-cinematic results from simple text prompts, revolutionizing content creation for various industries.",
+    "charlotte_impact": "AI video generation dramatically lowers the barrier to entry for video content creation. This can transform marketing, education, entertainment, and other industries. The ability to generate high-quality videos quickly and easily can lead to increased content creation, new storytelling formats, and more personalized experiences for consumers.",
+    "impact_score": 8
   }
 ]
