@@ -2,145 +2,153 @@
   {
     "title": "Uber 是最新一家被亚马逊人工智能芯片击败的公司",
     "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
-    "industry": "Transportation",
-    "summary": "Uber 正在扩大其 AWS 合同，以利用亚马逊的定制人工智能芯片，摆脱甲骨文和谷歌的产品。此举旨在使用专用硬件优化拼车功能和其他数字服务。",
-    "charlotte_impact": "Uber 采用亚马逊的人工智能芯片标志着云服务格局的转变。这一战略选择会影响云提供商的竞争力，推动他们在专业硬件和人工智能优化解决方案方面进一步创新。它还凸显了定制芯片在满足大型科技公司的特定需求方面日益重要，这可能导致对专业芯片设计和制造的需求增加。",
+    "industry": "Cloud Computing",
+    "summary": "Uber 正在扩大其 AWS 合同，以便在亚马逊的人工智能芯片上运行更多的乘车共享功能。这是远离甲骨文和谷歌的战略举措，标志着亚马逊在人工智能基础设施领域的主导地位日益增强。",
+    "charlotte_impact": "Uber 对亚马逊人工智能芯片的依赖日益增加，表明企业青睐专业人工智能基础设施提供商的更广泛行业趋势。这一趋势给传统云提供商带来了创新和提供有竞争力的人工智能特定解决方案的压力。亚马逊的市场地位得到加强，可能会全面影响人工智能计算资源的定价和可用性。",
     "impact_score": 8
+  },
+  {
+    "title": "OpenAI 发布新的安全蓝图以解决儿童性剥削问题",
+    "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
+    "industry": "AI Safety",
+    "summary": "OpenAI 发布了新的儿童安全蓝图，以解决与人工智能进步相关的儿童性剥削问题。该计划概述了降低人工智能被用来创建或传播有害内容的风险的策略。",
+    "charlotte_impact": "人们对人工智能安全的日益关注，特别是在儿童剥削方面，需要在检测和预防技术方面进行大量投资。  这为专门从事内容审核和人工智能安全工具的公司创造了机会，同时也对人工智能开发人员和平台提供商提出了更严格的合规要求。对安全的关注会增加成本，但对于防止社会伤害和维持社会对人工智能的信任至关重要。",
+    "impact_score": 9
   },
   {
     "title": "谷歌悄然推出一款离线工作的人工智能听写应用",
     "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-    "industry": "Software",
-    "summary": "谷歌悄然推出了一款离线优先的人工智能听写应用程序，由 iOS 版 Gemma AI 模型提供支持。该应用程序直接与 Wispr Flow 等老牌厂商竞争，为用户提供设备上的语音转文本功能。",
-    "charlotte_impact": "谷歌离线听写应用程序的推出展示了小型人工智能模型日益增强的可访问性和效率。  Gemma AI 在这种背景下的成功部署表明，更小、更高效的模型可以有效地与更大的模型竞争，特别是对于特定任务。这可以推动设备上人工智能处理的采用，减少对云连接的依赖并增强用户隐私。",
+    "industry": "Mobile Applications",
+    "summary": "谷歌悄悄推出了一款离线工作的人工智能听写应用程序，使用 Gemma AI 模型与 Wispr Flow 等应用程序竞争。这为用户提供了一个注重隐私且易于访问的听写解决方案。",
+    "charlotte_impact": "谷歌的离线听写应用程序体现了将人工智能功能直接嵌入移动设备的趋势。这一举措标志着边缘计算的发展，通过减少对云连接的依赖，为用户提供增强的隐私性和可靠性。它挑战现有的听写应用程序提供商进行创新，否则就有失去市场份额的风险。",
     "impact_score": 7
   },
   {
     "title": "我情不自禁地支持小型开源人工智能模型制作者 Arcee",
     "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
-    "industry": "AI Development",
-    "summary": "Arcee 是一家拥有 26 名员工的初创公司，建立了一个高性能、大规模、开源的法学硕士，在 OpenClaw 用户中广受欢迎。它的出现挑战了更大的闭源人工智能模型的主导地位。",
-    "charlotte_impact": "Arcee 的成功证明了小型团队创建有影响力的开源人工智能模型的潜力。这使得人工智能开发民主化，降低了研究人员和开发人员的进入门槛。开源法学硕士的兴起促进了协作和创新，有可能导致人工智能技术更快的进步和人工智能算法更大的透明度。",
-    "impact_score": 8
+    "industry": "Open Source AI",
+    "summary": "Arcee 是一家美国小型初创公司，它建立了一个高性能、大规模、开源的法学硕士课程，越来越受到 OpenClaw 用户的欢迎。这挑战了闭源模型的主导地位。",
+    "charlotte_impact": "Arcee 的崛起凸显了开源人工智能模型日益增长的重要性。  这一趋势促进了人工智能开发的创新、协作和透明度，有可能使先进人工智能技术的获取民主化。这一趋势在给封闭的人工智能生态系统带来挑战的同时，也带来了更多的竞争。",
+    "impact_score": 7
   },
   {
     "title": "Nvidia 支持的“Southgate”人工智能数据中心建设者 Firmus 估值达到 5.5B 美元",
     "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
     "industry": "Data Centers",
-    "summary": "Firmus 是 Nvidia 支持的亚洲人工智能数据中心提供商，在六个月内筹集了 13.5 亿美元后，估值已达到 5.5B 美元。这反映出对支持人工智能工作负载的专业基础设施的需求不断增长。",
-    "charlotte_impact": "Firmus 的巨额估值和资金突显了对人工智能专用数据中心的迫切需求。这一趋势正在推动全球数据中心基础设施的大量投资。将亚洲作为人工智能发展的关键地区的关注表明该地区经济活动的增加和技术进步，进一步增加了对建筑、维护和软件开发领域熟练劳动力的需求。",
+    "summary": "Firmus 是 Nvidia 支持的亚洲人工智能数据中心建设商，在六个月内筹集了 1.35B 美元后，估值已达到 5.5B 美元。这反映出对人工智能基础设施的巨大需求。",
+    "charlotte_impact": "Firmus 的估值凸显了目前流入人工智能数据中心基础设施的大量投资。对人工智能优化数据中心的需求不断增加，尤其是在亚洲，直接影响了关键地区的土地价值、建筑成本和电力需求。  这也提高了英伟达作为关键合作伙伴的重要性。这种繁荣为数据中心建设公司和投资者创造了机会。",
     "impact_score": 9
   },
   {
     "title": "Google 地图现在可以使用 AI 为您的照片编写说明文字",
     "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
-    "industry": "Mapping/Social Media",
-    "summary": "谷歌地图正在集成 Gemini AI 来为用户上传的照片和视频生成标题，从而增强平台内的本地知识贡献。",
-    "charlotte_impact": "将生成式人工智能集成到谷歌地图中，​​凸显了人工智能增强用户生成内容的潜力。此功能使共享和发现本地信息变得更加容易，从而改善了用户体验。随着人工智能驱动的内容生成变得越来越普遍，它可能会改变人类创建的内容和人工智能辅助的内容之间的平衡，从而要求企业调整其内容策略。",
+    "industry": "Mapping & Navigation",
+    "summary": "Google 地图现在使用 Gemini 为用户上传的照片编写标题，从而增强了该平台提供有关位置的上下文信息的能力。",
+    "charlotte_impact": "谷歌将人工智能集成到地图中，巩固了其作为领先导航和本地发现平台的地位。通过人工智能生成的字幕增强用户生成的内容，提高了本地信息的质量，使地图对消费者和企业更有价值。依赖谷歌地图可见性的小型企业营销策略也将得到改善。",
     "impact_score": 6
   },
   {
     "title": "人工智能淘金热正在将私人财富拉入风险更高、更早的赌注",
     "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
     "industry": "Venture Capital",
-    "summary": "家族办公室越来越多地绕过传统风险投资公司，直接投资早期人工智能初创企业，这表明他们正在转向更积极地参与人工智能投资领域。",
-    "charlotte_impact": "私人财富直接涌入人工智能初创企业正在颠覆传统的风险投资模式。这种趋势可以为人工智能初创公司带来更快的融资周期和更大的灵活性。家族办公室的直接参与还带来了宝贵的专业知识和网络，有可能加速有前途的人工智能企业的成长和发展，并可能导致更快的创新周期和更广泛地采用先进人工智能。",
-    "impact_score": 8
+    "summary": "家族办公室越来越多地绕过传统风险投资公司，直接投资早期人工智能初创企业。人们对人工智能的高增长潜力以及对投资进行更直接控制的渴望推动了这一趋势。",
+    "charlotte_impact": "家族办公室向直接投资的转变加快了人工智能初创企业的融资速度，尤其是在早期阶段。这提供了替代资本来源，有助于加速创新。这也可能挑战传统的风险投资模式。",
+    "impact_score": 7
   },
   {
     "title": "人工智能初创公司 Rocket 以极低的成本提供麦肯锡风格的报告",
     "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
     "industry": "Consulting",
-    "summary": "Rocket 是一家印度人工智能初创公司，利用其人工智能平台以较低的成本提供麦肯锡式的咨询报告。该平台结合了战略、产品构建和竞争情报，超越了简单的代码生成。",
-    "charlotte_impact": "Rocket的出现对传统咨询公司提出了潜在的挑战。通过自动化咨询方面，Rocket 这样的人工智能平台可以提供经济高效的解决方案，特别是对于小型企业。这种趋势可能会导致咨询行业的竞争加剧，迫使公司做出调整，将人工智能纳入自己的服务中，或者专注于人类专业知识仍然至关重要的利基领域。",
-    "impact_score": 7
+    "summary": "Rocket 是一家印度人工智能初创公司，以极低的成本提供麦肯锡式的咨询报告，结合了战略、产品构建和竞争情报。",
+    "charlotte_impact": "像 Rocket 这样的人工智能咨询服务对传统管理咨询公司构成了颠覆性威胁。它们使战略洞察的获取变得民主化，有可能降低企业成本并提高竞争力。现有的咨询公司要么需要采用人工智能工具，要么冒着失去客户给新来者的风险。",
+    "impact_score": 8
   },
   {
     "title": "OpenAI 校友一直在悄悄地从一个可能 1 亿美元的新基金进行投资",
     "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
     "industry": "Venture Capital",
-    "summary": "Zero Shot 是一家由 OpenAI 校友创立的新风险投资基金，旨在筹集 1 亿美元投资人工智能初创公司。这反映出经验丰富的专业人士对人工智能领域的持续兴趣和信心。",
-    "charlotte_impact": "Zero Shot的诞生标志着人工智能投资的持续势头。由在人工智能领域拥有深厚专业知识的个人创立的基金可以为初创企业提供宝贵的指导和支持。这可以进一步加速人工智能新技术的开发和部署，推动相关行业的经济增长和创新。",
+    "summary": "OpenAI 校友创建了 Zero Shot，这是一个新的风险投资基金，旨在筹集 1 亿美元投资人工智能初创公司。他们对人工智能的深刻理解提供了竞争优势。",
+    "charlotte_impact": "由前 OpenAI 员工领导的专业人工智能风险基金的出现凸显了人工智能投资格局的日益成熟。这些基金带来了深厚的领域专业知识，有可能带来更明智的投资决策，并加速有前途的人工智能公司的发展。这为该行业增加了新的资金来源。",
     "impact_score": 7
   },
   {
-    "title": "OpenAI 对人工智能经济的愿景：公共财富基金、机器人税和每周四天工作制",
-    "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
-    "industry": "Economics",
-    "summary": "OpenAI 提出了机器人税、公共财富基金和每周工作四天的方案，以解决人工智能的潜在经济影响，引发了关于人工智能在塑造未来经济中的作用的争论。",
-    "charlotte_impact": "OpenAI 的愿景提出了有关人工智能广泛采用的社会影响的重要问题。机器人税、公共财富基金和缩短工作周可能对商业模式、就业和财富分配产生重大影响。这些讨论对于制定政策和确保人工智能驱动的经济更加公平和可持续的未来至关重要。",
-    "impact_score": 9
+    "title": "诉讼后谷歌为 Gemini 聊天机器人添加心理健康工具",
+    "url": "https://www.insurancejournal.com/news/national/2026/04/07/864866.htm",
+    "industry": "Healthcare",
+    "summary": "在诉讼指控其人工智能造成伤害后，谷歌正在为 Gemini 添加心理健康工具。这凸显了在敏感领域进行负责任的人工智能开发和部署的必要性。",
+    "charlotte_impact": "纳入心理健康支持功能强调了负责任的人工智能开发在医疗保健领域的重要性。法律挑战凸显了严格的道德准则和验证流程的必要性，以防止意外伤害。这将为人工智能提供商带来压力，要求其确保其产品符合道德和安全。",
+    "impact_score": 8
+  },
+  {
+    "title": "Astropad 的 Workbench 为 AI 代理而非 IT 支持重新构想远程桌面",
+    "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
+    "industry": "AI Infrastructure",
+    "summary": "Astropad 的 Workbench 重新构想了 AI 代理的远程桌面，允许用户通过 iPhone 或 iPad 远程监视和控制 Mac Mini 上的 AI 代理。",
+    "charlotte_impact": "Astropad 的工作台强调了用于管理和监控人工智能代理的专用工具的开发。随着公司扩展人工智能部署并需要更高效、更安全的远程访问解决方案，这一点至关重要。这将实现远程人工智能操作。",
+    "impact_score": 7
   },
   {
     "title": "Atlassian 在 Confluence 中推出视觉 AI 工具和第三方代理",
     "url": "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/",
-    "industry": "Software",
-    "summary": "Atlassian 在 Confluence 中推出了视觉 AI 工具和第三方代理，使用户能够创建视觉资产并将 AI 驱动的功能直接集成到平台中。",
-    "charlotte_impact": "Atlassian 视觉 AI 与第三方代理的集成展示了将 AI 嵌入现有软件平台的日益增长的趋势。这提高了用户的生产力和创造力，同时也为人工智能开发人员提供了在已建立的生态系统中构建和部署代理的机会。这可以进一步加速人工智能在各个行业和业务职能中的采用。",
+    "industry": "Productivity Software",
+    "summary": "Atlassian 在 Confluence 中推出了视觉 AI 工具和第三方代理，使用户能够创建视觉资产并利用来自 Lovable、Replit 和 Gamma 的 AI 代理。",
+    "charlotte_impact": "Atlassian 将 AI 集成到 Confluence 中，展示了将 AI 直接嵌入生产力应用程序的推动力。这允许用户生成视觉内容并自动执行任务，从而提高效率和协作。预计其他公司将人工智能添加到他们的生产力工具中。",
     "impact_score": 7
   },
   {
     "title": "Anthropic 在新的网络安全计划中首次推出强大的新人工智能模型 Mythos 预览",
     "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
     "industry": "Cybersecurity",
-    "summary": "Anthropic 推出了其强大的新人工智能模型 Mythos 的预览，该模型专为防御性网络安全工作而设计，为精选公司提供先进的功能。",
-    "charlotte_impact": "Anthropic 的神话强调了人工智能在网络安全中的使用越来越多。该模型可以增强威胁检测、事件响应和漏洞管理。在网络安全中使用先进的人工智能模型对于保护企业和关键基础设施免受日益复杂的网络攻击至关重要，这可能会导致对人工智能驱动的安全解决方案的需求增加。",
+    "summary": "Anthropic 首次推出了其强大的新人工智能模型 Mythos 的预览，用于防御性网络安全工作。该模型被一些知名公司用来从事网络安全防御。",
+    "charlotte_impact": "Anthropic 神话在网络安全中的部署凸显了人工智能在威胁检测和响应中日益增长的重要性。它可以实现网络安全的自动化，特别是面对新的威胁。随着人工智能威胁的改善，人工智能防御对于防止攻击至关重要。",
+    "impact_score": 8
+  },
+  {
+    "title": "据彭博社报道，PIMCO 考虑以 140 亿美元的债务收购甲骨文密歇根数据中心",
+    "url": "https://www.channelnewsasia.com/business/pimco-weighs-14-billion-debt-deal-oracles-michigan-data-center-bloomberg-news-reports-6041976",
+    "industry": "Data Centers",
+    "summary": "PIMCO 正在考虑以 140 亿美元的债务收购甲骨文密歇根数据中心。如此大规模的投资反映了对大规模数据中心基础设施的持续需求。",
+    "charlotte_impact": "140亿美元的潜在投资凸显了支持数据中心建设所需的庞大资金规模。甲骨文密歇根数据中心凸显了边缘基础设施日益增长的重要性。这将加剧数据中心位置的竞争。",
+    "impact_score": 8
+  },
+  {
+    "title": "Anthropic 声称其新的人工智能模型是一种“清算”",
+    "url": "https://politicalwire.com/2026/04/07/anthropic-claims-new-model-is-a-reckoning/",
+    "industry": "AI Safety",
+    "summary": "Anthropic 声称其新的人工智能模型是一种“计算”，表明它过于强大而无法公开发布，从而引发了安全担忧。",
+    "charlotte_impact": "这一说法提出了有关人工智能模型安全性的基本问题。它引发了关于是否应该发布强大的人工智能的争论。它强调，安全不仅仅是一个问题，而且是技术发布后可能产生影响的风险。",
     "impact_score": 9
   },
   {
-    "title": "西班牙 Xoople 筹集 1.3 亿美元 B 轮融资，为人工智能绘制地球地图",
-    "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
-    "industry": "Geospatial Data/Space",
-    "summary": "西班牙的 Xoople 筹集了 1.3 亿美元的 B 轮融资，用于为人工智能绘制地球地图，并宣布与 L3Harris 达成协议，为其航天器制造传感器。",
-    "charlotte_impact": "Xoople 的资助和合作伙伴关系表明人工智能应用对高质量地理空间数据的需求不断增长。以人工智能为目的绘制地球地图可以促进自动驾驶汽车、农业和城市规划等领域的进步。航天器传感器的使用凸显了空间技术在数据收集和分析方面日益重要的作用。",
-    "impact_score": 8
-  },
-  {
-    "title": "Uber押注亚马逊的定制芯片以推动人工智能的发展",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/uber-bets-on-amazons-custom-chips-to-boost-ai-efforts/articleshow/130089420.cms",
-    "industry": "Transportation",
-    "summary": "Uber正在利用亚马逊的定制芯片来增强其人工智能能力，特别是加速人工智能模型的计算和训练。这改善了乘车匹配和送货服务。",
-    "charlotte_impact": "这突显了人工智能应用专用硬件日益重要。公司越来越多地寻求定制芯片解决方案来优化性能和效率。这种需求的增加可以推动芯片设计和制造的创新，从而带来更先进、更具成本效益的人工智能硬件。",
-    "impact_score": 8
-  },
-  {
-    "title": "那么……我们正在用人工智能做什么？在谨慎的时代进行创新",
-    "url": "https://fortune.com/2026/04/07/ai-innovation-caution-pwc-experian-vml/",
-    "industry": "Business Strategy",
-    "summary": "董事会要求人工智能的成果，但资本更加紧张，风险感觉更高，迫使领导者在不破坏业务稳定的情况下快速进行试验。",
-    "charlotte_impact": "这表明公司面临着展示人工智能投资切实投资回报的压力。领导者需要在创新和稳定之间取得平衡。这一趋势可以推动对经过验证、可扩展且符合业务目标的人工智能解决方案的需求。",
+    "title": "人工智能如何被用来针对巴勒斯坦人",
+    "url": "https://www.aljazeera.com/video/the-stream/2026/4/7/how-ai-is-being-used-to-target-palestinians",
+    "industry": "Military Technology",
+    "summary": "该报告详细介绍了新兴军事技术如何在战区使用，以及巴勒斯坦人如何试图利用技术为自己谋利。",
+    "charlotte_impact": "人工智能的使用可能会彻底改变战争和防御。这将增加对人工智能网络安全以及人工智能风险管理和防御系统的需求。它强调人工智能将更加融入地缘政治冲突。可能需要新系统来确定允许的内容。",
     "impact_score": 7
   },
   {
-    "title": "随着芯片制造商发出扭亏为盈的势头，英特尔股价因 $14.2B 爱尔兰晶圆厂回购而飙升",
-    "url": "https://www.ibtimes.com.au/intel-stock-surges-142b-ireland-fab-buyback-chipmaker-signals-turnaround-momentum-1865696",
-    "industry": "Semiconductors",
-    "summary": "英特尔股价因 14.2B 美元回购爱尔兰晶圆厂而飙升，标志着这家芯片制造商的目标是重新夺回先进半导体制造领域的领导地位，从而实现扭亏为盈。",
-    "charlotte_impact": "英特尔的投资标志着对先进制造的重新关注，这对于支持人工智能创新至关重要。加强半导体制造能力有助于确保人工智能芯片供应链稳定，减少对外部来源的依赖。这可以促进人工智能硬件市场的更大竞争和创新。",
-    "impact_score": 7
+    "title": "第五元素明星米拉·乔沃维奇展示人工智能记忆工具 MemPalace",
+    "url": "https://decrypt.co/363524/fifth-element-milla-jovovich-ai-tool-mempalace",
+    "industry": "AI Tools",
+    "summary": "第五元素明星米拉·乔沃维奇 (Milla Jovovich) 推出人工智能记忆工具 MemPalace，灵感源自记忆宫殿法。",
+    "charlotte_impact": "人工智能记忆工具开辟了该技术的新应用。这些工具可用于个人发展或业务。这些工具可能会应用于教育领域。",
+    "impact_score": 6
   },
   {
-    "title": "只剩一天了——不要错过。 C 级技术领导力和标志性领导者的崛起将影响 HMG Strategy 2026 年达拉斯峰会的话题。成为其中的一部分。立即注册",
-    "url": "https://www.globenewswire.com/news-release/2026/04/07/3269398/0/en/Just-One-Day-Away-Don-t-Miss-It-C-Level-Technology-Leadership-and-the-Rise-of-Iconic-Leaders-Will-Shape-the-Conversation-at-HMG-Strategy-s-2026-Dallas-Summit-Be-a-Part-of-It-Regist.html",
-    "industry": "Technology Leadership/Events",
-    "summary": "HMG Strategy 的 2026 年达拉斯峰会汇聚了首席信息官，讨论塑造 2030 年商业未来的人工智能、安全和技术。",
-    "charlotte_impact": "像这样的峰会有助于塑造许多公司的技术路线图。围绕用例分享最佳实践、网络和讨论将有助于推动技术组织和更广泛的业务目标之间更好的战略协调。这也使组织能够评估不同的解决方案和合作伙伴关系，以跟上技术产品的快速进步。",
+    "title": "人工智能和在线健康信息正在蓬勃发展，但美国人并不完全相信他们所发现的内容",
+    "url": "https://www.prnewswire.com/news-releases/ai-and-online-health-information-are-booming-but-americans-dont-fully-trust-what-they-find-302736178.html",
+    "industry": "Healthcare",
+    "summary": "一项新的研究报告称，人工智能和在线健康信息正在蓬勃发展，但美国人并不完全相信他们的发现。",
+    "charlotte_impact": "对在线人工智能健康工具缺乏信任可能会限制其采用。验证人工智能工具的需求将是增加信任的关键。随着时间的推移，信任可能会增加。",
     "impact_score": 5
   },
   {
-    "title": "数据统治：Zeta Global 如何破解下一代 Martech 的人工智能代码",
-    "url": "https://www.adweek.com/brand-marketing/data-dominion-how-zeta-global-cracked-the-ai-code-for-the-next-generation-of-martech/",
-    "industry": "Marketing Technology",
-    "summary": "Zeta Global 利用人工智能推动营销技术领域的显着增长，跑赢大盘。",
-    "charlotte_impact": "Zeta Global 展示了人工智能驱动的营销解决方案的力量。他们的成功证明了人工智能在个性化营销活动、提高客户参与度和推动销售增长方面的潜力。这可以鼓励更多企业采用人工智能驱动的营销技术解决方案，以获得竞争优势。",
+    "title": "Biocon 着眼于巨大收益，扩大人工智能重点",
+    "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/with-sights-on-huge-gains-biocon-to-scale-up-ai-focus/articleshow/130095933.cms",
+    "industry": "Pharma",
+    "summary": "着眼于巨大收益，Biocon 将人工智能重点放在从研发到制造和采购的整个运营中。",
+    "charlotte_impact": "人工智能将改变生物制药的发展。这可以降低药物开发成本。它可以提高药物批准的速度。不采用人工智能的公司将处于竞争劣势。",
     "impact_score": 7
-  },
-  {
-    "title": "2026 年 10 佳人工智能视频生成器：逼真剪辑、音频同步和创意工具排名",
-    "url": "https://www.ibtimes.com.au/top-10-best-ai-video-generators-2026-realistic-clips-audio-sync-creative-tools-ranked-1865693",
-    "industry": "AI Video Generation",
-    "summary": "人工智能视频生成在 2026 年取得了显着进步，通过简单的文本提示提供了近乎电影的效果，彻底改变了各个行业的内容创建。",
-    "charlotte_impact": "人工智能视频生成大大降低了视频内容创作的准入门槛。这可以改变营销、教育、娱乐和其他行业。快速轻松地生成高质量视频的能力可以增加内容创作、新的讲故事格式以及为消费者提供更个性化的体验。",
-    "impact_score": 8
   }
 ]
