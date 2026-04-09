@@ -1,154 +1,186 @@
 [
   {
+    "title": "El CEO de Amazon apunta a Nvidia, Intel, Starlink y más en su carta anual a los accionistas",
+    "url": "https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/",
+    "industry": "Technology",
+    "summary": "El director ejecutivo de Amazon atacó directamente a Nvidia, Intel y Starlink durante su carta anual a los accionistas, defendiendo los 200 mil millones de dólares en gastos de capital de la compañía. Los comentarios de Jassy destacan la creciente competencia en servicios en la nube, chips de inteligencia artificial e Internet satelital, a medida que Amazon invierte fuertemente en estas áreas.",
+    "charlotte_impact": "Esto señala un período de intensa competencia en el sector tecnológico, lo que podría conducir a precios más bajos y una mayor innovación para los consumidores. Las empresas que dependen de servicios en la nube o chips de IA pueden ver un mayor poder de negociación o acceso a tecnologías más nuevas.",
+    "impact_score": 7
+  },
+  {
     "title": "Uber es el último en ser conquistado por los chips de inteligencia artificial de Amazon",
     "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
-    "industry": "Cloud Computing",
-    "summary": "Uber está ampliando su contrato con AWS para ejecutar más funciones de viajes compartidos en los chips de inteligencia artificial de Amazon. Se trata de un alejamiento estratégico de Oracle y Google, lo que indica el creciente dominio de Amazon en la infraestructura de IA.",
-    "charlotte_impact": "La creciente dependencia de Uber de los chips de inteligencia artificial de Amazon indica una tendencia más amplia de la industria hacia los proveedores de infraestructura de inteligencia artificial especializados. Esta tendencia presiona a los proveedores tradicionales de la nube para que innoven y ofrezcan soluciones competitivas específicas de IA. La posición de mercado de Amazon se fortalece, lo que podría afectar los precios y la disponibilidad de los recursos informáticos de IA en todos los ámbitos.",
+    "industry": "Transportation, Technology",
+    "summary": "Uber está ampliando su contrato con AWS para utilizar los chips de inteligencia artificial de Amazon, una medida que representa una victoria para Amazon en el competitivo mercado de la computación en la nube y un alejamiento estratégico de Oracle y Google. Esta decisión afecta el panorama de la infraestructura de la nube y potencialmente influye en las decisiones de otras empresas.",
+    "charlotte_impact": "Esto podría impulsar a Oracle y Google a ofrecer precios más competitivos o desarrollar servicios especializados para retener o atraer clientes en el mercado impulsado por la IA en rápido crecimiento.",
     "impact_score": 8
+  },
+  {
+    "title": "Meta estrena nuevo modelo de IA, intentando alcanzar a Google y OpenAI después de gastar miles de millones",
+    "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+    "industry": "Technology",
+    "summary": "Meta lanzó su primer gran modelo de lenguaje importante, Muse Spark, liderado por Alexandr Wang, lo que indica un impulso significativo para competir con Google y OpenAI después de invertir fuertemente en IA. La inversión de Meta y el lanzamiento del modelo intensificarán la competencia entre los gigantes tecnológicos en el desarrollo de la IA.",
+    "charlotte_impact": "Esto intensifica la carrera por el dominio de la IA y podría acelerar el desarrollo de aplicaciones de IA más avanzadas para consumidores y empresas.",
+    "impact_score": 8
+  },
+  {
+    "title": "El jefe de AWS explica por qué invertir miles de millones tanto en Anthropic como en OpenAI es un conflicto aceptable",
+    "url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
+    "industry": "Technology",
+    "summary": "El jefe de AWS abordó las preocupaciones sobre posibles conflictos de intereses al invertir miles de millones tanto en Anthropic como en OpenAI. La explicación se centra en la cultura establecida de AWS de navegar por la competencia, destacando la complejidad de las asociaciones y la competencia en el espacio de la IA.",
+    "charlotte_impact": "Esto refleja la naturaleza compleja y en evolución de las asociaciones e inversiones en la industria de la IA, donde las empresas a menudo compiten y colaboran simultáneamente.",
+    "impact_score": 6
   },
   {
     "title": "OpenAI lanza un nuevo plan de seguridad para abordar el aumento de la explotación sexual infantil",
     "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
-    "industry": "AI Safety",
-    "summary": "OpenAI ha lanzado un nuevo Plan de seguridad infantil para abordar las crecientes preocupaciones sobre la explotación sexual infantil vinculada a los avances de la IA. Este plan describe estrategias para mitigar el riesgo de que la IA se utilice para crear o difundir contenido dañino.",
-    "charlotte_impact": "La mayor atención prestada a la seguridad de la IA, especialmente en lo que respecta a la explotación infantil, requiere inversiones significativas en tecnologías de detección y prevención.  Esto crea oportunidades para las empresas especializadas en moderación de contenido y herramientas de seguridad de IA, al tiempo que impone requisitos de cumplimiento más estrictos a los desarrolladores y proveedores de plataformas de IA. Centrarse en la seguridad aumentará los costos, pero es vital para prevenir daños sociales y mantener la confianza social en la IA.",
+    "industry": "Technology, Ethics",
+    "summary": "OpenAI lanzó un nuevo Plan de seguridad infantil destinado a combatir el aumento de la explotación sexual infantil relacionada con los avances de la IA. Esta acción destaca la creciente conciencia y esfuerzo para abordar las implicaciones éticas de las tecnologías de IA.",
+    "charlotte_impact": "Esto requerirá que otras empresas que desarrollen tecnologías de IA prioricen las medidas de seguridad e inviertan en herramientas para evitar el uso indebido, lo que afectará los costos y los plazos de desarrollo.",
     "impact_score": 9
   },
   {
     "title": "Google lanzó silenciosamente una aplicación de dictado con IA que funciona sin conexión",
     "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-    "industry": "Mobile Applications",
-    "summary": "Google lanzó silenciosamente una aplicación de dictado de IA que funciona sin conexión, utilizando modelos de IA de Gemma para competir con aplicaciones como Wispr Flow. Esto ofrece a los usuarios una solución de dictado accesible y centrada en la privacidad.",
-    "charlotte_impact": "La aplicación de dictado fuera de línea de Google ejemplifica la tendencia de incorporar capacidades de inteligencia artificial directamente en los dispositivos móviles. Este movimiento indica un impulso hacia la informática de punta, que ofrece a los usuarios mayor privacidad y confiabilidad al reducir la dependencia de la conectividad en la nube. Desafía a los proveedores de aplicaciones de dictado existentes a innovar o arriesgarse a perder participación de mercado.",
+    "industry": "Technology",
+    "summary": "Google lanzó una aplicación de dictado de IA que funciona sin conexión y aprovecha los modelos de IA de Gemma para competir con aplicaciones como Wispr Flow. La nueva aplicación presenta capacidades de IA fuera de línea a más usuarios y amplía la accesibilidad de las herramientas impulsadas por IA.",
+    "charlotte_impact": "Esto significa la creciente tendencia del procesamiento de IA fuera de línea, que ampliará la aplicación de la IA en áreas con conectividad a Internet limitada o nula, abriendo nuevas oportunidades para desarrolladores y usuarios.",
     "impact_score": 7
   },
   {
     "title": "No puedo evitar apoyar al pequeño fabricante de modelos de IA de código abierto Arcee",
     "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
-    "industry": "Open Source AI",
-    "summary": "Arcee, una pequeña startup estadounidense, ha creado un LLM masivo, de código abierto y de alto rendimiento que está ganando popularidad entre los usuarios de OpenClaw. Esto desafía el dominio de los modelos de código cerrado.",
-    "charlotte_impact": "El ascenso de Arcee pone de relieve la creciente importancia de los modelos de IA de código abierto.  Esta tendencia fomenta la innovación, la colaboración y la transparencia en el desarrollo de la IA, lo que potencialmente democratiza el acceso a tecnologías avanzadas de IA. Si bien crea desafíos para los ecosistemas cerrados de IA, la tendencia también genera una mayor competencia.",
-    "impact_score": 7
+    "industry": "Technology, Open Source",
+    "summary": "Arcee, una pequeña startup estadounidense, está ganando popularidad al crear un LLM de código abierto y de alto rendimiento. Es probable que su éxito influya en el panorama del desarrollo de la IA hacia proyectos de código abierto y potencialmente desafíe el dominio de las principales empresas de tecnología.",
+    "charlotte_impact": "La naturaleza de código abierto del LLM de Arcee podría democratizar el desarrollo de la IA, permitiendo a empresas e individuos más pequeños aprovechar potentes modelos de IA sin una inversión significativa.",
+    "impact_score": 6
   },
   {
     "title": "Firmus, el constructor de centros de datos de inteligencia artificial 'Southgate' respaldado por Nvidia, alcanza una valoración de 5.500 millones de dólares",
     "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
-    "industry": "Data Centers",
-    "summary": "Firmus, un constructor de centros de datos de IA respaldado por Nvidia en Asia, alcanzó una valoración de 5.500 millones de dólares después de recaudar 1.350 millones de dólares en seis meses. Esto refleja la enorme demanda de infraestructura de IA.",
-    "charlotte_impact": "La valoración de Firmus subraya la enorme inversión que actualmente fluye hacia la infraestructura del centro de datos de IA. La creciente necesidad de centros de datos optimizados para IA, especialmente en Asia, está impactando directamente el valor de la tierra, los costos de construcción y la demanda de electricidad en regiones clave.  También aumenta la importancia de Nvidia como socio clave. Este auge crea oportunidades para las empresas constructoras de centros de datos y para los inversores.",
+    "industry": "Data Centers, Technology",
+    "summary": "Firmus, un constructor de centros de datos de inteligencia artificial respaldado por Nvidia, alcanzó una valoración de 5.500 millones de dólares después de recaudar 1.350 millones de dólares en seis meses. Esta valoración muestra la enorme inversión que fluye hacia la infraestructura de IA y refleja la creciente demanda de centros de datos para soportar cargas de trabajo de IA.",
+    "charlotte_impact": "La creciente inversión en centros de datos sugiere un crecimiento sostenido en el sector de la IA, lo que impacta positivamente la demanda de energía, hardware y mano de obra calificada en las áreas donde se encuentran los centros de datos.",
     "impact_score": 9
   },
   {
     "title": "Google Maps ahora puede escribir títulos para tus fotos usando IA",
     "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
-    "industry": "Mapping & Navigation",
-    "summary": "Google Maps ahora usa Gemini para escribir títulos de fotos cargadas por los usuarios, mejorando la capacidad de la plataforma para proporcionar información contextual sobre ubicaciones.",
-    "charlotte_impact": "La integración de la IA en Maps por parte de Google fortalece su posición como plataforma líder de navegación y descubrimiento local. La mejora del contenido generado por el usuario con subtítulos generados por IA mejora la calidad de la información local, lo que hace que Maps sea más valioso tanto para los consumidores como para las empresas. También mejorarán las estrategias de marketing para pequeñas empresas que dependen de la visibilidad en los mapas de Google.",
-    "impact_score": 6
+    "industry": "Technology",
+    "summary": "Google Maps ahora utiliza IA para escribir títulos de fotos cargadas por los usuarios, mejorando el proceso de contribución de conocimiento local. Esto muestra cómo la IA se está integrando en las aplicaciones cotidianas para mejorar la experiencia del usuario y la calidad de los datos.",
+    "charlotte_impact": "Las funciones mejoradas de Google Maps pueden afectar a las empresas locales al mejorar la visibilidad en línea de las tiendas locales.",
+    "impact_score": 5
   },
   {
-    "title": "La fiebre del oro de la IA está arrastrando la riqueza privada hacia apuestas más riesgosas y tempranas",
-    "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
-    "industry": "Venture Capital",
-    "summary": "Las oficinas familiares están evitando cada vez más a los capitalistas de riesgo tradicionales para invertir directamente en nuevas empresas de inteligencia artificial en sus etapas iniciales. Esta tendencia se ve impulsada por el alto potencial de crecimiento percibido de la IA y el deseo de un control más directo sobre las inversiones.",
-    "charlotte_impact": "El cambio hacia la inversión directa por parte de las oficinas familiares acelera la financiación disponible para las nuevas empresas de IA, especialmente en las primeras etapas. Esto proporciona fuentes de capital alternativas y puede ayudar a acelerar la innovación. Esto también podría desafiar el modelo tradicional de capital de riesgo.",
-    "impact_score": 7
-  },
-  {
-    "title": "La startup de IA Rocket ofrece informes estilo McKinsey a una fracción del costo",
-    "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
-    "industry": "Consulting",
-    "summary": "Rocket, una startup india de inteligencia artificial, ofrece informes de consultoría al estilo McKinsey a una fracción del costo, combinando estrategia, desarrollo de productos e inteligencia competitiva.",
-    "charlotte_impact": "Los servicios de consultoría basados ​​en inteligencia artificial como Rocket representan una amenaza disruptiva para las empresas tradicionales de consultoría de gestión. democratizan el acceso a conocimientos estratégicos, lo que potencialmente reduce los costos para las empresas y mejora la competitividad. Las consultorías existentes necesitarán adoptar herramientas de inteligencia artificial o correr el riesgo de perder clientes ante los recién llegados.",
+    "title": "Google Finance amplía las herramientas de inteligencia artificial a 100 países más",
+    "url": "https://www.pymnts.com/google/2026/google-finance-scales-ai-tools-to-100-more-countries/",
+    "industry": "Finance, Technology",
+    "summary": "Google Finance está ampliando sus herramientas impulsadas por IA a 100 países más, aumentando la accesibilidad a los análisis y conocimientos financieros basados ​​en IA a nivel mundial. La expansión de las herramientas financieras impulsadas por la IA puede democratizar el acceso a recursos de inversión sofisticados y cambiar la toma de decisiones financieras a escala global.",
+    "charlotte_impact": "Esto permitirá que personas y empresas de más regiones accedan a información financiera basada en datos, lo que podría conducir a decisiones de inversión más informadas y una mayor estabilidad financiera.",
     "impact_score": 8
   },
   {
-    "title": "Los alumnos de OpenAI han estado invirtiendo silenciosamente en un nuevo fondo potencialmente de 100 millones de dólares",
-    "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
-    "industry": "Venture Capital",
-    "summary": "Los alumnos de OpenAI han creado Zero Shot, un nuevo fondo de capital riesgo con el objetivo de recaudar 100 millones de dólares para invertir en nuevas empresas de IA. Su profundo conocimiento de la IA ofrece una ventaja competitiva.",
-    "charlotte_impact": "La aparición de fondos de riesgo especializados en IA liderados por ex empleados de OpenAI pone de relieve la creciente madurez del panorama de inversión en IA. Estos fondos aportan una profunda experiencia en el campo, lo que potencialmente conducirá a decisiones de inversión más informadas y acelerará el crecimiento de empresas prometedoras de IA. Esto suma nuevas fuentes de financiación para la industria.",
+    "title": "Poke hace que usar agentes de IA sea tan fácil como enviar un mensaje de texto",
+    "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+    "industry": "Technology, Agentic AI",
+    "summary": "Poke permite a los usuarios interactuar con agentes de IA a través de mensajes de texto, simplificando la automatización de tareas y eliminando la complejidad del uso de la IA.  Poke aumentará el uso de agentes de IA al hacerlos más fáciles de acceder y utilizar para las tareas cotidianas.",
+    "charlotte_impact": "Al simplificar el acceso a los agentes de IA, más empresas pueden automatizar tareas rutinarias, mejorar la eficiencia y reducir los costos operativos.",
     "impact_score": 7
-  },
-  {
-    "title": "Google agrega herramientas de salud mental al chatbot Gemini después de una demanda",
-    "url": "https://www.insurancejournal.com/news/national/2026/04/07/864866.htm",
-    "industry": "Healthcare",
-    "summary": "Google está agregando herramientas de salud mental a Gemini después de que las demandas alegaran daños causados ​​por su IA. Esto pone de relieve la necesidad de un desarrollo y despliegue responsable de la IA en zonas sensibles.",
-    "charlotte_impact": "La inclusión de funciones de apoyo a la salud mental enfatiza la importancia del desarrollo responsable de la IA en la atención médica. Los desafíos legales resaltan la necesidad de pautas éticas estrictas y procesos de validación para prevenir daños no deseados. Esto creará presión para que los proveedores de IA garanticen que sus productos sean éticos y seguros.",
-    "impact_score": 8
   },
   {
     "title": "Workbench de Astropad reinventa el escritorio remoto para agentes de IA, no para soporte de TI",
     "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
-    "industry": "AI Infrastructure",
-    "summary": "Workbench de Astropad reinventa el escritorio remoto para agentes de IA, permitiendo a los usuarios monitorear y controlar de forma remota agentes de IA en Mac Minis desde iPhones o iPads.",
-    "charlotte_impact": "El Workbench de Astropad destaca el desarrollo de herramientas especializadas para gestionar y monitorear agentes de IA. Esto es esencial a medida que las empresas escalan sus implementaciones de IA y requieren soluciones de acceso remoto más eficientes y seguras. Esto permitirá operaciones remotas de IA.",
-    "impact_score": 7
+    "industry": "Technology, Agentic AI",
+    "summary": "Workbench de Astropad permite el monitoreo y control remoto de agentes de IA en Mac Minis desde iPhones o iPads, facilitando la transmisión de baja latencia y el acceso móvil. Workbench ayudará a que los agentes de IA realicen tareas sin interacción humana constante, lo que aumentará la productividad.",
+    "charlotte_impact": "Al permitir el acceso y control remotos de los agentes de IA, Workbench puede mejorar la eficiencia de las operaciones de IA, permitiendo el monitoreo y la optimización continuos de las tareas de IA.",
+    "impact_score": 6
   },
   {
     "title": "Atlassian lanza herramientas visuales de inteligencia artificial y agentes de terceros en Confluence",
     "url": "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/",
-    "industry": "Productivity Software",
-    "summary": "Atlassian lanzó herramientas visuales de IA y agentes de terceros en Confluence, lo que permite a los usuarios crear activos visuales y aprovechar agentes de IA de Lovable, Replit y Gamma.",
-    "charlotte_impact": "La integración de la IA de Atlassian en Confluence demuestra el impulso para integrar la IA directamente en las aplicaciones de productividad. Esto permite a los usuarios generar contenido visual y automatizar tareas, aumentando la eficiencia y la colaboración. Espere que otras empresas agreguen IA a sus herramientas de productividad.",
-    "impact_score": 7
+    "industry": "Software, Technology",
+    "summary": "Atlassian lanzó herramientas de inteligencia artificial visual y agentes de terceros en Confluence, mejorando la productividad y agregando capacidades de creación de activos visuales. La integración de la IA en Confluence mejorará los flujos de trabajo y la colaboración de los equipos.",
+    "charlotte_impact": "La integración de la IA en Confluence podría cambiar la productividad de los usuarios al mejorar la colaboración.",
+    "impact_score": 6
   },
   {
     "title": "Anthropic presenta una vista previa del nuevo y poderoso modelo de inteligencia artificial Mythos en una nueva iniciativa de ciberseguridad",
     "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
-    "industry": "Cybersecurity",
-    "summary": "Anthropic presentó una vista previa de su nuevo y poderoso modelo de inteligencia artificial, Mythos, para su uso en trabajos de ciberseguridad defensiva. El modelo está siendo utilizado por empresas seleccionadas de alto perfil para participar en la defensa de la ciberseguridad.",
-    "charlotte_impact": "El despliegue de Mythos de Anthropic en ciberseguridad subraya la creciente importancia de la IA en la detección y respuesta a amenazas. Puede permitir la automatización de la ciberseguridad, particularmente con nuevas amenazas. A medida que mejoren las amenazas de la IA, las defensas de la IA serán vitales para prevenir ataques.",
+    "industry": "Technology, Cybersecurity",
+    "summary": "Anthropic presentó una vista previa de su nuevo y poderoso modelo de inteligencia artificial, Mythos, para su uso en una iniciativa de ciberseguridad. Esto refleja la creciente aplicación de la IA en la ciberseguridad y destaca el potencial de la IA para mejorar las medidas defensivas.",
+    "charlotte_impact": "Esto muestra el potencial de la IA como servicio y ayuda a los esfuerzos de ciberseguridad.",
     "impact_score": 8
   },
   {
-    "title": "PIMCO sopesa un acuerdo de deuda de 14.000 millones de dólares para el centro de datos de Oracle en Michigan, informa Bloomberg News",
-    "url": "https://www.channelnewsasia.com/business/pimco-weighs-14-billion-debt-deal-oracles-michigan-data-center-bloomberg-news-reports-6041976",
-    "industry": "Data Centers",
-    "summary": "PIMCO está considerando un acuerdo de deuda de 14 mil millones de dólares para el centro de datos de Oracle en Michigan. Esta enorme inversión refleja la demanda constante de infraestructura de centros de datos a gran escala.",
-    "charlotte_impact": "La inversión potencial de 14.000 millones de dólares pone de relieve la enorme escala de capital necesaria para respaldar la construcción del centro de datos. El centro de datos de Oracle en Michigan destaca la creciente importancia de la infraestructura de borde. Esto impulsará la competencia por las ubicaciones de los centros de datos.",
-    "impact_score": 8
-  },
-  {
-    "title": "Anthropic afirma que su nuevo modelo de IA es un \"ajuste de cuentas\"",
-    "url": "https://politicalwire.com/2026/04/07/anthropic-claims-new-model-is-a-reckoning/",
-    "industry": "AI Safety",
-    "summary": "Anthropic afirma que su nuevo modelo de IA es un \"ajuste de cuentas\", lo que sugiere que es demasiado poderoso para publicarse, lo que genera preocupaciones de seguridad.",
-    "charlotte_impact": "La afirmación plantea cuestiones fundamentales sobre la seguridad del modelo de IA. Alimenta el debate sobre si se debe lanzar o no una IA poderosa. Destaca que la seguridad es más que una simple preocupación, sino un riesgo que puede afectar si se lanza la tecnología.",
-    "impact_score": 9
-  },
-  {
-    "title": "Cómo se utiliza la IA para atacar a los palestinos",
-    "url": "https://www.aljazeera.com/video/the-stream/2026/4/7/how-ai-is-being-used-to-target-palestinians",
-    "industry": "Military Technology",
-    "summary": "El informe detalla cómo se utiliza la tecnología militar emergente en zonas de guerra y cómo los palestinos intentan utilizar la tecnología en su beneficio.",
-    "charlotte_impact": "El uso de la IA probablemente revolucionará la guerra y la defensa. Esto aumentará la demanda de ciberseguridad de IA y sistemas de defensa y gestión de riesgos de IA. Destaca que la IA se integrará más en los conflictos geopolíticos. Es posible que se requieran nuevos sistemas para determinar lo que está permitido.",
-    "impact_score": 7
-  },
-  {
-    "title": "La estrella del quinto elemento Milla Jovovich revela la herramienta de memoria AI MemPalace",
-    "url": "https://decrypt.co/363524/fifth-element-milla-jovovich-ai-tool-mempalace",
-    "industry": "AI Tools",
-    "summary": "La estrella del quinto elemento Milla Jovovich revela la herramienta de memoria AI MemPalace, inspirada en el método del palacio de la memoria.",
-    "charlotte_impact": "Las herramientas de memoria de IA abren nuevas aplicaciones de la tecnología. Estas herramientas se pueden utilizar en el desarrollo personal o empresarial. Es probable que las herramientas se apliquen en la educación.",
+    "title": "Expertos: La IA podría arruinar las encuestas, ya que el 'muestreo de silicio' solicita a las computadoras la opinión pública en lugar de las personas",
+    "url": "https://www.breitbart.com/tech/2026/04/08/experts-ai-could-ruin-polling-as-silicon-sampling-asks-computers-for-public-opinion-instead-of-people/",
+    "industry": "Technology, Polling",
+    "summary": "Los expertos advierten que la IA podría arruinar las encuestas, ya que el \"muestreo de silicio\" reemplaza las respuestas humanas con simulaciones por computadora. Esto genera preocupaciones sobre la precisión y confiabilidad de los datos de opinión pública.",
+    "charlotte_impact": "Esto reducirá el valor de las encuestas tradicionales para medir el apoyo público.",
     "impact_score": 6
   },
   {
-    "title": "La inteligencia artificial y la información sanitaria en línea están en auge, pero los estadounidenses no confían plenamente en lo que encuentran",
-    "url": "https://www.prnewswire.com/news-releases/ai-and-online-health-information-are-booming-but-americans-dont-fully-trust-what-they-find-302736178.html",
-    "industry": "Healthcare",
-    "summary": "Un nuevo estudio informa que la inteligencia artificial y la información de salud en línea están en auge, pero los estadounidenses no confían plenamente en lo que encuentran.",
-    "charlotte_impact": "La falta de confianza en las herramientas de salud de IA en línea podría limitar su adopción. La necesidad de validar las herramientas de IA será clave para aumentar la confianza. Con el tiempo, la confianza puede aumentar.",
+    "title": "Meta presenta el primer modelo de IA del costoso equipo de superinteligencia",
+    "url": "https://www.channelnewsasia.com/business/meta-unveils-first-ai-model-costly-superintelligence-team-6044476",
+    "industry": "Technology",
+    "summary": "Meta Platforms presentó Muse Spark, el primer modelo de inteligencia artificial de su costoso equipo de superinteligencia. El lanzamiento de Muse Spark por parte de Meta demuestra su inversión continua en la carrera de la IA y destaca los esfuerzos de la compañía para alcanzar a sus competidores en el espacio de la IA.",
+    "charlotte_impact": "El lanzamiento de Muse Spark puede generar actividad económica a medida que aumenta la competencia.",
+    "impact_score": 8
+  },
+  {
+    "title": "Meta presenta el primer modelo de IA del equipo de superinteligencia",
+    "url": "https://www.channelnewsasia.com/business/meta-unveils-first-ai-model-superintelligence-team-6044476",
+    "industry": "Technology",
+    "summary": "Meta Platforms presentó Muse Spark, el primer modelo de inteligencia artificial de un equipo formado el año pasado a través de una costosa guerra de talentos y una amplia reestructuración interna para alcanzar a sus rivales en la carrera de la IA. El lanzamiento de Muse Spark impacta al sector tecnológico.",
+    "charlotte_impact": "El enfoque de la empresa en ponerse al día en la carrera de la IA puede conducir a una mayor contratación y capacitación para el mercado laboral.",
+    "impact_score": 7
+  },
+  {
+    "title": "OpenAI advierte que la inteligencia artificial podría dejar atrás a los hogares y ofrece una solución controvertida",
+    "url": "https://www.realtor.com/advice/finance/openai-robot-tax-public-wealth-fund-homeowners/",
+    "industry": "Technology",
+    "summary": "OpenAI advierte que la IA podría dejar atrás a los hogares y propone una solución controvertida que implica un impuesto a los robots y un fondo público de riqueza. Las preocupaciones de OpenAI muestran el creciente debate sobre el impacto económico de la IA y las posibles soluciones para abordar las desigualdades económicas.",
+    "charlotte_impact": "Una mayor competencia puede conducir a servicios de menor costo y ofertas mejoradas.",
+    "impact_score": 7
+  },
+  {
+    "title": "Un modelo de IA demasiado arriesgado",
+    "url": "https://www.thehindubusinessline.com/opinion/an-ai-model-thats-too-risky/article70839588.ece",
+    "industry": "Technology, Cybersecurity",
+    "summary": "El lanzamiento de Claude Mythos Preview se pospuso con razón debido a preocupaciones sobre el riesgo. Esto muestra los riesgos involucrados y conducirá a una mayor precaución en el despliegue de modelos de IA.",
+    "charlotte_impact": "La celebración de la previa de Claude Mythos puede afectar a otros sectores como el de la defensa.",
     "impact_score": 5
   },
   {
-    "title": "Con la vista puesta en grandes ganancias, Biocon ampliará su enfoque en IA",
-    "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/with-sights-on-huge-gains-biocon-to-scale-up-ai-focus/articleshow/130095933.cms",
-    "industry": "Pharma",
-    "summary": "Con la vista puesta en grandes ganancias, Biocon ampliará el enfoque en IA en todas sus operaciones, desde I+D hasta fabricación y adquisiciones.",
-    "charlotte_impact": "La IA transformará el desarrollo biofarmacéutico. Esto puede reducir los costos de desarrollo de fármacos. Puede aumentar la velocidad con la que se aprueban los medicamentos. Las empresas que no adopten la IA estarán en desventaja competitiva.",
+    "title": "Visa tiene como objetivo brindar a las empresas una rampa de acceso al comercio agente",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/visa-aims-to-give-businesses-agentic-commerce-on-ramp/",
+    "industry": "Finance, Technology",
+    "summary": "Visa presentó Intelligent Commerce Connect, con el objetivo de brindar a las empresas una vía de acceso al comercio agente. La ICC de Visa podría crear un nuevo mercado para soluciones comerciales impulsadas por IA.",
+    "charlotte_impact": "La ICC de Visa ayudará a las empresas a adaptarse a las tecnologías de IA.",
+    "impact_score": 8
+  },
+  {
+    "title": "Las acciones de AXTI se disparan un 19% a 54,10 dólares gracias al optimismo de las ganancias y la demanda de InP impulsado por la IA",
+    "url": "https://www.ibtimes.com.au/axti-stock-explodes-19-5410-ai-driven-inp-demand-earnings-optimism-1865837",
+    "industry": "Semiconductors, Technology",
+    "summary": "Las acciones de AXTI se dispararon un 19% debido a la demanda de fosfuro de indio (InP) impulsada por la IA y al optimismo sobre las ganancias. El aumento de existencias afectará a la infraestructura de IA.",
+    "charlotte_impact": "La demanda muestra el impacto positivo de los avances en la IA.",
+    "impact_score": 7
+  },
+  {
+    "title": "Traiga sus preguntas sobre las ventajas y los riesgos de la IA a Don't Short Yourself Live",
+    "url": "https://www.bigmarker.com/barrons-events/artificial-intelligence-superhuman-breakthrough-or-smarter-tool",
+    "industry": "Technology",
+    "summary": "El evento discutirá las ventajas y riesgos de la IA, incluso si se trata de un avance sobrehumano o simplemente de una herramienta más inteligente. Este evento muestra un intento de mostrar los impactos tanto positivos como negativos de la IA.",
+    "charlotte_impact": "El mayor uso de la IA puede alterar las cadenas de suministro y aumentar la competencia.",
+    "impact_score": 5
+  },
+  {
+    "title": "Las acciones de clase C de Alphabet aumentan un 3,3 % hasta los 313,96 dólares gracias a AI Momentum y la asociación con Broadcom",
+    "url": "https://www.ibtimes.com.au/alphabet-class-c-shares-surge-33-31396-ai-momentum-broadcom-partnership-1865834",
+    "industry": "Technology",
+    "summary": "Las acciones de Alphabet Clase C subieron un 3,3% debido al impulso de la IA y una asociación con Broadcom. Los recientes movimientos de Alphabet reflejan el compromiso de la compañía con la tecnología de inteligencia artificial.",
+    "charlotte_impact": "Los precios de las acciones se pueden utilizar como un indicador clave de la economía.",
     "impact_score": 7
   }
 ]

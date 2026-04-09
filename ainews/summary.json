@@ -1,154 +1,186 @@
 [
   {
+    "title": "Amazon CEO takes aim at Nvidia, Intel, Starlink, more in annual shareholder letter",
+    "url": "https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/",
+    "industry": "Technology",
+    "summary": "Amazon's CEO took a direct shot at Nvidia, Intel, and Starlink during his annual shareholder letter, defending the company's $200 billion in capex. Jassy's remarks highlight the growing competition in cloud services, AI chips, and satellite internet, as Amazon invests heavily in these areas.",
+    "charlotte_impact": "This signals a period of intense competition in the tech sector, potentially leading to lower prices and greater innovation for consumers. Companies reliant on cloud services or AI chips may see increased negotiating power or access to newer technologies.",
+    "impact_score": 7
+  },
+  {
     "title": "Uber is the latest to be won over by Amazon\u2019s AI chips",
     "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
-    "industry": "Cloud Computing",
-    "summary": "Uber is expanding its AWS contract to run more of its ride-sharing features on Amazon's AI chips. This is a strategic move away from Oracle and Google, signaling Amazon's growing dominance in AI infrastructure.",
-    "charlotte_impact": "Uber's increased reliance on Amazon's AI chips indicates a broader industry trend of enterprises favoring specialized AI infrastructure providers. This trend puts pressure on traditional cloud providers to innovate and offer competitive AI-specific solutions. Amazon's market position is strengthened, potentially impacting pricing and availability of AI compute resources across the board.",
+    "industry": "Transportation, Technology",
+    "summary": "Uber is expanding its AWS contract to utilize Amazon's AI chips, a move that represents a win for Amazon in the competitive cloud computing market and a strategic shift away from Oracle and Google. This decision impacts the cloud infrastructure landscape and potentially influences other companies' choices.",
+    "charlotte_impact": "This could push Oracle and Google to offer more competitive pricing or develop specialized services to retain or attract clients in the rapidly growing AI-driven market.",
     "impact_score": 8
+  },
+  {
+    "title": "Meta debuts new AI model, attempting to catch Google, OpenAI after spending billions",
+    "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+    "industry": "Technology",
+    "summary": "Meta launched its first major large language model, Muse Spark, led by Alexandr Wang, signaling a significant push to compete with Google and OpenAI after investing heavily in AI. Meta's investment and model release will intensify the competition among tech giants in AI development.",
+    "charlotte_impact": "This intensifies the race for AI dominance and could accelerate the development of more advanced AI applications for consumers and businesses.",
+    "impact_score": 8
+  },
+  {
+    "title": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
+    "url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
+    "industry": "Technology",
+    "summary": "The AWS boss addressed concerns about potential conflicts of interest from investing billions in both Anthropic and OpenAI. The explanation centers on AWS's established culture of navigating competition, highlighting the complexity of partnerships and competition in the AI space.",
+    "charlotte_impact": "This reflects the complex and evolving nature of partnerships and investments in the AI industry, where companies often compete and collaborate simultaneously.",
+    "impact_score": 6
   },
   {
     "title": "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation",
     "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
-    "industry": "AI Safety",
-    "summary": "OpenAI has released a new Child Safety Blueprint to address the rising concerns of child sexual exploitation linked to AI advancements. This plan outlines strategies to mitigate the risk of AI being used to create or disseminate harmful content.",
-    "charlotte_impact": "The increased focus on AI safety, especially regarding child exploitation, necessitates significant investments in detection and prevention technologies.  This creates opportunities for companies specializing in content moderation and AI safety tools, while also imposing stricter compliance requirements on AI developers and platform providers. The focus on safety will increase costs but is vital to prevent social harm and maintain societal trust in AI.",
+    "industry": "Technology, Ethics",
+    "summary": "OpenAI released a new Child Safety Blueprint aimed at combating the rise in child sexual exploitation related to AI advancements. This action highlights the growing awareness and effort to address the ethical implications of AI technologies.",
+    "charlotte_impact": "This will require other companies developing AI technologies to prioritize safety measures and invest in tools to prevent misuse, affecting development costs and timelines.",
     "impact_score": 9
   },
   {
     "title": "Google quietly launched an AI dictation app that works offline",
     "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-    "industry": "Mobile Applications",
-    "summary": "Google quietly launched an AI dictation app that works offline, using Gemma AI models to compete with apps like Wispr Flow. This offers users a privacy-focused and accessible dictation solution.",
-    "charlotte_impact": "Google's offline dictation app exemplifies the trend of embedding AI capabilities directly into mobile devices. This move signals a push toward edge computing, offering users enhanced privacy and reliability by reducing reliance on cloud connectivity. It challenges existing dictation app providers to innovate or risk losing market share.",
+    "industry": "Technology",
+    "summary": "Google launched an AI dictation app that works offline, leveraging Gemma AI models to compete with apps like Wispr Flow. The new app introduces offline AI capabilities to more users and expands the accessibility of AI-powered tools.",
+    "charlotte_impact": "This signifies the growing trend of offline AI processing, which will broaden the application of AI in areas with limited or no internet connectivity, opening up new opportunities for developers and users.",
     "impact_score": 7
   },
   {
     "title": "I can\u2019t help rooting for tiny open source AI model maker Arcee",
     "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
-    "industry": "Open Source AI",
-    "summary": "Arcee, a small U.S. startup, has built a high-performing, massive, open-source LLM that is gaining popularity with OpenClaw users. This challenges the dominance of closed-source models.",
-    "charlotte_impact": "The rise of Arcee highlights the growing importance of open-source AI models.  This trend fosters innovation, collaboration, and transparency in AI development, potentially democratizing access to advanced AI technologies. While creating challenges for closed AI ecosystems, the trend also drives more competition.",
-    "impact_score": 7
+    "industry": "Technology, Open Source",
+    "summary": "Arcee, a small US startup, is gaining popularity by creating a high-performing, open-source LLM. Its success will likely influence the AI development landscape towards open-source projects and potentially challenge the dominance of major tech companies.",
+    "charlotte_impact": "The open-source nature of Arcee's LLM could democratize AI development, allowing smaller companies and individuals to leverage powerful AI models without significant investment.",
+    "impact_score": 6
   },
   {
     "title": "Firmus, the \u2018Southgate\u2019 AI data center builder backed by Nvidia, hits $5.5B valuation",
     "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
-    "industry": "Data Centers",
-    "summary": "Firmus, an Nvidia-backed AI data center builder in Asia, has reached a $5.5B valuation after raising $1.35B in six months. This reflects the huge demand for AI infrastructure.",
-    "charlotte_impact": "Firmus's valuation underscores the massive investment currently flowing into AI data center infrastructure. The increased need for AI-optimized data centers, especially in Asia, is directly impacting land values, construction costs, and electricity demand in key regions.  It also increases the importance of Nvidia as a key partner. This boom creates opportunities for data center construction companies and investors.",
+    "industry": "Data Centers, Technology",
+    "summary": "Firmus, an AI data center builder backed by Nvidia, has reached a valuation of $5.5 billion after raising $1.35 billion in six months. This valuation shows the massive investment flowing into AI infrastructure and reflects the surging demand for data centers to support AI workloads.",
+    "charlotte_impact": "The increasing investment in data centers suggests sustained growth in the AI sector, positively impacting the demand for energy, hardware, and skilled labor in areas where data centers are located.",
     "impact_score": 9
   },
   {
     "title": "Google Maps can now write captions for your photos using AI",
     "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
-    "industry": "Mapping & Navigation",
-    "summary": "Google Maps now uses Gemini to write captions for user-uploaded photos, enhancing the platform's ability to provide contextual information about locations.",
-    "charlotte_impact": "Google's integration of AI into Maps strengthens its position as a leading navigation and local discovery platform. The enhancement of user-generated content with AI-generated captions improves the quality of local information, making Maps more valuable to consumers and businesses alike. Small business marketing strategies relying on visibility on Google maps will also improve.",
-    "impact_score": 6
+    "industry": "Technology",
+    "summary": "Google Maps is now using AI to write captions for user-uploaded photos, enhancing the local knowledge contribution process. This shows how AI is being integrated into everyday applications to enhance user experience and improve data quality.",
+    "charlotte_impact": "The enhanced features of Google Maps can affect local businesses by enhancing online visibility of local stores.",
+    "impact_score": 5
   },
   {
-    "title": "The AI gold rush is pulling private wealth into riskier, earlier bets",
-    "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
-    "industry": "Venture Capital",
-    "summary": "Family offices are increasingly bypassing traditional VCs to invest directly in early-stage AI startups. This trend is fueled by the perceived high growth potential of AI and the desire for more direct control over investments.",
-    "charlotte_impact": "The shift towards direct investment by family offices accelerates the funding available to AI startups, especially at early stages. This provides alternative capital sources and can help accelerate innovation. This also could challenge the traditional VC model.",
-    "impact_score": 7
-  },
-  {
-    "title": "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost",
-    "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
-    "industry": "Consulting",
-    "summary": "Rocket, an Indian AI startup, offers McKinsey-style consulting reports at a fraction of the cost, combining strategy, product building, and competitive intelligence.",
-    "charlotte_impact": "AI-powered consulting services like Rocket pose a disruptive threat to traditional management consulting firms. They democratize access to strategic insights, potentially reducing costs for businesses and improving competitiveness. Existing consultancies will either need to adopt AI tools or risk losing customers to the newcomers.",
+    "title": "Google Finance Scales AI Tools to 100 More Countries",
+    "url": "https://www.pymnts.com/google/2026/google-finance-scales-ai-tools-to-100-more-countries/",
+    "industry": "Finance, Technology",
+    "summary": "Google Finance is expanding its AI-powered tools to 100 more countries, increasing the accessibility of AI-driven financial analysis and insights globally. The expansion of AI-powered financial tools can democratize access to sophisticated investment resources and change financial decision-making on a global scale.",
+    "charlotte_impact": "This will allow individuals and businesses in more regions to access data-driven financial insights, potentially leading to more informed investment decisions and greater financial stability.",
     "impact_score": 8
   },
   {
-    "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
-    "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
-    "industry": "Venture Capital",
-    "summary": "OpenAI alums have created Zero Shot, a new VC fund aiming to raise $100M to invest in AI startups. Their deep understanding of AI offers a competitive advantage.",
-    "charlotte_impact": "The emergence of specialized AI venture funds led by former OpenAI employees highlights the growing maturity of the AI investment landscape. These funds bring deep domain expertise, potentially leading to more informed investment decisions and accelerating the growth of promising AI companies. This adds new funding sources for the industry.",
+    "title": "Poke makes using AI agents as easy as sending a text",
+    "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+    "industry": "Technology, Agentic AI",
+    "summary": "Poke enables users to interact with AI agents through text messages, simplifying task automation and removing the complexity of using AI.  Poke will increase the use of AI agents by making them easier to access and use for everyday tasks.",
+    "charlotte_impact": "By simplifying access to AI agents, more businesses can automate routine tasks, improving efficiency and reducing operational costs.",
     "impact_score": 7
-  },
-  {
-    "title": "Google Adds Mental Health Tools to Gemini Chatbot After Lawsuit",
-    "url": "https://www.insurancejournal.com/news/national/2026/04/07/864866.htm",
-    "industry": "Healthcare",
-    "summary": "Google is adding mental health tools to Gemini after lawsuits alleged harm caused by its AI. This highlights the need for responsible AI development and deployment in sensitive areas.",
-    "charlotte_impact": "The inclusion of mental health support features emphasizes the importance of responsible AI development in healthcare. The legal challenges highlight the need for stringent ethical guidelines and validation processes to prevent unintended harm. This will create pressure for AI providers to ensure their products are ethical and safe.",
-    "impact_score": 8
   },
   {
     "title": "Astropad\u2019s Workbench reimagines remote desktop for AI agents, not IT support",
     "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
-    "industry": "AI Infrastructure",
-    "summary": "Astropad's Workbench reimagines remote desktop for AI agents, allowing users to remotely monitor and control AI agents on Mac Minis from iPhones or iPads.",
-    "charlotte_impact": "Astropad\u2019s Workbench highlights the development of specialized tools for managing and monitoring AI agents. This is essential as companies scale their AI deployments and require more efficient and secure remote access solutions. This will enable remote AI operations.",
-    "impact_score": 7
+    "industry": "Technology, Agentic AI",
+    "summary": "Astropad's Workbench allows remote monitoring and control of AI agents on Mac Minis from iPhones or iPads, facilitating low-latency streaming and mobile access. Workbench will help to allow AI agents to perform tasks without constant human interaction, increasing productivity.",
+    "charlotte_impact": "By enabling remote access and control of AI agents, Workbench can improve the efficiency of AI operations, allowing for continuous monitoring and optimization of AI tasks.",
+    "impact_score": 6
   },
   {
     "title": "Atlassian launches visual\u00a0AI tools\u00a0and third-party agents\u00a0in Confluence",
     "url": "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/",
-    "industry": "Productivity Software",
-    "summary": "Atlassian launched visual AI tools and third-party agents in Confluence, enabling users to create visual assets and leverage AI agents from Lovable, Replit, and Gamma.",
-    "charlotte_impact": "Atlassian's integration of AI into Confluence demonstrates the push to embed AI directly into productivity applications. This allows users to generate visual content and automate tasks, increasing efficiency and collaboration. Expect other companies to add AI to their productivity tools.",
-    "impact_score": 7
+    "industry": "Software, Technology",
+    "summary": "Atlassian launched visual AI tools and third-party agents in Confluence, improving productivity and adding visual asset creation capabilities. The integration of AI in Confluence will enhance workflows and collaboration for teams.",
+    "charlotte_impact": "The integration of AI in Confluence could change the productivity of the users by improving collaboration.",
+    "impact_score": 6
   },
   {
     "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
     "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
-    "industry": "Cybersecurity",
-    "summary": "Anthropic debuted a preview of its powerful new AI model, Mythos, for use in defensive cybersecurity work. The model is being used by select high-profile companies to engage in cybersecurity defense.",
-    "charlotte_impact": "The deployment of Anthropic's Mythos in cybersecurity underscores the growing importance of AI in threat detection and response. It may allow for automation of cybersecurity, particularly with new threats. As AI threats improve, AI defenses will be vital to prevent attacks.",
+    "industry": "Technology, Cybersecurity",
+    "summary": "Anthropic debuted a preview of its powerful new AI model, Mythos, for use in a cybersecurity initiative. This reflects the growing application of AI in cybersecurity and highlights the potential of AI to enhance defensive measures.",
+    "charlotte_impact": "This shows the potential of AI as a service and helps cybersecurity efforts.",
     "impact_score": 8
   },
   {
-    "title": "PIMCO weighs $14 billion debt deal for Oracle's Michigan data center, Bloomberg News reports",
-    "url": "https://www.channelnewsasia.com/business/pimco-weighs-14-billion-debt-deal-oracles-michigan-data-center-bloomberg-news-reports-6041976",
-    "industry": "Data Centers",
-    "summary": "PIMCO is considering a $14 billion debt deal for Oracle's Michigan data center. This massive investment reflects the ongoing demand for large-scale data center infrastructure.",
-    "charlotte_impact": "The potential $14 billion investment highlights the massive scale of capital needed to support data center construction. Oracle's Michigan data center highlights the growing importance of edge infrastructure. This will fuel competition for data center locations.",
-    "impact_score": 8
-  },
-  {
-    "title": "Anthropic Claims Its New AI Model Is a \u2018Reckoning\u2019",
-    "url": "https://politicalwire.com/2026/04/07/anthropic-claims-new-model-is-a-reckoning/",
-    "industry": "AI Safety",
-    "summary": "Anthropic claims its new AI model is a 'reckoning' suggesting that it is too powerful to be released publicly, raising safety concerns.",
-    "charlotte_impact": "The claim raises fundamental questions about AI model safety. It fuels debate of whether or not powerful AI should be released. It highlights that safety is more than just a concern but a risk that can impact if technology is released.",
-    "impact_score": 9
-  },
-  {
-    "title": "How AI is being used to target Palestinians",
-    "url": "https://www.aljazeera.com/video/the-stream/2026/4/7/how-ai-is-being-used-to-target-palestinians",
-    "industry": "Military Technology",
-    "summary": "The report details how emerging military technology is used in war zones and how Palestinians try to use tech to their advantage.",
-    "charlotte_impact": "The use of AI will likely revolutionize warfare and defense. This will increase demand for AI cybersecurity and AI risk management and defense systems. It highlights that AI will become more integrated into geopolitical conflict. New systems may be required to determine what is allowed.",
-    "impact_score": 7
-  },
-  {
-    "title": "Fifth Element Star Milla Jovovich Reveals AI Memory Tool MemPalace",
-    "url": "https://decrypt.co/363524/fifth-element-milla-jovovich-ai-tool-mempalace",
-    "industry": "AI Tools",
-    "summary": "Fifth Element Star Milla Jovovich Reveals AI Memory Tool MemPalace, inspired by memory palace method.",
-    "charlotte_impact": "AI memory tools open up new applications of the technology. These tools can be used in personal development or business. The tools will likely be applied in education.",
+    "title": "Experts: AI Could Ruin Polling as 'Silicon Sampling' Asks Computers for Public Opinion Instead of People",
+    "url": "https://www.breitbart.com/tech/2026/04/08/experts-ai-could-ruin-polling-as-silicon-sampling-asks-computers-for-public-opinion-instead-of-people/",
+    "industry": "Technology, Polling",
+    "summary": "Experts warn that AI could ruin polling as 'silicon sampling' replaces human responses with computer simulations. This raises concerns about the accuracy and reliability of public opinion data.",
+    "charlotte_impact": "This will reduce the value of traditional polls to measure public support.",
     "impact_score": 6
   },
   {
-    "title": "AI and Online Health Information Are Booming, But Americans Don't Fully Trust What They Find",
-    "url": "https://www.prnewswire.com/news-releases/ai-and-online-health-information-are-booming-but-americans-dont-fully-trust-what-they-find-302736178.html",
-    "industry": "Healthcare",
-    "summary": "A new study reports that  AI and online health information are booming, but Americans don't fully trust what they find.",
-    "charlotte_impact": "A lack of trust in online AI health tools could limit adoption. The need for validation of AI tools will be key to increase trust. Over time, trust may increase.",
+    "title": "Meta unveils first AI model from costly superintelligence team",
+    "url": "https://www.channelnewsasia.com/business/meta-unveils-first-ai-model-costly-superintelligence-team-6044476",
+    "industry": "Technology",
+    "summary": "Meta Platforms unveiled Muse Spark, the first artificial intelligence model from its costly superintelligence team. Meta's launch of Muse Spark demonstrates its continued investment in the AI race and highlights the company's efforts to catch up with its competitors in the AI space.",
+    "charlotte_impact": "The launch of Muse Spark can generate economic activity as it increases competition.",
+    "impact_score": 8
+  },
+  {
+    "title": "Meta unveils first AI model from superintelligence team",
+    "url": "https://www.channelnewsasia.com/business/meta-unveils-first-ai-model-superintelligence-team-6044476",
+    "industry": "Technology",
+    "summary": "Meta Platforms unveiled Muse Spark, the first artificial intelligence model from a team assembled last year through a costly talent war and sweeping internal restructuring to catch up with rivals in the AI race. The release of Muse Spark impacts the technology sector.",
+    "charlotte_impact": "The company's focus on catching up in the AI race can lead to increased hiring and training for the labor market.",
+    "impact_score": 7
+  },
+  {
+    "title": "OpenAI warns artificial intelligence could leave households behind \u2014 and offers controversial solution",
+    "url": "https://www.realtor.com/advice/finance/openai-robot-tax-public-wealth-fund-homeowners/",
+    "industry": "Technology",
+    "summary": "OpenAI warns that AI could leave households behind and proposes a controversial solution involving a robot tax and public wealth fund. OpenAI's concerns show the increasing discussion about AI's economic impact and potential solutions to address economic inequalities.",
+    "charlotte_impact": "Increased competition can lead to lower cost services and enhanced offerings.",
+    "impact_score": 7
+  },
+  {
+    "title": "An AI model that\u2019s too risky",
+    "url": "https://www.thehindubusinessline.com/opinion/an-ai-model-thats-too-risky/article70839588.ece",
+    "industry": "Technology, Cybersecurity",
+    "summary": "The release of Claude Mythos Preview was rightly put on hold due to concerns regarding risk. This shows the risks involved and will lead to more caution in the deployment of AI models.",
+    "charlotte_impact": "The holding of Claude Mythos preview can affect other sectors such as defense.",
     "impact_score": 5
   },
   {
-    "title": "With sights on huge gains, Biocon to scale up AI focus",
-    "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/with-sights-on-huge-gains-biocon-to-scale-up-ai-focus/articleshow/130095933.cms",
-    "industry": "Pharma",
-    "summary": "With sights on huge gains, Biocon to scale up AI focus across its operations, from R&D to manufacturing and procurement.",
-    "charlotte_impact": "AI will transform biopharma development. This can drive down drug development costs. It can increase the speed that drugs are approved. Companies that do not adopt AI will be at a competitive disadvantage.",
+    "title": "Visa Aims to Give Businesses Agentic Commerce on-Ramp",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/visa-aims-to-give-businesses-agentic-commerce-on-ramp/",
+    "industry": "Finance, Technology",
+    "summary": "Visa introduced Intelligent Commerce Connect, aiming to provide businesses with an on-ramp to agentic commerce. Visa's ICC could create a new market for AI-powered commerce solutions.",
+    "charlotte_impact": "Visa's ICC will help companies adapt to AI technologies.",
+    "impact_score": 8
+  },
+  {
+    "title": "AXTI Stock Explodes 19% to $54.10 on AI-Driven InP Demand and Earnings Optimism",
+    "url": "https://www.ibtimes.com.au/axti-stock-explodes-19-5410-ai-driven-inp-demand-earnings-optimism-1865837",
+    "industry": "Semiconductors, Technology",
+    "summary": "AXTI stock soared 19% due to AI-driven indium phosphide (InP) demand and earnings optimism. The stock increase will impact the AI infrastructure.",
+    "charlotte_impact": "The demand shows the positive impact of AI advancements.",
+    "impact_score": 7
+  },
+  {
+    "title": "Bring your questions about AI\u2019s upsides and risks to Don\u2019t Short Yourself Live",
+    "url": "https://www.bigmarker.com/barrons-events/artificial-intelligence-superhuman-breakthrough-or-smarter-tool",
+    "industry": "Technology",
+    "summary": "The event will discuss the upsides and risks of AI, including whether it is a superhuman breakthrough or just a smarter tool. This event shows an attempt to show both the positive and negative impacts of AI.",
+    "charlotte_impact": "The increased use of AI can disrupt supply chains and increase competition.",
+    "impact_score": 5
+  },
+  {
+    "title": "Alphabet Class C Shares Surge 3.3% to $313.96 on AI Momentum and Broadcom Partnership",
+    "url": "https://www.ibtimes.com.au/alphabet-class-c-shares-surge-33-31396-ai-momentum-broadcom-partnership-1865834",
+    "industry": "Technology",
+    "summary": "Alphabet Class C shares surged 3.3% due to AI momentum and a Broadcom partnership. Alphabet's recent moves reflect the company's commitment to AI technology.",
+    "charlotte_impact": "Share prices can be used as a key indicator of the economy.",
     "impact_score": 7
   }
 ]
