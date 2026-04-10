@@ -3,200 +3,168 @@
     "title": "El CEO de Amazon apunta a Nvidia, Intel, Starlink y más en su carta anual a los accionistas",
     "url": "https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/",
     "industry": "Technology",
-    "summary": "La carta anual a los accionistas del CEO de Amazon, Andy Jassy, ​​critica a competidores como Nvidia, Intel y Starlink mientras defiende el gasto de capital de 200 mil millones de dólares de la compañía, lo que indica una estrategia agresiva en la nube y la infraestructura relacionada.",
-    "charlotte_impact": "La postura competitiva de Amazon frente a Nvidia e Intel indica una inversión continua en su propia infraestructura de silicio y nube. Esto se traduce en una necesidad de talento especializado en diseño de chips e ingeniería en la nube, lo que fomenta el crecimiento en estos sectores en todo Estados Unidos y a nivel mundial y potencialmente impacta a las ciudades con fuertes centros tecnológicos.",
+    "summary": "La carta anual a los accionistas del CEO de Amazon, Andy Jassy, ​​abordó la competencia de Nvidia, Intel y Starlink, defendiendo el gasto de capital de 200 mil millones de dólares de la compañía, lo que indica un enfoque continuo en la infraestructura de la nube y el desarrollo de la IA.",
+    "charlotte_impact": "La postura competitiva de Amazon pone de relieve la actual carrera armamentista de infraestructura en los sectores de la nube y la inteligencia artificial.  Esta competencia probablemente conducirá a menores costos y más innovación para las empresas que aprovechan estos servicios. Las empresas que proporcionan infraestructura de inteligencia artificial como Nvidia enfrentarán una presión cada vez mayor para desempeñarse e innovar a medida que los competidores intenten capturar participación de mercado.",
     "impact_score": 8
-  },
-  {
-    "title": "OpenAI asignará acciones de IPO a inversores minoristas mientras se prepara para su debut, dice el director financiero",
-    "url": "https://www.cnbc.com/2026/04/08/openai-ipo-sarah-friar-retail-investors.html",
-    "industry": "Finance",
-    "summary": "El director financiero de OpenAI indica que la empresa se está preparando para una oferta pública inicial y tiene la intención de asignar acciones a inversores minoristas. También proyectan que los ingresos empresariales serán iguales a los ingresos de los consumidores para fines de 2026, destacando la adopción empresarial.",
-    "charlotte_impact": "Una oferta pública inicial de OpenAI que incluya a inversores minoristas podría democratizar el acceso a la inversión en una empresa líder en inteligencia artificial.  El cambio hacia los ingresos empresariales significa un impacto económico más amplio a medida que las empresas integran la IA en sus operaciones, lo que lleva a la creación de empleos en roles relacionados con la IA, al tiempo que potencialmente desplaza a otros.",
-    "impact_score": 9
   },
   {
     "title": "Florida AG anuncia una investigación sobre OpenAI por el tiroteo que supuestamente involucró a ChatGPT",
     "url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
-    "industry": "Legal/AI Safety",
-    "summary": "El Fiscal General de Florida está investigando OpenAI después de que supuestamente se utilizara ChatGPT para planificar un tiroteo en la Universidad Estatal de Florida. La familia de una víctima planea demandar a OpenAI, lo que genera preocupaciones sobre el uso indebido y la responsabilidad de la IA.",
-    "charlotte_impact": "Esta investigación y una posible demanda subrayan las crecientes preocupaciones legales y éticas que rodean a la IA. Crea presión para que los desarrolladores de IA implementen medidas de seguridad más estrictas y aumenta la probabilidad de regulación, lo que podría afectar el ritmo de la innovación y el costo del desarrollo de la IA.",
+    "industry": "Legal, AI Ethics",
+    "summary": "El Fiscal General de Florida está investigando OpenAI después de que supuestamente se utilizara ChatGPT para planificar un tiroteo masivo. Este evento ya ha llevado a una familia a emprender acciones legales, lo que sugiere una nueva ola de escrutinio legal y ético de las aplicaciones de IA.",
+    "charlotte_impact": "Esta investigación y una posible demanda subrayan los crecientes riesgos legales y éticos asociados con la IA. Las empresas que implementan modelos de IA necesitan medidas de seguridad y políticas de uso sólidas para mitigar el riesgo de uso indebido y la posible responsabilidad. También destaca la necesidad de una mayor regulación de las herramientas de IA.",
     "impact_score": 9
   },
   {
     "title": "La aplicación Meta AI sube al puesto número 5 en la App Store después del lanzamiento de Muse Spark",
     "url": "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
-    "industry": "Technology/Social Media",
-    "summary": "La aplicación de IA de Meta ha subido al puesto número 5 en la App Store después del lanzamiento de Muse Spark, lo que sugiere un gran interés de los usuarios y una rápida adopción de las ofertas de IA de Meta.",
-    "charlotte_impact": "El aumento de la popularidad de la aplicación de IA de Meta demuestra la creciente demanda de los consumidores de herramientas impulsadas por IA. Esto podría impulsar una mayor inversión en el desarrollo de la IA por parte de otras empresas de tecnología y acelerar la integración de la IA en las aplicaciones cotidianas.",
+    "industry": "Social Media, AI",
+    "summary": "La aplicación de Meta AI subió al puesto número 5 en la App Store tras el lanzamiento de Muse Spark, su nuevo modelo de IA. Este rápido aumento muestra un fuerte interés de los usuarios y la adopción de las funciones impulsadas por IA de Meta.",
+    "charlotte_impact": "El éxito de la aplicación de IA de Meta indica la creciente demanda de funciones impulsadas por IA en las redes sociales y aplicaciones de consumo. Es probable que esta tendencia impulse una mayor inversión en el desarrollo de la IA dentro de las empresas de redes sociales y conduzca a experiencias de usuario más personalizadas y atractivas.",
     "impact_score": 7
   },
   {
     "title": "Google e Intel profundizan su asociación en infraestructura de IA",
     "url": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
-    "industry": "Technology/Semiconductors",
-    "summary": "Google e Intel están profundizando su asociación de infraestructura de IA para desarrollar conjuntamente chips personalizados, abordando la escasez global de CPU e indicando un impulso estratégico para el hardware específico de IA.",
-    "charlotte_impact": "La colaboración entre Google e Intel significa una tendencia hacia hardware personalizado para cargas de trabajo de IA.  Esta inversión impulsará la demanda de ingenieros de semiconductores y potencialmente influirá en la ubicación de futuras instalaciones de fabricación de chips.",
+    "industry": "Semiconductors, Cloud Computing",
+    "summary": "Google e Intel están profundizando su asociación de infraestructura de IA para desarrollar conjuntamente chips personalizados. Esta colaboración aborda la gran demanda de CPU impulsada por una creciente escasez global.",
+    "charlotte_impact": "La asociación fortalecida entre Google e Intel es crucial para abordar la escasez de chips de IA y avanzar en la infraestructura de IA.  Esto beneficiará a las empresas que dependen de la IA al mejorar el acceso al hardware necesario y reducir los costos a través de soluciones personalizadas.",
     "impact_score": 9
   },
   {
     "title": "El jefe de AWS explica por qué invertir miles de millones tanto en Anthropic como en OpenAI es un conflicto aceptable",
     "url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
-    "industry": "Technology/Cloud",
-    "summary": "El jefe de AWS defiende la inversión de la empresa tanto en Anthropic como en OpenAI, argumentando que AWS está acostumbrado a gestionar la competencia de forma eficaz, incluso con sus propios socios.",
-    "charlotte_impact": "La estrategia de inversión dual de AWS destaca la naturaleza competitiva del panorama de la IA y la importancia de la diversificación. Esto podría alentar a otras empresas a adoptar enfoques múltiples similares, cubriendo sus apuestas en diferentes tecnologías de IA.",
+    "industry": "Cloud Computing",
+    "summary": "El jefe de AWS abordó el posible conflicto de invertir tanto en Anthropic como en OpenAI, afirmando que AWS tiene experiencia en la gestión de la competencia debido a sus relaciones con socios de la nube.",
+    "charlotte_impact": "Las inversiones de AWS tanto en Anthropic como en OpenAI demuestran un enfoque estratégico para mantener una posición de liderazgo en el mercado de la nube de IA. Esto brindará a los clientes de AWS una gama más amplia de opciones de modelos de IA e impulsará la competencia entre proveedores de IA, lo que conducirá a mejores precios y características.",
     "impact_score": 7
   },
   {
     "title": "OpenAI lanza un nuevo plan de seguridad para abordar el aumento de la explotación sexual infantil",
     "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
-    "industry": "AI Safety",
-    "summary": "OpenAI ha publicado un nuevo plan de seguridad para abordar el aumento de la explotación sexual infantil (ESC) vinculado a los avances de la IA, respondiendo a las crecientes preocupaciones sobre el uso indebido de la IA.",
-    "charlotte_impact": "El enfoque de OpenAI en la seguridad infantil subraya la importancia del desarrollo responsable de la IA. Estos modelos pueden convertirse en estándares de la industria, influyendo en el diseño y la implementación de sistemas de inteligencia artificial y potencialmente creando nuevos requisitos de cumplimiento.",
+    "industry": "AI Ethics, Safety",
+    "summary": "OpenAI lanzó un nuevo Plan de seguridad infantil para abordar el alarmante aumento de la explotación sexual infantil vinculado a los avances en la IA, lo que subraya las crecientes preocupaciones de seguridad en el espacio de la IA.",
+    "charlotte_impact": "El plan de seguridad de OpenAI destaca la necesidad crítica de un desarrollo y despliegue responsable de la IA. Envía una señal a la industria en general de que la seguridad de la IA es una prioridad y requiere medidas proactivas para evitar su uso indebido. Esto podría impulsar nuevas regulaciones o estándares en torno a la seguridad de la IA.",
+    "impact_score": 10
+  },
+  {
+    "title": "Haast recauda 12 millones de dólares para ayudar a los equipos legales a apresurarse con contenido generado por IA que cumpla con las normas",
+    "url": "https://siliconangle.com/2026/04/09/haast-raises-12m-help-legal-teams-make-haste-compliant-ai-generated-content/",
+    "industry": "LegalTech, AI Compliance",
+    "summary": "Haast recaudó 12 millones de dólares para ayudar a los equipos legales a hacer que el contenido generado por IA cumpla con las regulaciones. La financiación se utilizará para ampliar su plataforma de automatización del flujo de trabajo de cumplimiento.",
+    "charlotte_impact": "La financiación de Haast significa la creciente importancia del cumplimiento de la IA, particularmente dentro de industrias reguladas como la legal. Esto estimulará la demanda de soluciones que garanticen que el contenido generado por IA cumpla con los estándares legales, reduciendo el riesgo de litigios y sanciones regulatorias.",
     "impact_score": 8
-  },
-  {
-    "title": "Google lanzó silenciosamente una aplicación de dictado con IA que funciona sin conexión",
-    "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-    "industry": "Technology/AI Applications",
-    "summary": "Google lanzó silenciosamente una aplicación de dictado de IA sin conexión utilizando modelos de IA de Gemma, compitiendo con aplicaciones como Wispr Flow y demostrando la accesibilidad de modelos de IA avanzados para aplicaciones prácticas.",
-    "charlotte_impact": "El lanzamiento de la aplicación de dictado fuera de línea de Google muestra la creciente tendencia de la IA de vanguardia y el procesamiento en el dispositivo. Esto reduce la barrera de entrada para las herramientas basadas en IA y puede impulsar la demanda de dispositivos con capacidades mejoradas de procesamiento de IA.",
-    "impact_score": 7
-  },
-  {
-    "title": "No puedo evitar apoyar al pequeño fabricante de modelos de IA de código abierto Arcee",
-    "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
-    "industry": "AI/Open Source",
-    "summary": "Arcee, un pequeño fabricante de modelos de IA de código abierto, está ganando popularidad entre los usuarios de OpenClaw, lo que sugiere un creciente interés en el desarrollo de IA impulsado por la comunidad y en alternativas a los modelos de código cerrado.",
-    "charlotte_impact": "El éxito de Arcee indica un cambio potencial hacia la IA de código abierto. Esta tendencia podría democratizar el acceso a la tecnología de IA y fomentar la innovación fuera de las grandes corporaciones, lo que podría conducir a nuevos modelos de negocios basados ​​en IA de código abierto.",
-    "impact_score": 6
   },
   {
     "title": "Poke hace que usar agentes de IA sea tan fácil como enviar un mensaje de texto",
     "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
-    "industry": "AI Agents",
-    "summary": "Poke simplifica el uso de agentes de IA al hacerlos accesibles a través de mensajes de texto, manejando tareas y automatizaciones sin una configuración compleja, lo que potencialmente amplía la adopción de agentes de IA.",
-    "charlotte_impact": "El enfoque de Poke demuestra el potencial de los agentes de IA para automatizar tareas cotidianas para usuarios no técnicos. Esta facilidad de uso podría impulsar una adopción significativa en diversas industrias, desde el servicio al cliente hasta la productividad personal.",
+    "industry": "AI Agents, Conversational AI",
+    "summary": "Poke hace que los agentes de IA sean accesibles a través de mensajes de texto, lo que permite a los usuarios cotidianos automatizar tareas sin habilidades técnicas ni configuraciones complejas. Esto simplifica la experiencia del usuario al interactuar con la IA.",
+    "charlotte_impact": "El enfoque de agente de IA basado en texto de Poke democratiza el acceso a la IA, facilitando que las personas y las pequeñas empresas aprovechen la IA para la automatización y la productividad. Esta tendencia reduce la barrera de entrada para la adopción de la IA y puede fomentar nuevos casos de uso para los agentes de IA.",
     "impact_score": 8
   },
   {
     "title": "Workbench de Astropad reinventa el escritorio remoto para agentes de IA, no para soporte de TI",
     "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
-    "industry": "AI Agents",
-    "summary": "Workbench de Astropad permite el monitoreo y control remoto de agentes de IA en Mac Minis desde iPhone o iPad, satisfaciendo la creciente necesidad de administración remota de la infraestructura de IA.",
-    "charlotte_impact": "Workbench de Astropad destaca la creciente necesidad de herramientas para gestionar y monitorear agentes de IA distribuidos. Esto podría impulsar la demanda de soluciones de software y hardware especializadas que simplifiquen la implementación y el mantenimiento de agentes de IA, especialmente en entornos informáticos de vanguardia.",
+    "industry": "AI Agents, Remote Access",
+    "summary": "Workbench de Astropad reinventa el software de escritorio remoto para agentes de IA, permitiendo a los usuarios monitorearlos y controlarlos en Mac Minis desde iPhones o iPads. Esto mejora la gestión y accesibilidad de los agentes de IA.",
+    "charlotte_impact": "Workbench de Astropad aborda la necesidad de una gestión remota eficiente de los agentes de IA, particularmente en escenarios donde los agentes se ejecutan en hardware local. Esto aumentará la productividad y reducirá los costos operativos para las empresas que dependen de agentes de inteligencia artificial para tareas que requieren dispositivos físicos.",
     "impact_score": 7
   },
   {
     "title": "Atlassian lanza herramientas visuales de inteligencia artificial y agentes de terceros en Confluence",
     "url": "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/",
-    "industry": "Enterprise Software",
-    "summary": "Atlassian lanza herramientas visuales de IA y agentes de terceros en Confluence, lo que permite a los usuarios crear activos visuales e integrar flujos de trabajo impulsados ​​por IA directamente dentro de la plataforma, mejorando la productividad y la creatividad.",
-    "charlotte_impact": "La integración de la IA de Atlassian en Confluence demuestra la creciente importancia de la IA en el software empresarial. Este movimiento podría aumentar la propuesta de valor de las plataformas de colaboración e impulsar la adopción de funciones impulsadas por IA dentro de los flujos de trabajo existentes.",
+    "industry": "Enterprise Software, AI Agents",
+    "summary": "Atlassian lanzó herramientas visuales de IA y agentes de terceros dentro de Confluence, lo que permite a los usuarios crear activos visuales e integrar IA de Lovable, Replit y Gamma directamente en sus flujos de trabajo.",
+    "charlotte_impact": "La integración de la IA de Atlassian en Confluence mejora la productividad y la creatividad de los usuarios empresariales. Al proporcionar herramientas visuales de IA e integraciones de agentes de terceros, Atlassian permite a los usuarios optimizar la creación de contenido y aprovechar la IA para la colaboración, lo que impacta el software y la productividad.",
+    "impact_score": 8
+  },
+  {
+    "title": "Meta AI es competitiva con Mus Spark AI",
+    "url": "https://www.nextbigfuture.com/2026/04/meta-ai-is-competitive-with-mus-spark-ai.html",
+    "industry": "AI Models, Technology",
+    "summary": "Muse Spark de Meta, el primer modelo de sus nuevos Meta Superintelligence Labs (MSL), lanzado como un modelo de razonamiento multimodal nativo.",
+    "charlotte_impact": "El lanzamiento del modelo Muse Spark AI de Meta indica una mayor competencia en el desarrollo y las aplicaciones de IA. Este avance probablemente dé como resultado mejores herramientas y software y avances más rápidos en la IA en todos los ámbitos.",
     "impact_score": 7
   },
   {
-    "title": "La Universidad del Valle de Utah exhibe raros rollos de Herculano en la Conferencia Mundial de Bibliotecas Enterradas",
-    "url": "https://www.globenewswire.com/news-release/2026/04/08/3270555/0/en/Utah-Valley-University-Showcases-Rare-Herculaneum-Scrolls-at-Global-Buried-Library-Conference.html",
-    "industry": "Education/Research",
-    "summary": "La Universidad del Valle de Utah exhibe raros rollos de Herculano en una conferencia global sobre bibliotecas enterradas, destacando cómo la inteligencia artificial y las imágenes digitales están transformando el estudio de los textos antiguos.",
-    "charlotte_impact": "Este evento demuestra el poderoso papel que desempeña la IA en la investigación en humanidades y el análisis de datos. Las herramientas de inteligencia artificial, como el OCR y el procesamiento de imágenes, están transformando los campos tradicionales y podrían afectar la financiación de subvenciones en esos campos.",
-    "impact_score": 6
-  },
-  {
-    "title": "Citigroup dice que la IA ayuda a acelerar la apertura de cuentas y las actualizaciones de sistemas",
-    "url": "https://www.itnews.com.au/news/citigroup-says-ai-helps-speed-account-openings-and-systems-upgrades-624878?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Business+feed",
-    "industry": "Finance",
-    "summary": "Citigroup informa que la IA está acelerando la apertura de cuentas y las actualizaciones de sistemas, lo que demuestra los beneficios tangibles de la IA para mejorar la productividad dentro del sector de servicios financieros.",
-    "charlotte_impact": "La experiencia de Citigroup valida el valor de la IA para agilizar las operaciones y mejorar la eficiencia. Esto podría alentar a otras instituciones financieras a invertir en soluciones de inteligencia artificial, lo que llevaría a una adopción más amplia en toda la industria.",
+    "title": "Acciones de EE. UU.: Intel y Google duplicarán su apuesta por las CPU de IA con una asociación ampliada",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-intel-and-google-to-double-down-on-ai-cpus-with-expanded-partnership/articleshow/130145076.cms",
+    "industry": "Semiconductors, AI Infrastructure",
+    "summary": "Intel y Google han ampliado su asociación para avanzar en el uso de unidades centrales de procesamiento centradas en IA y desarrollar procesadores de infraestructura personalizados. Esta medida aborda la mayor demanda de chips informáticos tradicionales debido a la IA.",
+    "charlotte_impact": "Es probable que esta asociación aumente la producción y la calidad de los procesadores centrados en la IA y reduzca los precios a largo plazo, beneficiando tanto a las empresas de IA como a las empresas que aprovechan la IA.",
     "impact_score": 8
   },
   {
-    "title": "Citigroup dice que la IA ayuda a acelerar la apertura de cuentas y las actualizaciones de sistemas",
-    "url": "https://www.itnews.com.au/news/citigroup-says-ai-helps-speed-account-openings-and-systems-upgrades-624878?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+News+feed",
-    "industry": "Finance",
-    "summary": "Citigroup informa que la IA está acelerando la apertura de cuentas y las actualizaciones de sistemas, lo que demuestra los beneficios tangibles de la IA para mejorar la productividad dentro del sector de servicios financieros.",
-    "charlotte_impact": "La experiencia de Citigroup valida el valor de la IA para agilizar las operaciones y mejorar la eficiencia. Esto podría alentar a otras instituciones financieras a invertir en soluciones de inteligencia artificial, lo que llevaría a una adopción más amplia en toda la industria.",
-    "impact_score": 8
-  },
-  {
-    "title": "Citigroup dice que la IA ayuda a acelerar la apertura de cuentas y las actualizaciones de sistemas",
-    "url": "https://www.itnews.com.au/news/citigroup-says-ai-helps-speed-account-openings-and-systems-upgrades-624878?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-    "industry": "Finance",
-    "summary": "Citigroup informa que la IA está acelerando la apertura de cuentas y las actualizaciones de sistemas, lo que demuestra los beneficios tangibles de la IA para mejorar la productividad dentro del sector de servicios financieros.",
-    "charlotte_impact": "La experiencia de Citigroup valida el valor de la IA para agilizar las operaciones y mejorar la eficiencia. Esto podría alentar a otras instituciones financieras a invertir en soluciones de inteligencia artificial, lo que llevaría a una adopción más amplia en toda la industria.",
-    "impact_score": 8
-  },
-  {
-    "title": "Citigroup dice que la IA ayuda a acelerar la apertura de cuentas y las actualizaciones de sistemas",
-    "url": "https://www.itnews.com.au/news/citigroup-says-ai-helps-speed-account-openings-and-systems-upgrades-624878?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Financial+Services+feed",
-    "industry": "Finance",
-    "summary": "Citigroup informa que la IA está acelerando la apertura de cuentas y las actualizaciones de sistemas, lo que demuestra los beneficios tangibles de la IA para mejorar la productividad dentro del sector de servicios financieros.",
-    "charlotte_impact": "La experiencia de Citigroup valida el valor de la IA para agilizar las operaciones y mejorar la eficiencia. Esto podría alentar a otras instituciones financieras a invertir en soluciones de inteligencia artificial, lo que llevaría a una adopción más amplia en toda la industria.",
-    "impact_score": 8
-  },
-  {
-    "title": "[Último] Gemelo digital global en tamaño/participación del mercado marino por un valor de USD 13,26 mil millones para 2035 con una tasa compuesta anual del 11,7 %: información personalizada del mercado (análisis, perspectivas, líderes, informe, tendencias, pronóstico, segmentación, tasa de crecimiento, valor, análisis FODA)",
-    "url": "https://www.globenewswire.com/news-release/2026/04/08/3270539/0/en/Latest-Global-Digital-Twin-in-Marine-Market-Size-Share-Worth-USD-13-26-Billion-by-2035-at-a-11-7-CAGR-Custom-Market-Insights-Analysis-Outlook-Leaders-Report-Trends-Forecast-Segment.html",
-    "industry": "Technology/Maritime",
-    "summary": "Se prevé que el mercado mundial de gemelos digitales en la industria marina alcance los 13.260 millones de dólares estadounidenses para 2035, con un crecimiento compuesto del 11,7%, lo que indica una importante inversión y adopción de tecnología de gemelos digitales en el sector marítimo.",
-    "charlotte_impact": "El crecimiento del mercado de gemelos digitales en la industria marina significa una tendencia más amplia hacia la simulación y el análisis predictivo. Esto podría crear oportunidades para empresas especializadas en software de gemelos digitales y servicios de consultoría, apoyando los esfuerzos de optimización y sostenibilidad en las operaciones marítimas.",
-    "impact_score": 6
-  },
-  {
-    "title": "XMax avanza en la estrategia de IA mediante el desarrollo y la implementación de una plataforma de inferencia de IA",
-    "url": "https://www.globenewswire.com/news-release/2026/04/08/3270540/37029/en/XMax-Advances-AI-Strategy-Through-Development-and-Deployment-of-An-AI-Inference-Platform.html",
-    "industry": "Technology",
-    "summary": "XMax Inc. anuncia el despliegue de una plataforma de inferencia de IA, avanzando en su estrategia de IA y señalando una mayor inversión en infraestructura y capacidades de IA.",
-    "charlotte_impact": "La inversión de XMax en una plataforma de inferencia de IA demuestra un compromiso de aprovechar la IA en todas sus operaciones. Esta plataforma puede requerir datos y recursos informáticos, generando efectos dominó y respaldando una creciente necesidad de infraestructura de IA especializada.",
-    "impact_score": 5
-  },
-  {
-    "title": "El programa piloto ISTAND de la FDA acepta la presentación de la primera tecnología de salud digital y basada en inteligencia artificial para neurociencia",
-    "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-istand-pilot-program-accepts-submission-first-artificial-intelligence-based-and-digital-health",
-    "industry": "Healthcare/Pharmaceuticals",
-    "summary": "El programa piloto ISTAND de la FDA acepta su primera presentación de tecnología de salud digital y basada en inteligencia artificial para neurociencia, lo que indica una creciente aceptación y vías regulatorias para la IA en el desarrollo de fármacos.",
-    "charlotte_impact": "Esto marca un hito en la aceptación de la IA por parte de la FDA en el desarrollo de fármacos. Podría alentar a más compañías farmacéuticas a invertir en herramientas impulsadas por IA, acelerando el proceso de descubrimiento y desarrollo y potencialmente conduciendo a nuevas opciones de tratamiento y una mayor seguridad pública.",
+    "title": "Curso gratuito de IA de generación de 5 días de Kaggle + Google",
+    "url": "https://www.kdnuggets.com/kaggle-googles-free-5-day-gen-ai-course",
+    "industry": "Education, AI Training",
+    "summary": "Kaggle y Google ofrecen un curso gratuito de IA generativa de 5 días que cubre modelos fundamentales, incorporaciones, agentes de IA y MLOps.",
+    "charlotte_impact": "La oferta de un curso gratuito de IA generativa amplía las oportunidades de capacitación en IA, creando un grupo más grande de personas que entienden cómo usar y desarrollar la IA. Esto es importante para las empresas que buscan trabajadores capacitados en IA y quieren hacer de la IA parte de su modelo de negocio.",
     "impact_score": 7
   },
   {
-    "title": "OpenAI hizo propuestas económicas: esto es lo que DC piensa de ellas",
-    "url": "https://www.theverge.com/column/908880/openai-made-economic-proposals-heres-what-dc-thinks-of-them",
-    "industry": "Policy/Economics",
-    "summary": "OpenAI hizo propuestas económicas y este artículo resume cómo reaccionaron los funcionarios de Washington D.C.",
-    "charlotte_impact": "Las propuestas económicas de los principales actores de la IA, como OpenAI, influyen en las políticas y regulaciones gubernamentales en torno a la IA. La aceptación o el rechazo de estas propuestas por parte de D.C. impacta la competitividad económica y la estrategia y seguridad general de Estados Unidos.",
-    "impact_score": 5
+    "title": "UltiSim lanza Data Fusion Plane, que brinda una infraestructura de inteligencia artificial óptima al mercado gubernamental y de empresas medianas",
+    "url": "https://www.globenewswire.com/news-release/2026/04/09/3271105/0/en/UltiSim-launches-Data-Fusion-Plane-bringing-optimal-AI-infrastructure-to-mid-market-enterprise-and-government-market.html",
+    "industry": "AI Infrastructure",
+    "summary": "UltiSim lanzó Data Fusion Plane, una solución de infraestructura de IA diseñada para los sectores gubernamentales y empresariales del mercado medio, que hace que los recursos óptimos de IA sean más accesibles.",
+    "charlotte_impact": "La oferta de infraestructura de UltiSim permite que las organizaciones pequeñas y medianas accedan a la misma infraestructura que las empresas más grandes, nivelando el campo de juego y garantizando que más organizaciones puedan aprovechar las herramientas de IA.",
+    "impact_score": 7
   },
   {
-    "title": "Muse Spark de Meta está aquí y es de código cerrado",
-    "url": "https://thenextweb.com/news/meta-muse-spark-msl-first-model/",
-    "industry": "AI/Technology",
-    "summary": "Meta ha lanzado Muse Spark, el primer modelo de Meta Superintelligence Labs (MSL). Este modelo es nativamente multimodal pero es de código cerrado.",
-    "charlotte_impact": "Este lanzamiento de un modelo de IA multimodal por parte de Meta sugiere que están duplicando la IA general y que competirán fuertemente con Google y OpenAI. El impacto comercial estará determinado por la adopción del mercado y la calidad de la integración con otros productos Meta.",
+    "title": "El mercado mundial de ultrasonido portátil alcanzará los 3.830 millones de dólares en 2030 | MercadosyMarkets™",
+    "url": "https://www.globenewswire.com/news-release/2026/04/09/3271157/0/en/Global-Portable-Ultrasound-Market-to-Reach-USD-3-83-Billion-by-2030-MarketsandMarkets.html",
+    "industry": "Medical Imaging, Healthcare",
+    "summary": "Se prevé que el mercado mundial de ultrasonido portátil alcance los 3,83 mil millones de dólares para 2030, impulsado por la integración de la inteligencia artificial, los diagnósticos en el punto de atención y los avances en la telemedicina, lo que indica un cambio significativo en las inversiones en imágenes médicas.",
+    "charlotte_impact": "El mercado en expansión de los ultrasonidos portátiles, mejorado por la IA, creará más oportunidades para los sistemas de salud. Podrán utilizar imágenes médicas en más escenarios y entornos, mejorando los resultados en el punto de atención.",
+    "impact_score": 7
+  },
+  {
+    "title": "Cerrar la brecha de implementación en la estrategia cibernética de Estados Unidos",
+    "url": "https://www.techradar.com/pro/closing-the-implementation-gap-in-americas-cyber-strategy",
+    "industry": "Cybersecurity, National Defense",
+    "summary": "La defensa nacional está cambiando hacia una colaboración público-privada agresiva y la integración de la IA para mejorar las estrategias de ciberseguridad.",
+    "charlotte_impact": "Una mayor integración de la IA con empresas públicas y privadas de ciberseguridad hará que la defensa sea más sólida e innovadora, mejorando la seguridad frente a ataques y fallos de infraestructura.",
+    "impact_score": 8
+  },
+  {
+    "title": "Los socios de Velera FinTech ofrecen beneficios exclusivos a las cooperativas de crédito",
+    "url": "https://www.pymnts.com/credit-unions/2026/velera-fintech-partners-deliver-exclusive-benefits-to-credit-unions/",
+    "industry": "FinTech, Credit Unions",
+    "summary": "Velera FinTech Partners está brindando beneficios exclusivos a las cooperativas de crédito, lo que indica una mayor innovación en los servicios financieros a través de asociaciones fintech.",
+    "charlotte_impact": "Esta asociación ampliada significa que las cooperativas de crédito y sus clientes probablemente verán mejores opciones y herramientas tecnológicas para las finanzas personales, a medida que aumente la innovación a través de la tecnología financiera.",
     "impact_score": 6
   },
   {
-    "title": "CX Network nombra a Brian Solis como uno de los principales líderes de IA en CX a seguir",
-    "url": "https://briansolis.com/2026/04/cx-network-names-brian-solis-a-top-ai-leader-in-cx-to-follow/",
-    "industry": "Customer Experience/AI",
-    "summary": "CX Network nombra a Brian Solis líder líder en IA en CX. El artículo destaca a personas que redefinen cómo se utilizan la tecnología y el conocimiento humano para mejorar las experiencias de los clientes.",
-    "charlotte_impact": "Los líderes en IA están impulsando la innovación y el valor empresarial. Al reconocer a los líderes de opinión, las empresas pueden compararse entre sí y esforzarse por utilizar la IA de forma más eficaz.",
-    "impact_score": 3
+    "title": "Los dermatólogos muestran el mayor rendimiento en el diagnóstico de melanoma con el apoyo de la IA",
+    "url": "https://www.medicalnewstoday.com/articles/dermatologists-ai-support-highest-melanoma-diagnostic-performance-cancer-detection",
+    "industry": "Healthcare, AI Diagnostics",
+    "summary": "Un nuevo estudio sugiere que la IA funciona a la par de los dermatólogos en la detección del melanoma, pero los dermatólogos asistidos por IA obtuvieron mejores resultados. Los hallazgos indican que la IA puede ayudar, en lugar de reemplazar, a los médicos.",
+    "charlotte_impact": "La IA seguirá siendo un activo valioso en el ámbito médico, ya que permite a los médicos aprovechar más puntos de datos y herramientas de diagnóstico para obtener los diagnósticos más precisos. Esto aumenta la probabilidad de un diagnóstico correcto y un tratamiento temprano.",
+    "impact_score": 9
   },
   {
-    "title": "Trump confirma que la herramienta Ghost Murmur de la CIA fue “muy importante” para encontrar aviadores en Irán, mientras los expertos debaten cómo funciona",
-    "url": "https://nypost.com/2026/04/08/us-news/trump-confirms-cia-ghost-murmur-tool-was-very-important-to-find-airman-in-iran-as-experts-debate-how-it-works/",
-    "industry": "Defense/Intelligence",
-    "summary": "Trump confirmó la existencia de la herramienta CIA Ghost Murmur, que supuestamente detecta los latidos del corazón a largas distancias. El NY Post informa que los expertos debaten cómo funciona.",
-    "charlotte_impact": "La existencia de una herramienta de este tipo, aunque debatida, implica una inversión masiva y la aplicación de tecnología novedosa, y tal vez de IA, en inteligencia y defensa. El impacto sería en la recopilación de inteligencia, la seguridad nacional y el poder geopolítico.",
-    "impact_score": 4
+    "title": "Ómicas espaciales e inteligencia artificial para biomarcadores de cáncer clínicamente procesables",
+    "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005049",
+    "industry": "Healthcare, AI Biomarkers",
+    "summary": "Es probable que la integración de la ómica espacial con la IA avance en la investigación y el diagnóstico de biomarcadores, pero persisten desafíos en materia de escalabilidad y reproducibilidad.",
+    "charlotte_impact": "La investigación de biomarcadores experimentará un gran avance que, con suerte, conducirá a una medicina más personalizada y mejores resultados de salud. Pero estas herramientas se encuentran en una etapa temprana, por lo que el desafío será crear resultados escalables y reproducibles.",
+    "impact_score": 7
   },
   {
-    "title": "¿Qué es el 'murmullo fantasma' cuántico que supuestamente se utiliza en Irán? Los científicos cuestionan la afirmación de la CIA sobre la detección de latidos cardíacos a larga distancia",
-    "url": "https://www.scientificamerican.com/article/what-is-the-quantum-ghost-murmur-purportedly-used-in-iran-scientists/",
-    "industry": "Defense/Intelligence",
-    "summary": "Scientific American cuestiona la afirmación de la CIA sobre la tecnología Ghost Murmur, que supuestamente puede detectar latidos del corazón a largas distancias. Los físicos cuestionan la viabilidad de esta tecnología.",
-    "charlotte_impact": "El escepticismo de los físicos subraya la necesidad de transparencia y validación de las afirmaciones de la IA, particularmente en áreas sensibles como la defensa. El desarrollo, e incluso los rumores, de tales herramientas impulsan la financiación de la IA de defensa.",
-    "impact_score": 4
+    "title": "Un marco de aprendizaje profundo interpretable para el modelado predictivo de infecciones posoperatorias en pacientes de la UCI",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346896",
+    "industry": "Healthcare, AI Predictive Modeling",
+    "summary": "Un marco de aprendizaje profundo interpretable tiene como objetivo predecir infecciones posoperatorias en pacientes de la UCI, lo cual es crucial para mejorar los resultados de los pacientes.",
+    "charlotte_impact": "Los modelos predictivos de infecciones posoperatorias se volverán más comunes, lo que permitirá a los hospitales tener un diagnóstico e intervención más tempranos para posibles infecciones. Esto les ayuda a controlar los recursos y brindar tratamientos personalizados para quienes corren mayor riesgo.",
+    "impact_score": 8
+  },
+  {
+    "title": "MoneyFlare lanza la aplicación AI Crypto Trading Bot para Dogecoin y Bitcoin",
+    "url": "https://www.globenewswire.com/news-release/2026/04/09/3271113/0/en/MoneyFlare-Launches-AI-Crypto-Trading-Bot-App-for-Dogecoin-and-Bitcoin.html",
+    "industry": "FinTech, Cryptocurrency",
+    "summary": "MoneyFlare lanza la aplicación AI Crypto Trading Bot para Dogecoin y Bitcoin, que automatiza el comercio de criptomonedas a través de IA.",
+    "charlotte_impact": "El lanzamiento de un robot comercial impulsado por inteligencia artificial aumenta tanto la especulación como el acceso al comercio de criptomonedas. Es probable que conduzca a un comercio más volátil y a una mayor posibilidad de que las personas corran el riesgo de perder dinero si no comprenden las complejidades de los algoritmos del comercio de criptomonedas.",
+    "impact_score": 6
   }
 ]
