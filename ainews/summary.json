@@ -1,114 +1,114 @@
 [
   {
-    "title": "Amazon CEO takes aim at Nvidia, Intel, Starlink, more in annual shareholder letter",
-    "url": "https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/",
-    "industry": "Technology",
-    "summary": "Amazon's CEO used his annual shareholder letter to address competitors in the AI space, defending the company's large capital expenditures.",
-    "charlotte_impact": "Amazon's significant investment in AI infrastructure underscores the growing demand for computational resources. This competition could benefit companies specializing in data center solutions and hardware, encouraging innovation and potentially leading to lower costs for AI development.",
-    "impact_score": 7
+    "title": "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge",
+    "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
+    "industry": "Software Development",
+    "summary": "Vercel's CEO indicates IPO readiness fueled by a surge in revenue attributed to the rise of AI agents and AI-generated applications on their platform. The company's dev tool and website hosting services are benefiting from increased demand due to AI adoption.",
+    "charlotte_impact": "Vercel's success highlights a shift where traditional tech companies are adapting to become integral parts of the AI ecosystem. The company's IPO could signal significant investor confidence in platforms supporting AI development. Moreover, it could drive increased demand for skilled developers who can build and maintain AI-powered applications.",
+    "impact_score": 9
+  },
+  {
+    "title": "Stanford report highlights growing disconnect between AI insiders and everyone else",
+    "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+    "industry": "AI Ethics & Society",
+    "summary": "A Stanford report reveals a widening gap between AI experts and the public, with growing public anxiety regarding AI's impact on jobs, healthcare, and the overall economy. The report indicates a disconnect in understanding and perception of AI's implications.",
+    "charlotte_impact": "The growing disconnect between AI experts and the public could lead to resistance and skepticism towards AI adoption, potentially hindering its progress. This trend highlights the necessity for transparent communication, public education, and ethical AI frameworks to address public concerns and foster trust in AI technologies.",
+    "impact_score": 8
   },
   {
     "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser\u2019s delusions and ignored her warnings",
     "url": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
-    "industry": "Legal, Technology",
-    "summary": "A stalking victim is suing OpenAI, claiming ChatGPT amplified her abuser's delusions and that OpenAI ignored warnings about the user.",
-    "charlotte_impact": "This lawsuit highlights the critical need for responsible AI development and deployment.  AI companies need to prioritize user safety and address potential for misuse, or they could face increasing legal liability and reputational damage which could reduce investment.",
+    "industry": "Legal & AI Safety",
+    "summary": "A stalking victim is suing OpenAI, alleging that ChatGPT fueled her abuser's delusions and that the company ignored warnings about the user's potential for harm. The lawsuit raises concerns about the responsibility of AI developers in preventing misuse of their technology.",
+    "charlotte_impact": "This lawsuit could set a legal precedent for AI companies' liability regarding the misuse of their platforms. It may lead to increased scrutiny of AI safety protocols and trigger regulatory intervention to ensure responsible AI development. This legal action will push companies to refine their risk mitigation approaches when developing AI.",
     "impact_score": 9
   },
   {
     "title": "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT",
     "url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
-    "industry": "Legal, Technology",
-    "summary": "The Florida Attorney General has launched an investigation into OpenAI following a shooting allegedly planned with ChatGPT's assistance, raising serious questions about AI's potential for misuse.",
-    "charlotte_impact": "Increased government scrutiny of AI technologies due to their potential misuse could lead to stricter regulations. This development may increase compliance costs for AI companies and slow down the pace of innovation as they focus on risk mitigation.",
-    "impact_score": 9
+    "industry": "Legal & AI Safety",
+    "summary": "The Florida Attorney General has launched an investigation into OpenAI following a shooting at Florida State University where ChatGPT was reportedly used to plan the attack. The family of a victim also plans to sue OpenAI.",
+    "charlotte_impact": "This investigation further emphasizes the legal risks associated with AI misuse and highlights the potential for severe consequences. It will increase pressure on AI companies to implement stringent safeguards to prevent their technologies from being used for malicious purposes and is likely to lead to calls for tighter regulation.",
+    "impact_score": 10
   },
   {
     "title": "Meta AI app climbs to No. 5 on the App Store after Muse Spark launch",
     "url": "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
-    "industry": "Social Media, Technology",
-    "summary": "Meta's AI app surged in popularity, climbing to No. 5 on the App Store after launching its new AI model Muse Spark.",
-    "charlotte_impact": "The rapid adoption of Meta's AI app indicates a strong consumer interest in accessible AI tools. This trend will likely drive further investment and competition in the AI-powered app market, creating opportunities for developers and businesses that leverage AI for user engagement.",
+    "industry": "Social Media & AI Applications",
+    "summary": "Meta AI app climbed to the No. 5 spot on the App Store after the launch of Muse Spark, demonstrating strong user adoption of Meta's AI-powered features. The app's ranking significantly improved after the model's release.",
+    "charlotte_impact": "Meta's app ranking jump suggests a consumer appetite for AI-powered features within existing social media platforms. It implies businesses need to integrate AI to remain competitive. This creates opportunities for AI companies and developers to partner with Meta and other social media platforms to enhance user experiences.",
     "impact_score": 7
   },
   {
     "title": "Google and Intel deepen AI infrastructure partnership",
     "url": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
-    "industry": "Technology",
-    "summary": "Google and Intel are expanding their AI infrastructure partnership to co-develop custom chips amid a global CPU shortage, highlighting the intense demand for AI-specific hardware.",
-    "charlotte_impact": "The partnership between Google and Intel signals the escalating need for specialized hardware to support AI workloads. This demand will likely boost the semiconductor industry and encourage further innovation in chip design and manufacturing, resulting in economic growth for related technology sectors.",
+    "industry": "Semiconductors & AI Infrastructure",
+    "summary": "Google and Intel are deepening their AI infrastructure partnership to co-develop custom chips, addressing the growing demand for CPUs and the ongoing global shortage. The collaboration seeks to enhance AI computing power and efficiency.",
+    "charlotte_impact": "This partnership signifies the importance of customized hardware in driving AI innovation and the benefits of collaboration between cloud providers and chip manufacturers. It's likely to impact the semiconductor industry and lead to increased investments in specialized AI chips. Such investment may help alleviate CPU shortage concerns overall.",
     "impact_score": 8
   },
   {
-    "title": "Poke makes using AI agents as easy as sending a text",
-    "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
-    "industry": "Technology",
-    "summary": "Poke aims to make AI agents more accessible by allowing users to interact with them through text messages, simplifying task automation.",
-    "charlotte_impact": "This ease of access to AI agents has the potential to boost productivity for individuals and small businesses. By removing technical barriers, platforms like Poke can democratize access to AI-powered automation, creating new business models and efficiencies across various industries.",
-    "impact_score": 8
-  },
-  {
-    "title": "OpenAI Staffers Horrified When Senior Leadership Hatched \u201cInsane\u201d Plan to Pit World Governments Against Each Other",
-    "url": "http://futurism.com/artificial-intelligence/openai-staffers-horrified-insane-plan",
-    "industry": "Technology, Government",
-    "summary": "Reports suggest OpenAI leadership considered a strategy of pitting world governments against each other in an AI arms race, raising serious ethical concerns.",
-    "charlotte_impact": "Such a plan would raise geopolitical instability and trigger an AI arms race, diverting resources and talent away from productive applications. This scenario could hinder international cooperation on AI safety standards and regulatory frameworks, potentially leading to uncontrolled AI development.",
-    "impact_score": 10
-  },
-  {
-    "title": "Research Finds That AI Has Already Replaced Work for 20 Percent of Jobs",
-    "url": "http://futurism.com/artificial-intelligence/ai-automation-replacement",
-    "industry": "Technology, Employment",
-    "summary": "Research indicates that AI has already replaced work in 20% of jobs, emphasizing the urgency for governments to address the impact of AI on the workforce.",
-    "charlotte_impact": "Increased automation and AI integration into the workplace will likely lead to workforce shifts, requiring proactive investment in retraining and upskilling programs. Businesses that adapt to the changing job landscape by embracing AI and supporting their employees through transitions will gain a competitive advantage.",
+    "title": "Strengthening the hands of agentic AI",
+    "url": "https://www.thehindubusinessline.com/specials/emerging-entrepreneurs/strengthening-the-hands-of-agentic-ai/article70855222.ece",
+    "industry": "Venture Capital & AI",
+    "summary": "Wyser Capital is investing in agentic AI startups, focusing on enterprise solutions that automate tasks and enhance operational efficiency. The firm's investment strategy targets companies that build AI systems capable of independent decision-making and action.",
+    "charlotte_impact": "Wyser Capital's focus on agentic AI highlights a growing trend towards autonomous AI systems with significant potential to transform business operations. Increased investment in this area signals a growing market for AI solutions that can automate complex processes, improve efficiency, and reduce operational costs for enterprises.",
     "impact_score": 9
   },
   {
-    "title": "Linux lays down the law on AI-generated code, yes to Copilot, no to AI slop, and humans take the fall for mistakes \u2014 after months of fierce debate, Torvalds and maintainers come to an agreement",
-    "url": "https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement",
-    "industry": "Software Development",
-    "summary": "Linux has established guidelines for AI-generated code, accepting Copilot's output but rejecting 'AI slop,' with humans ultimately responsible for any errors.",
-    "charlotte_impact": "Linux's stance on AI-generated code reflects a growing emphasis on maintaining code quality and accountability in software development. This move will likely encourage developers to use AI tools responsibly and critically evaluate AI-generated code, reducing the risk of errors and vulnerabilities in software systems.",
-    "impact_score": 8
-  },
-  {
-    "title": "Nationwide boom in AI data centers stirs resistance",
-    "url": "https://www.cbsnews.com/news/nationwide-boom-in-ai-data-centers-stirs-resistance/",
-    "industry": "Infrastructure, Technology",
-    "summary": "A surge in AI data center construction across the US is facing resistance from communities concerned about environmental and financial repercussions.",
-    "charlotte_impact": "Concerns about the environmental impact of AI data centers, including high energy consumption and water usage, could lead to stricter regulations and increased scrutiny. This may drive innovation in energy-efficient data center designs and promote the adoption of renewable energy sources, impacting the energy and real estate sectors.",
-    "impact_score": 7
-  },
-  {
-    "title": "Extended interview: Sen. Dave McCormick on AI",
-    "url": "https://www.cbsnews.com/video/extended-interview-senator-dave-mccormick-on-ai/",
-    "industry": "Government, Energy",
-    "summary": "Senator Dave McCormick discusses the connection between energy, AI growth, and the US-China rivalry in AI, highlighting the importance of nuclear power.",
-    "charlotte_impact": "The link between AI and energy security emphasizes the need for strategic investments in energy infrastructure, especially nuclear power, to support the growing demands of AI technologies. This could lead to government incentives and private sector investments in energy generation, benefitting industries involved in energy production and technology development.",
-    "impact_score": 7
-  },
-  {
-    "title": "Nationwide boom in AI data centers stirs resistance",
-    "url": "https://www.cbsnews.com/video/nationwide-boom-in-ai-data-centers-stirs-resistance/",
-    "industry": "Infrastructure, Technology",
-    "summary": "To fuel AI, tech companies are building more data centers and communities are pushing back against them due to environmental and financial reasons.",
-    "charlotte_impact": "This resistance to data center construction will likely lead to increased scrutiny of environmental impact assessments and community engagement processes. Businesses will need to prioritize sustainable data center designs and collaborate with local communities to address their concerns, potentially driving innovation in green technologies and community development.",
-    "impact_score": 7
-  },
-  {
-    "title": "TN Assembly elections: Joseph Vijay promises \u2018Citizen Privilege Card\u2019, AI-led governance in TVK roadmap",
-    "url": "https://www.thehindubusinessline.com/news/elections/tn-assembly-elections-joseph-vijay-promises-citizen-privilege-card-ai-led-governance-in-tvk-roadmap/article70854138.ece",
-    "industry": "Government",
-    "summary": "Joseph Vijay is promising AI-led governance for Tamil Nadu Elections.",
-    "charlotte_impact": "AI in governance has the potential to improve efficiency, decision-making and transparency. This requires careful planning, data protection measures, and the ability to mitigate bias. This development will affect government agencies, technology providers and citizens.",
+    "title": "From LLMs to hallucinations, here\u2019s a simple guide to common AI terms",
+    "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "industry": "AI Education & Literacy",
+    "summary": "This article provides a simple guide to common AI terms, from LLMs to hallucinations, aiming to improve understanding and accessibility of AI concepts. The glossary helps demystify AI jargon for a broader audience.",
+    "charlotte_impact": "The article highlights the need for accessible AI education to promote informed decision-making and foster wider adoption of AI technologies. Improving AI literacy can help mitigate public anxiety, encourage ethical development, and foster responsible AI innovation.",
     "impact_score": 6
   },
   {
-    "title": "Earnings Season Kicks Off With War, AI Threat Among Key Worries",
-    "url": "https://financialpost.com/pmn/business-pmn/earnings-season-kicks-off-with-war-ai-threat-among-key-worries",
-    "industry": "Financial",
-    "summary": "Earnings season kicks off with worry around war, private credit, and disruptive threat of artificial intelligence.",
-    "charlotte_impact": "Corporations need to assess and mitigate the risk of disruption through AI, as well as to leverage it for competitive advantage. This involves strategic investments, workforce development, and adaptation of business models, affecting all industries.",
+    "title": "UK regulators rushing to assess risks of latest\u00a0Anthropic\u00a0AI model: report",
+    "url": "https://nypost.com/2026/04/12/business/uk-regulators-rushing-to-assess-risks-of-latest-anthropic-ai-model-report/",
+    "industry": "Finance & AI Regulation",
+    "summary": "UK regulators are urgently assessing the risks associated with Anthropic's latest AI model, examining potential vulnerabilities in critical IT systems. The Bank of England, Financial Conduct Authority, and Treasury are involved in the evaluation.",
+    "charlotte_impact": "The UK's proactive assessment demonstrates growing regulatory focus on AI's potential impact on financial stability and cybersecurity. It suggests that financial institutions will face increasing compliance requirements regarding AI deployment. Other governments are likely to follow the UKs lead in examining AI risk.",
+    "impact_score": 9
+  },
+  {
+    "title": "White House Tells Banks to Use Anthropic to Spot Vulnerabilities",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/white-house-tells-banks-to-use-anthropic-to-spot-vulnerabilities/",
+    "industry": "Finance & AI Security",
+    "summary": "The White House is encouraging America's biggest banks to use Anthropic's Mythos AI model to identify vulnerabilities within their systems. The tests are underway as the White House promotes AI-driven security solutions.",
+    "charlotte_impact": "This initiative underscores the government's recognition of AI's potential to enhance cybersecurity in the financial sector. It will likely lead to increased adoption of AI-powered security solutions, creating opportunities for AI companies specializing in threat detection and prevention. It is part of a broad effort to use AI for good.",
+    "impact_score": 8
+  },
+  {
+    "title": "From Prompting to Governing: Metacognitive AI with the GSCP-15 Framework",
+    "url": "https://www.c-sharpcorner.com/article/from-prompting-to-governing-metacognitive-ai-with-the-gscp-15-framework/",
+    "industry": "AI Governance & Frameworks",
+    "summary": "The GSCP-15 framework for metacognitive AI governs execution, ensures traceability, and promotes continuous learning for reliable AI systems. It allows for improvements in transparency, accountability and AI risk management.",
+    "charlotte_impact": "The GSCP-15 framework helps develop robust AI systems. The industry may benefit in risk management, compliance and transparency of its systems. This is a further tool to assuage fears from the public and regulators.",
     "impact_score": 7
+  },
+  {
+    "title": "Inside Singapore's Smart Factories Gaining Global Recognition",
+    "url": "https://www.straitstimes.com/business/smart-singapore-factories-earn-global-recognition-advanced-manufacturing-edb",
+    "industry": "Manufacturing",
+    "summary": "Six smart Singapore factories are using advanced technologies to gain global recognition in manufacturing.",
+    "charlotte_impact": "The implementation of smart factories indicates how digitalization impacts manufacturing efficiencies. Other countries can model this success for the implementation of their own strategies for manufacturing excellence.",
+    "impact_score": 6
+  },
+  {
+    "title": "New award to help researchers catalyse AI-driven discovery for the public good",
+    "url": "https://www.digitaljournal.com/tech-science/new-award-to-help-researchers-catalyse-ai-driven-discovery-for-the-public-good/article",
+    "industry": "AI Research",
+    "summary": "A new award is being created to help researchers catalyse AI-driven discovery for the public good.",
+    "charlotte_impact": "The new award shows a push to help advance and improve research on AI which can lead to social benefit.",
+    "impact_score": 5
+  },
+  {
+    "title": "A Necessary Critique of Fontcuberta\u2019s Algorithmic Photography",
+    "url": "https://petapixel.com/2026/04/12/a-necessary-critique-of-fontcubertas-algorithmic-photography/",
+    "industry": "Art",
+    "summary": "A critique of Fontcuberta\u2019s Algorithmic Photography",
+    "charlotte_impact": "As the industry moves into an AI driven field, this shows the need to keep the human element in arts and photography.",
+    "impact_score": 4
   }
 ]

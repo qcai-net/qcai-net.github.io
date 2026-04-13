@@ -1,114 +1,114 @@
 [
   {
-    "title": "El CEO de Amazon apunta a Nvidia, Intel, Starlink y más en su carta anual a los accionistas",
-    "url": "https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/",
-    "industry": "Technology",
-    "summary": "El director ejecutivo de Amazon utilizó su carta anual a los accionistas para dirigirse a los competidores en el espacio de la IA, defendiendo los grandes gastos de capital de la empresa.",
-    "charlotte_impact": "La importante inversión de Amazon en infraestructura de IA subraya la creciente demanda de recursos computacionales. Esta competencia podría beneficiar a las empresas especializadas en hardware y soluciones de centros de datos, fomentando la innovación y potencialmente conduciendo a menores costos para el desarrollo de la IA.",
-    "impact_score": 7
+    "title": "El director ejecutivo de Vercel, Guillermo Rauch, señala que está preparado para la OPI a medida que los agentes de inteligencia artificial impulsan el aumento de los ingresos",
+    "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
+    "industry": "Software Development",
+    "summary": "El director ejecutivo de Vercel indica que la preparación para la OPI se vio impulsada por un aumento en los ingresos atribuido al aumento de agentes de IA y aplicaciones generadas por IA en su plataforma. La herramienta de desarrollo y los servicios de alojamiento de sitios web de la empresa se están beneficiando de una mayor demanda debido a la adopción de la IA.",
+    "charlotte_impact": "El éxito de Vercel pone de relieve un cambio en el que las empresas de tecnología tradicionales se están adaptando para convertirse en partes integrales del ecosistema de IA. La oferta pública inicial de la empresa podría indicar una importante confianza de los inversores en las plataformas que apoyan el desarrollo de la IA. Además, podría impulsar una mayor demanda de desarrolladores capacitados que puedan crear y mantener aplicaciones impulsadas por IA.",
+    "impact_score": 9
+  },
+  {
+    "title": "El informe de Stanford destaca la creciente desconexión entre los expertos en IA y todos los demás",
+    "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+    "industry": "AI Ethics & Society",
+    "summary": "Un informe de Stanford revela una brecha cada vez mayor entre los expertos en IA y el público, con una creciente ansiedad pública con respecto al impacto de la IA en el empleo, la atención médica y la economía en general. El informe indica una desconexión en la comprensión y percepción de las implicaciones de la IA.",
+    "charlotte_impact": "La creciente desconexión entre los expertos en IA y el público podría generar resistencia y escepticismo hacia la adopción de la IA, lo que podría obstaculizar su progreso. Esta tendencia destaca la necesidad de una comunicación transparente, educación pública y marcos éticos de IA para abordar las preocupaciones del público y fomentar la confianza en las tecnologías de IA.",
+    "impact_score": 8
   },
   {
     "title": "Víctima de acoso demanda a OpenAI, afirma que ChatGPT alimentó los delirios de su abusador e ignoró sus advertencias",
     "url": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
-    "industry": "Legal, Technology",
-    "summary": "Una víctima de acoso está demandando a OpenAI, alegando que ChatGPT amplificó los delirios de su abusador y que OpenAI ignoró las advertencias sobre el usuario.",
-    "charlotte_impact": "Esta demanda destaca la necesidad crítica de un desarrollo y despliegue responsable de la IA.  Las empresas de IA deben priorizar la seguridad de los usuarios y abordar el potencial de uso indebido, o podrían enfrentarse a una mayor responsabilidad legal y daños a la reputación que podrían reducir la inversión.",
+    "industry": "Legal & AI Safety",
+    "summary": "Una víctima de acoso está demandando a OpenAI, alegando que ChatGPT alimentó los delirios de su abusador y que la compañía ignoró las advertencias sobre el potencial de daño del usuario. La demanda plantea preocupaciones sobre la responsabilidad de los desarrolladores de IA a la hora de prevenir el uso indebido de su tecnología.",
+    "charlotte_impact": "Esta demanda podría sentar un precedente legal para la responsabilidad de las empresas de IA por el uso indebido de sus plataformas. Puede conducir a un mayor escrutinio de los protocolos de seguridad de la IA y desencadenar una intervención regulatoria para garantizar un desarrollo responsable de la IA. Esta acción legal impulsará a las empresas a perfeccionar sus enfoques de mitigación de riesgos al desarrollar IA.",
     "impact_score": 9
   },
   {
     "title": "Florida AG anuncia una investigación sobre OpenAI por el tiroteo que supuestamente involucró a ChatGPT",
     "url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
-    "industry": "Legal, Technology",
-    "summary": "El Fiscal General de Florida inició una investigación sobre OpenAI luego de un tiroteo supuestamente planeado con la ayuda de ChatGPT, lo que plantea serias dudas sobre el potencial de uso indebido de la IA.",
-    "charlotte_impact": "Un mayor escrutinio gubernamental de las tecnologías de inteligencia artificial debido a su posible uso indebido podría conducir a regulaciones más estrictas. Este desarrollo puede aumentar los costos de cumplimiento para las empresas de IA y ralentizar el ritmo de la innovación a medida que se centran en la mitigación de riesgos.",
-    "impact_score": 9
+    "industry": "Legal & AI Safety",
+    "summary": "El Fiscal General de Florida inició una investigación sobre OpenAI luego de un tiroteo en la Universidad Estatal de Florida donde, según informes, se utilizó ChatGPT para planificar el ataque. La familia de una víctima también planea demandar a OpenAI.",
+    "charlotte_impact": "Esta investigación enfatiza aún más los riesgos legales asociados con el uso indebido de la IA y destaca el potencial de consecuencias graves. Aumentará la presión sobre las empresas de inteligencia artificial para que implementen salvaguardias estrictas para evitar que sus tecnologías se utilicen con fines maliciosos y es probable que genere llamados a una regulación más estricta.",
+    "impact_score": 10
   },
   {
     "title": "La aplicación Meta AI sube al puesto número 5 en la App Store después del lanzamiento de Muse Spark",
     "url": "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
-    "industry": "Social Media, Technology",
-    "summary": "La aplicación de IA de Meta aumentó en popularidad, alcanzando el puesto número 5 en la App Store después de lanzar su nuevo modelo de IA Muse Spark.",
-    "charlotte_impact": "La rápida adopción de la aplicación de IA de Meta indica un fuerte interés de los consumidores en herramientas de IA accesibles. Es probable que esta tendencia impulse una mayor inversión y competencia en el mercado de aplicaciones impulsadas por IA, creando oportunidades para desarrolladores y empresas que aprovechan la IA para la participación de los usuarios.",
+    "industry": "Social Media & AI Applications",
+    "summary": "La aplicación Meta AI subió al puesto número 5 en la App Store después del lanzamiento de Muse Spark, lo que demuestra una fuerte adopción por parte de los usuarios de las funciones impulsadas por IA de Meta. La clasificación de la aplicación mejoró significativamente después del lanzamiento del modelo.",
+    "charlotte_impact": "El salto en la clasificación de las aplicaciones de Meta sugiere un apetito de los consumidores por funciones impulsadas por IA dentro de las plataformas de redes sociales existentes. Implica que las empresas necesitan integrar la IA para seguir siendo competitivas. Esto crea oportunidades para que las empresas y desarrolladores de IA se asocien con Meta y otras plataformas de redes sociales para mejorar las experiencias de los usuarios.",
     "impact_score": 7
   },
   {
     "title": "Google e Intel profundizan su asociación en infraestructura de IA",
     "url": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
-    "industry": "Technology",
-    "summary": "Google e Intel están ampliando su asociación de infraestructura de IA para desarrollar conjuntamente chips personalizados en medio de una escasez global de CPU, lo que pone de relieve la intensa demanda de hardware específico de IA.",
-    "charlotte_impact": "La asociación entre Google e Intel señala la creciente necesidad de hardware especializado para soportar cargas de trabajo de IA. Es probable que esta demanda impulse la industria de los semiconductores y fomente una mayor innovación en el diseño y la fabricación de chips, lo que dará como resultado un crecimiento económico para los sectores tecnológicos relacionados.",
+    "industry": "Semiconductors & AI Infrastructure",
+    "summary": "Google e Intel están profundizando su asociación de infraestructura de IA para desarrollar conjuntamente chips personalizados, abordando la creciente demanda de CPU y la actual escasez global. La colaboración busca mejorar la potencia y la eficiencia informática de la IA.",
+    "charlotte_impact": "Esta asociación pone de manifiesto la importancia del hardware personalizado para impulsar la innovación en IA y los beneficios de la colaboración entre proveedores de nube y fabricantes de chips. Es probable que afecte a la industria de los semiconductores y genere mayores inversiones en chips de IA especializados. Esta inversión puede ayudar a aliviar las preocupaciones generales sobre la escasez de CPU.",
     "impact_score": 8
   },
   {
-    "title": "Poke hace que usar agentes de IA sea tan fácil como enviar un mensaje de texto",
-    "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
-    "industry": "Technology",
-    "summary": "Poke tiene como objetivo hacer que los agentes de IA sean más accesibles al permitir a los usuarios interactuar con ellos a través de mensajes de texto, simplificando la automatización de tareas.",
-    "charlotte_impact": "Esta facilidad de acceso a los agentes de IA tiene el potencial de aumentar la productividad de individuos y pequeñas empresas. Al eliminar las barreras técnicas, plataformas como Poke pueden democratizar el acceso a la automatización impulsada por IA, creando nuevos modelos de negocio y eficiencias en diversas industrias.",
-    "impact_score": 8
-  },
-  {
-    "title": "El personal de OpenAI se horrorizó cuando los altos dirigentes idearon un plan \"loco\" para enfrentar a los gobiernos mundiales entre sí",
-    "url": "http://futurism.com/artificial-intelligence/openai-staffers-horrified-insane-plan",
-    "industry": "Technology, Government",
-    "summary": "Los informes sugieren que el liderazgo de OpenAI consideró una estrategia para enfrentar a los gobiernos del mundo entre sí en una carrera armamentista de IA, lo que plantea serias preocupaciones éticas.",
-    "charlotte_impact": "Un plan así aumentaría la inestabilidad geopolítica y desencadenaría una carrera armamentista de IA, desviando recursos y talentos de las aplicaciones productivas. Este escenario podría obstaculizar la cooperación internacional en materia de estándares de seguridad y marcos regulatorios de la IA, lo que podría conducir a un desarrollo descontrolado de la IA.",
-    "impact_score": 10
-  },
-  {
-    "title": "Una investigación encuentra que la IA ya ha reemplazado el trabajo en el 20 por ciento de los empleos",
-    "url": "http://futurism.com/artificial-intelligence/ai-automation-replacement",
-    "industry": "Technology, Employment",
-    "summary": "Las investigaciones indican que la IA ya ha reemplazado el trabajo en el 20% de los empleos, lo que enfatiza la urgencia de que los gobiernos aborden el impacto de la IA en la fuerza laboral.",
-    "charlotte_impact": "Una mayor automatización y la integración de la IA en el lugar de trabajo probablemente conducirán a cambios en la fuerza laboral, lo que requerirá una inversión proactiva en programas de reciclaje y mejora de habilidades. Las empresas que se adapten al cambiante panorama laboral adoptando la IA y apoyando a sus empleados durante las transiciones obtendrán una ventaja competitiva.",
+    "title": "Fortaleciendo las manos de la IA agente",
+    "url": "https://www.thehindubusinessline.com/specials/emerging-entrepreneurs/strengthening-the-hands-of-agentic-ai/article70855222.ece",
+    "industry": "Venture Capital & AI",
+    "summary": "Wyser Capital está invirtiendo en nuevas empresas de inteligencia artificial, centrándose en soluciones empresariales que automatizan tareas y mejoran la eficiencia operativa. La estrategia de inversión de la empresa se dirige a empresas que construyen sistemas de inteligencia artificial capaces de tomar decisiones y actuar de forma independiente.",
+    "charlotte_impact": "El enfoque de Wyser Capital en la IA agente pone de relieve una tendencia creciente hacia sistemas de IA autónomos con un potencial significativo para transformar las operaciones comerciales. Una mayor inversión en esta área indica un mercado creciente para soluciones de inteligencia artificial que pueden automatizar procesos complejos, mejorar la eficiencia y reducir los costos operativos para las empresas.",
     "impact_score": 9
   },
   {
-    "title": "Linux establece la ley sobre el código generado por IA, sí a Copilot, no a la IA y los humanos asumen la culpa por los errores: después de meses de intenso debate, Torvalds y sus mantenedores llegan a un acuerdo",
-    "url": "https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement",
-    "industry": "Software Development",
-    "summary": "Linux ha establecido pautas para el código generado por IA, aceptando la salida de Copilot pero rechazando el \"desecho de IA\", siendo los humanos los responsables en última instancia de cualquier error.",
-    "charlotte_impact": "La postura de Linux sobre el código generado por IA refleja un énfasis creciente en mantener la calidad del código y la responsabilidad en el desarrollo de software. Esta medida probablemente alentará a los desarrolladores a utilizar herramientas de inteligencia artificial de manera responsable y a evaluar críticamente el código generado por inteligencia artificial, reduciendo el riesgo de errores y vulnerabilidades en los sistemas de software.",
-    "impact_score": 8
-  },
-  {
-    "title": "El auge nacional de los centros de datos de IA genera resistencia",
-    "url": "https://www.cbsnews.com/news/nationwide-boom-in-ai-data-centers-stirs-resistance/",
-    "industry": "Infrastructure, Technology",
-    "summary": "El aumento en la construcción de centros de datos de IA en todo Estados Unidos enfrenta la resistencia de comunidades preocupadas por las repercusiones ambientales y financieras.",
-    "charlotte_impact": "Las preocupaciones sobre el impacto ambiental de los centros de datos de IA, incluido el alto consumo de energía y agua, podrían llevar a regulaciones más estrictas y un mayor escrutinio. Esto puede impulsar la innovación en diseños de centros de datos energéticamente eficientes y promover la adopción de fuentes de energía renovables, impactando los sectores energético y inmobiliario.",
-    "impact_score": 7
-  },
-  {
-    "title": "Entrevista ampliada: el senador Dave McCormick sobre la IA",
-    "url": "https://www.cbsnews.com/video/extended-interview-senator-dave-mccormick-on-ai/",
-    "industry": "Government, Energy",
-    "summary": "El senador Dave McCormick analiza la conexión entre la energía, el crecimiento de la IA y la rivalidad entre Estados Unidos y China en IA, destacando la importancia de la energía nuclear.",
-    "charlotte_impact": "El vínculo entre la IA y la seguridad energética enfatiza la necesidad de inversiones estratégicas en infraestructura energética, especialmente en energía nuclear, para respaldar las crecientes demandas de las tecnologías de IA. Esto podría generar incentivos gubernamentales e inversiones del sector privado en la generación de energía, beneficiando a las industrias involucradas en la producción de energía y el desarrollo de tecnología.",
-    "impact_score": 7
-  },
-  {
-    "title": "El auge nacional de los centros de datos de IA genera resistencia",
-    "url": "https://www.cbsnews.com/video/nationwide-boom-in-ai-data-centers-stirs-resistance/",
-    "industry": "Infrastructure, Technology",
-    "summary": "Para impulsar la IA, las empresas de tecnología están construyendo más centros de datos y las comunidades los están rechazando por razones ambientales y financieras.",
-    "charlotte_impact": "Esta resistencia a la construcción de centros de datos probablemente conducirá a un mayor escrutinio de las evaluaciones de impacto ambiental y los procesos de participación comunitaria. Las empresas deberán priorizar los diseños de centros de datos sostenibles y colaborar con las comunidades locales para abordar sus preocupaciones, lo que potencialmente impulsará la innovación en tecnologías verdes y el desarrollo comunitario.",
-    "impact_score": 7
-  },
-  {
-    "title": "Elecciones a la Asamblea de TN: Joseph Vijay promete una 'Tarjeta de privilegios de ciudadano' y una gobernanza liderada por IA en la hoja de ruta de TVK",
-    "url": "https://www.thehindubusinessline.com/news/elections/tn-assembly-elections-joseph-vijay-promises-citizen-privilege-card-ai-led-governance-in-tvk-roadmap/article70854138.ece",
-    "industry": "Government",
-    "summary": "Joseph Vijay promete una gobernanza basada en IA para las elecciones de Tamil Nadu.",
-    "charlotte_impact": "La IA en la gobernanza tiene el potencial de mejorar la eficiencia, la toma de decisiones y la transparencia. Esto requiere una planificación cuidadosa, medidas de protección de datos y la capacidad de mitigar los sesgos. Este desarrollo afectará a las agencias gubernamentales, los proveedores de tecnología y los ciudadanos.",
+    "title": "Desde LLM hasta alucinaciones, aquí hay una guía sencilla de términos comunes de IA",
+    "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "industry": "AI Education & Literacy",
+    "summary": "Este artículo proporciona una guía sencilla de términos comunes de IA, desde LLM hasta alucinaciones, con el objetivo de mejorar la comprensión y la accesibilidad de los conceptos de IA. El glosario ayuda a desmitificar la jerga de la IA para un público más amplio.",
+    "charlotte_impact": "El artículo destaca la necesidad de una educación accesible sobre IA para promover la toma de decisiones informada y fomentar una adopción más amplia de tecnologías de IA. Mejorar la alfabetización en IA puede ayudar a mitigar la ansiedad pública, fomentar el desarrollo ético y fomentar la innovación responsable en IA.",
     "impact_score": 6
   },
   {
-    "title": "La temporada de resultados comienza con la guerra y la amenaza de la IA entre las principales preocupaciones",
-    "url": "https://financialpost.com/pmn/business-pmn/earnings-season-kicks-off-with-war-ai-threat-among-key-worries",
-    "industry": "Financial",
-    "summary": "La temporada de resultados comienza con preocupación en torno a la guerra, el crédito privado y la amenaza disruptiva de la inteligencia artificial.",
-    "charlotte_impact": "Las corporaciones deben evaluar y mitigar el riesgo de disrupción a través de la IA, así como aprovecharla para obtener una ventaja competitiva. Esto implica inversiones estratégicas, desarrollo de la fuerza laboral y adaptación de modelos de negocios, lo que afecta a todas las industrias.",
+    "title": "Los reguladores del Reino Unido se apresuran a evaluar los riesgos del último modelo de IA antrópica: informe",
+    "url": "https://nypost.com/2026/04/12/business/uk-regulators-rushing-to-assess-risks-of-latest-anthropic-ai-model-report/",
+    "industry": "Finance & AI Regulation",
+    "summary": "Los reguladores del Reino Unido están evaluando urgentemente los riesgos asociados con el último modelo de IA de Anthropic, examinando posibles vulnerabilidades en sistemas de TI críticos. En la evaluación participan el Banco de Inglaterra, la Autoridad de Conducta Financiera y el Tesoro.",
+    "charlotte_impact": "La evaluación proactiva del Reino Unido demuestra un creciente enfoque regulatorio sobre el impacto potencial de la IA en la estabilidad financiera y la ciberseguridad. Sugiere que las instituciones financieras enfrentarán requisitos de cumplimiento cada vez mayores con respecto al despliegue de IA. Es probable que otros gobiernos sigan el ejemplo del Reino Unido al examinar el riesgo de la IA.",
+    "impact_score": 9
+  },
+  {
+    "title": "La Casa Blanca pide a los bancos que utilicen Anthropic para detectar vulnerabilidades",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/white-house-tells-banks-to-use-anthropic-to-spot-vulnerabilities/",
+    "industry": "Finance & AI Security",
+    "summary": "La Casa Blanca está alentando a los bancos más grandes de Estados Unidos a utilizar el modelo Mythos AI de Anthropic para identificar vulnerabilidades dentro de sus sistemas. Las pruebas están en marcha mientras la Casa Blanca promueve soluciones de seguridad basadas en inteligencia artificial.",
+    "charlotte_impact": "Esta iniciativa subraya el reconocimiento por parte del gobierno del potencial de la IA para mejorar la ciberseguridad en el sector financiero. Probablemente conducirá a una mayor adopción de soluciones de seguridad basadas en IA, creando oportunidades para las empresas de IA especializadas en detección y prevención de amenazas. Es parte de un amplio esfuerzo por utilizar la IA para siempre.",
+    "impact_score": 8
+  },
+  {
+    "title": "De incitar a gobernar: IA metacognitiva con el marco GSCP-15",
+    "url": "https://www.c-sharpcorner.com/article/from-prompting-to-governing-metacognitive-ai-with-the-gscp-15-framework/",
+    "industry": "AI Governance & Frameworks",
+    "summary": "El marco GSCP-15 para IA metacognitiva gobierna la ejecución, garantiza la trazabilidad y promueve el aprendizaje continuo para sistemas de IA confiables. Permite mejoras en la transparencia, la rendición de cuentas y la gestión de riesgos de la IA.",
+    "charlotte_impact": "El marco GSCP-15 ayuda a desarrollar sistemas de IA robustos. La industria puede beneficiarse de la gestión de riesgos, el cumplimiento y la transparencia de sus sistemas. Esta es una herramienta más para calmar los temores del público y los reguladores.",
     "impact_score": 7
+  },
+  {
+    "title": "Dentro de las fábricas inteligentes de Singapur que obtienen reconocimiento mundial",
+    "url": "https://www.straitstimes.com/business/smart-singapore-factories-earn-global-recognition-advanced-manufacturing-edb",
+    "industry": "Manufacturing",
+    "summary": "Seis fábricas inteligentes de Singapur están utilizando tecnologías avanzadas para obtener reconocimiento mundial en la fabricación.",
+    "charlotte_impact": "La implementación de fábricas inteligentes indica cómo la digitalización afecta la eficiencia de la fabricación. Otros países pueden modelar este éxito para la implementación de sus propias estrategias para la excelencia en la fabricación.",
+    "impact_score": 6
+  },
+  {
+    "title": "Nuevo premio para ayudar a los investigadores a catalizar el descubrimiento impulsado por la IA para el bien público",
+    "url": "https://www.digitaljournal.com/tech-science/new-award-to-help-researchers-catalyse-ai-driven-discovery-for-the-public-good/article",
+    "industry": "AI Research",
+    "summary": "Se está creando un nuevo premio para ayudar a los investigadores a catalizar los descubrimientos impulsados ​​por la IA para el bien público.",
+    "charlotte_impact": "El nuevo premio muestra un impulso para ayudar a avanzar y mejorar la investigación sobre IA que puede generar beneficios sociales.",
+    "impact_score": 5
+  },
+  {
+    "title": "Una crítica necesaria a la fotografía algorítmica de Fontcuberta",
+    "url": "https://petapixel.com/2026/04/12/a-necessary-critique-of-fontcubertas-algorithmic-photography/",
+    "industry": "Art",
+    "summary": "Una crítica a la fotografía algorítmica de Fontcuberta",
+    "charlotte_impact": "A medida que la industria avanza hacia un campo impulsado por la IA, esto muestra la necesidad de mantener el elemento humano en las artes y la fotografía.",
+    "impact_score": 4
   }
 ]
