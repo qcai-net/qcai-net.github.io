@@ -3,152 +3,136 @@
     "title": "OpenAI ha comprado la startup de finanzas personales de IA Hiro",
     "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
     "industry": "Finance",
-    "summary": "OpenAI adquirió Hiro, una startup de finanzas personales de IA, lo que indica su ambición de integrar capacidades de planificación financiera directamente en ChatGPT. Esta adquisición destaca el potencial de la IA para democratizar el asesoramiento financiero y automatizar tareas complejas.",
-    "charlotte_impact": "Esta adquisición podría alterar los modelos tradicionales de asesoramiento financiero. Presenta oportunidades para que las empresas de tecnología financiera aprovechen la IA para productos y servicios financieros personalizados. Es posible que las instituciones financieras tradicionales necesiten adaptarse e incorporar IA para seguir siendo competitivas. El impacto incluye el posible desplazamiento de algunos asesores financieros, pero también la creación de nuevos roles en el desarrollo de productos financieros y atención al cliente impulsados ​​por IA.",
-    "impact_score": 9
+    "summary": "OpenAI adquirió Hiro, una startup de finanzas personales de IA, lo que indica su intención de integrar capacidades de planificación financiera directamente en ChatGPT.",
+    "charlotte_impact": "Esta adquisición podría alterar significativamente la industria fintech al ofrecer herramientas de gestión y asesoramiento financiero personal basadas en inteligencia artificial a un público más amplio. Proporciona a OpenAI un canal directo para monetizar los servicios de IA y potencialmente desafiar a las instituciones financieras establecidas.",
+    "impact_score": 8
+  },
+  {
+    "title": "Nvidia lanza modelos de IA de código abierto 'Ising' para abordar los cuellos de botella de la computación cuántica",
+    "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/nvidia-launches-open-source-ising-ai-models-to-tackle-quantum-computing-bottlenecks/articleshow/130262447.cms",
+    "industry": "Quantum Computing",
+    "summary": "Nvidia lanzó modelos de IA de código abierto 'Ising' para abordar los cuellos de botella de estabilidad en la computación cuántica, con el objetivo de facilitar el desarrollo de aplicaciones cuánticas del mundo real.",
+    "charlotte_impact": "La iniciativa de código abierto de Nvidia podría acelerar el progreso de la computación cuántica al proporcionar a los desarrolladores herramientas esenciales para superar las limitaciones del hardware. Esto podría conducir a avances en campos como el descubrimiento de fármacos, la ciencia de materiales y la criptografía.",
+    "impact_score": 7
+  },
+  {
+    "title": "El ascenso de Anthropic está dando dudas a algunos inversores de OpenAI",
+    "url": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
+    "industry": "Venture Capital",
+    "summary": "La creciente prominencia de Anthropic está provocando que algunos inversores de OpenAI reconsideren sus inversiones, ya que la valoración de Anthropic parece más atractiva en comparación con la valoración de IPO proyectada de OpenAI.",
+    "charlotte_impact": "Esto indica una mayor competencia en el espacio de la IA generativa, lo que podría reducir las valoraciones y aumentar la presión sobre las empresas para que demuestren un fuerte crecimiento de los ingresos y la rentabilidad. Señala un posible cambio en el sentimiento de los inversores hacia empresas con valoraciones más razonables y caminos claros hacia la monetización.",
+    "impact_score": 6
   },
   {
     "title": "El director ejecutivo de Vercel, Guillermo Rauch, señala que está preparado para la OPI a medida que los agentes de inteligencia artificial impulsan el aumento de los ingresos",
     "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
-    "industry": "Web Development",
-    "summary": "El director ejecutivo de Vercel, Guillermo Rauch, indicó que está preparado para la OPI a medida que la compañía experimenta un crecimiento de ingresos impulsado por agentes de IA y aplicaciones generadas por IA. Esto demuestra una clara demanda del mercado de plataformas que respalden el desarrollo web impulsado por IA.",
-    "charlotte_impact": "El éxito de Vercel subraya la creciente demanda de herramientas de desarrollo web impulsadas por IA. Esto puede reducir significativamente el tiempo y los costos de desarrollo para las empresas, permitiéndoles implementar rápidamente aplicaciones y servicios basados ​​en IA. Esta tendencia tiene implicaciones para las agencias de desarrollo web, ya que les exige adoptar y dominar herramientas de inteligencia artificial para seguir siendo competitivas. La salida a bolsa de una empresa como Vercel puede incentivar mayores inversiones en plataformas de desarrollo web centradas en la IA.",
-    "impact_score": 8
+    "industry": "Software Development",
+    "summary": "El director ejecutivo de Vercel indica que está preparado para la OPI, citando un aumento en los ingresos impulsado por la proliferación de agentes y aplicaciones de inteligencia artificial creados en su plataforma.",
+    "charlotte_impact": "El éxito de Vercel subraya la creciente demanda de infraestructura y herramientas que admitan aplicaciones impulsadas por IA. Destaca el potencial de crecimiento significativo en las industrias de desarrollo de software y computación en la nube a medida que la IA se vuelve más generalizada.",
+    "impact_score": 7
   },
   {
     "title": "Google agrega AI Skills a Chrome para ayudarlo a guardar sus flujos de trabajo favoritos",
     "url": "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/",
     "industry": "Software",
-    "summary": "Google está introduciendo \"Habilidades\" en Chrome, lo que permite a los usuarios guardar y reutilizar indicaciones de IA (con tecnología de Gemini) en diferentes sitios web. Esto agiliza los flujos de trabajo y mejora la experiencia del usuario al integrar la IA más profundamente en las actividades de navegación diarias.",
-    "charlotte_impact": "La integración de habilidades de IA en Chrome puede mejorar significativamente la productividad en diversas industrias. Al permitir a los usuarios guardar y reutilizar indicaciones de IA, Google reduce la fricción del uso de herramientas de IA, haciéndolas más accesibles para una audiencia más amplia. Es probable que esta característica impulse la adopción de la IA en los flujos de trabajo cotidianos, lo que afectará la forma en que operan las empresas y las personas realizan tareas en línea.",
-    "impact_score": 7
+    "summary": "Google está integrando AI 'Skills' en Chrome, lo que permite a los usuarios guardar y reutilizar indicaciones de AI en diferentes sitios web, mejorando la funcionalidad del navegador y la experiencia del usuario.",
+    "charlotte_impact": "Esta integración permitirá a los usuarios optimizar sus flujos de trabajo y aprovechar la IA para diversas tareas directamente desde su navegador. Fomentará una mayor adopción e integración de la IA en diferentes actividades en línea.",
+    "impact_score": 6
   },
   {
-    "title": "El informe de Stanford destaca la creciente desconexión entre los expertos en IA y todos los demás",
-    "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
-    "industry": "Society",
-    "summary": "Un informe de Stanford revela una creciente desconexión entre los expertos en IA y el público en general, con una creciente ansiedad sobre la seguridad laboral, el acceso a la atención médica y el impacto económico de la IA. Esto pone de relieve la necesidad de una mejor comunicación y educación en torno a la IA.",
-    "charlotte_impact": "Este informe subraya la necesidad de adoptar medidas proactivas para abordar las preocupaciones del público sobre la IA. Esto incluye programas de desarrollo de la fuerza laboral para dotar a las personas de las habilidades necesarias para adaptarse a los cambios impulsados ​​por la IA. Los foros abiertos y las iniciativas educativas son cruciales para cerrar la brecha de conocimiento y aliviar las ansiedades sobre el futuro del trabajo y el impacto social más amplio de la IA.",
-    "impact_score": 7
+    "title": "Tras la venta de su negocio de calzado, Allbirds pasa a la IA",
+    "url": "https://techcrunch.com/2026/04/15/after-sale-of-its-shoe-business-allbirds-pivots-to-ai/",
+    "industry": "Consumer Goods",
+    "summary": "Allbirds, la empresa de calzado, está cambiando a la IA y cambiando su nombre a NewBird AI después de conseguir 50 millones de dólares en financiación convertible.",
+    "charlotte_impact": "Se trata de una decisión muy drástica e inusual, que marca un cambio total de estrategia. Allbirds espera aprovechar sus recursos y el reconocimiento de su marca para capitalizar el floreciente mercado de la IA. Esta medida representa un riesgo importante, pero también una gran recompensa potencial si la empresa puede realizar una transición exitosa de su modelo de negocio.",
+    "impact_score": 5
   },
   {
-    "title": "Víctima de acoso demanda a OpenAI, afirma que ChatGPT alimentó los delirios de su abusador e ignoró sus advertencias",
-    "url": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
-    "industry": "Law & Ethics",
-    "summary": "Una víctima de acoso está demandando a OpenAI, alegando que ChatGPT alimentó los delirios de su abusador y que OpenAI ignoró las advertencias sobre el comportamiento peligroso del usuario. Esto plantea serias dudas sobre las responsabilidades éticas de los desarrolladores de IA y la posibilidad de que la IA se utilice indebidamente con fines dañinos.",
-    "charlotte_impact": "Esta demanda destaca la necesidad crucial de medidas de seguridad sólidas y directrices éticas en el desarrollo de la IA. Podría conducir a regulaciones más estrictas sobre las plataformas de inteligencia artificial para evitar el uso indebido y proteger a las personas vulnerables. Es posible que los desarrolladores de IA necesiten implementar sistemas de monitoreo y protocolos de respuesta más sofisticados para abordar amenazas potenciales y garantizar la seguridad del usuario, lo que afectará los costos y puede afectar la velocidad de las nuevas funciones.",
-    "impact_score": 9
-  },
-  {
-    "title": "Investcorp AI Acquisition Corp. se combinará con Blue Finance Technology Holding Limited; Transacción para crear una empresa pública irlandesa centrada en la financiación del consumo digital impulsada por inteligencia artificial",
-    "url": "https://www.globenewswire.com/news-release/2026/04/13/3272886/0/en/Investcorp-AI-Acquisition-Corp-to-Combine-with-Blue-Finance-Technology-Holding-Limited-Transaction-to-Create-Irish-Public-Company-Focused-on-Artificial-Intelligence-Powered-Digital.html",
-    "industry": "Finance",
-    "summary": "Investcorp AI Acquisition Corp. se fusionará con Blue Finance Technology Holding Limited para crear una nueva empresa pública irlandesa centrada en la financiación del consumo digital impulsada por IA. Esta transacción sugiere la confianza de los inversores en el potencial de crecimiento de la IA dentro del sector de financiación al consumo.",
-    "charlotte_impact": "La creación de una empresa que cotiza en bolsa centrada en la financiación al consumo impulsada por la inteligencia artificial indica un creciente apetito de los inversores en este espacio. Esta afluencia de capital probablemente impulsará la innovación en áreas como la suscripción de préstamos impulsada por inteligencia artificial, la detección de fraudes y los productos financieros personalizados. Esto también puede estimular una mayor competencia entre las empresas de tecnología financiera, empujándolas a mejorar sus capacidades de inteligencia artificial para atraer inversiones y participación de mercado.",
+    "title": "El nuevo asistente Firefly AI de Adobe puede usar aplicaciones Creative Cloud para completar tareas",
+    "url": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/",
+    "industry": "Creative Software",
+    "summary": "Adobe presentó su nuevo asistente Firefly AI, diseñado para funcionar en aplicaciones Creative Cloud para automatizar y simplificar tareas creativas.",
+    "charlotte_impact": "Esta mejora aumenta la productividad de los profesionales creativos, haciendo que el conjunto de herramientas de Adobe sea más potente y fácil de usar. También subraya la creciente importancia de la IA en los flujos de trabajo creativos, lo que podría influir en otros desarrolladores de software para que integren funciones de IA similares.",
     "impact_score": 7
   },
   {
     "title": "Science Corp. de Max Hodak se prepara para colocar su primer sensor en un cerebro humano",
     "url": "https://techcrunch.com/2026/04/14/max-hodaks-science-corp-is-preparing-to-place-its-first-sensor-in-a-human-brain/",
     "industry": "Healthcare",
-    "summary": "Science Corp. de Max Hodak se está preparando para implantar su primer sensor en un cerebro humano, ofreciendo potencialmente nuevos tratamientos para afecciones neurológicas mediante estimulación eléctrica. Esto representa un importante paso adelante en el desarrollo de dispositivos médicos integrados en IA.",
-    "charlotte_impact": "La implementación exitosa de este sensor cerebral podría revolucionar las opciones de tratamiento para una amplia gama de trastornos neurológicos, creando potencialmente un nuevo mercado para dispositivos médicos impulsados ​​por IA. Esto podría conducir a una mayor inversión en neurotecnología y estimular la investigación y el desarrollo de interfaces cerebro-computadora y terapias basadas en inteligencia artificial.",
+    "summary": "Science Corp. de Max Hodak se está preparando para implantar su primer sensor en un cerebro humano para abordar afecciones neurológicas mediante estimulación eléctrica.",
+    "charlotte_impact": "La implementación exitosa de esta tecnología podría revolucionar el tratamiento de los trastornos neurológicos. Esto representa un avance significativo en neurotecnología, con potencial para mejorar la vida de pacientes con diversas lesiones cerebrales y de médula espinal.",
+    "impact_score": 9
+  },
+  {
+    "title": "Amazon lanza una herramienta de investigación de inteligencia artificial para acelerar el descubrimiento de fármacos en etapas iniciales",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/amazon-launches-ai-research-tool-to-speed-early-stage-drug-discovery/articleshow/130262132.cms",
+    "industry": "Pharmaceuticals",
+    "summary": "Amazon lanzó Amazon Bio Discovery, una herramienta de inteligencia artificial diseñada para acelerar el descubrimiento de fármacos en etapas iniciales al simplificar flujos de trabajo computacionales complejos para los científicos.",
+    "charlotte_impact": "Este lanzamiento podría reducir significativamente el tiempo y el costo asociados con el desarrollo de fármacos, lo que conduciría a una innovación más rápida en la industria farmacéutica. Permite que los equipos de investigación más pequeños compitan con empresas más grandes al brindarles acceso a capacidades avanzadas de inteligencia artificial.",
     "impact_score": 8
   },
   {
-    "title": "Desde LLM hasta alucinaciones, aquí hay una guía sencilla de términos comunes de IA",
-    "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-    "industry": "Education",
-    "summary": "TechCrunch proporcionó un glosario de términos comunes de IA. Esto habla de la creciente necesidad de educación pública sobre la IA a medida que se vuelve más frecuente en la vida cotidiana.",
-    "charlotte_impact": "A medida que la IA se integra más en la vida diaria, la educación pública sobre sus capacidades y limitaciones se vuelve cada vez más crucial. Este glosario contribuye a cerrar la brecha de conocimiento y fomentar una comprensión más informada de la IA entre el público en general. Los recursos fáciles de entender son esenciales para promover la adopción responsable de la IA y mitigar posibles interpretaciones erróneas o ansiedades.",
-    "impact_score": 6
-  },
-  {
-    "title": "El FBI allana en Texas la casa del hombre sospechoso de bombardear la mansión de Sam Altman en San Francisco",
-    "url": "https://yro.slashdot.org/story/26/04/13/2037240/fbi-raids-texas-home-of-man-suspected-of-firebombing-sam-altmans-sf-mansion",
-    "industry": "Society",
-    "summary": "El FBI allanó la casa de un hombre sospechoso de haber lanzado una bomba incendiaria a la residencia de Sam Altman y haber amenazado contra OpenAI. Este incidente extremo subraya las fuertes reacciones y la posible reacción contra el desarrollo de la IA por parte de ciertos individuos.",
-    "charlotte_impact": "Este incidente resalta el potencial de reacciones extremas al desarrollo de la IA, lo que subraya la necesidad de una comunicación proactiva y un compromiso con el público. Abordar las preocupaciones y promover un diálogo transparente sobre el impacto social de la IA puede ayudar a mitigar los sentimientos negativos y prevenir incidentes similares. También es posible que sea necesario mejorar las medidas de seguridad para los líderes y las instalaciones de IA para garantizar su seguridad.",
-    "impact_score": 7
-  },
-  {
-    "title": "Se advierte a Meta que las gafas de reconocimiento facial armarán a los depredadores sexuales",
-    "url": "https://yro.slashdot.org/story/26/04/13/1930253/meta-is-warned-that-facial-recognition-glasses-will-arm-sexual-predators",
-    "industry": "Ethics & Privacy",
-    "summary": "Los grupos de libertades civiles advierten que los depredadores sexuales podrían explotar las gafas de reconocimiento facial de Meta. Esto genera serias preocupaciones sobre violaciones de la privacidad y el potencial de uso indebido de tecnologías avanzadas impulsadas por IA.",
-    "charlotte_impact": "Las preocupaciones en torno a las gafas de reconocimiento facial de Meta resaltan el potencial de uso indebido de las tecnologías de vigilancia impulsadas por IA. Esto puede conducir a un mayor escrutinio regulatorio de dichos productos y a un mayor énfasis en las salvaguardas de la privacidad. Esta situación refuerza la necesidad de que los desarrolladores de IA consideren cuidadosamente las implicaciones éticas de sus tecnologías y prioricen la privacidad y seguridad del usuario.",
+    "title": "Amazon lanza una herramienta de investigación de inteligencia artificial para acelerar el descubrimiento de fármacos en etapas iniciales",
+    "url": "https://www.channelnewsasia.com/business/amazon-launches-ai-research-tool-speed-early-stage-drug-discovery-6056196",
+    "industry": "Pharmaceuticals",
+    "summary": "Amazon lanzó Amazon Bio Discovery, una herramienta de inteligencia artificial diseñada para acelerar el descubrimiento de fármacos en etapas iniciales al simplificar flujos de trabajo computacionales complejos para los científicos.",
+    "charlotte_impact": "Este lanzamiento podría reducir significativamente el tiempo y el costo asociados con el desarrollo de fármacos, lo que conduciría a una innovación más rápida en la industria farmacéutica. Permite que los equipos de investigación más pequeños compitan con empresas más grandes al brindarles acceso a capacidades avanzadas de inteligencia artificial.",
     "impact_score": 8
   },
   {
-    "title": "El hombre acusado del ataque con cócteles molotov a la casa de Sam Altman se oponía a la IA, según documentos judiciales",
-    "url": "https://www.nbcnews.com/tech/tech-news/man-accused-molotov-cocktail-attack-sam-altmans-home-opposed-ai-court-rcna331610",
-    "industry": "Society",
-    "summary": "El hombre acusado de atacar la casa de Sam Altman se opuso a AI. Esto pone de relieve un creciente sentimiento anti-IA entre ciertos segmentos de la población.",
-    "charlotte_impact": "Este incidente apunta a la posibilidad de una creciente resistencia al desarrollo de la IA por parte de ciertos segmentos de la población. Esta resistencia puede deberse a preocupaciones sobre el desplazamiento de puestos de trabajo, implicaciones éticas o una desconfianza generalizada hacia la tecnología. Abordar estas preocupaciones a través de la comunicación abierta, la educación y el desarrollo responsable de la IA es crucial para fomentar una aceptación pública más amplia.",
+    "title": "La estafa Pushpaganda impulsada por IA aprovecha Google Discover para difundir scareware y fraude publicitario",
+    "url": "https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html",
+    "industry": "Cybersecurity",
+    "summary": "Una nueva estafa 'Pushpaganda' impulsada por IA está explotando Google Discover utilizando envenenamiento de SEO y contenido generado por IA para difundir scareware y fraude publicitario.",
+    "charlotte_impact": "Esto pone de relieve la creciente amenaza de los ciberataques impulsados ​​por la IA y la necesidad de mejorar las medidas de ciberseguridad. El fraude publicitario puede afectar significativamente a las empresas que dependen de la publicidad en línea, al desviar el tráfico y los ingresos publicitarios.",
+    "impact_score": 9
+  },
+  {
+    "title": "Kevin Warsh, elegido presidente de la Fed de Trump, revela participaciones en la plataforma de desarrollo SpaceX, Polymarket y Ethereum",
+    "url": "https://cryptobriefing.com/kevin-warsh-investments-crypto-spacex-polymarket/",
+    "industry": "Finance/Government",
+    "summary": "El posible candidato a presidente de la Fed por parte de Trump, Kevin Warsh, revela participaciones en SpaceX, Polymarket y una plataforma de desarrollo de Ethereum, lo que sugiere un posible cambio en la política de la Fed.",
+    "charlotte_impact": "Las diversas inversiones de Warsh, particularmente en criptomonedas y tecnologías emergentes, sugieren un entorno regulatorio potencialmente más indulgente para estas industrias en caso de que sea nombrado. Este desarrollo podría estimular un mayor crecimiento en los sectores de tecnología espacial y blockchain.",
     "impact_score": 6
   },
   {
-    "title": "La NASA otorga un contrato de soporte informático y de ingeniería de datos",
-    "url": "https://www.nasa.gov/news-release/nasa-awards-data-engineering-informatics-support-contract/",
-    "industry": "Aerospace",
-    "summary": "La NASA otorgó un contrato de soporte informático y de ingeniería de datos a Development Seed, lo que indica la inversión continua de la agencia en inteligencia artificial y soluciones basadas en datos para la exploración e investigación espaciales.",
-    "charlotte_impact": "Este contrato demuestra el compromiso continuo de la NASA de aprovechar la inteligencia artificial y la ciencia de datos para avanzar en la exploración e investigación espaciales. Es probable que esta inversión estimule la innovación en áreas como el análisis de datos impulsado por IA, el modelado predictivo y los sistemas autónomos para misiones espaciales. Estos avances podrían tener aplicaciones más amplias en otras industrias, como la aeroespacial, la manufacturera y la robótica.",
+    "title": "Oracle salta por segundo día, Bloom Energy se dispara un 20% en el acuerdo de energía del centro de datos de IA",
+    "url": "https://www.cnbc.com/2026/04/14/oracle-orcl-bloom-energy-be-stock-data-center-ai-power.html",
+    "industry": "Energy/Technology",
+    "summary": "Las acciones de Oracle subieron a medida que las acciones de software se recuperaron, y Bloom Energy se disparó un 20% tras un acuerdo de energía para un centro de datos de IA.",
+    "charlotte_impact": "El acuerdo sobre energía del centro de datos de IA demuestra la creciente demanda de soluciones energéticas para respaldar la infraestructura de IA en expansión. La expansión de Oracle en los servicios de nube e inteligencia artificial señala una creciente necesidad de centros de datos especializados y suministros de energía más eficientes.",
+    "impact_score": 7
+  },
+  {
+    "title": "Bull y Equal1 forman una alianza estratégica para acelerar la integración híbrida Quantum-HPC en Europa",
+    "url": "https://www.globenewswire.com/news-release/2026/04/14/3273629/0/en/Bull-and-Equal1-Form-Strategic-Alliance-to-Accelerate-Hybrid-Quantum-HPC-Integration-in-Europe.html",
+    "industry": "Quantum Computing",
+    "summary": "Bull y Equal1 formaron una alianza estratégica para acelerar la integración de la HPC cuántica híbrida en Europa.",
+    "charlotte_impact": "Esta asociación indica el creciente énfasis en combinar la computación clásica y cuántica para aplicaciones avanzadas. Podría impulsar el crecimiento de los esfuerzos de investigación y desarrollo cuántico en Europa, convirtiéndola en un actor más competitivo en el panorama de la tecnología cuántica.",
     "impact_score": 6
   },
   {
-    "title": "¿Sobrecarga de ChatGPT? El 54% de los estadounidenses están cansados ​​de oír hablar de IA",
-    "url": "https://me.pcmag.com/en/ai/36548/chatgpt-overload-54-of-americans-are-tired-of-hearing-about-ai",
-    "industry": "Society",
-    "summary": "Una encuesta de PCMag revela que el 54% de los estadounidenses están cansados ​​de oír hablar de la IA, lo que indica una posible \"fatiga de la IA\" y la necesidad de una cobertura y comunicación más equilibrada sobre el impacto de la IA.",
-    "charlotte_impact": "La encuesta sugiere que el público está experimentando \"fatiga de la IA\", lo que indica la necesidad de una conversación más matizada y equilibrada sobre la IA. Esto resalta la importancia de comunicar los beneficios de la IA de una manera práctica y relacionable. Las empresas deben centrarse en demostrar cómo la IA puede resolver problemas del mundo real y mejorar la vida de las personas, en lugar de simplemente exagerar sus capacidades.",
+    "title": "Las Fuerzas de Defensa entre los organismos estatales que monitorean la Dark Web en busca de amenazas cibernéticas",
+    "url": "https://www.independent.ie/irish-news/defence-forces-among-state-bodies-monitoring-dark-web-for-cyber-threats/a344309322.html",
+    "industry": "Cybersecurity",
+    "summary": "Las Fuerzas de Defensa y el Centro Nacional de Seguridad Cibernética (NCSC) están monitoreando la Dark Web en busca de amenazas a la seguridad cibernética contra el Estado, discutidas en el Comité de IA de Oireachtas.",
+    "charlotte_impact": "Esto enfatiza la importancia de la seguridad nacional y la necesidad de medidas sólidas de ciberseguridad para protegerse contra posibles amenazas. Destaca el papel cada vez más importante de la IA en las operaciones de ciberseguridad tanto ofensivas como defensivas.",
     "impact_score": 7
   },
   {
-    "title": "¿Sobrecarga de ChatGPT? El 54% de los estadounidenses están cansados ​​de oír hablar de IA",
-    "url": "https://uk.pcmag.com/ai/164392/chatgpt-overload-54-of-americans-are-tired-of-hearing-about-ai",
-    "industry": "Society",
-    "summary": "Una encuesta de PCMag revela que el 54% de los estadounidenses están cansados ​​de oír hablar de la IA, lo que indica una posible \"fatiga de la IA\" y la necesidad de una cobertura y comunicación más equilibrada sobre el impacto de la IA.",
-    "charlotte_impact": "La encuesta sugiere que el público está experimentando \"fatiga de la IA\", lo que indica la necesidad de una conversación más matizada y equilibrada sobre la IA. Esto resalta la importancia de comunicar los beneficios de la IA de una manera práctica y relacionable. Las empresas deben centrarse en demostrar cómo la IA puede resolver problemas del mundo real y mejorar la vida de las personas, en lugar de simplemente exagerar sus capacidades.",
+    "title": "Las Fuerzas de Defensa y la ESB entre los organismos estatales que monitorean la Dark Web en busca de amenazas cibernéticas",
+    "url": "https://www.independent.ie/irish-news/defence-forces-and-esb-among-state-bodies-monitoring-dark-web-for-cyber-threats/a344309322.html",
+    "industry": "Cybersecurity",
+    "summary": "Las Fuerzas de Defensa y la ESB (Junta de Suministro de Electricidad) entre los organismos estatales que monitorean la Dark Web en busca de amenazas cibernéticas.",
+    "charlotte_impact": "Esto refuerza el reconocimiento de la Dark Web como una fuente importante de amenazas cibernéticas dirigidas a infraestructuras críticas, que requieren un monitoreo constante y medidas defensivas.",
     "impact_score": 7
   },
   {
-    "title": "Claude está empeorando, según Claude",
-    "url": "https://www.theregister.com/2026/04/13/claude_outage_quality_complaints/",
-    "industry": "Software",
-    "summary": "Según se informa, Claude de Anthropic está experimentando problemas de calidad e interrupciones breves, lo que genera preocupaciones sobre la confiabilidad y consistencia de los servicios impulsados ​​por IA. Esto demuestra que incluso los modelos líderes de IA no están exentos de desafíos.",
-    "charlotte_impact": "Los problemas informados con Claude sirven como recordatorio de que los modelos de IA no son infalibles y requieren mantenimiento y mejora continuos. Esto resalta la importancia de medidas sólidas de control de calidad y monitoreo continuo para garantizar la confiabilidad de los servicios impulsados ​​por IA. Las empresas deben ser conscientes de las posibles limitaciones e implementar sistemas de respaldo para mitigar las interrupciones.",
-    "impact_score": 6
-  },
-  {
-    "title": "Rezolve Ai organizará una llamada para inversores: el caso de más de 700 millones de dólares para combinarse con Commerce.com",
-    "url": "https://www.globenewswire.com/news-release/2026/04/13/3272910/0/en/Rezolve-Ai-to-Host-Investor-Call-The-700M-Case-for-Combining-with-Commerce-com.html",
-    "industry": "E-Commerce",
-    "summary": "Rezolve Ai está organizando una llamada a inversores para analizar su combinación de más de 700 millones de dólares con Commerce.com, lo que indica un importante potencial de inversión y crecimiento en el espacio de infraestructura comercial impulsado por IA.",
-    "charlotte_impact": "Esta fusión resalta la creciente importancia de la IA en la infraestructura del comercio electrónico. La entidad combinada probablemente se centrará en el desarrollo de soluciones basadas en inteligencia artificial para mejorar la experiencia de compra en línea, mejorar la personalización y optimizar las tasas de conversión. Esta transacción es una señal de que es posible que se realicen más inversiones en inteligencia artificial para el comercio electrónico.",
-    "impact_score": 7
-  },
-  {
-    "title": "Arena da Baixada acogió el domingo (12) la primera prueba semiautomática de fuera de juego",
-    "url": "https://onefootball.com/en/news/arena-da-baixada-hosted-first-semi-automated-offside-test-on-sunday-12-42706632",
-    "industry": "Sports",
-    "summary": "Arena da Baixada acogió la primera prueba de fuera de juego semiautomática, destacando la creciente adopción de la inteligencia artificial y la tecnología en los deportes para mejorar la precisión y la equidad.",
-    "charlotte_impact": "Este caso de prueba es otro más en una larga lista de mayor utilización de la IA en los deportes. Los beneficios son obvios y la tecnología se seguirá introduciendo.",
-    "impact_score": 4
-  },
-  {
-    "title": "Afirmaciones de CogniSurge evaluadas: la fórmula de apoyo al combustible de la memoria para la salud del cerebro por NutraVille",
-    "url": "https://www.globenewswire.com/news-release/2026/04/13/3272907/0/en/CogniSurge-Claims-Evaluated-The-Memory-Fuel-Support-Formula-for-Brain-Health-by-NutraVille.html",
-    "industry": "Health",
-    "summary": "Se evaluaron las afirmaciones sobre la salud cerebral de CogniSurge, se examinó el posicionamiento del glucocáliz y el contexto de investigación de ingredientes para adultos que exploran el apoyo a la memoria en 2026.",
-    "charlotte_impact": "Con un aumento en los productos que afirman abordar la salud del cerebro y la memoria, la mayor evaluación de estos productos indica un enfoque regulatorio.",
-    "impact_score": 5
-  },
-  {
-    "title": "'Precisión sobre volumen': he aquí por qué los profesionales de alto valor utilizan la IA para trabajar más lento, no más rápido",
-    "url": "https://www.techradar.com/pro/accuracy-over-volume-heres-why-high-value-pros-are-using-ai-to-work-slower-not-faster",
-    "industry": "Productivity",
-    "summary": "Los profesionales con altos ingresos están utilizando la IA para trabajar más lento y centrarse en la precisión por encima del volumen, lo que refleja un cambio hacia la validación asistida por IA y la prevención de errores en tareas de alto valor.",
-    "charlotte_impact": "Esto ilustra el sentimiento creciente de los profesionales que recurren a la IA para agregar mayor calidad y validación en el lugar de trabajo en lugar de apuntar simplemente a aumentar la velocidad general.",
-    "impact_score": 7
+    "title": "De la nube a la IA agente: por qué la seguridad debe evolucionar más rápido que la innovación",
+    "url": "https://www.techradar.com/pro/from-cloud-to-agentic-ai-why-security-must-evolve-faster-than-innovation",
+    "industry": "Cybersecurity",
+    "summary": "Un artículo en TechRadar sostiene que la seguridad debe evolucionar más rápido que la innovación a medida que pasamos de la computación en la nube a la IA agente para protegernos de las vulnerabilidades.",
+    "charlotte_impact": "A medida que los sistemas de IA se vuelven más autónomos, también se vuelven más complejos y pueden causar más daño si se abusa de ellos. La innovación en IA debe incluir salvaguardas más proactivas para proteger contra posibles amenazas a la seguridad.",
+    "impact_score": 8
   }
 ]
