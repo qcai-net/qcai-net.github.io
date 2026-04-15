@@ -1,138 +1,138 @@
 [
   {
-    "title": "OpenAI has bought AI personal finance startup Hiro",
-    "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
-    "industry": "Finance",
-    "summary": "OpenAI acquired Hiro, an AI personal finance startup, signaling its intention to integrate financial planning capabilities directly into ChatGPT.",
-    "charlotte_impact": "This acquisition could significantly disrupt the fintech industry by offering AI-powered personal financial advice and management tools to a wider audience. It provides OpenAI with a direct channel to monetize AI services and potentially challenge established financial institutions.",
-    "impact_score": 8
-  },
-  {
-    "title": "Nvidia launches open-source \u2018Ising\u2019 AI models to tackle quantum computing bottlenecks",
-    "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/nvidia-launches-open-source-ising-ai-models-to-tackle-quantum-computing-bottlenecks/articleshow/130262447.cms",
-    "industry": "Quantum Computing",
-    "summary": "Nvidia launched open-source 'Ising' AI models to address stability bottlenecks in quantum computing, aiming to facilitate the development of real-world quantum applications.",
-    "charlotte_impact": "Nvidia's open-source initiative could accelerate the progress of quantum computing by providing developers with essential tools to overcome hardware limitations. This could lead to breakthroughs in fields such as drug discovery, materials science, and cryptography.",
-    "impact_score": 7
+    "title": "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents",
+    "url": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
+    "industry": "Enterprise Software",
+    "summary": "OpenAI has updated its Agents SDK to help enterprises build safer and more capable AI agents. This update reflects the growing popularity of agentic AI and the need for robust tools to manage and deploy these systems effectively.",
+    "charlotte_impact": "The update to OpenAI's Agents SDK signifies a broader trend towards agentic AI in enterprise solutions. This advancement will likely fuel development of more sophisticated automation tools, impacting industries reliant on process automation, customer service, and decision-making. As enterprises adopt these tools, it will be critical to reskill the workforce to manage and oversee these increasingly autonomous systems, potentially leading to changes in job roles and workforce dynamics.",
+    "impact_score": 9
   },
   {
     "title": "Anthropic\u2019s rise is giving some OpenAI investors second thoughts",
     "url": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
     "industry": "Venture Capital",
-    "summary": "Anthropic's growing prominence is causing some OpenAI investors to reconsider their investments, as Anthropic's valuation appears more attractive compared to OpenAI's projected IPO valuation.",
-    "charlotte_impact": "This indicates increased competition in the generative AI space, potentially driving down valuations and increasing pressure on companies to demonstrate strong revenue growth and profitability. It signals a possible shift in investor sentiment towards companies with more reasonable valuations and clear paths to monetization.",
-    "impact_score": 6
+    "summary": "Anthropic's rise is causing some OpenAI investors to reconsider their positions, suggesting that OpenAI's high valuation may not be justified. Anthropic's valuation looks more appealing compared to OpenAI's hypothetical IPO valuation of $1.2 trillion or more.",
+    "charlotte_impact": "The investor sentiment shift signals a potential correction in AI startup valuations, leading to more cautious investment strategies. This could affect the availability of funding for early-stage AI ventures and intensify the focus on proven business models and revenue generation. Late stage funding might become more difficult as some funds re-think their exposure to the largest players.",
+    "impact_score": 7
   },
   {
-    "title": "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge",
-    "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
-    "industry": "Software Development",
-    "summary": "Vercel's CEO indicates IPO readiness, citing a surge in revenue fueled by the proliferation of AI agents and applications built on its platform.",
-    "charlotte_impact": "Vercel's success underscores the growing demand for infrastructure and tools that support AI-driven applications. It highlights the potential for significant growth in the cloud computing and software development industries as AI becomes more pervasive.",
+    "title": "Hightouch reaches $100M ARR fueled by marketing tools powered by AI",
+    "url": "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
+    "industry": "Marketing Technology",
+    "summary": "Hightouch has achieved $100 million in ARR, driven by its AI-powered marketing tools. The company's ARR grew by $70 million in just 20 months after launching an AI agent platform for marketers.",
+    "charlotte_impact": "Hightouch's rapid growth underscores the increasing adoption of AI in marketing. This trend is expected to accelerate as marketers leverage AI to personalize campaigns, optimize ad spending, and improve customer engagement. Marketing teams will need to acquire AI expertise to effectively utilize these tools.",
+    "impact_score": 8
+  },
+  {
+    "title": "AI learning app Gizmo levels up with 13M users and a $22M investment",
+    "url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
+    "industry": "Education Technology",
+    "summary": "AI learning app Gizmo has reached 13 million users and secured $22 million in Series A funding. This investment reflects the growing interest in AI-powered educational tools.",
+    "charlotte_impact": "The growth of Gizmo illustrates the transformative potential of AI in education. AI-driven learning platforms can personalize education, providing customized learning paths for students. This will likely drive demand for AI-enabled educational content and platforms, impacting traditional educational publishers and institutions.",
     "impact_score": 7
+  },
+  {
+    "title": "India\u2019s vibe-coding startup Emergent enters OpenClaw-like AI agent space",
+    "url": "https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/",
+    "industry": "AI Agents",
+    "summary": "India\u2019s vibe-coding startup Emergent enters the AI agent space with its 'Wingman' product. Wingman allows users to manage and automate tasks via chat on platforms like WhatsApp and Telegram.",
+    "charlotte_impact": "The emergence of companies like Emergent highlights the global expansion of AI agent development. This could spur more localized AI solutions tailored to specific regions and languages. Businesses will have more options for integrating AI agents into their workflows, potentially leading to improved efficiency and customer engagement.",
+    "impact_score": 6
   },
   {
     "title": "Google adds AI Skills to Chrome to help you save favorite workflows",
     "url": "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/",
-    "industry": "Software",
-    "summary": "Google is integrating AI 'Skills' into Chrome, allowing users to save and reuse AI prompts across different websites, enhancing browser functionality and user experience.",
-    "charlotte_impact": "This integration will empower users to streamline their workflows and leverage AI for various tasks directly within their browser. It will foster greater AI adoption and integration across different online activities.",
-    "impact_score": 6
+    "industry": "Web Browsing",
+    "summary": "Google is adding AI 'Skills' to Chrome, enabling users to save and reuse AI prompts across websites. This feature expands upon Gemini's browser integration, making AI more accessible during web browsing.",
+    "charlotte_impact": "Google's integration of AI 'Skills' into Chrome is a move toward making AI a seamless part of the web browsing experience. This will encourage greater AI adoption by ordinary computer users. Businesses are likely to build workflows on top of this new functionality, creating entirely new customer engagement models.",
+    "impact_score": 8
   },
   {
     "title": "After sale of its shoe business, Allbirds pivots to AI",
     "url": "https://techcrunch.com/2026/04/15/after-sale-of-its-shoe-business-allbirds-pivots-to-ai/",
-    "industry": "Consumer Goods",
-    "summary": "Allbirds, the shoe company, is pivoting to AI, rebranding as NewBird AI after securing $50M in convertible financing.",
-    "charlotte_impact": "This is a very drastic and unusual decision, marking a complete shift in strategy. Allbirds hopes to leverage its resources and brand recognition to capitalize on the booming AI market. This move represents a significant risk but also a potential high reward if the company can successfully transition its business model.",
-    "impact_score": 5
+    "industry": "Retail, AI",
+    "summary": "Allbirds is pivoting from selling shoes to AI servers and rebranding as NewBird AI after securing a $50 million convertible financing facility. The company is abandoning its original wool-based sneaker business.",
+    "charlotte_impact": "This dramatic shift highlights the intense interest in AI and the willingness of companies to drastically change direction to capitalize on the trend. This move could lead to other companies reassessing their core business in light of AI opportunities, potentially driving restructuring and innovation across sectors. It may also signal a market bubble and an over-emphasis on the value of AI.",
+    "impact_score": 6
   },
   {
     "title": "Adobe\u2019s new Firefly AI assistant can use Creative Cloud apps to complete tasks",
     "url": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/",
     "industry": "Creative Software",
-    "summary": "Adobe introduced its new Firefly AI assistant, designed to work across Creative Cloud apps to automate and simplify creative tasks.",
-    "charlotte_impact": "This enhancement boosts productivity for creative professionals, making Adobe's suite of tools more powerful and user-friendly. It also underscores the growing importance of AI in creative workflows, potentially influencing other software developers to integrate similar AI features.",
-    "impact_score": 7
-  },
-  {
-    "title": "Max Hodak\u2019s Science Corp. is preparing to place its first sensor in a human brain",
-    "url": "https://techcrunch.com/2026/04/14/max-hodaks-science-corp-is-preparing-to-place-its-first-sensor-in-a-human-brain/",
-    "industry": "Healthcare",
-    "summary": "Max Hodak's Science Corp. is preparing to implant its first sensor in a human brain to address neurological conditions through electrical stimulation.",
-    "charlotte_impact": "Successful implementation of this technology could revolutionize the treatment of neurological disorders. This represents a significant advancement in neurotechnology, with potential to improve the lives of patients with various brain and spinal cord injuries.",
+    "summary": "Adobe\u2019s new Firefly AI assistant can work across Creative Cloud applications to complete tasks. This integrates AI directly into the creative workflow, enhancing productivity.",
+    "charlotte_impact": "Adobe's Firefly AI assistant is set to transform the creative industry by automating repetitive tasks and enhancing creative capabilities. This integration will likely impact the demand for certain roles while increasing the value of skills related to AI integration and creative direction. Agencies and creative teams will need to adapt to these new tools to remain competitive.",
     "impact_score": 9
   },
   {
-    "title": "Amazon launches AI research tool to speed early-stage drug discovery",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/amazon-launches-ai-research-tool-to-speed-early-stage-drug-discovery/articleshow/130262132.cms",
-    "industry": "Pharmaceuticals",
-    "summary": "Amazon launched Amazon Bio Discovery, an AI tool designed to accelerate early-stage drug discovery by simplifying complex computational workflows for scientists.",
-    "charlotte_impact": "This launch could significantly reduce the time and cost associated with drug development, leading to faster innovation in the pharmaceutical industry. It enables smaller research teams to compete with larger firms by providing access to advanced AI capabilities.",
-    "impact_score": 8
-  },
-  {
-    "title": "Amazon launches AI research tool to speed early-stage drug discovery",
-    "url": "https://www.channelnewsasia.com/business/amazon-launches-ai-research-tool-speed-early-stage-drug-discovery-6056196",
-    "industry": "Pharmaceuticals",
-    "summary": "Amazon launched Amazon Bio Discovery, an AI tool designed to accelerate early-stage drug discovery by simplifying complex computational workflows for scientists.",
-    "charlotte_impact": "This launch could significantly reduce the time and cost associated with drug development, leading to faster innovation in the pharmaceutical industry. It enables smaller research teams to compete with larger firms by providing access to advanced AI capabilities.",
-    "impact_score": 8
-  },
-  {
-    "title": "AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud",
-    "url": "https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html",
-    "industry": "Cybersecurity",
-    "summary": "A new AI-driven 'Pushpaganda' scam is exploiting Google Discover using SEO poisoning and AI-generated content to spread scareware and ad fraud.",
-    "charlotte_impact": "This highlights the growing threat of AI-powered cyberattacks and the need for enhanced cybersecurity measures. The ad fraud can significantly impact businesses that depend on online advertising, by diverting traffic and ad revenue.",
+    "title": "Meta Partners With Broadcom to Co-Develop Custom AI Silicon",
+    "url": "https://about.fb.com/news/2026/04/meta-partners-with-broadcom-to-co-develop-custom-ai-silicon/",
+    "industry": "Semiconductors",
+    "summary": "Meta is partnering with Broadcom to co-develop custom AI silicon. This strategic partnership aims to ensure Meta has the compute foundation to support its long-term AI ambitions.",
+    "charlotte_impact": "The partnership between Meta and Broadcom demonstrates the critical need for custom silicon to support AI workloads. This is likely to drive further investment and innovation in specialized AI chips, impacting the semiconductor industry and shifting the balance of power in AI hardware. It could also mean companies who don't own chip design and manufacturing are at a disadvantage.",
     "impact_score": 9
   },
   {
-    "title": "Trump\u2019s Fed chair pick Kevin Warsh discloses holdings in SpaceX, Polymarket, and Ethereum dev platform",
-    "url": "https://cryptobriefing.com/kevin-warsh-investments-crypto-spacex-polymarket/",
-    "industry": "Finance/Government",
-    "summary": "Trump's potential Fed chair pick, Kevin Warsh, discloses holdings in SpaceX, Polymarket, and an Ethereum development platform, suggesting a potential shift in Fed policy.",
-    "charlotte_impact": "Warsh's diverse investments, particularly in crypto and emerging technologies, hint at a potentially more lenient regulatory environment for these industries should he be appointed. This development could spur further growth in blockchain and space technology sectors.",
+    "title": "Broadcom Announces Extended Partnership with Meta to Deploy Technology to Support Multi-Gigawatts of Meta\u2019s Custom Silicon, MTIA",
+    "url": "https://www.globenewswire.com/news-release/2026/04/14/3273998/19933/en/Broadcom-Announces-Extended-Partnership-with-Meta-to-Deploy-Technology-to-Support-Multi-Gigawatts-of-Meta-s-Custom-Silicon-MTIA.html",
+    "industry": "Semiconductors",
+    "summary": "Broadcom announced an extended partnership with Meta to deploy technology to support multi-gigawatts of Meta's custom silicon (MTIA). This underscores the scale of Meta's AI compute infrastructure.",
+    "charlotte_impact": "Broadcom's extended partnership emphasizes the growing importance of robust and scalable AI infrastructure. This partnership will drive innovation in energy-efficient chip design and cooling technologies, impacting data center operations and energy consumption. It could also impact smaller players in the AI chip market, making it even harder to compete with the scale of Meta + Broadcom.",
+    "impact_score": 9
+  },
+  {
+    "title": "Wells Fargo Scales AI to Meet Surging Customer Demand",
+    "url": "https://www.pymnts.com/news/digital-banking/2026/wells-fargo-scales-ai-to-meet-surging-customer-demand/",
+    "industry": "Banking",
+    "summary": "Wells Fargo is scaling AI to meet surging customer demand. The bank continues to enhance its digital offering with AI to keep pace with customer expectations.",
+    "charlotte_impact": "Wells Fargo's move to scale AI reflects a broader trend in the financial services industry. AI is being used to improve customer service, automate tasks, and detect fraud. This deployment will likely drive greater adoption of AI-powered banking solutions, changing the skillsets banks need in the future.",
+    "impact_score": 7
+  },
+  {
+    "title": "Capado releases Agentia, a context-aware AI agent DevOps solution for Salesforce",
+    "url": "https://siliconangle.com/2026/04/14/capado-releases-agentia-context-aware-ai-agent-devops-solution-salesforce/",
+    "industry": "DevOps",
+    "summary": "Copado releases Agentia, a context-aware AI agent DevOps solution for Salesforce. It brings AI agents directly into the software delivery process.",
+    "charlotte_impact": "The release of Agentia signals the adoption of AI in DevOps, automating software delivery and enhancing efficiency. It could streamline Salesforce development processes, reduce errors, and accelerate innovation. Organizations adopting this tech will need to train teams on how to utilize AI-powered development tools.",
+    "impact_score": 7
+  },
+  {
+    "title": "Copado releases Agentia, a context-aware AI agent DevOps solution for Salesforce",
+    "url": "https://siliconangle.com/2026/04/14/copado-releases-agentia-context-aware-ai-agent-devops-solution-salesforce/",
+    "industry": "DevOps",
+    "summary": "Copado releases Agentia, a context-aware AI agent DevOps solution for Salesforce. It brings AI agents directly into the software delivery process.",
+    "charlotte_impact": "The release of Agentia signals the adoption of AI in DevOps, automating software delivery and enhancing efficiency. It could streamline Salesforce development processes, reduce errors, and accelerate innovation. Organizations adopting this tech will need to train teams on how to utilize AI-powered development tools.",
+    "impact_score": 7
+  },
+  {
+    "title": "Can AI judge journalism? A Thiel-backed startup says yes, even if it risks chilling whistleblowers",
+    "url": "https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/",
+    "industry": "Media, Ethics",
+    "summary": "Objection, a Thiel-backed startup, aims to use AI to judge journalism, letting users pay to challenge stories. Critics worry about chilling effects on whistleblowers.",
+    "charlotte_impact": "The emergence of AI-driven journalism evaluation tools raises serious ethical and legal questions. While intended to promote accountability, it could be misused to stifle investigative reporting and suppress dissenting voices. The impact on media freedom and public discourse will depend on how these tools are implemented and regulated.",
+    "impact_score": 5
+  },
+  {
+    "title": "LinkedIn data shows AI isn\u2019t to blame for hiring decline\u2026 yet",
+    "url": "https://techcrunch.com/2026/04/15/linkedin-data-shows-ai-isnt-to-blame-for-hiring-decline-yet/",
+    "industry": "Employment",
+    "summary": "LinkedIn data suggests AI isn't to blame for the recent hiring decline, which is attributed to higher interest rates.",
+    "charlotte_impact": "While AI's impact on employment is a major concern, this data suggests that current economic factors, such as interest rates, are currently the primary drivers of hiring slowdowns. It is essential to monitor the long-term effects of AI on employment separately from other economic factors to understand the true impact.",
+    "impact_score": 5
+  },
+  {
+    "title": "How AI has transformed the way some students are learning",
+    "url": "https://www.abc.net.au/news/2026-04-15/nsw-students-embrace-ai-but-concerns-remain/106542604",
+    "industry": "Education",
+    "summary": "Thousands of students are using AI to transform the way they learn, but many are concerned about the environmental, job-related, and creative implications of the technology.",
+    "charlotte_impact": "The increasing use of AI in education requires a proactive approach to addressing student concerns about its broader impact. Educational institutions must incorporate discussions on the ethical, environmental, and societal implications of AI into the curriculum to foster responsible innovation.",
     "impact_score": 6
   },
   {
-    "title": "Oracle jumps for a second day, Bloom Energy soars 20% on AI data center power deal",
-    "url": "https://www.cnbc.com/2026/04/14/oracle-orcl-bloom-energy-be-stock-data-center-ai-power.html",
-    "industry": "Energy/Technology",
-    "summary": "Oracle stocks jumped as software shares recovered, and Bloom Energy soared 20% following an AI data center power deal.",
-    "charlotte_impact": "The AI data center power deal demonstrates the growing demand for energy solutions to support the expanding AI infrastructure. Oracle's expansion in cloud and AI services signals a growing need for specialized data centers and more efficient power supplies.",
-    "impact_score": 7
-  },
-  {
-    "title": "Bull and Equal1 Form Strategic Alliance to Accelerate Hybrid Quantum-HPC Integration in Europe",
-    "url": "https://www.globenewswire.com/news-release/2026/04/14/3273629/0/en/Bull-and-Equal1-Form-Strategic-Alliance-to-Accelerate-Hybrid-Quantum-HPC-Integration-in-Europe.html",
-    "industry": "Quantum Computing",
-    "summary": "Bull and Equal1 formed a strategic alliance to accelerate the integration of hybrid quantum-HPC in Europe.",
-    "charlotte_impact": "This partnership indicates the increasing emphasis on combining quantum and classical computing for advanced applications. It could bolster the growth of quantum research and development efforts in Europe, making it a more competitive player in the quantum technology landscape.",
+    "title": "IMF Warns Governments to Keep Close Watch on AI Threats",
+    "url": "https://www.pymnts.com/cybersecurity/2026/imf-warns-governments-to-keep-close-watch-on-ai-threats/",
+    "industry": "Cybersecurity",
+    "summary": "A top IMF official warns governments to keep a close watch on AI threats, highlighting concerns about Anthropic's new models.",
+    "charlotte_impact": "The IMF's warning underscores the potential for AI to be used for malicious purposes, necessitating government oversight and regulation. As AI models become more sophisticated, there is a growing need to develop robust cybersecurity measures to prevent their misuse.",
     "impact_score": 6
-  },
-  {
-    "title": "Defence Forces among State bodies monitoring Dark Web for cyber threats",
-    "url": "https://www.independent.ie/irish-news/defence-forces-among-state-bodies-monitoring-dark-web-for-cyber-threats/a344309322.html",
-    "industry": "Cybersecurity",
-    "summary": "Defense Forces and the National Cyber Security Centre (NCSC) are monitoring the Dark Web for cyber security threats against the State, discussed at the Oireachtas Committee on AI.",
-    "charlotte_impact": "This emphasizes the importance of national security and the need for robust cybersecurity measures to protect against potential threats. It highlights the increasingly significant role of AI in both offensive and defensive cybersecurity operations.",
-    "impact_score": 7
-  },
-  {
-    "title": "Defence Forces and ESB among State bodies monitoring Dark Web for cyber threats",
-    "url": "https://www.independent.ie/irish-news/defence-forces-and-esb-among-state-bodies-monitoring-dark-web-for-cyber-threats/a344309322.html",
-    "industry": "Cybersecurity",
-    "summary": "Defense Forces and ESB (Electricity Supply Board) among State bodies monitoring Dark Web for cyber threats.",
-    "charlotte_impact": "This reinforces the recognition of the Dark Web as a significant source of cyber threats targeting critical infrastructure, requiring constant monitoring and defensive measures.",
-    "impact_score": 7
-  },
-  {
-    "title": "From cloud to Agentic AI: Why security must evolve faster than innovation",
-    "url": "https://www.techradar.com/pro/from-cloud-to-agentic-ai-why-security-must-evolve-faster-than-innovation",
-    "industry": "Cybersecurity",
-    "summary": "A piece in TechRadar argues that security must evolve faster than innovation as we move from cloud computing to agentic AI to protect from vulnerabilities.",
-    "charlotte_impact": "As AI systems become more autonomous, they also become more complex and can cause more damage if abused. AI innovation must include more proactive safeguards to protect from potential security threats.",
-    "impact_score": 8
   }
 ]
