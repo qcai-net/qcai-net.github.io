@@ -2,137 +2,201 @@
   {
     "title": "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents",
     "url": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
-    "industry": "Enterprise Software",
-    "summary": "OpenAI has updated its Agents SDK to help enterprises build safer and more capable AI agents. This update reflects the growing popularity of agentic AI and the need for robust tools to manage and deploy these systems effectively.",
-    "charlotte_impact": "The update to OpenAI's Agents SDK signifies a broader trend towards agentic AI in enterprise solutions. This advancement will likely fuel development of more sophisticated automation tools, impacting industries reliant on process automation, customer service, and decision-making. As enterprises adopt these tools, it will be critical to reskill the workforce to manage and oversee these increasingly autonomous systems, potentially leading to changes in job roles and workforce dynamics.",
+    "industry": "Software Development",
+    "summary": "OpenAI updates its Agents SDK to enable enterprises to build safer and more capable AI agents. This expansion signals OpenAI's commitment to the growing field of agentic AI and its potential applications in various enterprise settings.",
+    "charlotte_impact": "This development has broad implications for enterprise software development. By providing a more robust and secure platform for creating AI agents, OpenAI is potentially enabling businesses to automate complex tasks, improve efficiency, and create new products and services. The increasing availability and sophistication of AI agent development tools lowers the barrier to entry for many businesses, encouraging faster adoption and innovation across sectors.",
     "impact_score": 9
-  },
-  {
-    "title": "Anthropic\u2019s rise is giving some OpenAI investors second thoughts",
-    "url": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
-    "industry": "Venture Capital",
-    "summary": "Anthropic's rise is causing some OpenAI investors to reconsider their positions, suggesting that OpenAI's high valuation may not be justified. Anthropic's valuation looks more appealing compared to OpenAI's hypothetical IPO valuation of $1.2 trillion or more.",
-    "charlotte_impact": "The investor sentiment shift signals a potential correction in AI startup valuations, leading to more cautious investment strategies. This could affect the availability of funding for early-stage AI ventures and intensify the focus on proven business models and revenue generation. Late stage funding might become more difficult as some funds re-think their exposure to the largest players.",
-    "impact_score": 7
   },
   {
     "title": "Hightouch reaches $100M ARR fueled by marketing tools powered by AI",
     "url": "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
     "industry": "Marketing Technology",
-    "summary": "Hightouch has achieved $100 million in ARR, driven by its AI-powered marketing tools. The company's ARR grew by $70 million in just 20 months after launching an AI agent platform for marketers.",
-    "charlotte_impact": "Hightouch's rapid growth underscores the increasing adoption of AI in marketing. This trend is expected to accelerate as marketers leverage AI to personalize campaigns, optimize ad spending, and improve customer engagement. Marketing teams will need to acquire AI expertise to effectively utilize these tools.",
+    "summary": "Hightouch achieves $100M ARR fueled by AI-powered marketing tools, demonstrating the significant growth potential in AI-driven marketing solutions. The startup attributes its rapid growth to its AI agent platform, showcasing the increasing value of AI in this space.",
+    "charlotte_impact": "Hightouch's success underscores the transformative power of AI in marketing. AI-powered marketing tools are enabling businesses to personalize customer experiences, optimize campaigns, and improve ROI. This trend is driving demand for AI talent and investment in marketing technology, creating opportunities for companies specializing in AI-driven marketing solutions.",
     "impact_score": 8
   },
   {
     "title": "AI learning app Gizmo levels up with 13M users and a $22M investment",
     "url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
     "industry": "Education Technology",
-    "summary": "AI learning app Gizmo has reached 13 million users and secured $22 million in Series A funding. This investment reflects the growing interest in AI-powered educational tools.",
-    "charlotte_impact": "The growth of Gizmo illustrates the transformative potential of AI in education. AI-driven learning platforms can personalize education, providing customized learning paths for students. This will likely drive demand for AI-enabled educational content and platforms, impacting traditional educational publishers and institutions.",
+    "summary": "AI learning app Gizmo secures $22M in funding after attracting 13M users, indicating the growing adoption of AI in education. Gizmo's success reflects the potential of AI to personalize learning experiences and improve educational outcomes.",
+    "charlotte_impact": "The rise of AI learning platforms is impacting the education sector by providing personalized learning experiences that can cater to individual student needs and improve educational outcomes. This has significant implications for educational institutions and for businesses focused on EdTech. As AI improves, expect further market expansion.",
     "impact_score": 7
   },
   {
     "title": "India\u2019s vibe-coding startup Emergent enters OpenClaw-like AI agent space",
     "url": "https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/",
-    "industry": "AI Agents",
-    "summary": "India\u2019s vibe-coding startup Emergent enters the AI agent space with its 'Wingman' product. Wingman allows users to manage and automate tasks via chat on platforms like WhatsApp and Telegram.",
-    "charlotte_impact": "The emergence of companies like Emergent highlights the global expansion of AI agent development. This could spur more localized AI solutions tailored to specific regions and languages. Businesses will have more options for integrating AI agents into their workflows, potentially leading to improved efficiency and customer engagement.",
-    "impact_score": 6
+    "industry": "Artificial Intelligence",
+    "summary": "India\u2019s vibe-coding startup Emergent enters OpenClaw-like AI agent space with Wingman, an AI agent to manage and automate tasks through chat. This expands the competition in the AI agent market and highlights the global nature of AI innovation.",
+    "charlotte_impact": "The increasing number of AI agent platforms signals a growing market for AI-driven automation solutions. This competition will likely drive innovation and lower the cost of AI agent technologies, making them more accessible to businesses of all sizes. This increased accessibility may drive up productivity for companies of all sizes.",
+    "impact_score": 7
   },
   {
-    "title": "Google adds AI Skills to Chrome to help you save favorite workflows",
-    "url": "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/",
-    "industry": "Web Browsing",
-    "summary": "Google is adding AI 'Skills' to Chrome, enabling users to save and reuse AI prompts across websites. This feature expands upon Gemini's browser integration, making AI more accessible during web browsing.",
-    "charlotte_impact": "Google's integration of AI 'Skills' into Chrome is a move toward making AI a seamless part of the web browsing experience. This will encourage greater AI adoption by ordinary computer users. Businesses are likely to build workflows on top of this new functionality, creating entirely new customer engagement models.",
+    "title": "Roblox\u2019s AI assistant gets new agentic tools to plan, build, and test games",
+    "url": "https://techcrunch.com/2026/04/16/robloxs-ai-assistant-gets-new-agentic-tools-to-plan-build-and-test-games/",
+    "industry": "Gaming",
+    "summary": "Roblox\u2019s AI assistant receives new agentic tools to plan, build, and test games, illustrating the growing integration of AI in game development. These tools are designed to assist creators throughout the entire development process.",
+    "charlotte_impact": "The integration of AI into game development has the potential to significantly reduce development costs and accelerate the creation of new games. AI-powered tools can automate repetitive tasks, assist with design, and even help test games, leading to faster release cycles and potentially higher quality games, increasing competition among studios.",
+    "impact_score": 7
+  },
+  {
+    "title": "Runway CEO says AI could help Hollywood make 50 films instead of one $100M blockbuster",
+    "url": "https://techcrunch.com/2026/04/16/runway-ceo-says-ai-could-help-hollywood-make-50-films-instead-of-one-100m-blockbuster/",
+    "industry": "Entertainment",
+    "summary": "Runway CEO suggests AI could enable Hollywood to produce more films with smaller budgets, shifting from a blockbuster model to a volume strategy. This reflects a potential paradigm shift in the film industry due to AI.",
+    "charlotte_impact": "AI is poised to disrupt the film industry by lowering production costs and enabling the creation of more content. This could lead to a more diverse range of films being produced and a shift in the industry's focus from large-budget blockbusters to a greater volume of smaller, more experimental films. Studios may struggle with the transition initially, however.",
     "impact_score": 8
+  },
+  {
+    "title": "Canva\u2019s AI assistant can now call various tools to make designs for you",
+    "url": "https://techcrunch.com/2026/04/16/canvas-ai-assistant-can-now-call-various-tools-to-make-designs-for-you/",
+    "industry": "Design Software",
+    "summary": "Canva\u2019s AI assistant now integrates more tools, enabling users to create designs from text prompts. This advancement further integrates AI into creative workflows, enhancing user productivity.",
+    "charlotte_impact": "The enhanced capabilities of Canva's AI assistant exemplify how AI is empowering designers and non-designers alike to create professional-quality visuals quickly and easily. This trend could democratize design, making it more accessible to a wider range of users and potentially disrupting the traditional design industry.",
+    "impact_score": 7
   },
   {
     "title": "After sale of its shoe business, Allbirds pivots to AI",
     "url": "https://techcrunch.com/2026/04/15/after-sale-of-its-shoe-business-allbirds-pivots-to-ai/",
-    "industry": "Retail, AI",
-    "summary": "Allbirds is pivoting from selling shoes to AI servers and rebranding as NewBird AI after securing a $50 million convertible financing facility. The company is abandoning its original wool-based sneaker business.",
-    "charlotte_impact": "This dramatic shift highlights the intense interest in AI and the willingness of companies to drastically change direction to capitalize on the trend. This move could lead to other companies reassessing their core business in light of AI opportunities, potentially driving restructuring and innovation across sectors. It may also signal a market bubble and an over-emphasis on the value of AI.",
+    "industry": "Retail, Artificial Intelligence",
+    "summary": "Allbirds pivots from shoes to AI, rebranding as NewBird AI and securing $50M in financing. This shift demonstrates the allure and perceived potential of AI, even for companies outside the tech sector.",
+    "charlotte_impact": "Allbird's dramatic pivot to AI signals the pervasive influence of AI across industries. While the specifics of their AI venture are unclear, this move highlights the potential for companies to reinvent themselves by leveraging AI technology. The key is the execution of the pivot, and the ability of the new entity to recruit engineering talent.",
     "impact_score": 6
   },
   {
     "title": "Adobe\u2019s new Firefly AI assistant can use Creative Cloud apps to complete tasks",
     "url": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/",
     "industry": "Creative Software",
-    "summary": "Adobe\u2019s new Firefly AI assistant can work across Creative Cloud applications to complete tasks. This integrates AI directly into the creative workflow, enhancing productivity.",
-    "charlotte_impact": "Adobe's Firefly AI assistant is set to transform the creative industry by automating repetitive tasks and enhancing creative capabilities. This integration will likely impact the demand for certain roles while increasing the value of skills related to AI integration and creative direction. Agencies and creative teams will need to adapt to these new tools to remain competitive.",
-    "impact_score": 9
+    "summary": "Adobe\u2019s new Firefly AI assistant can use Creative Cloud apps to complete tasks, streamlining creative workflows. This further integrates AI into Adobe's suite of products, enhancing user efficiency and creative capabilities.",
+    "charlotte_impact": "Adobe's integration of Firefly across its Creative Cloud suite will likely drive greater adoption of its products and increase user productivity. This move reinforces Adobe's position as a leader in creative software and demonstrates the importance of AI in enhancing creative workflows. The ability to automate tedious steps will likely increase productivity.",
+    "impact_score": 8
   },
   {
-    "title": "Meta Partners With Broadcom to Co-Develop Custom AI Silicon",
-    "url": "https://about.fb.com/news/2026/04/meta-partners-with-broadcom-to-co-develop-custom-ai-silicon/",
-    "industry": "Semiconductors",
-    "summary": "Meta is partnering with Broadcom to co-develop custom AI silicon. This strategic partnership aims to ensure Meta has the compute foundation to support its long-term AI ambitions.",
-    "charlotte_impact": "The partnership between Meta and Broadcom demonstrates the critical need for custom silicon to support AI workloads. This is likely to drive further investment and innovation in specialized AI chips, impacting the semiconductor industry and shifting the balance of power in AI hardware. It could also mean companies who don't own chip design and manufacturing are at a disadvantage.",
-    "impact_score": 9
-  },
-  {
-    "title": "Broadcom Announces Extended Partnership with Meta to Deploy Technology to Support Multi-Gigawatts of Meta\u2019s Custom Silicon, MTIA",
-    "url": "https://www.globenewswire.com/news-release/2026/04/14/3273998/19933/en/Broadcom-Announces-Extended-Partnership-with-Meta-to-Deploy-Technology-to-Support-Multi-Gigawatts-of-Meta-s-Custom-Silicon-MTIA.html",
-    "industry": "Semiconductors",
-    "summary": "Broadcom announced an extended partnership with Meta to deploy technology to support multi-gigawatts of Meta's custom silicon (MTIA). This underscores the scale of Meta's AI compute infrastructure.",
-    "charlotte_impact": "Broadcom's extended partnership emphasizes the growing importance of robust and scalable AI infrastructure. This partnership will drive innovation in energy-efficient chip design and cooling technologies, impacting data center operations and energy consumption. It could also impact smaller players in the AI chip market, making it even harder to compete with the scale of Meta + Broadcom.",
-    "impact_score": 9
-  },
-  {
-    "title": "Wells Fargo Scales AI to Meet Surging Customer Demand",
-    "url": "https://www.pymnts.com/news/digital-banking/2026/wells-fargo-scales-ai-to-meet-surging-customer-demand/",
-    "industry": "Banking",
-    "summary": "Wells Fargo is scaling AI to meet surging customer demand. The bank continues to enhance its digital offering with AI to keep pace with customer expectations.",
-    "charlotte_impact": "Wells Fargo's move to scale AI reflects a broader trend in the financial services industry. AI is being used to improve customer service, automate tasks, and detect fraud. This deployment will likely drive greater adoption of AI-powered banking solutions, changing the skillsets banks need in the future.",
+    "title": "AI Pivot Pushes Bitcoin Miners Toward a 70% Revenue Milestone",
+    "url": "https://financialpost.com/pmn/business-pmn/ai-pivot-pushes-bitcoin-miners-toward-a-70-revenue-milestone",
+    "industry": "Cryptocurrency, Artificial Intelligence",
+    "summary": "Bitcoin miners are pivoting toward AI, potentially generating 70% of revenue from AI by the end of the year. This reflects the growing profitability of AI compared to Bitcoin mining, and the ability of Bitcoin miners to leverage computing power.",
+    "charlotte_impact": "The shift by Bitcoin miners into AI highlights the lucrative potential of AI and the competitive pressures in the cryptocurrency market. This trend could lead to increased investment in AI infrastructure and a potential shift in resources away from Bitcoin mining. It also creates a new type of AI services provider, leveraging previously stranded assets.",
     "impact_score": 7
   },
   {
-    "title": "Capado releases Agentia, a context-aware AI agent DevOps solution for Salesforce",
-    "url": "https://siliconangle.com/2026/04/14/capado-releases-agentia-context-aware-ai-agent-devops-solution-salesforce/",
-    "industry": "DevOps",
-    "summary": "Copado releases Agentia, a context-aware AI agent DevOps solution for Salesforce. It brings AI agents directly into the software delivery process.",
-    "charlotte_impact": "The release of Agentia signals the adoption of AI in DevOps, automating software delivery and enhancing efficiency. It could streamline Salesforce development processes, reduce errors, and accelerate innovation. Organizations adopting this tech will need to train teams on how to utilize AI-powered development tools.",
+    "title": "Snap slashes 1K jobs in \u2018AI efficiency\u2019 bloodbath",
+    "url": "https://nypost.com/2026/04/15/business/snapchat-parent-snap-slashes-1k-jobs-in-ai-efficiency-bloodbath/",
+    "industry": "Social Media",
+    "summary": "Snap slashes 1,000 jobs citing 'AI efficiency', demonstrating the potential for AI to displace jobs in some sectors. The job cuts amount to 16% of Snap's workforce.",
+    "charlotte_impact": "Snap's layoffs serve as a stark reminder of the potential for AI to disrupt the job market. While AI can create new opportunities, it can also automate existing tasks and reduce the need for human labor, leading to job displacement. These job losses have ripple effects on the real economy, reducing consumption and increasing labor market uncertainty. This situation likely reflects some bloat after a strong growth period.",
+    "impact_score": 9
+  },
+  {
+    "title": "'Crucible Moment': Social Media Giant Snap to Lay Off 1,000 Employees as It Embraces AI",
+    "url": "https://www.breitbart.com/tech/2026/04/15/crucible-moment-social-media-giant-snap-to-lay-off-1000-employees/",
+    "industry": "Social Media",
+    "summary": "Snap is laying off 1,000 employees as it embraces AI, with CEO Evan Spiegel calling this a 'crucible moment'. This event highlights the real-world impact of AI adoption on employment.",
+    "charlotte_impact": "The Snap layoffs underscores how rapidly companies are adopting AI to optimize operations. This adoption is not only about increasing efficiency but also about staying competitive in a rapidly changing market. Layoffs like these may put downward pressure on wages, as job supply increases.",
+    "impact_score": 8
+  },
+  {
+    "title": "GrowthLoop targets real-time, causal decisioning with AI-infused marketing platform",
+    "url": "https://siliconangle.com/2026/04/15/growthloop-targets-real-time-causal-decisioning-ai-infused-marketing-platform/",
+    "industry": "Marketing Technology",
+    "summary": "GrowthLoop introduces an AI-infused marketing platform targeting real-time, causal decisioning. This platform aims to help marketers better understand the drivers of customer behavior.",
+    "charlotte_impact": "GrowthLoop's new platform represents a move toward more sophisticated AI-driven marketing tools that provide marketers with deeper insights into customer behavior. This enables marketers to make more informed decisions, optimize campaigns in real-time, and improve ROI, which is critical for enterprise growth.",
     "impact_score": 7
   },
   {
-    "title": "Copado releases Agentia, a context-aware AI agent DevOps solution for Salesforce",
-    "url": "https://siliconangle.com/2026/04/14/copado-releases-agentia-context-aware-ai-agent-devops-solution-salesforce/",
-    "industry": "DevOps",
-    "summary": "Copado releases Agentia, a context-aware AI agent DevOps solution for Salesforce. It brings AI agents directly into the software delivery process.",
-    "charlotte_impact": "The release of Agentia signals the adoption of AI in DevOps, automating software delivery and enhancing efficiency. It could streamline Salesforce development processes, reduce errors, and accelerate innovation. Organizations adopting this tech will need to train teams on how to utilize AI-powered development tools.",
+    "title": "IMF Says AI Can Win Fraud Fight If Banks Start Sharing Data",
+    "url": "https://www.pymnts.com/fraud-prevention/2026/imf-says-ai-can-win-fraud-fight-if-banks-start-sharing-data/",
+    "industry": "Finance",
+    "summary": "IMF emphasizes AI can win the fraud fight if banks start sharing data. This underscores the importance of data sharing and collaboration in leveraging AI for financial security.",
+    "charlotte_impact": "The IMF's statement highlights the importance of data sharing among banks to effectively combat fraud using AI. This collaborative approach can enhance fraud detection, prevention, and response mechanisms. Without data sharing, fraud detection models will be less effective.",
     "impact_score": 7
   },
   {
-    "title": "Can AI judge journalism? A Thiel-backed startup says yes, even if it risks chilling whistleblowers",
-    "url": "https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/",
-    "industry": "Media, Ethics",
-    "summary": "Objection, a Thiel-backed startup, aims to use AI to judge journalism, letting users pay to challenge stories. Critics worry about chilling effects on whistleblowers.",
-    "charlotte_impact": "The emergence of AI-driven journalism evaluation tools raises serious ethical and legal questions. While intended to promote accountability, it could be misused to stifle investigative reporting and suppress dissenting voices. The impact on media freedom and public discourse will depend on how these tools are implemented and regulated.",
-    "impact_score": 5
+    "title": "The data center boom meets resistance in Maine as lawmakers pass a yearlong moratorium",
+    "url": "https://www.seattlepi.com/business/article/the-data-center-boom-meets-resistance-in-maine-as-22208020.php",
+    "industry": "Energy, Government",
+    "summary": "Maine passes a yearlong moratorium on data centers due to energy concerns. This development demonstrates growing resistance to the energy demands of AI data centers.",
+    "charlotte_impact": "Maine's moratorium on data centers signals growing concerns about the environmental impact of AI, particularly the energy consumption of data centers. This may lead to increased regulation and scrutiny of data center development and operations, and will likely spur innovation in energy-efficient data center technologies. Other municipalities are likely to follow suit.",
+    "impact_score": 8
   },
   {
     "title": "LinkedIn data shows AI isn\u2019t to blame for hiring decline\u2026 yet",
     "url": "https://techcrunch.com/2026/04/15/linkedin-data-shows-ai-isnt-to-blame-for-hiring-decline-yet/",
     "industry": "Employment",
-    "summary": "LinkedIn data suggests AI isn't to blame for the recent hiring decline, which is attributed to higher interest rates.",
-    "charlotte_impact": "While AI's impact on employment is a major concern, this data suggests that current economic factors, such as interest rates, are currently the primary drivers of hiring slowdowns. It is essential to monitor the long-term effects of AI on employment separately from other economic factors to understand the true impact.",
+    "summary": "LinkedIn data says hiring is down 20% since 2022, blaming higher interest rates and not AI. The article suggests AI isn't yet a major factor in the decline.",
+    "charlotte_impact": "While LinkedIn attributes the hiring decline to interest rates, the rise of AI is certainly looming as a contributing factor in the near future. The article's claim that AI isn't yet to blame is tenuous, and doesn't account for a lag-time between technology implementation and workforce reduction.",
     "impact_score": 5
   },
   {
-    "title": "How AI has transformed the way some students are learning",
-    "url": "https://www.abc.net.au/news/2026-04-15/nsw-students-embrace-ai-but-concerns-remain/106542604",
-    "industry": "Education",
-    "summary": "Thousands of students are using AI to transform the way they learn, but many are concerned about the environmental, job-related, and creative implications of the technology.",
-    "charlotte_impact": "The increasing use of AI in education requires a proactive approach to addressing student concerns about its broader impact. Educational institutions must incorporate discussions on the ethical, environmental, and societal implications of AI into the curriculum to foster responsible innovation.",
+    "title": "Meta raises Quest 3 and Quest 3S prices due to RAM shortage",
+    "url": "https://techcrunch.com/2026/04/16/meta-raises-quest-3-and-quest-3s-prices-due-to-ram-shortage/",
+    "industry": "Consumer Electronics",
+    "summary": "Meta raises Quest 3 and Quest 3S prices due to RAM shortage.",
+    "charlotte_impact": "Rising prices for Meta VR headsets, due to RAM shortages, could dampen demand for VR experiences. The semiconductor market is susceptible to external pressures that negatively impact supply chains, and reduce access to advanced technologies. The increased prices will likely be a short-term effect.",
+    "impact_score": 4
+  },
+  {
+    "title": "This simulation startup wants to be the Cursor for physical AI",
+    "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/",
+    "industry": "Robotics",
+    "summary": "Antioch raised a $8.5 million seed round to create simulation tools for a new generation of robot builders.",
+    "charlotte_impact": "Simulation software is necessary to speed development of complex physical robotic systems. This funding round shows investor appetite for these kinds of tools, and the promise of automation. Expect more funding for robotics simulation software in the coming months.",
     "impact_score": 6
   },
   {
-    "title": "IMF Warns Governments to Keep Close Watch on AI Threats",
-    "url": "https://www.pymnts.com/cybersecurity/2026/imf-warns-governments-to-keep-close-watch-on-ai-threats/",
-    "industry": "Cybersecurity",
-    "summary": "A top IMF official warns governments to keep a close watch on AI threats, highlighting concerns about Anthropic's new models.",
-    "charlotte_impact": "The IMF's warning underscores the potential for AI to be used for malicious purposes, necessitating government oversight and regulation. As AI models become more sophisticated, there is a growing need to develop robust cybersecurity measures to prevent their misuse.",
+    "title": "Can AI judge journalism? A Thiel-backed startup says yes, even if it risks chilling whistleblowers",
+    "url": "https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/",
+    "industry": "Media",
+    "summary": "Objection, a Thiel-backed startup, uses AI to judge journalism, allowing users to challenge stories, sparking controversy about its potential impact on whistleblowers and media accountability.",
+    "charlotte_impact": "The rise of AI tools for evaluating journalism raises concerns about censorship and the chilling effect on investigative reporting. While increased accountability for media outlets can be beneficial, the potential for misuse and bias in AI algorithms should be considered.",
     "impact_score": 6
+  },
+  {
+    "title": "A Startup Has Been Quietly Pitching Cloned Human Bodies to Transfer Your Brain Into",
+    "url": "https://www.activistpost.com/a-startup-has-been-quietly-pitching-cloned-human-bodies-to-transfer-your-brain-into/",
+    "industry": "Biotechnology",
+    "summary": "A Startup Has Been Quietly Pitching Cloned Human Bodies to Transfer Your Brain Into.",
+    "charlotte_impact": "This article highlights the ethically concerning advancements in biotechnology, particularly regarding cloning. The implications are vast and raise many concerns and regulatory hurdles.",
+    "impact_score": 2
+  },
+  {
+    "title": "The data center boom meets resistance in Maine as lawmakers pass a yearlong moratorium",
+    "url": "https://abcnews.com/Technology/wireStory/data-center-boom-meets-resistance-maine-lawmakers-pass-132065208",
+    "industry": "Government, Energy",
+    "summary": "Maine passes a yearlong moratorium on data centers due to energy concerns, causing friction between development and environmental concerns.",
+    "charlotte_impact": "This regulatory action illustrates the tension between technological development and environmental sustainability, prompting a discussion about energy efficiency and the environmental impact of large-scale data processing.",
+    "impact_score": 7
+  },
+  {
+    "title": "Gula Tech Adventures Recognizes Carahsoft With 2025 Partner of the Year Award",
+    "url": "https://www.globenewswire.com/news-release/2026/04/15/3274720/0/en/Gula-Tech-Adventures-Recognizes-Carahsoft-With-2025-Partner-of-the-Year-Award.html",
+    "industry": "Venture Capital, Government Contracting",
+    "summary": "Gula Tech Adventures Recognizes Carahsoft With 2025 Partner of the Year Award.",
+    "charlotte_impact": "This demonstrates a strong relationship between a VC firm and a government contractor, suggesting a focus on integrating innovative technologies into government projects.",
+    "impact_score": 3
+  },
+  {
+    "title": "Franklin Templeton CEO says private credit is 'here to stay'",
+    "url": "https://finance.yahoo.com/news/franklin-templeton-ceo-says-private-credit-is-here-to-stay-155516426.html",
+    "industry": "Finance",
+    "summary": "Franklin Templeton CEO says private credit is 'here to stay'.",
+    "charlotte_impact": "This statement signals confidence in the stability and continued growth of private credit markets, indicating the potential for investment opportunities in private credit.",
+    "impact_score": 3
+  },
+  {
+    "title": "Carrier Global Stock Drops 8% on Residential HVAC Weakness as Data Center Boom Offers 2026 Hope",
+    "url": "https://www.ibtimes.com.au/carrier-global-stock-drops-8-residential-hvac-weakness-data-center-boom-offers-2026-hope-1866681",
+    "industry": "Manufacturing",
+    "summary": "Carrier Global Stock Drops 8% on Residential HVAC Weakness as Data Center Boom Offers 2026 Hope.",
+    "charlotte_impact": "Carrier's stock decline reflects current market conditions, but the expectation of growth due to the data center boom points to the importance of adaptability and strategic positioning in light of technological changes.",
+    "impact_score": 3
+  },
+  {
+    "title": "Emanuel Floats Online Gambling Tax While Mulling White House Run",
+    "url": "https://financialpost.com/pmn/business-pmn/emanuel-floats-online-gambling-tax-while-mulling-white-house-run",
+    "industry": "Government, Finance",
+    "summary": "Emanuel Floats Online Gambling Tax While Mulling White House Run.",
+    "charlotte_impact": "This article highlights potential new tax policies on online gambling, which could impact the industry's growth and profitability.",
+    "impact_score": 2
   }
 ]
