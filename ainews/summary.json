@@ -1,202 +1,178 @@
 [
   {
+    "title": "Factory hits $1.5B valuation to build AI coding for enterprises",
+    "url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
+    "industry": "Software Development",
+    "summary": "Factory, a startup focused on AI-powered coding for enterprises, has achieved a $1.5 billion valuation after raising $150 million. This funding round, led by Khosla Ventures, underscores the growing demand for AI-driven solutions in software development and enterprise automation.",
+    "charlotte_impact": "Factory's success highlights the significant investment and growing market for AI-driven coding tools. This impacts software development firms by increasing the efficiency and speed of development, reducing costs and potentially freeing up human developers for more strategic tasks. The increased accessibility and automation of coding could lead to a democratization of software creation, allowing non-technical users to build applications more easily and enabling faster innovation cycles across industries.",
+    "impact_score": 9
+  },
+  {
     "title": "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents",
     "url": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
-    "industry": "Software Development",
-    "summary": "OpenAI updates its Agents SDK to enhance enterprise agent-building capabilities with a focus on safety and performance. This update aims to enable businesses to create more robust and reliable AI agents for various applications.",
-    "charlotte_impact": "This impacts businesses by reducing the barrier to entry for adopting AI agents, potentially leading to improved automation and productivity. Enterprises can build safer, more capable AI agents for customer service, data analysis, and internal operations, leading to increased efficiency and potentially creating new business models.",
-    "impact_score": 9
+    "industry": "Artificial Intelligence",
+    "summary": "OpenAI has updated its Agents SDK to provide enterprises with tools to build safer and more capable AI agents. This update aims to improve the reliability and effectiveness of AI agents in enterprise applications.",
+    "charlotte_impact": "OpenAI's enhancements to its Agents SDK are critical for encouraging the adoption of AI agents within enterprises. By focusing on safety and capability, the company hopes to alleviate concerns about unpredictable AI behavior and promote wider deployment. As more businesses leverage AI agents for tasks like customer service, process automation, and data analysis, this SDK update will allow for improved performance and trust in AI-driven solutions, potentially leading to greater productivity and competitive advantages for firms adopting this technology.",
+    "impact_score": 8
+  },
+  {
+    "title": "Upscale AI in talks to raise at $2B valuation, says report",
+    "url": "https://techcrunch.com/2026/04/16/upscale-ai-in-talks-to-raise-at-2b-valuation-says-report/",
+    "industry": "AI Infrastructure",
+    "summary": "Upscale AI, an AI infrastructure company, is reportedly in talks to raise funds at a $2 billion valuation. This marks the third funding round for the company in just seven months, indicating rapid growth and investor confidence in AI infrastructure solutions.",
+    "charlotte_impact": "Upscale AI's potential valuation increase underscores the vital role of AI infrastructure in supporting the broader AI ecosystem. As AI becomes more pervasive, there will be a growing demand for robust infrastructure to handle large datasets, complex computations, and efficient model deployment. Investment in companies like Upscale AI signals the expectation that AI infrastructure will be a key enabler of innovation and will play an increasingly significant role in enterprise operations.",
+    "impact_score": 8
   },
   {
     "title": "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught",
     "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
     "industry": "Robotics",
-    "summary": "Physical Intelligence unveils \u03c00.7, a new 'robot brain' demonstrating progress toward general-purpose robotics. This model allows robots to perform tasks they weren't explicitly programmed for, marking a significant step in AI-driven robotics.",
-    "charlotte_impact": "The development of general-purpose robot brains opens opportunities for automation across diverse industries. Manufacturing, logistics, and even service sectors could benefit from robots capable of handling more complex and adaptable tasks, driving down costs and improving operational flexibility.",
-    "impact_score": 8
+    "summary": "Physical Intelligence, a robotics startup, announced its new robot brain, \u03c00.7, which can figure out tasks it was never taught. This represents progress towards general-purpose robot brains.",
+    "charlotte_impact": "The development of a robot brain capable of learning new tasks without specific programming represents a significant leap forward for the robotics industry. Such a capability would have a disruptive impact on manufacturing, logistics, and other sectors where robots are currently used for repetitive tasks. This will enable robots to adapt to changing conditions and handle more complex and varied assignments, driving increased efficiency and automation across industries.",
+    "impact_score": 7
   },
   {
     "title": "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop",
     "url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
-    "industry": "Software Development",
-    "summary": "OpenAI beefs up its Codex tool, giving it expanded control over desktop environments, directly challenging Anthropic. This enhancement allows for more powerful and seamless agentic coding capabilities.",
-    "charlotte_impact": "This tool's enhanced desktop control can significantly boost developer productivity. Faster development cycles, easier debugging, and more efficient code generation can translate to quicker time-to-market for software products, boosting competitiveness for companies in the software industry.",
-    "impact_score": 7
-  },
-  {
-    "title": "Google now lets you explore the web side-by-side with AI Mode",
-    "url": "https://techcrunch.com/2026/04/16/google-now-lets-you-explore-the-web-side-by-side-with-ai-mode/",
-    "industry": "Search Engines",
-    "summary": "Google integrates an 'AI Mode' into Chrome, allowing users to explore the web side-by-side with AI assistance. This integration enhances the user experience and changes how people interact with online information.",
-    "charlotte_impact": "The integration of AI in search is poised to reshape the marketing landscape, rewarding businesses that create high-quality, AI-optimized content. The enhanced search experience may also drive increased traffic to websites that are easily understood and summarized by AI, impacting SEO strategies and content creation.",
+    "industry": "Artificial Intelligence",
+    "summary": "OpenAI has updated its Codex tool with enhanced capabilities, increasing its influence over desktop operations. This move positions OpenAI to compete more directly with Anthropic and expands the reach of its AI-powered coding assistant.",
+    "charlotte_impact": "The updated Codex tool will impact the software development lifecycle. By increasing its power over desktop operations, OpenAI aims to streamline the coding process and enable developers to integrate AI more seamlessly into their workflows. This could significantly reduce development time, allowing for more rapid innovation and deployment of software applications. A more powerful Codex will also foster a greater demand for AI-proficient developers and increase the competitive advantage of those who effectively utilize these new tools.",
     "impact_score": 7
   },
   {
     "title": "This simulation startup wants to be the Cursor for physical AI",
     "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/",
-    "industry": "Robotics",
-    "summary": "Antioch, a simulation startup, secures $8.5 million in seed funding to develop simulation tools for physical AI, aiming to become the 'Cursor' for robotics. These tools allow for better design and testing of robots in simulated environments.",
-    "charlotte_impact": "Simulation tools for physical AI can accelerate the development and deployment of robots across industries. Faster iteration cycles, reduced development costs, and improved robot performance will make robotics more accessible to businesses and contribute to increased automation.",
+    "industry": "Robotics, Simulation",
+    "summary": "Antioch raised an $8.5 million seed round to create simulation tools for robot builders, aiming to be the 'Cursor for physical AI'. The company focuses on developing environments where robots can be safely tested and optimized before real-world deployment.",
+    "charlotte_impact": "Antioch's simulation tools could significantly reduce the time and cost associated with developing and deploying robots. By simulating different scenarios and environments, robot builders can identify potential problems and optimize performance without risking damage to equipment or injuries to personnel. This will accelerate the development cycle for robotic solutions and promote the widespread adoption of robotics in various industries, including manufacturing, logistics, and healthcare.",
     "impact_score": 6
   },
   {
     "title": "Hightouch reaches $100M ARR fueled by marketing tools powered by AI",
     "url": "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
     "industry": "Marketing Technology",
-    "summary": "Hightouch reaches $100M ARR, driven by AI-powered marketing tools, demonstrating the growing adoption of AI in marketing. The company attributes rapid growth to its AI agent platform for marketers.",
-    "charlotte_impact": "AI-powered marketing tools are becoming increasingly vital for businesses seeking to personalize customer experiences and optimize marketing campaigns. The success of Hightouch indicates a growing demand for these tools, driving competition and innovation in the marketing technology space.",
-    "impact_score": 8
-  },
-  {
-    "title": "AI learning app Gizmo levels up with 13M users and a $22M investment",
-    "url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
-    "industry": "Education Technology",
-    "summary": "AI learning app Gizmo gains 13 million users and raises $22 million in Series A funding. This growth underscores the increasing demand for personalized, AI-driven education solutions.",
-    "charlotte_impact": "AI-driven learning platforms have the potential to transform education by providing personalized learning experiences and improving student outcomes. The growth of Gizmo highlights the potential for AI to address educational challenges and create new opportunities for learning and development.",
+    "summary": "Hightouch has reached $100 million in ARR, driven by its AI-powered marketing tools. The company's ARR grew by $70 million in just 20 months after launching an AI agent platform for marketers, showing strong adoption and value proposition.",
+    "charlotte_impact": "Hightouch's success demonstrates the transformative power of AI in the marketing sector. By leveraging AI agents, marketers can automate tasks, personalize customer experiences, and optimize campaigns for better results. As a result, marketing teams can improve their efficiency, increase customer engagement, and ultimately drive more revenue. The rise of AI-powered marketing tools is expected to continue, leading to a significant shift in the skills and strategies required for effective marketing.",
     "impact_score": 7
   },
   {
-    "title": "Artemis reels in $70M to make breach remediation more efficent with AI",
-    "url": "https://siliconangle.com/2026/04/15/artemis-reels-70m-make-breach-remediation-efficent-ai/",
-    "industry": "Cybersecurity",
-    "summary": "Cybersecurity startup Artemis reels in $70M to enhance breach remediation with AI. The funding will support the development of AI-powered solutions to improve the efficiency and effectiveness of cybersecurity incident response.",
-    "charlotte_impact": "AI-powered breach remediation technologies are increasingly critical for businesses seeking to protect themselves from cyber threats. Artemis's funding reflects the growing demand for these solutions, which can help companies respond faster and more effectively to security incidents, minimizing damage and downtime.",
-    "impact_score": 8
+    "title": "Developer tooling startup Expo nabs $45M investment",
+    "url": "https://siliconangle.com/2026/04/16/developer-tooling-startup-expo-nabs-45m-investment/",
+    "industry": "Software Development",
+    "summary": "Expo, a developer tooling startup known for its open-source tool for building cross-platform applications, has raised $45 million in funding. The company's focus on React and web application interfaces makes it a key player in the developer ecosystem.",
+    "charlotte_impact": "Investment in developer tooling like Expo reflects the ongoing demand for efficient and streamlined software development processes. Tools that simplify cross-platform development can help businesses reduce development costs and accelerate the time to market for new applications. This increased efficiency can drive innovation and enable companies to respond more quickly to changing market demands, ultimately leading to a competitive advantage.",
+    "impact_score": 6
   },
   {
     "title": "InsightFinder raises $15M to help companies figure out where AI agents go wrong",
     "url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
-    "industry": "AI Monitoring",
-    "summary": "InsightFinder raises $15M to help companies monitor and diagnose issues with AI agents. The funding addresses the growing need for tools that can help businesses ensure the reliability and performance of AI systems.",
-    "charlotte_impact": "As businesses increasingly rely on AI agents, the need for monitoring and diagnostic tools becomes essential. InsightFinder's funding signals the importance of ensuring the robustness and reliability of AI systems, which can have significant impacts on business operations and customer experiences.",
+    "industry": "AI Monitoring and Diagnostics",
+    "summary": "InsightFinder raised $15 million to help companies identify and fix issues with AI agents and their tech stacks. The funding will be used to improve monitoring and diagnostics for AI models and their integrations.",
+    "charlotte_impact": "InsightFinder's funding addresses a critical challenge for organizations deploying AI: ensuring the reliability and performance of AI agents. As AI becomes more complex and integrated into business operations, the need for tools that can detect and resolve errors becomes essential. By investing in AI monitoring and diagnostics, companies can minimize disruptions, maintain data accuracy, and ensure that their AI investments deliver the expected value. This also promotes trust and acceptance of AI within the organization and among customers.",
     "impact_score": 7
   },
   {
     "title": "AI traffic to US retailers rose 393% in Q1, and it\u2019s boosting their revenue too",
     "url": "https://techcrunch.com/2026/04/16/ai-traffic-to-us-retailers-rose-393-in-q1-and-its-boosting-their-revenue-too/",
     "industry": "Retail",
-    "summary": "AI traffic to US retailers rose 393% in Q1, boosting revenue. This indicates the growing impact of AI-driven interactions on consumer behavior and sales.",
-    "charlotte_impact": "The surge in AI traffic to retail websites highlights the growing influence of AI-powered shopping assistants and personalized recommendations on consumer behavior. Retailers who effectively leverage AI to enhance the customer experience and personalize product offerings can expect to see increased traffic, higher conversion rates, and improved revenue.",
-    "impact_score": 9
+    "summary": "AI traffic to U.S. retail websites increased by 393% in Q1, boosting revenue. AI-driven visitors convert better and generate more revenue compared to non-AI shoppers, according to Adobe.",
+    "charlotte_impact": "The surge in AI traffic to retail sites and the higher conversion rates demonstrate the growing influence of AI-powered shopping experiences. This trend will drive retailers to invest further in AI technologies to personalize product recommendations, automate customer service, and optimize pricing strategies. Those who fail to adopt AI will be at a disadvantage, as consumers increasingly expect seamless and personalized shopping journeys. This shift is reshaping the retail landscape and creating new opportunities for AI-driven solutions.",
+    "impact_score": 8
   },
   {
     "title": "Roblox\u2019s AI assistant gets new agentic tools to plan, build, and test games",
     "url": "https://techcrunch.com/2026/04/16/robloxs-ai-assistant-gets-new-agentic-tools-to-plan-build-and-test-games/",
     "industry": "Gaming",
-    "summary": "Roblox enhances its AI assistant with agentic tools for game development, allowing creators to plan, build, and test games more efficiently. This aims to democratize game creation and empower developers.",
-    "charlotte_impact": "AI-powered game development tools have the potential to transform the gaming industry by making game creation more accessible and efficient. Lower development costs, faster iteration cycles, and improved game quality can create new opportunities for indie developers and contribute to the growth of the gaming market.",
+    "summary": "Roblox's AI assistant now includes agentic tools designed to assist creators in planning, building, and testing games. These tools streamline the development process within the Roblox platform.",
+    "charlotte_impact": "The integration of AI agentic tools into Roblox's development environment has the potential to democratize game creation and accelerate the production of new content. By simplifying the planning, building, and testing phases, AI can lower the barrier to entry for aspiring game developers and enable experienced creators to produce higher-quality games more efficiently. This could lead to an explosion of new games and experiences on the Roblox platform, further enhancing its appeal to users and creators alike.",
     "impact_score": 7
   },
   {
     "title": "Runway CEO says AI could help Hollywood make 50 films instead of one $100M blockbuster",
     "url": "https://techcrunch.com/2026/04/16/runway-ceo-says-ai-could-help-hollywood-make-50-films-instead-of-one-100m-blockbuster/",
     "industry": "Entertainment",
-    "summary": "Runway CEO suggests AI could revolutionize Hollywood by enabling the production of more films at lower costs. This could shift the focus from blockbuster productions to a higher volume of diverse content.",
-    "charlotte_impact": "AI-powered filmmaking tools could disrupt the traditional Hollywood model by lowering production costs and democratizing content creation. Smaller studios and independent filmmakers could benefit from these tools, potentially leading to a more diverse and vibrant film industry.",
-    "impact_score": 6
+    "summary": "The CEO of Runway suggests AI could enable Hollywood to produce more films with smaller budgets, potentially leading to 50 films instead of one $100M blockbuster. This shift could increase the diversity and experimentation in filmmaking.",
+    "charlotte_impact": "If AI can significantly reduce the cost of film production, it could disrupt the traditional Hollywood model of big-budget blockbusters. More affordable filmmaking could open the door for independent filmmakers, diverse stories, and experimental projects that would otherwise be deemed too risky. The increased volume of films could also increase the likelihood of finding breakout hits and attracting new audiences. While large studios would still be major players, a more democratized filmmaking landscape could emerge.",
+    "impact_score": 7
   },
   {
     "title": "Canva\u2019s AI assistant can now call various tools to make designs for you",
     "url": "https://techcrunch.com/2026/04/16/canvas-ai-assistant-can-now-call-various-tools-to-make-designs-for-you/",
     "industry": "Design",
-    "summary": "Canva's AI assistant now allows users to create designs by 'calling' various tools with text prompts, streamlining the design process. This makes professional-quality design accessible to a wider audience.",
-    "charlotte_impact": "AI-powered design tools like Canva are empowering businesses and individuals to create professional-quality designs without specialized training. This democratization of design can have significant impacts on marketing, branding, and communication across industries.",
+    "summary": "Canva's AI assistant can now utilize various tools to create designs based on user prompts. This update allows for the creation of editable designs using text-based instructions.",
+    "charlotte_impact": "Canva's enhanced AI assistant empowers users to create professional-looking designs more easily and efficiently. This will benefit individuals, small businesses, and marketing teams by streamlining the design process and reducing the need for specialized design skills. The ability to generate editable designs from text prompts will lead to faster turnaround times, greater creative experimentation, and increased adoption of Canva as a go-to design platform.",
     "impact_score": 7
   },
   {
     "title": "LinkedIn data shows AI isn\u2019t to blame for hiring decline\u2026 yet",
     "url": "https://techcrunch.com/2026/04/15/linkedin-data-shows-ai-isnt-to-blame-for-hiring-decline-yet/",
-    "industry": "Employment",
-    "summary": "LinkedIn data indicates AI is not yet the primary cause of the hiring decline, which is currently attributed to higher interest rates. This suggests that broader economic factors are playing a greater role in employment trends than AI-driven job displacement.",
-    "charlotte_impact": "While AI is not currently the main driver of job losses, businesses must still proactively address the potential impact of AI on their workforce. Investing in retraining and upskilling programs can help employees adapt to new roles and responsibilities in an AI-driven economy, ensuring a smoother transition and minimizing disruption.",
+    "industry": "Human Resources",
+    "summary": "LinkedIn data suggests that the current hiring decline is primarily due to higher interest rates, not AI. Hiring is down 20% since 2022.",
+    "charlotte_impact": "While AI's long-term impact on the job market remains a concern, LinkedIn's data provides some reassurance that the current slowdown is largely attributable to macroeconomic factors. However, this does not negate the potential for AI to disrupt certain industries and job roles in the future. Businesses should continue to monitor the impact of AI on their workforce and invest in training and reskilling programs to prepare employees for the changing landscape. The temporary reprieve from AI's impact provides an opportunity to develop strategies for managing future workforce transitions.",
     "impact_score": 5
   },
   {
-    "title": "Google Launches Dedicated Gemini App for MacOS",
-    "url": "https://www.cnet.com/tech/services-and-software/google-launches-dedicated-gemini-app-for-macos/",
-    "industry": "Software",
-    "summary": "Google Launches Dedicated Gemini App for MacOS enabling fast access to Gemini features without switching tabs.",
-    "charlotte_impact": "Increased adoption and usage of AI assistance tools will lead to quicker design and process times for business users in graphics or writing roles. The tool is designed to be accessible by anyone with a Mac device, which should enhance adoption. ",
+    "title": "Bank of England says it is testing AI risks to financial system",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/bank-of-england-says-it-is-testing-ai-risks-to-financial-system/articleshow/130310230.cms",
+    "industry": "Finance",
+    "summary": "The Bank of England is testing AI risks to the financial system through simulations and collaboration with global partners. This proactive approach aims to identify and address potential market instability caused by AI.",
+    "charlotte_impact": "The Bank of England's efforts to assess AI risks highlight the importance of regulatory oversight in the financial sector. As AI becomes more prevalent in trading, risk management, and customer service, it is crucial to understand the potential for algorithmic bias, data breaches, and systemic instability. Proactive testing and collaboration will help regulators develop policies and standards that promote responsible AI adoption and mitigate potential risks to the financial system.",
+    "impact_score": 8
+  },
+  {
+    "title": "AI helped CIBC save 1.2 million hours, cut mortgage approval times at TD, CEOs say",
+    "url": "https://financialpost.com/fp-finance/banking/ai-helped-canadian-banks-save-work-hours",
+    "industry": "Finance",
+    "summary": "AI-driven tools helped CIBC save 1.2 million hours of work in Q1 and shorten mortgage approval times at TD, according to the bank CEOs.",
+    "charlotte_impact": "The successful implementation of AI in Canadian banks showcases the potential for efficiency gains and improved customer service in the financial industry. By automating repetitive tasks, banks can free up employees to focus on more complex and strategic activities. The reduction in mortgage approval times is a significant benefit to customers and provides a competitive advantage for the banks that embrace AI. This demonstrates a clear ROI for AI investments and will likely encourage further adoption across the financial sector.",
+    "impact_score": 8
+  },
+  {
+    "title": "2026 Top 10 Growth Opportunities in Digital Marketing and Advertising Markets",
+    "url": "https://www.globenewswire.com/news-release/2026/04/16/3275581/28124/en/2026-Top-10-Growth-Opportunities-in-Digital-Marketing-and-Advertising-Markets.html",
+    "industry": "Digital Marketing",
+    "summary": "A report highlights the top growth opportunities in digital marketing and advertising, including unified platforms, AI-driven autonomous operations, and privacy-first strategies.",
+    "charlotte_impact": "The identified growth opportunities highlight a shift towards more integrated and automated digital marketing solutions. Unified platforms can streamline marketing efforts by consolidating data and tools, while AI-driven automation can optimize campaigns in real-time. The emphasis on privacy-first strategies reflects the growing consumer awareness and regulatory pressure to protect personal data. Businesses that can adapt to these trends and leverage AI while respecting privacy will be best positioned to succeed in the evolving digital marketing landscape.",
+    "impact_score": 7
+  },
+  {
+    "title": "Cybersecurity firm shows how hackers are using AI to breach networks",
+    "url": "https://www.cbsnews.com/video/cybersecurity-firm-shows-how-hackers-are-using-ai-to-breach-networks/",
+    "industry": "Cybersecurity",
+    "summary": "A cybersecurity firm demonstrated how hackers are using AI to breach networks, highlighting the growing threat of AI-powered cyberattacks. The report also showed that cybercrime losses reached nearly $21 billion last year.",
+    "charlotte_impact": "The increasing use of AI by hackers poses a serious threat to businesses and consumers alike. AI-powered attacks can be more sophisticated, automated, and difficult to detect than traditional methods. As a result, organizations need to invest in AI-driven cybersecurity solutions to defend against these evolving threats. The growing losses from cybercrime underscore the importance of proactive security measures and the need for constant vigilance against AI-powered attacks.",
+    "impact_score": 8
+  },
+  {
+    "title": "Anthropic plans UK rollout of Mythos AI model for financial institutions",
+    "url": "https://cryptobriefing.com/uk-banks-anthropics-mythos-access/",
+    "industry": "Finance, Cybersecurity",
+    "summary": "Anthropic plans a UK rollout of its Mythos AI model for financial institutions, aiming to enhance cybersecurity strategies. The move raises regulatory scrutiny and policy discussions.",
+    "charlotte_impact": "The introduction of Mythos AI into the UK financial sector reflects the industry's growing reliance on AI for cybersecurity. By leveraging AI to detect and prevent cyberattacks, financial institutions can strengthen their defenses and protect sensitive data. However, the rollout also raises important regulatory questions about the explainability and reliability of AI models in high-stakes environments. Regulators will need to develop frameworks to ensure that AI-powered security solutions are safe, ethical, and transparent.",
+    "impact_score": 7
+  },
+  {
+    "title": "Snap Cuts 1,000 Jobs, Aims to Save $500 Million as AI Reshapes Operations",
+    "url": "https://decrypt.co/364581/snap-cuts-1000-jobs-save-500-million-ai-reshapes-operations",
+    "industry": "Social Media",
+    "summary": "Snap is cutting 1,000 jobs and aiming to save $500 million as AI reshapes its operations. The company is restructuring to focus on profitability and leveraging AI tools across key initiatives.",
+    "charlotte_impact": "Snap's job cuts highlight the potential for AI to automate tasks and reduce the need for human labor in the social media industry. As AI-powered tools become more sophisticated, they can handle content moderation, customer service, and other tasks more efficiently than humans. This can lead to significant cost savings for companies like Snap, but it also raises concerns about the impact on employment and the need for retraining programs to help workers transition to new roles.",
     "impact_score": 6
   },
   {
-    "title": "AI-rendered Val Kilmer debuts in 'As Deep as the Grave' trailer",
-    "url": "https://abcnews.com/Technology/wireStory/ai-rendered-val-kilmer-debuts-deep-grave-trailer-132077451",
-    "industry": "Entertainment",
-    "summary": "AI-rendered Val Kilmer debuts in 'As Deep as the Grave' trailer showcasing the advancement of AI in film-making.",
-    "charlotte_impact": "The entertainment industry and specifically visual effects is experiencing cost savings for animation. The cost savings can be directly passed to consumers for film and television projects. ",
-    "impact_score": 5
+    "title": "AI Use in Cybersecurity Could Show Holes for Attackers in Short Term, Says Fitch",
+    "url": "https://www.insurancejournal.com/news/national/2026/04/16/866064.htm",
+    "industry": "Insurance, Cybersecurity",
+    "summary": "Fitch Ratings warns that the use of AI in cybersecurity could create new vulnerabilities for attackers in the short term. While cyber insurance premiums are growing, AI's impact requires careful underwriting.",
+    "charlotte_impact": "Fitch's analysis highlights the double-edged sword of AI in cybersecurity. While AI can enhance defenses, it can also create new attack surfaces if not implemented carefully. Cyber insurers need to be aware of these potential vulnerabilities and adjust their underwriting practices accordingly. As hackers increasingly leverage AI to launch more sophisticated attacks, insurers will need to develop expertise in assessing and mitigating AI-related cyber risks.",
+    "impact_score": 7
   },
   {
-    "title": "AI ruling prompts warnings from US lawyers: Your chats could be used against you",
-    "url": "https://www.itnews.com.au/news/ai-ruling-prompts-warnings-from-us-lawyers-your-chats-could-be-used-against-you-625080?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+News+feed",
-    "industry": "Legal",
-    "summary": "AI ruling prompts warnings from US lawyers: Your chats could be used against you. Lawyers race to set guardrails.",
-    "charlotte_impact": "Legal industries face the need to re-evaluate the use of evidence in chat. This ruling implies new laws and legal challenges around the use of AI within the industry.",
-    "impact_score": 4
-  },
-  {
-    "title": "AI ruling prompts warnings from US lawyers: Your chats could be used against you",
-    "url": "https://www.itnews.com.au/news/ai-ruling-prompts-warnings-from-us-lawyers-your-chats-could-be-used-against-you-625080?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Software+feed",
-    "industry": "Legal",
-    "summary": "AI ruling prompts warnings from US lawyers: Your chats could be used against you. Lawyers race to set guardrails.",
-    "charlotte_impact": "Legal industries face the need to re-evaluate the use of evidence in chat. This ruling implies new laws and legal challenges around the use of AI within the industry.",
-    "impact_score": 4
-  },
-  {
-    "title": "AI ruling prompts warnings from US lawyers: Your chats could be used against you",
-    "url": "https://www.itnews.com.au/news/ai-ruling-prompts-warnings-from-us-lawyers-your-chats-could-be-used-against-you-625080?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Technology+feed",
-    "industry": "Legal",
-    "summary": "AI ruling prompts warnings from US lawyers: Your chats could be used against you. Lawyers race to set guardrails.",
-    "charlotte_impact": "Legal industries face the need to re-evaluate the use of evidence in chat. This ruling implies new laws and legal challenges around the use of AI within the industry.",
-    "impact_score": 4
-  },
-  {
-    "title": "AI ruling prompts warnings from US lawyers: Your chats could be used against you",
-    "url": "https://www.itnews.com.au/news/ai-ruling-prompts-warnings-from-us-lawyers-your-chats-could-be-used-against-you-625080?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-    "industry": "Legal",
-    "summary": "AI ruling prompts warnings from US lawyers: Your chats could be used against you. Lawyers race to set guardrails.",
-    "charlotte_impact": "Legal industries face the need to re-evaluate the use of evidence in chat. This ruling implies new laws and legal challenges around the use of AI within the industry.",
-    "impact_score": 4
-  },
-  {
-    "title": "WBA releases Wi-Fi security standards",
-    "url": "https://www.telecompetitor.com/wba-releases-wi-fi-security-standards/",
-    "industry": "Telecommunications",
-    "summary": "The Wireless Broadband Alliance (WBA) has released security standards that provide a security framework for Wi-Fi networks used for roaming and in public, enterprise, and environments.",
-    "charlotte_impact": "With more wifi networks emerging, safety and security has to become a top priority. This ruling can assist in reducing costs in the long run by not having to remediate an attack on the network.",
-    "impact_score": 3
-  },
-  {
-    "title": "America\u2019s nuclear comeback is finally here",
-    "url": "https://wattsupwiththat.com/2026/04/15/americas-nuclear-comeback-is-finally-here/",
-    "industry": "Energy",
-    "summary": "Instead of burying or warehousing used fuel, new processes can safely convert it into usable material for modern reactors.",
-    "charlotte_impact": "The energy industry is set to be revolutionized by new safe measures. The rise of Nuclear energy can assist in the green energy movement and further research.",
-    "impact_score": 2
-  },
-  {
-    "title": "KneNest Knee Pillow Claims Evaluated: The AI-Powered Knee Pillow for Side Sleeper's Comfort & Support",
-    "url": "https://www.globenewswire.com/news-release/2026/04/15/3274926/0/en/KneNest-Knee-Pillow-Claims-Evaluated-The-AI-Powered-Knee-Pillow-for-Side-Sleeper-s-Comfort-Support.html",
-    "industry": "Healthcare",
-    "summary": "KneNest Knee Pillow Claims Evaluated: The AI-Powered Knee Pillow for Side Sleeper's Comfort & Support",
-    "charlotte_impact": "With AI and Healthcare, there will be new ergonomic opportunities that can arise. New markets with ergonomic assistance and AI can emerge.",
-    "impact_score": 1
-  },
-  {
-    "title": "Frontiers | Digital health readiness among rural hypertensive patients: a latent profile analysis",
-    "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1786213/full",
-    "industry": "Healthcare",
-    "summary": "Digital health readiness among rural hypertensive patients: a latent profile analysis",
-    "charlotte_impact": "AI assisted devices allow better and quicker data analysis for individuals that need medical attention. The usage of these devices assist in better monitoring and awareness for individuals. ",
-    "impact_score": 2
-  },
-  {
-    "title": "Knightscope and Carnegie Mellon University Enter Into Letter Agreement",
-    "url": "https://www.globenewswire.com/news-release/2026/04/15/3274918/0/en/Knightscope-and-Carnegie-Mellon-University-Enter-Into-Letter-Agreement.html",
-    "industry": "Education",
-    "summary": "Knightscope and Carnegie Mellon University Enter Into Letter Agreement. ",
-    "charlotte_impact": "AI security is becoming a major area of study. A formal partnerships assists the learning and progression of cybersecurity in institutions.",
-    "impact_score": 2
+    "title": "Aehr Test Systems Stock Explodes 17 Percent on Massive $41 Million AI Chip Testing Order",
+    "url": "https://www.ibtimes.com.au/aehr-test-systems-stock-explodes-17-percent-massive-41-million-ai-chip-testing-order-1866768",
+    "industry": "Semiconductors",
+    "summary": "Aehr Test Systems stock surged after announcing a $41 million order for AI chip testing equipment. This indicates strong demand for specialized testing solutions in the AI chip market.",
+    "charlotte_impact": "The massive order for AI chip testing equipment reflects the rapid growth of the AI chip market and the increasing need for reliable testing solutions. As AI applications become more complex and demanding, the performance and reliability of AI chips become critical. Companies like Aehr Test Systems play a vital role in ensuring the quality of these chips, contributing to the overall success of the AI ecosystem. This order underscores the significant investments being made in the development and deployment of AI hardware.",
+    "impact_score": 7
   }
 ]
