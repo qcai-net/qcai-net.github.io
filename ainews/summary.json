@@ -1,194 +1,162 @@
 [
   {
+    "title": "AI chip startup Cerebras files for IPO",
+    "url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
+    "industry": "Semiconductors",
+    "summary": "AI chip startup Cerebras has filed for an IPO, signaling strong growth and investor confidence in the AI hardware market. Cerebras has secured deals with Amazon Web Services and OpenAI, indicating its strategic importance in the AI infrastructure landscape.",
+    "charlotte_impact": "A successful Cerebras IPO would further validate the demand for specialized AI hardware and encourage further investment in AI chip development. This impacts companies such as NVIDIA and AMD which could drive innovation and competition within the chip manufacturing space.",
+    "impact_score": 8
+  },
+  {
     "title": "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed \u2018side quests\u2019",
     "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
-    "industry": "AI",
-    "summary": "Kevin Weil and Bill Peebles are departing OpenAI as the company winds down Sora and consolidates its science team, signifying a move from consumer-focused projects towards enterprise-level AI solutions. This signals a strategic shift within OpenAI, concentrating resources on profitable enterprise applications.",
-    "charlotte_impact": "This pivot suggests increased demand and investment in enterprise AI solutions, potentially leading to greater adoption of AI in various industries. Companies focusing on enterprise AI applications and infrastructure will likely experience growth, while those reliant on consumer-oriented AI might face increased competition or re-evaluation of their strategies. This focus may lead to greater productivity gains and efficiencies for businesses.",
+    "industry": "AI Software",
+    "summary": "Key executives Kevin Weil and Bill Peebles are leaving OpenAI as the company refocuses its efforts from consumer-facing projects like Sora to enterprise AI solutions. This shift indicates a maturing AI market with increasing emphasis on practical business applications.",
+    "charlotte_impact": "OpenAI refocusing on enterprise solutions suggests that businesses are demanding practical, impactful AI tools which will impact companies focusing on AI integration, training, and support services as organizations seek to deploy OpenAI products in their operations.",
     "impact_score": 8
   },
   {
     "title": "Factory hits $1.5B valuation to build AI coding for enterprises",
     "url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
-    "industry": "Software Development",
-    "summary": "Factory, an AI coding startup, has reached a $1.5 billion valuation after raising $150 million led by Khosla Ventures. This signifies strong investor confidence in the potential of AI-driven coding solutions for enterprises.",
-    "charlotte_impact": "The successful funding round for Factory indicates a growing market for AI-assisted coding tools. This could lead to faster software development cycles, reduced costs, and increased innovation across various industries. The availability of such tools may also enable smaller companies to compete more effectively with larger organizations by leveraging AI to augment their development teams.",
+    "industry": "AI Software",
+    "summary": "Factory, an AI coding startup, has reached a $1.5 billion valuation after raising $150 million in a funding round led by Khosla Ventures. This investment highlights the growing demand for AI-powered coding tools that can boost enterprise software development productivity.",
+    "charlotte_impact": "AI coding tools represent a potential paradigm shift in software development, dramatically increasing efficiency and democratizing access. They could lower the barrier to entry for smaller software companies, but could also cause job displacement for developers.",
     "impact_score": 9
-  },
-  {
-    "title": "Nvidia AI chip rivals attract record funding as competition heats up",
-    "url": "https://www.cnbc.com/2026/04/17/nvidia-ai-chip-rivals-funding-euclyd-fractile.html",
-    "industry": "Semiconductors",
-    "summary": "Nvidia's AI chip rivals are attracting record funding as competition intensifies in the AI chip market. This increased investment suggests that investors see strong potential for alternative AI chip architectures and solutions.",
-    "charlotte_impact": "The heightened competition in the AI chip market could result in lower costs and improved performance for AI hardware. This would benefit companies building AI models and applications, as they would have access to a wider range of options and potentially more affordable computing resources. This innovation can accelerate AI adoption across different sectors.",
-    "impact_score": 8
   },
   {
     "title": "Sources: Cursor in talks to raise $2B+ at $50B valuation as enterprise growth surges",
     "url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
-    "industry": "Enterprise Software",
-    "summary": "Cursor is reportedly in discussions to raise $2B+ at a $50B valuation due to surging enterprise growth, with returning backers a16z and Thrive expected to lead the round. This highlights the robust demand for enterprise-focused AI solutions.",
-    "charlotte_impact": "A substantial investment in Cursor indicates the market's belief in enterprise AI solutions, which will allow companies of all sizes to be more competitive. This could lead to companies rapidly deploying and experimenting with new AI solutions and potentially integrating these into their product lines.",
-    "impact_score": 10
+    "industry": "AI Infrastructure",
+    "summary": "Cursor is reportedly in talks to raise over $2 billion at a $50 billion valuation, fueled by surging enterprise growth. This significant funding round underscores the massive investment flowing into AI infrastructure and enterprise AI applications.",
+    "charlotte_impact": "A successful raise at this valuation solidifies Cursor's position as a major player in the AI infrastructure landscape and incentivizes more investment in this space. This affects companies reliant on scalable AI infrastructure by providing more mature solutions.",
+    "impact_score": 9
   },
   {
     "title": "Upscale AI in talks to raise at $2B valuation, says report",
     "url": "https://techcrunch.com/2026/04/16/upscale-ai-in-talks-to-raise-at-2b-valuation-says-report/",
     "industry": "AI Infrastructure",
-    "summary": "Upscale AI, an AI infrastructure company, is reportedly in talks to raise its third funding round at a $2B valuation, just seven months after launching. This highlights the intense investor interest in companies providing the underlying infrastructure for AI development and deployment.",
-    "charlotte_impact": "The rapid valuation increase for Upscale AI demonstrates the high demand for AI infrastructure. This can bring more competition into the space, resulting in lower prices and further advancement in AI technologies. It is becoming increasingly easier for businesses to get involved in AI development and deployment.",
-    "impact_score": 8
+    "summary": "Upscale AI, an AI infrastructure company, is reportedly seeking its third funding round at a $2 billion valuation just seven months after launching. The rapid valuation increase reflects the intense competition and high demand for AI infrastructure solutions.",
+    "charlotte_impact": "The rapid growth and high valuation of Upscale AI exemplifies the fast-paced nature of the AI infrastructure market. This level of investment means that existing players need to accelerate their product roadmaps and rapidly innovate, or risk getting left behind.",
+    "impact_score": 7
   },
   {
     "title": "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught",
     "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
     "industry": "Robotics",
-    "summary": "Physical Intelligence claims its new robot brain, \u03c00.7, can autonomously figure out tasks it was never explicitly programmed to do. This marks a significant step towards general-purpose robots with adaptable intelligence.",
-    "charlotte_impact": "The development of a general-purpose robot brain can revolutionize industries like manufacturing, logistics, and healthcare by enabling robots to perform a wider range of tasks with greater autonomy. This could lead to increased efficiency, reduced labor costs, and the automation of previously impossible tasks.",
-    "impact_score": 9
+    "summary": "Physical Intelligence, a robotics startup, has announced a new \"robot brain\" (\u03c00.7) capable of learning and adapting to new tasks without explicit programming. This advancement marks a significant step towards general-purpose robots with greater autonomy.",
+    "charlotte_impact": "Advances in robot brains could transform industries dependent on manual labor such as construction, logistics, and manufacturing. Expect an automation revolution, improving efficiency and throughput.",
+    "impact_score": 8
   },
   {
     "title": "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop",
     "url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
-    "industry": "Software Development",
-    "summary": "OpenAI has enhanced its agentic coding tool Codex, giving it greater control over user desktops, directly targeting Anthropic. This signals an intensification of the competition between AI leaders in developing advanced, practical AI tools.",
-    "charlotte_impact": "The updated Codex can significantly enhance developer productivity, enabling them to create more complex software applications more efficiently. This could lead to faster innovation cycles and the development of new AI-powered tools and services. It could also potentially lower the barrier to entry for aspiring software developers.",
-    "impact_score": 8
+    "industry": "AI Software",
+    "summary": "OpenAI is enhancing its Codex agentic coding tool to give it more control over desktop environments, directly competing with Anthropic. This move intensifies the competition among leading AI companies to provide powerful agentic tools for developers and enterprises.",
+    "charlotte_impact": "Increased sophistication of AI coding tools and desktop agents could greatly amplify developer productivity. This increased efficiency may drive down the costs of software development and allow for faster deployment of new applications.",
+    "impact_score": 7
   },
   {
     "title": "Google now lets you explore the web side-by-side with AI Mode",
     "url": "https://techcrunch.com/2026/04/16/google-now-lets-you-explore-the-web-side-by-side-with-ai-mode/",
     "industry": "Search Engines",
-    "summary": "Google now offers a side-by-side web exploration feature with AI Mode in Chrome desktop. This demonstrates the integration of AI directly into everyday browsing experiences.",
-    "charlotte_impact": "Integration of AI browsing modes can greatly enhance the user experience and drive user engagement, making information retrieval and research far more efficient and effective. A user can rapidly analyze content from multiple sources and come to well-informed conclusions more easily.",
+    "summary": "Google is integrating AI directly into its Chrome browser, allowing users to explore the web side-by-side with AI Mode. This feature enhances the browsing experience with AI-powered insights and information retrieval.",
+    "charlotte_impact": "Integrating AI into search directly could impact marketing and SEO practices, with users relying more on AI-generated summaries. This will likely increase the importance of structured data and adherence to best practices for the AI models to accurately summarize content.",
     "impact_score": 7
   },
   {
-    "title": "NanoClaw partners with Vercel to deliver one-click approvals for AI agents working on sensitive tasks",
-    "url": "https://siliconangle.com/2026/04/17/nanoclaw-partners-vercel-deliver-one-click-approvals-ai-agents-working-sensitive-tasks/",
-    "industry": "Cybersecurity",
-    "summary": "NanoClaw partners with Vercel to provide one-click approvals for AI agents handling sensitive tasks, addressing the trust deficit in AI. This focuses on managing AI in high-stakes operational environments.",
-    "charlotte_impact": "The development of one-click approvals for AI agents enhances the safety and reliability of AI systems, encouraging wider adoption across industries. This can increase trust and confidence in using AI, particularly in sectors like finance and healthcare. This may lead to the creation of new regulatory standards for AI implementations.",
-    "impact_score": 7
+    "title": "The App Store is booming again, and AI may be why",
+    "url": "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
+    "industry": "Mobile Apps",
+    "summary": "Data suggests the App Store is experiencing a resurgence, potentially driven by new app launches fueled by AI tools. This could indicate a new wave of AI-powered mobile applications entering the market.",
+    "charlotte_impact": "The potential 'AI app boom' could increase competition within the App Store, forcing developers to create more innovative and user-friendly applications. This influx of AI-powered apps could also introduce new functionalities and business models in the mobile app space.",
+    "impact_score": 6
+  },
+  {
+    "title": "Luma launches AI-powered production studio with faith-focused Wonder Project",
+    "url": "https://techcrunch.com/2026/04/16/luma-launches-ai-powered-production-studio-with-faith-focused-wonder-project/",
+    "industry": "Entertainment",
+    "summary": "Luma has launched an AI-powered production studio and is producing a faith-based movie about Moses starring Ben Kingsley. This shows AI's growing influence in content creation within the entertainment industry.",
+    "charlotte_impact": "The use of AI in movie production can drastically reduce the production time and associated costs. This technology also allows for higher fidelity content and greater creative experimentation with various effects and scenarios.",
+    "impact_score": 5
   },
   {
     "title": "InsightFinder raises $15M to help companies figure out where AI agents go wrong",
     "url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
     "industry": "AI Monitoring",
-    "summary": "InsightFinder raises $15M to help companies understand and diagnose AI agent failures across their tech stack. This addresses the need for monitoring and debugging AI implementations.",
-    "charlotte_impact": "By helping companies identify and resolve issues with AI agents, InsightFinder can reduce downtime and improve the performance of AI-powered systems. This can result in cost savings and increased efficiency for businesses. This can lead to businesses more confidently relying on AI.",
+    "summary": "InsightFinder has raised $15 million to develop tools that help companies identify and address issues with AI agents. This highlights the growing need for solutions that monitor and diagnose problems within AI-driven systems.",
+    "charlotte_impact": "As businesses increasingly rely on AI, the tools that monitor and diagnose these AI systems are becoming increasingly vital. A robust AI monitoring industry helps ensure businesses can accurately use AI and troubleshoot issues more efficiently and accurately.",
     "impact_score": 7
   },
   {
     "title": "AI traffic to US retailers rose 393% in Q1, and it\u2019s boosting their revenue too",
     "url": "https://techcrunch.com/2026/04/16/ai-traffic-to-us-retailers-rose-393-in-q1-and-its-boosting-their-revenue-too/",
     "industry": "Retail",
-    "summary": "AI traffic to US retailers increased by 393% in Q1, boosting revenue and conversions. This showcases the measurable economic impact of AI on retail sales.",
-    "charlotte_impact": "The surge in AI-driven traffic to retail websites highlights the growing influence of AI in consumer purchasing decisions. Retailers that effectively leverage AI to personalize shopping experiences and optimize their online presence are likely to see significant revenue gains. A larger percentage of retail sales are likely to happen online due to these advancements.",
+    "summary": "AI traffic to U.S. retail websites increased by 393% in Q1 2026, leading to higher conversion rates and revenue. This demonstrates AI's significant impact on the retail sector by driving customer engagement and sales.",
+    "charlotte_impact": "AI traffic to retail sites suggests consumers are more engaged and more ready to purchase. This provides retailers with unique opportunities to optimize their sales and marketing efforts which improves the overall customer experience and revenue streams.",
     "impact_score": 8
   },
   {
     "title": "Roblox\u2019s AI assistant gets new agentic tools to plan, build, and test games",
     "url": "https://techcrunch.com/2026/04/16/robloxs-ai-assistant-gets-new-agentic-tools-to-plan-build-and-test-games/",
     "industry": "Gaming",
-    "summary": "Roblox's AI assistant now features agentic tools for planning, building, and testing games. This streamlines the game development process with AI assistance.",
-    "charlotte_impact": "AI-powered tools in Roblox can accelerate game development, allowing creators to iterate faster and produce higher-quality games. This could lead to a surge in new content and increased engagement within the Roblox platform. AI could further allow for more complex games to be developed on the Roblox platform.",
+    "summary": "Roblox is introducing new agentic AI tools to help game developers plan, build, and test their games. This illustrates AI's potential to democratize game development and empower creators.",
+    "charlotte_impact": "AI-powered gaming development tools can greatly reduce the time and resources needed to create games which could lead to a boom in the number and variety of games available on platforms like Roblox. Smaller indie game developers can see a boost in content creation.",
+    "impact_score": 6
+  },
+  {
+    "title": "Bank of Canada\u2019s Macklem says he has spoken to Fed chair about risks from Anthropic\u2019s Mythos AI model",
+    "url": "https://financialpost.com/fp-finance/banking/bank-of-canada-macklem-risks-anthropics-mythos",
+    "industry": "Finance",
+    "summary": "Bank of Canada's Macklem has discussed potential risks associated with Anthropic's Mythos AI model with the Fed chair. This signals growing concern among financial regulators about the potential impact of advanced AI models on the financial system.",
+    "charlotte_impact": "Concerns raised by banks and financial regulators surrounding advanced AI models demonstrate the need for careful consideration about deploying and integrating AI within existing financial infrastructure. This could lead to regulation within the market to ensure consumer safety and financial stability.",
     "impact_score": 7
   },
   {
-    "title": "Runway CEO says AI could help Hollywood make 50 films instead of one $100M blockbuster",
-    "url": "https://techcrunch.com/2026/04/16/runway-ceo-says-ai-could-help-hollywood-make-50-films-instead-of-one-100m-blockbuster/",
+    "title": "OpenAI Has a New AI Model Built for Biology and Science",
+    "url": "https://www.cnet.com/tech/services-and-software/openai-gpt-rosalind-model-release/",
+    "industry": "Biotechnology",
+    "summary": "OpenAI has unveiled a new AI model, GPT-Rosalind, designed specifically for biology and science. This model aims to accelerate research and drug discovery processes in the life sciences.",
+    "charlotte_impact": "GPT-Rosalind can speed up drug discovery, potentially leading to faster development of new treatments and therapies. This can have a positive impact by reducing the overall costs of healthcare research and development.",
+    "impact_score": 6
+  },
+  {
+    "title": "Ex-CEO, ex-CFO of bankrupt AI company charged with fraud",
+    "url": "https://www.channelnewsasia.com/business/ex-ceo-ex-cfo-bankrupt-ai-company-charged-fraud-6064526",
+    "industry": "AI Governance",
+    "summary": "The former CEO and CFO of a bankrupt AI company, iLearningEngines, have been charged with fraud for allegedly fabricating revenue. This highlights the risks associated with investment and integrity in the emerging AI landscape.",
+    "charlotte_impact": "This instance of fraud serves as a reminder of the need for due diligence in AI. This case can help influence more structured and transparent regulatory environments. These governance structures can increase trust and sustainable investment in the AI industry.",
+    "impact_score": 6
+  },
+  {
+    "title": "SP500 to 7300+, TESLA to $430 Next Week or Two. Multi-year AI Boom Will Continue",
+    "url": "https://www.nextbigfuture.com/2026/04/sp500-to-7300-tesla-to-430-next-week-or-two-multi-year-ai-boom-will-continue.html",
+    "industry": "Financial Markets",
+    "summary": "An analyst predicts the SP500 will reach 7300+ and Tesla will reach $430, citing a multi-year AI boom. This reflects optimism about the continued growth and impact of AI on the broader economy and specific companies.",
+    "charlotte_impact": "While predictive and speculative, the projected growth of specific companies and broader indexes demonstrates the positive impact that AI development has on broader economic markets. Bullish market sentiments can attract investors, but come with inherent risks associated with high valuations.",
+    "impact_score": 5
+  },
+  {
+    "title": "How technology is reshaping post-production workflows",
+    "url": "https://www.digitaljournal.com/tech-science/how-technology-is-reshaping-post-production-workflows/article",
     "industry": "Entertainment",
-    "summary": "Runway CEO suggests AI could enable Hollywood to produce multiple lower-budget films instead of fewer high-budget blockbusters. This signifies a potential shift in film production strategy due to AI.",
-    "charlotte_impact": "AI-assisted film production could lead to a democratization of filmmaking, allowing more independent creators to produce content. This could result in a wider variety of films being made and a shift away from the traditional blockbuster model. Smaller production studios may be able to compete with large corporations.",
-    "impact_score": 7
+    "summary": "Technology is reshaping post-production workflows, leading to a shift from linear workflows to more efficient and collaborative processes. This emphasizes the continued need for integration of new technology for efficient content production.",
+    "charlotte_impact": "Efficient post-production has a positive impact on the media and entertainment industry. More rapid creation of movies and television reduces costs, accelerates timelines and makes creation more accessible to new participants in the content economy.",
+    "impact_score": 4
   },
   {
-    "title": "Anthropic CEO to meet White House chief of staff amid Pentagon AI dispute: Report",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-ceo-to-meet-white-house-chief-of-staff-amid-pentagon-ai-dispute-report/articleshow/130331773.cms",
-    "industry": "Government",
-    "summary": "Anthropic CEO meets with White House chief of staff amid a dispute with the Pentagon, indicating the growing significance of AI in national security discussions.",
-    "charlotte_impact": "The meeting signals a growing awareness and focus of the US Government on the impacts and potential benefits of AI. By engaging with AI startups, the government is hoping to advance AI technologies in sensitive areas like national security and defense.",
-    "impact_score": 7
+    "title": "Dr. Drasko Acimovic Unveils \"Third Gutenberg Moment\" as New Operational Paradigm for Global Economy and AI",
+    "url": "https://apnews.com/press-release/prnews-io/dr-drasko-acimovic-unveils-third-gutenberg-moment-as-new-operational-paradigm-for-global-economy-and-ai-6f3ab445fdc61b062718ed4f21a8bb6c",
+    "industry": "Economics",
+    "summary": "Dr. Drasko Acimovic unveils the \"Third Gutenberg Moment\" as a new operational paradigm for the global economy and AI. This signals a significant shift in global institutional identity.",
+    "charlotte_impact": "While more academic, this signal of a shift in global institutional identity signifies the way that the AI revolution is going to impact nearly every aspect of the economy and geopolitics. The Gutenberg Moment signifies a shift in how institutions, governments, and businesses interact with the broader world.",
+    "impact_score": 4
   },
   {
-    "title": "Stellantis, Microsoft sign 5-year partnership for AI push",
-    "url": "https://www.cbc.ca/news/canada/windsor/stellantis-microsoft-partnership-ai-push-9.7167736",
-    "industry": "Automotive",
-    "summary": "Stellantis and Microsoft establish a 5-year partnership for AI integration, aiming to reduce Stellantis' data center footprint and co-develop over 100 AI initiatives. This highlights AI's growing role in automotive innovation.",
-    "charlotte_impact": "This collaboration will likely drive advancements in areas like autonomous driving, personalized in-car experiences, and optimized manufacturing processes. By adopting AI, automakers may potentially enhance efficiency, create new revenue streams, and maintain a competitive edge.",
-    "impact_score": 8
-  },
-  {
-    "title": "MeitY selects 10 Indian AI startups to spearhead IndiaAI Startups Global Acceleration Programme",
-    "url": "https://www.thehindubusinessline.com/info-tech/meity-selects-10-indian-ai-startups-to-spearhead-indiaai-startups-global-acceleration-programme/article70873085.ece",
-    "industry": "Government",
-    "summary": "MeitY selects 10 Indian AI startups for a global acceleration program to advance India's AI capabilities. This demonstrates government support for AI innovation in India.",
-    "charlotte_impact": "India is accelerating its capabilities on the world stage with the aid of the IndiaAI Mission. This program will lead to advancements in AI capabilities in the region and will support more global collaboration.",
-    "impact_score": 7
-  },
-  {
-    "title": "Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul",
-    "url": "https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html",
-    "industry": "Advertising",
-    "summary": "Google blocked 8.3B policy-violating ads in 2025 and launched Android 17 with privacy enhancements. This reflects increased efforts to regulate and secure the digital advertising ecosystem.",
-    "charlotte_impact": "Google's efforts to combat fraudulent ads and enhance privacy could lead to a more trustworthy advertising ecosystem, benefiting both businesses and consumers. Smaller organizations may benefit the most from an ecosystem that is less subject to fraud.",
-    "impact_score": 6
-  },
-  {
-    "title": "ZTE highlights path to broadband monetization at FTTH conference 2026",
-    "url": "https://www.theregister.com/2026/04/17/zte_highlights_path_to_broadband_monetization/",
-    "industry": "Telecommunications",
-    "summary": "ZTE encourages operators to shift from network metrics to managing user experience using broadband monetization strategies. This pushes for a better customer experience in telecom.",
-    "charlotte_impact": "Using broadband monetization strategies improves the customer experience and enhances user interaction. This can lead to more customer loyalty, and higher retention rates.",
-    "impact_score": 5
-  },
-  {
-    "title": "Myseum.AI Accepted into Advanced Micro Devices AI Developer Program",
-    "url": "https://www.globenewswire.com/news-release/2026/04/17/3276083/0/en/Myseum-AI-Accepted-into-Advanced-Micro-Devices-AI-Developer-Program.html",
+    "title": "Perspective: AI demand is inflated, and only Anthropic is being realistic",
+    "url": "https://www.cnbc.com/2026/04/17/ai-tokens-anthropic-openai-nvidia.html",
     "industry": "AI",
-    "summary": "Myseum.AI has been accepted into Advanced Micro Devices AI Developer Program. This gives access to the company's innovative AI capabilities.",
-    "charlotte_impact": "The program provides resources for Myseum.AI to develop its AI platform and expand market reach. Myseum.AI is a company focused on AI platform innovations and user growth.",
+    "summary": "An article questions the inflated demand for AI tokens and suggests that Anthropic may be the only company being realistic. This brings questions to the forefront about metrics within the industry.",
+    "charlotte_impact": "This article highlights an important dynamic of emerging AI markets: metrics and valuation can be highly misleading. This article reminds investors, regulators, and businesses that there can be a disconnect between hype and underlying reality and encourages all parties to be more diligent.",
     "impact_score": 5
-  },
-  {
-    "title": "Even blue-collar work isn't safe from AI, a trade tech CEO says",
-    "url": "https://www.businessinsider.com/blue-collar-work-isnt-safe-ai-trade-tech-ceo-says-2026-4",
-    "industry": "Labor",
-    "summary": "A trade tech CEO says even blue-collar work isn't safe from AI. This demonstrates AI's effects on various industries.",
-    "charlotte_impact": "While no one wants to see people out of work, AI tools can assist with improving overall output while keeping humans safe. Those in blue-collar jobs need to begin adapting to the evolving market, to remain marketable.",
-    "impact_score": 7
-  },
-  {
-    "title": "Tokenmaxxing, OpenAI\u2019s shopping spree, and the AI Anxiety Gap",
-    "url": "https://techcrunch.com/podcast/tokenmaxxing-openais-shopping-spree-and-the-ai-anxiety-gap/",
-    "industry": "AI",
-    "summary": "The article discusses the widening gap between AI experts and the general public, highlighting OpenAI's acquisitions and Anthropic's unveiling of a powerful model. It underscores the rapid advancements and increasing complexity within the AI field.",
-    "charlotte_impact": "As AI technology becomes more advanced, it's important for educational organizations to provide education opportunities and ensure those skills are available for the labor market. This ensures competitiveness in the market, and maintains relevance.",
-    "impact_score": 6
-  },
-  {
-    "title": "Uber Eats Lets Customers Return Their Retail Purchases",
-    "url": "https://www.pymnts.com/news/delivery/2026/uber-eats-lets-customers-return-their-retail-purchases/",
-    "industry": "Delivery",
-    "summary": "Uber Eats introduces a retail return service, allowing customers to return items purchased on the app. This marks a notable expansion of Uber Eats' services beyond food delivery.",
-    "charlotte_impact": "The return service provides additional convenience for consumers using the Uber Eats platform. This can strengthen the company's competitive edge and market penetration.",
-    "impact_score": 5
-  },
-  {
-    "title": "AI music is reviving the same fights that shaped the player piano",
-    "url": "https://www.scientificamerican.com/article/ai-music-is-reviving-the-same-fights-that-shaped-the-player-piano/",
-    "industry": "Music",
-    "summary": "The article argues that AI music is reviving the same labor disputes that shaped the player piano. It questions artistry and pay.",
-    "charlotte_impact": "As AI takes over the space of music creation, questions will arise as to who receives the benefit of the work, and what is considered true art and creativity.",
-    "impact_score": 5
-  },
-  {
-    "title": "Anthropic talks to EU, including on cyber security models",
-    "url": "https://www.rte.ie/news/business/2026/0417/1568771-anthropic-in-talks-with-eu/",
-    "industry": "Government",
-    "summary": "Anthropic is in discussions with the European Commission regarding its AI models, including cybersecurity applications. This highlights the collaboration between AI companies and regulatory bodies.",
-    "charlotte_impact": "Ongoing conversations between AI developers and regulatory bodies can assist with ensuring all AI is developed with proper safety and risk assessments to reduce harm.",
-    "impact_score": 6
   }
 ]
