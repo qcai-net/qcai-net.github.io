@@ -1,0 +1,629 @@
+[
+  {
+    "id": "unc_ch",
+    "name": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "type": "public",
+    "admissions": {
+      "acceptance_rate_overall": 0.19,
+      "acceptance_rate_in_state": 0.42,
+      "acceptance_rate_out_state": 0.1,
+      "acceptance_rate_source": "official"
+    },
+    "scores": {
+      "sat_25": 1370,
+      "sat_75": 1500,
+      "act_25": 29,
+      "act_75": 33
+    },
+    "academics": {
+      "avg_gpa": 3.9
+    },
+    "cost": {
+      "tuition_in_state": 9000,
+      "tuition_out_state": 37000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Chapel Hill",
+      "enrollment": 30000,
+      "impacted_majors": [
+        "Computer Science",
+        "Business",
+        "Biomedical Engineering"
+      ]
+    }
+  },
+  {
+    "id": "nc_state",
+    "name": "North Carolina State University",
+    "state": "NC",
+    "type": "public",
+    "admissions": {
+      "acceptance_rate_overall": 0.47,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.705,
+      "acceptance_rate_out_state": 0.235
+    },
+    "scores": {
+      "sat_25": 1250,
+      "sat_75": 1420,
+      "act_25": 27,
+      "act_75": 32
+    },
+    "academics": {
+      "avg_gpa": 3.8
+    },
+    "cost": {
+      "tuition_in_state": 9100,
+      "tuition_out_state": 31000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Raleigh",
+      "enrollment": 36000,
+      "impacted_majors": [
+        "Engineering",
+        "Computer Science",
+        "Design"
+      ]
+    }
+  },
+  {
+    "id": "duke",
+    "name": "Duke University",
+    "state": "NC",
+    "type": "private",
+    "admissions": {
+      "acceptance_rate_overall": 0.06,
+      "acceptance_rate_source": "official"
+    },
+    "scores": {
+      "sat_25": 1500,
+      "sat_75": 1570,
+      "act_25": 34,
+      "act_75": 35
+    },
+    "academics": {
+      "avg_gpa": 4.0
+    },
+    "cost": {
+      "tuition_in_state": 63000,
+      "tuition_out_state": 63000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Durham",
+      "enrollment": 16000,
+      "impacted_majors": [
+        "Public Policy",
+        "Economics",
+        "Engineering"
+      ]
+    }
+  },
+  {
+    "id": "wake_forest",
+    "name": "Wake Forest University",
+    "state": "NC",
+    "type": "private",
+    "admissions": {
+      "acceptance_rate_overall": 0.21,
+      "acceptance_rate_source": "official"
+    },
+    "scores": {
+      "sat_25": 1410,
+      "sat_75": 1500,
+      "act_25": 32,
+      "act_75": 34
+    },
+    "academics": {
+      "avg_gpa": 3.9
+    },
+    "cost": {
+      "tuition_in_state": 65000,
+      "tuition_out_state": 65000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Winston-Salem",
+      "enrollment": 9000,
+      "impacted_majors": [
+        "Business",
+        "Politics"
+      ]
+    }
+  },
+  {
+    "id": "davidson",
+    "name": "Davidson College",
+    "state": "NC",
+    "type": "private",
+    "admissions": {
+      "acceptance_rate_overall": 0.14,
+      "acceptance_rate_source": "official"
+    },
+    "scores": {
+      "sat_25": 1360,
+      "sat_75": 1490,
+      "act_25": 31,
+      "act_75": 34
+    },
+    "academics": {
+      "avg_gpa": 3.86
+    },
+    "cost": {
+      "tuition_in_state": 60000,
+      "tuition_out_state": 60000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Davidson",
+      "enrollment": 2000,
+      "impacted_majors": [
+        "Biology",
+        "Economics"
+      ]
+    }
+  },
+  {
+    "id": "clemson",
+    "name": "Clemson University",
+    "state": "SC",
+    "type": "public",
+    "admissions": {
+      "acceptance_rate_overall": 0.49,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.735,
+      "acceptance_rate_out_state": 0.245
+    },
+    "scores": {
+      "sat_25": 1240,
+      "sat_75": 1440,
+      "act_25": 27,
+      "act_75": 32
+    },
+    "academics": {
+      "avg_gpa": 3.75
+    },
+    "cost": {
+      "tuition_in_state": 15000,
+      "tuition_out_state": 39000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Clemson",
+      "enrollment": 27000,
+      "impacted_majors": [
+        "Nursing",
+        "Business",
+        "Architecture"
+      ]
+    }
+  },
+  {
+    "id": "u_south_carolina",
+    "name": "University of South Carolina",
+    "state": "SC",
+    "type": "public",
+    "admissions": {
+      "acceptance_rate_overall": 0.61,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.915,
+      "acceptance_rate_out_state": 0.305
+    },
+    "scores": {
+      "sat_25": 1180,
+      "sat_75": 1360,
+      "act_25": 26,
+      "act_75": 32
+    },
+    "academics": {
+      "avg_gpa": 3.7
+    },
+    "cost": {
+      "tuition_in_state": 13000,
+      "tuition_out_state": 34000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Columbia",
+      "enrollment": 35000,
+      "impacted_majors": [
+        "International Business",
+        "Nursing"
+      ]
+    }
+  },
+  {
+    "id": "ga_tech",
+    "name": "Georgia Institute of Technology",
+    "state": "GA",
+    "type": "public",
+    "admissions": {
+      "acceptance_rate_overall": 0.17,
+      "acceptance_rate_in_state": 0.35,
+      "acceptance_rate_out_state": 0.12,
+      "acceptance_rate_source": "official"
+    },
+    "scores": {
+      "sat_25": 1370,
+      "sat_75": 1530,
+      "act_25": 31,
+      "act_75": 35
+    },
+    "academics": {
+      "avg_gpa": 3.9
+    },
+    "cost": {
+      "tuition_in_state": 12000,
+      "tuition_out_state": 33000
+    },
+    "policy": {
+      "test_policy": "required"
+    },
+    "meta": {
+      "city": "Atlanta",
+      "enrollment": 44000,
+      "impacted_majors": [
+        "Computer Science",
+        "Aerospace Engineering",
+        "Mechanical Engineering"
+      ]
+    }
+  },
+  {
+    "id": "u_georgia",
+    "name": "University of Georgia",
+    "state": "GA",
+    "type": "public",
+    "admissions": {
+      "acceptance_rate_overall": 0.38,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.57,
+      "acceptance_rate_out_state": 0.19
+    },
+    "scores": {
+      "sat_25": 1220,
+      "sat_75": 1400,
+      "act_25": 26,
+      "act_75": 32
+    },
+    "academics": {
+      "avg_gpa": 4.0
+    },
+    "cost": {
+      "tuition_in_state": 12000,
+      "tuition_out_state": 31000
+    },
+    "policy": {
+      "test_policy": "required"
+    },
+    "meta": {
+      "city": "Athens",
+      "enrollment": 40000,
+      "impacted_majors": [
+        "Business",
+        "Biology"
+      ]
+    }
+  },
+  {
+    "id": "princeton",
+    "name": "Princeton University",
+    "state": "NJ",
+    "type": "private",
+    "admissions": {
+      "acceptance_rate_overall": 0.04,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.04,
+      "acceptance_rate_out_state": 0.04
+    },
+    "scores": {
+      "sat_25": 1510,
+      "sat_75": 1570
+    },
+    "academics": {
+      "avg_gpa": 4.0
+    },
+    "cost": {
+      "tuition_in_state": 59000,
+      "tuition_out_state": 59000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Princeton",
+      "enrollment": 8500,
+      "impacted_majors": [
+        "Public Policy"
+      ]
+    }
+  },
+  {
+    "id": "harvard",
+    "name": "Harvard University",
+    "state": "MA",
+    "type": "private",
+    "admissions": {
+      "acceptance_rate_overall": 0.03,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.03,
+      "acceptance_rate_out_state": 0.03
+    },
+    "scores": {
+      "sat_25": 1520,
+      "sat_75": 1580
+    },
+    "academics": {
+      "avg_gpa": 4.0
+    },
+    "cost": {
+      "tuition_in_state": 57000,
+      "tuition_out_state": 57000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Cambridge",
+      "enrollment": 21000,
+      "impacted_majors": [
+        "Economics",
+        "Computer Science"
+      ]
+    }
+  },
+  {
+    "id": "yale",
+    "name": "Yale University",
+    "state": "CT",
+    "type": "private",
+    "admissions": {
+      "acceptance_rate_overall": 0.04,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.04,
+      "acceptance_rate_out_state": 0.04
+    },
+    "scores": {
+      "sat_25": 1500,
+      "sat_75": 1570
+    },
+    "academics": {
+      "avg_gpa": 4.0
+    },
+    "cost": {
+      "tuition_in_state": 62000,
+      "tuition_out_state": 62000
+    },
+    "policy": {
+      "test_policy": "required"
+    },
+    "meta": {
+      "city": "New Haven",
+      "enrollment": 14000,
+      "impacted_majors": [
+        "History"
+      ]
+    }
+  },
+  {
+    "id": "upenn",
+    "name": "University of Pennsylvania",
+    "state": "PA",
+    "type": "private",
+    "admissions": {
+      "acceptance_rate_overall": 0.06,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.06,
+      "acceptance_rate_out_state": 0.06
+    },
+    "scores": {
+      "sat_25": 1510,
+      "sat_75": 1570
+    },
+    "academics": {
+      "avg_gpa": 3.9
+    },
+    "cost": {
+      "tuition_in_state": 58000,
+      "tuition_out_state": 58000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Philadelphia",
+      "enrollment": 22000,
+      "impacted_majors": [
+        "Finance",
+        "Nursing"
+      ]
+    }
+  },
+  {
+    "id": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "state": "MA",
+    "type": "private",
+    "admissions": {
+      "acceptance_rate_overall": 0.04,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.04,
+      "acceptance_rate_out_state": 0.04
+    },
+    "scores": {
+      "sat_25": 1530,
+      "sat_75": 1580
+    },
+    "academics": {
+      "avg_gpa": 4.0
+    },
+    "cost": {
+      "tuition_in_state": 57000,
+      "tuition_out_state": 57000
+    },
+    "policy": {
+      "test_policy": "required"
+    },
+    "meta": {
+      "city": "Cambridge",
+      "enrollment": 11000,
+      "impacted_majors": [
+        "Computer Science",
+        "Engineering"
+      ]
+    }
+  },
+  {
+    "id": "stanford",
+    "name": "Stanford University",
+    "state": "CA",
+    "type": "private",
+    "admissions": {
+      "acceptance_rate_overall": 0.04,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.04,
+      "acceptance_rate_out_state": 0.04
+    },
+    "scores": {
+      "sat_25": 1500,
+      "sat_75": 1570
+    },
+    "academics": {
+      "avg_gpa": 4.0
+    },
+    "cost": {
+      "tuition_in_state": 58000,
+      "tuition_out_state": 58000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Stanford",
+      "enrollment": 17000,
+      "impacted_majors": [
+        "Computer Science",
+        "Engineering"
+      ]
+    }
+  },
+  {
+    "id": "ucla",
+    "name": "University of California, Los Angeles",
+    "state": "CA",
+    "type": "public",
+    "admissions": {
+      "acceptance_rate_overall": 0.09,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.135,
+      "acceptance_rate_out_state": 0.045
+    },
+    "scores": {
+      "sat_25": null,
+      "sat_75": null
+    },
+    "academics": {
+      "avg_gpa": 3.9
+    },
+    "cost": {
+      "tuition_in_state": 14000,
+      "tuition_out_state": 45000
+    },
+    "policy": {
+      "test_policy": "blind"
+    },
+    "meta": {
+      "city": "Los Angeles",
+      "enrollment": 47000,
+      "impacted_majors": [
+        "Computer Science",
+        "Psychology"
+      ]
+    }
+  },
+  {
+    "id": "u_michigan",
+    "name": "University of Michigan",
+    "state": "MI",
+    "type": "public",
+    "admissions": {
+      "acceptance_rate_overall": 0.18,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.27,
+      "acceptance_rate_out_state": 0.09
+    },
+    "scores": {
+      "sat_25": 1390,
+      "sat_75": 1540
+    },
+    "academics": {
+      "avg_gpa": 3.9
+    },
+    "cost": {
+      "tuition_in_state": 17000,
+      "tuition_out_state": 55000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Ann Arbor",
+      "enrollment": 50000,
+      "impacted_majors": [
+        "Computer Science",
+        "Business"
+      ]
+    }
+  },
+  {
+    "id": "u_virginia",
+    "name": "University of Virginia",
+    "state": "VA",
+    "type": "public",
+    "admissions": {
+      "acceptance_rate_overall": 0.16,
+      "acceptance_rate_source": "estimated",
+      "acceptance_rate_in_state": 0.24,
+      "acceptance_rate_out_state": 0.08
+    },
+    "scores": {
+      "sat_25": 1410,
+      "sat_75": 1540
+    },
+    "academics": {
+      "avg_gpa": 3.9
+    },
+    "cost": {
+      "tuition_in_state": 19000,
+      "tuition_out_state": 54000
+    },
+    "policy": {
+      "test_policy": "optional"
+    },
+    "meta": {
+      "city": "Charlottesville",
+      "enrollment": 25000,
+      "impacted_majors": [
+        "Commerce",
+        "Nursing"
+      ]
+    }
+  }
+]
