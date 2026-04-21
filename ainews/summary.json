@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "title": "AI chip startup Cerebras files for IPO",
+    "url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
+    "industry": "Semiconductors",
+    "summary": "AI chip startup Cerebras has filed for an IPO after recent deals with AWS and OpenAI. The OpenAI deal is reportedly worth over $10 billion, signaling a strong market for specialized AI hardware.",
+    "charlotte_impact": "Cerebras' IPO and partnerships with major cloud providers underscore the high demand for specialized AI hardware. This impacts the entire semiconductor industry, forcing existing players like Nvidia and AMD to innovate and compete. It will also stimulate investment in new AI chip architectures and manufacturing processes. Successful IPOs will make further venture capital possible.",
+    "impact_score": 9
+  },
+  {
+    "title": "OpenAI\u2019s existential questions",
+    "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+    "industry": "AI Research",
+    "summary": "The latest episode of Equity discusses OpenAI's recent acquisitions and the existential questions they raise. This suggests that OpenAI may be facing challenges related to its business model or long-term sustainability.",
+    "charlotte_impact": "OpenAI's strategic direction and potential challenges influence the entire AI research field. It could impact the flow of talent, investment, and the types of research pursued. A shift in OpenAI's focus could open doors for alternative AI research models.",
+    "impact_score": 7
+  },
+  {
+    "title": "AI research lab NeoCognition lands $40M seed to build agents that learn like humans",
+    "url": "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/",
+    "industry": "AI Research",
+    "summary": "AI research lab NeoCognition has secured $40M in seed funding to develop AI agents that learn like humans. The company aims to create agents capable of becoming experts in various domains.",
+    "charlotte_impact": "Funding for AI agents capable of broad domain expertise indicates a push towards more generalized AI solutions. This could disrupt industries reliant on human experts, while simultaneously creating new opportunities for AI-driven automation and decision-making. It encourages investors to focus on the 'general AI' approach.",
+    "impact_score": 8
+  },
+  {
+    "title": "CEO and CFO suddenly depart AI nuclear power upstart Fermi",
+    "url": "https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/",
+    "industry": "Nuclear Energy",
+    "summary": "The CEO and CFO of AI nuclear power upstart Fermi have suddenly departed. The company, co-founded by Rick Perry, has faced challenges with its AI campus in Texas.",
+    "charlotte_impact": "The departure of key executives suggests potential problems within Fermi. The incident will likely cause investors and regulatory bodies to more rigorously scrutinize the application of AI in sensitive sectors such as nuclear energy. The impact is negative in the short-term.",
+    "impact_score": 6
+  },
+  {
+    "title": "Marvell pops on report it will help Google with custom AI chips. Broadcom shares sink",
+    "url": "https://www.cnbc.com/2026/04/20/marvell-stock-google-custom-ai-chips.html",
+    "industry": "Semiconductors",
+    "summary": "Marvell's stock is rising based on reports that it will help Google with custom AI chips. Broadcom's shares are dropping in comparison, and Marvell saw a $2 billion investment from Nvidia in March.",
+    "charlotte_impact": "This highlights the competitive landscape of the AI chip market. Custom AI chips are in high demand, and collaborations between chip manufacturers and tech giants are increasing. The focus on custom design will stimulate further innovation in the AI infrastructure space.",
+    "impact_score": 8
+  },
+  {
+    "title": "Clarifai deletes 3 million photos that OkCupid provided to train facial recognition AI, report says",
+    "url": "https://techcrunch.com/2026/04/21/clarifai-okcupid-facial-recognition-ai-ftc-settlement/",
+    "industry": "AI Ethics",
+    "summary": "Clarifai has deleted 3 million photos that OkCupid provided to train facial recognition AI following an FTC settlement. This action highlights the privacy concerns surrounding the use of personal data in AI development.",
+    "charlotte_impact": "The deletion of OkCupid user photos and the FTC settlement underscores the importance of data privacy and ethical considerations in AI. It will likely lead to stricter regulations and guidelines around data collection and usage for AI training, impacting companies involved in facial recognition and similar technologies. Companies will be forced to adopt more ethical data practices.",
+    "impact_score": 9
+  },
+  {
+    "title": "AI Dungeon maker Latitude unveils Voyage, a platform for creating AI-powered RPGs",
+    "url": "https://techcrunch.com/2026/04/21/voyage-is-an-ai-rpg-platform-for-creating-custom-gaming-worlds-with-ai-generated-npc-interactions/",
+    "industry": "Gaming",
+    "summary": "Latitude has launched Voyage, an AI-powered platform for creating AI-powered RPGs. This platform allows users to create custom gaming worlds with AI-generated NPC interactions.",
+    "charlotte_impact": "Voyage will accelerate the development of AI-driven content creation in the gaming industry. It will lower the barrier to entry for game developers and allow for the creation of more dynamic and personalized gaming experiences. This has the potential to transform indie game development.",
+    "impact_score": 7
+  },
+  {
+    "title": "Bond, a new social media platform, wants to use AI to help you kick your doomscrolling habit",
+    "url": "https://techcrunch.com/2026/04/21/bond-social-media-platform-ai-memories-kick-doomscrolling-habit/",
+    "industry": "Social Media",
+    "summary": "Bond, a new social media platform, aims to use AI to help users reduce doomscrolling. The platform's AI system is designed to motivate users to engage in real-world activities.",
+    "charlotte_impact": "Bond's approach to using AI for positive social impact represents a potential shift in the social media landscape. If successful, it could encourage other platforms to adopt similar strategies, addressing concerns about addiction and mental health. This would influence social media design principles.",
+    "impact_score": 6
+  },
+  {
+    "title": "YouTube expands its AI likeness detection technology to celebrities",
+    "url": "https://techcrunch.com/2026/04/21/youtube-expands-its-ai-likeness-detection-technology-to-celebrities/",
+    "industry": "Media",
+    "summary": "YouTube is expanding its AI likeness detection technology to celebrities. This gives talent and their representatives a way to find and remove deepfakes.",
+    "charlotte_impact": "YouTube's expansion of AI likeness detection will help protect celebrities from deepfake abuse. This is likely to set a precedent for other platforms and industries dealing with the challenges of synthetic media. It demonstrates that AI can be used to combat AI-generated harm.",
+    "impact_score": 8
+  },
+  {
+    "title": "AI Finds Its Best Customer on Main Street",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/ai-finds-its-best-customer-on-main-street/",
+    "industry": "Small Business",
+    "summary": "AI is finding success on Main Street, driven by the need for immediate ROI. Main Street businesses want AI solutions that quickly drive revenue, cut costs, or save time, not experiment.",
+    "charlotte_impact": "This indicates a growing adoption of AI in small businesses. Main Street\u2019s focus on practical applications shapes the kinds of AI tools that are developed and implemented, highlighting the need for affordable, user-friendly, and effective AI solutions that address real business problems.",
+    "impact_score": 7
+  },
+  {
+    "title": "AI company deleted OKCupid user photos, data after FTC scrutiny",
+    "url": "https://www.channelnewsasia.com/business/ai-company-deleted-okcupid-user-photos-data-after-ftc-scrutiny-6069196",
+    "industry": "AI Ethics",
+    "summary": "Clarifai deleted OkCupid user photos and facial-recognition models after FTC scrutiny. This action was in response to privacy violations related to data sharing between the two companies.",
+    "charlotte_impact": "This reiterates the importance of data governance and ethical considerations when training AI models. Companies must be transparent about their data practices and ensure compliance with privacy regulations. Violation of these principles leads to fines and negative brand consequences.",
+    "impact_score": 9
+  },
+  {
+    "title": "Printed neurons communicate with living brain cells: A computer efficiency boost?",
+    "url": "https://www.digitaljournal.com/tech-science/printed-neurons-communicate-with-living-brain-cells-a-computer-efficiency-boost/article",
+    "industry": "Neuroscience/Computing",
+    "summary": "Researchers have successfully printed neurons that can communicate with living brain cells. This could inspire more efficient computing architectures by mimicking the human brain.",
+    "charlotte_impact": "The development of printed neurons that interface with living brain cells is a significant step toward neuromorphic computing. By exploring the brain for inspiration, energy efficiency can be potentially increased by orders of magnitude. This could potentially revolutionize computing by producing faster and more efficient systems.",
+    "impact_score": 7
+  },
+  {
+    "title": "Grid Dynamics Scales Hyper-Personalization for Galeries Lafayette; Drives 7% Revenue Increase via AI-Powered Search and Merchandising",
+    "url": "https://apnews.com/press-release/business-wire/grid-dynamics-scales-hyper-personalization-for-galeries-lafayette-drives-7-revenue-increase-via-ai-powered-search-and-merchandising-7d69909c5c5b46d89dc046f8e5a0c070",
+    "industry": "Retail",
+    "summary": "Grid Dynamics has deployed AI-powered search and merchandising for Galeries Lafayette, resulting in a 7% revenue increase. This demonstrates the tangible benefits of AI-driven hyper-personalization in retail.",
+    "charlotte_impact": "The successful deployment of hyper-personalization in Galeries Lafayette showcases the direct ROI of AI in retail. This will encourage other retailers to invest in similar AI solutions to improve customer experience and increase sales. It demonstrates a measurable financial impact.",
+    "impact_score": 8
+  },
+  {
+    "title": "Apple names insider John Ternus as CEO, Cook to become executive chairman",
+    "url": "https://www.channelnewsasia.com/business/ternus-apple-ceo-cook-chairman-ai-mac-6069171",
+    "industry": "Technology",
+    "summary": "Apple named John Ternus as CEO and Cook becomes Executive Chairman. John Ternus is expected to lead Apple through its shift toward artificial intelligence and is seen as someone who \u201cwill bring fresh energy.\u201d",
+    "charlotte_impact": "John Ternus taking over as Apple CEO to lead its AI shift makes AI central to Apple's future strategy. It emphasizes the importance of AI across Apple's product lines and long term innovation. It will significantly shape the direction of one of the most influential technology companies in the world.",
+    "impact_score": 10
+  },
+  {
+    "title": "Apple names insider John Ternus as CEO, Cook to become executive chairman",
+    "url": "https://www.channelnewsasia.com/world/ternus-apple-ceo-cook-chairman-ai-mac-6069171",
+    "industry": "Technology",
+    "summary": "Apple named John Ternus as CEO and Cook becomes Executive Chairman. John Ternus is expected to lead Apple through its shift toward artificial intelligence and is seen as someone who \u201cwill bring fresh energy.\u201d",
+    "charlotte_impact": "John Ternus taking over as Apple CEO to lead its AI shift makes AI central to Apple's future strategy. It emphasizes the importance of AI across Apple's product lines and long term innovation. It will significantly shape the direction of one of the most influential technology companies in the world.",
+    "impact_score": 10
+  },
+  {
+    "title": "AI capabilities are needed to counter drone threats, senator says",
+    "url": "https://www.nextgov.com/emerging-tech/2026/04/ai-capabilities-are-needed-counter-drone-threats-senator-says/412987/",
+    "industry": "Defense",
+    "summary": "Sen. Deb Fischer stated that AI capabilities are needed to counter drone threats. The use of drones has changed modern conflicts and the U.S. needs to respond by better leveraging AI.",
+    "charlotte_impact": "This underscores the importance of AI in modern defense strategy. Investments in AI-powered counter-drone systems are set to increase, driving innovation and creating opportunities for tech companies in the defense sector. The government will need to prioritize funding and policy to enable faster adoption.",
+    "impact_score": 7
+  }
+]
