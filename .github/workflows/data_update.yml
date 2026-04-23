@@ -2,8 +2,9 @@ name: Charlotte Data Update
 
 on:
   schedule:
+    # Runs at 00:00 every day
     - cron: '0 0 * * *'
-  workflow_dispatch:
+  workflow_dispatch: 
     inputs:
       all_layers:
         description: 'Update ALL data layers (Full Sync)'
@@ -16,10 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: '3.10'
 
@@ -29,9 +30,9 @@ jobs:
           pip install requests
 
       - name: Run update script
+        working-directory: airealestate
         run: |
-          ALL_LAYERS="${{ github.event.inputs.all_layers || 'false' }}"
-          if [ "$ALL_LAYERS" == "true" ]; then
+          if [ "${{ github.event.inputs.all_layers }}" == "true" ]; then
             python scraper/scrape_data.py --all
           else
             python scraper/scrape_data.py
@@ -42,9 +43,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add airealestate/data/
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Data refresh: $(date)"
-            git push
-          fi
+          git commit -m "Data refresh (Rotation/Full): $(date)" || echo "No changes to commit"
+          git push
