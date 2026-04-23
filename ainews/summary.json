@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "title": "Google Cloud launches two new AI chips to compete with Nvidia",
+    "url": "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/",
+    "industry": "Cloud Computing, AI Hardware",
+    "summary": "Google Cloud launched new, faster, and cheaper TPU AI chips to compete with Nvidia, while still embracing Nvidia's GPUs in its cloud services, signifying a multi-vendor approach to AI infrastructure.",
+    "charlotte_impact": "The development of Google's new TPU chips will likely drive competition in the AI hardware market, potentially leading to lower costs and improved performance for businesses utilizing cloud-based AI services. This increased accessibility and efficiency could spur innovation across various industries and democratize access to cutting-edge AI technologies.",
+    "impact_score": 8
+  },
+  {
+    "title": "Google turns Chrome into an AI co-worker for the workplace",
+    "url": "https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/",
+    "industry": "Enterprise Software, AI Applications",
+    "summary": "Google is integrating Gemini-powered \"auto browse\" capabilities into Chrome for enterprise users, allowing for automated tasks like research and data entry, effectively creating an AI co-worker.",
+    "charlotte_impact": "The integration of AI into commonly used applications like Chrome will have a direct impact on office productivity. By automating routine tasks, employees can focus on higher-value activities, potentially leading to increased efficiency and improved business outcomes across industries.",
+    "impact_score": 9
+  },
+  {
+    "title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI \u2018super app\u2019",
+    "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+    "industry": "Artificial Intelligence, Software Development",
+    "summary": "OpenAI released GPT-5.5, claiming increased capabilities across a broad variety of categories, indicating a continued push towards creating an AI 'super app'.",
+    "charlotte_impact": "The release of GPT-5.5 means that the general capability of AI tools for tasks involving language and creative works improves, leading to higher productivity. The improved productivity can be used to reduce labor requirements or used to increase work product.",
+    "impact_score": 9
+  },
+  {
+    "title": "Google updates Workspace to make AI your new office intern",
+    "url": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
+    "industry": "Enterprise Software, AI Applications",
+    "summary": "Google is updating Workspace with new automated functions powered by Workspace Intelligence, its AI system, essentially making AI act as an office intern.",
+    "charlotte_impact": "The automated features in Google Workspace will enhance productivity by streamlining workflows, automating repetitive tasks, and improving collaboration. This can result in faster project completion, reduced operational costs, and increased employee satisfaction.",
+    "impact_score": 8
+  },
+  {
+    "title": "OpenAI teams up with Infosys to bring AI tools to more businesses",
+    "url": "https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/",
+    "industry": "Consulting, Software Development",
+    "summary": "OpenAI is partnering with Infosys to bring AI tools to more businesses, focusing on modernizing software development, automating workflows, and deploying AI systems.",
+    "charlotte_impact": "This collaboration will accelerate the adoption of AI across various industries by providing businesses with access to OpenAI's technologies and Infosys' consulting expertise. This increased accessibility will empower businesses to modernize their operations, improve efficiency, and drive innovation.",
+    "impact_score": 8
+  },
+  {
+    "title": "Sundar Pichai reaffirms $185 billion capex spending by Google in 2026",
+    "url": "https://economictimes.indiatimes.com/tech/technology/sundar-pichai-reaffirms-185-billion-capex-spending-by-google-in-2026/articleshow/130450916.cms",
+    "industry": "Cloud Computing, AI Infrastructure",
+    "summary": "Sundar Pichai reaffirmed Google's plan to spend $185 billion in 2026 on AI infrastructure, emphasizing AI's growing role in software development and security.",
+    "charlotte_impact": "Google's massive investment signifies the critical importance of AI infrastructure and will spur innovation in hardware, software, and AI-related services. This investment will also likely lead to job creation and economic growth within the tech sector and beyond.",
+    "impact_score": 10
+  },
+  {
+    "title": "Era raises $11M to build a software platform for AI gadgets",
+    "url": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
+    "industry": "AI Hardware, Consumer Electronics",
+    "summary": "Era raised $11M to build a software platform for AI gadgets, suggesting the emergence of new form factors for AI hardware, such as glasses, rings, and pendants.",
+    "charlotte_impact": "The emergence of AI-powered gadgets could lead to the creation of new product categories and business models. By providing the software platform, Era is positioning itself as a key enabler of AI hardware innovation and potentially capitalizing on the burgeoning market for AI-driven consumer devices.",
+    "impact_score": 7
+  },
+  {
+    "title": "AI galaxy hunters are adding to the global GPU crunch",
+    "url": "https://techcrunch.com/2026/04/23/ai-galaxy-hunters-are-adding-to-the-global-gpu-crunch/",
+    "industry": "Scientific Research, AI Hardware",
+    "summary": "Astronomers using GPUs for galaxy hunting are contributing to the global GPU shortage, highlighting the increasing demand for specialized hardware across various fields.",
+    "charlotte_impact": "The increasing demand for GPUs in scientific research amplifies the existing global GPU shortage, impacting various industries that rely on GPU-intensive computing, such as AI development, gaming, and data analytics. This shortage could lead to higher prices and longer lead times for GPU acquisition.",
+    "impact_score": 7
+  },
+  {
+    "title": "Hands on with X\u2019s new AI-powered custom feeds",
+    "url": "https://techcrunch.com/2026/04/22/hands-on-with-xs-new-ai-powered-custom-feeds/",
+    "industry": "Social Media, AI Applications, Advertising",
+    "summary": "X's new AI-powered custom timelines are replacing Communities, using Grok-curated feeds and introducing new ad slots.",
+    "charlotte_impact": "AI-powered content curation on social media platforms is becoming increasingly prevalent. This can lead to more personalized and engaging user experiences, but also raises concerns about filter bubbles and potential manipulation. The addition of new ad slots also indicates the platform's drive to monetize its AI features.",
+    "impact_score": 6
+  },
+  {
+    "title": "AI Overviews are coming to your Gmail at work",
+    "url": "https://techcrunch.com/2026/04/22/ai-overviews-are-coming-to-your-gmail-at-work/",
+    "industry": "Email Management, AI Applications",
+    "summary": "AI Overviews are coming to Gmail at work, offering instant summaries pulled from multiple emails, streamlining communication.",
+    "charlotte_impact": "The addition of AI-powered summaries to Gmail will improve email management by helping users quickly identify important information, reduce email clutter, and improve overall productivity. This feature will be particularly useful for businesses with high email volumes.",
+    "impact_score": 7
+  },
+  {
+    "title": "Google Will Spend Up to $185 Billion This Year to Power AI 'Agentic Era': CEO",
+    "url": "https://decrypt.co/365153/google-spend-185-billion-this-year-power-agentic-era-ai-ceo",
+    "industry": "Cloud Computing, AI Infrastructure",
+    "summary": "Google CEO Sundar Pichai announced the company will invest up to $185 billion this year to build the infrastructure behind autonomous AI agents.",
+    "charlotte_impact": "Google's massive investment underscores the growing importance of AI agents and autonomous systems. This level of investment will drive innovation in AI hardware, software, and algorithms, potentially leading to significant breakthroughs in various industries.",
+    "impact_score": 10
+  },
+  {
+    "title": "Amazon SageMaker AI now supports optimized generative AI inference recommendations",
+    "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations/",
+    "industry": "Cloud Computing, AI Software",
+    "summary": "Amazon SageMaker AI now supports optimized generative AI inference recommendations, which delivers validated, optimal deployment configurations with performance metrics.",
+    "charlotte_impact": "This improvement in SageMaker will allow model developers to focus on model building, by abstracting infrastructure optimization away. This improvement will reduce development time, and improve the ROI of AI investments.",
+    "impact_score": 7
+  },
+  {
+    "title": "AI to reshape financial market infrastructure, says State Bank of India chairman CS Setty",
+    "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/ai-to-reshape-financial-market-infrastructure-says-state-bank-of-india-chairman-cs-setty/articleshow/130450982.cms",
+    "industry": "Financial Services, AI Applications",
+    "summary": "State Bank of India chairman CS Setty anticipates AI will revolutionize financial markets by improving risk management and operational efficiency.",
+    "charlotte_impact": "The integration of AI into financial markets will enhance risk management, fraud detection, and operational efficiency, leading to a more stable and efficient financial system. Institutions like Clearing Corp of India will shift from post-trade processing to preemptive risk management, transforming the way financial institutions operate.",
+    "impact_score": 8
+  },
+  {
+    "title": "AI to reshape financial market infrastructure, says State Bank of India chairman CS Setty",
+    "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/ai-to-reshape-financial-market-infrastructure-says-state-bank-of-india-chairman-cs-setty/articleshow/130454181.cms",
+    "industry": "Financial Services, AI Applications",
+    "summary": "State Bank of India chairman CS Setty anticipates AI will revolutionize financial markets by improving risk management and operational efficiency.",
+    "charlotte_impact": "The integration of AI into financial markets will enhance risk management, fraud detection, and operational efficiency, leading to a more stable and efficient financial system. Institutions like Clearing Corp of India will shift from post-trade processing to preemptive risk management, transforming the way financial institutions operate.",
+    "impact_score": 8
+  },
+  {
+    "title": "TSMC plans to open chip packaging plant in Arizona by 2029, executive says",
+    "url": "https://economictimes.indiatimes.com/tech/technology/tsmc-plans-to-open-chip-packaging-plant-in-arizona-by-2029-executive-says/articleshow/130450997.cms",
+    "industry": "Semiconductors, AI Hardware",
+    "summary": "TSMC plans to open a chip packaging plant in Arizona by 2029, addressing the supply bottleneck for advanced packaging technologies used in modern AI chips.",
+    "charlotte_impact": "TSMC's investment in advanced chip packaging will alleviate the supply bottleneck for high-performance AI chips, boosting the output and innovation of the semiconductor industry and potentially creating jobs in the region and improved availability of AI compute.",
+    "impact_score": 8
+  },
+  {
+    "title": "Google Cloud, Wiz Unveil Agentic Defense at Next \u201926",
+    "url": "https://www.iphoneincanada.ca/2026/04/22/google-cloud-wiz-unveil-agentic-defense-at-next-26/",
+    "industry": "Cloud Security, AI Security",
+    "summary": "Google Cloud and Wiz unveiled Agentic Defense at Next '26, introducing new tools to secure AI agents, mitigate shadow AI, and automate threat response.",
+    "charlotte_impact": "With increasing adoption of AI agents, security has become paramount, as illustrated by the unveiling of Agentic Defense. This capability aims to protect companies from shadow AI risks and proactively defend against AI threats.",
+    "impact_score": 9
+  },
+  {
+    "title": "How SpaceX preempted a $2B fundraise with a $60B buyout offer",
+    "url": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
+    "industry": "Artificial Intelligence, Acquisition",
+    "summary": "SpaceX preempted a $2B fundraise by Cursor with a $10 billion collaboration fee and a path to a $60 billion acquisition, signaling a major strategic move in the AI space.",
+    "charlotte_impact": "The acquisition of Cursor by SpaceX highlights the growing value and strategic importance of AI companies, and it illustrates a large company's willingness to aggressively move into a market. It will further integrate AI into SpaceX's operations and products.",
+    "impact_score": 8
+  },
+  {
+    "title": "AI is spitting out more potential drugs than ever. This startup wants to figure out which ones matter.",
+    "url": "https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter/",
+    "industry": "Pharmaceuticals, AI Drug Discovery",
+    "summary": "10x Science raised a $4.8 million seed round to help pharmaceutical researchers understand complex molecules, addressing the challenge of validating AI-generated drug candidates.",
+    "charlotte_impact": "AI is accelerating the generation of drug candidates, and 10x Science is working to help validate the efficacy of AI predictions. This type of company will become increasingly important as the number of AI-generated drugs increase.",
+    "impact_score": 7
+  },
+  {
+    "title": "Pope\u2019s Anti-AI Warnings May Be AI-Written, Detection Tool Claims",
+    "url": "https://decrypt.co/365151/pope-anti-ai-warnings-ai-written-detection-tool",
+    "industry": "AI Ethics, Misinformation",
+    "summary": "An AI detection tool claimed that some of the Pope's anti-AI warnings may have been AI-written, raising questions about the potential for AI to be used for misinformation, even on topics about AI ethics.",
+    "charlotte_impact": "This highlights the difficulty in detecting AI-generated content and the potential for the technology to be used to mislead people, even on topics related to AI ethics.",
+    "impact_score": 6
+  },
+  {
+    "title": "SpaceX Will Buy Cursor",
+    "url": "https://www.nextbigfuture.com/2026/04/spacex-will-buy-cursor.html",
+    "industry": "Artificial Intelligence, Acquisition",
+    "summary": "SpaceX will buy Cursor after Cursor attained $2B ARR (annual recurring revenue as of February 2026). The brand-new partnership with xAI/SpaceX gives them massive Colossus supercomputing power.",
+    "charlotte_impact": "The acquisition of Cursor by SpaceX highlights the growing value and strategic importance of AI companies. It will further integrate AI into SpaceX's operations and products.",
+    "impact_score": 8
+  }
+]
