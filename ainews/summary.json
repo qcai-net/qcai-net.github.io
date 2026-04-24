@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "title": "In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPUs",
+    "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+    "industry": "Semiconductors, Cloud Computing, AI",
+    "summary": "Meta has signed a deal with Amazon for millions of Amazon's AI CPUs for agentic AI workloads, indicating a growing diversity in AI hardware beyond GPUs.",
+    "charlotte_impact": "This signals a diversification in AI chip demand, benefiting CPU manufacturers and potentially impacting GPU market dynamics. Companies dependent on GPUs may need to reassess their hardware strategies. It validates the rise of specialized hardware architectures for AI, impacting cloud providers who must offer varied solutions.",
+    "impact_score": 9
+  },
+  {
+    "title": "Bret Taylor\u2019s Sierra buys YC-backed AI startup Fragment",
+    "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+    "industry": "AI, Customer Service",
+    "summary": "Sierra, Bret Taylor's AI customer service startup, acquires Fragment, a YC-backed AI startup, expanding Sierra's capabilities and market reach.",
+    "charlotte_impact": "This acquisition underscores the trend of consolidation in the AI-powered customer service space, with larger players acquiring smaller, innovative startups. This could lead to improved customer service solutions but also increased market concentration.",
+    "impact_score": 7
+  },
+  {
+    "title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI \u2018super app\u2019",
+    "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+    "industry": "AI, Software",
+    "summary": "OpenAI releases GPT-5.5, with OpenAI aiming to create an AI 'super app'.",
+    "charlotte_impact": "The release of GPT-5.5 is another step in the continuous improvement of language models. It suggests that OpenAI is aggressively pushing toward a more comprehensive and integrated AI platform which will impact the AI landscape.",
+    "impact_score": 8
+  },
+  {
+    "title": "Google updates Workspace to make AI your new office intern",
+    "url": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
+    "industry": "Software, Productivity",
+    "summary": "Google updates Workspace with AI-driven features, automating tasks and enhancing productivity.",
+    "charlotte_impact": "Integrating AI into productivity suites will likely become the norm. Companies not embracing these changes may face a competitive disadvantage as automation increases efficiency.",
+    "impact_score": 8
+  },
+  {
+    "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
+    "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
+    "industry": "Hardware, AI",
+    "summary": "Mac mini prices surge on eBay due to shortages driven by demand for local AI model execution.",
+    "charlotte_impact": "The increased demand for Mac Minis as a local AI compute device shows the increasing importance of running AI models locally. As a result, we will likely see more powerful, yet still compact, computers from Apple as well as from other companies.",
+    "impact_score": 6
+  },
+  {
+    "title": "Nothing introduces an AI-powered dictation tool",
+    "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
+    "industry": "Mobile, AI",
+    "summary": "Nothing introduces an AI-powered dictation tool supporting over 100 languages.",
+    "charlotte_impact": "This is representative of the trend of more AI functionality being placed directly into mobile devices. This will help improve mobile device sales as well as improve the usability of those devices.",
+    "impact_score": 5
+  },
+  {
+    "title": "DeepSeek previews new AI model that \u2018closes the gap\u2019 with frontier models",
+    "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
+    "industry": "AI",
+    "summary": "DeepSeek previews a new AI model that has closed the gap with frontier models on reasoning benchmarks.",
+    "charlotte_impact": "This highlights the fierce competition in the AI foundation model landscape. DeepSeek's claims, if validated, could significantly alter the competitive landscape and potentially make high-performing AI more accessible.",
+    "impact_score": 8
+  },
+  {
+    "title": "Era raises $11M to build a software platform for AI gadgets",
+    "url": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
+    "industry": "AI, Hardware",
+    "summary": "Era raises $11M to build a software platform for AI gadgets, anticipating diverse AI hardware form factors.",
+    "charlotte_impact": "This funding validates the expectation that AI will proliferate across various hardware devices beyond smartphones and computers. It creates opportunities for software developers to build specialized applications for these new form factors, while also presenting challenges in ensuring seamless integration and user experience.",
+    "impact_score": 7
+  },
+  {
+    "title": "AI galaxy hunters are adding to the global GPU crunch",
+    "url": "https://techcrunch.com/2026/04/23/ai-galaxy-hunters-are-adding-to-the-global-gpu-crunch/",
+    "industry": "AI, Science",
+    "summary": "AI-driven galaxy hunters contribute to the global GPU crunch, intensifying hardware scarcity.",
+    "charlotte_impact": "This indicates that scientific research is also contributing to GPU shortages. This could slow advancements in scientific fields reliant on AI and GPU-intensive computing. It also reinforces the need for efficient GPU resource allocation and alternative computing architectures.",
+    "impact_score": 6
+  },
+  {
+    "title": "Hands on with X\u2019s new AI-powered custom feeds",
+    "url": "https://techcrunch.com/2026/04/22/hands-on-with-xs-new-ai-powered-custom-feeds/",
+    "industry": "Social Media, AI",
+    "summary": "X introduces AI-powered custom feeds, replacing Communities and incorporating new ad slots.",
+    "charlotte_impact": "This signifies social media platforms are increasingly relying on AI for content curation and personalization. The integration of ads into AI-curated feeds could improve ad targeting and revenue generation for social media companies, while raising concerns about filter bubbles and echo chambers.",
+    "impact_score": 6
+  },
+  {
+    "title": "Cloudsmith Raises $72 Million to Secure AI-Driven Software Development",
+    "url": "https://www.pymnts.com/news/investment-tracker/2026/cloudsmith-raises-72-million-to-secure-ai-driven-software-development/",
+    "industry": "Cybersecurity, AI",
+    "summary": "Cloudsmith raises $72 million to secure AI-driven software development, targeting the growing need for secure software supply chains.",
+    "charlotte_impact": "The funding highlights the critical importance of security in the context of AI-driven software development. Investment in cybersecurity and artifact management should continue to grow alongside the investment in AI.",
+    "impact_score": 7
+  },
+  {
+    "title": "Software stocks plunge on ServiceNow, IBM results as AI fears escalate",
+    "url": "https://www.cnbc.com/2026/04/23/software-stocks-plunge-on-servicenow-ibm-results-ai-fears-escalate.html",
+    "industry": "Software",
+    "summary": "Software stocks plunge due to ServiceNow and IBM results, with AI fears escalating.",
+    "charlotte_impact": "The article highlights a correction in valuation of software stocks given increased fears of their current products being displaced by AI. This shows a correction in overvaluation due to AI hype.",
+    "impact_score": 7
+  },
+  {
+    "title": "Ryan Roslansky steps down as LinkedIn CEO, signals next phase under Satya Nadella\u2019s AI push",
+    "url": "https://www.livemint.com/companies/people/ryan-roslansky-steps-down-as-linkedin-ceo-signals-next-phase-under-satya-nadella-s-ai-push-11776962227046.html",
+    "industry": "Social Media, HR Tech",
+    "summary": "Ryan Roslansky steps down as LinkedIn CEO, signaling a new phase under Satya Nadella's AI push.",
+    "charlotte_impact": "Leadership changes at major tech companies often signify a strategic shift towards AI. This shift indicates a desire to more tightly integrate LinkedIn with AI initiatives.",
+    "impact_score": 6
+  },
+  {
+    "title": "Amex Leans on Millennials and AI as Card Spending Accelerates",
+    "url": "https://www.pymnts.com/earnings/2026/amex-leans-on-millennials-and-ai-as-card-spending-accelerates/",
+    "industry": "Finance",
+    "summary": "American Express is leaning on Millennials and AI as card spending accelerates.",
+    "charlotte_impact": "Amex's emphasis on Millennials and AI suggests a focus on leveraging data and younger demographics for growth. This strategy will likely drive personalized financial products and services powered by AI.",
+    "impact_score": 5
+  },
+  {
+    "title": "How SpaceX preempted a $2B fundraise with a $60B buyout offer",
+    "url": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
+    "industry": "Funding, Technology",
+    "summary": "SpaceX offered Cursor a $10B collaboration fee and a path to a $60B acquisition, preempting a $2B fundraise.",
+    "charlotte_impact": "The news about Cursor shows that the top AI companies have an extremely high desire to acquire promising AI companies. Smaller companies who are looking for an exit, rather than continue down the VC route, may welcome such overtures.",
+    "impact_score": 7
+  },
+  {
+    "title": "Meet Noscroll, an AI bot that does your doomscrolling for you",
+    "url": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
+    "industry": "AI, Social Media",
+    "summary": "Noscroll is an AI bot that does your doomscrolling for you.",
+    "charlotte_impact": "This is an emerging use-case of AI that should be monitored. It indicates the increasing concerns with social media addiction.",
+    "impact_score": 4
+  },
+  {
+    "title": "India\u2019s app market is booming \u2014 but global platforms are capturing most of the gains",
+    "url": "https://techcrunch.com/2026/04/22/indias-app-market-is-booming-but-global-platforms-are-capturing-most-of-the-gains/",
+    "industry": "Apps, Mobile",
+    "summary": "India\u2019s app market is booming \u2014 but global platforms are capturing most of the gains.",
+    "charlotte_impact": "While India's app market grows, the dominant position of global platforms underscores the challenges local developers face in gaining traction. AI-driven apps are contributing to the growth, but their benefits are primarily accruing to established players.",
+    "impact_score": 4
+  },
+  {
+    "title": "AI and the Unintended Self",
+    "url": "https://www.psychologytoday.com/us/blog/the-digital-self/202604/ai-and-the-unintended-self",
+    "industry": "AI, Psychology",
+    "summary": "Artificial intelligence may change the one within us.",
+    "charlotte_impact": "This article highlights the broader societal impact of AI beyond business and economics, emphasizing the potential psychological effects. Companies developing and deploying AI should consider the ethical and social implications of their technologies.",
+    "impact_score": 4
+  },
+  {
+    "title": "From Tea Leaves to AI: Why Today's High-Tech Predictions Are So Dangerous",
+    "url": "https://www.cnet.com/tech/services-and-software/ai-prediction-machine-learning-algorithms-prophecy-power-commentary/",
+    "industry": "AI, Forecasting",
+    "summary": "From Tea Leaves to AI: Why Today's High-Tech Predictions Are So Dangerous",
+    "charlotte_impact": "This is a criticism of trusting AI prediction systems for forecasting. This highlights the dangers of trusting in models that may have been built poorly or otherwise produce inaccurate results.",
+    "impact_score": 3
+  },
+  {
+    "title": "Stream It Or Skip It: \u2018The AI Doc: Or How I Became an Apocaloptimist\u2019 on VOD, an Examination of Humanity\u2019s Biggest Existential Threat Yet",
+    "url": "https://decider.com/2026/04/23/the-ai-doc-movie-stream-it-or-skip-it/",
+    "industry": "AI, Entertainment",
+    "summary": "\u2018The AI Doc: Or How I Became an Apocaloptimist\u2019 on VOD, an Examination of Humanity\u2019s Biggest Existential Threat Yet",
+    "charlotte_impact": "This article points to the increasing awareness of the existential dangers of AI. These type of warnings may spur new safety regulations to be considered.",
+    "impact_score": 3
+  }
+]
