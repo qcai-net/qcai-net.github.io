@@ -17,9 +17,15 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    defaults:
+      run:
+        working-directory: airealestate
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          # Checkout the whole repo
+          path: '.'
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -29,7 +35,7 @@ jobs:
       - name: Debug - List files
         run: |
           echo "Current working directory: $(pwd)"
-          ls -R
+          ls -R ..
 
       - name: Install dependencies
         run: |
@@ -37,7 +43,7 @@ jobs:
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           else
-            echo "requirements.txt not found! Installing requests manually as a fallback."
+            echo "requirements.txt not found in $(pwd)! Installing requests manually as a fallback."
             pip install requests
           fi
 
