@@ -2,161 +2,161 @@
   {
     "title": "人工智能芯片的另一个疯狂转变，Meta 签署了数百万亚马逊人工智能 CPU 的协议",
     "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-    "industry": "Semiconductors, Cloud Computing",
-    "summary": "Meta 已签署了一项为亚马逊定制设计数百万个用于 AI 工作负载的 CPU 的协议，这标志着向基于 CPU 的 AI 处理的转变以及 AI 芯片竞赛的新战线。",
-    "charlotte_impact": "这笔交易标志着人工智能计算策略的多样化，表明 CPU 可以有效地处理某些人工智能代理工作负载。这对数据中心基础设施产生了影响，将焦点从单纯的 GPU 转移开。任何想要投资人工智能硬件的公司都应该将重点扩大到 CPU 作为替代方案。",
+    "industry": "Semiconductors, AI, Cloud Computing",
+    "summary": "Meta 已与亚马逊签署协议，购买数百万个亚马逊自主研发的 CPU，用于处理 AI 代理工作负载，这表明 AI 的硬件需求正在向多样化转变。",
+    "charlotte_impact": "这笔交易标志着人工智能芯片市场的竞争日益激烈，各公司正在探索传统 GPU 的替代品，这可能会影响 NVIDIA 和 AMD 等老牌半导体制造商。对代理 AI CPU 的关注凸显了高效、可扩展的计算解决方案日益增长的重要性。芯片市场竞争的加剧可能会导致价格下降和进一步创新。",
     "impact_score": 9
   },
   {
     "title": "Bret Taylor 的 Sierra 收购了 YC 支持的人工智能初创公司 Fragment",
     "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-    "industry": "Customer Service, AI",
-    "summary": "Bret Taylor 旗下 AI 客服代理初创公司 Sierra 收购了 YC 支持的法国初创公司 Fragment，以增强其 AI 客服能力。",
-    "charlotte_impact": "Sierra 对 Fragment 的收购表明人工智能客户服务市场的持续整合，较大的参与者收购较小的创新公司。这通过提高创新门槛并创造退出机会来影响这一利基市场的初创企业。部署人工智能客户服务解决方案的企业受益于通过集成技术改进的服务产品。",
+    "industry": "Customer Service, AI, SaaS",
+    "summary": "Bret Taylor 创立的人工智能客户服务代理初创公司 Sierra 收购了 YC 支持的人工智能初创公司 Fragment，以增强其人工智能客户服务产品。",
+    "charlotte_impact": "此次收购标志着人工智能驱动的客户服务领域的进一步整合。 Sierra 通过整合 Fragment 的技术来巩固其地位，从而推出更全面、更具竞争力的产品。此次收购可能会为企业带来更复杂、更高效的人工智能客户服务解决方案，从而影响传统的呼叫中心模式。业务影响表明客户交互中存在人工智能驱动自动化的趋势，不适应的公司将失去市场份额。",
     "impact_score": 7
   },
   {
     "title": "OpenAI 发布 GPT-5.5，让公司离 AI“超级应用”又近了一步",
     "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-    "industry": "AI Models, Software",
-    "summary": "OpenAI 发布了 GPT-5.5，增强了其 AI 模型在各种应用程序中的功能，并使该公司更接近构建 AI“超级应用程序”。",
-    "charlotte_impact": "GPT-5.5 的发布通过在不同行业支持更复杂的人工智能应用程序而产生了广泛的业务影响。这为企业创造了将先进的人工智能功能集成到其产品和服务中的新机会，有可能颠覆现有的商业模式。人工智能超级应用的发展可能会巩固用户活跃度，并在人工智能平台市场上形成赢家通吃的局面。",
+    "industry": "AI, Software",
+    "summary": "OpenAI 发布了 GPT-5.5，该公司表示，该版本在多种类别中提供了增强的功能，使该公司更接近人工智能“超级应用程序”。",
+    "charlotte_impact": "GPT-5.5的发布可能会加速人工智能在各行业的采用。模型功能的增强将使企业能够开发更复杂的人工智能应用程序，从而实现创新并提高效率。人工智能“超级应用程序”的发展表明，人工智能将越来越多地融入日常工作流程和流程中，影响公司的运营和竞争方式。这可能会推动对人工智能人才和基础设施的需求，为专门从事人工智能解决方案和服务的公司创造机会。",
     "impact_score": 10
   },
   {
-    "title": "在 SpaceX，人工智能正在烧掉 Starlink 赚取的现金",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/at-spacex-ai-is-burning-the-cash-that-starlink-earns/articleshow/130491240.cms",
-    "industry": "Aerospace, AI",
-    "summary": "SpaceX 的人工智能部门 xAI 正在消耗大量资金，影响了该公司的 IPO 战略。虽然 Starlink 的收入抵消了太空部门的损失，但大量投资正在转向 xAI。",
-    "charlotte_impact": "对 xAI 的投资规模正在影响 SpaceX 的盈利能力，并表明了公司长期愿景中对人工智能的战略重要性。这强调了人工智能在各个行业中日益重要的作用，甚至是那些传统上专注于其他技术的行业。投资者应仔细分析人工智能投资对公司整体业绩的财务影响。",
+    "title": "亚马逊支持的一家新的好莱坞制作初创公司如何部署人工智能以提高速度并削减成本",
+    "url": "https://www.cnbc.com/2026/04/24/an-aws-backed-hollywood-startup-deploys-ai-for-speed-and-cost-cutting.html",
+    "industry": "Entertainment, AI, Film Production",
+    "summary": "一家亚马逊支持的好莱坞制作初创公司正在利用人工智能来削减成本并加快拍摄速度，这可能会将就业机会带回洛杉矶。",
+    "charlotte_impact": "在好莱坞制作中使用人工智能可能会极大地改变电影制作的经济性，并有可能颠覆传统的制作模式。通过利用人工智能执行脚本分析、预可视化和编辑等任务，制作公司可以显着降低成本并加快制作进度。这有可能振兴好莱坞并吸引娱乐业投资，但这可能会影响熟练劳动力市场。",
     "impact_score": 8
   },
   {
     "title": "随着创作者寻求对人工智能生成媒体的更多控制权，ComfyUI 估值达到 5 亿美元",
     "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
-    "industry": "AI Media Generation, Venture Capital",
-    "summary": "ComfyUI 是一款让创作者更好地控制人工智能生成媒体的工具，在筹集 3000 万美元后，估值达到 5 亿美元。",
-    "charlotte_impact": "ComfyUI 的高估值反映出人们对能够对人工智能生成的内容提供更好的控制和定制的工具的需求不断增长。它展示了为人工智能领域的创作者提供支持、实现更复杂和个性化媒体制作的公司的巨大市场机会。它还表明投资者认为个人控制人工智能的趋势很重要。",
+    "industry": "AI, Creative Tools",
+    "summary": "ComfyUI 是一款让创作者能够更好地控制 AI 图像、视频和音频生成的工具，该工具筹集了 3000 万美元，使该公司估值达到 5 亿美元。",
+    "charlotte_impact": "对 ComfyUI 的投资表明，人们对工具的需求不断增长，这些工具可以让创作者对人工智能生成的内容有更大的控制和定制能力。创意产业正在迅速采用人工智能，但需要一种允许创作者微调和个性化输出的工具。这项投资可能会加速更复杂的人工智能创作工具的开发，促进创意领域的创新。",
     "impact_score": 7
   },
   {
     "title": "由于人工智能导致的短缺，高价 Mac mini 充斥 eBay",
     "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
     "industry": "Hardware, AI",
-    "summary": "由于 Mac mini 适合运行本地人工智能模型和工具，对 Mac mini 的需求激增，导致 eBay 上出现短缺和价格上涨。",
-    "charlotte_impact": "Mac mini 的短缺表明对本地 AI 处理能力的需求不断增加。这凸显了现成的、功能强大的硬件对于人工智能开发和部署的重要性。价格飙升反映了供需不平衡，这表明硬件制造商有潜在的机会来满足对人工智能设备不断增长的需求。",
+    "summary": "由于适合运行本地人工智能模型和工具，随着需求的增加，苹果公司的 Mac mini 已售罄，在 eBay 上的售价也很高。",
+    "charlotte_impact": "Mac mini 需求的激增表明人们对在本地运行人工智能模型而不是仅仅依赖基于云的服务越来越感兴趣。这一趋势可能是由隐私问题、低延迟处理的需求以及对人工智能模型更大控制的愿望推动的。对本地人工智能处理优化硬件的需求增加可能会推动芯片设计和硬件制造的创新。",
     "impact_score": 6
+  },
+  {
+    "title": "没有什么介绍人工智能驱动的听写工具",
+    "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
+    "industry": "Consumer Electronics, AI",
+    "summary": "Nothing推出了支持 100 多种语言的人工智能听写工具，增强了其设备功能。",
+    "charlotte_impact": "这是消费电子产品的普遍趋势，但它是对 Nothing 的重要更新。集成听写工具等人工智能功能可以增强用户体验，并使产品在竞争激烈的市场中脱颖而出。对语言支持的关注也表明该公司正在吸引全球受众。不会对业务产生重大影响。",
+    "impact_score": 4
   },
   {
     "title": "DeepSeek 预览了新的人工智能模型，该模型与前沿模型“缩小了差距”",
     "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
-    "industry": "AI Models",
-    "summary": "DeepSeek 预览了其新的人工智能模型，声称它在性能和效率方面“缩小了与领先人工智能模型的差距”，特别是在推理基准方面。",
-    "charlotte_impact": "DeepSeek 的模型更新表明，人工智能模型的竞争格局正在加剧，各公司都在努力赶上或超越领先平台的性能。这为人工智能解决方案提供了更多选择并可能降低成本，从而使企业受益。它还促使开发人员在开发新模型时关注性能和成本效率。",
+    "industry": "AI, Technology",
+    "summary": "DeepSeek 预览了新的人工智能模型，声称已经“缩小了与前沿模型的差距”，表明效率和性能得到了提高。",
+    "charlotte_impact": "DeepSeek 作为一种竞争性人工智能模型的出现，凸显了人工智能霸主地位的持续竞争以及新参与者挑战既定领导者的潜力。声称提高效率和性能可能会给 OpenAI、Google 和 Anthropic 带来价格压力。这表明人工智能的发展速度更快，先进的人工智能功能的使用范围更广。",
     "impact_score": 8
   },
   {
     "title": "Era 筹集了 1100 万美元，用于构建人工智能设备的软件平台",
     "url": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
-    "industry": "AI Hardware, Venture Capital",
-    "summary": "Era 筹集了 1100 万美元，用于开发适用于眼镜、戒指和吊坠等多种人工智能设备的软件平台，这标志着专业人工智能硬件的新兴市场。",
-    "charlotte_impact": "Era 的融资反映了人们对传统设备之外的人工智能日益增长的兴趣。这预示着人工智能将嵌入各种可穿戴和便携式设备的未来。这对硬件制造商和软件开发商产生了影响，要求他们创建针对新颖设备优化的人工智能解决方案，从而带来潜在的新收入来源。",
+    "industry": "AI, Hardware, Software",
+    "summary": "Era 筹集了 1100 万美元来构建 AI 小工具的软件平台，押注于各种 AI 硬件外形尺寸的激增。",
+    "charlotte_impact": "这笔资金强调了人工智能将被集成到智能手机和计算机以外的各种设备中的信念。开发专门针对人工智能设备的软件平台表明需要一种标准化且有效的方法来跨不同硬件管理和部署人工智能应用程序。未来几年，人工智能应用商店风格趋势可能会出现爆炸性的创新和竞争。",
     "impact_score": 7
   },
   {
-    "title": "AI 星系猎人正在加剧全球 GPU 紧缺",
-    "url": "https://techcrunch.com/2026/04/23/ai-galaxy-hunters-are-adding-to-the-global-gpu-crunch/",
-    "industry": "Astronomy, AI, Semiconductors",
-    "summary": "天文学中的人工智能应用，特别是星系搜寻，正在加剧全球 GPU 紧缺，凸显了对高性能计算的广泛需求。",
-    "charlotte_impact": "这表明科学研究对 GPU 的依赖日益增加，进一步加剧了本已有限的供应。这表明需要更高效的硬件和算法来满足对计算能力不断增长的需求。严重依赖 GPU 的行业可能需要探索替代硬件或基于云的解决方案，以减轻成本和可用性问题。",
+    "title": "OpenAI 的 GPT-5.5 与 Claude Opus 4.7：哪个更好？",
+    "url": "https://sea.mashable.com/tech/44766/openais-gpt-55-vs-claude-opus-47-which-is-better",
+    "industry": "AI, Technology",
+    "summary": "对 OpenAI 的 GPT-5.5 和 Claude Opus 4.7 在基准、排行榜和整体功能集方面进行了比较。",
+    "charlotte_impact": "详细的比较显示了领先的人工智能模型之间持续的竞争，为企业和消费者提供了有关其相对优势和劣势的见解。透明的绩效评估推动创新，并帮助用户就采用哪些模型做出明智的决定。影响将体现在模型改进和微调方面。",
     "impact_score": 5
   },
   {
-    "title": "分析师排名和企业采购团队揭示了如何选择机器人人工智能数据合作伙伴",
-    "url": "https://www.globenewswire.com/news-release/2026/04/24/3280683/0/en/What-Analyst-Rankings-and-Enterprise-Procurement-Teams-Reveal-About-Choosing-an-AI-Data-Partner-for-Robotics.html",
-    "industry": "Robotics, AI",
-    "summary": "TELUS Digital 概述了企业评估机器人人工智能数据合作伙伴的五项标准，强调了数据质量和治理在机器人应用中的重要性。",
-    "charlotte_impact": "这为企业提供了一个框架，用于选择合适的机器人人工智能数据合作伙伴，帮助他们优化投资回报率并降低风险。明确的评估标准对于人工智能驱动的机器人项目的成功至关重要，确保数据准确、可靠并符合道德和监管标准。对负责任的数据处理的关注可以建立信任并确保机器人部署的长期可行性。",
-    "impact_score": 6
+    "title": "Meta 通过新一轮裁员加大人工智能投入",
+    "url": "https://www.iphoneincanada.ca/2026/04/24/meta-doubles-down-on-ai-with-new-layoffs/",
+    "industry": "Technology, Social Media, AI",
+    "summary": "Meta 正在裁员约 10% 的全球员工，因为该公司更加积极地转向人工智能。",
+    "charlotte_impact": "Meta 的裁员虽然对受影响的人来说是不幸的，但突显了该公司向人工智能的战略转变以及自动化带来的工作岗位流失的可能性。此举表明 Meta 正在优先考虑人工智能投资并简化其运营，以在不断发展的人工智能领域保持竞争力。这对劳动力市场来说是一个坏兆头。",
+    "impact_score": 8
   },
   {
-    "title": "中国计划在未经政府批准的情况下阻止美国对其顶级人工智能公司进行投资",
-    "url": "https://thenextweb.com/news/china-us-investment-ai-startups-approval/",
-    "industry": "AI, Geopolitics, Investment",
-    "summary": "中国计划限制美国对其领先人工智能公司的投资，并需要政府批准，这标志着中美人工智能技术竞赛的升级。",
-    "charlotte_impact": "此举加剧了人工智能领域的地缘政治竞争，影响了国际投资和合作。美国投资者在投资中国人工智能公司时面临越来越多的监管障碍，可能会阻碍创新和市场准入。这给两国经营的企业带来了不确定性，并凸显了人工智能在全球权力动态中日益增长的战略重要性。",
+    "title": "DeepSeek V4将百万代币上下文压缩到V3.2内存的10%，与OpenAI升级中国AI效率战",
+    "url": "https://wccftech.com/deepseek-v4-cuts-kv-cache-by-90-at-1m-tokens-but-aggressive-compression-could-risk-needle-in-a-haystack-failures/",
+    "industry": "AI, Cloud Computing",
+    "summary": "DeepSeek V4号称大幅减少代币推理所需的计算资源和内存资源，使中国的AI效率战升级。",
+    "charlotte_impact": "DeepSeek V4取得的进展凸显了中国在人工智能竞赛中日益增强的竞争力。提高效率和减少资源消耗使人工智能模型更易于访问且部署成本更低，从而有可能加速各个领域的采用。这凸显了投资人工智能基础设施和人才以保持全球竞争力的重要性。此外，这是一个国家安全问题。",
     "impact_score": 9
   },
   {
-    "title": "中国 DeepSeek 推出人工智能模型更新",
-    "url": "https://www.kiro7.com/news/business/chinas-deepseek/SDBKXJWGOE237FPCM4IXCJL6JY/",
-    "industry": "AI Models",
-    "summary": "中国人工智能初创公司 DeepSeek 推出了最新主要人工智能模型更新的预览版，可能会影响全球人工智能市场。",
-    "charlotte_impact": "DeepSeek 的新人工智能模型有可能通过提供现有模型的替代方案来颠覆人工智能格局。当其他公司试图竞争时，这可能会降低成本并加速人工智能领域的创新。然而，它也带来了有关人工智能地缘政治优势的问题，各国可能会开始根据原产国来规范对人工智能模型的访问。",
-    "impact_score": 7
-  },
-  {
-    "title": "由于自愿退休计划失败，毕马威将在美国裁减 10% 的审计合伙人以简化运营",
-    "url": "https://www.livemint.com/companies/news/kpmg-to-cut-10-of-its-audit-partners-in-us-to-streamline-operations-as-voluntary-retirement-plan-fails-11777027028968.html",
-    "industry": "Consulting",
-    "summary": "由于自愿退休计划失败，毕马威将在美国裁减 10% 的审计合伙人，以简化运营，部分原因是科技行业裁员。",
-    "charlotte_impact": "这表明传统咨询公司面临着适应不断变化的商业环境的压力，其中自动化和人工智能正在改变审计和咨询服务。它标志着公司简化运营和重新分配资源以投资人工智能驱动的解决方案的更广泛趋势。这导致某些部门的工作岗位流失。",
+    "title": "保险报价进入人工智能对话层",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/insurance-quoting-enters-the-ai-conversation-layer/",
+    "industry": "Insurance, AI",
+    "summary": "Simply Business 正在使用人工智能来简化小型企业的保险报价流程，减少所需的数据点。",
+    "charlotte_impact": "人工智能在保险报价中的应用是人工智能如何实现复杂流程自动化和改善客户体验的一个典型例子。通过简化数据收集流程，Simply Business 可以吸引更多的小型企业客户并提高效率。这种趋势可能会蔓延到其他保险提供商，从而影响传统的保险经纪模式。",
     "impact_score": 6
   },
   {
-    "title": "英国议会在人工智能上押下重注，但复杂性可能会吞噬回报",
-    "url": "https://www.techradar.com/pro/uk-councils-are-betting-big-on-ai-but-complexity-could-swallow-the-returns",
-    "industry": "Government, AI",
-    "summary": "英国议会正在大力投资人工智能，但简化其技术基础设施对于成功实施和回报至关重要。",
-    "charlotte_impact": "这凸显了在公共部门部署人工智能解决方案时战略规划和基础设施准备的重要性。英国议会只有在技术基础设施良好的情况下才能从人工智能中受益。这对通常拥有较旧技术的公共组织提出了挑战，并强调需要优先考虑技术基础设施升级，以充分利用人工智能机会。",
+    "title": "Anthropic 在美国中期选举前为 Claude AI 推出选举保障措施",
+    "url": "https://decrypt.co/365486/anthropic-election-safeguards-claude-ai-us-midterms",
+    "industry": "AI, Politics",
+    "summary": "Anthropic 在美国中期选举前推出了 Claude AI 的选举保障措施，这表明人们担心人工智能在政治竞选中可能被滥用。",
+    "charlotte_impact": "这一积极主动的措施反映出人们越来越意识到人工智能可能被用来传播错误信息和操纵公众舆论。实施选举保障措施对于维护民主进程的完整性和防止人工智能被用于恶意目的至关重要。这可能会导致政治背景下对人工智能进行更严格的监管和监督。",
+    "impact_score": 7
+  },
+  {
+    "title": "随着多元化之争升温，特朗普司法部介入马斯克 xAI 法庭之战",
+    "url": "https://www.foxnews.com/politics/trump-doj-jumps-musk-xai-court-battle-diversity-fight-heats-up",
+    "industry": "AI, Legal, Politics",
+    "summary": "美国司法部支持埃隆·马斯克的 xAI 诉讼，指控科罗拉多州的人工智能法迫使开发商采用 DEI 标准，侵犯了宪法权利。",
+    "charlotte_impact": "这场法律战凸显了关于 DEI 在人工智能开发中的作用以及政府法规侵犯言论自由权的可能性的持续争论。此案的结果可能对人工智能监管以及促进多样性和保护个人自由之间的平衡产生重大影响。它展示了部署可能产生广泛影响的技术时固有的政治挑战。",
+    "impact_score": 8
+  },
+  {
+    "title": "Refik Anadol 的人工智能艺术博物馆 DATALAND 将于 6 月在洛杉矶开幕",
+    "url": "https://www.artnews.com/art-news/news/refik-anadol-ai-art-museum-dataland-open-los-angeles-june-1234782560/",
+    "industry": "Art, AI",
+    "summary": "Refik Anadol 的 AI 艺术博物馆 DATALAND 将于 6 月在洛杉矶开幕。",
+    "charlotte_impact": "人工智能艺术博物馆的开馆标志着人工智能作为一种合法艺术形式的接受度和认可度不断提高。致力于人工智能的博物馆将鼓励艺术家探索新的创作可能性，并展示人工智能在艺术中的潜力。随着人工智能艺术变得更加主流，社会对数字艺术的评价以及艺术的定义将会发生变化。",
     "impact_score": 5
   },
   {
-    "title": "没有什么介绍人工智能驱动的听写工具",
-    "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
-    "industry": "Mobile Tech",
-    "summary": "没有什么可以介绍支持 100 多种语言的人工智能听写工具。",
-    "charlotte_impact": "在手机中添加人工智能驱动的听写功能可提高可访问性、提高生产力并提供竞争优势。通过支持 100 种语言，设备变得更容易在国际市场上使用。这一发展增加了对语音转文本技术的需求。",
-    "impact_score": 4
-  },
-  {
-    "title": "来认识一下 Noscroll，一个可以为你完成末日卷轴的 AI 机器人",
-    "url": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
-    "industry": "Social Media",
-    "summary": "Noscroll 是一个人工智能机器人，可以为用户读取互联网信息以防止末日滚动。",
-    "charlotte_impact": "Noscroll 反映出人们越来越意识到过度使用社交媒体的负面影响。这凸显了旨在过滤和管理在线内容以促进心理健康的人工智能工具的潜在市场。然而，如何平衡用户代理与人工智能代理产生的潜在过滤气泡存在道德问题。",
-    "impact_score": 4
+    "title": "OpenAI 首席执行官向 Tumbler Ridge 社区道歉",
+    "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+    "industry": "Ethics",
+    "summary": "OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman) 因未能就大规模枪击嫌疑人向执法部门发出警报而道歉，引发道德担忧。",
+    "charlotte_impact": "虽然这个故事涉及道德和公关问题，但它不是核心商业故事。这凸显了人工智能开发人员有责任考虑其技术可能被滥用的情况，并采取适当措施防止伤害。它强调了道德准则和负责任的人工智能开发实践的重要性。",
+    "impact_score": 2
   },
   {
     "title": "Meta 的损失是 Thinking Machines 的收益",
     "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
-    "industry": "AI Research",
-    "summary": "Meta 和 Thinking Machines Lab 正在交换 AI 人才。",
-    "charlotte_impact": "这种人才流动强调了对熟练人工智能专业人员的高需求，并凸显了公司之间正在进行的“人才战”。这为该领域的员工创造了机会，但也增加了两家公司的员工流失风险。",
+    "industry": "Talent",
+    "summary": "Meta 和 Thinking Machines Lab 正在互相挖角人才。",
+    "charlotte_impact": "这种来回的人才流动反映出行业内人工智能人才的激烈竞争。该行业迫切需要熟练的机器学习工程师、人工智能架构师等，而一小部分人才仍然掌握着最大的薪水和最大的股票期权激励。",
     "impact_score": 3
   },
   {
-    "title": "航空航天和国防贸易正在将投资者带入更深入的太空，更多的 ETF 正准备迎接这一使命",
-    "url": "https://www.cnbc.com/2026/04/24/aerospace-and-defense-as-growth-drivers-for-etfs-amid-iran-war.html",
-    "industry": "Financial Services",
-    "summary": "人们对 SpaceX 首次公开募股 (IPO) 的热情与日俱增。",
-    "charlotte_impact": "ETF 现在重点关注太空和国防作为增长领域。 SpaceX 的成功被认为是人们日益增长的兴趣的一部分。",
-    "impact_score": 3
+    "title": "来认识一下 Noscroll，一个可以为你完成末日卷轴的 AI 机器人",
+    "url": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
+    "industry": "AI",
+    "summary": "Noscroll 希望通过人工智能机器人来解决厄运卷轴问题，该机器人可以为你读取互联网信息。",
+    "charlotte_impact": "这是人工智能的一个有趣的消费者用例，但并不具有重大的经济重要性。",
+    "impact_score": 2
   },
   {
-    "title": "2026 年美国在线流媒体市场报告：订阅行为和平台策略持续发展 - 消费者采用、货币化模式和竞争动态",
-    "url": "https://www.globenewswire.com/news-release/2026/04/24/3280701/28124/en/U-S-Online-Streaming-Market-Report-2026-Subscription-Behavior-and-Platform-Strategies-Continue-to-Evolve-Consumer-Adoption-Monetization-Models-and-Competitive-Dynamics.html",
-    "industry": "Media Streaming",
-    "summary": "订阅行为和平台策略不断发展。",
-    "charlotte_impact": "人工智能增强了流媒体领域的内容推荐和广告，并提高了消费者的采用率。混合货币化模式的兴起被认为很重要。",
-    "impact_score": 3
-  },
-  {
-    "title": "现在“思考”意味着什么？",
-    "url": "https://www.raspberrypi.org/blog/what-does-thinking-mean-now/",
-    "industry": "Academia",
-    "summary": "法学硕士正在被运用并融入到工业和日常生活中。",
-    "charlotte_impact": "新的法学硕士迫使人们思考“思考”的含义，以及教授下一代的技能。",
-    "impact_score": 3
+    "title": "Alpha Compute Corp. 收购 GAMEE 的最新消息；预计于 2026 年 5 月完成交割，等待最终审计完成",
+    "url": "https://www.globenewswire.com/news-release/2026/04/24/3281044/0/en/Alpha-Compute-Corp-Updates-on-GAMEE-Acquisition-Closing-Targeted-for-May-2026-Pending-Final-Audit-Completion.html",
+    "industry": "Gaming",
+    "summary": "Alpha Compute Corp. 收购 GAMEE 的最新消息；预计于 2026 年 5 月完成交割，等待最终审计完成",
+    "charlotte_impact": "没有足够的信息来做出影响陈述。",
+    "impact_score": 1
   }
 ]
