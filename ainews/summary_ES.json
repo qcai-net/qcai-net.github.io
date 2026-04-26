@@ -2,161 +2,97 @@
   {
     "title": "En otro giro salvaje para los chips de IA, Meta firma un acuerdo para millones de CPU de IA de Amazon",
     "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-    "industry": "Semiconductors, AI, Cloud Computing",
-    "summary": "Meta ha firmado un acuerdo con Amazon para millones de CPU locales de Amazon para cargas de trabajo agentes de IA, lo que indica un cambio hacia diversos requisitos de hardware para la IA.",
-    "charlotte_impact": "Este acuerdo significa que el mercado de chips de IA se está volviendo cada vez más competitivo y que las empresas están explorando alternativas a las GPU tradicionales, lo que podría afectar a los fabricantes de semiconductores establecidos como NVIDIA y AMD. El enfoque en las CPU para la IA agente pone de relieve la creciente importancia de las soluciones informáticas eficientes y escalables. Una mayor competencia en el mercado de chips puede generar precios más bajos y una mayor innovación.",
+    "industry": "AI Infrastructure",
+    "summary": "Meta ha firmado un acuerdo para utilizar millones de CPU de IA de Amazon para cargas de trabajo de agentes de IA, lo que indica una nueva fase en la carrera de chips de IA más allá de las GPU.",
+    "charlotte_impact": "Este acuerdo significa una demanda creciente de diversas soluciones de hardware de IA más allá de las GPU tradicionales. Crea oportunidades para las empresas de semiconductores que se especializan en la aceleración de IA basada en CPU y destaca el potencial de Amazon Web Services para convertirse en un proveedor de infraestructura crítica para el desarrollo de la IA. La inversión en hardware de IA personalizado puede aumentar con un cambio estratégico que se aleje de la dependencia monolítica de GPU, lo que impulsará una mayor competencia y potencialmente reducirá los costos de implementación de IA a largo plazo.",
     "impact_score": 9
+  },
+  {
+    "title": "La degradación del trabajador tecnológico estadounidense",
+    "url": "http://nymag.com/intelligencer/article/after-layoffs-meta-is-training-ai-on-its-own-workers.html",
+    "industry": "Labor & AI",
+    "summary": "Las empresas tecnológicas, incluida Meta, están despidiendo trabajadores y, al mismo tiempo, invirtiendo fuertemente en IA, incluso utilizando la vigilancia para entrenarla.",
+    "charlotte_impact": "Esta noticia destaca el continuo desplazamiento de trabajadores humanos por parte de la IA, lo que lleva a posibles pérdidas de empleos y la necesidad de programas de reentrenamiento de la fuerza laboral. El aspecto de la vigilancia plantea preocupaciones éticas y podría estimular un escrutinio regulatorio con respecto al monitoreo de los empleados y la privacidad de los datos. Existe el riesgo de que aumente la desigualdad de ingresos y el malestar social a medida que se intensifica la automatización impulsada por la IA.",
+    "impact_score": 8
   },
   {
     "title": "Sierra de Bret Taylor compra Fragment, la startup de IA respaldada por YC",
     "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-    "industry": "Customer Service, AI, SaaS",
-    "summary": "Sierra, una startup de agentes de servicio al cliente de IA fundada por Bret Taylor, adquirió Fragment, una startup de IA respaldada por YC, para mejorar sus ofertas de servicio al cliente de IA.",
-    "charlotte_impact": "Esta adquisición indica una mayor consolidación en el espacio de servicio al cliente impulsado por IA. Sierra está fortaleciendo su posición incorporando la tecnología de Fragment, dando lugar a un producto más completo y competitivo. La adquisición probablemente dará como resultado soluciones de servicio al cliente de IA más sofisticadas y eficientes para las empresas, lo que afectará el modelo tradicional de centro de llamadas. El impacto empresarial sugiere una tendencia hacia la automatización impulsada por la IA en la interacción con el cliente, y las empresas que no se adapten perderán participación de mercado.",
+    "industry": "AI Customer Service",
+    "summary": "Sierra de Bret Taylor, una startup de servicio al cliente de IA, adquirió Fragment, respaldada por YC, lo que indica una consolidación dentro del mercado de servicio al cliente de IA.",
+    "charlotte_impact": "La adquisición ilustra una tendencia de consolidación en el espacio de servicio al cliente de IA. Esto podría conducir a soluciones de IA más sólidas y completas para las empresas, mejorando potencialmente la experiencia del cliente y reduciendo los costos operativos. Sin embargo, también plantea preocupaciones sobre el dominio del mercado por parte de unos pocos actores importantes y la reducción de la innovación debido a la menor competencia. Esto pone de relieve la necesidad de que las empresas de IA más pequeñas se diferencien mediante la especialización o las ofertas de nicho.",
     "impact_score": 7
   },
   {
     "title": "OpenAI lanza GPT-5.5, lo que acerca a la empresa un paso más a una \"superaplicación\" de IA",
     "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-    "industry": "AI, Software",
-    "summary": "OpenAI lanzó GPT-5.5, que según la compañía ofrece mayores capacidades en una amplia variedad de categorías, acercando a la compañía a una 'súper aplicación' de IA.",
-    "charlotte_impact": "El lanzamiento de GPT-5.5 probablemente acelerará la adopción de la IA en diversas industrias. El aumento de las capacidades del modelo permitirá a las empresas desarrollar aplicaciones de IA más sofisticadas, lo que generará innovación y mayor eficiencia. El avance hacia una 'súper aplicación' de IA sugiere que la IA se integrará cada vez más en los flujos de trabajo y procesos cotidianos, lo que afectará la forma en que las empresas operan y compiten. Esto podría impulsar la demanda de talento e infraestructura de IA, creando oportunidades para empresas especializadas en soluciones y servicios de IA.",
-    "impact_score": 10
-  },
-  {
-    "title": "Cómo una nueva startup de producción de Hollywood respaldada por Amazon implementa IA para acelerar y reducir costos",
-    "url": "https://www.cnbc.com/2026/04/24/an-aws-backed-hollywood-startup-deploys-ai-for-speed-and-cost-cutting.html",
-    "industry": "Entertainment, AI, Film Production",
-    "summary": "Una startup de producción de Hollywood respaldada por Amazon está utilizando inteligencia artificial para reducir costos y acelerar la filmación, lo que podría traer empleos de vuelta a Los Ángeles.",
-    "charlotte_impact": "El uso de la IA en la producción de Hollywood podría cambiar drásticamente la economía de la realización cinematográfica, alterando potencialmente los modelos de producción tradicionales. Al aprovechar la IA para tareas como análisis de guiones, previsualización y edición, las empresas de producción pueden reducir significativamente los costos y acelerar los plazos de producción. Esto tiene el potencial de revitalizar Hollywood y atraer inversiones en la industria del entretenimiento, pero puede afectar el mercado laboral calificado.",
-    "impact_score": 8
+    "industry": "AI Model Development",
+    "summary": "OpenAI lanzó GPT-5.5, lo que significa su impulso continuo hacia la creación de una 'súper aplicación' de IA integral con amplias capacidades.",
+    "charlotte_impact": "El lanzamiento de GPT-5.5 apunta hacia un futuro en el que los modelos de IA se volverán cada vez más versátiles y se integrarán en diversos aspectos de la vida diaria. Esto puede conducir a una mayor productividad, automatización de tareas y nuevas posibilidades creativas. Sin embargo, también amplifica los riesgos asociados con una IA potente, incluidos posibles usos indebidos, sesgos y desplazamientos laborales. Los modelos de código abierto y de código cerrado se están separando cada vez más.",
+    "impact_score": 9
   },
   {
     "title": "ComfyUI alcanza una valoración de 500 millones de dólares a medida que los creadores buscan más control sobre los medios generados por IA",
     "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
-    "industry": "AI, Creative Tools",
-    "summary": "ComfyUI, una herramienta que brinda a los creadores más control sobre la generación de imágenes, videos y audio de IA, recaudó 30 millones de dólares, valorando la empresa en 500 millones de dólares.",
-    "charlotte_impact": "La inversión en ComfyUI demuestra la creciente demanda de herramientas que brinden a los creadores un mayor control y capacidades de personalización sobre el contenido generado por IA. La industria creativa está adoptando rápidamente la IA, pero se necesitan herramientas que permitan a los creadores ajustar y personalizar el resultado. Es probable que esta inversión acelere el desarrollo de herramientas de creación de IA más sofisticadas, fomentando la innovación en el espacio creativo.",
-    "impact_score": 7
+    "industry": "AI-Generated Media",
+    "summary": "ComfyUI, una plataforma para que los creadores controlen los medios generados por IA, alcanzó una valoración de 500 millones de dólares después de recaudar 30 millones de dólares, lo que muestra la demanda de un mayor control creativo en la IA.",
+    "charlotte_impact": "La alta valoración de ComfyUI significa la creciente importancia del control y la personalización del usuario en el espacio de contenido generado por IA. Esto fomenta el desarrollo de herramientas que empoderen a los creadores y eviten que la IA se convierta en una caja negra. Puede impulsar una mayor inversión en plataformas de IA fáciles de usar y aumentar la adopción de la IA en las industrias creativas.",
+    "impact_score": 8
   },
   {
     "title": "Los Mac minis rebajados inundan eBay en medio de la escasez impulsada por la IA",
     "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
-    "industry": "Hardware, AI",
-    "summary": "El Mac mini de Apple, agotado, aparece en listados marcados en eBay a medida que aumenta la demanda debido a su idoneidad para ejecutar modelos y herramientas de inteligencia artificial locales.",
-    "charlotte_impact": "Este aumento en la demanda del Mac mini ilustra el creciente interés en ejecutar modelos de IA localmente en lugar de depender únicamente de servicios basados ​​en la nube. Esta tendencia puede deberse a preocupaciones sobre la privacidad, la necesidad de un procesamiento de baja latencia y el deseo de un mayor control sobre los modelos de IA. La mayor demanda de hardware optimizado para el procesamiento local de IA puede impulsar la innovación en el diseño de chips y la fabricación de hardware.",
-    "impact_score": 6
-  },
-  {
-    "title": "Nothing presenta una herramienta de dictado impulsada por IA",
-    "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
-    "industry": "Consumer Electronics, AI",
-    "summary": "Nothing introdujo una herramienta de dictado impulsada por IA que admite más de 100 idiomas, mejorando las capacidades de su dispositivo.",
-    "charlotte_impact": "Esta es una tendencia común en la electrónica de consumo, pero es una actualización importante de Nothing. La integración de funciones impulsadas por IA, como herramientas de dictado, puede mejorar la experiencia del usuario y diferenciar los productos en un mercado competitivo. Un enfoque en el soporte lingüístico también sugiere que la empresa está atrayendo a una audiencia global. No hay un impacto empresarial importante.",
-    "impact_score": 4
+    "industry": "AI Hardware Demand",
+    "summary": "La escasez de Mac mini está haciendo subir los precios en eBay debido a la demanda de capacitación en modelos de IA locales, lo que destaca el creciente uso de dispositivos personales para IA.",
+    "charlotte_impact": "Esto ilustra una tendencia creciente de ejecutar modelos de IA localmente en computadoras personales. Esto puede conducir a una mayor demanda de hardware potente y eficiente, así como al desarrollo de software optimizado para el procesamiento local de IA. Esto también podría impulsar la innovación en la informática de punta y los sistemas de inteligencia artificial distribuidos.",
+    "impact_score": 7
   },
   {
     "title": "DeepSeek presenta un nuevo modelo de IA que \"cierra la brecha\" con los modelos de frontera",
     "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
-    "industry": "AI, Technology",
-    "summary": "DeepSeek presentó una vista previa de nuevos modelos de IA que afirman haber \"cerrado la brecha\" con los modelos de frontera, lo que sugiere una mayor eficiencia y rendimiento.",
-    "charlotte_impact": "El surgimiento de DeepSeek como modelo de IA competitivo pone de relieve la carrera en curso por la supremacía de la IA y el potencial de nuevos actores para desafiar a los líderes establecidos. Las afirmaciones de mayor eficiencia y rendimiento pueden ejercer presión sobre los precios de OpenAI, Google y Anthropic. Esto sugiere un ritmo más rápido de desarrollo de la IA y un acceso más amplio a capacidades avanzadas de IA.",
+    "industry": "AI Model Development",
+    "summary": "DeepSeek presentó un avance de un nuevo modelo de IA que tiene como objetivo cerrar la brecha con los modelos líderes en términos de eficiencia y rendimiento, lo que indica un progreso en la optimización del modelo de IA.",
+    "charlotte_impact": "El anuncio de DeepSeek indica avances en la mejora de la eficiencia y accesibilidad de potentes modelos de IA. Esto puede conducir a una adopción más amplia de la IA en diversas industrias y potencialmente reducir el costo computacional asociado con la capacitación y la ejecución de grandes modelos de lenguaje. Un rendimiento mejorado en los puntos de referencia de razonamiento probablemente impulsará aplicaciones más sofisticadas en campos como la investigación, el desarrollo y la resolución de problemas.",
     "impact_score": 8
   },
   {
-    "title": "Era recauda 11 millones de dólares para construir una plataforma de software para dispositivos de inteligencia artificial",
-    "url": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
-    "industry": "AI, Hardware, Software",
-    "summary": "Era recaudó 11 millones de dólares para construir una plataforma de software para dispositivos de IA, apostando por la proliferación de diversos factores de forma de hardware de IA.",
-    "charlotte_impact": "Esta financiación subraya la creencia de que la IA se integrará en una amplia gama de dispositivos más allá de los teléfonos inteligentes y las computadoras. El desarrollo de una plataforma de software específica para dispositivos de IA indica la necesidad de una forma estandarizada y eficiente de gestionar e implementar aplicaciones de IA en diversos hardware. La tendencia del estilo de las tiendas de aplicaciones de IA probablemente verá una innovación y competencia explosivas en los próximos años.",
-    "impact_score": 7
-  },
-  {
-    "title": "GPT-5.5 de OpenAI vs Claude Opus 4.7: ¿Cuál es mejor?",
-    "url": "https://sea.mashable.com/tech/44766/openais-gpt-55-vs-claude-opus-47-which-is-better",
-    "industry": "AI, Technology",
-    "summary": "Se hace una comparación entre GPT-5.5 de OpenAI y Claude Opus 4.7 en cuanto a puntos de referencia, tablas de clasificación y conjunto de características generales.",
-    "charlotte_impact": "La comparación detallada muestra la competencia continua entre los principales modelos de IA, proporcionando a las empresas y a los consumidores información sobre sus fortalezas y debilidades relativas. Las evaluaciones de desempeño transparentes impulsan la innovación y ayudan a los usuarios a tomar decisiones informadas sobre qué modelos adoptar. El impacto se verá en la mejora y el ajuste del modelo.",
-    "impact_score": 5
-  },
-  {
-    "title": "Meta duplica su apuesta por la IA con nuevos despidos",
-    "url": "https://www.iphoneincanada.ca/2026/04/24/meta-doubles-down-on-ai-with-new-layoffs/",
-    "industry": "Technology, Social Media, AI",
-    "summary": "Meta está despidiendo aproximadamente al 10% de su fuerza laboral global a medida que gira aún más agresivamente hacia la inteligencia artificial.",
-    "charlotte_impact": "Los despidos de Meta, si bien son desafortunados para los afectados, resaltan el cambio estratégico de la empresa hacia la IA y el potencial de desplazamiento de puestos de trabajo debido a la automatización. Este movimiento sugiere que Meta está priorizando las inversiones en IA y racionalizando sus operaciones para seguir siendo competitivo en el cambiante panorama de la IA. Esta es una mala señal para el mercado laboral.",
-    "impact_score": 8
-  },
-  {
-    "title": "DeepSeek V4 introduce un contexto de millones de tokens en el 10% de la memoria de V3.2, intensificando la guerra de eficiencia de la IA de China con OpenAI",
-    "url": "https://wccftech.com/deepseek-v4-cuts-kv-cache-by-90-at-1m-tokens-but-aggressive-compression-could-risk-needle-in-a-haystack-failures/",
-    "industry": "AI, Cloud Computing",
-    "summary": "DeepSeek V4 afirma reducir significativamente los recursos informáticos necesarios para la inferencia de tokens y los recursos de memoria, intensificando la guerra de eficiencia de la IA en China.",
-    "charlotte_impact": "El progreso realizado por DeepSeek V4 pone de relieve la creciente competitividad de China en la carrera de la IA. Mejorar la eficiencia y reducir el consumo de recursos hace que los modelos de IA sean más accesibles y asequibles de implementar, lo que potencialmente acelera la adopción en varios sectores. Esto subraya la importancia de invertir en infraestructura y talento de IA para seguir siendo competitivos a nivel mundial. Además, es una cuestión de seguridad nacional.",
+    "title": "En medio de las preocupaciones sobre Mythos, la ministra Nirmala Sitharaman pide al sector financiero que esté \"excepcionalmente vigilante\"",
+    "url": "https://economictimes.indiatimes.com/tech/technology/amid-mythos-concerns-fm-nirmala-sitharaman-asks-financial-sector-to-be-exceptionally-vigilant/articleshow/130512761.cms",
+    "industry": "Cybersecurity & Finance",
+    "summary": "El Ministro de Finanzas de la India pidió una mayor vigilancia de la ciberseguridad en el sector financiero debido a que las herramientas avanzadas de inteligencia artificial aceleran los ciberataques.",
+    "charlotte_impact": "Esto subraya la creciente amenaza que representan los ciberataques impulsados ​​por IA y la necesidad de medidas sólidas de ciberseguridad dentro del sector financiero. Probablemente impulsará una mayor inversión en soluciones de seguridad basadas en inteligencia artificial y una supervisión regulatoria más estricta de las prácticas de ciberseguridad de las instituciones financieras. Destaca la importancia de estrategias proactivas de detección y prevención de amenazas para mitigar los riesgos asociados con amenazas cibernéticas sofisticadas.",
     "impact_score": 9
   },
   {
-    "title": "Las cotizaciones de seguros ingresan a la capa de conversación de IA",
-    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/insurance-quoting-enters-the-ai-conversation-layer/",
-    "industry": "Insurance, AI",
-    "summary": "Simply Business utiliza IA para agilizar el proceso de cotización de seguros para pequeñas empresas, reduciendo los puntos de datos requeridos.",
-    "charlotte_impact": "La aplicación de la IA en las cotizaciones de seguros es un excelente ejemplo de cómo la IA puede automatizar procesos complejos y mejorar la experiencia del cliente. Al simplificar el proceso de recopilación de datos, Simply Business puede atraer más clientes de pequeñas empresas y aumentar la eficiencia. Es probable que esta tendencia se extienda a otros proveedores de seguros, impactando el modelo tradicional de corretaje de seguros.",
-    "impact_score": 6
-  },
-  {
-    "title": "Anthropic implementa salvaguardias electorales para Claude AI antes de las elecciones intermedias en EE. UU.",
-    "url": "https://decrypt.co/365486/anthropic-election-safeguards-claude-ai-us-midterms",
-    "industry": "AI, Politics",
-    "summary": "Anthropic ha implementado salvaguardias electorales para Claude AI antes de las elecciones intermedias en Estados Unidos, lo que indica preocupaciones sobre el posible uso indebido de AI en campañas políticas.",
-    "charlotte_impact": "Esta medida proactiva refleja la creciente conciencia sobre el potencial de la IA para difundir información errónea y manipular la opinión pública. Implementar salvaguardias electorales es crucial para mantener la integridad de los procesos democráticos y evitar que la IA se utilice con fines maliciosos. Esto probablemente conducirá a regulaciones y supervisión más estrictas de la IA en contextos políticos.",
-    "impact_score": 7
-  },
-  {
-    "title": "El Departamento de Justicia de Trump se lanza a la batalla judicial entre Musk y AI a medida que se intensifica la lucha por la diversidad",
-    "url": "https://www.foxnews.com/politics/trump-doj-jumps-musk-xai-court-battle-diversity-fight-heats-up",
-    "industry": "AI, Legal, Politics",
-    "summary": "El Departamento de Justicia respalda la demanda xAI de Elon Musk alegando que la ley de IA de Colorado obliga a los desarrolladores a adoptar estándares DEI, violando derechos constitucionales.",
-    "charlotte_impact": "Esta batalla legal subraya el debate en curso sobre el papel de DEI en el desarrollo de la IA y la posibilidad de que las regulaciones gubernamentales infrinjan los derechos de libertad de expresión. El resultado de este caso podría tener implicaciones significativas para la regulación de la IA y el equilibrio entre promover la diversidad y proteger las libertades individuales. Muestra los desafíos políticos inherentes al implementar una tecnología que podría tener impactos de gran alcance.",
+    "title": "Asegurar el futuro de la IA: cómo ⁠T‍resor ‌​Lisungu ‍؜‌Oteko ؜bri‍dgi‍ng los sistemas de nube y post-cuánticos ؜‍​؜seguridad",
+    "url": "https://thenextweb.com/news/securing-the-future-of-ai-how-tresor-lisungu-oteko-is-brid/",
+    "industry": "Cybersecurity",
+    "summary": "Las organizaciones deben centrarse en proteger los sistemas de IA a medida que los sistemas de IA se adaptan a los entornos empresariales.",
+    "charlotte_impact": "Esto pone de relieve los crecientes riesgos de seguridad asociados con la implementación de IA a escala dentro de las empresas. Probablemente impulsará la demanda de soluciones de seguridad diseñadas específicamente para sistemas de inteligencia artificial, incluidas aquellas que abordan vulnerabilidades de modelos, ataques de envenenamiento de datos y aprendizaje automático adversario. Enfatiza la necesidad de una estrategia de seguridad integral que abarque tanto los propios modelos de IA como la infraestructura que los respalda.",
     "impact_score": 8
   },
   {
-    "title": "El Museo de Arte de IA DATALAND de Refik Anadol abrirá sus puertas en Los Ángeles en junio",
-    "url": "https://www.artnews.com/art-news/news/refik-anadol-ai-art-museum-dataland-open-los-angeles-june-1234782560/",
-    "industry": "Art, AI",
-    "summary": "El Museo de Arte AI DATALAND de Refik Anadol se inaugurará en Los Ángeles en junio.",
-    "charlotte_impact": "La apertura de un museo de arte de IA significa la creciente aceptación y reconocimiento de la IA como una forma de arte legítima. Los museos dedicados a la IA alentarán a los artistas a explorar nuevas posibilidades creativas y mostrar el potencial de la IA en el arte. A medida que el arte con IA se generalice, habrá un cambio en cómo la sociedad valora el arte digital y cómo cambia la definición de arte.",
-    "impact_score": 5
+    "title": "Los trabajadores de TI de Corea del Norte están robando empleos remotos y ganando miles de millones, y los estadounidenses los están ayudando a lograrlo.",
+    "url": "https://www.yahoo.com/news/articles/north-korean-workers-stealing-remote-110200705.html",
+    "industry": "Cybersecurity",
+    "summary": "Los trabajadores de TI de Corea del Norte están robando empleos remotos y ganando miles de millones con la ayuda de ciudadanos estadounidenses.",
+    "charlotte_impact": "Se trata de una brecha potencial en el ecosistema digital que puede afectar a cualquier empresa que contrate trabajadores remotos. El impacto podría ser la pérdida de ingresos, la exposición de secretos de la empresa y el daño a la reputación.",
+    "impact_score": 7
   },
   {
-    "title": "El CEO de OpenAI se disculpa con la comunidad de Tumbler Ridge",
-    "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
-    "industry": "Ethics",
-    "summary": "El director ejecutivo de OpenAI, Sam Altman, se disculpó por no alertar a las autoridades sobre un sospechoso de tiroteo masivo, lo que generó preocupaciones éticas.",
-    "charlotte_impact": "Si bien esta historia es de interés ético y de relaciones públicas, no es una historia empresarial central. Esto pone de relieve la responsabilidad de los desarrolladores de IA de considerar el posible uso indebido de su tecnología y tomar las medidas adecuadas para evitar daños. Refuerza la importancia de las directrices éticas y las prácticas responsables de desarrollo de la IA.",
-    "impact_score": 2
+    "title": "Los trabajadores de TI de Corea del Norte están robando empleos remotos y ganando miles de millones, y los estadounidenses los están ayudando a lograrlo.",
+    "url": "https://fortune.com/2026/04/25/north-korean-it-worker-scheme-american-faciliators/",
+    "industry": "Cybersecurity",
+    "summary": "Los trabajadores de TI de Corea del Norte están robando empleos remotos y ganando miles de millones con la ayuda de ciudadanos estadounidenses.",
+    "charlotte_impact": "Se trata de una brecha potencial en el ecosistema digital que puede afectar a cualquier empresa que contrate trabajadores remotos. El impacto podría ser la pérdida de ingresos, la exposición de secretos de la empresa y el daño a la reputación.",
+    "impact_score": 7
   },
   {
-    "title": "La pérdida de Meta es la ganancia de Thinking Machines",
-    "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
-    "industry": "Talent",
-    "summary": "Meta y Thinking Machines Lab se están robando talentos mutuamente.",
-    "charlotte_impact": "Este movimiento de talentos de ida y vuelta refleja la intensa competencia por el talento de IA en la industria. La industria necesita urgentemente ingenieros capacitados en aprendizaje automático, arquitectos de inteligencia artificial, etc., y un pequeño grupo de talentos continúa obteniendo los mayores sueldos y los mayores incentivos de opciones sobre acciones.",
-    "impact_score": 3
-  },
-  {
-    "title": "Conoce a Noscroll, un robot de inteligencia artificial que realiza el doomscrolling por ti",
-    "url": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
-    "industry": "AI",
-    "summary": "Noscroll quiere curar el doomscrolling con un robot de inteligencia artificial que lee Internet por ti.",
-    "charlotte_impact": "Este es un caso de uso interesante para el consumidor de la IA, pero no uno de gran importancia económica.",
-    "impact_score": 2
-  },
-  {
-    "title": "Actualizaciones de Alpha Compute Corp. sobre la adquisición de GAMEE; Cierre previsto para mayo de 2026 pendiente de finalización de la auditoría final",
-    "url": "https://www.globenewswire.com/news-release/2026/04/24/3281044/0/en/Alpha-Compute-Corp-Updates-on-GAMEE-Acquisition-Closing-Targeted-for-May-2026-Pending-Final-Audit-Completion.html",
-    "industry": "Gaming",
-    "summary": "Actualizaciones de Alpha Compute Corp. sobre la adquisición de GAMEE; Cierre previsto para mayo de 2026 pendiente de finalización de la auditoría final",
-    "charlotte_impact": "No hay suficiente información para hacer una declaración de impacto.",
-    "impact_score": 1
+    "title": "De la web a la Inteligencia Artificial: construyendo los eslabones perdidos",
+    "url": "https://thenextweb.com/news/from-web-to-artificial-intelligence-building-the-missing-links/",
+    "industry": "AI Integration",
+    "summary": "La inteligencia web respalda los desarrollos en toda la industria, pero la infraestructura debe mejorar para que esto sea sostenible.",
+    "charlotte_impact": "Con las mejoras necesarias, las empresas ahora pueden ser más sostenibles con esta nueva tecnología, sin verse estancadas por sus problemas.",
+    "impact_score": 6
   }
 ]
