@@ -1,114 +1,162 @@
 [
   {
-    "title": "人工智能芯片的另一个疯狂转变，Meta 签署了数百万亚马逊人工智能 CPU 的协议",
-    "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-    "industry": "Semiconductors, Cloud Computing, AI",
-    "summary": "Meta 已与亚马逊签署了一项协议，为代理工作负载提供数百万个 AI CPU，这表明 AI 芯片竞赛进入了 GPU 之外的新阶段。这一举措表明，专用人工智能 CPU 对于特定类型的人工智能应用程序变得至关重要。",
-    "charlotte_impact": "该协议标志着人工智能基础设施格局的转变。它验证了亚马逊对其自身人工智能芯片的投资，并可能导致半导体行业的竞争加剧和专业化。依赖人工智能的公司，包括夏洛特专注于金融科技或物流的公司，可能会受益于多样化和优化的硬件解决方案的可用性，从而可能降低成本并提高性能。",
-    "impact_score": 9
+    "title": "OpenAI 结束了微软因其 500 亿美元亚马逊交易而面临的法律风险",
+    "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI 已获得其最大股东微软的重大让步，这将允许其在 AWS 上销售产品，而微软则通过收入分成协议获得更多现金。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   },
   {
-    "title": "Bret Taylor 的 Sierra 收购了 YC 支持的人工智能初创公司 Fragment",
-    "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-    "industry": "Customer Service, AI",
-    "summary": "Bret Taylor 的人工智能客户服务代理初创公司 Sierra 收购了 YC 支持的法国人工智能初创公司 Fragment。此次收购扩大了 Sierra 在人工智能驱动的客户服务领域的能力和市场覆盖范围。",
-    "charlotte_impact": "此次收购凸显了人工智能初创生态系统不断整合的趋势，尤其是在客户服务领域。  它强调了整合不同人工智能能力的重要性。夏洛特的金融科技公司和其他以服务为导向的企业可能会看到更复杂的人工智能驱动的客户服务解决方案的出现，从而有可能提高客户满意度并降低运营成本。",
-    "impact_score": 7
+    "title": "DeepMind 的 David Silver 刚刚筹集了 1.1B 美元来构建无需人类数据即可学习的人工智能",
+    "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+    "industry": "AI & Technology",
+    "summary": "Ineffable Intelligence 是一家英国人工智能实验室，由前 DeepMind 研究员 David Silver 在几个月前创立，目前已筹集 11 亿美元资金，估值为 51 亿美元。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 可能会用人工智能代理取代应用程序来制造手机",
+    "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+    "industry": "AI & Technology",
+    "summary": "一位分析师表示，这款手机可能会在 2028 年投入量产。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 首席执行官向 Tumbler Ridge 社区道歉",
+    "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI 首席执行官 Sam Altman 在给加拿大 Tumbler Ridge 居民的一封信中表示，他的公司未能就最近发生的大规模枪击事件中的嫌疑人向执法部门发出警报，对此他“深感抱歉”。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Meta 的损失是 Thinking Machines 的收益",
+    "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
+    "industry": "AI & Technology",
+    "summary": "Meta 一直在从 Thinking Machines Lab 挖角人才。但这是一条双向街道。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Skye 的 iPhone 人工智能主屏应用程序在推出前获得投资者支持",
+    "url": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
+    "industry": "AI & Technology",
+    "summary": "Skye 的新人工智能应用程序在推出之前就吸引了投资者——这表明人们对更具人工智能意识的 iPhone 感兴趣。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "缅因州州长否决数据中心暂停令",
+    "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+    "industry": "AI & Technology",
+    "summary": "L.D. 307 号法令将在该国首次在全州范围内暂停新建数据中心——在这种情况下，将持续到 2027 年 11 月 1 日。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   },
   {
     "title": "随着创作者寻求对人工智能生成媒体的更多控制权，ComfyUI 估值达到 5 亿美元",
     "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
-    "industry": "AI, Creative Tools",
-    "summary": "ComfyUI 是一个为创作者提供对 AI 图像、视频和音频生成更多控制的平台，在筹集 3000 万美元后，估值达到 5 亿美元。这笔资金表明，人们对能够在人工智能生成的媒体中提供更好的控制和定制的工具的需求不断增长。",
-    "charlotte_impact": "ComfyUI 的成功凸显了赋予创作者力量的人工智能工具的价值日益增加。  这对创意产业具有广泛的影响。营销机构和媒体公司可以利用 ComfyUI 等工具来制作高度定制且引人入胜的内容，推动创新并有可能创造新的商业模式。",
-    "impact_score": 7
+    "industry": "AI & Technology",
+    "summary": "ComfyUI 的工具让创作者能够更好地控制 AI 图像、视频和音频生成，该公司刚刚筹集了 3000 万美元。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   },
   {
     "title": "由于人工智能导致的短缺，高价 Mac mini 充斥 eBay",
     "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
-    "industry": "Hardware, AI",
-    "summary": "由于人工智能导致的短缺，随着运行本地人工智能模型的需求增加，Mac mini 在 eBay 上的价格上涨。这表明本地人工智能处理的趋势以及对特定硬件配置的需求增加。",
-    "charlotte_impact": "Mac mini 的短缺和价格上涨凸显了对能够在本地运行人工智能工作负载的硬件的需求增加。这对小型企业和个人有影响。它可能会在短期内推动基于云的人工智能服务的采用，或者从长远来看导致对更强大（尽管可能更昂贵）的本地硬件解决方案的投资增加。",
-    "impact_score": 6
-  },
-  {
-    "title": "没有什么介绍人工智能驱动的听写工具",
-    "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
-    "industry": "Consumer Electronics, AI",
-    "summary": "Nothing 推出了支持 100 多种语言的人工智能设备听写工具。这表明将人工智能功能直接集成到消费设备中，从而提高可访问性和用户体验。",
-    "charlotte_impact": "将人工智能集成到日常设备中正变得司空见惯。这将改善消费电子产品的功能。总部位于夏洛特的专注于移动应用程序开发或辅助技术的企业可以通过将类似的人工智能功能纳入其产品、扩大可访问性并吸引更广泛的用户群而受益。",
+    "industry": "AI & Technology",
+    "summary": "随着紧凑型台式机的需求激增，苹果公司销售一空的 Mac mini 在 eBay 上出现了高价商品，而紧凑型台式机现在更适合运行本地人工智能模型和工具。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "DeepSeek 预览了新的人工智能模型，该模型与前沿模型“缩小了差距”",
-    "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
-    "industry": "AI, Model Development",
-    "summary": "DeepSeek 预览了一种新的人工智能模型，声称在效率和性能方面与前沿模型“缩小了差距”。这标志着人工智能模型开发的持续进步，使先进的人工智能功能更容易获得和更具竞争力。",
-    "charlotte_impact": "更高效、更高性能的人工智能模型的出现对各个行业的企业都有好处。  它增加了高级人工智能功能的可访问性。这可能会鼓励夏洛特现有的商业生态系统（包括银行业）更多地采用人工智能解决方案。",
-    "impact_score": 7
+    "title": "Chandrababu Naidu 将于 4 月 28 日为位于 Vizag 的 Google AI 数据中心奠基 - www.lokmattimes.com",
+    "url": "https://www.lokmattimes.com/business/chandrababu-naidu-to-lay-foundation-for-google-ai-data-centre-in-vizag-on-april-28-1/",
+    "industry": "AI & Technology",
+    "summary": "Chandrababu Naidu 将于 4 月 28 日为维扎格 (Vizag) 的谷歌人工智能数据中心奠基 - 维沙卡帕特南，4 月 26 日首席部长 N. Chandrababu Naidu 将为谷歌人工智能数据中心奠基...... - 最新消息。查找当前和最新的重大头条新闻……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   },
   {
-    "title": "博弈论、渔业改进项目、OpenAI、更多：Sunday ResearchBuzz，2026 年 4 月 26 日",
-    "url": "https://researchbuzz.me/2026/04/26/game-theory-fishery-improvement-projects-openai-more-sunday-researchbuzz-april-26-2026/",
-    "industry": "Education, AI",
-    "summary": "Wolfram 宣布推出免费互动课程“博弈论入门”。这突显了人工智能相关领域的教育资源不断增长，促进了更广泛的理解和采用。",
-    "charlotte_impact": "该免费资源为个人提供了增强对博弈论和计算思维的理解的机会。教育资源可以激励个人探索如何提高生产力。",
-    "impact_score": 3
+    "title": "在承诺进行股权培训后，夏洛特让大多数经理都没有接受培训",
+    "url": "https://www.wcnc.com/article/money/charlotte-business-inclusion-training/275-9082df3c-6c5d-4dd0-8418-ea2bb8ec70c2",
+    "industry": "AI & Technology",
+    "summary": "在承诺包容性承包改革多年后，夏洛特市培训的管理人员不到 25%。一位副市长说，这是有道理的。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   },
   {
-    "title": "来自人类神话的威胁“与战争一样大”：尼尔玛拉·西塔拉曼",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/threat-from-anthropics-mythos-as-big-as-war-nirmala-sitharaman/articleshow/130530530.cms",
-    "industry": "Cybersecurity, AI",
-    "summary": "印度财政部长警告 Anthropic 的人工智能模型 Mythos 带来新的网络威胁，并将其潜在影响与战争进行比较。这表明人们越来越担心先进人工智能模型可能被滥用于恶意目的。",
-    "charlotte_impact": "这一警告强调了强有力的网络安全措施的重要性。夏洛特的金融机构和其他关键基础设施提供商必须主动了解和减轻先进人工智能模型带来的潜在威胁。",
-    "impact_score": 8
+    "title": "Sustain Charlotte 呼吁在城市推进 I-77 南快速车道之前进行独立研究",
+    "url": "https://www.wcnc.com/article/news/local/sustain-charlotte-calls-for-independent-study-i-77-south-express-lanes/275-915dab77-b447-4616-aaef-a78f850eab67",
+    "industry": "AI & Technology",
+    "summary": "在 I-77 南快速车道提案中，一个联盟敦促夏洛特市议会暂停并在推进之前获得透明的研究。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   },
   {
-    "title": "赋能每个人：人工智能驱动的应用程序创建触手可及",
-    "url": "https://www.ibtimes.com.au/empowering-everyone-ai-driven-app-creation-your-fingertips-1867517",
-    "industry": "Software Development, AI",
-    "summary": "新平台展示了人工智能使每个人都能轻松构建自定义应用程序。这简化了应用程序开发，使个人和企业能够创建定制的解决方案，而无需丰富的编码知识。",
-    "charlotte_impact": "应用程序开发的民主化降低了小企业和企业家的进入门槛。这可以使他们能够创建适合其特定需求的定制解决方案。这可能会导致各个领域的创新激增，因为个人和小团队现在可以快速构建原型并部署自己的应用程序。",
-    "impact_score": 6
+    "title": "为什么防鼠导管对于数据中心的正常运行时间至关重要",
+    "url": "https://www.smartdatacollective.com/why-rodent-resistant-conduits-are-critical-for-data-center-uptime/",
+    "industry": "AI & Technology",
+    "summary": "从头开始保护您的数据：为什么防啮齿动物导管对于可靠运行至关重要。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   },
   {
-    "title": "科罗拉多州立法者正在努力解决儿童人工智能聊天机器人互动以及访问成人内容的限制",
-    "url": "https://www.denverpost.com/2026/04/26/chatbot-regulations-ai-suicide-age-verification-colorado/",
-    "industry": "Regulation, AI",
-    "summary": "科罗拉多州立法者正在努力解决儿童人工智能聊天机器人互动和访问成人内容的限制。这反映出越来越多的监管努力来解决与人工智能相关的道德和安全问题，特别是针对弱势群体。",
-    "charlotte_impact": "科罗拉多州正在进行的辩论凸显了监管快速发展的人工智能技术所面临的挑战。这会影响人们如何与他们互动。开发人工智能工具的夏洛特企业应该意识到不断变化的监管环境，并在开发过程中优先考虑安全和道德因素。",
-    "impact_score": 7
+    "title": "他们为这一拳欢呼吗？萨拉戈萨球迷的奇怪反应",
+    "url": "https://onefootball.com/en/news/did-they-cheer-the-punch-zaragoza-fans-bizarre-reaction-42773511",
+    "industry": "AI & Technology",
+    "summary": "毫无疑问，阿拉贡德比的结果在比赛结束时埃斯特万·安德拉达对豪尔赫·普利多的一拳后退居二线。作为回应，不仅门将的视频......",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   },
   {
-    "title": "印度 IT 面临人工智能重置，前 5 家公司公布的 2026 财年业绩喜忧参半",
-    "url": "https://economictimes.indiatimes.com/tech/information-tech/indian-it-faces-ai-reset-as-top-5-firms-post-mixed-fy26/articleshow/130531230.cms",
-    "industry": "IT Services",
-    "summary": "印度 IT 公司正面临“人工智能重置”，因为生产率的提高导致传统服务的收入减少。这种收入紧缩正在被生成人工智能数十亿美元的激增所抵消。这表明人工智能给 IT 服务行业带来了重大颠覆和机遇。",
-    "charlotte_impact": "印度 IT 行业的转变表明了人工智能驱动的全球 IT 格局颠覆的更广泛趋势。  生成式人工智能的崛起抵消了传统服务的通货紧缩。 IT 公司需要快速适应，以利用人工智能带来的机会，包括人工智能和人工智能相关角色。",
-    "impact_score": 9
+    "title": "人工智能与人类经验：言语不足的地方",
+    "url": "https://www.psychologytoday.com/us/blog/the-digital-self/202604/ai-vs-human-experience-where-words-fall-short",
+    "industry": "AI & Technology",
+    "summary": "人工智能已经学会了描述一切，并且没有被任何东西改变。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   },
   {
-    "title": "印度 IT 面临人工智能重置：在宏观逆风中，前 5 名公司的 2026 财年业绩好坏参半",
-    "url": "https://www.thehindubusinessline.com/info-tech/indian-it-faces-ai-reset-top-5-firms-post-mixed-fy26-amid-macro-headwinds/article70908441.ece",
-    "industry": "IT Services",
-    "summary": "印度 IT 顶级公司正在经历人工智能驱动的关键转变，在宏观经济挑战和不断变化的客户需求中面临着好坏参半的 2026 财年业绩。客户正在采用人工智能解决方案。",
-    "charlotte_impact": "本文重申了 IT 公司采用人工智能并满足不断变化的客户期望的压力。夏洛特提供 IT 解决方案的公司可能需要重新评估其服务，以保持竞争力并满足不断变化的需求。",
-    "impact_score": 8
+    "title": "人工智能正在帮助护林员在短时间内保护维多利亚野生动物",
+    "url": "https://www.abc.net.au/news/2026-04-27/ai-helps-parks-victoria-manage-native-species-pests-after-fires/106589360",
+    "industry": "AI & Technology",
+    "summary": "一种新的人工智能工具将帮助维多利亚公园管理受自然灾害（包括夏季丛林大火）影响的本地和濒危物种，该部门将向所有人提供该技术。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   },
   {
-    "title": "印度航空采用人工智能来提高运营效率、增加收入、降低成本",
-    "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-embraces-ai-to-enhance-ops-efficiency-increase-revenues-reduce-costs/articleshow/130531028.cms",
-    "industry": "Aviation, AI",
-    "summary": "印度航空正在采用人工智能来提高运营效率、增加收入并降低成本。他们正在实施生成式人工智能来验证飞行员的职责规范并实现任务自动化，从而增强运营能力。",
-    "charlotte_impact": "印度航空在其运营的各个方面采用人工智能可以成为全球和本地其他航空公司的典范。印度航空人工智能集成的成功展示了各行业如何提高效率、降低成本以及改善员工和客户体验。",
-    "impact_score": 7
+    "title": "约翰·鲁斯的人类魔力：为什么人类的智慧击败了人工智能的效率",
+    "url": "https://www.forbes.com/sites/stevedenning/2026/04/26/johan-rooss-human-magic-why-human-wisdom-defeats-ai-efficiency/",
+    "industry": "AI & Technology",
+    "summary": "约翰·罗斯 (Johan Roos) 的《人类魔力》展示了为什么增强人类的好奇心、创造力和实践智慧是在不确定的人工智能世界中持续创造客户价值的关键",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   },
   {
-    "title": "隐私倡导者指责美国政府投资人工智能大规模监控",
-    "url": "https://yro.slashdot.org/story/26/04/26/0541202/privacy-advocate-accuses-us-government-of-investing-in-ai-powered-mass-surveillance",
-    "industry": "Privacy, AI",
-    "summary": "一位隐私倡导者指责美国政府投资人工智能驱动的大规模监控。政府现在可以购买美国航空的数据，这引起了倡导者的关注。",
-    "charlotte_impact": "这一指控引发了人们对国家安全和个人隐私之间平衡的严重担忧。人工智能越来越多地用于大规模监控可能会对公民自由产生影响，需要仔细的监督和监管以保护个人权利。",
-    "impact_score": 8
+    "title": "UKtech50 2026 – 帮助我们找到英国 IT 领域最具影响力的人物",
+    "url": "https://www.computerweekly.com/news/366642313/UKtech50-2026-help-us-find-the-most-influential-people-in-UK-IT",
+    "industry": "AI & Technology",
+    "summary": "《计算机周刊》年度英国科技界 50 名最具影响力人物的评选活动正在进行中 – 请告诉我们您希望提名谁进入今年的名单",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "世界数据生命线越来越容易受到破坏",
+    "url": "https://oilprice.com/Energy/Energy-General/The-Worlds-Data-Lifelines-Are-Increasingly-Exposed-to-Sabotage.html",
+    "industry": "AI & Technology",
+    "summary": "海底电缆对于从海上项目输送可再生能源和提供跨国电信连接至关重要。海底电缆网络的快速增长正在帮助促进全球区域互联互通。然而，更多的必须是……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "人工智能国情咨文",
+    "url": "https://bradenkelley.com/2026/04/ai-state-of-the-union/",
+    "industry": "AI & Technology",
+    "summary": "图像生成版最后更新时间：2026 年 4 月 26 日上午 11:39，作者：Braden Kelley 观看过去 80 年（实际上是 83 年）人工智能的演变非常有趣（诚然，我活得不够长，无法观看所有这一切），但 e…",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
   }
 ]

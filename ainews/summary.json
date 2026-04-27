@@ -1,114 +1,162 @@
 [
   {
-    "title": "In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPUs",
-    "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-    "industry": "Semiconductors, Cloud Computing, AI",
-    "summary": "Meta has signed a deal with Amazon for millions of AI CPUs for agentic workloads, indicating a new phase in the AI chip race beyond GPUs. This move suggests that specialized AI CPUs are becoming crucial for specific types of AI applications.",
-    "charlotte_impact": "This agreement signals a shift in the AI infrastructure landscape. It validates Amazon's investment in its own AI chips and could lead to increased competition and specialization in the semiconductor industry. Companies reliant on AI, including those in Charlotte focusing on fintech or logistics, may benefit from the availability of diverse and optimized hardware solutions, potentially lowering costs and increasing performance.",
-    "impact_score": 9
+    "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+    "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft get more cash in a revenue-share agreement.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   },
   {
-    "title": "Bret Taylor\u2019s Sierra buys YC-backed AI startup Fragment",
-    "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-    "industry": "Customer Service, AI",
-    "summary": "Bret Taylor's Sierra, an AI customer service agent startup, acquired Fragment, a YC-backed French AI startup. This acquisition expands Sierra's capabilities and market reach in the AI-driven customer service space.",
-    "charlotte_impact": "The acquisition highlights the growing consolidation trend in the AI startup ecosystem, especially in the customer service sector.  It emphasizes the importance of integrating diverse AI capabilities. Charlotte's fintech companies and other service-oriented businesses may see more sophisticated AI-driven customer service solutions becoming available, potentially improving customer satisfaction and reducing operational costs.",
-    "impact_score": 7
+    "title": "DeepMind\u2019s David Silver just raised $1.1B to build an AI that learns without human data",
+    "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+    "industry": "AI & Technology",
+    "summary": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI could be making a phone with AI agents replacing apps",
+    "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+    "industry": "AI & Technology",
+    "summary": "The phone could go into mass production in 2028, an analyst says.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI CEO apologizes to Tumbler Ridge community",
+    "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+    "industry": "AI & Technology",
+    "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is \u201cdeeply sorry\u201d that his company failed to alert law enforcement about the suspect in a recent mass shooting.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Meta\u2019s loss is Thinking Machines\u2019 gain",
+    "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
+    "industry": "AI & Technology",
+    "summary": "Meta has been poaching talent from Thinking Machines Lab. But it's a two-way street.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Investors back Skye\u2019s AI home screen app for iPhone ahead of launch",
+    "url": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
+    "industry": "AI & Technology",
+    "summary": "Skye's new AI app attracted investors before it even launched \u2014 a sign of interest in a more AI-aware iPhone.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Maine\u2019s governor vetoes data center moratorium",
+    "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+    "industry": "AI & Technology",
+    "summary": "L.D. 307 would have imposed the country\u2019s first statewide moratorium on new data centers \u2014 lasting, in this case, until November 1, 2027.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   },
   {
     "title": "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
     "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
-    "industry": "AI, Creative Tools",
-    "summary": "ComfyUI, a platform offering creators more control over AI image, video, and audio generation, achieved a $500 million valuation after raising $30 million. This funding demonstrates the growing demand for tools that offer greater control and customization in AI-generated media.",
-    "charlotte_impact": "ComfyUI's success underscores the increasing value placed on AI tools that empower creators.  This has broad implications for the creative industries. Marketing agencies and media companies could leverage tools like ComfyUI to produce highly customized and engaging content, driving innovation and potentially creating new business models.",
-    "impact_score": 7
+    "industry": "AI & Technology",
+    "summary": "ComfyUI, whose tools give creators more control over AI image, video, and audio generation, just raised $30 million.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   },
   {
     "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
     "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
-    "industry": "Hardware, AI",
-    "summary": "Due to shortages driven by AI, the Mac mini is seeing inflated prices on eBay as demand increases for running local AI models. This indicates a trend towards local AI processing and increased demand for specific hardware configurations.",
-    "charlotte_impact": "The Mac mini shortage and inflated prices highlights the increased demand for hardware capable of running AI workloads locally. This has implications for small businesses and individuals. It may drive the adoption of cloud-based AI services in the short term, or lead to increased investment in more powerful, albeit potentially more expensive, local hardware solutions in the long term.",
-    "impact_score": 6
-  },
-  {
-    "title": "Nothing introduces an AI-powered dictation tool",
-    "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
-    "industry": "Consumer Electronics, AI",
-    "summary": "Nothing introduced an AI-powered on-device dictation tool supporting over 100 languages. This demonstrates a move towards integrating AI capabilities directly into consumer devices, improving accessibility and user experience.",
-    "charlotte_impact": "The integration of AI into everyday devices is becoming commonplace. This will improve the functionality of consumer electronics. Charlotte-based businesses focused on mobile app development or assistive technologies could benefit from incorporating similar AI-powered features into their offerings, expanding accessibility and appealing to a broader user base.",
+    "industry": "AI & Technology",
+    "summary": "Apple\u2019s sold-out Mac mini is spawning marked-up eBay listings as demand surges for the compact desktop, now favored for running local AI models and tools.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "DeepSeek previews new AI model that \u2018closes the gap\u2019 with frontier models",
-    "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
-    "industry": "AI, Model Development",
-    "summary": "DeepSeek previewed a new AI model claiming to have 'closed the gap' with frontier models in terms of efficiency and performance. This signifies continued progress in AI model development, making advanced AI capabilities more accessible and competitive.",
-    "charlotte_impact": "The emergence of more efficient and performant AI models is beneficial for businesses across various sectors.  It increases the accessibility of advanced AI capabilities. This may encourage greater adoption of AI solutions within Charlotte's existing business ecosystem including the banking sector.",
-    "impact_score": 7
+    "title": "Chandrababu Naidu to lay foundation for Google AI Data Centre in Vizag on April 28 - www.lokmattimes.com",
+    "url": "https://www.lokmattimes.com/business/chandrababu-naidu-to-lay-foundation-for-google-ai-data-centre-in-vizag-on-april-28-1/",
+    "industry": "AI & Technology",
+    "summary": "Chandrababu Naidu to lay foundation for Google AI Data Centre in Vizag on April 28 - Visakhapatnam, April 26 Chief Minister N. Chandrababu Naidu will lay the foundation for the Google AI Data Centre ... - Latest News. Find Breaking Headlines, Current and Late\u2026",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   },
   {
-    "title": "Game Theory, Fishery Improvement Projects, OpenAI, More: Sunday ResearchBuzz, April 26, 2026",
-    "url": "https://researchbuzz.me/2026/04/26/game-theory-fishery-improvement-projects-openai-more-sunday-researchbuzz-april-26-2026/",
-    "industry": "Education, AI",
-    "summary": "Wolfram announced the launch of Introduction to Game Theory, a free interactive course. This highlights the growing educational resources around AI-related fields, promoting wider understanding and adoption.",
-    "charlotte_impact": "This free resource provides an opportunity for individuals to enhance their understanding of game theory and computational thinking. The educational resource could inspire individuals to explore how they can improve their productivity.",
-    "impact_score": 3
+    "title": "After promising equity training, Charlotte leaves most managers untrained",
+    "url": "https://www.wcnc.com/article/money/charlotte-business-inclusion-training/275-9082df3c-6c5d-4dd0-8418-ea2bb8ec70c2",
+    "industry": "AI & Technology",
+    "summary": "Years after pledging inclusive contracting reforms, the city of Charlotte has trained fewer than 25% of managers. A deputy city manager said there's a valid reason.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   },
   {
-    "title": "Threat from Anthropic\u2019s Mythos 'as big as war': Nirmala Sitharaman",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/threat-from-anthropics-mythos-as-big-as-war-nirmala-sitharaman/articleshow/130530530.cms",
-    "industry": "Cybersecurity, AI",
-    "summary": "India's Finance Minister warned of a new cyber threat from Anthropic's AI model Mythos, comparing its potential impact to war. This signals increasing concerns about the potential misuse of advanced AI models for malicious purposes.",
-    "charlotte_impact": "This warning underscores the importance of robust cybersecurity measures. Charlotte's financial institutions and other critical infrastructure providers must be proactive in understanding and mitigating potential threats posed by advanced AI models.",
-    "impact_score": 8
+    "title": "Sustain Charlotte calls for independent study before city moves forward on I-77 South Express Lanes",
+    "url": "https://www.wcnc.com/article/news/local/sustain-charlotte-calls-for-independent-study-i-77-south-express-lanes/275-915dab77-b447-4616-aaef-a78f850eab67",
+    "industry": "AI & Technology",
+    "summary": "Amid the I-77 South Express Lanes proposal, a coalition urges the Charlotte City Council to pause and obtain a transparent study before moving forward.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   },
   {
-    "title": "Empowering Everyone: AI-Driven App Creation at Your Fingertips",
-    "url": "https://www.ibtimes.com.au/empowering-everyone-ai-driven-app-creation-your-fingertips-1867517",
-    "industry": "Software Development, AI",
-    "summary": "A new platform shows AI empowering everyone to build custom applications easily. This simplifies app development, enabling individuals and businesses to create tailored solutions without extensive coding knowledge.",
-    "charlotte_impact": "The democratization of app development lowers the barrier to entry for small businesses and entrepreneurs. This could enable them to create custom solutions tailored to their specific needs. This may lead to a surge of innovation in various sectors as individuals and small teams can now rapidly prototype and deploy their own applications.",
-    "impact_score": 6
+    "title": "Why Rodent-Resistant Conduits Are Critical for Data Center Uptime",
+    "url": "https://www.smartdatacollective.com/why-rodent-resistant-conduits-are-critical-for-data-center-uptime/",
+    "industry": "AI & Technology",
+    "summary": "Protecting your data from the ground up: Why rodent-proofing conduits is critical for reliable operations.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   },
   {
-    "title": "Colorado lawmakers grapple with limits on kids\u2019 AI chatbot interactions \u2014 and access to adult content",
-    "url": "https://www.denverpost.com/2026/04/26/chatbot-regulations-ai-suicide-age-verification-colorado/",
-    "industry": "Regulation, AI",
-    "summary": "Colorado lawmakers are grappling with limits on kids' AI chatbot interactions and access to adult content. This reflects growing regulatory efforts to address the ethical and safety concerns associated with AI, especially for vulnerable populations.",
-    "charlotte_impact": "The ongoing debate in Colorado highlights the challenges of regulating rapidly evolving AI technologies. This has impacts on how people should interact with them. Charlotte-based businesses developing AI-powered tools should be aware of the evolving regulatory landscape and prioritize safety and ethical considerations in their development processes.",
-    "impact_score": 7
+    "title": "Did they cheer the punch? Zaragoza fans' bizarre reaction",
+    "url": "https://onefootball.com/en/news/did-they-cheer-the-punch-zaragoza-fans-bizarre-reaction-42773511",
+    "industry": "AI & Technology",
+    "summary": "Without a doubt, the result of the Aragonese Derby took a back seat after the punch Esteban Andrada threw at Jorge Pulido at the end of the match.In response, not only did the video of the goalkeeper ...",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   },
   {
-    "title": "Indian IT faces AI reset as top 5 firms post mixed FY26",
-    "url": "https://economictimes.indiatimes.com/tech/information-tech/indian-it-faces-ai-reset-as-top-5-firms-post-mixed-fy26/articleshow/130531230.cms",
-    "industry": "IT Services",
-    "summary": "Indian IT firms are facing an 'AI reset' as increased productivity is deflating revenue in legacy services. This revenue deflation is being offset by a multi-billion-dollar surge in Generative AI. This suggests significant disruption and opportunity in the IT services sector due to AI.",
-    "charlotte_impact": "The Indian IT sector's shift indicates a broader trend of AI-driven disruption in the global IT landscape.  The rise in Generative AI offsets the deflation in legacy services. IT companies need to adapt quickly to capitalize on the opportunities presented by AI, including AI and AI-adjacent roles.",
-    "impact_score": 9
+    "title": "AI vs. Human Experience: Where Words Fall Short",
+    "url": "https://www.psychologytoday.com/us/blog/the-digital-self/202604/ai-vs-human-experience-where-words-fall-short",
+    "industry": "AI & Technology",
+    "summary": "AI has learned to describe everything and has been changed by nothing.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   },
   {
-    "title": "Indian IT faces AI reset: Top-5 firms post mixed FY26 amid macro headwinds",
-    "url": "https://www.thehindubusinessline.com/info-tech/indian-it-faces-ai-reset-top-5-firms-post-mixed-fy26-amid-macro-headwinds/article70908441.ece",
-    "industry": "IT Services",
-    "summary": "Indian IT's top firms navigate a critical AI-driven shift, facing mixed FY26 results amid macroeconomic challenges and evolving client demands. Clients are adopting AI solutions.",
-    "charlotte_impact": "This article reiterates the pressure on IT firms to adopt AI and meet changing client expectations. Charlotte firms providing IT solutions may need to re-evaluate their services to stay competitive and meet the changing demands.",
-    "impact_score": 8
+    "title": "AI is helping rangers protect Victorian wildlife in a fraction of the time",
+    "url": "https://www.abc.net.au/news/2026-04-27/ai-helps-parks-victoria-manage-native-species-pests-after-fires/106589360",
+    "industry": "AI & Technology",
+    "summary": "A new AI tool will help Parks Victoria manage native and endangered species affected by natural disasters, including the summer bushfires, with the department making the technology available to everyone.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   },
   {
-    "title": "Air India embraces AI to enhance ops efficiency, increase revenues, reduce costs",
-    "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-embraces-ai-to-enhance-ops-efficiency-increase-revenues-reduce-costs/articleshow/130531028.cms",
-    "industry": "Aviation, AI",
-    "summary": "Air India is embracing AI to enhance operational efficiency, increase revenues, and reduce costs. They are implementing generative AI to validate pilot duty norms and automate tasks which enhances operations.",
-    "charlotte_impact": "Air India's adoption of AI in various aspects of its operations can be a model for other airlines globally and locally. The success of AI integration by Air India shows how industries can improve efficiency, reduce costs, and improve employee and customer experience.",
-    "impact_score": 7
+    "title": "Johan Roos\u2019s Human Magic: Why Human Wisdom Defeats AI Efficiency",
+    "url": "https://www.forbes.com/sites/stevedenning/2026/04/26/johan-rooss-human-magic-why-human-wisdom-defeats-ai-efficiency/",
+    "industry": "AI & Technology",
+    "summary": "Johan Roos\u2019s Human Magic shows why amplifying human curiosity, creativity and practical wisdom is the key to continuous customer value creation in an uncertain AI world",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   },
   {
-    "title": "Privacy Advocate Accuses US Government of Investing in AI-Powered Mass Surveillance",
-    "url": "https://yro.slashdot.org/story/26/04/26/0541202/privacy-advocate-accuses-us-government-of-investing-in-ai-powered-mass-surveillance",
-    "industry": "Privacy, AI",
-    "summary": "A privacy advocate has accused the US government of investing in AI-powered mass surveillance. The government can now purchase American's data and this concerns the advocate.",
-    "charlotte_impact": "This accusation raises serious concerns about the balance between national security and individual privacy. The increasing use of AI for mass surveillance could have implications for civil liberties, requiring careful oversight and regulation to protect individual rights.",
-    "impact_score": 8
+    "title": "UKtech50 2026 \u2013 help us find the most influential people in UK IT",
+    "url": "https://www.computerweekly.com/news/366642313/UKtech50-2026-help-us-find-the-most-influential-people-in-UK-IT",
+    "industry": "AI & Technology",
+    "summary": "Computer Weekly\u2019s annual search for the 50 most influential people in UK technology is on \u2013 let us know who you would like to nominate for this year's list",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "The World\u2019s Data Lifelines Are Increasingly Exposed to Sabotage",
+    "url": "https://oilprice.com/Energy/Energy-General/The-Worlds-Data-Lifelines-Are-Increasingly-Exposed-to-Sabotage.html",
+    "industry": "AI & Technology",
+    "summary": "Undersea cables are vital for delivering renewable power from offshore projects and providing cross-country telecommunications connectivity. The rapid growth of undersea cable networks is helping to boost regional connectivity worldwide. However, more must be\u2026",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "AI State of the Union",
+    "url": "https://bradenkelley.com/2026/04/ai-state-of-the-union/",
+    "industry": "AI & Technology",
+    "summary": "Image Generation Edition LAST UPDATED: April 26, 2026 at 11:39 AM by Braden Kelley Watching the evolution of AI over the past eighty years (83 actually) has been fascinating to watch (admittedly, I haven\u2019t been alive long enough to watch all of it), but the e\u2026",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
   }
 ]

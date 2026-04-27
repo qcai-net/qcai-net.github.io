@@ -1,114 +1,162 @@
 [
   {
-    "title": "En otro giro salvaje para los chips de IA, Meta firma un acuerdo para millones de CPU de IA de Amazon",
-    "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-    "industry": "Semiconductors, Cloud Computing, AI",
-    "summary": "Meta ha firmado un acuerdo con Amazon para millones de CPU de IA para cargas de trabajo agentes, lo que indica una nueva fase en la carrera de chips de IA más allá de las GPU. Este movimiento sugiere que las CPU de IA especializadas se están volviendo cruciales para tipos específicos de aplicaciones de IA.",
-    "charlotte_impact": "Este acuerdo señala un cambio en el panorama de la infraestructura de IA. Valida la inversión de Amazon en sus propios chips de IA y podría conducir a una mayor competencia y especialización en la industria de los semiconductores. Las empresas que dependen de la IA, incluidas aquellas de Charlotte que se centran en tecnología financiera o logística, pueden beneficiarse de la disponibilidad de soluciones de hardware diversas y optimizadas, lo que potencialmente reduce los costos y aumenta el rendimiento.",
-    "impact_score": 9
+    "title": "OpenAI pone fin al peligro legal de Microsoft por su acuerdo de 50 mil millones de dólares con Amazon",
+    "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI obtuvo importantes concesiones de su mayor accionista, Microsoft, que le permitirán vender productos en AWS, mientras que Microsoft obtendrá más efectivo en un acuerdo de participación en los ingresos.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   },
   {
-    "title": "Sierra de Bret Taylor compra Fragment, la startup de IA respaldada por YC",
-    "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-    "industry": "Customer Service, AI",
-    "summary": "Sierra de Bret Taylor, una startup de agentes de servicio al cliente de IA, adquirió Fragment, una startup francesa de IA respaldada por YC. Esta adquisición amplía las capacidades y el alcance de mercado de Sierra en el espacio de servicio al cliente impulsado por IA.",
-    "charlotte_impact": "La adquisición pone de relieve la creciente tendencia de consolidación en el ecosistema de startups de IA, especialmente en el sector de atención al cliente.  Enfatiza la importancia de integrar diversas capacidades de IA. Las empresas de tecnología financiera de Charlotte y otras empresas orientadas a servicios pueden ver disponibles soluciones de servicio al cliente más sofisticadas impulsadas por IA, lo que potencialmente mejorará la satisfacción del cliente y reducirá los costos operativos.",
-    "impact_score": 7
+    "title": "David Silver de DeepMind acaba de recaudar 1.100 millones de dólares para construir una IA que aprenda sin datos humanos",
+    "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+    "industry": "AI & Technology",
+    "summary": "Ineffable Intelligence, un laboratorio británico de inteligencia artificial fundado hace apenas unos meses por el ex investigador de DeepMind David Silver, ha recaudado 1.100 millones de dólares en financiación con una valoración de 5.100 millones de dólares.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI podría estar fabricando un teléfono con agentes de IA que reemplacen las aplicaciones",
+    "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+    "industry": "AI & Technology",
+    "summary": "El teléfono podría entrar en producción en masa en 2028, afirma un analista.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "El CEO de OpenAI se disculpa con la comunidad de Tumbler Ridge",
+    "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+    "industry": "AI & Technology",
+    "summary": "En una carta a los residentes de Tumbler Ridge, Canadá, el director ejecutivo de OpenAI, Sam Altman, dijo que \"lamenta profundamente\" que su empresa no haya alertado a las autoridades sobre el sospechoso de un reciente tiroteo masivo.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La pérdida de Meta es la ganancia de Thinking Machines",
+    "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
+    "industry": "AI & Technology",
+    "summary": "Meta ha estado cazando talentos en Thinking Machines Lab. Pero es una calle de doble sentido.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Los inversores respaldan la aplicación de pantalla de inicio de IA de Skye para iPhone antes de su lanzamiento",
+    "url": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
+    "industry": "AI & Technology",
+    "summary": "La nueva aplicación de inteligencia artificial de Skye atrajo inversores incluso antes de su lanzamiento, una señal de interés en un iPhone más consciente de la inteligencia artificial.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "El gobernador de Maine veta la moratoria de los centros de datos",
+    "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+    "industry": "AI & Technology",
+    "summary": "L.D. 307 habría impuesto la primera moratoria estatal del país sobre nuevos centros de datos, que duraría, en este caso, hasta el 1 de noviembre de 2027.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   },
   {
     "title": "ComfyUI alcanza una valoración de 500 millones de dólares a medida que los creadores buscan más control sobre los medios generados por IA",
     "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
-    "industry": "AI, Creative Tools",
-    "summary": "ComfyUI, una plataforma que ofrece a los creadores más control sobre la generación de imágenes, videos y audio de IA, logró una valoración de 500 millones de dólares después de recaudar 30 millones de dólares. Esta financiación demuestra la creciente demanda de herramientas que ofrezcan mayor control y personalización en los medios generados por IA.",
-    "charlotte_impact": "El éxito de ComfyUI subraya el valor cada vez mayor que se otorga a las herramientas de inteligencia artificial que empoderan a los creadores.  Esto tiene amplias implicaciones para las industrias creativas. Las agencias de marketing y las empresas de medios podrían aprovechar herramientas como ComfyUI para producir contenido atractivo y altamente personalizado, impulsando la innovación y potencialmente creando nuevos modelos de negocio.",
-    "impact_score": 7
+    "industry": "AI & Technology",
+    "summary": "ComfyUI, cuyas herramientas brindan a los creadores más control sobre la generación de imágenes, videos y audio de IA, acaba de recaudar 30 millones de dólares.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   },
   {
     "title": "Los Mac minis rebajados inundan eBay en medio de la escasez impulsada por la IA",
     "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
-    "industry": "Hardware, AI",
-    "summary": "Debido a la escasez impulsada por la IA, el Mac mini está viendo precios inflados en eBay a medida que aumenta la demanda de ejecutar modelos locales de IA. Esto indica una tendencia hacia el procesamiento local de IA y una mayor demanda de configuraciones de hardware específicas.",
-    "charlotte_impact": "La escasez de Mac mini y los precios inflados resaltan la mayor demanda de hardware capaz de ejecutar cargas de trabajo de IA localmente. Esto tiene implicaciones para las pequeñas empresas y los individuos. Puede impulsar la adopción de servicios de inteligencia artificial basados ​​en la nube en el corto plazo, o conducir a una mayor inversión en soluciones de hardware locales más poderosas, aunque potencialmente más costosas, en el largo plazo.",
-    "impact_score": 6
-  },
-  {
-    "title": "Nothing presenta una herramienta de dictado impulsada por IA",
-    "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
-    "industry": "Consumer Electronics, AI",
-    "summary": "Nothing introdujo una herramienta de dictado en el dispositivo impulsada por IA que admite más de 100 idiomas. Esto demuestra un movimiento hacia la integración de capacidades de IA directamente en los dispositivos de consumo, mejorando la accesibilidad y la experiencia del usuario.",
-    "charlotte_impact": "La integración de la IA en los dispositivos cotidianos se está volviendo algo común. Esto mejorará la funcionalidad de la electrónica de consumo. Las empresas con sede en Charlotte centradas en el desarrollo de aplicaciones móviles o tecnologías de asistencia podrían beneficiarse al incorporar funciones similares impulsadas por IA en sus ofertas, ampliando la accesibilidad y atrayendo a una base de usuarios más amplia.",
+    "industry": "AI & Technology",
+    "summary": "La agotada Mac mini de Apple está generando listados marcados en eBay a medida que aumenta la demanda de la computadora de escritorio compacta, ahora preferida para ejecutar modelos y herramientas de inteligencia artificial locales.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "DeepSeek presenta un nuevo modelo de IA que \"cierra la brecha\" con los modelos de frontera",
-    "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
-    "industry": "AI, Model Development",
-    "summary": "DeepSeek presentó un nuevo modelo de IA que afirma haber \"cerrado la brecha\" con los modelos de vanguardia en términos de eficiencia y rendimiento. Esto significa un progreso continuo en el desarrollo de modelos de IA, haciendo que las capacidades avanzadas de IA sean más accesibles y competitivas.",
-    "charlotte_impact": "La aparición de modelos de IA más eficientes y eficaces es beneficiosa para las empresas de diversos sectores.  Aumenta la accesibilidad de las capacidades avanzadas de IA. Esto puede fomentar una mayor adopción de soluciones de inteligencia artificial dentro del ecosistema empresarial existente de Charlotte, incluido el sector bancario.",
-    "impact_score": 7
+    "title": "Chandrababu Naidu sentará las bases para el centro de datos de inteligencia artificial de Google en Vizag el 28 de abril - www.lokmattimes.com",
+    "url": "https://www.lokmattimes.com/business/chandrababu-naidu-to-lay-foundation-for-google-ai-data-centre-in-vizag-on-april-28-1/",
+    "industry": "AI & Technology",
+    "summary": "Chandrababu Naidu sentará las bases para el Centro de datos de IA de Google en Vizag el 28 de abril - Visakhapatnam, 26 de abril El Ministro Principal N. Chandrababu Naidu sentará las bases para el Centro de datos de IA de Google... - Últimas noticias. Encuentre titulares de última hora, actuales y recientes...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   },
   {
-    "title": "Teoría de juegos, proyectos de mejora pesquera, OpenAI, más: Sunday ResearchBuzz, 26 de abril de 2026",
-    "url": "https://researchbuzz.me/2026/04/26/game-theory-fishery-improvement-projects-openai-more-sunday-researchbuzz-april-26-2026/",
-    "industry": "Education, AI",
-    "summary": "Wolfram anunció el lanzamiento de Introducción a la teoría de juegos, un curso interactivo gratuito. Esto pone de relieve los crecientes recursos educativos en torno a los campos relacionados con la IA, lo que promueve una comprensión y una adopción más amplias.",
-    "charlotte_impact": "Este recurso gratuito brinda a las personas la oportunidad de mejorar su comprensión de la teoría de juegos y el pensamiento computacional. El recurso educativo podría inspirar a las personas a explorar cómo pueden mejorar su productividad.",
-    "impact_score": 3
+    "title": "Después de una prometedora capacitación en materia de equidad, Charlotte deja a la mayoría de los gerentes sin capacitación",
+    "url": "https://www.wcnc.com/article/money/charlotte-business-inclusion-training/275-9082df3c-6c5d-4dd0-8418-ea2bb8ec70c2",
+    "industry": "AI & Technology",
+    "summary": "Años después de prometer reformas de contratación inclusivas, la ciudad de Charlotte ha capacitado a menos del 25% de los gerentes. Un subdirector de la ciudad dijo que hay una razón válida.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   },
   {
-    "title": "La amenaza de los Mitos de Anthropic es 'tan grande como la guerra': Nirmala Sitharaman",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/threat-from-anthropics-mythos-as-big-as-war-nirmala-sitharaman/articleshow/130530530.cms",
-    "industry": "Cybersecurity, AI",
-    "summary": "El Ministro de Finanzas de la India advirtió sobre una nueva amenaza cibernética proveniente del modelo de inteligencia artificial Mythos de Anthropic, comparando su impacto potencial con el de la guerra. Esto indica una creciente preocupación sobre el posible uso indebido de modelos avanzados de IA con fines maliciosos.",
-    "charlotte_impact": "Esta advertencia subraya la importancia de medidas sólidas de ciberseguridad. Las instituciones financieras de Charlotte y otros proveedores de infraestructura crítica deben ser proactivos para comprender y mitigar las amenazas potenciales que plantean los modelos avanzados de IA.",
-    "impact_score": 8
+    "title": "Sustain Charlotte pide un estudio independiente antes de que la ciudad avance en los carriles expresos sur de la I-77",
+    "url": "https://www.wcnc.com/article/news/local/sustain-charlotte-calls-for-independent-study-i-77-south-express-lanes/275-915dab77-b447-4616-aaef-a78f850eab67",
+    "industry": "AI & Technology",
+    "summary": "En medio de la propuesta de I-77 South Express Lanes, una coalición insta al Ayuntamiento de Charlotte a hacer una pausa y obtener un estudio transparente antes de seguir adelante.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   },
   {
-    "title": "Empoderar a todos: creación de aplicaciones impulsadas por IA al alcance de su mano",
-    "url": "https://www.ibtimes.com.au/empowering-everyone-ai-driven-app-creation-your-fingertips-1867517",
-    "industry": "Software Development, AI",
-    "summary": "Una nueva plataforma muestra que la IA permite a todos crear aplicaciones personalizadas fácilmente. Esto simplifica el desarrollo de aplicaciones, lo que permite a individuos y empresas crear soluciones personalizadas sin grandes conocimientos de codificación.",
-    "charlotte_impact": "La democratización del desarrollo de aplicaciones reduce la barrera de entrada para las pequeñas empresas y los emprendedores. Esto podría permitirles crear soluciones personalizadas adaptadas a sus necesidades específicas. Esto puede conducir a un aumento de la innovación en diversos sectores, ya que los individuos y los equipos pequeños ahora pueden crear prototipos e implementar rápidamente sus propias aplicaciones.",
-    "impact_score": 6
+    "title": "Por qué los conductos resistentes a los roedores son fundamentales para el tiempo de actividad del centro de datos",
+    "url": "https://www.smartdatacollective.com/why-rodent-resistant-conduits-are-critical-for-data-center-uptime/",
+    "industry": "AI & Technology",
+    "summary": "Proteger sus datos desde cero: por qué los conductos a prueba de roedores son fundamentales para operaciones confiables.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   },
   {
-    "title": "Los legisladores de Colorado luchan contra los límites a las interacciones de los niños con chatbots de IA y al acceso a contenido para adultos",
-    "url": "https://www.denverpost.com/2026/04/26/chatbot-regulations-ai-suicide-age-verification-colorado/",
-    "industry": "Regulation, AI",
-    "summary": "Los legisladores de Colorado están lidiando con los límites a las interacciones de los niños con chatbots de IA y al acceso a contenido para adultos. Esto refleja los crecientes esfuerzos regulatorios para abordar las preocupaciones éticas y de seguridad asociadas con la IA, especialmente para las poblaciones vulnerables.",
-    "charlotte_impact": "El debate en curso en Colorado destaca los desafíos de regular las tecnologías de inteligencia artificial en rápida evolución. Esto tiene un impacto en cómo las personas deben interactuar con ellos. Las empresas con sede en Charlotte que desarrollan herramientas impulsadas por IA deben ser conscientes del panorama regulatorio en evolución y priorizar las consideraciones éticas y de seguridad en sus procesos de desarrollo.",
-    "impact_score": 7
+    "title": "¿Aplaudieron el ponche? La extraña reacción de la afición del Zaragoza",
+    "url": "https://onefootball.com/en/news/did-they-cheer-the-punch-zaragoza-fans-bizarre-reaction-42773511",
+    "industry": "AI & Technology",
+    "summary": "Sin duda, el resultado del Derbi Aragonés pasó a un segundo plano tras el puñetazo que Esteban Andrada le propinó a Jorge Pulido al final del partido. Como respuesta, no sólo apareció el vídeo del portero...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   },
   {
-    "title": "La TI de la India se enfrenta a un reinicio de la IA mientras las cinco principales empresas registran un año fiscal mixto 26",
-    "url": "https://economictimes.indiatimes.com/tech/information-tech/indian-it-faces-ai-reset-as-top-5-firms-post-mixed-fy26/articleshow/130531230.cms",
-    "industry": "IT Services",
-    "summary": "Las empresas indias de TI se enfrentan a un \"reinicio de la IA\", ya que el aumento de la productividad está deflactando los ingresos de los servicios heredados. Esta deflación de los ingresos se está viendo compensada por un aumento multimillonario en la IA generativa. Esto sugiere importantes interrupciones y oportunidades en el sector de servicios de TI debido a la IA.",
-    "charlotte_impact": "El cambio del sector de TI de la India indica una tendencia más amplia de disrupción impulsada por la IA en el panorama global de TI.  El aumento de la IA generativa compensa la deflación de los servicios heredados. Las empresas de TI deben adaptarse rápidamente para aprovechar las oportunidades que presenta la IA, incluida la IA y los roles adyacentes a la IA.",
-    "impact_score": 9
+    "title": "IA versus experiencia humana: donde las palabras se quedan cortas",
+    "url": "https://www.psychologytoday.com/us/blog/the-digital-self/202604/ai-vs-human-experience-where-words-fall-short",
+    "industry": "AI & Technology",
+    "summary": "La IA ha aprendido a describirlo todo y nada la ha cambiado.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   },
   {
-    "title": "La TI de la India se enfrenta al reinicio de la IA: las cinco principales empresas registran un año fiscal mixto en medio de obstáculos macroeconómicos",
-    "url": "https://www.thehindubusinessline.com/info-tech/indian-it-faces-ai-reset-top-5-firms-post-mixed-fy26-amid-macro-headwinds/article70908441.ece",
-    "industry": "IT Services",
-    "summary": "Las principales empresas de TI de la India navegan por un cambio crítico impulsado por la IA y enfrentan resultados mixtos para el año fiscal 26 en medio de desafíos macroeconómicos y demandas cambiantes de los clientes. Los clientes están adoptando soluciones de IA.",
-    "charlotte_impact": "Este artículo reitera la presión sobre las empresas de TI para que adopten la IA y cumplan con las cambiantes expectativas de los clientes. Es posible que las empresas de Charlotte que brindan soluciones de TI necesiten reevaluar sus servicios para seguir siendo competitivas y satisfacer las demandas cambiantes.",
-    "impact_score": 8
+    "title": "La IA ayuda a los guardabosques a proteger la vida silvestre de Victoria en una fracción del tiempo",
+    "url": "https://www.abc.net.au/news/2026-04-27/ai-helps-parks-victoria-manage-native-species-pests-after-fires/106589360",
+    "industry": "AI & Technology",
+    "summary": "Una nueva herramienta de inteligencia artificial ayudará a Parks Victoria a gestionar especies nativas y en peligro de extinción afectadas por desastres naturales, incluidos los incendios forestales de verano, y el departamento pondrá la tecnología a disposición de todos.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   },
   {
-    "title": "Air India adopta la IA para mejorar la eficiencia de las operaciones, aumentar los ingresos y reducir los costos",
-    "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-embraces-ai-to-enhance-ops-efficiency-increase-revenues-reduce-costs/articleshow/130531028.cms",
-    "industry": "Aviation, AI",
-    "summary": "Air India está adoptando la IA para mejorar la eficiencia operativa, aumentar los ingresos y reducir los costos. Están implementando IA generativa para validar las normas de servicio de los pilotos y automatizar tareas, lo que mejora las operaciones.",
-    "charlotte_impact": "La adopción de la IA por parte de Air India en varios aspectos de sus operaciones puede ser un modelo para otras aerolíneas a nivel mundial y local. El éxito de la integración de la IA por parte de Air India muestra cómo las industrias pueden mejorar la eficiencia, reducir costos y mejorar la experiencia de los empleados y clientes.",
-    "impact_score": 7
+    "title": "La magia humana de Johan Roos: por qué la sabiduría humana derrota la eficiencia de la IA",
+    "url": "https://www.forbes.com/sites/stevedenning/2026/04/26/johan-rooss-human-magic-why-human-wisdom-defeats-ai-efficiency/",
+    "industry": "AI & Technology",
+    "summary": "Human Magic de Johan Roos muestra por qué amplificar la curiosidad humana, la creatividad y la sabiduría práctica es la clave para la creación continua de valor para el cliente en un mundo incierto de IA.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   },
   {
-    "title": "Defensor de la privacidad acusa al gobierno de EE. UU. de invertir en vigilancia masiva impulsada por inteligencia artificial",
-    "url": "https://yro.slashdot.org/story/26/04/26/0541202/privacy-advocate-accuses-us-government-of-investing-in-ai-powered-mass-surveillance",
-    "industry": "Privacy, AI",
-    "summary": "Un defensor de la privacidad acusó al gobierno de EE. UU. de invertir en vigilancia masiva impulsada por inteligencia artificial. El gobierno ahora puede comprar los datos de American y esto preocupa al defensor.",
-    "charlotte_impact": "Esta acusación plantea serias preocupaciones sobre el equilibrio entre la seguridad nacional y la privacidad individual. El uso cada vez mayor de la IA para la vigilancia masiva podría tener implicaciones para las libertades civiles, ya que requeriría una supervisión y una regulación cuidadosas para proteger los derechos individuales.",
-    "impact_score": 8
+    "title": "UKtech50 2026: ayúdenos a encontrar a las personas más influyentes en TI del Reino Unido",
+    "url": "https://www.computerweekly.com/news/366642313/UKtech50-2026-help-us-find-the-most-influential-people-in-UK-IT",
+    "industry": "AI & Technology",
+    "summary": "La búsqueda anual de Computer Weekly de las 50 personas más influyentes en la tecnología del Reino Unido ya está en marcha. Háganos saber a quién le gustaría nominar para la lista de este año.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Las líneas vitales de datos del mundo están cada vez más expuestas al sabotaje",
+    "url": "https://oilprice.com/Energy/Energy-General/The-Worlds-Data-Lifelines-Are-Increasingly-Exposed-to-Sabotage.html",
+    "industry": "AI & Technology",
+    "summary": "Los cables submarinos son vitales para suministrar energía renovable desde proyectos marinos y brindar conectividad de telecomunicaciones entre países. El rápido crecimiento de las redes de cable submarino está ayudando a impulsar la conectividad regional en todo el mundo. Sin embargo, debe haber más…",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Estado de la Unión de IA",
+    "url": "https://bradenkelley.com/2026/04/ai-state-of-the-union/",
+    "industry": "AI & Technology",
+    "summary": "Image Generation Edition ÚLTIMA ACTUALIZACIÓN: 26 de abril de 2026 a las 11:39 a. m. por Braden Kelley Observar la evolución de la IA durante los últimos ochenta años (83 en realidad) ha sido fascinante (es cierto que no he vivido el tiempo suficiente para verlo todo), pero la e...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
   }
 ]
