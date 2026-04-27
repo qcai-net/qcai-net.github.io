@@ -2,153 +2,113 @@
   {
     "title": "En otro giro salvaje para los chips de IA, Meta firma un acuerdo para millones de CPU de IA de Amazon",
     "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-    "industry": "Semiconductors, Cloud Computing, Artificial Intelligence",
-    "summary": "Meta ha llegado a un acuerdo con Amazon para millones de CPU diseñadas por Amazon para soportar cargas de trabajo agentes de IA, lo que indica una creciente demanda de procesadores especializados más allá de las GPU y un cambio en el panorama de los chips de IA.",
-    "charlotte_impact": "El acuerdo indica una tendencia más amplia de hiperescaladores como Meta y Amazon que invierten fuertemente en silicio personalizado, lo que podría reducir la dependencia de los proveedores de chips tradicionales. Esto crea nuevas oportunidades de mercado para las empresas que se especializan en hardware optimizado para IA y tiene efectos indirectos en la infraestructura, la adquisición de talentos y la recapacitación de la fuerza laboral en torno a la computación especializada.",
+    "industry": "Semiconductors, Cloud Computing, AI",
+    "summary": "Meta ha firmado un acuerdo con Amazon para millones de CPU de IA para cargas de trabajo agentes, lo que indica una nueva fase en la carrera de chips de IA más allá de las GPU. Este movimiento sugiere que las CPU de IA especializadas se están volviendo cruciales para tipos específicos de aplicaciones de IA.",
+    "charlotte_impact": "Este acuerdo señala un cambio en el panorama de la infraestructura de IA. Valida la inversión de Amazon en sus propios chips de IA y podría conducir a una mayor competencia y especialización en la industria de los semiconductores. Las empresas que dependen de la IA, incluidas aquellas de Charlotte que se centran en tecnología financiera o logística, pueden beneficiarse de la disponibilidad de soluciones de hardware diversas y optimizadas, lo que potencialmente reduce los costos y aumenta el rendimiento.",
     "impact_score": 9
   },
   {
     "title": "Sierra de Bret Taylor compra Fragment, la startup de IA respaldada por YC",
     "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-    "industry": "Customer Service, Artificial Intelligence",
-    "summary": "Sierra, una startup de agentes de servicio al cliente de IA fundada por Bret Taylor, adquirió Fragment, una startup francesa respaldada por YC, lo que sugiere una mayor consolidación e innovación en el espacio de servicio al cliente impulsado por IA.",
-    "charlotte_impact": "Esta adquisición destaca el valor cada vez mayor otorgado a las soluciones de servicio al cliente impulsadas por IA. La entidad fusionada obtiene acceso a nuevas tecnologías y talentos, lo que potencialmente conducirá a plataformas de interacción con el cliente más sofisticadas y eficientes. La demanda empresarial también impulsará la contratación en operaciones y desarrollo de IA en la ubicación de la sede de Sierra y/o operaciones importantes.",
+    "industry": "Customer Service, AI",
+    "summary": "Sierra de Bret Taylor, una startup de agentes de servicio al cliente de IA, adquirió Fragment, una startup francesa de IA respaldada por YC. Esta adquisición amplía las capacidades y el alcance de mercado de Sierra en el espacio de servicio al cliente impulsado por IA.",
+    "charlotte_impact": "La adquisición pone de relieve la creciente tendencia de consolidación en el ecosistema de startups de IA, especialmente en el sector de atención al cliente.  Enfatiza la importancia de integrar diversas capacidades de IA. Las empresas de tecnología financiera de Charlotte y otras empresas orientadas a servicios pueden ver disponibles soluciones de servicio al cliente más sofisticadas impulsadas por IA, lo que potencialmente mejorará la satisfacción del cliente y reducirá los costos operativos.",
     "impact_score": 7
-  },
-  {
-    "title": "OpenAI lanza GPT-5.5, lo que acerca a la empresa un paso más a una \"superaplicación\" de IA",
-    "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-    "industry": "Artificial Intelligence",
-    "summary": "OpenAI ha lanzado GPT-5.5, su último modelo de IA, que supuestamente ofrece capacidades mejoradas en una amplia gama de tareas, lo que acerca a la empresa a la creación de una \"súper aplicación\" de IA.",
-    "charlotte_impact": "El lanzamiento de GPT-5.5 significa el rápido y continuo avance de grandes modelos de lenguaje, lo que permite aplicaciones más complejas y versátiles en todas las industrias. Las empresas necesitan evaluar e integrar continuamente estas nuevas capacidades para mantener una ventaja competitiva y desbloquear eficiencias, impulsando aún más la adopción empresarial de la IA y aumentando la necesidad de experiencia y soporte.",
-    "impact_score": 8
   },
   {
     "title": "ComfyUI alcanza una valoración de 500 millones de dólares a medida que los creadores buscan más control sobre los medios generados por IA",
     "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
-    "industry": "Artificial Intelligence, Content Creation",
-    "summary": "ComfyUI, una herramienta que proporciona a los creadores un mayor control sobre la generación de imágenes, vídeos y audio de IA, ha alcanzado una valoración de 500 millones de dólares después de recaudar 30 millones de dólares, lo que indica una fuerte confianza de los inversores en la necesidad de herramientas de creación de contenido de IA personalizables.",
-    "charlotte_impact": "Esta ronda de financiación subraya la creciente demanda de herramientas que permitan a los creadores ajustar el contenido generado por IA, yendo más allá de los procesos totalmente automatizados. Esto afecta a las industrias creativas al otorgar a los artistas y diseñadores un mayor control y potencialmente alterar los flujos de trabajo creativos tradicionales y la necesidad de habilidades para adaptarse a nuevas herramientas.",
-    "impact_score": 8
+    "industry": "AI, Creative Tools",
+    "summary": "ComfyUI, una plataforma que ofrece a los creadores más control sobre la generación de imágenes, videos y audio de IA, logró una valoración de 500 millones de dólares después de recaudar 30 millones de dólares. Esta financiación demuestra la creciente demanda de herramientas que ofrezcan mayor control y personalización en los medios generados por IA.",
+    "charlotte_impact": "El éxito de ComfyUI subraya el valor cada vez mayor que se otorga a las herramientas de inteligencia artificial que empoderan a los creadores.  Esto tiene amplias implicaciones para las industrias creativas. Las agencias de marketing y las empresas de medios podrían aprovechar herramientas como ComfyUI para producir contenido atractivo y altamente personalizado, impulsando la innovación y potencialmente creando nuevos modelos de negocio.",
+    "impact_score": 7
   },
   {
     "title": "Los Mac minis rebajados inundan eBay en medio de la escasez impulsada por la IA",
     "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
-    "industry": "Hardware, Artificial Intelligence",
-    "summary": "La escasez de Mac mini de Apple, impulsada por la demanda de ejecutar modelos y herramientas de IA locales, ha llevado a aumentos de precios en eBay, lo que ilustra la creciente accesibilidad y demanda de capacidades de procesamiento de IA locales.",
-    "charlotte_impact": "La escasez de Mac mini pone de relieve una tendencia hacia la ejecución de modelos de IA localmente, reduciendo la dependencia de los servicios en la nube y permitiendo aplicaciones de IA fuera de línea. Esta demanda crea oportunidades para los fabricantes de hardware y desarrolladores de software que se centran en la informática de punta y la optimización de la inteligencia artificial para dispositivos locales, pero también cambia el cálculo de energía para las empresas más pequeñas que necesitan tomar decisiones de compra de hardware.",
-    "impact_score": 7
+    "industry": "Hardware, AI",
+    "summary": "Debido a la escasez impulsada por la IA, el Mac mini está viendo precios inflados en eBay a medida que aumenta la demanda de ejecutar modelos locales de IA. Esto indica una tendencia hacia el procesamiento local de IA y una mayor demanda de configuraciones de hardware específicas.",
+    "charlotte_impact": "La escasez de Mac mini y los precios inflados resaltan la mayor demanda de hardware capaz de ejecutar cargas de trabajo de IA localmente. Esto tiene implicaciones para las pequeñas empresas y los individuos. Puede impulsar la adopción de servicios de inteligencia artificial basados ​​en la nube en el corto plazo, o conducir a una mayor inversión en soluciones de hardware locales más poderosas, aunque potencialmente más costosas, en el largo plazo.",
+    "impact_score": 6
   },
   {
     "title": "Nothing presenta una herramienta de dictado impulsada por IA",
     "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
-    "industry": "Consumer Electronics, Artificial Intelligence",
-    "summary": "Nothing ha introducido una herramienta de dictado en el dispositivo impulsada por IA que admite más de 100 idiomas, lo que indica la creciente integración de la IA en los dispositivos de consumo cotidianos.",
-    "charlotte_impact": "La integración del dictado de IA en los dispositivos indica la creciente expectativa de los consumidores de funciones impulsadas por IA en las tecnologías cotidianas. Esto ejerce presión sobre otros fabricantes de productos electrónicos de consumo para que incorporen capacidades de IA similares para seguir siendo competitivos, acelerando la adopción generalizada de asistentes de IA.",
-    "impact_score": 6
+    "industry": "Consumer Electronics, AI",
+    "summary": "Nothing introdujo una herramienta de dictado en el dispositivo impulsada por IA que admite más de 100 idiomas. Esto demuestra un movimiento hacia la integración de capacidades de IA directamente en los dispositivos de consumo, mejorando la accesibilidad y la experiencia del usuario.",
+    "charlotte_impact": "La integración de la IA en los dispositivos cotidianos se está volviendo algo común. Esto mejorará la funcionalidad de la electrónica de consumo. Las empresas con sede en Charlotte centradas en el desarrollo de aplicaciones móviles o tecnologías de asistencia podrían beneficiarse al incorporar funciones similares impulsadas por IA en sus ofertas, ampliando la accesibilidad y atrayendo a una base de usuarios más amplia.",
+    "impact_score": 5
   },
   {
     "title": "DeepSeek presenta un nuevo modelo de IA que \"cierra la brecha\" con los modelos de frontera",
     "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
-    "industry": "Artificial Intelligence",
-    "summary": "DeepSeek ha presentado un avance de un nuevo modelo de IA que, según afirman, \"cierra la brecha\" con los modelos de frontera, lo que demuestra avances continuos y competencia en el desarrollo de modelos de IA.",
-    "charlotte_impact": "La vista previa del modelo de DeepSeek destaca el panorama cada vez más competitivo del desarrollo de modelos de IA. Los rápidos avances en las capacidades de IA desafían a las empresas a evaluar continuamente y potencialmente adaptar sus estrategias e integraciones de IA existentes, lo que requiere una inversión continua en investigación y desarrollo.",
+    "industry": "AI, Model Development",
+    "summary": "DeepSeek presentó un nuevo modelo de IA que afirma haber \"cerrado la brecha\" con los modelos de vanguardia en términos de eficiencia y rendimiento. Esto significa un progreso continuo en el desarrollo de modelos de IA, haciendo que las capacidades avanzadas de IA sean más accesibles y competitivas.",
+    "charlotte_impact": "La aparición de modelos de IA más eficientes y eficaces es beneficiosa para las empresas de diversos sectores.  Aumenta la accesibilidad de las capacidades avanzadas de IA. Esto puede fomentar una mayor adopción de soluciones de inteligencia artificial dentro del ecosistema empresarial existente de Charlotte, incluido el sector bancario.",
     "impact_score": 7
   },
   {
-    "title": "El bufete de abogados de élite de Wall Street, Sullivan & Cromwell, se disculpa ante un juez federal por alucinaciones con IA en un expediente judicial",
-    "url": "https://freerepublic.com/focus/f-bloggers/4376399/posts",
-    "industry": "Legal, Artificial Intelligence",
-    "summary": "Un destacado bufete de abogados de Wall Street, Sullivan & Cromwell, se disculpó por los errores generados por la IA en un expediente judicial, destacando los riesgos y desafíos del uso de la IA en entornos de alto riesgo.",
-    "charlotte_impact": "Este incidente sirve como advertencia sobre los posibles peligros de depender de la IA sin una supervisión y verificación adecuadas. Subraya la necesidad de medidas sólidas de control de calidad y revisión humana en los flujos de trabajo legales y profesionales asistidos por IA, creando oportunidades para las empresas que desarrollan herramientas de gestión de riesgos y gobernanza de IA.",
+    "title": "Teoría de juegos, proyectos de mejora pesquera, OpenAI, más: Sunday ResearchBuzz, 26 de abril de 2026",
+    "url": "https://researchbuzz.me/2026/04/26/game-theory-fishery-improvement-projects-openai-more-sunday-researchbuzz-april-26-2026/",
+    "industry": "Education, AI",
+    "summary": "Wolfram anunció el lanzamiento de Introducción a la teoría de juegos, un curso interactivo gratuito. Esto pone de relieve los crecientes recursos educativos en torno a los campos relacionados con la IA, lo que promueve una comprensión y una adopción más amplias.",
+    "charlotte_impact": "Este recurso gratuito brinda a las personas la oportunidad de mejorar su comprensión de la teoría de juegos y el pensamiento computacional. El recurso educativo podría inspirar a las personas a explorar cómo pueden mejorar su productividad.",
+    "impact_score": 3
+  },
+  {
+    "title": "La amenaza de los Mitos de Anthropic es 'tan grande como la guerra': Nirmala Sitharaman",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/threat-from-anthropics-mythos-as-big-as-war-nirmala-sitharaman/articleshow/130530530.cms",
+    "industry": "Cybersecurity, AI",
+    "summary": "El Ministro de Finanzas de la India advirtió sobre una nueva amenaza cibernética proveniente del modelo de inteligencia artificial Mythos de Anthropic, comparando su impacto potencial con el de la guerra. Esto indica una creciente preocupación sobre el posible uso indebido de modelos avanzados de IA con fines maliciosos.",
+    "charlotte_impact": "Esta advertencia subraya la importancia de medidas sólidas de ciberseguridad. Las instituciones financieras de Charlotte y otros proveedores de infraestructura crítica deben ser proactivos para comprender y mitigar las amenazas potenciales que plantean los modelos avanzados de IA.",
     "impact_score": 8
   },
   {
-    "title": "Superar el miedo a la IA sanitaria en la abstracción de datos",
-    "url": "https://kevinmd.com/2026/04/overcoming-the-fear-of-health-care-ai-in-data-abstraction.html",
-    "industry": "Healthcare, Artificial Intelligence",
-    "summary": "El artículo aborda el temor que rodea el uso de la IA en la abstracción de datos sanitarios, enfatizando la necesidad de comprender y aceptar el papel de la tecnología en la industria.",
-    "charlotte_impact": "Esto resalta la importancia de abordar las preocupaciones y generar confianza en torno a la adopción de la IA en la atención médica. Superar la resistencia y promover la comprensión será crucial para aprovechar los beneficios potenciales de la IA para mejorar la eficiencia, la precisión y los resultados de los pacientes en la atención médica. También señala la necesidad de implementar estándares de privacidad y seguridad de los datos.",
+    "title": "Empoderar a todos: creación de aplicaciones impulsadas por IA al alcance de su mano",
+    "url": "https://www.ibtimes.com.au/empowering-everyone-ai-driven-app-creation-your-fingertips-1867517",
+    "industry": "Software Development, AI",
+    "summary": "Una nueva plataforma muestra que la IA permite a todos crear aplicaciones personalizadas fácilmente. Esto simplifica el desarrollo de aplicaciones, lo que permite a individuos y empresas crear soluciones personalizadas sin grandes conocimientos de codificación.",
+    "charlotte_impact": "La democratización del desarrollo de aplicaciones reduce la barrera de entrada para las pequeñas empresas y los emprendedores. Esto podría permitirles crear soluciones personalizadas adaptadas a sus necesidades específicas. Esto puede conducir a un aumento de la innovación en diversos sectores, ya que los individuos y los equipos pequeños ahora pueden crear prototipos e implementar rápidamente sus propias aplicaciones.",
     "impact_score": 6
   },
   {
-    "title": "VIDEO — 'Oculto a plena vista': Maestro de escuela secundaria de Nebraska acusado de crear pornografía infantil con IA en el trabajo",
-    "url": "https://www.breitbart.com/education/2026/04/25/video-hiding-in-plain-sight-nebraska-middle-school-teacher-accused-of-creating-ai-child-porn-at-work/",
-    "industry": "Education, Artificial Intelligence, Law Enforcement",
-    "summary": "Un profesor es acusado de crear pornografía infantil generada por IA en el trabajo, lo que pone de relieve el posible uso indebido de la tecnología de IA y sus implicaciones para las fuerzas del orden.",
-    "charlotte_impact": "Esto plantea serias preocupaciones éticas sobre el potencial de que la IA se utilice con fines nocivos. Enfatiza la necesidad de medidas proactivas para detectar y prevenir el abuso generado por la IA, incluidas regulaciones más estrictas, herramientas de monitoreo avanzadas y una mayor concienciación entre los educadores y las fuerzas del orden.",
+    "title": "Los legisladores de Colorado luchan contra los límites a las interacciones de los niños con chatbots de IA y al acceso a contenido para adultos",
+    "url": "https://www.denverpost.com/2026/04/26/chatbot-regulations-ai-suicide-age-verification-colorado/",
+    "industry": "Regulation, AI",
+    "summary": "Los legisladores de Colorado están lidiando con los límites a las interacciones de los niños con chatbots de IA y al acceso a contenido para adultos. Esto refleja los crecientes esfuerzos regulatorios para abordar las preocupaciones éticas y de seguridad asociadas con la IA, especialmente para las poblaciones vulnerables.",
+    "charlotte_impact": "El debate en curso en Colorado destaca los desafíos de regular las tecnologías de inteligencia artificial en rápida evolución. Esto tiene un impacto en cómo las personas deben interactuar con ellos. Las empresas con sede en Charlotte que desarrollan herramientas impulsadas por IA deben ser conscientes del panorama regulatorio en evolución y priorizar las consideraciones éticas y de seguridad en sus procesos de desarrollo.",
+    "impact_score": 7
+  },
+  {
+    "title": "La TI de la India se enfrenta a un reinicio de la IA mientras las cinco principales empresas registran un año fiscal mixto 26",
+    "url": "https://economictimes.indiatimes.com/tech/information-tech/indian-it-faces-ai-reset-as-top-5-firms-post-mixed-fy26/articleshow/130531230.cms",
+    "industry": "IT Services",
+    "summary": "Las empresas indias de TI se enfrentan a un \"reinicio de la IA\", ya que el aumento de la productividad está deflactando los ingresos de los servicios heredados. Esta deflación de los ingresos se está viendo compensada por un aumento multimillonario en la IA generativa. Esto sugiere importantes interrupciones y oportunidades en el sector de servicios de TI debido a la IA.",
+    "charlotte_impact": "El cambio del sector de TI de la India indica una tendencia más amplia de disrupción impulsada por la IA en el panorama global de TI.  El aumento de la IA generativa compensa la deflación de los servicios heredados. Las empresas de TI deben adaptarse rápidamente para aprovechar las oportunidades que presenta la IA, incluida la IA y los roles adyacentes a la IA.",
     "impact_score": 9
   },
   {
-    "title": "El repunte de la IA se parece a la burbuja de las puntocom. Las empresas no.",
-    "url": "https://thenextweb.com/news/ai-stocks-dot-com-bubble-comparison-market-outlook/",
-    "industry": "Finance, Technology, Artificial Intelligence",
-    "summary": "El artículo compara el actual repunte del mercado de valores de IA con la burbuja de las puntocom, advirtiendo sobre una posible sobrevaluación y señalando diferencias en los fundamentos subyacentes de las empresas.",
-    "charlotte_impact": "Este análisis anima a los inversores a actuar con cautela y realizar la debida diligencia antes de invertir en acciones relacionadas con la IA. Destaca la importancia de evaluar el valor a largo plazo y los modelos de negocio sostenibles en lugar de depender únicamente de las exageraciones y las ganancias a corto plazo, y también de mantener una visión objetiva.",
-    "impact_score": 6
+    "title": "La TI de la India se enfrenta al reinicio de la IA: las cinco principales empresas registran un año fiscal mixto en medio de obstáculos macroeconómicos",
+    "url": "https://www.thehindubusinessline.com/info-tech/indian-it-faces-ai-reset-top-5-firms-post-mixed-fy26-amid-macro-headwinds/article70908441.ece",
+    "industry": "IT Services",
+    "summary": "Las principales empresas de TI de la India navegan por un cambio crítico impulsado por la IA y enfrentan resultados mixtos para el año fiscal 26 en medio de desafíos macroeconómicos y demandas cambiantes de los clientes. Los clientes están adoptando soluciones de IA.",
+    "charlotte_impact": "Este artículo reitera la presión sobre las empresas de TI para que adopten la IA y cumplan con las cambiantes expectativas de los clientes. Es posible que las empresas de Charlotte que brindan soluciones de TI necesiten reevaluar sus servicios para seguir siendo competitivas y satisfacer las demandas cambiantes.",
+    "impact_score": 8
   },
   {
-    "title": "BitsStrategy lanza una aplicación gratuita de robot de negociación intradía para operaciones cuantitativas totalmente automatizadas",
-    "url": "https://www.globenewswire.com/news-release/2026/04/25/3281158/0/en/BitsStrategy-Launches-Free-Day-Trading-Bot-App-for-Fully-Automated-Quantitative-Trading.html",
-    "industry": "Finance, Artificial Intelligence",
-    "summary": "BitsStrategy lanzó una aplicación de robot de negociación diaria gratuita para operaciones cuantitativas totalmente automatizadas, lo que hace que las operaciones impulsadas por IA sean más accesibles.",
-    "charlotte_impact": "El lanzamiento democratiza el acceso a estrategias comerciales cuantitativas, lo que potencialmente empodera a los inversores individuales pero también aumenta la volatilidad del mercado y genera preocupaciones sobre el sesgo algorítmico. La empresa deberá hacer de la seguridad de los datos una preocupación principal para evitar la exposición de datos de propiedad exclusiva.",
-    "impact_score": 6
+    "title": "Air India adopta la IA para mejorar la eficiencia de las operaciones, aumentar los ingresos y reducir los costos",
+    "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-embraces-ai-to-enhance-ops-efficiency-increase-revenues-reduce-costs/articleshow/130531028.cms",
+    "industry": "Aviation, AI",
+    "summary": "Air India está adoptando la IA para mejorar la eficiencia operativa, aumentar los ingresos y reducir los costos. Están implementando IA generativa para validar las normas de servicio de los pilotos y automatizar tareas, lo que mejora las operaciones.",
+    "charlotte_impact": "La adopción de la IA por parte de Air India en varios aspectos de sus operaciones puede ser un modelo para otras aerolíneas a nivel mundial y local. El éxito de la integración de la IA por parte de Air India muestra cómo las industrias pueden mejorar la eficiencia, reducir costos y mejorar la experiencia de los empleados y clientes.",
+    "impact_score": 7
   },
   {
-    "title": "El CEO de OpenAI se disculpa con la comunidad de Tumbler Ridge",
-    "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
-    "industry": "Artificial Intelligence, Ethics",
-    "summary": "El director ejecutivo de OpenAI se disculpó por no alertar a las autoridades sobre un usuario marcado por sus sistemas antes de un tiroteo masivo, lo que generó preocupaciones éticas sobre la responsabilidad de la IA.",
-    "charlotte_impact": "Este incidente subraya la necesidad crítica de directrices éticas claras y protocolos de seguridad sólidos para los sistemas de IA. Enfatiza la responsabilidad de los desarrolladores de IA de abordar de manera proactiva el posible uso indebido y colaborar con las autoridades para prevenir daños. Esto es más que un simple control de relaciones públicas, sino que tendrá un impacto en la supervisión regulatoria y la responsabilidad corporativa.",
-    "impact_score": 10
-  },
-  {
-    "title": "El gobernador de Maine veta la moratoria de los centros de datos",
-    "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
-    "industry": "Data Centers, Government, Technology",
-    "summary": "El gobernador de Maine vetó una moratoria de centros de datos, impidiendo una pausa en todo el estado en el desarrollo de nuevos centros de datos, lo que indica un conflicto entre las preocupaciones ambientales y el crecimiento económico.",
-    "charlotte_impact": "Esta decisión señala un debate más amplio sobre cómo equilibrar el consumo de energía y el impacto ambiental de los centros de datos con los beneficios económicos que aportan. Las empresas deberán desarrollar soluciones sostenibles para centros de datos y participar en un diálogo comunitario para abordar las preocupaciones sobre el impacto ambiental.",
-    "impact_score": 5
-  },
-  {
-    "title": "La pérdida de Meta es la ganancia de Thinking Machines",
-    "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
-    "industry": "Artificial Intelligence, Technology",
-    "summary": "Meta y Thinking Machines Lab están intercambiando talentos, lo que sugiere una dinámica competitiva en el mercado de talentos de IA.",
-    "charlotte_impact": "El intercambio muestra competencia en el mercado actual de contratación de talentos de IA. Las organizaciones deberán proporcionar paquetes competitivos para mantener a los empleados, o arriesgarse a los gastos y la interrupción de la rotación.",
-    "impact_score": 4
-  },
-  {
-    "title": "Conoce a Noscroll, un robot de inteligencia artificial que realiza el doomscrolling por ti",
-    "url": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
-    "industry": "Artificial Intelligence, Consumer Apps",
-    "summary": "Noscroll, un robot de inteligencia artificial, tiene como objetivo combatir el doomscrolling leyendo Internet para los usuarios.",
-    "charlotte_impact": "Este desarrollo indica la demanda de aplicaciones y herramientas de IA que beneficien el bienestar del usuario e ilustra que es posible utilizar la IA para contrarrestar los efectos negativos de otras tecnologías.",
-    "impact_score": 4
-  },
-  {
-    "title": "Nvidia ahora vale más que todas las economías excepto dos",
-    "url": "https://www.thestreet.com/markets/nvidia-is-now-worth-more-than-every-economy-except-two",
-    "industry": "Finance, Semiconductors",
-    "summary": "El valor de mercado de Nvidia superó a todas las economías nacionales excepto dos, lo que significa el creciente valor y el impacto del fabricante de chips de IA.",
-    "charlotte_impact": "Este hito refuerza el dominio de Nvidia en el mercado de chips de IA, creando oportunidades y desafíos para los competidores. Destaca el importante impacto económico de las empresas a la vanguardia de la innovación en IA.",
-    "impact_score": 6
-  },
-  {
-    "title": "La ministra Nirmala Sitharaman impulsa un marco KYC unificado y pide a Sebi que lidere",
-    "url": "https://economictimes.indiatimes.com/news/economy/finance/fm-nirmala-sitharaman-pushes-unified-kyc-framework-asks-sebi-to-lead/articleshow/130520459.cms",
-    "industry": "Finance, Government, Technology",
-    "summary": "El Ministro de Finanzas de la India presionó por un marco KYC unificado liderado por Sebi, enfatizando la necesidad de simplificar las regulaciones financieras y mitigar riesgos futuros.",
-    "charlotte_impact": "El cambio simplificará las regulaciones del sector financiero en todo el país, pero ejerce presión adicional sobre las empresas para que cumplan con cambios futuros.",
-    "impact_score": 3
-  },
-  {
-    "title": "'La IA puede escribir código, pero no puede subir una escalera de 12 pies': el director ejecutivo de Lowe's traza una línea: el presidente de OpenAI no está convencido de que la IA controle todas las decisiones de los consumidores",
-    "url": "https://finance.yahoo.com/sectors/technology/articles/ai-write-code-cant-climb-173116291.html",
-    "industry": "Retail, Artificial Intelligence",
-    "summary": "El director ejecutivo de Lowe's minimizó los temores de pérdida de empleos provocada por la IA, enfatizando las limitaciones de la IA en ciertas tareas físicas.",
-    "charlotte_impact": "Los comentarios reflejan el debate en curso sobre el impacto de la IA en la fuerza laboral. Si bien la IA puede automatizar algunas tareas, también es probable que cree nuevos roles y aumente los existentes. Las empresas deberían centrarse en programas de reciclaje para ayudar a los trabajadores a adaptarse al mercado laboral en evolución.",
-    "impact_score": 3
+    "title": "Defensor de la privacidad acusa al gobierno de EE. UU. de invertir en vigilancia masiva impulsada por inteligencia artificial",
+    "url": "https://yro.slashdot.org/story/26/04/26/0541202/privacy-advocate-accuses-us-government-of-investing-in-ai-powered-mass-surveillance",
+    "industry": "Privacy, AI",
+    "summary": "Un defensor de la privacidad acusó al gobierno de EE. UU. de invertir en vigilancia masiva impulsada por inteligencia artificial. El gobierno ahora puede comprar los datos de American y esto preocupa al defensor.",
+    "charlotte_impact": "Esta acusación plantea serias preocupaciones sobre el equilibrio entre la seguridad nacional y la privacidad individual. El uso cada vez mayor de la IA para la vigilancia masiva podría tener implicaciones para las libertades civiles, ya que requeriría una supervisión y una regulación cuidadosas para proteger los derechos individuales.",
+    "impact_score": 8
   }
 ]
