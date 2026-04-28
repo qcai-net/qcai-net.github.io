@@ -1,9 +1,49 @@
 [
   {
+    "title": "Amazon is already offering new OpenAI products on AWS",
+    "url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
+    "industry": "AI & Technology",
+    "summary": "A day after OpenAI got Microsoft to agree to end exclusive rights, AWS announced a slate of OpenAI model offerings, including a new agent service.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
     "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
     "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
     "industry": "AI & Technology",
     "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "DeepMind Vet\u2019s Ineffable Intelligence AI Startup Raises $1.1 Billion",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/deepmind-vets-ineffable-intelligence-ai-startup-raises-1-1-billion/",
+    "industry": "AI & Technology",
+    "summary": "Ineffable Intelligence, an artificial intelligence (AI) startup launched by Google DeepMind veteran David Silver, has raised $1.1 billion. The funding round, announced Monday (April 27) and co-led by Sequoia Capital and Lightspeed Venture Partners, will help \u2026",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Amazon launches an AI-powered audio Q&A experience on product pages",
+    "url": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
+    "industry": "AI & Technology",
+    "summary": "Amazon's new \"Join the chat\" feature lets you ask questions about products and receive AI-powered audio responses.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Google expands Pentagon\u2019s access to its AI after Anthropic\u2019s refusal",
+    "url": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
+    "industry": "AI & Technology",
+    "summary": "After Anthropic refused to allow the DoD to use its AI for domestic mass surveillance and autonomous weapons, Google has signed a new contract with the department.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Red Hat\u2019s OpenClaw maintainer just made enterprise Claw deployments a lot safer",
+    "url": "https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/",
+    "industry": "AI & Technology",
+    "summary": "Tank OS puts OpenClaw AI agents into a container that lets it run reliably and more safely, especially for those running fleets of them.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -32,26 +72,26 @@
     "impact_score": 5
   },
   {
-    "title": "Meta\u2019s loss is Thinking Machines\u2019 gain",
-    "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
+    "title": "Anthropic enters trillion-dollar club in private trading ahead of potential IPO as AI demand spikes - here's what you need to know",
+    "url": "https://economictimes.indiatimes.com/news/international/us/anthropic-enters-trillion-dollar-club-in-private-trading-ahead-of-potential-ipo-as-ai-demand-spikes-heres-what-you-need-to-know/articleshow/130563667.cms",
     "industry": "AI & Technology",
-    "summary": "Meta has been poaching talent from Thinking Machines Lab. But it's a two-way street.",
+    "summary": "Anthropic pre IPO share valuation surge: Anthropic's implied valuation has surged past $1 trillion in private on-chain trading, driven by significant investments from tech giants like Alphabet and Amazon. This valuation jump, coupled with reported revenue gro\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "This bank CEO let his AI clone handle an earnings call \u2014 now he's signing an OpenAI deal",
-    "url": "https://www.cnbc.com/2026/04/27/openai-partners-with-customers-bank-in-push-to-automate-finance.html",
+    "title": "NVIDIA\u2019s Rubin Lands Inside Google\u2019s Virtual Machine, Stretching Multi Site Clusters to Nearly 1 Million GPUs",
+    "url": "https://wccftech.com/nvidias-rubin-lands-inside-googles-virtual-machine-stretching-multi-site-clusters-to-nearly-1-million-gpus/",
     "industry": "AI & Technology",
-    "summary": "It's part of Customers Bank CEO Sam Sidhu's effort to get ahead in the industry's race to transform itself using AI agents as a new digital workforce",
+    "summary": "Google and NVIDIA have teamed up to provide users with access to as much as one million NVIDIA GPUs to power up the freshly launched A5X instances. The announcement is part of the pair's latest collaboration to reduce inference costs and improve token through\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Google to build AI campus in South Korea, presidential office says",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-to-build-ai-campus-in-south-korea-presidential-office-says/articleshow/130553619.cms",
+    "title": "YouTube is testing an AI-powered search feature that shows guided answers",
+    "url": "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/",
     "industry": "AI & Technology",
-    "summary": "South Korea and Google are set to build a new artificial intelligence campus in Seoul. This collaboration aims to foster cooperation between Google and local engineers and startups. The initiative includes plans for training and internships. Google also expre\u2026",
+    "summary": "YouTube is rolling out the new AI search feature to Premium subscribers in the U.S. on an opt-in basis.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -72,22 +112,6 @@
     "impact_score": 5
   },
   {
-    "title": "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
-    "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
-    "industry": "AI & Technology",
-    "summary": "ComfyUI, whose tools give creators more control over AI image, video, and audio generation, just raised $30 million.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
-    "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
-    "industry": "AI & Technology",
-    "summary": "Apple\u2019s sold-out Mac mini is spawning marked-up eBay listings as demand surges for the compact desktop, now favored for running local AI models and tools.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
     "title": "Gaston County scales back teacher pay request amid state budget uncertainty, sparking educator concerns",
     "url": "https://www.wcnc.com/article/news/education/gaston-county-scales-back-teacher-pay-request-amid-state-budget-uncertainty-sparking-educator-concerns/275-334b490d-c0dc-4fb0-ab4b-b6be484cdb5e",
     "industry": "AI & Technology",
@@ -96,26 +120,26 @@
     "impact_score": 5
   },
   {
-    "title": "Eyeing global heft, Indian cos open their purse strings for buyouts",
-    "url": "https://www.livemint.com/companies/indian-firms-global-acquisitions-sun-pharma-m-a-tata-motors-iveco-ktm-bajaj-coforge-deals-11777279595473.html",
+    "title": "Elon Musk trial against Sam Altman to reveal OpenAI power struggle",
+    "url": "https://www.aljazeera.com/economy/2026/4/27/elon-musk-trial-against-sam-altman-to-reveal-openai-power-struggle",
     "industry": "AI & Technology",
-    "summary": "Indian companies are stepping up global dealmaking, using large acquisitions to secure technology, scale and new markets. Recent overseas deals by Sun Pharma, Coforge, Tata Motors and Bajaj Auto signal a clear shift towards capability-led growth, alongside hi\u2026",
+    "summary": "The trial\u2019s outcome could sway the balance of power in AI, and jury selection starts on Monday.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Google I/O 2026: What to Expect",
-    "url": "https://www.cnet.com/tech/services-and-software/google-io-2026-everything-to-know/",
+    "title": "OpenAI Aims to Redefine Mobile Experience With AI-Powered Phone",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/openai-aims-to-redefine-mobile-experience-with-ai-powered-phone/",
     "industry": "AI & Technology",
-    "summary": "Google's developer conference will have AI at every corner. Here's what we think will be announced.",
+    "summary": "OpenAI is collaborating on the development of smartphone processors and may build a new artificial intelligence agent ecosystem based on a phone, TF International Securities Analyst Ming-Chi Kuo wrote in a Sunday (April 26) article on X. OpenAI did not immedi\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Sam Altman outlines five principles for OpenAI's AGI development",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/sam-altman-outlines-five-principles-for-openais-agi-development/articleshow/130553779.cms",
+    "title": "Lawyers for Sam Altman\u2019s sister quit representing her in sex-abuse lawsuit against OpenAI CEO",
+    "url": "https://nypost.com/2026/04/27/business/sam-altmans-sister-loses-lawyers-in-her-sex-abuse-lawsuit-against-openai-ceo/",
     "industry": "AI & Technology",
-    "summary": "OpenAI CEO Sam Altman has revealed five core principles guiding the development of artificial general intelligence. These principles aim to ensure AGI benefits everyone. They focus on making AI accessible to many, empowering individuals, fostering universal p\u2026",
+    "summary": "The law fimrs cited \u201can unfortunate general breakdown in the attorney-client relationship\u201d and said continuing to represent Annie Altman in the civil lawsuit was \u201cimpracticable.&#\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -132,30 +156,6 @@
     "url": "https://www.wcnc.com/article/news/local/were-struggling-charlotte-firefighters-push-for-pay-raises-ahead-of-city-budget-proposal/275-dfb6b96b-ce1f-49da-8586-5fb1305c0426",
     "industry": "AI & Technology",
     "summary": "Next year's budget could break a longstanding tradition of pay parity between CFD and CMPD.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "After promising equity training, Charlotte leaves most managers untrained",
-    "url": "https://www.wcnc.com/article/money/charlotte-business-inclusion-training/275-9082df3c-6c5d-4dd0-8418-ea2bb8ec70c2",
-    "industry": "AI & Technology",
-    "summary": "Years after pledging inclusive contracting reforms, the city of Charlotte has trained fewer than 25% of managers. A deputy city manager said there's a valid reason.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Sustain Charlotte calls for independent study before city moves forward on I-77 South Express Lanes",
-    "url": "https://www.wcnc.com/article/news/local/sustain-charlotte-calls-for-independent-study-i-77-south-express-lanes/275-915dab77-b447-4616-aaef-a78f850eab67",
-    "industry": "AI & Technology",
-    "summary": "Amid the I-77 South Express Lanes proposal, a coalition urges the Charlotte City Council to pause and obtain a transparent study before moving forward.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Embargoed Technical Briefing: Canada\u2019s Top Moonshot Ventures\u2122 of 2026 Announced at NACO Summit",
-    "url": "https://financialpost.com/globe-newswire/embargoed-technical-briefing-canadas-top-moonshot-ventures-of-2026-announced-at-naco-summit",
-    "industry": "AI & Technology",
-    "summary": "National Angel Capital Organization to host virtual briefing on May 1, 2026, at 11:00 AM ET ahead of the public announcement of Canada\u2019s Top Moonshot Ventures\u2122 of 2026 at NACO Summit in Ottawa TORONTO, April 27, 2026 (GLOBE NEWSWIRE) \u2014 The National Angel Capi\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
