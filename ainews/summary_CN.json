@@ -19,7 +19,7 @@
     "title": "OpenAI 可能会用人工智能代理取代应用程序来制造手机",
     "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
     "industry": "AI & Technology",
-    "summary": "一位分析师表示，这款手机可能会在 2028 年投入量产。",
+    "summary": "关于 OpenAI 的硬件计划有很多传言，其中涉及推出一对耳机。行业分析师郭明池的一份新报告表明，这家人工智能公司可能正在与联发科、高通和立讯精密合作开发手机。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -36,6 +36,22 @@
     "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
     "industry": "AI & Technology",
     "summary": "Meta 一直在从 Thinking Machines Lab 挖角人才。但这是一条双向街道。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "这位银行首席执行官让他的人工智能克隆人处理财报电话会议——现在他正在签署一项 OpenAI 协议",
+    "url": "https://www.cnbc.com/2026/04/27/openai-partners-with-customers-bank-in-push-to-automate-finance.html",
+    "industry": "AI & Technology",
+    "summary": "这是 Customers Bank 首席执行官 Sam Sidhu 努力的一部分，目的是利用人工智能代理作为新的数字劳动力，在行业转型竞赛中取得领先",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "总统办公室表示，谷歌将在韩国建立人工智能园区",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/google-to-build-ai-campus-in-south-korea-presidential-office-says/articleshow/130553619.cms",
+    "industry": "AI & Technology",
+    "summary": "韩国和谷歌将在首尔建设新的人工智能园区。此次合作旨在促进谷歌与当地工程师和初创公司之间的合作。该计划包括培训和实习计划。谷歌还表示...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -72,10 +88,50 @@
     "impact_score": 5
   },
   {
-    "title": "Chandrababu Naidu 将于 4 月 28 日为位于 Vizag 的 Google AI 数据中心奠基 - www.lokmattimes.com",
-    "url": "https://www.lokmattimes.com/business/chandrababu-naidu-to-lay-foundation-for-google-ai-data-centre-in-vizag-on-april-28-1/",
+    "title": "在州预算不确定的情况下，加斯顿县缩减了教师工资要求，引发了教育工作者的担忧",
+    "url": "https://www.wcnc.com/article/news/education/gaston-county-scales-back-teacher-pay-request-amid-state-budget-uncertainty-sparking-educator-concerns/275-334b490d-c0dc-4fb0-ab4b-b6be484cdb5e",
     "industry": "AI & Technology",
-    "summary": "Chandrababu Naidu 将于 4 月 28 日为维扎格 (Vizag) 的谷歌人工智能数据中心奠基 - 维沙卡帕特南，4 月 26 日首席部长 N. Chandrababu Naidu 将为谷歌人工智能数据中心奠基...... - 最新消息。查找当前和最新的重大头条新闻……",
+    "summary": "官员们指出资金限制和优先事项相互竞争，而教育工作者则对教师工资补贴支持下降表示担忧。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "着眼于全球影响力，印度公司打开钱包进行收购",
+    "url": "https://www.livemint.com/companies/indian-firms-global-acquisitions-sun-pharma-m-a-tata-motors-iveco-ktm-bajaj-coforge-deals-11777279595473.html",
+    "industry": "AI & Technology",
+    "summary": "印度公司正在加紧全球交易，通过大规模收购来确保技术、规模和新市场。 Sun Pharma、Coforge、Tata Motors 和 Bajaj Auto 最近的海外交易标志着向能力主导型增长的明显转变，同时......",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Google I/O 2026：期待什么",
+    "url": "https://www.cnet.com/tech/services-and-software/google-io-2026-everything-to-know/",
+    "industry": "AI & Technology",
+    "summary": "谷歌的开发者大会将在每个角落都有人工智能。以下是我们认为将要宣布的内容。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Sam Altman 概述了 OpenAI AGI 开发的五项原则",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/sam-altman-outlines-five-principles-for-openais-agi-development/articleshow/130553779.cms",
+    "industry": "AI & Technology",
+    "summary": "OpenAI 首席执行官 Sam Altman 透露了指导通用人工智能发展的五项核心原则。这些原则旨在确保 AGI 惠及每个人。他们专注于让人工智能为许多人所用，赋予个人权力，促进普遍的…",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "周二有零星雷阵雨，周三降雨可能性更大",
+    "url": "https://www.wcnc.com/article/weather/forecast/charlotte-weather-forecast-update/275-50501550",
+    "industry": "AI & Technology",
+    "summary": "本周大部分时间气温保持在 60 多度以上，中低端保持在 70 多度，有多次出现降雨积累的机会。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "“我们正在挣扎”|夏洛特消防员在城市预算提案之前推动加薪",
+    "url": "https://www.wcnc.com/article/news/local/were-struggling-charlotte-firefighters-push-for-pay-raises-ahead-of-city-budget-proposal/275-dfb6b96b-ce1f-49da-8586-5fb1305c0426",
+    "industry": "AI & Technology",
+    "summary": "明年的预算可能会打破 CFD 和 CMPD 长期以来薪酬平等的传统。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -96,66 +152,10 @@
     "impact_score": 5
   },
   {
-    "title": "为什么防鼠导管对于数据中心的正常运行时间至关重要",
-    "url": "https://www.smartdatacollective.com/why-rodent-resistant-conduits-are-critical-for-data-center-uptime/",
+    "title": "禁运技术简报：NACO 峰会上宣布 2026 年加拿大顶级 Moonshot Ventures™",
+    "url": "https://financialpost.com/globe-newswire/embargoed-technical-briefing-canadas-top-moonshot-ventures-of-2026-announced-at-naco-summit",
     "industry": "AI & Technology",
-    "summary": "从头开始保护您的数据：为什么防啮齿动物导管对于可靠运行至关重要。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "他们为这一拳欢呼吗？萨拉戈萨球迷的奇怪反应",
-    "url": "https://onefootball.com/en/news/did-they-cheer-the-punch-zaragoza-fans-bizarre-reaction-42773511",
-    "industry": "AI & Technology",
-    "summary": "毫无疑问，阿拉贡德比的结果在比赛结束时埃斯特万·安德拉达对豪尔赫·普利多的一拳后退居二线。作为回应，不仅门将的视频......",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "人工智能与人类经验：言语不足的地方",
-    "url": "https://www.psychologytoday.com/us/blog/the-digital-self/202604/ai-vs-human-experience-where-words-fall-short",
-    "industry": "AI & Technology",
-    "summary": "人工智能已经学会了描述一切，并且没有被任何东西改变。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "人工智能正在帮助护林员在短时间内保护维多利亚野生动物",
-    "url": "https://www.abc.net.au/news/2026-04-27/ai-helps-parks-victoria-manage-native-species-pests-after-fires/106589360",
-    "industry": "AI & Technology",
-    "summary": "一种新的人工智能工具将帮助维多利亚公园管理受自然灾害（包括夏季丛林大火）影响的本地和濒危物种，该部门将向所有人提供该技术。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "约翰·鲁斯的人类魔力：为什么人类的智慧击败了人工智能的效率",
-    "url": "https://www.forbes.com/sites/stevedenning/2026/04/26/johan-rooss-human-magic-why-human-wisdom-defeats-ai-efficiency/",
-    "industry": "AI & Technology",
-    "summary": "约翰·罗斯 (Johan Roos) 的《人类魔力》展示了为什么增强人类的好奇心、创造力和实践智慧是在不确定的人工智能世界中持续创造客户价值的关键",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "UKtech50 2026 – 帮助我们找到英国 IT 领域最具影响力的人物",
-    "url": "https://www.computerweekly.com/news/366642313/UKtech50-2026-help-us-find-the-most-influential-people-in-UK-IT",
-    "industry": "AI & Technology",
-    "summary": "《计算机周刊》年度英国科技界 50 名最具影响力人物的评选活动正在进行中 – 请告诉我们您希望提名谁进入今年的名单",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "世界数据生命线越来越容易受到破坏",
-    "url": "https://oilprice.com/Energy/Energy-General/The-Worlds-Data-Lifelines-Are-Increasingly-Exposed-to-Sabotage.html",
-    "industry": "AI & Technology",
-    "summary": "海底电缆对于从海上项目输送可再生能源和提供跨国电信连接至关重要。海底电缆网络的快速增长正在帮助促进全球区域互联互通。然而，更多的必须是……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "人工智能国情咨文",
-    "url": "https://bradenkelley.com/2026/04/ai-state-of-the-union/",
-    "industry": "AI & Technology",
-    "summary": "图像生成版最后更新时间：2026 年 4 月 26 日上午 11:39，作者：Braden Kelley 观看过去 80 年（实际上是 83 年）人工智能的演变非常有趣（诚然，我活得不够长，无法观看所有这一切），但 e…",
+    "summary": "国家天使资本组织将于 2026 年 5 月 1 日美国东部时间上午 11:00 举办虚拟简报会，随后于 2026 年 4 月 27 日在渥太华举行的 NACO 峰会上公开宣布 2026 年加拿大顶级 Moonshot Ventures™（环球通讯社） — 国家天使资本组织",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
