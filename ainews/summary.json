@@ -1,162 +1,130 @@
 [
   {
-    "title": "Amazon is already offering new OpenAI products on AWS",
-    "url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
-    "industry": "Cloud Computing",
-    "summary": "Amazon's AWS is now offering new OpenAI products, including an agent service, following Microsoft's agreement to end exclusive rights with OpenAI. This move signifies increased competition in the AI cloud services market.",
-    "charlotte_impact": "The immediate impact is heightened competition among cloud providers, leading to potentially lower prices and increased innovation in AI services for businesses. Companies will have more options for integrating AI into their operations.",
+    "title": "Satya Nadella says he\u2019s ready to \u2018exploit\u2019 the new OpenAI deal",
+    "url": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/",
+    "industry": "Technology",
+    "summary": "Satya Nadella stated Microsoft intends to fully leverage its new OpenAI deal, likely expanding its cloud offerings with OpenAI's AI technology without incurring additional costs.",
+    "charlotte_impact": "Microsoft's aggressive exploitation of its OpenAI deal means increased competition in the cloud services market. This will drive innovation and potentially lower costs for businesses leveraging cloud AI solutions, but will increase the pressure to develop proprietary technology.",
     "impact_score": 8
   },
   {
-    "title": "Satya Nadella says he\u2019s ready to \u2018exploit\u2019 the new OpenAI deal",
-    "url": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/",
-    "industry": "Cloud Computing",
-    "summary": "Microsoft CEO Satya Nadella states the company plans to fully exploit its deal with OpenAI by offering their technology to cloud customers without paying for it directly. This could give Microsoft a competitive advantage in the cloud market.",
-    "charlotte_impact": "Microsoft's aggressive strategy could pressure other cloud providers to adjust their pricing models or offer more compelling AI services to remain competitive, benefiting consumers and businesses in the long run.",
+    "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
+    "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+    "industry": "Cybersecurity",
+    "summary": "OpenAI is releasing its cybersecurity testing tool, GPT-5.5 Cyber, initially to a select group of 'critical cyber defenders', indicating a strategic approach to securing AI-powered systems.",
+    "charlotte_impact": "The release of specialized cybersecurity AI tools will enhance the ability of organizations to proactively defend against AI-driven cyberattacks. Early access for critical defenders suggests a focus on protecting crucial infrastructure and national security interests, creating high-skill jobs in cybersecurity analysis.",
+    "impact_score": 9
+  },
+  {
+    "title": "OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico",
+    "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+    "industry": "Cybersecurity",
+    "summary": "OpenAI is enhancing ChatGPT account security through opt-in protections, including a partnership with Yubico for security keys, addressing growing concerns about AI account vulnerabilities.",
+    "charlotte_impact": "Increased security measures for AI accounts will reduce the risk of data breaches and unauthorized access. The collaboration with Yubico will drive demand for hardware security keys, increasing their adoption in corporate settings and potentially driving new authentication standards.",
+    "impact_score": 7
+  },
+  {
+    "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+    "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+    "industry": "AI Development",
+    "summary": "Elon Musk testified that xAI trained Grok on OpenAI models. The testimony spotlights the contentious issue of 'distillation' and intellectual property within the AI development landscape.",
+    "charlotte_impact": "Allegations of training AI models on competitor's data will lead to legal battles and stricter intellectual property protections. This could stifle innovation by making it more difficult for startups to compete with established players and to reproduce successful models.",
+    "impact_score": 7
+  },
+  {
+    "title": "FDA approval, fundraising, and the reality of building in healthcare according to BioticsAI founder",
+    "url": "https://techcrunch.com/2026/04/30/fda-approval-fundraising-and-the-reality-of-building-in-healthcare-according-to-bioticsai-founder/",
+    "industry": "Healthcare",
+    "summary": "BioticsAI founder discusses the challenges of navigating FDA regulations and fundraising while building an AI-driven healthcare company, shedding light on the complexities of healthcare AI development.",
+    "charlotte_impact": "The successful navigation of regulatory hurdles and fundraising by BioticsAI validates the market opportunity for AI in healthcare. Other startups will learn from their experience and be encouraged to innovate. FDA's role is critical for ensuring AI applications in healthcare are safe and effective.",
+    "impact_score": 6
+  },
+  {
+    "title": "Google\u2019s Gemini AI assistant is hitting the road in millions of vehicles",
+    "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
+    "industry": "Automotive",
+    "summary": "Google's Gemini AI assistant is being integrated into millions of vehicles, marking a significant step in bringing advanced, conversational AI to the automotive industry.",
+    "charlotte_impact": "The integration of Gemini in vehicles will transform the driving experience through voice-activated controls and personalized assistance. The automotive industry is set to experience a wave of new services and connected car capabilities with AI becoming a key differentiator among brands. The impact extends beyond vehicles to public infrastructure.",
     "impact_score": 8
+  },
+  {
+    "title": "Stripe introduces Link, a digital wallet that autonomous AI agents can use, too",
+    "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
+    "industry": "Fintech",
+    "summary": "Stripe introduces Link, a digital wallet designed for both human users and autonomous AI agents, enabling secure transactions through defined approval flows.",
+    "charlotte_impact": "The introduction of Link will accelerate the adoption of AI agents in e-commerce and financial services. By providing a secure payment platform, Stripe enables AI agents to automate purchases, manage subscriptions, and perform financial transactions, which increases overall AI adoption.",
+    "impact_score": 9
+  },
+  {
+    "title": "Salesforce is crowdsourcing its AI roadmap \u2014 with customers",
+    "url": "https://techcrunch.com/2026/04/30/salesforce-is-crowdsourcing-its-ai-roadmap-with-customers/",
+    "industry": "Enterprise Software",
+    "summary": "Salesforce is crowdsourcing its AI product roadmap by involving customers, with the philosophy that shared enterprise challenges can be addressed through collaborative development.",
+    "charlotte_impact": "Salesforce's approach to crowdsourcing AI product development will lead to more customized and practical AI solutions tailored for specific industry needs. Engaging customers will drive user adoption, promote a loyal community, and accelerate innovation in enterprise software.",
+    "impact_score": 7
+  },
+  {
+    "title": "Salesforce is crowdsourcing its AI roadmap \u2014 with customers",
+    "url": "https://techcrunch.com/2026/04/30/salesforce-is-crowdsourcing-its-ai-roadmap-with-customers/",
+    "industry": "Enterprise Software",
+    "summary": "Salesforce is crowdsourcing its AI product roadmap by involving customers, with the philosophy that shared enterprise challenges can be addressed through collaborative development.",
+    "charlotte_impact": "Salesforce's approach to crowdsourcing AI product development will lead to more customized and practical AI solutions tailored for specific industry needs. Engaging customers will drive user adoption, promote a loyal community, and accelerate innovation in enterprise software.",
+    "impact_score": 7
+  },
+  {
+    "title": "Meta says its business AI now facilitates 10 million conversations a week",
+    "url": "https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/",
+    "industry": "Social Media",
+    "summary": "Meta reports that its business AI is facilitating 10 million conversations per week, with over 8 billion advertisers utilizing at least one of its GenAI tools.",
+    "charlotte_impact": "Meta's success with business AI highlights the growing adoption of GenAI in marketing and customer service. Increased efficiency in customer interactions and advertising will drive sales and improve customer satisfaction. This puts pressure on other social media platforms to innovate and offer similar AI tools to advertisers.",
+    "impact_score": 7
   },
   {
     "title": "Microsoft says it has over 20M paid Copilot users, and they really are using it",
     "url": "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/",
     "industry": "Software",
-    "summary": "Microsoft reports over 20 million paid Copilot users, indicating growing adoption and engagement with its AI assistant. This suggests a shift towards AI-powered productivity tools in the enterprise.",
-    "charlotte_impact": "Demonstrates that AI copilots are gaining acceptance and will continue to be integrated into workflows. Companies adopting these technologies stand to improve efficiency.",
-    "impact_score": 7
+    "summary": "Microsoft reports over 20 million paid Copilot users, indicating a significant adoption rate and demonstrating increasing user engagement with its AI assistant.",
+    "charlotte_impact": "High Copilot user numbers will reinforce Microsoft's position in the AI assistant market. It validates the investment in AI-powered productivity tools and signals continued adoption in the workforce. Other software providers will be pressed to provide comparable AI features or tools.",
+    "impact_score": 8
   },
   {
     "title": "Google Cloud surpasses $20B, but says growth was capacity-constrained",
     "url": "https://techcrunch.com/2026/04/29/google-cloud-surpasses-20b-but-says-growth-was-capacity-constrained/",
     "industry": "Cloud Computing",
-    "summary": "Google Cloud's revenue surpassed $20 billion in Q1, driven by high AI demand, but growth was limited by capacity constraints. This highlights the significant demand for AI infrastructure and services and potential bottlenecks.",
-    "charlotte_impact": "Capacity constraints in cloud computing may hinder the widespread adoption of AI by businesses, leading to delays and higher costs. Providers must invest heavily in infrastructure to meet the escalating demand.",
-    "impact_score": 7
-  },
-  {
-    "title": "Parallel Web Systems hits $2B valuation five months after its last big raise",
-    "url": "https://techcrunch.com/2026/04/29/parallel-web-systems-hits-2b-valuation-five-months-after-its-last-big-raise/",
-    "industry": "AI Agents",
-    "summary": "Parallel Web Systems, an AI agent-tool startup founded by Parag Agrawal, secured $100 million in funding at a $2 billion valuation shortly after a previous raise. This shows strong investor confidence in the potential of AI agent technologies.",
-    "charlotte_impact": "Increased funding into AI agent technologies accelerates the development of advanced automated systems. This could lead to new business models and significant productivity gains for companies that can effectively integrate these agents.",
-    "impact_score": 9
-  },
-  {
-    "title": "Firestorm Labs raises $82M to take drone factories into the field",
-    "url": "https://techcrunch.com/2026/04/29/firestorm-labs-raises-82m-to-take-drone-factories-into-the-field/",
-    "industry": "Defense",
-    "summary": "Firestorm Labs raised $82 million to deploy drone factories in shipping containers to bring manufacturing to the front lines. This reflects a growing trend of integrating AI-powered automation into defense and military operations.",
-    "charlotte_impact": "Investment in defense-related AI signals a shift toward autonomous weapon systems and advanced military technologies. This has significant ethical and geopolitical implications, along with potential economic benefits for companies involved in this sector.",
+    "summary": "Google Cloud surpasses $20 billion in quarterly revenue, driven by strong AI demand, but experiences capacity constraints that limit its potential growth.",
+    "charlotte_impact": "The increasing revenue in the cloud market will accelerate infrastructure investment by Google. Capacity constraints suggest that there is substantial unmet demand for AI cloud services, and this shortage can cause bottlenecks. The company must balance providing services and investing in infrastructure.",
     "impact_score": 8
   },
   {
-    "title": "Amazon launches an AI-powered audio Q&A experience on product pages",
-    "url": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
-    "industry": "E-commerce",
-    "summary": "Amazon introduced an AI-powered audio Q&A feature on product pages, enabling users to ask questions and receive AI-generated audio responses. This enhances the customer experience and streamlines the purchasing process.",
-    "charlotte_impact": "AI-powered customer service could automate and improve interactions. This offers a potential reduction in customer service costs and improved customer satisfaction.",
+    "title": "X announces a rebuilt ad platform powered by AI",
+    "url": "https://techcrunch.com/2026/04/30/x-announces-a-rebuilt-ad-platform-powered-by-ai/",
+    "industry": "Social Media",
+    "summary": "X (formerly Twitter) announces a rebuilt ad platform powered by AI, aiming to revitalize revenue growth through enhanced advertising capabilities.",
+    "charlotte_impact": "The rebuilding of X's ad platform will create new opportunities for advertisers to reach their target audience with AI-driven precision. If successful, the revamped platform could reverse the declining advertising revenue and establish X as a viable competitor in the digital advertising market.",
     "impact_score": 6
-  },
-  {
-    "title": "Google expands Pentagon\u2019s access to its AI after Anthropic\u2019s refusal",
-    "url": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
-    "industry": "Defense",
-    "summary": "Google expands access of its AI to the Pentagon after Anthropic refuses due to ethical concerns (domestic surveillance and autonomous weapons).",
-    "charlotte_impact": "Highlights Google's strategic decision to engage in defense projects, in contrast with competitors' ethical stance.",
-    "impact_score": 7
-  },
-  {
-    "title": "80 seconds of big tech earnings will decide stock market\u2019s fate",
-    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/80-seconds-of-big-tech-earnings-will-decide-stock-markets-fate/articleshow/130605173.cms",
-    "industry": "Financial Markets",
-    "summary": "The article discusses how the Big Tech earnings reports from Alphabet, Meta, and Microsoft will heavily influence the stock market's direction. The focus is on AI spending and revenue growth. These reports came out during the past 7 days and had a substantial impact.",
-    "charlotte_impact": "The earnings reports underscored the dominance of AI in driving market sentiment and investments. Positive AI-related results could lead to increased investments in technology stocks.",
-    "impact_score": 7
   },
   {
     "title": "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
     "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-    "industry": "Venture Capital",
-    "summary": "Anthropic is reportedly seeking to raise $50 billion in new funding at a valuation of $900 billion. This substantial valuation underscores the high investor confidence in the AI startup's potential.",
-    "charlotte_impact": "A high valuation for Anthropic could drive up valuations for other AI companies and attract more investments into the sector. Creates a potential bubble.",
+    "industry": "AI Development",
+    "summary": "Sources indicate Anthropic could raise a new $50 billion round at a valuation of $900 billion, highlighting significant investor interest in the generative AI space.",
+    "charlotte_impact": "A large funding round for Anthropic will accelerate its AI research and development and increase its influence in the AI market. This influx of funding will push the company to further innovate in areas like safety and ethics, potentially setting new standards for AI development.",
     "impact_score": 9
   },
   {
-    "title": "Colby Adcock\u2019s Scout AI raises $100M to train its models for war: We visited its bootcamp",
-    "url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
-    "industry": "Defense",
-    "summary": "Scout AI, led by Colby Adcock, raised $100 million to train AI models for military applications, specifically for controlling autonomous vehicles in combat. This indicates growing investment in AI for military use.",
-    "charlotte_impact": "Advances in AI for war applications suggest growing automation in military operations and potentially more advanced weaponry. Concerns about the ethical implications of AI in warfare are very prominent.",
-    "impact_score": 8
+    "title": "OpenAI facing \u2018waves\u2019 of US lawsuits over Canada mass shooting",
+    "url": "https://www.digitaljournal.com/world/openai-facing-waves-of-us-lawsuits-over-canada-mass-shooting/article",
+    "industry": "Legal",
+    "summary": "OpenAI faces multiple lawsuits in the US related to a mass shooting in Canada, raising critical questions about the accountability of AI developers for misuse of their technology.",
+    "charlotte_impact": "The lawsuits against OpenAI could have wide-ranging legal implications for the AI industry. If proven liable, it can set precedents for holding AI developers accountable for the actions of users, incentivizing greater safety measures and raising the cost to develop AI.",
+    "impact_score": 7
   },
   {
-    "title": "SAS announces AI Navigator to help enterprises manage growing AI governance challenges",
-    "url": "https://timesofindia.indiatimes.com/technology/sas-announces-ai-navigator-to-help-enterprises-manage-growing-ai-governance-challenges/articleshow/130603025.cms",
-    "industry": "Enterprise Software",
-    "summary": "SAS announced AI Navigator, a new solution to help enterprises manage growing AI governance challenges. This highlights the increasing importance of responsible and ethical AI implementation.",
-    "charlotte_impact": "Increasing focus on AI governance will drive adoption of tools and frameworks to manage risks and ensure compliance. Creates opportunities for businesses focused on responsible AI practices.",
-    "impact_score": 6
-  },
-  {
-    "title": "AI-based climate intelligence platform predicts 15-40 extra hot days each year for next 2 decades",
-    "url": "https://www.thehindubusinessline.com/economy/agri-business/ai-based-climate-intelligence-platform-predicts-15-40-extra-hot-days-each-year-for-next-2-decades/article70920359.ece",
-    "industry": "Climate Tech",
-    "summary": "An AI-based climate intelligence platform predicts 15-40 extra hot days each year for the next two decades, indicating growing climate risks and the need for proactive adaptation strategies.",
-    "charlotte_impact": "The availability of AI-powered climate predictions can help governments and businesses make better-informed decisions about adaptation and mitigation efforts, influencing infrastructure and industry in the long term.",
-    "impact_score": 6
-  },
-  {
-    "title": "Building AI-ready data: Vanguard\u2019s Virtual Analyst journey",
-    "url": "https://aws.amazon.com/blogs/machine-learning/building-ai-ready-data-vanguards-virtual-analyst-journey/",
-    "industry": "Financial Services",
-    "summary": "Vanguard highlights their journey of building an AI-ready data infrastructure and the use of AWS services to create their Virtual Analyst solution, showcasing the importance of data preparation for AI success.",
-    "charlotte_impact": "Financial institutions will benefit from streamlined workflows and more accurate analysis, leading to better investment decisions and risk management practices.",
-    "impact_score": 6
-  },
-  {
-    "title": "Inside WhatsApp's measures to curb digital arrest scams",
-    "url": "https://economictimes.indiatimes.com/tech/technology/inside-whatsapps-measures-to-curb-digital-arrest-scams/articleshow/130606464.cms",
-    "industry": "Cybersecurity",
-    "summary": "WhatsApp is using AI to combat digital arrest scams, banning thousands of accounts impersonating authorities, highlighting the role of AI in cybersecurity.",
-    "charlotte_impact": "Aided by AI, communication platforms can better protect users from fraud, contributing to greater trust and security.",
-    "impact_score": 6
-  },
-  {
-    "title": "Verisk beats first-quarter estimates on strong demand for its analytics",
-    "url": "https://www.channelnewsasia.com/business/verisk-beats-first-quarter-estimates-strong-demand-its-analytics-6089256",
-    "industry": "Insurance",
-    "summary": "Verisk reported better-than-expected results due to strong demand for its data analytics products used by insurers to assess policy risks. This signals increasing adoption of AI in insurance.",
-    "charlotte_impact": "Insurance companies using AI for risk assessment may offer more personalized policies and pricing. This creates more accurate pricing for risk",
-    "impact_score": 6
-  },
-  {
-    "title": "Is AI video just a prequel? Runway\u2019s CEO thinks world models are next",
-    "url": "https://techcrunch.com/podcast/equity-podcast-runway-ceo-cristobal-valenzuela-ai-video-world-models/",
-    "industry": "AI Research",
-    "summary": "Runway, a company focused on AI video generation, sees a shift towards world models, raising $860M at a $5.3B valuation. They compete with Google and OpenAI.",
-    "charlotte_impact": "Innovation in AI video continues to improve content generation. This will impact creative tools and content creation.",
-    "impact_score": 6
-  },
-  {
-    "title": "Google gains 25M subscriptions in Q1, driven by YouTube and Google One",
-    "url": "https://techcrunch.com/2026/04/29/google-gains-25m-subscriptions-in-q1-driven-by-youtube-and-google-one/",
-    "industry": "Consumer Tech",
-    "summary": "Google gained 25 million subscriptions in Q1, driven by YouTube and Google One, indicating the growing reliance on subscriptions for technology services.",
-    "charlotte_impact": "Expansion of subscription models for AI is a trend to watch. This enables broader consumer access and provides more revenue to the developers",
-    "impact_score": 5
-  },
-  {
-    "title": "Google Photos uses AI to make the iconic closet from \u2018Clueless\u2019 a reality",
-    "url": "https://techcrunch.com/2026/04/29/google-photos-uses-ai-to-make-the-iconic-closet-from-clueless-a-reality/",
-    "industry": "Consumer Tech",
-    "summary": "Google Photos uses AI to create a digital copy of your wardrobe, mimicking the closet from 'Clueless,' showing AI integration into everyday consumer applications.",
-    "charlotte_impact": "AI is enabling personalization of the shopping experience, although there are some that see this as frivolous. Many consumers still value real-world interaction with retail.",
-    "impact_score": 5
-  },
-  {
-    "title": "Meet Shapes, the app bringing humans and AI into the same group chats",
-    "url": "https://techcrunch.com/2026/04/29/meet-shapes-the-app-bringing-humans-and-ai-into-the-same-group-chats/",
-    "industry": "Social Media",
-    "summary": "Shapes, an app that integrates humans and AI into group chats, shows the evolving landscape of social interactions with the inclusion of AI characters.",
-    "charlotte_impact": "The use of AI in social media could lead to altered communication and community dynamics. Whether society sees this as positive or negative will take time to see.",
-    "impact_score": 5
+    "title": "Val Kilmer Is Back on the Big Screen Via Generative AI. His Family Is Fine With It",
+    "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/val-kilmer-generative-ai-1235555576/",
+    "industry": "Entertainment",
+    "summary": "Val Kilmer is back on the big screen via generative AI, indicating a new way for actors to return to acting.",
+    "charlotte_impact": "The use of AI to bring actors back to the big screen could revolutionize the entertainment industry. It will open opportunities for other actors to return, which can impact the workforce and increase revenues.",
+    "impact_score": 4
   }
 ]
