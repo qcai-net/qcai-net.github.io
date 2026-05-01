@@ -1,162 +1,162 @@
 [
   {
+    "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+    "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+    "industry": "Government/Defense",
+    "summary": "The Pentagon has signed deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks. This move indicates a significant investment in AI for national security and intelligence purposes, further diversifying the DOD's vendor portfolio following disputes with Anthropic.",
+    "charlotte_impact": "This move will funnel a substantial amount of money into the coffers of AI companies. Contracts like this also create a huge demand for engineers who can work on classified projects, potentially leading to a talent war among major tech firms. The economic effects will ripple through the entire AI hardware and software ecosystem.",
+    "impact_score": 9
+  },
+  {
     "title": "Legal AI startup Legora hits $5.6B valuation and its battle with Harvey just got hotter",
     "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
     "industry": "Legal Tech",
-    "summary": "Legal AI startup Legora achieves a $5.6B valuation amid intensifying competition with Harvey, marked by aggressive fundraising and overlapping market penetration.",
-    "charlotte_impact": "The competitive landscape of legal AI, epitomized by the Legora-Harvey rivalry, is driving significant investment in R&D and talent acquisition. This competition can lead to more rapid innovation in legal services, benefiting law firms and clients by improving efficiency, accuracy, and access to legal expertise while increasing market share.",
-    "impact_score": 9
+    "summary": "Legal AI startup Legora has reached a $5.6B valuation amid fierce competition with rival Harvey. Both companies are aggressively raising funds and expanding into each other's markets, leading to intense marketing battles.",
+    "charlotte_impact": "The ballooning valuations of legal AI companies will accelerate the disruption of traditional legal services. Law firms will face increasing pressure to adopt these technologies or risk falling behind. Expect increased investment in AI-driven legal solutions across the board.",
+    "impact_score": 8
   },
   {
     "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
     "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
     "industry": "Cybersecurity",
-    "summary": "OpenAI is restricting access to its cybersecurity testing tool, GPT-5.5 Cyber, initially limiting it to critical cyber defenders, highlighting the growing importance of AI in cybersecurity and the strategic control of powerful AI tools.",
-    "charlotte_impact": "The restricted rollout of GPT-5.5 Cyber underscores the strategic importance of AI in cybersecurity. For companies, this means AI-powered security tools could give enterprises the upper hand in defending against cyberattacks, enhancing their overall resilience. However, limited access also raises concerns about equity and potential advantages for larger organizations.",
-    "impact_score": 8
+    "summary": "OpenAI is restricting access to its cybersecurity testing tool, GPT-5.5 Cyber, initially only making it available to 'critical cyber defenders.' This decision follows similar actions by Anthropic and highlights concerns about the potential misuse of powerful AI models.",
+    "charlotte_impact": "Limited access to advanced AI cybersecurity tools will create a competitive advantage for larger organizations capable of securing access, potentially widening the security gap for smaller businesses. This further illustrates the growing importance of AI in cybersecurity and could spur increased development of open-source alternatives.",
+    "impact_score": 7
   },
   {
     "title": "OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico",
     "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
-    "industry": "AI Security",
-    "summary": "OpenAI is enhancing ChatGPT account security by introducing opt-in protections, including a partnership with Yubico for security keys, reflecting the rising need for robust security measures in AI applications.",
-    "charlotte_impact": "The move highlights a growing awareness of the risks associated with AI accounts, such as data breaches and unauthorized access. By implementing security measures like security keys, businesses can reduce the risk of ChatGPT and other AI tool compromise and protect against financial losses, reputational damage, and data breaches.",
+    "industry": "Cybersecurity",
+    "summary": "OpenAI is introducing advanced security measures for ChatGPT accounts, including a partnership with Yubico for security keys. This move addresses growing concerns about account security and data breaches in the AI space.",
+    "charlotte_impact": "The implementation of stronger security measures for AI accounts indicates a growing awareness of the cybersecurity risks associated with AI. Companies across all sectors will need to prioritize AI security protocols to prevent data breaches and maintain user trust. This has significant implications for the broader security industry.",
     "impact_score": 7
   },
   {
     "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
     "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
-    "industry": "AI Development",
-    "summary": "Elon Musk testified that xAI trained its Grok model on OpenAI models, bringing \"distillation\" into question as companies try to prevent smaller competitors from copying their models.",
-    "charlotte_impact": "Debates around AI model distillation and data usage are growing, potentially impacting the openness and accessibility of AI development. Restrictions on model training data could hinder innovation and increase the cost of developing competitive AI models.",
+    "industry": "AI Research",
+    "summary": "Elon Musk testified that xAI trained its Grok model using OpenAI models, raising concerns about the practice of 'distillation' and intellectual property protection in the AI industry. Frontier labs are increasingly focused on preventing smaller competitors from copying their models.",
+    "charlotte_impact": "This revelation will intensify the debate around intellectual property rights and data usage in AI development. Expect heightened scrutiny and potential legal challenges related to model training data, potentially stifling innovation and creating barriers to entry for smaller AI startups.",
     "impact_score": 6
   },
   {
     "title": "Google\u2019s Gemini AI assistant is hitting the road in millions of vehicles",
     "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
     "industry": "Automotive",
-    "summary": "Google's Gemini AI assistant is being integrated into millions of vehicles, showcasing Google's ambition to enhance the driving experience with advanced conversational AI.",
-    "charlotte_impact": "The integration of AI assistants like Gemini into vehicles opens new revenue streams for automakers and tech companies by creating safer driving environments through AI. This could lead to increased demand for AI-powered vehicles, boosting economic growth in the automotive sector and potentially creating new job opportunities.",
+    "summary": "Google's Gemini AI assistant is being integrated into millions of vehicles, signifying a major push towards advanced conversational AI in the automotive sector. This integration aims to enhance the driving experience with more sophisticated voice-activated features.",
+    "charlotte_impact": "The integration of AI assistants into vehicles promises a more connected and interactive driving experience. Automotive manufacturers will need to invest heavily in AI capabilities to remain competitive. This trend will also accelerate the development of new in-car services and applications.",
     "impact_score": 7
   },
   {
-    "title": "Stripe introduces Link, a digital wallet that autonomous AI agents can use, too",
+    "title": "Stripe updates Link, a digital wallet that autonomous AI agents can use, too",
     "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
     "industry": "FinTech",
-    "summary": "Stripe introduces Link, a digital wallet that allows autonomous AI agents to make secure transactions with user approval, signifying the growing role of AI in commerce and financial services.",
-    "charlotte_impact": "Stripe's introduction of Link for AI agents enables new business models based on autonomous AI transactions. Widespread adoption could lead to increased efficiency in e-commerce and financial operations. Also, this move accelerates the integration of AI into financial systems, requiring careful risk management and compliance.",
+    "summary": "Stripe has updated Link, its digital wallet, to allow autonomous AI agents to use it for secure transactions. This enables users to authorize AI agents to make purchases through approval flows.",
+    "charlotte_impact": "This development marks a significant step towards the integration of AI agents into e-commerce and financial transactions. expect an increase in the use of AI-powered shopping and payment solutions, streamlining online purchases and subscriptions. It also raises new security considerations that will drive demand for AI-specific fraud detection.",
     "impact_score": 8
   },
   {
     "title": "Salesforce is crowdsourcing its AI roadmap \u2014 with customers",
     "url": "https://techcrunch.com/2026/04/30/salesforce-is-crowdsourcing-its-ai-roadmap-with-customers/",
     "industry": "Enterprise Software",
-    "summary": "Salesforce is crowdsourcing its AI roadmap with customers, demonstrating a shift towards customer-centric AI development in the enterprise software sector.",
-    "charlotte_impact": "Salesforce crowdsourcing initiative could boost AI adoption and impact. This can increase the relevance and effectiveness of AI solutions, leading to a stronger competitive advantage for software companies and improved outcomes for enterprise customers.",
+    "summary": "Salesforce is crowdsourcing its AI roadmap from customers, suggesting a customer-centric approach to AI product development. The move underscores the importance of addressing real-world business problems with AI solutions.",
+    "charlotte_impact": "Salesforce's approach will encourage other enterprise software companies to prioritize customer needs in AI development. This trend will lead to more practical and impactful AI solutions for businesses, driving broader adoption and value creation.",
     "impact_score": 6
   },
   {
     "title": "Meta says its business AI now facilitates 10 million conversations a week",
     "url": "https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/",
-    "industry": "Marketing & Advertising",
-    "summary": "Meta reports that its business AI now facilitates 10 million conversations weekly, with over 8 billion advertisers using its GenAI tools, indicating significant AI adoption in marketing and advertising.",
-    "charlotte_impact": "Meta's reports signals AI's transformative impact on advertising and marketing. Businesses can leverage Meta's AI tools to improve ad targeting, campaign performance, and customer engagement, leading to higher marketing ROI. Additionally, the increased use of AI could drive demand for AI-related skills.",
-    "impact_score": 7
-  },
-  {
-    "title": "AI customer service startup Netomi raises $110 million",
-    "url": "https://economictimes.indiatimes.com/tech/funding/ai-customer-service-startup-netomi-raises-110-million/articleshow/130631740.cms",
-    "industry": "Customer Service",
-    "summary": "AI customer service startup Netomi raises $110 million in a Series C funding round led by Accenture Ventures to improve customer service for major companies.",
-    "charlotte_impact": "This funding validates the market opportunity for AI-powered customer service solutions. Netomi's expansion could lead to increased adoption of AI in customer service, improving efficiency and reducing costs for businesses. The investment also indicates the importance of Accenture Ventures.",
-    "impact_score": 7
-  },
-  {
-    "title": "AI customer service startup Netomi raises $110 million",
-    "url": "https://www.channelnewsasia.com/business/ai-customer-service-startup-netomi-raises-110-million-6092081",
-    "industry": "Customer Service",
-    "summary": "AI customer service startup Netomi raises $110 million in Series C funding, led by Accenture Ventures, demonstrating continued investor confidence in AI's potential to transform customer service.",
-    "charlotte_impact": "The sizable funding round indicates a strong belief in AI's ability to enhance customer service. More companies can adopt AI-driven solutions to improve customer satisfaction. Moreover, it could create specialized customer service roles.",
+    "industry": "Marketing/Advertising",
+    "summary": "Meta reports that its business AI facilitates 10 million conversations weekly, and over 8 billion advertisers have used at least one of its GenAI tools. This highlights the increasing adoption of AI in marketing and customer engagement.",
+    "charlotte_impact": "The widespread use of AI in marketing underscores its transformative impact on advertising and customer interactions. Agencies and businesses will need to develop expertise in AI-powered marketing tools to effectively reach and engage their target audiences. It also raises questions about the ethics of AI in personalized advertising.",
     "impact_score": 7
   },
   {
     "title": "Apple was surprised by AI-driven demand for Macs",
     "url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
-    "industry": "Consumer Electronics",
-    "summary": "Apple was surprised by AI-driven demand for Macs, leading to supply constraints for Mac mini, Studio, and Neo, highlighting the impact of AI on consumer purchasing behavior.",
-    "charlotte_impact": "The unexpected demand for Macs driven by AI applications demonstrates the rising demand for hardware tailored to AI workloads. Increased demand can benefit electronics manufacturers by enabling them to optimize their product offerings for AI-related markets. But, it also can cause supply shortages that might hurt market share.",
+    "industry": "Hardware",
+    "summary": "Apple reports being surprised by AI-driven demand for Macs, leading to supply constraints for certain models. This indicates a growing interest in AI-capable hardware.",
+    "charlotte_impact": "The surge in demand for Macs driven by AI applications demonstrates the increasing need for powerful hardware capable of handling AI workloads. PC manufacturers will need to innovate and optimize their products for AI to capitalize on this growing market.",
     "impact_score": 6
   },
   {
     "title": "X announces a rebuilt ad platform powered by AI",
     "url": "https://techcrunch.com/2026/04/30/x-announces-a-rebuilt-ad-platform-powered-by-ai/",
-    "industry": "Social Media & Advertising",
-    "summary": "X announces a rebuilt ad platform powered by AI, aimed at revitalizing revenue growth, showcasing the increasing reliance on AI for advertising optimization.",
-    "charlotte_impact": "X's AI-powered ad platform underscores the importance of AI in boosting advertising revenues. This technology enables enhanced ad targeting, increased user engagement, and potentially higher ad rates for social media platforms. AI-driven improvements in ad effectiveness could attract more advertisers to the platform, leading to revenue growth.",
+    "industry": "Social Media/Advertising",
+    "summary": "X (formerly Twitter) announces a rebuilt ad platform powered by AI, aiming to revive revenue growth. This reflects the importance of AI in improving advertising effectiveness and user experience.",
+    "charlotte_impact": "X's investment in an AI-powered ad platform indicates a broader trend of social media companies leveraging AI to enhance advertising performance. expect increased competition in the digital advertising space, with AI playing a key role in ad targeting and optimization.",
     "impact_score": 6
   },
   {
-    "title": "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
-    "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-    "industry": "AI Development",
-    "summary": "Anthropic could raise a new $50B round at a valuation of $900B, highlighting substantial investor interest and the escalating value of leading AI developers.",
-    "charlotte_impact": "This potential investment in Anthropic reflects a broader trend of massive capital inflows into AI. The concentration of investment in major players may intensify competition in the AI sector and potentially create barriers to entry for smaller startups.",
-    "impact_score": 9
-  },
-  {
-    "title": "30 projects receive funding of \u20ac37.5m for Agri research",
-    "url": "https://www.rte.ie/news/ireland/2026/0430/1571077-farming-projects-ireland/",
-    "industry": "Agriculture",
-    "summary": "30 projects receive funding of \u20ac37.5m for Agri research, with some projects leveraging AI for disease control and monitoring methane emissions, showing AI's growing application in agriculture.",
-    "charlotte_impact": "The investment in AI-driven agricultural research will likely increase efficiency and sustainability in farming practices. AI-powered disease control could reduce crop losses, while methane monitoring could support efforts to reduce emissions. It will support food security.",
+    "title": "Musk testifies he did not read 'fine print' about OpenAI becoming for-profit company",
+    "url": "https://economictimes.indiatimes.com/tech/technology/musk-testifies-he-did-not-read-fine-print-about-openai-becoming-for-profit-company/articleshow/130649672.cms",
+    "industry": "AI Ethics/Legal",
+    "summary": "Elon Musk testifies that he did not read the 'fine print' about OpenAI becoming a for-profit company, in his lawsuit against OpenAI. This highlights the ongoing legal battle surrounding the original mission and governance of OpenAI.",
+    "charlotte_impact": "The ongoing legal dispute between Elon Musk and OpenAI underscores the ethical and governance challenges associated with AI development. The outcome of this case could have significant implications for the future of AI research and commercialization.",
     "impact_score": 5
   },
   {
-    "title": "\u2018The cost of compute is far beyond the costs of the employees': Nvidia continues to stress importance of human workers - but how long can we all hang on?",
-    "url": "https://www.techradar.com/pro/the-cost-of-compute-is-far-beyond-the-costs-of-the-employees-nvidia-continues-to-stress-importance-of-human-workers-but-how-long-can-we-all-hang-on",
-    "industry": "AI Economics",
-    "summary": "Nvidia emphasizes the current high cost of AI compute relative to human labor, sparking debate about the economic implications of AI and its potential impact on employment.",
-    "charlotte_impact": "Nvidia's assertion highlights the ongoing debate about the economic trade-offs between AI and human labor. While AI offers potential productivity gains, the high cost of compute may limit its immediate impact on certain industries. Additionally, concerns about job displacement remain, requiring businesses and policymakers to address workforce transition and skills development.",
+    "title": "Meta posted its best quarter ever. The stock dropped 9 per cent.",
+    "url": "https://thenextweb.com/news/meta-q1-2026-user-decline-ai-capex/",
+    "industry": "Social Media",
+    "summary": "Meta posted its best quarter ever, but its stock dropped 9 per cent due to concerns around AI capital expenditures. Despite revenue gains, investors are wary of the cost associated with competing in AI.",
+    "charlotte_impact": "Investor reaction suggests growing skepticism about whether Meta's large investments in AI will pay off quickly enough. It highlights the risk associated with being a large-capital consumer of AI resources versus a creator of foundational models and technologies.",
+    "impact_score": 5
+  },
+  {
+    "title": "Bridging the gap: How to integrate Claude Security into the Tenable One Exposure Management Platform",
+    "url": "https://www.tenable.com/blog/how-to-integrate-claude-security-into--tenable-one",
+    "industry": "Cybersecurity",
+    "summary": "Tenable integrates Claude Security into its Tenable One Exposure Management Platform, bridging the gap between AI-driven vulnerability discovery and remediation. This integration helps unify the attack surface and focus on critical risks.",
+    "charlotte_impact": "This integration demonstrates the growing importance of AI in vulnerability management and threat detection. expect to see more cybersecurity platforms integrating AI capabilities to improve the speed and accuracy of threat analysis and remediation.",
+    "impact_score": 7
+  },
+  {
+    "title": "Lessons on AI accountability and governance: Why did IBM warn in 1979 that computers should never make management decisions and why is it relevant now as AI takes over?",
+    "url": "https://economictimes.indiatimes.com/news/international/us/lessons-on-ai-accountability-and-governance-why-did-ibm-warn-in-1979-that-computers-should-never-make-management-decisions-and-why-is-it-relevant-now-as-ai-takes-over/articleshow/130650057.cms",
+    "industry": "AI Governance",
+    "summary": "An IBM warning from 1979 about the dangers of computers making management decisions is becoming relevant again, as AI takes over more decision-making processes in companies. This underscores the need for AI accountability and governance.",
+    "charlotte_impact": "This highlights the growing need for robust AI governance frameworks to ensure ethical and responsible AI deployment. Companies will need to establish clear guidelines and oversight mechanisms to mitigate the risks associated with AI-driven decision-making. Ignoring these guidelines could lead to significant financial and reputational consequences.",
+    "impact_score": 8
+  },
+  {
+    "title": "AI Outperforms ER Doctors in Diagnostic Cases, Study Points to Collaborative Care",
+    "url": "https://www.cnet.com/tech/services-and-software/new-study-finds-ai-llm-outperforms-human-doctors/",
+    "industry": "Healthcare",
+    "summary": "A new study finds that AI outperforms ER doctors in diagnostic cases, but the study points to collaborative care rather than replacement of doctors. AI has a high upside in assisting the medical field.",
+    "charlotte_impact": "The study shows AI could be useful to decrease ER doctor burnout and diagnostic errors. This has big implications for AI investments to assist medical practitioners in delivering better patient care.",
+    "impact_score": 7
+  },
+  {
+    "title": "NSF ASCEND Engine Launches Third Request for Proposals (RFP) to Advance Environmental Sensing and AI Technologies in Colorado and Wyoming",
+    "url": "https://www.globenewswire.com/news-release/2026/04/30/3285390/0/en/NSF-ASCEND-Engine-Launches-Third-Request-for-Proposals-RFP-to-Advance-Environmental-Sensing-and-AI-Technologies-in-Colorado-and-Wyoming.html",
+    "industry": "R&D/Environmental",
+    "summary": "The NSF ASCEND Engine launches a third Request for Proposals (RFP) to advance environmental sensing and AI technologies in Colorado and Wyoming. The RFP aims to fund projects bridging environmental research and resilience solutions.",
+    "charlotte_impact": "This initiative will drive innovation in environmental monitoring and management, using AI and sensor technologies. Success could lead to the creation of new businesses, new jobs and enhanced environmental sustainability.",
+    "impact_score": 5
+  },
+  {
+    "title": "The blame game over AI hallucinations in court filings has started",
+    "url": "https://www.businessinsider.com/ai-hallucinations-court-filings-eve-dudley-debosier-2026-4",
+    "industry": "Legal Tech/Ethics",
+    "summary": "The blame game over AI hallucinations in court filings has started, with a lawyer apologizing for errors and the AI tool provider disclaiming responsibility. This highlights the risks and accountability issues with using AI in legal contexts.",
+    "charlotte_impact": "This highlights the growing need for legal professionals to exercise caution and critical thinking when using AI tools for legal work. There is a need for improved understanding and regulation of the use of generative AI.",
+    "impact_score": 7
+  },
+  {
+    "title": "A cybersecurity harbinger: Oracle front-runs AI model threat with new customer security advisory",
+    "url": "https://siliconangle.com/2026/04/30/cybersecurity-harbinger-oracle-front-runs-ai-model-threat-new-customer-security-advisory/",
+    "industry": "Cybersecurity",
+    "summary": "Oracle issued a customer security advisory as a direct response to Anthropic\u2019s new Mythos AI model and other frontier models. This is in anticipation of potential misuse of next-generation models.",
+    "charlotte_impact": "This is another example of growing cybersecurity issues in the AI space. As models become more complex, the need for security monitoring and mitigation will increase.",
     "impact_score": 6
-  },
-  {
-    "title": "Lawyers to the wealthy warn that AI legal advice comes with serious risks",
-    "url": "https://www.cnbc.com/2026/04/30/ai-legal-advice-lawyers-risks.html",
-    "industry": "Legal Tech",
-    "summary": "Lawyers warn that AI legal advice comes with serious risks, highlighting the potential for misuse and legal challenges associated with AI-generated counsel.",
-    "charlotte_impact": "The cautionary note from lawyers highlights potential risks associated with AI-generated legal advice. Clients could face negative legal consequences if they rely solely on AI-driven counsel. This could lead to increased legal and ethical considerations surrounding AI use in legal services.",
-    "impact_score": 5
-  },
-  {
-    "title": "Bitget lists SKYAI (SKYAI) for Spot Trading",
-    "url": "https://www.globenewswire.com/news-release/2026/04/30/3284745/0/en/Bitget-lists-SKYAI-SKYAI-for-Spot-Trading.html",
-    "industry": "Cryptocurrency",
-    "summary": "Bitget lists SKYAI (SKYAI) for Spot Trading, reflecting the integration of AI themes into cryptocurrency markets.",
-    "charlotte_impact": "The listing of SKYAI highlights the growing intersection between AI and cryptocurrency markets. The increased participation of AI-themed cryptocurrencies may attract new investors and drive market volatility, creating both opportunities and risks for investors. This market is generally speculative and not necessarily tied to AI impact.",
-    "impact_score": 3
-  },
-  {
-    "title": "Ealixir Launches Beta of RepuTrust, an AI-Powered Digital Identity Platform, Granting Early Access to Our Select Users",
-    "url": "https://www.globenewswire.com/news-release/2026/04/30/3284721/0/en/Ealixir-Launches-Beta-of-RepuTrust-an-AI-Powered-Digital-Identity-Platform-Granting-Early-Access-to-Our-Select-Users.html",
-    "industry": "Digital Identity",
-    "summary": "Ealixir launches Beta of RepuTrust, an AI-Powered Digital Identity Platform, Granting Early Access to select users. RepuTrust uses ReputScore, Ealixir's Proprietary AI-Driven Reputation Metric.",
-    "charlotte_impact": "AI-powered digital identity management systems could become more relevant as online interactions increase. AI to manage digital identities could increase trust and improve overall online experiences. On the other hand, they could decrease privacy and increase data risk.",
-    "impact_score": 4
-  },
-  {
-    "title": "HPE expands ProLiant edge network portfolio",
-    "url": "https://www.computerweekly.com/news/366642633/HPE-expands-ProLiant-edge-network-portfolio",
-    "industry": "Edge Computing",
-    "summary": "HPE expands ProLiant edge network portfolio, offering chassis and servers optimized for edge deployments across various industries, indicating growth in edge computing infrastructure for AI.",
-    "charlotte_impact": "The expansion of HPE's edge computing portfolio signals a growing trend toward decentralized AI processing. Optimized edge devices are able to deploy AI in manufacturing, security and retail.",
-    "impact_score": 4
   },
   {
     "title": "FDA approval, fundraising, and the reality of building in healthcare according to BioticsAI founder",
     "url": "https://techcrunch.com/2026/04/30/fda-approval-fundraising-and-the-reality-of-building-in-healthcare-according-to-bioticsai-founder/",
     "industry": "Healthcare",
-    "summary": "BioticsAI founder discusses FDA approval, fundraising, and the reality of building in healthcare, offering insights into navigating the regulatory challenges in the AI healthcare sector.",
-    "charlotte_impact": "The BioticsAI founder's insights on FDA approval and fundraising highlight the capital-intensive and heavily regulated nature of AI-driven healthcare. Success requires both technological innovation and the ability to navigate complex regulations and secure funding.",
-    "impact_score": 5
+    "summary": "BioticsAI's founder discusses the challenges and successes of building an AI-driven healthcare company, including FDA approval and fundraising. This provides insights into navigating the regulatory hurdles and maintaining team motivation in the healthcare AI space.",
+    "charlotte_impact": "The success of BioticsAI points towards the growing acceptance of AI-driven solutions in healthcare. Start-ups will face more and more competition as they navigate the legal and ethics guidelines.",
+    "impact_score": 6
   }
 ]
