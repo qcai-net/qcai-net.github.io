@@ -3,160 +3,160 @@
     "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
     "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
     "industry": "Robotics",
-    "summary": "Meta acquired Assured Robot Intelligence to enhance its AI models for humanoid robots, indicating a deeper commitment to robotics and AI integration.",
-    "charlotte_impact": "Meta's acquisition suggests a long-term bet on the convergence of AI and robotics, potentially creating new markets for robot components, AI software development, and specialized hardware manufacturing. This could lead to increased research and development in these areas, fostering innovation and economic growth within robotics and AI related industries.",
+    "summary": "Meta has acquired robotics startup Assured Robot Intelligence to enhance its humanoid AI research and development efforts, likely focusing on improving the AI models that power its robotic systems.",
+    "charlotte_impact": "Meta's acquisition signals a significant escalation in the pursuit of advanced robotics capabilities. This consolidation of expertise will likely accelerate the development of more sophisticated AI-driven robots, potentially disrupting industries that rely heavily on manual labor, such as manufacturing, logistics, and even customer service.",
     "impact_score": 8
   },
   {
     "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
     "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-    "industry": "Government/Defense",
-    "summary": "The Pentagon signed deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks, showcasing the increasing importance of AI in national security and government operations.",
-    "charlotte_impact": "The Pentagon's investment in AI represents a substantial economic opportunity for technology providers. This will stimulate job creation, drive advancements in AI technologies tailored for defense applications, and increase demand for cloud computing services optimized for sensitive data handling.",
+    "industry": "Government",
+    "summary": "The Pentagon has signed contracts with Nvidia, Microsoft, and AWS to implement AI technologies on classified networks, reflecting a strategic shift towards diversifying its AI vendor base after issues with Anthropic.",
+    "charlotte_impact": "The Pentagon's investment in AI signals a significant opportunity for technology companies specializing in cloud computing, cybersecurity, and AI development. This initiative will likely lead to increased demand for skilled AI professionals and could spur innovation in secure AI infrastructure and applications, benefiting the broader tech industry.",
     "impact_score": 9
   },
   {
     "title": "Legal AI startup Legora hits $5.6B valuation and its battle with Harvey just got hotter",
     "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
-    "industry": "Legal Tech",
-    "summary": "Legal AI startup Legora reached a $5.6B valuation amid intense competition with Harvey, highlighting the growing market for AI-powered legal services.",
-    "charlotte_impact": "The high valuation of Legora signals a strong investor belief in the potential of AI to disrupt the legal industry. This competition is likely to accelerate innovation in legal technology, lowering costs and increasing efficiency for law firms and their clients.",
+    "industry": "LegalTech",
+    "summary": "Legal AI startup Legora has achieved a $5.6 billion valuation amidst fierce competition with Harvey, showcasing intense growth and market validation in the legal technology space.",
+    "charlotte_impact": "The escalating competition between Legora and Harvey demonstrates the significant market opportunity for AI in the legal sector. Their rapid growth and valuations indicate a strong demand for AI-powered legal solutions, driving investment and innovation in areas such as legal research, contract review, and litigation support. It's likely this will push the legal profession to adopt tech more quickly.",
     "impact_score": 7
   },
   {
     "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
     "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
     "industry": "Cybersecurity",
-    "summary": "OpenAI is restricting access to its cybersecurity testing tool, GPT-5.5 Cyber, initially limiting it to 'critical cyber defenders,' indicating a focused approach on high-impact security applications.",
-    "charlotte_impact": "OpenAI's decision highlights the critical need for specialized AI tools in cybersecurity. By restricting access, OpenAI aims to control the use of the tool and mitigate potential misuse, reflecting a responsible approach to deploying advanced AI in sensitive areas. This may spur similar initiatives for limited access to specialized AI in other domains.",
-    "impact_score": 7
+    "summary": "Following Anthropic's limitations on model access, OpenAI is restricting access to its cybersecurity testing tool, GPT-5.5 Cyber, initially limiting distribution to 'critical cyber defenders.'",
+    "charlotte_impact": "OpenAI's move to restrict access to GPT-5.5 Cyber highlights the growing concern over the potential misuse of advanced AI models in cybersecurity. This will likely lead to increased investment in AI safety and security measures, along with stricter regulations around the development and deployment of powerful AI tools.",
+    "impact_score": 8
   },
   {
     "title": "OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico",
     "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
     "industry": "Cybersecurity",
-    "summary": "OpenAI announced new security measures for ChatGPT accounts, including a partnership with Yubico, reflecting a growing emphasis on AI security and user data protection.",
-    "charlotte_impact": "OpenAI's investment in advanced security features like Yubico integration suggests a shift towards prioritizing user data protection in the AI industry. This is likely to set a new standard for security, influencing other AI companies to enhance their security protocols.",
-    "impact_score": 6
+    "summary": "OpenAI is enhancing ChatGPT account security by introducing advanced opt-in protections, including a partnership with Yubico for security key integration.",
+    "charlotte_impact": "OpenAI's security enhancements will likely become a new standard for AI services and other critical SaaS platforms. This could create new opportunities for cybersecurity companies specializing in authentication and data protection, driving investment and innovation in security solutions for AI applications.",
+    "impact_score": 7
   },
   {
     "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
     "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
-    "industry": "AI Ethics/Legal",
-    "summary": "Elon Musk testified that xAI trained Grok on OpenAI models, raising concerns about data usage and intellectual property in the AI industry.",
-    "charlotte_impact": "Musk's testimony underscores the growing controversy around AI model training and data sourcing. This legal dispute can set precedents for data usage and intellectual property rights in the AI industry. This will likely increase scrutiny and regulation of AI model development practices.",
-    "impact_score": 8
-  },
-  {
-    "title": "Google\u2019s Gemini AI assistant is hitting the road in millions of vehicles",
-    "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
-    "industry": "Automotive",
-    "summary": "Google's Gemini AI assistant is being integrated into millions of vehicles, signaling a significant move to enhance the driving experience with conversational AI.",
-    "charlotte_impact": "The integration of Gemini in vehicles signifies a major step towards enhancing the in-car experience. This will drive demand for AI-powered automotive solutions, creating opportunities for software developers, hardware manufacturers, and automotive companies to innovate and improve safety and convenience features.",
+    "industry": "AI Safety",
+    "summary": "During testimony, Elon Musk claimed that xAI trained its Grok model using data from OpenAI, raising concerns about 'distillation' and data provenance in AI training.",
+    "charlotte_impact": "Musk's testimony raises questions about the ethics of data usage and the potential for intellectual property infringement in the AI industry. This could lead to greater scrutiny of AI training data and stricter regulations around data sourcing and usage, potentially impacting the development and deployment of new AI models.",
     "impact_score": 7
-  },
-  {
-    "title": "Stripe updates Link, a digital wallet that autonomous AI agents can use, too",
-    "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
-    "industry": "Fintech",
-    "summary": "Stripe updated Link, a digital wallet that autonomous AI agents can use, enabling secure transactions via approval flows and facilitating the growth of agentic AI applications.",
-    "charlotte_impact": "Stripe's Link update empowers autonomous AI agents to engage in financial transactions, unlocking new possibilities for AI-driven automation in commerce and finance. This could transform business processes, reduce transaction costs, and increase efficiency in various industries.",
-    "impact_score": 9
-  },
-  {
-    "title": "Salesforce is crowdsourcing its AI roadmap \u2014 with customers",
-    "url": "https://techcrunch.com/2026/04/30/salesforce-is-crowdsourcing-its-ai-roadmap-with-customers/",
-    "industry": "Enterprise Software",
-    "summary": "Salesforce is crowdsourcing its AI roadmap with customers, adopting a collaborative approach to AI development and ensuring alignment with enterprise needs.",
-    "charlotte_impact": "Salesforce's strategy of crowdsourcing its AI roadmap with customers will lead to more practical and effective AI solutions for businesses. This customer-centric approach enhances product usability, increases customer satisfaction, and fosters greater adoption of AI technologies in the enterprise sector.",
-    "impact_score": 6
-  },
-  {
-    "title": "AI-generated actors and scripts are now ineligible for Oscars",
-    "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
-    "industry": "Entertainment",
-    "summary": "AI-generated actors and scripts are now ineligible for Oscars, reflecting concerns about the impact of AI on creative professions.",
-    "charlotte_impact": "The Academy's decision reflects concerns over AI's impact on creative professions, aiming to protect human artists. This decision highlights the need for industry standards and regulations to address the ethical and economic implications of AI-generated content in the entertainment sector.",
-    "impact_score": 5
-  },
-  {
-    "title": "Apple was surprised by AI-driven demand for Macs",
-    "url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
-    "industry": "Hardware",
-    "summary": "Apple was surprised by AI-driven demand for Macs, resulting in supply constraints, particularly for Mac mini, Studio, and Neo models.",
-    "charlotte_impact": "The unexpected demand for Macs driven by AI workloads indicates a growing trend of local AI development. Apple's supply constraints may impact hardware manufacturers. This could lead to increased competition and innovation in the hardware space, especially for devices optimized for AI tasks.",
-    "impact_score": 7
-  },
-  {
-    "title": "Nvidia Stock 2026 Outlook Strong Buy Signals Dominate as AI Demand Fuels Optimism",
-    "url": "https://www.ibtimes.com.au/nvidia-stock-2026-outlook-strong-buy-signals-dominate-ai-demand-fuels-optimism-1868009",
-    "industry": "Semiconductors",
-    "summary": "Nvidia's stock outlook remains strong due to high AI demand, reinforcing its dominance in the AI chip market.",
-    "charlotte_impact": "Nvidia's continued strong performance reflects the ongoing AI boom. It will stimulate further investment in AI-related hardware and software development. This will have a ripple effect across various industries dependent on advanced computing power.",
-    "impact_score": 8
-  },
-  {
-    "title": "The limits of large language models in clinical practice",
-    "url": "https://kevinmd.com/2026/05/the-limits-of-large-language-models-in-clinical-practice.html",
-    "industry": "Healthcare",
-    "summary": "An article discusses the limits of large language models in clinical practice, highlighting the need for caution and careful evaluation in healthcare AI applications.",
-    "charlotte_impact": "The analysis underscores the importance of responsible AI implementation in healthcare. The medical industry needs to exercise caution and thorough evaluation to ensure patient safety and efficacy. AI development must address the potential risks and limitations of AI in clinical settings.",
-    "impact_score": 6
-  },
-  {
-    "title": "AI Marketing Industry Growth: How Artificial Intelligence is Driving an $82 Billion Market by 2030",
-    "url": "https://parwaaz-psdf.com.pk/ai-marketing-industry-growth-how-artificial-intelligence-is-driving-an-82-billion-market/",
-    "industry": "Marketing",
-    "summary": "AI marketing is projected to drive an $82 billion market by 2030, demonstrating the increasing integration of AI in marketing strategies and operations.",
-    "charlotte_impact": "The growth in AI marketing represents significant opportunities for marketing agencies, software developers, and businesses. This will foster more personalized and efficient marketing campaigns. This will drive demand for AI specialists and create new jobs in the marketing sector.",
-    "impact_score": 7
-  },
-  {
-    "title": "Apple warns Mac mini and Mac Studio shortages could last for months \u2014 local AI boom and memory crunch drive demand beyond Apple\u2019s manufacturing capacity",
-    "url": "https://www.tomshardware.com/desktops/apple-warns-mac-mini-and-mac-studio-shortages-could-last-for-months-local-ai-boom-and-memory-crunch-drive-demand-beyond-apples-manufacturing-capacity",
-    "industry": "Hardware",
-    "summary": "Apple warns of ongoing Mac mini and Mac Studio shortages due to the local AI boom and memory crunch, impacting developers seeking high-memory systems for AI workloads.",
-    "charlotte_impact": "The hardware shortages highlight the increasing demand for high-performance computing resources driven by local AI development. This shortage creates opportunities for alternative hardware providers and could influence developers to explore cloud-based AI solutions. The industry may need to increase memory production to meet the growing demand.",
-    "impact_score": 6
   },
   {
     "title": "FDA approval, fundraising, and the reality of building in healthcare according to BioticsAI founder",
     "url": "https://techcrunch.com/2026/04/30/fda-approval-fundraising-and-the-reality-of-building-in-healthcare-according-to-bioticsai-founder/",
     "industry": "Healthcare",
-    "summary": "BioticsAI founder discusses FDA approval, fundraising, and the challenges of building in the highly regulated healthcare space.",
-    "charlotte_impact": "BioticsAI's journey in navigating the regulatory landscape of healthcare highlights the unique challenges and opportunities in this sector. Successes in obtaining FDA approval and raising capital signal the growing acceptance of AI in healthcare. This can encourage further investment and innovation in AI-driven healthcare solutions.",
+    "summary": "BioticsAI founder discusses the challenges and successes of obtaining FDA approval and securing funding while building an AI-driven healthcare company.",
+    "charlotte_impact": "BioticsAI's journey highlights both the potential and the hurdles faced by AI startups in the healthcare sector. The interview emphasizes the importance of navigating complex regulatory landscapes and securing funding for long-term growth and innovation in AI-powered healthcare solutions, potentially leading to breakthroughs in diagnostics, treatment, and patient care.",
+    "impact_score": 6
+  },
+  {
+    "title": "Google\u2019s Gemini AI assistant is hitting the road in millions of vehicles",
+    "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
+    "industry": "Automotive",
+    "summary": "Google is integrating its Gemini AI assistant into millions of vehicles, signaling a strategic move to enhance the in-car driving experience with advanced, conversational AI.",
+    "charlotte_impact": "Google's integration of Gemini into vehicles marks a significant step toward the future of autonomous driving and connected car technologies. This is likely to accelerate the adoption of AI-powered features in vehicles, potentially disrupting the automotive industry and creating new opportunities for AI developers, data providers, and automotive manufacturers.",
+    "impact_score": 8
+  },
+  {
+    "title": "Stripe updates Link, a digital wallet that autonomous AI agents can use, too",
+    "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
+    "industry": "FinTech",
+    "summary": "Stripe has updated its Link digital wallet to enable autonomous AI agents to securely make payments with user authorization, extending its capabilities to the growing AI economy.",
+    "charlotte_impact": "Stripe's Link update facilitates the integration of AI agents into the financial ecosystem, enabling secure and automated transactions. This could lead to the development of new AI-powered services in e-commerce, finance, and other industries, driving innovation and efficiency in online transactions.",
+    "impact_score": 7
+  },
+  {
+    "title": "Jharkhand Partners with Google LLC for AI-Powered Healthcare Modernization",
+    "url": "https://timesofindia.indiatimes.com/city/ranchi/jharkhand-partners-with-google-llc-for-ai-powered-healthcare-modernization/articleshow/130722889.cms",
+    "industry": "Healthcare",
+    "summary": "Jharkhand's health department is partnering with Google LLC to incorporate AI into its healthcare system, with the aim of modernizing hospitals and improving the quality and accessibility of medical services.",
+    "charlotte_impact": "The partnership between Jharkhand and Google signals the growing recognition of AI's potential to transform healthcare in developing regions. This initiative could serve as a model for other governments seeking to leverage AI to improve healthcare outcomes and reduce disparities in access to medical services.",
+    "impact_score": 7
+  },
+  {
+    "title": "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
+    "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
+    "industry": "Healthcare",
+    "summary": "A Harvard study revealed that AI models can provide more accurate diagnoses in emergency room settings compared to human doctors, potentially revolutionizing medical diagnostics.",
+    "charlotte_impact": "The Harvard study's findings highlight the potential of AI to improve diagnostic accuracy and efficiency in healthcare. This could lead to the widespread adoption of AI-powered diagnostic tools in hospitals and clinics, reducing medical errors and improving patient outcomes, while also impacting staffing decisions.",
+    "impact_score": 9
+  },
+  {
+    "title": "AI-generated actors and scripts are now ineligible for Oscars",
+    "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+    "industry": "Entertainment",
+    "summary": "The Academy of Motion Picture Arts and Sciences has ruled that AI-generated actors and scripts are ineligible for Oscars, protecting human creativity in filmmaking.",
+    "charlotte_impact": "The Academy's decision will likely slow adoption of AI for creative work in entertainment in the short term, but will also drive investment and interest in finding uses of AI that complement, rather than replace, human creativity. Expect to see the best AI work on the small screen or behind-the-scenes rather than in starring roles for now.",
+    "impact_score": 6
+  },
+  {
+    "title": "Apple was surprised by AI-driven demand for Macs",
+    "url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
+    "industry": "Consumer Electronics",
+    "summary": "Apple reports increased demand for Macs driven by AI-related applications, leading to supply constraints for certain models.",
+    "charlotte_impact": "Apple's supply constraints signal a surge in demand for hardware suitable for running AI workloads, benefiting component manufacturers. The trend underscores the rising value of AI-optimized computing devices for both consumers and professionals. This will drive companies to make higher performance chips.",
+    "impact_score": 7
+  },
+  {
+    "title": "Meta stock price prediction drops despite strong earnings from tech giants",
+    "url": "https://cryptobriefing.com/meta-stock-price-prediction-drops-despite-strong-earnings-from-tech-giants/",
+    "industry": "Finance",
+    "summary": "Despite strong earnings, market skepticism about Meta's short-term stock potential highlights challenges in translating AI gains into immediate financial value.",
+    "charlotte_impact": "The stock market's hesitation reflects the challenges in quantifying the financial impact of AI investments. Companies will need to demonstrate clear revenue and profit growth from AI initiatives to convince investors of the long-term value of these technologies.",
+    "impact_score": 6
+  },
+  {
+    "title": "A Chinese court ruled that companies cannot terminate staff just to replace them with AI, following a similar ruling by another Chinese court in December 2025 (Victor Swezey/Bloomberg)",
+    "url": "https://www.techmeme.com/260502/p9#a260502p9",
+    "industry": "Labor Law",
+    "summary": "A Chinese court has ruled that companies cannot terminate employees solely to replace them with AI, reinforcing labor protection laws.",
+    "charlotte_impact": "This ruling reinforces the importance of human oversight and ethical considerations in the deployment of AI, which should lead to increased investment in training and education for workers to collaborate effectively with AI systems, rather than being replaced by them. Other countries may follow suit with similar laws.",
+    "impact_score": 7
+  },
+  {
+    "title": "'Build AI that can accurately represent the full complexity of biology': Mark Zuckerberg wants to cure all diseases but needs far more data to deliver a digital twin of human cells\u2014As genetic data becomes the next frontier, will you trust him with yours?",
+    "url": "https://www.techradar.com/pro/build-ai-that-can-accurately-represent-the-full-complexity-of-biology-mark-zuckerberg-wants-to-cure-all-diseases-but-needs-far-more-data-to-deliver-a-digital-twin-of-human-cells-as-genetic-data-becomes-the-next-frontier-will-you-trust-him-with-yours",
+    "industry": "Healthcare",
+    "summary": "Mark Zuckerberg aims to build AI that can accurately represent the complexity of biology to cure diseases but needs vast amounts of genetic data.",
+    "charlotte_impact": "Zuckerberg's vision requires vast amounts of high-quality data. This creates significant opportunities for companies that specialize in data collection, management, and analytics within the healthcare sector. However, it also raises important ethical questions about data privacy and the potential for bias in AI algorithms.",
+    "impact_score": 7
+  },
+  {
+    "title": "Oscars Ban AI Performances and Screenplays From Eligibility",
+    "url": "https://decrypt.co/366405/oscars-ban-ai-performances-screenplays-eligibility",
+    "industry": "Entertainment",
+    "summary": "The Oscars has officially banned AI performances and screenplays from eligibility in a move towards increased value of human effort in the creative space.",
+    "charlotte_impact": "The Oscars ruling can shift the focus of AI in entertainment from complete creation to tools supporting human talent. It could spur investment in development of AI tech used for editing, special effects, or script analysis rather than fully replacing human actors or writers.",
+    "impact_score": 6
+  },
+  {
+    "title": "Jammu and Kashmir: Warming Gulmarg turns to tech for four-season skiing future",
+    "url": "https://timesofindia.indiatimes.com/india/jammu-and-kashmir-warming-gulmarg-turns-to-tech-for-four-season-skiing-future/articleshow/130722215.cms",
+    "industry": "Tourism",
+    "summary": "Faced with warmer winters and diminishing snowfall in Gulmarg, Jammu and Kashmir turns to tech to create four-season skiing with artificial snow and synthetic slopes.",
+    "charlotte_impact": "Climate change is driving investment into AI and tech to mitigate impacts. The ski resort action should see an increase in tourism and business activity. The adoption of AI and synthetic technologies should increase viability for more ski resorts globally facing similar problems.",
+    "impact_score": 6
+  },
+  {
+    "title": "Why Most People Are Using AI Wrong",
+    "url": "https://www.psychologytoday.com/us/blog/the-architecture-of-identity/202605/why-most-people-are-using-ai-wrong",
+    "industry": "Education",
+    "summary": "Psychology Today analyzes how effective AI users think and act, highlighting the importance of perspective-taking, flexibility, and active thinking.",
+    "charlotte_impact": "This article emphasizes the importance of critical thinking and adaptability in the age of AI. It is a good reminder of the skills that individuals and organizations should prioritize to maximize the benefits of AI. Expect to see increased focus on educational programs that foster these types of skills.",
     "impact_score": 6
   },
   {
     "title": "The best AI dictation apps, tested and ranked",
     "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
-    "industry": "Software",
-    "summary": "A review tests and ranks AI-powered dictation apps, demonstrating advancements in voice recognition technology and their utility in various applications.",
-    "charlotte_impact": "The evaluation of AI dictation apps reflects improvements in speech recognition technology and its growing adoption in productivity tools. Widespread use of these apps can significantly enhance efficiency across various professional sectors, driving demand for voice recognition and natural language processing technologies.",
-    "impact_score": 5
-  },
-  {
-    "title": "Meta layoffs: More cuts possible after 10% workforce reduction on May 20",
-    "url": "https://economictimes.indiatimes.com/tech/technology/meta-layoffs-more-cuts-possible-after-10-workforce-reduction-on-may-20/articleshow/130713979.cms",
-    "industry": "Technology",
-    "summary": "Meta is potentially implementing more layoffs after reducing 10% of their workforce, indicating a strategic shift in company priorities.",
-    "charlotte_impact": "Meta's potential layoffs reflect the company's efforts to streamline operations and prioritize key strategic areas. This will likely impact the tech job market, potentially increasing the supply of skilled workers. Meta is likely to focus on automation, AI and efficiency, which could have widespread business and economic effects.",
-    "impact_score": 4
-  },
-  {
-    "title": "Can AI Find You Love?",
-    "url": "https://www.theatlantic.com/ideas/2026/05/ai-matchmaker-dating-app/687038/",
-    "industry": "Dating",
-    "summary": "An article explores whether AI can find you love, given people are tired of swiping on dating apps, and the question of AI matchmakers being the answer.",
-    "charlotte_impact": "Exploring AI matchmakers for dating reflects the increasing interest of AI in areas that directly impact people's social lives. If AI matchmakers succeed in creating sustainable matches, there would be a large-scale transformation of the social relationships that underpin economies and social structures.",
-    "impact_score": 4
-  },
-  {
-    "title": "A systematic exploration of GenAI-driven security mechanisms for IoT in edge computing environments | International Journal of System Assurance Engineering and Management",
-    "url": "https://link.springer.com/article/10.1007/s13198-026-03314-9",
-    "industry": "Cybersecurity",
-    "summary": "An article explores GenAI-driven security mechanisms for IoT in edge computing environments, as GenAI and IoT create security concerns.",
-    "charlotte_impact": "The rise of GenAI-driven security reflects its importance in protecting IoT in the edge computing environments. This creates the need for specialized personnel to maintain these systems and drive new innovations in IoT/GenAI applications.",
-    "impact_score": 5
+    "industry": "Productivity",
+    "summary": "A review of the best AI-powered dictation apps shows the rising use of voice recognition for tasks ranging from emails and notes to even coding.",
+    "charlotte_impact": "With the improving capabilities of AI dictation apps, productivity should see a big increase, especially in areas like documentation. The increase in use could have a large impact across many sectors, including business, healthcare, and coding.",
+    "impact_score": 6
   }
 ]
