@@ -2,161 +2,161 @@
   {
     "title": "Meta compra una startup de robótica para reforzar sus ambiciones de IA humanoide",
     "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
-    "industry": "Robotics, AI",
-    "summary": "Meta adquirió la startup de robótica Assured Robot Intelligence para mejorar sus modelos de IA para robots humanoides, destacando la ambición de Meta en el espacio de la robótica y la IA.",
-    "charlotte_impact": "La adquisición de Meta refleja una tendencia más amplia de los gigantes tecnológicos que invierten en robótica de inteligencia artificial, lo que podría conducir a una mayor automatización en industrias como la fabricación, la logística y el servicio al cliente. Esto podría crear nuevas oportunidades laborales en el desarrollo de la inteligencia artificial y la ingeniería robótica y, al mismo tiempo, desplazar a los trabajadores en tareas rutinarias, lo que obligaría a las empresas a centrarse en la reconversión y la mejora de las habilidades.",
+    "industry": "Robotics",
+    "summary": "Meta adquirió Assured Robot Intelligence para mejorar sus modelos de IA para robots humanoides, lo que indica un compromiso más profundo con la robótica y la integración de la IA.",
+    "charlotte_impact": "La adquisición de Meta sugiere una apuesta a largo plazo por la convergencia de la IA y la robótica, lo que podría crear nuevos mercados para componentes de robots, desarrollo de software de IA y fabricación de hardware especializado. Esto podría conducir a una mayor investigación y desarrollo en estas áreas, fomentando la innovación y el crecimiento económico dentro de las industrias relacionadas con la robótica y la IA.",
     "impact_score": 8
   },
   {
     "title": "El Pentágono firma acuerdos con Nvidia, Microsoft y AWS para implementar IA en redes clasificadas",
     "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-    "industry": "Defense, Technology",
-    "summary": "El Pentágono firmó acuerdos con Nvidia, Microsoft y AWS para implementar IA en redes clasificadas, lo que indica una inversión significativa en IA con fines de seguridad nacional.",
-    "charlotte_impact": "Estos acuerdos tendrán un impacto significativo en la seguridad nacional, impulsando la innovación en IA para la recopilación de inteligencia, la detección de amenazas y la ciberseguridad. Podría generar una mayor demanda de especialistas en IA con autorizaciones de seguridad y potencialmente estimular la investigación y el desarrollo en áreas como la IA adversaria y el despliegue seguro de la IA.",
+    "industry": "Government/Defense",
+    "summary": "El Pentágono firmó acuerdos con Nvidia, Microsoft y AWS para implementar IA en redes clasificadas, lo que demuestra la creciente importancia de la IA en la seguridad nacional y las operaciones gubernamentales.",
+    "charlotte_impact": "La inversión del Pentágono en IA representa una oportunidad económica sustancial para los proveedores de tecnología. Esto estimulará la creación de empleo, impulsará avances en tecnologías de inteligencia artificial adaptadas a aplicaciones de defensa y aumentará la demanda de servicios de computación en la nube optimizados para el manejo de datos confidenciales.",
     "impact_score": 9
+  },
+  {
+    "title": "La startup legal de IA Legora alcanza una valoración de 5.600 millones de dólares y su batalla con Harvey se ha vuelto más candente",
+    "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
+    "industry": "Legal Tech",
+    "summary": "La startup legal de IA Legora alcanzó una valoración de 5.600 millones de dólares en medio de una intensa competencia con Harvey, lo que destaca el creciente mercado de servicios legales impulsados ​​por IA.",
+    "charlotte_impact": "La alta valoración de Legora indica una fuerte creencia de los inversores en el potencial de la IA para revolucionar la industria legal. Es probable que esta competencia acelere la innovación en tecnología legal, reduciendo los costos y aumentando la eficiencia de las firmas de abogados y sus clientes.",
+    "impact_score": 7
   },
   {
     "title": "Después de criticar a Anthropic por limitar Mythos, OpenAI también restringe el acceso a Cyber",
     "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
-    "industry": "Cybersecurity, AI",
-    "summary": "OpenAI está restringiendo el acceso a su herramienta de pruebas de ciberseguridad, GPT-5.5 Cyber, limitándola inicialmente a \"ciberdefensores críticos\", lo que muestra la creciente importancia de la IA en la ciberseguridad.",
-    "charlotte_impact": "Restringir el acceso refleja la naturaleza sensible de las herramientas avanzadas de ciberseguridad y la necesidad de evitar su uso indebido. Destaca la creciente demanda de soluciones de IA especializadas en ciberseguridad y el potencial de un mercado bifurcado con acceso restringido a aplicaciones sensibles.",
+    "industry": "Cybersecurity",
+    "summary": "OpenAI está restringiendo el acceso a su herramienta de pruebas de ciberseguridad, GPT-5.5 Cyber, limitándola inicialmente a los \"ciberdefensores críticos\", lo que indica un enfoque centrado en aplicaciones de seguridad de alto impacto.",
+    "charlotte_impact": "La decisión de OpenAI destaca la necesidad crítica de herramientas de IA especializadas en ciberseguridad. Al restringir el acceso, OpenAI tiene como objetivo controlar el uso de la herramienta y mitigar el posible uso indebido, lo que refleja un enfoque responsable para implementar IA avanzada en áreas sensibles. Esto puede impulsar iniciativas similares para el acceso limitado a IA especializada en otros dominios.",
     "impact_score": 7
   },
   {
     "title": "OpenAI anuncia nueva seguridad avanzada para cuentas ChatGPT, incluida una asociación con Yubico",
     "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
-    "industry": "Cybersecurity, AI",
-    "summary": "OpenAI anunció nuevas medidas de seguridad avanzadas para las cuentas ChatGPT, incluida una asociación con Yubico, lo que demuestra un enfoque en proteger los datos de los usuarios y prevenir el uso indebido.",
-    "charlotte_impact": "Mayores medidas de seguridad para herramientas de inteligencia artificial como ChatGPT son cruciales para generar confianza y fomentar una adopción más amplia. Las asociaciones con proveedores de claves de seguridad mejoran la protección de las cuentas y mitigan los riesgos asociados con las filtraciones de datos y el acceso no autorizado, lo que refuerza la importancia de la seguridad en el desarrollo de la IA.",
-    "impact_score": 7
-  },
-  {
-    "title": "El asistente Gemini AI de Google está viajando en millones de vehículos",
-    "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
-    "industry": "Automotive, AI",
-    "summary": "El asistente de IA Gemini de Google se está integrando en millones de vehículos, lo que indica un impulso hacia una IA conversacional más avanzada en la industria automotriz.",
-    "charlotte_impact": "La integración de asistentes de inteligencia artificial como Gemini transformará la experiencia de conducción, brindando a los conductores navegación, entretenimiento y control del vehículo mejorados. Esta tendencia podría conducir a una mayor demanda de tecnologías automotrices impulsadas por IA y crear oportunidades para desarrolladores e ingenieros especializados en aplicaciones de IA para automóviles.",
-    "impact_score": 8
-  },
-  {
-    "title": "Stripe actualiza Link, una billetera digital que los agentes autónomos de IA también pueden usar",
-    "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
-    "industry": "Fintech, AI",
-    "summary": "Stripe actualizó Link, una billetera digital que los agentes autónomos de IA pueden usar, lo que permite una autorización de gasto segura a través de flujos de aprobación.",
-    "charlotte_impact": "Esta actualización allana el camino para que los agentes de IA participen en el comercio electrónico y las transacciones financieras, revolucionando potencialmente las compras en línea y los procesos comerciales. También plantea cuestiones importantes sobre la seguridad, la responsabilidad y la necesidad de marcos de gobernanza sólidos para los agentes de IA.",
-    "impact_score": 8
-  },
-  {
-    "title": "Las mejores aplicaciones de dictado con IA, probadas y clasificadas",
-    "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
-    "industry": "Productivity, AI",
-    "summary": "Las aplicaciones de dictado basadas en inteligencia artificial son cada vez más útiles para diversas tareas, como responder correos electrónicos, tomar notas e incluso codificar mediante voz.",
-    "charlotte_impact": "El auge del dictado basado en IA seguirá mejorando la productividad y la accesibilidad de los trabajadores. Un mayor uso de la productividad habilitada por voz creará nuevas oportunidades para las empresas de IA y permitirá a los profesionales ser más eficientes en las tareas diarias.",
+    "industry": "Cybersecurity",
+    "summary": "OpenAI anunció nuevas medidas de seguridad para las cuentas ChatGPT, incluida una asociación con Yubico, lo que refleja un énfasis creciente en la seguridad de la IA y la protección de los datos de los usuarios.",
+    "charlotte_impact": "La inversión de OpenAI en funciones de seguridad avanzadas como la integración de Yubico sugiere un cambio hacia la priorización de la protección de los datos de los usuarios en la industria de la IA. Es probable que esto establezca un nuevo estándar de seguridad, lo que influirá en otras empresas de inteligencia artificial para que mejoren sus protocolos de seguridad.",
     "impact_score": 6
-  },
-  {
-    "title": "Apple se sorprendió por la demanda de Mac impulsada por la IA",
-    "url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
-    "industry": "Consumer Electronics, AI",
-    "summary": "Apple se sorprendió por la demanda de Mac impulsada por la IA, lo que indica la creciente influencia de la IA en las decisiones de compra de los consumidores.",
-    "charlotte_impact": "La mayor demanda de Mac derivada de tareas de inteligencia artificial muestra una tendencia más amplia que afecta al mercado de la electrónica de consumo. Esto crea demanda de potencia de procesamiento e impacta la cadena de suministro de productos electrónicos.",
-    "impact_score": 6
-  },
-  {
-    "title": "X anuncia una plataforma publicitaria reconstruida impulsada por IA",
-    "url": "https://techcrunch.com/2026/04/30/x-announces-a-rebuilt-ad-platform-powered-by-ai/",
-    "industry": "Advertising, AI",
-    "summary": "X anunció una plataforma publicitaria reconstruida impulsada por IA, con el objetivo de impulsar el crecimiento de los ingresos mediante una mejor orientación y optimización de los anuncios.",
-    "charlotte_impact": "La implementación de IA en plataformas publicitarias resalta la creciente demanda de mayores ingresos publicitarios a través de la optimización y la segmentación. Los anuncios basados ​​en IA tendrán un impacto en el panorama publicitario al permitir anuncios más personalizados y una mejor orientación al consumidor.",
-    "impact_score": 7
-  },
-  {
-    "title": "BMO recurre a la inteligencia artificial y la computación cuántica para predecir terremotos",
-    "url": "https://financialpost.com/pmn/business-pmn/bmo-turns-to-ai-and-quantum-computing-to-predict-earthquakes",
-    "industry": "Finance, AI",
-    "summary": "BMO está aprovechando la inteligencia artificial y la computación cuántica para predecir terremotos y responder a incendios forestales, mostrando la aplicación de tecnologías avanzadas en la gestión de riesgos y la respuesta a desastres.",
-    "charlotte_impact": "El uso de la IA y la computación cuántica para predecir desastres naturales es un excelente ejemplo de cómo la tecnología puede salvar vidas y proteger la infraestructura. Más compañías de seguros utilizarán tipos similares de tecnologías para prepararse para eventos climáticos extremos y otros desastres naturales.",
-    "impact_score": 7
-  },
-  {
-    "title": "Un juez impide que el caso de Elon Musk contra OpenAI se convierta en un juicio de IA",
-    "url": "https://www.breitbart.com/tech/2026/05/01/judge-prevents-elon-musks-case-against-openai-from-turning-into-a-trial-of-ai/",
-    "industry": "Legal, AI",
-    "summary": "Un juez está impidiendo que el caso de Elon Musk contra OpenAI se convierta en un juicio contra la propia IA, centrándose en cambio en cuestiones contractuales y legales específicas.",
-    "charlotte_impact": "El enfoque para evitar que el caso de Elon Musk se convierta en un juicio sobre la IA refleja la sensibilidad que rodea a la regulación de la IA. Este movimiento muestra la importancia de unos contratos comerciales y una regulación adecuados en torno a la IA.",
-    "impact_score": 6
-  },
-  {
-    "title": "El Pentágono logra acuerdos de inteligencia artificial con siete importantes empresas tecnológicas para operaciones militares clasificadas",
-    "url": "https://www.breitbart.com/tech/2026/05/01/pentagon-secures-ai-agreements-with-7-major-tech-companies-for-classified-military-operations/",
-    "industry": "Defense, AI",
-    "summary": "El Pentágono finalizó acuerdos de IA con siete importantes empresas de tecnología para operaciones militares clasificadas, lo que marca una expansión de las capacidades de IA.",
-    "charlotte_impact": "Los nuevos contratos seguirán aportando nueva IA al sector de defensa. Más IA en defensa permitirá la automatización de decisiones y estrategias militares.",
-    "impact_score": 9
-  },
-  {
-    "title": "Por qué la gobernanza agencial de la IA se está quedando corta y qué podemos hacer al respecto",
-    "url": "https://siliconangle.com/2026/05/01/agentic-ai-governance-falling-short-can/",
-    "industry": "AI Governance, AI",
-    "summary": "El mal comportamiento de la inteligencia artificial agente está alcanzando proporciones epidémicas, lo que pone de relieve la insuficiencia de las soluciones actuales de gobernanza de la IA.",
-    "charlotte_impact": "El aumento de la mala conducta pone de relieve la insuficiencia de la actual gobernanza de la IA. Se necesitan nuevas pautas y procesos para gestionar el comportamiento de los agentes de IA.",
-    "impact_score": 8
-  },
-  {
-    "title": "Los Oscar toman medidas enérgicas contra la IA en la última actualización de premios",
-    "url": "https://www.the-independent.com/arts-entertainment/films/news/oscar-ai-rules-academy-awards-b2969151.html",
-    "industry": "Entertainment, AI",
-    "summary": "Los Oscar están tomando medidas enérgicas contra el uso de la IA, exigiendo que los roles de actuación sean realizados por humanos para poder optar a un premio.",
-    "charlotte_impact": "La represión de los Oscar refleja el lado creativo que rechaza la IA. El retroceso creativo afectará el futuro de la IA en Hollywood.",
-    "impact_score": 5
-  },
-  {
-    "title": "La startup legal de IA Legora alcanza una valoración de 5.600 millones de dólares y su batalla con Harvey se ha vuelto más candente",
-    "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
-    "industry": "Legal Tech, AI",
-    "summary": "La startup legal de IA Legora alcanza una valoración de 5.600 millones de dólares mientras lucha contra Harvey, lo que ilustra la intensa competencia y el rápido crecimiento en el espacio legal de la IA.",
-    "charlotte_impact": "La alta valoración de Legora y la competencia entre Legora y Harvey indican un cambio masivo en la profesión jurídica. La IA está posicionada para automatizar tareas legales mundanas y permite a los abogados centrarse en asuntos más complejos. Esta tendencia podría generar importantes ahorros de costos para las firmas legales y un mejor acceso a la justicia para los clientes.",
-    "impact_score": 8
   },
   {
     "title": "Elon Musk testifica que xAI entrenó a Grok en modelos OpenAI",
     "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
-    "industry": "AI Development, Legal",
-    "summary": "Elon Musk testificó que xAI entrenó a Grok en modelos OpenAI, lo que generó preocupaciones sobre el uso de datos y la propiedad intelectual en el desarrollo de IA.",
-    "charlotte_impact": "El testimonio subraya el panorama competitivo de la IA y la importancia de proteger la propiedad intelectual. Plantea preguntas sobre el uso legítimo, la propiedad de los datos y los límites legales de la capacitación en modelos de IA, lo que podría conducir a regulaciones más estrictas y un aumento de los litigios en la industria de la IA.",
+    "industry": "AI Ethics/Legal",
+    "summary": "Elon Musk testificó que xAI entrenó a Grok en modelos OpenAI, lo que generó preocupaciones sobre el uso de datos y la propiedad intelectual en la industria de la IA.",
+    "charlotte_impact": "El testimonio de Musk subraya la creciente controversia en torno al entrenamiento de modelos de IA y el abastecimiento de datos. Esta disputa legal puede sentar precedentes para el uso de datos y los derechos de propiedad intelectual en la industria de la IA. Es probable que esto aumente el escrutinio y la regulación de las prácticas de desarrollo de modelos de IA.",
+    "impact_score": 8
+  },
+  {
+    "title": "El asistente Gemini AI de Google está viajando en millones de vehículos",
+    "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
+    "industry": "Automotive",
+    "summary": "El asistente de IA Gemini de Google se está integrando en millones de vehículos, lo que indica un movimiento significativo para mejorar la experiencia de conducción con IA conversacional.",
+    "charlotte_impact": "La integración de Gemini en los vehículos significa un paso importante hacia la mejora de la experiencia en el coche. Esto impulsará la demanda de soluciones automotrices impulsadas por IA, creando oportunidades para que los desarrolladores de software, fabricantes de hardware y empresas automotrices innoven y mejoren las características de seguridad y conveniencia.",
     "impact_score": 7
   },
   {
-    "title": "Aprobación de la FDA, recaudación de fondos y la realidad de la construcción en la atención médica según el fundador de BioticsAI",
-    "url": "https://techcrunch.com/2026/04/30/fda-approval-fundraising-and-the-reality-of-building-in-healthcare-according-to-bioticsai-founder/",
-    "industry": "Healthcare, AI",
-    "summary": "El fundador de BioticsAI analiza la aprobación de la FDA, la recaudación de fondos y los desafíos de la construcción en el sector de la salud, destacando los obstáculos regulatorios y las oportunidades en las soluciones de atención médica impulsadas por la IA.",
-    "charlotte_impact": "La experiencia de BioticsAI subraya las complejidades de navegar por el panorama regulatorio de la atención médica para soluciones impulsadas por IA. Obtener la aprobación de la FDA es un hito importante que demuestra el potencial de la IA para mejorar los resultados de los pacientes e impulsar la innovación en la atención médica, destacando también la inversión necesaria.",
-    "impact_score": 7
+    "title": "Stripe actualiza Link, una billetera digital que los agentes autónomos de IA también pueden usar",
+    "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
+    "industry": "Fintech",
+    "summary": "Stripe actualizó Link, una billetera digital que los agentes autónomos de IA pueden usar, lo que permite transacciones seguras a través de flujos de aprobación y facilita el crecimiento de las aplicaciones de IA agentes.",
+    "charlotte_impact": "La actualización Link de Stripe permite a los agentes autónomos de IA participar en transacciones financieras, desbloqueando nuevas posibilidades para la automatización impulsada por la IA en el comercio y las finanzas. Esto podría transformar los procesos comerciales, reducir los costos de transacción y aumentar la eficiencia en diversas industrias.",
+    "impact_score": 9
   },
   {
     "title": "Salesforce está colaborando en su hoja de ruta de IA, con los clientes",
     "url": "https://techcrunch.com/2026/04/30/salesforce-is-crowdsourcing-its-ai-roadmap-with-customers/",
-    "industry": "CRM, AI",
-    "summary": "Salesforce está colaborando con sus clientes en su hoja de ruta de IA, enfatizando la importancia de los comentarios de los clientes a la hora de dar forma al desarrollo y la adopción de productos de IA.",
-    "charlotte_impact": "El enfoque de Salesforce para el crowdsourcing de su hoja de ruta de IA garantiza que el desarrollo de la IA se alinee con las necesidades comerciales del mundo real y las demandas de los clientes. Este enfoque colaborativo puede conducir a soluciones de IA más efectivas y fáciles de usar, fomentando una adopción más amplia e impulsando la innovación en CRM e industrias relacionadas.",
+    "industry": "Enterprise Software",
+    "summary": "Salesforce está colaborando con sus clientes en su hoja de ruta de IA, adoptando un enfoque colaborativo para el desarrollo de IA y garantizando la alineación con las necesidades empresariales.",
+    "charlotte_impact": "La estrategia de Salesforce de colaborar en colaboración con sus clientes en su hoja de ruta de IA conducirá a soluciones de IA más prácticas y efectivas para las empresas. Este enfoque centrado en el cliente mejora la usabilidad del producto, aumenta la satisfacción del cliente y fomenta una mayor adopción de tecnologías de inteligencia artificial en el sector empresarial.",
     "impact_score": 6
   },
   {
-    "title": "Meta adquiere una empresa de inteligencia artificial robótica para ayudar a construir tecnología humanoide",
-    "url": "https://financialpost.com/technology/meta-acquires-robotics-ai-company",
-    "industry": "Robotics, AI",
-    "summary": "Meta adquiere Assured Robot Intelligence para mejorar el desarrollo de tecnología humanoide.",
-    "charlotte_impact": "La adquisición refleja una tendencia creciente hacia los robots humanoides. Esto puede permitir una mayor automatización en la gestión de la cadena de fabricación y suministro.",
+    "title": "Los actores y guiones generados por IA ya no son elegibles para los Oscar",
+    "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+    "industry": "Entertainment",
+    "summary": "Los actores y guiones generados por IA ahora no son elegibles para los Oscar, lo que refleja preocupaciones sobre el impacto de la IA en las profesiones creativas.",
+    "charlotte_impact": "La decisión de la Academia refleja la preocupación por el impacto de la IA en las profesiones creativas, con el objetivo de proteger a los artistas humanos. Esta decisión destaca la necesidad de que los estándares y regulaciones de la industria aborden las implicaciones éticas y económicas del contenido generado por IA en el sector del entretenimiento.",
+    "impact_score": 5
+  },
+  {
+    "title": "Apple se sorprendió por la demanda de Mac impulsada por la IA",
+    "url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
+    "industry": "Hardware",
+    "summary": "Apple se sorprendió por la demanda de Mac impulsada por la IA, lo que generó limitaciones de oferta, particularmente para los modelos Mac mini, Studio y Neo.",
+    "charlotte_impact": "La demanda inesperada de Mac impulsada por cargas de trabajo de IA indica una tendencia creciente de desarrollo local de IA. Las limitaciones de suministro de Apple pueden afectar a los fabricantes de hardware. Esto podría conducir a una mayor competencia e innovación en el espacio del hardware, especialmente para dispositivos optimizados para tareas de IA.",
+    "impact_score": 7
+  },
+  {
+    "title": "Perspectivas de las acciones de Nvidia para 2026: dominan las fuertes señales de compra a medida que la demanda de IA alimenta el optimismo",
+    "url": "https://www.ibtimes.com.au/nvidia-stock-2026-outlook-strong-buy-signals-dominate-ai-demand-fuels-optimism-1868009",
+    "industry": "Semiconductors",
+    "summary": "Las perspectivas bursátiles de Nvidia siguen siendo sólidas debido a la alta demanda de IA, lo que refuerza su dominio en el mercado de chips de IA.",
+    "charlotte_impact": "El sólido desempeño continuo de Nvidia refleja el actual auge de la IA. Estimulará una mayor inversión en el desarrollo de hardware y software relacionado con la IA. Esto tendrá un efecto dominó en varias industrias que dependen de la potencia informática avanzada.",
     "impact_score": 8
   },
   {
-    "title": "Las ganancias de Apple superan las previsiones sobre la demanda del iPhone 17",
-    "url": "https://www.omanobserver.om/article/1188888/business/apple-earnings-beat-forecasts-on-iphone-17-demand",
-    "industry": "Consumer Electronics",
-    "summary": "Las ganancias de Apple superaron las previsiones sobre la demanda del iPhone 17.",
-    "charlotte_impact": "El iPhone 17 incluye avances en tecnología de IA. Las mejores capacidades de IA en los teléfonos inteligentes reflejan la creciente adopción de la IA por parte de los consumidores. El éxito de Apple con el iPhone 17 impulsará a otras empresas a integrar la IA.",
+    "title": "Los límites de los grandes modelos de lenguaje en la práctica clínica.",
+    "url": "https://kevinmd.com/2026/05/the-limits-of-large-language-models-in-clinical-practice.html",
+    "industry": "Healthcare",
+    "summary": "Un artículo analiza los límites de los grandes modelos de lenguaje en la práctica clínica, destacando la necesidad de precaución y evaluación cuidadosa en las aplicaciones de IA para el cuidado de la salud.",
+    "charlotte_impact": "El análisis subraya la importancia de una implementación responsable de la IA en la atención sanitaria. La industria médica debe actuar con cautela y realizar una evaluación exhaustiva para garantizar la seguridad y eficacia del paciente. El desarrollo de la IA debe abordar los riesgos y limitaciones potenciales de la IA en entornos clínicos.",
     "impact_score": 6
+  },
+  {
+    "title": "Crecimiento de la industria del marketing de IA: cómo la inteligencia artificial está impulsando un mercado de 82 mil millones de dólares para 2030",
+    "url": "https://parwaaz-psdf.com.pk/ai-marketing-industry-growth-how-artificial-intelligence-is-driving-an-82-billion-market/",
+    "industry": "Marketing",
+    "summary": "Se proyecta que el marketing de IA impulsará un mercado de 82 mil millones de dólares para 2030, lo que demuestra la creciente integración de la IA en las estrategias y operaciones de marketing.",
+    "charlotte_impact": "El crecimiento del marketing de IA representa importantes oportunidades para las agencias de marketing, los desarrolladores de software y las empresas. Esto fomentará campañas de marketing más personalizadas y eficientes. Esto impulsará la demanda de especialistas en IA y creará nuevos puestos de trabajo en el sector del marketing.",
+    "impact_score": 7
+  },
+  {
+    "title": "Apple advierte que la escasez de Mac mini y Mac Studio podría durar meses: el auge local de la IA y la escasez de memoria impulsan la demanda más allá de la capacidad de fabricación de Apple",
+    "url": "https://www.tomshardware.com/desktops/apple-warns-mac-mini-and-mac-studio-shortages-could-last-for-months-local-ai-boom-and-memory-crunch-drive-demand-beyond-apples-manufacturing-capacity",
+    "industry": "Hardware",
+    "summary": "Apple advierte sobre la actual escasez de Mac mini y Mac Studio debido al auge local de la IA y la escasez de memoria, lo que afecta a los desarrolladores que buscan sistemas de alta memoria para cargas de trabajo de IA.",
+    "charlotte_impact": "La escasez de hardware pone de relieve la creciente demanda de recursos informáticos de alto rendimiento impulsada por el desarrollo local de la IA. Esta escasez crea oportunidades para proveedores de hardware alternativos y podría influir en los desarrolladores para que exploren soluciones de inteligencia artificial basadas en la nube. Es posible que la industria necesite aumentar la producción de memoria para satisfacer la creciente demanda.",
+    "impact_score": 6
+  },
+  {
+    "title": "Aprobación de la FDA, recaudación de fondos y la realidad de la construcción en la atención médica según el fundador de BioticsAI",
+    "url": "https://techcrunch.com/2026/04/30/fda-approval-fundraising-and-the-reality-of-building-in-healthcare-according-to-bioticsai-founder/",
+    "industry": "Healthcare",
+    "summary": "El fundador de BioticsAI analiza la aprobación de la FDA, la recaudación de fondos y los desafíos de construir en el espacio de la atención médica altamente regulado.",
+    "charlotte_impact": "El viaje de BioticsAI para navegar por el panorama regulatorio de la atención médica destaca los desafíos y oportunidades únicos en este sector. Los éxitos en la obtención de la aprobación de la FDA y la recaudación de capital indican la creciente aceptación de la IA en la atención médica. Esto puede fomentar una mayor inversión e innovación en soluciones sanitarias impulsadas por la IA.",
+    "impact_score": 6
+  },
+  {
+    "title": "Las mejores aplicaciones de dictado con IA, probadas y clasificadas",
+    "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
+    "industry": "Software",
+    "summary": "Una revisión prueba y clasifica aplicaciones de dictado basadas en inteligencia artificial, lo que demuestra los avances en la tecnología de reconocimiento de voz y su utilidad en diversas aplicaciones.",
+    "charlotte_impact": "La evaluación de las aplicaciones de dictado con IA refleja mejoras en la tecnología de reconocimiento de voz y su creciente adopción en herramientas de productividad. El uso generalizado de estas aplicaciones puede mejorar significativamente la eficiencia en diversos sectores profesionales, impulsando la demanda de tecnologías de reconocimiento de voz y procesamiento del lenguaje natural.",
+    "impact_score": 5
+  },
+  {
+    "title": "Metadespidos: más recortes posibles después de una reducción del 10% en la fuerza laboral el 20 de mayo",
+    "url": "https://economictimes.indiatimes.com/tech/technology/meta-layoffs-more-cuts-possible-after-10-workforce-reduction-on-may-20/articleshow/130713979.cms",
+    "industry": "Technology",
+    "summary": "Meta está potencialmente implementando más despidos después de reducir el 10% de su fuerza laboral, lo que indica un cambio estratégico en las prioridades de la empresa.",
+    "charlotte_impact": "Los posibles despidos de Meta reflejan los esfuerzos de la compañía para optimizar las operaciones y priorizar áreas estratégicas clave. Es probable que esto afecte al mercado laboral tecnológico, aumentando potencialmente la oferta de trabajadores calificados. Es probable que Meta se centre en la automatización, la inteligencia artificial y la eficiencia, lo que podría tener efectos comerciales y económicos generalizados.",
+    "impact_score": 4
+  },
+  {
+    "title": "¿Puede la IA encontrar tu amor?",
+    "url": "https://www.theatlantic.com/ideas/2026/05/ai-matchmaker-dating-app/687038/",
+    "industry": "Dating",
+    "summary": "Un artículo explora si la IA puede encontrar el amor, dado que la gente está cansada de deslizarse en aplicaciones de citas y la pregunta de si los casamenteros de IA son la respuesta.",
+    "charlotte_impact": "Explorar los casamenteros de IA para citas refleja el creciente interés de la IA en áreas que impactan directamente la vida social de las personas. Si los casamenteros de IA logran crear coincidencias sostenibles, se produciría una transformación a gran escala de las relaciones sociales que sustentan las economías y las estructuras sociales.",
+    "impact_score": 4
+  },
+  {
+    "title": "Una exploración sistemática de los mecanismos de seguridad impulsados ​​por GenAI para IoT en entornos informáticos de vanguardia | Revista internacional de ingeniería y gestión de aseguramiento de sistemas",
+    "url": "https://link.springer.com/article/10.1007/s13198-026-03314-9",
+    "industry": "Cybersecurity",
+    "summary": "Un artículo explora los mecanismos de seguridad impulsados ​​por GenAI para IoT en entornos informáticos de vanguardia, ya que GenAI e IoT crean preocupaciones de seguridad.",
+    "charlotte_impact": "El aumento de la seguridad impulsada por GenAI refleja su importancia en la protección de IoT en los entornos informáticos de vanguardia. Esto crea la necesidad de personal especializado para mantener estos sistemas e impulsar nuevas innovaciones en aplicaciones de IoT/GenAI.",
+    "impact_score": 5
   }
 ]
