@@ -1,162 +1,162 @@
 [
   {
+    "title": "Cerebras, el acogedor socio de OpenAI, está en camino de una oferta pública inicial de gran éxito",
+    "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+    "industry": "Semiconductors",
+    "summary": "Cerebras, el fabricante de chips de IA, está en camino de realizar una oferta pública inicial de gran éxito, valorando potencialmente a la empresa en 26.600 millones de dólares o más, impulsada por su estrecha relación con OpenAI.",
+    "charlotte_impact": "Una salida a bolsa exitosa de Cerebras indicaría una fuerte confianza del mercado en hardware especializado en inteligencia artificial e impulsaría la inversión en áreas relacionadas. Puede hacer que más empresas inviertan en chips de IA especializados de alta potencia, aumentando la innovación y reduciendo los costos en toda la industria.",
+    "impact_score": 9
+  },
+  {
     "title": "Anthropic y OpenAI están lanzando empresas conjuntas para servicios empresariales de IA",
     "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
-    "industry": "Enterprise AI",
-    "summary": "Anthropic y OpenAI están lanzando empresas conjuntas con administradores de activos para expandir sus servicios de inteligencia artificial empresarial, con el objetivo de llegar a una gama más amplia de negocios.",
-    "charlotte_impact": "Este movimiento señala una consolidación y maduración del mercado de la IA. Es probable que las empresas vean soluciones de IA más personalizadas y una mayor competencia entre proveedores, lo que podría reducir los costos y mejorar la calidad del servicio. Los administradores de activos desempeñarán un papel más importante en la dirección del desarrollo y la implementación de la IA empresarial.",
-    "impact_score": 9
+    "industry": "AI Enterprise Services",
+    "summary": "Anthropic y OpenAI están lanzando empresas conjuntas para servicios empresariales de IA, asociándose con administradores de activos para ampliar su alcance en el mercado empresarial.",
+    "charlotte_impact": "Este movimiento significa un cambio estratégico hacia una adopción empresarial más agresiva de la IA. Podría presionar a los proveedores de servicios empresariales de IA existentes para que innoven y compitan de manera más efectiva, lo que podría generar costos más bajos y mejores servicios para las empresas. Este desarrollo acelerará la adopción de la IA en diversas industrias y funciones comerciales.",
+    "impact_score": 8
   },
   {
     "title": "Meta compra una startup de robótica para reforzar sus ambiciones de IA humanoide",
     "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
     "industry": "Robotics",
-    "summary": "Meta adquirió la startup de robótica Assured Robot Intelligence para mejorar sus modelos de inteligencia artificial para robots humanoides, lo que demuestra su compromiso con el desarrollo de capacidades robóticas avanzadas.",
-    "charlotte_impact": "La adquisición de Meta indica un interés creciente en integrar la IA con robots físicos, lo que podría conducir a una automatización más sofisticada en la fabricación, la logística e incluso los productos de consumo. Esto tiene el potencial de impactar los mercados laborales e impulsar la innovación en tecnología robótica.",
-    "impact_score": 8
+    "summary": "Meta ha adquirido la startup de robótica Assured Robot Intelligence para mejorar sus modelos de inteligencia artificial para robots humanoides.",
+    "charlotte_impact": "La mayor inversión de Meta en robótica indica un creciente interés en las aplicaciones de IA del mundo real. Esta adquisición indica que Meta está invirtiendo más recursos en robots humanoides, lo que probablemente conducirá a avances en la automatización impulsada por IA en varias industrias.",
+    "impact_score": 7
   },
   {
     "title": "El Pentágono firma acuerdos con Nvidia, Microsoft y AWS para implementar IA en redes clasificadas",
     "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-    "industry": "Government/Defense",
-    "summary": "El Pentágono firmó acuerdos con Nvidia, Microsoft y AWS para implementar IA en redes clasificadas, lo que indica un cambio estratégico hacia la diversificación de los proveedores de IA en aplicaciones de defensa.",
-    "charlotte_impact": "Esto refleja la creciente importancia de la IA en la seguridad y la defensa nacionales. La diversificación de proveedores sugiere un avance hacia un ecosistema de IA más resiliente y competitivo dentro del sector de defensa, lo que podría conducir a una innovación más rápida y capacidades mejoradas.",
-    "impact_score": 9
+    "industry": "Defense",
+    "summary": "El Pentágono ha firmado acuerdos con Nvidia, Microsoft y AWS para implementar IA en redes clasificadas, diversificando su base de proveedores de IA luego de una disputa con Anthropic.",
+    "charlotte_impact": "Esto demuestra la creciente importancia de la IA en la seguridad nacional y la diversificación de los proveedores de tecnología de defensa. La entrada de grandes empresas tecnológicas en este sector podría impulsar la innovación en IA para aplicaciones de defensa y, al mismo tiempo, generar preocupaciones éticas sobre el uso de la IA en la guerra.",
+    "impact_score": 8
+  },
+  {
+    "title": "Mientras los trabajadores se preocupan por la IA, Jensen Huang de Nvidia dice que la IA está \"creando una enorme cantidad de puestos de trabajo\"",
+    "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
+    "industry": "AI and Employment",
+    "summary": "El director ejecutivo de Nvidia, Jensen Huang, cree que la IA está creando una cantidad significativa de puestos de trabajo, contrarrestando las preocupaciones sobre el desplazamiento de puestos de trabajo debido a la IA.",
+    "charlotte_impact": "El punto de vista de Huang es un contrapunto optimista al miedo a perder el empleo, lo que indica un cambio hacia la IA que crea nuevos roles. Si es exacto, esto podría conducir a una mayor inversión en programas de educación y capacitación relacionados con la IA para preparar a la fuerza laboral para nuevas oportunidades.",
+    "impact_score": 6
   },
   {
     "title": "El único testigo experto en inteligencia artificial de Elon Musk en el juicio de OpenAI teme una carrera armamentista de AGI",
     "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
-    "industry": "AI Ethics",
-    "summary": "El testigo experto de Elon Musk en el juicio de OpenAI, Stuart Russell, expresa su preocupación por una carrera armamentista AGI, destacando los peligros potenciales del desarrollo desenfrenado de la IA.",
-    "charlotte_impact": "Esto subraya la necesidad de directrices y regulaciones éticas en torno al desarrollo de la IA. Las preocupaciones sobre una carrera armamentista de AGI podrían conducir a un mayor escrutinio y regulación de la investigación y el despliegue de la IA, lo que podría afectar la velocidad de la innovación pero también mitigar los riesgos.",
+    "industry": "AI Safety",
+    "summary": "El testigo experto en inteligencia artificial de Elon Musk, Stuart Russell, teme una carrera armamentista de AGI y cree que los gobiernos deben regular los laboratorios de inteligencia artificial de vanguardia.",
+    "charlotte_impact": "Las preocupaciones de Russell amplifican el creciente debate sobre la seguridad de la IA y los peligros potenciales del desarrollo no regulado de AGI. Es probable que esto impulse una mayor discusión y posibles acciones regulatorias en torno a los protocolos de seguridad y la transparencia de la IA.",
     "impact_score": 7
   },
   {
     "title": "Sierra recauda 950 millones de dólares a medida que la carrera por poseer IA empresarial se vuelve seria",
     "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
-    "industry": "Venture Capital",
-    "summary": "Sierra recaudó 950 millones de dólares para convertirse en el \"estándar global\" para las experiencias de los clientes impulsadas por la IA, lo que indica una importante confianza de los inversores en el potencial de la IA en este sector.",
-    "charlotte_impact": "Grandes rondas de financiación como esta validan la demanda del mercado de soluciones de experiencia del cliente basadas en IA. Sugiere que las empresas están cada vez más dispuestas a invertir en IA para mejorar las interacciones con los clientes e impulsar el crecimiento de los ingresos. Este aumento de la inversión puede acelerar el desarrollo de tecnologías de inteligencia artificial más avanzadas y mejores plataformas de servicio al cliente.",
-    "impact_score": 8
+    "industry": "Enterprise AI",
+    "summary": "Sierra recauda 950 millones de dólares para convertirse en el “estándar global” para las experiencias de los clientes impulsadas por la IA.",
+    "charlotte_impact": "Esta importante ronda de financiación destaca la intensa competencia en el espacio de la IA empresarial y la creciente demanda de soluciones de servicio al cliente impulsadas por la IA. El aumento de la inversión podría impulsar una innovación y una adopción más rápidas de la IA en la experiencia del cliente, lo que podría conducir a una mayor satisfacción del cliente y eficiencia empresarial.",
+    "impact_score": 9
   },
   {
     "title": "Elon Musk envió mensajes de texto siniestros a Greg Brockman y Sam Altman después de pedir un acuerdo, afirma OpenAI",
     "url": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/",
-    "industry": "Legal/Ethics",
-    "summary": "Elon Musk supuestamente envió mensajes de texto \"siniestros\" a los ejecutivos de OpenAI después de que fracasaran las negociaciones para llegar a un acuerdo, añadiendo combustible a la disputa legal en curso sobre el desarrollo y las prácticas de seguridad de OpenAI.",
-    "charlotte_impact": "Esto pone de relieve los posibles obstáculos legales y éticos del desarrollo avanzado de la IA. Las demandas de alto perfil pueden afectar la reputación y el valor de mercado de las empresas de IA y podrían conducir a marcos legales más estrictos que regulen la investigación y el despliegue de la IA.",
+    "industry": "AI Ethics",
+    "summary": "Elon Musk supuestamente envió textos siniestros a los líderes de OpenAI después de que fracasaran las conversaciones para llegar a un acuerdo, lo que intensificó la disputa legal en curso.",
+    "charlotte_impact": "La batalla legal refleja tensiones más amplias en torno a la gobernanza de la IA, los derechos de propiedad intelectual y el posible uso indebido de potentes tecnologías de IA. El resultado de esta disputa probablemente influirá en las prácticas futuras de desarrollo de la IA y en la asignación de responsabilidades dentro de las organizaciones de IA.",
     "impact_score": 6
   },
   {
     "title": "El creador de \"Esto está bien\" dice que una startup de inteligencia artificial le robó su arte",
     "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
-    "industry": "AI Ethics/Copyright",
-    "summary": "El creador del meme 'This is Fine' acusa a una startup de IA de robar su arte, lo que plantea dudas sobre los derechos de autor y el contenido generado por IA.",
-    "charlotte_impact": "Esto ilustra un conflicto creciente entre los desarrolladores de IA y los creadores de contenido. Las batallas legales por la infracción de derechos de autor podrían conducir a regulaciones más estrictas sobre los datos y el uso de entrenamiento de IA, lo que podría limitar las capacidades de los modelos de IA y afectar a las industrias creativas.",
-    "impact_score": 7
-  },
-  {
-    "title": "La startup legal de IA Legora alcanza una valoración de 5.600 millones de dólares y su batalla con Harvey se ha vuelto más candente",
-    "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
-    "industry": "Legal AI",
-    "summary": "La startup legal de IA Legora alcanza una valoración de 5.600 millones de dólares en medio de una feroz competencia con su rival Harvey, lo que destaca la creciente importancia de la IA en la industria legal.",
-    "charlotte_impact": "Esto demuestra la creciente adopción de la IA en la profesión jurídica. Las herramientas jurídicas basadas en IA pueden automatizar tareas, mejorar la eficiencia y proporcionar información, transformando la forma en que se prestan los servicios jurídicos. Esto podría conducir a menores costos para los clientes y una mayor rentabilidad para los despachos de abogados.",
-    "impact_score": 8
+    "industry": "AI and Art",
+    "summary": "El creador del meme \"Esto está bien\" acusa a una startup de inteligencia artificial de robar su arte para promocionar sus servicios, lo que insta a las empresas a \"dejar de contratar humanos\".",
+    "charlotte_impact": "Esto plantea importantes cuestiones éticas y legales sobre el contenido generado por IA y la infracción de derechos de autor. Aumenta la conciencia pública sobre el potencial de la IA para explotar a los artistas y exige protecciones legales más sólidas para las obras creativas en la era de la IA.",
+    "impact_score": 6
   },
   {
     "title": "Los modelos de IA de imágenes ahora impulsan el crecimiento de las aplicaciones, superando las actualizaciones de los chatbots",
     "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
     "industry": "App Development",
-    "summary": "Los modelos de IA de imágenes están impulsando el crecimiento de las aplicaciones de manera más efectiva que las actualizaciones de los chatbots, lo que sugiere un cambio en la preferencia de los usuarios hacia las funciones de IA visual.",
-    "charlotte_impact": "Esto indica una tendencia potencial hacia aplicaciones visuales de IA y una creciente demanda de herramientas de edición, generación y análisis de imágenes basadas en IA. Los desarrolladores de aplicaciones podrían priorizar las funciones visuales de IA para atraer usuarios, lo que daría lugar a aplicaciones nuevas e innovadoras en diversas industrias.",
+    "summary": "Los modelos de IA de imágenes ahora están impulsando el crecimiento de las aplicaciones, superando las actualizaciones de los chatbots en la generación de descargas, aunque la conversión de ingresos sigue siendo un desafío.",
+    "charlotte_impact": "Esto indica una tendencia de los desarrolladores de aplicaciones a priorizar las funciones visuales de IA para atraer usuarios. Destaca la importancia no sólo de atraer descargas sino también de convertir esas descargas en clientes de pago. La tendencia alentará a los desarrolladores de aplicaciones a integrar soluciones visuales de inteligencia artificial que se traduzcan en ingresos.",
     "impact_score": 7
   },
   {
     "title": "DoorDash agrega herramientas de inteligencia artificial para acelerar la incorporación de comerciantes y editar fotos de platos",
     "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
     "industry": "Food Delivery",
-    "summary": "DoorDash presenta herramientas de inteligencia artificial para agilizar la incorporación de comerciantes y mejorar la edición de fotografías de platos, lo que demuestra la aplicación práctica de la inteligencia artificial para optimizar las operaciones comerciales.",
-    "charlotte_impact": "Esto significa una tendencia más amplia de integración de la IA en los procesos comerciales cotidianos. La IA puede ayudar a mejorar la eficiencia, reducir costos y mejorar la experiencia general del cliente. Este tipo de automatización se puede aplicar en muchas industrias.",
+    "summary": "DoorDash presenta herramientas de inteligencia artificial para agilizar la incorporación de comerciantes, mejorar las fotografías de platos y crear sitios web.",
+    "charlotte_impact": "La implementación de DoorDash muestra cómo la IA puede mejorar la eficiencia y la experiencia del usuario en la industria de entrega de alimentos. La incorporación simplificada facilitará la integración de las pequeñas empresas y las fotografías mejoradas ayudarán a aumentar las ventas.",
     "impact_score": 7
   },
   {
     "title": "En un estudio de Harvard, la IA ofreció diagnósticos de urgencias más precisos que dos médicos humanos",
     "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
     "industry": "Healthcare",
-    "summary": "Un estudio de Harvard sugiere que los modelos de IA pueden ofrecer diagnósticos de sala de emergencia más precisos que los médicos humanos, lo que señala el potencial de la IA en la atención médica.",
-    "charlotte_impact": "Este desarrollo está preparado para revolucionar la atención médica, lo que potencialmente conducirá a diagnósticos más rápidos y precisos, mejores resultados para los pacientes y costos reducidos. La necesidad de profesionales médicos capacitados para supervisar los sistemas de inteligencia artificial crea nuevas oportunidades para roles híbridos.",
+    "summary": "Un estudio de Harvard encontró que la IA ofrecía diagnósticos más precisos que los médicos humanos en escenarios de salas de emergencia.",
+    "charlotte_impact": "Esto proporciona pruebas convincentes del potencial de la IA para mejorar los resultados de la atención sanitaria y reducir los errores de diagnóstico. La industria de la salud podría integrar este tipo de tecnologías de inteligencia artificial que aumentarán la eficiencia y precisión de las decisiones médicas.",
     "impact_score": 9
   },
   {
     "title": "Los actores y guiones generados por IA ya no son elegibles para los Oscar",
     "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
     "industry": "Entertainment",
-    "summary": "La Academia de Artes y Ciencias Cinematográficas declara que los actores y guiones generados por IA no son elegibles para los Oscar, enfatizando la importancia de la creatividad humana en la realización cinematográfica.",
-    "charlotte_impact": "Esta decisión podría afectar el desarrollo y uso de la IA en la industria del entretenimiento. Da prioridad a los artistas humanos y puede orientar la IA más hacia la asistencia que hacia la generación completa de contenido.",
+    "summary": "La Academia de Artes y Ciencias Cinematográficas ahora excluye a los actores y guiones generados por IA de la elegibilidad para el Oscar.",
+    "charlotte_impact": "Esta decisión refleja una preocupación por la autenticidad del trabajo artístico en la era de la IA, salvaguardando el papel de la creatividad humana en el cine. Esto incentivará la creatividad humana frente a los sustitutos generados por la IA en la industria cinematográfica.",
     "impact_score": 6
+  },
+  {
+    "title": "El vehículo de Blackstone pretende recaudar más de 1.700 millones de dólares en una oferta pública inicial en EE. UU. para una apuesta por el centro de datos",
+    "url": "https://www.channelnewsasia.com/business/blackstone-vehicle-aims-raise-over-17-billion-in-us-ipo-data-center-bet-6098531",
+    "industry": "Data Centers",
+    "summary": "Blackstone Digital Infrastructure Trust pretende recaudar más de 1.700 millones de dólares en una oferta pública inicial en EE. UU., lo que indica una apuesta significativa en la industria de los centros de datos.",
+    "charlotte_impact": "Esta oferta pública inicial muestra la alta demanda del mercado de centros de datos que admitan la inteligencia artificial, la computación en la nube y la infraestructura digital. La nueva infraestructura de Blackstone fomentará la innovación, la eficiencia y el crecimiento continuos en la industria de los centros de datos.",
+    "impact_score": 8
+  },
+  {
+    "title": "Fervo, desarrollador de energía geotérmica, busca 1.330 millones de dólares en OPI en EE. UU.",
+    "url": "https://financialpost.com/pmn/business-pmn/geothermal-energy-developer-fervo-seeks-1-33-billion-in-us-ipo",
+    "industry": "Renewable Energy",
+    "summary": "Fervo, desarrollador de energía geotérmica, busca 1.330 millones de dólares en una oferta pública inicial (IPO) en EE. UU.",
+    "charlotte_impact": "La IPO busca capitalizar la creciente demanda de energía para los centros de datos. Implica una mayor confianza en las tecnologías geotérmicas y las energías renovables, así como un impulso continuo para el desarrollo de estas energías.",
+    "impact_score": 7
+  },
+  {
+    "title": "Cómo los enjambres de IA están alterando la democracia",
+    "url": "https://www.oreilly.com/radar/how-ai-swarms-are-disrupting-democracy/#BlogPosting",
+    "industry": "AI Governance",
+    "summary": "Diariamente se producen y distribuyen a escala industrial millones de piezas de contenido falso generado por IA, con el objetivo de influir en la opinión pública.",
+    "charlotte_impact": "Esto pone de relieve la necesidad urgente de iniciativas sólidas de gobernanza de la IA y alfabetización mediática para combatir las campañas de desinformación. La producción generalizada de contenidos de IA podría erosionar la confianza y la estabilidad del público.",
+    "impact_score": 8
+  },
+  {
+    "title": "Wired for War: el campo de pruebas ucraniano de inteligencia artificial militar de Silicon Valley",
+    "url": "https://www.rt.com/news/639300-palantir-ukraine-zelensky-testing/",
+    "industry": "Military",
+    "summary": "Silicon Valley está probando IA militar en Ucrania. Los sistemas de IA se están utilizando en escenarios del mundo real.",
+    "charlotte_impact": "El conflicto de Ucrania está sirviendo como campo de pruebas para aplicaciones militares avanzadas de IA. Esto podría conducir a un mayor desarrollo de la IA en las tecnologías militares y a una evolución de las estrategias de guerra futuras.",
+    "impact_score": 7
+  },
+  {
+    "title": "El mercado de medicamentos emergente alcanzará los 558.000 millones de dólares en 2030, impulsado por la innovación en productos biológicos y el apoyo regulatorio",
+    "url": "https://www.globenewswire.com/news-release/2026/05/04/3286608/0/en/Emerging-Drugs-Market-to-Reach-558-0-Billion-by-2030-Driven-by-Biologics-Innovation-and-Regulatory-Support.html",
+    "industry": "Pharmaceutical",
+    "summary": "Se espera que el mercado de medicamentos emergente aumente a 558 mil millones de dólares para 2030, impulsado por regulaciones más rápidas e investigación y desarrollo.",
+    "charlotte_impact": "La IA se utiliza cada vez más para el descubrimiento y desarrollo de fármacos. Esto acelerará el ritmo de desarrollo de fármacos y reducirá los costos, lo que conducirá a mejores tratamientos para muchas enfermedades.",
+    "impact_score": 7
   },
   {
     "title": "Las mejores aplicaciones de dictado con IA, probadas y clasificadas",
     "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
-    "industry": "Productivity",
-    "summary": "Una revisión de las aplicaciones de dictado con IA clasifica a las mejores y destaca su utilidad para diversas tareas, incluidas respuestas a correos electrónicos, toma de notas y codificación.",
-    "charlotte_impact": "Las herramientas de dictado de IA mejorarán la productividad y la accesibilidad en numerosos campos, incluidos el derecho, la medicina y el periodismo. Una mayor eficiencia debería reducir los costos asociados con las transcripciones y la documentación general.",
+    "industry": "Productivity Software",
+    "summary": "Las aplicaciones de dictado impulsadas por IA son útiles para responder correos electrónicos, tomar notas e incluso codificar mediante la voz.",
+    "charlotte_impact": "Esto refleja la creciente importancia de las herramientas impulsadas por IA para mejorar la productividad. Las herramientas impulsadas por IA permitirán a las personas trabajar de manera eficiente, aumentando las oportunidades para los usuarios.",
     "impact_score": 6
   },
   {
-    "title": "Apple se sorprendió por la demanda de Mac impulsada por la IA",
-    "url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
-    "industry": "Hardware",
-    "summary": "Apple se sorprendió por la demanda de Mac impulsada por la IA, lo que indica un nuevo segmento de mercado para hardware centrado en la IA.",
-    "charlotte_impact": "La demanda de hardware específico impulsada por la IA beneficiará a los fabricantes de hardware, lo que provocará un aumento en la producción y el desarrollo de nuevos productos adaptados a las cargas de trabajo de IA. Esto puede conducir a la innovación en el diseño de procesadores, la memoria y los sistemas de refrigeración.",
-    "impact_score": 7
-  },
-  {
-    "title": "pybibx 5.7.0",
-    "url": "https://pypi.org/project/pybibx/5.7.0/",
-    "industry": "Software Development",
-    "summary": "Lanzamiento de pybibx 5.7.0: una biblioteca bibliométrica y cienciométrica impulsada con herramientas de inteligencia artificial.",
-    "charlotte_impact": "La integración de la IA en la cienciometría acelerará el análisis de la investigación y permitirá una identificación más rápida de las tendencias científicas. Esto ayuda a las instituciones de investigación en la planificación estratégica y la asignación de recursos, acelerando el progreso científico general.",
-    "impact_score": 6
-  },
-  {
-    "title": "El auge de AI Capex impulsa el mayor comercio de ETF hacia semiconductores, no hacia criptomonedas",
-    "url": "https://beincrypto.com/ai-capex-semiconductor-etfs-not-crypto/",
-    "industry": "Finance",
-    "summary": "El auge de AI Capex impulsa el comercio de ETF más popular hacia semiconductores, no hacia criptomonedas.",
-    "charlotte_impact": "La inversión en empresas relacionadas con la IA, en particular en los fabricantes de semiconductores, está superando a las inversiones en criptomonedas. El cambio refleja la creencia del mercado en la trayectoria de crecimiento de la IA, lo que atrae a inversores minoristas y fondos institucionales más grandes a estas empresas.",
-    "impact_score": 7
-  },
-  {
-    "title": "La Academia no ha prohibido la IA en los Oscar. Ha definido lo que significa ser autor de una película.",
-    "url": "https://thenextweb.com/news/oscars-ai-ban-acting-writing-rules/",
-    "industry": "Entertainment/Legal",
-    "summary": "La Academia no ha prohibido la IA en los Oscar. Ha definido lo que significa ser autor de una película, reafirmando la necesidad de actores y escritores humanos.",
-    "charlotte_impact": "Hollywood reforzará su valor de la creatividad humana en la producción cinematográfica. Si bien la IA puede ayudar en varias etapas, las funciones creativas centrales seguirán siendo humanas, promoviendo la inversión en el desarrollo del talento humano.",
-    "impact_score": 6
-  },
-  {
-    "title": "Las cámaras de seguridad vial con inteligencia artificial están provocando un aumento en las multas a los conductores. ¿Son justos?",
-    "url": "https://theconversation.com/ai-road-safety-cameras-are-fuelling-a-surge-in-driver-fines-are-they-fair-280375",
-    "industry": "Transportation/Government",
-    "summary": "Las cámaras de seguridad vial con inteligencia artificial están provocando un aumento en las multas a los conductores. ¿Son justos?",
-    "charlotte_impact": "Las cámaras de seguridad vial impulsadas por inteligencia artificial pueden generar debates sobre la privacidad y el sesgo algorítmico. Estos sistemas pueden aumentar significativamente los ingresos del gobierno por las multas, pero este aumento de ingresos debería reinvertirse adecuadamente en la mejora de las carreteras.",
+    "title": "Una cuarta pista única llegará al aeropuerto CLT",
+    "url": "https://www.wcnc.com/article/money/a-fourth-one-of-a-kind-runway-is-coming-to-clt-airport/275-208418a6-80ee-4d50-be4b-a70df1cd1712",
+    "industry": "Infrastructure",
+    "summary": "Una cuarta pista única llegará al aeropuerto CLT, con la ayuda de investigadores de la UNC Charlotte que utilizan nueva tecnología.",
+    "charlotte_impact": "Muestra el impacto de la tecnología y la investigación en proyectos de infraestructura. Demuestra una colaboración entre la academia y el desarrollo de infraestructura que podría replicarse en otros lugares.",
     "impact_score": 5
-  },
-  {
-    "title": "La IA pronto podría ser capaz de una \"evolución darwiniana\", advierten los expertos",
-    "url": "https://www.unexplained-mysteries.com/news/397908/ai-could-soon-be-capable-of-darwinian-evolution-experts-warn",
-    "industry": "AI Research/Ethics",
-    "summary": "La IA pronto podría ser capaz de realizar una \"evolución darwiniana\", advierten los expertos.",
-    "charlotte_impact": "La IA que evoluciona por sí sola podría volverse más autónoma y difícil de controlar, presentando tanto oportunidades como un mayor riesgo. La investigación sobre la seguridad de la IA será crucial y se necesitarán directrices éticas estrictas para desarrollar e implementar dicha tecnología.",
-    "impact_score": 7
-  },
-  {
-    "title": "Por qué el desplazamiento de la inteligencia artificial amenaza las especialidades médicas",
-    "url": "https://kevinmd.com/2026/05/why-artificial-intelligence-displacement-threatens-medical-specialties.html",
-    "industry": "Healthcare",
-    "summary": "Por qué el desplazamiento de la inteligencia artificial amenaza las especialidades médicas.",
-    "charlotte_impact": "La IA desplazará algunas funciones médicas a largo plazo, en particular las relacionadas con el diagnóstico. Los médicos especializados en radiología y patología pueden ver reducida la demanda. Es posible que las facultades de medicina necesiten ajustar su plan de estudios para enfatizar habilidades complementarias a la IA, como la toma de decisiones complejas y la interacción con el paciente.",
-    "impact_score": 8
   }
 ]
