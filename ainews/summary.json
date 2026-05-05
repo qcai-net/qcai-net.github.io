@@ -1,162 +1,162 @@
 [
   {
+    "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+    "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+    "industry": "AI, Technology",
+    "summary": "OpenAI has launched GPT-5.5 Instant, its new default model for ChatGPT, with reduced hallucination in sensitive areas like law, medicine, and finance, while maintaining low latency.",
+    "charlotte_impact": "The release of GPT-5.5 Instant could enhance productivity and decision-making in industries that rely on accurate and reliable information processing, such as legal, medical, and financial services. Businesses can leverage the model to automate tasks and improve the accuracy of their AI applications, leading to better outcomes and reduced risks.",
+    "impact_score": 9
+  },
+  {
     "title": "OpenAI\u2019s cozy partner Cerebras is on track for a blockbuster IPO",
     "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
-    "industry": "Semiconductors",
-    "summary": "AI chip maker Cerebras is on track for a blockbuster IPO, potentially valuing the company at $26.6 billion or more, driven by its close relationship with OpenAI.",
-    "charlotte_impact": "A successful Cerebras IPO would signal strong market confidence in specialized AI hardware and boost investment in related areas. It may cause more companies to invest in high-powered specialized AI chips, increasing innovation and lowering costs across the industry.",
-    "impact_score": 9
+    "industry": "AI, Finance, Semiconductors",
+    "summary": "Cerebras, a chip maker closely partnered with OpenAI, is preparing for a blockbuster IPO, potentially valuing the company at $26.6 billion or more.",
+    "charlotte_impact": "Cerebras' IPO signals strong investor confidence in the AI chip market and underscores the growing demand for specialized hardware to support AI development and deployment. This IPO will provide significant capital for Cerebras to expand its chip production and potentially lower compute costs, benefiting companies using high-performance AI models.",
+    "impact_score": 8
   },
   {
     "title": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services",
     "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
-    "industry": "AI Enterprise Services",
-    "summary": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services, partnering with asset managers to expand their reach in the enterprise market.",
-    "charlotte_impact": "This move signifies a strategic shift towards more aggressive enterprise adoption of AI. It could pressure existing enterprise AI service providers to innovate and compete more effectively, potentially leading to lower costs and better service for businesses. This development will accelerate the adoption of AI across various industries and business functions.",
+    "industry": "AI, Enterprise Software",
+    "summary": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services, partnering with asset managers to aggressively market their products.",
+    "charlotte_impact": "These joint ventures signal the increasing commercialization of AI, with major players vying for enterprise adoption. Businesses across all sectors will likely see a surge in AI-powered enterprise solutions, driving efficiency gains and creating competitive advantages. Companies who do not adapt risk falling behind.",
     "impact_score": 8
   },
   {
-    "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
-    "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
-    "industry": "Robotics",
-    "summary": "Meta has acquired robotics startup Assured Robot Intelligence to enhance its AI models for humanoid robots.",
-    "charlotte_impact": "Meta's increased investment in robotics signals a growing interest in real-world AI applications. This acquisition indicates that Meta is investing more resources into humanoid robots which will likely lead to advancements in AI-powered automation across various industries.",
-    "impact_score": 7
+    "title": "OpenAI Veteran Raises $950 Million for AI Customer Service Agents",
+    "url": "https://www.pymnts.com/news/investment-tracker/2026/openai-veteran-raises-950-million-for-ai-customer-service-agents/",
+    "industry": "AI, Customer Service",
+    "summary": "Sierra, an AI startup focused on customer experience and developing AI customer service agents, has raised $950 million in new funding, valuing the company at $15.8 billion.",
+    "charlotte_impact": "Sierra's funding round indicates the significant potential for AI in transforming customer service. Companies are looking to AI-driven agents to automate customer interactions, improve response times, and reduce costs. This trend might lead to job displacement in traditional customer service roles, but also create new opportunities in AI agent development and management.",
+    "impact_score": 9
   },
   {
-    "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
-    "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-    "industry": "Defense",
-    "summary": "The Pentagon has signed deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks, diversifying its AI vendor base following a dispute with Anthropic.",
-    "charlotte_impact": "This demonstrates the growing importance of AI in national security and the diversification of defense technology providers. The entry of big tech firms into this sector could drive innovation in AI for defense applications while potentially raising ethical concerns about the use of AI in warfare.",
-    "impact_score": 8
-  },
-  {
-    "title": "As workers worry about AI, Nvidia\u2019s Jensen Huang says AI is \u2018creating an enormous number of jobs\u2019",
-    "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
-    "industry": "AI and Employment",
-    "summary": "Nvidia's CEO Jensen Huang believes that AI is creating a significant number of jobs, countering concerns about job displacement due to AI.",
-    "charlotte_impact": "Huang's viewpoint is an optimistic counterpoint to the fear of job loss, indicating a shift towards AI creating new roles. If accurate, this could lead to more investment in AI-related education and training programs to prepare the workforce for new opportunities.",
-    "impact_score": 6
-  },
-  {
-    "title": "Elon Musk\u2019s only AI expert witness at the OpenAI trial fears an AGI arms race",
-    "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
-    "industry": "AI Safety",
-    "summary": "Elon Musk's AI expert witness, Stuart Russell, fears an AGI arms race and believes governments need to regulate frontier AI labs.",
-    "charlotte_impact": "Russell's concerns amplify the growing debate about AI safety and the potential dangers of unregulated AGI development. This is likely to drive increased discussion and potential regulatory action surrounding AI safety protocols and transparency.",
+    "title": "CopilotKit raises $27M to help devs deploy app-native AI agents",
+    "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/",
+    "industry": "AI, Software Development",
+    "summary": "CopilotKit, a startup that helps developers deploy app-native AI agents, has raised $27M in a Series A round.",
+    "charlotte_impact": "The funding for CopilotKit demonstrates the growing demand for tools that simplify the integration of AI agents into existing applications. This can lower the barrier to entry for businesses to adopt and deploy AI solutions, facilitating wider adoption across various industries.",
     "impact_score": 7
   },
   {
     "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
     "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
-    "industry": "Enterprise AI",
-    "summary": "Sierra raises $950M to become the \u201cglobal standard\u201d for AI-powered customer experiences.",
-    "charlotte_impact": "This substantial funding round highlights the intense competition in the enterprise AI space and the growing demand for AI-powered customer service solutions. The increased investment could drive faster innovation and adoption of AI in customer experience, potentially leading to improved customer satisfaction and business efficiency.",
+    "industry": "AI, Customer Service",
+    "summary": "Sierra's $950 million raise positions them as a major player in the enterprise AI space, aiming to establish a 'global standard' for AI-powered customer experiences.",
+    "charlotte_impact": "This large funding round suggests that automated, AI-driven customer experiences are a high-growth area with considerable investment potential. If Sierra succeeds in setting a standard, companies will likely need to adopt similar technologies to remain competitive in providing efficient and effective customer service.",
+    "impact_score": 8
+  },
+  {
+    "title": "AI startup Sierra raises $950 million at $15 billion valuation",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-startup-sierra-raises-950-million-at-15-billion-valuation/articleshow/130810521.cms",
+    "industry": "AI, Customer Service",
+    "summary": "AI startup Sierra raises $950 million at $15 billion valuation to expand its AI platform for customer experience.",
+    "charlotte_impact": "Sierra's substantial investment round highlights the intense competition and high expectations for AI-driven customer service solutions. Businesses across sectors may increasingly turn to AI platforms like Sierra to enhance customer interactions and streamline operations, resulting in market disruption and potentially workforce adjustments.",
+    "impact_score": 8
+  },
+  {
+    "title": "Pennsylvania sues Character.AI after a chatbot allegedly posed as a doctor",
+    "url": "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/",
+    "industry": "AI, Legal, Healthcare",
+    "summary": "Pennsylvania is suing Character.AI after a chatbot allegedly posed as a doctor and provided false information during an investigation.",
+    "charlotte_impact": "This lawsuit underscores the legal and ethical risks associated with deploying AI in sensitive fields like healthcare. It highlights the need for stricter regulations and oversight to prevent AI chatbots from impersonating professionals and providing inaccurate or harmful information, which could negatively impact patient safety and trust.",
     "impact_score": 9
+  },
+  {
+    "title": "PayPal says it\u2019s \u2018becoming a technology company again\u2019 \u2014 that means AI",
+    "url": "https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/",
+    "industry": "AI, Fintech",
+    "summary": "PayPal is undergoing an AI-led transformation, focusing on automation and restructuring to save $1.5 billion, including job cuts.",
+    "charlotte_impact": "PayPal's AI-driven restructuring exemplifies how AI is being used to optimize business processes, reduce costs, and increase efficiency in the fintech industry. While this can lead to short-term financial gains, it also raises concerns about job displacement and the need for workforce retraining in the face of automation.",
+    "impact_score": 7
+  },
+  {
+    "title": "Etsy launches its app within ChatGPT as it continues its AI push",
+    "url": "https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/",
+    "industry": "AI, Retail",
+    "summary": "Etsy launches its app within ChatGPT, aiming to provide a conversational shopping experience for users.",
+    "charlotte_impact": "Etsy's integration with ChatGPT demonstrates the potential for AI to personalize and enhance the online shopping experience. This integration could lead to increased sales and customer engagement for Etsy sellers. It sets a precedent for other e-commerce platforms to adopt similar AI-driven conversational commerce strategies.",
+    "impact_score": 6
+  },
+  {
+    "title": "India\u2019s first GenAI unicorn shifts to cloud services as AI model ambitions face reality",
+    "url": "https://techcrunch.com/2026/05/05/indias-first-genai-unicorn-shifts-to-cloud-services-as-ai-model-ambitions-face-reality/",
+    "industry": "AI, Cloud Computing",
+    "summary": "India's first GenAI unicorn, Krutrim, is shifting to cloud services due to challenges in building its own AI models.",
+    "charlotte_impact": "Krutrim's pivot highlights the challenges faced by AI startups in developing and maintaining proprietary AI models, particularly in resource-constrained environments. This may lead to an increased reliance on established cloud providers and their AI services, consolidating market power among a few major players.",
+    "impact_score": 5
+  },
+  {
+    "title": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
+    "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
+    "industry": "AI, Food Delivery",
+    "summary": "DoorDash adds AI tools to help merchants with onboarding, photo editing, and website creation.",
+    "charlotte_impact": "DoorDash's implementation of AI tools illustrates the growing use of AI to streamline business operations and enhance the user experience within the food delivery sector. These AI features can help merchants quickly establish an online presence, improve the visual appeal of their listings, and optimize their operations, thus fostering greater competition and potential revenue growth.",
+    "impact_score": 6
+  },
+  {
+    "title": "Meta will use AI to analyze height and bone structure to identify if users are underage",
+    "url": "https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/",
+    "industry": "AI, Social Media",
+    "summary": "Meta will use AI to analyze height and bone structure to identify if users are underage.",
+    "charlotte_impact": "Meta's move to use AI for age verification could set a new standard for safety and compliance on social media platforms. It could also raise privacy concerns regarding the collection and analysis of biometric data.",
+    "impact_score": 7
+  },
+  {
+    "title": "As workers worry about AI, Nvidia\u2019s Jensen Huang says AI is \u2018creating an enormous number of jobs\u2019",
+    "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
+    "industry": "AI, Job Market",
+    "summary": "Nvidia's CEO Jensen Huang claims AI is creating more jobs than it is eliminating, counteracting concerns about AI's job-killing potential.",
+    "charlotte_impact": "Jensen Huang's claim presents a counter-narrative to the prevailing concerns about AI-driven job displacement. While AI might automate certain tasks, it also creates new jobs in areas such as AI development, maintenance, and integration, offering opportunities for workforce adaptation and upskilling.",
+    "impact_score": 6
+  },
+  {
+    "title": "Elon Musk\u2019s only AI expert witness at the OpenAI trial fears an AGI arms race",
+    "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+    "industry": "AI, Ethics, Regulation",
+    "summary": "Elon Musk\u2019s expert witness at the OpenAI trial, Stuart Russell, expresses concerns about an AGI arms race and the need for government regulation of AI labs.",
+    "charlotte_impact": "Stuart Russell's warning underscores the potential risks associated with unchecked AI development and highlights the need for ethical guidelines and government oversight. His concerns may prompt policymakers to consider implementing regulations to mitigate potential risks and ensure responsible AI development.",
+    "impact_score": 7
   },
   {
     "title": "Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims",
     "url": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/",
-    "industry": "AI Ethics",
-    "summary": "Elon Musk allegedly sent ominous texts to OpenAI's leadership after settlement talks failed, escalating the ongoing legal dispute.",
-    "charlotte_impact": "The legal battle reflects broader tensions surrounding AI governance, intellectual property rights, and the potential misuse of powerful AI technologies. The outcome of this dispute will likely influence future AI development practices and the allocation of responsibilities within AI organizations.",
-    "impact_score": 6
+    "industry": "AI, Legal",
+    "summary": "Elon Musk reportedly sent ominous texts to OpenAI's executives after requesting a settlement in his lawsuit.",
+    "charlotte_impact": "This reflects the contentious legal battle and high stakes surrounding the development and control of advanced AI technologies.",
+    "impact_score": 5
   },
   {
     "title": "\u2018This is fine\u2019 creator says AI startup stole his art",
     "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
-    "industry": "AI and Art",
-    "summary": "The creator of the 'This is fine' meme accuses an AI startup of stealing his art to promote their services which urge businesses to 'stop hiring humans'.",
-    "charlotte_impact": "This raises significant ethical and legal questions about AI-generated content and copyright infringement. It increases public awareness about the potential for AI to exploit artists and calls for stronger legal protections for creative works in the age of AI.",
+    "industry": "AI, Art, Ethics",
+    "summary": "The creator of the 'This is fine' meme alleges that an AI startup stole his art, raising concerns about copyright and AI-generated content.",
+    "charlotte_impact": "This incident underscores the ongoing debate surrounding AI-generated art and the protection of intellectual property rights. It may lead to increased scrutiny and legal challenges regarding the use of copyrighted material in AI training datasets.",
     "impact_score": 6
   },
   {
     "title": "Image AI models now drive app growth, beating chatbot upgrades",
     "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
-    "industry": "App Development",
-    "summary": "Image AI models are now driving app growth, surpassing chatbot upgrades in generating downloads, although revenue conversion remains a challenge.",
-    "charlotte_impact": "This signals a trend of app developers prioritizing visual AI features to attract users. It highlights the importance of not just attracting downloads but also converting those downloads into paying customers. The trend will encourage app developers to integrate visual AI solutions that translate into revenue.",
-    "impact_score": 7
-  },
-  {
-    "title": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
-    "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
-    "industry": "Food Delivery",
-    "summary": "DoorDash introduces AI tools to streamline merchant onboarding, improve dish photos, and create websites.",
-    "charlotte_impact": "DoorDash's implementation showcases how AI can enhance efficiency and user experience in the food delivery industry. Streamlined onboarding will make it easier for small businesses to integrate, and enhanced photos will help increase sales.",
-    "impact_score": 7
+    "industry": "AI, Mobile Apps",
+    "summary": "Visual model launches generate 6.5x more downloads than chatbot upgrades.",
+    "charlotte_impact": "App developers see that visual AI models are a strong draw for users, compared to chatbot-only upgrades. It is likely the case that many apps will start to focus on visual AI models in order to compete.",
+    "impact_score": 6
   },
   {
     "title": "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
     "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
-    "industry": "Healthcare",
-    "summary": "A Harvard study found that AI offered more accurate diagnoses than human doctors in emergency room scenarios.",
-    "charlotte_impact": "This provides compelling evidence of AI's potential to improve healthcare outcomes and reduce diagnostic errors. The healthcare industry could integrate these types of AI technologies which will increase the efficiency and accuracy of medical decisions.",
+    "industry": "AI, Healthcare",
+    "summary": "A Harvard study indicates AI provided more accurate emergency room diagnoses than two human doctors in some cases.",
+    "charlotte_impact": "This study supports the potential of AI in improving diagnostic accuracy and patient outcomes. AI could supplement human expertise in emergency rooms, leading to faster and more accurate diagnoses, especially in complex or time-sensitive situations.",
+    "impact_score": 7
+  },
+  {
+    "title": "New tool can find deadliest cancer years before tumors can be seen on a scan",
+    "url": "https://nypost.com/2026/05/04/health/new-tool-finds-deadliest-cancer-years-before-tumors-seen-on-scan/",
+    "industry": "AI, Healthcare",
+    "summary": "New AI tool can find deadliest cancer years before tumors can be seen on a scan.",
+    "charlotte_impact": "This development signals a significant breakthrough in early cancer detection, potentially improving survival rates and treatment outcomes. Increased focus on AI in cancer screening may lead to more personalized and proactive healthcare approaches.",
     "impact_score": 9
-  },
-  {
-    "title": "AI-generated actors and scripts are now ineligible for Oscars",
-    "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
-    "industry": "Entertainment",
-    "summary": "The Academy of Motion Picture Arts and Sciences now excludes AI-generated actors and scripts from Oscar eligibility.",
-    "charlotte_impact": "This decision reflects a concern over the authenticity of artistic work in the age of AI, safeguarding the role of human creativity in film. This will incentivize human creativity over AI generated substitutes in the film industry.",
-    "impact_score": 6
-  },
-  {
-    "title": "Blackstone vehicle aims to raise over $1.7 billion in US IPO for data center bet",
-    "url": "https://www.channelnewsasia.com/business/blackstone-vehicle-aims-raise-over-17-billion-in-us-ipo-data-center-bet-6098531",
-    "industry": "Data Centers",
-    "summary": "Blackstone Digital Infrastructure Trust aims to raise over $1.7 billion in a US IPO, signaling a significant bet on the data center industry.",
-    "charlotte_impact": "This IPO shows the high market demand for data centers to support AI, cloud computing, and digital infrastructure. The new Blackstone infrastructure will encourage continued innovation, efficiency, and growth in the data center industry.",
-    "impact_score": 8
-  },
-  {
-    "title": "Geothermal Energy Developer Fervo Seeks $1.33 Billion in US IPO",
-    "url": "https://financialpost.com/pmn/business-pmn/geothermal-energy-developer-fervo-seeks-1-33-billion-in-us-ipo",
-    "industry": "Renewable Energy",
-    "summary": "Geothermal Energy Developer Fervo Seeks $1.33 Billion in US IPO.",
-    "charlotte_impact": "The IPO seeks to capitalize on the growing power demand for data centers. It implies increased confidence in geothermal technologies and renewable energies, as well as a continued push for the development of these energies.",
-    "impact_score": 7
-  },
-  {
-    "title": "How AI Swarms Are Disrupting Democracy",
-    "url": "https://www.oreilly.com/radar/how-ai-swarms-are-disrupting-democracy/#BlogPosting",
-    "industry": "AI Governance",
-    "summary": "Millions of pieces of AI-generated fake content are being produced daily and distributed at industrial scale, aimed at influencing public opinion.",
-    "charlotte_impact": "This highlights the urgent need for robust AI governance and media literacy initiatives to combat disinformation campaigns. The widespread production of AI content could erode public trust and stability.",
-    "impact_score": 8
-  },
-  {
-    "title": "Wired for War: Silicon Valley\u2019s military AI Ukrainian testing ground",
-    "url": "https://www.rt.com/news/639300-palantir-ukraine-zelensky-testing/",
-    "industry": "Military",
-    "summary": "Silicon Valley is testing military AI in Ukraine. AI systems are being used in real-world scenarios.",
-    "charlotte_impact": "The Ukraine conflict is serving as a testing ground for advanced AI military application. This could lead to more development of AI in military technologies and an evolution of future warfare strategies.",
-    "impact_score": 7
-  },
-  {
-    "title": "Emerging Drugs Market to Reach $558.0 Billion by 2030, Driven by Biologics Innovation and Regulatory Support",
-    "url": "https://www.globenewswire.com/news-release/2026/05/04/3286608/0/en/Emerging-Drugs-Market-to-Reach-558-0-Billion-by-2030-Driven-by-Biologics-Innovation-and-Regulatory-Support.html",
-    "industry": "Pharmaceutical",
-    "summary": "Emerging drugs market is expected to rise to $558 billion by 2030, driven by faster regulations and R&D.",
-    "charlotte_impact": "AI is increasingly used for drug discovery and development. This will accelerate the pace of drug development and lower costs, leading to better treatments for many diseases.",
-    "impact_score": 7
-  },
-  {
-    "title": "The best AI dictation apps, tested and ranked",
-    "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
-    "industry": "Productivity Software",
-    "summary": "AI-powered dictation apps are useful for replying to emails, taking notes, and even coding through your voice.",
-    "charlotte_impact": "This reflects the growing importance of AI-powered tools in improving productivity. The AI-powered tools will allow individuals to work efficiently, increasing opportunities for users.",
-    "impact_score": 6
-  },
-  {
-    "title": "A fourth, one-of-a-kind runway is coming to CLT airport",
-    "url": "https://www.wcnc.com/article/money/a-fourth-one-of-a-kind-runway-is-coming-to-clt-airport/275-208418a6-80ee-4d50-be4b-a70df1cd1712",
-    "industry": "Infrastructure",
-    "summary": "A fourth, one-of-a-kind runway is coming to CLT airport, aided by UNC Charlotte researchers using new technology.",
-    "charlotte_impact": "Shows the impact of technology and research in infrastructural projects. Demonstrates collaboration between academia and infrastructure development which could be replicated elsewhere.",
-    "impact_score": 5
   }
 ]

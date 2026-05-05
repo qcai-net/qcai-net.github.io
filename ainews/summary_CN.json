@@ -1,162 +1,162 @@
 [
   {
+    "title": "OpenAI 发布 GPT-5.5 Instant，ChatGPT 的新默认模型",
+    "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+    "industry": "AI, Technology",
+    "summary": "OpenAI 推出了 GPT-5.5 Instant，这是 ChatGPT 的新默认模型，减少了法律、医学和金融等敏感领域的幻觉，同时保持了低延迟。",
+    "charlotte_impact": "GPT-5.5 Instant的发布可以提高依赖准确可靠的信息处理的行业（例如法律、医疗和金融服务）的生产力和决策。企业可以利用该模型来自动化任务并提高人工智能应用的准确性，从而获得更好的结果并降低风险。",
+    "impact_score": 9
+  },
+  {
     "title": "OpenAI 的亲密合作伙伴 Cerebras 有望实现重磅 IPO",
     "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
-    "industry": "Semiconductors",
-    "summary": "AI 芯片制造商 Cerebras 有望进行重磅 IPO，由于其与 OpenAI 的密切关系，该公司的估值可能达到 266 亿美元或更高。",
-    "charlotte_impact": "Cerebras 的成功 IPO 将标志着市场对专业人工智能硬件的强劲信心，并促进相关领域的投资。这可能会促使更多公司投资高性能专用人工智能芯片，从而增加整个行业的创新并降低成本。",
-    "impact_score": 9
+    "industry": "AI, Finance, Semiconductors",
+    "summary": "与 OpenAI 密切合作的芯片制造商 Cerebras 正在准备大规模 IPO，该公司的估值可能达到 266 亿美元或更高。",
+    "charlotte_impact": "Cerebras 的 IPO 标志着投资者对人工智能芯片市场的强劲信心，并突显了对支持人工智能开发和部署的专用硬件的需求不断增长。此次 IPO 将为 Cerebras 提供大量资金，以扩大其芯片生产并可能降低计算成本，从而使使用高性能人工智能模型的公司受益。",
+    "impact_score": 8
   },
   {
     "title": "Anthropic 和 OpenAI 均成立合资企业提供企业人工智能服务",
     "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
-    "industry": "AI Enterprise Services",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "此举标志着企业更加积极地采用人工智能的战略转变。 It could pressure existing enterprise AI service providers to innovate and compete more effectively, potentially leading to lower costs and better service for businesses.这一发展将加速人工智能在各个行业和业务职能中的采用。",
+    "industry": "AI, Enterprise Software",
+    "summary": "Anthropic 和 OpenAI 都成立了企业人工智能服务合资企业，与资产管理公司合作积极营销其产品。",
+    "charlotte_impact": "这些合资企业标志着人工智能日益商业化，主要参与者都在争夺企业采用。所有行业的企业都可能会看到人工智能驱动的企业解决方案激增，从而推动效率提升并创造竞争优势。不适应的公司就有落后的风险。",
     "impact_score": 8
   },
   {
-    "title": "Meta 收购机器人初创公司以增强其人形人工智能雄心",
-    "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
-    "industry": "Robotics",
-    "summary": "Meta 收购了机器人初创公司 Assured Robot Intelligence，以增强其人形机器人的人工智能模型。",
-    "charlotte_impact": "Meta 对机器人技术的投资增加表明人们对现实世界的人工智能应用越来越感兴趣。此次收购表明 Meta 正在向人形机器人投入更多资源，这可能会促进各行业人工智能驱动的自动化的进步。",
-    "impact_score": 7
+    "title": "OpenAI Veteran 为 AI 客户服务代理筹集 9.5 亿美元",
+    "url": "https://www.pymnts.com/news/investment-tracker/2026/openai-veteran-raises-950-million-for-ai-customer-service-agents/",
+    "industry": "AI, Customer Service",
+    "summary": "Sierra 是一家专注于客户体验和开发人工智能客户服务代理的人工智能初创公司，已筹集 9.5 亿美元的新资金，使公司估值达到 158 亿美元。",
+    "charlotte_impact": "Sierra 的这轮融资表明人工智能在改变客户服务方面具有巨大潜力。公司正在寻求人工智能驱动的代理来自动化客户交互、缩短响应时间并降低成本。这种趋势可能会导致传统客户服务角色的工作流失，但也为人工智能代理的开发和管理创造了新的机会。",
+    "impact_score": 9
   },
   {
-    "title": "五角大楼与 Nvidia、微软和 AWS 达成协议，在机密网络上部署人工智能",
-    "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-    "industry": "Defense",
-    "summary": "五角大楼已与 Nvidia、微软和 AWS 签署协议，在机密网络上部署人工智能，在与 Anthropic 发生纠纷后，使其人工智能供应商基础多元化。",
-    "charlotte_impact": "这表明人工智能在国家安全和国防技术提供商的多元化方面日益重要。大型科技公司进入这一领域可能会推动人工智能在国防应用方面的创新，同时可能引发人们对在战争中使用人工智能的道德担忧。",
-    "impact_score": 8
-  },
-  {
-    "title": "当工人们担心人工智能时，英伟达的黄仁勋表示人工智能正在“创造大量就业机会”",
-    "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
-    "industry": "AI and Employment",
-    "summary": "英伟达首席执行官黄仁勋认为，人工智能正在创造大量就业机会，消除了人们对人工智能导致工作岗位流失的担忧。",
-    "charlotte_impact": "黄的观点与对失业的恐惧形成了乐观的对比，表明人工智能正在创造新的角色。如果准确的话，这可能会导致对人工智能相关教育和培训项目的更多投资，以使劳动力为新机会做好准备。",
-    "impact_score": 6
-  },
-  {
-    "title": "埃隆·马斯克 (Elon Musk) 在 OpenAI 审判中唯一的人工智能专家证人担心 AGI 军备竞赛",
-    "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
-    "industry": "AI Safety",
-    "summary": "埃隆·马斯克 (Elon Musk) 的人工智能专家证人斯图尔特·拉塞尔 (Stuart Russell) 担心通用人工智能军备竞赛，并认为政府需要监管前沿人工智能实验室。",
-    "charlotte_impact": "拉塞尔的担忧加剧了关于人工智能安全和不受监管的通用人工智能开发潜在危险的日益激烈的争论。这可能会推动围绕人工智能安全协议和透明度的更多讨论和潜在的监管行动。",
+    "title": "CopilotKit 筹集了 2700 万美元，帮助开发人员部署应用程序原生 AI 代理",
+    "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/",
+    "industry": "AI, Software Development",
+    "summary": "CopilotKit 是一家帮助开发人员部署应用程序原生人工智能代理的初创公司，已在 A 轮融资中筹集了 2700 万美元。",
+    "charlotte_impact": "CopilotKit 的资助表明，人们对简化人工智能代理与现有应用程序集成的工具的需求不断增长。这可以降低企业采用和部署人工智能解决方案的准入门槛，促进各行业更广泛的采用。",
     "impact_score": 7
   },
   {
     "title": "Sierra 融资 9.5 亿美元，企业人工智能竞争愈演愈烈",
     "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
-    "industry": "Enterprise AI",
-    "summary": "Sierra 筹集了 9.5 亿美元，旨在成为人工智能驱动的客户体验的“全球标准”。",
-    "charlotte_impact": "这一轮巨额融资凸显了企业人工智能领域的激烈竞争以及对人工智能驱动的客户服务解决方案不断增长的需求。增加的投资可以推动人工智能在客户体验方面更快的创新和采用，从而有可能提高客户满意度和业务效率。",
+    "industry": "AI, Customer Service",
+    "summary": "Sierra 筹集了 9.5 亿美元，使他们成为企业人工智能领域的主要参与者，旨在为人工智能驱动的客户体验建立“全球标准”。",
+    "charlotte_impact": "这一轮巨额融资表明，自动化、人工智能驱动的客户体验是一个具有巨大投资潜力的高增长领域。如果 Sierra 成功制定标准，公司可能需要采用类似的技术，以在提供高效和有效的客户服务方面保持竞争力。",
+    "impact_score": 8
+  },
+  {
+    "title": "AI 初创公司 Sierra 融资 9.5 亿美元，估值 150 亿美元",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-startup-sierra-raises-950-million-at-15-billion-valuation/articleshow/130810521.cms",
+    "industry": "AI, Customer Service",
+    "summary": "AI 初创公司 Sierra 以 150 亿美元的估值筹集了 9.5 亿美元，用于扩展其 AI 平台以提升客户体验。",
+    "charlotte_impact": "Sierra 的这一轮巨额投资凸显了人工智能驱动的客户服务解决方案的激烈竞争和高期望。跨行业的企业可能会越来越多地转向 Sierra 等人工智能平台来增强客户互动并简化运营，从而导致市场混乱和潜在的劳动力调整。",
+    "impact_score": 8
+  },
+  {
+    "title": "宾夕法尼亚州因聊天机器人冒充医生而起诉 Character.AI",
+    "url": "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/",
+    "industry": "AI, Legal, Healthcare",
+    "summary": "宾夕法尼亚州正在起诉 Character.AI，因为该机器人涉嫌冒充医生并在调查期间提供虚假信息。",
+    "charlotte_impact": "该诉讼强调了在医疗保健等敏感领域部署人工智能所带来的法律和道德风险。它强调需要更严格的监管和监督，以防止人工智能聊天机器人冒充专业人士并提供不准确或有害的信息，这可能会对患者的安全和信任产生负面影响。",
     "impact_score": 9
+  },
+  {
+    "title": "PayPal 表示，它正在“再次成为一家科技公司”——这意味着人工智能",
+    "url": "https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/",
+    "industry": "AI, Fintech",
+    "summary": "PayPal 正在进行人工智能主导的转型，重点关注自动化和重组，以节省 15 亿美元，其中包括裁员。",
+    "charlotte_impact": "PayPal 人工智能驱动的重组体现了人工智能如何用于优化金融科技行业的业务流程、降低成本和提高效率。虽然这可以带来短期财务收益，但它也引发了人们对工作岗位流失以及面对自动化需要进行劳动力再培训的担忧。",
+    "impact_score": 7
+  },
+  {
+    "title": "Etsy 在 ChatGPT 中推出应用程序，继续推进人工智能",
+    "url": "https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/",
+    "industry": "AI, Retail",
+    "summary": "Etsy 在 ChatGPT 中推出了其应用程序，旨在为用户提供对话式购物体验。",
+    "charlotte_impact": "Etsy 与 ChatGPT 的集成展示了人工智能在个性化和增强在线购物体验方面的潜力。这种整合可能会增加 Etsy 卖家的销售额和客户参与度。它为其他电子商务平台采用类似的人工智能驱动的对话式商务策略树立了先例。",
+    "impact_score": 6
+  },
+  {
+    "title": "随着人工智能模型的雄心壮志面临现实，印度首家 GenAI 独角兽转向云服务",
+    "url": "https://techcrunch.com/2026/05/05/indias-first-genai-unicorn-shifts-to-cloud-services-as-ai-model-ambitions-face-reality/",
+    "industry": "AI, Cloud Computing",
+    "summary": "印度第一家 GenAI 独角兽 Krutrim 由于构建自己的人工智能模型面临挑战，正在转向云服务。",
+    "charlotte_impact": "Krutrim 的观点凸显了人工智能初创公司在开发和维护专有人工智能模型方面面临的挑战，特别是在资源有限的环境中。这可能会导致人们更加依赖成熟的云提供商及其人工智能服务，从而巩固少数主要参与者的市场力量。",
+    "impact_score": 5
+  },
+  {
+    "title": "DoorDash 添加人工智能工具以加快商家入职速度、编辑菜肴照片",
+    "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
+    "industry": "AI, Food Delivery",
+    "summary": "DoorDash 添加了人工智能工具来帮助商家进行入门、照片编辑和网站创建。",
+    "charlotte_impact": "DoorDash 对人工智能工具的实施表明，人工智能在食品配送行业中越来越多地用于简化业务运营并增强用户体验。这些人工智能功能可以帮助商家快速建立在线形象，提高列表的视觉吸引力并优化运营，从而促进更大的竞争和潜在的收入增长。",
+    "impact_score": 6
+  },
+  {
+    "title": "Meta将使用AI分析身高和骨骼结构来识别用户是否未成年",
+    "url": "https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/",
+    "industry": "AI, Social Media",
+    "summary": "Meta将利用人工智能分析身高和骨骼结构来识别用户是否未成年。",
+    "charlotte_impact": "Meta 使用人工智能进行年龄验证的举措可能会为社交媒体平台的安全性和合规性树立新标准。它还可能引发有关生物识别数据收集和分析的隐私问题。",
+    "impact_score": 7
+  },
+  {
+    "title": "当工人们担心人工智能时，英伟达的黄仁勋表示人工智能正在“创造大量就业机会”",
+    "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
+    "industry": "AI, Job Market",
+    "summary": "英伟达首席执行官黄仁勋声称，人工智能创造的就业机会多于它消除的就业机会，抵消了人们对人工智能可能扼杀就业机会的担忧。",
+    "charlotte_impact": "黄仁勋的说法与人们对人工智能驱动的工作岗位流失的普遍担忧形成了反驳。虽然人工智能可能会实现某些任务的自动化，但它也在人工智能开发、维护和集成等领域创造了新的就业机会，为劳动力适应和提高技能提供了机会。",
+    "impact_score": 6
+  },
+  {
+    "title": "埃隆·马斯克 (Elon Musk) 在 OpenAI 审判中唯一的人工智能专家证人担心 AGI 军备竞赛",
+    "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+    "industry": "AI, Ethics, Regulation",
+    "summary": "埃隆·马斯克 (Elon Musk) 在 OpenAI 审判中的专家证人 Stuart Russell 表达了对 AGI 军备竞赛以及政府监管 AI 实验室的必要性的担忧。",
+    "charlotte_impact": "斯图尔特·拉塞尔的警告强调了不受控制的人工智能开发所带来的潜在风险，并强调了道德准则和政府监督的必要性。他的担忧可能会促使政策制定者考虑实施法规，以减轻潜在风险并确保负责任的人工智能开发。",
+    "impact_score": 7
   },
   {
     "title": "OpenAI 声称，埃隆·马斯克在要求和解后向格雷格·布罗克曼、山姆·奥尔特曼发送了不祥的短信",
     "url": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/",
-    "industry": "AI Ethics",
-    "summary": "据称，埃隆·马斯克在和解谈判失败后向 OpenAI 领导层发送了不祥的短信，导致正在进行的法律纠纷升级。",
-    "charlotte_impact": "这场法律战反映了围绕人工智能治理、知识产权以及强大人工智能技术的潜在滥用等更广泛的紧张局势。这场争端的结果可能会影响未来人工智能的开发实践以及人工智能组织内部的职责分配。",
-    "impact_score": 6
+    "industry": "AI, Legal",
+    "summary": "据报道，埃隆·马斯克在要求诉讼和解后向 OpenAI 的高管发送了不祥的短信。",
+    "charlotte_impact": "这反映了围绕先进人工智能技术的开发和控制的有争议的法律斗争和高风险。",
+    "impact_score": 5
   },
   {
     "title": "“这很好”创作者说人工智能初创公司偷了他的艺术",
     "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
-    "industry": "AI and Art",
-    "summary": "“这很好”模因的创造者指责一家人工智能初创公司窃取他的艺术作品来推广他们的服务，敦促企业“停止雇用人类”。",
-    "charlotte_impact": "这引发了有关人工智能生成内容和版权侵权的重大道德和法律问题。它提高了公众对人工智能剥削艺术家潜力的认识，并呼吁对人工智能时代的创意作品提供更强有力的法律保护。",
+    "industry": "AI, Art, Ethics",
+    "summary": "“这很好”表情包的创作者声称一家人工智能初创公司窃取了他的艺术作品，引发了人们对版权和人工智能生成内容的担忧。",
+    "charlotte_impact": "这一事件凸显了围绕人工智能生成艺术和知识产权保护的持续争论。这可能会导致在人工智能训练数据集中使用受版权保护的材料受到更多的审查和法律挑战。",
     "impact_score": 6
   },
   {
     "title": "图像人工智能模型现在推动应用程序增长，击败聊天机器人升级",
     "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
-    "industry": "App Development",
-    "summary": "图像人工智能模型现在正在推动应用程序的增长，在产生下载方面超越了聊天机器人升级，尽管收入转换仍然是一个挑战。",
-    "charlotte_impact": "这标志着应用程序开发人员优先考虑视觉人工智能功能以吸引用户的趋势。它强调了不仅吸引下载而且将这些下载转化为付费客户的重要性。这一趋势将鼓励应用程序开发人员集成视觉人工智能解决方案，从而转化为收入。",
-    "impact_score": 7
-  },
-  {
-    "title": "DoorDash 添加人工智能工具以加快商家入职速度、编辑菜肴照片",
-    "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
-    "industry": "Food Delivery",
-    "summary": "DoorDash 引入人工智能工具来简化商家入职流程、改进菜肴照片并创建网站。",
-    "charlotte_impact": "DoorDash 的实施展示了人工智能如何提高食品配送行业的效率和用户体验。简化的入职流程将使小型企业更容易整合，而增强的照片将有助于增加销售额。",
-    "impact_score": 7
+    "industry": "AI, Mobile Apps",
+    "summary": "视觉模型发布产生的下载量是聊天机器人升级的 6.5 倍。",
+    "charlotte_impact": "应用程序开发人员发现，与仅聊天机器人的升级相比，视觉人工智能模型对用户具有很强的吸引力。许多应用程序很可能会开始关注视觉人工智能模型以进行竞争。",
+    "impact_score": 6
   },
   {
     "title": "在哈佛大学的研究中，人工智能比两名人类医生提供了更准确的急诊室诊断",
     "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
-    "industry": "Healthcare",
-    "summary": "哈佛大学的一项研究发现，在急诊室场景中，人工智能比人类医生提供更准确的诊断。",
-    "charlotte_impact": "这提供了令人信服的证据，证明人工智能具有改善医疗保健结果和减少诊断错误的潜力。医疗保健行业可以整合这些类型的人工智能技术，这将提高医疗决策的效率和准确性。",
+    "industry": "AI, Healthcare",
+    "summary": "哈佛大学的一项研究表明，在某些情况下，人工智能提供的急诊室诊断比两名人类医生更准确。",
+    "charlotte_impact": "这项研究支持人工智能在提高诊断准确性和患者治疗效果方面的潜力。人工智能可以补充急诊室的人类专业知识，从而实现更快、更准确的诊断，特别是在复杂或时间敏感的情况下。",
+    "impact_score": 7
+  },
+  {
+    "title": "新工具可以在扫描发现肿瘤之前数年发现最致命的癌症",
+    "url": "https://nypost.com/2026/05/04/health/new-tool-finds-deadliest-cancer-years-before-tumors-seen-on-scan/",
+    "industry": "AI, Healthcare",
+    "summary": "新的人工智能工具可以在扫描中发现肿瘤之前数年发现最致命的癌症。",
+    "charlotte_impact": "这一进展标志着早期癌症检测的重大突破，有可能提高生存率和治疗结果。在癌症筛查中对人工智能的更多关注可能会带来更加个性化和主动的医疗保健方法。",
     "impact_score": 9
-  },
-  {
-    "title": "人工智能生成的演员和剧本现在没有资格获得奥斯卡奖",
-    "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
-    "industry": "Entertainment",
-    "summary": "美国电影艺术与科学学院现在将人工智能生成的演员和剧本排除在奥斯卡资格之外。",
-    "charlotte_impact": "这一决定反映了对人工智能时代艺术作品真实性的担忧，维护了人类创造力在电影中的作用。这将激励人类在电影行业中超越人工智能产生的替代品的创造力。",
-    "impact_score": 6
-  },
-  {
-    "title": "Blackstone 计划在美国 IPO 中筹集超过 17 亿美元用于数据中心业务",
-    "url": "https://www.channelnewsasia.com/business/blackstone-vehicle-aims-raise-over-17-billion-in-us-ipo-data-center-bet-6098531",
-    "industry": "Data Centers",
-    "summary": "Blackstone Digital Infrastructure Trust 计划在美国 IPO 中筹集超过 17 亿美元，这标志着对数据中心行业的重大押注。",
-    "charlotte_impact": "此次IPO显示了市场对支持人工智能、云计算和数字基础设施的数据中心的高需求。新的 Blackstone 基础设施将鼓励数据中心行业的持续创新、效率和增长。",
-    "impact_score": 8
-  },
-  {
-    "title": "地热能开发商 Fervo 寻求在美国 IPO 筹集 13.3 亿美元",
-    "url": "https://financialpost.com/pmn/business-pmn/geothermal-energy-developer-fervo-seeks-1-33-billion-in-us-ipo",
-    "industry": "Renewable Energy",
-    "summary": "地热能源开发商 Fervo 寻求在美国 IPO 融资 13.3 亿美元。",
-    "charlotte_impact": "此次首次公开募股旨在利用数据中心不断增长的电力需求。这意味着人们对地热技术和可再生能源的信心增强，以及对这些能源发展的持续推动。",
-    "impact_score": 7
-  },
-  {
-    "title": "人工智能群如何扰乱民主",
-    "url": "https://www.oreilly.com/radar/how-ai-swarms-are-disrupting-democracy/#BlogPosting",
-    "industry": "AI Governance",
-    "summary": "每天都有数以百万计的人工智能生成的虚假内容被生产并以工业规模传播，旨在影响公众舆论。",
-    "charlotte_impact": "这凸显了迫切需要强有力的人工智能治理和媒体素养举措来打击虚假信息活动。人工智能内容的广泛生产可能会削弱公众的信任和稳定。",
-    "impact_score": 8
-  },
-  {
-    "title": "战争连线：硅谷的军事人工智能乌克兰试验场",
-    "url": "https://www.rt.com/news/639300-palantir-ukraine-zelensky-testing/",
-    "industry": "Military",
-    "summary": "硅谷正在乌克兰测试军事人工智能。人工智能系统正在应用于现实场景。",
-    "charlotte_impact": "乌克兰冲突正在成为先进人工智能军事应用的试验场。这可能会导致人工智能在军事技术方面的进一步发展和未来战争战略的演变。",
-    "impact_score": 7
-  },
-  {
-    "title": "在生物制剂创新和监管支持的推动下，新兴药物市场到 2030 年将达到 5580 亿美元",
-    "url": "https://www.globenewswire.com/news-release/2026/05/04/3286608/0/en/Emerging-Drugs-Market-to-Reach-558-0-Billion-by-2030-Driven-by-Biologics-Innovation-and-Regulatory-Support.html",
-    "industry": "Pharmaceutical",
-    "summary": "在监管和研发加快的推动下，到 2030 年，新兴药物市场预计将增至 5580 亿美元。",
-    "charlotte_impact": "人工智能越来越多地用于药物发现和开发。这将加快药物开发的步伐并降低成本，从而为许多疾病提供更好的治疗方法。",
-    "impact_score": 7
-  },
-  {
-    "title": "经过测试和排名的最佳人工智能听写应用程序",
-    "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
-    "industry": "Productivity Software",
-    "summary": "人工智能驱动的听写应用程序对于回复电子邮件、做笔记，甚至通过语音编码非常有用。",
-    "charlotte_impact": "这反映出人工智能工具在提高生产力方面日益重要。人工智能驱动的工具将使个人能够高效工作，从而增加用户的机会。",
-    "impact_score": 6
-  },
-  {
-    "title": "第四条独一无二的跑道即将落户 CLT 机场",
-    "url": "https://www.wcnc.com/article/money/a-fourth-one-of-a-kind-runway-is-coming-to-clt-airport/275-208418a6-80ee-4d50-be4b-a70df1cd1712",
-    "industry": "Infrastructure",
-    "summary": "在北卡罗来纳大学夏洛特分校研究人员的帮助下，利用新技术，第四条独一无二的跑道即将落户 CLT 机场。",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
   }
 ]
