@@ -1,90 +1,162 @@
 [
   {
-    "title": "Nvidia 的 MRC：当“仅以太网”不足以支持千兆级 AI 时",
-    "url": "https://siliconangle.com/2026/05/06/nvidias-mrc-just-ethernet-isnt-enough-gigascale-ai/",
-    "industry": "Networking/Semiconductors",
-    "summary": "Nvidia 最新的网络创新旨在满足人工智能工厂的需求，凸显了千兆级人工智能应用对标准以太网之外的高性能网络的需求。这意味着网络基础设施将成为人工智能功能的关键推动者，而不仅仅是一个实用工具。",
-    "charlotte_impact": "Nvidia 的 MRC 强调人工智能硬件和网络日益专业化。这可能会增加对高技能网络工程师和硬件专家的需求，从而影响需要适应的教育机构和技术培训项目。投资人工智能基础设施的公司将需要为专门的网络解决方案投入大量预算，这会影响其整体人工智能项目成本。",
-    "impact_score": 9
-  },
-  {
-    "title": "银行正在构建人工智能无法破坏的信任层",
-    "url": "https://www.pymnts.com/identity/2026/banks-are-building-the-trust-layer-ai-cant-break/",
-    "industry": "Finance/Cybersecurity",
-    "summary": "银行和支付公司正在构建“身份供应链”，以增强身份验证，以应对人工智能打破当前安全措施的能力。这种网络化方法分发身份检查和风险信号，旨在创建更强大的信任层。",
-    "charlotte_impact": "强大的“身份供应链”的发展将需要对新的安全基础设施和专业知识进行投资。银行和金融机构将需要发展内部专业知识或与网络安全公司合作，以应对不断变化的威胁形势，从而有可能在网络安全和风险管理方面创造就业机会。",
+    "title": "OpenAI 在其 API 中推出新的语音智能功能",
+    "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
+    "industry": "AI, Customer Service, Education, Creator Platforms",
+    "summary": "OpenAI在其API中推出了新的语音智能功能，这有利于客户服务系统、教育平台和创作者平台。",
+    "charlotte_impact": "这可能会对依赖客户服务交互的企业产生重大影响，使他们能够实现自动化和个性化体验。教育平台还可以利用语音人工智能来实现无障碍和交互式学习。这些功能的可用性可能会推动相关领域的投资和创新。",
     "impact_score": 8
   },
   {
-    "title": "Anthropic 首席执行官预测人工智能编码浪潮将转向 SaaS",
-    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-ceo-predicts-saas-pivot-as-ai-coding-surges/",
-    "industry": "Software/AI",
-    "summary": "Anthropic 首席执行官预测，人工智能的编码能力将推动 SaaS 的发展，这表明 SaaS 公司需要在代码复杂性之外开发可防御的护城河。这表明 SaaS 业务模式发生了重大转变，要求公司专注于独特的数据、品牌信任或专业领域的专业知识。",
-    "charlotte_impact": "这表明 SaaS 公司需要关注独特的价值主张，而不是仅仅依赖于代码的复杂性。随着 SaaS 公司获得专业知识和数据资产，这种转变可能会推动并购活动的增加。它还需要对人工智能监督进行人力资本投资，以确保 SaaS 应用程序的使用符合法律标准。公司将寻找并开发专有数据源，以使其比竞争对手更具优势，从而改变投资重点。",
-    "impact_score": 9
-  },
-  {
-    "title": "意大利总理乔治亚·梅洛尼分享有伤风化的形象来打击网络巨魔",
-    "url": "https://dailycaller.com/2026/05/06/giorgia-meloni-deepfakes-photo-italian-prime-minister-social-media/",
-    "industry": "Politics/Media",
-    "summary": "意大利总理乔治亚·梅洛尼 (Giorgia Meloni) 通过发布看似虚假的图片来打击自己的深度造假行为。这一事件凸显了人工智能生成的虚假信息的威胁日益严重，以及政治人物在管理其在线形象方面面临的挑战。",
-    "charlotte_impact": "深度造假的日益复杂将迫使媒体组织在验证和事实检查技术上投入更多资金。这将对人工智能取证和媒体素养专家产生更多需求。政治竞选活动还需要投入资源来打击错误信息并澄清内容的真实性，从而从其他领域转移资源。公众对媒体的信任可能会进一步削弱，需要透明度和积极主动的沟通策略。",
+    "title": "Voi 创始人的新人工智能初创公司 Pit 已成为斯德哥尔摩最新的后起之秀",
+    "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
+    "industry": "Venture Capital, AI, Startups",
+    "summary": "由 Voi 创始人创立的人工智能初创公司 Pit 获得了 a16z 领投的 1600 万美元种子资金，将其定位为斯德哥尔摩科技界的后起之秀。",
+    "charlotte_impact": "本轮融资凸显了投资者对具有公认领导力的人工智能初创公司持续强劲的兴趣，即使是在利基领域。这项投资可以加速新的人工智能技术和应用的开发。",
     "impact_score": 7
   },
   {
-    "title": "推出新的合规性指南：AWS 上的 ISO/IEC 42001:2023",
-    "url": "https://aws.amazon.com/blogs/security/new-compliance-guide-available-iso-iec-420012023-on-aws/",
-    "industry": "Compliance/Cloud Computing",
-    "summary": "Amazon Web Services (AWS) 发布了 ISO/IEC 42001:2023 合规性指南，为使用 AWS 设计和运营人工智能管理系统 (AIMS) 的组织提供指导。这反映出标准化人工智能治理和风险管理在企业部署中的重要性日益增加。",
-    "charlotte_impact": "合规指南强调了对人工智能系统加强审查和监管。在 AWS 上使用 AI 的本地企业需要投资建立正式的人工智能管理系统并记录其文件。该合规指南还可能导致对合格合规官员和人工智能风险经理的需求净增加，并增加人工智能审计公司的收入。",
-    "impact_score": 8
-  },
-  {
-    "title": "研究发现，孩子们使用假胡子来绕过人工智能年龄验证",
-    "url": "https://www.ubergizmo.com/2026/05/kids-use-fake-mustaches-to-bypass-ai-age-verification/",
-    "industry": "Cybersecurity/Age Verification",
-    "summary": "一项研究表明，孩子们正在使用假胡子等简单方法来绕过人工智能年龄验证系统。这凸显了开发有效且强大的年龄验证解决方案所面临的持续挑战，特别是考虑到未成年人巧妙地规避这些解决方案。",
-    "charlotte_impact": "这加强了对更复杂的年龄验证技术的需求。依赖年龄验证的公司将面临采用难以绕过的多层方法的压力。这为年龄验证领域的创新创造了机会，有可能导致对开发新颖解决方案的公司的投资。人工智能年龄验证的失败会给依赖它来遵守限制未成年人访问年龄限制内容的法律的公司带来法律责任风险。",
-    "impact_score": 7
-  },
-  {
-    "title": "北京为何终止一项 20 亿美元的人工智能交易？",
-    "url": "http://foreignpolicy.com/2026/05/06/china-ai-singapore-manus-meta-us-competition/",
-    "industry": "International Trade/Geopolitics",
-    "summary": "北京终止了一项价值 20 亿美元的人工智能交易，突显出全球资本流动的障碍越来越大，特别是在人工智能领域。这反映出地缘政治紧张局势和人工智能技术战略竞争的加剧。",
-    "charlotte_impact": "这一事件突显了寻求跨境投资人工智能项目的国际公司因监管障碍而面临的挑战。这种发展可能会加速“人工智能民族主义”趋势，各国优先考虑国内人工智能发展并限制外国投资。长期影响可能是全球人工智能生态系统的碎片化，国际合作的减少。",
-    "impact_score": 7
-  },
-  {
-    "title": "PhonePe AI 代理将支付网关集成时间缩短至几分钟",
-    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/phonepe-ai-agent-cuts-payment-gateway-integration-minutes/",
-    "industry": "Fintech/AI",
-    "summary": "PhonePe 推出了一款人工智能代理，使商家能够在几分钟内通过对话界面集成公司的支付网关。这加速了支付网关集成，使商家更容易采用 PhonePe 的服务，并减少对技术专业知识的需求。",
-    "charlotte_impact": "这种人工智能驱动的解决方案使支付集成更快、更方便商家使用。这降低了新业务的进入门槛，并增加了电子商务领域的竞争。加速整合可能会加快数字支付的采用速度，从而影响消费者行为和业务运营。",
-    "impact_score": 8
-  },
-  {
-    "title": "PRISM MarketView 推出新兴半导体指数",
-    "url": "https://www.globenewswire.com/news-release/2026/05/06/3289280/0/en/PRISM-MarketView-Launches-Emerging-Semiconductors-Index.html",
-    "industry": "Finance/Semiconductors",
-    "summary": "PRISM MarketView 推出新兴半导体指数。该指数将使投资者能够就半导体投资做出更好的决策。",
-    "charlotte_impact": "新指数提高了透明度，并有可能吸引更多投资进入半导体行业。这使得投资者更容易配置资本，并可以推动创新和增长。它为当地投资者提供了洞察力，以便在该行业做出更明智的投资决策。",
+    "title": "OpenAI 为可能的自残案件引入了新的“可信联系人”保护措施",
+    "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
+    "industry": "AI Safety, Mental Health",
+    "summary": "OpenAI 向 ChatGPT 引入了“可信联系人”保护功能，旨在在对话显示潜在自残的情况下保护用户。",
+    "charlotte_impact": "这标志着人工智能开发人员的道德责任意识不断增强，特别是在心理健康和安全方面。实施此类功能可以增强用户信任并减轻与人工智能交互相关的潜在责任。",
     "impact_score": 6
   },
   {
-    "title": "Amii 和 Digital Journal 合作，将 Upper Bound 与加拿大的技术和商业领袖联系起来",
-    "url": "https://www.digitaljournal.com/tech-science/amii-and-digital-journal-partner-to-connect-upper-bound-to-canadas-technology-and-business-leaders/article",
-    "industry": "Media/AI",
-    "summary": "Amii 和 Digital Journal 合作，将 Upper Bound 与加拿大的技术和商业领袖联系起来。这将提高人们对活动的认识和参与。",
-    "charlotte_impact": "参与度的增加将加速人工智能技术的发展。这对许多行业都有影响。",
+    "title": "埃隆·马斯克的诉讼将 OpenAI 的安全记录置于显微镜下",
+    "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+    "industry": "AI Ethics, Law, Regulation",
+    "summary": "埃隆·马斯克对 OpenAI 的诉讼审查了其安全记录以及其营利性活动与其造福人类的最初使命的一致性。",
+    "charlotte_impact": "该诉讼的结果可能为人工智能公司的法律和道德义务树立先例，特别是在其治理和利润动机方面。审查会影响投资者的信心和人工智能开发的监管方法。",
+    "impact_score": 8
+  },
+  {
+    "title": "Perplexity 的个人电脑现已可供 Mac 上的所有人使用",
+    "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+    "industry": "AI Agents, Personal Computing",
+    "summary": "Perplexity 的个人电脑为 Mac 用户带来了 AI 代理，现已全面上市，这表明 AI 体验将朝着更加个性化和集成的方向发展。",
+    "charlotte_impact": "人工智能代理的可访问性增加意味着向个性化计算和潜在的新生产力范式的转变。企业可能会采用类似的技术来提高员工效率或客户参与度。",
+    "impact_score": 7
+  },
+  {
+    "title": "随着对开源人工智能的需求猛增，中国的 Moonshot AI 以 200 亿美元的估值筹集了 20 亿美元",
+    "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
+    "industry": "AI, Funding, Open Source",
+    "summary": "由于对开源人工智能的高需求，中国的 Moonshot AI 以 20B 美元的估值筹集了 2B 美元，4 月份的 ARR 超过 2 亿美元。",
+    "charlotte_impact": "这笔巨额资金证实了开源人工智能模型日益增长的重要性。它还凸显了中国在人工智能领域的积极投资和领导地位，在全球范围内造成竞争压力。这项投资将进一步推动开源创新，并可能影响力量平衡。",
+    "impact_score": 9
+  },
+  {
+    "title": "Spotify 希望成为人工智能生成的个人音频之家",
+    "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
+    "industry": "AI, Audio, Content Creation, Entertainment",
+    "summary": "Spotify 的目标是成为人工智能生成个人音频的中央平台，允许用户从人工智能代码平台创建和导入播客。",
+    "charlotte_impact": "这可以使音频内容创作民主化，并有可能颠覆传统的播客模式。它将为创作者创造新的机会，但也可能引起人们对内容质量、版权和可发现性的担忧。",
+    "impact_score": 7
+  },
+  {
+    "title": "Spotify 的 AI DJ 现在支持法语、德语、意大利语和巴西葡萄牙语",
+    "url": "https://techcrunch.com/2026/05/07/spotifys-ai-dj-now-supports-french-german-italian-and-brazilian-portuguese/",
+    "industry": "AI, Music, Entertainment",
+    "summary": "Spotify 的 AI DJ 功能现在支持法语、德语、意大利语和巴西葡萄牙语，从而将其扩展到更广泛的全球受众。",
+    "charlotte_impact": "人工智能驱动的个性化在娱乐平台中的扩展提高了用户的参与度和满意度。它还展示了人工智能应用在不同语言和文化背景下的可扩展性和适应性。",
+    "impact_score": 6
+  },
+  {
+    "title": "人工智能经济的五位架构师解释了人工智能经济的发展方向",
+    "url": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
+    "industry": "AI Infrastructure, Supply Chain",
+    "summary": "人工智能经济架构师讨论了从芯片短缺到轨道数据中心的挑战，质疑当前人工智能基础设施的可持续性。",
+    "charlotte_impact": "这凸显了人工智能供应链中可能阻碍未来增长的关键瓶颈。关于替代架构的讨论表明人工智能基础设施的构建和管理方式可能发生变化。",
+    "impact_score": 8
+  },
+  {
+    "title": "xAI 现在是 neocloud 了吗？",
+    "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
+    "industry": "AI, Cloud Computing, Data Centers",
+    "summary": "据推测，xAI 的主要重点可能是建设数据中心，而不仅仅是训练人工智能模型，这意味着向基础设施开发的战略转变。",
+    "charlotte_impact": "这表明人们越来越认识到拥有和控制支持大规模人工智能运营所需的基础设施的重要性。它标志着人工智能公司通过基础设施服务可能获得新的收入来源。",
+    "impact_score": 7
+  },
+  {
+    "title": "ZenaTech 将通过无人机即服务收购一家为政府和基础设施客户提供服务的老牌土地测量和空间服务公司来进入澳大利亚市场",
+    "url": "https://www.globenewswire.com/news-release/2026/05/07/3289899/0/en/ZenaTech-To-Enter-Australian-Market-Through-Drone-as-a-Service-Acquisition-of-an-Established-Land-Surveying-and-Spatial-Services-Company-Serving-Government-and-Infrastructure-Clien.html",
+    "industry": "Drone Technology, AI, Infrastructure",
+    "summary": "ZenaTech 通过无人机即服务收购一家土地测量公司，扩展到澳大利亚，增强其基础设施项目的人工智能自主平台。",
+    "charlotte_impact": "此次收购标志着进军亚太市场的战略举措，展示了无人机技术和人工智能在基础设施开发中的日益增长的应用。它可能会提高测量和施工的效率和数据准确性。",
+    "impact_score": 6
+  },
+  {
+    "title": "人工智能和数据现代化成为印度科技支出激增的最大推动力：报告",
+    "url": "https://www.thehindubusinessline.com/info-tech/ai-and-data-modernisation-emerge-as-biggest-drivers-of-indias-tech-spending-surge-report/article70950474.ece",
+    "industry": "AI, IT Spending",
+    "summary": "人工智能和数据现代化是印度科技支出激增的最大推动力，企业预计 IT 支出增长 6-8%。",
+    "charlotte_impact": "这说明新兴市场中人工智能的采用和数据基础设施的优先级越来越高。 IT支出的激增反映了人工智能投资带来​​的显着经济增长和竞争优势的潜力。",
+    "impact_score": 7
+  },
+  {
+    "title": "讨价还价以挽救人工智能带来的工作",
+    "url": "https://www.commondreams.org/opinion/unions-save-jobs-ai",
+    "industry": "Labor, AI, Unions",
+    "summary": "工会正在讨价还价，以挽救人工智能带来的就业机会，凸显了对技术替代的担忧。",
+    "charlotte_impact": "这反映出人们越来越担心人工智能对劳动力的潜在影响，工会积极寻求保护就业的措施。它强调了面对自动化时劳动力再培训和社会安全网的必要性。",
+    "impact_score": 6
+  },
+  {
+    "title": "Evaxion 公布业务更新和 2026 年第一季度财务业绩",
+    "url": "https://www.globenewswire.com/news-release/2026/05/07/3289858/0/en/Evaxion-announces-business-update-and-first-quarter-2026-financial-results.html",
+    "industry": "Biotech, AI, Healthcare",
+    "summary": "Evaxion 是一家临床阶段的 TechBio 公司，利用其 AI-Immunology 平台开发新型疫苗，提供了业务更新和 2026 年第一季度财务业绩。",
+    "charlotte_impact": "这表明人工智能在药物发现和疫苗开发中的应用越来越多，有可能加速这一进程并提高疗效。该领域的投资和研究可能会增加。",
+    "impact_score": 5
+  },
+  {
+    "title": "ATM 管理服务市场预计到 2035 年将超过 189.6 亿美元 |社交网络内幕",
+    "url": "https://www.globenewswire.com/news-release/2026/05/07/3289847/0/en/ATM-Managed-Services-Market-Projected-to-Surpass-USD-18-96-Billion-by-2035-SNS-Insider.html",
+    "industry": "Financial Services, AI, IoT",
+    "summary": "在人工智能和物联网技术的推动下，ATM 托管服务市场预计到 2035 年将超过 189.6 亿美元，以提高运营效率并减少停机时间。",
+    "charlotte_impact": "这反映出人们对高效、可靠的金融服务的需求不断增长，而人工智能和物联网在优化 ATM 运营方面发挥着至关重要的作用。这一趋势意味着金融领域的自动化和技术集成度不断提高。",
+    "impact_score": 6
+  },
+  {
+    "title": "BCE 在人工智能驱动的业务和更高的收入方面表现出色",
+    "url": "https://financialpost.com/pmn/business-pmn/bce-beats-on-ai-powered-business-higher-revenue",
+    "industry": "Telecommunications, AI",
+    "summary": "BCE Inc. 在人工智能驱动的业务、更高的收入方面表现出色，表明对人工智能基础设施的投资正在获得回报。",
+    "charlotte_impact": "该公司展示了人工智能投资如何转化为切实的业务成果，鼓励其他人优先考虑并投资此类项目。",
+    "impact_score": 5
+  },
+  {
+    "title": "中国如何赢得全球人工智能竞赛",
+    "url": "http://foreignpolicy.com/2026/05/07/artificial-intelligence-ai-china-us-west-race-silicon-valley-global/",
+    "industry": "AI, Global Politics",
+    "summary": "对于世界大部分地区来说，美国尖端的人工智能模型过于昂贵。",
+    "charlotte_impact": "如果美国的人工智能模型价格昂贵，那么只有全球精英才能使用这些模型，因此南半球国家将遭受损失。它还增加了对开源模型的需求。",
     "impact_score": 4
   },
   {
-    "title": "AI 精神病峰会的快讯",
-    "url": "https://reason.com/2026/05/06/a-dispatch-from-the-ai-psychosis-summit/",
-    "industry": "Media/Arts",
-    "summary": "纽约人工智能精神病峰会的一份报告探讨了人工智能对创意艺术的影响。这凸显了人工智能相关思维和艺术表达的兴起。",
-    "charlotte_impact": "这可能会导致对人工智能相关艺术企业的投资，并加剧竞争。数字艺术家能够创作出更具表现力的作品。",
+    "title": "金融科技领导者推动加强合作，推动非洲数字金融增长",
+    "url": "https://thechronicle.com.gh/fintech-leaders-push-for-stronger-collaboration-to-drive-africas-digital-finance-growth/",
+    "industry": "Fintech",
+    "summary": "金融科技领导人在 3i 非洲峰会上呼吁加强合作、人才培养和监管协调，将非洲定位为全球数字金融创新中心。",
+    "charlotte_impact": "由于非洲大陆目前缺乏银行和金融工具，人工智能可以在这些系统的民主化方面发挥巨大作用。",
     "impact_score": 4
+  },
+  {
+    "title": "希腊未来十年的职业：哪些行业的薪资高于 2,000 欧元",
+    "url": "https://en.protothema.gr/2026/05/07/the-professions-of-the-next-decade-in-greece-which-sectors-offer-salaries-above-e2000/",
+    "industry": "Labor",
+    "summary": "希腊劳动力市场正在进入一个新阶段，预计到 2036 年将实现最大增长，领先于劳工部在伦敦推出的“重塑希腊”计划",
+    "charlotte_impact": "希腊正试图为其劳动力吸引有才华的工人。",
+    "impact_score": 3
+  },
+  {
+    "title": "Jayne 博士的 EPtalk 26 年 5 月 7 日",
+    "url": "https://histalk2.com/2026/05/07/eptalk-by-dr-jayne-5-7-26/",
+    "industry": "International Relations",
+    "summary": "英国警告说，大屠杀的否认和歪曲正在助长整个欧安组织地区的反犹太主义和不安全感，敦促参与国保护历史真相，免受政治操纵和新兴数字……",
+    "charlotte_impact": "人工智能可用于生成准确的历史信息，并确保其不会为了政治利益而被扭曲。",
+    "impact_score": 3
   }
 ]
