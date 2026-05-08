@@ -1,162 +1,162 @@
 [
   {
+    "title": "The \u201cpeople\u2019s airline\u201d and the enterprise AI gold rush",
+    "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+    "industry": "Enterprise AI",
+    "summary": "Anthropic and OpenAI are announcing joint ventures targeting enterprise AI deployment, and SAP is investing $1B in German AI startup Prior Labs. This indicates a strong trend towards acquisitions and partnerships in the enterprise AI space.",
+    "charlotte_impact": "This trend highlights the increasing value of AI startups with enterprise-focused solutions, potentially leading to more acquisitions and consolidation within the AI industry. Companies developing AI tools for businesses could see increased investment and strategic partnerships as larger players look to expand their capabilities.",
+    "impact_score": 9
+  },
+  {
+    "title": "Elon Musk\u2019s lawsuit is putting OpenAI\u2019s safety record under the microscope",
+    "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+    "industry": "AI Safety",
+    "summary": "Elon Musk's lawsuit is scrutinizing OpenAI's commitment to its original mission of ensuring AI benefits humanity, raising questions about the impact of its for-profit subsidiary on safety.",
+    "charlotte_impact": "This lawsuit underscores the importance of responsible AI development and the potential for legal challenges related to AI safety. Companies must prioritize ethical considerations and transparency to avoid similar legal issues and maintain public trust.",
+    "impact_score": 8
+  },
+  {
     "title": "OpenAI launches new voice intelligence features in its API",
     "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-    "industry": "AI, Customer Service, Education, Creator Platforms",
-    "summary": "OpenAI has launched new voice intelligence features in its API, which are beneficial for customer service systems, education platforms and creator platforms.",
-    "charlotte_impact": "This could significantly impact businesses relying on customer service interactions, enabling them to automate and personalize experiences. Education platforms can also leverage voice AI for accessibility and interactive learning. The availability of such features will likely drive investment and innovation in related sectors.",
-    "impact_score": 8
+    "industry": "AI Technology",
+    "summary": "OpenAI launched new voice intelligence features in its API, which could be used for customer service, education, and creator platforms, showcasing the growing capabilities of AI in voice-based applications.",
+    "charlotte_impact": "The development of advanced voice AI technologies can significantly improve customer service and create new opportunities in fields like education and content creation. Businesses can leverage these tools to enhance customer experiences and develop innovative applications.",
+    "impact_score": 7
   },
   {
     "title": "Voi founders\u2019 new AI startup Pit has become the latest rising star out of Stockholm",
     "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
-    "industry": "Venture Capital, AI, Startups",
-    "summary": "AI startup Pit, founded by Voi founders, secured $16 million in seed funding led by a16z, positioning it as a rising star in Stockholm's tech scene.",
-    "charlotte_impact": "This funding round highlights the continuing strong investor appetite for AI startups with proven leadership, even in niche areas. This investment could accelerate the development of new AI technologies and applications.",
+    "industry": "Venture Capital",
+    "summary": "AI startup Pit, founded by Voi founders, secured $16 million in seed funding led by a16z, demonstrating continued investor interest in innovative AI ventures.",
+    "charlotte_impact": "This funding round signifies the continued appeal of AI startups to venture capitalists, particularly those with experienced founders. It suggests a strong market for new AI solutions and the potential for significant returns on investment in this space.",
     "impact_score": 7
   },
   {
     "title": "OpenAI introduces new \u2018Trusted Contact\u2019 safeguard for cases of possible self-harm",
     "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-    "industry": "AI Safety, Mental Health",
-    "summary": "OpenAI introduced a 'Trusted Contact' safeguard feature to ChatGPT, designed to protect users in cases where conversations indicate potential self-harm.",
-    "charlotte_impact": "This signals a growing awareness of the ethical responsibilities of AI developers, particularly concerning mental health and safety. Implementing such features can enhance user trust and mitigate potential liabilities associated with AI interactions.",
-    "impact_score": 6
+    "industry": "AI Safety",
+    "summary": "OpenAI is introducing a 'Trusted Contact' safeguard to protect ChatGPT users who may be experiencing self-harm, emphasizing the need for AI platforms to address mental health concerns.",
+    "charlotte_impact": "This feature highlights the growing awareness of the ethical responsibilities of AI developers and the importance of implementing safeguards to protect vulnerable users. Companies building AI systems should prioritize user safety and well-being.",
+    "impact_score": 8
   },
   {
-    "title": "Elon Musk\u2019s lawsuit is putting OpenAI\u2019s safety record under the microscope",
-    "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
-    "industry": "AI Ethics, Law, Regulation",
-    "summary": "Elon Musk's lawsuit against OpenAI scrutinizes its safety record and the alignment of its for-profit activities with its original mission to benefit humanity.",
-    "charlotte_impact": "The outcome of this lawsuit could set precedents for the legal and ethical obligations of AI companies, particularly regarding their governance and profit motives. The scrutiny impacts investor confidence and regulatory approaches to AI development.",
-    "impact_score": 8
+    "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
+    "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+    "industry": "Job Displacement",
+    "summary": "Cloudflare laid off 1,100 employees due to AI-driven efficiency gains, despite record revenue, illustrating the potential for AI to displace jobs across various industries.",
+    "charlotte_impact": "The Cloudflare layoffs serve as a stark reminder of the potential for AI to automate tasks and reduce the need for human labor, especially in support roles. Businesses need to proactively address the workforce impacts of AI by investing in retraining and upskilling programs.",
+    "impact_score": 9
   },
   {
     "title": "Perplexity\u2019s Personal Computer is now available to everyone on Mac",
     "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-    "industry": "AI Agents, Personal Computing",
-    "summary": "Perplexity's Personal Computer, bringing AI agents to Mac users, is now generally available, suggesting a move towards more personalized and integrated AI experiences.",
-    "charlotte_impact": "The increased accessibility of AI agents signifies a shift towards personalized computing and potentially new productivity paradigms. Businesses might adopt similar technologies to enhance employee efficiency or customer engagement.",
+    "industry": "AI Agents",
+    "summary": "Perplexity's Personal Computer, bringing AI agents to your Mac, is now open to everyone, showcasing the accessibility and development of AI agent technology.",
+    "charlotte_impact": "The increased accessibility of AI agents will lead to wider adoption and experimentation across various industries. This could drive innovation and create new business models centered around AI-powered assistance.",
     "impact_score": 7
   },
   {
     "title": "China\u2019s Moonshot AI raises $2B at $20B valuation as demand for open source AI skyrockets",
     "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
-    "industry": "AI, Funding, Open Source",
-    "summary": "China's Moonshot AI raised $2B at a $20B valuation due to high demand for open-source AI, with ARR exceeding $200 million in April.",
-    "charlotte_impact": "This substantial funding validates the growing importance of open-source AI models. It also underscores China's aggressive investment in and leadership of the AI space, creating competitive pressure globally. This investment will further drive innovation in open source and potentially affect the balance of power.",
+    "industry": "Venture Capital",
+    "summary": "China's Moonshot AI raised $2B at a $20B valuation due to high demand for open-source AI, with ARR exceeding $200 million, indicating the growing competitiveness in the open-source AI market.",
+    "charlotte_impact": "This significant investment highlights the increasing demand for open-source AI solutions and the potential for Chinese companies to become major players in the global AI landscape. The competition is accelerating as capital pours into the space.",
     "impact_score": 9
   },
   {
     "title": "Spotify wants to become the home for AI-generated personal audio",
     "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
-    "industry": "AI, Audio, Content Creation, Entertainment",
-    "summary": "Spotify aims to become a central platform for AI-generated personal audio, allowing users to create and import podcasts from AI code platforms.",
-    "charlotte_impact": "This could democratize audio content creation, potentially disrupting traditional podcasting models. It will create new opportunities for creators but may also raise concerns about content quality, copyright, and discoverability.",
-    "impact_score": 7
+    "industry": "Entertainment",
+    "summary": "Spotify aims to become a hub for AI-generated personal audio, allowing users to create and import podcasts from Codex or Claude Code, impacting the entertainment and content creation industries.",
+    "charlotte_impact": "Spotify's initiative will democratize podcast creation, enabling more users to produce and share their audio content. This could lead to a surge in personalized and niche podcasts, transforming the audio landscape and challenging traditional content creators.",
+    "impact_score": 6
   },
   {
     "title": "Spotify\u2019s AI DJ now supports French, German, Italian, and Brazilian Portuguese",
     "url": "https://techcrunch.com/2026/05/07/spotifys-ai-dj-now-supports-french-german-italian-and-brazilian-portuguese/",
-    "industry": "AI, Music, Entertainment",
-    "summary": "Spotify's AI DJ feature now supports French, German, Italian, and Brazilian Portuguese, expanding its accessibility to a wider global audience.",
-    "charlotte_impact": "The expansion of AI-powered personalization in entertainment platforms enhances user engagement and satisfaction. It also demonstrates the scalability and adaptability of AI applications in diverse linguistic and cultural contexts.",
+    "industry": "Entertainment",
+    "summary": "Spotify's AI DJ now supports French, German, Italian, and Brazilian Portuguese, demonstrating AI's growing capabilities in personalization and accessibility in global markets.",
+    "charlotte_impact": "The expansion of Spotify's AI DJ to multiple languages will enhance user engagement and personalization across diverse markets. It demonstrates the potential of AI to tailor content experiences to individual preferences and cultural contexts.",
     "impact_score": 6
   },
   {
     "title": "Five architects of the AI economy explain where the wheels are coming off",
     "url": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
-    "industry": "AI Infrastructure, Supply Chain",
-    "summary": "AI economy architects discuss challenges from chip shortages to orbital data centers, questioning the current AI infrastructure's sustainability.",
-    "charlotte_impact": "This highlights critical bottlenecks in the AI supply chain that could hinder future growth. The discussion about alternative architectures suggests potential shifts in how AI infrastructure is built and managed.",
+    "industry": "AI Economy",
+    "summary": "AI architects discuss chip shortages, orbital data centers, and the potential flaws in the current AI architecture, highlighting the challenges and vulnerabilities in the AI supply chain.",
+    "charlotte_impact": "This discussion sheds light on the infrastructural challenges and dependencies that could hinder the growth of the AI industry. Companies need to address these vulnerabilities by diversifying their supply chains and investing in alternative infrastructure solutions.",
+    "impact_score": 7
+  },
+  {
+    "title": "IMF warns of 'inevitable' AI-powered threats to world",
+    "url": "https://economictimes.indiatimes.com/news/international/business/imf-warns-of-inevitable-ai-powered-threats-to-world/articleshow/130920591.cms",
+    "industry": "Cybersecurity",
+    "summary": "The IMF warns of 'inevitable' AI-powered threats to the world, stating that cyber incidents could cause funding difficulties, solvency issues, and financial instability.",
+    "charlotte_impact": "This warning highlights the urgent need to strengthen cybersecurity defenses against AI-powered attacks. Financial institutions and critical infrastructure providers should invest in advanced AI-based security solutions and implement robust risk management strategies.",
+    "impact_score": 9
+  },
+  {
+    "title": "ServiceNow, SAP and Workday Make AI Agents Pay to Play",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/servicenow-sap-and-workday-make-ai-agents-pay-to-play/",
+    "industry": "Enterprise Software",
+    "summary": "ServiceNow, SAP, and Workday are implementing pay-per-use models for AI agents, challenging the traditional per-seat pricing structure in enterprise software.",
+    "charlotte_impact": "The shift to metered AI agent usage could significantly impact the revenue models of enterprise software companies. Businesses will need to adapt their pricing strategies to reflect the value delivered by AI and ensure they remain competitive.",
     "impact_score": 8
   },
   {
-    "title": "Is xAI a neocloud now?",
-    "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
-    "industry": "AI, Cloud Computing, Data Centers",
-    "summary": "Speculation suggests that xAI's primary focus may be on building data centers rather than solely training AI models, implying a strategic shift towards infrastructure development.",
-    "charlotte_impact": "This indicates a growing recognition of the importance of owning and controlling the infrastructure required to support large-scale AI operations. It signals a potential new revenue stream for AI companies through infrastructure services.",
+    "title": "Elon Musk called Anthropic \u2018evil\u2019 3 months ago. Now he\u2019s taking $4 billion to become its data landlord",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/elon-musk-called-anthropic-evil-194925519.html",
+    "industry": "Data Centers",
+    "summary": "Elon Musk is taking $4 billion to become Anthropic's data landlord, despite previously calling the company \"evil\", indicating the power held by those who control AI data centers.",
+    "charlotte_impact": "This deal underscores the strategic importance of data centers in the AI landscape. Companies that control data centers gain significant influence over AI development and deployment, giving them a competitive advantage.",
+    "impact_score": 8
+  },
+  {
+    "title": "Elon Musk called Anthropic \u2018evil\u2019 3 months ago. Now he\u2019s taking $4 billion to become its data landlord",
+    "url": "https://fortune.com/2026/05/07/spacex-anthropic-deal-elon-musk-ai-landlord-evil/",
+    "industry": "Data Centers",
+    "summary": "Elon Musk called Anthropic \u2018evil\u2019 3 months ago. Now he\u2019s taking $4 billion to become its data landlord; \u201cHe who controls the data center, really does control the application of artificial intelligence right now.\u201d",
+    "charlotte_impact": "Musk's investment despite past concerns highlights the immense strategic value of data center infrastructure for AI development and deployment. Access to computing power and data storage is becoming a critical competitive advantage in the AI race, potentially leading to further consolidation in the data center market.",
+    "impact_score": 8
+  },
+  {
+    "title": "IMF Warns AI Will Supercharge Cyberattacks on Global Financial System",
+    "url": "https://decrypt.co/367178/imf-warns-ai-supercharge-cyberattacks-global-financial-system",
+    "industry": "Cybersecurity",
+    "summary": "The IMF warns that AI will supercharge cyberattacks on the global financial system, as new AI tools allow even unskilled attackers to breach critical infrastructure.",
+    "charlotte_impact": "This escalating threat requires immediate action from financial institutions and governments to bolster their cybersecurity defenses. Investment in AI-powered security solutions and proactive threat detection is essential to mitigate the growing risks.",
+    "impact_score": 9
+  },
+  {
+    "title": "Burke, Inc. and BrandRank.AI Announce Strategic Partnership to Help Brands Win in the Age of AI-Driven Decisions",
+    "url": "https://www.prnewswire.com/news-releases/burke-inc-and-brandrankai-announce-strategic-partnership-to-help-brands-win-in-the-age-of-ai-driven-decisions-302766191.html",
+    "industry": "Market Research",
+    "summary": "Burke, Inc. and BrandRank.AI announced a partnership to help brands compete in an AI-driven marketplace.",
+    "charlotte_impact": "This partnership signifies the increasing need for brands to leverage AI-driven insights to understand consumer behavior and optimize their marketing strategies. Companies that embrace AI for market research and brand analytics will gain a competitive advantage.",
+    "impact_score": 6
+  },
+  {
+    "title": "When well-behaved agents trigger disaster",
+    "url": "https://siliconangle.com/2026/05/07/well-behaved-agents-trigger-disaster/",
+    "industry": "IT Operations",
+    "summary": "The article discusses scenarios where well-behaved AI agents trigger disaster by over-reacting to alerts, highlighting the need for careful oversight and coordination of AI agents in complex systems.",
+    "charlotte_impact": "This scenario underscores the importance of robust monitoring and control mechanisms when deploying AI agents in critical systems. Businesses must ensure that AI agents are properly calibrated and coordinated to avoid unintended consequences and system failures.",
     "impact_score": 7
   },
   {
-    "title": "ZenaTech To Enter Australian Market Through Drone as a Service Acquisition of an Established Land Surveying and Spatial Services Company Serving Government and Infrastructure Clients",
-    "url": "https://www.globenewswire.com/news-release/2026/05/07/3289899/0/en/ZenaTech-To-Enter-Australian-Market-Through-Drone-as-a-Service-Acquisition-of-an-Established-Land-Surveying-and-Spatial-Services-Company-Serving-Government-and-Infrastructure-Clien.html",
-    "industry": "Drone Technology, AI, Infrastructure",
-    "summary": "ZenaTech expands into Australia via a Drone-as-a-Service acquisition of a land surveying company, enhancing its AI autonomy platform for infrastructure projects.",
-    "charlotte_impact": "The acquisition signifies a strategic move into the Asia-Pacific market, demonstrating the increasing application of drone technology and AI in infrastructure development. It will likely improve efficiency and data accuracy in surveying and construction.",
-    "impact_score": 6
-  },
-  {
-    "title": "AI and data modernisation emerge as biggest drivers of India's tech spending surge: Report",
-    "url": "https://www.thehindubusinessline.com/info-tech/ai-and-data-modernisation-emerge-as-biggest-drivers-of-indias-tech-spending-surge-report/article70950474.ece",
-    "industry": "AI, IT Spending",
-    "summary": "AI and data modernization are the biggest drivers of India's tech spending surge, with enterprises expecting 6-8% IT spending growth.",
-    "charlotte_impact": "This illustrates the increasing prioritization of AI adoption and data infrastructure in emerging markets. The surge in IT spending reflects the potential for significant economic growth and competitive advantages derived from AI investments.",
+    "title": "Agile Defense to Support Chief Digital and Artificial Intelligence Office (CDAO) Agentic AI Development",
+    "url": "https://www.prnewswire.com/news-releases/agile-defense-to-support-chief-digital-and-artificial-intelligence-office-cdao-agentic-ai-development-302766180.html",
+    "industry": "Government",
+    "summary": "Agile Defense will support the Chief Digital and Artificial Intelligence Office (CDAO) in agentic AI development.",
+    "charlotte_impact": "This contract signals the government's increasing reliance on AI to improve its operations and decision-making processes. Businesses that can provide AI solutions tailored to the public sector could see significant growth opportunities.",
     "impact_score": 7
   },
   {
-    "title": "Bargaining to Save Our Jobs from Artificial Intelligence",
-    "url": "https://www.commondreams.org/opinion/unions-save-jobs-ai",
-    "industry": "Labor, AI, Unions",
-    "summary": "Unions are bargaining to save jobs from artificial intelligence, highlighting concerns about technological replacement.",
-    "charlotte_impact": "This reflects growing anxiety about AI's potential impact on the workforce, with unions proactively seeking measures to protect jobs. It underscores the need for workforce retraining and social safety nets in the face of automation.",
+    "title": "Golden Globes Rules Do Not \u2018Automatically Disqualify\u2019 AI Usage for Films, Television",
+    "url": "https://www.thewrap.com/industry-news/awards/golden-globes-rules-ai-usage/",
+    "industry": "Entertainment",
+    "summary": "The Golden Globes rules do not 'automatically disqualify' AI usage for films and television, provided human creative direction remains primary.",
+    "charlotte_impact": "This decision opens the door for wider adoption of AI in film and television production, potentially leading to new creative possibilities and cost efficiencies. It also raises important questions about the role of AI in creative processes and the need to maintain human artistic control.",
     "impact_score": 6
-  },
-  {
-    "title": "Evaxion announces business update and first quarter 2026 financial results",
-    "url": "https://www.globenewswire.com/news-release/2026/05/07/3289858/0/en/Evaxion-announces-business-update-and-first-quarter-2026-financial-results.html",
-    "industry": "Biotech, AI, Healthcare",
-    "summary": "Evaxion, a clinical-stage TechBio company developing novel vaccines with its AI-Immunology platform, provides a business update and first quarter 2026 financial results.",
-    "charlotte_impact": "This demonstrates the increasing use of AI in drug discovery and vaccine development, potentially accelerating the process and improving efficacy. This field may see an increase of investment and research.",
-    "impact_score": 5
-  },
-  {
-    "title": "ATM Managed Services Market Projected to Surpass USD 18.96 Billion by 2035 | SNS Insider",
-    "url": "https://www.globenewswire.com/news-release/2026/05/07/3289847/0/en/ATM-Managed-Services-Market-Projected-to-Surpass-USD-18-96-Billion-by-2035-SNS-Insider.html",
-    "industry": "Financial Services, AI, IoT",
-    "summary": "The ATM managed services market is projected to surpass USD 18.96 Billion by 2035, driven by AI and IoT technologies to improve operational efficiency and reduce downtime.",
-    "charlotte_impact": "This reflects the growing demand for efficient and reliable financial services, with AI and IoT playing a crucial role in optimizing ATM operations. This trend signifies increased automation and technological integration in the financial sector.",
-    "impact_score": 6
-  },
-  {
-    "title": "BCE Beats on AI-Powered Business, Higher Revenue",
-    "url": "https://financialpost.com/pmn/business-pmn/bce-beats-on-ai-powered-business-higher-revenue",
-    "industry": "Telecommunications, AI",
-    "summary": "BCE Inc. beats on AI-Powered Business, Higher Revenue, showing that investments in AI infrastructure are paying off.",
-    "charlotte_impact": "The company demonstrates how AI investments can translate into tangible business outcomes, encouraging others to prioritize and invest in such projects.",
-    "impact_score": 5
-  },
-  {
-    "title": "How China Is Winning the Global AI Race",
-    "url": "http://foreignpolicy.com/2026/05/07/artificial-intelligence-ai-china-us-west-race-silicon-valley-global/",
-    "industry": "AI, Global Politics",
-    "summary": "Cutting-edge U.S. AI models are too expensive for much of the world.",
-    "charlotte_impact": "If US AI models are expensive, then only the global elite can use these, and therefore the global south will suffer. It also increases the need for open source models.",
-    "impact_score": 4
-  },
-  {
-    "title": "Fintech Leaders Push for Stronger Collaboration to Drive Africa\u2019s Digital Finance Growth",
-    "url": "https://thechronicle.com.gh/fintech-leaders-push-for-stronger-collaboration-to-drive-africas-digital-finance-growth/",
-    "industry": "Fintech",
-    "summary": "Fintech leaders at the 3i Africa Summit have called for deeper collaboration, talent development and regulatory alignment to position Africa as a global hub for digital finance innovation.",
-    "charlotte_impact": "With the current lack of access to banking and financial instruments on the African continent, AI can play a massive role in democratizing these systems.",
-    "impact_score": 4
-  },
-  {
-    "title": "The professions of the next decade in Greece: Which sectors offer salaries above \u20ac2,000",
-    "url": "https://en.protothema.gr/2026/05/07/the-professions-of-the-next-decade-in-greece-which-sectors-offer-salaries-above-e2000/",
-    "industry": "Labor",
-    "summary": "The Greek labor market is entering a new phase with expected to experience the greatest growth through 2036, ahead of the Ministry of Labor\u2019s \u201cRebrain Greece\u201d initiative in London",
-    "charlotte_impact": "Greece is attempting to attract talented workers for its labor force.",
-    "impact_score": 3
-  },
-  {
-    "title": "EPtalk by Dr. Jayne 5/7/26",
-    "url": "https://histalk2.com/2026/05/07/eptalk-by-dr-jayne-5-7-26/",
-    "industry": "International Relations",
-    "summary": "The UK warns that Holocaust denial and distortion are fuelling antisemitism and insecurity across the OSCE region, urging participating States to safeguard historical truth from political manipulation and emerging digital \u2026",
-    "charlotte_impact": "AI could be used to produce accurate historical information and ensure that it is not distorted for political gain.",
-    "impact_score": 3
   }
 ]
