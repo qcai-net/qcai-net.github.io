@@ -1,162 +1,154 @@
 [
   {
-    "title": "“人民航空公司”与企业AI淘金热",
-    "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-    "industry": "Enterprise AI",
-    "summary": "Anthropic 和 OpenAI 宣布成立针对企业人工智能部署的合资企业，SAP 正在向德国人工智能初创公司 Prior Labs 投资 10 亿美元。这表明企业人工智能领域收购和合作的强劲趋势。",
-    "charlotte_impact": "这一趋势凸显了以企业为中心的解决方案的人工智能初创公司的价值不断增加，可能会导致人工智能行业内更多的收购和整合。随着大型企业寻求扩展其能力，为企业开发人工智能工具的公司可能会看到更多的投资和战略合作伙伴关系。",
-    "impact_score": 9
-  },
-  {
-    "title": "埃隆·马斯克的诉讼将 OpenAI 的安全记录置于显微镜下",
-    "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
-    "industry": "AI Safety",
-    "summary": "埃隆·马斯克的诉讼正在审查 OpenAI 对其确保人工智能造福人类这一最初使命的承诺，并引发了对其营利性子公司对安全影响的质疑。",
-    "charlotte_impact": "该诉讼强调了负责任的人工智能开发的重要性以及与人工智能安全相关的法律挑战的可能性。公司必须优先考虑道德考虑和透明度，以避免类似的法律问题并维护公众信任。",
-    "impact_score": 8
-  },
-  {
     "title": "OpenAI 在其 API 中推出新的语音智能功能",
     "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-    "industry": "AI Technology",
-    "summary": "OpenAI 在其 API 中推出了新的语音智能功能，可用于客户服务、教育和创作者平台，展示了人工智能在基于语音的应用程序中不断增长的能力。",
-    "charlotte_impact": "先进语音人工智能技术的发展可以显着改善客户服务，并在教育和内容创作等领域创造新的机遇。企业可以利用这些工具来增强客户体验并开发创新应用程序。",
-    "impact_score": 7
+    "industry": "Software Development, Customer Service",
+    "summary": "OpenAI 在其 API 中推出了新的语音智能功能，旨在改善客户服务系统并在教育和创作者平台上提供实用性。",
+    "charlotte_impact": "此 API 增强功能可以显着简化严重依赖客户交互的行业（例如呼叫中心和支持服务）的运营。公司现在可以将更复杂的、人工智能驱动的语音交互集成到现有系统中，从而提高客户满意度并可能降低运营成本。",
+    "impact_score": 8
   },
   {
     "title": "Voi 创始人的新人工智能初创公司 Pit 已成为斯德哥尔摩最新的后起之秀",
     "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
-    "industry": "Venture Capital",
-    "summary": "由 Voi 创始人创立的人工智能初创公司 Pit 获得了 a16z 领投的 1600 万美元种子资金，这表明投资者对创新人工智能企业的持续兴趣。",
-    "charlotte_impact": "本轮融资表明人工智能初创公司对风险投资家，尤其是那些拥有经验丰富创始人的风险投资家的持续吸引力。这表明新的人工智能解决方案市场强劲，并且该领域的投资回报潜力巨大。",
+    "industry": "Venture Capital, AI Startups",
+    "summary": "由 Voi 创始人创立的人工智能初创公司 Pit 获得了 a16z 领投的 1600 万美元种子资金，标志着斯德哥尔摩进入人工智能初创企业领域。",
+    "charlotte_impact": "种子轮融资的成功标志着投资者对新人工智能企业的持续信心，以及人工智能初创企业吸引的创业人才。种子轮融资的规模表明，投资者看到了 Pit 目标特定领域的大幅增长和颠覆潜力。",
     "impact_score": 7
   },
   {
     "title": "OpenAI 为可能的自残案件引入了新的“可信联系人”保护措施",
     "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-    "industry": "AI Safety",
-    "summary": "OpenAI 正在引入“可信联系人”保护措施来保护可能遭受自残的 ChatGPT 用户，并强调人工智能平台需要解决心理健康问题。",
-    "charlotte_impact": "这一功能凸显了人们对人工智能开发人员道德责任的认识不断增强，以及实施保护措施以保护弱势用户的重要性。构建人工智能系统的公司应优先考虑用户的安全和福祉。",
+    "industry": "AI Safety, Ethics",
+    "summary": "OpenAI 推出了新的“可信联系人”保护措施，以在发生潜在自我伤害的情况下保护 ChatGPT 用户，从而加大力度优先考虑用户安全。",
+    "charlotte_impact": "随着人工智能系统变得更加普遍并且人们更好地了解它们对心理健康的潜在影响，对人工智能安全措施的增强至关重要。像这样的主动安全措施可以帮助减轻潜在的负面后果并增强对人工智能技术的信任。",
+    "impact_score": 7
+  },
+  {
+    "title": "埃隆·马斯克的诉讼将 OpenAI 的安全记录置于显微镜下",
+    "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+    "industry": "AI Ethics, Legal",
+    "summary": "埃隆·马斯克对 OpenAI 的诉讼正在审查 OpenAI 的安全记录及其对确保人工智能造福人类的最初使命的承诺，引发了对其营利性结构的质疑。",
+    "charlotte_impact": "这起备受瞩目的诉讼凸显了围绕人工智能公司的道德义务和治理结构的日益严格的审查。它可以设定法律先例，塑造人工智能开发人员的责任，并将其商业模式与社会效益保持一致。",
     "impact_score": 8
   },
   {
     "title": "Cloudflare 表示人工智能让 1,100 个工作岗位变得过时，尽管收入创历史新高",
     "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-    "industry": "Job Displacement",
-    "summary": "尽管收入创纪录，但由于人工智能驱动的效率提升，Cloudflare 解雇了 1,100 名员工，这表明人工智能有可能取代各个行业的工作岗位。",
-    "charlotte_impact": "Cloudflare 的裁员清楚地提醒人们，人工智能有潜力实现任务自动化并减少对人力的需求，尤其是在支持岗位上。企业需要通过投资再培训和技能提升计划来主动解决人工智能对劳动力的影响。",
+    "industry": "Job Market, Automation",
+    "summary": "Cloudflare 解雇了 1,100 名员工，理由是人工智能驱动的效率提升是他们不再需要那么多支持角色的原因，尽管收入创纪录。",
+    "charlotte_impact": "这个例子凸显了人工智能颠覆就业市场的潜力，即使是在成功的公司内部也是如此。它强调需要进行劳动力适应和再培训计划，以减轻人工智能驱动的自动化对就业的影响。",
     "impact_score": 9
   },
   {
     "title": "Perplexity 的个人电脑现已可供 Mac 上的所有人使用",
     "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-    "industry": "AI Agents",
-    "summary": "Perplexity 的个人电脑将 AI 代理引入您的 Mac，现已向所有人开放，展示了 AI 代理技术的可访问性和发展。",
-    "charlotte_impact": "人工智能代理的可访问性增加将导致各个行业更广泛的采用和实验。这可以推动创新并创建以人工智能驱动的援助为中心的新商业模式。",
-    "impact_score": 7
+    "industry": "AI Agents, Personal Computing",
+    "summary": "Perplexity 的个人电脑是一个适用于 Mac 的人工智能代理平台，现已向公众开放，扩大了对人工智能个人助理的访问范围。",
+    "charlotte_impact": "Perplexity 个人计算机的更广泛可用性加速了人工智能代理与日常工作流程和个人计算环境的集成。获得个人代理的能力可以提高生产力、改善决策并改变人们与技术交互的方式。",
+    "impact_score": 8
   },
   {
     "title": "随着对开源人工智能的需求猛增，中国的 Moonshot AI 以 200 亿美元的估值筹集了 20 亿美元",
     "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
-    "industry": "Venture Capital",
-    "summary": "由于开源AI需求旺盛，中国Moonshot AI以20B美元的估值筹集了2B美元，ARR超过2亿美元，表明开源AI市场的竞争力不断增强。",
-    "charlotte_impact": "这项重大投资凸显了对开源人工智能解决方案日益增长的需求以及中国企业成为全球人工智能领域主要参与者的潜力。随着资本涌入该领域，竞争正在加剧。",
+    "industry": "AI Investment, Open Source",
+    "summary": "在开源人工智能模型需求激增的推动下，中国的 Moonshot AI 以 200 亿美元的估值筹集了 20 亿美元，并在 4 月份产生了超过 2 亿美元的年度经常性收入。",
+    "charlotte_impact": "这笔巨额投资表明全球对开源人工智能的浓厚兴趣以及中国在人工智能领域日益增长的影响力。高估值和 ARR 证明了开源人工智能模型的商业可行性及其推动创新的潜力。",
     "impact_score": 9
   },
   {
     "title": "Spotify 希望成为人工智能生成的个人音频之家",
     "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
-    "industry": "Entertainment",
-    "summary": "Spotify 的目标是成为人工智能生成的个人音频的中心，允许用户从 Codex 或 Claude Code 创建和导入播客，从而影响娱乐和内容创作行业。",
-    "charlotte_impact": "Spotify 的举措将使播客创作民主化，使更多用户能够制作和分享他们的音频内容。这可能会导致个性化和小众播客的激增，改变音频格局并挑战传统内容创作者。",
-    "impact_score": 6
+    "industry": "AI Audio, Content Creation",
+    "summary": "Spotify 计划整合人工智能，成为人工智能生成的个人音频的中心，允许用户创建和导入使用 Codex 或 Claude Code 等工具制作的播客。",
+    "charlotte_impact": "这一举措标志着内容创作的潜在转变，允许用户利用人工智能来实现个性化音频体验。此次整合可以显着减少播客创作的障碍，并使音频内容制作的访问民主化。",
+    "impact_score": 7
   },
   {
     "title": "Spotify 的 AI DJ 现在支持法语、德语、意大利语和巴西葡萄牙语",
     "url": "https://techcrunch.com/2026/05/07/spotifys-ai-dj-now-supports-french-german-italian-and-brazilian-portuguese/",
-    "industry": "Entertainment",
-    "summary": "Spotify 的 AI DJ 现在支持法语、德语、意大利语和巴西葡萄牙语，展示了 AI 在全球市场的个性化和可访问性方面不断增强的能力。",
-    "charlotte_impact": "Spotify 的 AI DJ 扩展到多种语言将增强不同市场的用户参与度和个性化。它展示了人工智能根据个人喜好和文化背景定制内容体验的潜力。",
+    "industry": "AI Audio, Personalization",
+    "summary": "Spotify 的 AI DJ 功能现在支持法语、德语、意大利语和巴西葡萄牙语，将其个性化音乐推荐扩展到更广泛的全球受众。",
+    "charlotte_impact": "AI DJ 功能的扩展表明个性化在音乐流媒体服务中日益重要。语言支持可增强更广泛人群的用户体验，提高参与度并推动平台发展。",
     "impact_score": 6
   },
   {
-    "title": "人工智能经济的五位架构师解释了人工智能经济的发展方向",
-    "url": "https://techcrunch.com/2026/05/06/five-architects-of-the-ai-economy-explain-where-the-wheels-are-coming-off/",
-    "industry": "AI Economy",
-    "summary": "人工智能架构师讨论了芯片短缺、轨道数据中心以及当前人工智能架构中的潜在缺陷，强调了人工智能供应链中的挑战和漏洞。",
-    "charlotte_impact": "这次讨论揭示了可能阻碍人工智能行业发展的基础设施挑战和依赖性。公司需要通过供应链多元化和投资替代基础设施解决方案来解决这些漏洞。",
+    "title": "Google Chrome 可能已在您的计算机上静默安装了 4GB AI 模型。检查方法如下",
+    "url": "https://www.snopes.com//fact-check/google-chrome-ai-installed-computer/",
+    "industry": "Software, Security",
+    "summary": "谷歌浏览器可能在未经用户同意的情况下在用户的计算机上悄悄安装了 4GB AI 模型，引发了隐私担忧和用户对其设备控制的质疑。",
+    "charlotte_impact": "该事件强调了人工智能集成到现有软件中的潜在隐私影响。用户可能会觉得需要提高透明度和对数据使用的控制。",
+    "impact_score": 8
+  },
+  {
+    "title": "由于全球意识不断增强，到 2035 年，震荡市场规模将达到 125.5 亿美元 |社交网络内幕",
+    "url": "https://www.globenewswire.com/news-release/2026/05/08/3291007/0/en/Concussion-Market-Size-to-be-Worth-USD-12-55-Billion-by-2035-Owing-to-the-Increasing-Awareness-Globally-SNS-Insider.html",
+    "industry": "Healthcare, AI Diagnostics",
+    "summary": "在意识不断增强、人工智能诊断、可穿戴设备和神经康复需求的推动下，脑震荡市场预计到 2035 年将达到 125.5 亿美元。",
+    "charlotte_impact": "预计的增长表明，越来越多地采用先进的诊断工具，依靠人工智能来确定脑震荡，从而改善临床和安全结果。",
     "impact_score": 7
   },
   {
-    "title": "国际货币基金组织警告人工智能对世界构成“不可避免的”威胁",
-    "url": "https://economictimes.indiatimes.com/news/international/business/imf-warns-of-inevitable-ai-powered-threats-to-world/articleshow/130920591.cms",
-    "industry": "Cybersecurity",
-    "summary": "国际货币基金组织警告说，人工智能对世界构成“不可避免的”威胁，并指出网络事件可能导致融资困难、偿付能力问题和金融不稳定。",
-    "charlotte_impact": "这一警告凸显了加强网络安全防御以抵御人工智能攻击的迫切需要。金融机构和关键基础设施提供商应投资先进的基于人工智能的安全解决方案，并实施稳健的风险管理策略。",
-    "impact_score": 9
+    "title": "国家卫生局召开 2026 年 AB PM-JAY 自动裁决黑客马拉松展示会第一天；人工智能驱动的索赔裁决创新成为焦点。",
+    "url": "https://www.tripurastarnews.com/national-health-authority-convenes-day-1-of-ab-pm-jay-auto-adjudication-hackathon-showcase-2026-ai-driven-innovations-in-claims-adjudication-take-centre-stage/",
+    "industry": "Healthcare, AI",
+    "summary": "印度国家卫生局举办了一场黑客马拉松，展示 AI 驱动的 AB PM-JAY 健康保险计划索赔裁决创新。",
+    "charlotte_impact": "该举措将加速人工智能在保险领域的实施，提高运营效率和患者治疗效果。这对于减少效率低下和处理时间尤其重要，从而可以看到更多的患者。",
+    "impact_score": 7
   },
   {
-    "title": "ServiceNow、SAP 和 Workday 让 AI 代理付费玩",
-    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/servicenow-sap-and-workday-make-ai-agents-pay-to-play/",
-    "industry": "Enterprise Software",
-    "summary": "ServiceNow、SAP 和 Workday 正在为 AI 代理实施按使用付费的模式，挑战企业软件中传统的按席位定价结构。",
-    "charlotte_impact": "向计量人工智能代理使用的转变可能会对企业软件公司的收入模式产生重大影响。企业需要调整其定价策略，以反映人工智能提供的价值并确保保持竞争力。",
-    "impact_score": 8
+    "title": "解释：2026 年 FIFA 世界杯的人工智能热潮如何推动芯片制造商、数据中心 REIT 估值",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/explained-how-2026-fifa-world-cups-ai-boom-is-fueling-chipmaker-data-centre-reit-valuations/articleshow/130958079.cms",
+    "industry": "Sports, AI, Technology",
+    "summary": "2026 年 FIFA 世界杯预计将成为数据最密集的体育赛事，在人工智能、实时分析和边缘计算的推动下，可能会提高芯片制造商和数据中心 REIT 的估值。",
+    "charlotte_impact": "这表明体育和技术之间存在重大交叉点，并为数据分析的进步提供了巨大的机会。数据使用量的增加为有效管理数据带来了挑战和机遇。",
+    "impact_score": 7
   },
   {
-    "title": "埃隆·马斯克 (Elon Musk) 三个月前称人类为“邪恶”。现在他花费 40 亿美元成为其数据所有者",
-    "url": "https://finance.yahoo.com/sectors/technology/articles/elon-musk-called-anthropic-evil-194925519.html",
-    "industry": "Data Centers",
-    "summary": "埃隆·马斯克 (Elon Musk) 斥资 40 亿美元成为 Anthropic 的数据所有者，尽管此前称该公司为“邪恶”，表明控制 AI 数据中心的人掌握着权力。",
-    "charlotte_impact": "这笔交易强调了数据中心在人工智能领域的战略重要性。控制数据中心的公司对人工智能的开发和部署具有重大影响力，从而获得竞争优势。",
-    "impact_score": 8
+    "title": "全球卵巢癌研究联盟宣布下一笔人工智能加速器拨款，以推进数据驱动的发现",
+    "url": "https://financialpost.com/globe-newswire/global-ovarian-cancer-research-consortium-announces-next-ai-accelerator-grant-to-advance-data-driven-discovery",
+    "industry": "Healthcare, AI",
+    "summary": "全球卵巢癌研究联盟提供了 100 万美元的资助和 AWS 计算支持，以推进数据驱动的研究，以提高卵巢癌的生存率。",
+    "charlotte_impact": "资金将有可能通过提供先进的机器学习能力来加速预防卵巢癌的研究。访问云计算对于研究项目来说是一种经济高效的解决方案。",
+    "impact_score": 7
   },
   {
-    "title": "埃隆·马斯克 (Elon Musk) 三个月前称人类为“邪恶”。现在他花费 40 亿美元成为其数据所有者",
-    "url": "https://fortune.com/2026/05/07/spacex-anthropic-deal-elon-musk-ai-landlord-evil/",
-    "industry": "Data Centers",
-    "summary": "埃隆·马斯克 (Elon Musk) 三个月前称人类为“邪恶”。现在，他花费 40 亿美元成为其数据所有者； “谁控制了数据中心，谁就真正控制了人工智能的应用。”",
-    "charlotte_impact": "尽管过去存在担忧，马斯克的投资凸显了数据中心基础设施对于人工智能开发和部署的巨大战略价值。获得计算能力和数据存储正在成为人工智能竞赛中的关键竞争优势，有可能导致数据中心市场的进一步整合。",
-    "impact_score": 8
+    "title": "AI 内存繁荣推动创纪录利润和分析师乐观情绪，美光股票 2026 年强劲买入",
+    "url": "https://www.ibtimes.com.au/micron-stock-strong-buy-2026-ai-memory-boom-drives-record-profits-analyst-optimism-1868422",
+    "industry": "Semiconductors, AI",
+    "summary": "由于对高带宽内存（HBM）和人工智能内存解决方案的需求，预计美光科技公司的利润将增加。",
+    "charlotte_impact": "需求的增加可能会提高人工智能领域的竞争力，吸引更多企业加入。随着时间的推移，竞争的加剧可能会降低材料成本。",
+    "impact_score": 7
   },
   {
-    "title": "国际货币基金组织警告人工智能将加剧对全球金融体系的网络攻击",
-    "url": "https://decrypt.co/367178/imf-warns-ai-supercharge-cyberattacks-global-financial-system",
-    "industry": "Cybersecurity",
-    "summary": "国际货币基金组织警告说，人工智能将加剧对全球金融体系的网络攻击，因为新的人工智能工具甚至可以让不熟练的攻击者破坏关键基础设施。",
-    "charlotte_impact": "这种不断升级的威胁要求金融机构和政府立即采取行动，加强其网络安全防御。对人工智能驱动的安全解决方案和主动威胁检测的投资对于缓解日益增长的风险至关重要。",
-    "impact_score": 9
-  },
-  {
-    "title": "Burke, Inc. 和 BrandRank.AI 宣布建立战略合作伙伴关系，帮助品牌在人工智能驱动决策时代获胜",
-    "url": "https://www.prnewswire.com/news-releases/burke-inc-and-brandrankai-announce-strategic-partnership-to-help-brands-win-in-the-age-of-ai-driven-decisions-302766191.html",
-    "industry": "Market Research",
-    "summary": "Burke, Inc. 和 BrandRank.AI 宣布建立合作伙伴关系，帮助品牌在人工智能驱动的市场中竞争。",
-    "charlotte_impact": "这种合作伙伴关系意味着品牌越来越需要利用人工智能驱动的洞察来了解消费者行为并优化其营销策略。采用人工智能进行市场研究和品牌分析的公司将获得竞争优势。",
+    "title": "金球奖新规则：使用人工智能“不会自动取消作品资格”",
+    "url": "https://www.celebitchy.com/975977/golden_globes_new_rules_using_ai_does_not_automatically_disqualify_a_work/",
+    "industry": "Entertainment, AI",
+    "summary": "金球奖宣布，人工智能的使用“不会自动取消作品的资格”，从而定义了创意艺术的边界。",
+    "charlotte_impact": "规则的变化可能会影响人工智能元素如何产生创意作品。创作者可能会更频繁地在电影和音乐中寻找人工智能技术，以发现这些技术的新应用。",
     "impact_score": 6
   },
   {
-    "title": "当行为良好的特工引发灾难时",
-    "url": "https://siliconangle.com/2026/05/07/well-behaved-agents-trigger-disaster/",
-    "industry": "IT Operations",
-    "summary": "本文讨论了表现良好的人工智能代理因对警报过度反应而引发灾难的场景，强调了在复杂系统中仔细监督和协调人工智能代理的必要性。",
-    "charlotte_impact": "这种情况强调了在关键系统中部署人工智能代理时强大的监控和控制机制的重要性。企业必须确保人工智能代理得到适当的校准和协调，以避免意外后果和系统故障。",
-    "impact_score": 7
+    "title": "为什么 Siri 终于在 iOS 27 中拥有了自己的独立应用程序",
+    "url": "https://www.geeky-gadgets.com/apple-intelligence-siri-ios-27/",
+    "industry": "Consumer Technology",
+    "summary": "据传苹果的 iOS 27 将于 6 月 8 日在 WWDC 2026 上推出测试版，Siri 终于有了自己的独立应用程序。",
+    "charlotte_impact": "新的可访问性可能会激发新的人工智能移动应用程序之间的竞争。这些改进可能会通过提供更多基于人工智能的功能来让消费者受益更多。",
+    "impact_score": 6
   },
   {
-    "title": "敏捷防御支持首席数字和人工智能办公室 (CDAO) 代理人工智能开发",
-    "url": "https://www.prnewswire.com/news-releases/agile-defense-to-support-chief-digital-and-artificial-intelligence-office-cdao-agentic-ai-development-302766180.html",
-    "industry": "Government",
-    "summary": "敏捷防御将支持首席数字和人工智能办公室（CDAO）进行代理人工智能开发。",
-    "charlotte_impact": "该合同标志着政府越来越依赖人工智能来改善其运营和决策流程。能够为公共部门提供量身定制的人工智能解决方案的企业可能会看到巨大的增长机会。",
-    "impact_score": 7
+    "title": "“人民航空公司”与企业AI淘金热",
+    "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+    "industry": "Enterprise AI",
+    "summary": "Anthropic、OpenAI 和 SAP 一直在收购以企业为中心的人工智能公司，以扩大人工智能企业部署。",
+    "charlotte_impact": "当前人工智能部署的激增反映了其在企业中的成本效益。假设公司能够维护安全，人工智能在 B2B 领域和消费者中具有增长潜力。",
+    "impact_score": 8
   },
   {
-    "title": "金球奖规则不会“自动取消”人工智能在电影、电视中的使用资格",
-    "url": "https://www.thewrap.com/industry-news/awards/golden-globes-rules-ai-usage/",
-    "industry": "Entertainment",
-    "summary": "只要人类创意方向仍然是主要的，金球奖规则不会“自动取消”人工智能在电影和电视中的使用资格。",
-    "charlotte_impact": "这一决定为人工智能在电影和电视制作中更广泛采用打开了大门，有可能带来新的创意可能性和成本效率。它还提出了有关人工智能在创作过程中的作用以及维持人类艺术控制的必要性的重要问题。",
+    "title": "由于人工智能的蓬勃发展，硬盘价格飞涨，互联网档案网站正在努力保护互联网——Wayback Machine和维基媒体受到高额存储定价和更严格的反抓取措施阻止错误机器人的惩罚",
+    "url": "https://www.tomshardware.com/pc-components/storage/internet-archival-sites-struggling-to-preserve-the-internet-because-of-skyrocketing-hard-drive-prices-due-to-the-ai-boom-wayback-machine-and-wikimedia-punished-by-stratospheric-storage-pricing-and-stricter-anti-scraping-measures-blocking-the-wrong-bots",
+    "industry": "Data Storage",
+    "summary": "由于存储数据的成本飙升，档案互联网网站正面临着保护互联网的难题。",
+    "charlotte_impact": "这表明，随着越来越多的人依赖人工智能，对数据的需求可能会对存储数据的成本产生负面影响。可能会出现更具成本效益的数据存储方法来减轻这种潜在的挫折。",
     "impact_score": 6
   }
 ]
