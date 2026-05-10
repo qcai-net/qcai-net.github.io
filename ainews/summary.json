@@ -2,161 +2,161 @@
   {
     "title": "Nvidia has already committed $40B to equity AI deals this year",
     "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
-    "industry": "Venture Capital",
-    "summary": "Nvidia has already committed $40B to equity AI deals this year, signaling continued massive investment in the AI ecosystem and solidifying its position as a key player.",
-    "charlotte_impact": "Nvidia's substantial investment reflects a broader trend of significant capital flowing into AI startups. This influx of capital can spur innovation and accelerate the development of new AI technologies across diverse industries, ultimately leading to new products, services, and business models.",
+    "industry": "Venture Capital / AI Infrastructure",
+    "summary": "Nvidia has committed $40 billion to equity AI deals this year, highlighting its significant investment in the AI ecosystem and dominance in AI infrastructure.",
+    "charlotte_impact": "Nvidia's massive investment signals confidence in the long-term growth of the AI sector. This influx of capital accelerates innovation, particularly in hardware development, cloud computing, and AI-as-a-service platforms. Businesses relying on advanced AI capabilities should expect faster advancements and potentially reduced costs as Nvidia's investments mature.",
     "impact_score": 9
   },
   {
     "title": "OpenAI launches new voice intelligence features in its API",
     "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-    "industry": "Artificial Intelligence",
-    "summary": "OpenAI launched new voice intelligence features in its API, targeting customer service, education, and creator platforms. This expands the applications of OpenAI's technology and makes it more accessible to a wider range of users.",
-    "charlotte_impact": "The new voice intelligence features from OpenAI will accelerate the adoption of AI-powered voice interfaces in various industries, allowing for more natural and efficient human-computer interactions and enabling companies to improve customer experiences and streamline operations.",
+    "industry": "AI / Customer Service",
+    "summary": "OpenAI launched new voice intelligence features in its API with applications in customer service, education, and creator platforms, enhancing the capabilities of AI-driven voice applications.",
+    "charlotte_impact": "The enhanced voice intelligence capabilities will improve efficiency and personalization in customer service industries. Companies using OpenAI\u2019s API can automate more complex interactions, reduce wait times, and gather more insightful data from customer conversations, ultimately leading to better customer satisfaction and operational efficiency. This also introduces the opportunity for more personalized educational tools and content creation platforms.",
     "impact_score": 8
   },
   {
     "title": "Voi founders\u2019 new AI startup Pit has become the latest rising star out of Stockholm",
     "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
-    "industry": "Venture Capital",
-    "summary": "Voi founders' new AI startup Pit, backed by a16z, secured a $16 million seed round. This highlights the continued investor interest in AI startups, even at the early stages, and indicates the potential for new disruptive technologies to emerge.",
-    "charlotte_impact": "The successful seed funding of Pit highlights the significant investor interest in AI-driven solutions that are emerging from Europe. This global trend will provide more companies with access to investment and talent, spurring innovation and the creation of new businesses.",
+    "industry": "Venture Capital / AI Startups",
+    "summary": "Pit, an AI startup founded by Voi's founders, secured $16 million in seed funding led by a16z, signaling strong investor interest in new AI ventures.",
+    "charlotte_impact": "This funding round indicates a continued appetite for investment in early-stage AI companies. This could inspire more founders to pursue AI-driven solutions. Such investment fuels innovation and competition, potentially leading to more diverse AI offerings and accelerated technological progress.",
     "impact_score": 7
   },
   {
     "title": "OpenAI introduces new \u2018Trusted Contact\u2019 safeguard for cases of possible self-harm",
     "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-    "industry": "Artificial Intelligence",
-    "summary": "OpenAI introduces a new 'Trusted Contact' safeguard for cases of possible self-harm. This demonstrates a growing awareness and focus on the ethical implications and potential risks associated with AI technologies.",
-    "charlotte_impact": "OpenAI's move to add safety features will set a precedent for responsible AI development and deployment. Companies will need to implement robust safeguards to protect users and mitigate risks, especially with sensitive AI applications.",
-    "impact_score": 7
+    "industry": "AI Ethics / Safety",
+    "summary": "OpenAI introduced a new 'Trusted Contact' safeguard for cases of possible self-harm, expanding efforts to protect ChatGPT users.",
+    "charlotte_impact": "This move towards proactive safety measures will likely become a standard across the AI industry.  Companies deploying AI with potential for sensitive interactions will need to prioritize user safety and mental wellbeing to maintain public trust and avoid regulatory scrutiny. It also underscores the importance of AI ethics and responsible AI development.",
+    "impact_score": 8
   },
   {
     "title": "Elon Musk\u2019s lawsuit is putting OpenAI\u2019s safety record under the microscope",
     "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
-    "industry": "Artificial Intelligence",
-    "summary": "Elon Musk's lawsuit is putting OpenAI's safety record under the microscope. This legal challenge underscores the importance of ensuring AI benefits humanity and aligns with its founding mission.",
-    "charlotte_impact": "The legal battle between Musk and OpenAI will have a significant effect on the entire AI sector. It forces scrutiny and encourages more robust regulatory frameworks, influencing how businesses approach AI ethics, transparency, and accountability.",
-    "impact_score": 8
+    "industry": "AI / Legal",
+    "summary": "Elon Musk's lawsuit is putting OpenAI's safety record under the microscope, raising questions about the for-profit subsidiary's impact on OpenAI's founding mission.",
+    "charlotte_impact": "Musk's lawsuit will bring increased scrutiny to the ethical implications of AI development and deployment. It will prompt businesses to re-evaluate their business models with respect to AI and ensure that their AI initiatives align with public safety and benefit.",
+    "impact_score": 9
+  },
+  {
+    "title": "The University of Michigan invested 20 million dollars in OpenAI before ChatGPT existed. Court documents show the stake is now worth two billion.",
+    "url": "https://thenextweb.com/news/michigan-openai-early-investment-billions-endowment/",
+    "industry": "Investment / AI",
+    "summary": "The University of Michigan invested $20 million in OpenAI before ChatGPT existed, which is now worth $2 billion, highlighting the potential for significant returns on early AI investments.",
+    "charlotte_impact": "This success story will encourage other institutions and investors to allocate capital to early-stage AI companies. This increased investment activity fuels innovation and competition, driving down costs and accelerating the adoption of AI technologies across various sectors.",
+    "impact_score": 7
+  },
+  {
+    "title": "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
+    "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+    "industry": "AI / Voice Recognition",
+    "summary": "Wispr Flow is focusing on voice AI in India, betting on growth after its Hinglish rollout despite challenges in the market.",
+    "charlotte_impact": "This suggests a growing market for voice AI in regions with diverse linguistic landscapes, particularly in mobile-first markets. Companies focusing on voice AI can use insights from Wispr Flow's successes and challenges to better position themselves for success. Further, it will also push forward voice AI and its ability to process languages and dialects across the world.",
+    "impact_score": 6
   },
   {
     "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
     "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-    "industry": "Technology",
-    "summary": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high. This illustrates the potential for AI to displace jobs in the workforce.",
-    "charlotte_impact": "This news highlights the potential impact of AI on the job market. Businesses are beginning to experience significant efficiency gains with AI, which can lead to layoffs in certain roles. The workforce must adapt by acquiring new skills to thrive in an AI-driven economy.",
-    "impact_score": 9
+    "industry": "AI / Job Displacement",
+    "summary": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high, highlighting the potential for AI-driven job displacement.",
+    "charlotte_impact": "This highlights the growing trend of AI leading to workforce reductions, particularly in support roles. Organizations need to invest in reskilling and upskilling initiatives to prepare workers for the changing job market. Governments will need to consider policies to support displaced workers and mitigate the social impact of AI-driven job losses.",
+    "impact_score": 10
   },
   {
     "title": "Perplexity\u2019s Personal Computer is now available to everyone on Mac",
     "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-    "industry": "Artificial Intelligence",
-    "summary": "Perplexity's Personal Computer is now available to everyone on Mac, bringing AI agents to a broader user base. This increases the accessibility of agentic AI technology and introduces it to more users.",
-    "charlotte_impact": "The broader availability of Perplexity's Personal Computer accelerates the adoption of AI agents. These technologies can transform how individuals interact with their devices, automate tasks, and augment human capabilities.",
-    "impact_score": 7
-  },
-  {
-    "title": "China\u2019s Moonshot AI raises $2B at $20B valuation as demand for open source AI skyrockets",
-    "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
-    "industry": "Artificial Intelligence",
-    "summary": "China\u2019s Moonshot AI raises $2B at a $20B valuation as demand for open-source AI skyrockets. This indicates a global interest in AI and highlights the growing importance of open-source models.",
-    "charlotte_impact": "This shows the large-scale investment and increasing competition in the global AI landscape. As China invests heavily in AI, it will likely spur companies to make more advanced tools with global reach, impacting both domestic and international markets.",
+    "industry": "AI Agents",
+    "summary": "Perplexity's Personal Computer, bringing AI agents to your Mac, is now available to everyone.",
+    "charlotte_impact": "The wider availability of AI agents on personal devices signals a shift towards integrating AI more deeply into everyday workflows. This will drive demand for more intuitive and personalized AI solutions, which can automate tasks, provide real-time insights, and enhance productivity for individuals and businesses.",
     "impact_score": 8
   },
   {
-    "title": "Spotify wants to become the home for AI-generated personal audio",
-    "url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
-    "industry": "Media",
-    "summary": "Spotify wants to become the home for AI-generated personal audio, letting users create podcasts from Codex or Claude Code and import them. This shows the move of AI into creative content creation.",
-    "charlotte_impact": "Spotify's push into AI-generated audio could lead to a new era of personalized content creation. This can change how individuals consume and create audio content, opening up new opportunities for independent creators and impacting the media landscape.",
-    "impact_score": 6
-  },
-  {
-    "title": "Wall Street sees 'changing of the guard in AI' as Intel, AMD shares soar while Nvidia lags",
-    "url": "https://www.cnbc.com/2026/05/08/wall-street-ai-chip-love-moves-from-nvidia-to-intel-amd-and-micron.html",
-    "industry": "Finance",
-    "summary": "Wall Street sees 'changing of the guard in AI' as Intel, AMD shares soar while Nvidia lags. This signals a potential shift in market dominance as investors explore alternative hardware providers.",
-    "charlotte_impact": "This fluctuation in stock prices shows the dynamic nature of the AI hardware market. Increased competition among chipmakers will likely drive innovation and lower costs for businesses using AI technologies.",
+    "title": "Google built a 99 dollar AI health coach. Whoop responded with real doctors.",
+    "url": "https://thenextweb.com/news/whoop-doctors-fitbit-air-google-health-ai/",
+    "industry": "Healthcare / AI",
+    "summary": "Google launched a $99 AI health coach, while Whoop responded with on-demand consultations with real doctors, highlighting the competition between AI and human expertise in healthcare.",
+    "charlotte_impact": "This represents a significant trend in healthcare, where AI tools are being integrated into preventative care. Companies need to carefully consider the balance between using AI for cost-effective solutions and providing human expertise for personalized care. Successful approaches are likely to blend AI and human capabilities to deliver the best outcomes.",
     "impact_score": 7
   },
   {
-    "title": "US stocks today: Anthropic signs $1.8 billion AI cloud deal with Akamai",
-    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-anthropic-signs-1-8-billion-ai-cloud-deal-with-akamai/articleshow/130966200.cms",
-    "industry": "Cloud Computing",
-    "summary": "Anthropic signs a $1.8 billion AI cloud deal with Akamai to meet the surging demand for its AI software. This demonstrates the increasing demand for cloud computing resources needed to support AI applications.",
-    "charlotte_impact": "Anthropic's deal with Akamai illustrates the immense infrastructure investment needed to deploy AI at scale. This will benefit cloud providers and accelerate the development of the data centers and infrastructure needed to power the next generation of AI.",
+    "title": "Qualcomm\u2019s CEO is working with \u2018pretty much all\u2019 major AI players on top-secret devices\u2014and powering OpenAI\u2019s first push into hardware",
+    "url": "https://fortune.com/2026/05/09/qualcomm-smartphone-ai-secret-device-openai-meta-wearables-agents/",
+    "industry": "AI / Hardware",
+    "summary": "Qualcomm's CEO is working with major AI players on top-secret devices and powering OpenAI's first push into hardware, suggesting a shift towards specialized AI hardware.",
+    "charlotte_impact": "Qualcomm's move indicates a growing trend towards AI-powered edge computing devices, moving processing power away from the cloud. This will encourage growth in hardware innovation, especially in AI chip design, embedded systems, and specialized devices tailored to specific AI applications. It also highlights a closer collaboration between AI software and hardware companies.",
     "impact_score": 9
   },
   {
-    "title": "OpenAI has 3 new AI voice models that the ChatGPT maker says will \u2018unlock a new class of voice apps for developers\u2019",
-    "url": "https://www.techradar.com/ai-platforms-assistants/openai-has-3-new-ai-voice-models-that-the-chatgpt-maker-says-will-unlock-a-new-class-of-voice-apps-for-developers",
-    "industry": "Artificial Intelligence",
-    "summary": "OpenAI has three new AI voice models that the ChatGPT maker says will \u2018unlock a new class of voice apps for developers.\u2019 The company has released new AI models for deep reasoning, translation and transcription.",
-    "charlotte_impact": "These new AI voice models are expected to spur the development of new applications in different areas. By democratizing access to advanced voice AI, OpenAI helps accelerate innovation and create new opportunities for voice-powered applications.",
-    "impact_score": 8
-  },
-  {
-    "title": "Anthropic signs $1.8 billion AI cloud deal with Akamai, Bloomberg News reports",
-    "url": "https://www.channelnewsasia.com/business/anthropic-signs-18-billion-ai-cloud-deal-akamai-bloomberg-news-reports-6110371",
-    "industry": "Cloud Computing",
-    "summary": "Anthropic signs $1.8 billion AI cloud deal with Akamai to meet surging demand for its AI software.",
-    "charlotte_impact": "The contract confirms that organizations are investing heavily in AI infrastructure and highlights the strategic importance of securing computing resources to train and deploy AI applications. The deal could boost Akamai and validate its position as a key player in the AI cloud computing market.",
-    "impact_score": 8
-  },
-  {
-    "title": "Cognitive Cyber Crimes in the Era of Artificial Intelligence eBook: Free + free shipping",
-    "url": "https://www.dealnews.com/Cognitive-Cyber-Crimes-in-the-Era-of-Artificial-Intelligence-eBook-Free-free-shipping/21827086.html",
-    "industry": "Cybersecurity",
-    "summary": "A free eBook discussing cognitive cybercrimes and the legal, ethical, and policy challenges in the age of AI is available. This addresses the importance of understanding and mitigating the risks of AI-related cyber threats.",
-    "charlotte_impact": "As AI becomes more prevalent, so will the risk of AI-powered cybercrimes. This will encourage businesses to better understand and address the potential dangers associated with AI and prompts the development of robust cybersecurity frameworks to protect against AI-related threats.",
-    "impact_score": 6
-  },
-  {
-    "title": "Grok's voice mode comes to Apple CarPlay",
-    "url": "https://me.mashable.com/tech/71037/groks-voice-mode-comes-to-apple-carplay",
-    "industry": "Automotive",
-    "summary": "Grok's voice mode comes to Apple CarPlay.",
-    "charlotte_impact": "The integration of AI voice assistants like Grok into Apple CarPlay is expected to change the driving experience, allowing for more convenient and hands-free control over vehicle functions and access to information. Increased safety can be a result as well.",
-    "impact_score": 6
-  },
-  {
-    "title": "Cloudflare beat earnings, cut 1,100 jobs because AI agents do the work now, and lost a quarter of its stock price in a day",
-    "url": "https://thenextweb.com/news/cloudflare-layoffs-agentic-ai-earnings-stock/",
-    "industry": "Technology",
-    "summary": "Cloudflare beat earnings but laid off 1,100 jobs because AI agents do the work now. The sequence is becoming the template.",
-    "charlotte_impact": "This news underscores the need for businesses to carefully navigate the deployment of AI and consider its impact on the workforce. Companies need to invest in retraining programs to help employees adapt to changing job roles and ensure a smooth transition in an AI-driven economy.",
-    "impact_score": 8
+    "title": "The submariner-turned-top Army tech boss said the hardest thing about modernizing isn't the new tools \u2014 it's the people",
+    "url": "https://www.businessinsider.com/army-pushes-ai-but-getting-troops-to-adapt-is-harder-2026-5",
+    "industry": "AI / Military",
+    "summary": "The Army is deploying digital tools across the force, but its former CIO says the biggest challenge isn't technology \u2014 it's getting people to adopt it.",
+    "charlotte_impact": "The modernization of the armed forces highlights the critical importance of organizational change management when deploying new technologies, even those promising significant benefits. Organizations need to prioritize user training, address concerns about job security, and build trust in AI systems to facilitate adoption and realize the full potential of AI in mission-critical applications.",
+    "impact_score": 7
   },
   {
     "title": "The \u201cpeople\u2019s airline\u201d and the enterprise AI gold rush",
     "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-    "industry": "Enterprise AI",
-    "summary": "Enterprise AI is booming with companies like Anthropic and OpenAI creating joint ventures and SAP acquiring Prior Labs for $1B. This signifies that AI is becoming essential for enterprise operations, leading to acquisitions and partnerships.",
-    "charlotte_impact": "A greater push by enterprises in AI tools can lead to the acquisition of smaller enterprises with AI capabilities. The effect can lead to better capabilities in enterprise management and automation.",
-    "impact_score": 7
+    "industry": "AI / Enterprise",
+    "summary": "Anthropic and OpenAI are announcing joint ventures targeting enterprise AI deployment, while SAP is dropping $1B on German AI startup Prior Labs, it\u2019s becoming clear that if you\u2019re a startup building enterprise tools, you\u2019re likely an acquisition target.",
+    "charlotte_impact": "The enterprise AI space is consolidating rapidly. Acquisition of AI startups by major players will accelerate the development and adoption of AI solutions across various industries, including manufacturing, finance, and logistics. This is spurring a gold rush mentality among AI startups focused on building practical enterprise AI solutions.",
+    "impact_score": 8
+  },
+  {
+    "title": "So you\u2019ve heard these AI terms and nodded along; let\u2019s fix that",
+    "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "industry": "AI / Education",
+    "summary": "An article provides a glossary with definitions of some of the most important AI terms and slang.",
+    "charlotte_impact": "The proliferation of AI terminology creates a need for readily available education to ensure understanding and adoption. Broad understanding and training programs are needed to facilitate the integration of AI into businesses.",
+    "impact_score": 5
+  },
+  {
+    "title": "Bridging the health equity gap with artificial intelligence",
+    "url": "https://kevinmd.com/2026/05/bridging-the-health-equity-gap-with-artificial-intelligence.html",
+    "industry": "AI / Healthcare",
+    "summary": "An article discusses how AI is coming for medicine, and equity is still waiting in line.",
+    "charlotte_impact": "This highlights the importance of equitable implementation of AI solutions across all facets of industry and society, particularly in healthcare. Careful evaluation is needed to ensure that innovation reduces rather than expands inequality.",
+    "impact_score": 6
+  },
+  {
+    "title": "Russell Coker: Bad Criticism of LLMs (not AI)",
+    "url": "https://etbe.coker.com.au/2026/05/09/bad-criticism-of-llms/",
+    "industry": "AI / Analysis",
+    "summary": "A discussion of \u201cAI\u201d systems claims fears of uncommon and unlikely threats are dominant. More focus on real issues with LLMs is needed.",
+    "charlotte_impact": "The risks surrounding AI should be evaluated realistically and rationally to prioritize areas of focus and investment. Focus should be on current and near-future threats over unlikely future scenarios.",
+    "impact_score": 5
   },
   {
     "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
     "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
-    "industry": "Business",
-    "summary": "Laid-off Oracle workers tried to negotiate better severance but failed because the company classified them as remote workers, affecting WARN Act protections. This exposes a potential vulnerability for remote employees during layoffs.",
-    "charlotte_impact": "Remote workers are increasingly common, and businesses can find advantages classifying workers to fit loopholes in worker protection laws, which can have long-term impact on worker satisfaction and engagement.",
-    "impact_score": 5
+    "industry": "AI / Layoffs",
+    "summary": "Laid-off Oracle workers tried to negotiate better severance, but Oracle said no.",
+    "charlotte_impact": "This illustrates the difficult position some workers are in as AI transforms the job market. It's critical to evaluate the effects of AI beyond topline revenue and efficiency. Social programs will be needed to support workers in transition.",
+    "impact_score": 4
   },
   {
-    "title": "Musk, Altman Management Styles Come Under Fire at OpenAI Trial",
-    "url": "https://www.livemint.com/companies/musk-altman-management-styles-come-under-fire-at-openai-trial-11778265932168.html",
-    "industry": "Legal",
-    "summary": "Musk and Altman's management styles are scrutinized at the OpenAI trial, highlighting governance issues within AI companies. This scrutiny impacts how AI companies are perceived and managed.",
-    "charlotte_impact": "AI companies are increasingly coming under scrutiny and governance issues impact investor confidence in AI companies. Businesses must focus on ethical leadership and corporate responsibility, and may require more rigorous governance structures to manage AI risks and build trust.",
+    "title": "What the Musk-Altman courtroom clash reveals about two of the most powerful men in Silicon Valley",
+    "url": "https://www.businessinsider.com/who-is-sam-altman-elon-musk-leadership-complaints-opneai-2026-5",
+    "industry": "AI / Personalities",
+    "summary": "The Musk-Altman courtroom clash reveals more about two of the most powerful men in Silicon Valley",
+    "charlotte_impact": "The leadership and ethics of people at the top of these organizations has a massive impact on the direction of AI. Their decisions will shape the AI landscape more than most other factors.",
     "impact_score": 6
   },
   {
-    "title": "Google settles racial discrimination lawsuit for $50 million",
-    "url": "https://economictimes.indiatimes.com/tech/technology/google-settles-racial-discrimination-lawsuit-for-50-million/articleshow/130966011.cms",
-    "industry": "Legal",
-    "summary": "Google settles a racial discrimination lawsuit for $50 million, showing the importance of diversity and inclusion in the tech industry. Settlement highlights the impact of lawsuits on companies.",
-    "charlotte_impact": "Legal ramifications are possible with AI models, which can be trained with biased data. Companies should consider ways to avoid perpetuating discrimination and be aware of the ramifications of the products and outcomes.",
+    "title": "Humanoid Robot Becomes Buddhist Monk In South Korea",
+    "url": "https://hardware.slashdot.org/story/26/05/09/0241247/humanoid-robot-becomes-buddhist-monk-in-south-korea",
+    "industry": "AI / Robotics",
+    "summary": "A four-foot humanoid robot named Gabi has become a monk at a Buddhist temple in Seoul.",
+    "charlotte_impact": "The proliferation of robots into positions of trust raises questions about the boundaries of humanity and the roles we can foresee for robotics and AI. Human norms and standards must be maintained and carefully considered as AI continues to evolve.",
     "impact_score": 5
+  },
+  {
+    "title": "Some RFK minions are innovating to boost public health \u2014 and save lives",
+    "url": "https://nypost.com/2026/05/09/opinion/credit-hhs-for-a-host-of-new-steps-thatll-boost-public-health-and-save-lives/",
+    "industry": "AI / Healthcare",
+    "summary": "RFK Jr. is presiding over a host of innovative developments that should foster miracle cures for numerous hard-to-beat diseases.",
+    "charlotte_impact": "Innovation in healthcare and medical technology will continue to come at a rapid pace, bringing new hope to formerly incurable diseases. Investment in research and development is crucial to take advantage of future opportunities.",
+    "impact_score": 4
   }
 ]
