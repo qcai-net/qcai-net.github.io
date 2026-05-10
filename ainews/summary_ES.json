@@ -2,161 +2,105 @@
   {
     "title": "Nvidia ya ha comprometido 40.000 millones de dólares para acuerdos de inversión en IA este año",
     "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
-    "industry": "Venture Capital / AI Infrastructure",
-    "summary": "Nvidia ha comprometido 40 mil millones de dólares en acuerdos de capital de IA este año, destacando su importante inversión en el ecosistema de IA y su dominio en la infraestructura de IA.",
-    "charlotte_impact": "La enorme inversión de Nvidia indica confianza en el crecimiento a largo plazo del sector de la IA. Esta afluencia de capital acelera la innovación, particularmente en el desarrollo de hardware, la computación en la nube y las plataformas de inteligencia artificial como servicio. Las empresas que dependen de capacidades avanzadas de IA deberían esperar avances más rápidos y costos potencialmente reducidos a medida que maduren las inversiones de Nvidia.",
+    "industry": "Venture Capital",
+    "summary": "Nvidia ha comprometido 40.000 millones de dólares en acuerdos de inversión en IA este año, lo que demuestra su agresiva estrategia de inversión en el ecosistema de IA.",
+    "charlotte_impact": "Las inversiones a gran escala de Nvidia catalizan el crecimiento en todo el ecosistema de startups de IA, acelerando potencialmente la innovación en áreas como hardware, desarrollo de software y aplicaciones de IA impulsados ​​por IA. La inyección masiva de capital permitirá a las empresas de IA ampliar sus operaciones, realizar más investigaciones y atraer a los mejores talentos, lo que aumentará las valoraciones e intensificará la competencia en el mercado de la IA. Esta actividad aumenta las posibilidades de fusiones y adquisiciones a medida que las empresas más grandes adquieren empresas más pequeñas, lo que beneficia a los inversores.",
     "impact_score": 9
   },
   {
     "title": "OpenAI lanza nuevas funciones de inteligencia de voz en su API",
     "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-    "industry": "AI / Customer Service",
-    "summary": "OpenAI lanzó nuevas funciones de inteligencia de voz en su API con aplicaciones en plataformas de creadores, educación y servicio al cliente, mejorando las capacidades de las aplicaciones de voz impulsadas por IA.",
-    "charlotte_impact": "Las capacidades mejoradas de inteligencia de voz mejorarán la eficiencia y la personalización en las industrias de servicio al cliente. Las empresas que utilizan la API de OpenAI pueden automatizar interacciones más complejas, reducir los tiempos de espera y recopilar datos más detallados de las conversaciones con los clientes, lo que en última instancia conduce a una mejor satisfacción del cliente y eficiencia operativa. Esto también presenta la oportunidad de contar con herramientas educativas y plataformas de creación de contenido más personalizadas.",
+    "industry": "AI Software",
+    "summary": "OpenAI lanzó nuevas funciones de inteligencia de voz en su API, dirigidas a sistemas de servicio al cliente, educación y plataformas de creadores.",
+    "charlotte_impact": "Las nuevas funciones de inteligencia de voz de OpenAI tienen implicaciones para las industrias que dependen de la interacción de voz, como los centros de llamadas, las plataformas de tutoría y las herramientas de creación de contenido. Estas industrias pueden volverse más eficientes y personalizadas. Una mejor experiencia del cliente podría conducir a una mayor satisfacción y retención del cliente, mejorando los resultados comerciales. Las empresas más pequeñas pueden acceder a la IA avanzada más fácilmente a través de API, lo que impulsa la competencia.",
     "impact_score": 8
   },
   {
     "title": "Pit, la nueva startup de inteligencia artificial de los fundadores de Voi, se ha convertido en la última estrella en ascenso de Estocolmo",
     "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
-    "industry": "Venture Capital / AI Startups",
-    "summary": "Pit, una startup de IA fundada por los fundadores de Voi, obtuvo 16 millones de dólares en financiación inicial liderada por a16z, lo que indica un fuerte interés de los inversores en nuevas empresas de IA.",
-    "charlotte_impact": "Esta ronda de financiación indica un apetito continuo por invertir en empresas de IA en etapa inicial. Esto podría inspirar a más fundadores a buscar soluciones impulsadas por la IA. Esta inversión impulsa la innovación y la competencia, lo que podría conducir a ofertas de IA más diversas y a un progreso tecnológico acelerado.",
+    "industry": "Venture Capital",
+    "summary": "La startup de IA Pit, fundada por los fundadores de Voi, ha recaudado una ronda inicial de 16 millones de dólares liderada por a16z, lo que indica la confianza de los inversores en nuevas empresas de IA.",
+    "charlotte_impact": "La financiación de Pit subraya el continuo entusiasmo de los inversores por las nuevas empresas de IA en sus primeras etapas. Este flujo de capital riesgo facilita la innovación y la creación de empleo. El éxito de Pit podría inspirar a otros emprendedores a ingresar al espacio de la IA, lo que generaría un mercado más dinámico y competitivo. Esta inversión también puede impulsar el desarrollo de nuevas aplicaciones y tecnologías de IA.",
     "impact_score": 7
   },
   {
-    "title": "OpenAI introduce una nueva salvaguarda de 'Contacto de confianza' para casos de posible autolesión",
+    "title": "OpenAI introduce una nueva salvaguardia de 'Contacto de confianza' para casos de posible autolesión",
     "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-    "industry": "AI Ethics / Safety",
-    "summary": "OpenAI introdujo una nueva salvaguarda de 'Contacto de confianza' para casos de posible autolesión, ampliando los esfuerzos para proteger a los usuarios de ChatGPT.",
-    "charlotte_impact": "Este paso hacia medidas de seguridad proactivas probablemente se convertirá en un estándar en toda la industria de la IA.  Las empresas que implementen IA con potencial para interacciones sensibles deberán priorizar la seguridad y el bienestar mental de los usuarios para mantener la confianza del público y evitar el escrutinio regulatorio. También subraya la importancia de la ética de la IA y el desarrollo responsable de la IA.",
-    "impact_score": 8
+    "industry": "AI Ethics",
+    "summary": "OpenAI introduce una salvaguarda de 'Contacto de confianza' para proteger a los usuarios de ChatGPT en casos de posible autolesión, abordando las preocupaciones de seguridad de la IA.",
+    "charlotte_impact": "Las medidas de seguridad de OpenAI aumentan la confianza de los consumidores en las aplicaciones de IA, lo que lleva a un uso más generalizado. Estas salvaguardias podrían mitigar los posibles riesgos legales y de reputación asociados con los daños provocados por la IA. El enfoque en el desarrollo ético de la IA sienta un precedente para otras empresas de la industria, impulsándolas a priorizar la seguridad del usuario y las prácticas responsables de la IA. Esto ayuda a que el uso de la IA gane legitimidad y aprobación pública.",
+    "impact_score": 6
   },
   {
     "title": "La demanda de Elon Musk está poniendo el historial de seguridad de OpenAI bajo el microscopio",
     "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
-    "industry": "AI / Legal",
-    "summary": "La demanda de Elon Musk está poniendo el historial de seguridad de OpenAI bajo el microscopio, planteando dudas sobre el impacto de la filial con fines de lucro en la misión fundacional de OpenAI.",
-    "charlotte_impact": "La demanda de Musk provocará un mayor escrutinio de las implicaciones éticas del desarrollo y despliegue de la IA. Impulsará a las empresas a reevaluar sus modelos de negocio con respecto a la IA y garantizar que sus iniciativas de IA se alineen con la seguridad y el beneficio públicos.",
-    "impact_score": 9
+    "industry": "AI Ethics",
+    "summary": "La demanda de Elon Musk contra OpenAI está poniendo bajo escrutinio el historial de seguridad de la empresa, lo que podría afectar su negocio y su reputación.",
+    "charlotte_impact": "La demanda de Musk contra OpenAI podría conducir a un mayor escrutinio regulatorio de las empresas de IA, lo que podría frenar la innovación. Destaca la importancia de la transparencia y la rendición de cuentas en el desarrollo de la IA, lo que puede obligar a las empresas a reevaluar sus modelos de negocio y priorizar consideraciones éticas. Un resultado negativo para OpenAI podría dañar la confianza de los inversores y afectar su capacidad para atraer financiación.",
+    "impact_score": 7
   },
   {
-    "title": "La Universidad de Michigan invirtió 20 millones de dólares en OpenAI antes de que existiera ChatGPT. Los documentos judiciales muestran que la participación vale ahora dos mil millones.",
-    "url": "https://thenextweb.com/news/michigan-openai-early-investment-billions-endowment/",
-    "industry": "Investment / AI",
-    "summary": "La Universidad de Michigan invirtió 20 millones de dólares en OpenAI antes de que existiera ChatGPT, que ahora vale 2 mil millones de dólares, lo que destaca el potencial de obtener retornos significativos en las primeras inversiones en IA.",
-    "charlotte_impact": "Esta historia de éxito alentará a otras instituciones e inversores a asignar capital a empresas de IA en sus primeras etapas. Esta mayor actividad inversora impulsa la innovación y la competencia, reduce los costos y acelera la adopción de tecnologías de inteligencia artificial en varios sectores.",
-    "impact_score": 7
+    "title": "Nos sentimos cínicos ante el gran acuerdo de xAI con Anthropic",
+    "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+    "industry": "AI Partnerships",
+    "summary": "Se especula en torno al acuerdo de xAI con Anthropic, con posibles implicaciones para SpaceX.",
+    "charlotte_impact": "El acuerdo entre xAI y Anthropic podría crear nuevas sinergias y oportunidades para ambas empresas, acelerando sus esfuerzos de desarrollo de IA. También tiene implicaciones para SpaceX, ya que cualquier desarrollo tecnológico podría utilizarse para optimizar y mejorar el rendimiento de Space X. Sin embargo, también podría crear presiones competitivas y generar preocupaciones sobre la concentración del mercado.",
+    "impact_score": 5
   },
   {
     "title": "La IA de voz en la India es difícil. Wispr Flow apuesta por ello de todos modos.",
     "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
-    "industry": "AI / Voice Recognition",
-    "summary": "Wispr Flow se centra en la inteligencia artificial de voz en India y apuesta por el crecimiento después del lanzamiento de Hinglish a pesar de los desafíos del mercado.",
-    "charlotte_impact": "Esto sugiere un mercado creciente para la inteligencia artificial de voz en regiones con diversos paisajes lingüísticos, particularmente en mercados donde los dispositivos móviles son prioritarios. Las empresas que se centran en la IA de voz pueden utilizar los conocimientos de los éxitos y desafíos de Wispr Flow para posicionarse mejor para el éxito. Además, también impulsará la inteligencia artificial de voz y su capacidad para procesar idiomas y dialectos en todo el mundo.",
+    "industry": "AI Software",
+    "summary": "Wispr Flow se centra en la inteligencia artificial de voz en India y apuesta por el crecimiento después de su lanzamiento en Hinglish a pesar de los desafíos.",
+    "charlotte_impact": "La especialización de Wispr Flow en IA de voz en hinglish demuestra el potencial de las soluciones de IA adaptadas a las necesidades regionales específicas. Esto puede abrir nuevos mercados y crear oportunidades económicas para empresas que puedan aprovechar eficazmente la IA para conectarse con las poblaciones locales. Superar los desafíos técnicos de la IA de voz en diversos idiomas como el hinglish crea oportunidades de especialización.",
     "impact_score": 6
   },
   {
     "title": "Cloudflare dice que la IA dejó obsoletos 1.100 puestos de trabajo, incluso cuando los ingresos alcanzaron un récord",
     "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-    "industry": "AI / Job Displacement",
-    "summary": "Cloudflare afirma que la IA dejó obsoletos 1.100 puestos de trabajo, incluso cuando los ingresos alcanzaron un nivel récord, lo que destaca el potencial de desplazamiento de empleos impulsado por la IA.",
-    "charlotte_impact": "Esto pone de relieve la creciente tendencia de la IA que conduce a reducciones de fuerza laboral, particularmente en roles de apoyo. Las organizaciones deben invertir en iniciativas de reciclaje y mejora de habilidades para preparar a los trabajadores para el cambiante mercado laboral. Los gobiernos deberán considerar políticas para apoyar a los trabajadores desplazados y mitigar el impacto social de la pérdida de empleos provocada por la IA.",
-    "impact_score": 10
+    "industry": "Job Displacement",
+    "summary": "Cloudflare informa que la IA dejó obsoletos 1.100 puestos de trabajo, incluso cuando los ingresos alcanzaron un récord, lo que destaca el potencial de la IA para alterar la fuerza laboral.",
+    "charlotte_impact": "Los despidos de Cloudflare señalan la posibilidad de un desplazamiento generalizado de puestos de trabajo debido a la automatización de la IA. Esto podría conducir a una mayor desigualdad de ingresos y requerir inversiones en programas de capacitación y educación de los trabajadores. También subraya la importancia de que las empresas se adapten al cambiante panorama tecnológico y encuentren formas de integrar la IA de manera que complemente, en lugar de reemplazar, el trabajo humano. Crece la presión sobre el gobierno para que proteja a los trabajadores.",
+    "impact_score": 8
   },
   {
     "title": "La computadora personal de Perplexity ahora está disponible para todos en Mac",
     "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-    "industry": "AI Agents",
-    "summary": "La computadora personal de Perplexity, que lleva agentes de inteligencia artificial a su Mac, ahora está disponible para todos.",
-    "charlotte_impact": "La mayor disponibilidad de agentes de IA en dispositivos personales indica un cambio hacia una integración más profunda de la IA en los flujos de trabajo cotidianos. Esto impulsará la demanda de soluciones de IA más intuitivas y personalizadas, que puedan automatizar tareas, proporcionar información en tiempo real y mejorar la productividad de individuos y empresas.",
-    "impact_score": 8
-  },
-  {
-    "title": "Google construyó un asesor de salud con inteligencia artificial de 99 dólares. Whoop respondió con médicos reales.",
-    "url": "https://thenextweb.com/news/whoop-doctors-fitbit-air-google-health-ai/",
-    "industry": "Healthcare / AI",
-    "summary": "Google lanzó un asesor de salud de IA de 99 dólares, mientras que Whoop respondió con consultas bajo demanda con médicos reales, destacando la competencia entre la IA y la experiencia humana en la atención médica.",
-    "charlotte_impact": "Esto representa una tendencia importante en la atención sanitaria, donde las herramientas de inteligencia artificial se están integrando en la atención preventiva. Las empresas deben considerar cuidadosamente el equilibrio entre el uso de la IA para soluciones rentables y la prestación de experiencia humana para una atención personalizada. Es probable que los enfoques exitosos combinen la inteligencia artificial y las capacidades humanas para ofrecer los mejores resultados.",
+    "industry": "AI Software",
+    "summary": "La computadora personal de Perplexity, que lleva agentes de inteligencia artificial a las Mac, ahora está abierta a todos.",
+    "charlotte_impact": "La mayor accesibilidad de la computadora personal de Perplexity puede aumentar la productividad y la eficiencia de los usuarios de Mac. Esto puede fomentar la adopción de la IA en diferentes sectores. Como tal, esto podría crear oportunidades para soluciones de IA personalizadas y aplicaciones especializadas.",
     "impact_score": 7
   },
   {
-    "title": "El director ejecutivo de Qualcomm está trabajando con \"prácticamente todos\" los principales actores de la IA en dispositivos ultrasecretos e impulsando el primer impulso de OpenAI al hardware.",
-    "url": "https://fortune.com/2026/05/09/qualcomm-smartphone-ai-secret-device-openai-meta-wearables-agents/",
-    "industry": "AI / Hardware",
-    "summary": "El director ejecutivo de Qualcomm está trabajando con los principales actores de la IA en dispositivos ultrasecretos e impulsando el primer impulso de OpenAI al hardware, lo que sugiere un cambio hacia hardware de IA especializado.",
-    "charlotte_impact": "La medida de Qualcomm indica una tendencia creciente hacia dispositivos informáticos de vanguardia impulsados ​​por IA, alejando la potencia de procesamiento de la nube. Esto fomentará el crecimiento de la innovación de hardware, especialmente en el diseño de chips de IA, sistemas integrados y dispositivos especializados adaptados a aplicaciones específicas de IA. También destaca una colaboración más estrecha entre las empresas de software y hardware de IA.",
+    "title": "SpaceXAI lanza un nuevo negocio de IA ENORMEmente rentable",
+    "url": "https://www.nextbigfuture.com/2026/05/spacexai-launches-hugely-profitable-new-ai-business.html",
+    "industry": "Data Centers",
+    "summary": "SpaceXAI lanza un nuevo negocio de IA altamente rentable, que proyecta enormes ingresos por el alquiler de capacidad del centro de datos.",
+    "charlotte_impact": "La incursión de SpaceXAI en el alquiler de centros de datos de IA significa una creciente demanda de potencia informática para soportar cargas de trabajo de IA. Esta es una gran oportunidad para la empresa y toda la industria. Esto impulsa la inversión y la construcción de nuevos centros de datos, impulsando la actividad económica en los sectores asociados. La competencia de estos grandes centros de datos también puede afectar la estructura de precios, reduciendo potencialmente los costos para las nuevas empresas de IA.",
     "impact_score": 9
   },
   {
-    "title": "El submarinista convertido en jefe tecnológico del Ejército dijo que lo más difícil de modernizar no son las nuevas herramientas, sino la gente.",
-    "url": "https://www.businessinsider.com/army-pushes-ai-but-getting-troops-to-adapt-is-harder-2026-5",
-    "industry": "AI / Military",
-    "summary": "El Ejército está implementando herramientas digitales en toda la fuerza, pero su ex CIO dice que el mayor desafío no es la tecnología, sino lograr que la gente la adopte.",
-    "charlotte_impact": "La modernización de las fuerzas armadas resalta la importancia crítica de la gestión del cambio organizacional al implementar nuevas tecnologías, incluso aquellas que prometen beneficios significativos. Las organizaciones deben priorizar la capacitación de los usuarios, abordar las preocupaciones sobre la seguridad laboral y generar confianza en los sistemas de IA para facilitar la adopción y aprovechar todo el potencial de la IA en aplicaciones de misión crítica.",
+    "title": "La fusión perfecta de inteligencia artificial y experiencia humana: MoneySkills lanza el robot híbrido de comercio de criptomonedas definitivo para 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/05/09/3291452/0/en/The-Perfect-Fusion-of-AI-and-Human-Expertise-MoneySkills-Launches-the-Ultimate-Hybrid-Cryptocurrency-Trading-Bot-for-2026.html",
+    "industry": "Financial Technology",
+    "summary": "MoneySkills lanza un robot híbrido de comercio de criptomonedas que combina inteligencia artificial y experiencia humana.",
+    "charlotte_impact": "El lanzamiento del robot comercial de MoneySkills muestra la aplicación de la IA en el mercado de las criptomonedas, lo que podría conducir a estrategias comerciales más eficientes y una mayor liquidez del mercado. El enfoque híbrido sugiere un enfoque cauteloso para la adopción de la IA en los mercados financieros, que prioriza la supervisión humana para minimizar el riesgo y los posibles errores. La mayor accesibilidad a las herramientas comerciales impulsadas por IA democratiza el comercio y la inversión financieros.",
+    "impact_score": 5
+  },
+  {
+    "title": "La Administración Federal de Aviación prueba un sistema de inteligencia artificial para reducir los retrasos en los vuelos",
+    "url": "https://cryptobriefing.com/faa-smart-ai-flight-delays/",
+    "industry": "Transportation",
+    "summary": "La Administración Federal de Aviación prueba un sistema de inteligencia artificial para reducir los retrasos en los vuelos.",
+    "charlotte_impact": "Las pruebas de la FAA de sistemas de gestión del tráfico aéreo impulsados ​​por IA podrían mejorar la eficiencia de los viajes aéreos, reducir los retrasos en los vuelos y reducir los costos operativos para las aerolíneas. Esto podría conducir a una mayor actividad económica en los sectores del turismo y el transporte, así como a una mayor satisfacción del consumidor. La implementación exitosa de la IA en el control del tráfico aéreo podría allanar el camino para la adopción de la IA en otros sistemas de infraestructura.",
     "impact_score": 7
   },
   {
-    "title": "La “aerolínea del pueblo” y la fiebre del oro de la IA empresarial",
-    "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-    "industry": "AI / Enterprise",
-    "summary": "Anthropic y OpenAI están anunciando empresas conjuntas dirigidas a la implementación de IA empresarial, mientras que SAP está invirtiendo mil millones de dólares en la startup alemana de IA Prior Labs, cada vez está más claro que si eres una startup que crea herramientas empresariales, probablemente seas un objetivo de adquisición.",
-    "charlotte_impact": "El espacio de la IA empresarial se está consolidando rápidamente. La adquisición de nuevas empresas de IA por parte de los principales actores acelerará el desarrollo y la adopción de soluciones de IA en diversas industrias, incluidas la fabricación, las finanzas y la logística. Esto está estimulando una mentalidad de fiebre del oro entre las nuevas empresas de IA centradas en crear soluciones prácticas de IA empresarial.",
+    "title": "El sistema de tráfico aéreo AI promete menos retrasos en los vuelos",
+    "url": "https://www.foxnews.com/tech/ai-air-traffic-system-promises-fewer-flight-delays",
+    "industry": "Transportation",
+    "summary": "El nuevo sistema SMART de la FAA utiliza IA para predecir la congestión, prometiendo menos retrasos en los vuelos.",
+    "charlotte_impact": "El nuevo sistema SMART de la FAA tiene el potencial de reducir significativamente los retrasos en los vuelos, lo que lleva a una mayor eficiencia y satisfacción del cliente en la industria aérea. Esta mejora podría impulsar la productividad económica general al minimizar las interrupciones en los viajes y las cadenas de suministro. La reducción de los retrasos puede ayudar a mejorar los tiempos de viaje de los viajeros frecuentes, lo que generará ganancias en productividad y eficiencia.",
     "impact_score": 8
-  },
-  {
-    "title": "Entonces escuchó estos términos de IA y asintió con la cabeza; vamos a arreglar eso",
-    "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-    "industry": "AI / Education",
-    "summary": "Un artículo proporciona un glosario con definiciones de algunos de los términos y jergas más importantes de la IA.",
-    "charlotte_impact": "La proliferación de terminología de IA crea la necesidad de una educación fácilmente disponible para garantizar la comprensión y la adopción. Se necesitan programas amplios de comprensión y capacitación para facilitar la integración de la IA en las empresas.",
-    "impact_score": 5
-  },
-  {
-    "title": "Cerrar la brecha de equidad en salud con inteligencia artificial",
-    "url": "https://kevinmd.com/2026/05/bridging-the-health-equity-gap-with-artificial-intelligence.html",
-    "industry": "AI / Healthcare",
-    "summary": "Un artículo analiza cómo la IA está llegando a la medicina y la equidad todavía está esperando.",
-    "charlotte_impact": "Esto resalta la importancia de una implementación equitativa de soluciones de IA en todas las facetas de la industria y la sociedad, particularmente en la atención médica. Se necesita una evaluación cuidadosa para garantizar que la innovación reduzca, en lugar de ampliar, la desigualdad.",
-    "impact_score": 6
-  },
-  {
-    "title": "Russell Coker: malas críticas a los LLM (no a la IA)",
-    "url": "https://etbe.coker.com.au/2026/05/09/bad-criticism-of-llms/",
-    "industry": "AI / Analysis",
-    "summary": "Una discusión sobre los sistemas de “IA” afirma que predominan los temores a amenazas poco comunes e improbables. Es necesario centrarse más en los problemas reales de los LLM.",
-    "charlotte_impact": "Los riesgos que rodean a la IA deben evaluarse de manera realista y racional para priorizar áreas de atención e inversión. La atención debe centrarse en las amenazas actuales y futuras, más que en escenarios futuros improbables.",
-    "impact_score": 5
-  },
-  {
-    "title": "Los trabajadores despedidos de Oracle intentaron negociar una mejor indemnización. Oráculo dijo que no.",
-    "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
-    "industry": "AI / Layoffs",
-    "summary": "Los trabajadores despedidos de Oracle intentaron negociar una mejor indemnización, pero Oracle dijo que no.",
-    "charlotte_impact": "Esto ilustra la difícil situación en la que se encuentran algunos trabajadores a medida que la IA transforma el mercado laboral. Es fundamental evaluar los efectos de la IA más allá de los ingresos y la eficiencia. Se necesitarán programas sociales para apoyar a los trabajadores en transición.",
-    "impact_score": 4
-  },
-  {
-    "title": "Lo que revela el enfrentamiento judicial entre Musk y Altman sobre dos de los hombres más poderosos de Silicon Valley",
-    "url": "https://www.businessinsider.com/who-is-sam-altman-elon-musk-leadership-complaints-opneai-2026-5",
-    "industry": "AI / Personalities",
-    "summary": "El enfrentamiento judicial entre Musk y Altman revela más sobre dos de los hombres más poderosos de Silicon Valley",
-    "charlotte_impact": "El liderazgo y la ética de las personas que están en la cima de estas organizaciones tienen un impacto enorme en la dirección de la IA. Sus decisiones darán forma al panorama de la IA más que la mayoría de los otros factores.",
-    "impact_score": 6
-  },
-  {
-    "title": "Un robot humanoide se convierte en monje budista en Corea del Sur",
-    "url": "https://hardware.slashdot.org/story/26/05/09/0241247/humanoid-robot-becomes-buddhist-monk-in-south-korea",
-    "industry": "AI / Robotics",
-    "summary": "Un robot humanoide de cuatro pies llamado Gabi se ha convertido en monje en un templo budista en Seúl.",
-    "charlotte_impact": "La proliferación de robots en puestos de confianza plantea interrogantes sobre los límites de la humanidad y los roles que podemos prever para la robótica y la IA. Las normas y estándares humanos deben mantenerse y considerarse cuidadosamente a medida que la IA continúa evolucionando.",
-    "impact_score": 5
-  },
-  {
-    "title": "Algunos secuaces de RFK están innovando para mejorar la salud pública y salvar vidas",
-    "url": "https://nypost.com/2026/05/09/opinion/credit-hhs-for-a-host-of-new-steps-thatll-boost-public-health-and-save-lives/",
-    "industry": "AI / Healthcare",
-    "summary": "RFK Jr. preside una serie de desarrollos innovadores que deberían fomentar curas milagrosas para numerosas enfermedades difíciles de combatir.",
-    "charlotte_impact": "La innovación en la atención sanitaria y la tecnología médica seguirá llegando a un ritmo rápido, trayendo nuevas esperanzas a enfermedades que antes eran incurables. La inversión en investigación y desarrollo es crucial para aprovechar las oportunidades futuras.",
-    "impact_score": 4
   }
 ]
