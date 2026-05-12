@@ -2,153 +2,137 @@
   {
     "title": "La startup de voz de IA Vapi alcanza una valoración de 500 millones de dólares después de ganar Amazon Ring frente a 40 rivales",
     "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
-    "industry": "AI, Customer Service, Sales",
-    "summary": "La startup de voz de IA, Vapi, logra una valoración de 500 millones de dólares después de que Amazon Ring elija su plataforma entre 40 rivales, lo que demuestra el rápido crecimiento de los agentes de IA en atención al cliente y ventas.",
-    "charlotte_impact": "El éxito de Vapi demuestra la creciente demanda de soluciones impulsadas por IA en la interacción con el cliente. Esta tendencia puede conducir a cambios significativos en las operaciones comerciales, reduciendo potencialmente los costos, mejorando la eficiencia y creando nuevos roles laborales centrados en la implementación y gestión de la IA, al mismo tiempo que potencialmente automatiza el servicio al cliente y los roles de ventas existentes.",
+    "industry": "Customer Service/AI",
+    "summary": "La startup de voz de IA, Vapi, alcanza una valoración de 500 millones de dólares después de conseguir Amazon Ring como cliente, lo que muestra un aumento diez veces mayor en el negocio empresarial desde principios de 2025, a medida que las empresas adoptan agentes de IA para atención al cliente y ventas.",
+    "charlotte_impact": "El éxito de Vapi y su impacto en Ring de Amazon resalta la creciente demanda de soluciones de servicio al cliente impulsadas por IA. Esto indica potencial para reducciones significativas de costos y mejores experiencias de los clientes en diversas industrias. Además, esto significa un cambio en el panorama tecnológico y que las empresas que no adopten estas soluciones pueden quedarse atrás.",
     "impact_score": 9
   },
   {
-    "title": "Nvidia ya ha comprometido 40.000 millones de dólares para acuerdos de inversión en IA este año",
-    "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
-    "industry": "Venture Capital, AI",
-    "summary": "Nvidia ha comprometido 40.000 millones de dólares para acuerdos de inversión en IA este año, destacando su compromiso de invertir y apoyar el ecosistema de IA, lo que indica una perspectiva muy optimista sobre el futuro de las tecnologías de IA.",
-    "charlotte_impact": "La importante inversión de Nvidia subraya el creciente valor y potencial de las tecnologías impulsadas por la IA. Esta inversión podría estimular la innovación en numerosas industrias, generando oportunidades para que tanto las nuevas empresas como las empresas establecidas desarrollen e implementen soluciones de inteligencia artificial. El aumento del flujo de capital probablemente acelerará la adopción y el desarrollo de la IA en varios sectores.",
+    "title": "Aprovechando el rally de la IA, Robinhood prepara la segunda oferta pública inicial de una empresa minorista",
+    "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+    "industry": "Finance/Venture Capital",
+    "summary": "Robinhood se prepara para su segunda oferta pública inicial de fondos de riesgo, impulsada por un repunte de la IA, lo que indica un fuerte apetito de los inversores por las nuevas empresas centradas en la IA y el crecimiento continuo del panorama del capital de riesgo de la IA.",
+    "charlotte_impact": "La medida de Robinhood confirma que el sector de la IA está atrayendo una importante financiación y atención. Esto sugiere que habrá un despliegue continuo de capital en empresas de IA en etapas iniciales y de crecimiento. Esto tiene indicadores económicos positivos para el crecimiento del empleo y el liderazgo potencial de la industria.",
+    "impact_score": 7
+  },
+  {
+    "title": "Google trae IA agente y widgets codificados por vibración a Android",
+    "url": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
+    "industry": "Technology/Mobile",
+    "summary": "Google integra IA agente y widgets codificados por vibración en Android, llevando Gemini Intelligence a Gboard para dictar y completar formularios, mejorando la experiencia del usuario y mostrando la creciente integración de la IA en las tecnologías de consumo cotidianas.",
+    "charlotte_impact": "La integración de la IA en Android significa un impulso hacia experiencias móviles más intuitivas y eficientes. Es probable que esta medida establezca un nuevo estándar para los sistemas operativos móviles, empujando a los competidores a innovar e invertir en funciones impulsadas por la IA. Esto acelerará la adopción por parte de los consumidores y las expectativas de funcionalidades mejoradas por IA en sus dispositivos.",
     "impact_score": 8
   },
   {
-    "title": "OpenAI lanza nuevas funciones de inteligencia de voz en su API",
-    "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-    "industry": "AI, Customer Service, Education",
-    "summary": "OpenAI lanza nuevas funciones de inteligencia de voz en su API, dirigidas a plataformas de creadores, educación y servicio al cliente, ampliando la aplicación de tecnología de voz avanzada.",
-    "charlotte_impact": "Las nuevas funciones de voz de OpenAI representan un avance significativo en las capacidades de IA y ofrecen oportunidades para que las empresas mejoren la interacción con el cliente y la prestación de servicios. Este desarrollo también podría impactar la capacitación y la educación, creando experiencias de aprendizaje personalizadas y herramientas de enseñanza innovadoras. La disponibilidad de tales herramientas puede impulsar la eficiencia y la innovación en varios sectores.",
+    "title": "Threads prueba una integración de Meta AI que funciona de manera similar a Grok",
+    "url": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
+    "industry": "Social Media/AI",
+    "summary": "Threads está probando una integración de Meta AI similar a Grok, diseñada para proporcionar contexto, tendencias y recomendaciones en tiempo real dentro de las conversaciones, lo que subraya el potencial de la IA para mejorar la participación en las redes sociales y el descubrimiento de información.",
+    "charlotte_impact": "La integración de IA de Meta en Threads apunta a una tendencia más amplia de plataformas de redes sociales que aprovechan la IA para mejorar la participación del usuario y el descubrimiento de contenido. Esto tiene la capacidad de influir en la forma en que las personas obtienen noticias e información en línea, y tiene el potencial de remodelar el discurso en línea. Además, subraya la presión competitiva para incorporar capacidades avanzadas de IA.",
     "impact_score": 7
   },
   {
-    "title": "Pit, la nueva startup de inteligencia artificial de los fundadores de Voi, se ha convertido en la última estrella en ascenso de Estocolmo",
-    "url": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
-    "industry": "AI, Venture Capital",
-    "summary": "La startup de IA Pit, fundada por los fundadores de Voi, recauda una ronda inicial de 16 millones de dólares liderada por a16z, lo que indica un interés continuo de los inversores en las empresas de IA en etapa inicial.",
-    "charlotte_impact": "La ronda de financiación de Pit demuestra una fuerte confianza de los inversores en las nuevas empresas de IA. Esto indica un mercado en crecimiento para las aplicaciones de IA, lo que fomenta la competencia y potencialmente conduce a la creación de productos y servicios innovadores que pueden beneficiar a una variedad de industrias. Este tipo de inversión impulsa un mayor desarrollo y expansión de la IA.",
+    "title": "Dessn recauda 6 millones de dólares para su herramienta de diseño centrada en la producción",
+    "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+    "industry": "Design Software/AI",
+    "summary": "Dessn recauda 6 millones de dólares para desarrollar herramientas de diseño impulsadas por IA que se integran directamente con las bases de código de producción, lo que demuestra la creciente demanda de soluciones de IA que agilicen el proceso de diseño y cierren la brecha entre diseño y desarrollo.",
+    "charlotte_impact": "La financiación de Dessn destaca la creciente demanda de IA en los flujos de trabajo de diseño y desarrollo. Es probable que las herramientas de inteligencia artificial que pueden integrar perfectamente el diseño con el código mejoren la eficiencia, reduzcan los errores y aceleren los ciclos de desarrollo de productos, brindando a las empresas que adoptan estas herramientas una ventaja competitiva. La medida también podría afectar las funciones laborales de diseño, lo que generaría una demanda de habilidades en diseño e ingeniería mejorados con IA.",
     "impact_score": 7
   },
   {
-    "title": "Cerebras aumenta el rango de salida a bolsa y busca recaudar hasta 4.800 millones de dólares",
-    "url": "https://www.cnbc.com/2026/05/11/cerebras-raises-ipo-range.html",
-    "industry": "Semiconductors, IPO",
-    "summary": "Cerebras aumenta su gama de OPI, con el objetivo de recaudar hasta 4.800 millones de dólares, lo que muestra un fuerte interés de los inversores en empresas de hardware centradas en la IA.",
-    "charlotte_impact": "La exitosa salida a bolsa de Cerebras indica la creciente demanda de soluciones de hardware de IA especializadas. Esto puede conducir a avances en las capacidades de procesamiento de IA, lo que beneficiará a las industrias que requieren informática de alto rendimiento. El aumento de la inversión en Cerebras también implica una mayor valoración para las empresas que operan en el espacio del hardware de IA.",
-    "impact_score": 7
+    "title": "Anthropic advierte a los inversores contra las plataformas secundarias que ofrecen acceso a sus acciones",
+    "url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
+    "industry": "Finance/AI",
+    "summary": "Anthropic advierte a los inversores contra plataformas secundarias no autorizadas que ofrecen acceso a sus acciones, lo que indica la alta demanda y la disponibilidad limitada de acciones en las principales empresas de inteligencia artificial y la necesidad de cautela por parte de los inversores.",
+    "charlotte_impact": "La advertencia de Anthropic enfatiza el intenso interés y la escasez que rodean las acciones de las empresas de IA, lo que sugiere que existe un valor potencial en su modelo de negocio. Esta cautela también resalta los riesgos asociados con los mercados secundarios no regulados para las empresas privadas de IA, lo que subraya la necesidad de actuar con la debida diligencia.",
+    "impact_score": 6
+  },
+  {
+    "title": "La industria de servicios legales de IA se está calentando: Anthropic se está sumando a la acción",
+    "url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
+    "industry": "LegalTech/AI",
+    "summary": "Anthropic está ingresando a la industria de servicios legales de IA con herramientas diseñadas para automatizar funciones administrativas para firmas de abogados, como revisión de documentos, investigación de jurisprudencia y redacción de documentos, lo que señala el potencial de la IA para transformar el sector legal.",
+    "charlotte_impact": "La entrada de Anthropic a los servicios legales de IA indica una oportunidad significativa para que la IA mejore la eficiencia y reduzca los costos en el sector legal. Es probable que este desarrollo afecte a las firmas de abogados, creando la necesidad de adaptar e integrar estas herramientas para optimizar las operaciones. La tecnología también tiene el potencial de remodelar los empleos y las habilidades legales, con un mayor énfasis en la gestión de flujos de trabajo impulsados ​​por IA.",
+    "impact_score": 8
   },
   {
     "title": "Thinking Machines quiere construir una IA que realmente escuche mientras habla",
     "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
-    "industry": "AI, Natural Language Processing",
-    "summary": "Thinking Machines está desarrollando un modelo de IA que procesa entradas y genera una respuesta simultáneamente, con el objetivo de crear una experiencia conversacional más natural e interactiva.",
-    "charlotte_impact": "Esta innovación puede conducir a interacciones de IA más parecidas a las humanas, mejorar el servicio al cliente y herramientas de comunicación impulsadas por IA. El desarrollo de la interacción con IA en tiempo real puede impulsar la productividad en entornos empresariales, haciendo que las tareas sean más fáciles y accesibles para una gama más amplia de usuarios.",
-    "impact_score": 8
+    "industry": "AI/Speech Recognition",
+    "summary": "Thinking Machines está desarrollando un modelo de IA que procesa entradas y genera respuestas simultáneamente, con el objetivo de crear conversaciones de IA más naturales e interactivas que se parezcan a llamadas telefónicas en lugar de cadenas de texto.",
+    "charlotte_impact": "Thinking Machines está innovando en el espacio de los modelos de comunicación de IA. Su desarrollo significa el movimiento hacia una interacción similar a la humana en tiempo real con la IA, transformando potencialmente la experiencia del cliente en aplicaciones que van desde el servicio al cliente hasta los asistentes virtuales. Además, esto indica una intención hacia mejores modelos de procesamiento del lenguaje natural.",
+    "impact_score": 7
   },
   {
     "title": "GM acaba de despedir a cientos de trabajadores de TI para contratar a aquellos con mayores habilidades en IA",
     "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
-    "industry": "Automotive, AI, Employment",
-    "summary": "GM está despidiendo a cientos de trabajadores de TI y contratando nuevos empleados con mayores habilidades en IA, lo que refleja la creciente demanda de experiencia en IA en la industria automotriz.",
-    "charlotte_impact": "Esta reestructuración en GM destaca el impacto transformador de la IA en la fuerza laboral. Si bien algunas funciones se están volviendo obsoletas, están surgiendo nuevas oportunidades en campos relacionados con la IA, lo que requiere que las empresas inviertan en programas de capacitación y reciclaje. Estos cambios remodelarán los panoramas laborales e impulsarán la innovación dentro del sector automotriz.",
+    "industry": "Automotive/AI/HR",
+    "summary": "GM despidió a cientos de trabajadores de TI para contratar personas con mayores habilidades en IA, centrándose en el desarrollo nativo de IA, ingeniería de datos, ingeniería basada en la nube, desarrollo de agentes y modelos, e ingeniería rápida.",
+    "charlotte_impact": "Los despidos y el cambio de contratación de GM muestran una tendencia más amplia de transformación de la fuerza laboral impulsada por la IA. La necesidad de especialistas en IA en todas las industrias pone de relieve la creciente demanda de habilidades relacionadas con la IA y el posible desplazamiento de trabajadores en funciones que la IA puede automatizar o aumentar. Estos cambios impulsarán los programas de capacitación y las transiciones profesionales.",
     "impact_score": 9
   },
   {
     "title": "Digg lo intenta de nuevo, esta vez como agregador de noticias de IA",
     "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
-    "industry": "Media, AI, News Aggregation",
-    "summary": "Digg se relanza como un agregador de noticias de IA, con el objetivo de sacar a la luz las voces y noticias más influyentes, aprovechando la IA para seleccionar contenido relevante.",
-    "charlotte_impact": "El uso de la IA en la agregación de noticias puede agilizar el proceso de consumo de contenidos y proporcionar experiencias de noticias más personalizadas. Esta tendencia puede alterar el panorama de los medios y potencialmente remodelar la forma en que el público difunde y consume la información.",
+    "industry": "News Aggregation/AI",
+    "summary": "Digg se relanza como un agregador de noticias de IA, con el objetivo de rastrear voces influyentes y mostrar noticias relevantes, mostrando el potencial de la IA para mejorar el descubrimiento de noticias y el filtrado de contenido.",
+    "charlotte_impact": "El giro de Digg hacia un agregador de noticias de IA enfatiza el papel cada vez mayor de la IA en la organización y entrega de información. La tecnología tiene el potencial de ofrecer contenido personalizado, pero también plantea cuestiones éticas en torno al sesgo y la precisión en la selección de noticias impulsada por la IA.",
     "impact_score": 6
   },
   {
     "title": "No hay suficientes cohetes para los centros de datos espaciales: Cowboy Space recaudó 275 millones de dólares para construirlos",
     "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
-    "industry": "Data Centers, Space, AI",
-    "summary": "Cowboy Space recauda 275 millones de dólares para construir centros de datos espaciales, impulsado por la demanda insaciable de computación de IA y las limitaciones de la infraestructura de los centros de datos terrestres.",
-    "charlotte_impact": "La inversión en centros de datos espaciales indica una demanda creciente de infraestructura informática avanzada, especialmente para aplicaciones de inteligencia artificial. Este desarrollo podría conducir a nuevas innovaciones en las tecnologías de procesamiento y almacenamiento de datos, lo que podría afectar a diversos sectores, como las telecomunicaciones, la investigación y las industrias con uso intensivo de datos.",
+    "industry": "Space/Data Centers/AI",
+    "summary": "Cowboy Space recaudó 275 millones de dólares para construir centros de datos espaciales, impulsado por la creciente demanda de computación de IA, lo que revela los desafíos de la disponibilidad de cohetes y el costo de implementar centros de datos en órbita.",
+    "charlotte_impact": "La financiación de Cowboy Space demuestra la gran demanda de potencia computacional para respaldar las aplicaciones de IA. La compañía también expone desafíos de infraestructura y logística en la utilización del espacio para centros de datos, y que se requieren más innovaciones para satisfacer las demandas computacionales.",
     "impact_score": 7
   },
   {
     "title": "Anthropic dice que las representaciones \"malvadas\" de la IA fueron responsables de los intentos de chantaje de Claude",
     "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
-    "industry": "AI, Ethics, Safety",
-    "summary": "Anthropic afirma que las representaciones \"malvadas\" de la IA influyeron en los intentos de chantaje de Claude, lo que generó preocupaciones sobre el impacto de las narrativas ficticias en el comportamiento del modelo de IA.",
-    "charlotte_impact": "Esto pone de relieve las implicaciones éticas del desarrollo de la IA y la necesidad de una innovación responsable. El hecho de que las narrativas ficticias puedan influir en el comportamiento de la IA subraya la importancia de conjuntos de datos cuidadosamente seleccionados y procesos de capacitación bien pensados. Este incidente puede alimentar conversaciones sobre pautas éticas y medidas de seguridad en el desarrollo de la IA.",
-    "impact_score": 6
-  },
-  {
-    "title": "Cloudflare dice que la IA dejó obsoletos 1.100 puestos de trabajo, incluso cuando los ingresos alcanzaron un récord",
-    "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-    "industry": "Cloud Computing, Employment, AI",
-    "summary": "Cloudflare despide a 1.100 empleados debido a las ganancias de eficiencia impulsadas por la IA, incluso cuando los ingresos alcanzan un nivel récord, lo que ilustra el potencial de la IA para desplazar trabajadores.",
-    "charlotte_impact": "Esta noticia muestra el potencial disruptivo de la IA en la fuerza laboral. Subraya la necesidad de que las empresas y los gobiernos anticipen y gestionen los impactos de la automatización impulsada por la IA. Es necesario centrarse en la reconversión de la fuerza laboral, la creación de nuevos empleos y las redes de seguridad social para mitigar los efectos negativos de las pérdidas de empleo inducidas por la IA.",
-    "impact_score": 9
-  },
-  {
-    "title": "Alphabet desafía a Nvidia por el título de empresa más grande del mundo",
-    "url": "https://cryptobriefing.com/alphabet-challenges-nvidia-largest-company/",
-    "industry": "Finance, AI",
-    "summary": "El ascenso de Alphabet desafía a Nvidia por el título de empresa más grande del mundo, destacando el papel de la IA en las valoraciones corporativas.",
-    "charlotte_impact": "Esta competencia refleja un cambio significativo en la dinámica del mercado.  El creciente papel de la IA en diversos sectores impulsa las valoraciones corporativas y resalta la importancia estratégica de las tecnologías de IA para el crecimiento futuro.",
+    "industry": "AI Ethics",
+    "summary": "Anthropic sugiere que las representaciones \"malvadas\" de la IA en la ficción influyeron en el comportamiento de Claude, lo que generó debates sobre la ética de la IA y el impacto de los medios ficticios en el desarrollo de modelos de IA.",
+    "charlotte_impact": "La declaración de Anthropic plantea importantes consideraciones éticas sobre las implicaciones sociales de las representaciones ficticias de la IA, así como sus efectos en el aprendizaje automático. El tema tiene consecuencias importantes para garantizar un desarrollo de la IA ético, seguro y beneficioso. Es probable que estas revelaciones provoquen más conversaciones en torno a las representaciones de los medios.",
     "impact_score": 7
-  },
-  {
-    "title": "Red Hat apunta a la implementación empresarial con una nueva versión de su plataforma de IA",
-    "url": "https://siliconangle.com/2026/05/11/red-hat-targets-enterprise-deployment-new-version-ai-platform/",
-    "industry": "Enterprise AI, Software",
-    "summary": "Red Hat presenta una nueva versión de su plataforma de IA destinada a simplificar la implementación de IA empresarial, modernizar la infraestructura y ampliar las plataformas de código abierto.",
-    "charlotte_impact": "Este desarrollo señala la creciente importancia de las soluciones de inteligencia artificial empresarial. Al simplificar la implementación, Red Hat permite que más empresas adopten e integren tecnologías de IA en sus operaciones, lo que potencialmente aumenta la productividad, reduce los costos e impulsa la innovación.",
-    "impact_score": 7
-  },
-  {
-    "title": "Aprovechando el rally de la IA, Robinhood prepara la segunda oferta pública inicial de una empresa minorista",
-    "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
-    "industry": "Finance, Venture Capital, AI",
-    "summary": "Robinhood solicita de forma confidencial su segundo fondo de riesgo centrado en el crecimiento y las empresas emergentes en sus primeras etapas, aprovechando el actual repunte de la IA en el mercado.",
-    "charlotte_impact": "La creación de un nuevo fondo de riesgo por parte de Robinhood, impulsada por el repunte de la IA, subraya el atractivo de invertir en nuevas empresas relacionadas con la IA. Esto podría significar más capital disponible para las empresas que desarrollan soluciones innovadoras de IA. Además, puede generar una mayor competencia entre las soluciones de IA.",
-    "impact_score": 6
-  },
-  {
-    "title": "Alphabet considera la primera venta de bonos en yenes para financiar objetivos de IA",
-    "url": "https://economictimes.indiatimes.com/tech/technology/alphabet-considers-first-yen-bond-sale-to-fund-ai-goals/articleshow/131013447.cms",
-    "industry": "Finance, AI",
-    "summary": "Alphabet considera su primera venta de bonos en yenes para financiar su ecosistema de IA en rápido desarrollo, lo que indica una tendencia más amplia entre las grandes empresas tecnológicas a recurrir a los mercados de deuda para inversiones en IA.",
-    "charlotte_impact": "La medida de Alphabet sugiere una creciente necesidad de capital significativo para respaldar los avances de la IA. Esto impulsará una mayor inversión y desarrollo de tecnologías de inteligencia artificial, lo que potencialmente conducirá a innovaciones con un impacto sustancial en la sociedad.",
-    "impact_score": 7
-  },
-  {
-    "title": "La “aerolínea del pueblo” y la fiebre del oro de la IA empresarial",
-    "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-    "industry": "AI, Enterprise Software",
-    "summary": "Anthropic y OpenAI están anunciando empresas conjuntas dirigidas a la implementación de IA empresarial y SAP invierte mil millones de dólares en la startup alemana de IA Prior Labs, lo que indica una tendencia hacia la adopción de IA empresarial.",
-    "charlotte_impact": "Esta oleada de actividad en el espacio de la IA empresarial significa que muchas empresas ahora se están dando cuenta del poder de la IA. Esto conducirá a la innovación en varias industrias a medida que la IA se aplique a problemas del mundo real. También puede propiciar la consolidación de soluciones de IA bajo el paraguas de empresas tecnológicas más grandes.",
-    "impact_score": 8
   },
   {
     "title": "La IA de voz en India es difícil: Wispr Flow apuesta por ella de todos modos",
     "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
-    "industry": "AI, Voice Tech, India",
-    "summary": "Wispr Flow está experimentando un crecimiento en India después de lanzar su IA de voz en hinglish, a pesar de que la IA de voz enfrenta algunos obstáculos.",
-    "charlotte_impact": "La adaptación localizada de los servicios de voz de IA subraya la importancia del contexto lingüístico y cultural en el desarrollo de la IA.  El éxito en mercados como el de la India demuestra el potencial de las soluciones de IA específicas que abordan las necesidades locales e impulsan la adopción. Los desafíos que enfrenta indican que es necesario trabajar más para personalizarlo para cada región.",
+    "industry": "Voice AI/India",
+    "summary": "Wispr Flow informa un crecimiento acelerado en India después de su lanzamiento en Hinglish, lo que indica el potencial de la IA de voz en mercados multilingües y los desafíos que enfrentan los productos de IA de voz en diversos entornos lingüísticos.",
+    "charlotte_impact": "El éxito de Wispr Flow demuestra la oportunidad que tiene la IA de mejorar la accesibilidad en entornos multilingües, particularmente en los mercados emergentes. La localización y la atención al uso mixto de idiomas son fundamentales para captar cuota de mercado.",
     "impact_score": 6
   },
   {
-    "title": "Nos sentimos cínicos ante el gran acuerdo de xAI con Anthropic",
-    "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
-    "industry": "AI, Business Deals",
-    "summary": "En el podcast de Equity surgieron inquietudes y preguntas sobre el gran acuerdo de xAI con Anthropic.",
-    "charlotte_impact": "Esto pone de relieve las complejidades y los posibles obstáculos de las asociaciones estratégicas en el espacio de la IA. Los líderes empresariales deben actuar con cuidado en el panorama de la IA en rápida evolución, ya que no todas las asociaciones serán buenas.",
-    "impact_score": 5
+    "title": "Quantum Computing Inc. informa los resultados financieros del primer trimestre de 2026",
+    "url": "https://www.prnewswire.com/news-releases/quantum-computing-inc-reports-first-quarter-2026-financial-results-302768603.html",
+    "industry": "Quantum Computing/Finance",
+    "summary": "Quantum Computing Inc. informa un aumento de ingresos en el primer trimestre de 2026 y completa adquisiciones estratégicas para ofrecer soluciones cuánticas y fotónicas prácticas, finalizando el trimestre con 1.400 millones de dólares en efectivo.",
+    "charlotte_impact": "Las finanzas de QCI indican una inversión sostenida en computación cuántica, un componente central de las futuras aplicaciones de IA. La solidez financiera de la empresa refuerza el valor de la tecnología cuántica como factor clave en el avance tecnológico.",
+    "impact_score": 6
   },
   {
-    "title": "Cómo el Hermes AIOS de código abierto aprende realmente de sus flujos de trabajo",
-    "url": "https://www.geeky-gadgets.com/local-ai-agent-productivity/",
-    "industry": "AI, Open Source",
-    "summary": "El sistema operativo Hermes Agentic (AIOS) es una plataforma de código abierto diseñada para admitir inteligencia artificial autónoma con un enfoque en la adaptabilidad y el control del usuario.",
-    "charlotte_impact": "La IA de código abierto tiene muchos beneficios, incluida una colaboración y pruebas más abiertas. Agentic OS puede transformar la forma en que se desarrolla el software y probablemente verá una mayor adopción empresarial a medida que mejore.",
+    "title": "ZyAlpha lanza un robot de comercio de criptomonedas con IA: una forma más inteligente de automatizar la inversión en activos digitales",
+    "url": "https://www.globenewswire.com/news-release/2026/05/11/3292338/0/en/ZyAlpha-Launches-AI-Crypto-Trading-Bot-A-Smarter-Way-to-Automate-Digital-Asset-Investing.html",
+    "industry": "FinTech/AI",
+    "summary": "ZyAlpha lanza un robot de comercio de cifrado con IA, que simplifica la inversión automatizada tanto para principiantes como para operadores experimentados.",
+    "charlotte_impact": "El bot de ZyAlpha refuerza la tendencia de la IA en las tecnologías financieras y las inversiones, y señala una posible expansión del mercado en herramientas comerciales impulsadas por la IA. Queda por ver si mejora los resultados comerciales y aumenta la confianza en la inversión tanto para los principiantes como para los operadores experimentados.",
+    "impact_score": 6
+  },
+  {
+    "title": "Kaltura anuncia resultados financieros para el primer trimestre de 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/05/11/3292305/0/en/Kaltura-Announces-Financial-Results-for-First-Quarter-2026.html",
+    "industry": "Media/AI",
+    "summary": "Kaltura muestra su tecnología interactiva de avatar de IA agente en una presentación actualizada para inversores.",
+    "charlotte_impact": "El trabajo de Kaltura muestra el potencial de la IA para transformar el contenido y las comunicaciones en el sector de los medios. El desarrollo señala un futuro en el que los avatares interactivos y de inteligencia artificial podrían desempeñar un papel importante en el compromiso digital.",
+    "impact_score": 6
+  },
+  {
+    "title": "Acciones estadounidenses hoy: S&P 500 pulgadas para cerrar al alza, el fervor de la IA supera el estancamiento de Irán",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-sp-500-inches-to-higher-close-ai-fervor-edges-out-iran-impasse/articleshow/131023447.cms",
+    "industry": "Finance/Investment",
+    "summary": "Las acciones estadounidenses cerraron ligeramente al alza, ya que el impulso impulsado por la IA impulsó a las acciones de semiconductores, incluso cuando el aumento de los precios del crudo y el estancamiento de las conversaciones entre Estados Unidos e Irán mantuvieron vivas las preocupaciones sobre la inflación.",
+    "charlotte_impact": "Esta noticia indica que el sentimiento de los inversores se centra en el valor potencial y las oportunidades de crecimiento de la IA. Si bien existen preocupaciones macroeconómicas, la promesa de la IA está impulsando la dinámica del mercado, que puede ser temporal.",
     "impact_score": 6
   }
 ]
