@@ -1,162 +1,130 @@
 [
   {
-    "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
-    "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
-    "industry": "Customer Support, AI",
-    "summary": "AI voice startup Vapi has reached a $500M valuation after its AI platform was selected by Amazon Ring over 40 competitors.  The company's enterprise business has grown tenfold since early 2025, driven by the shift to AI agents for customer support and sales.",
-    "charlotte_impact": "This signals a significant shift towards AI-powered customer service solutions.  Companies will likely increase investment in conversational AI platforms, leading to improved efficiency, reduced operational costs, and potentially higher customer satisfaction.  It will accelerate the displacement of traditional call center jobs and the emergence of new roles focused on AI agent management and optimization.",
+    "title": "Amazon launches an AI shopping assistant for the search bar, powered by Alexa+",
+    "url": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/",
+    "industry": "Retail",
+    "summary": "Amazon has launched 'Alexa for Shopping,' an AI shopping assistant integrated into its search bar across various devices. It offers personalized recommendations and automates shopping across multiple online retailers, enhancing user convenience.",
+    "charlotte_impact": "This impacts e-commerce businesses by increasing the pressure to offer more personalized and seamless shopping experiences. Retailers will need to invest in AI-driven solutions to compete with Amazon's AI-powered shopping assistant, potentially leading to increased demand for AI development and consulting services, and accelerated consolidation in the retail tech sector.",
+    "impact_score": 8
+  },
+  {
+    "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
+    "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
+    "industry": "AI",
+    "summary": "According to Ramp data, Anthropic now has more business customers (34.4%) than OpenAI (32.3%). This shift indicates a growing preference for Anthropic's AI solutions among businesses.",
+    "charlotte_impact": "This signals increasing competition in the AI provider landscape. It encourages businesses to evaluate different AI solutions carefully before implementation, and could push OpenAI to innovate faster and improve its enterprise offerings to regain market share. This could also affect VC and PE investments in AI firms.",
     "impact_score": 9
   },
   {
     "title": "Google brings agentic AI and vibe-coded widgets to Android",
     "url": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
-    "industry": "Mobile Technology, AI",
-    "summary": "Google is integrating agentic AI capabilities and dynamically updated widgets into its Android operating system. Gemini Intelligence will be integrated into Gboard, providing dictation and form-filling functionalities.",
-    "charlotte_impact": "This move will significantly impact user experience on Android devices.  Businesses building Android apps will need to leverage these new AI capabilities to create more intelligent and personalized experiences for their customers.  The increased convenience and efficiency offered by these AI features could further solidify Android's dominance in the mobile operating system market.",
+    "industry": "Technology",
+    "summary": "Google is introducing agentic AI capabilities and vibe-coded widgets to Android, powered by Gemini Intelligence.  This update enhances Gboard with dictation and form-filling features.",
+    "charlotte_impact": "This further entrenches AI into the mobile operating system and daily routines. Expect increased user expectations for AI-driven personalization and automation in mobile apps and services, driving app developers to integrate AI more deeply to stay competitive. It could also lead to increased demand for AI talent in Android app development.",
+    "impact_score": 7
+  },
+  {
+    "title": "Musk\u2019s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
+    "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
+    "industry": "Energy, AI",
+    "summary": "Musk's xAI is reportedly using nearly 50 gas turbines unchecked at its Mississippi data center, sparking a lawsuit. The issue revolves around the company using 'mobile' gas turbines as power plants.",
+    "charlotte_impact": "This raises concerns about the environmental impact and energy consumption of large-scale AI operations. It highlights the need for more sustainable energy solutions for AI infrastructure, potentially driving innovation in green energy technologies and increasing scrutiny of energy-intensive AI deployments by regulatory bodies and the public. Expect a push for more efficient AI algorithms and hardware.",
     "impact_score": 8
+  },
+  {
+    "title": "Anthropic\u2019s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are",
+    "url": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
+    "industry": "AI",
+    "summary": "Anthropic's Cat Wu suggests the next significant step in AI development is proactivity, where AI anticipates user needs before they are explicitly stated. This represents a shift towards more intuitive and personalized AI experiences.",
+    "charlotte_impact": "This vision will fuel the demand for more sophisticated AI models capable of predictive analysis and personalized interaction. Businesses will likely increase investment in AI research and development to achieve this level of proactivity, leading to a potential competitive advantage for companies that can successfully implement this approach.",
+    "impact_score": 7
+  },
+  {
+    "title": "Origin Lab raises $8M to help video game companies sell data to world-model builders",
+    "url": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/",
+    "industry": "Gaming, AI",
+    "summary": "Origin Lab has secured $8M in funding to create a marketplace for video game companies to sell data to AI labs for training world models. This facilitates access to high-quality licensed data for AI development.",
+    "charlotte_impact": "This creates a new revenue stream for video game companies and addresses the growing demand for training data for AI models. It formalizes the data supply chain and could increase collaboration between the gaming and AI industries. Expect a more structured approach to data acquisition for AI development and increased valuation of data assets.",
+    "impact_score": 6
+  },
+  {
+    "title": "Poppy debuts a proactive AI assistant to help organize your digital life",
+    "url": "https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/",
+    "industry": "Productivity, AI",
+    "summary": "Poppy, a new AI-powered app, proactively organizes users' digital lives by connecting calendars, emails, messages, and other services.  It provides reminders, suggestions, and tasks based on real-time information.",
+    "charlotte_impact": "This will likely increase the demand for AI-powered personal assistants to manage information overload. It could lead to the development of more sophisticated AI tools that seamlessly integrate with various online services to improve productivity and efficiency for individuals and businesses.",
+    "impact_score": 6
   },
   {
     "title": "Adaption aims big with AutoScientist, an AI tool that helps models train themselves",
     "url": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
-    "industry": "AI Model Training",
-    "summary": "Adaption has launched AutoScientist, an AI tool that automates the process of fine-tuning AI models to specific capabilities.  The tool allows models to adapt to specific tasks quickly and efficiently through an automated approach to conventional fine-tuning.",
-    "charlotte_impact": "AutoScientist can dramatically reduce the time and resources required to train AI models for specific enterprise applications. This could lead to faster deployment of AI-powered solutions across various industries, including finance, manufacturing, and healthcare.  The improved efficiency in model training will also allow companies to experiment with a wider range of AI applications, accelerating innovation.",
-    "impact_score": 8
+    "industry": "AI",
+    "summary": "Adaption has launched AutoScientist, an AI tool designed to automate model training. This tool allows models to adapt to specific capabilities quickly through automated fine-tuning.",
+    "charlotte_impact": "This will likely lower the cost and complexity of training AI models.  It could enable smaller companies and research institutions to develop specialized AI solutions more easily and potentially democratize AI model development. This technology can speed up AI innovation across sectors.",
+    "impact_score": 7
   },
   {
     "title": "Medicare\u2019s new payment model is built for AI, and most of the tech world has no idea",
     "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
-    "industry": "Healthcare, AI",
-    "summary": "Medicare's new ACCESS payment model is designed to reimburse healthcare providers for the use of AI agents in patient care.  This new model creates a financial mechanism to pay for AI-driven services such as patient monitoring, check-in calls, and care coordination.",
-    "charlotte_impact": "This new payment model will incentivize the adoption of AI-powered healthcare solutions.  Healthcare providers will be more likely to invest in AI agents to improve patient outcomes and reduce costs.  This could lead to better chronic disease management, more efficient resource allocation, and improved access to healthcare for underserved populations.",
+    "industry": "Healthcare",
+    "summary": "Medicare's new payment model, ACCESS, is designed to reimburse AI agents for patient monitoring and care coordination between visits. This creates a mechanism to pay for AI-driven healthcare services.",
+    "charlotte_impact": "This could revolutionize healthcare delivery by incentivizing the use of AI-powered tools to improve patient outcomes and reduce healthcare costs. It opens opportunities for AI companies to develop and deploy AI agents in healthcare, potentially improving access to care and transforming patient monitoring and management.",
     "impact_score": 9
   },
   {
     "title": "The AI legal services industry is heating up \u2014 Anthropic is getting in on the action",
     "url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
-    "industry": "Legal Services, AI",
-    "summary": "Anthropic is entering the AI legal services industry with new tools designed to automate clerical functions for law firms. These tools will assist with tasks such as document search and review, case law research, deposition preparation, and document drafting.",
-    "charlotte_impact": "AI will significantly alter the legal profession by automating routine tasks.  Law firms will be able to handle larger caseloads with fewer personnel, leading to increased efficiency and reduced costs.  However, it may also lead to job displacement for legal professionals who perform these routine tasks. Law firms will need to adapt by focusing on higher-level legal strategy and client relationship management.",
+    "industry": "Legal",
+    "summary": "Anthropic is expanding into the AI legal services industry with tools to automate clerical functions for law firms, such as document search and review, deposition prep, and document drafting.",
+    "charlotte_impact": "This will disrupt the legal services industry by automating routine tasks, potentially leading to greater efficiency and reduced costs for law firms. It could also change the skills required for legal professionals, with increased demand for expertise in AI and data analysis. Smaller firms must adapt to the changing landscape to remain competitive.",
     "impact_score": 7
   },
   {
-    "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
-    "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
-    "industry": "Automotive, AI",
-    "summary": "General Motors (GM) has laid off hundreds of IT workers to hire those with stronger AI skills.  The new positions focus on AI-native development, data engineering and analytics, and agent and model development.",
-    "charlotte_impact": "GM's restructuring highlights the increasing demand for AI talent across industries. This trend is forcing companies to reskill their existing workforce and actively recruit AI specialists. The long-term implications include rising salaries for AI professionals and a potential shortage of qualified candidates, requiring significant investment in AI education and training programs.",
-    "impact_score": 8
-  },
-  {
-    "title": "Digg tries again, this time as an AI news aggregator",
-    "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
-    "industry": "News Aggregation, AI",
-    "summary": "Digg is attempting a comeback as an AI-powered news aggregator. The site aims to track the most influential voices in a space and surface the news that's worth paying attention to.",
-    "charlotte_impact": "AI's integration into news aggregation can filter out the noise and provide more relevant and trustworthy information. The quality and fairness of AI-driven news aggregation depend on the algorithms and data sources used. If successful, Digg could reshape how users consume news and discover information.",
+    "title": "Spectral AI Announces 2026 First Quarter Financial Results",
+    "url": "https://www.globenewswire.com/news-release/2026/05/12/3293412/0/en/Spectral-AI-Announces-2026-First-Quarter-Financial-Results.html",
+    "industry": "Healthcare, Defense",
+    "summary": "Spectral AI announced its 2026 first quarter financial results, highlighting continued development work for DeepView\u00ae Systems with support from recently awarded $31.7 million in funding from BARDA.",
+    "charlotte_impact": "Continued investment and growth in AI-powered medical imaging, with likely acceleration of development and deployment of DeepView systems in clinical and potentially military settings. This indicates strong government backing and demand for advanced diagnostic tools.",
     "impact_score": 6
   },
   {
-    "title": "There aren\u2019t enough rockets for space data centers \u2014 Cowboy Space raised $275M to build them",
-    "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
-    "industry": "Data Centers, Space Technology, AI",
-    "summary": "Cowboy Space has raised $275 million to build space data centers due to the high demand for AI compute. A significant bottleneck is the lack of affordable and available rockets.",
-    "charlotte_impact": "The pursuit of space-based data centers reflects the intense demand for AI compute resources. Overcoming the challenges of launching and maintaining these facilities could revolutionize data processing and storage, particularly for latency-sensitive AI applications. If successful, it will be a major boost for space technology and AI infrastructure.",
+    "title": "Workday, Anthropic, and Local Initiatives Support Corporation (LISC) Launch AI-Focused Solopreneurship Accelerator Program",
+    "url": "https://www.prnewswire.com/news-releases/workday-anthropic-and-local-initiatives-support-corporation-lisc-launch-ai-focused-solopreneurship-accelerator-program-302770030.html",
+    "industry": "Social Impact, AI",
+    "summary": "Workday, Anthropic, and LISC launched an AI-focused solopreneurship accelerator program, providing $150,000 in seed funding, AI skills training, and free Claude AI credit access to aspiring small business owners.",
+    "charlotte_impact": "This program seeks to empower small business owners with AI skills and tools, promoting entrepreneurship and economic opportunity. Expect to see the emergence of new AI-driven solopreneurial ventures and a shift towards AI-enhanced business models for small businesses, particularly among underserved communities.",
     "impact_score": 7
   },
   {
-    "title": "Google disrupts hackers using AI to exploit an unknown weakness in a company's digital defense",
-    "url": "https://abcnews.com/Business/wireStory/google-disrupts-hackers-ai-exploit-unknown-weakness-companys-132845519",
-    "industry": "Cybersecurity, AI",
-    "summary": "Google disrupted a criminal group using AI to exploit a previously unknown digital vulnerability in a company's defense system. This adds to concerns about AI's role in both offensive and defensive cybersecurity.",
-    "charlotte_impact": "This incident highlights the dual-edged nature of AI in cybersecurity.  Companies must invest in AI-powered security solutions to defend against increasingly sophisticated AI-driven attacks.  It will also increase pressure on cybersecurity experts and resources to develop AI-driven solutions.",
-    "impact_score": 8
-  },
-  {
-    "title": "Red Hat expands agentic AI strategy with new inference, automation and sovereignty capabilities",
-    "url": "https://siliconangle.com/2026/05/12/red-hat-targets-enterprise-deployment-new-version-ai-platform/",
-    "industry": "Enterprise AI, Cloud Computing",
-    "summary": "Red Hat is expanding its agentic AI strategy with new inference, automation, and sovereignty capabilities. The company is unveiling product and partnership announcements aimed at helping enterprises deploy AI, modernize infrastructure, and extend open-source platforms.",
-    "charlotte_impact": "Red Hat's advancements will make it easier for enterprises to integrate AI into their existing infrastructure. Lowering the barrier of entry helps drive wider adoption. The focus on sovereignty ensures compliance with regional data privacy regulations, a crucial aspect for global businesses.",
-    "impact_score": 7
-  },
-  {
-    "title": "IQST - IQSTEL Announces Adoption of Its Proprietary AI Agents by Leading European Companies in Partnership with Alhambra IT",
-    "url": "https://www.prnewswire.com/news-releases/iqst---iqstel-announces-adoption-of-its-proprietary-ai-agents-by-leading-european-companies-in-partnership-with-alhambra-it-302769373.html",
-    "industry": "Telecommunications, AI",
-    "summary": "IQSTEL is announcing the adoption of its proprietary AI agents by leading European companies in partnership with Alhambra IT. IQSTEL aims to become a major player in digital distribution through telecom operators with high-margin AI services.",
-    "charlotte_impact": "This highlights the increasing adoption of AI agents in the telecommunications sector. IQSTEL's growth and partnerships will likely create revenue opportunities and AI-driven efficiency improvements to the industry. Increased adoption will likely lead to more tailored offerings that are AI enabled.",
+    "title": "What to expect during VeeamON: Join theCUBE May 14",
+    "url": "https://siliconangle.com/2026/05/12/veeam-data-resilience-veeamon/",
+    "industry": "Data Management",
+    "summary": "VeeamON highlights the increasing importance of data resilience in the age of AI, as AI reshapes data creation, movement, and exposure.",
+    "charlotte_impact": "Businesses will increasingly need to prioritize data resilience strategies to protect against AI-related data risks, such as bias, manipulation, and security breaches. This drives demand for advanced data backup, recovery, and governance solutions, leading to growth in the data management and cybersecurity sectors.",
     "impact_score": 6
   },
   {
-    "title": "Dessn raises $6M for its production-focused design tool",
-    "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
-    "industry": "Software Development, AI",
-    "summary": "Dessn raises $6M to build AI-powered design tools that integrate directly with production codebases.",
-    "charlotte_impact": "AI-powered design tools that integrate with codebases have the potential to streamline the design and development process, leading to faster iterations and higher-quality software. This is particularly relevant to companies with large, complex codebases.",
+    "title": "Pomerantz Law Firm Announces the Filing of a Class Action Against Upstart Holdings, Inc. and Certain Officers \u2013 UPST",
+    "url": "https://www.globenewswire.com/news-release/2026/05/12/3293426/1087/en/Pomerantz-Law-Firm-Announces-the-Filing-of-a-Class-Action-Against-Upstart-Holdings-Inc-and-Certain-Officers-UPST.html",
+    "industry": "Finance",
+    "summary": "Pomerantz Law Firm announced the filing of a class action lawsuit against Upstart Holdings, Inc. related to its lending practices.",
+    "charlotte_impact": "This raises concerns about transparency, data practices, and bias in the application of AI within fintech. It will force companies to defend their use of AI. Such lawsuits can negatively impact public perception of AI applications, potentially affecting the broader AI finance industry and increase scrutiny of AI lending algorithms.",
+    "impact_score": 5
+  },
+  {
+    "title": "Canada\u2019s Biggest Sports Network Caught Using A.I.-Generated Pictures Of Nick Suzuki\u2019s Wife And Baby",
+    "url": "https://brobible.com/sports/article/sportsnet-nick-suzuki-ai-generated-wife-baby-pictures/",
+    "industry": "Sports, Media",
+    "summary": "Canada\u2019s Biggest Sports Network was caught using AI-Generated Pictures of Nick Suzuki\u2019s Wife and Baby because no public images were available.",
+    "charlotte_impact": "This highlights potential misuse of AI in media, raises ethical questions of AI generated images of real people, and damages public trust in media outlets.",
+    "impact_score": 5
+  },
+  {
+    "title": "VeriGrain Launches AI Tool to Improve Yields and Reduce Fertilizer Costs",
+    "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/verigrain-launches-ai-tool-to-improve-yields-and-reduce-fertilizer-costs",
+    "industry": "Agriculture",
+    "summary": "VeriGrain Launches AI Tool to Improve Yields and Reduce Fertilizer Costs for farmers.",
+    "charlotte_impact": "This will likely increase the demand for AI-powered personal assistants to manage information overload. It could lead to the development of more sophisticated AI tools that seamlessly integrate with various online services to improve productivity and efficiency for individuals and businesses.",
     "impact_score": 6
-  },
-  {
-    "title": "Riding an AI rally, Robinhood preps second retail venture IPO",
-    "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
-    "industry": "Venture Capital, Finance",
-    "summary": "Robinhood files confidentially for its second venture fund, focusing on growth and early-stage startups within an AI rally. The funding will capitalize on AI and Machine Learning enabled companies.",
-    "charlotte_impact": "Robinhood's move will funnel more capital into growth and early-stage AI companies, potentially inflating valuations in the short term but also spurring innovation and competition. This will benefit startups seeking funding, especially those in the AI space.",
-    "impact_score": 6
-  },
-  {
-    "title": "Threads tests a Meta AI integration that works similarly to Grok",
-    "url": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
-    "industry": "Social Media, AI",
-    "summary": "Threads is testing a Meta AI integration that provides real-time context about trends and breaking stories, as well as recommendations.",
-    "charlotte_impact": "Integrating AI into social media platforms like Threads enhances user experience, and will provide improved content discovery, and engagement. Meta's AI feature will also give them a competitive edge over platforms that do not offer native AI features.",
-    "impact_score": 6
-  },
-  {
-    "title": "Thinking Machines wants to build an AI that actually listens while it talks",
-    "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
-    "industry": "Artificial Intelligence",
-    "summary": "Thinking Machines is developing an AI model that processes input and generates responses simultaneously, mimicking a real-time phone call rather than a text chain. This changes how AI will interact with users going forward.",
-    "charlotte_impact": "By producing a model to listen while it speaks, Thinking Machines could significantly change how AI models interact with users in the future. This improved conversational dynamic may encourage the development of AI applications that can facilitate actual back and forth dialogue. Conversational and personable AI interfaces may also become more widely adopted.",
-    "impact_score": 7
-  },
-  {
-    "title": "Anthropic warns investors against secondary platforms offering access to its shares",
-    "url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
-    "industry": "Finance, AI",
-    "summary": "Anthropic is warning investors against secondary platforms selling its shares, stating such transactions will not be recognized.",
-    "charlotte_impact": "The warning from Anthropic will likely add scrutiny and regulation, not only for Anthropic shareholders, but for other AI firms as well. There are several financial services that are developing AI trading models, so this issue is likely to arise often. This is particularly true in the AI technology landscape.",
-    "impact_score": 5
-  },
-  {
-    "title": "DeepIntent Appoints Ian Colley as Chief Marketing Officer",
-    "url": "https://www.prnewswire.com/news-releases/deepintent-appoints-ian-colley-as-chief-marketing-officer-302769023.html",
-    "industry": "Healthcare, Marketing, AI",
-    "summary": "DeepIntent Appoints Ian Colley as Chief Marketing Officer. Leadership will be geared toward Data-Driven Solutions.",
-    "charlotte_impact": "With Ian Colley as DeepIntent's new CMO, this likely signals a deeper focus on leveraging data-driven strategies within healthcare marketing. The overall economic and industry impacts will focus on more precise campaigns that are optimized for better patient reach, engagement, and outcomes.",
-    "impact_score": 5
-  },
-  {
-    "title": "The Micro-Enterprise Explosion",
-    "url": "https://bradenkelley.com/2026/05/the-micro-enterprise-explosion/",
-    "industry": "Economy, Business, AI",
-    "summary": "Generative AI may bring entrepreneurship opportunities to micro-enterprises. The question is no longer if, but how can everyone adjust to the shift.",
-    "charlotte_impact": "This AI soft landing scenario will boost entrepreneurship and the micro-enterprise movement. AI has lowered the barrier of entry into various spaces, as it can streamline and automate various routine tasks. ",
-    "impact_score": 5
-  },
-  {
-    "title": "CSU Global Partners With InScribe to Power Peer Connection for Online Learners",
-    "url": "https://www.prnewswire.com/news-releases/csu-global-partners-with-inscribe-to-power-peer-connection-for-online-learners-302767756.html",
-    "industry": "Education, Technology, AI",
-    "summary": "CSU Global Partners With InScribe to Power Peer Connection for Online Learners. Will improve student engagement, retention, and online learner success.",
-    "charlotte_impact": "Inscribe and CSU's parternship will promote peer to peer engagements for online students, which may boost student retention. By building community in the online space, engagement levels are set to rise as well. AI's enablement in education may set precedence for other universities.",
-    "impact_score": 5
-  },
-  {
-    "title": "Inuvo Strengthens IntentKey Leadership Team to Advance Growth and Execution",
-    "url": "https://www.globenewswire.com/news-release/2026/05/12/3292822/0/en/Inuvo-Strengthens-IntentKey-Leadership-Team-to-Advance-Growth-and-Execution.html",
-    "industry": "Marketing, Business, AI",
-    "summary": "Inuvo Strengthens IntentKey Leadership Team to Advance Growth and Execution. Will expand market positioning of company.",
-    "charlotte_impact": "This will create more market expansion opportunities with Inuvo, which will likely boost customer acquisition, revenue, and business growth. Since there are leadership appointments, this will likely improve the company's infrastructure and overall growth trajectory.",
-    "impact_score": 5
   }
 ]
