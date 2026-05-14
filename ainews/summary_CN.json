@@ -1,162 +1,138 @@
 [
   {
+    "title": "当人工智能开始自我构建时会发生什么？",
+    "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
+    "industry": "Artificial Intelligence",
+    "summary": "理查德·索彻（Richard Socher）的新初创公司旨在开发一种能够自我改进和产品创造的人工智能。这个雄心勃勃的项目凸显了人们对创建能够执行研发任务的自主人工智能代理的日益关注。",
+    "charlotte_impact": "自我完善的人工智能的发展可以通过自动化目前由人类研究人员和开发人员担任的许多基于知识的工作来显着改变劳动力市场。这可能会提高生产力和创新，但也需要仔细考虑劳动力转型和再培训计划。",
+    "impact_score": 9
+  },
+  {
+    "title": "据报道，OpenAI 正准备对苹果采取法律行动；它不会是第一个感到被烧伤的合作伙伴",
+    "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+    "industry": "Technology",
+    "summary": "据报道，OpenAI 正在考虑对苹果采取法律行动，这表明随着人工智能越来越融入现有的技术生态系统，可能会出现潜在的冲突和紧张的合作关系。这标志着人工智能领域主要参与者之间的紧张关系日益加剧。",
+    "charlotte_impact": "如果属实，此类法律行动将为人工智能公司和平台提供商如何合作（或冲突）树立先例。企业应仔细审查合作伙伴协议，并预测随着人工智能集成加深而出现的潜在冲突，这可能会影响人工智能服务的可用性和成本。",
+    "impact_score": 7
+  },
+  {
+    "title": "Cerebras 融资 5.5B 美元，股价上涨 108%，这是 2026 年首次大型科技 IPO",
+    "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+    "industry": "Finance, Technology",
+    "summary": "Cerebras 是一家专门从事人工智能硬件的公司，在 IPO 中筹集了 55 亿美元，标志着 2026 年人工智能行业的一个重要里程碑。这反映了投资者对专注于人工智能的硬件解决方案的强烈信心。",
+    "charlotte_impact": "Cerebras 的成功 IPO 可能会推动对人工智能硬件初创公司的进一步投资。竞争的加剧可能会带来更快的创新并降低人工智能基础设施的成本，从而使寻求部署人工智能解决方案的企业受益。这还可以吸引硬件工程及相关领域的人才并创造新的就业机会。",
+    "impact_score": 8
+  },
+  {
     "title": "亚马逊为搜索栏推出人工智能购物助手，由 Alexa+ 提供支持",
     "url": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/",
-    "industry": "Retail",
-    "summary": "亚马逊推出了由 Alexa+ 支持的人工智能购物助手，可提供个性化推荐，并通过语音和触摸在多个在线零售商之间自动购物。",
-    "charlotte_impact": "亚马逊的人工智能导购加剧了电商平台之间的竞争。零售商将需要投资人工智能驱动的个性化以维持市场份额，从而影响营销和客户服务预算。这可能会导致对人工智能专家的需求增加，并可能影响在线广告的定价策略。",
-    "impact_score": 8
+    "industry": "Retail, Technology",
+    "summary": "亚马逊推出了由 Alexa+ 支持的人工智能购物助手，跨多个平台提供个性化推荐和自动化购物体验。此举表明人工智能在增强客户体验和简化零售运营方面日益重要。",
+    "charlotte_impact": "人工智能购物助手的引入可能会加剧零售业的竞争，企业将重点关注个性化和便利性来吸引顾客。未能采用类似人工智能解决方案的零售商可能会落后，而消费者则可以期待更加定制和高效的购物体验。",
+    "impact_score": 7
   },
   {
     "title": "Ramp 数据显示，Anthropic 现在比 OpenAI 拥有更多的商业客户",
     "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
-    "industry": "AI Model Providers",
-    "summary": "根据 Ramp 的数据，Anthropic 目前拥有比 OpenAI 更多的企业客户，其中 34.4% 的企业为 Anthropic 的服务付费，而 OpenAI 的这一比例为 32.3%。",
-    "charlotte_impact": "Anthropic的崛起对OpenAI的统治地位构成了直接挑战。企业现在有了一个可行的替代方案，可以推动有竞争力的定价和功能开发。这影响了人工智能工具在各个领域的采用，鼓励企业尝试不同的人工智能解决方案。",
+    "industry": "Artificial Intelligence",
+    "summary": "根据 Ramp 数据，Anthropic 现在比 OpenAI 拥有更多的商业客户。这表明 Anthropic 的人工智能模型正在企业市场中获得关注。",
+    "charlotte_impact": "Anthropic 不断增长的商业客户群标志着人工智能模型市场的竞争和选择不断增加。企业可以通过评估不同的人工智能提供商来找到最适合其特定需求的提供商，并有可能协商更优惠的价格和条款，从而受益。",
+    "impact_score": 8
+  },
+  {
+    "title": "思科裁员近 4,000 人，以增加人工智能投入，报告“创纪录的季度收入”",
+    "url": "https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/",
+    "industry": "Technology",
+    "summary": "尽管季度营收创历史新高，但思科仍将裁员近 4,000 人，以对人工智能进行再投资。这一战略转变凸显了人工智能日益增长的重要性以及老牌公司重组以充分利用其潜力的意愿。",
+    "charlotte_impact": "思科的裁员凸显了随着公司优先考虑人工智能投资而导致工作岗位流失的可能性。虽然新的人工智能相关角色将会出现，但仍需要对劳动力进行再培训和提高技能，以适应不断变化的就业市场。其他大公司可能会效仿，从而导致一段重大转型期。",
     "impact_score": 9
   },
   {
-    "title": "到 2030 年，OpenAI 在与微软重新谈判的交易中节省了 97B 美元",
-    "url": "https://cryptobriefing.com/openai-saves-97b-microsoft-deal/",
-    "industry": "AI Investment",
-    "summary": "到 2030 年，OpenAI 在与微软重新谈判的交易中节省了 97B 美元，增强了财务可预测性，并有可能增强投资者信心和市场扩张。",
-    "charlotte_impact": "重新谈判的微软交易将极大地影响 OpenAI 的财务和长期战略。这种财务灵活性将有助于进一步的研究和开发工作，并增强市场主导地位。",
-    "impact_score": 8
+    "title": "Wirestock 融资 2300 万美元，为人工智能实验室提供创意多模式数据",
+    "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/",
+    "industry": "Data, Artificial Intelligence",
+    "summary": "Wirestock 筹集了 2300 万美元，用于向 AI 实验室提供创造性的多模式数据。这凸显了对训练人工智能模型的高质量数据的需求不断增长。",
+    "charlotte_impact": "对多模式数据的需求正在为 Wirestock 等公司创造新的商机。内容创作者和数据提供商可以利用这一趋势，将其资产授权给人工智能实验室，产生新的收入来源并为人工智能技术的进步做出贡献。",
+    "impact_score": 7
   },
   {
     "title": "Notion刚刚将其工作空间变成了人工智能代理的中心",
     "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
-    "industry": "Productivity Software",
-    "summary": "Notion 已将其工作空间转变为 AI 代理的中心，允许团队将 AI 代理、外部数据源和自定义代码直接连接到他们的工作流程中。",
-    "charlotte_impact": "Notion 进军人工智能代理集成领域，简化了工作流程并提高了企业的生产力。这将增加其他生产力平台提供类似人工智能功能的压力，并可能导致工作管理和执行方式的转变。",
+    "industry": "Productivity, Artificial Intelligence",
+    "summary": "Notion 推出了一个开发者平台，让团队可以将人工智能代理、外部数据源和自定义代码直接连接到他们的工作空间中。此举旨在使该平台成为人工智能代理的中心，从而提高生产力。",
+    "charlotte_impact": "Notion 向人工智能代理中心的转变标志着企业向更代理的工作流程的转变。企业可以利用这些集成来自动化任务、改进决策并提高整体生产力，从而创造显着的竞争优势。",
     "impact_score": 7
   },
   {
     "title": "马斯克的 xAI 在其密西西比州数据中心运行着近 50 台未经检查的燃气轮机",
     "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
-    "industry": "AI Infrastructure",
-    "summary": "马斯克的 xAI 在其密西西比数据中心未经检查地运行着近 50 台燃气轮机，导致该公司因使用“移动”燃气轮机作为发电厂而引发诉讼。",
-    "charlotte_impact": "围绕 xAI 数据中心的争议引发了人们对人工智能基础设施能源消耗的环境担忧。这个问题可能会导致对人工智能公司的能源使用和排放进行更严格的监管，从而影响大规模人工智能运营的成本并加速清洁能源的采用。",
+    "industry": "Energy, Artificial Intelligence",
+    "summary": "马斯克的 xAI 因其使用燃气轮机为其密西西比州数据中心供电而面临诉讼，引发了人们对环境影响和监管合规性的担忧。这凸显了人工智能基础设施的能源需求和潜在的环境后果。",
+    "charlotte_impact": "xAI 的情况凸显了可持续能源解决方案对人工智能发展的重要性。企业和社区应优先考虑可再生能源和节能数据中心设计，以尽量减少人工智能基础设施的环境足迹。这也将创造对绿色能源技术的需求。",
     "impact_score": 6
   },
   {
     "title": "Anthropic 的 Cat Wu 表示，未来，人工智能将在你知道需求是什么之前预测你的需求",
     "url": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
-    "industry": "AI Trends",
-    "summary": "Anthropic 的 Cat Wu 表示，人工智能的下一个重要步骤是主动行动，在明确表述用户需求之前预测用户的需求。",
-    "charlotte_impact": "向主动式人工智能的转变可能会重塑各种应用程序的用户体验。企业需要投资开发能够预测用户行为并提供个性化建议的人工智能模型，这需要更深入地了解用户数据和隐私。",
+    "industry": "Artificial Intelligence",
+    "summary": "Anthropic 的 Cat Wu 预测，人工智能将在用户意识到之前预测他们的需求。这反映出人们越来越重视主动式人工智能和个性化体验。",
+    "charlotte_impact": "如果实现，主动式人工智能可以通过预测需求并提供及时的帮助来彻底改变客户服务、医疗保健和其他行业。然而，这也引发了对隐私、自主权和操纵可能性的道德担忧。",
     "impact_score": 7
   },
   {
     "title": "Origin Lab 融资 800 万美元，帮助视频游戏公司向世界模型构建者出售数据",
     "url": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/",
-    "industry": "AI Data Marketplaces",
-    "summary": "Origin Lab 筹集了 800 万美元来创建一个市场，视频游戏公司可以将数据出售给世界模型构建者以进行人工智能培训。",
-    "charlotte_impact": "像 Origin Lab 这样的数据市场的出现为视频游戏公司创造了新的收入来源，同时为人工智能实验室提供了高质量的训练数据。这促进了更复杂的人工智能模型的发展，加速了人工智能在各行业的应用。",
+    "industry": "Video Games, Artificial Intelligence",
+    "summary": "Origin Lab 筹集了 800 万美元，帮助视频游戏公司向世界模型构建者出售数据。这一发展认识到视频游戏数据在训练各种应用的人工智能方面的价值。",
+    "charlotte_impact": "这可能会为视频游戏开发商带来新的收入来源。人工智能实验室越来越多地利用视频游戏数据来训练模型，特别是模拟和强化学习应用程序，从而为游戏行业带来可观的收入。",
     "impact_score": 7
   },
   {
-    "title": "Poppy 推出主动式人工智能助手，帮助组织您的数字生活",
-    "url": "https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/",
-    "industry": "Personal AI Assistants",
-    "summary": "Poppy 推出了主动式人工智能助手，帮助组织数字生活，连接日历、电子邮件、消息和其他服务来显示提醒、建议和任务。",
-    "charlotte_impact": "主动的个人人工智能助理可能会在管理日常任务和提高生产力方面变得越来越受欢迎。这增加了生产力应用程序市场的竞争，并且可能需要改进数据隐私和安全措施。",
+    "title": "谷歌将人工智能带出聊天窗口",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/google-breaks-ai-out-of-the-chat-window/",
+    "industry": "Artificial Intelligence",
+    "summary": "谷歌 DeepMind 正在开发“AI Pointer”，旨在让鼠标指针了解用户看到的内容，而不仅仅是他们看向的地方。这表明人工智能交互可能会转向更多的情境感知。",
+    "charlotte_impact": "上下文感知人工智能技术可能会在各种应用程序中带来更直观、更高效的用户界面。这将显着改善用户体验。采用这些增强界面的企业将能够提高生产力并提高用户满意度。",
     "impact_score": 6
   },
   {
-    "title": "AutoScientist 的适应目标远大，这是一种帮助模型自我训练的人工智能工具",
-    "url": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
-    "industry": "AI Model Training",
-    "summary": "适应的目标是 AutoScientist，这是一种人工智能工具，可帮助模型通过自动化微调方法进行自我训练。",
-    "charlotte_impact": "像 AutoScientist 这样的自动化模型训练工具可以显着减少与人工智能开发相关的时间和成本。企业可以受益于更快的迭代周期以及快速调整人工智能模型以满足特定需求的能力，从而提高竞争力。",
-    "impact_score": 7
-  },
-  {
-    "title": "医疗保险的新支付模式是为人工智能而构建的，但大多数科技界并不知道",
-    "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
-    "industry": "Healthcare",
-    "summary": "医疗保险的新支付模式是为人工智能而构建的，创建了一个政府机制来支付人工智能代理的费用，这些代理可以监控患者、协调转诊并确保用药依从性。",
-    "charlotte_impact": "医疗保险的新支付模式为人工智能驱动的医疗保健解决方案带来了机会。医疗保健提供商和人工智能公司可以合作改善患者治疗结果、降低成本并自动化管理任务，从而影响医疗保健服务和患者护理。",
-    "impact_score": 9
-  },
-  {
-    "title": "Anthropic 警告投资者不要提供购买其股票的二级平台",
-    "url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
-    "industry": "AI Investment",
-    "summary": "Anthropic 警告投资者不要提供购买其股票的二级平台，并表示这些公司对 Anthropic 股票的任何出售或转让都不会得到认可。",
-    "charlotte_impact": "Anthropic 的警告强调了通过二级平台投资人工智能公司的相关风险。这可能会加强对二级市场交易的审查，并影响人工智能领域的投资策略，有可能将重点转向更加规范和透明的投资渠道。",
-    "impact_score": 5
-  },
-  {
-    "title": "Google 能否在 I/O 2026 上让我们惊叹不已？这就是它必须做对的事情",
-    "url": "https://www.cnet.com/tech/services-and-software/can-google-wow-us-at-io-2026-heres-what-it-has-to-get-right/",
-    "industry": "AI Platforms",
-    "summary": "所有人都在关注谷歌在面临信任问题的拥挤人工智能市场下一步将采取什么行动。",
-    "charlotte_impact": "这为其他人工智能平台占据主导地位创造了机会，因为谷歌由于现有的竞争和缺乏信任而面临着一场艰苦的战斗。",
-    "impact_score": 6
-  },
-  {
-    "title": "Tower Semi 预测季度营收乐观，签署 13 亿美元人工智能芯片交易",
-    "url": "https://www.channelnewsasia.com/business/tower-semi-forecasts-upbeat-quarterly-revenue-signs-13-billion-in-ai-chip-deals-6118706",
-    "industry": "Semiconductors",
-    "summary": "Tower Semiconductor 预测季度收入乐观，并表示 2027 年达成了 13 亿美元的交易，供应利用光通过人工智能数据中心高速传输数据的芯片。",
-    "charlotte_impact": "对人工智能专用芯片和组件的需求激增将加速半导体行业的增长，并导致芯片制造设施的投资增加。",
+    "title": "随着订单激增，思科将在以人工智能为重点的重组中裁员约 4,000 人",
+    "url": "https://www.channelnewsasia.com/business/cisco-cut-about-4000-jobs-in-ai-focused-restructuring-orders-surge-6119656",
+    "industry": "Technology",
+    "summary": "思科计划削减约 4,000 个职位，这标志着继订单激增后，思科将采取战略举措，专注于人工智能投资。",
+    "charlotte_impact": "这一消息表明人工智能造成的就业岗位持续流失。它需要重新培训，否则就会出现大量不合格的人员。",
     "impact_score": 8
   },
   {
-    "title": "UCF毕业典礼演讲者因人工智能评论而遭嘘",
-    "url": "https://www.today.com/video/ucf-commencement-speaker-s-ai-remarks-draw-boos-263230533620",
-    "industry": "Entertainment/Arts",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "人工智能会将我们所有人变成潮人和工匠吗？",
-    "url": "https://www.irishtimes.com/business/2026/05/13/will-ai-turn-us-all-into-hipsters-and-artisans/",
-    "industry": "Economics",
-    "summary": "我们有充分的理由对自动化将取代所有人力需求的观点表示怀疑。",
-    "charlotte_impact": "人工智能工具变得越来越好，但并没有人们想象的那么好。没有充分的理由认为这些工具将取代就业部门。",
+    "title": "思科宣布裁员 5%，上调年度收入预期",
+    "url": "https://www.channelnewsasia.com/business/cisco-announces-5-job-cuts-raises-annual-revenue-forecast-6119656",
+    "industry": "Technology",
+    "summary": "随着思科裁员 4000 人以投资人工智能，他们提高了收入预测。这表明明显转向更加注重人工智能的解决方案。",
+    "charlotte_impact": "投资者喜欢这种关注，因为股价已经大幅上涨。这可能会让其他公司也关注这条道路。",
     "impact_score": 7
   },
   {
-    "title": "新规定确认公众有权了解英国政府如何使用人工智能",
-    "url": "https://www.newscientist.com/article/2526397-new-rules-confirm-public-has-a-right-to-see-how-uk-government-uses-ai/",
-    "industry": "Government",
-    "summary": "监管机构已确认，英国政府部门和其他公共机构必须考虑发布有关人工智能制作内容信息的请求。",
-    "charlotte_impact": "英国政府在人工智能使用方面的透明度举措将增加其他国家效仿的压力，并确保公共机构在部署人工智能技术时承担责任，从而促进公众信任和负责任的人工智能发展。",
+    "title": "Hudson Talent Solutions 启动关于未来工作和负责任的人工智能的全球思想领导力系列",
+    "url": "https://www.globenewswire.com/news-release/2026/05/13/3294441/0/en/Hudson-Talent-Solutions-Kicks-Off-Global-Thought-Leadership-Series-on-the-Future-of-Work-and-Responsible-AI.html",
+    "industry": "HR Tech, Artificial Intelligence",
+    "summary": "Hudson Talent Solutions 推出了有关未来工作和负责任的人工智能的全球思想领导力系列。",
+    "charlotte_impact": "随着人工智能越来越融入人才解决方案，人力资源专业人员必须掌握最新发展和最佳实践，以确保以道德和负责任的方式使用人工智能。",
     "impact_score": 6
   },
   {
-    "title": "Posthaste：远程工作、pickleball 和人工智能如何改变商业地产",
-    "url": "https://financialpost.com/news/remote-work-pickleball-ai-changing-commercial-real-estate",
-    "industry": "Real Estate",
-    "summary": "三个令人惊讶的因素正在推动加拿大商业房地产行业的发展：远程工作、球拍运动和人工智能。",
-    "charlotte_impact": "人工智能对商业地产的影响是多方面的。首先，对专业数据中心的需求将增加，从而提振房地产。其次，人工智能将重塑商业地产的管理方式。",
-    "impact_score": 5
+    "title": "今日美股：标普500、纳指受筹码提振创收盘新高；炙手可热的通胀报告浇灭了降息希望",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-sp-500-nasdaq-boosted-by-chips-to-record-closing-highs-hot-inflation-report-kills-rate-cut-hopes/articleshow/131076710.cms",
+    "industry": "Finance, Artificial Intelligence",
+    "summary": "尽管存在通胀担忧，但在人工智能和芯片股的支撑下，标准普尔 500 指数和纳斯达克指数仍创下收盘新高。",
+    "charlotte_impact": "尽管通货膨胀率很高，但市场仍在上涨，并由人工智能股票引领。这或许标志着人工智能技术驱动的新一轮牛市的开始。",
+    "impact_score": 7
   },
   {
-    "title": "专访：卢克·格布 (Luke Gebb)，美国运通全球创新主管",
-    "url": "https://www.computerweekly.com/news/366642805/Interview-Luke-Gebb-head-of-global-innovation-American-Express",
-    "industry": "Finance",
-    "summary": "美国运通为其持卡人开创了代理商务——这只是推动公司转型的一系列数字创新之一",
-    "charlotte_impact": "美国运通的举动将促使其他金融科技公司效仿。数字创新推动公司转型，为持卡人带来帮助。",
-    "impact_score": 8
-  },
-  {
-    "title": "WhatsApp 在 Meta AI 聊天中添加隐身模式",
-    "url": "https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/",
-    "industry": "Social Media",
-    "summary": "WhatsApp 在 Meta AI 聊天中添加了隐身模式，以确保对话不会被保存，并且一旦关闭聊天，消息就会默认消失。",
-    "charlotte_impact": "WhatsApp 此举将确保更多用户和更高安全性。这可能会导致新的法律法规的出台，要求公司实施类似的保障措施。",
-    "impact_score": 5
-  },
-  {
-    "title": "“他需要完全控制它”——奥特曼证明马斯克在 OpenAI 试验期间从未信任共享领导力",
-    "url": "https://www.techradar.com/ai-platforms-assistants/he-needed-to-have-total-control-over-it-altman-testifies-musk-never-trusted-shared-leadership-during-openai-trial",
-    "industry": "Legal",
-    "summary": "山姆·奥尔特曼 (Sam Altman) 在高风险的 OpenAI 诉讼中的证词将埃隆·马斯克 (Elon Musk) 描绘成专注于个人控制。",
-    "charlotte_impact": "这给埃隆·马斯克（Elon Musk）带来了负面影响，因为他注重个人控制。它还可能对诉讼结果产生法律影响。",
-    "impact_score": 4
+    "title": "PayPal 和 Anthropic 将人工智能引入主流企业",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/paypal-and-anthropic-take-ai-to-main-street-businesses/",
+    "industry": "Fintech, Artificial Intelligence",
+    "summary": "PayPal 和 Anthropic 合作提供免费在线课程，并整合他们的平台，为小型企业提供人工智能工具。",
+    "charlotte_impact": "小型企业常常难以适应新技术；这种伙伴关系可以帮助普通企业应用人工智能，这是一个非常有前途的发展。",
+    "impact_score": 7
   }
 ]
