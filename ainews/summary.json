@@ -1,138 +1,162 @@
 [
   {
+    "title": "OpenAI says Codex is coming to your phone",
+    "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+    "industry": "Software Development",
+    "summary": "OpenAI is bringing its Codex AI model to mobile devices, enhancing workflow flexibility for users. This allows developers to leverage AI for coding tasks directly on their phones.",
+    "charlotte_impact": "Codex on mobile will lower the barrier to entry for developers, potentially accelerating app development cycles and fostering more rapid innovation in mobile-first applications. The increased accessibility will allow more developers, especially those in emerging markets, to participate in the AI revolution, creating a larger talent pool and potentially driving new business models.",
+    "impact_score": 7
+  },
+  {
     "title": "What happens when AI starts building itself?",
     "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
     "industry": "Artificial Intelligence",
-    "summary": "Richard Socher's new startup aims to develop an AI capable of self-improvement and product creation. This ambitious project highlights the increasing focus on creating autonomous AI agents that can perform research and development tasks.",
-    "charlotte_impact": "The development of self-improving AI could significantly alter the labor market by automating many knowledge-based jobs currently held by human researchers and developers. This could lead to increased productivity and innovation but also requires careful consideration of workforce transition and retraining programs.",
+    "summary": "Richard Socher's new startup, backed by $650 million, aims to create an AI capable of self-improvement and continuous research. The project aims to create AI that can build and improve itself, eventually leading to shipped products.",
+    "charlotte_impact": "If successful, this 'AI building AI' approach could revolutionize software development and research methodologies across all industries. This could lead to dramatic improvements in efficiency and innovation speed, potentially disrupting existing business models that rely on human expertise in these areas. The venture capital investment signifies a strong belief in the potential for this paradigm shift.",
     "impact_score": 9
   },
   {
     "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn\u2019t be the first partner to feel burned",
     "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-    "industry": "Technology",
-    "summary": "OpenAI is reportedly considering legal action against Apple, suggesting potential conflicts and strained partnerships as AI becomes more integrated into existing tech ecosystems. This signals growing tensions among major players in the AI space.",
-    "charlotte_impact": "If true, such legal action sets a precedent for how AI companies and platform providers collaborate (or clash). Businesses should carefully review partnership agreements and anticipate potential conflicts as AI integrations deepen, potentially affecting the availability and cost of AI-powered services.",
-    "impact_score": 7
+    "industry": "Artificial Intelligence, Legal",
+    "summary": "OpenAI is reportedly considering legal action against Apple due to a disappointing ChatGPT integration. OpenAI feels that the integration failed to deliver expected subscribers and prominence.",
+    "charlotte_impact": "This potential lawsuit highlights the challenges of AI integration and partnership agreements. It emphasizes the need for clear expectations and performance metrics in such collaborations, and the potential legal risks involved when AI deployments underperform or fail to meet anticipated business objectives. It will also create risk aversion towards AI integration.",
+    "impact_score": 6
   },
   {
     "title": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026",
     "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
-    "industry": "Finance, Technology",
-    "summary": "Cerebras, a company specializing in AI hardware, raised $5.5 billion in its IPO, marking a significant milestone for the AI industry in 2026. This reflects strong investor confidence in AI-focused hardware solutions.",
-    "charlotte_impact": "Cerebras' successful IPO is likely to fuel further investment in AI hardware startups. Increased competition could lead to faster innovation and lower costs for AI infrastructure, benefiting businesses looking to deploy AI solutions. This could also attract talent and create new job opportunities in hardware engineering and related fields.",
+    "industry": "Finance, Artificial Intelligence",
+    "summary": "Cerebras, a company specializing in AI hardware, successfully raised $5.5 billion in its IPO, with its stock price soaring. This marks a significant moment in the 2026 IPO season, signaling renewed investor confidence in the AI sector.",
+    "charlotte_impact": "Cerebras' successful IPO indicates a strong market demand for specialized AI hardware, suggesting that investors are betting on the continued growth of AI infrastructure. This IPO will likely encourage further investment in AI-focused hardware companies, potentially leading to breakthroughs in computing power and efficiency.",
     "impact_score": 8
   },
   {
     "title": "Amazon launches an AI shopping assistant for the search bar, powered by Alexa+",
     "url": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/",
-    "industry": "Retail, Technology",
-    "summary": "Amazon launched an AI shopping assistant powered by Alexa+, offering personalized recommendations and automated shopping experiences across multiple platforms. This move demonstrates the growing importance of AI in enhancing customer experience and streamlining retail operations.",
-    "charlotte_impact": "The introduction of AI shopping assistants will likely drive increased competition in the retail sector, with companies focusing on personalization and convenience to attract customers. Retailers that fail to adopt similar AI-powered solutions risk falling behind, while consumers can expect a more tailored and efficient shopping experience.",
+    "industry": "Retail, Artificial Intelligence",
+    "summary": "Amazon has launched an AI shopping assistant powered by Alexa+, integrated into the search bar. This assistant offers personalized recommendations and automates shopping across multiple online retailers.",
+    "charlotte_impact": "Amazon's AI shopping assistant will further personalize the online shopping experience, potentially increasing customer engagement and sales. This could put pressure on smaller retailers to adopt similar AI-powered tools to remain competitive, driving innovation in e-commerce and potentially shifting market share towards platforms with advanced AI capabilities.",
     "impact_score": 7
   },
   {
-    "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
-    "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
-    "industry": "Artificial Intelligence",
-    "summary": "According to Ramp data, Anthropic now has more business customers than OpenAI. This suggests that Anthropic's AI models are gaining traction in the enterprise market.",
-    "charlotte_impact": "Anthropic's growing business customer base signals increasing competition and choice in the AI model market. Businesses can benefit from evaluating different AI providers to find the best fit for their specific needs and potentially negotiate more favorable pricing and terms.",
+    "title": "Okta extends AI agent security to Amazon Bedrock, opens platform to rival identity providers",
+    "url": "https://siliconangle.com/2026/05/14/okta-extends-ai-agent-security-amazon-bedrock-opens-platform-rival-identity-providers/",
+    "industry": "Cybersecurity, Artificial Intelligence",
+    "summary": "Okta has expanded its Okta for AI Agents platform to include Amazon Bedrock and support a wider range of identity providers. This allows for enhanced security and access management within AI agent ecosystems.",
+    "charlotte_impact": "Okta's expansion of its AI agent security platform signifies the growing importance of security in the AI space. This integration allows businesses to operate AI agents on a broader scale, securely and effectively, thus boosting AI adoption across various industries.",
     "impact_score": 8
+  },
+  {
+    "title": "Elon Musk\u2019s SpaceXAI has been bleeding staff since its merger",
+    "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
+    "industry": "Artificial Intelligence, Human Resources",
+    "summary": "SpaceXAI, following its recent merger, has experienced a significant loss of staff, reportedly due to burnout and other factors. This could impact the company's ability to execute its AI-related projects.",
+    "charlotte_impact": "This staff departure highlights the intense competition for AI talent and the challenges of managing highly specialized teams in this rapidly evolving field. Companies will need to focus on employee well-being and retention strategies to ensure continued success in AI development.",
+    "impact_score": 6
   },
   {
     "title": "Cisco cuts nearly 4,000 jobs to spend more on AI, reports \u2018record quarterly revenue\u2019",
     "url": "https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/",
-    "industry": "Technology",
-    "summary": "Cisco is cutting nearly 4,000 jobs to reinvest in AI, despite reporting record quarterly revenue. This strategic shift underscores the growing importance of AI and the willingness of established companies to restructure to capitalize on its potential.",
-    "charlotte_impact": "Cisco's layoffs highlight the potential for job displacement as companies prioritize AI investments. While new AI-related roles will emerge, there's a need for workforce retraining and upskilling to adapt to the changing job market. Other large companies will likely follow suit, leading to a period of significant transition.",
-    "impact_score": 9
+    "industry": "Technology, Human Resources",
+    "summary": "Cisco is cutting nearly 4,000 jobs to invest more heavily in AI, despite reporting record quarterly revenue. This reflects a strategic shift towards prioritizing AI-related initiatives.",
+    "charlotte_impact": "Cisco's restructuring is indicative of a broader trend where established tech companies are reallocating resources to focus on AI development. This shift will create new job opportunities in AI while potentially displacing workers in other areas, demanding a focus on retraining and workforce adaptation.",
+    "impact_score": 8
   },
   {
     "title": "Wirestock raises $23M to supply creative multimodal data to AI labs",
     "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/",
-    "industry": "Data, Artificial Intelligence",
-    "summary": "Wirestock raised $23M to provide creative multimodal data to AI labs. This highlights the increasing demand for high-quality data to train AI models.",
-    "charlotte_impact": "The demand for multimodal data is creating new business opportunities for companies like Wirestock. Content creators and data providers can capitalize on this trend by licensing their assets to AI labs, generating new revenue streams and contributing to the advancement of AI technology.",
+    "industry": "Artificial Intelligence, Data",
+    "summary": "Wirestock has raised $23 million to provide multimodal data to AI labs. The company supplies datasets of images, videos, design assets, and gaming and 3D content.",
+    "charlotte_impact": "Wirestock's funding demonstrates the increasing demand for high-quality training data to fuel AI model development. The ability to supply multimodal data will allow AI models to learn more complex relationships from raw data, thus providing better performance and more capabilities.",
     "impact_score": 7
   },
   {
     "title": "Notion just turned its workspace into a hub for AI agents",
     "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
-    "industry": "Productivity, Artificial Intelligence",
-    "summary": "Notion launched a developer platform that lets teams connect AI agents, external data sources, and custom code directly into their workspace. This aims to make the platform a hub for AI agents, enhancing productivity.",
-    "charlotte_impact": "Notion's move towards an AI-agent hub signals a shift towards more agentic workflows in the enterprise. Businesses can leverage these integrations to automate tasks, improve decision-making, and enhance overall productivity, creating significant competitive advantages.",
+    "industry": "Software, Artificial Intelligence",
+    "summary": "Notion has transformed its workspace into a hub for AI agents through a new developer platform. Teams can now integrate AI agents, external data, and custom code directly into their workspace.",
+    "charlotte_impact": "Notion's integration of AI agents into its workspace is aimed at boosting productivity. It could lead to more efficient workflows and better decision-making capabilities as teams can automate repetitive tasks and gain insights from AI-powered analytics.",
     "impact_score": 7
   },
   {
     "title": "Musk\u2019s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
     "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
     "industry": "Energy, Artificial Intelligence",
-    "summary": "Musk's xAI is facing a lawsuit over its use of gas turbines to power its Mississippi data center, raising concerns about environmental impact and regulatory compliance. This underscores the energy demands and potential environmental consequences of AI infrastructure.",
-    "charlotte_impact": "The xAI situation highlights the importance of sustainable energy solutions for AI development. Businesses and communities should prioritize renewable energy sources and energy-efficient data center designs to minimize the environmental footprint of AI infrastructure. This will also create demand for green energy technologies.",
+    "summary": "Musk's xAI is facing scrutiny over its use of gas turbines at its Mississippi data center, raising environmental concerns. The turbines are being used to power the Colossus 2 data center.",
+    "charlotte_impact": "xAI's use of gas turbines highlights the energy demands of large-scale AI operations and the need for sustainable energy solutions. This scrutiny might drive the development of more energy-efficient AI algorithms and data centers, as well as promote the exploration of renewable energy sources to power AI infrastructure.",
     "impact_score": 6
   },
   {
     "title": "Anthropic\u2019s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are",
     "url": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
     "industry": "Artificial Intelligence",
-    "summary": "Anthropic's Cat Wu predicts that AI will anticipate user needs before they are even aware of them. This reflects a growing emphasis on proactive AI and personalized experiences.",
-    "charlotte_impact": "If realized, proactive AI could revolutionize customer service, healthcare, and other industries by anticipating needs and providing timely assistance. However, this also raises ethical concerns about privacy, autonomy, and the potential for manipulation.",
-    "impact_score": 7
+    "summary": "Anthropic's Cat Wu believes that future AI systems will anticipate user needs before they are even aware of them. Proactivity is the next big step for AI.",
+    "charlotte_impact": "The shift towards proactive AI holds the potential to transform user experiences by providing more personalized and relevant services. It will require advancements in predictive analytics and contextual understanding, leading to new innovations in AI algorithms and applications.",
+    "impact_score": 8
   },
   {
     "title": "Origin Lab raises $8M to help video game companies sell data to world-model builders",
     "url": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/",
-    "industry": "Video Games, Artificial Intelligence",
-    "summary": "Origin Lab raised $8M to help video game companies sell data to world-model builders. This development recognizes the value of video game data in training AI for various applications.",
-    "charlotte_impact": "This will likely unlock a new revenue stream for video game developers. AI labs are increasingly turning to video game data to train models, particularly for simulation and reinforcement learning applications, driving significant revenue for the gaming industry.",
+    "industry": "Gaming, Artificial Intelligence",
+    "summary": "Origin Lab has raised $8M to facilitate the sale of video game data to AI labs. The company serves as a marketplace for high-quality, licensed data.",
+    "charlotte_impact": "Origin Lab's emergence as a marketplace for video game data will enable AI developers to access rich and diverse datasets for training world models. This could lead to more realistic and immersive simulations, driving innovation in areas such as robotics, autonomous vehicles, and virtual reality.",
     "impact_score": 7
   },
   {
-    "title": "Google Breaks AI Out of the Chat Window",
-    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/google-breaks-ai-out-of-the-chat-window/",
-    "industry": "Artificial Intelligence",
-    "summary": "Google DeepMind is developing \"AI Pointer,\" aiming for the mouse pointer to understand what users see, not just where they look. This indicates a potential shift towards more context-aware AI interactions.",
-    "charlotte_impact": "Context-aware AI technologies will likely lead to more intuitive and efficient user interfaces across various applications. This will significantly improve user experience. Businesses that adopt these enhanced interfaces will be able to increase productivity and drive user satisfaction.",
-    "impact_score": 6
-  },
-  {
-    "title": "Cisco to cut about 4,000 jobs in AI-focused restructuring as orders surge",
-    "url": "https://www.channelnewsasia.com/business/cisco-cut-about-4000-jobs-in-ai-focused-restructuring-orders-surge-6119656",
-    "industry": "Technology",
-    "summary": "Cisco plans to cut approximately 4,000 positions, signaling a strategic move to focus on AI investments following a surge in orders.",
-    "charlotte_impact": "This news shows the continued job displacement caused by AI. It requires reskilling, or else there will be a glut of under-qualified people.",
-    "impact_score": 8
-  },
-  {
-    "title": "Cisco announces 5% job cuts, raises annual revenue forecast",
-    "url": "https://www.channelnewsasia.com/business/cisco-announces-5-job-cuts-raises-annual-revenue-forecast-6119656",
-    "industry": "Technology",
-    "summary": "As Cisco cuts 4000 jobs to invest in AI, they raise their revenue forecast. This demonstrates a clear shift toward more AI focused solutions.",
-    "charlotte_impact": "Investors like this type of focus, since the share price has gone up considerably. It may make other companies look at this path as well.",
+    "title": "Freshworks unveils Freddy AI Agent Studio and MCP Gateway for Freshservice",
+    "url": "https://siliconangle.com/2026/05/14/freshworks-unveils-freddy-ai-agent-studio-mcp-gateway-freshservice/",
+    "industry": "IT Service Management, Artificial Intelligence",
+    "summary": "Freshworks has unveiled Freddy AI Agent Studio and MCP Gateway for Freshservice, expanding agentic capabilities. This allows enterprises to build, customize, and deploy AI agents for IT service management.",
+    "charlotte_impact": "Freshwork's expansion of its AI Agent Studio allows businesses to create customized AI agents to better meet their needs. This customization helps to improve efficiency and productivity in the IT sector.",
     "impact_score": 7
   },
   {
-    "title": "Hudson Talent Solutions Kicks Off Global Thought Leadership Series on the Future of Work and Responsible AI",
-    "url": "https://www.globenewswire.com/news-release/2026/05/13/3294441/0/en/Hudson-Talent-Solutions-Kicks-Off-Global-Thought-Leadership-Series-on-the-Future-of-Work-and-Responsible-AI.html",
-    "industry": "HR Tech, Artificial Intelligence",
-    "summary": "Hudson Talent Solutions launches a global thought leadership series concerning the future of work and responsible AI.",
-    "charlotte_impact": "As AI becomes more integrated into talent solutions, it is important for HR professionals to stay on top of the latest developments and best practices to ensure it is used in an ethical and responsible manner. ",
+    "title": "Xi Warns Trump of Potential \"Conflict\" over Taiwan in Beijing Summit on Iran, Trade, Tech & More",
+    "url": "https://www.democracynow.org/2026/5/14/us_china",
+    "industry": "International Relations, Politics, Artificial Intelligence",
+    "summary": "During a summit in Beijing, Xi Jinping warned Donald Trump of potential conflict over Taiwan, with discussions also covering trade, Iran, and artificial intelligence.",
+    "charlotte_impact": "This summit underscores the geopolitical significance of AI, as it becomes a key area of competition and cooperation between global powers. Discussions about AI during high-level talks highlight its strategic importance for national security and economic competitiveness. This influences government funding and policy decisions related to AI.",
     "impact_score": 6
   },
   {
-    "title": "US stocks today: S&P 500, Nasdaq boosted by chips to record closing highs; hot inflation report kills rate-cut hopes",
-    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-sp-500-nasdaq-boosted-by-chips-to-record-closing-highs-hot-inflation-report-kills-rate-cut-hopes/articleshow/131076710.cms",
+    "title": "ZTE and Telkom Indonesia sign strategic MoU to accelerate digital solutions and infrastructure development",
+    "url": "https://www.theregister.com/networks/2026/05/14/zte-and-telkom-indonesia-sign-strategic-mou-to-accelerate-digital-solutions-and-infrastructure-development/5240257",
+    "industry": "Telecommunications, Artificial Intelligence",
+    "summary": "ZTE and Telkom Indonesia have signed a strategic MoU to accelerate digital solutions and infrastructure development. The agreement focuses on AI, cloud computing, and next-gen connectivity.",
+    "charlotte_impact": "This partnership signifies the growing importance of AI in driving digital transformation across emerging markets. By collaborating on AI, cloud computing, and connectivity solutions, ZTE and Telkom Indonesia aim to enhance Indonesia's digital ecosystem and boost its economic development.",
+    "impact_score": 6
+  },
+  {
+    "title": "AIQA Global and SecureSky Announce Cooperation Agreement on the Converging Demands of AI Governance and Cybersecurity",
+    "url": "https://www.prnewswire.com/news-releases/aiqa-global-and-securesky-announce-cooperation-agreement-on-the-converging-demands-of-ai-governance-and-cybersecurity-302772305.html",
+    "industry": "Cybersecurity, Artificial Intelligence",
+    "summary": "AIQA Global and SecureSky have announced a cooperation agreement on AI governance and cybersecurity. They will coordinate joint research and education as AI governance and cyber resilience are increasingly evaluated together.",
+    "charlotte_impact": "This collaboration highlights the growing need to address both AI governance and cybersecurity in a holistic manner. As AI becomes more integrated into business operations, organizations must consider the ethical and security implications, leading to increased demand for expertise in both areas.",
+    "impact_score": 7
+  },
+  {
+    "title": "Spectral Capital Announces First Quarter 2026 Results Highlighted by Record $328.5 Million in Revenue",
+    "url": "https://www.prnewswire.com/news-releases/spectral-capital-announces-first-quarter-2026-results-highlighted-by-record-328-5-million-in-revenue-302771893.html",
     "industry": "Finance, Artificial Intelligence",
-    "summary": "The S&P 500 and Nasdaq are seeing record closing highs, bolstered by AI and chip stocks despite inflation concerns.",
-    "charlotte_impact": "Despite the high inflation rate, the market is still rising and being led by AI stocks. This may signal the beginning of a new bull market driven by AI technology.",
+    "summary": "Spectral Capital announced record revenue of $328.5 million for the first quarter of 2026, driven by its focus on artificial intelligence and digital infrastructure. The company also raised its full-year revenue guidance.",
+    "charlotte_impact": "Spectral Capital's strong financial performance demonstrates the growing market opportunity in AI and digital infrastructure. The company's success is expected to encourage further investment in AI-focused businesses and drive innovation in this sector.",
     "impact_score": 7
   },
   {
-    "title": "PayPal and Anthropic Take AI to Main Street Businesses",
-    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/paypal-and-anthropic-take-ai-to-main-street-businesses/",
-    "industry": "Fintech, Artificial Intelligence",
-    "summary": "PayPal and Anthropic partner to offer a free online course and integrate their platforms to provide AI tools for small businesses.",
-    "charlotte_impact": "Small businesses often struggle with adapting to new technologies; this partnership can assist Main Street businesses with applying AI, a very promising development.",
+    "title": "LPL Financial Wins Two Stevie Awards for Innovation in Artificial Intelligence",
+    "url": "https://www.globenewswire.com/news-release/2026/05/14/3294899/29579/en/LPL-Financial-Wins-Two-Stevie-Awards-for-Innovation-in-Artificial-Intelligence.html",
+    "industry": "Financial Services, Artificial Intelligence",
+    "summary": "LPL Financial has won two Stevie Awards for its innovative application of AI to improve the advisor and investor experience. This recognizes LPL's leadership in leveraging AI in the financial services industry.",
+    "charlotte_impact": "LPL's award wins demonstrate the potential of AI to transform financial services by enhancing advisor productivity and improving investor outcomes. This might encourage more financial institutions to adopt AI-powered tools and services, leading to greater efficiency and personalization in the industry.",
+    "impact_score": 6
+  },
+  {
+    "title": "ZenaDrone 2000 Heavy-Lift Interceptor Advances Toward Flight Testing as ZenaTech Targets $20B Counter-Drone Market",
+    "url": "https://financialpost.com/globe-newswire/zenadrone-2000-heavy-lift-interceptor-advances-toward-flight-testing-as-zenatech-targets-20b-counter-drone-market",
+    "industry": "Defense, Artificial Intelligence",
+    "summary": "ZenaDrone 2000 heavy-lift interceptor advances toward flight testing as ZenaTech targets $20B counter-drone market. This gas-powered counter-UAS platform will undergo initial flight testing in Q3 2026.",
+    "charlotte_impact": "ZenaTech's development of a counter-drone system demonstrates the growing importance of AI in defense and security applications. The advancement of this technology will have implications for both military and civilian airspace management, spurring innovation in drone detection, identification, and interception systems.",
     "impact_score": 7
   }
 ]
