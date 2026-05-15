@@ -1,162 +1,154 @@
 [
   {
+    "title": "OpenAI lanza ChatGPT para finanzas personales y le permitirá conectar cuentas bancarias",
+    "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+    "industry": "Finance",
+    "summary": "OpenAI lanzó una versión ChatGPT orientada a las finanzas personales, que permite a los usuarios conectar sus cuentas bancarias para obtener información sobre el rendimiento de la cartera, hábitos de gasto, suscripciones y próximos pagos. Esto integra la IA directamente en la gestión financiera de los consumidores.",
+    "charlotte_impact": "Este desarrollo probablemente estimulará una mayor competencia entre las aplicaciones fintech y los bancos existentes, lo que podría conducir a la integración de herramientas similares de gestión financiera impulsadas por IA en toda la industria. Las instituciones financieras tradicionales deberán adaptarse a estas nuevas expectativas de asesoramiento personalizado basado en inteligencia artificial para retener a los clientes.",
+    "impact_score": 9
+  },
+  {
+    "title": "La prueba de OpenAI concluye y la máquina fundadora de Musk sigue girando",
+    "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
+    "industry": "AI Ethics/Legal",
+    "summary": "El juicio Musk contra Altman ha concluido y se centra en la confiabilidad de los líderes de IA. Esto coincide con los preparativos para la posible IPO de SpaceX y el surgimiento de nuevas empresas, lo que pone de relieve los dilemas éticos que rodean el desarrollo y despliegue de la IA.",
+    "charlotte_impact": "Una mayor conciencia pública y un mayor escrutinio de los modelos de gobernanza de la IA podrían impulsar la demanda de soluciones de IA más transparentes y alineadas con la ética. Las empresas deben priorizar las consideraciones éticas y la innovación responsable para mantener la confianza del público y evitar futuros desafíos legales.",
+    "impact_score": 8
+  },
+  {
+    "title": "Runway comenzó ayudando a los cineastas; ahora quiere vencer a Google en IA",
+    "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
+    "industry": "AI Video Generation",
+    "summary": "Runway, una startup de generación de videos con IA, tiene como objetivo desarrollar modelos mundiales, creyendo que la generación de videos es la clave. Se están posicionando como un desafío para Google en el espacio de la IA, aprovechando su estatus de outsider como una ventaja.",
+    "charlotte_impact": "Esto impacta a la industria creativa al proporcionar herramientas para una creación de contenido más rápida y económica. A medida que los modelos de IA se vuelven más sofisticados, los trabajos de generación de contenido y efectos visuales pueden enfrentar una mayor competencia, lo que requiere habilidades en la activación e integración de la IA.",
+    "impact_score": 7
+  },
+  {
     "title": "OpenAI dice que Codex llegará a tu teléfono",
     "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
-    "industry": "Software Development",
-    "summary": "OpenAI está llevando su modelo Codex AI a dispositivos móviles, mejorando la flexibilidad del flujo de trabajo para los usuarios. Esto permite a los desarrolladores aprovechar la IA para tareas de codificación directamente en sus teléfonos.",
-    "charlotte_impact": "Codex en dispositivos móviles reducirá la barrera de entrada para los desarrolladores, acelerando potencialmente los ciclos de desarrollo de aplicaciones y fomentando una innovación más rápida en aplicaciones móviles. La mayor accesibilidad permitirá que más desarrolladores, especialmente aquellos en mercados emergentes, participen en la revolución de la IA, creando una mayor reserva de talentos y potencialmente impulsando nuevos modelos de negocio.",
+    "industry": "AI Development",
+    "summary": "OpenAI está llevando su modelo Codex AI a dispositivos móviles, brindando a los usuarios un mayor control sobre sus flujos de trabajo de desarrollo. Esto amplía el alcance de la codificación y el desarrollo asistidos por IA.",
+    "charlotte_impact": "Esta accesibilidad democratizará el desarrollo de aplicaciones de IA y aumentará el ritmo del desarrollo de software. Los desarrolladores y programadores podrán escribir código de forma más rápida y eficiente.",
     "impact_score": 7
   },
   {
     "title": "¿Qué sucede cuando la IA comienza a construirse por sí misma?",
     "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
-    "industry": "Artificial Intelligence",
-    "summary": "La nueva startup de Richard Socher, respaldada por 650 millones de dólares, tiene como objetivo crear una IA capaz de superación personal y de investigación continua. El proyecto tiene como objetivo crear una IA que pueda construirse y mejorarse a sí misma, lo que eventualmente conducirá a productos enviados.",
-    "charlotte_impact": "Si tiene éxito, este enfoque de \"IA construyendo IA\" podría revolucionar el desarrollo de software y las metodologías de investigación en todas las industrias. Esto podría conducir a mejoras espectaculares en la eficiencia y la velocidad de la innovación, lo que podría alterar los modelos de negocio existentes que dependen de la experiencia humana en estas áreas. La inversión de capital riesgo significa una fuerte creencia en el potencial de este cambio de paradigma.",
+    "industry": "AI Research",
+    "summary": "La nueva startup de Richard Socher, respaldada por 650 millones de dólares, está desarrollando una IA capaz de superación personal y de investigación continua. La empresa tiene como objetivo ofrecer productos prácticos a partir de esta investigación avanzada de IA.",
+    "charlotte_impact": "Esto indica un impulso hacia sistemas de IA más autónomos capaces de realizar mejoras iterativas, lo que podría acelerar drásticamente la tasa de innovación en varios sectores. La empresa tiene como objetivo crear una IA que pueda mejorarse continuamente sin intervención humana.",
     "impact_score": 9
   },
   {
-    "title": "Según se informa, OpenAI está preparando acciones legales contra Apple; no sería la primera pareja en sentirse quemada",
+    "title": "Según se informa, OpenAI está preparando acciones legales contra Apple; No sería la primera pareja en sentirse quemada.",
     "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-    "industry": "Artificial Intelligence, Legal",
-    "summary": "Según se informa, OpenAI está considerando emprender acciones legales contra Apple debido a una decepcionante integración de ChatGPT. OpenAI siente que la integración no logró generar los suscriptores y la prominencia esperados.",
-    "charlotte_impact": "Esta posible demanda destaca los desafíos de la integración de la IA y los acuerdos de asociación. Enfatiza la necesidad de expectativas claras y métricas de desempeño en dichas colaboraciones, y los riesgos legales potenciales involucrados cuando las implementaciones de IA tienen un rendimiento inferior o no cumplen con los objetivos comerciales previstos. También creará aversión al riesgo hacia la integración de la IA.",
+    "industry": "AI Partnerships/Legal",
+    "summary": "Según se informa, OpenAI está considerando emprender acciones legales contra Apple debido a los resultados decepcionantes de la integración de ChatGPT, lo que sugiere asociaciones tensas y un posible cambio en la dinámica del ecosistema de IA.",
+    "charlotte_impact": "Esto pone de relieve el riesgo de una dependencia excesiva de las asociaciones con las principales plataformas tecnológicas y la importancia de acuerdos claros y expectativas realistas para las integraciones de IA. Esto podría conducir a condiciones de asociación más estrictas y a un enfoque más cauteloso en las colaboraciones de IA.",
     "impact_score": 6
   },
   {
     "title": "Cerebras recauda 5.500 millones de dólares y luego las acciones suben un 108% en la primera gran oferta pública inicial de tecnología de 2026",
     "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
-    "industry": "Finance, Artificial Intelligence",
-    "summary": "Cerebras, una empresa especializada en hardware de inteligencia artificial, recaudó con éxito 5.500 millones de dólares en su oferta pública inicial (IPO), y el precio de sus acciones se disparó. Esto marca un momento significativo en la temporada de OPI de 2026, lo que indica una renovada confianza de los inversores en el sector de la IA.",
-    "charlotte_impact": "La exitosa salida a bolsa de Cerebras indica una fuerte demanda del mercado de hardware de IA especializado, lo que sugiere que los inversores están apostando por el crecimiento continuo de la infraestructura de IA. Es probable que esta oferta pública inicial fomente una mayor inversión en empresas de hardware centradas en la IA, lo que podría conducir a avances en potencia y eficiencia informática.",
-    "impact_score": 8
+    "industry": "AI Investment/Finance",
+    "summary": "Cerebras, una empresa especializada en hardware centrado en IA, ha recaudado con éxito 5.500 millones de dólares en su oferta pública inicial, lo que indica una fuerte confianza de los inversores en el mercado de hardware de IA y una importante validación de mercado para la empresa.",
+    "charlotte_impact": "Esto representa un gran impulso para el sector del hardware de IA, que debería impulsar una mayor innovación en arquitecturas informáticas especializadas. También sienta un precedente positivo para otras nuevas empresas de hardware de IA que buscan financiación y reconocimiento en el mercado.",
+    "impact_score": 9
   },
   {
-    "title": "Amazon lanza un asistente de compras con inteligencia artificial para la barra de búsqueda, impulsado por Alexa+",
-    "url": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/",
-    "industry": "Retail, Artificial Intelligence",
-    "summary": "Amazon ha lanzado un asistente de compras con inteligencia artificial impulsado por Alexa+, integrado en la barra de búsqueda. Este asistente ofrece recomendaciones personalizadas y automatiza las compras en múltiples minoristas en línea.",
-    "charlotte_impact": "El asistente de compras con inteligencia artificial de Amazon personalizará aún más la experiencia de compra en línea, aumentando potencialmente la participación del cliente y las ventas. Esto podría ejercer presión sobre los minoristas más pequeños para que adopten herramientas similares basadas en IA para seguir siendo competitivos, impulsando la innovación en el comercio electrónico y potencialmente cambiando la participación de mercado hacia plataformas con capacidades avanzadas de IA.",
+    "title": "El lugar de vacaciones de Silicon Valley necesita un nuevo proveedor de energía justo cuando la IA está haciendo subir los precios",
+    "url": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
+    "industry": "Energy/AI",
+    "summary": "Lake Tahoe se enfrenta a un aumento de los precios de la energía debido al aumento de la demanda impulsada por el desarrollo de la IA, lo que expone la creciente huella energética de la infraestructura de IA.",
+    "charlotte_impact": "Los elevados requisitos energéticos de la IA incentivarán la inversión en soluciones energéticas más sostenibles y potencialmente remodelarán las prioridades inmobiliarias. Se espera que las empresas den prioridad a soluciones de bajo consumo energético o neutras en carbono para reducir su impacto ambiental.",
     "impact_score": 7
   },
   {
-    "title": "Okta extiende la seguridad del agente de IA a Amazon Bedrock y abre una plataforma para proveedores de identidad rivales",
-    "url": "https://siliconangle.com/2026/05/14/okta-extends-ai-agent-security-amazon-bedrock-opens-platform-rival-identity-providers/",
-    "industry": "Cybersecurity, Artificial Intelligence",
-    "summary": "Okta ha ampliado su plataforma Okta para agentes de IA para incluir Amazon Bedrock y admitir una gama más amplia de proveedores de identidad. Esto permite mejorar la seguridad y la gestión del acceso dentro de los ecosistemas de agentes de IA.",
-    "charlotte_impact": "La expansión de Okta de su plataforma de seguridad de agentes de IA significa la creciente importancia de la seguridad en el espacio de la IA. Esta integración permite a las empresas operar agentes de IA a una escala más amplia, de forma segura y eficaz, impulsando así la adopción de la IA en diversas industrias.",
-    "impact_score": 8
+    "title": "Osaurus trae modelos de IA locales y en la nube a tu Mac",
+    "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
+    "industry": "Software/AI",
+    "summary": "Osaurus combina modelos de IA locales y en la nube dentro de una aplicación Mac, lo que permite a los usuarios mantener el control de sus datos y herramientas en su propio hardware. Esto proporciona mayor privacidad y control sobre el procesamiento de la IA.",
+    "charlotte_impact": "Esta solución proporciona una vía para quienes se preocupan por la seguridad de la informática basada en la nube. Esta tendencia hacia soluciones híbridas de IA atraerá a los usuarios que priorizan la privacidad y la seguridad de los datos.",
+    "impact_score": 7
   },
   {
     "title": "SpaceXAI de Elon Musk ha estado sangrando personal desde su fusión",
     "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
-    "industry": "Artificial Intelligence, Human Resources",
-    "summary": "SpaceXAI, tras su reciente fusión, ha experimentado una pérdida significativa de personal, supuestamente debido al agotamiento y otros factores. Esto podría afectar la capacidad de la empresa para ejecutar sus proyectos relacionados con la IA.",
-    "charlotte_impact": "Esta salida del personal pone de relieve la intensa competencia por el talento de IA y los desafíos de gestionar equipos altamente especializados en este campo en rápida evolución. Las empresas deberán centrarse en el bienestar de los empleados y las estrategias de retención para garantizar el éxito continuo en el desarrollo de la IA.",
+    "industry": "AI Talent",
+    "summary": "Según se informa, SpaceXAI ha experimentado importantes salidas de personal tras su fusión, lo que genera preocupaciones sobre el agotamiento de los empleados, la inestabilidad del liderazgo y los incentivos de retención dentro de los equipos de IA.",
+    "charlotte_impact": "La fuga de talentos indica la naturaleza competitiva del mercado laboral de IA y la necesidad de un liderazgo fuerte y paquetes de retención atractivos. Esto subraya la importancia de crear un entorno de trabajo positivo y sostenible dentro de las empresas de IA.",
     "impact_score": 6
   },
   {
     "title": "Cisco elimina casi 4.000 puestos de trabajo para gastar más en IA y reporta \"ingresos trimestrales récord\"",
     "url": "https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/",
-    "industry": "Technology, Human Resources",
-    "summary": "Cisco está eliminando casi 4.000 puestos de trabajo para invertir más en IA, a pesar de reportar ingresos trimestrales récord. Esto refleja un cambio estratégico hacia la priorización de iniciativas relacionadas con la IA.",
-    "charlotte_impact": "La reestructuración de Cisco es indicativa de una tendencia más amplia en la que las empresas de tecnología establecidas están reasignando recursos para centrarse en el desarrollo de la IA. Este cambio creará nuevas oportunidades laborales en IA y, al mismo tiempo, podría desplazar a trabajadores de otras áreas, lo que exigirá centrarse en la reconversión y la adaptación de la fuerza laboral.",
+    "industry": "Technology/AI",
+    "summary": "Cisco está eliminando casi 4.000 puestos de trabajo para aumentar la inversión en IA, a pesar de reportar ingresos trimestrales récord, lo que ilustra un cambio estratégico hacia un crecimiento impulsado por la IA.",
+    "charlotte_impact": "Los recortes de empleo demuestran que las empresas están desviando recursos hacia la IA. Esta transición tiene impactos potencialmente de gran escala en múltiples sectores.",
     "impact_score": 8
   },
   {
     "title": "Wirestock recauda 23 millones de dólares para suministrar datos multimodales creativos a laboratorios de inteligencia artificial",
     "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/",
-    "industry": "Artificial Intelligence, Data",
-    "summary": "Wirestock ha recaudado 23 millones de dólares para proporcionar datos multimodales a los laboratorios de IA. La empresa proporciona conjuntos de datos de imágenes, vídeos, recursos de diseño y contenido de juegos y 3D.",
-    "charlotte_impact": "La financiación de Wirestock demuestra la creciente demanda de datos de entrenamiento de alta calidad para impulsar el desarrollo de modelos de IA. La capacidad de suministrar datos multimodales permitirá que los modelos de IA aprendan relaciones más complejas a partir de datos sin procesar, proporcionando así un mejor rendimiento y más capacidades.",
+    "industry": "AI Data",
+    "summary": "Wirestock ha recaudado 23 millones de dólares para proporcionar datos creativos multimodales a los laboratorios de IA, lo que muestra el valor de los conjuntos de datos de alta calidad en el entrenamiento de modelos avanzados de IA.",
+    "charlotte_impact": "El aumento de los proveedores de datos pone de relieve la importancia de la gobernanza y la calidad de los datos en el ecosistema de la IA. Esta financiación podría estimular una mayor atención a las prácticas éticas de recopilación y anotación de datos.",
     "impact_score": 7
   },
   {
     "title": "Notion acaba de convertir su espacio de trabajo en un centro para agentes de IA",
     "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
-    "industry": "Software, Artificial Intelligence",
-    "summary": "Notion ha transformado su espacio de trabajo en un centro para agentes de IA a través de una nueva plataforma para desarrolladores. Los equipos ahora pueden integrar agentes de IA, datos externos y código personalizado directamente en su espacio de trabajo.",
-    "charlotte_impact": "La integración de agentes de IA de Notion en su espacio de trabajo tiene como objetivo aumentar la productividad. Podría conducir a flujos de trabajo más eficientes y mejores capacidades de toma de decisiones, ya que los equipos pueden automatizar tareas repetitivas y obtener información a partir de análisis basados ​​en IA.",
-    "impact_score": 7
+    "industry": "Productivity/AI Agents",
+    "summary": "Notion ha integrado agentes de IA en su plataforma de espacio de trabajo, lo que permite a los equipos conectar herramientas de IA, fuentes de datos y código personalizado para mejorar la productividad.",
+    "charlotte_impact": "Esto permite a los equipos incorporar agentes inteligentes en su flujo de trabajo. Espere una mayor integración de agentes de IA dentro de aplicaciones de software comunes.",
+    "impact_score": 8
   },
   {
     "title": "La xAI de Musk está haciendo funcionar casi 50 turbinas de gas sin control en su centro de datos de Mississippi",
     "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
-    "industry": "Energy, Artificial Intelligence",
-    "summary": "La xAI de Musk se enfrenta a un escrutinio por su uso de turbinas de gas en su centro de datos de Mississippi, lo que genera preocupaciones medioambientales. Las turbinas se utilizan para alimentar el centro de datos Colossus 2.",
-    "charlotte_impact": "El uso de turbinas de gas por parte de xAI resalta las demandas de energía de las operaciones de IA a gran escala y la necesidad de soluciones energéticas sostenibles. Este escrutinio podría impulsar el desarrollo de centros de datos y algoritmos de IA más eficientes energéticamente, así como promover la exploración de fuentes de energía renovables para impulsar la infraestructura de IA.",
+    "industry": "Energy/AI",
+    "summary": "El centro de datos xAI de Musk se enfrenta a un escrutinio debido a su uso de turbinas de gas para la generación de energía, lo que genera preocupaciones ambientales y genera desafíos legales.",
+    "charlotte_impact": "Los impactos ambientales son el principal inconveniente de la IA a gran escala. Esto debería llevar a centrarse en la energía limpia y una estricta supervisión ambiental.",
     "impact_score": 6
   },
   {
-    "title": "Cat Wu de Anthropic dice que, en el futuro, la IA anticipará tus necesidades antes de que sepas cuáles son",
-    "url": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
-    "industry": "Artificial Intelligence",
-    "summary": "Cat Wu, de Anthropic, cree que los futuros sistemas de IA anticiparán las necesidades de los usuarios antes de que sean conscientes de ellas. La proactividad es el próximo gran paso para la IA.",
-    "charlotte_impact": "El cambio hacia una IA proactiva tiene el potencial de transformar las experiencias de los usuarios al brindar servicios más personalizados y relevantes. Requerirá avances en análisis predictivo y comprensión contextual, lo que conducirá a nuevas innovaciones en algoritmos y aplicaciones de IA.",
+    "title": "Anthropic lanza agentes Claude AI para finanzas de pequeñas empresas",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-launches-claude-ai-agents-for-small-business-finance/",
+    "industry": "Small Business/AI Agents",
+    "summary": "Anthropic ha lanzado agentes Claude AI diseñados para automatizar tareas financieras para pequeñas empresas, aumentando la eficiencia en tareas como facturación y análisis operativo.",
+    "charlotte_impact": "Las pequeñas empresas pueden obtener una ventaja competitiva al automatizar tareas y optimizar las operaciones financieras, lo que lleva a una mayor eficiencia y una toma de decisiones informada.",
     "impact_score": 8
   },
   {
-    "title": "Origin Lab recauda 8 millones de dólares para ayudar a las empresas de videojuegos a vender datos a los creadores de modelos mundiales",
-    "url": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/",
-    "industry": "Gaming, Artificial Intelligence",
-    "summary": "Origin Lab ha recaudado 8 millones de dólares para facilitar la venta de datos de videojuegos a laboratorios de inteligencia artificial. La empresa actúa como mercado de datos con licencia de alta calidad.",
-    "charlotte_impact": "El surgimiento de Origin Lab como mercado de datos de videojuegos permitirá a los desarrolladores de IA acceder a conjuntos de datos ricos y diversos para entrenar modelos mundiales. Esto podría conducir a simulaciones más realistas e inmersivas, impulsando la innovación en áreas como la robótica, los vehículos autónomos y la realidad virtual.",
+    "title": "Canadá gastó más de 800 millones de dólares en contratos de IA desde 2023: informe",
+    "url": "https://mobilesyrup.com/2026/05/14/canada-spent-over-800m-on-ai-contracts-since-2023-report/",
+    "industry": "Government/AI",
+    "summary": "El gobierno canadiense ha gastado más de 800 millones de dólares en contratos de IA desde 2023, lo que indica una inversión significativa en infraestructura y aplicaciones de IA en todos los servicios públicos.",
+    "charlotte_impact": "Esta inversión implica un mayor gasto gubernamental en herramientas de inteligencia artificial. Esto podría conducir a mejores servicios públicos y a una nueva área para la IA en el sector público.",
     "impact_score": 7
   },
   {
-    "title": "Freshworks presenta Freddy AI Agent Studio y MCP Gateway para Freshservice",
-    "url": "https://siliconangle.com/2026/05/14/freshworks-unveils-freddy-ai-agent-studio-mcp-gateway-freshservice/",
-    "industry": "IT Service Management, Artificial Intelligence",
-    "summary": "Freshworks ha presentado Freddy AI Agent Studio y MCP Gateway para Freshservice, ampliando las capacidades agentes. Esto permite a las empresas crear, personalizar e implementar agentes de IA para la gestión de servicios de TI.",
-    "charlotte_impact": "La expansión de Freshwork de su AI Agent Studio permite a las empresas crear agentes de IA personalizados para satisfacer mejor sus necesidades. Esta personalización ayuda a mejorar la eficiencia y la productividad en el sector TI.",
-    "impact_score": 7
+    "title": "Rubio advierte que Estados Unidos debe \"mantenerse a la vanguardia\" mientras China trabaja para superar a Estados Unidos con tecnología robada",
+    "url": "https://www.foxnews.com/media/rubio-warns-america-must-stay-ahead-curve-china-works-surpass-us-stolen-tech",
+    "industry": "Politics/Security",
+    "summary": "Rubio ha advertido que Estados Unidos debe mantener su liderazgo en el desarrollo de la IA en medio de preocupaciones de que China esté adquiriendo tecnología estadounidense mediante robo e ingeniería inversa.",
+    "charlotte_impact": "Centrarse en empresas de inteligencia artificial con sede en EE. UU. reducirá el riesgo de seguridad. Una mayor protección de la propiedad intelectual es un componente necesario para la competencia económica.",
+    "impact_score": 8
   },
   {
-    "title": "Xi advierte a Trump sobre un posible \"conflicto\" sobre Taiwán en la Cumbre de Beijing sobre Irán, comercio, tecnología y más",
-    "url": "https://www.democracynow.org/2026/5/14/us_china",
-    "industry": "International Relations, Politics, Artificial Intelligence",
-    "summary": "Durante una cumbre en Beijing, Xi Jinping advirtió a Donald Trump sobre un posible conflicto sobre Taiwán, y las discusiones también abarcaron el comercio, Irán y la inteligencia artificial.",
-    "charlotte_impact": "Esta cumbre subraya la importancia geopolítica de la IA, ya que se convierte en un área clave de competencia y cooperación entre potencias globales. Los debates sobre la IA durante las conversaciones de alto nivel resaltan su importancia estratégica para la seguridad nacional y la competitividad económica. Esto influye en la financiación gubernamental y en las decisiones políticas relacionadas con la IA.",
-    "impact_score": 6
+    "title": "La 'regla de oro' del arte abstracto acaba de ser descubierta por matemáticos",
+    "url": "https://www.scientificamerican.com/article/golden-rule-in-abstract-art-just-discovered-by-mathematicians/",
+    "industry": "Arts/AI",
+    "summary": "Un estudio sugiere que una proporción matemática podría explicar por qué el arte generado por IA no evoca el mismo asombro que el arte creado por humanos, lo que apunta a posibles limitaciones en la creatividad actual de la IA.",
+    "charlotte_impact": "Esto resalta la distinción entre la imitación de la IA y la verdadera expresión creativa, lo que impulsa más investigaciones sobre los elementos que definen la apreciación artística humana y cómo la IA puede comprenderlos y replicarlos mejor.",
+    "impact_score": 5
   },
   {
-    "title": "ZTE y Telkom Indonesia firman un memorando de entendimiento estratégico para acelerar las soluciones digitales y el desarrollo de infraestructura",
-    "url": "https://www.theregister.com/networks/2026/05/14/zte-and-telkom-indonesia-sign-strategic-mou-to-accelerate-digital-solutions-and-infrastructure-development/5240257",
-    "industry": "Telecommunications, Artificial Intelligence",
-    "summary": "ZTE y Telkom Indonesia firmaron un MoU estratégico para acelerar el desarrollo de infraestructura y soluciones digitales. El acuerdo se centra en la inteligencia artificial, la computación en la nube y la conectividad de próxima generación.",
-    "charlotte_impact": "Esta asociación significa la creciente importancia de la IA para impulsar la transformación digital en los mercados emergentes. Al colaborar en inteligencia artificial, computación en la nube y soluciones de conectividad, ZTE y Telkom Indonesia tienen como objetivo mejorar el ecosistema digital de Indonesia e impulsar su desarrollo económico.",
-    "impact_score": 6
-  },
-  {
-    "title": "AIQA Global y SecureSky anuncian un acuerdo de cooperación sobre las demandas convergentes de la gobernanza de la IA y la ciberseguridad",
-    "url": "https://www.prnewswire.com/news-releases/aiqa-global-and-securesky-announce-cooperation-agreement-on-the-converging-demands-of-ai-governance-and-cybersecurity-302772305.html",
-    "industry": "Cybersecurity, Artificial Intelligence",
-    "summary": "AIQA Global y SecureSky han anunciado un acuerdo de cooperación sobre gobernanza de IA y ciberseguridad. Coordinarán la investigación y la educación conjuntas a medida que la gobernanza de la IA y la resiliencia cibernética se evalúan cada vez más juntas.",
-    "charlotte_impact": "Esta colaboración destaca la creciente necesidad de abordar tanto la gobernanza de la IA como la ciberseguridad de manera holística. A medida que la IA se integra más en las operaciones comerciales, las organizaciones deben considerar las implicaciones éticas y de seguridad, lo que lleva a una mayor demanda de experiencia en ambas áreas.",
-    "impact_score": 7
-  },
-  {
-    "title": "Spectral Capital anuncia los resultados del primer trimestre de 2026 destacados por un récord de ingresos de 328,5 millones de dólares",
-    "url": "https://www.prnewswire.com/news-releases/spectral-capital-announces-first-quarter-2026-results-highlighted-by-record-328-5-million-in-revenue-302771893.html",
-    "industry": "Finance, Artificial Intelligence",
-    "summary": "Spectral Capital anunció ingresos récord de 328,5 millones de dólares para el primer trimestre de 2026, impulsados ​​por su enfoque en inteligencia artificial e infraestructura digital. La compañía también elevó su previsión de ingresos para todo el año.",
-    "charlotte_impact": "El sólido desempeño financiero de Spectral Capital demuestra la creciente oportunidad de mercado en inteligencia artificial e infraestructura digital. Se espera que el éxito de la empresa fomente una mayor inversión en empresas centradas en la IA e impulse la innovación en este sector.",
-    "impact_score": 7
-  },
-  {
-    "title": "LPL Financial gana dos premios Stevie por la innovación en inteligencia artificial",
-    "url": "https://www.globenewswire.com/news-release/2026/05/14/3294899/29579/en/LPL-Financial-Wins-Two-Stevie-Awards-for-Innovation-in-Artificial-Intelligence.html",
-    "industry": "Financial Services, Artificial Intelligence",
-    "summary": "LPL Financial ha ganado dos premios Stevie por su innovadora aplicación de IA para mejorar la experiencia de los asesores y los inversores. Esto reconoce el liderazgo de LPL en el aprovechamiento de la IA en la industria de servicios financieros.",
-    "charlotte_impact": "Los premios de LPL demuestran el potencial de la IA para transformar los servicios financieros al mejorar la productividad de los asesores y mejorar los resultados de los inversores. Esto podría alentar a más instituciones financieras a adoptar herramientas y servicios basados ​​en IA, lo que conduciría a una mayor eficiencia y personalización en la industria.",
-    "impact_score": 6
-  },
-  {
-    "title": "El interceptor de carga pesada ZenaDrone 2000 avanza hacia las pruebas de vuelo mientras ZenaTech apunta al mercado de contradrones de 20 mil millones de dólares",
-    "url": "https://financialpost.com/globe-newswire/zenadrone-2000-heavy-lift-interceptor-advances-toward-flight-testing-as-zenatech-targets-20b-counter-drone-market",
-    "industry": "Defense, Artificial Intelligence",
-    "summary": "El interceptor de carga pesada ZenaDrone 2000 avanza hacia las pruebas de vuelo mientras ZenaTech apunta al mercado de contradrones de 20 mil millones de dólares. Esta plataforma anti-UAS propulsada por gas se someterá a pruebas de vuelo iniciales en el tercer trimestre de 2026.",
-    "charlotte_impact": "El desarrollo de ZenaTech de un sistema antidrones demuestra la creciente importancia de la IA en aplicaciones de defensa y seguridad. El avance de esta tecnología tendrá implicaciones para la gestión del espacio aéreo tanto militar como civil, estimulando la innovación en los sistemas de detección, identificación e interceptación de drones.",
+    "title": "Copado lleva agentes de IA a la plataforma DevOps para crear aplicaciones personalizadas de Salesforce",
+    "url": "https://devops.com/copado-brings-ai-agents-to-devops-platform-for-building-custom-salesforce-apps/",
+    "industry": "DevOps/AI",
+    "summary": "Copado ha introducido agentes de IA en su plataforma DevOps para crear aplicaciones Salesforce personalizadas, agilizando los procesos de desarrollo e implementación.",
+    "charlotte_impact": "El auge de las herramientas DevOps impulsadas por IA significa un cambio hacia una mayor automatización y eficiencia en el desarrollo de software, lo que potencialmente reduce el tiempo y los costos de desarrollo.",
     "impact_score": 7
   }
 ]
