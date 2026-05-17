@@ -2,137 +2,161 @@
   {
     "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
     "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-    "industry": "Finance & AI",
-    "summary": "OpenAI is launching ChatGPT for personal finance, enabling users to connect their bank accounts for insights into portfolio performance, spending, subscriptions, and upcoming payments. This integration marks a move into the fintech space, offering users a new way to manage their finances through AI-powered analysis.",
-    "charlotte_impact": "This launch intensifies the competition in the fintech sector, potentially impacting existing personal finance apps and services. Financial institutions may need to adapt by integrating similar AI-driven functionalities to remain competitive. Consumers could benefit from more personalized and efficient financial management tools, fostering better financial literacy.",
+    "industry": "Finance",
+    "summary": "OpenAI is expanding ChatGPT's capabilities into personal finance, enabling users to connect bank accounts and gain insights into their financial performance. This move signifies a significant step towards integrating AI into everyday financial management.",
+    "charlotte_impact": "This feature significantly impacts fintech companies, challenging traditional financial planning models. Banks and investment firms will need to adapt to AI-driven tools. The increased access to financial information will increase demand for cyber security, identity management, and fraud detection.",
     "impact_score": 8
   },
   {
     "title": "The OpenAI trial wraps up,\u00a0and the Musk founder machine keeps spinning",
     "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
-    "industry": "AI & Legal",
-    "summary": "The Musk v. Altman trial has wrapped up, focusing on the central question of trustworthiness in the AI industry. The trial highlights the ongoing debate about the ethical oversight and control of rapidly advancing AI technologies.",
-    "charlotte_impact": "The scrutiny of AI leadership can influence investment and public perception of AI companies. Increased awareness of ethical concerns may drive demand for more transparent and accountable AI development practices, potentially leading to regulatory changes and new standards.",
+    "industry": "Legal/AI Governance",
+    "summary": "The Musk v. Altman trial concluded, raising fundamental questions about the trustworthiness of individuals overseeing AI development. This underscores the ongoing debate and scrutiny surrounding AI ethics and governance.",
+    "charlotte_impact": "The outcome of such high-profile trials shapes public opinion and regulatory considerations. Investors and companies should consider these precedents when developing AI products. The legal precedent will inform risk management strategies and compliance efforts.",
     "impact_score": 7
   },
   {
     "title": "Runway started by helping filmmakers \u2014 now it wants to beat Google at AI",
     "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
-    "industry": "AI & Media",
-    "summary": "Runway, an AI video-generation startup, is aiming to surpass Google in the AI domain by focusing on video generation as the key to developing world models. They believe their outsider status gives them an advantage in this competitive space.",
-    "charlotte_impact": "The success of Runway could accelerate the adoption of AI in video production and content creation, affecting traditional media companies and the entertainment industry. Businesses could leverage AI-generated videos for marketing and communication, potentially reducing production costs.",
+    "industry": "AI Video Generation",
+    "summary": "Runway, an AI video-generation startup, aims to develop general-purpose 'world models,' challenging the dominance of established tech giants like Google in the AI space. This highlights the competitive landscape and the potential for disruptive innovation in AI.",
+    "charlotte_impact": "The growth of AI video generation could democratize video production, impacting media, advertising, and entertainment. Local media outlets could adopt this technology to create content quickly and cost-effectively. Increased video content will increase demand for video optimization and monetization tools.",
     "impact_score": 7
   },
   {
     "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
     "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
-    "industry": "AI & Software Development",
-    "summary": "OpenAI co-founder Greg Brockman is reportedly taking charge of product strategy, coinciding with plans to combine ChatGPT and Codex. This consolidation suggests a renewed focus on streamlining and enhancing OpenAI's core product offerings.",
-    "charlotte_impact": "A more integrated ChatGPT and Codex could lead to more efficient and powerful AI tools for software developers. Businesses reliant on OpenAI's technologies may see improvements in productivity and innovation, boosting their competitive edge.",
+    "industry": "AI Strategy",
+    "summary": "OpenAI co-founder Greg Brockman is taking on a more prominent role in product strategy as the company plans to integrate ChatGPT and Codex. This reshuffling indicates a shift in OpenAI's direction and product development roadmap.",
+    "charlotte_impact": "This strategic shift highlights the need for companies to adapt to changing market conditions. Business leaders must be agile and adjust their product development plans. Competitors to OpenAI will need to reassess their market strategies.",
     "impact_score": 6
   },
   {
     "title": "OpenAI says Codex is coming to your phone",
     "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
-    "industry": "AI & Software Development",
-    "summary": "OpenAI is bringing Codex to mobile devices, providing users with more flexibility in managing their coding workflows. This move emphasizes accessibility and aims to empower developers with AI-assisted coding capabilities on the go.",
-    "charlotte_impact": "Mobile access to Codex will likely improve developer productivity and accelerate software development cycles. Companies can expect faster turnaround times for mobile application development and maintenance.",
+    "industry": "AI Development",
+    "summary": "OpenAI is bringing its Codex programming product to mobile devices, enhancing user flexibility in managing their workflows. This accessibility indicates a focus on broadening the reach and usability of AI coding tools.",
+    "charlotte_impact": "Increased accessibility to Codex could empower developers and citizen developers, leading to increased automation. The rise in the number of mobile apps will create increased demand for mobile development skills and testing tools.",
     "impact_score": 6
   },
   {
     "title": "What happens when AI starts building itself?",
     "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
-    "industry": "AI & Research",
-    "summary": "Richard Socher's new startup aims to build an AI capable of self-improvement and continuous research. The company intends to ship tangible products, suggesting a focus on practical applications of self-evolving AI.",
-    "charlotte_impact": "If successful, this initiative could revolutionize industries relying on research and development. Companies may be able to leverage self-improving AI to accelerate innovation, reduce research costs, and gain a competitive advantage.",
-    "impact_score": 8
+    "industry": "Agentic AI",
+    "summary": "Richard Socher's new startup is focused on developing AI that can autonomously research and improve itself, aiming for continuous product innovation. This represents a significant leap towards more autonomous and self-sufficient AI systems.",
+    "charlotte_impact": "Autonomous research tools could lead to faster breakthroughs in various industries. Businesses should monitor these developments to identify new opportunities for innovation and cost reduction. Organizations must develop strategies for understanding and trusting output from these self-improving AI agents.",
+    "impact_score": 9
   },
   {
     "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn\u2019t be the first partner to feel burned",
     "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-    "industry": "AI & Legal",
-    "summary": "OpenAI is reportedly considering legal action against Apple due to unsatisfactory integration results. This dispute highlights the complexities and potential pitfalls of partnerships in the rapidly evolving AI landscape.",
-    "charlotte_impact": "This conflict could cause companies to be more cautious about AI integration and strategic alliances. AI companies will need to ensure clear agreements and realistic expectations to avoid similar disputes, potentially slowing the pace of integration efforts.",
+    "industry": "Legal/Partnerships",
+    "summary": "OpenAI is reportedly considering legal action against Apple due to dissatisfaction with a failed ChatGPT integration. This highlights the challenges and potential conflicts in AI partnerships.",
+    "charlotte_impact": "This potential legal battle underscores the importance of clearly defined contracts and expectations in partnerships. Business leaders should be wary of over-reliance on single partnerships. The outcome of this dispute could impact the future landscape of AI integrations.",
     "impact_score": 6
   },
   {
     "title": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026",
     "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
-    "industry": "AI & Finance",
-    "summary": "Cerebras, a company specializing in AI hardware, successfully raised $5.5 billion in its IPO, signaling strong investor confidence in the AI infrastructure market. The company's stock experienced a significant surge, marking the first major tech IPO of 2026.",
-    "charlotte_impact": "Cerebras' IPO success validates the demand for specialized AI hardware and infrastructure. It could encourage further investment in this sector, leading to the development of more powerful and efficient AI chips and systems.",
-    "impact_score": 9
+    "industry": "Finance/Investment",
+    "summary": "Cerebras, an AI chipmaker, successfully raised $5.5 billion in its IPO, marking a significant event for the tech industry. This demonstrates strong investor confidence in the future of AI hardware.",
+    "charlotte_impact": "The successful IPO may encourage other AI hardware companies to go public. Increased investment in AI infrastructure is a bullish signal for the broader AI ecosystem. Local financial firms can provide expertise in evaluating and managing such IPOs.",
+    "impact_score": 7
+  },
+  {
+    "title": "TechCrunch Mobility: The AI skills arms race is coming for automotive",
+    "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
+    "industry": "Automotive",
+    "summary": "The automotive industry is facing an AI skills arms race, as companies compete for talent to integrate AI into their products and services. This demand indicates a fundamental shift in the skills required for the automotive workforce.",
+    "charlotte_impact": "Local automotive suppliers will need to invest in AI training and recruitment. Educational institutions may have an opportunity to offer specialized AI programs tailored to the automotive sector. Organizations should develop strategies for reskilling existing workforces to meet AI demand.",
+    "impact_score": 7
   },
   {
     "title": "The haves and have nots of the AI gold rush",
     "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
-    "industry": "AI & Economic Impact",
-    "summary": "The article discusses the uneven distribution of benefits in the current AI boom, suggesting that the advantages are not being equally shared across industries and society. This disparity could exacerbate existing inequalities.",
-    "charlotte_impact": "The unequal distribution of AI benefits could lead to social and economic tensions. To mitigate this, stakeholders need to focus on equitable access to AI technologies and skills training.",
-    "impact_score": 7
+    "industry": "Social Impact",
+    "summary": "The AI boom is creating a divide between those who have access to AI resources and opportunities and those who do not, raising concerns about inequality. This highlights the need for equitable access to AI education and resources.",
+    "charlotte_impact": "Local community organizations could work to provide AI training and resources to underserved populations. Businesses can implement corporate social responsibility initiatives focused on AI education. Increased awareness of this disparity will require social safety nets.",
+    "impact_score": 6
   },
   {
     "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
     "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
-    "industry": "AI & Academic Research",
-    "summary": "ArXiv will ban authors for a year if they are found to have relied too heavily on AI in their research. This measure aims to maintain the integrity and quality of scientific publications in the face of increasing AI capabilities.",
-    "charlotte_impact": "This policy will likely influence academic and research institutions, promoting responsible AI usage in scholarly work. Researchers will need to ensure that AI tools are used ethically and transparently to avoid penalties and maintain credibility.",
-    "impact_score": 8
+    "industry": "Research/Ethics",
+    "summary": "The research repository ArXiv is banning authors who rely too heavily on AI in their scientific papers. This demonstrates growing concerns about the responsible use of AI in research.",
+    "charlotte_impact": "Academic institutions may need to develop guidelines for using AI in research. The policy demonstrates the need to balance innovation with ethical considerations. Local research conferences may need to address ethical concerns.",
+    "impact_score": 7
   },
   {
     "title": "Silicon Valley\u2019s vacationland needs a new energy provider just as AI is driving prices up",
     "url": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
-    "industry": "AI & Energy",
-    "summary": "Lake Tahoe, a popular retreat for Silicon Valley professionals, faces rising energy prices due to increased AI demand. This highlights the significant energy consumption associated with AI technologies.",
-    "charlotte_impact": "Increased energy demands due to AI can strain infrastructure and drive up electricity costs. Companies will need to prioritize energy efficiency and explore renewable energy sources to mitigate the environmental impact of AI.",
+    "industry": "Energy",
+    "summary": "Increased energy prices as a result of AI's energy consumption are impacting Silicon Valley's vacationland, Lake Tahoe. This demonstrates the growing environmental impact of AI.",
+    "charlotte_impact": "Organizations must explore ways to reduce the energy footprint of AI. Utility companies need to invest in renewable energy sources to meet growing energy demands. Increased energy cost requires efficient energy grid management.",
     "impact_score": 7
   },
   {
     "title": "Osaurus brings both local and cloud AI models to your Mac",
     "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-    "industry": "AI & Software",
-    "summary": "Osaurus combines local and cloud AI models in a Mac application, allowing users to maintain control over their data and tools. This approach offers a balance between AI capabilities and data privacy.",
-    "charlotte_impact": "Osaurus approach could popularize hybrid AI solutions that prioritize user control and data security. Businesses may find this model appealing for sensitive data processing, reducing reliance on purely cloud-based AI services.",
+    "industry": "Software",
+    "summary": "Osaurus is bringing both local and cloud AI models to Mac users, combining AI processing in a single application. This allows for privacy-focused AI processing.",
+    "charlotte_impact": "This trend creates opportunities for software companies to develop AI-powered applications that protect user data. This will encourage local software developers to build apps with local AI support.",
     "impact_score": 6
   },
   {
     "title": "Elon Musk\u2019s SpaceXAI has been bleeding staff since its merger",
     "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
-    "industry": "AI & Talent",
-    "summary": "SpaceXAI has experienced significant staff attrition since its merger, raising concerns about burnout, leadership changes, and retention issues. This turnover could impact the company's AI development efforts.",
-    "charlotte_impact": "This loss of talent may slow down SpaceXAI's progress and hurt innovation.  Maintaining talent in the AI sector requires competitive compensation, challenging projects, and a positive work environment.",
+    "industry": "Aerospace",
+    "summary": "Elon Musk's SpaceXAI has experienced a significant staff reduction since its merger, raising questions about leadership, employee retention, and talent poaching. The issues will cause potential delays in SpaceXAI products.",
+    "charlotte_impact": "The brain-drain underscores the need to address employee burnout in the fast-paced AI industry. Local AI companies can implement retention strategies to safeguard valuable talent. The loss of staff may increase the hiring of specialized AI recruitment agencies.",
     "impact_score": 5
   },
   {
     "title": "Cisco cuts nearly 4,000 jobs to spend more on AI, reports \u2018record quarterly revenue\u2019",
     "url": "https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/",
-    "industry": "AI & Job Market",
-    "summary": "Cisco is cutting nearly 4,000 jobs to invest more heavily in AI, despite reporting record quarterly revenue. This decision reflects a strategic shift towards AI-driven automation and innovation.",
-    "charlotte_impact": "Cisco's layoffs highlights how AI can lead to job displacement in some sectors. Businesses need to invest in worker retraining and support programs to help employees transition to new roles in the AI-driven economy.",
-    "impact_score": 9
-  },
-  {
-    "title": "Wirestock raises $23M to supply creative multimodal data to AI labs",
-    "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/",
-    "industry": "AI & Data",
-    "summary": "Wirestock raised $23 million to supply creative multimodal data to AI labs, highlighting the critical role of data in training AI models. The company provides diverse datasets of images, videos, and 3D content.",
-    "charlotte_impact": "Wirestock funding underscores the growing demand for high-quality training data for AI. The availability of diverse multimodal datasets can improve the accuracy and capabilities of AI models.",
+    "industry": "Technology",
+    "summary": "Cisco is cutting nearly 4,000 jobs to invest more in AI, despite reporting record quarterly revenue. The strategy demonstrates the shifting priorities of enterprise technology companies. Traditional technology roles will require upskilling in AI.",
+    "charlotte_impact": "Local tech companies may follow suit, leading to job displacement in certain areas. The local workforce will require skills in AI for future job growth. Community colleges may need to focus on AI training.",
     "impact_score": 8
   },
   {
-    "title": "OpenAI seals deal in Malta to give all Maltese access to ChatGPT Plus",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-seals-deal-in-malta-to-give-all-maltese-access-to-chatgpt-plus/articleshow/131135637.cms",
-    "industry": "AI & Government",
-    "summary": "OpenAI has partnered with the government of Malta to provide all residents with access to ChatGPT Plus for one year after they complete an AI usage course. This initiative aims to promote AI literacy and adoption on a national scale.",
-    "charlotte_impact": "This initiative could spur economic growth through increasing knowledge and usage of AI tools. The success of the program in Malta could encourage other countries to implement similar programs, accelerating AI adoption globally.",
-    "impact_score": 9
+    "title": "JFrog (FROG) Poised to Benefit as Enterprises Rush to Deploy AI at Scale",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jfrog-frog-poised-benefit-enterprises-180320328.html",
+    "industry": "Software",
+    "summary": "JFrog is positioned to benefit from increased enterprise adoption of AI. The company may improve efficiency in AI management.",
+    "charlotte_impact": "This trend highlights the importance of software management. Increased awareness will improve the performance of AI deployments.",
+    "impact_score": 5
   },
   {
-    "title": "OpenAI seals deal in Malta to give all Maltese access to ChatGPT Plus",
-    "url": "https://www.channelnewsasia.com/business/openai-seals-deal-in-malta-give-all-maltese-access-chatgpt-plus-6125626",
-    "industry": "AI & Government",
-    "summary": "OpenAI has partnered with the government of Malta to provide all residents with access to ChatGPT Plus for one year after they complete an AI usage course. This initiative aims to promote AI literacy and adoption on a national scale.",
-    "charlotte_impact": "This initiative could spur economic growth through increasing knowledge and usage of AI tools. The success of the program in Malta could encourage other countries to implement similar programs, accelerating AI adoption globally.",
-    "impact_score": 9
+    "title": "Kindergarten for Divine Beasts Webtoon Gets AI-Based Animated TV Series",
+    "url": "https://www.animenewsnetwork.com/news/2026-05-16/kindergarten-for-divine-beasts-webtoon-gets-ai-based-animated-tv-series/.237307",
+    "industry": "Entertainment",
+    "summary": "The Kindergarten for Divine Beasts Webtoon Gets AI-Based Animated TV Series. This shows that traditional entertainment industry is adapting AI in innovative ways.",
+    "charlotte_impact": "This trend creates opportunity for entertainment companies to develop content quickly and cost-effectively. Increased awareness will improve the performance of AI deployments.",
+    "impact_score": 6
+  },
+  {
+    "title": "Opinion - AI is raising the price of entry into the workforce. Education must lower it.",
+    "url": "https://thehill.com/opinion/technology/5880171-ai-skills-education-abundance/",
+    "industry": "Education",
+    "summary": "AI is increasing the cost of entry into the workforce, which requires education to lower it. This underscores the need for educational institutions to prepare students for AI-driven employment landscape.",
+    "charlotte_impact": "This will increase the demand for specialized training and upskilling programs. Educational institutions may need to focus on providing training for AI-related jobs.",
+    "impact_score": 8
+  },
+  {
+    "title": "Captain Seven Of Nine in New Star Trek Series in September 2026",
+    "url": "https://bleedingcool.com/comics/captain-seven-of-nine-in-new-star-trek-series-in-september-2026/",
+    "industry": "Entertainment",
+    "summary": "Captain Seven Of Nine in New Star Trek Series in September 2026. This illustrates the entertainment industry is still in the phase of exploration.",
+    "charlotte_impact": "This show is a signal to traditional producers to move forward in science fiction.",
+    "impact_score": 3
+  },
+  {
+    "title": "pybibx 5.9.0",
+    "url": "https://pypi.org/project/pybibx/5.9.0/",
+    "industry": "Research",
+    "summary": "A Bibliometric and Scientometric Library Powered with Artificial Intelligence Tools. This shows that the traditional research industry is adapting AI in innovative ways.",
+    "charlotte_impact": "This trend creates opportunity for researchers to develop content quickly and cost-effectively. Increased awareness will improve the performance of AI deployments.",
+    "impact_score": 6
   }
 ]

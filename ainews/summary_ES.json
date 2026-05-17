@@ -2,137 +2,161 @@
   {
     "title": "OpenAI lanza ChatGPT para finanzas personales y le permitirá conectar cuentas bancarias",
     "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-    "industry": "Finance & AI",
-    "summary": "OpenAI está lanzando ChatGPT para finanzas personales, lo que permite a los usuarios conectar sus cuentas bancarias para obtener información sobre el rendimiento de la cartera, los gastos, las suscripciones y los próximos pagos. Esta integración marca un paso hacia el espacio fintech y ofrece a los usuarios una nueva forma de administrar sus finanzas a través de análisis impulsados ​​por inteligencia artificial.",
-    "charlotte_impact": "Este lanzamiento intensifica la competencia en el sector fintech, lo que podría afectar las aplicaciones y servicios de finanzas personales existentes. Es posible que las instituciones financieras necesiten adaptarse integrando funcionalidades similares impulsadas por la IA para seguir siendo competitivas. Los consumidores podrían beneficiarse de herramientas de gestión financiera más personalizadas y eficientes, fomentando una mejor educación financiera.",
+    "industry": "Finance",
+    "summary": "OpenAI está ampliando las capacidades de ChatGPT a las finanzas personales, permitiendo a los usuarios conectar cuentas bancarias y obtener información sobre su desempeño financiero. Este movimiento significa un paso significativo hacia la integración de la IA en la gestión financiera diaria.",
+    "charlotte_impact": "Esta característica impacta significativamente a las empresas fintech, desafiando los modelos tradicionales de planificación financiera. Los bancos y las empresas de inversión deberán adaptarse a las herramientas impulsadas por la IA. El mayor acceso a la información financiera aumentará la demanda de ciberseguridad, gestión de identidades y detección de fraude.",
     "impact_score": 8
   },
   {
     "title": "La prueba de OpenAI concluye y la máquina fundadora de Musk sigue girando",
     "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
-    "industry": "AI & Legal",
-    "summary": "El juicio Musk contra Altman ha concluido y se centra en la cuestión central de la confiabilidad en la industria de la inteligencia artificial. El ensayo destaca el debate en curso sobre la supervisión y el control éticos de las tecnologías de inteligencia artificial que avanzan rápidamente.",
-    "charlotte_impact": "El escrutinio del liderazgo en IA puede influir en la inversión y la percepción pública de las empresas de IA. Una mayor conciencia de las preocupaciones éticas puede impulsar la demanda de prácticas de desarrollo de IA más transparentes y responsables, lo que podría conducir a cambios regulatorios y nuevos estándares.",
+    "industry": "Legal/AI Governance",
+    "summary": "El juicio Musk contra Altman concluyó, planteando cuestiones fundamentales sobre la confiabilidad de las personas que supervisan el desarrollo de la IA. Esto subraya el debate y el escrutinio en curso en torno a la ética y la gobernanza de la IA.",
+    "charlotte_impact": "El resultado de ensayos de tan alto perfil moldea la opinión pública y las consideraciones regulatorias. Los inversores y las empresas deberían considerar estos precedentes al desarrollar productos de IA. El precedente legal informará las estrategias de gestión de riesgos y los esfuerzos de cumplimiento.",
     "impact_score": 7
   },
   {
     "title": "Runway comenzó ayudando a los cineastas; ahora quiere vencer a Google en IA",
     "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
-    "industry": "AI & Media",
-    "summary": "Runway, una startup de generación de vídeos con IA, pretende superar a Google en el dominio de la IA centrándose en la generación de vídeos como clave para desarrollar modelos mundiales. Creen que su condición de outsiders les da una ventaja en este espacio competitivo.",
-    "charlotte_impact": "El éxito de Runway podría acelerar la adopción de la IA en la producción de vídeos y la creación de contenidos, lo que afectaría a las empresas de medios tradicionales y a la industria del entretenimiento. Las empresas podrían aprovechar los vídeos generados por IA para marketing y comunicación, reduciendo potencialmente los costes de producción.",
+    "industry": "AI Video Generation",
+    "summary": "Runway, una startup de generación de videos de IA, tiene como objetivo desarrollar 'modelos mundiales' de propósito general, desafiando el dominio de gigantes tecnológicos establecidos como Google en el espacio de la IA. Esto pone de relieve el panorama competitivo y el potencial de innovación disruptiva en IA.",
+    "charlotte_impact": "El crecimiento de la generación de videos con IA podría democratizar la producción de videos, impactando los medios, la publicidad y el entretenimiento. Los medios de comunicación locales podrían adoptar esta tecnología para crear contenido de forma rápida y rentable. Un mayor contenido de vídeo aumentará la demanda de herramientas de optimización y monetización de vídeos.",
     "impact_score": 7
   },
   {
     "title": "El cofundador de OpenAI, Greg Brockman, se hace cargo de la estrategia de producto",
     "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
-    "industry": "AI & Software Development",
-    "summary": "Según se informa, el cofundador de OpenAI, Greg Brockman, se hará cargo de la estrategia de producto, coincidiendo con los planes de combinar ChatGPT y Codex. Esta consolidación sugiere un enfoque renovado en la racionalización y mejora de las ofertas de productos principales de OpenAI.",
-    "charlotte_impact": "Un ChatGPT y un Codex más integrados podrían conducir a herramientas de inteligencia artificial más eficientes y poderosas para los desarrolladores de software. Las empresas que dependen de las tecnologías de OpenAI pueden ver mejoras en la productividad y la innovación, impulsando su ventaja competitiva.",
+    "industry": "AI Strategy",
+    "summary": "El cofundador de OpenAI, Greg Brockman, está asumiendo un papel más destacado en la estrategia de productos a medida que la empresa planea integrar ChatGPT y Codex. Esta reorganización indica un cambio en la dirección de OpenAI y en la hoja de ruta de desarrollo de productos.",
+    "charlotte_impact": "Este cambio estratégico resalta la necesidad de que las empresas se adapten a las condiciones cambiantes del mercado. Los líderes empresariales deben ser ágiles y ajustar sus planes de desarrollo de productos. Los competidores de OpenAI deberán reevaluar sus estrategias de mercado.",
     "impact_score": 6
   },
   {
     "title": "OpenAI dice que Codex llegará a tu teléfono",
     "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
-    "industry": "AI & Software Development",
-    "summary": "OpenAI lleva Codex a dispositivos móviles, brindando a los usuarios más flexibilidad para administrar sus flujos de trabajo de codificación. Este movimiento enfatiza la accesibilidad y tiene como objetivo brindar a los desarrolladores capacidades de codificación asistidas por IA sobre la marcha.",
-    "charlotte_impact": "El acceso móvil al Codex probablemente mejorará la productividad de los desarrolladores y acelerará los ciclos de desarrollo de software. Las empresas pueden esperar tiempos de respuesta más rápidos para el desarrollo y mantenimiento de aplicaciones móviles.",
+    "industry": "AI Development",
+    "summary": "OpenAI lleva su producto de programación Codex a dispositivos móviles, mejorando la flexibilidad del usuario en la gestión de sus flujos de trabajo. Esta accesibilidad indica un enfoque en ampliar el alcance y la usabilidad de las herramientas de codificación de IA.",
+    "charlotte_impact": "Una mayor accesibilidad al Codex podría empoderar a los desarrolladores y a los ciudadanos, lo que conduciría a una mayor automatización. El aumento en el número de aplicaciones móviles creará una mayor demanda de habilidades de desarrollo móvil y herramientas de prueba.",
     "impact_score": 6
   },
   {
     "title": "¿Qué sucede cuando la IA comienza a construirse por sí misma?",
     "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
-    "industry": "AI & Research",
-    "summary": "La nueva startup de Richard Socher tiene como objetivo construir una IA capaz de superación personal e investigación continua. La compañía tiene la intención de enviar productos tangibles, lo que sugiere centrarse en aplicaciones prácticas de IA autoevolucionante.",
-    "charlotte_impact": "Si tiene éxito, esta iniciativa podría revolucionar las industrias que dependen de la investigación y el desarrollo. Las empresas pueden aprovechar la IA automejorada para acelerar la innovación, reducir los costos de investigación y obtener una ventaja competitiva.",
-    "impact_score": 8
+    "industry": "Agentic AI",
+    "summary": "La nueva startup de Richard Socher se centra en el desarrollo de IA que pueda investigar y mejorar de forma autónoma, con el objetivo de innovar continuamente los productos. Esto representa un salto significativo hacia sistemas de IA más autónomos y autosuficientes.",
+    "charlotte_impact": "Las herramientas de investigación autónomas podrían conducir a avances más rápidos en diversas industrias. Las empresas deben monitorear estos desarrollos para identificar nuevas oportunidades de innovación y reducción de costos. Las organizaciones deben desarrollar estrategias para comprender y confiar en los resultados de estos agentes de IA que mejoran a sí mismos.",
+    "impact_score": 9
   },
   {
     "title": "Según se informa, OpenAI está preparando acciones legales contra Apple; no sería la primera pareja en sentirse quemada",
     "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-    "industry": "AI & Legal",
-    "summary": "Según se informa, OpenAI está considerando emprender acciones legales contra Apple debido a resultados de integración insatisfactorios. Esta disputa pone de relieve las complejidades y los posibles peligros de las asociaciones en el panorama de la IA en rápida evolución.",
-    "charlotte_impact": "Este conflicto podría hacer que las empresas sean más cautelosas con respecto a la integración de la IA y las alianzas estratégicas. Las empresas de IA deberán garantizar acuerdos claros y expectativas realistas para evitar disputas similares, lo que podría ralentizar el ritmo de los esfuerzos de integración.",
+    "industry": "Legal/Partnerships",
+    "summary": "Según se informa, OpenAI está considerando emprender acciones legales contra Apple debido a su insatisfacción con una integración fallida de ChatGPT. Esto pone de relieve los desafíos y los conflictos potenciales en las asociaciones de IA.",
+    "charlotte_impact": "Esta posible batalla legal subraya la importancia de contratos y expectativas claramente definidos en las asociaciones. Los líderes empresariales deberían tener cuidado con la dependencia excesiva de asociaciones únicas. El resultado de esta disputa podría afectar el panorama futuro de las integraciones de IA.",
     "impact_score": 6
   },
   {
     "title": "Cerebras recauda 5.500 millones de dólares y luego las acciones suben un 108% en la primera gran oferta pública inicial de tecnología de 2026",
     "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
-    "industry": "AI & Finance",
-    "summary": "Cerebras, una empresa especializada en hardware de IA, recaudó con éxito 5.500 millones de dólares en su oferta pública inicial, lo que indica una fuerte confianza de los inversores en el mercado de infraestructura de IA. Las acciones de la compañía experimentaron un aumento significativo, lo que marcó la primera oferta pública inicial de tecnología importante de 2026.",
-    "charlotte_impact": "El éxito de la OPI de Cerebras valida la demanda de infraestructura y hardware de IA especializados. Podría fomentar una mayor inversión en este sector, lo que conduciría al desarrollo de chips y sistemas de IA más potentes y eficientes.",
-    "impact_score": 9
+    "industry": "Finance/Investment",
+    "summary": "Cerebras, un fabricante de chips de IA, recaudó con éxito 5.500 millones de dólares en su oferta pública inicial, lo que supone un acontecimiento importante para la industria tecnológica. Esto demuestra una fuerte confianza de los inversores en el futuro del hardware de IA.",
+    "charlotte_impact": "La salida a bolsa exitosa puede alentar a otras empresas de hardware de IA a cotizar en bolsa. Una mayor inversión en infraestructura de IA es una señal alcista para el ecosistema de IA en general. Las empresas financieras locales pueden aportar experiencia en la evaluación y gestión de dichas OPI.",
+    "impact_score": 7
+  },
+  {
+    "title": "TechCrunch Mobility: La carrera armamentista de habilidades de IA se acerca a la automoción",
+    "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
+    "industry": "Automotive",
+    "summary": "La industria automotriz se enfrenta a una carrera armamentista en habilidades de IA, a medida que las empresas compiten por talento para integrar la IA en sus productos y servicios. Esta demanda indica un cambio fundamental en las habilidades requeridas para la fuerza laboral automotriz.",
+    "charlotte_impact": "Los proveedores automotrices locales deberán invertir en capacitación y contratación de IA. Las instituciones educativas pueden tener la oportunidad de ofrecer programas especializados en IA adaptados al sector automotriz. Las organizaciones deben desarrollar estrategias para volver a capacitar a la fuerza laboral existente para satisfacer la demanda de IA.",
+    "impact_score": 7
   },
   {
     "title": "Los que tienen y los que no tienen la fiebre del oro de la IA",
     "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
-    "industry": "AI & Economic Impact",
-    "summary": "El artículo analiza la distribución desigual de los beneficios en el actual auge de la IA, sugiriendo que las ventajas no se comparten equitativamente entre las industrias y la sociedad. Esta disparidad podría exacerbar las desigualdades existentes.",
-    "charlotte_impact": "La distribución desigual de los beneficios de la IA podría generar tensiones sociales y económicas. Para mitigar esto, las partes interesadas deben centrarse en el acceso equitativo a las tecnologías de IA y la formación de habilidades.",
-    "impact_score": 7
+    "industry": "Social Impact",
+    "summary": "El auge de la IA está creando una división entre quienes tienen acceso a recursos y oportunidades de IA y quienes no, lo que genera preocupación sobre la desigualdad. Esto destaca la necesidad de un acceso equitativo a la educación y los recursos de IA.",
+    "charlotte_impact": "Las organizaciones comunitarias locales podrían trabajar para brindar capacitación y recursos en IA a poblaciones desatendidas. Las empresas pueden implementar iniciativas de responsabilidad social corporativa centradas en la educación en IA. Una mayor conciencia de esta disparidad requerirá redes de seguridad social.",
+    "impact_score": 6
   },
   {
     "title": "El repositorio de investigación ArXiv prohibirá a los autores durante un año si dejan que la IA haga todo el trabajo",
     "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
-    "industry": "AI & Academic Research",
-    "summary": "ArXiv prohibirá a los autores durante un año si se descubre que han dependido demasiado de la IA en su investigación. Esta medida tiene como objetivo mantener la integridad y la calidad de las publicaciones científicas ante el aumento de las capacidades de la IA.",
-    "charlotte_impact": "Es probable que esta política influya en las instituciones académicas y de investigación, promoviendo el uso responsable de la IA en el trabajo académico. Los investigadores deberán garantizar que las herramientas de inteligencia artificial se utilicen de manera ética y transparente para evitar sanciones y mantener la credibilidad.",
-    "impact_score": 8
+    "industry": "Research/Ethics",
+    "summary": "El repositorio de investigación ArXiv prohíbe a los autores que dependen demasiado de la IA en sus artículos científicos. Esto demuestra una creciente preocupación por el uso responsable de la IA en la investigación.",
+    "charlotte_impact": "Es posible que las instituciones académicas necesiten desarrollar directrices para el uso de la IA en la investigación. La política demuestra la necesidad de equilibrar la innovación con consideraciones éticas. Es posible que las conferencias de investigación locales deban abordar cuestiones éticas.",
+    "impact_score": 7
   },
   {
     "title": "El lugar de vacaciones de Silicon Valley necesita un nuevo proveedor de energía justo cuando la IA está haciendo subir los precios",
     "url": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
-    "industry": "AI & Energy",
-    "summary": "Lake Tahoe, un refugio popular para los profesionales de Silicon Valley, enfrenta un aumento de los precios de la energía debido a la mayor demanda de IA. Esto pone de relieve el importante consumo de energía asociado a las tecnologías de IA.",
-    "charlotte_impact": "El aumento de la demanda de energía debido a la IA puede sobrecargar la infraestructura y aumentar los costos de la electricidad. Las empresas deberán priorizar la eficiencia energética y explorar fuentes de energía renovables para mitigar el impacto ambiental de la IA.",
+    "industry": "Energy",
+    "summary": "El aumento de los precios de la energía como resultado del consumo de energía de la IA está afectando al lugar de vacaciones de Silicon Valley, Lake Tahoe. Esto demuestra el creciente impacto ambiental de la IA.",
+    "charlotte_impact": "Las organizaciones deben explorar formas de reducir la huella energética de la IA. Las empresas de servicios públicos necesitan invertir en fuentes de energía renovables para satisfacer la creciente demanda energética. El aumento del coste energético requiere una gestión eficiente de la red energética.",
     "impact_score": 7
   },
   {
     "title": "Osaurus trae modelos de IA locales y en la nube a tu Mac",
     "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-    "industry": "AI & Software",
-    "summary": "Osaurus combina modelos de IA locales y en la nube en una aplicación para Mac, lo que permite a los usuarios mantener el control sobre sus datos y herramientas. Este enfoque ofrece un equilibrio entre las capacidades de la IA y la privacidad de los datos.",
-    "charlotte_impact": "El enfoque de Osaurus podría popularizar las soluciones híbridas de IA que prioricen el control del usuario y la seguridad de los datos. Las empresas pueden encontrar este modelo atractivo para el procesamiento de datos confidenciales, lo que reduce la dependencia de servicios de inteligencia artificial puramente basados ​​en la nube.",
+    "industry": "Software",
+    "summary": "Osaurus ofrece modelos de IA locales y en la nube a los usuarios de Mac, combinando el procesamiento de IA en una sola aplicación. Esto permite el procesamiento de IA centrado en la privacidad.",
+    "charlotte_impact": "Esta tendencia crea oportunidades para que las empresas de software desarrollen aplicaciones impulsadas por IA que protejan los datos de los usuarios. Esto alentará a los desarrolladores de software locales a crear aplicaciones con soporte local de IA.",
     "impact_score": 6
   },
   {
     "title": "SpaceXAI de Elon Musk ha estado sangrando personal desde su fusión",
     "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
-    "industry": "AI & Talent",
-    "summary": "SpaceXAI ha experimentado un importante desgaste de personal desde su fusión, lo que genera preocupaciones sobre el agotamiento, los cambios de liderazgo y los problemas de retención. Esta facturación podría afectar los esfuerzos de desarrollo de IA de la empresa.",
-    "charlotte_impact": "Esta pérdida de talento puede frenar el progreso de SpaceXAI y perjudicar la innovación.  Mantener el talento en el sector de la IA requiere una compensación competitiva, proyectos desafiantes y un ambiente de trabajo positivo.",
+    "industry": "Aerospace",
+    "summary": "SpaceXAI de Elon Musk ha experimentado una importante reducción de personal desde su fusión, lo que plantea dudas sobre el liderazgo, la retención de empleados y la caza furtiva de talentos. Los problemas provocarán posibles retrasos en los productos SpaceXAI.",
+    "charlotte_impact": "La fuga de cerebros subraya la necesidad de abordar el agotamiento de los empleados en la acelerada industria de la IA. Las empresas locales de IA pueden implementar estrategias de retención para salvaguardar el talento valioso. La pérdida de personal puede aumentar la contratación de agencias de contratación especializadas en IA.",
     "impact_score": 5
   },
   {
     "title": "Cisco elimina casi 4.000 puestos de trabajo para gastar más en IA y reporta \"ingresos trimestrales récord\"",
     "url": "https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/",
-    "industry": "AI & Job Market",
-    "summary": "Cisco está eliminando casi 4.000 puestos de trabajo para invertir más en IA, a pesar de reportar ingresos trimestrales récord. Esta decisión refleja un cambio estratégico hacia la automatización y la innovación impulsadas por la IA.",
-    "charlotte_impact": "Los despidos de Cisco ponen de relieve cómo la IA puede provocar el desplazamiento de puestos de trabajo en algunos sectores. Las empresas deben invertir en programas de apoyo y reciclaje de trabajadores para ayudarlos en la transición a nuevos roles en la economía impulsada por la IA.",
-    "impact_score": 9
-  },
-  {
-    "title": "Wirestock recauda 23 millones de dólares para suministrar datos multimodales creativos a laboratorios de inteligencia artificial",
-    "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/",
-    "industry": "AI & Data",
-    "summary": "Wirestock recaudó 23 millones de dólares para suministrar datos multimodales creativos a los laboratorios de IA, destacando el papel fundamental de los datos en el entrenamiento de modelos de IA. La empresa proporciona diversos conjuntos de datos de imágenes, vídeos y contenido 3D.",
-    "charlotte_impact": "La financiación de Wirestock subraya la creciente demanda de datos de entrenamiento de alta calidad para IA. La disponibilidad de diversos conjuntos de datos multimodales puede mejorar la precisión y las capacidades de los modelos de IA.",
+    "industry": "Technology",
+    "summary": "Cisco está eliminando casi 4.000 puestos de trabajo para invertir más en IA, a pesar de reportar ingresos trimestrales récord. La estrategia demuestra las prioridades cambiantes de las empresas de tecnología empresarial. Los roles tecnológicos tradicionales requerirán una mejora de las habilidades en IA.",
+    "charlotte_impact": "Las empresas tecnológicas locales pueden hacer lo mismo, lo que provocará el desplazamiento de puestos de trabajo en determinadas áreas. La fuerza laboral local necesitará habilidades en IA para el crecimiento laboral futuro. Es posible que los colegios comunitarios deban centrarse en la formación en IA.",
     "impact_score": 8
   },
   {
-    "title": "OpenAI sella un acuerdo en Malta para dar a todos los malteses acceso a ChatGPT Plus",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-seals-deal-in-malta-to-give-all-maltese-access-to-chatgpt-plus/articleshow/131135637.cms",
-    "industry": "AI & Government",
-    "summary": "OpenAI se ha asociado con el gobierno de Malta para brindar a todos los residentes acceso a ChatGPT Plus durante un año después de completar un curso de uso de IA. Esta iniciativa tiene como objetivo promover la alfabetización y la adopción de la IA a escala nacional.",
-    "charlotte_impact": "Esta iniciativa podría estimular el crecimiento económico mediante un mayor conocimiento y uso de herramientas de inteligencia artificial. El éxito del programa en Malta podría alentar a otros países a implementar programas similares, acelerando la adopción de la IA a nivel mundial.",
-    "impact_score": 9
+    "title": "JFrog (FROG) está listo para beneficiarse a medida que las empresas se apresuran a implementar IA a escala",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jfrog-frog-poised-benefit-enterprises-180320328.html",
+    "industry": "Software",
+    "summary": "JFrog está posicionado para beneficiarse de una mayor adopción empresarial de la IA. La empresa puede mejorar la eficiencia en la gestión de la IA.",
+    "charlotte_impact": "Esta tendencia resalta la importancia de la gestión del software. Una mayor conciencia mejorará el rendimiento de las implementaciones de IA.",
+    "impact_score": 5
   },
   {
-    "title": "OpenAI sella un acuerdo en Malta para dar a todos los malteses acceso a ChatGPT Plus",
-    "url": "https://www.channelnewsasia.com/business/openai-seals-deal-in-malta-give-all-maltese-access-chatgpt-plus-6125626",
-    "industry": "AI & Government",
-    "summary": "OpenAI se ha asociado con el gobierno de Malta para brindar a todos los residentes acceso a ChatGPT Plus durante un año después de completar un curso de uso de IA. Esta iniciativa tiene como objetivo promover la alfabetización y la adopción de la IA a escala nacional.",
-    "charlotte_impact": "Esta iniciativa podría estimular el crecimiento económico mediante un mayor conocimiento y uso de herramientas de inteligencia artificial. El éxito del programa en Malta podría alentar a otros países a implementar programas similares, acelerando la adopción de la IA a nivel mundial.",
-    "impact_score": 9
+    "title": "El webtoon Kindergarten for Divine Beasts obtiene una serie de televisión animada basada en inteligencia artificial",
+    "url": "https://www.animenewsnetwork.com/news/2026-05-16/kindergarten-for-divine-beasts-webtoon-gets-ai-based-animated-tv-series/.237307",
+    "industry": "Entertainment",
+    "summary": "El webtoon Kindergarten for Divine Beasts obtiene una serie de televisión animada basada en inteligencia artificial. Esto muestra que la industria del entretenimiento tradicional está adaptando la IA de maneras innovadoras.",
+    "charlotte_impact": "Esta tendencia crea oportunidades para que las empresas de entretenimiento desarrollen contenido de forma rápida y rentable. Una mayor conciencia mejorará el rendimiento de las implementaciones de IA.",
+    "impact_score": 6
+  },
+  {
+    "title": "Opinión: La IA está elevando el precio de entrada al mercado laboral. La educación debe bajarlo.",
+    "url": "https://thehill.com/opinion/technology/5880171-ai-skills-education-abundance/",
+    "industry": "Education",
+    "summary": "La IA está aumentando el costo de entrada a la fuerza laboral, lo que requiere educación para reducirlo. Esto subraya la necesidad de que las instituciones educativas preparen a los estudiantes para el panorama laboral impulsado por la IA.",
+    "charlotte_impact": "Esto aumentará la demanda de formación especializada y programas de mejora de habilidades. Es posible que las instituciones educativas deban centrarse en brindar capacitación para trabajos relacionados con la IA.",
+    "impact_score": 8
+  },
+  {
+    "title": "Capitán Siete De Nueve en la nueva serie de Star Trek en septiembre de 2026",
+    "url": "https://bleedingcool.com/comics/captain-seven-of-nine-in-new-star-trek-series-in-september-2026/",
+    "industry": "Entertainment",
+    "summary": "Capitán Siete de Nueve en la nueva serie Star Trek en septiembre de 2026. Esto ilustra que la industria del entretenimiento aún se encuentra en la fase de exploración.",
+    "charlotte_impact": "Este programa es una señal para que los productores tradicionales avancen en la ciencia ficción.",
+    "impact_score": 3
+  },
+  {
+    "title": "pybibx 5.9.0",
+    "url": "https://pypi.org/project/pybibx/5.9.0/",
+    "industry": "Research",
+    "summary": "Una biblioteca bibliométrica y cienciométrica impulsada con herramientas de inteligencia artificial. Esto muestra que la industria de la investigación tradicional está adaptando la IA de maneras innovadoras.",
+    "charlotte_impact": "Esta tendencia crea oportunidades para que los investigadores desarrollen contenido de forma rápida y rentable. Una mayor conciencia mejorará el rendimiento de las implementaciones de IA.",
+    "impact_score": 6
   }
 ]
