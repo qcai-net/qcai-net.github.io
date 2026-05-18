@@ -1,162 +1,162 @@
 [
   {
-    "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
-    "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-    "industry": "Finance",
-    "summary": "OpenAI launches a ChatGPT version for personal finance, enabling users to connect bank accounts for portfolio tracking, spending analysis, and payment management.",
-    "charlotte_impact": "This move by OpenAI could significantly disrupt the fintech industry, potentially displacing existing personal finance management apps. It will put pressure on established players to innovate and integrate AI capabilities to remain competitive. Banks might explore partnerships with OpenAI or develop their own AI-powered financial advisory services.",
+    "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+    "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+    "industry": "Software Development",
+    "summary": "Anthropic acquired Stainless, a developer tools startup specializing in automating SDK creation and maintenance, used by major AI players such as OpenAI and Google.",
+    "charlotte_impact": "The acquisition of Stainless by Anthropic signals a move towards standardizing and streamlining AI development workflows across the industry. This creates opportunities for businesses to adopt AI more quickly and efficiently by reducing the complexities and costs associated with API integration, potentially leading to widespread adoption of AI technologies across all industries.",
     "impact_score": 8
   },
   {
-    "title": "The OpenAI trial wraps up,\u00a0and the Musk founder machine keeps spinning",
-    "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
-    "industry": "Legal/AI Development",
-    "summary": "The Musk v. Altman trial concludes with a central question: Can we trust the people in charge of AI? This occurs amidst SpaceX's potential IPO.",
-    "charlotte_impact": "The focus on trust directly impacts investor sentiment towards AI companies and influences regulatory oversight. High-profile trials underscore the need for robust ethical guidelines and governance structures within AI organizations, potentially affecting investment decisions and public perception.",
-    "impact_score": 7
+    "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
+    "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+    "industry": "Financial Technology",
+    "summary": "OpenAI launched ChatGPT for personal finance, enabling users to connect their bank accounts for portfolio performance, spending analysis, and payment tracking through a dashboard.",
+    "charlotte_impact": "This move allows OpenAI to tap into the financial services sector, challenging traditional fintech companies. It can reshape how consumers manage their finances by offering AI-driven insights and automation. The ability for ChatGPT to be integrated into financial decision making will boost the entire AI industry by proving financial viability.",
+    "impact_score": 9
   },
   {
-    "title": "Runway started by helping filmmakers \u2014 now it wants to beat Google at AI",
-    "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
-    "industry": "AI Video Generation",
-    "summary": "Runway, an AI video generation startup, aims to compete with Google by focusing on video generation as a path to world models, leveraging its outsider status as an advantage.",
-    "charlotte_impact": "Runway's ambitious goal of becoming a dominant player in AI video generation indicates a significant shift in the competitive landscape. This could lead to increased investment in AI video technologies and the emergence of new creative tools and applications across various industries, including marketing, entertainment, and education.",
+    "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+    "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+    "industry": "Legal/Artificial Intelligence",
+    "summary": "Elon Musk lost his lawsuit against Sam Altman and OpenAI after a jury decided his claims were filed too late.",
+    "charlotte_impact": "The dismissal of Musk's lawsuit offers some stability to OpenAI and its investors, removing a degree of legal uncertainty. It highlights the importance of timely legal action and suggests that past disputes between founders may not significantly impede the development or commercialization of AI technologies.",
     "impact_score": 7
   },
   {
     "title": "South Korea\u2019s LetinAR is building optics behind AI glasses",
     "url": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
-    "industry": "Hardware/AI",
-    "summary": "South Korea's LetinAR is developing miniaturized optics for AI glasses, potentially becoming a key supplier in the emerging AI glasses market.",
-    "charlotte_impact": "LetinAR's advancements in optics technology signal the growing importance of specialized hardware for AI applications. This could create new opportunities for hardware manufacturers and component suppliers to develop and produce AI-specific hardware, driving innovation and adoption of AI-powered devices.",
+    "industry": "Hardware/Artificial Intelligence",
+    "summary": "South Korea\u2019s LetinAR is developing optics for AI glasses, creating thumbnail-sized lenses that could be the backbone of future AR/AI wearables.",
+    "charlotte_impact": "The development of advanced optics for AI glasses presents opportunities for companies to develop augmented reality and AI-powered wearables. The demand for skilled engineers and manufacturing capabilities related to this technology will increase. The impact will also include changes in how we interface with computers.",
     "impact_score": 7
   },
   {
     "title": "Why trust is a big question at the Elon Musk-OpenAI trial",
     "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
-    "industry": "Legal/AI Development",
-    "summary": "A key theme in the Elon Musk-OpenAI trial is the trustworthiness of OpenAI CEO Sam Altman.",
-    "charlotte_impact": "The trial highlights the critical role of leadership ethics and accountability in the AI industry. Questions surrounding trust can influence public perception, investor confidence, and regulatory scrutiny of AI companies and their leadership.",
+    "industry": "Artificial Intelligence/Ethics",
+    "summary": "A central theme in the Elon Musk-OpenAI trial was the trustworthiness of OpenAI CEO Sam Altman.",
+    "charlotte_impact": "The focus on trust in AI leadership impacts the perception and acceptance of AI technologies by the public. Ensuring transparency and ethical practices is crucial for building public confidence in AI and avoiding negative consequences. Demonstrating trust builds both customer confidence and regulatory approval.",
     "impact_score": 6
   },
   {
     "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
     "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
-    "industry": "AI Development",
-    "summary": "OpenAI co-founder Greg Brockman takes charge of product strategy as the company plans to integrate ChatGPT and Codex.",
-    "charlotte_impact": "Brockman's return to product strategy and the integration of ChatGPT and Codex could streamline OpenAI's product development efforts. This move signals a focus on creating more unified and powerful AI solutions, which could enhance user experience and expand the applications of OpenAI's technologies.",
-    "impact_score": 6
+    "industry": "Artificial Intelligence/Product Development",
+    "summary": "OpenAI co-founder Greg Brockman is taking charge of product strategy, with plans to combine ChatGPT and Codex.",
+    "charlotte_impact": "Combining ChatGPT and Codex could lead to more advanced and versatile AI products, potentially simplifying coding processes and enabling AI to assist in more complex programming tasks. It creates opportunities for increased collaboration between developers and AI systems, further accelerating innovation.",
+    "impact_score": 8
   },
   {
     "title": "OpenAI says Codex is coming to your phone",
     "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
-    "industry": "AI Development",
-    "summary": "OpenAI announces that its Codex programming product is coming to mobile devices, enhancing workflow management.",
-    "charlotte_impact": "The mobile deployment of Codex makes AI-powered coding tools more accessible and convenient for developers, potentially boosting productivity and innovation. This expansion could drive greater adoption of AI in software development and contribute to the creation of more advanced mobile applications.",
-    "impact_score": 6
+    "industry": "Artificial Intelligence/Mobile",
+    "summary": "OpenAI announced that Codex is coming to mobile devices, providing users with enhanced flexibility in managing their workflows.",
+    "charlotte_impact": "This expansion allows mobile users to perform complex coding tasks and manage development workflows on the go. By enabling on-the-go workflows, OpenAI will increase developer engagement and adoption, which drives innovation and productivity in mobile application development and software engineering. ",
+    "impact_score": 7
   },
   {
     "title": "What happens when AI starts building itself?",
     "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
-    "industry": "AI Development",
-    "summary": "Richard Socher's new startup, backed by $650 million, aims to build an AI that can research and improve itself, with a focus on shipping real products.",
-    "charlotte_impact": "Socher's ambitious venture demonstrates the growing interest and investment in autonomous AI systems. This could lead to breakthroughs in AI research and development, enabling AI to solve complex problems and drive innovation across various industries.",
-    "impact_score": 8
-  },
-  {
-    "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn\u2019t be the first partner to feel burned",
-    "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-    "industry": "Legal/Partnerships",
-    "summary": "OpenAI is reportedly considering legal action against Apple due to a disappointing ChatGPT integration.",
-    "charlotte_impact": "This dispute highlights the challenges and complexities of AI partnerships. It underscores the need for clear expectations, aligned incentives, and effective communication between AI companies and their integration partners to avoid conflicts and ensure successful collaborations.",
-    "impact_score": 6
-  },
-  {
-    "title": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026",
-    "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
-    "industry": "Finance/Chip Manufacturing",
-    "summary": "Cerebras raises $5.5B in its IPO, marking a significant event in the tech IPO market.",
-    "charlotte_impact": "Cerebras' successful IPO signals strong investor confidence in the AI hardware market and the demand for specialized chips designed for AI workloads. This could encourage further investment and innovation in AI hardware and attract more companies to the public markets.",
+    "industry": "Artificial Intelligence/Research & Development",
+    "summary": "Richard Socher's new $650 million startup aims to create an AI that can research and improve itself indefinitely.",
+    "charlotte_impact": "A self-improving AI could revolutionize industries by automating research and development, potentially leading to faster breakthroughs and efficiency gains. Investment in such technology could lead to entirely new business models and paradigms across multiple industries.",
     "impact_score": 9
   },
   {
     "title": "TechCrunch Mobility: The AI skills arms race is coming for automotive",
     "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
-    "industry": "Automotive",
-    "summary": "The AI skills arms race is extending into the automotive industry.",
-    "charlotte_impact": "The automotive industry's increasing reliance on AI creates a demand for skilled AI professionals. Companies must invest in training and recruitment to secure the talent needed to develop and deploy AI-powered automotive technologies, such as autonomous driving and advanced driver-assistance systems.",
-    "impact_score": 7
-  },
-  {
-    "title": "The haves and have nots of the AI gold rush",
-    "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
-    "industry": "Economy",
-    "summary": "The current AI boom is creating a divide between the 'haves' and 'have nots', leading to concerns even within the tech industry.",
-    "charlotte_impact": "The concentration of AI benefits in the hands of a few companies and individuals could exacerbate economic inequality and create social unrest. Policymakers and business leaders must address these disparities to ensure that the benefits of AI are shared more broadly and equitably.",
+    "industry": "Automotive/Artificial Intelligence",
+    "summary": "The AI skills arms race is coming to the automotive industry, highlighting the growing need for AI expertise in transportation.",
+    "charlotte_impact": "The automotive industry needs to invest in AI skills training and talent acquisition to stay competitive. The adoption of AI in automotive will impact how vehicles are designed, manufactured, and operated, creating opportunities for companies that can effectively leverage AI.",
     "impact_score": 7
   },
   {
     "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
     "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
-    "industry": "Research",
-    "summary": "ArXiv will ban authors for a year if they are found to have heavily relied on AI for writing scientific papers.",
-    "charlotte_impact": "This policy aims to maintain the integrity and credibility of scientific research by discouraging the excessive use of AI. It reinforces the importance of human oversight and critical thinking in the research process.",
+    "industry": "Academic Research/Ethics",
+    "summary": "Research repository ArXiv will ban authors for a year if they use AI to do all the work, cracking down on the careless use of LLMs.",
+    "charlotte_impact": "Enforcing ethical standards in AI-assisted research is crucial for preserving the integrity of scientific publications. Universities and research institutions will need to implement similar guidelines to prevent the misuse of AI. By emphasizing originality and the proper use of AI, institutions can maintain trust in academic research and innovation.",
     "impact_score": 6
   },
   {
     "title": "Silicon Valley\u2019s vacationland needs a new energy provider just as AI is driving prices up",
     "url": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
-    "industry": "Energy",
-    "summary": "AI is driving up energy prices in Silicon Valley's vacationland due to increased demand.",
-    "charlotte_impact": "The energy demands of AI are becoming increasingly significant, impacting energy infrastructure and driving up costs. This highlights the need for energy-efficient AI technologies and sustainable energy sources to support the growth of the AI industry.",
+    "industry": "Energy/Artificial Intelligence",
+    "summary": "Lake Tahoe faces higher energy prices as AI drives increased demand for electricity in Silicon Valley.",
+    "charlotte_impact": "The increased energy demands of AI applications could strain energy infrastructure and lead to higher electricity costs, especially in areas with large AI data centers. This energy pressure will force business to look into energy-efficient practices, carbon-neutral practices, and renewable resources. Developing AI applications is causing rising energy prices, which is a concern.",
     "impact_score": 7
   },
   {
     "title": "Osaurus brings both local and cloud AI models to your Mac",
     "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-    "industry": "Software",
-    "summary": "Osaurus combines local and cloud AI models in a Mac app to keep user data on their own hardware.",
-    "charlotte_impact": "This approach reflects a growing emphasis on data privacy and security in AI applications. By enabling local processing, Osaurus offers users greater control over their data and reduces reliance on cloud services.",
+    "industry": "Software/Artificial Intelligence",
+    "summary": "Osaurus combines local and cloud AI models in a Mac app, keeping users\u2019 memory, files, and tools on their own hardware.",
+    "charlotte_impact": "This hybrid approach allows users to leverage AI while maintaining data privacy and control. This approach may reduce data risks, reduce latency, and enable better scalability. The combination will be valuable for businesses.",
     "impact_score": 6
+  },
+  {
+    "title": "The OpenAI trial wraps up,\u00a0and the Musk founder machine keeps spinning",
+    "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
+    "industry": "Artificial Intelligence/Legal",
+    "summary": "The Musk v. Altman trial wrapped up, raising questions about trust in AI leadership and the direction of AI development.",
+    "charlotte_impact": "High-profile legal battles involving AI companies impact investor confidence and public perception. The debate over AI governance and ethical concerns needs to be addressed by regulators and industry stakeholders. The legal case has ramifications that extend well beyond the firms involved.",
+    "impact_score": 6
+  },
+  {
+    "title": "Runway started by helping filmmakers \u2014 now it wants to beat Google at AI",
+    "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
+    "industry": "AI Video Generation",
+    "summary": "AI video-generation startup Runway is betting that video generation is the path to world models and believes that being an AI outsider is an advantage.",
+    "charlotte_impact": "Runway is investing in video generation as a means of developing general-purpose AI systems, demonstrating the potential for multimodal AI development. Video generation has implications for media creation, entertainment, and simulation, opening new opportunities for content creation and industry disruption.",
+    "impact_score": 7
   },
   {
     "title": "Elon Musk\u2019s SpaceXAI has been bleeding staff since its merger",
     "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
-    "industry": "Aerospace",
-    "summary": "Elon Musk's SpaceXAI has experienced significant staff departures since its merger, raising concerns about burnout and leadership.",
-    "charlotte_impact": "High employee turnover can disrupt AI projects and hinder innovation. It emphasizes the importance of effective leadership, a positive work environment, and competitive compensation to retain talent in the AI industry.",
-    "impact_score": 5
-  },
-  {
-    "title": "Figma Stock Surges 13% on AI Momentum \u2013 Is FIG a Strong Long-Term Buy in 2026?",
-    "url": "https://www.ibtimes.com.au/figma-ai-innovations-stock-surge-1869044",
-    "industry": "Software",
-    "summary": "Figma's stock surges 13% driven by AI innovations and strong enterprise adoption, signaling investor confidence.",
-    "charlotte_impact": "This surge demonstrates the market's recognition of AI as a key driver of growth and value in the software industry. Figma's AI-powered features attract enterprise users and improve its competitive positioning.",
-    "impact_score": 7
-  },
-  {
-    "title": "Pride Magazine's 34th annual Pride Awards to feature renowned AI professor",
-    "url": "https://www.wcnc.com/article/news/local/charlotte-pride-awards-2026-renowed-artificial-intelligence-professor/275-81e14aa1-79ca-4643-89fd-755a2234df45",
-    "industry": "Community",
-    "summary": "Pride Magazine's 34th annual Pride Awards to feature renowned AI professor.",
-    "charlotte_impact": "This highlights the growing integration of AI expertise into broader societal conversations, and that individuals are recognizing AI's increasing impact and potential, further recognizing the power of diverse thought leadership in growing the field.",
-    "impact_score": 3
-  },
-  {
-    "title": "Taiwan\u2019s integrated health data platform and vision for smart medicine | The Jerusalem Post",
-    "url": "https://www.jpost.com/opinion/article-896191",
-    "industry": "Healthcare",
-    "summary": "Taiwan\u2019s integrated health data platform uses advanced data integration and AI to improve care while advocating for WHO inclusion.",
-    "charlotte_impact": "This showcases the global movement towards utilizing AI within the healthcare industry. It highlights the significant strides that can be made by consolidating data. Also, because they are advocating for WHO inclusion, we can see that they want to share their progress on a global scale.",
+    "industry": "Space/Artificial Intelligence",
+    "summary": "Elon Musk\u2019s SpaceXAI has been losing staff since its merger, raising questions about talent retention and leadership.",
+    "charlotte_impact": "High employee turnover can hinder innovation and productivity in AI development. Attracting and retaining top AI talent is crucial for companies seeking to remain competitive. The report signals a potentially difficult transition period for a leading space company.",
     "impact_score": 6
   },
   {
-    "title": "Scientists Gave People Wings in VR, And It Triggered Changes in The Brain",
-    "url": "https://www.sciencealert.com/scientists-gave-people-wings-in-vr-and-it-triggered-changes-in-the-brain",
-    "industry": "Research",
-    "summary": "Scientists Gave People Wings in VR, And It Triggered Changes in The Brain.",
-    "charlotte_impact": "By conducting this experiment, it shows that virtual reality can influence the way the brain functions. This could be applied to various methods of research and could allow the world to further grasp the complexities of AI. More research is still needed though.",
+    "title": "Deloitte India aims to become country's biggest professional services firm by 2028",
+    "url": "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/deloitte-india-aims-to-become-countrys-biggest-professional-services-firm-by-2028/articleshow/131161503.cms",
+    "industry": "Consulting",
+    "summary": "Deloitte India aims to become the country's biggest professional services firm by 2028, planning to double its workforce to 100,000 and target $5 billion in revenue.",
+    "charlotte_impact": "This growth strategy reflects the expanding market for professional services, including AI implementation and consulting. The expansion creates opportunities for partnerships and collaborations within the AI ecosystem. This growth also impacts the overall AI economy.",
+    "impact_score": 6
+  },
+  {
+    "title": "The haves and have-nots of the AI gold rush",
+    "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+    "industry": "Artificial Intelligence/Economic Impact",
+    "summary": "The current AI boom is creating a divide between the haves and have-nots in the tech industry.",
+    "charlotte_impact": "The concentration of AI resources and expertise in a few major companies can exacerbate income inequality and create challenges for smaller businesses to compete. Addressing the digital divide and promoting equitable access to AI resources is essential for sustainable economic growth.",
+    "impact_score": 7
+  },
+  {
+    "title": "Billionaire Chase Coleman's Tiger Global bets $180M on surging semiconductor stock",
+    "url": "https://www.thestreet.com/investing/stocks/billionaire-chase-colemans-tiger-global-bets-180m-on-surging-semiconductor-stock-intel",
+    "industry": "Semiconductors/Finance",
+    "summary": "Billionaire Chase Coleman's Tiger Global bets $180M on surging semiconductor stock Intel.",
+    "charlotte_impact": "This investment indicates continued strong confidence in the semiconductor industry, which is fundamental for AI development and deployment. Intel may have new AI technology coming to the market. The bet showcases the growth of AI technologies and the related financial impact.",
+    "impact_score": 6
+  },
+  {
+    "title": "Australia Post's future IT estate to rely on 13 \"platform ecosystems\"",
+    "url": "https://www.itnews.com.au/news/australia-posts-future-it-estate-to-rely-on-13-platform-ecosystems-625879",
+    "industry": "Information Technology",
+    "summary": "Australia Post's future IT estate to rely on 13 'platform ecosystems'.",
+    "charlotte_impact": "This may involve an overhaul of IT systems to incorporate AI-driven automation. It is important for companies to develop the necessary IT skills.",
+    "impact_score": 5
+  },
+  {
+    "title": "New PSMAddition data show 58% lower risk of PSA progression with Pluvicto\u00ae in metastatic hormone-sensitive prostate cancer",
+    "url": "https://www.globenewswire.com/news-release/2026/05/17/3296268/0/en/New-PSMAddition-data-show-58-lower-risk-of-PSA-progression-with-Pluvicto-in-metastatic-hormone-sensitive-prostate-cancer.html",
+    "industry": "Healthcare",
+    "summary": "New PSMAddition data show 58% lower risk of PSA progression with Pluvicto\u00ae in metastatic hormone-sensitive prostate cancer.",
+    "charlotte_impact": "While the description does not mention AI, AI and machine learning technologies are driving precision medicine and personalized healthcare, including the development of more effective cancer treatments. AI accelerates research and improves patient outcomes through automated analysis.",
     "impact_score": 4
   }
 ]

@@ -1,162 +1,162 @@
 [
   {
-    "title": "OpenAI 推出个人理财 ChatGPT，让你连接银行账户",
-    "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-    "industry": "Finance",
-    "summary": "OpenAI 推出了针对个人理财的 ChatGPT 版本，使用户能够连接银行账户进行投资组合跟踪、支出分析和支付管理。",
-    "charlotte_impact": "OpenAI 的这一举措可能会极大地扰乱金融科技行业，并有可能取代现有的个人财务管理应用程序。这将给老牌企业带来压力，要求他们创新和整合人工智能能力，以保持竞争力。银行可能会探索与 OpenAI 的合作伙伴关系或开发自己的人工智能金融咨询服务。",
+    "title": "Anthropic 收购了 OpenAI、Google 和 Cloudflare 使用的开发工具初创公司",
+    "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+    "industry": "Software Development",
+    "summary": "Anthropic 收购了Stainless，这是一家专门从事自动化 SDK 创建和维护的开发工具初创公司，被 OpenAI 和 Google 等主要人工智能公司所使用。",
+    "charlotte_impact": "Anthropic 收购不锈钢标志着整个行业朝着标准化和简化人工智能开发工作流程迈进。这通过降低与 API 集成相关的复杂性和成本，为企业更快速、更高效地采用人工智能创造了机会，从而有可能导致人工智能技术在所有行业的广泛采用。",
     "impact_score": 8
   },
   {
-    "title": "OpenAI 试验结束，马斯克创始人机器继续运转",
-    "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
-    "industry": "Legal/AI Development",
-    "summary": "马斯克诉奥特曼案的审判以一个核心问题结束：我们可以信任负责人工智能的人吗？这发生在 SpaceX 潜在的 IPO 期间。",
-    "charlotte_impact": "对信任的关注直接影响投资者对人工智能公司的情绪，并影响监管监督。高调的试验强调人工智能组织内部需要强有力的道德准则和治理结构，这可能会影响投资决策和公众认知。",
-    "impact_score": 7
+    "title": "OpenAI 推出个人理财 ChatGPT，让你连接银行账户",
+    "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+    "industry": "Financial Technology",
+    "summary": "OpenAI 推出了针对个人理财的 ChatGPT，使用户能够通过仪表板连接其银行账户以进行投资组合绩效、支出分析和付款跟踪。",
+    "charlotte_impact": "此举让OpenAI进军金融服务领域，挑战传统金融科技公司。它可以通过提供人工智能驱动的洞察和自动化来重塑消费者管理财务的方式。 ChatGPT 融入财务决策的能力将通过证明财务可行性来推动整个人工智能行业的发展。",
+    "impact_score": 9
   },
   {
-    "title": "Runway 最初是帮助电影制作人，现在它想在人工智能领域击败谷歌",
-    "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
-    "industry": "AI Video Generation",
-    "summary": "Runway 是一家人工智能视频生成初创公司，旨在利用其局外人地位作为优势，专注于视频生成作为通往世界模型的道路，与谷歌竞争。",
-    "charlotte_impact": "Runway 雄心勃勃的目标是成为人工智能视频生成领域的主导者，这表明竞争格局发生了重大转变。这可能会导致对人工智能视频技术的投资增加，以及营销、娱乐和教育等各个行业新的创意工具和应用程序的出现。",
+    "title": "埃隆·马斯克 (Elon Musk) 输掉了对萨姆·奥尔特曼 (Sam Altman) 和 OpenAI 的诉讼",
+    "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+    "industry": "Legal/Artificial Intelligence",
+    "summary": "陪审团裁定埃隆·马斯克 (Elon Musk) 的索赔提出得太晚，因此他输掉了对萨姆·奥尔特曼 (Sam Altman) 和 OpenAI 的诉讼。",
+    "charlotte_impact": "马斯克诉讼被驳回为 OpenAI 及其投资者带来了一定的稳定性，消除了一定程度的法律不确定性。它强调了及时采取法律行动的重要性，并表明创始人之间过去的纠纷可能不会严重阻碍人工智能技术的开发或商业化。",
     "impact_score": 7
   },
   {
     "title": "韩国 LetinAR 正在构建人工智能眼镜背后的光学器件",
     "url": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
-    "industry": "Hardware/AI",
-    "summary": "韩国LetinAR正在开发用于AI眼镜的微型光学器件，有可能成为新兴AI眼镜市场的主要供应商。",
-    "charlotte_impact": "LetinAR 在光学技术方面的进步标志着专用硬件对于人工智能应用的重要性日益增加。这可以为硬件制造商和零部件供应商创造新的机会来开发和生产人工智能专用硬件，推动人工智能设备的创新和采用。",
+    "industry": "Hardware/Artificial Intelligence",
+    "summary": "韩国的 LetinAR 正在开发 AI 眼镜的光学器件，打造缩略图大小的镜片，可能成为未来 AR/AI 可穿戴设备的支柱。",
+    "charlotte_impact": "人工智能眼镜先进光学器件的发展为公司开发增强现实和人工智能驱动的可穿戴设备提供了机会。对与该技术相关的熟练工程师和制造能力的需求将会增加。影响还包括我们与计算机交互方式的变化。",
     "impact_score": 7
   },
   {
     "title": "为什么信任是 Elon Musk-OpenAI 试验中的一个大问题",
     "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
-    "industry": "Legal/AI Development",
-    "summary": "埃隆·马斯克 (Elon Musk) 与 OpenAI 试验的一个关键主题是 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman) 的可信度。",
-    "charlotte_impact": "该试验凸显了领导道德和问责制在人工智能行业中的关键作用。围绕信任的问题可能会影响公众的看法、投资者的信心以及对人工智能公司及其领导力的监管审查。",
+    "industry": "Artificial Intelligence/Ethics",
+    "summary": "埃隆·马斯克 (Elon Musk) 与 OpenAI 试验的一个中心主题是 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman) 的可信度。",
+    "charlotte_impact": "对人工智能领导力信任的关注会影响公众对人工智能技术的看法和接受度。确保透明度和道德实践对于建立公众对人工智能的信心并避免负面后果至关重要。表现出信任可以建立客户信心和监管部门的批准。",
     "impact_score": 6
   },
   {
     "title": "OpenAI 联合创始人 Greg Brockman 负责产品战略",
     "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
-    "industry": "AI Development",
-    "summary": "OpenAI 联合创始人 Greg Brockman 负责产品战略，该公司计划整合 ChatGPT 和 Codex。",
-    "charlotte_impact": "Brockman 回归产品战略以及 ChatGPT 和 Codex 的整合可以简化 OpenAI 的产品开发工作。此举标志着OpenAI专注于创建更统一、更强大的AI解决方案，这可以增强用户体验并扩展OpenAI技术的应用。",
-    "impact_score": 6
+    "industry": "Artificial Intelligence/Product Development",
+    "summary": "OpenAI 联合创始人 Greg Brockman 负责产品策略，计划将 ChatGPT 和 Codex 结合起来。",
+    "charlotte_impact": "ChatGPT 和 Codex 的结合可能会带来更先进、更通用的人工智能产品，从而有可能简化编码流程，并使人工智能能够协助完成更复杂的编程任务。它为开发人员和人工智能系统之间加强协作创造了机会，进一步加速创新。",
+    "impact_score": 8
   },
   {
     "title": "OpenAI 表示 Codex 即将登陆你的手机",
     "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
-    "industry": "AI Development",
-    "summary": "OpenAI 宣布其 Codex 编程产品即将登陆移动设备，从而增强工作流程管理。",
-    "charlotte_impact": "Codex 的移动部署使开发人员更容易使用人工智能驱动的编码工具，从而有可能提高生产力和创新。这种扩展可以推动人工智能在软件开发中的更多采用，并有助于创建更先进的移动应用程序。",
-    "impact_score": 6
+    "industry": "Artificial Intelligence/Mobile",
+    "summary": "OpenAI 宣布 Codex 即将登陆移动设备，为用户管理工作流程提供更大的灵活性。",
+    "charlotte_impact": "这种扩展允许移动用户执行复杂的编码任务并随时随地管理开发工作流程。通过支持移动工作流程，OpenAI 将提高开发人员的参与度和采用率，从而推动移动应用程序开发和软件工程的创新和生产力。",
+    "impact_score": 7
   },
   {
     "title": "当人工智能开始自我构建时会发生什么？",
     "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
-    "industry": "AI Development",
-    "summary": "Richard Socher 的新初创公司获得了 6.5 亿美元的支持，旨在构建一种能够自我研究和改进的人工智能，重点是运输真实产品。",
-    "charlotte_impact": "索切尔雄心勃勃的冒险表明人们对自主人工智能系统日益增长的兴趣和投资。这可能会带来人工智能研究和开发的突破，使人工智能能够解决复杂的问题并推动各个行业的创新。",
-    "impact_score": 8
-  },
-  {
-    "title": "据报道，OpenAI 正准备对苹果采取法律行动；它不会是第一个感到被烧伤的合作伙伴",
-    "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-    "industry": "Legal/Partnerships",
-    "summary": "据报道，由于 ChatGPT 集成令人失望，OpenAI 正在考虑对苹果采取法律行动。",
-    "charlotte_impact": "这场争端凸显了人工智能合作伙伴关系的挑战和复杂性。它强调人工智能公司及其集成合作伙伴之间需要明确的期望、一致的激励措施以及有效的沟通，以避免冲突并确保成功的合作。",
-    "impact_score": 6
-  },
-  {
-    "title": "Cerebras 融资 5.5B 美元，股价上涨 108%，这是 2026 年首次大型科技 IPO",
-    "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
-    "industry": "Finance/Chip Manufacturing",
-    "summary": "Cerebras 在 IPO 中筹集了 5.5B 美元，标志着科技 IPO 市场的重大事件。",
-    "charlotte_impact": "Cerebras 的成功 IPO 标志着投资者对人工智能硬件市场的强劲信心以及对专为人工智能工作负载设计的专用芯片的需求。这可以鼓励人工智能硬件的进一步投资和创新，并吸引更多公司进入公开市场。",
+    "industry": "Artificial Intelligence/Research & Development",
+    "summary": "Richard Socher 斥资 6.5 亿美元新建的初创公司旨在创造一种可以无限期研究和改进自身的人工智能。",
+    "charlotte_impact": "自我改进的人工智能可以通过自动化研发来彻底改变行业，从而有可能带来更快的突破和效率提升。对此类技术的投资可能会带来跨多个行业的全新商业模式和范例。",
     "impact_score": 9
   },
   {
     "title": "TechCrunch Mobility：汽车领域的人工智能技能军备竞赛即将来临",
     "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
-    "industry": "Automotive",
-    "summary": "人工智能技能军备竞赛正在延伸到汽车行业。",
-    "charlotte_impact": "汽车行业对人工智能的日益依赖创造了对熟练人工智能专业人员的需求。公司必须投资于培训和招聘，以确保开发和部署人工智能驱动的汽车技术（例如自动驾驶和先进的驾驶辅助系统）所需的人才。",
-    "impact_score": 7
-  },
-  {
-    "title": "人工智能淘金热中的富人和穷人",
-    "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
-    "industry": "Economy",
-    "summary": "当前的人工智能热潮正在造成“富人”和“穷人”之间的鸿沟，甚至在科技行业内部也引发了担忧。",
-    "charlotte_impact": "人工智能的好处集中在少数公司和个人手中可能会加剧经济不平等并造成社会动荡。政策制定者和商界领袖必须解决这些差异，以确保更广泛、更公平地分享人工智能的好处。",
+    "industry": "Automotive/Artificial Intelligence",
+    "summary": "人工智能技能军备竞赛即将席卷汽车行业，凸显了交通领域对人工智能专业知识日益增长的需求。",
+    "charlotte_impact": "汽车行业需要投资于人工智能技能培训和人才招聘，以保持竞争力。人工智能在汽车领域的采用将影响车辆的设计、制造和运营方式，为能够有效利用人工智能的公司创造机会。",
     "impact_score": 7
   },
   {
     "title": "如果作者让人工智能完成所有工作，研究存储库 ArXiv 将禁止作者一年",
     "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
-    "industry": "Research",
-    "summary": "如果发现严重依赖人工智能撰写科学论文，ArXiv 将禁止作者一年。",
-    "charlotte_impact": "该政策旨在通过阻止过度使用人工智能来维护科学研究的完整性和可信度。它强调了研究过程中人类监督和批判性思维的重要性。",
+    "industry": "Academic Research/Ethics",
+    "summary": "如果作者使用人工智能完成所有工作，研究存储库 ArXiv 将禁止作者一年，以打击粗心使用法学硕士的行为。",
+    "charlotte_impact": "在人工智能辅助研究中执行道德标准对于维护科学出版物的完整性至关重要。大学和研究机构需要实施类似的指导方针，以防止人工智能的滥用。通过强调人工智能的原创性和正确使用，机构可以保持对学术研究和创新的信任。",
     "impact_score": 6
   },
   {
     "title": "人工智能推高价格之际，硅谷的度假胜地需要新的能源供应商",
     "url": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
-    "industry": "Energy",
-    "summary": "由于需求增加，人工智能正在推高硅谷度假胜地的能源价格。",
-    "charlotte_impact": "人工智能的能源需求变得越来越重要，影响能源基础设施并推高成本。这凸显了对节能人工智能技术和可持续能源支持人工智能行业增长的需求。",
+    "industry": "Energy/Artificial Intelligence",
+    "summary": "随着人工智能推动硅谷电力需求增加，太浩湖面临更高的能源价格。",
+    "charlotte_impact": "人工智能应用不断增加的能源需求可能会给能源基础设施带来压力，并导致电力成本上升，特别是在拥有大型人工智能数据中心的地区。这种能源压力将迫使企业研究节能实践、碳中和实践和可再生资源。开发人工智能应用程序正在导致能源价格上涨，这是一个令人担忧的问题。",
     "impact_score": 7
   },
   {
     "title": "Osaurus 将本地和云端 AI 模型带到您的 Mac 上",
     "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-    "industry": "Software",
-    "summary": "Osaurus 在 Mac 应用程序中结合了本地和云 AI 模型，将用户数据保存在自己的硬件上。",
-    "charlotte_impact": "这种方法反映了人工智能应用程序中对数据隐私和安全性的日益重视。通过启用本地处理，Osaurus 为用户提供了对其数据的更大控制权，并减少了对云服务的依赖。",
+    "industry": "Software/Artificial Intelligence",
+    "summary": "Osaurus 在 Mac 应用程序中结合了本地和云 AI 模型，将用户的内存、文件和工具保留在自己的硬件上。",
+    "charlotte_impact": "这种混合方法允许用户利用人工智能，同时保持数据隐私和控制。这种方法可以降低数据风险、减少延迟并实现更好的可扩展性。这种结合对于企业来说很有价值。",
     "impact_score": 6
+  },
+  {
+    "title": "OpenAI 试验结束，马斯克创始人机器继续运转",
+    "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
+    "industry": "Artificial Intelligence/Legal",
+    "summary": "马斯克诉奥特曼案审判结束，引发了人们对人工智能领导力的信任和人工智能发展方向的质疑。",
+    "charlotte_impact": "涉及人工智能公司的备受瞩目的法律诉讼影响了投资者的信心和公众的看法。关于人工智能治理和道德问题的争论需要由监管机构和行业利益相关者来解决。该法律案件的影响远远超出了涉案公司的范围。",
+    "impact_score": 6
+  },
+  {
+    "title": "Runway 最初是帮助电影制作人，现在它想在人工智能领域击败谷歌",
+    "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
+    "industry": "AI Video Generation",
+    "summary": "AI 视频生成初创公司 Runway 押注视频生成是通往世界模型的道路，并认为作为 AI 局外人是一种优势。",
+    "charlotte_impact": "Runway 正在投资视频生成作为开发通用人工智能系统的一种手段，展示了多模式人工智能开发的潜力。视频生成对媒体创作、娱乐和模拟具有影响，为内容创作和行业颠覆带来了新的机遇。",
+    "impact_score": 7
   },
   {
     "title": "埃隆·马斯克 (Elon Musk) 的 SpaceXAI 自合并以来一直在裁员",
     "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
-    "industry": "Aerospace",
-    "summary": "埃隆·马斯克 (Elon Musk) 的 SpaceXAI 自合并以来经历了大规模的员工离职，引发了人们对职业倦怠和领导力的担忧。",
-    "charlotte_impact": "高员工流动率可能会扰乱人工智能项目并阻碍创新。它强调了有效的领导、积极的工作环境和有竞争力的薪酬对于留住人工智能行业人才的重要性。",
-    "impact_score": 5
-  },
-  {
-    "title": "Figma 股价因 AI 势头飙升 13%——FIG 是 2026 年强劲的长期买入对象吗？",
-    "url": "https://www.ibtimes.com.au/figma-ai-innovations-stock-surge-1869044",
-    "industry": "Software",
-    "summary": "在人工智能创新和企业广泛采用的推动下，Figma 的股价飙升 13%，这表明了投资者的信心。",
-    "charlotte_impact": "这一激增表明市场认可人工智能是软件行业增长和价值的关键驱动力。 Figma 的人工智能功能吸引了企业用户并提高了其竞争地位。",
-    "impact_score": 7
-  },
-  {
-    "title": "Pride 杂志第 34 届年度 Pride 奖由著名人工智能教授评选",
-    "url": "https://www.wcnc.com/article/news/local/charlotte-pride-awards-2026-renowed-artificial-intelligence-professor/275-81e14aa1-79ca-4643-89fd-755a2234df45",
-    "industry": "Community",
-    "summary": "Pride 杂志第 34 届年度 Pride 奖由著名人工智能教授颁发。",
-    "charlotte_impact": "这凸显了人工智能专业知识日益融入更广泛的社会对话中，个人正在认识到人工智能日益增长的影响和潜力，进一步认识到多元化思想领导力在发展该领域的力量。",
-    "impact_score": 3
-  },
-  {
-    "title": "台湾综合健康数据平台与智慧医疗愿景 |耶路撒冷邮报",
-    "url": "https://www.jpost.com/opinion/article-896191",
-    "industry": "Healthcare",
-    "summary": "台湾的综合健康数据平台利用先进的数据集成和人工智能来改善护理，同时倡导世界卫生组织的包容性。",
-    "charlotte_impact": "这展示了全球在医疗保健行业利用人工智能的趋势。它强调了通过整合数据可以取得的重大进展。此外，因为他们主张纳入世界卫生组织，我们可以看到他们希望在全球范围内分享他们的进展。",
+    "industry": "Space/Artificial Intelligence",
+    "summary": "埃隆·马斯克 (Elon Musk) 的 SpaceXAI 自合并以来一直在流失员工，引发了人才保留和领导力方面的问题。",
+    "charlotte_impact": "高员工流动率会阻碍人工智能开发的创新和生产力。吸引和留住顶尖人工智能人才对于寻求保持竞争力的公司至关重要。该报告表明，对于一家领先的航天公司来说，过渡期可能会很困难。",
     "impact_score": 6
   },
   {
-    "title": "科学家在虚拟现实中给人们插上了翅膀，它引发了大脑的变化",
-    "url": "https://www.sciencealert.com/scientists-gave-people-wings-in-vr-and-it-triggered-changes-in-the-brain",
-    "industry": "Research",
-    "summary": "科学家在虚拟现实中给人们插上了翅膀，它引发了大脑的变化。",
-    "charlotte_impact": "通过进行这个实验，它表明虚拟现实可以影响大脑的运作方式。这可以应用于各种研究方法，并可以让世界进一步掌握人工智能的复杂性。但仍需要更多研究。",
+    "title": "德勤印度的目标是到 2028 年成为该国最大的专业服务公司",
+    "url": "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/deloitte-india-aims-to-become-countrys-biggest-professional-services-firm-by-2028/articleshow/131161503.cms",
+    "industry": "Consulting",
+    "summary": "德勤印度公司的目标是到 2028 年成为该国最大的专业服务公司，计划将其员工数量增加一倍至 10 万人，收入目标达到 50 亿美元。",
+    "charlotte_impact": "这一增长战略反映了专业服务市场的不断扩大，包括人工智能实施和咨询。此次扩张为人工智能生态系统内的伙伴关系和协作创造了机会。这种增长也影响了整个人工智能经济。",
+    "impact_score": 6
+  },
+  {
+    "title": "人工智能淘金热中的富人和穷人",
+    "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+    "industry": "Artificial Intelligence/Economic Impact",
+    "summary": "当前的人工智能热潮正在科技行业的富人和穷人之间造成鸿沟。",
+    "charlotte_impact": "人工智能资源和专业知识集中在少数几家大公司可能会加剧收入不平等，并为小型企业的竞争带来挑战。解决数字鸿沟并促进人工智能资源的公平获取对于可持续经济增长至关重要。",
+    "impact_score": 7
+  },
+  {
+    "title": "亿万富翁 Chase Coleman 旗下 Tiger Global 押注 1.8 亿美元押注飙升的半导体股票",
+    "url": "https://www.thestreet.com/investing/stocks/billionaire-chase-colemans-tiger-global-bets-180m-on-surging-semiconductor-stock-intel",
+    "industry": "Semiconductors/Finance",
+    "summary": "亿万富翁 Chase Coleman 的 Tiger Global 在飙升的半导体股英特尔上押注 1.8 亿美元。",
+    "charlotte_impact": "这项投资表明了对半导体行业的持续强劲信心，这是人工智能开发和部署的基础。英特尔可能会将新的人工智能技术推向市场。该赌注展示了人工智能技术的发展以及相关的财务影响。",
+    "impact_score": 6
+  },
+  {
+    "title": "澳大利亚邮政未来的IT产业将依赖13个“平台生态系统”",
+    "url": "https://www.itnews.com.au/news/australia-posts-future-it-estate-to-rely-on-13-platform-ecosystems-625879",
+    "industry": "Information Technology",
+    "summary": "澳大利亚邮政未来的 IT 产业将依赖 13 个“平台生态系统”。",
+    "charlotte_impact": "这可能涉及对 IT 系统进行彻底改革，以纳入人工智能驱动的自动化。对于公司来说，培养必要的 IT 技能非常重要。",
+    "impact_score": 5
+  },
+  {
+    "title": "新的 PSMAddition 数据显示，使用 Pluvicto® 治疗转移性激素敏感型前列腺癌时，PSA 进展风险降低 58%",
+    "url": "https://www.globenewswire.com/news-release/2026/05/17/3296268/0/en/New-PSMAddition-data-show-58-lower-risk-of-PSA-progression-with-Pluvicto-in-metastatic-hormone-sensitive-prostate-cancer.html",
+    "industry": "Healthcare",
+    "summary": "新的 PSMAddition 数据显示，使用 Pluvicto® 治疗转移性激素敏感型前列腺癌时，PSA 进展风险降低 58%。",
+    "charlotte_impact": "虽然描述中没有提到人工智能，但人工智能和机器学习技术正在推动精准医疗和个性化医疗保健，包括开发更有效的癌症治疗方法。人工智能通过自动分析加速研究并改善患者治疗结果。",
     "impact_score": 4
   }
 ]
