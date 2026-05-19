@@ -3,160 +3,112 @@
     "title": "Anthropic ha adquirido la startup de herramientas de desarrollo utilizada por OpenAI, Google y Cloudflare",
     "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
     "industry": "Software Development",
-    "summary": "Anthropic adquirió Inoxidable, una startup de herramientas para desarrolladores que se especializa en automatizar la creación y el mantenimiento de SDK, utilizado por los principales actores de la IA como OpenAI y Google.",
-    "charlotte_impact": "La adquisición de Stainless por parte de Anthropic indica un movimiento hacia la estandarización y optimización de los flujos de trabajo de desarrollo de IA en toda la industria. Esto crea oportunidades para que las empresas adopten la IA de manera más rápida y eficiente al reducir las complejidades y los costos asociados con la integración de API, lo que podría conducir a una adopción generalizada de tecnologías de IA en todas las industrias.",
+    "summary": "Anthropic adquirió Stainless, una startup que automatiza la creación de SDK, utilizada por OpenAI, Google y Cloudflare. Este movimiento consolida la posición de Anthropic en el ecosistema de desarrollo de IA al mejorar las herramientas y la experiencia de los desarrolladores.",
+    "charlotte_impact": "Esta adquisición pone de relieve la creciente consolidación en el mercado de herramientas de IA. El acceso a mejores herramientas de desarrollo probablemente reducirá los costos de desarrollo y acelerará la innovación para Anthropic, dándoles una ventaja competitiva en la carrera de modelos de IA. Es posible que se adquieran empresas más pequeñas de herramientas de desarrollo de IA o se las obligue a especializarse para sobrevivir.",
     "impact_score": 8
   },
   {
     "title": "OpenAI lanza ChatGPT para finanzas personales y le permitirá conectar cuentas bancarias",
     "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
     "industry": "Financial Technology",
-    "summary": "OpenAI lanzó ChatGPT para finanzas personales, lo que permite a los usuarios conectar sus cuentas bancarias para el rendimiento de la cartera, el análisis de gastos y el seguimiento de pagos a través de un panel.",
-    "charlotte_impact": "Este movimiento permite a OpenAI acceder al sector de servicios financieros, desafiando a las empresas fintech tradicionales. Puede remodelar la forma en que los consumidores administran sus finanzas al ofrecer automatización y conocimientos basados ​​en inteligencia artificial. La capacidad de ChatGPT de integrarse en la toma de decisiones financieras impulsará toda la industria de la IA al demostrar su viabilidad financiera.",
+    "summary": "OpenAI lanzó ChatGPT para finanzas personales, lo que permite a los usuarios conectar cuentas bancarias para el rendimiento de la cartera, los gastos y la gestión de suscripciones. Este movimiento amplía la utilidad de ChatGPT más allá del conocimiento general y la generación de contenido hacia asesoramiento financiero personalizado.",
+    "charlotte_impact": "La integración de la IA en las finanzas personales tiene el potencial de alterar los servicios tradicionales de asesoramiento financiero. Los bancos y las instituciones financieras deben adaptarse para competir con plataformas impulsadas por IA, integrando potencialmente características de IA similares en sus propias ofertas o asociándose con proveedores de IA.",
     "impact_score": 9
-  },
-  {
-    "title": "Elon Musk perdió su demanda contra Sam Altman y OpenAI",
-    "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
-    "industry": "Legal/Artificial Intelligence",
-    "summary": "Elon Musk perdió su demanda contra Sam Altman y OpenAI después de que un jurado decidió que sus reclamos se presentaron demasiado tarde.",
-    "charlotte_impact": "La desestimación de la demanda de Musk ofrece cierta estabilidad a OpenAI y sus inversores, eliminando cierto grado de inseguridad jurídica. Destaca la importancia de emprender acciones legales oportunas y sugiere que las disputas pasadas entre fundadores pueden no impedir significativamente el desarrollo o la comercialización de tecnologías de IA.",
-    "impact_score": 7
-  },
-  {
-    "title": "LetinAR de Corea del Sur está construyendo ópticas detrás de gafas de IA",
-    "url": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
-    "industry": "Hardware/Artificial Intelligence",
-    "summary": "LetinAR de Corea del Sur está desarrollando ópticas para gafas de IA, creando lentes del tamaño de una miniatura que podrían ser la columna vertebral de futuros dispositivos portátiles de AR/IA.",
-    "charlotte_impact": "El desarrollo de ópticas avanzadas para gafas con IA presenta oportunidades para que las empresas desarrollen realidad aumentada y dispositivos portátiles con tecnología de IA. Aumentará la demanda de ingenieros cualificados y capacidades de fabricación relacionadas con esta tecnología. El impacto también incluirá cambios en la forma en que interactuamos con las computadoras.",
-    "impact_score": 7
-  },
-  {
-    "title": "Por qué la confianza es una gran cuestión en el ensayo Elon Musk-OpenAI",
-    "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
-    "industry": "Artificial Intelligence/Ethics",
-    "summary": "Un tema central en el ensayo Elon Musk-OpenAI fue la confiabilidad del director ejecutivo de OpenAI, Sam Altman.",
-    "charlotte_impact": "El enfoque en la confianza en el liderazgo de la IA impacta la percepción y aceptación de las tecnologías de IA por parte del público. Garantizar la transparencia y las prácticas éticas es crucial para generar confianza pública en la IA y evitar consecuencias negativas. Demostrar confianza genera confianza en el cliente y aprobación regulatoria.",
-    "impact_score": 6
-  },
-  {
-    "title": "El cofundador de OpenAI, Greg Brockman, se hace cargo de la estrategia de producto",
-    "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
-    "industry": "Artificial Intelligence/Product Development",
-    "summary": "El cofundador de OpenAI, Greg Brockman, se hará cargo de la estrategia de producto y planea combinar ChatGPT y Codex.",
-    "charlotte_impact": "La combinación de ChatGPT y Codex podría conducir a productos de IA más avanzados y versátiles, lo que podría simplificar los procesos de codificación y permitir que la IA ayude en tareas de programación más complejas. Crea oportunidades para una mayor colaboración entre los desarrolladores y los sistemas de inteligencia artificial, acelerando aún más la innovación.",
-    "impact_score": 8
-  },
-  {
-    "title": "OpenAI dice que Codex llegará a tu teléfono",
-    "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
-    "industry": "Artificial Intelligence/Mobile",
-    "summary": "OpenAI anunció que Codex llegará a dispositivos móviles, brindando a los usuarios una mayor flexibilidad en la gestión de sus flujos de trabajo.",
-    "charlotte_impact": "Esta expansión permite a los usuarios móviles realizar tareas de codificación complejas y gestionar flujos de trabajo de desarrollo sobre la marcha. Al permitir flujos de trabajo sobre la marcha, OpenAI aumentará la participación y la adopción de los desarrolladores, lo que impulsa la innovación y la productividad en el desarrollo de aplicaciones móviles y la ingeniería de software.",
-    "impact_score": 7
-  },
-  {
-    "title": "¿Qué sucede cuando la IA comienza a construirse por sí misma?",
-    "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
-    "industry": "Artificial Intelligence/Research & Development",
-    "summary": "La nueva startup de Richard Socher, valorada en 650 millones de dólares, tiene como objetivo crear una IA que pueda investigar y mejorarse a sí misma indefinidamente.",
-    "charlotte_impact": "Una IA que se mejore a sí misma podría revolucionar las industrias al automatizar la investigación y el desarrollo, lo que potencialmente conduciría a avances más rápidos y ganancias de eficiencia. La inversión en dicha tecnología podría conducir a modelos y paradigmas de negocios completamente nuevos en múltiples industrias.",
-    "impact_score": 9
-  },
-  {
-    "title": "TechCrunch Mobility: La carrera armamentista de habilidades de IA se acerca a la automoción",
-    "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
-    "industry": "Automotive/Artificial Intelligence",
-    "summary": "La carrera armamentista de habilidades de IA está llegando a la industria automotriz, destacando la creciente necesidad de experiencia en IA en el transporte.",
-    "charlotte_impact": "La industria automotriz necesita invertir en capacitación en habilidades de inteligencia artificial y adquisición de talento para seguir siendo competitiva. La adopción de la IA en la industria automotriz afectará la forma en que se diseñan, fabrican y operan los vehículos, creando oportunidades para las empresas que puedan aprovechar la IA de manera efectiva.",
-    "impact_score": 7
-  },
-  {
-    "title": "El repositorio de investigación ArXiv prohibirá a los autores durante un año si dejan que la IA haga todo el trabajo",
-    "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
-    "industry": "Academic Research/Ethics",
-    "summary": "El repositorio de investigación ArXiv prohibirá a los autores durante un año si utilizan IA para hacer todo el trabajo, tomando medidas enérgicas contra el uso descuidado de los LLM.",
-    "charlotte_impact": "Hacer cumplir las normas éticas en la investigación asistida por IA es crucial para preservar la integridad de las publicaciones científicas. Las universidades y las instituciones de investigación deberán implementar directrices similares para evitar el uso indebido de la IA. Al enfatizar la originalidad y el uso adecuado de la IA, las instituciones pueden mantener la confianza en la investigación y la innovación académicas.",
-    "impact_score": 6
-  },
-  {
-    "title": "El lugar de vacaciones de Silicon Valley necesita un nuevo proveedor de energía justo cuando la IA está haciendo subir los precios",
-    "url": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
-    "industry": "Energy/Artificial Intelligence",
-    "summary": "Lake Tahoe enfrenta precios de energía más altos a medida que la IA impulsa una mayor demanda de electricidad en Silicon Valley.",
-    "charlotte_impact": "El aumento de la demanda de energía de las aplicaciones de IA podría sobrecargar la infraestructura energética y provocar mayores costos de electricidad, especialmente en áreas con grandes centros de datos de IA. Esta presión energética obligará a las empresas a buscar prácticas energéticamente eficientes, prácticas neutras en carbono y recursos renovables. El desarrollo de aplicaciones de IA está provocando un aumento de los precios de la energía, lo cual es motivo de preocupación.",
-    "impact_score": 7
-  },
-  {
-    "title": "Osaurus trae modelos de IA locales y en la nube a tu Mac",
-    "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-    "industry": "Software/Artificial Intelligence",
-    "summary": "Osaurus combina modelos de IA locales y en la nube en una aplicación para Mac, manteniendo la memoria, los archivos y las herramientas de los usuarios en su propio hardware.",
-    "charlotte_impact": "Este enfoque híbrido permite a los usuarios aprovechar la IA manteniendo la privacidad y el control de los datos. Este enfoque puede reducir los riesgos de los datos, reducir la latencia y permitir una mejor escalabilidad. La combinación será valiosa para las empresas.",
-    "impact_score": 6
-  },
-  {
-    "title": "La prueba de OpenAI concluye y la máquina fundadora de Musk sigue girando",
-    "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
-    "industry": "Artificial Intelligence/Legal",
-    "summary": "El juicio Musk contra Altman concluyó, planteando dudas sobre la confianza en el liderazgo de la IA y la dirección del desarrollo de la IA.",
-    "charlotte_impact": "Las batallas legales de alto perfil que involucran a empresas de IA afectan la confianza de los inversores y la percepción pública. Los reguladores y las partes interesadas de la industria deben abordar el debate sobre la gobernanza de la IA y las preocupaciones éticas. El caso legal tiene ramificaciones que se extienden mucho más allá de las empresas involucradas.",
-    "impact_score": 6
   },
   {
     "title": "Runway comenzó ayudando a los cineastas; ahora quiere vencer a Google en IA",
     "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
-    "industry": "AI Video Generation",
-    "summary": "Runway, la startup de generación de videos con IA, apuesta a que la generación de videos es el camino hacia los modelos mundiales y cree que ser un outsider de la IA es una ventaja.",
-    "charlotte_impact": "Runway está invirtiendo en generación de vídeo como medio para desarrollar sistemas de IA de uso general, lo que demuestra el potencial para el desarrollo de IA multimodal. La generación de vídeo tiene implicaciones para la creación de medios, el entretenimiento y la simulación, lo que abre nuevas oportunidades para la creación de contenidos y la disrupción de la industria.",
+    "industry": "Artificial Intelligence",
+    "summary": "Runway, una startup de generación de vídeos de IA, pretende superar a Google en IA centrándose en la generación de vídeos como un camino para crear modelos mundiales generales. Creen que ser un \"forastero\" para los gigantes tecnológicos dominantes es una ventaja.",
+    "charlotte_impact": "Esto pone de relieve el panorama competitivo de la IA y el potencial de las empresas especializadas en IA para desafiar a los actores establecidos. Sugiere que se puede encontrar una ventaja estratégica en aplicaciones de nicho, como la generación de vídeo, para construir modelos integrales de IA, lo cual es relevante para nuevas empresas y empresas de los sectores de medios y entretenimiento.",
+    "impact_score": 7
+  },
+  {
+    "title": "Elon Musk perdió su demanda contra Sam Altman y OpenAI",
+    "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+    "industry": "Legal",
+    "summary": "Elon Musk perdió su demanda contra Sam Altman y OpenAI, y el jurado dictaminó que sus reclamos se presentaron demasiado tarde. La demanda se centró en la afirmación de Musk de haber sido maltratado por sus cofundadores y el cambio de OpenAI de una organización sin fines de lucro a una con fines de lucro.",
+    "charlotte_impact": "La desestimación de la demanda proporciona cierta claridad jurídica a la estructura actual de OpenAI. Subraya los riesgos legales y las responsabilidades potenciales asociadas con el desarrollo de la IA, enfatizando la importancia de acuerdos claros y acciones legales oportunas en el panorama de la IA en rápida evolución.",
+    "impact_score": 6
+  },
+  {
+    "title": "LetinAR de Corea del Sur está construyendo ópticas detrás de gafas de IA",
+    "url": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
+    "industry": "Augmented Reality",
+    "summary": "La startup surcoreana LetinAR está desarrollando ópticas para gafas de IA, centrándose en la creación de lentes del tamaño de una miniatura. Su tecnología pretende ser la columna vertebral óptica de la próxima generación de gafas impulsadas por AR e IA.",
+    "charlotte_impact": "Los avances en componentes como la óptica son clave para permitir gafas prácticas con IA. El trabajo de LetinAR impulsa el potencial de gafas con IA más compactas y funcionales, lo que podría estimular el crecimiento en este segmento de tecnología de consumo.",
+    "impact_score": 7
+  },
+  {
+    "title": "El cofundador de OpenAI, Greg Brockman, se hace cargo de la estrategia de producto",
+    "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+    "industry": "Artificial Intelligence",
+    "summary": "El cofundador de OpenAI, Greg Brockman, se hará cargo de la estrategia de producto en medio de planes para combinar ChatGPT y su producto de programación, Codex. Esta reestructuración sugiere que OpenAI está racionalizando el desarrollo de sus productos y centrándose en aplicaciones de IA sinérgicas.",
+    "charlotte_impact": "El cambio en el liderazgo y la integración de productos apunta a un énfasis creciente en las soluciones de IA unificadas. Las empresas que puedan integrar con éxito diferentes capacidades de IA en una única plataforma probablemente tendrán una ventaja competitiva.",
+    "impact_score": 6
+  },
+  {
+    "title": "OpenAI dice que Codex llegará a tu teléfono",
+    "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+    "industry": "Software Development",
+    "summary": "OpenAI anunció que Codex, su modelo de programación de IA, llegará a los teléfonos. Esta expansión tiene como objetivo brindar a los usuarios más flexibilidad en la gestión de sus flujos de trabajo de programación en dispositivos móviles.",
+    "charlotte_impact": "Se espera que la ampliación de las herramientas de codificación de IA a dispositivos móviles democratice el desarrollo de la IA. Más desarrolladores pueden utilizar estos recursos e integrar la tecnología de IA en aplicaciones móviles, fomentando una mayor adopción de la IA.",
+    "impact_score": 7
+  },
+  {
+    "title": "TechCrunch Mobility: La carrera armamentista de habilidades de IA se acerca a la automoción",
+    "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
+    "industry": "Automotive",
+    "summary": "La carrera armamentista de habilidades de IA se acerca para la industria automotriz. Las empresas automotrices buscan activamente talentos en inteligencia artificial para mejorar la autonomía del vehículo, las características de seguridad y la experiencia general del usuario.",
+    "charlotte_impact": "Esto pone de relieve la creciente demanda de experiencia en IA en el sector automotriz. Las empresas automotrices que tarden en adoptarlo se quedarán atrás. Las universidades y los programas de formación deben adaptarse rápidamente para dotar a la fuerza laboral de esas habilidades.",
+    "impact_score": 8
+  },
+  {
+    "title": "El repositorio de investigación ArXiv prohibirá a los autores durante un año si dejan que la IA haga todo el trabajo",
+    "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+    "industry": "Academic Publishing",
+    "summary": "El repositorio de investigación ArXiv prohibirá a los autores durante un año si dejan que la IA haga todo el trabajo. Esta política tiene como objetivo prevenir el uso indebido de la IA en artículos científicos y mantener la integridad de la investigación.",
+    "charlotte_impact": "Se trata de una medida proactiva en respuesta al uso cada vez mayor de la IA en la redacción académica. Esta iniciativa demuestra una preocupación por el potencial de uso indebido de las herramientas de IA y sienta un precedente para abordar las implicaciones éticas de la IA en las publicaciones científicas.",
+    "impact_score": 7
+  },
+  {
+    "title": "El lugar de vacaciones de Silicon Valley necesita un nuevo proveedor de energía justo cuando la IA está haciendo subir los precios",
+    "url": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
+    "industry": "Energy",
+    "summary": "Lake Tahoe se enfrenta a precios de energía más altos a medida que la IA aumenta la demanda de energía en Silicon Valley. El aumento del consumo de energía de los centros de datos de IA está afectando a los mercados y la infraestructura de la energía.",
+    "charlotte_impact": "Esta noticia indica la creciente demanda de energía de la IA. Las empresas de servicios públicos necesitan ampliar la infraestructura, mientras que las empresas de inteligencia artificial deberían explorar modelos y prácticas más eficientes energéticamente. Esto podría conducir a una mayor inversión en soluciones energéticas sostenibles.",
+    "impact_score": 8
+  },
+  {
+    "title": "Osaurus trae modelos de IA locales y en la nube a tu Mac",
+    "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
+    "industry": "Artificial Intelligence",
+    "summary": "Osaurus combina modelos de IA locales y en la nube en Mac, manteniendo los datos del usuario en su propio hardware. Este enfoque tiene como objetivo equilibrar los beneficios de la IA con la privacidad y seguridad de los datos.",
+    "charlotte_impact": "El cambio hacia modelos híbridos de IA refleja crecientes preocupaciones sobre la privacidad. Las empresas que prioricen el control de datos y la privacidad podrían obtener una ventaja competitiva, atrayendo a usuarios cautelosos con respecto a las soluciones de inteligencia artificial basadas únicamente en la nube.",
     "impact_score": 7
   },
   {
     "title": "SpaceXAI de Elon Musk ha estado sangrando personal desde su fusión",
     "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
-    "industry": "Space/Artificial Intelligence",
-    "summary": "SpaceXAI de Elon Musk ha estado perdiendo personal desde su fusión, lo que plantea dudas sobre la retención de talentos y el liderazgo.",
-    "charlotte_impact": "La alta rotación de empleados puede obstaculizar la innovación y la productividad en el desarrollo de la IA. Atraer y retener los mejores talentos en IA es crucial para las empresas que buscan seguir siendo competitivas. El informe señala un período de transición potencialmente difícil para una empresa espacial líder.",
+    "industry": "Aerospace",
+    "summary": "SpaceXAI ha experimentado importantes salidas de personal desde su fusión, lo que genera preocupaciones sobre el agotamiento, los cambios de liderazgo y la retención de talentos. Esto se debe a las altas expectativas y las intensas condiciones de trabajo en el sector de la IA.",
+    "charlotte_impact": "La retención de talento en el campo de la IA es vital para el avance tecnológico. Deben abordarse las preocupaciones sobre la dinámica del lugar de trabajo y la alta rotación para evitar la interrupción de proyectos importantes y mantener la continuidad.",
     "impact_score": 6
   },
   {
-    "title": "Deloitte India aspira a convertirse en la empresa de servicios profesionales más grande del país para 2028",
-    "url": "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/deloitte-india-aims-to-become-countrys-biggest-professional-services-firm-by-2028/articleshow/131161503.cms",
+    "title": "Los CCG en India desaceleran la contratación a medida que la IA remodela el trabajo, dice el director ejecutivo de ANSR",
+    "url": "https://www.thehindubusinessline.com/info-tech/gccs-in-india-slow-hiring-as-ai-reshapes-work-ansr-ceo-says/article70993708.ece",
     "industry": "Consulting",
-    "summary": "Deloitte India aspira a convertirse en la empresa de servicios profesionales más grande del país para 2028, planea duplicar su fuerza laboral a 100.000 y apuntar a 5 mil millones de dólares en ingresos.",
-    "charlotte_impact": "Esta estrategia de crecimiento refleja el mercado en expansión de servicios profesionales, incluida la implementación y consultoría de IA. La expansión crea oportunidades para asociaciones y colaboraciones dentro del ecosistema de IA. Este crecimiento también afecta a la economía general de la IA.",
-    "impact_score": 6
+    "summary": "Según el director ejecutivo de ANSR, los centros de capacidad global (CCG) en la India están desacelerando la contratación debido a los impactos de la IA y las incertidumbres geopolíticas. El auge de la automatización de la IA está cambiando las habilidades necesarias en estos centros.",
+    "charlotte_impact": "Esto subraya el impacto potencial de la IA en el empleo, particularmente en sectores que dependen en gran medida de la mano de obra subcontratada. Requiere iniciativas de mejora y recapacitación para preparar a la fuerza laboral para los cambios impulsados ​​por la IA y promueve el desarrollo de nuevos modelos de negocio.",
+    "impact_score": 9
   },
   {
-    "title": "Los ricos y los pobres de la fiebre del oro de la IA",
-    "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
-    "industry": "Artificial Intelligence/Economic Impact",
-    "summary": "El actual auge de la IA está creando una división entre los que tienen y los que no tienen en la industria tecnológica.",
-    "charlotte_impact": "La concentración de recursos y experiencia en IA en unas pocas empresas importantes puede exacerbar la desigualdad de ingresos y crear desafíos para que las empresas más pequeñas puedan competir. Abordar la brecha digital y promover el acceso equitativo a los recursos de IA es esencial para el crecimiento económico sostenible.",
-    "impact_score": 7
-  },
-  {
-    "title": "Tiger Global, del multimillonario Chase Coleman, apuesta 180 millones de dólares por el aumento de las acciones de semiconductores",
-    "url": "https://www.thestreet.com/investing/stocks/billionaire-chase-colemans-tiger-global-bets-180m-on-surging-semiconductor-stock-intel",
-    "industry": "Semiconductors/Finance",
-    "summary": "Tiger Global, del multimillonario Chase Coleman, apuesta 180 millones de dólares al creciente stock de semiconductores Intel.",
-    "charlotte_impact": "Esta inversión indica una confianza sólida y continua en la industria de los semiconductores, que es fundamental para el desarrollo y la implementación de la IA. Intel puede tener nueva tecnología de IA llegando al mercado. La apuesta muestra el crecimiento de las tecnologías de inteligencia artificial y el impacto financiero relacionado.",
-    "impact_score": 6
-  },
-  {
-    "title": "El futuro patrimonio de TI de Australia Post se basará en 13 \"ecosistemas de plataforma\"",
-    "url": "https://www.itnews.com.au/news/australia-posts-future-it-estate-to-rely-on-13-platform-ecosystems-625879",
-    "industry": "Information Technology",
-    "summary": "\"El futuro patrimonio de TI de Australia Post dependerá de 13 'ecosistemas de plataforma'\".",
-    "charlotte_impact": "Esto puede implicar una revisión de los sistemas de TI para incorporar la automatización impulsada por la IA. Es importante que las empresas desarrollen las habilidades informáticas necesarias.",
-    "impact_score": 5
-  },
-  {
-    "title": "Los nuevos datos de PSMAddition muestran un riesgo un 58% menor de progresión del PSA con Pluvicto® en el cáncer de próstata metastásico sensible a hormonas",
-    "url": "https://www.globenewswire.com/news-release/2026/05/17/3296268/0/en/New-PSMAddition-data-show-58-lower-risk-of-PSA-progression-with-Pluvicto-in-metastatic-hormone-sensitive-prostate-cancer.html",
-    "industry": "Healthcare",
-    "summary": "Los nuevos datos de PSMAddition muestran un riesgo un 58% menor de progresión del PSA con Pluvicto® en el cáncer de próstata metastásico sensible a hormonas.",
-    "charlotte_impact": "Si bien la descripción no menciona la IA, las tecnologías de inteligencia artificial y aprendizaje automático están impulsando la medicina de precisión y la atención médica personalizada, incluido el desarrollo de tratamientos contra el cáncer más efectivos. La IA acelera la investigación y mejora los resultados de los pacientes mediante análisis automatizados.",
-    "impact_score": 4
+    "title": "NextEra y Dominion quieren crear una enorme empresa eléctrica a medida que la IA impulsa la demanda de energía en EE. UU.",
+    "url": "https://www.seattlepi.com/business/article/nextera-dominion-want-to-create-a-massive-power-22264327.php",
+    "industry": "Energy",
+    "summary": "NextEra Energy busca adquirir Dominion Energy en una gran fusión impulsada por las crecientes demandas energéticas de la IA. La entidad combinada sería un actor importante en el mercado energético.",
+    "charlotte_impact": "Esta fusión refleja la importancia estratégica de la infraestructura energética para respaldar el crecimiento del sector de la IA. El creciente consumo de energía por parte de la IA está impulsando a las empresas de servicios públicos a consolidar y ampliar sus operaciones, lo que afecta los precios de la energía y la sostenibilidad.",
+    "impact_score": 9
   }
 ]
