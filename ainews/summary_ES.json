@@ -3,112 +3,160 @@
     "title": "Anthropic ha adquirido la startup de herramientas de desarrollo utilizada por OpenAI, Google y Cloudflare",
     "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
     "industry": "Software Development",
-    "summary": "Anthropic adquirió Stainless, una startup que automatiza la creación de SDK, utilizada por OpenAI, Google y Cloudflare. Este movimiento consolida la posición de Anthropic en el ecosistema de desarrollo de IA al mejorar las herramientas y la experiencia de los desarrolladores.",
-    "charlotte_impact": "Esta adquisición pone de relieve la creciente consolidación en el mercado de herramientas de IA. El acceso a mejores herramientas de desarrollo probablemente reducirá los costos de desarrollo y acelerará la innovación para Anthropic, dándoles una ventaja competitiva en la carrera de modelos de IA. Es posible que se adquieran empresas más pequeñas de herramientas de desarrollo de IA o se las obligue a especializarse para sobrevivir.",
+    "summary": "Anthropic adquirió Stainless, una startup que automatiza la creación y el mantenimiento de kits de desarrollo de software (SDK) utilizados por los principales actores de la IA. Esta adquisición mejora las capacidades de desarrollo de Anthropic y potencialmente reduce el tiempo y los costos de desarrollo.",
+    "charlotte_impact": "Esta adquisición destaca el valor creciente de las herramientas de desarrollo de IA. Subraya una tendencia más amplia en la que las grandes empresas de IA están consolidando nuevas empresas más pequeñas con herramientas especializadas para optimizar sus operaciones y obtener una ventaja competitiva. Esta consolidación podría impulsar la innovación en las herramientas para desarrolladores, pero también aumentar las barreras de entrada para las empresas emergentes más pequeñas en el ecosistema de IA.",
     "impact_score": 8
   },
   {
-    "title": "OpenAI lanza ChatGPT para finanzas personales y le permitirá conectar cuentas bancarias",
-    "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-    "industry": "Financial Technology",
-    "summary": "OpenAI lanzó ChatGPT para finanzas personales, lo que permite a los usuarios conectar cuentas bancarias para el rendimiento de la cartera, los gastos y la gestión de suscripciones. Este movimiento amplía la utilidad de ChatGPT más allá del conocimiento general y la generación de contenido hacia asesoramiento financiero personalizado.",
-    "charlotte_impact": "La integración de la IA en las finanzas personales tiene el potencial de alterar los servicios tradicionales de asesoramiento financiero. Los bancos y las instituciones financieras deben adaptarse para competir con plataformas impulsadas por IA, integrando potencialmente características de IA similares en sus propias ofertas o asociándose con proveedores de IA.",
+    "title": "OpenAI hace que sea más fácil comprobar si sus modelos crearon una imagen",
+    "url": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
+    "industry": "AI Governance/Ethics",
+    "summary": "OpenAI está mejorando sus capacidades de detección de imágenes al unirse al estándar C2PA y agregar SynthID de Google para identificar contenido generado por IA. Esta medida aborda las crecientes preocupaciones sobre la manipulación y la desinformación generadas por la IA.",
+    "charlotte_impact": "Este desarrollo refleja la creciente importancia de la transparencia y la rendición de cuentas de la IA. Las empresas que crean contenido de IA necesitan herramientas y políticas que les ayuden a demostrar la procedencia del contenido. En general, señala estándares y herramientas emergentes para detectar y mitigar los riesgos del contenido generado por IA.",
+    "impact_score": 7
+  },
+  {
+    "title": "Aumet recauda 12 millones de dólares para adquisiciones farmacéuticas impulsadas por IA",
+    "url": "https://www.pymnts.com/healthcare/2026/aumet-raises-12-million-for-ai-driven-pharmaceutical-procurement/",
+    "industry": "Healthcare/Pharmaceuticals",
+    "summary": "Aumet obtuvo 12 millones de dólares en financiación Serie A para ampliar su plataforma de adquisición de productos farmacéuticos impulsada por IA en toda la región del CCG. La financiación permitirá a Aumet optimizar las cadenas de suministro y reducir los costos en la industria farmacéutica.",
+    "charlotte_impact": "Esta financiación subraya la creciente adopción de la IA en la gestión de la cadena de suministro de atención sanitaria. Al optimizar la adquisición de productos farmacéuticos, Aumet mejora la eficiencia y reduce los costos, lo cual es relevante en todos los sectores de la salud. También muestra el creciente interés de los inversores en soluciones impulsadas por la IA que aborden las ineficiencias en las industrias tradicionales.",
+    "impact_score": 7
+  },
+  {
+    "title": "Con Gemini 3.5 Flash, Google apuesta su próxima ola de IA a los agentes, no a los chatbots",
+    "url": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
+    "industry": "AI/Software Development",
+    "summary": "Google lanzó Gemini 3.5 Flash, un potente modelo de IA centrado en capacidades de agencia y codificación, lo que demuestra un cambio hacia agentes de IA capaces de ejecutar tareas complejas de forma autónoma. Esto sugiere un alejamiento de los simples chatbots hacia sistemas de inteligencia artificial más sofisticados.",
+    "charlotte_impact": "El lanzamiento de Gemini 3.5 Flash señala un avance significativo en la capacidad de la IA para automatizar procesos complejos. Este cambio probablemente afectará a las industrias que dependen en gran medida del desarrollo de software, la automatización de tareas y la optimización de procesos. La IA agente tiene el potencial de reestructurar el funcionamiento de las empresas.",
     "impact_score": 9
   },
   {
-    "title": "Runway comenzó ayudando a los cineastas; ahora quiere vencer a Google en IA",
-    "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
-    "industry": "Artificial Intelligence",
-    "summary": "Runway, una startup de generación de vídeos de IA, pretende superar a Google en IA centrándose en la generación de vídeos como un camino para crear modelos mundiales generales. Creen que ser un \"forastero\" para los gigantes tecnológicos dominantes es una ventaja.",
-    "charlotte_impact": "Esto pone de relieve el panorama competitivo de la IA y el potencial de las empresas especializadas en IA para desafiar a los actores establecidos. Sugiere que se puede encontrar una ventaja estratégica en aplicaciones de nicho, como la generación de vídeo, para construir modelos integrales de IA, lo cual es relevante para nuevas empresas y empresas de los sectores de medios y entretenimiento.",
-    "impact_score": 7
-  },
-  {
-    "title": "Elon Musk perdió su demanda contra Sam Altman y OpenAI",
-    "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
-    "industry": "Legal",
-    "summary": "Elon Musk perdió su demanda contra Sam Altman y OpenAI, y el jurado dictaminó que sus reclamos se presentaron demasiado tarde. La demanda se centró en la afirmación de Musk de haber sido maltratado por sus cofundadores y el cambio de OpenAI de una organización sin fines de lucro a una con fines de lucro.",
-    "charlotte_impact": "La desestimación de la demanda proporciona cierta claridad jurídica a la estructura actual de OpenAI. Subraya los riesgos legales y las responsabilidades potenciales asociadas con el desarrollo de la IA, enfatizando la importancia de acuerdos claros y acciones legales oportunas en el panorama de la IA en rápida evolución.",
-    "impact_score": 6
-  },
-  {
-    "title": "LetinAR de Corea del Sur está construyendo ópticas detrás de gafas de IA",
-    "url": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
-    "industry": "Augmented Reality",
-    "summary": "La startup surcoreana LetinAR está desarrollando ópticas para gafas de IA, centrándose en la creación de lentes del tamaño de una miniatura. Su tecnología pretende ser la columna vertebral óptica de la próxima generación de gafas impulsadas por AR e IA.",
-    "charlotte_impact": "Los avances en componentes como la óptica son clave para permitir gafas prácticas con IA. El trabajo de LetinAR impulsa el potencial de gafas con IA más compactas y funcionales, lo que podría estimular el crecimiento en este segmento de tecnología de consumo.",
-    "impact_score": 7
-  },
-  {
-    "title": "El cofundador de OpenAI, Greg Brockman, se hace cargo de la estrategia de producto",
-    "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
-    "industry": "Artificial Intelligence",
-    "summary": "El cofundador de OpenAI, Greg Brockman, se hará cargo de la estrategia de producto en medio de planes para combinar ChatGPT y su producto de programación, Codex. Esta reestructuración sugiere que OpenAI está racionalizando el desarrollo de sus productos y centrándose en aplicaciones de IA sinérgicas.",
-    "charlotte_impact": "El cambio en el liderazgo y la integración de productos apunta a un énfasis creciente en las soluciones de IA unificadas. Las empresas que puedan integrar con éxito diferentes capacidades de IA en una única plataforma probablemente tendrán una ventaja competitiva.",
-    "impact_score": 6
-  },
-  {
-    "title": "OpenAI dice que Codex llegará a tu teléfono",
-    "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+    "title": "AI Studio de Google ahora permite a cualquiera crear aplicaciones para Android en minutos",
+    "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
     "industry": "Software Development",
-    "summary": "OpenAI anunció que Codex, su modelo de programación de IA, llegará a los teléfonos. Esta expansión tiene como objetivo brindar a los usuarios más flexibilidad en la gestión de sus flujos de trabajo de programación en dispositivos móviles.",
-    "charlotte_impact": "Se espera que la ampliación de las herramientas de codificación de IA a dispositivos móviles democratice el desarrollo de la IA. Más desarrolladores pueden utilizar estos recursos e integrar la tecnología de IA en aplicaciones móviles, fomentando una mayor adopción de la IA.",
-    "impact_score": 7
-  },
-  {
-    "title": "TechCrunch Mobility: La carrera armamentista de habilidades de IA se acerca a la automoción",
-    "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
-    "industry": "Automotive",
-    "summary": "La carrera armamentista de habilidades de IA se acerca para la industria automotriz. Las empresas automotrices buscan activamente talentos en inteligencia artificial para mejorar la autonomía del vehículo, las características de seguridad y la experiencia general del usuario.",
-    "charlotte_impact": "Esto pone de relieve la creciente demanda de experiencia en IA en el sector automotriz. Las empresas automotrices que tarden en adoptarlo se quedarán atrás. Las universidades y los programas de formación deben adaptarse rápidamente para dotar a la fuerza laboral de esas habilidades.",
+    "summary": "AI Studio de Google ahora permite a los usuarios crear aplicaciones de Android en minutos utilizando IA, acelerando el desarrollo de software. Esta democratización de la creación de aplicaciones podría conducir a un aumento de nuevas aplicaciones y modelos de negocio.",
+    "charlotte_impact": "Este desarrollo democratiza el desarrollo de aplicaciones, permitiendo a individuos y pequeñas empresas crear prototipos e implementar rápidamente aplicaciones de Android. El impacto potencial radica en costos de desarrollo reducidos, ciclos de innovación más rápidos y una mayor accesibilidad a soluciones de tecnología móvil para empresas más pequeñas.",
     "impact_score": 8
   },
   {
-    "title": "El repositorio de investigación ArXiv prohibirá a los autores durante un año si dejan que la IA haga todo el trabajo",
-    "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
-    "industry": "Academic Publishing",
-    "summary": "El repositorio de investigación ArXiv prohibirá a los autores durante un año si dejan que la IA haga todo el trabajo. Esta política tiene como objetivo prevenir el uso indebido de la IA en artículos científicos y mantener la integridad de la investigación.",
-    "charlotte_impact": "Se trata de una medida proactiva en respuesta al uso cada vez mayor de la IA en la redacción académica. Esta iniciativa demuestra una preocupación por el potencial de uso indebido de las herramientas de IA y sienta un precedente para abordar las implicaciones éticas de la IA en las publicaciones científicas.",
-    "impact_score": 7
-  },
-  {
-    "title": "El lugar de vacaciones de Silicon Valley necesita un nuevo proveedor de energía justo cuando la IA está haciendo subir los precios",
-    "url": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
-    "industry": "Energy",
-    "summary": "Lake Tahoe se enfrenta a precios de energía más altos a medida que la IA aumenta la demanda de energía en Silicon Valley. El aumento del consumo de energía de los centros de datos de IA está afectando a los mercados y la infraestructura de la energía.",
-    "charlotte_impact": "Esta noticia indica la creciente demanda de energía de la IA. Las empresas de servicios públicos necesitan ampliar la infraestructura, mientras que las empresas de inteligencia artificial deberían explorar modelos y prácticas más eficientes energéticamente. Esto podría conducir a una mayor inversión en soluciones energéticas sostenibles.",
-    "impact_score": 8
-  },
-  {
-    "title": "Osaurus trae modelos de IA locales y en la nube a tu Mac",
-    "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-    "industry": "Artificial Intelligence",
-    "summary": "Osaurus combina modelos de IA locales y en la nube en Mac, manteniendo los datos del usuario en su propio hardware. Este enfoque tiene como objetivo equilibrar los beneficios de la IA con la privacidad y seguridad de los datos.",
-    "charlotte_impact": "El cambio hacia modelos híbridos de IA refleja crecientes preocupaciones sobre la privacidad. Las empresas que prioricen el control de datos y la privacidad podrían obtener una ventaja competitiva, atrayendo a usuarios cautelosos con respecto a las soluciones de inteligencia artificial basadas únicamente en la nube.",
-    "impact_score": 7
-  },
-  {
-    "title": "SpaceXAI de Elon Musk ha estado sangrando personal desde su fusión",
-    "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
-    "industry": "Aerospace",
-    "summary": "SpaceXAI ha experimentado importantes salidas de personal desde su fusión, lo que genera preocupaciones sobre el agotamiento, los cambios de liderazgo y la retención de talentos. Esto se debe a las altas expectativas y las intensas condiciones de trabajo en el sector de la IA.",
-    "charlotte_impact": "La retención de talento en el campo de la IA es vital para el avance tecnológico. Deben abordarse las preocupaciones sobre la dinámica del lugar de trabajo y la alta rotación para evitar la interrupción de proyectos importantes y mantener la continuidad.",
+    "title": "La IA de Google ahora te permite hablar con tu bandeja de entrada de Gmail",
+    "url": "https://techcrunch.com/2026/05/19/googles-ai-now-lets-you-talk-to-your-gmail-inbox/",
+    "industry": "AI/Productivity",
+    "summary": "Google está mejorando Gmail con búsqueda por voz conversacional impulsada por Gemini, lo que permite a los usuarios interactuar con su bandeja de entrada de manera más eficiente. Esta actualización mejora la productividad y la experiencia del usuario.",
+    "charlotte_impact": "La integración de la búsqueda por voz en herramientas de productividad como Gmail demuestra un enfoque centrado en el usuario, que permite a las personas optimizar las tareas y mejorar la eficiencia general. Es probable que esta tendencia se extienda a otras aplicaciones empresariales, transformando la forma en que los profesionales gestionan sus flujos de trabajo.",
     "impact_score": 6
   },
   {
-    "title": "Los CCG en India desaceleran la contratación a medida que la IA remodela el trabajo, dice el director ejecutivo de ANSR",
-    "url": "https://www.thehindubusinessline.com/info-tech/gccs-in-india-slow-hiring-as-ai-reshapes-work-ansr-ceo-says/article70993708.ece",
-    "industry": "Consulting",
-    "summary": "Según el director ejecutivo de ANSR, los centros de capacidad global (CCG) en la India están desacelerando la contratación debido a los impactos de la IA y las incertidumbres geopolíticas. El auge de la automatización de la IA está cambiando las habilidades necesarias en estos centros.",
-    "charlotte_impact": "Esto subraya el impacto potencial de la IA en el empleo, particularmente en sectores que dependen en gran medida de la mano de obra subcontratada. Requiere iniciativas de mejora y recapacitación para preparar a la fuerza laboral para los cambios impulsados ​​por la IA y promueve el desarrollo de nuevos modelos de negocio.",
-    "impact_score": 9
+    "title": "Google presenta Gemini Spark, un asistente de agente 24 horas al día, 7 días a la semana con integración de Gmail",
+    "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
+    "industry": "AI/Personal Assistant",
+    "summary": "Google presentó Gemini Spark, un asistente personal con agente 24 horas al día, 7 días a la semana, integrado con Gmail, desarrollado con Google Antigravity. Esto apunta hacia un futuro con asistentes de IA siempre activos que se encargarán de diversas tareas.",
+    "charlotte_impact": "La introducción de Gemini Spark, con sus capacidades de agencia, lleva el concepto de asistentes personales al siguiente nivel. El desarrollo probablemente conducirá a una mayor eficiencia y automatización en las tareas personales y profesionales, lo que podría remodelar la forma en que las personas manejan su vida cotidiana.",
+    "impact_score": 8
   },
   {
-    "title": "NextEra y Dominion quieren crear una enorme empresa eléctrica a medida que la IA impulsa la demanda de energía en EE. UU.",
-    "url": "https://www.seattlepi.com/business/article/nextera-dominion-want-to-create-a-massive-power-22264327.php",
-    "industry": "Energy",
-    "summary": "NextEra Energy busca adquirir Dominion Energy en una gran fusión impulsada por las crecientes demandas energéticas de la IA. La entidad combinada sería un actor importante en el mercado energético.",
-    "charlotte_impact": "Esta fusión refleja la importancia estratégica de la infraestructura energética para respaldar el crecimiento del sector de la IA. El creciente consumo de energía por parte de la IA está impulsando a las empresas de servicios públicos a consolidar y ampliar sus operaciones, lo que afecta los precios de la energía y la sostenibilidad.",
-    "impact_score": 9
+    "title": "Google acaba de declararse un competidor en el diseño de IA",
+    "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in/",
+    "industry": "AI/Design",
+    "summary": "Google ha entrado en el espacio del diseño de IA con nuevas herramientas destinadas a ser accesibles para una amplia gama de usuarios. Esto indica la creciente importancia de la IA para simplificar y democratizar los procesos de diseño.",
+    "charlotte_impact": "La accesibilidad de las herramientas de diseño basadas en IA tiene un amplio potencial, ya que permite a las pequeñas empresas y a los particulares producir diseños profesionales sin la necesidad de una amplia formación o recursos. Esto podría potenciar el emprendimiento y los proyectos creativos.",
+    "impact_score": 7
+  },
+  {
+    "title": "El cofundador de OpenAI, Andrej Karpathy, se une al equipo de preformación de Anthropic",
+    "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+    "industry": "AI/Talent",
+    "summary": "El cofundador de OpenAI, Andrej Karpathy, se unió al equipo de preformación de Anthropic, sugiriendo centrarse en mejorar las capacidades centrales del modelo de IA de Anthropic. La formación previa es crucial, pero también un área muy costosa del desarrollo de la IA.",
+    "charlotte_impact": "La medida de Karpathy pone de relieve la competencia en curso por los mejores talentos de IA. Su experiencia en capacitación previa probablemente acelerará los esfuerzos de desarrollo de IA de Anthropic. El movimiento indica cómo el talento especializado se está volviendo extremadamente valioso en el espacio de la IA, influyendo en la estrategia de talento y aumentando los costos laborales.",
+    "impact_score": 8
+  },
+  {
+    "title": "¿Elon Musk perdió su histórica demanda contra OpenAI? El jurado emite un veredicto rápido: esto es lo que necesita saber",
+    "url": "https://economictimes.indiatimes.com/news/international/us/did-elon-musk-lose-his-landmark-openai-lawsuit-jury-delivers-swift-verdict-heres-what-you-need-to-know/articleshow/131185270.cms",
+    "industry": "Legal/AI Governance",
+    "summary": "La demanda de Elon Musk contra OpenAI fue rechazada por un jurado, lo que supone una gran victoria para OpenAI. El veredicto respalda el cambio de OpenAI hacia empresas orientadas a las ganancias.",
+    "charlotte_impact": "La desestimación de la demanda de Musk elimina una nube de inseguridad jurídica sobre OpenAI y valida su estructura y dirección estratégica actuales. Esto permite a OpenAI continuar con sus actividades comerciales sin mayores interrupciones. Sin embargo, la controversia pone de relieve cuestiones éticas sobre la comercialización de la IA y su posible impacto en la intención original de priorizar a la humanidad.",
+    "impact_score": 6
+  },
+  {
+    "title": "Momentos clave en la prueba Musk vs OpenAI",
+    "url": "https://www.channelnewsasia.com/business/key-moments-in-musk-vs-openai-trial-6128741",
+    "industry": "Legal/AI Governance",
+    "summary": "La cobertura de los momentos clave en el juicio Musk vs OpenAI enfatiza la decisión del jurado de que Musk esperó demasiado para demandar, lo que afectó el resultado del caso. Esto refuerza las consideraciones legales en la gobernanza de la IA.",
+    "charlotte_impact": "Esta batalla legal subraya las complejidades que rodean los principios fundacionales de las empresas de IA y su evolución. También tiene implicaciones para los plazos y la capacidad de los demandantes para hacer cumplir los acuerdos dentro del sector de inteligencia artificial de vanguardia y en rápida evolución.",
+    "impact_score": 5
+  },
+  {
+    "title": "El jefe de AWS rechaza la idea de eliminación de empleos impulsada por la IA",
+    "url": "https://www.pymnts.com/economy/2026/aws-chief-rejects-notion-of-ai-driven-job-wipeout/",
+    "industry": "Economics/AI Impact",
+    "summary": "Matt Garman, director ejecutivo de AWS, cuestiona la idea de que la IA provocará pérdidas masivas de empleos, en contraste con algunas advertencias de otros ejecutivos de tecnología. Esto proporciona un contrapunto a las ansiedades que rodean el impacto de la IA en el empleo.",
+    "charlotte_impact": "La posición de Garman contradice las opiniones más alarmistas sobre el desplazamiento laboral impulsado por la IA. Este es un tema importante para el debate y los responsables políticos en torno a los efectos de la IA en todas las clases laborales.",
+    "impact_score": 6
+  },
+  {
+    "title": "Cómo iOS 27 podría usar la IA para mejorar tu escritura",
+    "url": "https://www.cultofmac.com/news/ios-27-ai-writing-tools",
+    "industry": "Software/Mobile",
+    "summary": "Se rumorea que iOS 27 tiene asistencia gramatical impulsada por IA. Además, la aplicación Atajos se está renovando gracias a la IA.",
+    "charlotte_impact": "Esto demuestra cómo los dispositivos personales están cada vez más equipados con capacidades de IA.",
+    "impact_score": 5
+  },
+  {
+    "title": "Una plataforma clave de publicación científica está tomando medidas enérgicas contra la decadencia de la IA",
+    "url": "https://theconversation.com/a-key-science-publishing-platform-is-cracking-down-on-ai-slop-283136",
+    "industry": "Publishing/AI Governance",
+    "summary": "Una plataforma clave de publicación científica, arXiv, está tomando medidas enérgicas contra el desperdicio de IA. Las infracciones de IA podrían dar lugar a una prohibición de un año del sistema arXiv.",
+    "charlotte_impact": "Esta represión pone de relieve la mayor conciencia sobre el impacto de la IA en las publicaciones académicas.",
+    "impact_score": 5
+  },
+  {
+    "title": "Cinco formas de fortalecer su red contra la nueva velocidad de los ataques de IA",
+    "url": "https://www.zdnet.com/article/5-ways-to-fortify-your-network-against-ai-attacks/",
+    "industry": "Cybersecurity",
+    "summary": "Los trabajadores de TI deben intensificar sus esfuerzos para fortalecer su red contra la nueva velocidad de los ataques de IA, a medida que los atacantes se vuelven más sofisticados y persistentes.",
+    "charlotte_impact": "Esto demuestra la creciente demanda de profesionales de la ciberseguridad para combatir las últimas formas de ataques de IA.",
+    "impact_score": 6
+  },
+  {
+    "title": "Comité bipartidista para estudiar los centros de datos de Ohio",
+    "url": "https://www.dailysignal.com/2026/05/18/ohio-data-centers-committee/",
+    "industry": "Infrastructure/Data Centers",
+    "summary": "Se ha creado un comité bipartidista en Ohio para estudiar el impacto de los centros de datos, tanto los beneficios que podrían aportar a los residentes del estado de Buckeye como las preocupaciones.",
+    "charlotte_impact": "El surgimiento del estudio de los centros de datos muestra el creciente reconocimiento de la importancia crítica de los centros de datos en la sociedad actual.",
+    "impact_score": 5
+  },
+  {
+    "title": "Detrás de la historia: cómo las tiendas aprenden nuestros hábitos de compra",
+    "url": "https://www.rte.ie/news/2026/0518/1573997-behind-the-story/",
+    "industry": "Retail/Marketing",
+    "summary": "Los supermercados utilizan cada vez más la información de los hábitos de compra de los clientes para determinar el precio de los productos y los descuentos que ofrecen.",
+    "charlotte_impact": "El uso de los hábitos de compra de los consumidores para determinar los precios de los productos es una tendencia en rápido desarrollo.",
+    "impact_score": 4
+  },
+  {
+    "title": "3 acciones de ASX que podrían ganar mucho con el auge de la infraestructura de inteligencia artificial",
+    "url": "https://www.fool.com.au/2026/05/19/3-asx-stocks-that-could-win-big-from-the-ai-infrastructure-boom/",
+    "industry": "Finance/Infrastructure",
+    "summary": "Goodman Group, Megaport y WiseTech Global desempeñan cada uno un papel diferente en el auge de la infraestructura de IA. Estas acciones de ASX podrían ganar en grande a medida que se acelera la construcción.",
+    "charlotte_impact": "Las acciones en Australia tienen el potencial de ganar en grande a medida que se acelera la construcción.",
+    "impact_score": 4
+  },
+  {
+    "title": "algoi 1.0.1",
+    "url": "https://pypi.org/project/aalgoi/1.0.1/",
+    "industry": "Software Development",
+    "summary": "Inteligencia de algoritmos artificiales: selección de algoritmos autoadaptativos y resolución universal de problemas.",
+    "charlotte_impact": "Aalgoi 1.0.1 puede potencialmente acelerar el desarrollo de algoritmos artificiales.",
+    "impact_score": 4
+  },
+  {
+    "title": "Lectra fortalece la gobernanza con dos nuevos nombramientos en la junta directiva para impulsar una estrategia centrada en la IA",
+    "url": "http://wwd.com/sourcing-journal/industry-news/lectra-strengthens-governance-with-two-new-board-members-1238971765/",
+    "industry": "Fashion/Retail",
+    "summary": "Lectra fortalece la gobernanza con dos nuevos nombramientos en la junta directiva para impulsar una estrategia centrada en la IA mientras la empresa implementa su hoja de ruta estratégica 2026-2028.",
+    "charlotte_impact": "Cada vez más empresas están incorporando la IA en sus estrategias empresariales.",
+    "impact_score": 4
   }
 ]
