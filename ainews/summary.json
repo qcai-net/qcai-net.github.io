@@ -1,162 +1,162 @@
 [
   {
-    "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
-    "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
-    "industry": "Software Development",
-    "summary": "Anthropic acquired Stainless, a startup that automates the creation and maintenance of software development kits (SDKs) used by major AI players. This acquisition enhances Anthropic's development capabilities and potentially reduces development time and costs.",
-    "charlotte_impact": "This acquisition highlights the increasing value of AI development tools. It underscores a broader trend where large AI companies are consolidating smaller startups with specialized tools to streamline their operations and gain a competitive edge. This consolidation could drive innovation in developer tooling but also increase barriers to entry for smaller startups in the AI ecosystem.",
+    "title": "OpenAI is making it easier to check if an image was made by their models",
+    "url": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
+    "industry": "AI Governance",
+    "summary": "OpenAI is implementing tools to detect AI-generated imagery by joining the C2PA standard and incorporating Google's SynthID. This will enable better transparency, provenance tracking, and content moderation regarding AI-created content.",
+    "charlotte_impact": "As AI-generated content becomes more pervasive, industries relying on visual communication, such as marketing, advertising, and media, will need robust verification tools. The adoption of standards like C2PA is critical for establishing trust and preventing the spread of misinformation, requiring investment in systems to detect and manage AI-generated content responsibly.",
+    "impact_score": 7
+  },
+  {
+    "title": "Google just declared itself a contender in AI design at IO 2026",
+    "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
+    "industry": "AI Design",
+    "summary": "Google is making strides in the AI design tool space, aiming to make AI design accessible to a wide audience, including educators and small business owners. This initiative lowers the barrier to entry for those who want to use AI to enhance their creative workflows.",
+    "charlotte_impact": "Widespread availability of AI design tools will democratize design processes, enabling smaller businesses and individuals to create professional-quality content. The adoption of these technologies can lead to increased productivity, reduced design costs, and enhanced marketing capabilities, particularly for companies without dedicated design teams.",
+    "impact_score": 6
+  },
+  {
+    "title": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
+    "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
+    "industry": "AI Assistants",
+    "summary": "Google is enhancing Gmail with a conversational AI inbox, powered by Gemini, allowing users to interact with their email using voice commands to quickly find information. This is a move toward a more integrated and intuitive user experience.",
+    "charlotte_impact": "The integration of conversational AI into email platforms can significantly improve productivity for professionals and businesses. The ability to quickly retrieve information and manage email communication through voice interaction can save time and streamline workflows. This innovation can also reshape customer service strategies as AI-powered email assistants become more sophisticated.",
     "impact_score": 8
   },
   {
-    "title": "OpenAI is making it easier to check if an image was made by their models",
-    "url": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
-    "industry": "AI Governance/Ethics",
-    "summary": "OpenAI is enhancing its image detection capabilities by joining the C2PA standard and adding Google's SynthID to identify AI-generated content. This move addresses rising concerns about AI-generated misinformation and manipulation.",
-    "charlotte_impact": "This development reflects the growing importance of AI transparency and accountability. Businesses that create AI content need tools and policies to help them demonstrate the provenance of the content. In general, it points to emerging standards and tools for detecting and mitigating the risks of AI-generated content.",
-    "impact_score": 7
-  },
-  {
-    "title": "Aumet Raises $12 Million for AI-Driven Pharmaceutical Procurement",
-    "url": "https://www.pymnts.com/healthcare/2026/aumet-raises-12-million-for-ai-driven-pharmaceutical-procurement/",
-    "industry": "Healthcare/Pharmaceuticals",
-    "summary": "Aumet secured $12 million in Series A funding to expand its AI-powered pharmaceutical procurement platform across the GCC region. The funding will enable Aumet to optimize supply chains and reduce costs in the pharmaceutical industry.",
-    "charlotte_impact": "This funding underscores the increasing adoption of AI in healthcare supply chain management. By optimizing pharmaceutical procurement, Aumet enhances efficiency and reduce costs, which is relevant across all healthcare sectors. It also shows the growing investor interest in AI-driven solutions that tackle inefficiencies in traditional industries.",
-    "impact_score": 7
+    "title": "How to use Google\u2019s new AI agents to go beyond your standard searches",
+    "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
+    "industry": "AI Agents",
+    "summary": "Google is introducing AI-powered information agents that proactively monitor topics and provide users with relevant updates and changes, going beyond standard search functionality. This allows users to stay informed on specific subjects with minimal effort.",
+    "charlotte_impact": "These AI agents can revolutionize how businesses track market trends, monitor competitor activities, and stay abreast of regulatory changes. Real-time, proactive insights can help companies make more informed decisions and respond quickly to emerging opportunities or threats. The economic impact stems from improved strategic planning and faster adaptation to changing market conditions.",
+    "impact_score": 9
   },
   {
     "title": "With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots",
     "url": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
-    "industry": "AI/Software Development",
-    "summary": "Google launched Gemini 3.5 Flash, a powerful AI model focused on agentic capabilities and coding, demonstrating a shift towards AI agents capable of autonomously executing complex tasks. This suggests a move away from simple chatbots towards more sophisticated AI systems.",
-    "charlotte_impact": "The launch of Gemini 3.5 Flash signals a significant advancement in AI's ability to automate complex processes. This shift will likely impact industries relying heavily on software development, task automation, and process optimization. Agentic AI has the potential to restructure how businesses operate.",
-    "impact_score": 9
+    "industry": "AI Models",
+    "summary": "Google launched Gemini 3.5 Flash, a powerful agentic AI model that can autonomously execute complex tasks and build software from scratch. This development highlights the shift towards AI agents capable of handling more sophisticated operations.",
+    "charlotte_impact": "The development of AI models like Gemini 3.5 Flash can drive significant advancements across various industries, particularly in software development, automation, and robotics. Its ability to build software from scratch will accelerate development cycles and allow businesses to create customized solutions more efficiently. The economic impact includes increased innovation, reduced labor costs, and the emergence of new AI-driven business models.",
+    "impact_score": 10
   },
   {
     "title": "Google\u2019s AI Studio now lets anyone build Android apps in minutes",
     "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
     "industry": "Software Development",
-    "summary": "Google's AI Studio now allows users to build Android apps in minutes using AI, accelerating software development. This democratization of app creation could lead to a surge in new applications and business models.",
-    "charlotte_impact": "This development democratizes app development, enabling individuals and small businesses to rapidly prototype and deploy Android apps. The potential impact lies in reduced development costs, faster innovation cycles, and increased accessibility to mobile technology solutions for smaller businesses.",
+    "summary": "Google's AI Studio now allows users to build native Android apps in minutes using AI, democratizing app development. This lowers the barrier to entry and allows individuals and small businesses to quickly create mobile applications.",
+    "charlotte_impact": "The ease and speed of app development through AI tools will enable more businesses to create tailored mobile solutions for their customers and internal processes. This can boost customer engagement, streamline operations, and provide a competitive edge. The economic impact involves the creation of new app-based business models and increased accessibility to mobile technology.",
     "impact_score": 8
   },
   {
-    "title": "Google\u2019s AI now lets you talk to your Gmail inbox",
-    "url": "https://techcrunch.com/2026/05/19/googles-ai-now-lets-you-talk-to-your-gmail-inbox/",
-    "industry": "AI/Productivity",
-    "summary": "Google is enhancing Gmail with conversational voice search powered by Gemini, enabling users to interact with their inbox more efficiently. This upgrade improves productivity and user experience.",
-    "charlotte_impact": "Integration of voice search in productivity tools like Gmail demonstrates a user-centric approach, allowing individuals to streamline tasks and improve overall efficiency. This trend is likely to extend to other enterprise applications, transforming how professionals manage their workflows.",
-    "impact_score": 6
-  },
-  {
-    "title": "Google introduces Gemini Spark, a 24/7 agentic assistant with Gmail integration",
+    "title": "Google introduces Gemini Spark, a 24/7 agentic assistant with Gmail integration, at IO 2026",
     "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
-    "industry": "AI/Personal Assistant",
-    "summary": "Google introduced Gemini Spark, a 24/7 agentic personal assistant integrated with Gmail, developed with Google Antigravity. This points towards a future of always-on AI assistants handling various tasks.",
-    "charlotte_impact": "The introduction of Gemini Spark, with its agentic capabilities, pushes the concept of personal assistants to the next level. The development will probably lead to increased efficiency and automation in personal and professional tasks, potentially reshaping how people manage their day-to-day lives.",
-    "impact_score": 8
-  },
-  {
-    "title": "Google just declared itself a contender in AI design",
-    "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in/",
-    "industry": "AI/Design",
-    "summary": "Google has entered the AI design space with new tools intended to be accessible to a wide range of users. This indicates the growing importance of AI in simplifying and democratizing design processes.",
-    "charlotte_impact": "The accessibility of AI-driven design tools has a wide-ranging potential, enabling small businesses and individuals to produce professional designs without the need for extensive training or resources. This could empower entrepreneurship and creative projects.",
-    "impact_score": 7
+    "industry": "AI Assistants",
+    "summary": "Google introduced Gemini Spark, a 24/7 agentic assistant with Gmail integration, at IO 2026. It is designed to enhance personal productivity by automating tasks and providing continuous support.",
+    "charlotte_impact": "Gemini Spark can significantly enhance productivity for individuals and businesses by automating routine tasks and providing continuous support. This AI-powered assistant can manage schedules, respond to emails, and provide real-time information, freeing up human workers to focus on more strategic activities. The economic impact stems from increased efficiency, reduced operational costs, and improved decision-making.",
+    "impact_score": 9
   },
   {
     "title": "OpenAI co-founder Andrej Karpathy joins Anthropic\u2019s pre-training team",
     "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
-    "industry": "AI/Talent",
-    "summary": "OpenAI co-founder Andrej Karpathy has joined Anthropic's pre-training team, suggesting a focus on enhancing Anthropic's core AI model capabilities. Pre-training is crucial but also a very expensive area of AI development.",
-    "charlotte_impact": "Karpathy's move highlights the ongoing competition for top AI talent. His expertise in pre-training will likely accelerate Anthropic's AI development efforts. The movement indicates how specialized talent is becoming extremely valuable in the AI space, influencing talent strategy and driving up labor costs.",
+    "industry": "AI Research",
+    "summary": "Andrej Karpathy, a co-founder of OpenAI, joined Anthropic's pre-training team to enhance Claude's core knowledge and capabilities. This move highlights the intense competition for AI talent and the importance of pre-training in developing advanced AI models.",
+    "charlotte_impact": "This talent acquisition indicates a strategic investment in foundational AI research and development. Strengthening pre-training will allow Anthropic to build more capable and versatile AI models. This competition for AI expertise accelerates technological advancement and can lead to breakthroughs that transform industries.",
+    "impact_score": 7
+  },
+  {
+    "title": "Helport AI Announces Strategic Board Appointment of Former U.S. Bank Executive Dr. Yu Pan",
+    "url": "https://www.globenewswire.com/news-release/2026/05/19/3297500/0/en/Helport-AI-Announces-Strategic-Board-Appointment-of-Former-U-S-Bank-Executive-Dr-Yu-Pan.html",
+    "industry": "AI Governance",
+    "summary": "Helport AI appointed former U.S. Bank executive Dr. Yu Pan to its board, focusing on expanding enterprise AI governance initiatives. This signals a growing emphasis on responsible AI practices in the business world.",
+    "charlotte_impact": "The appointment of an experienced executive underscores the growing importance of AI governance for enterprises. Strengthening AI governance frameworks can help companies mitigate risks, ensure compliance, and build trust with stakeholders. This can lead to more ethical and responsible AI deployment, promoting long-term sustainability and value creation.",
+    "impact_score": 6
+  },
+  {
+    "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
+    "url": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
+    "industry": "Cybersecurity",
+    "summary": "Ocean, an agentic email security platform, raised $28M to combat AI phishing using AI-driven context analysis to detect fraud. This investment shows the increasing need for advanced cybersecurity solutions to address AI-related threats.",
+    "charlotte_impact": "The rise of AI-powered phishing attacks necessitates innovative security solutions. By using AI to analyze the context of emails, Ocean can provide a more robust defense against sophisticated cyber threats. The investment in this technology highlights the growing market for AI-driven cybersecurity and the need for businesses to protect themselves from evolving cyber risks.",
     "impact_score": 8
   },
   {
-    "title": "Did Elon Musk lose his landmark OpenAI lawsuit? Jury delivers swift verdict-here's what you need to know",
-    "url": "https://economictimes.indiatimes.com/news/international/us/did-elon-musk-lose-his-landmark-openai-lawsuit-jury-delivers-swift-verdict-heres-what-you-need-to-know/articleshow/131185270.cms",
-    "industry": "Legal/AI Governance",
-    "summary": "Elon Musk's lawsuit against OpenAI was rejected by a jury, which is a major win for OpenAI. The verdict supports OpenAI's shift towards profit-oriented ventures.",
-    "charlotte_impact": "The dismissal of Musk's lawsuit removes a cloud of legal uncertainty over OpenAI and validates its current structure and strategic direction. This allows OpenAI to continue its commercial activities without major disruption. However, the controversy highlights ethical questions about the commercialization of AI and its potential impact on the original intent to prioritize humanity.",
+    "title": "AI Futurist and Industry-leading Consultant Henry Hays Joins Sparkhound as Partner to Lead AI Strategy Practice",
+    "url": "https://www.prnewswire.com/news-releases/ai-futurist-and-industry-leading-consultant-henry-hays-joins-sparkhound-as-partner-to-lead-ai-strategy-practice-302775712.html",
+    "industry": "AI Consulting",
+    "summary": "AI Futurist Henry Hays joined Sparkhound as a partner to lead its AI Strategy Practice. This appointment reflects the increasing demand for strategic guidance in implementing AI solutions across various industries.",
+    "charlotte_impact": "The addition of an AI futurist to Sparkhound signifies the growing need for strategic AI guidance among mid-market companies. Hays' expertise will help clients develop effective AI roadmaps and implement AI solutions that drive business value. This consulting service can accelerate AI adoption and enhance the competitive advantage of businesses.",
+    "impact_score": 7
+  },
+  {
+    "title": "Hartford HealthCare and Vitea Partner to Advance Responsible AI Innovation Across Healthcare",
+    "url": "https://www.prnewswire.com/news-releases/hartford-healthcare-and-vitea-partner-to-advance-responsible-ai-innovation-across-healthcare-302774865.html",
+    "industry": "Healthcare",
+    "summary": "Hartford HealthCare and Vitea partnered to advance responsible AI innovation across healthcare, emphasizing safe and transparent AI adoption. This collaboration highlights the healthcare industry's commitment to ethical and reliable AI solutions.",
+    "charlotte_impact": "The partnership between Hartford HealthCare and Vitea demonstrates the growing importance of responsible AI innovation in healthcare. By prioritizing safety and transparency, the collaboration aims to build trust in AI-driven medical solutions and improve patient outcomes. This can drive the adoption of AI in various healthcare applications, such as diagnostics, treatment planning, and patient monitoring.",
+    "impact_score": 8
+  },
+  {
+    "title": "AI Chip Energy Efficiency: Hoth Therapeutics Restructures as Rocket One Inc. to Enter the AI Semiconductor Infrastructure Market with Acquisition of Exclusive Rights to Next Generation AI Semiconductor Acceleration Technology Built on Non-Volatile Nanomagnetic Semiconductor Architecture",
+    "url": "https://www.prnewswire.com/news-releases/ai-chip-energy-efficiency-hoth-therapeutics-restructures-as-rocket-one-inc-to-enter-the-ai-semiconductor-infrastructure-market-with-acquisition-of-exclusive-rights-to-next-generation-ai-semiconductor-acceleration-technology-buil-302776054.html",
+    "industry": "Semiconductors",
+    "summary": "Hoth Therapeutics restructured as Rocket One Inc. to enter the AI semiconductor market, acquiring rights to next-gen nanomagnetic semiconductor tech to address the energy demands of AI data centers. This underscores the importance of energy efficiency in AI infrastructure.",
+    "charlotte_impact": "The focus on AI chip energy efficiency reflects the growing concern about the environmental impact of AI data centers. Nanomagnetic semiconductors can potentially reduce power consumption, making AI infrastructure more sustainable and cost-effective. This innovation can attract investment in green technology and promote the adoption of energy-efficient AI solutions.",
+    "impact_score": 9
+  },
+  {
+    "title": "Duos Edge AI to Host Lubbock Edge Data Center Open House",
+    "url": "https://www.globenewswire.com/news-release/2026/05/19/3297502/12618/en/Duos-Edge-AI-to-Host-Lubbock-Edge-Data-Center-Open-House.html",
+    "industry": "Edge Computing",
+    "summary": "Duos Edge AI is hosting an open house for its Lubbock Edge Data Center, emphasizing connectivity and AI growth in West Texas. This highlights the increasing importance of edge computing infrastructure for supporting AI applications.",
+    "charlotte_impact": "The expansion of edge data centers demonstrates the growing demand for localized computing resources to support AI applications. Edge computing can reduce latency, improve data security, and enable real-time processing, enhancing the performance of AI-driven services. This investment in infrastructure can drive economic growth in West Texas and attract businesses that rely on AI technology.",
     "impact_score": 6
   },
   {
-    "title": "Key moments in the Musk vs OpenAI trial",
-    "url": "https://www.channelnewsasia.com/business/key-moments-in-musk-vs-openai-trial-6128741",
-    "industry": "Legal/AI Governance",
-    "summary": "Coverage of the key moments in the Musk vs OpenAI trial emphasizes the jury's decision that Musk waited too long to sue, impacting the case's outcome. This reinforces legal considerations in AI governance.",
-    "charlotte_impact": "This legal battle underscores the complexities surrounding the founding principles of AI companies and their evolution. It also has implication for timelines and the ability of plaintiffs to enforce agreements within the rapidly-evolving and cutting-edge artificial intelligence sector.",
-    "impact_score": 5
+    "title": "Southeast University and Korea University Researchers Develop Smarter Copper Catalysts for Turning CO\u2082 into Fuels",
+    "url": "https://www.prnewswire.com/news-releases/southeast-university-and-korea-university-researchers-develop-smarter-copper-catalysts-for-turning-co-into-fuels-302774988.html",
+    "industry": "Clean Energy",
+    "summary": "Researchers at Southeast University and Korea University developed smarter copper catalysts for converting CO\u2082 into fuels, addressing climate change with AI-enhanced solutions. This showcases the application of AI in sustainability initiatives.",
+    "charlotte_impact": "The development of advanced copper catalysts demonstrates the potential of AI in addressing climate change. By converting CO\u2082 into valuable fuels, these catalysts can reduce greenhouse gas emissions and promote sustainable energy practices. This innovation can attract investment in clean energy technology and contribute to a more environmentally friendly economy.",
+    "impact_score": 7
   },
   {
-    "title": "AWS Chief Rejects Notion of AI-Driven Job Wipeout",
-    "url": "https://www.pymnts.com/economy/2026/aws-chief-rejects-notion-of-ai-driven-job-wipeout/",
-    "industry": "Economics/AI Impact",
-    "summary": "AWS CEO Matt Garman disputes the notion that AI will lead to mass job losses, contrasting with some warnings from other tech executives. This provides a counterpoint to the anxieties surrounding AI's impact on employment.",
-    "charlotte_impact": "Garman's position counters the more alarmist views on AI-driven job displacement. This is an important topic for discussion and policy makers around the effects of AI across all job classes.",
+    "title": "HeartSciences Signs Commercial Agreement with North Shore Health, the First Hospital Deployment from the Cibolo Health Network",
+    "url": "https://www.globenewswire.com/news-release/2026/05/19/3297483/0/en/HeartSciences-Signs-Commercial-Agreement-with-North-Shore-Health-the-First-Hospital-Deployment-from-the-Cibolo-Health-Network.html",
+    "industry": "Healthcare",
+    "summary": "HeartSciences signed a commercial agreement with North Shore Health for its MyoVista Insights ECG management platform, marking its first hospital deployment through the Cibolo Health Network. This signals the increasing adoption of AI in ECG analysis.",
+    "charlotte_impact": "The deployment of the MyoVista Insights platform underscores the increasing role of AI in enhancing cardiac care. AI-powered ECG analysis can improve diagnostic accuracy, reduce medical errors, and optimize treatment planning. This can lead to better patient outcomes, lower healthcare costs, and greater efficiency in hospital operations.",
     "impact_score": 6
   },
   {
-    "title": "How iOS 27 could use AI to improve your writing",
-    "url": "https://www.cultofmac.com/news/ios-27-ai-writing-tools",
-    "industry": "Software/Mobile",
-    "summary": "iOS 27 is rumored to have AI-powered grammar assistance. In addition, the Shortcuts app is getting a revamp from AI.",
-    "charlotte_impact": "This demonstrates how personal devices are becoming increasingly equipped with AI capabilities.",
-    "impact_score": 5
-  },
-  {
-    "title": "A key science publishing platform is cracking down on AI slop",
-    "url": "https://theconversation.com/a-key-science-publishing-platform-is-cracking-down-on-ai-slop-283136",
-    "industry": "Publishing/AI Governance",
-    "summary": "A key science publishing platform, arXiv, is cracking down on AI slop. AI infractions could result in a year-long ban from the arXiv system.",
-    "charlotte_impact": "This crackdown highlights the increased awareness of AI's impact on academic publishing.",
-    "impact_score": 5
-  },
-  {
-    "title": "5 ways to fortify your network against the new speed of AI attacks",
-    "url": "https://www.zdnet.com/article/5-ways-to-fortify-your-network-against-ai-attacks/",
-    "industry": "Cybersecurity",
-    "summary": "IT workers need to step up their game to fortify their network against the new speed of AI attacks, as attackers get more sophisticated and persistent.",
-    "charlotte_impact": "This demonstrates the increased demand for cybersecurity professionals to combat the latest forms of AI attacks.",
+    "title": "InterDigital signs license agreement with fintech company",
+    "url": "https://www.globenewswire.com/news-release/2026/05/19/3297477/24691/en/InterDigital-signs-license-agreement-with-fintech-company.html",
+    "industry": "Fintech",
+    "summary": "InterDigital signed a patent license agreement with a fintech company, indicating the growing importance of AI in the financial technology sector. This will enable the fintech company to innovate and develop new AI-driven financial services.",
+    "charlotte_impact": "The licensing agreement demonstrates the rising significance of AI in fintech. By accessing InterDigital's AI technology, the fintech company can develop innovative financial solutions, such as fraud detection systems, personalized banking services, and automated trading platforms. This can enhance efficiency, improve customer experience, and drive growth in the fintech industry.",
     "impact_score": 6
   },
   {
-    "title": "Bipartisan Committee to Study Ohio Data Centers",
-    "url": "https://www.dailysignal.com/2026/05/18/ohio-data-centers-committee/",
-    "industry": "Infrastructure/Data Centers",
-    "summary": "A bipartisan committee in Ohio has been created to study the impact of data centers, both the benefits they could bring to residents of the Buckeye State, as well as concerns.",
-    "charlotte_impact": "The emergence of data center study shows the increased recognition of the critical importance of data centers in today's society.",
+    "title": "Elon Musk said Sam Altman \u2018stole\u2019 a non-profit \u2014 but the trial showed he had similar aims",
+    "url": "https://techcrunch.com/2026/05/19/elon-musk-said-sam-altman-stole-a-non-profit-but-the-trial-showed-he-had-similar-aims/",
+    "industry": "Law",
+    "summary": "Elon Musk's lawsuit against the OpenAI founders and Microsoft was rejected by a jury. The case hinged on Musk's claim that Sam Altman 'stole' a non-profit, but the trial demonstrated that Musk's own aims were similar.",
+    "charlotte_impact": "This legal outcome highlights the complex ethical and legal landscape surrounding AI development. The case underscores the tension between open-source initiatives and commercial interests in the AI field, reminding founders and investors to clearly define their intentions and agreements to avoid future conflicts.",
+    "impact_score": 4
+  },
+  {
+    "title": "'Learn to read the room': ex-Google CEO Eric Schmidt is the latest commencement speaker to get booed for mentioning AI",
+    "url": "https://www.techradar.com/ai-platforms-assistants/learn-to-read-the-room-ex-google-ceo-eric-schmidt-is-the-latest-commencement-speaker-to-get-booed-for-mentioning-ai",
+    "industry": "Education",
+    "summary": "Ex-Google CEO Eric Schmidt was booed at a commencement speech for mentioning AI, reflecting student concerns about the technology's impact on their future. This shows negative sentiment about the role of AI in employment prospects.",
+    "charlotte_impact": "This event reveals a growing apprehension among students regarding the potential impact of AI on their future employment prospects. This sentiment calls for a stronger emphasis on preparing students for the evolving job market through education programs that focus on AI-related skills and interdisciplinary training. Universities can partner with industries to deliver innovative programs.",
+    "impact_score": 4
+  },
+  {
+    "title": "Plan For Teachers to Record Children For AI Training Purposes Scrapped After Parent Backlash",
+    "url": "https://petapixel.com/2026/05/19/plan-for-teachers-to-record-children-for-ai-training-purposes-scrapped-after-parent-backlash/",
+    "industry": "Education",
+    "summary": "A plan for teachers to record children for AI training purposes was scrapped due to parent backlash. Parents worried about lack of privacy and consent.",
+    "charlotte_impact": "The scrapped program shows the importance of ethical considerations when training AI using children's data. It also highlights parents' concerns regarding the storage, use, and management of children's personal information. This event can pave the way for more transparent AI practices in the education sector.",
     "impact_score": 5
-  },
-  {
-    "title": "Behind The Story: How shops learn our shopping habits",
-    "url": "https://www.rte.ie/news/2026/0518/1573997-behind-the-story/",
-    "industry": "Retail/Marketing",
-    "summary": "Supermarkets are increasingly using information from customers shopping habits to determine the price of products and discounts on offer.",
-    "charlotte_impact": "The use of shopping habits from consumers to determine product prices is a rapidly developing trend.",
-    "impact_score": 4
-  },
-  {
-    "title": "3 ASX stocks that could win big from the AI infrastructure boom",
-    "url": "https://www.fool.com.au/2026/05/19/3-asx-stocks-that-could-win-big-from-the-ai-infrastructure-boom/",
-    "industry": "Finance/Infrastructure",
-    "summary": "Goodman Group, Megaport, and WiseTech Global each play a different role in the AI infrastructure boom. These ASX stocks could win big as the buildout accelerates.",
-    "charlotte_impact": "The stocks in Australia have the potential to win big as the buildout accelerates.",
-    "impact_score": 4
-  },
-  {
-    "title": "aalgoi 1.0.1",
-    "url": "https://pypi.org/project/aalgoi/1.0.1/",
-    "industry": "Software Development",
-    "summary": "Artificial Algorithm Intelligence - Self-Adaptive Algorithm Selection & Universal Problem Solving.",
-    "charlotte_impact": "Aalgoi 1.0.1 can potentially speed up artificial algorithm development.",
-    "impact_score": 4
-  },
-  {
-    "title": "Lectra Strengthens Governance with Two New Board Appointments to Drive AI-Focused\u00a0Strategy",
-    "url": "http://wwd.com/sourcing-journal/industry-news/lectra-strengthens-governance-with-two-new-board-members-1238971765/",
-    "industry": "Fashion/Retail",
-    "summary": "Lectra Strengthens Governance with Two New Board Appointments to Drive AI-Focused\u00a0Strategy as the company implements its 2026\u20132028 strategic roadmap.",
-    "charlotte_impact": "More companies are incorporating AI into their company strategies.",
-    "impact_score": 4
   }
 ]
