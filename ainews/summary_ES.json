@@ -2,161 +2,129 @@
   {
     "title": "OpenAI avanza hacia una oferta pública inicial que podría ocurrir en septiembre",
     "url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/",
-    "industry": "Finance",
-    "summary": "Después de que Elon Musk perdiera su demanda contra OpenAI, se informa que la compañía está reanudando los preparativos para su IPO, potencialmente en septiembre.",
-    "charlotte_impact": "Una oferta pública inicial de OpenAI indicaría una confianza significativa en el sector de la IA y atraería inversiones masivas. El acceso al mercado público podría proporcionar a OpenAI más capital para solidificar su posición de liderazgo, ejerciendo presión sobre otras empresas de IA.",
+    "industry": "Finance/Technology",
+    "summary": "Tras la desestimación de la demanda de Elon Musk, se informa que OpenAI está acelerando los preparativos para una oferta pública inicial, potencialmente en septiembre, lo que indica confianza y crecimiento en el mercado de la IA.",
+    "charlotte_impact": "Una oferta pública inicial de OpenAI probablemente generaría una mayor inversión en empresas relacionadas con la IA, lo que podría beneficiar a las empresas especializadas en la implementación de la IA en todas las industrias. La mayor demanda de talento especializado en IA puede impulsar la contratación y el crecimiento salarial en regiones centradas en la tecnología.",
     "impact_score": 9
+  },
+  {
+    "title": "Con los precios del aluminio subiendo un 20%, las startups de reciclaje apuestan por la IA para sacar provecho",
+    "url": "https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/",
+    "industry": "Recycling/Materials Science",
+    "summary": "Las nuevas empresas de reciclaje están aprovechando la inteligencia artificial para mejorar la recuperación de materiales valiosos como el aluminio, aprovechando el aumento de los precios del aluminio y la necesidad de procesos de reciclaje más eficientes.",
+    "charlotte_impact": "El reciclaje impulsado por la IA podría generar una mayor demanda de científicos de datos e ingenieros de IA. La adopción exitosa de la IA en el reciclaje puede alentar a otras industrias a explorar aplicaciones similares, fortaleciendo la posición de Charlotte como centro tecnológico.",
+    "impact_score": 7
+  },
+  {
+    "title": "Google está ofreciendo un ecosistema de agentes de IA a los consumidores que tal vez no lo compren",
+    "url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
+    "industry": "Technology/Consumer",
+    "summary": "Google está presentando un ecosistema de agentes de IA a los consumidores, con el objetivo de simplificar el uso de la web, pero su complejidad puede presentar una barrera para una adopción generalizada.",
+    "charlotte_impact": "El éxito del ecosistema de agentes de IA de Google podría afectar la demanda de habilidades relacionadas con la IA en la región. Si el ecosistema tiene éxito, las empresas locales podrían intentar integrar a estos agentes en sus operaciones, creando nuevas oportunidades para los especialistas en IA.",
+    "impact_score": 6
   },
   {
     "title": "xAI quemó 6.400 millones de dólares el año pasado: la presentación de la oferta pública inicial de SpaceX muestra por qué el gasto está lejos de terminar",
     "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
-    "industry": "Artificial Intelligence",
-    "summary": "La presentación de la oferta pública inicial de SpaceX reveló que xAI gastó 6.400 millones de dólares en 2025, lo que proporciona información sobre las ambiciones y estrategias financieras de IA de Elon Musk.",
-    "charlotte_impact": "La alta tasa de consumo de xAI demuestra el enorme costo de desarrollar e implementar modelos avanzados de IA. Esto conducirá a un mayor escrutinio sobre los modelos de negocios de IA y exigirá una mayor inversión en infraestructura informática y adquisición de talento, favoreciendo a las empresas con mucho dinero.",
+    "industry": "Technology/Finance",
+    "summary": "La presentación de la oferta pública inicial de SpaceX reveló que xAI quemó 6.400 millones de dólares en 2025 mientras planificaba la expansión de Grok. Esto ofrece una visión transparente de las demandas financieras del desarrollo de la IA a gran escala.",
+    "charlotte_impact": "Esta importante tasa de consumo subraya los importantes recursos financieros necesarios para el desarrollo de la IA. Los inversores potenciales pueden volverse más cautelosos y exigir una mayor transparencia a las empresas de inteligencia artificial, lo que influirá en el panorama de las inversiones de capital de riesgo y de capital privado.",
     "impact_score": 8
   },
   {
     "title": "XAI de Musk está siendo demandado por los generadores de su centro de datos; ahora está comprando 2.800 millones de dólares más",
     "url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
-    "industry": "Energy",
-    "summary": "A pesar de enfrentar desafíos legales relacionados con los generadores de su centro de datos, xAI de Elon Musk anunció una compra de turbinas de gas natural por valor de 2.800 millones de dólares durante los próximos tres años.",
-    "charlotte_impact": "Esta inversión indica las importantes demandas de energía de la computación con IA y enfatiza aún más la competencia por la computación. También implica una preferencia por las soluciones locales en un momento en que las empresas de computación en la nube también están invirtiendo fuertemente.",
+    "industry": "Technology/Energy",
+    "summary": "A pesar de enfrentar una demanda por las emisiones de los generadores del centro de datos, xAI está invirtiendo 2.800 millones de dólares en turbinas de gas natural durante los próximos tres años, lo que indica un fuerte compromiso con la expansión de su infraestructura de IA.",
+    "charlotte_impact": "Esta inversión indica una necesidad continua de consumo de energía a gran escala en el desarrollo de la IA. Este compromiso con los combustibles fósiles resalta las continuas preocupaciones ambientales asociadas con la formación de modelos cada vez más grandes. Las preocupaciones por el impacto de la computación de IA en el medio ambiente pueden influir en las empresas de Charlotte.",
     "impact_score": 7
   },
   {
     "title": "OpenAI afirma que resolvió un problema matemático de hace 80 años, esta vez de verdad",
     "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
-    "industry": "Research",
-    "summary": "OpenAI afirma que su modelo de razonamiento refutó con éxito una conjetura de geometría que no había sido resuelta desde 1946, recibiendo la validación de los matemáticos.",
-    "charlotte_impact": "La resolución de problemas matemáticos complejos demuestra el avance de las capacidades de razonamiento de la IA. Este avance podría conducir a nuevos avances en campos como la logística, la ciencia y la ingeniería, donde los cálculos complejos y la resolución de problemas son fundamentales.",
-    "impact_score": 7
+    "industry": "Technology/Mathematics",
+    "summary": "OpenAI afirma que ha resuelto un problema matemático de hace 80 años utilizando su modelo de razonamiento, con la validación de los matemáticos después de una afirmación falsa previa.",
+    "charlotte_impact": "Este logro destaca el potencial de la IA para avanzar en los descubrimientos científicos. Demostrar el poder de la IA para resolver problemas matemáticos complejos podría atraer a más investigadores e inversores a instituciones y universidades centradas en la IA.",
+    "impact_score": 6
   },
   {
     "title": "IrisGo, una startup respaldada por Andrew Ng, busca convertirse en el compañero de escritorio de IA que nunca supiste que necesitabas",
     "url": "https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/",
-    "industry": "Artificial Intelligence",
-    "summary": "IrisGo, una startup respaldada por Andrew Ng, está desarrollando un asistente de escritorio con inteligencia artificial que aprende a automatizar tareas para los usuarios observando su actividad en el escritorio.",
-    "charlotte_impact": "Los asistentes de escritorio de IA como IrisGo tienen el potencial de mejorar la productividad al automatizar tareas informáticas repetitivas. Esto podría resultar valioso para muchas empresas que buscan formas de mejorar la eficiencia.",
+    "industry": "Technology/Software",
+    "summary": "IrisGo, respaldado por Andrew Ng, tiene como objetivo crear un asistente de escritorio de inteligencia artificial que aprenda automáticamente las tareas del usuario, agilizando los flujos de trabajo.",
+    "charlotte_impact": "La disponibilidad de asistentes de escritorio con inteligencia artificial podría mejorar la productividad de varias empresas. El desarrollo de este tipo de herramientas podría estimular la demanda de formadores de IA y expertos en personalización para integrarlas en los flujos de trabajo existentes.",
+    "impact_score": 6
+  },
+  {
+    "title": "Spotify y Universal Music llegan a un acuerdo que permite versiones y remezclas de IA creadas por fans",
+    "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
+    "industry": "Music/Technology",
+    "summary": "Spotify y Universal Music Group se han asociado para permitir a los suscriptores Premium crear covers y remezclas de canciones generadas por IA, con reparto de ingresos para los artistas participantes.",
+    "charlotte_impact": "Esta asociación abre nuevas vías para que los artistas moneticen su trabajo a través de la IA. Esto también plantea interrogantes sobre el futuro de la producción musical y los derechos de autor.",
     "impact_score": 7
   },
   {
-    "title": "Las nuevas empresas de búsqueda de IA están explotando",
-    "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/",
-    "industry": "Search",
-    "summary": "Las nuevas empresas de búsqueda de IA están ganando un impulso significativo, lo que indica una demanda creciente de capacidades de búsqueda impulsadas por IA.",
-    "charlotte_impact": "El auge de las nuevas empresas de búsqueda de IA indica un cambio de paradigma en la forma en que las personas buscan información. Las empresas deberán adaptar sus estrategias de contenido y SEO para alinearse con los algoritmos de búsqueda impulsados ​​por IA para garantizar la visibilidad y la relevancia.",
-    "impact_score": 7
+    "title": "Trump retrasa la orden ejecutiva de seguridad de la IA: \"No quiero interponerme en ese liderazgo\"",
+    "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
+    "industry": "Government/Technology",
+    "summary": "El presidente Trump retrasó la firma de una orden ejecutiva de seguridad de IA, citando insatisfacción con el lenguaje actual de la orden, lo que indica un debate en curso en torno a la regulación de la IA.",
+    "charlotte_impact": "La incertidumbre sobre la regulación de la IA puede afectar la planificación empresarial y las decisiones de inversión. Las empresas locales pueden enfrentar desafíos a la hora de gestionar el cumplimiento, lo que podría ralentizar la adopción de tecnologías de IA hasta que se establezcan directrices claras.",
+    "impact_score": 5
   },
   {
-    "title": "Google acaba de declararse competidor en diseño de IA en IO 2026",
-    "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
-    "industry": "Software",
-    "summary": "Google anunció herramientas de diseño de IA en IO 2026, con el objetivo de hacer que el diseño impulsado por IA sea accesible para una amplia base de usuarios, incluidos profesores y propietarios de pequeñas empresas.",
-    "charlotte_impact": "Las herramientas de diseño de IA tienen el potencial de democratizar el proceso de diseño, permitiendo a quienes no son diseñadores crear imágenes y diseños de calidad profesional. Esto podría alterar la industria creativa al empoderar a individuos y pequeñas empresas para que produzcan materiales de marketing y otros contenidos visuales.",
+    "title": "Spotify agrega funciones de generación de resúmenes y preguntas y respuestas basadas en inteligencia artificial a los podcasts",
+    "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
+    "industry": "Media/Technology",
+    "summary": "Spotify presenta funciones de generación de informes y preguntas y respuestas basadas en inteligencia artificial para podcasts, lo que mejora la accesibilidad del contenido y la participación de los usuarios.",
+    "charlotte_impact": "Estas características podrían mejorar el atractivo de los podcasts e impulsar la audiencia. Esta innovación podría beneficiar a las empresas de medios al mejorar la capacidad de descubrimiento de contenido y la satisfacción del usuario.",
+    "impact_score": 5
+  },
+  {
+    "title": "The Path, fundado por Tony Robbins y ex alumnos de Calm, espera ofrecer una terapia de IA más segura",
+    "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
+    "industry": "Healthcare/Technology",
+    "summary": "The Path, fundada por Tony Robbins y exalumnos de Calm, está desarrollando herramientas de terapia de IA centradas en la seguridad, superando las puntuaciones de seguridad de los robots de consumo existentes.",
+    "charlotte_impact": "Una terapia de IA más segura podría mejorar el acceso a los servicios de salud mental. Las empresas que ofrecen servicios de salud mental impulsados ​​por IA podrían ver una mayor demanda, lo que conduciría a la creación de empleo.",
     "impact_score": 6
   },
   {
-    "title": "Ahora puedes hablar con tu bandeja de entrada de Gmail, como se vio en Google IO 2026",
-    "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
-    "industry": "Software",
-    "summary": "Google está integrando la búsqueda por voz conversacional en Gmail con su bandeja de entrada AI, lo que permite a los usuarios encontrar detalles de correo electrónico mediante comandos de voz.",
-    "charlotte_impact": "La integración de la IA conversacional en el correo electrónico puede optimizar significativamente la comunicación y la recuperación de información para los profesionales. Esto reduce el tiempo necesario para gestionar el correo electrónico y permite a los usuarios centrarse en tareas más estratégicas.",
-    "impact_score": 6
-  },
-  {
-    "title": "Cómo utilizar los nuevos agentes de inteligencia artificial de Google para ir más allá de las búsquedas estándar",
-    "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
-    "industry": "Search",
-    "summary": "Google está lanzando \"agentes de información\" impulsados ​​por IA que monitorean temas y alertan proactivamente a los usuarios sobre actualizaciones y cambios.",
-    "charlotte_impact": "Los agentes de IA pueden mejorar la productividad automatizando la recopilación de información. Las empresas pueden utilizar estos agentes para monitorear las tendencias del mercado, las actividades de la competencia y los cambios regulatorios, lo que permite una toma de decisiones más informada.",
-    "impact_score": 6
+    "title": "Hark recauda 700 millones de dólares Serie A para su secreta interfaz de IA 'universal'",
+    "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+    "industry": "Technology/Artificial Intelligence",
+    "summary": "Hark recaudó una Serie A de 700 millones de dólares para su secreta interfaz de IA \"universal\", con el objetivo de lanzar modelos multimodales este verano para impulsar una plataforma de IA personal compatible con los servicios y el hardware existentes.",
+    "charlotte_impact": "Una interfaz universal de IA tiene el potencial de transformar la forma en que los usuarios interactúan con la tecnología y los datos. Esto podría beneficiar a cualquier empresa que implemente la interfaz, mejorando la accesibilidad a los datos.",
+    "impact_score": 8
   },
   {
     "title": "Anthropic pagará a xAI 1.250 millones de dólares al mes por computación",
     "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
-    "industry": "Compute",
-    "summary": "Anthropic pagará a xAI 1.250 millones de dólares al mes por recursos informáticos, lo que destaca el alto valor y la demanda de la infraestructura de IA.",
-    "charlotte_impact": "El acuerdo informático masivo entre Anthropic y xAI demuestra la intensa competencia por los recursos de IA. El costo de desarrollar y entrenar modelos de IA es astronómico y supondrá un desafío para muchas empresas más pequeñas.",
+    "industry": "Technology/Artificial Intelligence",
+    "summary": "Anthropic pagará a xAI 1.250 millones de dólares al mes por la computación, lo que destaca los altos costos asociados con el entrenamiento y la operación del modelo de IA.",
+    "charlotte_impact": "El tamaño del acuerdo ilumina la gran inversión para desarrollar estas herramientas. Las empresas o regiones que puedan facilitar una fuente barata de computación pueden beneficiarse.",
     "impact_score": 8
   },
   {
-    "title": "Stability AI lanza un nuevo modelo de audio que puede crear canciones de 6 minutos",
-    "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
-    "industry": "Media",
-    "summary": "Stability AI lanzó Stability Audio 3.0, un modelo de audio capaz de crear canciones de seis minutos, con una versión más pequeña capaz de ejecutarse en el dispositivo y generar pistas de dos minutos.",
-    "charlotte_impact": "Las herramientas de generación de audio con IA están reduciendo las barreras a la creación musical. Los artistas independientes y los creadores de contenido tendrán acceso a herramientas de inteligencia artificial para crear audio libre de regalías.",
-    "impact_score": 5
-  },
-  {
-    "title": "El creador de NanoClaw rechaza una oferta de compra de 20 millones de dólares y, en su lugar, recauda una semilla de 12 millones de dólares",
-    "url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
-    "industry": "Cybersecurity",
-    "summary": "El creador de NanoClaw, una alternativa segura a OpenClaw diseñada para el marketing de IA, rechazó una oferta de compra de 20 millones de dólares y, en su lugar, recaudó una ronda inicial de 12 millones de dólares.",
-    "charlotte_impact": "El enfoque en entornos de IA seguros como NanoClaw resalta la necesidad de servicios de IA seguros para las empresas. Esto garantiza que los datos patentados y las operaciones de IA agentes permanezcan protegidos.",
-    "impact_score": 6
-  },
-  {
-    "title": "Figma añade un asistente de IA a su lienzo colaborativo",
-    "url": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/",
-    "industry": "Software",
-    "summary": "Figma ha integrado un asistente de inteligencia artificial en su lienzo de diseño colaborativo, lo que permite a los usuarios generar nuevos diseños, editar los existentes y automatizar tareas mediante indicaciones en lenguaje natural.",
-    "charlotte_impact": "Esto alterará drásticamente el diseño y el flujo de trabajo creativo, pero su impacto a largo plazo puede hacer que los diseñadores creativos sean más administradores de proyectos, ya que la IA maneja la mayor parte del trabajo de diseño real.",
-    "impact_score": 6
-  },
-  {
-    "title": "De hacker adolescente a investigador de Iron Dome, este fundador recaudó 28 millones de dólares para luchar contra el phishing de IA",
-    "url": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
-    "industry": "Cybersecurity",
-    "summary": "Ocean, una plataforma de seguridad de correo electrónico basada en agentes, recaudó 28 millones de dólares para luchar contra el phishing mediante IA analizando el contexto del correo electrónico para detectar fraudes e intentos de suplantación de identidad.",
-    "charlotte_impact": "La protección contra el phishing basada en IA es esencial para las empresas en un mundo donde la tecnología es cada vez más sofisticada. La IA agente, que actúa como escudo en las comunicaciones digitales, se convertirá en estándar.",
-    "impact_score": 8
-  },
-  {
-    "title": "Informe de análisis de colaboración empresarial de atención médica 2026: El mercado superará los $125 mil millones para 2032: las estrategias digitales de puerta de entrada generan oportunidades para la participación unificada de los pacientes y la colaboración interna",
-    "url": "https://www.globenewswire.com/news-release/2026/05/20/3298612/28124/en/Healthcare-Business-Collaboration-Analysis-Report-2026-Market-to-Surpass-125-Billion-by-2032-Digital-Front-Door-Strategies-Generate-Opportunities-for-Unified-Patient-Engagement-and.html",
-    "industry": "Healthcare",
-    "summary": "Se proyecta que el mercado de colaboración empresarial de atención médica superará los $125 mil millones para 2032, impulsado por estrategias de puerta de entrada digital que mejoran la participación del paciente y la colaboración interna, particularmente con la inteligencia artificial y la automatización.",
-    "charlotte_impact": "La IA está revolucionando la colaboración en el sector sanitario, mejorando tanto la participación de los pacientes como la eficiencia del flujo de trabajo. La inversión en estrategias de puertas de entrada digitales hará que el acceso a los servicios médicos sea más conveniente, pero la seguridad y la privacidad de los datos serán primordiales.",
-    "impact_score": 6
-  },
-  {
-    "title": "Insurtech Insights USA 2026 regresa a Nueva York mientras OpenAI y Anthropic toman protagonismo",
-    "url": "https://www.globenewswire.com/news-release/2026/05/20/3298608/0/en/Insurtech-Insights-USA-2026-Returns-to-New-York-as-OpenAI-and-Anthropic-Take-Center-Stage.html",
-    "industry": "Insurance",
-    "summary": "Insurtech Insights USA 2026 destaca el papel central de OpenAI y Anthropic en impulsar la innovación dentro de la industria de seguros.",
-    "charlotte_impact": "La IA está transformando rápidamente el sector de los seguros. Las empresas están utilizando modelos de lenguaje grandes para agilizar la suscripción, mejorar el servicio al cliente e incluso personalizar las pólizas.",
-    "impact_score": 6
-  },
-  {
-    "title": "Informe de investigación empresarial estratégica de la plataforma de navegación sanitaria 2026-2032: el crecimiento de los ecosistemas terapéuticos digitales crea oportunidades para la integración de la navegación en todas las vías de atención",
-    "url": "https://www.globenewswire.com/news-release/2026/05/20/3298596/28124/en/Healthcare-Navigation-Platform-Strategic-Business-Research-Report-2026-2032-Growth-in-Digital-Therapeutics-Ecosystems-Creates-Opportunities-for-Navigation-Integration-Across-Care-P.html",
-    "industry": "Healthcare",
-    "summary": "Las plataformas de navegación sanitaria están creciendo debido al auge de las terapias digitales y utilizan inteligencia artificial, aprendizaje automático y datos en tiempo real para mejorar las experiencias de atención al paciente.",
-    "charlotte_impact": "Las plataformas de navegación sanitaria impulsadas por IA están haciendo que los sistemas sanitarios sean más fáciles de navegar para los pacientes. Al integrar datos, aprendizaje automático e información en tiempo real, estas plataformas crean experiencias personalizadas para los clientes.",
-    "impact_score": 6
-  },
-  {
-    "title": "Con los precios del aluminio subiendo un 20%, las startups de reciclaje apuestan por la IA para sacar provecho",
-    "url": "https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/",
-    "industry": "Recycling",
-    "summary": "Las nuevas empresas de reciclaje están utilizando la IA para mejorar la recuperación de minerales críticos como el aluminio, con el objetivo de crear un suministro masivo del metal debido al aumento de los precios del aluminio.",
-    "charlotte_impact": "El uso de IA en la recuperación de recursos mejorará la eficiencia y al mismo tiempo reducirá los costos asociados con la gestión de recursos. Esto contribuirá a una economía circular, así como a la transición hacia prácticas comerciales más sostenibles.",
-    "impact_score": 5
-  },
-  {
-    "title": "Informe de análisis empresarial de bioconvergencia sanitaria 2026: un mercado de 187.900 millones de dólares para 2032: las tecnologías Lab-on-a-Chip y Organ-on-Chip impulsan la innovación disruptiva",
-    "url": "https://www.globenewswire.com/news-release/2026/05/20/3298594/28124/en/Healthcare-Bioconvergence-Business-Analysis-Report-2026-An-187-9-Billion-Market-by-2032-Lab-on-a-Chip-and-Organ-on-Chip-Technologies-Drive-Disruptive-Innovation.html",
-    "industry": "Healthcare",
-    "summary": "Se prevé que el mercado de la bioconvergencia sanitaria alcance los 187.900 millones de dólares en 2032, y los avances en la inteligencia artificial y la biología impulsarán el progreso en la medicina personalizada, las terapias regenerativas y la biofabricación.",
-    "charlotte_impact": "Las innovaciones en el diagnóstico basado en inteligencia artificial se están acelerando a través de la bioconvergencia, lo que afecta áreas como la genética, la industria farmacéutica y los dispositivos médicos. La inversión en estos avances aumentará la eficiencia y la atención personalizada, mejorando los resultados de salud.",
-    "impact_score": 5
-  },
-  {
-    "title": "El programa TSA Gold Plus pretende modernizar la seguridad aeroportuaria con inversiones privadas",
-    "url": "https://www.wcnc.com/article/news/local/connect-the-dots/tsa-gold-plus-program-connect-the-dots/275-fc1b511b-5a86-45eb-9bf0-5468fcc9dc79",
-    "industry": "Security",
-    "summary": "El programa TSA Gold Plus tiene como objetivo modernizar la seguridad aeroportuaria con inversiones privadas en escáneres avanzados y líneas de control.",
-    "charlotte_impact": "Si bien se centra en la seguridad aeroportuaria, el enfoque de la TSA en los escáneres modernizados muestra la importancia de la integración de la IA con el reconocimiento de objetos y el monitoreo del comportamiento. Esta integración será esencial para modernizar todos los aspectos de la seguridad pública.",
+    "title": "OMNIQ informa los resultados financieros del primer trimestre de 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/05/20/3298885/0/en/OMNIQ-Reports-First-Quarter-2026-Financial-Results.html",
+    "industry": "Technology/Security",
+    "summary": "OMNIQ Corp informa 7,7 millones de dólares en ingresos del primer trimestre y un aumento de las ganancias brutas, lo que indica un crecimiento en las soluciones de seguridad basadas en tecnología.",
+    "charlotte_impact": "Este crecimiento podría significar mejores medidas de seguridad para las empresas regionales. El aumento de las ganancias de estas empresas podría generar más empleos y más inversiones en la economía local.",
     "impact_score": 4
+  },
+  {
+    "title": "Intuit recortará el 17% de su fuerza laboral en el cambio hacia la IA",
+    "url": "https://www.pymnts.com/business/2026/intuit-to-cut-17percent-of-workforce-in-shift-toward-ai/",
+    "industry": "Finance/Technology",
+    "summary": "Intuit está recortando el 17% de su fuerza laboral a medida que avanza hacia la IA, lo que demuestra el impacto de la automatización en el empleo.",
+    "charlotte_impact": "El desplazamiento laboral a raíz del desarrollo de la IA puede crear incertidumbre en el mercado laboral. Los despidos pueden requerir programas regionales de reentrenamiento de la fuerza laboral para ayudar a los trabajadores desplazados a encontrar nuevos puestos.",
+    "impact_score": 7
+  },
+  {
+    "title": "Applied Digital alcanza un hito significativo al superar 1 GW de capacidad contratada con el arrendamiento de Hyperscaler de alto grado de inversión con sede en EE. UU. en el cuarto campus, Polaris Forge 3",
+    "url": "https://www.globenewswire.com/news-release/2026/05/20/3298880/0/en/Applied-Digital-Reaches-Significant-Milestone-Surpassing-1-GW-of-Contracted-Capacity-with-U-S-Based-High-Investment-Grade-Hyperscaler-Lease-at-Fourth-Campus-Polaris-Forge-3.html",
+    "industry": "Technology/Real Estate",
+    "summary": "Applied Digital firmó un contrato de arrendamiento a largo plazo por valor de 7.500 millones de dólares con un hiperescalador para un campus para el desarrollo de IA.",
+    "charlotte_impact": "Este tipo de hiperescala tiene el potencial de cambiar drásticamente el sector inmobiliario regional, ya que se dedicará más terreno al desarrollo informático.",
+    "impact_score": 6
   }
 ]
