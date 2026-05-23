@@ -3,128 +3,160 @@
     "title": "Con los precios del aluminio subiendo un 20%, las startups de reciclaje apuestan por la IA para sacar provecho",
     "url": "https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/",
     "industry": "Recycling",
-    "summary": "Las nuevas empresas de reciclaje están aprovechando la inteligencia artificial para mejorar la recuperación del aluminio, con el objetivo de crear una fuente sustancial de metal en medio del aumento de los precios. Esta iniciativa aborda directamente la escasez de recursos y tiene como objetivo crear una cadena de suministro de aluminio más sostenible.",
-    "charlotte_impact": "La aplicación de la IA al reciclaje presenta una importante oportunidad económica. Al mejorar la eficiencia de la recuperación de recursos, estas nuevas empresas pueden crear nuevas fuentes de ingresos y reducir la dependencia de la producción primaria de aluminio. Esto tiene amplias implicaciones para la manufactura, la construcción y otras industrias que dependen en gran medida del aluminio.",
+    "summary": "Las nuevas empresas de reciclaje están aprovechando la inteligencia artificial para mejorar la recuperación del aluminio, capitalizando el aumento de los precios del aluminio y apuntando a crear una fuente sustancial del metal.",
+    "charlotte_impact": "El reciclaje impulsado por la IA tiene el potencial de tener un impacto significativo en la economía circular, permitiendo mayores tasas de recuperación de materiales, menores costos de materias primas para los fabricantes y un menor impacto ambiental. Esto puede conducir a nuevos modelos de negocio para las empresas de gestión de residuos y a una mayor demanda de tecnologías de clasificación basadas en IA.",
     "impact_score": 8
   },
   {
     "title": "Cómo los capitalistas de riesgo y los fundadores utilizan un 'ARR' inflado para coronar a las nuevas empresas de IA",
     "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
     "industry": "Venture Capital",
-    "summary": "Según se informa, las nuevas empresas de IA están inflando las cifras de ARR, con el conocimiento de los capitalistas de riesgo, lo que genera preocupaciones sobre la transparencia y la integridad de la valoración en el ecosistema de financiación de la IA. Esta tendencia pone de relieve la presión competitiva para atraer financiación en el sector de la IA en rápido crecimiento.",
-    "charlotte_impact": "La posibilidad de cifras infladas de ARR en las nuevas empresas de IA genera preocupación sobre la sostenibilidad de la inversión en el sector. La sobrevaloración puede provocar correcciones en el mercado y desilusión entre los inversores, lo que podría ralentizar el crecimiento de las empresas legítimas de IA. Será necesaria una mayor diligencia debida por parte de las empresas de riesgo.",
+    "summary": "Según se informa, las nuevas empresas de IA están inflando sus cifras de ARR (ingresos anuales recurrentes), y los inversores son conscientes de esta práctica. Esto genera preocupaciones sobre la exactitud de las valoraciones y los riesgos potenciales para inversiones futuras.",
+    "charlotte_impact": "El ARR inflado afecta la confianza de los inversores. Si esta práctica se generaliza, puede provocar una corrección en el mercado, perjudicando a las startups que dependen de la financiación de capital de riesgo y potencialmente causando inestabilidad en el ecosistema de startups de IA.",
     "impact_score": 7
   },
   {
     "title": "Probamos las gafas con IA de Google y ya casi están ahí",
     "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
     "industry": "Consumer Electronics",
-    "summary": "Los prototipos de gafas de inteligencia artificial de Google, impulsados ​​por Gemini, superponen información como traducción y navegación directamente en la vista del usuario. Aunque aún está en desarrollo, esta demostración muestra el potencial de la IA para mejorar las experiencias cotidianas a través de la realidad aumentada.",
-    "charlotte_impact": "El desarrollo de gafas con IA representa un cambio potencial en la forma en que los consumidores interactúan con la tecnología, avanzando hacia experiencias más inmersivas y fluidas. Esta tecnología tiene implicaciones en varios sectores, incluidos el turismo, la educación y el entretenimiento, y crea oportunidades para nuevos modelos de negocio e interfaces de usuario.",
-    "impact_score": 7
+    "summary": "Google hizo una demostración de su prototipo de gafas Android XR, que utilizan Gemini AI para superponer traducción, navegación y otra información en la vista del usuario.",
+    "charlotte_impact": "Las gafas XR impulsadas por IA representan un paso importante hacia la integración perfecta de la información digital en el mundo real. Esta tecnología podría transformar industrias como los servicios de campo, la atención médica y la fabricación al proporcionar asistencia y datos en tiempo real a los trabajadores, impulsando la productividad y la eficiencia.",
+    "impact_score": 8
   },
   {
     "title": "Google está ofreciendo un ecosistema de agentes de IA a los consumidores que tal vez no lo compren",
     "url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
-    "industry": "Technology",
-    "summary": "Google está introduciendo un ecosistema de agentes de IA para los consumidores, pero su complejidad puede obstaculizar su adopción. Si bien es prometedora, la naturaleza confusa de la oferta podría limitar su atractivo inicial y su uso generalizado.",
-    "charlotte_impact": "El éxito de los ecosistemas de agentes de IA depende de la facilidad de uso y de una propuesta de valor clara para los consumidores. Si la oferta de Google resulta demasiado compleja, podría retrasar la adopción generalizada de agentes de IA, lo que podría afectar a las empresas que planeaban integrar dichos agentes en sus operaciones y servicios al cliente.",
-    "impact_score": 6
-  },
-  {
-    "title": "Denodo amplía las integraciones de AWS para potenciar la IA agente con datos empresariales gobernados",
-    "url": "https://www.computerweekly.com/news/366643409/Denodo-expands-AWS-integrations-to-power-agentic-AI-with-governed-enterprise-data",
-    "industry": "Enterprise Software",
-    "summary": "Denodo está ampliando sus integraciones con AWS para facilitar la adopción de IA agente con datos gobernados para empresas de Oriente Medio. Esta expansión respalda la puesta en funcionamiento de agentes de IA en entornos híbridos y de múltiples nubes, garantizando un acceso confiable a los datos.",
-    "charlotte_impact": "Esta integración subraya la importancia de la gobernanza de datos en las implementaciones de IA. Al garantizar un acceso seguro y confiable a los datos, las empresas pueden crear agentes de IA más confiables y efectivos. Esta tendencia pone de relieve la creciente demanda de soluciones de gestión de datos que respalden las iniciativas de IA.",
-    "impact_score": 8
-  },
-  {
-    "title": "Spotify y Universal Music llegan a un acuerdo que permite versiones y remezclas de IA creadas por fans",
-    "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
-    "industry": "Music",
-    "summary": "Spotify y Universal Music Group se han asociado para permitir a los suscriptores Premium crear versiones y remezclas de canciones generadas por IA, compartiendo ingresos con los artistas participantes. Este acuerdo representa un paso importante hacia la legitimación del papel de la IA en la creación y distribución de música.",
-    "charlotte_impact": "Esta asociación abre nuevas fuentes de ingresos para los artistas y ofrece a los consumidores formas novedosas de interactuar con la música. Sin embargo, también plantea complejas cuestiones de derechos de autor y regalías que deberán abordarse a medida que el contenido generado por IA se vuelva más frecuente en la industria de la música.",
-    "impact_score": 8
-  },
-  {
-    "title": "Spotify agrega funciones de generación de resúmenes y preguntas y respuestas basadas en inteligencia artificial a los podcasts",
-    "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
-    "industry": "Media",
-    "summary": "Spotify está agregando funciones de generación de resúmenes y preguntas y respuestas impulsadas por inteligencia artificial a los podcasts, lo que permite a los usuarios generar resúmenes diarios o semanales basados ​​en indicaciones. Esta función mejora la accesibilidad de los podcasts y proporciona entrega de contenido personalizada.",
-    "charlotte_impact": "La integración de la IA en las plataformas de podcasts puede mejorar significativamente la participación de los usuarios y el descubrimiento de contenidos. Los resúmenes impulsados ​​por IA y las funciones de preguntas y respuestas pueden atraer a nuevos oyentes y brindarles a los oyentes existentes formas más eficientes de consumir contenido de podcasts, lo que podría aumentar los ingresos por publicidad y los ingresos de los creadores de contenido.",
-    "impact_score": 6
-  },
-  {
-    "title": "The Path, fundado por Tony Robbins y ex alumnos de Calm, espera ofrecer una terapia de IA más segura",
-    "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
-    "industry": "Mental Health",
-    "summary": "The Path, fundado por Tony Robbins y ex alumnos de Calm, tiene como objetivo proporcionar una terapia de IA más segura, afirmando tener una puntuación de seguridad más alta en comparación con los robots de consumo. Esta empresa destaca la creciente demanda de soluciones de salud mental impulsadas por IA con un enfoque en la seguridad y la ética.",
-    "charlotte_impact": "El desarrollo de soluciones de terapia con IA más seguras podría aumentar el acceso a la atención de salud mental, particularmente para personas de comunidades desatendidas. Sin embargo, también plantea importantes consideraciones éticas sobre el papel de la IA en áreas sensibles como la salud mental y la necesidad de supervisión humana.",
+    "industry": "AI Agents",
+    "summary": "Google está introduciendo un ecosistema de agentes de IA para los consumidores, cuyo objetivo es simplificar el uso de la web, pero enfrenta desafíos en la comprensión y adopción por parte de los usuarios.",
+    "charlotte_impact": "Los agentes de IA representan un nuevo paradigma para interactuar con la web. Si tiene éxito, esto podría revolucionar varias industrias al automatizar tareas, mejorar el servicio al cliente y permitir nuevas formas de comercio electrónico.",
     "impact_score": 7
   },
   {
-    "title": "Hark recauda 700 millones de dólares Serie A para su secreta interfaz de IA 'universal'",
-    "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
-    "industry": "Artificial Intelligence",
-    "summary": "Hark recauda una importante Serie A de 700 millones de dólares para su secreta interfaz de IA \"universal\", y planea lanzar modelos multimodales y dispositivos de hardware. Esta importante ronda de financiación subraya las altas expectativas de las plataformas avanzadas de IA capaces de interactuar con productos y servicios existentes.",
-    "charlotte_impact": "Una ronda de financiación Serie A de 700 millones de dólares indica una inversión importante en el futuro de las interfaces de IA. Si tiene éxito, la plataforma de Hark podría cambiar fundamentalmente la forma en que los usuarios interactúan con la tecnología, creando oportunidades para nuevas aplicaciones y modelos de negocio en diversas industrias. Esto también aumenta la competencia en el espacio de las plataformas de IA.",
-    "impact_score": 9
-  },
-  {
-    "title": "ANSR y HFS se asocian en investigación para definir el cociente GCC (GQ) en un mundo en el que la IA es lo primero",
-    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/ansr-and-hfs-research-partner-to-define-the-gcc-quotient-gq-in-an-ai-first-world/article71010214.ece",
-    "industry": "Consulting",
-    "summary": "ANSR y HFS Research se están asociando para definir el Cociente GCC (GQ) para medir la eficacia con la que las empresas aprovechan los centros de capacidad en un mundo impulsado por la IA. Esta asociación tiene como objetivo establecer un punto de referencia para optimizar los centros de capacidad globales en la era de la IA.",
-    "charlotte_impact": "El desarrollo de un Cociente GCC (GQ) destaca la creciente importancia de alinear los centros de capacidad globales con las estrategias de IA. Esta métrica podría ayudar a las empresas a optimizar sus operaciones, reducir costos y mejorar la innovación aprovechando la IA de manera efectiva en toda su fuerza laboral global.",
-    "impact_score": 6
-  },
-  {
-    "title": "Samsung evita la huelga con un acuerdo que ofrece un bono promedio de 338.000 dólares",
-    "url": "https://www.newsbytesapp.com/news/business/samsung-averts-strike-with-338-000-average-bonus-deal/story",
-    "industry": "Semiconductors",
-    "summary": "Samsung evita una huelga otorgando a los empleados de semiconductores una bonificación promedio de 338.000 dólares. Esta importante bonificación refleja la gran demanda y el valor de los trabajadores cualificados en la industria de los semiconductores.",
-    "charlotte_impact": "El generoso bono ofrecido por Samsung demuestra la intensa competencia por el talento en la industria de los semiconductores. Esta tendencia resalta la importancia de invertir en programas de capacitación y desarrollo de la fuerza laboral para garantizar una reserva de trabajadores calificados para respaldar la creciente demanda de semiconductores.",
-    "impact_score": 6
-  },
-  {
-    "title": "Por qué los flujos de trabajo impulsados ​​por IA son importantes (y cómo implementarlos)",
-    "url": "https://www.red-gate.com/simple-talk/ai/why-ai-driven-workflows-are-important-and-how-to-implement-them/",
-    "industry": "Software Development",
-    "summary": "La automatización y orquestación del flujo de trabajo impulsada por IA mejoran la eficiencia, automatizan los procesos y permiten tomar decisiones en tiempo real. La implementación de IA en los flujos de trabajo ofrece importantes beneficios, pero también presenta desafíos en cuanto a la integración y la gestión de datos.",
-    "charlotte_impact": "La adopción de flujos de trabajo impulsados ​​por IA puede generar mejoras significativas en la productividad y la toma de decisiones en diversas industrias. Sin embargo, una implementación exitosa requiere una planificación, gestión de datos y capacitación de los empleados cuidadosas para garantizar que las herramientas de IA se integren de manera efectiva en los procesos existentes.",
-    "impact_score": 7
-  },
-  {
-    "title": "Enfoque en la era de la IA: cómo los líderes evitan la sobrecarga digital",
-    "url": "https://socialnomics.net/2026/05/22/focus-in-the-age-of-ai-how-leaders-avoid-digital-overload/",
-    "industry": "Leadership Development",
-    "summary": "Los líderes enfrentan una sobrecarga digital en la era de la IA y necesitan estrategias para mantener el enfoque y la toma de decisiones efectiva. Gestionar el flujo de información y priorizar las tareas se vuelve crucial para el liderazgo en un entorno impulsado por la IA.",
-    "charlotte_impact": "A medida que la IA se vuelve más prevalente, las habilidades de liderazgo deberán evolucionar para abordar los desafíos de la sobrecarga digital y el rápido cambio tecnológico. Los líderes deben desarrollar estrategias para filtrar información, priorizar tareas y fomentar una cultura de aprendizaje continuo para navegar eficazmente por las complejidades de un mundo impulsado por la IA.",
+    "title": "Ferrari está utilizando la IA de IBM para crear superfans de la F1",
+    "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+    "industry": "Sports & Entertainment",
+    "summary": "Ferrari se está asociando con IBM para utilizar la IA para redefinir la experiencia de los fanáticos de la Fórmula 1, creando \"superfanáticos\" a través de un compromiso personalizado y conocimientos basados ​​en datos.",
+    "charlotte_impact": "La aplicación de la IA en los deportes y el entretenimiento puede generar una mayor participación de los fanáticos, una entrega de contenido personalizada y nuevas fuentes de ingresos. Esto podría influir en la forma en que los equipos deportivos interactúan con los fanáticos y brindar experiencias más inmersivas.",
     "impact_score": 6
   },
   {
     "title": "Se utiliza IA para resucitar las voces de los pilotos muertos",
     "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
-    "industry": "Aviation Safety",
-    "summary": "La IA se utiliza para reconstruir las voces de los pilotos fallecidos a partir de grabaciones de la cabina, lo que llevó a la NTSB a restringir temporalmente el acceso a su sistema de expedientes. Esto plantea preocupaciones éticas sobre la privacidad y el posible uso indebido de la tecnología de inteligencia artificial.",
-    "charlotte_impact": "El uso de IA para reconstruir voces a partir de grabaciones plantea preocupaciones éticas sobre la privacidad y el consentimiento. También destaca el potencial de que la IA se utilice de maneras que puedan violar los derechos individuales, lo que requiere el desarrollo de directrices y regulaciones éticas claras.",
+    "industry": "Aviation",
+    "summary": "Se está utilizando IA para reconstruir las voces de pilotos fallecidos a partir de grabaciones de cabina, lo que genera preocupaciones éticas y lleva a la NTSB a suspender temporalmente el acceso a su sistema de expedientes.",
+    "charlotte_impact": "Si bien es potencialmente valioso para la investigación y la capacitación de accidentes, el uso de la IA para resucitar voces plantea cuestiones éticas sobre la privacidad y el consentimiento. Esto destaca la necesidad de directrices y regulaciones claras con respecto al uso de la IA en el manejo de información personal confidencial.",
     "impact_score": 6
+  },
+  {
+    "title": "Spotify y Universal Music llegan a un acuerdo que permite versiones y remezclas de IA creadas por fans",
+    "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
+    "industry": "Music",
+    "summary": "Spotify y Universal Music Group han llegado a un acuerdo que permite a los suscriptores Premium crear covers y remezclas de canciones generadas por IA, y los artistas reciben una parte de los ingresos.",
+    "charlotte_impact": "Esta colaboración señala un cambio en la industria de la música, adoptando la IA para la creación de contenido y al mismo tiempo abordando los problemas de derechos de autor y compensación de los artistas. Esto podría conducir a nuevas formas de creación, distribución y modelos de ingresos musicales.",
+    "impact_score": 8
   },
   {
     "title": "Trump retrasa la orden ejecutiva de seguridad de IA, diciendo que el lenguaje \"podría haber sido un obstáculo\"",
     "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
-    "industry": "Government Regulation",
-    "summary": "El presidente Trump retrasa una orden ejecutiva que exige revisiones gubernamentales de seguridad de los modelos de IA antes de su lanzamiento, citando insatisfacción con el lenguaje de la orden. Este retraso refleja el debate en curso sobre el nivel apropiado de supervisión gubernamental en el desarrollo de la IA.",
-    "charlotte_impact": "El retraso de la orden ejecutiva pone de relieve los desafíos que plantea la regulación de la tecnología de IA. Lograr el equilibrio adecuado entre promover la innovación y garantizar la seguridad es crucial para fomentar un ecosistema de IA saludable. La incertidumbre regulatoria puede crear desafíos para las empresas que desarrollan e implementan soluciones de inteligencia artificial.",
+    "industry": "Government & Regulation",
+    "summary": "El presidente Trump retrasó la firma de una orden ejecutiva que exigía revisiones gubernamentales de seguridad de los modelos de IA antes de su lanzamiento, citando insatisfacción con el lenguaje de la orden.",
+    "charlotte_impact": "Los retrasos en las regulaciones de seguridad de la IA pueden crear incertidumbre y riesgos potenciales en el despliegue de tecnologías de IA. Esto subraya la necesidad de una supervisión gubernamental oportuna y eficaz para garantizar el desarrollo y la implementación responsable de la IA.",
+    "impact_score": 7
+  },
+  {
+    "title": "Spotify agrega funciones de generación de resúmenes y preguntas y respuestas basadas en inteligencia artificial a los podcasts",
+    "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
+    "industry": "Media & Entertainment",
+    "summary": "Spotify está agregando funciones de generación de resúmenes y preguntas y respuestas basadas en inteligencia artificial a los podcasts, lo que permite a los usuarios generar resúmenes e información personalizados.",
+    "charlotte_impact": "Las herramientas impulsadas por IA pueden mejorar la accesibilidad y la capacidad de descubrimiento de los podcasts, permitiendo a los usuarios obtener información rápidamente y encontrar contenido relevante. Esto puede impulsar una mayor participación en los podcasts y potencialmente conducir a nuevas estrategias de monetización.",
+    "impact_score": 6
+  },
+  {
+    "title": "The Path, fundado por Tony Robbins y ex alumnos de Calm, espera ofrecer una terapia de IA más segura",
+    "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
+    "industry": "Healthcare",
+    "summary": "The Path, fundado por Tony Robbins y ex alumnos de Calm, ofrece terapia de IA con un enfoque en la seguridad, afirmando que su modelo de IA obtuvo una puntuación de 95 en un punto de referencia de seguridad de salud mental en comparación con 65 para los robots de consumo.",
+    "charlotte_impact": "La terapia con IA tiene el potencial de ampliar el acceso a la atención de salud mental, particularmente en áreas desatendidas. Sin embargo, es necesario abordar las preocupaciones sobre la privacidad de los datos, la seguridad y la posibilidad de sesgo para garantizar una implementación responsable.",
+    "impact_score": 8
+  },
+  {
+    "title": "Hark recauda 700 millones de dólares Serie A para su secreta interfaz de IA 'universal'",
+    "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+    "industry": "AI Infrastructure",
+    "summary": "Hark recauda 700 millones de dólares Serie A para su secreta interfaz de IA 'universal' y planea lanzar modelos multimodales este verano que impulsen una plataforma de IA personal.",
+    "charlotte_impact": "Rondas de financiación masivas como la de Hark indican una fuerte confianza de los inversores en el futuro de la IA y el potencial de los modelos multimodales. Las interfaces universales de IA podrían afectar significativamente la forma en que las personas interactúan con la tecnología, simplificando potencialmente el acceso a servicios impulsados ​​por IA a través de diversos dispositivos y plataformas.",
+    "impact_score": 9
+  },
+  {
+    "title": "Los cohetes de SpaceX que pierden dinero son el mayor activo en el sueño de la IA",
+    "url": "https://www.livemint.com/companies/spacexs-money-losing-rockets-are-biggest-asset-in-ai-dream-11779477585360.html",
+    "industry": "Space Exploration/AI",
+    "summary": "El prospecto de salida a bolsa de SpaceX revela un mercado potencial de 26,5 billones de dólares que incluye inteligencia artificial y telecomunicaciones, enmarcando sus cohetes que pierden dinero como una inversión en un futuro impulsado por la IA.",
+    "charlotte_impact": "La ambición de SpaceX de integrar la exploración espacial con la IA significa una visión a largo plazo para el avance tecnológico. Su impacto potencial en la industria de la IA proviene de la demanda de herramientas informáticas y de simulación extremas necesarias para las tecnologías espaciales que llegan a las aplicaciones terrestres.",
+    "impact_score": 8
+  },
+  {
+    "title": "¿Verificar la IA o simplemente buscarla en Google? Google hace un gran cambio en un pequeño cuadro de búsqueda",
+    "url": "https://www.npr.org/2026/05/22/nx-s1-5829915/google-search-box-ai",
+    "industry": "Search Engines",
+    "summary": "Google está realizando un cambio significativo en su cuadro de búsqueda, integrando funciones de inteligencia artificial de manera más destacada en la experiencia del usuario.",
+    "charlotte_impact": "La integración de la IA en el cuadro de búsqueda de Google tiene el potencial de cambiar fundamentalmente la forma en que los usuarios acceden a la información en línea, favoreciendo potencialmente las respuestas generadas por la IA sobre los resultados de búsqueda tradicionales, impactando el tráfico del sitio web y las estrategias de SEO.",
+    "impact_score": 7
+  },
+  {
+    "title": "CEO de DeepMind: 'AGI' llegará pronto, pero aquí está la prueba que debe pasar primero",
+    "url": "https://me.pcmag.com/en/ai/37327/deepmind-ceo-agi-is-coming-soon-but-heres-the-test-it-must-pass-first",
+    "industry": "AI Research",
+    "summary": "El director ejecutivo de DeepMind, Demis Hassabis, afirma que AGI llegará pronto, señalando que la competencia dentro de la IA está en su punto más alto y que Google tiene una ventaja debido a sus amplias capacidades de investigación.",
+    "charlotte_impact": "La afirmación del CEO de DeepMind acelera el ciclo de exageración en torno a la Inteligencia General Artificial y aporta importantes fondos para la investigación en el sector. De ser cierto, la llegada de AGI cambiaría toda la industria.",
+    "impact_score": 7
+  },
+  {
+    "title": "CEO de DeepMind: 'AGI' llegará pronto, pero aquí está la prueba que debe pasar primero",
+    "url": "https://uk.pcmag.com/ai/165137/deepmind-ceo-agi-is-coming-soon-but-heres-the-test-it-must-pass-first",
+    "industry": "AI Research",
+    "summary": "El director ejecutivo de DeepMind, Demis Hassabis, afirma que AGI llegará pronto, señalando que la competencia dentro de la IA está en su punto más alto y que Google tiene una ventaja debido a sus amplias capacidades de investigación.",
+    "charlotte_impact": "La afirmación del CEO de DeepMind acelera el ciclo de exageración en torno a la Inteligencia General Artificial y aporta importantes fondos para la investigación en el sector. De ser cierto, la llegada de AGI cambiaría toda la industria.",
+    "impact_score": 7
+  },
+  {
+    "title": "Los archivos de SpaceX se harán públicos y las matemáticas requieren un poco de fe",
+    "url": "https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/",
+    "industry": "Space Exploration",
+    "summary": "SpaceX presenta su solicitud de salida a bolsa, lo que revela planes ambiciosos para un mercado potencial de 28 billones de dólares ligado al establecimiento de una colonia en Marte.",
+    "charlotte_impact": "La oferta pública inicial de SpaceX y su ambiciosa valoración señalan una apuesta significativa sobre el futuro de la exploración y colonización espacial. Si esto tiene éxito, podría crear nuevas industrias y tecnologías con implicaciones de largo alcance para la utilización de recursos, la ciencia de los materiales y la fabricación avanzada.",
+    "impact_score": 6
+  },
+  {
+    "title": "Los auriculares equipados con pantalla de Soundcore funcionan a la luz de la luna para tomar notas en reuniones",
+    "url": "https://newatlas.com/consumer-tech/soundcore-liberty-5-pro-max-buds/",
+    "industry": "Consumer Electronics",
+    "summary": "Los nuevos auriculares de Soundcore están equipados con pantallas y pueden usarse para tomar notas en reuniones utilizando IA.",
+    "charlotte_impact": "La integración de la IA en la electrónica de consumo para herramientas de productividad como la toma de notas amplía el acceso de los trabajadores a la funcionalidad impulsada por la IA. Esta tendencia seguirá impulsando la innovación en la electrónica pequeña.",
     "impact_score": 5
   },
   {
-    "title": "La presentación de la IPO de SpaceX ofrece a los inversores en criptomonedas una nueva forma de fijar el precio de la exposición a Bitcoin, los pagos X y la computación de IA",
-    "url": "https://cryptoslate.com/spacex-ipo-bitcoin-exposure-x-payments-ai-compute/",
-    "industry": "Finance",
-    "summary": "La presentación de la oferta pública inicial de SpaceX y la exposición revelada a Bitcoin han brindado a los inversores en criptomonedas un punto de referencia formal para una empresa que ya habían comenzado a comercializar antes de que los mercados públicos recibieran el prospecto.",
-    "charlotte_impact": "La disponibilidad de puntos de referencia formales de la IPO de SpaceX aumentará la transparencia financiera. Además, los inversores en criptomonedas tienen una nueva oportunidad de ganar exposición. Este es otro movimiento para legitimar las criptomonedas dentro de contextos de inversión tradicionales.",
-    "impact_score": 6
+    "title": "La opinión del Irish Times sobre los empleos tecnológicos: Irlanda se encuentra expuesta",
+    "url": "https://www.irishtimes.com/opinion/editorials/2026/05/22/the-irish-times-view-on-tech-jobs-ireland-finds-itself-exposed/",
+    "industry": "Employment",
+    "summary": "El Irish Times informa que los despidos tecnológicos en Irlanda, incluidos los de Meta, son una señal de advertencia de que se avecinan más recortes.",
+    "charlotte_impact": "Los despidos en el sector tecnológico a nivel mundial son ahora una tendencia establecida. Irlanda y Estados Unidos seguirán sintiendo la carga económica de los recortes debido a su fuerte dependencia de la inversión global.",
+    "impact_score": 5
+  },
+  {
+    "title": "El gigante chino de la moda rápida Shein comprará Everlane ecológico en una forma poco probable",
+    "url": "https://www.whio.com/news/business/chinese-fast-fashion/E4JTJWXM2IZULPNODJME2YDUG4/",
+    "industry": "Retail/Fast Fashion",
+    "summary": "El gigante chino de la moda rápida Shein está adquiriendo Everlane, una marca ecológica, en una decisión poco probable.",
+    "charlotte_impact": "La adquisición de Everlane por parte de Shein podría indicar un deseo de integrar prácticas de sostenibilidad en sus operaciones, pero también genera preocupaciones sobre un posible lavado verde y la dilución de la misión original de Everlane.",
+    "impact_score": 4
+  },
+  {
+    "title": "El fundador de Cardano advierte que la red podría perder a sus científicos si fracasa la votación de financiación de 46,8 millones de dólares de Input Output",
+    "url": "https://cryptoslate.com/cardano-founder-warns-network-could-lose-its-scientists-in-input-outputs-46-8m-funding-vote-fails/",
+    "industry": "Blockchain",
+    "summary": "El fundador de Cardano advierte que la red podría perder a sus científicos si fracasa la votación de financiación de 46,8 millones de dólares de Input Output.",
+    "charlotte_impact": "La posible pérdida de científicos de la red Cardano debido a problemas de financiación pone de relieve los desafíos de mantener el talento y la innovación en el espacio blockchain.",
+    "impact_score": 4
   }
 ]

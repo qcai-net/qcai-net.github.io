@@ -3,128 +3,160 @@
     "title": "随着铝价上涨 20%，回收初创公司押注人工智能来获利",
     "url": "https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/",
     "industry": "Recycling",
-    "summary": "回收初创公司正在利用人工智能来提高铝的回收率，旨在在价格上涨的情况下创造大量的金属来源。该举措直接解决资源稀缺问题，旨在创建更可持续的铝供应链。",
-    "charlotte_impact": "人工智能在回收领域的应用带来了巨大的经济机遇。通过提高资源回收效率，这些初创公司可以创造新的收入来源并减少对原铝生产的依赖。这对制造业、建筑业和其他严重依赖铝的行业具有广泛的影响。",
+    "summary": "回收初创公司正在利用人工智能来提高铝的回收率，利用不断上涨的铝价，旨在创造大量的金属来源。",
+    "charlotte_impact": "人工智能驱动的回收有可能对循环经济产生重大影响，提高材料回收率，降低制造商的原材料成本，并减少对环境的影响。这可能会为废物管理公司带来新的商业模式，并增加对人工智能驱动的分类技术的需求。",
     "impact_score": 8
   },
   {
     "title": "风险投资家和创始人如何利用膨胀的“ARR”来为人工智能初创公司加冕",
     "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
     "industry": "Venture Capital",
-    "summary": "据报道，人工智能初创公司利用风投的知识夸大了 ARR 数字，引发了人们对人工智能融资生态系统透明度和估值完整性的担忧。这一趋势凸显了快速增长的人工智能领域吸引资金的竞争压力。",
-    "charlotte_impact": "人工智能初创公司的 ARR 数字可能会出现夸大，这引发了人们对该行业投资可持续性的担忧。估值过高可能会导致市场调整和投资者的幻灭，从而可能减缓合法人工智能业务的增长。风险投资公司需要加强尽职调查。",
+    "summary": "据报道，人工智能初创公司正在夸大其 ARR（年度经常性收入）数据，投资者已经意识到这种做法。这引发了人们对估值准确性和未来投资潜在风险的担忧。",
+    "charlotte_impact": "过高的 ARR 会影响投资者的信心。如果这种做法广泛传播，可能会导致市场调整，损害依赖风险投资资金的初创企业，并可能导致人工智能初创企业生态系统不稳定。",
     "impact_score": 7
   },
   {
     "title": "我们尝试了谷歌的人工智能眼镜，它们就快到了",
     "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
     "industry": "Consumer Electronics",
-    "summary": "谷歌的原型人工智能眼镜由 Gemini 提供支持，可将翻译和导航等信息直接叠加到用户的视野中。虽然仍在开发中，但该演示展示了人工智能通过增强现实增强日常体验的潜力。",
-    "charlotte_impact": "人工智能眼镜的发展代表了消费者与技术互动方式的潜在转变，朝着更加身临其境和无缝的体验迈进。这项技术对旅游、教育和娱乐等各个领域都有影响，为新的商业模式和用户界面创造了机会。",
-    "impact_score": 7
+    "summary": "谷歌展示了其原型 Android XR 眼镜，该眼镜使用 Gemini AI 将翻译、导航和其他信息叠加到用户的视图上。",
+    "charlotte_impact": "人工智能驱动的 XR 眼镜代表了数字信息无缝集成到现实世界的重要一步。这项技术可以通过为工人提供实时数据和帮助来改变现场服务、医疗保健和制造等行业，从而提高生产力和效率。",
+    "impact_score": 8
   },
   {
     "title": "谷歌正在向可能不买账的消费者推销人工智能代理生态系统",
     "url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
-    "industry": "Technology",
-    "summary": "谷歌正在为消费者推出人工智能代理生态系统，但其复杂性可能会阻碍采用。尽管前景光明，但该产品的混乱性质可能会限制其最初的吸引力和广泛使用。",
-    "charlotte_impact": "人工智能代理生态系统的成功取决于易用性和对消费者的明确价值主张。如果谷歌的产品被证明过于复杂，它可能会延迟人工智能代理的广泛采用，从而可能影响计划将此类代理集成到其客户服务和运营中的企业。",
-    "impact_score": 6
-  },
-  {
-    "title": "Denodo 扩展了 AWS 集成，利用受管企业数据支持代理 AI",
-    "url": "https://www.computerweekly.com/news/366643409/Denodo-expands-AWS-integrations-to-power-agentic-AI-with-governed-enterprise-data",
-    "industry": "Enterprise Software",
-    "summary": "Denodo 正在扩展其 AWS 集成，以促进中东企业采用代理 AI 和受管数据。此扩展支持跨混合和多云环境的人工智能代理的操作，确保可信的数据访问。",
-    "charlotte_impact": "这种集成强调了人工智能部署中数据治理的重要性。通过确保安全可靠地访问数据，企业可以构建更值得信赖、更有效的人工智能代理。这一趋势凸显了对支持人工智能计划的数据管理解决方案不断增长的需求。",
-    "impact_score": 8
-  },
-  {
-    "title": "Spotify 和环球音乐达成协议，允许粉丝制作人工智能翻唱和混音",
-    "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
-    "industry": "Music",
-    "summary": "Spotify 和环球音乐集团合作，允许 Premium 订阅者创建人工智能生成的歌曲翻唱和混音，并与参与的艺术家分享收入。这笔交易代表着人工智能在音乐创作和发行中的作用合法化的重要一步。",
-    "charlotte_impact": "这种合作关系为艺术家开辟了新的收入来源，并为消费者提供了参与音乐的新颖方式。然而，随着人工智能生成的内容在音乐行业变得更加普遍，它也引发了复杂的版权和版税问题，需要解决这些问题。",
-    "impact_score": 8
-  },
-  {
-    "title": "Spotify 在播客中添加了人工智能问答和简报生成功能",
-    "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
-    "industry": "Media",
-    "summary": "Spotify 正在向播客添加人工智能驱动的问答和简报生成功能，使用户能够根据提示生成每日或每周简报。此功能增强了播客的可访问性并提供个性化的内容交付。",
-    "charlotte_impact": "将人工智能集成到播客平台可以显着提高用户参与度和内容发现。人工智能驱动的摘要和问答功能可以吸引新听众，并为现有听众提供更有效的方式来消费播客内容，从而有可能增加广告收入和内容创作者收入。",
-    "impact_score": 6
-  },
-  {
-    "title": "The Path 由 Tony Robbins 和 Calm 校友创立，希望提供更安全的人工智能治疗",
-    "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
-    "industry": "Mental Health",
-    "summary": "The Path 由 Tony Robbins 和 Calm 校友创立，旨在提供更安全的人工智能治疗，声称与消费者机器人相比具有更高的安全评分。该合资企业凸显了对人工智能驱动的心理健康解决方案日益增长的需求，重点关注安全和道德。",
-    "charlotte_impact": "开发更安全的人工智能治疗解决方案可以增加获得精神卫生保健的机会，特别是对于服务不足的社区中的个人而言。然而，它也引发了关于人工智能在心理健康等敏感领域的作用和人类监督的必要性的重要伦理考虑。",
+    "industry": "AI Agents",
+    "summary": "谷歌正在为消费者推出人工智能代理生态系统，旨在简化网络使用，但在用户理解和采用方面面临挑战。",
+    "charlotte_impact": "人工智能代理代表了与网络交互的新范例。如果成功，这可能会通过自动化任务、改善客户服务和启用新形式的电子商务来彻底改变各个行业。",
     "impact_score": 7
   },
   {
-    "title": "Hark 因其神秘的“通用”人工智能界面筹集了 7 亿美元的 A 轮融资",
-    "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
-    "industry": "Artificial Intelligence",
-    "summary": "Hark 为其神秘的“通用”人工智能接口筹集了 7 亿美元的 A 轮融资，计划发布多模式模型和硬件设备。这一轮重要的融资凸显了人们对能够与现有产品和服务交互的先进人工智能平台的高度期望。",
-    "charlotte_impact": "7 亿美元的 A 轮融资标志着对人工智能接口未来的重大投资。如果成功，Hark 的平台可以从根本上改变用户与技术交互的方式，为各行业的新应用程序和商业模式创造机会。这也加剧了人工智能平台领域的竞争。",
-    "impact_score": 9
-  },
-  {
-    "title": "ANSR 和 HFS 研究合作伙伴定义人工智能优先世界中的 GCC 商数 (GQ)",
-    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/ansr-and-hfs-research-partner-to-define-the-gcc-quotient-gq-in-an-ai-first-world/article71010214.ece",
-    "industry": "Consulting",
-    "summary": "ANSR 和 HFS Research 正在合作定义 GCC 商数 (GQ)，以衡量企业在人工智能驱动的世界中如何有效地利用能力中心。此次合作旨在为人工智能时代优化全球能力中心建立标杆。",
-    "charlotte_impact": "GCC 商数 (GQ) 的发展突显了全球能力中心与人工智能战略保持一致的重要性。该指标可以帮助企业通过在全球员工队伍中有效利用人工智能来优化运营、降低成本并提高创新。",
-    "impact_score": 6
-  },
-  {
-    "title": "三星通过提供平均 338,000 美元奖金的交易避免罢工",
-    "url": "https://www.newsbytesapp.com/news/business/samsung-averts-strike-with-338-000-average-bonus-deal/story",
-    "industry": "Semiconductors",
-    "summary": "三星为半导体员工提供平均 338,000 美元的奖金，避免了罢工。这一巨额奖金反映了半导体行业对技术工人的高需求和价值。",
-    "charlotte_impact": "三星提供的丰厚奖金显示了半导体行业人才竞争的激烈程度。这一趋势凸显了投资于劳动力发展和培训计划的重要性，以确保拥有熟练的工人队伍来支持不断增长的半导体需求。",
-    "impact_score": 6
-  },
-  {
-    "title": "为什么人工智能驱动的工作流程很重要（以及如何实施它们）",
-    "url": "https://www.red-gate.com/simple-talk/ai/why-ai-driven-workflows-are-important-and-how-to-implement-them/",
-    "industry": "Software Development",
-    "summary": "人工智能驱动的工作流程自动化和编排可提高效率、自动化流程并支持实时决策。在工作流程中实施人工智能可以带来显着的好处，但也带来了集成和数据管理方面的挑战。",
-    "charlotte_impact": "采用人工智能驱动的工作流程可以显着提高各行业的生产力和决策能力。然而，成功实施需要仔细规划、数据管理和员工培训，以确保人工智能工具有效集成到现有流程中。",
-    "impact_score": 7
-  },
-  {
-    "title": "聚焦人工智能时代：领导者如何避免数字过载",
-    "url": "https://socialnomics.net/2026/05/22/focus-in-the-age-of-ai-how-leaders-avoid-digital-overload/",
-    "industry": "Leadership Development",
-    "summary": "人工智能时代的领导者面临着数字过载的挑战，需要制定策略来保持专注和有效的决策。管理信息流和确定任务优先级对于人工智能驱动的环境中的领导力至关重要。",
-    "charlotte_impact": "随着人工智能变得越来越普遍，领导技能需要不断发展，以应对数字过载和快速技术变革的挑战。领导者需要制定过滤信息、确定任务优先级和培养持续学习文化的策略，以有效应对人工智能驱动的世界的复杂性。",
+    "title": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
+    "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+    "industry": "Sports & Entertainment",
+    "summary": "法拉利正在与 IBM 合作，利用人工智能重新定义一级方程式车迷体验，通过个性化参与和数据驱动的洞察来打造“超级车迷”。",
+    "charlotte_impact": "人工智能在体育和娱乐中的应用可以提高粉丝参与度、个性化内容交付和新的收入来源。这可能会影响运动队与球迷的互动方式并提供更身临其境的体验。",
     "impact_score": 6
   },
   {
     "title": "人工智能被用来复活死去飞行员的声音",
     "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
-    "industry": "Aviation Safety",
-    "summary": "人工智能被用来从驾驶舱录音中重建已故飞行员的声音，导致国家运输安全委员会暂时限制对其记录系统的访问。这引发了对隐私和人工智能技术潜在滥用的道德担忧。",
-    "charlotte_impact": "使用人工智能从录音中重建声音引发了对隐私和同意的道德担忧。它还强调了人工智能的使用方式可能会侵犯个人权利，因此有必要制定明确的道德准则和法规。",
+    "industry": "Aviation",
+    "summary": "人工智能被用来从驾驶舱录音中重建已故飞行员的声音，引发了道德担忧，并导致国家运输安全委员会暂时中止对其记录系统的访问。",
+    "charlotte_impact": "虽然对事故调查和培训具有潜在价值，但使用人工智能复活声音引发了有关隐私和同意的道德问题。这凸显了需要制定关于使用人工智能处理敏感个人信息的明确指南和法规。",
     "impact_score": 6
+  },
+  {
+    "title": "Spotify 和环球音乐达成协议，允许粉丝制作人工智能翻唱和混音",
+    "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
+    "industry": "Music",
+    "summary": "Spotify 和环球音乐集团已达成一项协议，允许 Premium 订阅者创建人工智能生成的歌曲翻唱和混音，艺术家将获得收入分成。",
+    "charlotte_impact": "此次合作标志着音乐行业的转变，采用人工智能进行内容创作，同时解决版权和艺术家报酬问题。这可能会带来新形式的音乐创作、发行和收入模式。",
+    "impact_score": 8
   },
   {
     "title": "特朗普推迟人工智能安全行政命令，称语言“可能成为阻碍”",
     "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
-    "industry": "Government Regulation",
-    "summary": "特朗普总统推迟了一项要求政府对人工智能模型进行预发布安全审查的行政命令，理由是对该命令的语言不满意。这种延迟反映了关于政府对人工智能开发的适当监督程度的持续争论。",
-    "charlotte_impact": "行政命令的延迟凸显了监管人工智能技术的挑战。在促进创新和确保安全之间取得适当的平衡对于培育健康的人工智能生态系统至关重要。监管不确定性可能会给开发和部署人工智能解决方案的企业带来挑战。",
+    "industry": "Government & Regulation",
+    "summary": "特朗普总统推迟签署一项要求政府对人工智能模型进行预发布安全审查的行政命令，理由是对该命令的语言不满意。",
+    "charlotte_impact": "人工智能安全法规的延迟可能会给人工智能技术的部署带来不确定性和潜在风险。这强调了政府及时有效监督的必要性，以确保负责任的人工智能开发和部署。",
+    "impact_score": 7
+  },
+  {
+    "title": "Spotify 在播客中添加了人工智能问答和简报生成功能",
+    "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
+    "industry": "Media & Entertainment",
+    "summary": "Spotify 正在向播客添加人工智能驱动的问答和简报生成功能，使用户能够生成个性化的摘要和见解。",
+    "charlotte_impact": "人工智能驱动的工具可以增强播客的可访问性和可发现性，使用户能够快速收集见解并找到相关内容。这可以提高播客的参与度，并有可能催生新的盈利策略。",
+    "impact_score": 6
+  },
+  {
+    "title": "The Path 由 Tony Robbins 和 Calm 校友创立，希望提供更安全的人工智能治疗",
+    "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
+    "industry": "Healthcare",
+    "summary": "The Path 由 Tony Robbins 和 Calm 校友创立，提供专注于安全的人工智能疗法，声称他们的人工智能模型在心理健康安全基准上得分为 95 分，而消费者机器人的得分为 65 分。",
+    "charlotte_impact": "人工智能疗法有潜力扩大心理保健的覆盖面，特别是在服务欠缺的地区。然而，需要解决对数据隐私、安全性和潜在偏见的担忧，以确保负责任的部署。",
+    "impact_score": 8
+  },
+  {
+    "title": "Hark 因其神秘的“通用”人工智能界面筹集了 7 亿美元的 A 轮融资",
+    "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+    "industry": "AI Infrastructure",
+    "summary": "Hark 为其神秘的“通用”人工智能界面筹集了 7 亿美元的 A 轮融资，计划于今年夏天发布为个人人工智能平台提供支持的多模式模型。",
+    "charlotte_impact": "像 Hark 这样的大规模融资表明投资者对人工智能的未来和多模式模型的潜力充满信心。通用人工智能接口可能会极大地影响人们与技术的交互方式，从而有可能简化跨各种设备和平台对人工智能驱动的服务的访问。",
+    "impact_score": 9
+  },
+  {
+    "title": "SpaceX 亏损的火箭是 AI 梦想中最大的资产",
+    "url": "https://www.livemint.com/companies/spacexs-money-losing-rockets-are-biggest-asset-in-ai-dream-11779477585360.html",
+    "industry": "Space Exploration/AI",
+    "summary": "SpaceX 的 IPO 招股说明书揭示了一个 26.5 万亿美元的潜在市场，其中包括人工智能和电信，并将其亏损的火箭视为对人工智能驱动的未来的投资。",
+    "charlotte_impact": "SpaceX 将太空探索与人工智能相结合的雄心标志着技术进步的长期愿景。它对人工智能行业的潜在影响来自于空间技术渗透到地面应用所需的极限计算和模拟工具的需求。",
+    "impact_score": 8
+  },
+  {
+    "title": "检查人工智能还是谷歌一下？谷歌对一个小搜索框做出了重大改变",
+    "url": "https://www.npr.org/2026/05/22/nx-s1-5829915/google-search-box-ai",
+    "industry": "Search Engines",
+    "summary": "谷歌正在对其搜索框进行重大改变，将人工智能功能更加突出地集成到用户体验中。",
+    "charlotte_impact": "将人工智能集成到谷歌搜索框有可能从根本上改变用户在线访问信息的方式，与传统搜索结果相比，可能有利于人工智能生成的响应，影响网站流量和搜索引擎优化策略。",
+    "impact_score": 7
+  },
+  {
+    "title": "DeepMind首席执行官：“AGI”即将到来，但它必须首先通过以下测试",
+    "url": "https://me.pcmag.com/en/ai/37327/deepmind-ceo-agi-is-coming-soon-but-heres-the-test-it-must-pass-first",
+    "industry": "AI Research",
+    "summary": "DeepMind 首席执行官 Demis Hassabis 表示 AGI 即将到来，并指出人工智能领域的竞争正处于历史最高水平，而谷歌因其广泛的研究能力而具有优势。",
+    "charlotte_impact": "DeepMind 首席执行官的主张加速了通用人工智能的炒作周期，并为该领域带来了大量的研究资金。如果属实，AGI 的到来将改变整个行业。",
+    "impact_score": 7
+  },
+  {
+    "title": "DeepMind首席执行官：“AGI”即将到来，但它必须首先通过以下测试",
+    "url": "https://uk.pcmag.com/ai/165137/deepmind-ceo-agi-is-coming-soon-but-heres-the-test-it-must-pass-first",
+    "industry": "AI Research",
+    "summary": "DeepMind 首席执行官 Demis Hassabis 表示 AGI 即将到来，并指出人工智能领域的竞争正处于历史最高水平，而谷歌因其广泛的研究能力而具有优势。",
+    "charlotte_impact": "DeepMind 首席执行官的主张加速了通用人工智能的炒作周期，并为该领域带来了大量的研究资金。如果属实，AGI 的到来将改变整个行业。",
+    "impact_score": 7
+  },
+  {
+    "title": "SpaceX 申请上市，数学需要一点信心",
+    "url": "https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/",
+    "industry": "Space Exploration",
+    "summary": "SpaceX 提交了 IPO 申请，公布了与建立火星殖民地相关的 28 万亿美元潜在市场的雄心勃勃的计划。",
+    "charlotte_impact": "SpaceX 的首次公开募股和雄心勃勃的估值标志着对太空探索和殖民未来的重大押注。如果成功，这可能会创造新的产业和技术，对资源利用、材料科学和先进制造产生深远的影响。",
+    "impact_score": 6
+  },
+  {
+    "title": "Soundcore 的屏幕耳塞可充当会议记录员",
+    "url": "https://newatlas.com/consumer-tech/soundcore-liberty-5-pro-max-buds/",
+    "industry": "Consumer Electronics",
+    "summary": "Soundcore 的新款耳塞配备屏幕，可用作使用 AI 的会议记录员。",
+    "charlotte_impact": "将人工智能集成到消费电子产品中，用于笔记等生产力工具，扩大了员工对人工智能驱动功能的访问范围。这一趋势将继续推动小型电子产品的创新。",
     "impact_score": 5
   },
   {
-    "title": "SpaceX 首次公开募股文件为加密货币投资者提供了一种对比特币风险、X 支付和人工智能计算进行定价的新方式",
-    "url": "https://cryptoslate.com/spacex-ipo-bitcoin-exposure-x-payments-ai-compute/",
-    "industry": "Finance",
-    "summary": "SpaceX 的 IPO 文件和披露的比特币敞口为加密货币投资者提供了一个正式的基准，以衡量他们在公开市场收到招股说明书之前就已经开始交易的公司。",
-    "charlotte_impact": "SpaceX 首次公开募股的正式基准的可用性将提高财务透明度。此外，加密货币投资者有一个获得曝光的新机会。这是在传统投资环境下使加密货币合法化的又一举措。",
-    "impact_score": 6
+    "title": "《爱尔兰时报》对科技工作的看法：爱尔兰发现自己面临风险",
+    "url": "https://www.irishtimes.com/opinion/editorials/2026/05/22/the-irish-times-view-on-tech-jobs-ireland-finds-itself-exposed/",
+    "industry": "Employment",
+    "summary": "据《爱尔兰时报》报道，爱尔兰的科技裁员（包括 Meta 的裁员）是未来进一步裁员的警告信号。",
+    "charlotte_impact": "全球科技行业的裁员现已成为既定趋势。由于严重依赖全球投资，爱尔兰和美国将继续承受削减的经济负担。",
+    "impact_score": 5
+  },
+  {
+    "title": "中国快时尚巨头 Shein 收购环保品牌 Everlane 的举动不太合适",
+    "url": "https://www.whio.com/news/business/chinese-fast-fashion/E4JTJWXM2IZULPNODJME2YDUG4/",
+    "industry": "Retail/Fast Fashion",
+    "summary": "中国快时尚巨头 Shein 正在收购环保品牌 Everlane，此举不太合适。",
+    "charlotte_impact": "Shein 收购 Everlane 可能表明希望将可持续发展实践纳入其运营，但也引发了人们对潜在的绿色清洗和削弱 Everlane 最初使命的担忧。",
+    "impact_score": 4
+  },
+  {
+    "title": "Cardano 创始人警告称，Input Output 的 4680 万美元资助投票失败，网络可能会失去科学家",
+    "url": "https://cryptoslate.com/cardano-founder-warns-network-could-lose-its-scientists-in-input-outputs-46-8m-funding-vote-fails/",
+    "industry": "Blockchain",
+    "summary": "Cardano 创始人警告说，如果 Input Output 的 4680 万美元资助投票失败，该网络可能会失去科学家。",
+    "charlotte_impact": "由于资金问题，卡尔达诺网络科学家的潜在流失凸显了区块链领域维持人才和创新的挑战。",
+    "impact_score": 4
   }
 ]
