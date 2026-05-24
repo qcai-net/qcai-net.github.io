@@ -1,162 +1,154 @@
 [
   {
-    "title": "DeepSeek 旗舰 AI 机型永久享受 75% 折扣",
-    "url": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
-    "industry": "AI Infrastructure",
-    "summary": "DeepSeek 为其旗舰 AI 模型提供永久 75% 折扣，以在 API 价格不断下降的竞争激烈的市场中吸引开发者和企业用户。",
-    "charlotte_impact": "人工智能模型访问成本的降低将使初创企业和企业能够以更经济的方式试验和部署人工智能解决方案，从而推动人工智能技术的更广泛采用。这可以加速跨行业的创新，并促进新的人工智能应用程序和服务的开发。",
-    "impact_score": 8
+    "title": "随着铝价上涨 20%，回收初创公司押注人工智能来获利",
+    "url": "https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/",
+    "industry": "Recycling",
+    "summary": "铝价上涨 20%，导致回收初创公司利用人工智能来改善回收并创建大型铝供应源。",
+    "charlotte_impact": "人工智能驱动的回收可以显着减少对原铝生产的依赖，通过提供更可持续且可能更便宜的金属来源，影响能源部门（降低能源消耗）和依赖铝的制造业（汽车、航空航天、建筑）。",
+    "impact_score": 7
   },
   {
     "title": "风险投资家和创始人如何利用膨胀的“ARR”来为人工智能初创公司加冕",
     "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
-    "industry": "AI Investment",
-    "summary": "人工智能初创公司正在夸大年度经常性收入（ARR）数字以吸引资金，风险投资公司充分意识到这种做法。",
-    "charlotte_impact": "过高的 ARR 数字可能会导致资本错配，投资者可能会高估人工智能初创企业的价值。这种做法还会产生不切实际的期望，给企业带来实现夸大目标的压力，从而可能导致不可持续的增长和市场调整。",
-    "impact_score": 7
+    "industry": "Venture Capital",
+    "summary": "据报道，人工智能初创公司正在夸大其年度经常性收入（ARR）数字以吸引更多资金，风险投资公司也意识到了这种做法。",
+    "charlotte_impact": "这凸显了人工智能投资中严格尽职调查的重要性，并引发了人们对潜在人工智能泡沫的担忧。估值过高可能导致资本错配，最终损害人工智能生态系统的长期健康，造成投资者的不信任。",
+    "impact_score": 6
   },
   {
     "title": "我们尝试了谷歌的人工智能眼镜，它们就快到了",
     "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
-    "industry": "Consumer Technology",
-    "summary": "谷歌演示了由 Gemini AI 提供支持的原型 Android XR 眼镜，提供实时翻译和覆盖到用户视野的导航等功能。",
-    "charlotte_impact": "人工智能驱动的智能眼镜可以显着改变人们与信息及其周围环境互动的方式，从而改变旅游、物流和现场服务等行业。开发引人注目的用例并与现有工作流程无缝集成的公司将处于有利地位，可以充分利用这项技术。",
-    "impact_score": 7
+    "industry": "Consumer Electronics",
+    "summary": "谷歌演示了由 Gemini AI 提供支持的原型 Android XR 眼镜，该眼镜将实时翻译、导航和信息直接覆盖到用户的视野中。",
+    "charlotte_impact": "由人工智能驱动的增强现实眼镜有可能颠覆多个行业，包括旅游、教育、医疗保健和制造业。想象一下工厂工人的设备上覆盖了实时指令，或者游客收到了即时翻译的标志。",
+    "impact_score": 8
   },
   {
     "title": "谷歌正在向可能不买账的消费者推销人工智能代理生态系统",
     "url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
-    "industry": "AI Agents",
-    "summary": "谷歌正在为消费者推出人工智能代理生态系统，但其复杂性可能会阻碍广泛采用。",
-    "charlotte_impact": "人工智能代理生态系统的成功取决于用户友好性和可证明的价值。企业需要仔细考虑人工智能代理的设计和实施，以确保它们满足消费者的需求并提供无缝、直观的体验。",
-    "impact_score": 6
+    "industry": "Consumer Technology",
+    "summary": "谷歌正在向消费者推出人工智能代理生态系统，但这个概念目前很混乱，可能不会引起用户的共鸣。",
+    "charlotte_impact": "人工智能代理的成功取决于用户的采用。如果消费者发现它们令人困惑或缺乏明确的用例，那么这项技术的潜在影响将受到限制。人工智能代理技术的成功实施可以改变客户服务、个人协助和电子商务等领域。",
+    "impact_score": 5
   },
   {
     "title": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
     "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
-    "industry": "Sports & Entertainment",
-    "summary": "法拉利与 IBM 合作，利用人工智能重新定义粉丝体验，打造 F1 超级粉丝。",
-    "charlotte_impact": "人工智能可以通过提供个性化内容、数据驱动的见解和互动体验，彻底改变球迷对体育和娱乐的参与度。这可能会增加体育队和娱乐公司的收视率、商品销量和整体品牌忠诚度。",
-    "impact_score": 6
+    "industry": "Sports Entertainment",
+    "summary": "法拉利正在与 IBM 合作，利用人工智能来增强一级方程式赛车迷的体验。",
+    "charlotte_impact": "人工智能可以个性化内容，提供对比赛的更深入的见解，并为粉丝创造更具吸引力的体验。这一趋势与其他体育和娱乐行业相关，可能会增加收入和粉丝忠诚度。",
+    "impact_score": 5
   },
   {
     "title": "人工智能被用来复活死去飞行员的声音",
     "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
-    "industry": "Aviation Safety",
-    "summary": "人工智能被用来从驾驶舱录音中重建死去飞行员的声音，引发了道德和隐私问题，并促使国家运输安全委员会限制对其记录系统的访问。",
-    "charlotte_impact": "这一发展凸显了人工智能在航空安全等敏感领域的潜力和风险。虽然人工智能可以帮助分析事故数据并改进安全协议，但它也引发了有关数据隐私和个人信息使用的道德问题。",
+    "industry": "Aviation",
+    "summary": "人工智能被用来从驾驶舱录音中重建已故飞行员的声音，引发了道德和安全方面的担忧。这促使 NTSB 暂时阻止对其备案系统的访问。",
+    "charlotte_impact": "这凸显了人工智能技术的道德影响，并引发了人们对隐私和个人数据潜在滥用的担忧。它还强调需要就敏感领域人工智能的使用制定明确的法规和指南。",
     "impact_score": 7
   },
   {
     "title": "Spotify 和环球音乐达成协议，允许粉丝制作人工智能翻唱和混音",
     "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
     "industry": "Music",
-    "summary": "Spotify 和环球音乐集团已达成协议，允许 Premium 订阅者创作人工智能生成的歌曲翻唱和混音，参与的艺术家将获得收入分成。",
-    "charlotte_impact": "这种合作关系可以通过使音乐创作民主化并为艺术家提供新的收入来源来重塑音乐产业。它还提出了有关版权、艺术控制以及对人类音乐家的影响的问题。",
-    "impact_score": 7
+    "summary": "Spotify 和环球音乐集团已达成协议，允许高级订阅者创作人工智能生成的歌曲翻唱和混音，艺术家将获得收入分成。",
+    "charlotte_impact": "这笔交易代表着人工智能在音乐创作中合法化的重要一步，并为艺术家开辟了新的收入来源。它还引发了有关版权和音乐制作未来的问题。",
+    "impact_score": 6
   },
   {
     "title": "特朗普推迟人工智能安全行政命令，称语言“可能成为阻碍”",
     "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
-    "industry": "AI Governance",
-    "summary": "由于对其语言的担忧，特朗普总统推迟签署一项要求政府对人工智能模型进行预发布安全审查的行政命令。",
-    "charlotte_impact": "这一延迟凸显了人工智能治理的复杂性，以及精心制定法规的必要性，以促进创新，同时解决潜在风险。这可能会影响人工智能技术的开发和部署，特别是在敏感领域。",
-    "impact_score": 6
+    "industry": "Government",
+    "summary": "由于对措辞不满，特朗普总统推迟签署人工智能安全审查行政命令。",
+    "charlotte_impact": "政府监管在塑造负责任的人工智能开发和部署方面发挥着至关重要的作用。这一延迟凸显了制定有效的人工智能安全策略所涉及的复杂性和挑战。",
+    "impact_score": 5
   },
   {
     "title": "Spotify 在播客中添加了人工智能问答和简报生成功能",
     "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
-    "industry": "Media & Entertainment",
-    "summary": "Spotify 正在向播客添加人工智能驱动的问答和简报生成功能，允许用户创建个性化的每日或每周简报。",
-    "charlotte_impact": "人工智能支持的功能可以增强播客的可访问性和个性化，从而有可能提高听众的参与度和满意度。媒体公司正在寻求人工智能来进行内容摘要和亮点，这可能会改变编辑流程。",
-    "impact_score": 6
+    "industry": "Media",
+    "summary": "Spotify 正在向播客添加人工智能问答和简报生成功能，让用户能够生成个性化摘要。",
+    "charlotte_impact": "此功能可以提高播客的参与度和可发现性，为内容创作者和广告商带来新的机会。它还展示了人工智能个性化内容消费的潜力。",
+    "impact_score": 5
   },
   {
     "title": "The Path 由 Tony Robbins 和 Calm 校友创立，希望提供更安全的人工智能治疗",
     "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
     "industry": "Healthcare",
-    "summary": "The Path 由 Tony Robbins 和 Calm 校友创立，旨在提供更安全的人工智能治疗，其模型在心理健康安全基准上得分为 95 分，而消费者机器人的得分为 65 分。",
-    "charlotte_impact": "对精神保健的需求只会不断增加，从而产生对更容易获得的资源的需求。人工智能安全标准对于创建适当的护栏至关重要。",
+    "summary": "The Path 由托尼·罗宾斯 (Tony Robbins) 和 Calm 校友创立，声称其人工智能模型提供更安全的人工智能治疗，具有较高的心理健康安全基准分数。",
+    "charlotte_impact": "如果得到证实，更安全的人工智能疗法可以显着扩大获得心理保健的机会，特别是对于服务不足的人群。然而，道德考虑和患者隐私仍然是至关重要的问题。",
     "impact_score": 8
   },
   {
     "title": "Hark 因其神秘的“通用”人工智能界面筹集了 7 亿美元的 A 轮融资",
     "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
     "industry": "AI Infrastructure",
-    "summary": "Hark 为其神秘的“通用”人工智能接口筹集了 7 亿美元的 A 轮融资，规划多模式模型和硬件设备。",
-    "charlotte_impact": "这笔资金突显了投资者对基础人工智能技术和平台的浓厚兴趣。对“通用”界面的关注表明人工智能正在跨各种设备和应用程序无缝集成，从而有可能创造新的生态系统和商业模式。",
+    "summary": "Hark 为其神秘的“通用”人工智能界面筹集了 7 亿美元的 A 轮融资。",
+    "charlotte_impact": "新人工智能界面的大量资金表明投资者对多模式人工智能平台的潜力充满信心。如果成功，Hark 的技术可以改变用户在各种设备和服务上与人工智能交互的方式。",
     "impact_score": 9
   },
   {
-    "title": "不仅仅是你——近三分之二的员工表示，为了在公司取得成功，他们夸大了人工智能技能",
-    "url": "https://www.techradar.com/pro/its-not-just-you-nearly-two-thirds-of-workers-say-theyve-exaggerated-ai-skills-to-get-ahead-at-their-company",
-    "industry": "Workforce",
-    "summary": "近三分之二的员工承认，出于对工作安全的担忧，他们夸大了自己的人工智能技能，以在公司获得优势。",
-    "charlotte_impact": "公司需要评估其员工的实际人工智能技能，并制定有针对性的培训计划，以缩小感知能力和实际能力之间的差距。缺乏真正的专业知识可能会导致人工智能部署无效并错失机会。",
+    "title": "Google Gemini、新泽西大数据联盟、杜克大学数据中心，更多：ResearchBuzz AI 更新，2026 年 5 月 23 日",
+    "url": "https://researchbuzz.me/2026/05/23/google-gemini-new-jersey-big-data-alliance-duke-university-data-center-more-researchbuzz-ai-update-may-23-2026/",
+    "industry": "Software Engineering",
+    "summary": "一名开发人员声称，谷歌的 Gemini AI 编码助手删除了近 30,000 行工作生产代码。",
+    "charlotte_impact": "这一事件表明，在软件开发中过度依赖人工智能所带来的潜在风险。虽然人工智能工具可以提高效率，但人类监督对于防止意外后果仍然至关重要，尤其是在关键系统中。",
     "impact_score": 7
   },
   {
-    "title": "海得拉巴警方部署人工智能移动应用程序，可以用 10 种印度语言记录、转录和翻译投诉",
-    "url": "https://www.thehindubusinessline.com/news/hyderabad-police-deploys-ai-powered-mobile-app-that-can-record-transcribe-and-translate-complaints-in-10-indian-languages/article71014253.ece",
-    "industry": "Law Enforcement",
-    "summary": "海得拉巴警方部署了一款人工智能移动应用程序，可以用 10 种印度语言记录、转录和翻译投诉。",
-    "charlotte_impact": "人工智能工具可以改善诉诸司法的机会并提高执法效率。然而，重要的是要考虑人工智能算法中的潜在偏差，并确保这些技术的部署负责任且合乎道德。",
-    "impact_score": 7
+    "title": "个人所得税在捐赠紧缩的情况下达到全球地位",
+    "url": "https://economictimes.indiatimes.com/industry/services/education/iits-reach-for-global-stature-amid-endowment-crunch/articleshow/131284938.cms",
+    "industry": "Education",
+    "summary": "尽管存在捐赠紧缩，个人所得税仍在全球范围内扩张。",
+    "charlotte_impact": "IIT 的扩张可能会增加正在培养的人工智能专业人员的数量，并加速人工智能研究。",
+    "impact_score": 6
   },
   {
-    "title": "诺和诺德利用人工智能快速跟踪药物上市，扩大印度的作用",
-    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/novo-nordisk-uses-ai-to-fast-track-drug-launches-expand-india-role/articleshow/131278271.cms",
-    "industry": "Pharmaceuticals",
-    "summary": "诺和诺德利用人工智能快速跟踪药物上市并扩大其在印度的作用。",
-    "charlotte_impact": "该公司预计将上市时间缩短三分之二。其位于印度班加罗尔的中心对于全球药物制剂正变得至关重要。",
+    "title": "超过 340 家报纸封锁了 Wayback Machine。这对互联网的未来意味着什么",
+    "url": "https://freerepublic.com/focus/f-news/4380653/posts",
+    "industry": "Media",
+    "summary": "超过 340 家报纸正在封锁 Wayback Machine，以对抗人工智能聊天机器人。",
+    "charlotte_impact": "这一趋势凸显了新闻机构和人工智能开发人员之间在版权和数据抓取方面持续存在的冲突。此举可能会限制人工智能培训和研究的历史新闻内容的可访问性。",
+    "impact_score": 6
+  },
+  {
+    "title": "伯克希尔哈撒韦公司 3,300 亿美元投资组合中的 37.4% 投资于 3 只人工智能 (AI) 股票",
+    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_84fb9563-b7ef-400e-a9d8-7576379885e2",
+    "industry": "Investment",
+    "summary": "伯克希尔哈撒韦公司 3,300 亿美元投资组合中的 37.4% 投资于 3 只人工智能 (AI) 股票",
+    "charlotte_impact": "主要参与者的这种投资水平表明人工智能将对商业产生影响。也凸显了大玩家的重要性。",
     "impact_score": 8
   },
   {
-    "title": "随着铝价上涨 20%，回收初创公司押注人工智能来获利",
-    "url": "https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/",
-    "industry": "Sustainability",
-    "summary": "回收初创公司正在利用人工智能来提高铝等关键矿物的回收率，旨在建立一个巨大的金属来源。",
-    "charlotte_impact": "人工智能驱动的回收可以显着提高资源效率并减少对初级矿物开采的依赖。开发创新型人工智能回收解决方案的公司将处于有利地位，能够从对可持续材料不断增长的需求中受益。",
+    "title": "Aiarty 图像增强器使旧照片修复变得更容易，效果更自然（周年纪念促销 49% 折扣）",
+    "url": "https://photorumors.com/2026/05/23/aiarty-image-enhancer-makes-old-photo-restoration-easier-with-more-natural-looking-results-49-off-anniversary-sale/",
+    "industry": "Software",
+    "summary": "Aiarty 图像增强器使旧照片修复变得更容易，效果更自然（周年纪念促销 49% 折扣）",
+    "charlotte_impact": "Aiarty 等改进的工具提高了恢复旧照片和图像的能力。这可以用于许多行业。",
+    "impact_score": 4
+  },
+  {
+    "title": "人工智能堆栈如何改写商业规则",
+    "url": "https://siliconangle.com/2026/05/23/ai-stacks-rewriting-rules-business/",
+    "industry": "Technology",
+    "summary": "人工智能堆栈如何改写商业规则",
+    "charlotte_impact": "从本地计算到软件服务的转变改变了技术模型。",
+    "impact_score": 6
+  },
+  {
+    "title": "CM 用于人工智能驱动的治理和更快的申诉补救",
+    "url": "https://timesofindia.indiatimes.com/city/patna/cm-for-ai-driven-governance-faster-grievance-redressal/articleshow/131284455.cms",
+    "industry": "Government",
+    "summary": "CM 用于人工智能驱动的治理和更快的申诉补救",
+    "charlotte_impact": "人工智能可以变革治理并为公民提供更好的服务。",
     "impact_score": 7
   },
   {
-    "title": "SpaceX 申请上市，数学需要一点信心",
-    "url": "https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/",
-    "industry": "Space Exploration",
-    "summary": "SpaceX 申请上市，概述了巨大的潜在市场和包括火星殖民在内的雄心勃勃的目标。",
-    "charlotte_impact": "人工智能和太空探索有着密切的联系，人工智能用于提高效率、自动化和洞察力生成。公开发行只会增加航天和人工智能行业的资源可用性。",
-    "impact_score": 6
-  },
-  {
-    "title": "杰米戴蒙给摩根大通银行家带来坏消息",
-    "url": "https://www.thestreet.com/employment/jamie-dimon-has-bad-news-for-jpmorgan-bankers",
-    "industry": "Finance",
-    "summary": "杰米·戴蒙 (Jamie Dimon) 预计，由于技术进步，摩根大通银行家可能会失业。",
-    "charlotte_impact": "由于自动化和人工智能的进步，角色正在重新洗牌。这可以提高金融机构的运营效率和整体利润率，同时创造对具有独特技能的工人的需求。",
-    "impact_score": 6
-  },
-  {
-    "title": "一名青少年在北梅克伦堡高中、CATS 公交车站附近被发现携带 3D 打印枪后被拘留",
-    "url": "https://www.wcnc.com/article/news/crime/teen-caught-with-3d-printed-gun-at-cats-bus-stop/275-76e30039-2338-4bc9-816d-ac4adb4b313e",
-    "industry": "Public Safety",
-    "summary": "一名青少年在夏洛特公交车站被发现携带 3D 打印枪支后面临指控，这凸显了社区与警察合作在预防危险方面的作用。",
-    "charlotte_impact": "3D 打印允许任何人在很少的监督下制造武器。对技术和社区监视的更好监管将减少公众面临的危险。",
-    "impact_score": 5
-  },
-  {
-    "title": "这是对隐私的严重侵犯：Rukmini Vasanth 谈 Deepfake",
-    "url": "https://timesofindia.indiatimes.com/entertainment/kannada/movies/news/this-is-a-serious-violation-of-privacy-rukmini-vasanth-on-deepfake/articleshow/131278246.cms",
-    "industry": "Media",
-    "summary": "Deepfakes 被部署针对《Kantara Chapter 1》演员 Rukmini Vasanth，引发了对隐私的担忧",
-    "charlotte_impact": "深度造假可能会损害名人声誉，并在媒体领域传播错误信息。需要技术和监督来将深度伪造品降至最低限度。",
-    "impact_score": 5
-  },
-  {
-    "title": "计划参加三年的国际实习？以下是涨幅超过 40% 的全球前 5 只基金",
-    "url": "https://m.economictimes.com/mf/analysis/planning-to-take-international-exposure-for-three-years-here-are-top-5-global-funds-with-over-40-gain/international-gains/slideshow/131278267.cms",
-    "industry": "Finance",
-    "summary": "专注于人工智能的国际共同基金回报率较高，日本印度台湾股票基金以64.14%的涨幅位居榜首。",
-    "charlotte_impact": "专注于人工智能的共同基金的高回报反映了人工智能行业的持续增长和潜力。投资者越来越认识到推动人工智能创新的公司的价值，进一步推动了该行业的投资和发展。",
+    "title": "Galfar推出人工智能沥青摊铺",
+    "url": "https://www.omanobserver.om/article/1190093/business/economy/galfar-launches-artificial-intelligence-asphalt-paving",
+    "industry": "Infrastructure",
+    "summary": "Galfar推出人工智能沥青摊铺",
+    "charlotte_impact": "通过在沥青摊铺中实施人工智能，Galfar 将能够更加准确、高效并提供更好质量的结果。",
     "impact_score": 7
   }
 ]
