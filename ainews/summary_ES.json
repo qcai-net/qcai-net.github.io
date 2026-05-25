@@ -1,154 +1,138 @@
 [
   {
-    "title": "Con los precios del aluminio subiendo un 20%, las startups de reciclaje apuestan por la IA para sacar provecho",
-    "url": "https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/",
-    "industry": "Recycling",
-    "summary": "Los precios del aluminio han subido un 20%, lo que lleva a las nuevas empresas de reciclaje a aprovechar la IA para mejorar la recuperación y crear una gran fuente de suministro de aluminio.",
-    "charlotte_impact": "El reciclaje impulsado por la IA podría reducir significativamente la dependencia de la producción primaria de aluminio, lo que afectaría al sector energético (menor consumo de energía) y a las industrias manufactureras que dependen del aluminio (automotriz, aeroespacial, construcción) al proporcionar una fuente de metal más sostenible y potencialmente más barata.",
-    "impact_score": 7
+    "title": "Todo el mundo navega por la seguridad de la IA en tiempo real, incluso Google",
+    "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+    "industry": "AI Security",
+    "summary": "Google y otras organizaciones están afrontando activamente los desafíos de seguridad de la IA en tiempo real, lo que pone de relieve la naturaleza cambiante de esta área crítica. Este período de transición requiere una vigilancia y adaptación constantes a las amenazas y vulnerabilidades emergentes.",
+    "charlotte_impact": "La naturaleza en tiempo real de la seguridad de la IA significa que las empresas y organizaciones deben priorizar el monitoreo continuo, las auditorías de seguridad periódicas y los programas de capacitación de los empleados. Invertir en una infraestructura de seguridad sólida será esencial para mantener la confianza y prevenir costosas infracciones a medida que los sistemas de inteligencia artificial se integren más en diversos aspectos de las operaciones.",
+    "impact_score": 8
   },
   {
     "title": "Cómo los capitalistas de riesgo y los fundadores utilizan un 'ARR' inflado para coronar a las nuevas empresas de IA",
     "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
-    "industry": "Venture Capital",
-    "summary": "Según se informa, las nuevas empresas de IA están inflando sus cifras de ingresos recurrentes anuales (ARR) para atraer más financiación, y los capitalistas de riesgo son conscientes de esta práctica.",
-    "charlotte_impact": "Esto pone de relieve la importancia de una debida diligencia rigurosa en las inversiones en IA y plantea preocupaciones sobre una posible burbuja de IA. Las valoraciones infladas pueden provocar una mala asignación de capital y, en última instancia, dañar la salud a largo plazo del ecosistema de IA, generando desconfianza entre los inversores.",
-    "impact_score": 6
+    "industry": "AI Funding",
+    "summary": "Los capitalistas de riesgo y los fundadores están aprovechando métricas de ARR infladas para aumentar el valor percibido de las nuevas empresas de IA. Los inversores son conscientes de esta práctica, lo que indica la necesidad de una diligencia debida más rigurosa en el ámbito de la financiación de la IA.",
+    "charlotte_impact": "El potencial de métricas infladas puede llevar a una mala asignación de capital y a un crecimiento insostenible para las nuevas empresas de IA.  Una corrección de las valoraciones afectaría negativamente a los inversores que poseen activos inflados. Los inversores prudentes deberían dar prioridad a las empresas emergentes con modelos de negocio y flujos de ingresos sostenibles y demostrables, en lugar de depender únicamente de ARR inflados.",
+    "impact_score": 7
   },
   {
     "title": "Probamos las gafas con IA de Google y ya casi están ahí",
     "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
-    "industry": "Consumer Electronics",
-    "summary": "Google hizo una demostración del prototipo de gafas Android XR impulsadas por Gemini AI que superponen traducción, navegación e información en tiempo real directamente en el campo de visión del usuario.",
-    "charlotte_impact": "Las gafas de realidad aumentada impulsadas por IA tienen el potencial de revolucionar múltiples industrias, incluidas el turismo, la educación, la atención médica y la manufactura. Imagine a los trabajadores de una fábrica con instrucciones en tiempo real superpuestas en sus equipos o a los turistas recibiendo traducciones instantáneas de las señales.",
-    "impact_score": 8
+    "industry": "Augmented Reality",
+    "summary": "El prototipo de gafas con inteligencia artificial de Google, impulsado por Gemini, superpone traducción, navegación e información directamente en el campo de visión del usuario.  Esta tecnología se acerca a un estado práctico y listo para el consumo.",
+    "charlotte_impact": "El desarrollo de gafas AR impulsadas por IA tiene el potencial de transformar varias industrias, incluidas las del turismo, la logística y los servicios de campo. Las empresas deben explorar aplicaciones potenciales para mejorar la productividad, mejorar las experiencias de los clientes y obtener una ventaja competitiva. La adopción temprana y la experimentación serán clave para capitalizar esta tecnología emergente.",
+    "impact_score": 7
   },
   {
     "title": "Google está ofreciendo un ecosistema de agentes de IA a los consumidores que tal vez no lo compren",
     "url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
-    "industry": "Consumer Technology",
-    "summary": "Google está presentando un ecosistema de agentes de IA a los consumidores, pero el concepto actualmente es confuso y puede que no resuene bien entre los usuarios.",
-    "charlotte_impact": "El éxito de los agentes de IA depende de la adopción por parte de los usuarios. Si los consumidores los encuentran confusos o carecen de casos de uso claros, el impacto potencial de esta tecnología será limitado. La implementación exitosa de la tecnología de agentes de IA podría transformar áreas como el servicio al cliente, la asistencia personal y el comercio electrónico.",
-    "impact_score": 5
+    "industry": "AI Agents",
+    "summary": "Google introdujo un ecosistema de agentes de IA para los consumidores, pero su complejidad ha generado dudas sobre su adopción. Los beneficios potenciales son significativos, pero se necesitan una comunicación clara e interfaces de usuario intuitivas.",
+    "charlotte_impact": "El éxito de los ecosistemas de agentes de IA depende de su usabilidad y capacidad para resolver problemas del mundo real para los consumidores. Las empresas deben centrarse en desarrollar aplicaciones prácticas de agentes de IA que sean fáciles de entender e integrar en los flujos de trabajo diarios, garantizando una experiencia de usuario perfecta.",
+    "impact_score": 6
   },
   {
     "title": "Ferrari está utilizando la IA de IBM para crear superfans de la F1",
     "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
     "industry": "Sports Entertainment",
-    "summary": "Ferrari se ha asociado con IBM para utilizar la IA para mejorar la experiencia de los aficionados a la Fórmula 1.",
-    "charlotte_impact": "La IA puede personalizar el contenido, proporcionar información más profunda sobre las carreras y crear experiencias más atractivas para los fanáticos. Esta tendencia es relevante para otras industrias del deporte y el entretenimiento, y podría generar mayores ingresos y lealtad de los fanáticos.",
+    "summary": "Ferrari está colaborando con IBM para utilizar la IA para crear experiencias mejoradas para los fanáticos en las carreras de Fórmula 1. Esta tecnología tiene como objetivo personalizar y profundizar la participación de los fanáticos.",
+    "charlotte_impact": "El uso de la IA para mejorar la participación de los aficionados en los deportes demuestra el potencial de la tecnología para crear experiencias más personalizadas e inmersivas. Otras organizaciones deportivas deberían explorar aplicaciones similares para atraer y retener fanáticos, lo que podría generar mayores ingresos a través de marketing dirigido y contenido interactivo.",
     "impact_score": 5
-  },
-  {
-    "title": "Se utiliza IA para resucitar las voces de los pilotos muertos",
-    "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
-    "industry": "Aviation",
-    "summary": "Se está utilizando IA para reconstruir las voces de pilotos fallecidos a partir de grabaciones de cabina, lo que genera preocupaciones éticas y de seguridad. Esto llevó a la NTSB a bloquear temporalmente el acceso a su sistema de expedientes.",
-    "charlotte_impact": "Esto pone de relieve las implicaciones éticas de la tecnología de IA y plantea preocupaciones sobre la privacidad y el posible uso indebido de los datos personales. También enfatiza la necesidad de regulaciones y directrices claras sobre el uso de la IA en áreas sensibles.",
-    "impact_score": 7
   },
   {
     "title": "Spotify y Universal Music llegan a un acuerdo que permite versiones y remezclas de IA creadas por fans",
     "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
     "industry": "Music",
-    "summary": "Spotify y Universal Music Group han llegado a un acuerdo que permite a los suscriptores premium crear versiones y remezclas de canciones generadas por IA, y los artistas reciben una parte de los ingresos.",
-    "charlotte_impact": "Este acuerdo representa un paso importante hacia la legitimación de la IA en la creación musical y abre nuevas fuentes de ingresos para los artistas. También plantea interrogantes sobre los derechos de autor y el futuro de la producción musical.",
+    "summary": "Spotify y Universal Music Group se han asociado para permitir a los suscriptores premium crear versiones y remezclas de canciones generadas por IA. Los artistas recibirán una parte de los ingresos generados por estas creaciones.",
+    "charlotte_impact": "Esta colaboración abre nuevas fuentes de ingresos para los artistas y amplía las posibilidades creativas para los fans. La industria de la música podría ver un aumento en el contenido generado por IA, lo que requeriría una gestión cuidadosa de los derechos de autor y de propiedad intelectual. Un mayor impacto dependerá del éxito con el que la plataforma gestione los derechos de contenido y la distribución de regalías.",
     "impact_score": 6
   },
   {
     "title": "Trump retrasa la orden ejecutiva de seguridad de IA, diciendo que el lenguaje \"podría haber sido un obstáculo\"",
     "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
-    "industry": "Government",
-    "summary": "El presidente Trump retrasó la firma de una orden ejecutiva sobre revisiones de seguridad de la IA debido a la insatisfacción con el lenguaje.",
-    "charlotte_impact": "La regulación gubernamental desempeña un papel crucial en la configuración del desarrollo y despliegue responsable de la IA. El retraso pone de relieve las complejidades y los desafíos que implica la creación de políticas de seguridad de IA eficaces.",
-    "impact_score": 5
+    "industry": "Government Regulation",
+    "summary": "El presidente Trump retrasó la firma de una orden ejecutiva de seguridad de IA debido a preocupaciones sobre su lenguaje. Esto sugiere un debate e incertidumbre en curso sobre el nivel y tipo apropiado de regulación de la IA.",
+    "charlotte_impact": "La incertidumbre en torno a la regulación de la IA puede crear desafíos para las empresas que buscan innovar e implementar soluciones de IA. Es imperativo que las empresas se mantengan informadas sobre las regulaciones pendientes y aboguen por políticas razonables que apoyen la innovación y protejan a la sociedad.",
+    "impact_score": 4
   },
   {
     "title": "Spotify agrega funciones de generación de resúmenes y preguntas y respuestas basadas en inteligencia artificial a los podcasts",
     "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
     "industry": "Media",
-    "summary": "Spotify está agregando funciones de generación de resúmenes y preguntas y respuestas basadas en inteligencia artificial a los podcasts, lo que permite a los usuarios generar resúmenes personalizados.",
-    "charlotte_impact": "Esta característica podría aumentar la participación y la visibilidad de los podcasts, lo que generaría nuevas oportunidades para los creadores de contenido y los anunciantes. También demuestra el potencial de la IA para personalizar el consumo de contenidos.",
+    "summary": "Spotify está agregando funciones de generación de resúmenes y preguntas y respuestas basadas en inteligencia artificial a los podcasts, lo que permite a los usuarios generar resúmenes e información personalizados. Esto mejora la experiencia de escuchar podcasts y hace que el contenido sea más accesible.",
+    "charlotte_impact": "La integración de la IA en las plataformas de podcasts tiene el potencial de transformar la forma en que los consumidores descubren e interactúan con el contenido de audio. Los creadores pueden aprovechar estas herramientas para mejorar la capacidad de descubrimiento del contenido y la participación de la audiencia, mientras que los oyentes pueden ahorrar tiempo y acceder a resúmenes e información personalizados.",
     "impact_score": 5
   },
   {
     "title": "The Path, fundado por Tony Robbins y ex alumnos de Calm, espera ofrecer una terapia de IA más segura",
     "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
-    "industry": "Healthcare",
-    "summary": "The Path, fundada por Tony Robbins y ex alumnos de Calm, afirma que su modelo de IA ofrece una terapia de IA más segura con una puntuación de referencia de seguridad de salud mental alta.",
-    "charlotte_impact": "Si se demuestra, una terapia de IA más segura podría ampliar significativamente el acceso a la atención de salud mental, particularmente para las poblaciones desatendidas. Sin embargo, las consideraciones éticas y la privacidad del paciente siguen siendo preocupaciones cruciales.",
-    "impact_score": 8
+    "industry": "Mental Health",
+    "summary": "The Path, fundado por Tony Robbins y ex alumnos de Calm, tiene como objetivo proporcionar una terapia de IA más segura con un modelo con una puntuación de 95 en el punto de referencia de seguridad Vera-MH, en comparación con 65 para los robots de consumo.",
+    "charlotte_impact": "Este avance en las plataformas de salud mental impulsadas por IA tiene el potencial de mejorar el acceso a los servicios de salud mental al tiempo que prioriza la seguridad del paciente y las consideraciones éticas. El desarrollo de herramientas de terapia de IA más seguras y confiables puede conducir a una adopción más amplia de soluciones digitales de salud mental y mejores resultados para los pacientes.",
+    "impact_score": 6
   },
   {
     "title": "Hark recauda 700 millones de dólares Serie A para su secreta interfaz de IA 'universal'",
     "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
     "industry": "AI Infrastructure",
-    "summary": "Hark recaudó una Serie A de 700 millones de dólares para su secreta interfaz de IA \"universal\".",
-    "charlotte_impact": "Una financiación significativa para una nueva interfaz de IA indica la confianza de los inversores en el potencial de las plataformas de IA multimodales. Si tiene éxito, la tecnología de Hark podría transformar la forma en que los usuarios interactúan con la IA en diversos dispositivos y servicios.",
+    "summary": "Hark recaudó una Serie A de 700 millones de dólares para su secreta interfaz de IA \"universal\", y planea lanzar modelos multimodales este verano que impulsen una plataforma de IA personal que funcione en todos los productos y servicios existentes.",
+    "charlotte_impact": "Una interfaz universal de IA podría revolucionar numerosas industrias al integrar perfectamente la IA en los flujos de trabajo existentes. Esta importante ronda de financiación muestra la confianza de los inversores en el potencial de una plataforma de IA unificada para mejorar la productividad, personalizar experiencias e impulsar la innovación en varios sectores. Las empresas deberían monitorear el progreso de Hark y considerar cómo sus servicios podrían integrarse con dicha plataforma.",
     "impact_score": 9
   },
   {
-    "title": "Google Gemini, New Jersey Big Data Alliance, Duke University Data Center, más: Actualización de ResearchBuzz AI, 23 de mayo de 2026",
-    "url": "https://researchbuzz.me/2026/05/23/google-gemini-new-jersey-big-data-alliance-duke-university-data-center-more-researchbuzz-ai-update-may-23-2026/",
-    "industry": "Software Engineering",
-    "summary": "Un desarrollador afirma que el asistente de codificación Gemini AI de Google eliminó casi 30.000 líneas de código de producción en funcionamiento.",
-    "charlotte_impact": "Este incidente demuestra los riesgos potenciales asociados con depender demasiado de la IA en el desarrollo de software. Si bien las herramientas de IA pueden mejorar la eficiencia, la supervisión humana sigue siendo esencial para evitar consecuencias no deseadas, especialmente en sistemas críticos.",
+    "title": "Las acciones de NVTS de Navitas Semiconductor aumentan un 20 % gracias a la demanda de energía de la IA y a las perspectivas mejoradas",
+    "url": "https://www.ibtimes.com.au/navitas-semiconductor-shares-surge-ai-demand-1869410",
+    "industry": "Semiconductors",
+    "summary": "Las acciones de Navitas Semiconductor subieron casi un 20 % debido al interés de los inversores en las soluciones de centros de datos de IA, con un aumento de los ingresos del primer trimestre de 2026 del 18 % y un enfoque estratégico en los mercados de alta potencia.",
+    "charlotte_impact": "La creciente demanda de soluciones de centros de datos de IA está impulsando el crecimiento de la industria de los semiconductores. Empresas como Navitas Semiconductor están bien posicionadas para beneficiarse de esta tendencia, ya que sus productos de alta potencia son esenciales para impulsar la infraestructura de IA.  Los inversores y las empresas deberían vigilar a las empresas de semiconductores involucradas en soluciones de centros de datos de IA para detectar posibles oportunidades de crecimiento.",
     "impact_score": 7
   },
   {
-    "title": "Los IIT alcanzan estatura global en medio de la crisis de dotaciones",
-    "url": "https://economictimes.indiatimes.com/industry/services/education/iits-reach-for-global-stature-amid-endowment-crunch/articleshow/131284938.cms",
-    "industry": "Education",
-    "summary": "Los IIT se están expandiendo a nivel mundial a pesar de la escasez de fondos.",
-    "charlotte_impact": "La expansión del IIT probablemente aumentará la cantidad de profesionales de IA que se están desarrollando y también acelerará la investigación de la IA.",
-    "impact_score": 6
+    "title": "Funcionario indonesio califica el dominio de los algoritmos como nuevo colonialismo digital",
+    "url": "https://en.antaranews.com/news/416844/indonesian-official-calls-algorithm-dominance-new-digital-colonialism",
+    "industry": "Digital Policy",
+    "summary": "Un funcionario indonesio advirtió sobre un \"nuevo colonialismo digital\" a través del dominio de los algoritmos.  Esto se refiere al potencial de los algoritmos extranjeros para dar forma a las culturas y economías locales.",
+    "charlotte_impact": "Esto resalta la importancia de desarrollar capacidades locales de IA y garantizar la transparencia y la equidad algorítmica. Las naciones deben invertir en educación e investigación sobre IA para evitar la dependencia de tecnologías extranjeras y promover la soberanía cultural y económica. Las empresas deben ser sensibles a las normas y valores culturales al implementar soluciones de IA en los mercados internacionales.",
+    "impact_score": 5
   },
   {
-    "title": "Más de 340 periódicos bloquean la Wayback Machine. Lo que eso significa para el futuro de Internet",
-    "url": "https://freerepublic.com/focus/f-news/4380653/posts",
-    "industry": "Media",
-    "summary": "Más de 340 periódicos están bloqueando Wayback Machine en una medida contra los chatbots de IA.",
-    "charlotte_impact": "Esta tendencia pone de relieve el conflicto actual entre las organizaciones de noticias y los desarrolladores de IA con respecto a los derechos de autor y la extracción de datos. La medida podría limitar potencialmente la accesibilidad del contenido de noticias históricas para la capacitación e investigación de IA.",
-    "impact_score": 6
+    "title": "Tempus AI (TEM) lanza la prueba de próstata ArteraAI, el primer algoritmo de patología digital desarrollado externamente",
+    "url": "https://finance.yahoo.com/sectors/healthcare/articles/tempus-ai-tem-launches-arteraai-130611572.html",
+    "industry": "Healthcare AI",
+    "summary": "Tempus AI (TEM) lanzó ArteraAI Prostate Test, el primer algoritmo de patología digital desarrollado externamente. El comercio se considera una jugada de sobreventa en el sector de la IA.",
+    "charlotte_impact": "Este lanzamiento supone avances en el papel de la IA en la patología digital, mejorando la precisión y la velocidad de los diagnósticos. Los hospitales pueden utilizar esta prueba para ahorrar dinero en tiempo al patólogo y mejorar la atención al paciente. Este lanzamiento podría impulsar una mayor adopción de la IA en los diagnósticos sanitarios.",
+    "impact_score": 7
   },
   {
-    "title": "El 37,4% de la cartera de 330.000 millones de dólares de Berkshire Hathaway está invertida en tres acciones de inteligencia artificial (IA)",
-    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_84fb9563-b7ef-400e-a9d8-7576379885e2",
-    "industry": "Investment",
-    "summary": "El 37,4% de la cartera de 330.000 millones de dólares de Berkshire Hathaway está invertida en tres acciones de inteligencia artificial (IA)",
-    "charlotte_impact": "Este nivel de inversión por parte de un actor importante indica el impacto que tendrá la IA en los negocios. También destaca la importancia de los grandes actores.",
-    "impact_score": 8
-  },
-  {
-    "title": "Aiarty Image Enhancer facilita la restauración de fotografías antiguas con resultados de apariencia más natural (49 % de descuento en la oferta de aniversario)",
-    "url": "https://photorumors.com/2026/05/23/aiarty-image-enhancer-makes-old-photo-restoration-easier-with-more-natural-looking-results-49-off-anniversary-sale/",
-    "industry": "Software",
-    "summary": "Aiarty Image Enhancer facilita la restauración de fotografías antiguas con resultados de apariencia más natural (49 % de descuento en la oferta de aniversario)",
-    "charlotte_impact": "Herramientas mejoradas como Aiarty aumentan la capacidad de restaurar fotografías e imágenes antiguas. Esto se puede utilizar en muchas industrias.",
+    "title": "¿Por qué Serve Robotics (SERV) es una de las acciones de IA más sobrevendidas?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-serve-robotics-serv-one-130606493.html",
+    "industry": "Robotics",
+    "summary": "Serve Robotics Inc. (NASDAQ:SERV) se ha convertido en una notable acción de sobreventa en el sector de la inteligencia artificial con un aumento implícito del 101,7 % y un RSI de 39,0.",
+    "charlotte_impact": "Esto sugiere que el mercado puede estar infravalorando el potencial a largo plazo de las empresas de robótica en el sector de la IA. Indica que los inversores pueden ver potencial de crecimiento en el futuro.",
     "impact_score": 4
   },
   {
-    "title": "Cómo las pilas de IA están reescribiendo las reglas de los negocios",
-    "url": "https://siliconangle.com/2026/05/23/ai-stacks-rewriting-rules-business/",
-    "industry": "Technology",
-    "summary": "Cómo las pilas de IA están reescribiendo las reglas de los negocios",
-    "charlotte_impact": "El cambio de la informática local al servicio de software cambió el modelo tecnológico.",
+    "title": "Los criptorieles se están convirtiendo en la capa de pago predeterminada para los agentes de IA, según un informe",
+    "url": "https://www.coindesk.com/business/2026/05/21/crypto-rails-are-becoming-the-default-payment-layer-for-ai-agents-report-says",
+    "industry": "Fintech",
+    "summary": "Según un informe, los criptorieles se están convirtiendo en la capa de pago predeterminada para los agentes de IA.  Las monedas estables en blockchain ofrecen micropagos eficientes para transacciones de agentes de IA.",
+    "charlotte_impact": "Este desarrollo podría acelerar la adopción de la tecnología blockchain y las monedas estables en el espacio de la IA. Los sistemas de pago tradicionales luchan con los micropagos, lo que hace que los criptorieles sean una solución más viable para los agentes de inteligencia artificial que participan en numerosas transacciones pequeñas. Esto también podría fomentar el crecimiento de nuevos modelos de negocio habilitados por agentes de IA.",
+    "impact_score": 8
+  },
+  {
+    "title": "Se utiliza IA para resucitar las voces de los pilotos muertos",
+    "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
+    "industry": "Aviation",
+    "summary": "Se está utilizando IA para reconstruir las voces de los pilotos muertos a partir de grabaciones de la cabina, lo que obligó a la NTSB a bloquear temporalmente el acceso a su sistema de expedientes.",
+    "charlotte_impact": "El uso de la IA en este ámbito pone de relieve el arma de doble filo de esta tecnología. Si bien es útil para analizar grabaciones de accidentes, introduce cierto grado de manipulación y posible violación de la privacidad. Se debe considerar un uso y consideración cuidadosos.",
     "impact_score": 6
   },
   {
-    "title": "CM para una gobernanza impulsada por la IA y una resolución de quejas más rápida",
-    "url": "https://timesofindia.indiatimes.com/city/patna/cm-for-ai-driven-governance-faster-grievance-redressal/articleshow/131284455.cms",
-    "industry": "Government",
-    "summary": "CM para una gobernanza impulsada por la IA y una resolución de quejas más rápida",
-    "charlotte_impact": "La IA puede ser transformadora para la gobernanza y brindar mejores servicios a los ciudadanos.",
-    "impact_score": 7
-  },
-  {
-    "title": "Galfar lanza la pavimentación asfáltica con inteligencia artificial",
-    "url": "https://www.omanobserver.om/article/1190093/business/economy/galfar-launches-artificial-intelligence-asphalt-paving",
-    "industry": "Infrastructure",
-    "summary": "Galfar lanza la pavimentación asfáltica con inteligencia artificial",
-    "charlotte_impact": "Al implementar la IA en la pavimentación de asfalto, Galfar podrá ser más preciso, eficiente y ofrecer resultados de mejor calidad.",
-    "impact_score": 7
+    "title": "¿Seguiremos manteniendo los mismos estándares de modelado de almacenes de datos en 2026 con toda esta IA?",
+    "url": "https://www.c-sharpcorner.com/article/are-we-still-keeping-the-same-data-warehouse-modelling-standards-in-2026-with-al/",
+    "industry": "Data Science",
+    "summary": "El modelado de almacenes de datos seguirá siendo crucial en 2026, a pesar de la IA. Los principios básicos permanecen, pero deben evolucionar con capas semánticas, métricas certificadas y gobernanza de datos.",
+    "charlotte_impact": "Esto pone de relieve que los fundamentos de la ciencia de datos, como el modelado de datos, siguen siendo relevantes. Los científicos de datos aún deberían confiar en estos principios, al tiempo que agregan las capacidades que ofrece la IA, como las capas semánticas. Esto creará un proceso de análisis más optimizado.",
+    "impact_score": 6
   }
 ]

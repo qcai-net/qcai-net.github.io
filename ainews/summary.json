@@ -1,154 +1,138 @@
 [
   {
-    "title": "With aluminum prices up 20%, recycling startups bet on AI to cash in",
-    "url": "https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/",
-    "industry": "Recycling",
-    "summary": "Aluminum prices are up 20%, leading recycling startups to leverage AI for improved recovery and creation of a large aluminum supply source.",
-    "charlotte_impact": "AI-driven recycling could significantly reduce the dependence on primary aluminum production, impacting the energy sector (lower energy consumption) and manufacturing industries relying on aluminum (automotive, aerospace, construction) by providing a more sustainable and potentially cheaper source of the metal.",
-    "impact_score": 7
+    "title": "Everyone is navigating AI security in real time \u2014 even Google",
+    "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+    "industry": "AI Security",
+    "summary": "Google and other organizations are actively navigating AI security challenges in real time, highlighting the evolving nature of this critical area. This transition period requires constant vigilance and adaptation to emerging threats and vulnerabilities.",
+    "charlotte_impact": "The real-time nature of AI security means that businesses and organizations need to prioritize continuous monitoring, regular security audits, and employee training programs. Investing in robust security infrastructure will be essential for maintaining trust and preventing costly breaches as AI systems become more integrated into various aspects of operations.",
+    "impact_score": 8
   },
   {
     "title": "How VCs and founders use inflated \u2018ARR\u2019 to crown AI startups",
     "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
-    "industry": "Venture Capital",
-    "summary": "AI startups are reportedly inflating their Annual Recurring Revenue (ARR) figures to attract more funding, with VCs being aware of the practice.",
-    "charlotte_impact": "This highlights the importance of rigorous due diligence in AI investments and raises concerns about a potential AI bubble. Inflated valuations can lead to misallocation of capital and ultimately harm the long-term health of the AI ecosystem, creating distrust among investors.",
-    "impact_score": 6
+    "industry": "AI Funding",
+    "summary": "VCs and founders are leveraging inflated ARR metrics to boost the perceived value of AI startups. Investors are aware of this practice, indicating a need for more rigorous due diligence in the AI funding space.",
+    "charlotte_impact": "The potential for inflated metrics can lead to misallocation of capital and unsustainable growth for AI startups.  A correction in valuations would negatively affect investors holding inflated assets. Prudent investors should prioritize startups with demonstrable, sustainable business models and revenue streams, rather than relying solely on inflated ARR.",
+    "impact_score": 7
   },
   {
     "title": "We tried Google\u2019s AI glasses and they\u2019re almost there",
     "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
-    "industry": "Consumer Electronics",
-    "summary": "Google demoed prototype Android XR glasses powered by Gemini AI that overlay real-time translation, navigation, and information directly into the user's field of view.",
-    "charlotte_impact": "Augmented reality glasses powered by AI have the potential to disrupt multiple industries, including tourism, education, healthcare, and manufacturing. Imagine factory workers with real-time instructions overlaid on their equipment or tourists receiving instant translations of signs.",
-    "impact_score": 8
+    "industry": "Augmented Reality",
+    "summary": "Google's AI glasses prototype, powered by Gemini, overlays translation, navigation, and information directly into the user's field of view.  This technology is nearing a practical, consumer-ready state.",
+    "charlotte_impact": "The development of AI-powered AR glasses has the potential to transform various industries, including tourism, logistics, and field service. Businesses should explore potential applications to enhance productivity, improve customer experiences, and gain a competitive edge. Early adoption and experimentation will be key to capitalizing on this emerging technology.",
+    "impact_score": 7
   },
   {
     "title": "Google is pitching an AI agent ecosystem to consumers who may not buy it",
     "url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
-    "industry": "Consumer Technology",
-    "summary": "Google is introducing an AI agent ecosystem to consumers, but the concept is currently confusing and may not resonate well with users.",
-    "charlotte_impact": "The success of AI agents hinges on user adoption. If consumers find them confusing or lack clear use cases, the potential impact of this technology will be limited. Successful implementation of AI agent technology could transform areas such as customer service, personal assistance, and e-commerce.",
-    "impact_score": 5
+    "industry": "AI Agents",
+    "summary": "Google introduced an AI agent ecosystem for consumers, but its complexity has raised questions about adoption. The potential benefits are significant, but clear communication and intuitive user interfaces are needed.",
+    "charlotte_impact": "The success of AI agent ecosystems depends on their usability and ability to solve real-world problems for consumers. Businesses should focus on developing practical AI agent applications that are easy to understand and integrate into daily workflows, ensuring a seamless user experience.",
+    "impact_score": 6
   },
   {
     "title": "Ferrari is using IBM\u2019s AI to create F1 superfans",
     "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
     "industry": "Sports Entertainment",
-    "summary": "Ferrari is partnering with IBM to use AI to enhance the Formula 1 fan experience.",
-    "charlotte_impact": "AI can personalize content, provide deeper insights into races, and create more engaging experiences for fans. This trend is relevant to other sports and entertainment industries, potentially leading to increased revenue and fan loyalty.",
+    "summary": "Ferrari is collaborating with IBM to utilize AI to create enhanced fan experiences in Formula 1 racing. This technology aims to personalize and deepen fan engagement.",
+    "charlotte_impact": "The use of AI to enhance fan engagement in sports demonstrates the technology's potential for creating more personalized and immersive experiences. Other sports organizations should explore similar applications to attract and retain fans, potentially leading to increased revenue through targeted marketing and interactive content.",
     "impact_score": 5
-  },
-  {
-    "title": "AI is being used to resurrect the voices of dead pilots",
-    "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
-    "industry": "Aviation",
-    "summary": "AI is being used to reconstruct the voices of deceased pilots from cockpit recordings, raising ethical and security concerns. This prompted the NTSB to temporarily block access to its docket system.",
-    "charlotte_impact": "This highlights the ethical implications of AI technology and raises concerns about privacy and potential misuse of personal data. It also emphasizes the need for clear regulations and guidelines regarding the use of AI in sensitive areas.",
-    "impact_score": 7
   },
   {
     "title": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
     "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
     "industry": "Music",
-    "summary": "Spotify and Universal Music Group have reached an agreement allowing premium subscribers to create AI-generated song covers and remixes, with artists receiving a share of the revenue.",
-    "charlotte_impact": "This deal represents a significant step towards legitimizing AI in music creation and opens up new revenue streams for artists. It also raises questions about copyright and the future of music production.",
+    "summary": "Spotify and Universal Music Group have partnered to allow premium subscribers to create AI-generated song covers and remixes. Artists will receive a share of the revenue generated by these creations.",
+    "charlotte_impact": "This collaboration opens up new revenue streams for artists and expands creative possibilities for fans. The music industry could see a surge in AI-generated content, requiring careful management of copyright and intellectual property rights. Further impact will depend on how successfully the platform manages content rights and royalty distribution.",
     "impact_score": 6
   },
   {
     "title": "Trump delays AI security executive order, saying language \u2018could have been a blocker\u2019",
     "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
-    "industry": "Government",
-    "summary": "President Trump delayed signing an executive order on AI security reviews due to dissatisfaction with the language.",
-    "charlotte_impact": "Government regulation plays a crucial role in shaping the responsible development and deployment of AI. The delay highlights the complexities and challenges involved in creating effective AI security policies.",
-    "impact_score": 5
+    "industry": "Government Regulation",
+    "summary": "President Trump delayed signing an AI security executive order due to concerns about its language. This suggests ongoing debate and uncertainty about the appropriate level and type of AI regulation.",
+    "charlotte_impact": "Uncertainty around AI regulation can create challenges for businesses seeking to innovate and deploy AI solutions. It is imperative for business to stay informed of pending regulation and advocate for reasonable policies that support innovation and protect society.",
+    "impact_score": 4
   },
   {
     "title": "Spotify adds AI-powered Q&A and briefing generation features to podcasts",
     "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
     "industry": "Media",
-    "summary": "Spotify is adding AI-powered Q&A and briefing generation features to podcasts, allowing users to generate personalized summaries.",
-    "charlotte_impact": "This feature could increase podcast engagement and discoverability, leading to new opportunities for content creators and advertisers. It also demonstrates the potential for AI to personalize content consumption.",
+    "summary": "Spotify is adding AI-powered Q&A and briefing generation features to podcasts, allowing users to generate custom summaries and insights. This enhances the podcast listening experience and makes content more accessible.",
+    "charlotte_impact": "The integration of AI into podcast platforms has the potential to transform how consumers discover and engage with audio content. Creators can leverage these tools to improve content discoverability and audience engagement, while listeners can save time and access personalized summaries and insights.",
     "impact_score": 5
   },
   {
     "title": "The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy",
     "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
-    "industry": "Healthcare",
-    "summary": "The Path, founded by Tony Robbins and Calm alums, claims its AI model offers safer AI therapy with a high mental health safety benchmark score.",
-    "charlotte_impact": "If proven, safer AI therapy could significantly expand access to mental healthcare, particularly for underserved populations. However, ethical considerations and patient privacy remain crucial concerns.",
-    "impact_score": 8
+    "industry": "Mental Health",
+    "summary": "The Path, founded by Tony Robbins and Calm alums, aims to provide safer AI therapy with a model scoring 95 on the Vera-MH safety benchmark, compared to 65 for consumer bots.",
+    "charlotte_impact": "This advancement in AI-powered mental health platforms has the potential to improve access to mental healthcare services while prioritizing patient safety and ethical considerations. The development of safer and more reliable AI therapy tools may lead to wider adoption of digital mental health solutions and improved outcomes for patients.",
+    "impact_score": 6
   },
   {
     "title": "Hark raises $700M Series A for its secretive \u2018universal\u2019 AI interface",
     "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
     "industry": "AI Infrastructure",
-    "summary": "Hark raised a $700M Series A for its secretive 'universal' AI interface.",
-    "charlotte_impact": "Significant funding for a new AI interface signals investor confidence in the potential of multimodal AI platforms. If successful, Hark's technology could transform how users interact with AI across various devices and services.",
+    "summary": "Hark raised a $700M Series A for its secretive 'universal' AI interface, planning to release multimodal models this summer that power a personal AI platform working across existing products and services.",
+    "charlotte_impact": "A universal AI interface could disrupt numerous industries by seamlessly integrating AI into existing workflows. This substantial funding round shows investor confidence in the potential of a unified AI platform to enhance productivity, personalize experiences, and drive innovation across various sectors. Businesses should monitor Hark's progress and consider how their services might integrate with such a platform.",
     "impact_score": 9
   },
   {
-    "title": "Google Gemini, New Jersey Big Data Alliance, Duke University Data Center, More: ResearchBuzz AI Update, May 23, 2026",
-    "url": "https://researchbuzz.me/2026/05/23/google-gemini-new-jersey-big-data-alliance-duke-university-data-center-more-researchbuzz-ai-update-may-23-2026/",
-    "industry": "Software Engineering",
-    "summary": "A developer claims Google's Gemini AI coding assistant deleted nearly 30,000 lines of working production code.",
-    "charlotte_impact": "This incident demonstrates the potential risks associated with relying too heavily on AI in software development. While AI tools can improve efficiency, human oversight remains essential to prevent unintended consequences, especially in critical systems.",
+    "title": "Navitas Semiconductor NVTS Stock Surges 20% on AI Power Demand and Upgraded Outlook",
+    "url": "https://www.ibtimes.com.au/navitas-semiconductor-shares-surge-ai-demand-1869410",
+    "industry": "Semiconductors",
+    "summary": "Navitas Semiconductor's shares surged nearly 20% due to investor interest in AI data center solutions, with Q1 2026 revenue up 18% and strategic focus on high-power markets.",
+    "charlotte_impact": "The increasing demand for AI data center solutions is driving growth in the semiconductor industry. Companies like Navitas Semiconductor are well-positioned to benefit from this trend, as their high-power products are essential for powering AI infrastructure.  Investors and businesses should monitor semiconductor companies involved in AI data center solutions for potential growth opportunities.",
     "impact_score": 7
   },
   {
-    "title": "IITs reach for global stature amid endowment crunch",
-    "url": "https://economictimes.indiatimes.com/industry/services/education/iits-reach-for-global-stature-amid-endowment-crunch/articleshow/131284938.cms",
-    "industry": "Education",
-    "summary": "IITs are expanding globally despite an endowment crunch.",
-    "charlotte_impact": "IIT's expansion will likely increase the number of AI professionals being developed and also accelerate AI research.",
-    "impact_score": 6
+    "title": "Indonesian official calls algorithm dominance new digital colonialism",
+    "url": "https://en.antaranews.com/news/416844/indonesian-official-calls-algorithm-dominance-new-digital-colonialism",
+    "industry": "Digital Policy",
+    "summary": "An Indonesian official warned of 'new digital colonialism' through algorithm dominance.  This refers to the potential for foreign algorithms to shape local cultures and economies.",
+    "charlotte_impact": "This highlights the importance of developing local AI capabilities and ensuring algorithmic transparency and fairness. Nations need to invest in AI education and research to prevent reliance on foreign technologies and promote cultural and economic sovereignty. Businesses should be sensitive to cultural norms and values when deploying AI solutions in international markets.",
+    "impact_score": 5
   },
   {
-    "title": "More than 340 newspapers block the Wayback Machine. What that means for the future of the internet",
-    "url": "https://freerepublic.com/focus/f-news/4380653/posts",
-    "industry": "Media",
-    "summary": "Over 340 newspapers are blocking the Wayback Machine in a move against AI chatbots.",
-    "charlotte_impact": "This trend highlights the ongoing conflict between news organizations and AI developers regarding copyright and data scraping. The move could potentially limit the accessibility of historical news content for AI training and research.",
-    "impact_score": 6
+    "title": "Tempus AI (TEM) Launches ArteraAI Prostate Test, The First Externally Developed Digital Pathology Algorithm",
+    "url": "https://finance.yahoo.com/sectors/healthcare/articles/tempus-ai-tem-launches-arteraai-130611572.html",
+    "industry": "Healthcare AI",
+    "summary": "Tempus AI (TEM) launched ArteraAI Prostate Test, the first externally developed digital pathology algorithm. Trading is considered an oversold play in the AI sector.",
+    "charlotte_impact": "This launch signifies advancements in AI's role in digital pathology, improving accuracy and speed in diagnoses. Hospitals can use this test to save money on pathologist's time and improve patient care. This launch could push further adoption of AI into Healthcare diagnostics.",
+    "impact_score": 7
   },
   {
-    "title": "37.4% of Berkshire Hathaway's $330 Billion Portfolio Is Parked in 3 Artificial Intelligence (AI) Stocks",
-    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_84fb9563-b7ef-400e-a9d8-7576379885e2",
-    "industry": "Investment",
-    "summary": "37.4% of Berkshire Hathaway's $330 Billion Portfolio Is Parked in 3 Artificial Intelligence (AI) Stocks",
-    "charlotte_impact": "This level of investment by a major player indicates the impact AI will have on business. Also highlights the importance of large players.",
-    "impact_score": 8
-  },
-  {
-    "title": "Aiarty Image Enhancer Makes Old Photo Restoration Easier With More Natural-looking Results (49% OFF Anniversary Sale)",
-    "url": "https://photorumors.com/2026/05/23/aiarty-image-enhancer-makes-old-photo-restoration-easier-with-more-natural-looking-results-49-off-anniversary-sale/",
-    "industry": "Software",
-    "summary": "Aiarty Image Enhancer Makes Old Photo Restoration Easier With More Natural-looking Results (49% OFF Anniversary Sale)",
-    "charlotte_impact": "Improved tools such as Aiarty increases the ability to restore old photographs and images. This can be used across many industries.",
+    "title": "Why Is Serve Robotics (SERV) One Of The Most Oversold AI Stocks?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-serve-robotics-serv-one-130606493.html",
+    "industry": "Robotics",
+    "summary": "Serve Robotics Inc. (NASDAQ:SERV) has emerged as a notable oversold play in the AI sector with an implied upside of 101.7% and an RSI of 39.0.",
+    "charlotte_impact": "This suggests the market may be undervaluing the long-term potential of robotics companies in the AI sector. It indicates that investors may see growth potential in the future.",
     "impact_score": 4
   },
   {
-    "title": "How AI stacks are rewriting the rules of business",
-    "url": "https://siliconangle.com/2026/05/23/ai-stacks-rewriting-rules-business/",
-    "industry": "Technology",
-    "summary": "How AI stacks are rewriting the rules of business",
-    "charlotte_impact": "Changing from in-premises computing to software service changed the technology model.",
+    "title": "Crypto rails are becoming the default payment layer for AI agents, report says",
+    "url": "https://www.coindesk.com/business/2026/05/21/crypto-rails-are-becoming-the-default-payment-layer-for-ai-agents-report-says",
+    "industry": "Fintech",
+    "summary": "Crypto rails are becoming the default payment layer for AI agents, according to a report.  Stablecoins on blockchain offer efficient micropayments for AI agent transactions.",
+    "charlotte_impact": "This development could accelerate the adoption of blockchain technology and stablecoins in the AI space. Traditional payment systems struggle with micropayments, making crypto rails a more viable solution for AI agents engaging in numerous small transactions. This could also foster the growth of new business models enabled by AI agents.",
+    "impact_score": 8
+  },
+  {
+    "title": "AI is being used to resurrect the voices of dead pilots",
+    "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
+    "industry": "Aviation",
+    "summary": "AI is being used to reconstruct the voices of dead pilots from cockpit recordings, forcing the NTSB to temporarily block access to its docket system.",
+    "charlotte_impact": "The use of AI in this area highlights the double-edged sword of this technology. While useful in analyzing crash recordings, it introduces a degree of manipulation and potential violation of privacy. Careful use and consideration must be considered.",
     "impact_score": 6
   },
   {
-    "title": "CM for AI-driven governance & faster grievance redressal",
-    "url": "https://timesofindia.indiatimes.com/city/patna/cm-for-ai-driven-governance-faster-grievance-redressal/articleshow/131284455.cms",
-    "industry": "Government",
-    "summary": "CM for AI-driven governance & faster grievance redressal",
-    "charlotte_impact": "AI can be transformative to governance and provide better services to citizens.",
-    "impact_score": 7
-  },
-  {
-    "title": "Galfar Launches Artificial Intelligence Asphalt Paving",
-    "url": "https://www.omanobserver.om/article/1190093/business/economy/galfar-launches-artificial-intelligence-asphalt-paving",
-    "industry": "Infrastructure",
-    "summary": "Galfar Launches Artificial Intelligence Asphalt Paving",
-    "charlotte_impact": "By implementing AI in asphalt paving, Galfar will be able to be more accurate, efficient, and provide better quality outcomes.",
-    "impact_score": 7
+    "title": "Are we still keeping the same data warehouse modelling standards in 2026 with all this AI?",
+    "url": "https://www.c-sharpcorner.com/article/are-we-still-keeping-the-same-data-warehouse-modelling-standards-in-2026-with-al/",
+    "industry": "Data Science",
+    "summary": "Data warehouse modeling is still crucial in 2026, despite AI. Core principles remain, but must evolve with semantic layers, certified metrics, and data governance.",
+    "charlotte_impact": "This highlights that data science fundamentals, such as data modeling, are still relevant. Data scientists should still rely on these principles, while adding the capabilities that AI offers, such as semantic layers. This will create a more streamlined analysis pipeline.",
+    "impact_score": 6
   }
 ]
