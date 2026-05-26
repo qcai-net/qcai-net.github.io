@@ -2,113 +2,105 @@
   {
     "title": "Everyone is navigating AI security in real time \u2014 even Google",
     "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
-    "industry": "Cybersecurity",
-    "summary": "Even large technology companies like Google are actively navigating the complexities of AI security in real-time, indicating the nascent and evolving nature of the field.",
-    "charlotte_impact": "The recognition that even industry leaders are grappling with AI security underscores the urgent need for companies to invest in robust security measures. This creates opportunities for specialized AI security firms and consultants to provide expertise in risk assessment, threat detection, and incident response. Increased focus on security will increase overall costs, but should improve safety.",
+    "industry": "Technology",
+    "summary": "Google, like other tech companies, is navigating AI security in real-time, indicating the nascent stage of AI security practices and the challenges in securing rapidly evolving AI systems.",
+    "charlotte_impact": "AI security concerns are prompting businesses to invest more in cybersecurity and risk management. This creates business opportunities for security firms, as well as the need for specialized AI security training and education programs for employees across all industries.",
     "impact_score": 8
   },
   {
     "title": "How VCs and founders use inflated \u2018ARR\u2019 to crown AI startups",
     "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
-    "industry": "Venture Capital",
-    "summary": "AI startups are using inflated 'ARR' metrics, with VC awareness, to create hype and secure funding, raising concerns about realistic valuations.",
-    "charlotte_impact": "Inflated metrics in the AI startup space highlight the importance of due diligence for investors and potentially portend a market correction. This could lead to decreased funding for AI ventures that don't meet rigorous financial standards, potentially impacting valuations and the ability to attract top talent.",
-    "impact_score": 7
+    "industry": "Finance, Technology",
+    "summary": "VCs and founders are using inflated ARR metrics to promote AI startups, raising concerns about a potential AI bubble and the validity of valuations in the sector.",
+    "charlotte_impact": "Inflated ARR figures impact investment decisions. Investors in every city should do their due diligence to avoid putting money into shaky companies.",
+    "impact_score": 9
   },
   {
     "title": "We tried Google\u2019s AI glasses and they\u2019re almost there",
     "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
-    "industry": "Consumer Electronics",
-    "summary": "Google's prototype AI glasses, powered by Gemini, are progressing towards practical application, offering features like real-time translation and navigation.",
-    "charlotte_impact": "The advancements in AI glasses signal a growing trend toward ubiquitous computing and augmented reality. This technology could revolutionize various sectors, from tourism and retail to manufacturing and healthcare, by providing hands-free access to information and enhanced user experiences.",
-    "impact_score": 6
+    "industry": "Technology, Consumer Electronics",
+    "summary": "Google's prototype AI glasses, powered by Gemini, offer real-time translation and navigation, showcasing the potential of augmented reality and AI integration in wearable devices.",
+    "charlotte_impact": "AI-powered glasses may revolutionize industries from manufacturing to tourism. For example, tourists could get augmented information while visiting a city's landmarks, like the Mint Museum.",
+    "impact_score": 7
   },
   {
     "title": "The pope\u2019s AI encyclical isn\u2019t really about AI",
     "url": "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/",
-    "industry": "Ethics",
-    "summary": "Pope Leo XIV's encyclical uses AI to highlight pre-existing issues of concentrated power, democratic erosion, and a dominant tech elite.",
-    "charlotte_impact": "The Pope's commentary raises significant ethical concerns about the societal impact of AI. It highlights the need for responsible development and deployment of AI technologies to avoid exacerbating existing inequalities and power imbalances. This reinforces the importance of ethical frameworks and regulations governing AI development.",
+    "industry": "Ethics, Society, Technology",
+    "summary": "Pope Leo XIV's encyclical uses AI as a lens to address broader societal issues like concentrated power, eroding democracy, and the influence of a tech elite.",
+    "charlotte_impact": "The Pope's message can promote a local debate about the ethical implications of AI. Communities should have open forums for discussion and a review of regulations.",
     "impact_score": 7
   },
   {
     "title": "Ferrari is using IBM\u2019s AI to create F1 superfans",
     "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
-    "industry": "Sports & Entertainment",
-    "summary": "Ferrari is using IBM's AI to enhance the F1 fan experience, demonstrating AI's potential in personalized engagement.",
-    "charlotte_impact": "The use of AI to enhance fan engagement in Formula 1 showcases the increasing adoption of AI in the sports and entertainment industry. This can lead to more immersive experiences, personalized content, and data-driven insights that improve marketing and sponsorship opportunities.",
-    "impact_score": 5
-  },
-  {
-    "title": "AI is being used to resurrect the voices of dead pilots",
-    "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
-    "industry": "Aviation & Forensics",
-    "summary": "AI is being used to reconstruct the voices of dead pilots from cockpit recordings, raising ethical concerns and prompting the NTSB to temporarily restrict access.",
-    "charlotte_impact": "The use of AI to reconstruct voices raises complex ethical questions regarding privacy and the use of personal data after death. This case underscores the need for clear guidelines and regulations governing the use of AI in sensitive domains like forensic analysis and data reconstruction.",
+    "industry": "Sports, Entertainment, Technology",
+    "summary": "Ferrari is partnering with IBM to use AI to enhance the Formula 1 fan experience, demonstrating how AI can personalize and enrich entertainment.",
+    "charlotte_impact": "Local sport teams could use AI to create a more immersive in-stadium experience.",
     "impact_score": 6
   },
   {
     "title": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
     "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
-    "industry": "Music",
-    "summary": "Spotify and Universal Music Group are partnering to allow Premium subscribers to create AI-generated song covers and remixes, with revenue sharing for participating artists.",
-    "charlotte_impact": "This partnership marks a significant step in the evolving relationship between AI and the music industry. It opens new avenues for creative expression and revenue generation for artists while also raising questions about copyright and the future of music creation.",
-    "impact_score": 7
+    "industry": "Music, Technology, Entertainment",
+    "summary": "Spotify and Universal Music Group are partnering to allow Premium subscribers to create AI-generated song covers and remixes, with artists receiving revenue share.",
+    "charlotte_impact": "This will impact revenue streams for Charlotte-based music production companies.",
+    "impact_score": 8
   },
   {
     "title": "Trump delays AI security executive order, saying language \u2018could have been a blocker\u2019",
     "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
-    "industry": "Government & Security",
-    "summary": "President Trump delayed signing an executive order requiring pre-release security reviews of AI models, citing concerns about hindering innovation.",
-    "charlotte_impact": "The delay in implementing AI security regulations signals the ongoing tension between promoting innovation and ensuring safety. This can create uncertainty for businesses operating in the AI space and may delay the adoption of standardized security protocols.",
+    "industry": "Government, Technology, Security",
+    "summary": "President Trump delayed an AI security executive order, expressing concerns about its language potentially hindering AI development.",
+    "charlotte_impact": "Policy delays around AI regulation can lead to uncertainty for businesses and investors. Companies might pause investments until the new government is fully aligned on standards.",
     "impact_score": 6
   },
   {
     "title": "Spotify adds AI-powered Q&A and briefing generation features to podcasts",
     "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
-    "industry": "Media",
-    "summary": "Spotify is adding AI-powered Q&A and briefing generation features to podcasts, demonstrating AI's potential to enhance content accessibility and personalization.",
-    "charlotte_impact": "The integration of AI into podcasting highlights the potential for AI to transform media consumption and content creation. AI-powered features can improve accessibility, personalization, and content discovery, leading to increased user engagement and new monetization opportunities.",
+    "industry": "Media, Technology",
+    "summary": "Spotify is adding AI-powered Q&A and briefing generation features to podcasts, indicating a move towards AI-driven content summarization and personalization.",
+    "charlotte_impact": "Local podcasting networks are presented with a new way of interacting with their community. A new layer of AI-driven features can help increase engagement.",
     "impact_score": 5
   },
   {
-    "title": "Saronic Turns Louisiana Shipyard Into Production Hub For Autonomous Naval Vessels",
-    "url": "https://finance.yahoo.com/sectors/technology/articles/saronic-turns-louisiana-shipyard-production-193136549.html",
-    "industry": "Defense",
-    "summary": "Saronic Technologies is transforming a Louisiana shipyard into a production hub for autonomous naval vessels, signaling growth in defense AI.",
-    "charlotte_impact": "The investment in autonomous naval vessel production highlights the growing importance of AI in the defense sector. This trend can create opportunities for specialized manufacturers, software developers, and cybersecurity experts involved in autonomous systems.",
+    "title": "Pope Leo XIV says AI must serve humanity, not the powerful few",
+    "url": "https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/",
+    "industry": "Ethics, Religion, Technology",
+    "summary": "Pope Leo XIV emphasized that AI must serve humanity and not just the powerful few, underscoring the importance of equitable access and ethical considerations in AI development.",
+    "charlotte_impact": "Encourages local organizations to actively participate in discussions about AI ethics and advocate for policies that promote equitable access to AI technologies and training.",
     "impact_score": 7
   },
   {
-    "title": "ECB Convenes Banks to Fix Flaws Exposed by AI Models, FT Says",
-    "url": "https://www.livemint.com/companies/ecb-convenes-banks-to-fix-flaws-exposed-by-ai-models-ft-says-11779648769950.html",
-    "industry": "Finance & Cybersecurity",
-    "summary": "The ECB is urging banks to improve IT security systems due to cybersecurity risks with AI models.",
-    "charlotte_impact": "The ECB's action signals the increasing awareness of cybersecurity risks associated with AI in the financial sector. Banks will need to invest in robust security measures and expertise to protect their systems from AI-related threats, creating opportunities for cybersecurity firms.",
+    "title": "AI Bubble Fears Grow as Big Tech Allegedly Pays Itself in Cloud Loop",
+    "url": "https://beincrypto.com/ai-boom-fake-revenue-bubble/",
+    "industry": "Finance, Technology",
+    "summary": "Fears are growing about an AI bubble, with concerns that Big Tech companies are artificially inflating AI investments and cloud revenue, reminiscent of the dot-com era.",
+    "charlotte_impact": "A local AI 'bubble' could discourage companies from adopting more realistic investment and adoption models. ",
     "impact_score": 8
   },
   {
-    "title": "XAI Building Money Printing AI Data Centers Faster and Cheaper While Others Are Canceled or Delayed",
-    "url": "https://www.nextbigfuture.com/2026/05/xai-building-money-printing-ai-data-centers-faster-and-cheaper-while-others-are-canceled-or-delayed.html",
-    "industry": "Infrastructure",
-    "summary": "XAI is building AI data centers faster and cheaper than competitors, highlighting advantages of speed.",
-    "charlotte_impact": "The efficient construction of AI data centers allows XAI to generate revenue quicker, emphasizing the importance of agility in the data center market. This also puts pressure on other companies to streamline their processes to remain competitive.",
-    "impact_score": 9
+    "title": "The Pope used his first encyclical to warn about tech centralization",
+    "url": "https://werd.io/the-pope-used-his-first-encyclical-to-warn-about-tech-centralization/",
+    "industry": "Ethics, Society, Technology",
+    "summary": "The Pope warned about the dangers of tech centralization, highlighting that concentrated power can lead to opacity, lack of oversight, and increased inequalities.",
+    "charlotte_impact": "It encourages local governments to explore how AI-driven applications can benefit a broader set of organizations, not just the big businesses.",
+    "impact_score": 6
   },
   {
-    "title": "ICAI to set up advanced forensic lab for small, medium practitioners",
-    "url": "https://economictimes.indiatimes.com/news/india/icai-to-set-up-advanced-forensic-lab-for-small-medium-practitioners/articleshow/131296503.cms",
-    "industry": "Finance and Auditing",
-    "summary": "ICAI is establishing an advanced forensic auditing lab in Hyderabad to help small and medium practitioners use AI tools.",
-    "charlotte_impact": "This development is aimed at smaller firms to better equip them for fraudulent activity by empowering them with forensic audit capabilitities.",
+    "title": "AI in Animal Health Market Size is Expected to Reach USD 12.8 Billion by 2035; Growth is Driven by Rapid Adoption of AI Tools for Productivity Pressure Globally | SNS Insider",
+    "url": "https://www.businessupturn.com/brand-post/ai-in-animal-health-market-size-is-expected-to-reach-usd-12-8-billion-by-2035-growth-is-driven-by-rapid-adoption-of-ai-tools-for-productivity-pressure-globally-sns-insider/",
+    "industry": "Healthcare, Animal Health, Technology",
+    "summary": "The AI in Animal Health market is projected to reach $12.8 billion by 2035, driven by increased adoption of AI tools for productivity improvements.",
+    "charlotte_impact": "Local veterinary practices can invest in more effective AI tools to increase care efficiency.",
+    "impact_score": 5
+  },
+  {
+    "title": "Yanik Guillemette Warns Bill C-22 Could Trigger a Major Tech Investment Exodus From Canada",
+    "url": "https://financialpost.com/globe-newswire/yanik-guillemette-warns-bill-c-22-could-trigger-a-major-tech-investment-exodus-from-canada",
+    "industry": "Government, International Relations, Technology",
+    "summary": "Yanik Guillemette warns that Canada's Bill C-22 could cause a major tech investment exodus, due to concerns over cybersecurity regulations.",
+    "charlotte_impact": "Local firms that rely on international employees and trade may experience increased scrutiny. It may cause some of these companies to reduce their foreign exposure.",
     "impact_score": 4
-  },
-  {
-    "title": "99% of CEOs Expect AI-Driven Layoffs in the Next Two Years",
-    "url": "https://gizmodo.com/99-of-ceos-expect-ai-driven-layoffs-in-the-next-two-years-2000762994",
-    "industry": "Business and Employment",
-    "summary": "99% of CEOs are expecting AI-driven layoffs in the next two years.",
-    "charlotte_impact": "This confirms the sentiment that as businesses invest into AI they will look to automate and streamline operations, greatly impacting the size of their workforce.",
-    "impact_score": 8
   }
 ]
