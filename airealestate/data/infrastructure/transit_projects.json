@@ -30820,7 +30820,7 @@
         "Station": "CAR",
         "ProjectName": "Radius Dilworth",
         "ProjectAddress": "615 E Morehead St",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "MIXU",
         "ResidentialUnits": 626,
@@ -35433,7 +35433,7 @@
         "Station": "WDL",
         "ProjectName": "200 Woodlawn Townhomes",
         "ProjectAddress": "200 E WOODLAWN RD",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "TWHM",
         "ResidentialUnits": 194,
@@ -36935,7 +36935,7 @@
         "Station": "MCC",
         "ProjectName": "Union at Tryon",
         "ProjectAddress": "302 Hampton Church Rd.",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "MTF",
         "ResidentialUnits": 200,
@@ -39771,7 +39771,7 @@
         "Station": null,
         "ProjectName": "7th Street Apartments",
         "ProjectAddress": "705 E 7th St",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "MTF",
         "ResidentialUnits": 106,
@@ -50860,7 +50860,7 @@
         "Station": "SUG",
         "ProjectName": "Abernethy Lofts",
         "ProjectAddress": "3934 Raleigh St.",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "MTF",
         "ResidentialUnits": 391,
@@ -52496,14 +52496,14 @@
         "Station": "SCB",
         "ProjectName": "Peterson Drive Condos",
         "ProjectAddress": "319 E PETERSON DR",
-        "Status": "Proposed",
+        "Status": "Under Construction",
         "ProjectType": "NEWC",
         "LandUse": "MTF",
-        "ResidentialUnits": 53,
+        "ResidentialUnits": 49,
         "AffordableUnits": 0,
         "HotelRooms": 0,
         "WalkDistance": 0.45,
-        "EstimtatedCost": 13250000,
+        "EstimtatedCost": 25405200,
         "Completed": null,
         "Developer": null,
         "PublicFacing": null,
@@ -52513,7 +52513,7 @@
         "RetailSqFeet": null,
         "NonResSF": null,
         "DateCompleted": null,
-        "Parking": 55,
+        "Parking": 58,
         "SecCorridor": "BL",
         "Shape.STArea()": 29881.245261808337,
         "Shape.STLength()": 698.297209219586
@@ -53663,7 +53663,7 @@
         "Station": "SUG",
         "ProjectName": "Arris Charlotte",
         "ProjectAddress": "4357 RALEIGH ST",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "MTF",
         "ResidentialUnits": 276,
@@ -53738,7 +53738,7 @@
         "Station": "OLDC",
         "ProjectName": "Central at Old Concord",
         "ProjectAddress": "5707 N TRYON ST",
-        "Status": "Proposed",
+        "Status": "Under Construction",
         "ProjectType": "NEWC",
         "LandUse": "MTF",
         "ResidentialUnits": 200,
@@ -54465,7 +54465,7 @@
         "Station": "7th",
         "ProjectName": "Inlivian Uptown",
         "ProjectAddress": "426 N Tryon St.",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "MTF",
         "ResidentialUnits": 353,
@@ -55195,7 +55195,7 @@
         "Station": "BRH",
         "ProjectName": "Broadstone West End",
         "ProjectAddress": "2198 Wilkinson Bv.",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "MTF",
         "ResidentialUnits": 321,
@@ -57495,6 +57495,157 @@
         "SecCorridor": null,
         "Shape.STArea()": 937518.8592151178,
         "Shape.STLength()": 4101.924222341305
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 553,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.85257545880013,
+              35.23049914057808
+            ],
+            [
+              -80.85407836762565,
+              35.22910522259262
+            ],
+            [
+              -80.85356752041251,
+              35.22876333293425
+            ],
+            [
+              -80.85389942273208,
+              35.228214065004856
+            ],
+            [
+              -80.85339728874553,
+              35.22805691144001
+            ],
+            [
+              -80.85294325183902,
+              35.227797213395206
+            ],
+            [
+              -80.85430329846342,
+              35.22671957116439
+            ],
+            [
+              -80.85413936679197,
+              35.226578379875164
+            ],
+            [
+              -80.85545466395844,
+              35.225426043241505
+            ],
+            [
+              -80.85460359744908,
+              35.22452897283835
+            ],
+            [
+              -80.853350478276,
+              35.22421541483585
+            ],
+            [
+              -80.85311097983906,
+              35.224338955688914
+            ],
+            [
+              -80.85284371587605,
+              35.22435942506513
+            ],
+            [
+              -80.85225745026848,
+              35.22441488058494
+            ],
+            [
+              -80.85172735320683,
+              35.22461450740493
+            ],
+            [
+              -80.8512910381989,
+              35.2249895496913
+            ],
+            [
+              -80.85110150633118,
+              35.22541711132142
+            ],
+            [
+              -80.8510262350585,
+              35.22594709665738
+            ],
+            [
+              -80.85137359167739,
+              35.22654568332711
+            ],
+            [
+              -80.85153781921667,
+              35.22695212448444
+            ],
+            [
+              -80.85146746968672,
+              35.22744618889491
+            ],
+            [
+              -80.85262503658859,
+              35.227902853418236
+            ],
+            [
+              -80.85287925277234,
+              35.22826404891074
+            ],
+            [
+              -80.85230327520395,
+              35.228645548703405
+            ],
+            [
+              -80.85177490097341,
+              35.22911909377509
+            ],
+            [
+              -80.85155332216613,
+              35.229417511206655
+            ],
+            [
+              -80.85142458782904,
+              35.22968806001667
+            ],
+            [
+              -80.85257545880013,
+              35.23049914057808
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 553,
+        "Corridor": "SL",
+        "Station": "MOH",
+        "ProjectName": "Panthers Stadium & Practice Field",
+        "ProjectAddress": "800 S MINT ST",
+        "Status": "Under Construction",
+        "ProjectType": "NEWCR",
+        "LandUse": null,
+        "ResidentialUnits": 0,
+        "AffordableUnits": null,
+        "HotelRooms": null,
+        "WalkDistance": null,
+        "EstimtatedCost": null,
+        "Completed": null,
+        "Developer": null,
+        "PublicFacing": null,
+        "Notes": null,
+        "ImageURL": null,
+        "OfficeSqFeet": null,
+        "RetailSqFeet": null,
+        "NonResSF": null,
+        "DateCompleted": null,
+        "Parking": null,
+        "SecCorridor": null,
+        "Shape.STArea()": 1530473.8283718543,
+        "Shape.STLength()": 6756.012189361004
       }
     }
   ]
