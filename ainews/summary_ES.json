@@ -1,122 +1,98 @@
 [
   {
-    "title": "Esta startup apuesta a que la economía colaborativa de la India puede entrenar a los robots del mundo",
-    "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
-    "industry": "Robotics, Data Collection",
-    "summary": "Human Archive está empleando trabajadores autónomos en India para recopilar datos de capacitación del mundo real para IA y robótica, abordando la necesidad crítica de diversos conjuntos de datos para mejorar la precisión y la aplicación de la IA en entornos físicos.",
-    "charlotte_impact": "Este enfoque representa un cambio significativo en la adquisición de datos de entrenamiento de IA. El modelo de economía colaborativa permite una recopilación de datos rentable y escalable, lo que permite que los modelos de IA comprendan e interactúen mejor con los entornos del mundo real. Esto podría conducir a avances en robótica y automatización en diversas industrias, incluidas la manufactura, la logística e incluso los servicios para el hogar. Al democratizar el acceso a los datos de capacitación en IA, este enfoque podría fomentar la innovación y el espíritu empresarial en los países en desarrollo.",
-    "impact_score": 8
-  },
-  {
-    "title": "Todo el mundo navega por la seguridad de la IA en tiempo real, incluso Google",
-    "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
-    "industry": "AI Security",
-    "summary": "Incluso los gigantes tecnológicos como Google se encuentran en las primeras etapas de cómo afrontar los desafíos de seguridad de la IA, lo que enfatiza la naturaleza incipiente de este campo y la necesidad universal de medidas de seguridad sólidas.",
-    "charlotte_impact": "La seguridad de la IA se está convirtiendo en una preocupación clave para las organizaciones a medida que los sistemas de IA se implementan en contextos empresariales. El desarrollo de una seguridad de IA sólida es un campo en crecimiento que impulsará tanto la investigación como el desarrollo. Las empresas deberán mantenerse ágiles en un panorama en rápida evolución.",
+    "title": "Las instalaciones de DuckDuckGo aumentaron un 30% ya que los usuarios rechazan ser \"alimentados a la fuerza\" con la búsqueda de inteligencia artificial de Google",
+    "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+    "industry": "Search Engines",
+    "summary": "Las instalaciones de DuckDuckGo aumentaron un 30% a medida que los usuarios rechazan los nuevos resultados de búsqueda basados ​​en inteligencia artificial de Google, buscando experiencias de búsqueda más tradicionales y control sobre el consumo de información.",
+    "charlotte_impact": "El alejamiento de la búsqueda dominada por la IA podría crear oportunidades para que plataformas y motores de búsqueda más pequeños y centrados en la privacidad ganen participación de mercado. Esto podría afectar el panorama competitivo de la industria de las búsquedas y desplazar el dinero destinado a publicidad.",
     "impact_score": 7
   },
   {
-    "title": "Cómo los capitalistas de riesgo y los fundadores utilizan un 'ARR' inflado para coronar a las nuevas empresas de IA",
-    "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
-    "industry": "Venture Capital, AI Startups",
-    "summary": "Según se informa, las nuevas empresas de IA están inflando las cifras de ARR (ingresos anuales recurrentes), y las empresas de capital de riesgo son conscientes de esta práctica, lo que podría conducir a decisiones de inversión mal informadas y a una burbuja de valoración insostenible.",
-    "charlotte_impact": "Esta tendencia plantea riesgos para el panorama de inversión en general, lo que podría conducir a valoraciones infladas y correcciones del mercado. Los inversores deben realizar una debida diligencia más rigurosa. El ecosistema de startups de IA debería fomentar la transparencia y la precaución contra los informes agresivos.",
-    "impact_score": 6
+    "title": "Esta startup apuesta a que la economía colaborativa de la India puede entrenar a los robots del mundo",
+    "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
+    "industry": "Robotics/AI Training",
+    "summary": "Human Archive está utilizando la economía colaborativa de la India para recopilar datos de entrenamiento físico del mundo real para laboratorios de IA y robótica, abordando la necesidad crucial de diversos conjuntos de datos en el desarrollo de la IA.",
+    "charlotte_impact": "Esto ilustra la creciente demanda de datos diversos del mundo real para entrenar modelos de IA. Esta tendencia puede expandir aún más la industria de anotación y etiquetado de datos, con un potencial de crecimiento significativo en las economías emergentes que ofrecen mano de obra asequible.",
+    "impact_score": 8
   },
   {
-    "title": "Probamos las gafas con IA de Google y ya casi están ahí",
-    "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
-    "industry": "Augmented Reality, AI",
-    "summary": "Google está desarrollando gafas Android XR que integran traducción y navegación impulsadas por Gemini, mostrando avances en realidad aumentada y el potencial de una superposición perfecta de información impulsada por IA en la vida cotidiana.",
-    "charlotte_impact": "La realidad aumentada ofrece el potencial de transformar industrias al proporcionar datos en tiempo real a los trabajadores y mejorar las experiencias de los clientes. Las industrias que van desde el comercio minorista, los viajes y el ocio hasta la manufactura se verán afectadas.",
+    "title": "China se reserva cada vez más sus mejores talentos en IA",
+    "url": "https://techcrunch.com/2026/05/27/china-is-increasingly-keeping-its-best-ai-talent-to-itself/",
+    "industry": "Talent/Geopolitics",
+    "summary": "China está reteniendo cada vez más a sus mejores talentos en IA, lo que significa un cambio en el dominio global de la IA y posibles implicaciones para la colaboración y la competencia internacionales.",
+    "charlotte_impact": "Esta tendencia intensifica la competencia global por el talento en IA, lo que requiere que otros países y empresas inviertan más en atraer y retener profesionales capacitados. Las empresas también pueden enfrentar mayores desafíos para acceder a la experiencia china en IA.",
     "impact_score": 8
+  },
+  {
+    "title": "YouTube ahora etiquetará automáticamente los vídeos con IA",
+    "url": "https://techcrunch.com/2026/05/27/youtube-will-now-automatically-label-ai-videos/",
+    "industry": "Social Media/Content Moderation",
+    "summary": "YouTube ahora etiquetará automáticamente los vídeos utilizando una importante IA fotorrealista, abordando las preocupaciones sobre la desinformación y la necesidad de una mayor transparencia.",
+    "charlotte_impact": "El movimiento hacia el etiquetado automatizado de contenidos mediante IA probablemente se convertirá en un estándar de la industria para combatir los deepfakes y la desinformación generada por IA. Esto impulsará la demanda de herramientas efectivas de detección de IA y aumentará el escrutinio de las prácticas de moderación de contenido de las plataformas.",
+    "impact_score": 7
+  },
+  {
+    "title": "Robinhood ahora permite a sus agentes de inteligencia artificial negociar acciones",
+    "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+    "industry": "Fintech/AI Agents",
+    "summary": "Robinhood está introduciendo el comercio de acciones basado en agentes de inteligencia artificial, lo que permite a los usuarios automatizar estrategias de inversión y potencialmente democratizar técnicas comerciales sofisticadas.",
+    "charlotte_impact": "El comercio de acciones impulsado por IA podría revolucionar la industria financiera, haciendo que estrategias sofisticadas sean accesibles a más personas. Sin embargo, también plantea preocupaciones sobre el sesgo algorítmico, la manipulación del mercado y la posibilidad de una mayor volatilidad del mercado.",
+    "impact_score": 9
   },
   {
     "title": "Universal Music Group y TikTok renuevan acuerdo para combatir la música no autorizada por IA",
     "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
-    "industry": "Music, AI, Copyright",
-    "summary": "Universal Music Group y TikTok han renovado su acuerdo para combatir la música no autorizada por IA, destacando la batalla en curso contra la infracción de derechos de autor en la era del contenido generado por IA.",
-    "charlotte_impact": "Las industrias de la música y el entretenimiento enfrentan una disrupción significativa debido al contenido generado por IA. Los creadores de contenido y las plataformas necesitan desarrollar marcos para hacer cumplir los derechos de autor y monetizar el contenido generado por IA. El desarrollo y la implementación de soluciones basadas en inteligencia artificial para la protección de los derechos de autor también son áreas de crecimiento.",
+    "industry": "Entertainment/AI Ethics",
+    "summary": "Universal Music Group y TikTok renuevan su acuerdo para combatir la música no autorizada por IA, destacando la lucha en curso para proteger la propiedad intelectual en la era de la IA.",
+    "charlotte_impact": "El acuerdo significa los crecientes desafíos legales y éticos que plantea el contenido generado por IA. Esta tendencia intensificará la necesidad de tecnologías de protección de derechos de autor y autenticación de contenido en todas las industrias creativas.",
     "impact_score": 7
   },
   {
-    "title": "La encíclica del Papa sobre la IA no trata realmente sobre la IA",
-    "url": "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/",
-    "industry": "Ethics, AI Policy",
-    "summary": "La primera encíclica del Papa León XIV utiliza la IA como lente para abordar cuestiones sociales más amplias, como la concentración del poder, la erosión de la democracia y la influencia de una élite tecnológica.",
-    "charlotte_impact": "Esta encíclica destaca la necesidad de consideraciones éticas en el desarrollo y despliegue de la IA. Las organizaciones deberán considerar las implicaciones morales y sociales de la tecnología.",
+    "title": "TeraWulf amplía su cartera de desarrollo en un 36 % con la adquisición de Muskie Data Campus en Kentucky",
+    "url": "https://cryptobriefing.com/terawulf-muskie-data-campus-acquisition/",
+    "industry": "Data Centers/AI Infrastructure",
+    "summary": "TeraWulf amplía su cartera de desarrollo en un 36 % con la adquisición de Muskie Data Campus, lo que indica una creciente inversión en infraestructura para soportar cargas de trabajo de IA.",
+    "charlotte_impact": "La expansión del centro de datos subraya la creciente demanda de potencia informática para respaldar las aplicaciones de IA. Esto beneficia a la industria de los centros de datos e impulsa la innovación en tecnologías de refrigeración, eficiencia energética y gestión de infraestructura.",
     "impact_score": 7
   },
   {
-    "title": "Ferrari está utilizando la IA de IBM para crear superfans de la F1",
-    "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
-    "industry": "Sports, AI, Fan Engagement",
-    "summary": "Ferrari se está asociando con IBM para utilizar la IA para mejorar la experiencia de los fanáticos, demostrando cómo se puede utilizar la IA para personalizar el contenido, proporcionar información en tiempo real y generar un compromiso más profundo con los entusiastas del deporte.",
-    "charlotte_impact": "Esta iniciativa ejemplifica el potencial de la IA para transformar la participación de los aficionados al deporte. Los equipos y organizaciones deportivas pueden aprovechar la IA para ofrecer experiencias personalizadas, mejorar el análisis de los juegos y mejorar los esfuerzos de marketing, lo que en última instancia genera ingresos y fortalece la lealtad a la marca.",
-    "impact_score": 7
-  },
-  {
-    "title": "Se utiliza IA para resucitar las voces de los pilotos muertos",
-    "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
-    "industry": "AI, Audio Restoration, Forensics",
-    "summary": "Se está utilizando IA para reconstruir las voces de pilotos fallecidos a partir de imágenes de espectrogramas de grabaciones de cabina, lo que genera preocupaciones éticas y de seguridad sobre el acceso y la manipulación de datos.",
-    "charlotte_impact": "Este desarrollo tiene implicaciones importantes para varios campos, incluida la investigación de accidentes de aviación, el archivo histórico e incluso la aplicación de la ley. Sin embargo, también plantea preocupaciones sobre la privacidad, la seguridad de los datos y el potencial de uso indebido de las voces generadas por la IA.",
+    "title": "El Papa León XIV advierte a Silicon Valley contra el control de la humanidad mediante inteligencia artificial y algoritmos",
+    "url": "https://www.forbes.com/sites/asia-alexander/2026/05/26/pope-leo-xiv-warns-silicon-valley-against-controlling-humanity-through-ai-and-algorithms/",
+    "industry": "Ethics/Regulation",
+    "summary": "El Papa León XIV advierte a Silicon Valley contra el control de la humanidad a través de la inteligencia artificial y algoritmos, planteando preocupaciones éticas sobre la concentración del poder y el potencial de manipulación.",
+    "charlotte_impact": "El mensaje del Papa amplifica el creciente llamado a un desarrollo y una regulación éticos de la IA. Esto podría influir en las decisiones políticas y las iniciativas de responsabilidad corporativa destinadas a mitigar los daños potenciales de la IA.",
     "impact_score": 6
   },
   {
-    "title": "Spotify y Universal Music llegan a un acuerdo que permite versiones y remezclas de IA creadas por fans",
-    "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
-    "industry": "Music, AI, Licensing",
-    "summary": "Spotify y Universal Music Group han llegado a un acuerdo que permite a los suscriptores Premium crear versiones y remezclas de canciones generadas por IA, y los artistas participantes recibirán una parte de los ingresos, estableciendo un nuevo modelo para la monetización de la música generada por IA.",
-    "charlotte_impact": "Este acuerdo marca un paso significativo hacia el establecimiento de un marco para la concesión de licencias y la monetización de la música generada por IA. Allana el camino para un ecosistema más sostenible y equitativo para artistas y creadores en la era de la IA, al tiempo que abre nuevas vías para la innovación y la expresión creativa.",
+    "title": "¿La IA que tiene gran gusto? Eso es Framehouse",
+    "url": "https://www.prnewswire.com/news-releases/the-ai-that-has-great-taste-thats-framehouse-302781928.html",
+    "industry": "Interior Design/AI Applications",
+    "summary": "Framehouse lanza una plataforma de diseño de interiores basada en inteligencia artificial, que democratiza el acceso a servicios de diseño profesionales y potencialmente revoluciona la industria tradicional del diseño de interiores.",
+    "charlotte_impact": "Las plataformas de diseño impulsadas por IA podrían tener un impacto significativo en la industria del diseño de interiores, reduciendo potencialmente los costos y aumentando la accesibilidad. Podría generar una mayor demanda de muebles y decoración para el hogar a medida que más personas participen en proyectos de diseño.",
+    "impact_score": 6
+  },
+  {
+    "title": "Conclusiones del mensaje del Papa León sobre la inteligencia artificial y su impacto en la humanidad",
+    "url": "https://www.cbsnews.com/video/takeaways-from-pope-leos-message-on-artificial-intelligence-and-its-impact-on-humanity/",
+    "industry": "Ethics/Regulation",
+    "summary": "CBS News analiza el mensaje del Papa León XIV sobre la inteligencia artificial y su impacto en la humanidad, destacando el creciente llamado a directrices éticas y estrategias de mitigación de riesgos.",
+    "charlotte_impact": "Este diálogo continuo sobre la ética de la IA probablemente conducirá a una mayor conciencia y demanda de un desarrollo responsable de la IA. Las empresas deberán priorizar las consideraciones éticas y la transparencia en sus implementaciones de IA.",
+    "impact_score": 6
+  },
+  {
+    "title": "UBS eleva el precio objetivo de Micron Technology a 1.625 dólares, triplicando su estimación anterior",
+    "url": "https://cryptobriefing.com/ubs-micron-price-target-1625/",
+    "industry": "Semiconductors/Finance",
+    "summary": "UBS eleva el precio objetivo de Micron Technology a 1.625 dólares, triplicando su estimación anterior, impulsado por el impacto transformador de la IA en las valoraciones de la tecnología.",
+    "charlotte_impact": "Esto pone de relieve la enorme inversión y las expectativas que rodean el mercado de semiconductores de IA, lo que beneficia directamente a empresas como Micron y otras que producen componentes para sistemas de IA. Demuestra la confianza de la comunidad financiera en el crecimiento sostenido de la IA.",
     "impact_score": 8
   },
   {
-    "title": "Pax Silica: ¿A quién pertenecen los rieles de la civilización de la IA?",
-    "url": "https://www.activistpost.com/pax-silica-who-owns-the-rails-of-the-ai-civilization/",
-    "industry": "Geopolitics, AI Supply Chain",
-    "summary": "Un relato ficticio describe una negociación de alto riesgo entre Estados Unidos y China con respecto a la cadena de suministro de IA, destacando la creciente importancia geopolítica de la infraestructura y los recursos de IA.",
-    "charlotte_impact": "Asegurar el acceso a recursos críticos como semiconductores, elementos de tierras raras y talento capacitado en inteligencia artificial es esencial para mantener la competitividad económica. Esta narrativa subraya la importancia de las alianzas estratégicas y las inversiones en capacidades nacionales de IA para garantizar la estabilidad y el crecimiento a largo plazo.",
-    "impact_score": 7
-  },
-  {
-    "title": "El Papa advierte contra la “deshumanización” en la era de la IA junto a un invitado sorprendente",
-    "url": "https://gizmodo.com/the-pope-warns-against-dehumanization-in-the-ai-era-alongside-an-eyebrow-raising-guest-2000763161",
-    "industry": "Ethics, AI Policy",
-    "summary": "El Papa León XIV advierte contra los efectos de la deshumanización en la era de la IA.",
-    "charlotte_impact": "Esto refuerza la necesidad de consideraciones éticas en el desarrollo y despliegue de la IA. Las organizaciones deberán considerar las implicaciones morales y sociales de la tecnología.",
-    "impact_score": 7
-  },
-  {
-    "title": "Primer vistazo a Ferrari Luce: yendo hacia donde la combustión no puede seguir",
-    "url": "http://electrek.co/2026/05/25/ferrari-luce-first-electric-ferrari-hands-on-rome-launch/",
-    "industry": "Electric Vehicles, Design",
-    "summary": "Ferrari presentó el Luce, su primer vehículo eléctrico.",
-    "charlotte_impact": "La adopción de sistemas de inteligencia artificial para diseñar automóviles podría reducir los requisitos de mano de obra y aumentar la seguridad de los vehículos.",
-    "impact_score": 4
-  },
-  {
-    "title": "El Papa León XIV emite amplias enseñanzas sobre la defensa del valor humano en un mundo que adopta la inteligencia artificial",
-    "url": "https://dailycaller.com/2026/05/25/pope-leo-xiv-issues-magnifica-humanitas-encyclical-upholding-human-dignity-artificial-intelligence-age/",
-    "industry": "Ethics, AI Policy",
-    "summary": "La encíclica del Papa León XIV aborda los impactos de la revolución digital en el mundo moderno y la dignidad humana.",
-    "charlotte_impact": "Esta encíclica destaca la necesidad de consideraciones éticas en el desarrollo y despliegue de la IA. Las organizaciones deberán considerar las implicaciones morales y sociales de la tecnología.",
-    "impact_score": 7
-  },
-  {
-    "title": "DISCULPA POR LA ESCLAVITUD HISTÓRICA",
-    "url": "https://apnews.com/article/pope-apologizes-slavery-role-holy-see-vatican-78df993c5604eb098b19f255b89b3155",
-    "industry": "Ethics, AI Policy",
-    "summary": "El Papa León XIV ha hecho una disculpa histórica por el papel que jugó la Santa Sede en la legitimación de la esclavitud.",
-    "charlotte_impact": "Esta disculpa histórica por la esclavitud resalta la necesidad de transparencia y rendición de cuentas.",
-    "impact_score": 3
-  },
-  {
-    "title": "magnifica-humanitas-mcp agregado a PyPI",
-    "url": "https://pypi.org/project/magnifica-humanitas-mcp/",
-    "industry": "Ethics, AI Policy",
-    "summary": "magnifica-humanitas-mcp agregado a PyPI, servidor MCP para navegar por la encíclica Magnifica Humanitas (Papa León XIV, 2026)",
-    "charlotte_impact": "El servidor MCP facilita la navegación de la encíclica. En la era de la información es necesario un fácil acceso a la documentación.",
-    "impact_score": 5
+    "title": "OKX vincula las evaluaciones de los empleados con el dominio de la IA en una nueva iniciativa",
+    "url": "https://cryptobriefing.com/okx-employee-evaluations-ai-proficiency/",
+    "industry": "Human Resources/AI Proficiency",
+    "summary": "OKX vincula las evaluaciones de los empleados con el dominio de la IA, lo que indica un cambio más amplio de la industria hacia la integración de la IA y destaca la importancia de las habilidades de IA en el lugar de trabajo.",
+    "charlotte_impact": "Esto demuestra la creciente necesidad de habilidades de IA en diversas industrias. Las empresas deberán invertir en programas de formación y desarrollo para dotar a su fuerza laboral de las habilidades de IA necesarias para seguir siendo competitivas.",
+    "impact_score": 9
   }
 ]
