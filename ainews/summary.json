@@ -1,122 +1,162 @@
 [
   {
+    "title": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+    "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+    "industry": "AI, Finance",
+    "summary": "Anthropic has raised $65 billion in a Series H round, pushing its valuation close to $1 trillion, positioning it for a potential IPO.",
+    "charlotte_impact": "Anthropic's massive funding round signals continued investor confidence in the AI sector, driving increased competition and innovation. This level of investment can cascade into other AI startups, creating more demand for AI talent and resources, and ultimately boosting economic activity in regions with a strong AI presence, even if indirect.",
+    "impact_score": 10
+  },
+  {
     "title": "In more good news for Amazon, Snowflake signs $6B deal with AWS for AI CPU chips",
     "url": "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/",
-    "industry": "Cloud Computing, AI Infrastructure",
-    "summary": "Snowflake signed a $6 billion deal with AWS for AI CPU chips, signaling a major investment in AI infrastructure. This move puts pressure on Nvidia and highlights the growing demand for compute power to support AI workloads.",
-    "charlotte_impact": "This multi-billion dollar investment by Snowflake in AWS directly strengthens Amazon's position in the AI compute landscape and indirectly impacts every business using cloud services for AI. It signals a race to increase investments in hardware development across the market. This will likely lead to new entrants in the hardware market looking for venture capital funding.",
+    "industry": "Cloud Computing, AI, Semiconductors",
+    "summary": "Snowflake has committed to a $6 billion deal with AWS to secure AI-focused CPU chips, signaling a shift away from Nvidia and a growing reliance on cloud-based AI infrastructure.",
+    "charlotte_impact": "Snowflake's investment in AWS demonstrates the increasing importance of cloud infrastructure for AI workloads. This trend benefits AWS and other cloud providers, potentially leading to lower costs and increased availability of AI compute resources for businesses of all sizes.",
     "impact_score": 9
+  },
+  {
+    "title": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
+    "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+    "industry": "AI, Consumer Technology",
+    "summary": "Sesame, a conversational AI startup founded by Oculus founders, has launched its iOS app, offering users a more natural and human-like AI interaction.",
+    "charlotte_impact": "Sesame's launch illustrates the ongoing evolution of conversational AI towards more personalized and intuitive interactions. This progress makes AI more accessible and useful for everyday consumers, potentially impacting industries like customer service, education, and entertainment.",
+    "impact_score": 7
+  },
+  {
+    "title": "At TechCrunch Disrupt 2026: Databricks\u2019 co-founder on what kills enterprise AI deals",
+    "url": "https://techcrunch.com/2026/05/28/techcrunch-disrupt-2026-databricks-co-founder-on-what-kills-enterprise-ai-deals/",
+    "industry": "AI, Enterprise Software",
+    "summary": "Databricks' co-founder highlights the shift in enterprise AI adoption, emphasizing safety and broad deployment readiness over mere excitement.",
+    "charlotte_impact": "The focus on AI safety and reliability indicates a maturation of the enterprise AI market. Businesses are now prioritizing governance, security, and explainability, creating demand for AI solutions that address these concerns.",
+    "impact_score": 8
   },
   {
     "title": "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
     "url": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
-    "industry": "Luxury Technology, Enterprise AI",
-    "summary": "Vertu is launching an AI-powered foldable phone targeting CEOs, integrating AI agent workflows and enterprise features with luxury finishes. This shows a trend of AI becoming integrated into premium devices for high-level executives.",
-    "charlotte_impact": "This development signifies that AI is moving beyond software and entering the luxury hardware market. Vertu's strategy underscores the perceived value of AI-driven productivity for C-suite executives and the increasing trend of enterprise-focused AI offerings with a luxury price point.",
-    "impact_score": 7
+    "industry": "Luxury Goods, AI",
+    "summary": "Vertu is launching an AI-powered foldable phone aimed at CEOs, combining luxury finishes with AI-agent workflows and enterprise integrations.",
+    "charlotte_impact": "Vertu's product signals the potential for AI to permeate even high-end luxury markets. While niche, this development showcases the perceived value of AI-powered productivity tools for executives and the willingness to pay a premium for them.",
+    "impact_score": 6
   },
   {
     "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans",
     "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
-    "industry": "Social Media, Subscription Services",
-    "summary": "Meta is launching paid subscription plans for Instagram, Facebook, and WhatsApp, including AI-powered features. This indicates a strategic shift towards diversifying revenue streams and incorporating AI into social media services.",
-    "charlotte_impact": "Meta's subscription model shows one path to monetize AI by offering premium features alongside standard subscriptions. This strategy could be adopted by other social platforms and digital services, shifting user expectations about free vs. paid features and influencing business models.",
+    "industry": "Social Media, AI",
+    "summary": "Meta is launching subscription plans for Instagram, Facebook, and WhatsApp, with future plans for integrating AI-powered features and offerings.",
+    "charlotte_impact": "Meta's move toward subscription models and AI integration reflects the need for sustainable revenue streams and enhanced user experiences. The integration of AI could create new monetization opportunities and value-added services for subscribers.",
+    "impact_score": 8
+  },
+  {
+    "title": "Asana acquires no-code agent-builder Stack AI",
+    "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+    "industry": "AI, Workflow Automation",
+    "summary": "Asana has acquired Stack AI, a no-code agent-builder, to integrate AI capabilities into its workflow management platform.",
+    "charlotte_impact": "Asana's acquisition of Stack AI highlights the growing demand for no-code AI tools that empower businesses to automate tasks and build custom AI workflows without extensive coding expertise.",
     "impact_score": 7
   },
   {
-    "title": "AI coding startup Cognition raises $1B at $25B pre-money valuation",
-    "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
-    "industry": "AI Coding, Venture Capital",
-    "summary": "AI coding startup Cognition raised $1 billion at a $25 billion pre-money valuation, reaching $492 million in annualized revenue run rate. This large funding round demonstrates strong investor confidence in AI-powered coding solutions.",
-    "charlotte_impact": "The significant valuation and funding of Cognition signifies investor appetite for AI-driven development tools. This increased investment will likely fuel further innovation and competition in the AI-assisted software development market, potentially lowering development costs for companies adopting these tools.",
-    "impact_score": 9
+    "title": "Just like gold and oil, we\u2019ll soon be able to trade AI token futures",
+    "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
+    "industry": "Finance, AI",
+    "summary": "Exchanges are developing derivative products around AI tokens, treating them as raw material inputs like electricity or bandwidth.",
+    "charlotte_impact": "The emergence of AI token futures points to the increasing financialization of AI and the recognition of AI compute as a valuable and tradable resource. This development could attract new investors and further fuel growth in the AI sector.",
+    "impact_score": 7
   },
   {
-    "title": "DuckDuckGo installs are up 30% as users reject being \u2018force-fed\u2019 Google\u2019s AI Search",
-    "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
-    "industry": "Search Engines, User Privacy",
-    "summary": "DuckDuckGo installs are up 30% as users reject Google's AI-driven search overhaul. This suggests growing user concerns about AI's impact on search results and privacy.",
-    "charlotte_impact": "This highlights a potential backlash against AI-driven search results, emphasizing the importance of user choice and privacy in AI applications. The market share increase demonstrates that users value alternatives to the AI-driven services of tech monopolies and are willing to migrate to smaller businesses that more closely allign with consumer needs.",
-    "impact_score": 7
+    "title": "YouTube adds new podcast features, including an AI recommendation tool and \u2018Auto speed\u2019",
+    "url": "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/",
+    "industry": "Media, AI",
+    "summary": "YouTube is adding new podcast features, including an AI recommendation tool and 'Auto speed,' to enhance user experience and compete with other podcast platforms.",
+    "charlotte_impact": "YouTube's investment in AI-powered podcast features reflects the growing importance of AI for content discovery and personalization. AI recommendations can drive engagement and user retention, leading to increased ad revenue for the platform.",
+    "impact_score": 6
   },
   {
     "title": "Has the hunt for AI compute uncovered the next Cerebras?",
     "url": "https://techcrunch.com/2026/05/28/has-the-hunt-for-ai-compute-uncovered-the-next-cerebras/",
-    "industry": "Semiconductors, AI Compute",
-    "summary": "General Compute is betting that SambaNova will be the next major chipmaker. This reflects the ongoing demand and competition in the AI compute hardware market.",
-    "charlotte_impact": "This implies a diversification in AI compute resources, beyond the traditionally dominant players. Success by SambaNova would indicate a more distributed landscape of computing power across the chip manufacturing market which would help to reduce the cost of compute for businesses.",
-    "impact_score": 6
-  },
-  {
-    "title": "China is increasingly keeping its best AI talent to itself",
-    "url": "https://techcrunch.com/2026/05/27/china-is-increasingly-keeping-its-best-ai-talent-to-itself/",
-    "industry": "AI Talent, Geopolitics",
-    "summary": "China is increasingly retaining its best AI talent domestically. This highlights the growing importance of AI in national competitiveness and the strategic measures taken to secure AI expertise.",
-    "charlotte_impact": "China's retention of AI talent underscores the global competition for AI dominance. This can lead to increased competition among companies in the US and China, with companies in the US needing to more aggressively retain talent.",
-    "impact_score": 8
-  },
-  {
-    "title": "YouTube will now automatically label AI videos",
-    "url": "https://techcrunch.com/2026/05/27/youtube-will-now-automatically-label-ai-videos/",
-    "industry": "Content Moderation, AI Ethics",
-    "summary": "YouTube will automatically label videos using significant photorealistic AI, aiming to improve transparency. This signifies a step towards responsible AI content management.",
-    "charlotte_impact": "The move to automate the labeling process will likely increase user trust in platform-generated content. It can set a precedent for other platforms, encouraging greater accountability and transparency surrounding AI-generated media.",
-    "impact_score": 6
-  },
-  {
-    "title": "Tech CEOs are apparently suffering from AI psychosis",
-    "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/",
-    "industry": "Business Leadership, AI Adoption",
-    "summary": "Tech CEOs are reportedly suffering from 'AI psychosis,' exhibiting overly optimistic beliefs in AI's productivity gains. This raises concerns about realistic expectations and strategic decision-making around AI adoption.",
-    "charlotte_impact": "This phenomenon, if true, could lead to misallocation of resources, over-investment in AI projects with limited returns, and unrealistic expectations about its impact on productivity. A more balanced approach to AI adoption, grounded in realistic assessments, will be important for long-term success.",
-    "impact_score": 5
-  },
-  {
-    "title": "Robinhood now lets your AI agents trade stocks",
-    "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
-    "industry": "Financial Services, AI Agents",
-    "summary": "Robinhood now allows AI agents to trade stocks on behalf of users. This represents a significant step toward autonomous AI systems in finance.",
-    "charlotte_impact": "Allowing AI agents to trade stocks represents a potentially high-risk, high-reward application of AI. It can lead to new investment strategies, increased market efficiency, and wider access to automated trading tools but also exposes the risk of unforeseen consequences and market volatility.",
-    "impact_score": 8
-  },
-  {
-    "title": "DartPoints Acquires Lexington, Kentucky Data Center Campus to Support AI, Neo-Cloud, Hyperscale, and Enterprise Demand",
-    "url": "https://www.prnewswire.com/news-releases/dartpoints-acquires-lexington-kentucky-data-center-campus-to-support-ai-neo-cloud-hyperscale-and-enterprise-demand-302782916.html",
-    "industry": "Data Centers, AI Infrastructure",
-    "summary": "DartPoints acquired a data center campus in Lexington, Kentucky, to support AI, neo-cloud, hyperscale, and enterprise demand. This further illustrates the growing need for data center infrastructure to support AI workloads.",
-    "charlotte_impact": "This acquisition indicates a continued demand for expanded data center capacity, directly driven by the increasing computational needs of AI applications. This could stimulate local economies through job creation and increased investment in infrastructure.",
+    "industry": "Semiconductors, AI",
+    "summary": "General Compute is betting that SambaNova will be the next breakout chipmaker in the AI compute space, potentially challenging established players.",
+    "charlotte_impact": "Increased competition in the AI chip market could lead to lower prices and greater innovation. This would benefit businesses seeking to deploy AI solutions by providing more affordable and diverse hardware options.",
     "impact_score": 7
   },
   {
-    "title": "ResVR Launches AI-Powered Assistant to Transform How Buyers Design and Purchase Homes",
-    "url": "https://financialpost.com/globe-newswire/resvr-launches-ai-powered-assistant-to-transform-how-buyers-design-and-purchase-homes",
-    "industry": "Real Estate, AI Assistants",
-    "summary": "ResVR launched an AI-powered assistant to transform how buyers design and purchase homes. This signifies the application of AI in providing personalized and accessible home-buying experiences.",
-    "charlotte_impact": "This signals an increasing trend of using AI to streamline complex processes like home design and purchase. The use of AI can accelerate decision-making, make the process more transparent, and allow for personalized service and design.",
-    "impact_score": 6
-  },
-  {
-    "title": "Robinhood launches AI stock trading, purchases on credit cards",
-    "url": "https://financialpost.com/investing/robinhood-launches-ai-stock-trading",
-    "industry": "Financial Services, AI Trading",
-    "summary": "Robinhood launches AI stock trading, enabling customers to direct AI agents to trade equities and make purchases on credit cards. This expands the accessibility and use cases of AI in the financial sector.",
-    "charlotte_impact": "The increased role of AI-based platforms in managing finances may reduce jobs in traditional financial advisory firms. This increased access will make financial services more accessible but also creates a new risk factor of algorithmic bias and consumer over-reliance on the platform.",
+    "title": "Snowflake soars 30% on earnings beat and plan to spend $6 billion on Amazon cloud",
+    "url": "https://www.cnbc.com/2026/05/27/snowflake-amazon-graviton-cloud-chips.html",
+    "industry": "Cloud Computing, AI",
+    "summary": "Snowflake's earnings beat and plan to spend $6 billion on Amazon cloud, utilizing AWS's Arm-based Graviton chips, has led to a significant stock increase.",
+    "charlotte_impact": "Snowflake's commitment to AWS and Graviton chips showcases the performance and cost benefits of ARM-based processors for AI workloads. This validates AWS's investments in custom silicon and could encourage other companies to explore alternative chip architectures.",
     "impact_score": 8
   },
   {
-    "title": "Micron Technology Shares Surge Past $925 on AI Memory Boom and Upgraded Price Targets",
-    "url": "https://www.ibtimes.com.au/micron-technology-stock-soars-ai-demand-1869549",
-    "industry": "Semiconductors, AI Infrastructure",
-    "summary": "Micron Technology's shares surged due to strong AI infrastructure demand, pushing its market cap towards $1 trillion. This illustrates the crucial role of memory technology in AI data centers.",
-    "charlotte_impact": "This demonstrates the significant economic impact of the AI boom on semiconductor manufacturers and their supply chains. It fuels increased innovation and further investment in memory technologies, benefiting companies and consumers alike.",
+    "title": "Debt Collectors Are Being Replaced With AI Agents",
+    "url": "https://futurism.com/artificial-intelligence/debt-collectors-replaced-ai-agents",
+    "industry": "Finance, AI",
+    "summary": "Debt collectors are increasingly being replaced by AI agents, automating collection processes and potentially reducing costs.",
+    "charlotte_impact": "The adoption of AI in debt collection could lead to greater efficiency and cost savings for collection agencies. However, it also raises ethical concerns about fairness, transparency, and the potential for bias in automated decision-making.",
+    "impact_score": 6
+  },
+  {
+    "title": "Stocks are rallying despite the Iran war and stubborn inflation. Here's why.",
+    "url": "https://www.cbsnews.com/news/stock-market-high-nvidia-ai-economic-divide/",
+    "industry": "Finance, Economics",
+    "summary": "Stocks are rallying despite inflation and geopolitical concerns, driven in part by the performance of AI-related companies like Nvidia.",
+    "charlotte_impact": "The stock market's resilience and the strong performance of AI companies like Nvidia highlight the economic impact of AI. The growth of the AI sector is contributing to overall market growth, even amidst broader economic uncertainties.",
+    "impact_score": 7
+  },
+  {
+    "title": "The AI Bubble",
+    "url": "https://nooneshappy.com/article/the-ai-bubble/",
+    "industry": "Finance, AI",
+    "summary": "The AI buildout is the largest capital expenditure in the history of the technology industry.",
+    "charlotte_impact": "The high-level of capital expenditure on the AI buildout has wide-ranging positive and negative impacts. Positively, the buildout is creating jobs, boosting demand for resources, and driving innovation. Negatively, misallocation of capital may occur with the market at risk of a bubble.",
     "impact_score": 8
   },
   {
-    "title": "AI Feature Film 'Dreams of Violet' to Premiere at Tribeca",
-    "url": "http://www.hollywoodreporter.com/movies/movie-news/ai-film-dreams-of-violet-tribeca-premiere-1236606092/",
-    "industry": "Film, AI Content Creation",
-    "summary": "The AI feature film 'Dreams of Violet' will premiere at Tribeca, showcasing the potential of AI in filmmaking. This event underscores the disruptive potential of AI in the creative industries.",
-    "charlotte_impact": "The premiere of an AI-generated feature film will catalyze debate about the future of creativity, artistic ownership, and the role of human artists. It could open new avenues for independent filmmakers to create content with limited budgets, yet raises significant ethical and professional concerns for creative professionals.",
+    "title": "The AI Fight Brewing Inside the New York Times",
+    "url": "https://news.slashdot.org/story/26/05/27/1946203/the-ai-fight-brewing-inside-the-new-york-times",
+    "industry": "Media, AI",
+    "summary": "The New York Times is internally debating the use of AI in its newsroom, reflecting the broader industry discussions around AI adoption and ethical considerations.",
+    "charlotte_impact": "The debate within the New York Times highlights the challenges and opportunities of integrating AI into journalism. News organizations are grappling with questions about accuracy, bias, and the impact of AI on human journalists.",
     "impact_score": 6
+  },
+  {
+    "title": "The challenges of prepping World Cup pitches with a hybrid of artificial and natural turf",
+    "url": "https://www.npr.org/2026/05/27/nx-s1-5770546/the-challenges-of-prepping-world-cup-pitches-with-a-hybrid-of-artificial-and-natural-turf",
+    "industry": "Sports, AI",
+    "summary": "FIFA requires a hybrid of natural and artificial grass for the World Cup pitches.",
+    "charlotte_impact": "The growth of the AI sector is contributing to overall market growth, even amidst broader economic uncertainties. This is in part due to more efficient preparation of resources through artificial turf prep.",
+    "impact_score": 4
+  },
+  {
+    "title": "Dow, S&P 500 and Nasdaq close at fresh records for first time together in 2026",
+    "url": "https://cryptobriefing.com/dow-sp500-nasdaq-fresh-records-2026/",
+    "industry": "Finance, Crypto",
+    "summary": "Dow, S&P 500 and Nasdaq close at fresh records for first time together in 2026. The synchronized record highs of major indexes suggest a robust, tech-driven market rally, potentially boosting investor confidence and crypto flows.",
+    "charlotte_impact": "These results indicate positive growth in the technology sector with the market at risk of a bubble.",
+    "impact_score": 7
+  },
+  {
+    "title": "Why Google\u2019s AI can\u2019t spell Google (or anything else)",
+    "url": "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/",
+    "industry": "AI, Search Engines",
+    "summary": "Google's AI can't spell Google (or anything else), raising concerns about the reliability of AI systems.",
+    "charlotte_impact": "Highlights need for better training and model development in the AI space, but potentially raises the bar to entry for the sector overall.",
+    "impact_score": 4
+  },
+  {
+    "title": "Zscaler tanks 31% for worst day ever on 'prudent' guidance, sales shakeup",
+    "url": "https://www.cnbc.com/2026/05/27/zscaler-zs-earnings-q3-2026.html",
+    "industry": "Cyber Security",
+    "summary": "Zscaler tanks 31% for worst day ever on 'prudent' guidance, sales shakeup",
+    "charlotte_impact": "Demonstrates difficulties in the cyber security and AI market overall. If Zscaler's product can not meet customer needs, then other entrants may falter also.",
+    "impact_score": 4
+  },
+  {
+    "title": "Where the heck have I been all this time?",
+    "url": "https://www.cringely.com/2026/05/27/where-the-heck-have-i-been-all-this-time/",
+    "industry": "AI, Legal",
+    "summary": "Writer uses AI to write legal documents and finds it is efficient and profitable",
+    "charlotte_impact": "Illustrates how AI models can improve efficiencies across various different sectors.",
+    "impact_score": 4
   }
 ]
