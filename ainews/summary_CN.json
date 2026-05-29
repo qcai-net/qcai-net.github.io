@@ -1,162 +1,122 @@
 [
   {
-    "title": "Anthropic 融资 650 亿美元，IPO 前估值接近 1T 美元",
-    "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
-    "industry": "Venture Capital, AI Model Development",
-    "summary": "Anthropic 在 H 轮融资中筹集了 650 亿美元巨额资金，使其估值在潜在 IPO 之前接近 1 万亿美元。这标志着投资者对 Anthropic 的人工智能模型及其在人工智能市场中的潜力充满信心。",
-    "charlotte_impact": "Anthropic 的巨额融资可能会推动进一步的研发和扩张，有可能创造更多专业化的就业机会，并与需要先进人工智能模型的公司建立合作伙伴关系。领先人工智能开发商的资本激增为其他人工智能初创公司树立了很高的基准，并可能影响整个行业的未来投资趋势。",
-    "impact_score": 10
+    "title": "据报道，在 Nvidia 完成 200 亿美元非收购聘用后，AI 芯片初创公司 Groq 筹集了 6.5 亿美元",
+    "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-aqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+    "industry": "Semiconductors",
+    "summary": "据报道，芯片制造商 Groq 正在融资 6.5 亿美元，将其重点从硬件转向人工智能推理，这表明其战略重点是应对市场需求和竞争。",
+    "charlotte_impact": "Groq 的转变凸显了人工智能市场不断变化的需求，从原始计算能力转向优化推理。这一趋势可能会加速更高效的人工智能应用的开发，使依赖快速、准确的人工智能响应的行业受益，例如金融科技、医疗诊断和实时物流。",
+    "impact_score": 8
   },
   {
-    "title": "对于亚马逊来说，更多好消息是 Snowflake 与 AWS 签署了 60 亿美元的 AI CPU 芯片协议",
-    "url": "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/",
-    "industry": "Cloud Computing, AI Infrastructure, Semiconductor",
-    "summary": "Snowflake 与 AWS 签署了价值 60 亿美元的 AI CPU 芯片协议，这表明其采取了战略举措，以确保 AI 工作负载所需的资源。该协议凸显了人工智能基础设施领域的激烈竞争以及云提供商在促进人工智能发展方面的重要性。",
-    "charlotte_impact": "Snowflake 对 AWS 芯片的 60 亿美元投资凸显出，虽然 Nvidia 备受关注，但其他 CPU 制造商与人工智能热潮密切相关。对于 Snowflake 用户，期望他们能够在雪花实例中利用最先进的人工智能技术，从而提高效率和创新。",
+    "title": "随着 AI 预算削减成为其主要卖点，Glean 的营收突破 3 亿美元",
+    "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+    "industry": "Enterprise Software",
+    "summary": "企业人工智能搜索初创公司 Glean 的年收入增加了两倍，凸显了对提高效率并降低企业运营成本的人工智能解决方案的需求不断增长。",
+    "charlotte_impact": "Glean 的成功反映了对人工智能驱动的解决方案的更广泛需求，这些解决方案可以简化信息访问并提高组织内的生产力。这一趋势可能会激励公司采用人工智能驱动的搜索技术，从而改善决策、降低运营成本并提高员工满意度。",
+    "impact_score": 7
+  },
+  {
+    "title": "Anthropic 融资 650 亿美元，IPO 前估值接近 1T 美元",
+    "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+    "industry": "Artificial Intelligence",
+    "summary": "Anthropic 在 H 轮融资中筹集了 650 亿美元，使公司估值接近 1 万亿美元，这表明投资者对生成人工智能和大型语言模型的潜力充满信心。",
+    "charlotte_impact": "Anthropic 的巨额融资凸显了人工智能的巨大经济潜力及其吸引大量投资的能力。这种资本注入可能会加速人工智能技术的创新，创造新的商机并改变金融、医疗保健和教育等各个行业。",
     "impact_score": 9
   },
   {
     "title": "这家芯片初创公司刚刚筹集了 1.35 亿美元资金，押注人工智能最大的瓶颈不是计算，而是内存",
     "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
-    "industry": "Semiconductor, AI Hardware",
-    "summary": "韩国芯片初创公司 XCENA 获得 1.35 亿美元融资，估值为 5.7 亿美元，前提是内存是人工智能的真正瓶颈。这表明人们越来越意识到需要专门的内存解决方案来支持人工智能工作负载。",
-    "charlotte_impact": "XCENA 的方法承认并解决了人工智能中的内存问题，其解决方案的成功实施和商业化可以显着提高各行业人工智能系统的性能和效率。此次融资表明投资者看到了内存的重要性，并且这个市场将增加对专用硬件和内存解决方案的需求。",
-    "impact_score": 9
+    "industry": "Semiconductors",
+    "summary": "韩国芯片初创公司 XCENA 已融资 1.35 亿美元，重点关注内存作为 AI 开发的关键瓶颈，这表明投资转向以内存为中心的 AI 解决方案。",
+    "charlotte_impact": "XCENA 的资金凸显了内存解决方案在释放人工智能全部潜力方面的重要性。这一趋势可能会导致更高效、更强大的人工智能系统的开发，从而可能彻底改变依赖数据密集型人工智能应用的行业，例如自动驾驶汽车、个性化医疗和高频交易。",
+    "impact_score": 8
   },
   {
     "title": "在 TechCrunch Disrupt 2026 上：Databricks 联合创始人谈什么扼杀了企业人工智能交易",
     "url": "https://techcrunch.com/2026/05/28/techcrunch-disrupt-2026-databricks-co-founder-on-what-kills-enterprise-ai-deals/",
-    "industry": "Enterprise AI",
-    "summary": "Databricks 的联合创始人在 TechCrunch Disrupt 2026 上强调，企业现在关注的是人工智能的安全性和广泛的可部署性，而不仅仅是其潜力。这一转变标志着企业人工智能市场日趋成熟，优先考虑可靠性和治理。",
-    "charlotte_impact": "这种转变反映了对可信赖和负责任地扩展的人工智能解决方案的更广泛需求。在将人工智能解决方案部署到基础设施中时，企业开始考虑数据安全、监管问题和模型偏差。",
-    "impact_score": 8
+    "industry": "Enterprise Software",
+    "summary": "Databricks 的联合创始人讨论了企业人工智能评估的转变，从兴奋转向关注安全性和广泛部署的可行性，这表明市场日趋成熟，越来越重视负责任的人工智能实施。",
+    "charlotte_impact": "人工智能向优先考虑安全和负责任部署的转变表明，人们越来越意识到与人工智能技术相关的潜在风险。这可能会导致对人工智能治理框架、道德准则和风险缓解策略的需求增加，以确保人工智能的部署方式有利于社会并最大限度地减少伤害。",
+    "impact_score": 7
   },
   {
-    "title": "Vertu 希望首席执行官能够通过起价 6,880 美元的人工智能折叠屏来运营公司",
-    "url": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
-    "industry": "Luxury Tech, AI Agents",
-    "summary": "Vertu 正在发布一款面向首席执行官的支持人工智能的可折叠手机，将人工智能代理工作流程和企业集成集成到豪华设备中。这表明人工智能有可能嵌入到高端设备中，用于专门的专业用例。",
-    "charlotte_impact": "虽然 Vertu 的产品比较小众，但它展示了人工智能代理日益融入日常工作流程，预示着人工智能助理在未来将成为专业人士的司空见惯。尽管这一特殊产品是高端产品，但预计这一概念将在未来几年渗透到更实惠的技术中。",
+    "title": "当公司过于依赖人工智能时会发生什么？",
+    "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+    "industry": "Business Operations",
+    "summary": "公司变得过于依赖人工智能，可能导致裁员并忽视人类角色的细微差别，引发人们对人工智能驱动的自动化的道德影响的担忧。",
+    "charlotte_impact": "过度依赖人工智能而不考虑人类技能和经验的价值可能会导致工作岗位流失和员工士气下降。这种情况可能会引发社会动荡和经济不稳定，促使政府和企业采取政策，促进负责任的人工智能采用并优先考虑劳动力再培训。",
     "impact_score": 6
   },
   {
-    "title": "Modiqo 筹集了 300 万美元的种子前资金，帮助人工智能代理通过 Rote 学习",
-    "url": "https://siliconangle.com/2026/05/28/modiqo-raises-3m-pre-seed-funding-help-ai-agents-learn-rote/",
-    "industry": "Agentic AI, Infrastructure",
-    "summary": "Modiqo 筹集了 300 万美元的种子前资金，帮助 AI 代理死记硬背地学习，旨在将 AI 代理从实验系统过渡到生产就绪系统。这笔资金支持了对强大基础设施的迫切需求，以有效扩展和管理人工智能代理。",
-    "charlotte_impact": "Modiqo 的方法可实现更高效、可扩展的 AI 代理部署，这对于寻求自动化复杂任务的企业至关重要。这也提高了希望在其组织中部署人工智能代理的企业和初创公司的竞争力。",
+    "title": "Cognition 的 Scott Wu 表示人工智能编码代理不应取代人类",
+    "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+    "industry": "Artificial Intelligence",
+    "summary": "Cognition 的 Scott Wu 强调人工智能编码代理应该增强而不是取代人类程序员，强调了人机协作在软件开发中的重要性。",
+    "charlotte_impact": "吴的观点反映了越来越多的共识，即人工智能应该用来增强人类的能力，而不是完全取代人类。这可能会导致教育和培训领域发生转变，重点发展与人工智能相辅相成的技能，例如创造力、批判性思维和解决复杂问题的能力。",
     "impact_score": 7
   },
   {
     "title": "Asana 收购无代码代理构建器 StackAI",
     "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
-    "industry": "Workflow Automation, No-Code AI",
-    "summary": "Asana 收购了无代码代理构建器 StackAI，这标志着工作流程自动化平台内人工智能开发民主化的推动。此次收购简化了企业创建人工智能驱动的工作流程的过程，而无需丰富的编码知识。",
-    "charlotte_impact": "此次收购标志着一种转变，即让商业环境中的非技术用户更容易使用人工智能。通过集成 StackAI，Asana 可以为用户提供构建和部署人工智能驱动的工作流程的能力，而无需广泛的编码知识，从而提高生产力和效率。",
+    "industry": "Enterprise Software",
+    "summary": "Asana 收购了无代码代理构建器 StackAI，将 AI 工作流程工具集成到其平台中，这表明了简化 AI 开发和非技术用户可访问性的趋势。",
+    "charlotte_impact": "Asana 收购 StackAI 意味着非技术用户能够创建人工智能驱动的工作流程，从而实现人工智能开发民主化。这可能会导致各行业更多地采用人工智能，使企业能够自动化任务、提高效率并增强客户体验。",
     "impact_score": 7
   },
   {
     "title": "就像黄金和石油一样，我们很快就能交易人工智能代币期货",
     "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
-    "industry": "Finance, AI Investment",
-    "summary": "交易所正在围绕人工智能代币开发衍生产品，将其视为类似于电力或带宽的原材料输入。这标志着人工智能投资进入了一个新阶段，市场参与和投机有可能增加。",
-    "charlotte_impact": "AI代币期货的推出标志着AI作为可投资资产类别的成熟。通过将人工智能视为原材料投入，投资者无需直接投资特定公司即可了解人工智能行业的增长。这可能会导致流入人工智能领域的资本增加。",
-    "impact_score": 7
-  },
-  {
-    "title": "对人工智能计算的探索是否已经发现了下一个 Cerebras？",
-    "url": "https://techcrunch.com/2026/05/28/has-the-hunt-for-ai-compute-uncovered-the-next-cerebras/",
-    "industry": "Semiconductor, AI Compute",
-    "summary": "General Compute 押注 SambaNova 将成为人工智能计算领域下一个突破性的芯片制造商。这反映了半导体行业持续的竞争和创新，各公司努力满足对人工智能处理能力不断增长的需求。",
-    "charlotte_impact": "SambaNova 的成功可以减少该行业对少数主要参与者的依赖，从而培育一个更加多元化和更具竞争力的市场。预计这一赌注将为市场带来更多创新并降低人工智能芯片解决方案的成本。",
-    "impact_score": 7
-  },
-  {
-    "title": "Servicecall.com 推出全美最大的人工智能房地产智能平台，覆盖 1.26 亿美国家庭的 3.5 亿多条许可证记录",
-    "url": "https://www.globenewswire.com/news-release/2026/05/28/3302978/0/en/Servicecall-com-Launches-Nation-s-Largest-AI-Powered-Property-Intelligence-Platform-Covering-350-Million-Permit-Records-Across-126-Million-U-S-Homes.html",
-    "industry": "Real Estate, AI Data",
-    "summary": "Servicecall.com 推出了一个由人工智能驱动的房产智能平台，涵盖 1.26 亿美国家庭的 3.5 亿多条许可证记录。该平台利用人工智能提供对房地产数据的详细洞察，从而为建筑和家居服务做出明智的决策。",
-    "charlotte_impact": "通过提供全面的财产情报，Servicecall.com 使企业能够做出数据驱动的决策、提高效率并降低风险。此外，房地产价值评估和潜在增长领域的识别也是人工智能将进一步渗透的领域，从而创造市场效率。",
-    "impact_score": 7
-  },
-  {
-    "title": "随着 AI 预算削减成为其主要卖点，Glean 的营收突破 3 亿美元",
-    "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
-    "industry": "Enterprise Search, AI",
-    "summary": "由于企业寻求使用人工智能驱动的搜索来削减预算，Glean 的营收超过了 3 亿美元。这凸显了人工智能在提高组织内部效率和降低成本方面的价值主张。",
-    "charlotte_impact": "Glean 通过利用人工智能降低开支的能力向其他公司展示了人工智能如何改善他们的业务。",
+    "industry": "Finance",
+    "summary": "大型交易所正在围绕人工智能代币设计衍生产品，这表明人们越来越认识到人工智能作为一种宝贵资源以及新资产类别的出现。",
+    "charlotte_impact": "AI代币期货的推出标志着人工智能金融化迈出了重要一步，有可能吸引机构投资者并增加人工智能市场的流动性。这可能会带来更多的人工智能技术创新和投资，推动人工智能领域的进一步增长。",
     "impact_score": 6
   },
   {
-    "title": "Oculus 创始人创立的对话式人工智能初创公司 Sesame 推出 iOS 应用",
-    "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
-    "industry": "Conversational AI, Mobile Apps",
-    "summary": "Sesame 是 Oculus 创始人创立的对话式人工智能初创公司，推出了 iOS 应用程序，提供更自然、更人性化的交互。此次发布标志着人工智能助手在让消费者更容易使用和参与方面向前迈出了一步。",
-    "charlotte_impact": "Sesame 的应用程序的推出增加了对话式人工智能的采用，并使其能够更自然地融入用户的生活。",
-    "impact_score": 5
+    "title": "SpaceX 和 SpaceXAI 正在迅速变化。了解利润和增长以及 IPO 价格走势",
+    "url": "https://www.nextbigfuture.com/2026/05/spacex-and-spacexai-are-changing-quickly-understanding-profits-and-growth-and-ipo-price-action.html",
+    "industry": "Artificial Intelligence",
+    "summary": "分析 Anthropic 与 SpaceX 的交易对 SpaceX IPO 定价和交易的财务影响，强调人工智能和其他科技行业的相互关联性。",
+    "charlotte_impact": "Anthropic的人工智能能力与SpaceX的太空探索和卫星通信技术的整合，展示了人工智能与其他行业之间的潜在协同效应。这可能会导致太空探索、电信和其他领域的新突破，产生重大的经济机会。",
+    "impact_score": 7
   },
   {
-    "title": "YouTube 增加了新的播客功能，包括人工智能推荐工具和“自动速度”",
-    "url": "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/",
-    "industry": "Media, AI Application",
-    "summary": "YouTube 增加了新的播客功能，包括人工智能推荐工具和“自动速度”，展示了将人工智能融入内容交付和改善用户体验的持续努力。",
-    "charlotte_impact": "人工智能支持的功能的增加将帮助人们找到播客并增加 YouTube 平台的使用。",
-    "impact_score": 4
+    "title": "不断增长的人工智能支出使 FinOps 成为董事会战略家",
+    "url": "https://siliconangle.com/2026/05/28/finops-ai-spending-boardroom-strategy-finopsx/",
+    "industry": "Finance",
+    "summary": "不断增长的人工智能支出正在将 FinOps 转变为董事会的战略优先事项，突显公司需要有效管理和优化其人工智能投资。",
+    "charlotte_impact": "FinOps 在人工智能时代日益重要，反映出企业需要采取战略方法来管理其人工智能投资。这可能会导致对 FinOps 专业人员和工具的需求增加，使公司能够优化其人工智能支出、最大化投资回报率并推动业务增长。",
+    "impact_score": 7
   },
   {
-    "title": "MCG 和 Telligen 将在 AHIP26 上分享关于现代化利用管理的真实人工智能见解",
-    "url": "https://www.prnewswire.com/news-releases/mcg-and-telligen-to-share-real-world-ai-insights-for-modernizing-utilization-management-at-ahip26-302784202.html",
-    "industry": "Healthcare, AI",
-    "summary": "MCG 和 Telligen 将在 AHIP26 上分享人工智能在利用管理中的见解，重点是保持临床严谨性和人工监督。这凸显了在医疗保健等敏感领域实施负责任的人工智能的重要性。",
-    "charlotte_impact": "表明负责任地使用人工智能来管理临床严谨性是多么重要。",
-    "impact_score": 4
+    "title": "万斯透露了他对人工智能崛起的最大恐惧：“永远不要屈服于它”",
+    "url": "https://dailycaller.com/2026/05/28/jd-vance-fear-rise-ai-never-submit-air-force/",
+    "industry": "Government & Defense",
+    "summary": "万斯警告不要在战争中盲目屈服于人工智能，并强调人类道德判断在关键决策场景中的重要性。",
+    "charlotte_impact": "万斯的警告强调了在战争中使用人工智能所带来的伦理挑战，引发了人们对可能产生意想不到的后果和人类控制力受到侵蚀的担忧。这可能会导致对人工智能武器系统的更多审查，并更加重视为其部署制定道德准则。",
+    "impact_score": 6
   },
   {
-    "title": "Computex 2026 预览：亚洲最大科技展上我们期待的 9 大亮点",
-    "url": "https://uk.pcmag.com/processors/165195/computex-2026-preview-9-big-reveals-we-expect-at-asias-largest-tech-show",
-    "industry": "Technology, Consumer Electronics",
-    "summary": "Computex 2026 将重点关注“AI Together”，AMD、英特尔和 Nvidia 预计将发布重大成果。这强化了人工智能在未来计算和消费电子产品中的核心作用。",
-    "charlotte_impact": "展示了人工智能对未来计算的重要性。",
-    "impact_score": 4
+    "title": "太阳能公司 Nextpower 通过电池交易满足人工智能的电力需求",
+    "url": "https://financialpost.com/pmn/business-pmn/solar-company-nextpower-eyes-ais-power-needs-with-battery-deal",
+    "industry": "Energy",
+    "summary": "Nextpower收购Prevalon Energy是为了解决AI数据中心的电力需求，这表明AI行业对储能解决方案的需求不断增长。",
+    "charlotte_impact": "Nextpower 对 Prevalon Energy 的收购凸显了对为人工智能数据中心供电的可靠和可持续能源的需求不断增长。这可能会导致对太阳能和风能等可再生能源技术以及能源存储解决方案的更大投资，从而有助于减少人工智能行业的碳足迹。",
+    "impact_score": 7
   },
   {
-    "title": "MQ-28 幽灵蝙蝠现已在美国飞行",
-    "url": "https://theaviationist.com/2026/05/28/the-mq-28-ghost-bat-is-now-flying-in-the-u-s/",
-    "industry": "Defense, AI Application",
-    "summary": "波音公司证实，MQ-28 Ghost Bat（一种自主无人机）目前正在美国飞行，这表明用于防御目的的人工智能航空系统取得了进步。",
-    "charlotte_impact": "人工智能无人机的部署可能会重新定义军事行动。",
-    "impact_score": 5
+    "title": "IBM 和红帽推出价值 50 亿美元的 Lightwell 项目以提高开源安全性",
+    "url": "https://siliconangle.com/2026/05/28/ibm-red-hat-launch-5b-project-lightwell-boost-open-source-security/",
+    "industry": "Cybersecurity",
+    "summary": "IBM 和红帽推出 50 亿美元的 Lightwell 项目来增强开源安全性，强调保护许多人工智能系统构建基础的重要性。",
+    "charlotte_impact": "IBM 和红帽的 Lightwell 项目表明人们越来越认识到保护许多人工智能系统基础的开源软件的必要性。这可能会导致网络安全研究和开发的投资增加，有助于减轻与开源代码漏洞相关的风险，并确保人工智能应用程序的完整性。",
+    "impact_score": 8
   },
   {
-    "title": "为什么谷歌的人工智能无法拼写Google（或其他任何东西）",
-    "url": "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/",
-    "industry": "AI Critique, Language Models",
-    "summary": "对谷歌人工智能的批评凸显了拼写准确性问题，揭示了当前语言模型的潜在缺陷。这提醒人们注意开发强大的人工智能系统的局限性和挑战。",
-    "charlotte_impact": "提醒人们质量对于人工智能技术的重要性。",
-    "impact_score": 3
-  },
-  {
-    "title": "Dataknox Solutions 的“作为企业买家驾驭卖方市场”为管理当今 IT 硬件供应限制提供了指导",
-    "url": "https://www.prnewswire.com/news-releases/dataknox-solutions-navigating-a-sellers-market-as-an-enterprise-buyer-provides-guidance-on-managing-todays-it-hardware-supply-constraints-302784253.html",
-    "industry": "IT Infrastructure, Supply Chain",
-    "summary": "Dataknox Solutions 发布了有关解决 IT 硬件供应限制的指南，强调了为人工智能和其他 IT 项目采购必要基础设施所面临的挑战。这反映了影响科技行业的持续全球供应链问题。",
-    "charlotte_impact": "非常适合在卖方市场中驾驭供应链的企业可以利用其他企业的需求来获得收入。",
-    "impact_score": 3
-  },
-  {
-    "title": "小米 17T 系列手机采用徕卡技术和全新 5 倍摄像头",
-    "url": "https://petapixel.com/2026/05/28/xiaomis-17t-series-phones-feature-leica-tech-and-a-new-5x-camera/",
-    "industry": "Mobile Technology, AI Imaging",
-    "summary": "小米 17T 系列手机采用徕卡技术和全新 5 倍摄像头，表明先进成像技术正在移动设备中不断集成。这延续了人工智能改进移动相机功能的趋势。",
-    "charlotte_impact": "提高人工智能移动摄像头的质量意味着企业和用户可以利用手机中的技术做更多事情。",
-    "impact_score": 3
-  },
-  {
-    "title": "总统人工智能挑战赛中的 4-H 青年进步",
-    "url": "https://www.globenewswire.com/news-release/2026/05/28/3302987/0/en/4-H-Youth-Advance-in-Presidential-AI-Challenge.html",
-    "industry": "Education, AI Literacy",
-    "summary": "4-H 青年在总统人工智能挑战赛中取得进步，展示了人工智能教育对子孙后代的重要性。这凸显了培养年轻人人工智能素养和技能的必要性。",
-    "charlotte_impact": "可见人工智能教育对于子孙后代的重要性。",
-    "impact_score": 3
+    "title": "国会进步核心小组推动人工智能税来资助就业计划",
+    "url": "https://www.breitbart.com/tech/2026/05/28/congressional-progressive-caucus-pushes-for-ai-tax-to-fund-jobs-program/",
+    "industry": "Government & Economy",
+    "summary": "国会进步核心小组正在提议征收人工智能税来资助就业计划，这意味着对人工智能驱动的就业岗位流失可能采取政策回应。",
+    "charlotte_impact": "拟议的人工智能税反映出人们越来越担心人工智能可能会加剧收入不平等并导致失业。这可能会促使政府考虑各种政策干预措施，例如再培训计划、全民基本收入和人工智能部署法规，以减轻人工智能的负面社会和经济后果。",
+    "impact_score": 6
   }
 ]
