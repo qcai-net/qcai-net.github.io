@@ -1,122 +1,138 @@
 [
   {
-    "title": "After Nvidia\u2019s $20B not-aqui-hire, AI chip startup Groq reportedly raising $650M",
-    "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-aqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
-    "industry": "Semiconductors",
-    "summary": "Chipmaker Groq is reportedly raising $650 million to shift its focus from hardware to AI inference, indicating a strategic pivot in response to market demands and competition.",
-    "charlotte_impact": "Groq's shift underscores the evolving demands of the AI market, moving beyond raw computing power to optimized inference. This trend could accelerate the development of more efficient AI applications, benefiting industries relying on rapid, accurate AI responses, such as fintech, healthcare diagnostics, and real-time logistics.",
-    "impact_score": 8
+    "title": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+    "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+    "industry": "AI Infrastructure",
+    "summary": "Anthropic has raised a massive $65 billion in a Series H funding round, valuing the company at nearly $1 trillion, signaling its readiness for a highly anticipated IPO. The funding will likely be used to further develop and scale their AI models, competing directly with OpenAI and Google.",
+    "charlotte_impact": "This signals continued intense competition between the major AI model providers. The vast capital influx into Anthropic will likely spur further investment and talent acquisition across the entire AI ecosystem, impacting companies developing AI solutions and applications.",
+    "impact_score": 10
+  },
+  {
+    "title": "After Nvidia\u2019s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+    "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+    "industry": "AI Chips",
+    "summary": "After allegedly turning down a $20B acquisition offer from Nvidia, AI chip startup Groq is reportedly raising $650 million in internal funding to pivot from hardware to focus on AI inference. This signifies a shift in strategy towards optimizing the way AI models respond to prompts.",
+    "charlotte_impact": "Groq's pivot highlights the growing importance of inference in AI. Companies that can optimize AI models' responses will be highly valued. Investment will shift to the optimization layer of the AI value chain.",
+    "impact_score": 9
   },
   {
     "title": "Glean\u2019s top line crosses $300M as AI budget cutting becomes its major selling point",
     "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
-    "industry": "Enterprise Software",
-    "summary": "Glean, an enterprise AI search startup, has tripled its annual revenue, highlighting the increasing demand for AI solutions that improve efficiency and reduce operational costs for businesses.",
-    "charlotte_impact": "Glean's success reflects a broader need for AI-powered solutions that streamline information access and enhance productivity within organizations. This trend could incentivize companies to adopt AI-driven search technologies, leading to improved decision-making, reduced operational costs, and enhanced employee satisfaction.",
-    "impact_score": 7
-  },
-  {
-    "title": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
-    "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
-    "industry": "Artificial Intelligence",
-    "summary": "Anthropic has raised $65 billion in a Series H round, valuing the company near $1 trillion, signaling strong investor confidence in the potential of generative AI and large language models.",
-    "charlotte_impact": "Anthropic's massive funding round underscores the significant economic potential of AI and its ability to attract substantial investment. This infusion of capital could lead to accelerated innovation in AI technologies, potentially creating new business opportunities and transforming various industries, like finance, healthcare, and education.",
-    "impact_score": 9
+    "industry": "Enterprise AI",
+    "summary": "Glean, an enterprise AI search startup, has tripled its annual revenue, crossing $300 million, as companies increasingly seek AI solutions for budget optimization. This demonstrates a growing demand for AI tools that improve efficiency and reduce operational costs.",
+    "charlotte_impact": "Glean's success is indicative of a broader trend of enterprises prioritizing AI tools that directly impact the bottom line. This will accelerate the adoption of AI-powered search and knowledge management solutions across industries, as cost cutting pressures remain.",
+    "impact_score": 8
   },
   {
     "title": "This chip startup just raised $135M on a bet that AI\u2019s biggest bottleneck isn\u2019t compute \u2014 it\u2019s memory",
     "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
-    "industry": "Semiconductors",
-    "summary": "XCENA, a South Korean chip startup, has raised $135 million, focusing on memory as a critical bottleneck in AI development, suggesting a shift in investment towards memory-centric AI solutions.",
-    "charlotte_impact": "XCENA's funding highlights the importance of memory solutions in unlocking the full potential of AI. This trend could lead to the development of more efficient and powerful AI systems, potentially revolutionizing industries that rely on data-intensive AI applications, such as autonomous vehicles, personalized medicine, and high-frequency trading.",
+    "industry": "AI Chips",
+    "summary": "XCENA, a South Korean chip startup, has raised $135 million, betting that AI's biggest bottleneck is memory, not compute power. This reflects a growing awareness of the importance of memory efficiency in optimizing AI performance and reducing energy consumption.",
+    "charlotte_impact": "This investment underscores the critical role of memory in unlocking the full potential of AI. The development of more efficient and faster memory solutions will be essential for supporting increasingly complex AI models and applications.",
     "impact_score": 8
-  },
-  {
-    "title": "At TechCrunch Disrupt 2026: Databricks\u2019 co-founder on what kills enterprise AI deals",
-    "url": "https://techcrunch.com/2026/05/28/techcrunch-disrupt-2026-databricks-co-founder-on-what-kills-enterprise-ai-deals/",
-    "industry": "Enterprise Software",
-    "summary": "Databricks' co-founder discusses the shift in enterprise AI evaluation, moving from excitement to a focus on safety and broad deployment feasibility, indicating a maturing market with increasing emphasis on responsible AI implementation.",
-    "charlotte_impact": "The shift towards prioritizing safety and responsible deployment of AI suggests a growing awareness of the potential risks associated with AI technologies. This could lead to increased demand for AI governance frameworks, ethical guidelines, and risk mitigation strategies, ensuring that AI is deployed in a way that benefits society and minimizes harm.",
-    "impact_score": 7
   },
   {
     "title": "What happens when companies become too AI-pilled?",
     "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
-    "industry": "Business Operations",
-    "summary": "Companies are becoming too reliant on AI, potentially leading to layoffs and overlooking the nuances of human roles, raising concerns about the ethical implications of AI-driven automation.",
-    "charlotte_impact": "Over-reliance on AI without considering the value of human skills and experience could lead to job displacement and reduced employee morale. This situation could trigger social unrest and economic instability, prompting governments and businesses to adopt policies that promote responsible AI adoption and prioritize workforce retraining.",
-    "impact_score": 6
+    "industry": "AI Ethics",
+    "summary": "Box founder Aaron Levie warns of 'AI psychosis,' where companies overestimate AI's capabilities, potentially leading to poorly informed decisions, like mass layoffs. ClickUp recently cut 22% of its workforce because of AI agents, and tech layoffs are nearly matching 2025 numbers.",
+    "charlotte_impact": "The risk of 'AI psychosis' highlights the need for a balanced and pragmatic approach to AI adoption. Organizations need to carefully assess the true capabilities and limitations of AI before making drastic changes to their workforce or business processes.",
+    "impact_score": 7
   },
   {
     "title": "Cognition\u2019s Scott Wu says AI coding agents shouldn\u2019t replace humans",
     "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
-    "industry": "Artificial Intelligence",
-    "summary": "Cognition's Scott Wu emphasizes that AI coding agents should augment, not replace, human programmers, underscoring the importance of human-AI collaboration in software development.",
-    "charlotte_impact": "Wu's perspective reflects a growing consensus that AI should be used to enhance human capabilities rather than replace them entirely. This could lead to a shift in the education and training sectors, focusing on developing skills that complement AI, such as creativity, critical thinking, and complex problem-solving.",
+    "industry": "AI Agents",
+    "summary": "Cognition's Scott Wu, creator of the Devin AI coding agent, emphasizes that AI coding agents are designed to augment, not replace, human programmers. This underscores the importance of human-AI collaboration in software development.",
+    "charlotte_impact": "Wu's statement reaffirms the idea that AI is not an end-all-be-all replacement for labor, but instead an augmentation. The narrative of replacing human labor in software development is untrue, highlighting the importance of the synergy between AI tools and engineers.",
     "impact_score": 7
   },
   {
     "title": "Asana acquires no-code agent-builder StackAI",
     "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
-    "industry": "Enterprise Software",
-    "summary": "Asana acquires no-code agent-builder StackAI, integrating AI workflow tools into its platform, suggesting a trend towards simplified AI development and accessibility for non-technical users.",
-    "charlotte_impact": "Asana's acquisition of StackAI signifies a move towards democratizing AI development by empowering non-technical users to create AI-powered workflows. This could lead to increased adoption of AI across various industries, enabling businesses to automate tasks, improve efficiency, and enhance customer experiences.",
+    "industry": "Enterprise AI",
+    "summary": "Asana acquires no-code agent-builder StackAI to integrate it into its AI workflow tools. This highlights a growing trend of companies incorporating no-code AI platforms to democratize access to AI development and automation.",
+    "charlotte_impact": "This shows a trend in making AI tools easier to access and more user friendly. It shows the shift from a reliance on AI development by experts to democratization and adoption by enterprises with little development knowledge.",
     "impact_score": 7
   },
   {
     "title": "Just like gold and oil, we\u2019ll soon be able to trade AI token futures",
     "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
-    "industry": "Finance",
-    "summary": "Large exchanges are designing derivative products around AI tokens, indicating a growing recognition of AI as a valuable resource and the emergence of a new asset class.",
-    "charlotte_impact": "The introduction of AI token futures marks a significant step towards the financialization of AI, potentially attracting institutional investors and increasing liquidity in the AI market. This could lead to greater innovation and investment in AI technologies, driving further growth in the AI sector.",
+    "industry": "AI Investment",
+    "summary": "Large exchanges are designing derivative products around AI tokens, which are increasingly viewed as a raw material input. This marks a significant step toward mainstream financialization of AI as a commodity.",
+    "charlotte_impact": "The emergence of AI token futures could create new investment opportunities and further legitimize AI as an asset class. It also raises questions about the potential volatility and speculative risks associated with trading AI-related derivatives.",
+    "impact_score": 7
+  },
+  {
+    "title": "Coders are refusing to work without AI\u00a0\u2014\u00a0and that could come back to bite them",
+    "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+    "industry": "Software Development",
+    "summary": "Coders are increasingly reluctant to work without AI assistance, but researchers warn that AI-generated code might not always be high-quality. This raises concerns about the potential for long-term technical debt and maintainability issues.",
+    "charlotte_impact": "It is important that engineers ensure quality when using AI to generate code. If code quality is not ensured, it could result in long term technical debt and maintainability issues.",
     "impact_score": 6
   },
   {
-    "title": "SpaceX and SpaceXAI Are Changing Quickly. Understanding Profits and Growth and IPO Price Action",
-    "url": "https://www.nextbigfuture.com/2026/05/spacex-and-spacexai-are-changing-quickly-understanding-profits-and-growth-and-ipo-price-action.html",
-    "industry": "Artificial Intelligence",
-    "summary": "Analysis of the financial implications of Anthropic's deal with SpaceX on SpaceX's IPO pricing and trading, highlighting the interlinked nature of AI and other tech sectors.",
-    "charlotte_impact": "The integration of Anthropic's AI capabilities with SpaceX's space exploration and satellite communication technologies demonstrates the potential synergies between AI and other industries. This could lead to new breakthroughs in space exploration, telecommunications, and other fields, generating significant economic opportunities.",
-    "impact_score": 7
-  },
-  {
-    "title": "Rising AI spend turns FinOps into a boardroom strategist",
-    "url": "https://siliconangle.com/2026/05/28/finops-ai-spending-boardroom-strategy-finopsx/",
-    "industry": "Finance",
-    "summary": "Rising AI spending is turning FinOps into a strategic boardroom priority, underscoring the need for companies to effectively manage and optimize their AI investments.",
-    "charlotte_impact": "The increasing importance of FinOps in the age of AI reflects the need for businesses to adopt a strategic approach to managing their AI investments. This could lead to increased demand for FinOps professionals and tools, enabling companies to optimize their AI spending, maximize ROI, and drive business growth.",
-    "impact_score": 7
-  },
-  {
-    "title": "Vance Reveals His Biggest Fear About The Rise Of AI: \u2018Never Submit To It\u2019",
-    "url": "https://dailycaller.com/2026/05/28/jd-vance-fear-rise-ai-never-submit-air-force/",
-    "industry": "Government & Defense",
-    "summary": "Vance warns against blindly submitting to AI in warfare, emphasizing the importance of human moral judgment in critical decision-making scenarios.",
-    "charlotte_impact": "Vance's warning highlights the ethical challenges associated with the use of AI in warfare, raising concerns about the potential for unintended consequences and the erosion of human control. This could lead to increased scrutiny of AI-powered weapons systems and a greater emphasis on developing ethical guidelines for their deployment.",
+    "title": "Digital Transformation in Healthcare Market to Hit USD 340 Billion by 2035 Amid AI and Telehealth Expansion \u2013 SNS Insider",
+    "url": "https://www.globenewswire.com/news-release/2026/05/29/3303521/0/en/Digital-Transformation-in-Healthcare-Market-to-Hit-USD-340-Billion-by-2035-Amid-AI-and-Telehealth-Expansion-SNS-Insider.html",
+    "industry": "Healthcare",
+    "summary": "The digital transformation in the healthcare market is projected to reach USD 340 billion by 2035, driven by AI and telehealth expansion. The U.S. market is expected to reach USD 99.5 billion by 2035, with Europe reaching USD 87.42 billion.",
+    "charlotte_impact": "This report suggests a massive investment by the global healthcare industry on AI. Companies and startups involved in AI clinical workflows and interoperability initiatives will be highly valued.",
     "impact_score": 6
   },
   {
-    "title": "Solar Company Nextpower Eyes AI\u2019s Power Needs With Battery Deal",
-    "url": "https://financialpost.com/pmn/business-pmn/solar-company-nextpower-eyes-ais-power-needs-with-battery-deal",
-    "industry": "Energy",
-    "summary": "Nextpower acquires Prevalon Energy to address the power needs of AI data centers, indicating the growing demand for energy storage solutions in the AI industry.",
-    "charlotte_impact": "Nextpower's acquisition of Prevalon Energy underscores the increasing demand for reliable and sustainable energy sources to power AI data centers. This could lead to greater investment in renewable energy technologies, such as solar and wind, as well as energy storage solutions, helping to reduce the carbon footprint of the AI industry.",
-    "impact_score": 7
+    "title": "ZenaTech to Pursue New Investment Opportunities Connected with the Department of War and Office of Strategic Capital Following Reports of Engagement with U.S. Drone Makers",
+    "url": "https://financialpost.com/globe-newswire/zenatech-to-pursue-new-investment-opportunities-connected-with-the-department-of-war-and-office-of-strategic-capital-following-reports-of-engagement-with-u-s-drone-makers",
+    "industry": "Defense",
+    "summary": "ZenaTech is pursuing new investment opportunities related to the Department of War and Office of Strategic Capital following engagement with U.S. drone makers. They specialize in AI drones, enterprise SaaS, and DaaS.",
+    "charlotte_impact": "This trend highlights the increasing role of AI in military and defense applications. It opens investment in related fields in the tech industry. Drone and SaaS technology for military uses will grow exponentially in value.",
+    "impact_score": 6
   },
   {
-    "title": "IBM, Red Hat launch $5B Project Lightwell to boost open-source security",
-    "url": "https://siliconangle.com/2026/05/28/ibm-red-hat-launch-5b-project-lightwell-boost-open-source-security/",
+    "title": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
+    "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+    "industry": "AI Agents",
+    "summary": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app, aiming to provide more natural and human-like conversational experiences. This shows a move toward making AI agents more accessible and user-friendly for the general public.",
+    "charlotte_impact": "This marks a step toward the commoditization of advanced chatbot technology. As these technologies get better at emulating human interaction, their applications in customer support, sales and marketing will increase.",
+    "impact_score": 5
+  },
+  {
+    "title": "Does your CEO have AI psychosis?\u00a0Aaron Levie thinks most of them\u00a0do.",
+    "url": "https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/",
+    "industry": "AI Ethics",
+    "summary": "Aaron Levie, founder of Box, suggests that many CEOs suffer from 'AI psychosis,' leading to overreliance on AI and poor decision-making. The need for balance with human oversight is essential.",
+    "charlotte_impact": "The discussion around 'AI psychosis' emphasizes the importance of critical thinking and careful evaluation of AI's limitations when integrating it into strategic business decisions.",
+    "impact_score": 5
+  },
+  {
+    "title": "New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
+    "url": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
     "industry": "Cybersecurity",
-    "summary": "IBM and Red Hat launch $5B Project Lightwell to enhance open-source security, emphasizing the importance of securing the foundation upon which many AI systems are built.",
-    "charlotte_impact": "IBM and Red Hat's Project Lightwell signifies a growing recognition of the need to secure the open-source software that underlies many AI systems. This could lead to increased investment in cybersecurity research and development, helping to mitigate the risks associated with vulnerabilities in open-source code and ensure the integrity of AI applications.",
-    "impact_score": 8
+    "summary": "A Russian-linked threat actor dubbed GREYVIBE has been targeting Ukraine with AI-powered cyberattacks since August 2025. This shows the growing sophistication of cyber warfare with use of AI.",
+    "charlotte_impact": "Cybersecurity is no longer a nice to have, but an essential requirement for all levels of software. GREYVIBE highlights the importance of constant iteration and a focus on ensuring security. Companies and organizations will begin to invest in AI to defend against AI.",
+    "impact_score": 5
   },
   {
-    "title": "Congressional Progressive Caucus Pushes for AI Tax to Fund Jobs Program",
-    "url": "https://www.breitbart.com/tech/2026/05/28/congressional-progressive-caucus-pushes-for-ai-tax-to-fund-jobs-program/",
-    "industry": "Government & Economy",
-    "summary": "The Congressional Progressive Caucus is proposing an AI tax to fund jobs programs, signifying a potential policy response to AI-driven job displacement.",
-    "charlotte_impact": "The proposed AI tax reflects a growing concern about the potential for AI to exacerbate income inequality and lead to job losses. This could prompt governments to consider various policy interventions, such as retraining programs, universal basic income, and regulations on AI deployment, to mitigate the negative social and economic consequences of AI.",
-    "impact_score": 6
+    "title": "Funding winter continues for S\u2019pore start-ups but AI, deep tech deals up in 2025",
+    "url": "https://www.straitstimes.com/business/companies-markets/funding-winter-continues-for-spore-start-ups-but-ai-deep-tech-deals-up-in-2025",
+    "industry": "Venture Capital",
+    "summary": "Singaporean startups are facing a continued funding winter, but AI and deep tech deals increased in 2025, showing interest still exists in these sectors. This is occurring despite a downturn in the broader market.",
+    "charlotte_impact": "Singapore's continued interest in AI and deep tech signals a continued interest in the broader global tech market. Venture Capitalists will continue to provide funds to this sector in other markets such as the U.S.",
+    "impact_score": 4
+  },
+  {
+    "title": "Google\u2019s best new AI feature is just a really good to-do list",
+    "url": "https://www.pcworld.com/article/3150841/googles-best-new-ai-feature-is-just-a-really-good-to-do-list.html",
+    "industry": "AI Applications",
+    "summary": "A Google to-do list is surprisingly useful. Google stuffed the I/O event with AI, but it did not make a massive difference.",
+    "charlotte_impact": "Small changes can make a big difference. It's important to focus on the iterative value and make slow but steady progress toward the future.",
+    "impact_score": 3
+  },
+  {
+    "title": "Kiwibit\u2019s AI-powered bird feeder is my new backyard buddy",
+    "url": "https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
+    "industry": "Consumer Products",
+    "summary": "Kiwibit's AI-powered bird feeder is a device that connects nature while collecting bird species on an app like Pokemon.",
+    "charlotte_impact": "As AI becomes more sophisticated, it will likely seep into every level of consumer product and applications, enabling new markets for innovation.",
+    "impact_score": 2
   }
 ]
