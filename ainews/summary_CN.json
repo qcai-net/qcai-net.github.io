@@ -1,9 +1,41 @@
 [
   {
+    "title": "OpenAI 推出适用于白领工作的新 Codex 工具",
+    "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI 发布了一套针对特定工作的六个插件：数据分析、创意制作、销售、产品设计、股权投资和投资银行。每个新工具都可以从 Codex 应用程序中获取，都捆绑了集成、说明和上下文，以允许...",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "Nvidia 凭借微软、戴尔和惠普的 AI 代理 PC 追逐 200B 美元的 CPU 市场",
     "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
     "industry": "AI & Technology",
     "summary": "如果英伟达找到了一种方法，可以轻松、安全、实用地为大众带来人工智能代理，那么它可能而且应该规模很大。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "新的微软工具可让开发人员使用文本描述启动人工智能行为测试",
+    "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+    "industry": "AI & Technology",
+    "summary": "微软周二揭开了自适应规范驱动的评估和回归测试评分的面纱，这是一个用于启动人工智能评估的开源框架。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "谷歌推出虚假来电检测以防范人工智能深度伪造诈骗",
+    "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
+    "industry": "AI & Technology",
+    "summary": "随着人们越来越多地拒绝接听未知号码的电话，诈骗者正在改变策略，通过欺骗可信电话号码并使用人工智能深度伪造技术来冒充权威人物、家庭成员或雇主。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "微软为开发人员提供了更好的方法来控制人工智能代理的行为",
+    "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+    "industry": "AI & Technology",
+    "summary": "该规范允许开发人员、合规性和安全团队定义自己的策略，供代理在可移植策略文件中遵循。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -40,18 +72,26 @@
     "impact_score": 5
   },
   {
-    "title": "据报道 Meta 正在开发一款 AI 挂件",
-    "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+    "title": "Uber 在 4 个月内超出预算后限制了员工人工智能支出",
+    "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
     "industry": "AI & Technology",
-    "summary": "Meta 似乎在人工智能驱动的硬件上下了很大的赌注。",
+    "summary": "据报道，优步在鼓励员工尽可能多地使用人工智能后进行了裁员。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "我让 Google 的 24/7 AI 助手 Gemini Spark 开始工作，它实际上非常有用",
-    "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+    "title": "马丁·斯科塞斯 (Martin Scorsese) 成为人工智能最新且最不可能的好莱坞代言人",
+    "url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
     "industry": "AI & Technology",
-    "summary": "Gemini Spark 有助于自动化日常任务，从收件箱摘要到本地活动规划，但目前尚不清楚谷歌为何将其作为一个单独的产品。",
+    "summary": "需要注意的是，世界上最著名的在世导演之一仅将这项技术用于故事板。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "在业界反对后，特朗普签署了更严格的人工智能监管行政命令",
+    "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+    "industry": "AI & Technology",
+    "summary": "在遭到业界反对后，特朗普总统签署了修订后的人工智能行政命令，仅要求政府对先进模型进行自愿的预发布审查。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -80,82 +120,42 @@
     "impact_score": 5
   },
   {
-    "title": "理解人工智能精神病的争论",
-    "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+    "title": "Stocktwits 通过以社区情报为中心的全新符号页面深化其社会金融领导地位",
+    "url": "https://www.globenewswire.com/news-release/2026/06/01/3304759/0/en/Stocktwits-Deepens-Its-Social-Finance-Leadership-With-All-New-Symbol-Pages-Centered-on-Community-Intelligence.html",
     "industry": "AI & Technology",
-    "summary": "在最新一期的《股票》节目中，我们讨论了科技公司首席执行官是否“特别容易患上人工智能精神病”。",
+    "summary": "Stocktwits 通过以社区情报为中心的全新符号页面深化其社会金融领导地位......",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "群体思维热潮：三大顶级风投公司对人工智能热潮的真实看法",
-    "url": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
+    "title": "Anthropic IPO 申请的早期细节",
+    "url": "https://www.cbsnews.com/video/early-details-anthropic-ipo-filing/",
     "industry": "AI & Technology",
-    "summary": "“如果你 22 岁，在旧金山，正在做一些人工智能方面的事情，你的收件箱里可能会有一份种子投资意向书——但如果你 19 岁，天哪，这意味着你真的很优秀；你可能已经拿到了 A 轮 [offer]，”其中一位半开玩笑地说。",
+    "summary": "聊天机器人 Claude 背后的人工智能公司 Anthropic 已申请上市，成为历史上规模最大的首次公开募股之一。哥伦比亚广播公司新闻高级商业和技术记者 Jo Ling Kent 了解了详细信息。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "程序员拒绝在没有人工智能的情况下工作——这可能会给他们带来负面影响",
-    "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+    "title": "LG 推出 32 英寸电子墨水显示屏，支持磁性 Qi2 移动电源",
+    "url": "https://www.notebookcheck.net/LG-unveils-32-inch-E-Ink-display-with-support-for-magnetic-Qi2-power-banks.1312459.0.html",
     "industry": "AI & Technology",
-    "summary": "研究人员警告说，虽然人工智能正在帮助程序员更快地生成代码，但它可能不会生成更好的代码。这可能会给他们带来麻烦。",
+    "summary": "LG最新的电子纸显示屏采用32英寸电子墨水面板，可以显示颜色并且几乎不耗电。 72 Wh 电池应该能够实现特别长的运行时间，而屏幕可以使用磁性 Qi2 或 MagSafe 电源适配器方便地充电……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "所以你已经听过这些人工智能术语并且点点头；让我们解决这个问题",
-    "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "title": "北卡罗来纳州立法者提出法案，要求在社交媒体上进行年龄验证、禁止 14 岁以下未成年人使用平台、在学校使用人工智能",
+    "url": "https://www.wcnc.com/article/news/education/nc-lawmakers-propose-bill-to-require-age-verification-on-social-media-ai-use-in-schools/275-d3a3aff3-568c-4224-8fcc-8408ab65c01e",
     "industry": "AI & Technology",
-    "summary": "人工智能的兴起带来了大量新术语和俚语。这是一个词汇表，其中包含您可能遇到的一些最重要单词和短语的定义。",
+    "summary": "如果众议院第 301 号法案成为法律，该法案将禁止 14 岁以下儿童在北卡罗来纳州创建社交媒体帐户。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "当公司过于依赖人工智能时会发生什么？",
-    "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+    "title": "本·克伦普接手切丽·摩尔案，誓言对被解雇的谢尔比警官提出更多指控",
+    "url": "https://www.wcnc.com/article/news/local/ben-crump-takes-cherrie-moore-case-vows-push-for-more-charges-against-fired-shelby-officer/275-6c28984d-52e6-434b-9836-b8f07cfcf19a",
     "industry": "AI & Technology",
-    "summary": "Box 创始人亚伦·莱维 (Aaron Levie) 表示，那些认为人工智能可以取代你工作的人也是最不可能了解你的工作真正涉及什么的人，他指出这是“人工智能精神病”的一个例子。事实上，ClickUp 最近削减了 22% 的 AI 员工......",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "纽约联储发现远程工作正在加剧青年失业率",
-    "url": "https://www.cnbc.com/2026/06/01/remote-work-youth-unemployment-new-york-fed.html",
-    "industry": "AI & Technology",
-    "summary": "纽约联邦储备银行的研究表明，远程工作的扩大可能解释了最近青年失业率飙升的原因。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "黄仁勋表示，英伟达正在“重塑个人电脑”，推出新的强大人工智能芯片",
-    "url": "https://fortune.com/2026/06/01/jensen-huang-nvidia-pc-reinvention-ai-chips/",
-    "industry": "AI & Technology",
-    "summary": "这些芯片将足够强大，可以通过增强 CPU 和 GPU 功能来处理并向个人计算机带来先进的人工智能功能。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "距离美国关税截止日期还有不到一个月，铜价上涨",
-    "url": "https://financialpost.com/pmn/business-pmn/copper-gains-with-us-tariffs-deadline-less-than-a-month-away-3",
-    "industry": "AI & Technology",
-    "summary": "纽约和伦敦铜价上涨，在特朗普政府就启动美国进口税做出新决定的最后期限之前开启了关键的一个月。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "警察正在监视在线批评人工智能数据中心的人",
-    "url": "https://theintercept.com/2026/06/01/ai-data-center-protest-police-surveillance/",
-    "industry": "AI & Technology",
-    "summary": "The Intercept 获得的一份执法文件显示，警方扫描社交媒体，寻找反对人工智能数据中心的帖子。\n这篇文章《警察正在监视在线批评人工智能数据中心的人》首先出现在 The Intercept 上。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "HME 推出 ClearSoundX：人工智能驱动的音频技术，为得来速通信设定新标准",
-    "url": "https://www.prnewswire.com/news-releases/hme-introduces-clearsoundx-ai-powered-audio-technology-that-sets-a-new-standard-for-drive-thru-communication-302785408.html",
-    "industry": "AI & Technology",
-    "summary": "NEXEO 的最新创新 | HDX 平台使用人工智能消除噪音，并在得来速汽车餐厅中提供清晰的音频圣地亚哥，2026 年 6 月 1 日 /美通社/ -- 就在业界认为汽车餐厅通信无法获得任何好处的时候……",
+    "summary": "民权律师称 5 月 29 日的逮捕是执法培训和政策的失败；摩尔的医疗记录被送往州检察官办公室。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }

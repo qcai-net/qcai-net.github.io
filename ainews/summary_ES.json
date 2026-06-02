@@ -1,9 +1,41 @@
 [
   {
+    "title": "OpenAI lanza nuevas herramientas Codex para trabajos administrativos",
+    "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI lanzó un conjunto de seis complementos destinados a trabajos específicos: análisis de datos, producción creativa, ventas, diseño de productos, inversión de capital y banca de inversión. Disponibles desde la aplicación Codex, cada una de las nuevas herramientas incluye integraciones, instrucciones y contexto para permitir...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
     "title": "Nvidia persigue el mercado de CPU de 200 mil millones de dólares con PC con agentes de inteligencia artificial de Microsoft, Dell y HP",
     "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
     "industry": "AI & Technology",
     "summary": "Si Nvidia ha encontrado una manera de llevar agentes de IA de manera fácil, segura y útil a las masas, podría (y debería) ser grande.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La nueva herramienta de Microsoft permite a los desarrolladores realizar pruebas de comportamiento de IA utilizando descripciones de texto",
+    "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+    "industry": "AI & Technology",
+    "summary": "El martes, Microsoft presentó la puntuación adaptativa basada en especificaciones para pruebas de evaluación y regresión, un marco de código abierto para impulsar las evaluaciones de IA.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Google implementa detección de llamadas falsas para protegerse contra estafas de suplantación de identidad mediante IA",
+    "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
+    "industry": "AI & Technology",
+    "summary": "A medida que las personas se niegan cada vez más a responder llamadas de números desconocidos, los estafadores están cambiando sus tácticas falsificando números de teléfono confiables y utilizando tecnología de inteligencia artificial falsa para parecer figuras de autoridad, familiares o empleadores.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Microsoft ofrece a los desarrolladores una mejor manera de controlar el comportamiento de los agentes de IA",
+    "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+    "industry": "AI & Technology",
+    "summary": "La especificación permite a los equipos de desarrollo, cumplimiento y seguridad definir sus propias políticas para que las sigan los agentes en archivos de políticas portátiles.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -40,18 +72,26 @@
     "impact_score": 5
   },
   {
-    "title": "Se informa que Meta está desarrollando un colgante de IA",
-    "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+    "title": "Uber limita el gasto de los empleados en IA después de gastar presupuesto en 4 meses",
+    "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
     "industry": "AI & Technology",
-    "summary": "Meta parece estar haciendo grandes apuestas en hardware impulsado por IA.",
+    "summary": "El recorte de Uber se produjo después de que, según informes, la compañía alentara al personal a utilizar la IA tanto como fuera posible.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Puse a trabajar el asistente de inteligencia artificial 24 horas al día, 7 días a la semana de Google, Gemini Spark, y en realidad es bastante útil",
-    "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+    "title": "Martin Scorsese se convierte en la última (y más improbable) voz de Hollywood para la IA",
+    "url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
     "industry": "AI & Technology",
-    "summary": "Gemini Spark ayuda a automatizar las tareas cotidianas, desde resúmenes de la bandeja de entrada hasta la planificación de eventos locales, pero no está claro por qué Google lo convirtió en un producto separado.",
+    "summary": "La advertencia es que uno de los directores vivos más famosos del mundo está utilizando la tecnología únicamente para crear guiones gráficos.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Trump firma una orden ejecutiva más estricta sobre la supervisión de la IA tras las objeciones de la industria",
+    "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+    "industry": "AI & Technology",
+    "summary": "Después de las objeciones de la industria, el presidente Trump firmó una orden ejecutiva revisada sobre IA que exige únicamente revisiones gubernamentales previas a la publicación voluntaria de los modelos avanzados.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -80,82 +120,42 @@
     "impact_score": 5
   },
   {
-    "title": "Dar sentido al debate sobre la psicosis de la IA",
-    "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+    "title": "Stocktwits profundiza su liderazgo en finanzas sociales con páginas de símbolos completamente nuevas centradas en la inteligencia comunitaria",
+    "url": "https://www.globenewswire.com/news-release/2026/06/01/3304759/0/en/Stocktwits-Deepens-Its-Social-Finance-Leadership-With-All-New-Symbol-Pages-Centered-on-Community-Intelligence.html",
     "industry": "AI & Technology",
-    "summary": "En el último episodio de Equity, debatimos si los directores ejecutivos de tecnología son \"exclusivamente propensos a la psicosis de la IA\".",
+    "summary": "Stocktwits profundiza su liderazgo en finanzas sociales con páginas de símbolos completamente nuevas centradas en la inteligencia comunitaria...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "El auge del pensamiento grupal: lo que realmente piensan tres de los principales capitalistas de riesgo sobre el frenesí de la IA",
-    "url": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
+    "title": "Primeros detalles sobre la presentación de la IPO de Anthropic",
+    "url": "https://www.cbsnews.com/video/early-details-anthropic-ipo-filing/",
     "industry": "AI & Technology",
-    "summary": "\"Si tienes 22 años en San Francisco y estás construyendo algo en IA, es posible que haya una hoja de términos inicial en tu bandeja de entrada, pero si tienes 19, Dios mío, esto significa que eres realmente bueno; es posible que ya tengas una [oferta] de Serie A\", dijo uno, medio en broma.",
+    "summary": "Anthropic, la empresa de inteligencia artificial detrás del chatbot Claude, presentó una solicitud para salir a bolsa, creando una de las mayores ofertas públicas iniciales de la historia. Jo Ling Kent, corresponsal senior de negocios y tecnología de CBS News, tiene los detalles.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Los programadores se niegan a trabajar sin IA, y eso podría volverse contra ellos",
-    "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+    "title": "LG presenta una pantalla E-Ink de 32 pulgadas con soporte para bancos de energía magnéticos Qi2",
+    "url": "https://www.notebookcheck.net/LG-unveils-32-inch-E-Ink-display-with-support-for-magnetic-Qi2-power-banks.1312459.0.html",
     "industry": "AI & Technology",
-    "summary": "Si bien la IA ayuda a los codificadores a producir código más rápido, es posible que no produzca un código mejor, advierten los investigadores. Y eso podría causarles problemas en el futuro.",
+    "summary": "La última pantalla de papel electrónico de LG utiliza un panel de tinta electrónica de 32 pulgadas que puede mostrar colores y apenas consume energía. Una batería de 72 Wh debería permitir una duración particularmente larga, mientras que la pantalla se puede cargar cómodamente con una batería magnética Qi2 o MagSafe...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Entonces escuchó estos términos de IA y asintió con la cabeza; vamos a arreglar eso",
-    "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "title": "Legisladores de Carolina del Norte proponen un proyecto de ley para exigir la verificación de la edad en las redes sociales, prohibir el uso de plataformas a menores de 14 años y el uso de inteligencia artificial en las escuelas",
+    "url": "https://www.wcnc.com/article/news/education/nc-lawmakers-propose-bill-to-require-age-verification-on-social-media-ai-use-in-schools/275-d3a3aff3-568c-4224-8fcc-8408ab65c01e",
     "industry": "AI & Technology",
-    "summary": "El auge de la IA ha traído una avalancha de nuevos términos y jergas. Aquí hay un glosario con definiciones de algunas de las palabras y frases más importantes que puede encontrar.",
+    "summary": "Si el Proyecto de Ley 301 de la Cámara de Representantes se convierte en ley, prohibiría a los niños menores de 14 años crear cuentas de redes sociales en Carolina del Norte.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "¿Qué sucede cuando las empresas se vuelven demasiado dependientes de la IA?",
-    "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+    "title": "Ben Crump toma el caso de Cherrie Moore y promete impulsar más cargos contra el oficial despedido de Shelby",
+    "url": "https://www.wcnc.com/article/news/local/ben-crump-takes-cherrie-moore-case-vows-push-for-more-charges-against-fired-shelby-officer/275-6c28984d-52e6-434b-9836-b8f07cfcf19a",
     "industry": "AI & Technology",
-    "summary": "Las personas que deciden que la IA puede reemplazar su trabajo también son las que tienen menos probabilidades de comprender lo que realmente implica su trabajo, según el fundador de Box, Aaron Levie, quien señaló esto como un ejemplo de psicosis de la IA. De hecho, ClickUp recientemente recortó el 22% de su fuerza laboral para la IA ag...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "El trabajo remoto está empeorando el desempleo juvenil, según la Reserva Federal de Nueva York",
-    "url": "https://www.cnbc.com/2026/06/01/remote-work-youth-unemployment-new-york-fed.html",
-    "industry": "AI & Technology",
-    "summary": "La expansión del trabajo remoto puede explicar el reciente aumento del desempleo juvenil, según una investigación del Banco de la Reserva Federal de Nueva York.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Jensen Huang dice que Nvidia está \"reinventando la computadora personal\" al presentar nuevos y potentes chips de inteligencia artificial",
-    "url": "https://fortune.com/2026/06/01/jensen-huang-nvidia-pc-reinvention-ai-chips/",
-    "industry": "AI & Technology",
-    "summary": "Los chips serán lo suficientemente potentes como para manejar y llevar funciones avanzadas de IA a la computadora personal mejorando las capacidades de CPU y GPU.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "El cobre gana a menos de un mes de la fecha límite para los aranceles en EE.UU.",
-    "url": "https://financialpost.com/pmn/business-pmn/copper-gains-with-us-tariffs-deadline-less-than-a-month-away-3",
-    "industry": "AI & Technology",
-    "summary": "El cobre avanzó en Nueva York y Londres para iniciar un mes crucial antes de la fecha límite del gobierno de Trump para tomar una nueva decisión sobre el lanzamiento de impuestos a las importaciones estadounidenses.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "La policía espía a las personas que critican los centros de datos de IA en línea",
-    "url": "https://theintercept.com/2026/06/01/ai-data-center-protest-police-surveillance/",
-    "industry": "AI & Technology",
-    "summary": "Un documento policial obtenido por The Intercept muestra que la policía escanea las redes sociales en busca de publicaciones que se opongan a los centros de datos de IA.\nLa publicación Los policías están espiando a personas que critican los centros de datos de IA en línea apareció por primera vez en The Intercept.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "HME presenta ClearSoundX: tecnología de audio impulsada por IA que establece un nuevo estándar para la comunicación desde el auto",
-    "url": "https://www.prnewswire.com/news-releases/hme-introduces-clearsoundx-ai-powered-audio-technology-that-sets-a-new-standard-for-drive-thru-communication-302785408.html",
-    "industry": "AI & Technology",
-    "summary": "Última innovación para NEXEO | La plataforma HDX utiliza inteligencia artificial para eliminar el ruido y ofrecer un audio nítido en el drive-thru SAN DIEGO, 1 de junio de 2026 /PRNewswire/ -- Justo cuando la industria pensaba que la comunicación drive-thru no podía conseguir...",
+    "summary": "El abogado de derechos civiles calificó el arresto del 29 de mayo como una falla en la capacitación y la política de aplicación de la ley; Los registros médicos de Moore se dirigieron a la oficina del fiscal estatal.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
