@@ -1,17 +1,25 @@
 [
   {
-    "title": "Después de la no contratación de $ 20 mil millones de Nvidia, la startup de chips de inteligencia artificial Groq supuestamente recaudó $ 650 millones",
-    "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
-    "industry": "AI & Technology",
-    "summary": "El fabricante de chips Groq busca recaudar 650 millones de dólares en financiación interna a medida que pasa del hardware para centrarse más en la inferencia de IA, el proceso de refinar la forma en que los modelos de IA responden a las solicitudes solicitadas, según Axios.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
     "title": "Nvidia persigue el mercado de CPU de 200 mil millones de dólares con PC con agentes de inteligencia artificial de Microsoft, Dell y HP",
     "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
     "industry": "AI & Technology",
     "summary": "Si Nvidia ha encontrado una manera de llevar agentes de IA de manera fácil, segura y útil a las masas, podría (y debería) ser grande.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La startup de motores de cohetes Impulse recauda 500 millones de dólares para contratar personas, no IA",
+    "url": "https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/",
+    "industry": "AI & Technology",
+    "summary": "La ingeniería de sistemas físicos todavía depende del talento humano, según el presidente de Impulse Space, Eric Romo.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Alphabet planea recaudar 80.000 millones de dólares para pagar el desarrollo de la IA",
+    "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+    "industry": "AI & Technology",
+    "summary": "\"La empresa está experimentando una fuerte demanda de sus soluciones y servicios de IA por parte de empresas y consumidores, a niveles que superan la oferta disponible de la empresa\", dijo Alphabet en su comunicado.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -48,6 +56,14 @@
     "impact_score": 5
   },
   {
+    "title": "ZeroDrift recauda 10 millones de dólares para proteger los modelos de IA de sí mismos",
+    "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/",
+    "industry": "AI & Technology",
+    "summary": "Un nuevo servicio de cumplimiento de IA se ubica entre los modelos de IA y los usuarios finales para marcar y reemplazar cualquier mensaje que pueda presentar un problema de cumplimiento.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
     "title": "DuckDuckGo hace que su motor de búsqueda \"sin IA\" sea más fácil de acceder a medida que su tráfico aumenta",
     "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
     "industry": "AI & Technology",
@@ -75,7 +91,7 @@
     "title": "El auge del pensamiento grupal: lo que realmente piensan tres de los principales capitalistas de riesgo sobre el frenesí de la IA",
     "url": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
     "industry": "AI & Technology",
-    "summary": "\"Si tienes 22 años en San Francisco y estás creando algo en IA, es posible que haya una hoja de términos inicial en tu bandeja de entrada, pero si tienes 19, Dios mío, esto significa que eres realmente bueno; es posible que ya tengas una [oferta] de Serie A\", dijo uno, medio en broma.",
+    "summary": "\"Si tienes 22 años en San Francisco y estás construyendo algo en IA, es posible que haya una hoja de términos inicial en tu bandeja de entrada, pero si tienes 19, Dios mío, esto significa que eres realmente bueno; es posible que ya tengas una [oferta] de Serie A\", dijo uno, medio en broma.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -104,58 +120,42 @@
     "impact_score": 5
   },
   {
-    "title": "Scott Wu, de Cognition, dice que los agentes codificadores de IA no deberían reemplazar a los humanos",
-    "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+    "title": "El trabajo remoto está empeorando el desempleo juvenil, según la Reserva Federal de Nueva York",
+    "url": "https://www.cnbc.com/2026/06/01/remote-work-youth-unemployment-new-york-fed.html",
     "industry": "AI & Technology",
-    "summary": "La cognición convierte a Devin en el primer y posiblemente más exitoso agente de codificación de IA. Pero el famoso codificador Wu dice que no está diseñado para suplantar a los programadores humanos.",
+    "summary": "La expansión del trabajo remoto puede explicar el reciente aumento del desempleo juvenil, según una investigación del Banco de la Reserva Federal de Nueva York.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Rescate de varias agencias saca a un hombre del río Watauga después de caer por un acantilado cerca de Beech Mountain",
-    "url": "https://www.wcnc.com/article/news/local/man-rescued-from-river-after-falling-off-cliff-in-beech-mountain/275-cb72104d-5058-447a-ade6-cea199939905",
+    "title": "Jensen Huang dice que Nvidia está \"reinventando la computadora personal\" al presentar nuevos y potentes chips de inteligencia artificial",
+    "url": "https://fortune.com/2026/06/01/jensen-huang-nvidia-pc-reinvention-ai-chips/",
     "industry": "AI & Technology",
-    "summary": "Un hombre local sobrevivió a la caída de un acantilado en el río Watauga y fue trasladado en avión a un hospital después de una compleja operación de rescate en Beech Mountain.",
+    "summary": "Los chips serán lo suficientemente potentes como para manejar y llevar funciones avanzadas de IA a la computadora personal mejorando las capacidades de CPU y GPU.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Adolescente herido tras tiroteo en el mirador del aeropuerto Charlotte Douglas",
-    "url": "https://www.wcnc.com/article/news/local/teen-injured-charlotte-douglas-airport-overlook-shooting-cmpd/275-b027eaf0-3984-4bdc-8fd4-74d3d19cbea3",
+    "title": "El cobre gana a menos de un mes de la fecha límite para los aranceles en EE.UU.",
+    "url": "https://financialpost.com/pmn/business-pmn/copper-gains-with-us-tariffs-deadline-less-than-a-month-away-3",
     "industry": "AI & Technology",
-    "summary": "Una joven de 17 años recibió un disparo y resultó gravemente herida en el Overlook del Aeropuerto Internacional Charlotte Douglas el viernes por la mañana.",
+    "summary": "El cobre avanzó en Nueva York y Londres para iniciar un mes crucial antes de la fecha límite del gobierno de Trump para tomar una nueva decisión sobre el lanzamiento de impuestos a las importaciones estadounidenses.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "La policía de Monroe lanza la campaña 'Slow Monroe' para combatir el exceso de velocidad en el centro de la ciudad",
-    "url": "https://www.wcnc.com/article/news/local/monroe-police-launch-slow-monroe-campaign/275-e275446e-7226-401a-b034-10d62d54f07a",
+    "title": "La policía espía a las personas que critican los centros de datos de IA en línea",
+    "url": "https://theintercept.com/2026/06/01/ai-data-center-protest-police-surveillance/",
     "industry": "AI & Technology",
-    "summary": "La policía de Monroe está aumentando las patrullas en el centro de la ciudad como parte de una nueva campaña “Slow Monroe” destinada a reducir el exceso de velocidad y mejorar la seguridad.",
+    "summary": "Un documento policial obtenido por The Intercept muestra que la policía escanea las redes sociales en busca de publicaciones que se opongan a los centros de datos de IA.\nLa publicación Los policías están espiando a personas que critican los centros de datos de IA en línea apareció por primera vez en The Intercept.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "CMS se dirige a las familias mientras los problemas técnicos interrumpen las pruebas de fin de año, lo que genera preocupación sobre el estrés de los estudiantes",
-    "url": "https://www.wcnc.com/article/news/education/cms-addresses-families-as-technical-issues-disrupt-end-of-year-testing-raising-concern-over-student-stress/275-30ab0c91-1ae6-4537-b59a-87a63cf107af",
+    "title": "HME presenta ClearSoundX: tecnología de audio impulsada por IA que establece un nuevo estándar para la comunicación desde el auto",
+    "url": "https://www.prnewswire.com/news-releases/hme-introduces-clearsoundx-ai-powered-audio-technology-that-sets-a-new-standard-for-drive-thru-communication-302785408.html",
     "industry": "AI & Technology",
-    "summary": "Las escuelas de Charlotte-Mecklenburg enfrentan problemas técnicos con las pruebas de fin de año, lo que genera preocupación entre los padres sobre la ansiedad de los estudiantes.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "La estrategia de Apple con las gafas inteligentes es la misma que con los relojes inteligentes",
-    "url": "https://www.theverge.com/tech/940572/apples-strategy-smart-glasses-smart-watches",
-    "industry": "AI & Technology",
-    "summary": "Apple no sólo busca enfrentarse a Meta en el mercado de gafas inteligentes; está buscando cambiar radicalmente las gafas en su conjunto, según Mark Gurman de Bloomberg. Cuando se lanzó el Apple Watch, no estaba simplemente compitiendo contra los Pebbles y los Motorola del mundo...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Los bancos del Reino Unido aún carecen de acceso al modelo de IA de Mythos",
-    "url": "https://www.itnews.com.au/news/uk-banks-still-lack-access-to-mythos-ai-model-626292?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-    "industry": "AI & Technology",
-    "summary": "Seis semanas después de que esto generó preocupación por primera vez.",
+    "summary": "Última innovación para NEXEO | La plataforma HDX utiliza inteligencia artificial para eliminar el ruido y ofrecer un audio nítido en el drive-thru SAN DIEGO, 1 de junio de 2026 /PRNewswire/ -- Justo cuando la industria pensaba que la comunicación drive-thru no podía conseguir...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
