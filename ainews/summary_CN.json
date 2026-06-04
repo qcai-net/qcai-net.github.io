@@ -80,22 +80,6 @@
     "impact_score": 5
   },
   {
-    "title": "火箭发动机初创公司 Impulse 融资 5 亿美元用于雇佣员工，而不是人工智能",
-    "url": "https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/",
-    "industry": "AI & Technology",
-    "summary": "Impulse Space 总裁埃里克·罗莫 (Eric Romo) 表示，工程物理系统仍然取决于人类才能。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "微软推出人工智能模型以推动独立于 OpenAI",
-    "url": "https://punchng.com/microsoft-unveils-ai-models-in-push-for-independence-from-openai/",
-    "industry": "AI & Technology",
-    "summary": "微软推出了自己的先进人工智能模型，包括 MAI-Thinking-1，以减少对 OpenAI 的依赖。了解 Microsoft 对 AI 独立性的推动。\n\n阅读更多：https://punchng.com/microsoft-unveils-ai-models-in-push-for-independence-from-openai/",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
     "title": "Coralogix 筹集了 2 亿美元，押注需要有人监视人工智能代理",
     "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
     "industry": "AI & Technology",
@@ -136,26 +120,42 @@
     "impact_score": 5
   },
   {
-    "title": "安全徽章中的人工智能代理？这就是微软的 Project Solara 宣传",
-    "url": "https://www.pcworld.com/article/3154900/an-ai-agent-in-a-security-badge-thats-microsofts-project-solara-pitch.html",
+    "title": "谷歌在性能补丁后重置 Gemini 3.5 闪存限制",
+    "url": "https://www.ubergizmo.com/2026/06/google-resets-gemini-3-5-flash-limits/",
     "industry": "AI & Technology",
-    "summary": "我们被告知，人工智能代理很快就会无处不在，但具体在哪里呢？显然，它们位于云端、台式电脑上，甚至手机上，但它们也可以存在于其他设备上，例如智能扬声器、眼镜，甚至智能安全徽章。\r\n\n\n\n……",
+    "summary": "谷歌宣布了一项更新，彻底重置免费和付费开发者的使用配额计数器。此举恰逢反重力平台内部署精炼版 Gemini 3.5 Flash 模型，旨在解决…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "马克·扎克伯格的 Meta 在员工骚动后缩减了跟踪击键和鼠标移动的计划",
-    "url": "https://nypost.com/2026/06/02/business/mark-zuckerbergs-meta-scales-back-plan-to-track-keystrokes-mouse-movements-after-staff-uproar/",
+    "title": "新的人工智能行政命令为乡村医院提供了使用前沿网络防御工具的途径",
+    "url": "https://healthsystemcio.com/2026/06/03/rural-hospitals-ai-cyber-order/",
     "industry": "AI & Technology",
-    "summary": "Facebook 母公司上个月宣布，它正在美国员工的计算机上安装新的跟踪软件，以捕获鼠标移动、点击和击键，用于训练其人工智能模型。",
+    "summary": "乡村医院用最少的资源吸收了医疗保健领域最严重的勒索软件。一项新的联邦命令改变了计算方式，为曾经为国家安全系统保留的人工智能网络防御开辟了道路。这对您的安全团队可能意味着什么......",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Power 98 的早间秀将为夏洛特无家可归者收容所举办 28 小时筹款马拉松",
-    "url": "https://www.wcnc.com/article/news/local/power-98-fundraiser-charlotte-homeless-shelter-salvation-army-center-of-hope/275-a635f357-d744-436f-ac57-1320b4c9a636",
+    "title": "小i公司重新完全符合纳斯达克持续上市标准",
+    "url": "https://www.prnewswire.com/news-releases/xiao-i-corporation-regains-full-compliance-with-nasdaq-continued-listing-standards-302789516.html",
     "industry": "AI & Technology",
-    "summary": "Power 98 的早间秀开始了第 19 届年度 28 小时马拉松比赛，以支持救世军希望中心，为夏洛特无家可归者筹集资金并提高人们的认识。",
+    "summary": "上海2026年6月3日 /美通社/ -- 中国领先的企业人工智能公司小i科技（纳斯达克股票代码：AIXI）（“小i”或“公司”）今天宣布收到纳斯达克股票市场的正式通知函……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Outlook 新功能将改变您管理收件箱的方式",
+    "url": "https://www.geeky-gadgets.com/microsoft-365-copilot-outlook-2026/",
+    "industry": "AI & Technology",
+    "summary": "Outlook 中的 Microsoft 365 Copilot 集成了人工智能来协助电子邮件和日历管理，为日常任务提供实用的解决方案。正如迈克·托尔夫森 (Mike Tholfsen) 所解释的那样，一个关键功能是它能够将未读电子邮件汇总为……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "香蕉球世界巡回演唱会为 Truist Field 带来三晚棒球娱乐活动",
+    "url": "https://www.wcnc.com/article/news/local/banana-ball-world-tour-baseball-truist-field/275-58ad2242-a8b1-4a51-a48b-39785c518b7d",
+    "industry": "AI & Technology",
+    "summary": "消防员队 (Firefighters) 和德克萨斯州尾随队 (Texas Tailgaters) 将于 6 月 4 日至 6 日晚上 7 点进行比赛。夏洛特的每晚都是首届香蕉球冠军联赛的一部分。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
