@@ -1,5 +1,21 @@
 [
   {
+    "title": "报告称，随着 OpenAI 申请 IPO，Sam Altman 的眼部扫描公司正在裁员",
+    "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+    "industry": "AI & Technology",
+    "summary": "据报道，Sam Altman 的身份验证公司 Tools for Humanity 正在努力创收，并将裁员。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "继 Anthropic 之后，OpenAI 秘密提交 IPO 申请",
+    "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+    "industry": "AI & Technology",
+    "summary": "该文件是在其主要竞争对手 Anthropic 也申请上市一周多后发布的，这加剧了两家人工智能公司之间的竞争。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "亚马逊现在允许您使用人工智能设计定制商品",
     "url": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/",
     "industry": "AI & Technology",
@@ -8,26 +24,34 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI 仍在开发“超级应用程序”",
-    "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+    "title": "电动滑板车创始人如何筹集 500 万美元建设太空数据中心",
+    "url": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
     "industry": "AI & Technology",
-    "summary": "“聊天已经死了”——至少根据 OpenAI 的一位高级员工的说法。",
+    "summary": "Orbital 创始人 Euwyn Poon 在 Spin 制造了 250,000 辆踏板车。现在他想要启动 10,000 个太空数据中心。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "OpenAI 推出锁定模式以保护敏感数据免受即时注入攻击",
-    "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+    "title": "为什么苹果缓慢而稳定的人工智能赌注开始看起来相当明智",
+    "url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
     "industry": "AI & Technology",
-    "summary": "即使使用锁定模式，ChatGPT 也可能容易受到提示注入的攻击，但目标是减少敏感数据在此过程中共享的可能性。",
+    "summary": "苹果的新人工智能能否脱颖而出，平息有关它正在输掉一场至关重要的行业竞赛的指控？",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "特朗普政府可能入股 OpenAI",
-    "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+    "title": "苹果 WWDC 人工智能演示在 2.5 亿美元虚假广告和解后看起来更加真实",
+    "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
     "industry": "AI & Technology",
-    "summary": "唐纳德·特朗普总统表示，他正在讨论“美国人民可以从人工智能的成功中受益”的协议。",
+    "summary": "Apple 2026 年 WWDC 主题演讲的氛围就像是一位配偶自豪地列出所有已解决的甜蜜任务。一个微妙的例子：许多人工智能演示中有人站着，手里拿着手机。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "苹果押注更便宜的人工智能将吸引小型开发者",
+    "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+    "industry": "AI & Technology",
+    "summary": "随着人工智能实验的成本越来越高，苹果正在为 App Store 首次下载量低于 200 万次的开发者免除云 API 成本。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -35,7 +59,7 @@
     "title": "WWDC 2026：有关 Siri AI、iOS 27、Apple Intelligence 等的所有内容均已公布",
     "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
     "industry": "AI & Technology",
-    "summary": "Apple 的 WWDC 2026 活动于太平洋时间今天上午 10 点在 Apple Park 拉开帷幕，为期一周的活动充满了有关 Siri、iOS 27、Apple Intelligence 等的预期公告，以及开发者活动和演示。今年的活动对于一对夫妇来说尤其值得注意......",
+    "summary": "苹果主要通过其长期存在的 Siri 助手来改善体验，与大多数其他公告一样，它也得到了人工智能的大力帮助。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -64,98 +88,74 @@
     "impact_score": 5
   },
   {
-    "title": "Sriram Krishnan 将辞去白宫人工智能顾问的职务",
-    "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+    "title": "戴尔科技世界应对人工智能四风",
+    "url": "https://www.techtarget.com/searchstorage/opinion/Dell-Technologies-World-responds-to-the-four-winds-of-AI",
     "industry": "AI & Technology",
-    "summary": "据报道，克里希南正在成立一个新机构，以继续制定特朗普的人工智能政策。",
+    "summary": "人工智能的快速采用正在从根本上改变企业 IT 基础设施。通过 Dell Technologies World 上的公告了解戴尔如何应对这些变化。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "代币法案到期：行业内部争先恐后地管理人工智能失控的成本",
-    "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
+    "title": "微软人工智能负责人表示超级智能即将到来，但不会夺走你的工作",
+    "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
     "industry": "AI & Technology",
-    "summary": "“整个谈话从 tokenmaxxing 和‘快点’转向‘我们需要护栏，我们如何控制它？’”",
+    "summary": "今天我正在与微软 AI 首席执行官穆斯塔法·苏莱曼 (Mustafa Suleyman) 交谈。事实上，我打算简短地介绍一下今天的介绍——本周我在我妻子的家庭农场工作，正如你在视频中看到的那样，但这也是这一集的真正亮点。我们涵盖了每一个……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "德克萨斯州法院命令 Google 删除用户发布的有关 xAI 链接数据中心的信息",
-    "url": "https://reason.com/volokh/2026/06/08/texas-court-orders-google-to-remove-information-posted-by-user-regarding-xai-linked-data-center/",
+    "title": "EDGE AI 基金会欢迎亚马逊网络服务 (AWS) 作为领导合作伙伴，以加速云到边缘和物理人工智能创新",
+    "url": "https://www.prnewswire.com/news-releases/edge-ai-foundation-welcomes-amazon-web-services-aws-as-a-leadership-partner-to-accelerate-cloud-to-edge-and-physical-ai-innovation-302793427.html",
     "industry": "AI & Technology",
-    "summary": "塔兰特县地方法院法官 Megan Fahey 于 5 月 19 日在 CTC Property LLC 诉… 案中发布的命令摘录\n德克萨斯州法院命令 Google 删除用户发布的有关 xAI 链接数据中心的信息的帖子首先出现在 Reason.com 上。",
+    "summary": "AWS 加入基金会董事会，推动创新，解决全球体力劳动力缺口，并刺激价值超过 2000 亿美元的边缘人工智能市场的经济增长。华盛顿州贝尔维尤，2026 年 6 月 8 日 /美通社/ -- EDGE AI 基金会，世界上最大的人工智能基金会",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "新财富 500 强排名：德克萨斯州超越加利福尼亚州，但亚马逊击败沃尔玛排名第一",
-    "url": "https://slashdot.org/story/26/06/07/2027239/new-fortune-500-rankings-texas-overtakes-california-but-amazon-is-1-beating-walmart",
+    "title": "为什么基于物理的天气模型在极端天气事件中仍然优于人工智能",
+    "url": "https://www.wcnc.com/article/weather/weather-iq/why-physics-based-weather-models-still-outperform-ai-during-extreme-weather-events/275-09a54a10-f907-4a72-b62d-ba9982eba4e8",
     "industry": "AI & Technology",
-    "summary": "《洛杉矶时报》报道称：“德克萨斯州已取代加利福尼亚州，成为财富 500 强公司最多的州”：\n\n《财富》500 强排行榜按收入对美国最大的公司进行排名。今年，57 家顶级公司的总部位于德克萨斯州，相比之下……",
+    "summary": "《科学进展》最近的一项研究表明，基于人工智能的天气模型难以应对热浪、大雨和强风等极端事件。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "随着有史以来最大的上市临近，SpaceX IPO 超额认购需求达 150B 美元",
-    "url": "https://cryptobriefing.com/spacex-ipo-oversubscribed-150b-demand/",
+    "title": "夏洛特市议会通过预算，增加税收，为警察和消防员加薪 10%",
+    "url": "https://www.wcnc.com/article/news/local/charlotte-city-council-passes-budget-with-tax-increase-10-raises-for-police-firefighters/275-34418af1-9789-4676-b7cb-d7583a7e5f08",
     "industry": "AI & Technology",
-    "summary": "此次超额认购凸显了投资者对 SpaceX 的巨大信心，有可能重塑市场动态并影响未来的 IPO 策略。\n随着有史以来最大的上市临近，SpaceX 首次公开募股后的超额认购需求达到了 150B 美元，这首先出现在 Crypto Br 上……",
+    "summary": "近45亿美元的预算计划包括增加1.89美分的财产税。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "亚马逊印度负责人表示，随着公司加大快速商务推动力度，快速商务的起步有点慢",
-    "url": "https://www.livemint.com/companies/news/amazon-india-quick-commerce-amazon-now-expansion-blinkit-competition-zepto-blinkit-11780817075165.html",
+    "title": "Rock Hill 将原计划黑豹队训练场地出售给 Novant Health 用于医院",
+    "url": "https://www.wcnc.com/article/news/local/rock-hill-sells-former-planned-panthers-training-site-to-novant-health-for-hospital/275-faf6ab64-0fef-44e8-a3fb-6c2fb9a919a1",
     "industry": "AI & Technology",
-    "summary": "亚马逊印度区经理萨米尔·库马尔 (Samir Kumar) 在接受 Mint 采访时概述了该公司进军快速商务、扩大投资计划以及在印度成立 13 周年之际对印度的长期押注。",
+    "summary": "Novant Health 的 3 亿美元投资预计将为该地区带来 255 个全职工作岗位，并扩大当地获得医疗保健的机会。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "CMPD 突袭东夏洛特拱廊，没收 3.8 万美元和枪支",
-    "url": "https://www.wcnc.com/article/news/crime/east-charlotte-arcade-raid-cmpd-illegal-gambling-operation/275-658bf137-6e9a-406e-9ea5-c409c27deac1",
+    "title": "陪练伙伴：人工智能能为民主做什么、不能做什么",
+    "url": "https://www.fairobserver.com/world-news/the-sparring-partner-what-ai-can-and-cannot-do-for-democracy/",
     "industry": "AI & Technology",
-    "summary": "从夏洛特东部的一家赌场中查获了近 3.8 万美元现金、数十台设备和两把枪。",
+    "summary": "我的上一篇专栏扩展了我们很早就开始的与克劳德的对话。我们对超现实的各个方面进行了广泛的研究，这已成为后人工智能世界的标准特征。我们最终同意诚实的道德立场......",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "治安官办公室称，21 岁男子在梅克伦堡县监狱死亡",
-    "url": "https://www.wcnc.com/article/news/local/21-year-old-dies-in-mecklenburg-county-jail-sheriffs-office-says/275-242b9d31-66d3-4055-a0cc-f82d1a6f9341",
+    "title": "我们准备好将人类送上火星了吗？",
+    "url": "https://www.planetary.org/articles/are-we-ready-to-send-humans-to-mars",
     "industry": "AI & Technology",
-    "summary": "周六下午，贾兰·里迪克被宣布死亡。",
+    "summary": "前往红色星球执行任务的生理挑战",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "支持者在夏洛特集会反对北卡罗来纳州潜在的 ICE 拘留中心",
-    "url": "https://www.wcnc.com/article/news/politics/immigration-news/advocates-rally-in-charlotte-against-potential-ice-detention-centers/275-2801a47a-83b3-47df-993f-710f8cce64d5",
+    "title": "最后一支舞：传奇人物在2026年世界杯上告别",
+    "url": "https://onefootball.com/en/news/the-last-dance-the-legends-bowing-out-at-the-2026-world-cup-42981115",
     "industry": "AI & Technology",
-    "summary": "“我们不想在我们州设立拘留中心。”",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "安东尼奥·班德拉斯告诉教皇利奥十四世：“我是上帝咒语的受害者”",
-    "url": "https://www.ewtnnews.com/vatican/antonio-banderas-tells-pope-leo-xiv-i-am-a-victim-of-god-s-spell",
-    "industry": "AI & Technology",
-    "summary": "在教皇对西班牙进行宗座访问期间，演员与教皇利奥十四世一起在马德里举行文化、艺术、经济和体育聚会。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "谁经过？世界杯 I 组和 J 组有何期待",
-    "url": "https://onefootball.com/en/news/who-goes-through-what-to-expect-from-world-cup-groups-i-and-j-42978578",
-    "industry": "AI & Technology",
-    "summary": "本周日（7日）我们的世界杯小组预演包括2022年进入决赛的两支国家队。四年前的亚军法国队将在小组中面临艰难的对决。阿根廷队希望...",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "顶级人工智能高管敦促国会防范生物武器",
-    "url": "https://www.wnd.com/2026/06/top-i-execs-urge-congress-safeguard-against-biological/",
-    "industry": "AI & Technology",
-    "summary": "希望供应合成核酸的公司能够筛选客户订单",
+    "summary": "2026 年世界杯不是一场普通的赛事；这是让我们爱上足球的那一代人的告别节日。准备好纸巾，因为北美将成为...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
