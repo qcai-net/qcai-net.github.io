@@ -1,5 +1,21 @@
 [
   {
+    "title": "SpaceX、Anthropic 和 OpenAI IPO 夏季火爆",
+    "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+    "industry": "AI & Technology",
+    "summary": "IPO市场又回来了，带头冲锋的是“不一样的公司”。 FAANG 运行良好，但一个新的缩写正在取代：MANGOS——Meta（或微软，取决于你问的是谁）、Anthropic、Nvidia、Google、OpenAI 和 SpaceX。一半...",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "谷歌起诉涉嫌使用人工智能发送诈骗短信的中国网络犯罪行为",
+    "url": "https://techcrunch.com/2026/06/12/google-sues-alleged-chinese-cybercrime-operation-that-used-ai-to-send-scam-texts/",
+    "industry": "AI & Technology",
+    "summary": "这家科技巨头表示，一个名为“Outsider Enterprise”的组织利用人工智能诈骗了数十万受害者，在两周内发送了 250 万条短信。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "随着人工智能支出的继续，刚完成债券发行，亚马逊从银行借了 17.5B 美元",
     "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
     "industry": "AI & Technology",
@@ -8,10 +24,10 @@
     "impact_score": 5
   },
   {
-    "title": "华纳音乐收购人工智能归因初创公司 Sureel AI",
-    "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
+    "title": "据传 Mistral 将以 20B 估值筹集 3B 欧元",
+    "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
     "industry": "AI & Technology",
-    "summary": "通过此次收购，WMG 旨在更好地跟踪其艺术家的作品何时用于人工智能生成的内容或用于训练人工智能模型。",
+    "summary": "本轮融资将使该公司估值约为 200 亿欧元（约合 231.5 亿美元），几乎是其 C 轮估值 117 亿欧元的两倍。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -32,26 +48,10 @@
     "impact_score": 5
   },
   {
-    "title": "Datadog 资深人士推出 AI 编码初创公司 Niteshift，以对抗大 AI 锁定",
-    "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
-    "industry": "AI & Technology",
-    "summary": "AI 编码代理初创公司 Niteshift 已从天使投资人那里筹集了 700 万美元种子轮资金。它押注公司将希望获得权力，而不是与模型制造商锁定。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Jedify 融资 2400 万美元，帮助公司为 AI 代理提供业务背景信息",
-    "url": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
-    "industry": "AI & Technology",
-    "summary": "此轮融资由 Norwest 领投，S Capital VC、Cerca Partners 和 Oceans Ventures 跟投。 Snowflake Ventures也作为战略投资者参与其中。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
     "title": "Avataar 的视频 AI 更便宜、更快且具有文化意识，专为印度规模打造",
     "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
     "industry": "AI & Technology",
-    "summary": "Avataar AI 的蒸馏视频模型每代售价为 0.005 美元",
+    "summary": "Avataar AI 的蒸馏视频模型的价格为每秒 0.005 美元。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -112,26 +112,34 @@
     "impact_score": 5
   },
   {
-    "title": "世界银行将全球增长预期下调至2.5%；伊朗战争期间印度经济增长 6.6%",
-    "url": "https://economictimes.indiatimes.com/news/international/world-news/citing-fallout-from-iran-war-world-bank-cuts-forecast-for-global-economic-growth/articleshow/131661194.cms",
+    "title": "微软最新的可穿戴设备不是智能手表，而是工作场所的人工智能徽章",
+    "url": "https://www.bgr.com/2192398/microsoft-newest-wearable-ai-badge-for-workplace/",
     "industry": "AI & Technology",
-    "summary": "今年全球经济增长预计将放缓至 2.5%。世界银行将此归因于伊朗战争，这场战争推高了能源价格并造成了不确定性。发展中国家面临着经济显着放缓。尽管美国经济保持弹性，但其他国家……",
+    "summary": "在微软的年度盛会 Build 上，它展示了一款新的人工智能可穿戴设备：一种徽章，看起来像你在办公室看到的挂绳，作为 Project Solara 的一部分，",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "自适应人工智能市场预计到 2035 年将达到 1021 亿美元 |社交网络内幕",
-    "url": "https://www.globenewswire.com/news-release/2026/06/11/3310556/0/en/Adaptive-AI-Market-Projected-to-Reach-102-1-Billion-by-2035-SNS-Insider.html",
+    "title": "这会是他的时刻吗？加洛希望租借前锋能有更好的赛季",
+    "url": "https://onefootball.com/en/news/could-this-be-his-moment-galo-bank-on-better-season-for-on-loan-striker-42996870",
     "industry": "AI & Technology",
-    "summary": "到 2035 年，美国自适应人工智能市场预计将达到 414 亿美元，而同期欧洲预计将从 6.8 亿美元增长到 258.6 亿美元，受到企业人工智能快速采用、基于云的部署、强化学习先进技术的推动……",
+    "summary": "起初未能在米内罗竞技队产生影响后，若昂·马塞洛于今年年初被租借至阿联酋的阿尔阿赫利队。然而，这位21岁的前锋并没有...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "KFSH 推进实用的人工智能应用，推动专业医疗保健领域的转型",
-    "url": "https://www.globenewswire.com/news-release/2026/06/11/3310544/0/en/KFSH-Advances-Practical-AI-Applications-Driving-Transformation-Across-Specialized-Healthcare.html",
+    "title": "中国特工被发现利用 ChatGPT 影响美国政策辩论",
+    "url": "https://www.breitbart.com/tech/2026/06/11/chinese-agents-caught-using-chatgpt-to-influence-u-s-policy-debates/",
     "industry": "AI & Technology",
-    "summary": "沙特阿拉伯利雅得，2026 年 6 月 11 日（环球通讯社）——费萨尔国王专科医院和研究中心 (KFSH) 将在参加 6 月 15 日至 18 日举行的 HLTH Europe 2026 期间重点介绍人工智能的实际应用……",
+    "summary": "OpenAI 周三透露，该公司已禁止与中国特工有关的账户，这些特工利用 ChatGPT 发起社交媒体影响力活动，旨在美国讨论关税和人工智能数据中心。\n中国特工抓住我们后……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "视频显示CATS轻轨上出现持刀威胁，男子被捕",
+    "url": "https://www.wcnc.com/article/news/crime/man-arrested-after-knife-incident-on-cats-light-rail-cmpd/275-60061f8a-eec7-47b6-8ec3-2bf80407fff2",
+    "industry": "AI & Technology",
+    "summary": "一段病毒视频促使警方调查 CATS 轻轨系统上的一场冲突，德里克·拉蒙特·哈钦森 (Derek Lamont Hutchinson) 面临多项指控。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -144,18 +152,10 @@
     "impact_score": 5
   },
   {
-    "title": "一名持刀男子在 CATS 轻轨上争吵，CMPD 正在调查",
-    "url": "https://www.wcnc.com/article/news/crime/man-armed-with-knife-seen-arguing-on-cats-light-rail/275-e9c0c8a2-7752-4bde-b59c-f1aae39be5a1",
+    "title": "世界杯在哀悼中开始，81岁球迷去世",
+    "url": "https://onefootball.com/en/news/the-world-cup-starts-in-mourning-81-year-old-fan-dies-42996934",
     "industry": "AI & Technology",
-    "summary": "事件发生在晚上10点左右。在星期天。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "警报疲劳本身正在成为一种安全威胁",
-    "url": "https://www.securityweek.com/alert-fatigue-is-becoming-a-security-threat-of-its-own/",
-    "industry": "AI & Technology",
-    "summary": "随着警报量超出人类的处理能力，组织正在转向人工智能、自动化和更深入的上下文来区分真正的威胁和噪音。\n帖子“警报疲劳正在成为其自身的安全威胁”首先出现在 SecurityWeek 上。",
+    "summary": "揭幕战开始前，一名德国球迷心脏病突发，无药可救。比赛开始前，阿兹特克体育场内就充满了节日气氛……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
