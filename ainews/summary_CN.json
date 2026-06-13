@@ -16,10 +16,18 @@
     "impact_score": 5
   },
   {
-    "title": "随着人工智能支出的继续，刚完成债券发行，亚马逊从银行借了 17.5B 美元",
-    "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+    "title": "据报道，亚马逊首席执行官在政府镇压之前提出了人择模型担忧",
+    "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
     "industry": "AI & Technology",
-    "summary": "为了跟上人工智能军备竞赛的步伐，公司正在耗费巨额资金。债务正在攀升。",
+    "summary": "亚马逊首席执行官安迪·贾西 (Andy Jassy) 可能是安全担忧的根源，导致 Anthropic 于周五切断了两种模型的全球访问权限。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 面临州总检察长的调查",
+    "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+    "industry": "AI & Technology",
+    "summary": "目前尚不清楚哪些州参与其中，但他们询问了从 OpenAI 的广告政策到健康数据处理的所有信息。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -44,14 +52,6 @@
     "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
     "industry": "AI & Technology",
     "summary": "新一轮融资对这家旨在实现重型工程和药物设计自动化的物理人工智能初创公司的估值为 410 亿美元。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "新诉讼称，xAI 解雇了一名对 Grok 安全发出警报的工程师",
-    "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
-    "industry": "AI & Technology",
-    "summary": "一名前 xAI 工程师正在起诉该公司和 SpaceX，声称他因在 SpaceX 历史性 IPO 前几天提出对 Grok 的人工智能安全担忧而被解雇。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -104,42 +104,34 @@
     "impact_score": 5
   },
   {
-    "title": "人造花套装 8 件装，现价 5 美元 + 免运费，含 25 美元",
-    "url": "https://www.dealnews.com/Artificial-Flower-Bundle-8-Pack-for-5-free-shipping-w-25/21840218.html",
+    "title": "埃隆·马斯克 (Elon Musk) 在 SpaceX IPO 中成为世界上第一位亿万富翁",
+    "url": "http://deadline.com/2026/06/elon-musk-first-trillionaire-spacex-ipo-1236955050/",
     "industry": "AI & Technology",
-    "summary": "在 Amazon Haul 购买这款人造花 8 件装，售价 4.87 美元。这是我们能找到的最优惠的价格，大约 10 美元。 Amazon Haul 订单金额满 25 美元可免运费。立即在亚马逊购买",
+    "summary": "随着 SpaceX 周五上市，埃隆·马斯克 (Elon Musk) 的净资产激增。有史以来最大规模的公开发行价格为每股 135 美元。该股开盘价为 150 美元，并在纳斯达克开始交易，代码为 SPCX，股价进一步上涨。库存是你…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "机器人谈话第 160 集 – 机器人铁匠，与爱德华梅尔",
-    "url": "https://robohub.org/robot-talk-episode-160-robotic-blacksmiths-with-edward-mehr/",
+    "title": "SpaceX到底是什么？以下是其巨额押注的概要——以及它们为何在整个华尔街引发兴奋和焦虑",
+    "url": "https://nypost.com/2026/06/12/business/spacexs-massive-bets-on-starlink-ai-fuel-excitement-and-anxiety-across-wall-street/",
     "industry": "AI & Technology",
-    "summary": "克莱尔 (Claire) 与 Machina Labs 的爱德华·梅尔 (Edward Mehr) 聊了聊他们的 RoboCraftsman，该机器人为航空航天、国防和汽车行业塑造复杂的金属零件。 Edward Mehr 是一位企业家和工程师，专门从事先进制造、机器人技术和……",
+    "summary": "随着 SpaceX 于周五实现历史性交易，该公司复杂的资产负债表让华尔街既兴奋又焦虑。该公司筹集了创纪录的 750 亿美元投资者资金，打破了沙特阿美公司 (Saudi Aramco) 首次公开募股 (IPO) 之前创下的纪录……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "埃隆·马斯克可能通过 SpaceX 的 IPO 成为世界上第一位亿万富翁",
-    "url": "https://www.huffpost.com/entry/spacex-ipo-musk-trillionaire_n_6a2bf2a6e4b0ba7a1fec7283",
+    "title": "人择垂直软件的推出威胁着企业人工智能构建者",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-vertical-software-rollout-threatens-enterprise-ai-builders/",
     "industry": "AI & Technology",
-    "summary": "埃隆·马斯克周五将出售其火箭公司的股票，成为世界上第一位万亿富翁，这可能是有史以来规模最大的股票首次亮相。",
+    "summary": "据《The Information》周四（6 月 11 日）报道，Anthropic 推出针对特定行业的人工智能工具，威胁到使用其人工智能模型构建自己工具的公司的业务。该报告重点介绍了 13 个行业特定工具……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Willow 实验室欢迎吉尔·拜登博士、肯·巴克和 Said Hilal 加入 Willow 董事会",
-    "url": "https://www.prnewswire.com/news-releases/willow-laboratories-welcomes-dr-jill-biden-ken-buck-and-said-hilal-to-willows-board-of-directors-302799027.html",
+    "title": "众议院共和党领袖的家族投资有望受益于 SpaceX IPO",
+    "url": "https://www.cnbc.com/2026/06/12/lisa-mcclain-spacex-ipo-xai-investment-congress.html",
     "industry": "AI & Technology",
-    "summary": "教育、医疗保健创新和公共服务领域的杰出领导者加入 Willow，帮助推进其通过创新治疗护理改善健康和寿命的使命。加利福尼亚州欧文市，2026 年 6 月 12 日/美通社/——Willow Laboratories，...",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "埃隆·马斯克（Elon Musk）可能通过 SpaceX 的 IPO 成为世界上第一位万亿富翁",
-    "url": "https://www.bostonherald.com/2026/06/12/elon-musk-trillionaire-spacex-ipo/",
-    "industry": "AI & Technology",
-    "summary": "埃隆·马斯克 (Elon Musk) 可能通过 SpaceX 的 IPO 成为世界上第一位万亿富翁bostonherald.com",
+    "summary": "共和党众议员丽莎·麦克莱恩 (Lisa McClain) 的丈夫以 25 万美元的价格购买了埃隆·马斯克 (Elon Musk) 的 xAI，然后该公司在 IPO 前并入 SpaceX。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -156,6 +148,14 @@
     "url": "https://www.wcnc.com/article/news/crime/man-arrested-after-knife-incident-on-cats-light-rail-cmpd/275-60061f8a-eec7-47b6-8ec3-2bf80407fff2",
     "industry": "AI & Technology",
     "summary": "一段病毒视频促使警方调查 CATS 轻轨系统上的一场冲突，德里克·拉蒙特·哈钦森 (Derek Lamont Hutchinson) 面临多项指控。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Gallatin AI 获得美国陆军第三装甲军合同",
+    "url": "https://soldiersystems.net/2026/06/12/gallatin-ai-awarded-contract-by-us-armys-iii-armored-corps/",
+    "industry": "AI & Technology",
+    "summary": "华盛顿，2026 年 6 月 11 日 — Gallatin AI 今天宣布，它已获得美国陆军第三装甲军的一份合同，将部署和改进其人工智能原生后勤决策支持套件 Navigator，以直接支持第三军团的演习和作战……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
