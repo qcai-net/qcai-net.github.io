@@ -1,5 +1,21 @@
 [
   {
+    "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+    "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
+    "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+    "industry": "AI & Technology",
+    "summary": "AWS is in talks to sell its chips to other data centers. CEO Andy Jassy has said this represents a $50 billion opportunity for the company.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
     "title": "NEA\u2019s Tiffany Luck says enterprises are still figuring out their AI ROI",
     "url": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
     "industry": "AI & Technology",
@@ -12,6 +28,14 @@
     "url": "https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/",
     "industry": "AI & Technology",
     "summary": "Tokenmaxxing&#160;was&#160;the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far&#160;as it would go.&#160;Then the bill came due. Uber&#160;reportedly blew&#160;through its annual AI budget in a few months, some companies ...",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "General Intuition in talks to raise $300M at around $2B valuation",
+    "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+    "industry": "AI & Technology",
+    "summary": "The startup trains embodied AI and world models using Medal\u2019s dataset of 2 billion videos per year from 10 million monthly active users.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -32,10 +56,42 @@
     "impact_score": 5
   },
   {
-    "title": "Why Most Enterprise AI Projects Struggle: Lessons from Building AI Applications with .NET, React, and Azure OpenAI",
-    "url": "https://www.c-sharpcorner.com/article/why-most-enterprise-ai-projects-struggle-lessons-from-building-ai-applications/",
+    "title": "AI material discovery startup CuspAI reportedly raising $400M round",
+    "url": "https://siliconangle.com/2026/06/17/ai-material-discovery-startup-cuspai-reportedly-raising-400m-round/",
     "industry": "AI & Technology",
-    "summary": "Enterprise AI projects often fail due to overlooking critical requirements. Learn how .NET, React, and Azure OpenAI can build scalable, secure AI capabilities.",
+    "summary": "CuspAI Ltd., a startup working to speed up material discovery, is reportedly in the process of raising a $400 million funding round. The Financial Times reported today that the term sheet has been signed but the transaction is still being finalized. According\u2026",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Snap spins off AI video team into new company, Dotmo, due to costs",
+    "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+    "industry": "AI & Technology",
+    "summary": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be comprised of current Snap staff who are leaving the social media company to focus on AI video development.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Almost half of U.S. singles feel negatively about AI in dating, Match says",
+    "url": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
+    "industry": "AI & Technology",
+    "summary": "About 47% of singles look negatively at the use of AI in dating -- but, many dating app users are open to AI helping with profile punch-ups and conversation starters.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "AI data centers just got a government-mandated fast lane to the grid",
+    "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
+    "industry": "AI & Technology",
+    "summary": "FERC told grid operators to give data centers a fast lane for interconnections, but it failed to address electricity supply shortages.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "\u2018Queer Eye\u2019s\u2019 life coach Karamo Brown launches K\u0113, a wellness app featuring his AI digital clone",
+    "url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
+    "industry": "AI & Technology",
+    "summary": "Karamo Brown, famous for his pep talks on Netflix&#8217;s \u201cQueer Eye,\u201d has jumped into the wellness and AI space with his new app, K\u0113. After spending a year and a half focusing on his own journey\u2014from fitness and nutrition to meditation, sobriety, relationships, and personal grow...",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -56,106 +112,50 @@
     "impact_score": 5
   },
   {
-    "title": "Collecting robot training data is dirty, unglamorous work. Some AI labs are already paying XDOF to do it.",
-    "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+    "title": "Amazon Exec Predicts Commercial Quantum Computers Could Launch in 2031",
+    "url": "https://www.pymnts.com/technology/2026/amazon-exec-predicts-commercial-quantum-computers-could-launch-in-2031/",
     "industry": "AI & Technology",
-    "summary": "If physical AI is going to match the accomplishments of LLMs, there's a data problem that needs to be solved.",
+    "summary": "Amazon artificial intelligence executive Peter DeSantis reportedly said Wednesday (June 17) that the first \u201ccommercially useful small-scale\u201d quantum computers will appear five to seven years from now. DeSantis, who is the company\u2019s senior vice president, foun\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Pramaana Labs raises $27M seed round from Khosla Ventures to bring formal verification to AI",
-    "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+    "title": "NVIDIA MCX631102AN-ADA SmartNIC Firmware 26.49.1014",
+    "url": "https://drivers.softpedia.com/get/NETWORK-CARD/Nvidia/NVIDIA-MCX631102AN-ADA-SmartNIC-Firmware-26-49-1014.shtml",
     "industry": "AI & Technology",
-    "summary": "Pramaana will focus on highly sensitive verticals like law, drug discovery, and tax preparation \u2014 where errors can be costly and reliability is at a premium.",
+    "summary": "Firmware which is added at the time of manufacturing, is used to run user programs on the device and can be thought of as the software that allows hardware to run. Embedded firmware is used to control the functions of various hardware devices and systems, muc\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Canadian pension giant joins race to fund India\u2019s AI-fueled data center boom",
-    "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
+    "title": "NVIDIA MCX631102AS-ADA SmartNIC Firmware 26.49.1014",
+    "url": "https://drivers.softpedia.com/get/NETWORK-CARD/Nvidia/NVIDIA-MCX631102AS-ADA-SmartNIC-Firmware-26-49-1014.shtml",
     "industry": "AI & Technology",
-    "summary": "The Canadian pension giant will acquire an 8.2% stake in CtrlS, a tech giant that operates more than 15 data centers across India.",
+    "summary": "Firmware which is added at the time of manufacturing, is used to run user programs on the device and can be thought of as the software that allows hardware to run. Embedded firmware is used to control the functions of various hardware devices and systems, muc\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Pinterest launches an experimental AI shopping app called \u2018Ask Pinterest\u2019",
-    "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+    "title": "NVIDIA MCX631432AN-ADA SmartNIC Firmware 26.49.1014",
+    "url": "https://drivers.softpedia.com/get/NETWORK-CARD/Nvidia/NVIDIA-MCX631432AN-ADA-SmartNIC-Firmware-26-49-1014.shtml",
     "industry": "AI & Technology",
-    "summary": "Pinterest has launched 'Ask Pinterest,' an experimental AI-powered shopping app that lets users seek recommendations and inspiration through a conversational interface.",
+    "summary": "Firmware which is added at the time of manufacturing, is used to run user programs on the device and can be thought of as the software that allows hardware to run. Embedded firmware is used to control the functions of various hardware devices and systems, muc\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Jensen Huang is urging society to overcome its fear of AI",
-    "url": "https://4sysops.com/archives/jensen-huang-is-urging-society-to-overcome-its-fear-of-ai/",
+    "title": "NVIDIA MCX631435AE-GDA SmartNIC Firmware 26.49.1014",
+    "url": "https://drivers.softpedia.com/get/NETWORK-CARD/Nvidia/NVIDIA-MCX631435AE-GDA-SmartNIC-Firmware-26-49-1014.shtml",
     "industry": "AI & Technology",
-    "summary": "Nvidia CEO Jensen Huang emphasizes that society must move past the fear of artificial intelligence to embrace its potential for economic growth and scientific breakthroughs. He argues that the current industrial revolution will be won at the application layer\u2026",
+    "summary": "Firmware which is added at the time of manufacturing, is used to run user programs on the device and can be thought of as the software that allows hardware to run. Embedded firmware is used to control the functions of various hardware devices and systems, muc\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "American Banker Names U.S. Bank and Edward Jones the 2026 Innovation of the Year Winner at DIGITAL BANKING",
-    "url": "https://www.globenewswire.com/news-release/2026/06/17/3313531/0/en/American-Banker-Names-U-S-Bank-and-Edward-Jones-the-2026-Innovation-of-the-Year-Winner-at-DIGITAL-BANKING.html",
+    "title": "NVIDIA MCX631105AE-GDA SmartNIC Firmware 26.49.1014",
+    "url": "https://drivers.softpedia.com/get/NETWORK-CARD/Nvidia/NVIDIA-MCX631105AE-GDA-SmartNIC-Firmware-26-49-1014.shtml",
     "industry": "AI & Technology",
-    "summary": "Chicago, United States, June 17, 2026 (GLOBE NEWSWIRE) -- \"Everyday Solutions\" recognized as overall Innovation of the Year, setting a new benchmark for impact and execution across the industry",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Unconscious person removed from American Airlines flight at Charlotte airport",
-    "url": "https://www.wcnc.com/article/news/local/passenger-removed-from-american-airlines-flight-charlotte-airport/275-d1af527e-fb0e-4856-b868-500fae5d43c7",
-    "industry": "AI & Technology",
-    "summary": "Officials did not say what led to the person becoming unconscious.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Grok helped strike 2,000 targets at Iran. Now its pollution is \u2018national security\u2019.",
-    "url": "https://thenextweb.com/news/grok-iran-targeting-musk-conflict/",
-    "industry": "AI & Technology",
-    "summary": "The Pentagon says Grok helped strike 2,000 targets in 96 hours, and that the polluting power plant behind it is a matter of paramount national security. The two claims belong in the same sentence, and that is the problem. The admission did not come in a press\u2026",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Jabil Tops Forecasts on AI Demand and Strong Guidance, but Shares Slip",
-    "url": "https://biztoc.com/x/103da71e62b5ae77",
-    "industry": "AI & Technology",
-    "summary": "Jabil Inc. (NYSE:JBL) delivered third-quarter fiscal 2026 results ahead of Wall Street expectations, driven by continued strength in artificial intelligence infrastructure and improving performance across several end markets. Despite the earnings beat, shares\u2026",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "A safe AI strategy for Canadian youth should include age-associated risks",
-    "url": "https://theconversation.com/a-safe-ai-strategy-for-canadian-youth-should-include-age-associated-risks-284997",
-    "industry": "AI & Technology",
-    "summary": "Research on generative AI use among youth pinpoints design features that pose age-specific risks, which must be addressed before we adopt genAI into our schools and homes.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "G7 Leaders Back Trump\u2019s Plan to End Iran War That Faces Skepticism at Home",
-    "url": "https://military.com/g7-leaders-back-trumps-plan-to-end-iran-war-that-faces-skepticism-at-home",
-    "industry": "AI & Technology",
-    "summary": "In a declaration issued overnight, the leaders called the deal a \u201chistoric opportunity to prevent Iran from acquiring any nuclear weapon.\"",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": " Best fans at the World Cup? Scotland have rivals",
-    "url": "https://onefootball.com/en/news/best-fans-at-the-world-cup-scotland-have-rivals-43021307",
-    "industry": "AI & Technology",
-    "summary": "These days, Norway are taking part in a World Cup for the first time in an incredible 30 years. Their return to the big stage got off to the perfect start with a 4-1 opening win over Iraq.\u00a0Superstar ...",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "mfai 7.2.0",
-    "url": "https://pypi.org/project/mfai/7.2.0/",
-    "industry": "AI & Technology",
-    "summary": "Meteo-France's Artificial Intelligence Python Package",
+    "summary": "Firmware which is added at the time of manufacturing, is used to run user programs on the device and can be thought of as the software that allows hardware to run. Embedded firmware is used to control the functions of various hardware devices and systems, muc\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }

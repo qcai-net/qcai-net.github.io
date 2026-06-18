@@ -1,5 +1,21 @@
 [
   {
+    "title": "OpenAI está aportando algunas armas importantes en el período previo a su IPO",
+    "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI se está fortaleciendo antes de su oferta pública inicial, consiguiendo al co-inventor de Transformer, Noam Shazeer, de Google DeepMind y al exfuncionario de políticas de IA de Trump, Dean Ball, en la misma semana.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Amazon espera desafiar a Nvidia más directamente vendiendo sus chips de IA",
+    "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+    "industry": "AI & Technology",
+    "summary": "AWS está en conversaciones para vender sus chips a otros centros de datos. El director ejecutivo Andy Jassy ha dicho que esto representa una oportunidad de 50 mil millones de dólares para la empresa.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
     "title": "Tiffany Luck de NEA dice que las empresas todavía están calculando el retorno de la inversión en IA",
     "url": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
     "industry": "AI & Technology",
@@ -12,6 +28,14 @@
     "url": "https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/",
     "industry": "AI & Technology",
     "summary": "Tokenmaxxing fue la tendencia más candente en Silicon Valley a principios de este año, y los directores ejecutivos alentaron a los empleados a impulsar el uso de la IA al máximo posible. Entonces llegó la factura. Según se informa, Uber superó su presupuesto anual de IA en unos pocos meses, algunas empresas...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "General Intuition en conversaciones para recaudar 300 millones de dólares con una valoración de alrededor de 2 mil millones de dólares",
+    "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+    "industry": "AI & Technology",
+    "summary": "Los trenes de inicio incorporaron inteligencia artificial y modelos mundiales utilizando el conjunto de datos de Medal de 2 mil millones de videos por año de 10 millones de usuarios activos mensuales.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -32,10 +56,42 @@
     "impact_score": 5
   },
   {
-    "title": "Por qué la mayoría de los proyectos empresariales de IA tienen problemas: lecciones de la creación de aplicaciones de IA con .NET, React y Azure OpenAI",
-    "url": "https://www.c-sharpcorner.com/article/why-most-enterprise-ai-projects-struggle-lessons-from-building-ai-applications/",
+    "title": "La startup de descubrimiento de materiales de IA, CuspAI, supuestamente recaudará una ronda de 400 millones de dólares",
+    "url": "https://siliconangle.com/2026/06/17/ai-material-discovery-startup-cuspai-reportedly-raising-400m-round/",
     "industry": "AI & Technology",
-    "summary": "Los proyectos de IA empresarial a menudo fracasan debido a que se pasan por alto requisitos críticos. Descubra cómo .NET, React y Azure OpenAI pueden crear capacidades de IA seguras y escalables.",
+    "summary": "CuspAI Ltd., una startup que trabaja para acelerar el descubrimiento de materiales, está supuestamente en proceso de recaudar una ronda de financiación de 400 millones de dólares. El Financial Times informó hoy que se firmaron los términos y condiciones, pero la transacción aún se está ultimando. De acuerdo a…",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Snap convierte el equipo de vídeo de IA en una nueva empresa, Dotmo, debido a los costes",
+    "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+    "industry": "AI & Technology",
+    "summary": "El fabricante de Snapchat está creando otra unidad interna más. Dotmo estará compuesto por el personal actual de Snap que dejará la empresa de redes sociales para centrarse en el desarrollo de vídeos de IA.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Casi la mitad de los solteros de EE. UU. tienen opiniones negativas sobre la IA en las citas, dice Match",
+    "url": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
+    "industry": "AI & Technology",
+    "summary": "Alrededor del 47% de los solteros ven negativamente el uso de la IA en las citas, pero muchos usuarios de aplicaciones de citas están abiertos a que la IA les ayude a definir perfiles e iniciar conversaciones.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Los centros de datos de IA acaban de obtener una vía rápida hacia la red ordenada por el gobierno",
+    "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
+    "industry": "AI & Technology",
+    "summary": "La FERC pidió a los operadores de red que dieran a los centros de datos una vía rápida para las interconexiones, pero no logró abordar la escasez de suministro de electricidad.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "El coach de vida de 'Queer Eye', Karamo Brown, lanza Kē, una aplicación de bienestar con su clon digital de inteligencia artificial",
+    "url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
+    "industry": "AI & Technology",
+    "summary": "Karamo Brown, famoso por sus charlas de ánimo en “Queer Eye” de Netflix, saltó al espacio del bienestar y la inteligencia artificial con su nueva aplicación, Kē. Después de pasar un año y medio concentrándose en su propio viaje, desde el fitness y la nutrición hasta la meditación, la sobriedad, las relaciones y el crecimiento personal...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -56,106 +112,50 @@
     "impact_score": 5
   },
   {
-    "title": "Recopilar datos de entrenamiento de robots es un trabajo sucio y poco glamoroso. Algunos laboratorios de IA ya están pagando a XDOF para que lo haga.",
-    "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+    "title": "Ejecutivo de Amazon predice que las computadoras cuánticas comerciales podrían lanzarse en 2031",
+    "url": "https://www.pymnts.com/technology/2026/amazon-exec-predicts-commercial-quantum-computers-could-launch-in-2031/",
     "industry": "AI & Technology",
-    "summary": "Si la IA física va a igualar los logros de los LLM, hay un problema de datos que debe resolverse.",
+    "summary": "Según se informa, el ejecutivo de inteligencia artificial de Amazon, Peter DeSantis, dijo el miércoles (17 de junio) que las primeras computadoras cuánticas “a pequeña escala y comercialmente útiles” aparecerán dentro de cinco a siete años. DeSantis, quien es el vicepresidente senior de la compañía, fundó...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Pramaana Labs recauda una ronda inicial de 27 millones de dólares de Khosla Ventures para llevar la verificación formal a AI",
-    "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+    "title": "NVIDIA MCX631102AN-ADA Firmware inteligente NIC 26.49.1014",
+    "url": "https://drivers.softpedia.com/get/NETWORK-CARD/Nvidia/NVIDIA-MCX631102AN-ADA-SmartNIC-Firmware-26-49-1014.shtml",
     "industry": "AI & Technology",
-    "summary": "Pramaana se centrará en sectores muy sensibles como el derecho, el descubrimiento de fármacos y la preparación de impuestos, donde los errores pueden ser costosos y la confiabilidad es un bien escaso.",
+    "summary": "El firmware que se agrega en el momento de la fabricación se utiliza para ejecutar programas de usuario en el dispositivo y puede considerarse como el software que permite que se ejecute el hardware. El firmware integrado se utiliza para controlar las funciones de varios dispositivos y sistemas de hardware, muc...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "El gigante canadiense de las pensiones se une a la carrera para financiar el auge de los centros de datos impulsados ​​por la IA en la India",
-    "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
+    "title": "Firmware NVIDIA MCX631102AS-ADA SmartNIC 26.49.1014",
+    "url": "https://drivers.softpedia.com/get/NETWORK-CARD/Nvidia/NVIDIA-MCX631102AS-ADA-SmartNIC-Firmware-26-49-1014.shtml",
     "industry": "AI & Technology",
-    "summary": "El gigante canadiense de las pensiones adquirirá una participación del 8,2% en CtrlS, un gigante tecnológico que opera más de 15 centros de datos en toda la India.",
+    "summary": "El firmware que se agrega en el momento de la fabricación se utiliza para ejecutar programas de usuario en el dispositivo y puede considerarse como el software que permite que se ejecute el hardware. El firmware integrado se utiliza para controlar las funciones de varios dispositivos y sistemas de hardware, muc...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Pinterest lanza una aplicación experimental de compras con inteligencia artificial llamada \"Pregunta a Pinterest\"",
-    "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+    "title": "NVIDIA MCX631432AN-ADA Firmware inteligente NIC 26.49.1014",
+    "url": "https://drivers.softpedia.com/get/NETWORK-CARD/Nvidia/NVIDIA-MCX631432AN-ADA-SmartNIC-Firmware-26-49-1014.shtml",
     "industry": "AI & Technology",
-    "summary": "Pinterest ha lanzado 'Ask Pinterest', una aplicación de compras experimental impulsada por inteligencia artificial que permite a los usuarios buscar recomendaciones e inspiración a través de una interfaz conversacional.",
+    "summary": "El firmware que se agrega en el momento de la fabricación se utiliza para ejecutar programas de usuario en el dispositivo y puede considerarse como el software que permite que se ejecute el hardware. El firmware integrado se utiliza para controlar las funciones de varios dispositivos y sistemas de hardware, muc...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Jensen Huang insta a la sociedad a superar su miedo a la IA",
-    "url": "https://4sysops.com/archives/jensen-huang-is-urging-society-to-overcome-its-fear-of-ai/",
+    "title": "Firmware NVIDIA MCX631435AE-GDA SmartNIC 26.49.1014",
+    "url": "https://drivers.softpedia.com/get/NETWORK-CARD/Nvidia/NVIDIA-MCX631435AE-GDA-SmartNIC-Firmware-26-49-1014.shtml",
     "industry": "AI & Technology",
-    "summary": "El director ejecutivo de Nvidia, Jensen Huang, enfatiza que la sociedad debe superar el miedo a la inteligencia artificial para aprovechar su potencial de crecimiento económico y avances científicos. Sostiene que la actual revolución industrial se ganará en la capa de aplicación...",
+    "summary": "El firmware que se agrega en el momento de la fabricación se utiliza para ejecutar programas de usuario en el dispositivo y puede considerarse como el software que permite que se ejecute el hardware. El firmware integrado se utiliza para controlar las funciones de varios dispositivos y sistemas de hardware, muc...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "American Banker nombra a U.S. Bank y Edward Jones ganadores de Innovación del año 2026 en DIGITAL BANKING",
-    "url": "https://www.globenewswire.com/news-release/2026/06/17/3313531/0/en/American-Banker-Names-U-S-Bank-and-Edward-Jones-the-2026-Innovation-of-the-Year-Winner-at-DIGITAL-BANKING.html",
+    "title": "Firmware NVIDIA MCX631105AE-GDA SmartNIC 26.49.1014",
+    "url": "https://drivers.softpedia.com/get/NETWORK-CARD/Nvidia/NVIDIA-MCX631105AE-GDA-SmartNIC-Firmware-26-49-1014.shtml",
     "industry": "AI & Technology",
-    "summary": "Chicago, Estados Unidos, 17 de junio de 2026 (GLOBE NEWSWIRE) -- \"Everyday Solutions\" reconocida como Innovación general del año, estableciendo un nuevo punto de referencia de impacto y ejecución en toda la industria",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Retiran a persona inconsciente de un vuelo de American Airlines en el aeropuerto de Charlotte",
-    "url": "https://www.wcnc.com/article/news/local/passenger-removed-from-american-airlines-flight-charlotte-airport/275-d1af527e-fb0e-4856-b868-500fae5d43c7",
-    "industry": "AI & Technology",
-    "summary": "Las autoridades no dijeron qué llevó a que la persona perdiera el conocimiento.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Grok ayudó a atacar 2.000 objetivos en Irán. Ahora su contaminación es la “seguridad nacional”.",
-    "url": "https://thenextweb.com/news/grok-iran-targeting-musk-conflict/",
-    "industry": "AI & Technology",
-    "summary": "El Pentágono dice que Grok ayudó a atacar 2.000 objetivos en 96 horas y que la contaminante planta de energía detrás de él es una cuestión de suma importancia para la seguridad nacional. Las dos afirmaciones pertenecen a la misma frase, y ese es el problema. La admisión no llegó en la prensa…",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Jabil encabeza las previsiones sobre la demanda de IA y una orientación sólida, pero las acciones caen",
-    "url": "https://biztoc.com/x/103da71e62b5ae77",
-    "industry": "AI & Technology",
-    "summary": "Jabil Inc. (NYSE:JBL) presentó resultados del tercer trimestre del año fiscal 2026 por encima de las expectativas de Wall Street, impulsado por la fortaleza continua de la infraestructura de inteligencia artificial y la mejora del desempeño en varios mercados finales. A pesar del aumento de las ganancias, las acciones…",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Una estrategia de IA segura para los jóvenes canadienses debería incluir riesgos asociados a la edad",
-    "url": "https://theconversation.com/a-safe-ai-strategy-for-canadian-youth-should-include-age-associated-risks-284997",
-    "industry": "AI & Technology",
-    "summary": "La investigación sobre el uso de la IA generativa entre los jóvenes señala características de diseño que plantean riesgos específicos de la edad, que deben abordarse antes de que adoptemos la IA generativa en nuestras escuelas y hogares.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Los líderes del G7 respaldan el plan de Trump para poner fin a la guerra con Irán, que enfrenta escepticismo en casa",
-    "url": "https://military.com/g7-leaders-back-trumps-plan-to-end-iran-war-that-faces-skepticism-at-home",
-    "industry": "AI & Technology",
-    "summary": "En una declaración emitida durante la noche, los líderes calificaron el acuerdo como una \"oportunidad histórica para evitar que Irán adquiera cualquier arma nuclear\".",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "¿Los mejores aficionados del Mundial? Escocia tiene rivales",
-    "url": "https://onefootball.com/en/news/best-fans-at-the-world-cup-scotland-have-rivals-43021307",
-    "industry": "AI & Technology",
-    "summary": "Estos días, Noruega participa en una Copa del Mundo por primera vez en 30 increíbles años. Su regreso al gran escenario tuvo un comienzo perfecto con una victoria inicial por 4-1 sobre Irak. Superestrella...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "mfai 7.2.0",
-    "url": "https://pypi.org/project/mfai/7.2.0/",
-    "industry": "AI & Technology",
-    "summary": "Paquete Python de inteligencia artificial de Méteo-France",
+    "summary": "El firmware que se agrega en el momento de la fabricación se utiliza para ejecutar programas de usuario en el dispositivo y puede considerarse como el software que permite que se ejecute el hardware. El firmware integrado se utiliza para controlar las funciones de varios dispositivos y sistemas de hardware, muc...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
