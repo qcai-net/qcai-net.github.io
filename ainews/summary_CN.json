@@ -16,10 +16,26 @@
     "impact_score": 5
   },
   {
+    "title": "如何关闭 Google 文档中的 AI",
+    "url": "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/",
+    "industry": "AI & Technology",
+    "summary": "您需要执行以下操作才能消除那些讨厌的“与 Gemini 一起写作”弹出窗口。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "Anthropic 成为第一家加入 Frontier 碳清除联盟的人工智能初创公司",
     "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
     "industry": "AI & Technology",
     "summary": "Anthropic 已加入 Frontier 联盟，该联盟又收到了 9.15 亿美元的碳清除项目资金承诺。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "为什么大多数企业 AI 项目举步维艰：使用 .NET、React 和 Azure OpenAI 构建 AI 应用程序的经验教训",
+    "url": "https://www.c-sharpcorner.com/article/why-most-enterprise-ai-projects-struggle-lessons-from-building-ai-applications/",
+    "industry": "AI & Technology",
+    "summary": "企业人工智能项目经常因忽视关键需求而失败。了解 .NET、React 和 Azure OpenAI 如何构建可扩展、安全的 AI 功能。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -72,50 +88,18 @@
     "impact_score": 5
   },
   {
-    "title": "调查发现，百分之六十的美国消费者表示品牌信息中的“人工智能”令人反感",
-    "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
+    "title": "黄仁勋敦促社会克服对人工智能的恐惧",
+    "url": "https://4sysops.com/archives/jensen-huang-is-urging-society-to-overcome-its-fear-of-ai/",
     "industry": "AI & Technology",
-    "summary": "WordPress VIP 的最新调查表明，尽管企业越来越多地将人工智能搜索视为重要的推荐渠道，但消费者对人工智能生成的答案仍持谨慎态度。",
+    "summary": "英伟达首席执行官黄仁勋强调，社会必须克服对人工智能的恐惧，拥抱其经济增长和科学突破的潜力。他认为，当前的工业革命将在应用层获胜……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "SpaceX将以$60B收购vibe编码初创公司Cursor",
-    "url": "https://siliconangle.com/2026/06/16/spacex-acquire-vibe-coding-startup-cursor-60b/",
+    "title": "《美国银行家》将合众银行和爱德华·琼斯评为 2026 年度数字银行创新奖得主",
+    "url": "https://www.globenewswire.com/news-release/2026/06/17/3313531/0/en/American-Banker-Names-U-S-Bank-and-Edward-Jones-the-2026-Innovation-of-the-Year-Winner-at-DIGITAL-BANKING.html",
     "industry": "AI & Technology",
-    "summary": "新上市的 SpaceX 公司今天宣布计划以 600 亿美元的股票收购流行的 vivi 编码平台开发商 Cursor。两家公司预计将在本季度末完成交易。此举并不出人意料。 4 月，SpaceX...",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "英伟达CEO黄仁勋：社会必须适应人工智能",
-    "url": "https://wirehub.medianewsgroup.com/2026/06/16/ap-exclusive-nvidias-jensen-huang-says-society-needs-new-social-norms-in-the-age-of-ai/",
-    "industry": "AI & Technology",
-    "summary": "英伟达首席执行官黄仁勋：社会必须适应人工智能bostonherald.com",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "飙升的 SpaceX 超越亚马逊成为第五大公司，以 60 亿美元收购 Cursor",
-    "url": "https://www.nzherald.co.nz/business/surging-spacex-overtakes-amazon-to-become-5th-biggest-company-buys-cursor-for-us60b/ZJ5XPE5K75BGJKYBHZG54S4T4Y/",
-    "industry": "AI & Technology",
-    "summary": "分析师警告称，股价飙升反映了炒作和流通量的减少，而不是利润。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "在 Amazon SageMaker AI 中引入容器缓存以加快模型扩展速度",
-    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-container-caching-in-amazon-sagemaker-ai-for-faster-model-scaling/",
-    "industry": "AI & Technology",
-    "summary": "今天，我们很高兴地宣布用于 Amazon SageMaker AI 推理的容器图像缓存，这是我们更快的扩展优化之旅的下一个重大进展。这使得生成式 AI 模型在横向扩展事件期间的端到端延迟速度提高了 2 倍。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Adyen 推出面向企业商家的代理解决方案",
-    "url": "https://biztoc.com/x/9eec2e3301a9d1b9",
-    "industry": "AI & Technology",
-    "summary": "Adyen 推出了一套工具，帮助公司通过对话式人工智能 (AI) 平台进行销售。\n \n \n \n \nAdyen Agentic 由支付金融科技周二（6 月 16 日）宣布，包括三个层，旨在解决各个阶段的问题……",
+    "summary": "美国芝加哥，2026 年 6 月 17 日（环球通讯社）——“日常解决方案”被评为年度整体创新，为整个行业的影响和执行树立了新基准",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -128,34 +112,50 @@
     "impact_score": 5
   },
   {
-    "title": "阳光和炎热又回来了；周四和周五有雨和暴风雨",
-    "url": "https://www.wcnc.com/article/weather/forecast/charlotte-weather-forecast-update/275-50501550",
+    "title": "Grok 帮助袭击了伊朗 2,000 个目标。现在它的污染是“国家安全”。",
+    "url": "https://thenextweb.com/news/grok-iran-targeting-musk-conflict/",
     "industry": "AI & Technology",
-    "summary": "周四晚上到周五早上的通勤期间，下雨的可能性会增加，并在周四晚上变得普遍",
+    "summary": "五角大楼表示，Grok 在 96 小时内帮助打击了 2000 个目标，其背后的污染发电厂事关国家安全。这两个主张属于同一个句子，这就是问题所在。该承认并未通过媒体报道……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "消费者报告：Uber 和 Lyft 定价差异显着，引发公平性担忧",
-    "url": "https://www.wcnc.com/article/news/local/connect-the-dots/uber-lyft-pricing-varies-artificial-intelligence-consumer-reports-investigation-findings/275-ee837036-1fb6-406a-b7f7-b63bcf49d77e",
+    "title": "捷普领先人工智能需求预测和强劲指引，但股价下滑",
+    "url": "https://biztoc.com/x/103da71e62b5ae77",
     "industry": "AI & Technology",
-    "summary": "研究人员发现，几乎在同一时间请求完全相同行程的人们经常会看到截然不同的票价。",
+    "summary": "捷普公司（纽约证券交易所股票代码：JBL）在人工智能基础设施持续强劲以及多个终端市场业绩不断改善的推动下，公布了 2026 财年第三季度业绩，超出了华尔街预期。尽管盈利超出预期，但股价...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "JDM Web Technologies 确定了 2026 年企业必须关注的关键 AI 搜索排名因素",
-    "url": "https://www.globenewswire.com/news-release/2026/06/16/3313044/0/en/JDM-Web-Technologies-Identifies-Key-AI-Search-Ranking-Factors-Businesses-Must-Focus-on-in-2026.html",
+    "title": "加拿大青少年的安全人工智能策略应包括与年龄相关的风险",
+    "url": "https://theconversation.com/a-safe-ai-strategy-for-canadian-youth-should-include-age-associated-risks-284997",
     "industry": "AI & Technology",
-    "summary": "新德里，DL，2026 年 6 月 16 日（环球通讯社）——新德里，DL - 2026 年 6 月 16 日——JDM Web Technologies 确定了关键的 AI 搜索排名因素……",
+    "summary": "对青少年使用生成式人工智能的研究指出了造成特定年龄风险的设计特征，在我们将生成式人工智能引入学校和家庭之前必须解决这些风险。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "麻省理工学院的新制造倡议蓄势待发",
-    "url": "https://news.mit.edu/2026/mit-initiative-for-new-manufacturing-builds-momentum-0616",
+    "title": "七国集团领导人支持特朗普结束伊朗战争的计划，但该计划在国内面临质疑",
+    "url": "https://military.com/g7-leaders-back-trumps-plan-to-end-iran-war-that-faces-skepticism-at-home",
     "industry": "AI & Technology",
-    "summary": "麻省理工学院的新制造业计划 (INM) 正在推进研究、劳动力发展和行业合作，以加速新制造技术的发展，增强工业竞争力，并帮助塑造美国制造业的未来……",
+    "summary": "在隔夜发表的声明中，领导人称该协议是“防止伊朗获得任何核武器的历史性机会”。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "世界杯上最好的球迷？苏格兰有竞争对手",
+    "url": "https://onefootball.com/en/news/best-fans-at-the-world-cup-scotland-have-rivals-43021307",
+    "industry": "AI & Technology",
+    "summary": "如今，挪威 30 年来首次参加世界杯。重返大赛舞台的他们以4-1战胜伊拉克队取得了完美的开局。 超级巨星...",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "MFAI 7.2.0",
+    "url": "https://pypi.org/project/mfai/7.2.0/",
+    "industry": "AI & Technology",
+    "summary": "法国气象局的人工智能 Python 包",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
