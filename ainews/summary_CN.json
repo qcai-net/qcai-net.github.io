@@ -1,17 +1,33 @@
 [
   {
-    "title": "OpenAI 在 IPO 前夕带来了一些重磅炸弹",
-    "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+    "title": "AI 芯片制造商 Groq 确认筹集 6.5 亿美元资金，并在 Nvidia 完成 200 亿美元非收购聘用交易后进行人员重组",
+    "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
     "industry": "AI & Technology",
-    "summary": "OpenAI 在 IPO 之前不断壮大，同一周引进了来自 Google DeepMind 的 Transformer 联合发明人 Noam Shazeer 和前特朗普人工智能政策官员 Dean Ball。",
+    "summary": "在完成一项非收购雇佣交易后，人工智能公司会做什么？ Groq 筹集了资金，正在向 Neocloud 业务倾斜，并正在招聘新的高管。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "亚马逊希望通过销售其人工智能芯片来更直接地挑战英伟达",
-    "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+    "title": "英伟达希望减少数据中心的用水量，但这与解决人工智能的用水问题不同",
+    "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
     "industry": "AI & Technology",
-    "summary": "AWS 正在洽谈将其芯片出售给其他数据中心。首席执行官安迪·贾西 (Andy Jassy) 表示，这为公司带来了 500 亿美元的机遇。",
+    "summary": "英伟达宣布推出一种新的冷却系统，可以减少数据中心内的用水量。但它对解决人工智能最大的用水问题——化石燃料发电厂没有任何作用。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "谷歌 DeepMind 通过 A24 交易押注 7500 万美元押注好莱坞人工智能的未来",
+    "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+    "industry": "AI & Technology",
+    "summary": "Google DeepMind 和 A24 正在联手打造人工智能电影制作工具。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "SpaceX 与开源人工智能实验室 Reflection AI 签署计算协议",
+    "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+    "industry": "AI & Technology",
+    "summary": "从 2026 年 7 月 1 日到 2029 年，Reflection AI 每月支付 1.5 亿美元，以便立即使用 Nvidia 最新的 GB300 AI 芯片以及位于田纳西州孟菲斯附近的 SpaceX Colossus 2 数据中心的支持硬件。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -40,10 +56,18 @@
     "impact_score": 5
   },
   {
-    "title": "该医疗保健股票的估值高于英伟达。它还可以带来更大的长期回报吗？",
-    "url": "https://biztoc.com/x/7e3342caea829b92",
+    "title": "Netflix 和 Focus 不再追逐卢卡·瓜达尼诺的《人造人》",
+    "url": "https://www.thewrap.com/creative-content/movies/artificial-sam-altman-movie-netflix-focus-pass/",
     "industry": "AI & Technology",
-    "summary": "该医疗保健股票的估值高于英伟达。它还可以带来更大的长期回报吗？\nNvidia（纳斯达克股票代码：NVDA）处于目前正在展开的全球人工智能（AI）革命的前沿。投资者已经奖励了股票……",
+    "summary": "亚马逊米高梅上周放弃了对 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman) 的无限制言论\nNetflix、Focus 退出对卢卡·瓜达尼诺 (Luca Guadagnino) 的《人造人》(Artificial) 的追逐的帖子首先出现在 TheWrap 上。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "人工智能世界正变得“疯狂”",
+    "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+    "industry": "AI & Technology",
+    "summary": "该循环通过授权一群代理在后台连续无休止地工作，使代理人工智能更进一步。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -80,30 +104,6 @@
     "impact_score": 5
   },
   {
-    "title": "出于成本考虑，Snap 将人工智能视频团队分拆为新公司 Dotmo",
-    "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
-    "industry": "AI & Technology",
-    "summary": "这家 Snapchat 制造商正在剥离另一个内部部门。 Dotmo 将由 Snap 现有员工组成，他们将离开这家社交媒体公司，专注于人工智能视频开发。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Match 表示，近一半的美国单身人士对约会中的人工智能持负面态度",
-    "url": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
-    "industry": "AI & Technology",
-    "summary": "大约 47% 的单身人士对人工智能在约会中的使用持负面态度，但许多约会应用程序用户对人工智能在个人资料打孔和对话开始方面的帮助持开放态度。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "人工智能数据中心刚刚获得了政府规定的通往电网的快速通道",
-    "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
-    "industry": "AI & Technology",
-    "summary": "FERC 要求电网运营商为数据中心提供互连的快速通道，但未能解决电力供应短缺问题。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
     "title": "人工智能测试开始在医疗保健领域：该计划在医生短缺的情况下帮助更新处方",
     "url": "https://www.wcnc.com/article/news/local/connect-the-dots/connect-the-dots-ai-healthcare/275-95af6931-efa9-4d16-8cff-a17bb8b6e454",
     "industry": "AI & Technology",
@@ -112,18 +112,10 @@
     "impact_score": 5
   },
   {
-    "title": "一年后英伟达的股价会是多少？",
-    "url": "https://biztoc.com/x/65411eca3057265a",
+    "title": "中国正在迎来另一个人工智能时刻",
+    "url": "https://biztoc.com/x/e11d386c502858b8",
     "industry": "AI & Technology",
-    "summary": "英伟达（纳斯达克股票代码：NVDA）股票给投资者带来了丰厚的回报。这家人工智能 (AI) 芯片和技术基础设施领导者的股价在过去十年中回报率为 18,300%，将 1,000 美元的适度投资转变为高达 184,000 美元的巨额投资。 …",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "梅琳达·盖茨敦促科技大亨捐出一半财富",
-    "url": "https://economictimes.indiatimes.com/tech/technology/melinda-gates-urges-tech-tycoons-to-donate-half-their-wealth/articleshow/131892681.cms",
-    "industry": "AI & Technology",
-    "summary": "梅琳达·弗伦奇·盖茨 (Melinda French Gates) 敦促准备从即将举行的首次公开募股(IPO)中获取财富的科技巨头承诺捐出至少一半的财富用于慈善事业。她强调，巨大的财富伴随着回馈国家的责任……",
+    "summary": "美国在人工智能领域对中国的领先优势可能是一年多来最小的。当中国于 2025 年 1 月发布 DeepSeek r1 扰乱人工智能竞赛时，它从美国资本市场上抹去了 1 万美元。芯片公司英伟达短暂下跌 17%……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -144,18 +136,26 @@
     "impact_score": 5
   },
   {
-    "title": "宣誓书披露了导致一名男子在住宅区被刺伤的新细节",
-    "url": "https://www.wcnc.com/article/news/crime/suspect-arrested-in-uptown-stabbing/275-26f71d50-7ec6-40e1-9fb2-8c57fea693bb",
+    "title": "一百万学生几乎每一堂课都在屏幕上度过",
+    "url": "https://www.dailymail.com/news/article-15917997/One-million-pupils-spending-lesson-screen.html",
     "industry": "AI & Technology",
-    "summary": "6 月 10 日，一名男子在住宅区的一辆汽车中被发现被刺死，现年 51 岁的戴维·莱维特·劳伦斯 (David Layevette Lawrence) 面临谋杀和抢劫指控。",
+    "summary": "新研究表明，英国 9% 的学生（约 96 万名）几乎每堂课都在“一对一屏幕”上度过，例如 iPad 或其他平板电脑。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "人工智能丑闻震撼德国媒体",
-    "url": "https://www.dw.com/en/ai-scandal-rocks-the-german-media/a-77606407",
+    "title": "比利时被伊朗逼平，在小组中处境艰难",
+    "url": "https://onefootball.com/en/news/belgium-held-by-iran-left-in-a-tricky-spot-in-the-group-43040107",
     "industry": "AI & Technology",
-    "summary": "德国两家主要报纸删除了使用人工智能创作的文章。许多人担心对人工智能的日益依赖会损害德国媒体的可信度。 “对于我们的新闻编辑室来说，人工智能是一种工具，可以帮助我们简化工作并提高……",
+    "summary": "比利时队在本届世界杯上仍未取得胜利，将在微妙的情况下进入小组赛最后一轮。周日（21日）0-0战平伊朗队，两队仅积两分...",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "人工智能抄写员承诺为临床医生减轻负担，但加拿大的经验表明，权衡是真实的",
+    "url": "https://www.digitaljournal.com/article/ai-scribes-promise-relief-for-clinicians-yet-canadas-experience-shows-the-trade-offs-are-real/",
+    "industry": "AI & Technology",
+    "summary": "人工智能转录既代表着机遇，也代表着谨慎。使用得当，可以减轻临床医生的负担，提高效率，增强患者互动。如果使用不当，它可能会在精度至关重要的系统中引入微妙但重大的错误……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }

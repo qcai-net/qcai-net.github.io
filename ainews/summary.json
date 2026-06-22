@@ -1,17 +1,33 @@
 [
   {
-    "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
-    "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+    "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia\u2019s $20B not-acqui-hire deal",
+    "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
     "industry": "AI & Technology",
-    "summary": "OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.",
+    "summary": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
-    "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+    "title": "Nvidia wants to cut data center water use, but that\u2019s not the same as fixing AI\u2019s water problem",
+    "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
     "industry": "AI & Technology",
-    "summary": "AWS is in talks to sell its chips to other data centers. CEO Andy Jassy has said this represents a $50 billion opportunity for the company.",
+    "summary": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use \u2014 fossil fuel power plants.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Google DeepMind bets $75M on AI\u2019s future in Hollywood with A24 deal",
+    "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+    "industry": "AI & Technology",
+    "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
+    "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+    "industry": "AI & Technology",
+    "summary": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -40,10 +56,18 @@
     "impact_score": 5
   },
   {
-    "title": "This Healthcare Stock Trades at a Richer Valuation Than Nvidia. Could It Also Deliver Bigger Long-Term Returns?",
-    "url": "https://biztoc.com/x/7e3342caea829b92",
+    "title": "Netflix, Focus Pull Out of Chase For Luca Guadagnino\u2019s \u2018Artificial\u2019",
+    "url": "https://www.thewrap.com/creative-content/movies/artificial-sam-altman-movie-netflix-focus-pass/",
     "industry": "AI & Technology",
-    "summary": "This Healthcare Stock Trades at a Richer Valuation Than Nvidia. Could It Also Deliver Bigger Long-Term Returns?\nNvidia (NASDAQ: NVDA) is at the forefront of the worldwide artificial intelligence (AI) revolution now unfolding. Investors have rewarded the stock\u2026",
+    "summary": "A no-holds-barred take on OpenAI CEO Sam Altman got dropped by Amazon MGM this past week\nThe post Netflix, Focus Pull Out of Chase For Luca Guadagnino\u2019s \u2018Artificial\u2019 appeared first on TheWrap.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "The AI world is getting \u2018loopy\u2019",
+    "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+    "industry": "AI & Technology",
+    "summary": "The loop takes agentic AI a step further, by authorizing a swarm of agents to work continuously in the background, endlessly.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -80,30 +104,6 @@
     "impact_score": 5
   },
   {
-    "title": "Snap spins off AI video team into new company, Dotmo, due to costs",
-    "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
-    "industry": "AI & Technology",
-    "summary": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be composed of current Snap staff who are leaving the social media company to focus on AI video development.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Almost half of US singles feel negatively about AI in dating, Match says",
-    "url": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
-    "industry": "AI & Technology",
-    "summary": "About 47% of singles look negatively at the use of AI in dating -- but many dating app users are open to AI helping with profile punch-ups and conversation starters.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "AI data centers just got a government-mandated fast lane to the grid",
-    "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
-    "industry": "AI & Technology",
-    "summary": "FERC told grid operators to give data centers a fast lane for interconnections, but it failed to address electricity supply shortages.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
     "title": "AI tests begin in healthcare: Program aids prescription renewals amid doctor shortages",
     "url": "https://www.wcnc.com/article/news/local/connect-the-dots/connect-the-dots-ai-healthcare/275-95af6931-efa9-4d16-8cff-a17bb8b6e454",
     "industry": "AI & Technology",
@@ -112,18 +112,10 @@
     "impact_score": 5
   },
   {
-    "title": "What Will Nvidia Stock's Price Be in 1 Year?",
-    "url": "https://biztoc.com/x/65411eca3057265a",
+    "title": "China is having another AI moment",
+    "url": "https://biztoc.com/x/e11d386c502858b8",
     "industry": "AI & Technology",
-    "summary": "Nvidia (NASDAQ: NVDA) stock has richly rewarded investors. Shares of the artificial intelligence (AI) chip and technology infrastructure leader have returned 18,300% over the last decade, transforming a modest $1,000 investment into a whopping $184,000. The S\u2026",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Melinda Gates urges tech tycoons to donate half their wealth",
-    "url": "https://economictimes.indiatimes.com/tech/technology/melinda-gates-urges-tech-tycoons-to-donate-half-their-wealth/articleshow/131892681.cms",
-    "industry": "AI & Technology",
-    "summary": "Melinda French Gates is urging tech titans poised for wealth from upcoming IPOs to commit to giving away at least half their fortunes for philanthropic causes. She emphasised that immense wealth comes with a responsibility to contribute back to the nation tha\u2026",
+    "summary": "America\u2019s lead over China in artificial intelligence may be at its smallest in over a year. When China disrupted the ai race in January 2025 with the release of DeepSeek r1, it erased $1trn from America\u2019s capital markets. Nvidia, a chip firm, briefly shed 17%\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -144,18 +136,26 @@
     "impact_score": 5
   },
   {
-    "title": "Affidavit reveals new details leading up to man being stabbed multiple times in Uptown",
-    "url": "https://www.wcnc.com/article/news/crime/suspect-arrested-in-uptown-stabbing/275-26f71d50-7ec6-40e1-9fb2-8c57fea693bb",
+    "title": "One million pupils spending nearly EVERY lesson on a screen",
+    "url": "https://www.dailymail.com/news/article-15917997/One-million-pupils-spending-lesson-screen.html",
     "industry": "AI & Technology",
-    "summary": "David Layevette Lawrence, 51, faces murder and robbery charges after a man was found stabbed to death in a car in Uptown on June 10.",
+    "summary": "New research suggests nine per cent of all pupils in the UK - around 960,000 - spend nearly every lesson on a 'one-to-one screen', such as an iPad or other tablet.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "AI scandal rocks the German media",
-    "url": "https://www.dw.com/en/ai-scandal-rocks-the-german-media/a-77606407",
+    "title": "Belgium held by Iran, left in a tricky spot in the group",
+    "url": "https://onefootball.com/en/news/belgium-held-by-iran-left-in-a-tricky-spot-in-the-group-43040107",
     "industry": "AI & Technology",
-    "summary": "Two leading German newspapers have deleted articles created with the use of artificial intelligence. Many fear an increasing reliance on AI will damage the credibility of German media outlets. \"For our newsroom, AI is a tool that helps us simplify and also im\u2026",
+    "summary": "Belgium are still without a win in this World Cup and will head into the final round of the group stage in a delicate situation.A 0-0 draw with Iran this Sunday (21) left both teams with just two poin...",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "AI scribes promise relief for clinicians yet Canada\u2019s experience shows the trade-offs are real",
+    "url": "https://www.digitaljournal.com/article/ai-scribes-promise-relief-for-clinicians-yet-canadas-experience-shows-the-trade-offs-are-real/",
+    "industry": "AI & Technology",
+    "summary": "AI transcription represents both opportunity and caution. Used properly, it can reduce clinician burden, improve efficiency, and enhance patient interaction. Used poorly, it risks introducing subtle but significant errors into a system where precision matters\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }

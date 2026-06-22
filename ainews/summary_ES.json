@@ -1,17 +1,33 @@
 [
   {
-    "title": "OpenAI está aportando algunas armas importantes en el período previo a su IPO",
-    "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+    "title": "El fabricante de chips de IA Groq confirma un aumento de 650 millones de dólares y renueva su personal después del acuerdo de no contratación de 20 mil millones de dólares de Nvidia",
+    "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
     "industry": "AI & Technology",
-    "summary": "OpenAI se está fortaleciendo antes de su oferta pública inicial, consiguiendo al co-inventor de Transformer, Noam Shazeer, de Google DeepMind y al exfuncionario de políticas de IA de Trump, Dean Ball, en la misma semana.",
+    "summary": "¿Qué hace una empresa de inteligencia artificial después de uno de esos acuerdos de no adquisición y contratación? Groq recaudó dinero, se está inclinando hacia su negocio de neonube y está contratando nuevos ejecutivos.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Amazon espera desafiar a Nvidia más directamente vendiendo sus chips de IA",
-    "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+    "title": "Nvidia quiere reducir el uso de agua en los centros de datos, pero eso no es lo mismo que solucionar el problema del agua de la IA",
+    "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
     "industry": "AI & Technology",
-    "summary": "AWS está en conversaciones para vender sus chips a otros centros de datos. El director ejecutivo Andy Jassy ha dicho que esto representa una oportunidad de 50 mil millones de dólares para la empresa.",
+    "summary": "Nvidia anunció un nuevo sistema de refrigeración que reduce el uso de agua dentro del centro de datos. Pero no hace nada para abordar el mayor uso de agua de la IA: las centrales eléctricas de combustibles fósiles.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Google DeepMind apuesta 75 millones de dólares por el futuro de la IA en Hollywood con el acuerdo A24",
+    "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+    "industry": "AI & Technology",
+    "summary": "Google DeepMind y A24 se están asociando para crear herramientas cinematográficas de inteligencia artificial.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "SpaceX firma un acuerdo informático con Reflection AI, un laboratorio de inteligencia artificial de código abierto",
+    "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+    "industry": "AI & Technology",
+    "summary": "Reflection AI pagará 150 millones de dólares al mes desde el 1 de julio de 2026 hasta 2029 por el acceso inmediato a los últimos chips GB300 AI de Nvidia y al hardware de soporte en el centro de datos Colossus 2 de SpaceX cerca de Memphis, Tennessee.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -40,10 +56,18 @@
     "impact_score": 5
   },
   {
-    "title": "Esta acción de atención médica cotiza a una valoración más alta que la de Nvidia. ¿Podría también generar mayores retornos a largo plazo?",
-    "url": "https://biztoc.com/x/7e3342caea829b92",
+    "title": "Netflix y Focus se retiran de la persecución por 'Artificial' de Luca Guadagnino",
+    "url": "https://www.thewrap.com/creative-content/movies/artificial-sam-altman-movie-netflix-focus-pass/",
     "industry": "AI & Technology",
-    "summary": "Esta acción de atención médica cotiza a una valoración más alta que la de Nvidia. ¿Podría también generar mayores retornos a largo plazo?\nNvidia (NASDAQ: NVDA) está a la vanguardia de la revolución mundial de la inteligencia artificial (IA) que se está desarrollando actualmente. Los inversores han recompensado la acción...",
+    "summary": "Amazon MGM abandonó una versión sin restricciones del CEO de OpenAI, Sam Altman, la semana pasada\nLa publicación Netflix, Focus se retira de la persecución de 'Artificial' de Luca Guadagnino apareció por primera vez en TheWrap.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "El mundo de la IA se está volviendo \"loco\"",
+    "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+    "industry": "AI & Technology",
+    "summary": "El bucle lleva la IA agente un paso más allá, al autorizar a un enjambre de agentes a trabajar continuamente en segundo plano, sin cesar.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -51,7 +75,7 @@
     "title": "Más allá de Siri: estas son las funciones prácticas de IA que llegarán a tu iPhone en iOS 27",
     "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
     "industry": "AI & Technology",
-    "summary": "Es posible que la revisión de la IA de Siri haya acaparado los titulares de la WWDC, pero algunas de las funciones de IA más útiles de Apple llegarán a otras partes de iOS 27.",
+    "summary": "Es posible que la revisión de la IA de Siri haya acaparado los titulares en la WWDC, pero algunas de las funciones de IA más útiles de Apple llegarán a otras partes de iOS 27.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -80,30 +104,6 @@
     "impact_score": 5
   },
   {
-    "title": "Snap escinde el equipo de vídeo de IA y se convierte en una nueva empresa, Dotmo, debido a los costes",
-    "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
-    "industry": "AI & Technology",
-    "summary": "El fabricante de Snapchat está creando otra unidad interna más. Dotmo estará compuesto por el personal actual de Snap que dejará la empresa de redes sociales para centrarse en el desarrollo de vídeos de IA.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Casi la mitad de los solteros estadounidenses tienen opiniones negativas sobre la IA en las citas, dice Match",
-    "url": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
-    "industry": "AI & Technology",
-    "summary": "Alrededor del 47% de los solteros ven negativamente el uso de la IA en las citas, pero muchos usuarios de aplicaciones de citas están abiertos a que la IA les ayude a definir perfiles e iniciar conversaciones.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Los centros de datos de IA acaban de obtener una vía rápida hacia la red ordenada por el gobierno",
-    "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
-    "industry": "AI & Technology",
-    "summary": "La FERC pidió a los operadores de red que dieran a los centros de datos una vía rápida para las interconexiones, pero no logró abordar la escasez de suministro de electricidad.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
     "title": "Comienzan las pruebas de inteligencia artificial en la atención médica: el programa ayuda a la renovación de recetas en medio de la escasez de médicos",
     "url": "https://www.wcnc.com/article/news/local/connect-the-dots/connect-the-dots-ai-healthcare/275-95af6931-efa9-4d16-8cff-a17bb8b6e454",
     "industry": "AI & Technology",
@@ -112,18 +112,10 @@
     "impact_score": 5
   },
   {
-    "title": "¿Cuál será el precio de las acciones de Nvidia dentro de 1 año?",
-    "url": "https://biztoc.com/x/65411eca3057265a",
+    "title": "China está viviendo otro momento de IA",
+    "url": "https://biztoc.com/x/e11d386c502858b8",
     "industry": "AI & Technology",
-    "summary": "Las acciones de Nvidia (NASDAQ: NVDA) han recompensado ampliamente a los inversores. Las acciones del líder en infraestructura tecnológica y chips de inteligencia artificial (IA) han obtenido un rendimiento del 18.300 % en la última década, transformando una modesta inversión de 1.000 dólares en la friolera de 184.000 dólares. La S…",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Melinda Gates insta a los magnates tecnológicos a donar la mitad de su riqueza",
-    "url": "https://economictimes.indiatimes.com/tech/technology/melinda-gates-urges-tech-tycoons-to-donate-half-their-wealth/articleshow/131892681.cms",
-    "industry": "AI & Technology",
-    "summary": "Melinda French Gates está instando a los titanes tecnológicos que se preparan para enriquecerse con las próximas OPI a que se comprometan a donar al menos la mitad de sus fortunas a causas filantrópicas. Enfatizó que una inmensa riqueza conlleva la responsabilidad de contribuir a la nación que...",
+    "summary": "La ventaja de Estados Unidos sobre China en inteligencia artificial puede ser la más pequeña en más de un año. Cuando China interrumpió la carrera de la IA en enero de 2025 con el lanzamiento de DeepSeek r1, borró 1 billón de dólares de los mercados de capitales de Estados Unidos. Nvidia, una empresa de chips, perdió brevemente un 17%...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -144,18 +136,26 @@
     "impact_score": 5
   },
   {
-    "title": "Una declaración jurada revela nuevos detalles que condujeron a que un hombre fuera apuñalado varias veces en Uptown",
-    "url": "https://www.wcnc.com/article/news/crime/suspect-arrested-in-uptown-stabbing/275-26f71d50-7ec6-40e1-9fb2-8c57fea693bb",
+    "title": "Un millón de alumnos pasan casi TODAS las lecciones en una pantalla",
+    "url": "https://www.dailymail.com/news/article-15917997/One-million-pupils-spending-lesson-screen.html",
     "industry": "AI & Technology",
-    "summary": "David Layevette Lawrence, de 51 años, enfrenta cargos de asesinato y robo después de que un hombre fue encontrado muerto a puñaladas en un automóvil en Uptown el 10 de junio.",
+    "summary": "Una nueva investigación sugiere que el nueve por ciento de todos los alumnos del Reino Unido (alrededor de 960.000) pasan casi todas las lecciones en una \"pantalla individual\", como un iPad u otra tableta.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "El escándalo de la IA sacude a los medios alemanes",
-    "url": "https://www.dw.com/en/ai-scandal-rocks-the-german-media/a-77606407",
+    "title": "Bélgica, en manos de Irán, queda en una posición complicada en el grupo",
+    "url": "https://onefootball.com/en/news/belgium-held-by-iran-left-in-a-tricky-spot-in-the-group-43040107",
     "industry": "AI & Technology",
-    "summary": "Dos importantes periódicos alemanes han eliminado artículos creados con inteligencia artificial. Muchos temen que una creciente dependencia de la IA dañe la credibilidad de los medios de comunicación alemanes. \"Para nuestra sala de redacción, la IA es una herramienta que nos ayuda a simplificar y también mejorar...",
+    "summary": "Bélgica sigue sin ganar en este Mundial y llega a la última ronda de la fase de grupos en una situación delicada. El empate 0-0 con Irán este domingo (21) dejó a ambas selecciones con sólo dos puntos...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Los escribas de IA prometen alivio para los médicos, pero la experiencia de Canadá muestra que las compensaciones son reales",
+    "url": "https://www.digitaljournal.com/article/ai-scribes-promise-relief-for-clinicians-yet-canadas-experience-shows-the-trade-offs-are-real/",
+    "industry": "AI & Technology",
+    "summary": "La transcripción de IA representa tanto oportunidad como precaución. Si se utiliza correctamente, puede reducir la carga del médico, mejorar la eficiencia y mejorar la interacción con el paciente. Si se utiliza mal, se corre el riesgo de introducir errores sutiles pero significativos en un sistema donde la precisión importa...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
