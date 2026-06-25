@@ -1,5 +1,21 @@
 [
   {
+    "title": "亚马逊加大对印度的投资，投资 13B 美元人工智能基础设施",
+    "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+    "industry": "AI & Technology",
+    "summary": "亚马逊在印度的最新投资正值全球科技公司竞相扩大印度的人工智能基础设施之际。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "人工智能研究人员继续离开谷歌，转向竞争对手",
+    "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+    "industry": "AI & Technology",
+    "summary": "继顶级科学家 Noam Shazeer 和 John Jumper 离职后，顶级人工智能研究人员 Jonas Adler 和 Alexander Pritzel 将离开 Google 前往 Anthropic。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "OpenAI 推出首款定制芯片，由 Broadcom 制造",
     "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
     "industry": "AI & Technology",
@@ -24,34 +40,10 @@
     "impact_score": 5
   },
   {
-    "title": "AI 芯片制造商 Groq 确认筹集 6.5 亿美元资金，并在 Nvidia 完成 200 亿美元非收购聘用交易后进行人员重组",
-    "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+    "title": "人工智能本应消灭工程工作，但新数据表明它们是最具弹性的",
+    "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
     "industry": "AI & Technology",
-    "summary": "在完成一项非收购雇佣交易后，人工智能公司会做什么？ Groq 筹集了资金，正在向 Neocloud 业务倾斜，并正在招聘新的高管。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "英伟达希望减少数据中心的用水量，但这与解决人工智能的用水问题不同",
-    "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
-    "industry": "AI & Technology",
-    "summary": "英伟达宣布推出一种新的冷却系统，可以减少数据中心内的用水量。但它对解决人工智能最大的用水问题——化石燃料发电厂没有任何作用。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "谷歌 DeepMind 通过 A24 交易押注 7500 万美元押注好莱坞人工智能的未来",
-    "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
-    "industry": "AI & Technology",
-    "summary": "Google DeepMind 和 A24 正在联手打造人工智能电影制作工具。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "SpaceX 与开源人工智能实验室 Reflection AI 签署计算协议",
-    "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
-    "industry": "AI & Technology",
-    "summary": "从 2026 年 7 月 1 日到 2029 年，Reflection AI 每月支付 1.5 亿美元，以便立即使用 Nvidia 最新的 GB300 AI 芯片以及位于田纳西州孟菲斯附近的 SpaceX Colossus 2 数据中心的支持硬件。",
+    "summary": "根据 SignalFire 的数据，虽然人工智能在裁员中占据主导地位，但工程师实际上在新员工中所占比例更大。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -96,26 +88,34 @@
     "impact_score": 5
   },
   {
-    "title": "人工智能世界正变得“疯狂”",
-    "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+    "title": "孙正义在软银股东大会上提出人工智能愿景",
+    "url": "https://newsonjapan.com/article/149787.php",
     "industry": "AI & Technology",
-    "summary": "该循环通过授权一群代理在后台连续无休止地工作，使代理人工智能更进一步。",
+    "summary": "软银集团董事长兼首席执行官孙正义表示，该公司的目标是成为全球领先的人工智能公司，并概述了围绕四个关键领域的战略，包括配备人工智能的机器人等物理人工智能和数据中心。 （消息…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "The Backrooms Studio 与 Google AI 签署 7500 万美元协议后，A24 粉丝哀悼其去世：“会员资格已取消”",
-    "url": "https://kotaku.com/a24-ai-backrooms-google-deepmind-deal-2000709598",
+    "title": "Commvault 深化 Microsoft 与本机 Azure 弹性服务的合作",
+    "url": "https://siliconangle.com/2026/06/24/commvault-deepens-microsoft-tie-native-azure-resilience-service/",
     "industry": "AI & Technology",
-    "summary": "毫不奇怪，A24 与 Google DeepMind 的“人工智能研究合作伙伴关系”激怒了工作室的粉丝群",
+    "summary": "数据保护提供商 Commvault Systems Inc. 今天表示，它已与微软公司签署了多年合作伙伴关系，该公司的数据安全和网络恢复技术将作为 Azure 云平台内的本地服务提供。根据协议，阿兹...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "麦克勒姆表示，仅改变银行资本规则并不会引发放贷",
-    "url": "https://financialpost.com/pmn/business-pmn/macklem-says-bank-capital-rule-change-alone-wont-spark-lending",
+    "title": "消防人员对艾雷德尔县被吞没的牵引拖车进行救援时，I-77N 公路关闭了几个小时",
+    "url": "https://www.wcnc.com/article/news/local/crews-respond-to-tractor-trailer-engulfed-i-77-north-ncdot-union-grove-fire-and-rescue/275-c99a4132-d673-48de-bb31-226eb46a502a",
     "industry": "AI & Technology",
-    "summary": "加拿大央行行长蒂夫·麦克莱姆 (Tiff Macklem) 表示，仅靠放松银行资本规定并不能提振经济活动，这与分析师的质疑一致，他们质疑最近的监管变化是否会在借款人不在场的情况下立即刺激更多放贷。",
+    "summary": "周三凌晨，伊雷德尔县 77 号州际公路上发生的牵引拖车火灾导致北行车道关闭数小时。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "在绿道安全投诉后，马修斯考虑制定电动自行车条例",
+    "url": "https://www.wcnc.com/article/news/local/matthews-considers-e-bike-ordinance-after-safety-complaints-on-greenways/275-64ddcc7c-9660-4101-a929-92564ca14ce3",
+    "industry": "AI & Technology",
+    "summary": "居民们表示，快速移动的骑手让共用道路感觉很危险；投票可能会在八月进行。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -124,14 +124,6 @@
     "url": "https://www.wcnc.com/article/news/local/patients-airlifted-after-waxhaw-crash/275-d0095406-1e52-4919-8110-d018c068bb74",
     "industry": "AI & Technology",
     "summary": "周二下午，多个消防部门救出了 200 号高速公路车祸中的受害者。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "清晨牵引拖车起火后，I-77 North I-77 North 的一条车道关闭",
-    "url": "https://www.wcnc.com/article/news/local/crews-respond-to-tractor-trailer-engulfed-i-77-north-ncdot-union-grove-fire-and-rescue/275-c99a4132-d673-48de-bb31-226eb46a502a",
-    "industry": "AI & Technology",
-    "summary": "周三早些时候，伊雷德尔县的牵引拖车火灾导致 I-77 North 公路关闭，消防人员扑灭了大火，交通仍然受到影响。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -152,10 +144,18 @@
     "impact_score": 5
   },
   {
-    "title": "南卡罗来纳州公共卫生部地点提供免费艾滋病毒检测",
-    "url": "https://www.wcnc.com/article/news/health/south-carolina-public-health-free-hiv-testing/275-99d2c599-a716-4618-a769-fc89f2518e88",
+    "title": "Oye Ibidapo-Obe 大学推动创新和工业增长 — Widow",
+    "url": "https://punchng.com/oye-ibidapo-obe-varsity-to-drive-innovation-industrial-growth-widow/",
     "industry": "AI & Technology",
-    "summary": "截至 2024 年 12 月 31 日，南卡罗来纳州有超过 20,000 名居民被诊断患有艾滋病毒感染，包括艾滋病。",
+    "summary": "拟建的奥耶伊比达波-奥贝技术大学旨在促进尼日利亚的科学、技术和工业增长，重点关注 A 等新兴领域\n\n阅读更多：https://punchng.com/oye-ibidapo-obe-varsity-to-drive-innovation-industrial-growth-widow/",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Orange任命新首席人工智能官",
+    "url": "https://www.telecomtv.com/content/ai/orange-appoints-new-chief-ai-officer-55758/",
+    "industry": "AI & Technology",
+    "summary": "Orange 的长期 AI 主管 Steve Jarrett 即将离开电信公司，寻找新的发展空间，他的继任者是 Usman Javaid，现任首席产品和营销官……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
