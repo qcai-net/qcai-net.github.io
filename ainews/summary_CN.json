@@ -1,9 +1,49 @@
 [
   {
+    "title": "为什么从 OpenAI 到 SpaceX 的每个人都在打造自己的芯片（并加大对 Nvidia 的热度）",
+    "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+    "industry": "AI & Technology",
+    "summary": "Nvidia 多年来一直主导 AI 芯片市场，但完全依赖的时代可能正在结束。” OpenAI 刚刚分享了其与 Broadcom 合作打造的定制推理芯片 Jalapeo 的计划，加入了 Google、Apple 和 SpaceX 的行列，加入了不断增长的名单。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 的 Jalapeo 芯片是大型科技公司摆脱 Nvidia 后最辣的举动",
+    "url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
+    "industry": "AI & Technology",
+    "summary": "Nvidia 多年来一直主导 AI 芯片市场，但完全依赖的时代可能正在结束。” OpenAI 刚刚分享了其与 Broadcom 合作打造的定制推理芯片 Jalapeo 的计划，加入了 Google、Apple 和 SpaceX 的行列，加入了不断增长的名单。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 应政府要求限制 GPT-5.6 的推出，表示限制不应成为常态",
+    "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI 表示：“我们认为这种政府准入流程不应成为长期默认做法。” “它为用户、开发者、企业、网络防御者和需要它们的全球合作伙伴保留了最好的工具。”",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "Patronus AI 获得 5000 万美元投资，用于构建对 AI 代理进行压力测试的“数字世界”",
     "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
     "industry": "AI & Technology",
     "summary": "由前 Meta AI 研究人员创立的代理测试初创公司 Patronus AI 的投资者表示，其需求几乎无法满足。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 挖走 Uber 印度首席执行官，领导其美国以外最大市场",
+    "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+    "industry": "AI & Technology",
+    "summary": "此次招聘标志着 OpenAI 进军印度的最新举措，扩大了办事处、合作伙伴关系和招聘规模。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "这不再是 Anthropic 与 OpenAI 的问题",
+    "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+    "industry": "AI & Technology",
+    "summary": "人工智能模型已经发展到其能力能够产生真正的政治后果的程度。应对这些后果需要采取集体行动。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -32,10 +72,10 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI 推出首款定制芯片，由 Broadcom 制造",
-    "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+    "title": "美国向亿万富翁芯片制造初创公司投资 2.5 亿美元",
+    "url": "https://financialpost.com/pmn/business-pmn/us-invests-250-million-in-billionaires-startup-for-chip-making",
     "industry": "AI & Technology",
-    "summary": "这款新处理器名为 Jalapeo，专为满足 OpenAI 推理系统的独特需求而设计。",
+    "summary": "I-Pulse Inc. 将获得美国 2.5 亿美元的资金，用于半导体和脉冲功率开发，该公司由罗伯特·弗里德兰 (Robert Friedland) 共同创立，将加入美国减少对外国芯片供应链依赖的努力。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -80,42 +120,18 @@
     "impact_score": 5
   },
   {
-    "title": "公司正在努力阻止员工在小任务上最大化人工智能预算",
-    "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
+    "title": "捷酷推出交钥匙液冷服务器解决方案，加速企业人工智能采用",
+    "url": "https://www.prnewswire.com/news-releases/jetcool-launches-turnkey-liquid-cooled-server-solution-to-accelerate-enterprise-ai-adoption-302811212.html",
     "industry": "AI & Technology",
-    "summary": "代币最大化时代很短暂。我们现在似乎正在进入代币配给时代。",
+    "summary": "新平台通过端到端基础设施和服务提供直接到芯片的液体冷却，简化了高密度人工智能计算的企业部署德克萨斯州奥斯汀，2026 年 6 月 25 日 /美通社/ -- JetCool，一家 Flex（纳斯达克股票代码：FLEX）公司和领先的供应商",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Facebook 为创作者推出人工智能伴侣应用",
-    "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+    "title": "Chris Nichols 谈用稳定币和代币化存款转变支付方式",
+    "url": "https://finovate.com/chris-nichols-on-transforming-payments-with-stablecoins-and-tokenized-deposits/",
     "industry": "AI & Technology",
-    "summary": "这款新应用程序目前正在与选定的创作者进行测试，其中将内置 Facebook 最近推出的人工智能创作者助手。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Figma 在新更新中添加了代码层、动画支持和更多 AI 功能",
-    "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
-    "industry": "AI & Technology",
-    "summary": "Figma 的更新添加了新的代码层、对运动和着色器的支持，以及使用 AI 为各种任务创建自定义插件的能力。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Evenco Holdings（纳斯达克股票代码：ORBS）报告总持有量约为 4.36 亿美元，包括 OpenAI、Beast Industries、超过 16,000 个 ETH 和超过 2.83 亿个 WLD 代币",
-    "url": "https://www.prnewswire.com/news-releases/eightco-holdings-nasdaq-orbs-reports-total-holdings-of-approximately-436-million-includes-openai-beast-industries-more-than-16-000-eth-and-over-283-million-wld-tokens-302810117.html",
-    "industry": "AI & Technology",
-    "summary": "截至 2026 年 6 月 24 日，Eightco 的财务构成为：9000 万美元的 OpenAI 股权（间接）、1800 万美元的 Beast Industries 股权、16,278 枚 ETH、2.83 亿持有的 WLD 以及 1.49 亿美元的现金和等价物，总计约 4.36 亿美元的 Worldcoin 代币（WLD）现已在 Robinh 上市……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "FEI发布“人工智能框架：财务报告内部控制”，帮助财务领导者采用人工智能",
-    "url": "https://www.prnewswire.com/news-releases/fei-releases-ai-framework-internal-control-over-financial-reporting-to-help-finance-leaders-adopt-ai-302810219.html",
-    "industry": "AI & Technology",
-    "summary": "FEI 企业报告委员会就人工智能如何影响财务报告内部控制 (ICFR) 制定了基于原则的从业者指南 新泽西州莫里斯敦，2026 年 6 月 25 日 /美通社/ -- Financial Executives International (FEI) 今天宣布……",
+    "summary": "区块链技术的创新，特别是对稳定币和代币化存款日益增长的兴趣，如何为银行和金融服务公司提供新服务、更好地吸引现有客户以及引入新的潜在客户创造方式？",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -140,22 +156,6 @@
     "url": "https://www.wcnc.com/article/news/local/crews-respond-to-tractor-trailer-engulfed-i-77-north-ncdot-union-grove-fire-and-rescue/275-c99a4132-d673-48de-bb31-226eb46a502a",
     "industry": "AI & Technology",
     "summary": "周三凌晨，伊雷德尔县 77 号州际公路上发生的牵引拖车火灾导致北行车道关闭数小时。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "在绿道安全投诉后，马修斯考虑制定电动自行车条例",
-    "url": "https://www.wcnc.com/article/news/local/matthews-considers-e-bike-ordinance-after-safety-complaints-on-greenways/275-64ddcc7c-9660-4101-a929-92564ca14ce3",
-    "industry": "AI & Technology",
-    "summary": "居民们表示，快速移动的骑手让共用道路感觉很危险；投票可能会在八月进行。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Liberty Defense 在主要国际机场颁发新的 HEXWAVE™ 奖项，扩大航空足迹",
-    "url": "https://www.globenewswire.com/news-release/2026/06/25/3317523/0/en/Liberty-Defense-Expands-Aviation-Footprint-with-New-HEXWAVE-Award-at-Major-International-Airport.html",
-    "industry": "AI & Technology",
-    "summary": "先进的 AI 驱动的 HEXWAVE™ 技术能够检测液体、塑料和粉末爆炸物、3D 打印武器以及其他不断变化的隐藏威胁 先进的 AI 驱动的 HEXWAVE™ 技术能够检测液体、塑料和粉末爆炸物……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }

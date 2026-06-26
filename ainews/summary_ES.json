@@ -1,9 +1,49 @@
 [
   {
+    "title": "Por qué todos, desde OpenAI hasta SpaceX, están construyendo sus propios chips (y aumentando la temperatura en Nvidia)",
+    "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+    "industry": "AI & Technology",
+    "summary": "Nvidia ha dominado el mercado de chips de IA durante años, pero la era de dependencia total podría estar llegando a su fin.&#160;&#160; OpenAI acaba de compartir sus planes para darle vida a &&#160;Jalapeño, su chip de inferencia personalizado creado con Broadcom, uniéndose a Google, Apple y SpaceX en una lista creciente de...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "El chip Jalapeño de OpenAI es el movimiento más atractivo de las grandes tecnologías para alejarse de Nvidia",
+    "url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
+    "industry": "AI & Technology",
+    "summary": "Nvidia ha dominado el mercado de chips de IA durante años, pero la era de dependencia total podría estar llegando a su fin.&#160;&#160; OpenAI acaba de compartir sus planes para darle vida a &&#160;Jalapeño, su chip de inferencia personalizado creado con Broadcom, uniéndose a Google, Apple y SpaceX en una lista creciente de...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI limita el lanzamiento de GPT-5.6 después de una solicitud del gobierno y dice que las restricciones no deberían ser la norma",
+    "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+    "industry": "AI & Technology",
+    "summary": "\"No creemos que este tipo de proceso de acceso gubernamental deba convertirse en el estándar a largo plazo\", dice OpenAI. \"Mantiene las mejores herramientas de los usuarios, desarrolladores, empresas, ciberdefensores y socios globales que las necesitan\".",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
     "title": "Patronus AI consigue 50 millones de dólares para construir \"mundos digitales\" que pongan a prueba a los agentes de IA",
     "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
     "industry": "AI & Technology",
     "summary": "La startup de pruebas de agentes Patronus AI, fundada por ex investigadores de Meta AI, está experimentando una demanda casi insaciable, dice su inversor.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI caza furtivamente al jefe de Uber India para liderar su mercado más grande fuera de EE. UU.",
+    "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+    "industry": "AI & Technology",
+    "summary": "La contratación marca el último impulso de OpenAI en la India, ampliando oficinas, asociaciones y contrataciones.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Ya no se trata de Anthropic versus OpenAI",
+    "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+    "industry": "AI & Technology",
+    "summary": "Los modelos de IA han progresado hasta el punto en que sus capacidades tienen consecuencias políticas reales. Hacer frente a esas consecuencias requerirá una acción colectiva.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -32,10 +72,10 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI presenta su primer chip personalizado, construido por Broadcom",
-    "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+    "title": "Estados Unidos invierte 250 millones de dólares en la startup de un multimillonario para la fabricación de chips",
+    "url": "https://financialpost.com/pmn/business-pmn/us-invests-250-million-in-billionaires-startup-for-chip-making",
     "industry": "AI & Technology",
-    "summary": "Llamado Jalapeño, el nuevo procesador fue diseñado específicamente para las necesidades únicas de los sistemas de inferencia de OpenAI.",
+    "summary": "I-Pulse Inc. recibirá 250 millones de dólares en financiación estadounidense para el desarrollo de semiconductores y energía pulsada, ya que la empresa cofundada por Robert Friedland se une a los esfuerzos estadounidenses para reducir la dependencia de las cadenas de suministro de chips extranjeros.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -80,42 +120,18 @@
     "impact_score": 5
   },
   {
-    "title": "Las empresas están luchando para evitar que los empleados maximicen los presupuestos de IA con tareas pequeñas",
-    "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
+    "title": "JetCool lanza una solución llave en mano de servidor refrigerado por líquido para acelerar la adopción de la IA empresarial",
+    "url": "https://www.prnewswire.com/news-releases/jetcool-launches-turnkey-liquid-cooled-server-solution-to-accelerate-enterprise-ai-adoption-302811212.html",
     "industry": "AI & Technology",
-    "summary": "La era tokenmaxxing fue breve. Ahora parece que estamos entrando en la era del racionamiento simbólico.",
+    "summary": "La nueva plataforma ofrece refrigeración líquida directa al chip con infraestructura y servicios de extremo a extremo, lo que simplifica la implementación empresarial de computación de IA de alta densidad AUSTIN, Texas, 25 de junio de 2026 /PRNewswire/ -- JetCool, una empresa de Flex (NASDAQ: FLEX) y proveedor líder...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Facebook lanza una aplicación complementaria de IA para creadores",
-    "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+    "title": "Chris Nichols sobre la transformación de pagos con monedas estables y depósitos tokenizados",
+    "url": "https://finovate.com/chris-nichols-on-transforming-payments-with-stablecoins-and-tokenized-deposits/",
     "industry": "AI & Technology",
-    "summary": "La nueva aplicación, que actualmente se está probando con creadores selectos, tendrá integrado el asistente de creación de inteligencia artificial recientemente lanzado por Facebook.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Figma agrega capas de código, soporte para animaciones y más funciones de IA en una nueva actualización",
-    "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
-    "industry": "AI & Technology",
-    "summary": "La actualización de Figma agrega una nueva capa de código, soporte para movimiento y sombreadores, y la capacidad de crear complementos personalizados para diversas tareas utilizando IA.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Eightco Holdings (NASDAQ: ORBS) informa tenencias totales de aproximadamente $436 millones, incluye OpenAI, Beast Industries, más de 16,000 ETH y más de 283 millones de tokens WLD",
-    "url": "https://www.prnewswire.com/news-releases/eightco-holdings-nasdaq-orbs-reports-total-holdings-of-approximately-436-million-includes-openai-beast-industries-more-than-16-000-eth-and-over-283-million-wld-tokens-302810117.html",
-    "industry": "AI & Technology",
-    "summary": "Composición de la tesorería de Eightco al 24 de junio de 2026: 90 millones de dólares en capital de OpenAI (indirecto), 18 millones de dólares en capital de Beast Industries, 16,278 ETH, 283 millones de tenencias de WLD y 149 millones de dólares en efectivo y equivalentes, por un total de aproximadamente 436 millones de dólares en tokens Worldcoin (WLD) que ahora figuran en Robinh...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "FEI publica \"Marco de IA: control interno sobre informes financieros\" para ayudar a los líderes financieros a adoptar la IA",
-    "url": "https://www.prnewswire.com/news-releases/fei-releases-ai-framework-internal-control-over-financial-reporting-to-help-finance-leaders-adopt-ai-302810219.html",
-    "industry": "AI & Technology",
-    "summary": "Orientación basada en principios y elaborada por profesionales del Comité de Informes Corporativos de la FEI sobre cómo la IA afecta el control interno sobre los informes financieros (CIFR) MORRISTOWN, Nueva Jersey, 25 de junio de 2026 /PRNewswire/ -- Financial Executives International (FEI) anuncia hoy…",
+    "summary": "¿Cómo está la innovación en la tecnología blockchain, específicamente el creciente interés en las monedas estables y los depósitos tokenizados, creando formas para que los bancos y las empresas de servicios financieros ofrezcan nuevos servicios, interactúen mejor con los clientes actuales e introduzcan nuevas r...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -140,22 +156,6 @@
     "url": "https://www.wcnc.com/article/news/local/crews-respond-to-tractor-trailer-engulfed-i-77-north-ncdot-union-grove-fire-and-rescue/275-c99a4132-d673-48de-bb31-226eb46a502a",
     "industry": "AI & Technology",
     "summary": "Un incendio de un camión con remolque en la I-77 en el condado de Iredell cerró los carriles en dirección norte durante horas la madrugada del miércoles.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Matthews considera una ordenanza sobre bicicletas eléctricas después de quejas de seguridad en las vías verdes",
-    "url": "https://www.wcnc.com/article/news/local/matthews-considers-e-bike-ordinance-after-safety-complaints-on-greenways/275-64ddcc7c-9660-4101-a929-92564ca14ce3",
-    "industry": "AI & Technology",
-    "summary": "Los residentes dicen que los ciclistas que circulan rápidamente hacen que los caminos compartidos parezcan peligrosos; La votación podría tener lugar en agosto.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Liberty Defense amplía su huella de aviación con el nuevo premio HEXWAVE™ en un importante aeropuerto internacional",
-    "url": "https://www.globenewswire.com/news-release/2026/06/25/3317523/0/en/Liberty-Defense-Expands-Aviation-Footprint-with-New-HEXWAVE-Award-at-Major-International-Airport.html",
-    "industry": "AI & Technology",
-    "summary": "La tecnología avanzada HEXWAVE™ impulsada por IA permite la detección de explosivos líquidos, plásticos y en polvo, armas impresas en 3D y otras amenazas ocultas en evolución La tecnología avanzada HEXWAVE™ impulsada por IA permite la detección de explosivos líquidos, plásticos y en polvo...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }

@@ -1,9 +1,49 @@
 [
   {
+    "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+    "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+    "industry": "AI & Technology",
+    "summary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalape\u00f1o, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list o...",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI\u2019s Jalape\u00f1o chip is Big Tech\u2019s spiciest move away from Nvidia",
+    "url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
+    "industry": "AI & Technology",
+    "summary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalape\u00f1o, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list o...",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn\u2019t be the norm",
+    "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+    "industry": "AI & Technology",
+    "summary": "\u201cWe don\u2019t believe this kind of government access process should become the long-term default,\u201d says OpenAI. \u201cIt keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.\u201d",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
     "title": "Patronus AI lands $50M to build \u2018digital worlds\u2019 that stress-test AI agents",
     "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
     "industry": "AI & Technology",
     "summary": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
+    "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+    "industry": "AI & Technology",
+    "summary": "The hire marks OpenAI's latest push into India, expanding offices, partnerships and hiring.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "It\u2019s not about Anthropic vs. OpenAI anymore",
+    "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+    "industry": "AI & Technology",
+    "summary": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -32,10 +72,10 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI unveils its first custom chip, built by Broadcom",
-    "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+    "title": "US Invests $250 Million in Billionaire\u2019s Startup for Chip Making",
+    "url": "https://financialpost.com/pmn/business-pmn/us-invests-250-million-in-billionaires-startup-for-chip-making",
     "industry": "AI & Technology",
-    "summary": "Named Jalape\u00f1o, the new processor was designed specifically for the unique needs of OpenAI's inference systems.",
+    "summary": "I-Pulse Inc. will receive $250 million in US funding for semiconductor and pulsed-power development as the venture co-founded by Robert Friedland joins American efforts to reduce reliance on foreign-chip supply chains.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -80,42 +120,18 @@
     "impact_score": 5
   },
   {
-    "title": "Companies are scrambling to stop employees from maxing out AI budgets with small tasks",
-    "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
+    "title": "JetCool Launches Turnkey Liquid-Cooled Server Solution to Accelerate Enterprise AI Adoption",
+    "url": "https://www.prnewswire.com/news-releases/jetcool-launches-turnkey-liquid-cooled-server-solution-to-accelerate-enterprise-ai-adoption-302811212.html",
     "industry": "AI & Technology",
-    "summary": "The tokenmaxxing era was brief. We now appear to be entering the era of token rationing.",
+    "summary": "New platform delivers direct-to-chip liquid cooling with end-to-end infrastructure and services, simplifying enterprise deployment of high-density AI compute AUSTIN, Texas, June 25, 2026 /PRNewswire/ -- JetCool, a Flex (NASDAQ: FLEX) company and leading provi\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Facebook rolls out an AI companion app for creators",
-    "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+    "title": "Chris Nichols on Transforming Payments with Stablecoins and Tokenized Deposits",
+    "url": "https://finovate.com/chris-nichols-on-transforming-payments-with-stablecoins-and-tokenized-deposits/",
     "industry": "AI & Technology",
-    "summary": "The new app, which is currently being tested with select creators, will have Facebook's recently launched AI creator assistant built into it.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Figma adds code layers, support for animations, more AI features in new update",
-    "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
-    "industry": "AI & Technology",
-    "summary": "Figma's update adds a new code layer, support for motion and shaders, and the ability to create custom plug-ins for various tasks using AI.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Eightco Holdings (NASDAQ: ORBS) Reports Total Holdings of Approximately $436 Million, Includes OpenAI, Beast Industries, More Than 16,000 ETH and Over 283 Million WLD Tokens",
-    "url": "https://www.prnewswire.com/news-releases/eightco-holdings-nasdaq-orbs-reports-total-holdings-of-approximately-436-million-includes-openai-beast-industries-more-than-16-000-eth-and-over-283-million-wld-tokens-302810117.html",
-    "industry": "AI & Technology",
-    "summary": "Eightco treasury composition as of June 24, 2026: $90M OpenAI equity (indirect), $18M Beast Industries equity, 16,278 ETH, 283 million WLD holdings, and $149M cash and equivalents, totaling approximately $436 million Worldcoin token (WLD) now listed on Robinh\u2026",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "FEI Releases \"AI Framework: Internal Control Over Financial Reporting\" to Help Finance Leaders Adopt AI",
-    "url": "https://www.prnewswire.com/news-releases/fei-releases-ai-framework-internal-control-over-financial-reporting-to-help-finance-leaders-adopt-ai-302810219.html",
-    "industry": "AI & Technology",
-    "summary": "Practitioner-built, principles-based guidance from FEI's Committee on Corporate Reporting on how AI impacts Internal Control Over Financial Reporting (ICFR) MORRISTOWN, N.J., June 25, 2026 /PRNewswire/ -- Financial Executives International (FEI) today announc\u2026",
+    "summary": "How is innovation in blockchain technology, specifically the growing interest in stablecoins and tokenized deposits, creating ways for banks and financial services companies to offer new services, engage current customers better, and introduce new potential r\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -140,22 +156,6 @@
     "url": "https://www.wcnc.com/article/news/local/crews-respond-to-tractor-trailer-engulfed-i-77-north-ncdot-union-grove-fire-and-rescue/275-c99a4132-d673-48de-bb31-226eb46a502a",
     "industry": "AI & Technology",
     "summary": "A tractor-trailer fire on I-77 in Iredell County shut down the northbound lanes for hours early Wednesday morning.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Matthews considers e-bike ordinance after safety complaints on greenways",
-    "url": "https://www.wcnc.com/article/news/local/matthews-considers-e-bike-ordinance-after-safety-complaints-on-greenways/275-64ddcc7c-9660-4101-a929-92564ca14ce3",
-    "industry": "AI & Technology",
-    "summary": "Residents say fast-moving riders are making shared paths feel dangerous; A vote could come in August.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Liberty Defense Expands Aviation Footprint with New HEXWAVE\u2122 Award at Major International Airport",
-    "url": "https://www.globenewswire.com/news-release/2026/06/25/3317523/0/en/Liberty-Defense-Expands-Aviation-Footprint-with-New-HEXWAVE-Award-at-Major-International-Airport.html",
-    "industry": "AI & Technology",
-    "summary": "Advanced AI- powered HEXWAVE\u2122 technology enables detection of liquid, plastic, and powder explosives, 3D-printed weapons, and other evolving concealed threats Advanced AI- powered HEXWAVE\u2122 technology enables detection of liquid, plastic, and powder explosives\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
