@@ -47,7 +47,7 @@
       background-color: var(--bg);
       color: var(--text);
       line-height: 1.5;
-      padding-bottom: 60px;
+      padding-bottom: calc(60px + env(safe-area-inset-bottom, 0px));
     }
 
     /* Layout structure */
@@ -100,6 +100,11 @@
       overflow-x: auto;
       padding-bottom: 4px;
       -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      scroll-snap-type: x mandatory;
+    }
+    .tabs::-webkit-scrollbar {
+      display: none;
     }
 
     .tab-btn {
@@ -113,6 +118,7 @@
       cursor: pointer;
       white-space: nowrap;
       transition: all 0.2s ease;
+      scroll-snap-align: start;
     }
 
     .tab-btn.active {
@@ -450,7 +456,8 @@
 
     .tag-tier.safety { background: rgba(46,125,50,0.1); color: #2e7d32; }
     .tag-tier.match { background: rgba(21,101,192,0.1); color: #1565c0; }
-    .tag-tier.reach { background: rgba(198,40,40,0.1); color: #c62828; }
+    .tag-tier.reach { background: rgba(239,108,0,0.1); color: #ef6c00; }
+    .tag-tier.high-reach { background: rgba(198,40,40,0.1); color: #c62828; }
 
     .univ-stats {
       display: grid;
@@ -498,6 +505,46 @@
       display: flex;
       flex-direction: column;
       animation: slideIn 0.25s ease-out;
+      outline: none;
+    }
+
+    /* Sleek Snackbar/Toast Notification */
+    .toast-notification {
+      position: fixed;
+      bottom: calc(30px + env(safe-area-inset-bottom, 0px));
+      left: 50%;
+      transform: translate(-50%, 20px);
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      z-index: 2000;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.25s, visibility 0.25s, transform 0.25s;
+    }
+
+    .toast-notification.show {
+      opacity: 1;
+      visibility: visible;
+      transform: translate(-50%, 0);
+    }
+
+    @media (forced-colors: active) {
+      .gradient-text, h1 {
+        background: none !important;
+        color: CanvasText !important;
+        -webkit-text-fill-color: CanvasText !important;
+      }
     }
 
     .drawer-top {
@@ -550,6 +597,33 @@
     @keyframes spin {
       to { transform: rotate(360deg); }
     }
+
+    /* Prevent iOS auto zoom on focus */
+    input, select, textarea {
+      font-size: 16px !important;
+    }
+
+    /* Floating edit button */
+    #floating-edit-btn {
+      display: none;
+      position: fixed;
+      bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+      right: 20px;
+      z-index: 1000;
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+      align-items: center;
+      gap: 6px;
+      padding: 12px 20px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    
+    .match-reasons-row span {
+      display: inline-block;
+      margin-top: 4px;
+    }
   </style>
 </head>
 <body>
@@ -569,11 +643,11 @@
     </header>
 
     <!-- Tab navigation -->
-    <div class="tabs">
-      <button id="tab-btn-scholarships" class="tab-btn active" onclick="switchTab('scholarships')">🎓 <span id="btn-lbl-sch">Scholarships</span></button>
-      <button id="tab-btn-competitions" class="tab-btn" onclick="switchTab('competitions')">🏆 <span id="btn-lbl-comp">Competitions</span></button>
-      <button id="tab-btn-research" class="tab-btn" onclick="switchTab('research')">🧪 <span id="btn-lbl-res">Research Ops</span></button>
-      <button id="tab-btn-predictor" class="tab-btn" onclick="switchTab('predictor')">📊 <span id="btn-lbl-pred">College Predictor</span></button>
+    <div class="tabs" role="tablist">
+      <button id="tab-btn-scholarships" class="tab-btn active" role="tab" aria-selected="true" onclick="switchTab('scholarships')">🎓 <span id="btn-lbl-sch">Scholarships</span></button>
+      <button id="tab-btn-competitions" class="tab-btn" role="tab" aria-selected="false" onclick="switchTab('competitions')">🏆 <span id="btn-lbl-comp">Competitions</span></button>
+      <button id="tab-btn-research" class="tab-btn" role="tab" aria-selected="false" onclick="switchTab('research')">🧪 <span id="btn-lbl-res">Research Opportunities</span></button>
+      <button id="tab-btn-predictor" class="tab-btn" role="tab" aria-selected="false" onclick="switchTab('predictor')">📊 <span id="btn-lbl-pred">College Predictor</span></button>
     </div>
 
     <!-- Questionnaire widget -->
@@ -632,6 +706,10 @@
             </select>
           </div>
 
+          <div id="q-demographic-note" style="grid-column: 1 / -1; font-size: 0.8rem; color: var(--text-muted); font-style: italic; margin-top: -8px; display: none;">
+            * Used to surface relevant scholarships only — never stored.
+          </div>
+
           <div class="filter-group" id="q-group-interest">
             <label id="q-lbl-field">Academic Interest</label>
             <select id="q-interest">
@@ -667,6 +745,10 @@
               <option value="Free / Stipend Only">Free / Stipend Only</option>
             </select>
           </div>
+
+          <button id="btn-toggle-optional" class="btn btn-outline" style="grid-column: 1 / -1; margin-top: 8px; justify-content: center; align-items: center; display: flex; gap: 6px;" onclick="toggleOptionalFilters()">
+            ⚙️ Show Advanced Filters
+          </button>
 
         </div>
         <button class="btn btn-primary" style="margin-top: 14px; width: 100%; padding: 10px;" onclick="runQuestionnaire()">🎯 <span id="q-btn-lbl">Match Profile</span></button>
@@ -720,6 +802,12 @@
               <option value="required">Essay Required</option>
               <option value="noessay">No Essay Required</option>
             </select>
+          </div>
+          <div class="filter-group" style="justify-content: center;">
+            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; height: 100%; margin-top: auto; padding-bottom: 8px;">
+              <input type="checkbox" id="sch-nc" onchange="toggleNCFilter(this.checked)" style="width: 18px; height: 18px;">
+              <span id="lbl-nc-only">North Carolina / Local Benefits Only</span>
+            </label>
           </div>
         </div>
       </div>
@@ -789,6 +877,12 @@
               <option value="Tuition-based">Tuition-Based Programs</option>
             </select>
           </div>
+          <div class="filter-group" style="justify-content: center;">
+            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; height: 100%; margin-top: auto; padding-bottom: 8px;">
+              <input type="checkbox" id="res-nc" onchange="toggleNCFilter(this.checked)" style="width: 18px; height: 18px;">
+              <span id="lbl-nc-only-res">North Carolina / Local Benefits Only</span>
+            </label>
+          </div>
         </div>
       </div>
       <div id="research-grid" class="grid"></div>
@@ -803,7 +897,8 @@
           <div style="display: flex; flex-direction: column; gap: 12px;">
             <div class="filter-group">
               <label id="lbl-p-gpa">GPA (Scale 4.0)</label>
-              <input type="number" id="p-gpa" step="0.01" min="1.0" max="4.0" value="3.8">
+              <input type="number" id="p-gpa" step="0.01" min="1.0" max="4.0" value="3.8" oninput="validatePredictorGpa()">
+              <span id="p-gpa-error" style="color: #ff3b30; font-size: 0.75rem; display: none; margin-top: 4px;"></span>
             </div>
             <div class="filter-group">
               <label id="lbl-p-sat">SAT Score (Optional)</label>
@@ -893,9 +988,14 @@
     </footer>
   </div>
 
+  <!-- Floating Edit Button -->
+  <button id="floating-edit-btn" class="btn btn-primary" style="display: none;">
+    ✏️ <span id="lbl-edit-inputs">Edit Profile</span>
+  </button>
+
   <!-- Contributors Drawer overlay -->
   <div id="contributors-overlay" class="drawer-overlay" onclick="closeContributors()">
-    <div class="drawer" onclick="event.stopPropagation()" style="max-width: 500px;">
+    <div id="contributors-drawer" class="drawer" tabindex="-1" onclick="event.stopPropagation()" style="max-width: 500px;">
       <div class="drawer-top">
         <h3 id="contributorsTitle">Project Contributors</h3>
         <button onclick="closeContributors()" style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--text);">✕</button>
@@ -912,7 +1012,7 @@
 
   <!-- AI Helper Drawer overlay -->
   <div id="drawer-overlay" class="drawer-overlay" onclick="closeDrawer()">
-    <div class="drawer" onclick="event.stopPropagation()">
+    <div id="ai-drawer" class="drawer" tabindex="-1" onclick="event.stopPropagation()">
       <div class="drawer-top">
         <h3 id="dw-title">QCAI Application Strategist</h3>
         <button onclick="closeDrawer()" style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--text);">✕</button>
@@ -959,6 +1059,109 @@
     let universitiesData = [];
     let predictorResults = [];
     let selectedDrawerItem = null;
+    let selectedDrawerType = null;
+    let showOptionalFilters = false;
+    let previousActiveElement = null;
+    let activeTrapContainer = null;
+    let ncFilter = false;
+    let scholarshipsLimit = 24;
+    let competitionsLimit = 24;
+    let researchLimit = 24;
+
+    // Accessibility focus trap and escape closing
+    function handleGlobalKeydown(e) {
+      if (e.key === 'Escape') {
+        if (document.getElementById('drawer-overlay').style.display === 'flex') {
+          closeDrawer();
+        } else if (document.getElementById('contributors-overlay').style.display === 'flex') {
+          closeContributors();
+        }
+      }
+      if (e.key === 'Tab' && activeTrapContainer) {
+        const focusables = activeTrapContainer.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+        if (focusables.length === 0) return;
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (e.shiftKey) {
+          if (document.activeElement === first) {
+            last.focus();
+            e.preventDefault();
+          }
+        } else {
+          if (document.activeElement === last) {
+            first.focus();
+            e.preventDefault();
+          }
+        }
+      }
+    }
+    document.addEventListener('keydown', handleGlobalKeydown);
+
+    // Swipe gestures on mobile drawer
+    let touchStartX = 0;
+    let touchCurrentX = 0;
+    let isSwiping = false;
+
+    function initSwipeGestures() {
+      const drawerEl = document.getElementById('ai-drawer');
+      if (!drawerEl) return;
+      
+      drawerEl.addEventListener('touchstart', (e) => {
+        if (e.target.closest('textarea, select, input, button')) return;
+        touchStartX = e.touches[0].clientX;
+        isSwiping = true;
+        drawerEl.style.transition = 'none';
+      }, { passive: true });
+
+      drawerEl.addEventListener('touchmove', (e) => {
+        if (!isSwiping) return;
+        touchCurrentX = e.touches[0].clientX;
+        const deltaX = touchCurrentX - touchStartX;
+        if (deltaX > 0) {
+          drawerEl.style.transform = `translateX(${deltaX}px)`;
+        }
+      }, { passive: true });
+
+      drawerEl.addEventListener('touchend', (e) => {
+        if (!isSwiping) return;
+        isSwiping = false;
+        const deltaX = touchCurrentX - touchStartX;
+        drawerEl.style.transition = 'transform 0.2s ease-out';
+        if (deltaX > 120) {
+          drawerEl.style.transform = 'translateX(100%)';
+          setTimeout(() => {
+            closeDrawer();
+            drawerEl.style.transform = 'none';
+          }, 200);
+        } else {
+          drawerEl.style.transform = 'none';
+        }
+      }, { passive: true });
+    }
+
+    function isNCOpportunity(item) {
+      if (!item) return false;
+      const regions = item.regions || [];
+      const name = (item.name || '').toLowerCase();
+      return regions.includes('NC') ||
+        name.includes('morehead') ||
+        name.includes('park scholarship') ||
+        name.includes('robertson scholar') ||
+        name.includes('ncssm') ||
+        name.includes('north carolina') ||
+        name.includes('duke');
+    }
+
+    function toggleNCFilter(checked) {
+      ncFilter = checked;
+      const schNc = document.getElementById('sch-nc');
+      if (schNc) schNc.checked = checked;
+      const resNc = document.getElementById('res-nc');
+      if (resNc) resNc.checked = checked;
+      
+      renderScholarships();
+      renderResearch();
+    }
 
     // Translation resource dictionaries
     const translations = {
@@ -967,7 +1170,7 @@
         'lbl-subtitle': 'Elevate your university profile with curated resources, trackers, and AI predictive engines.',
         'btn-lbl-sch': 'Scholarships',
         'btn-lbl-comp': 'Competitions',
-        'btn-lbl-res': 'Research Ops',
+        'btn-lbl-res': 'Research Opportunities',
         'btn-lbl-pred': 'College Predictor',
         'quest-title': 'Find Your Admissions Match',
         'quest-desc': 'Answer 4 quick profile questions to find the most matched options.',
@@ -1010,6 +1213,8 @@
         'safety': 'Safety School',
         'match': 'Match School',
         'reach': 'Reach School',
+        'highReach': 'High Reach',
+        'editProfile': 'Edit Profile',
         'notes-ph': 'Add private application notes, drafts, or login credentials here...',
         'hook': 'Hook/Introduction',
         'strength': 'Core Strength/Academic Depth',
@@ -1021,7 +1226,11 @@
         'statusSubmitted': 'Submitted',
         'contributorsLink': 'Contributors',
         'contributorsTitle': 'Project Contributors',
-        'loading': 'Loading...'
+        'loading': 'Loading...',
+        'loadMore': 'Load More',
+        'lbl-nc-only': 'North Carolina / Local Benefits Only',
+        'lbl-nc-only-res': 'North Carolina / Local Benefits Only',
+        'q-demographic-note': '* This identity information is used solely to match demographic-restricted scholarships and is never stored locally or transmitted.'
       },
       'zh': {
         'lbl-title': '大学规划与录取加速器',
@@ -1071,6 +1280,8 @@
         'safety': '保底学校 (Safety)',
         'match': '匹配学校 (Match)',
         'reach': '冲刺学校 (Reach)',
+        'highReach': '高冲刺学校 (High Reach)',
+        'editProfile': '修改个人档案',
         'notes-ph': '在此处添加私密的申请笔记、网页登录账号、草稿或截止时间打卡记录...',
         'hook': '引人入胜的开篇个人背景钩子',
         'strength': '核心优势展示与学术实力阐述',
@@ -1082,7 +1293,11 @@
         'statusSubmitted': '已提交申请',
         'contributorsLink': '贡献者信息',
         'contributorsTitle': '项目贡献者列表',
-        'loading': '正在加载...'
+        'loading': '正在加载...',
+        'loadMore': '加载更多',
+        'lbl-nc-only': '仅显示北卡罗来纳/本地优惠',
+        'lbl-nc-only-res': '仅显示北卡罗来纳/本地优惠',
+        'q-demographic-note': '* 本数据仅用于筛选符合特定背景要求的专属奖学金，我们绝不会上传、分享或在本地存储您的敏感身份信息。'
       },
       'es': {
         'lbl-title': 'Preparación Universitaria y Acelerador de Admisiones',
@@ -1132,6 +1347,8 @@
         'safety': 'Escuela Segura',
         'match': 'Escuela Probable',
         'reach': 'Escuela Desafiante',
+        'highReach': 'Gran Desafío',
+        'editProfile': 'Editar Perfil',
         'notes-ph': 'Agregue notas de solicitud privadas, borradores o credenciales aquí...',
         'hook': 'Gancho Personal e Introducción',
         'strength': 'Fortaleza y Profundidad Académica',
@@ -1143,7 +1360,11 @@
         'statusSubmitted': 'Enviado',
         'contributorsLink': 'Colaboradores',
         'contributorsTitle': 'Colaboradores del Proyecto',
-        'loading': 'Cargando...'
+        'loading': 'Cargando...',
+        'loadMore': 'Cargar más',
+        'lbl-nc-only': 'Solo beneficios locales/Carolina del Norte',
+        'lbl-nc-only-res': 'Solo beneficios locales/Carolina del Norte',
+        'q-demographic-note': '* Esta información de identidad se utiliza únicamente para buscar becas con restricciones demográficas y nunca se almacena localmente ni se transmite.'
       }
     };
 
@@ -1194,6 +1415,30 @@
         })
         .catch(err => console.error("Error loading schools database:", err));
         
+      initSwipeGestures();
+      
+      window.addEventListener('scroll', () => {
+        const floatingBtn = document.getElementById('floating-edit-btn');
+        if (!floatingBtn) return;
+        
+        if (currentTab === 'predictor' && document.getElementById('predictor-results-panel').style.display === 'block') {
+          if (window.scrollY > 300) {
+            floatingBtn.style.display = 'flex';
+          } else {
+            floatingBtn.style.display = 'none';
+          }
+        } else {
+          floatingBtn.style.display = 'none';
+        }
+      });
+      
+      const floatBtn = document.getElementById('floating-edit-btn');
+      if (floatBtn) {
+        floatBtn.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+        
       renderQuestionnaireForm();
     };
 
@@ -1218,6 +1463,9 @@
       const predSearch = document.getElementById('pred-search');
       if (predSearch) predSearch.placeholder = lang === 'zh' ? '搜索大学...' : (lang === 'es' ? 'Buscar universidades...' : 'Search universities...');
 
+      const noteEl = document.getElementById('q-demographic-note');
+      if (noteEl) noteEl.textContent = dict['q-demographic-note'] || '';
+
       // Render grids under current language
       renderScholarships();
       renderCompetitions();
@@ -1228,11 +1476,46 @@
       }
     }
 
+    function toggleOptionalFilters() {
+      showOptionalFilters = !showOptionalFilters;
+      renderQuestionnaireForm();
+    }
+
+    function validatePredictorGpa() {
+      const gpaInput = document.getElementById('p-gpa');
+      const errorEl = document.getElementById('p-gpa-error');
+      if (!gpaInput || !errorEl) return false;
+      const val = parseFloat(gpaInput.value);
+      if (gpaInput.value.trim() === '') {
+        errorEl.textContent = currentLang === 'zh' ? 'GPA 不能为空。' : (currentLang === 'es' ? 'El GPA no puede estar vacío.' : 'GPA cannot be empty.');
+        errorEl.style.display = 'block';
+        gpaInput.style.borderColor = '#ff3b30';
+        return false;
+      } else if (isNaN(val) || val < 0.0 || val > 4.0) {
+        errorEl.textContent = currentLang === 'zh' ? 'GPA 须在 0.0 到 4.0 之间。' : (currentLang === 'es' ? 'El GPA debe estar entre 0.0 y 4.0.' : 'GPA must be between 0.0 and 4.0.');
+        errorEl.style.display = 'block';
+        gpaInput.style.borderColor = '#ff3b30';
+        return false;
+      } else {
+        errorEl.style.display = 'none';
+        gpaInput.style.borderColor = '';
+        return true;
+      }
+    }
+
     function switchTab(tab) {
       currentTab = tab;
+      toggleNCFilter(false);
       // Update active nav button
-      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-      document.getElementById('tab-btn-' + tab).classList.add('active');
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('active');
+        btn.setAttribute('aria-selected', 'false');
+      });
+      const activeBtn = document.getElementById('tab-btn-' + tab);
+      if (activeBtn) {
+        activeBtn.classList.add('active');
+        activeBtn.setAttribute('aria-selected', 'true');
+      }
       
       // Show active panel
       document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
@@ -1257,23 +1540,43 @@
         if (el) el.style.display = 'none';
       });
       
+      const noteEl = document.getElementById('q-demographic-note');
+      if (noteEl) noteEl.style.display = 'none';
+      
+      const toggleBtn = document.getElementById('btn-toggle-optional');
+      if (toggleBtn) {
+        toggleBtn.textContent = showOptionalFilters ? 
+          (currentLang === 'zh' ? '隐藏高级筛选 ⚙️' : (currentLang === 'es' ? 'Ocultar filtros avanzados ⚙️' : 'Hide Advanced Filters ⚙️')) :
+          (currentLang === 'zh' ? '展开高级筛选 ⚙️' : (currentLang === 'es' ? 'Mostrar filtros avanzados ⚙️' : 'Show Advanced Filters ⚙️'));
+      }
+      
       // Show tab specific
       if (currentTab === 'scholarships') {
         document.getElementById('q-group-gpa').style.display = 'flex';
         document.getElementById('q-group-grade').style.display = 'flex';
         document.getElementById('q-group-need').style.display = 'flex';
-        document.getElementById('q-group-gender').style.display = 'flex';
-        document.getElementById('q-group-heritage').style.display = 'flex';
+        
+        if (showOptionalFilters) {
+          document.getElementById('q-group-gender').style.display = 'flex';
+          document.getElementById('q-group-heritage').style.display = 'flex';
+          if (noteEl) noteEl.style.display = 'block';
+        }
       } else if (currentTab === 'competitions') {
         document.getElementById('q-group-grade').style.display = 'flex';
         document.getElementById('q-group-interest').style.display = 'flex';
-        document.getElementById('q-group-format').style.display = 'flex';
-        document.getElementById('q-group-skill').style.display = 'flex';
+        
+        if (showOptionalFilters) {
+          document.getElementById('q-group-format').style.display = 'flex';
+          document.getElementById('q-group-skill').style.display = 'flex';
+        }
       } else if (currentTab === 'research') {
         document.getElementById('q-group-gpa').style.display = 'flex';
         document.getElementById('q-group-grade').style.display = 'flex';
         document.getElementById('q-group-interest').style.display = 'flex';
-        document.getElementById('q-group-cost').style.display = 'flex';
+        
+        if (showOptionalFilters) {
+          document.getElementById('q-group-cost').style.display = 'flex';
+        }
       }
     }
 
@@ -1294,7 +1597,7 @@
         tracker[key] = {
           status: 'Not Started',
           notes: '',
-          checklist: { transcript: false, essay: false, recommendation: false, submit: false }
+          checklist: {}
         };
       }
       saveToStorage();
@@ -1312,18 +1615,38 @@
     }
 
     function handleChecklistChange(key, field) {
+      if (!tracker[key]) {
+        tracker[key] = { status: 'Not Started', notes: '', checklist: {} };
+      }
+      if (!tracker[key].checklist) {
+        tracker[key].checklist = {};
+      }
       tracker[key].checklist[field] = !tracker[key].checklist[field];
       saveToStorage();
       updateSavedBoard();
+      
+      // If the drawer is currently open for this item, refresh the drawer checklist!
+      if (selectedDrawerItem && selectedDrawerType) {
+        const drawerKey = selectedDrawerType + '-' + selectedDrawerItem.name;
+        if (drawerKey === key) {
+          refreshDrawerChecklist();
+        }
+      }
     }
 
     function handleStatusChange(key, status) {
+      if (!tracker[key]) {
+        tracker[key] = { status: 'Not Started', notes: '', checklist: {} };
+      }
       tracker[key].status = status;
       saveToStorage();
       updateSavedBoard();
     }
 
     function handleNotesChange(key, notes) {
+      if (!tracker[key]) {
+        tracker[key] = { status: 'Not Started', notes: '', checklist: {} };
+      }
       tracker[key].notes = notes;
       saveToStorage();
     }
@@ -1345,15 +1668,46 @@
       
       keys.forEach(key => {
         const b = bookmarks[key];
-        const t = tracker[key] || { status: 'Not Started', notes: '', checklist: { transcript: false, essay: false, recommendation: false, submit: false } };
+        const t = tracker[key] || { status: 'Not Started', notes: '', checklist: {} };
+        if (!t.checklist) t.checklist = {};
         
+        let checklistHtml = '';
         let checkedCount = 0;
-        if (t.checklist.transcript) checkedCount++;
-        if (t.checklist.essay) checkedCount++;
-        if (t.checklist.recommendation) checkedCount++;
-        if (t.checklist.submit) checkedCount++;
+        let totalItems = 0;
         
-        let score = (checkedCount / 4) * 100;
+        let itemActions = [];
+        if (b.type === 'scholarships') {
+          const isElite = b.prestige === 'Elite';
+          itemActions = [
+            { key: 'transcript', label: translations[currentLang]['checklistTranscript'] || 'Transcript' },
+            { key: 'essay', label: translations[currentLang]['checklistEssay'] || 'Essay' },
+            { key: 'recommendation', label: translations[currentLang]['checklistLetters'] || 'Rec Letter' },
+            { key: 'submit', label: translations[currentLang]['checklistSubmit'] || 'Submit' },
+            { key: 'elite-1', label: isElite ? (currentLang === 'zh' ? '特级评估' : 'Evaluation') : (currentLang === 'zh' ? '财务陈情' : 'Fin Dec') }
+          ];
+        } else if (b.type === 'competitions') {
+          itemActions = [
+            { key: 'register', label: currentLang === 'zh' ? '官方注册' : 'Register' },
+            { key: 'prep', label: currentLang === 'zh' ? '赛前准备' : 'Prep' },
+            { key: 'team', label: currentLang === 'zh' ? '团队组建' : 'Team' },
+            { key: 'submit', label: currentLang === 'zh' ? '作品提交' : 'Submit' }
+          ];
+        } else { // research
+          itemActions = [
+            { key: 'resume', label: currentLang === 'zh' ? '简历更新' : 'Resume' },
+            { key: 'cold-email', label: currentLang === 'zh' ? '套磁邮件' : 'Cold Email' },
+            { key: 'proposal', label: currentLang === 'zh' ? '课题意向' : 'Proposal' },
+            { key: 'submit', label: currentLang === 'zh' ? '提交申请' : 'Submit' }
+          ];
+        }
+        
+        itemActions.forEach(act => {
+          totalItems++;
+          if (t.checklist[act.key]) checkedCount++;
+          checklistHtml += `<label><input type="checkbox" ${t.checklist[act.key] ? 'checked' : ''} onclick="handleChecklistChange('${key}', '${act.key}')"> ${act.label}</label>`;
+        });
+        
+        let score = totalItems > 0 ? (checkedCount / totalItems) * 100 : 0;
         if (t.status === 'Submitted') score = 100;
         totalCompletedScore += score;
         
@@ -1372,9 +1726,7 @@
             <span>${categoryLabel} | ${b.prestige}</span>
           </div>
           <div class="saved-checks">
-            <label><input type="checkbox" ${t.checklist.transcript ? 'checked' : ''} onclick="handleChecklistChange('${key}', 'transcript')"> Transcript</label>
-            <label><input type="checkbox" ${t.checklist.essay ? 'checked' : ''} onclick="handleChecklistChange('${key}', 'essay')"> Essay</label>
-            <label><input type="checkbox" ${t.checklist.recommendation ? 'checked' : ''} onclick="handleChecklistChange('${key}', 'recommendation')"> Rec Letter</label>
+            ${checklistHtml}
           </div>
           <div class="tracker-actions" style="display: flex; align-items: center; gap: 8px;">
             <select onchange="handleStatusChange('${key}', this.value)" style="background: ${statusSelected === 'Submitted' ? '#e2f0d9' : (statusSelected === 'Ready to Submit' ? '#fff2cc' : 'white')}">
@@ -1399,7 +1751,9 @@
     }
 
     // Render Lists
-    function renderScholarships() {
+    function renderScholarships(keepLimit) {
+      if (!keepLimit) scholarshipsLimit = 24;
+      
       const grid = document.getElementById('scholarships-grid');
       const query = document.getElementById('sch-search').value.toLowerCase();
       const prestigeVal = document.getElementById('sch-prestige').value;
@@ -1407,7 +1761,7 @@
       
       grid.innerHTML = '';
       
-      scholarshipsData.forEach(item => {
+      const matchedItems = scholarshipsData.filter(item => {
         const matchesSearch = item.name.toLowerCase().includes(query);
         const matchesPrestige = prestigeVal === 'all' || 
                                 (prestigeVal === 'elite' && item.prestige === 'Elite') || 
@@ -1415,42 +1769,75 @@
         const matchesEssay = essayVal === 'all' ||
                               (essayVal === 'required' && item.essayRequired) ||
                               (essayVal === 'noessay' && !item.essayRequired);
-                              
-        if (matchesSearch && matchesPrestige && matchesEssay) {
-          const isSaved = bookmarks['scholarships-' + item.name] ? 'bookmarked' : '';
-          const card = document.createElement('div');
-          card.className = `card ${item.prestige === 'Elite' ? 'elite' : ''}`;
-          
-          let badgesHTML = `<span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>`;
-          item.tags.forEach(tag => {
-            badgesHTML += `<span class="badge tag">${tag}</span>`;
-          });
-          
-          card.innerHTML = `
-            <div>
-              <div class="badge-row">${badgesHTML}</div>
-              <h3>${item.name}</h3>
-              <div class="card-meta">
-                <p>💰 Est. Amount: ${item.amount}</p>
-                <p>📄 Document: ${item.essayRequired ? 'Essay Required' : 'No Essay'}</p>
-                ${item.minGpa ? `<p>📈 Min GPA: ${item.minGpa}</p>` : ''}
-                ${item.grades && item.grades.length > 0 ? `<p>🎓 Grades: ${item.grades.map(g => g + 'th').join(', ')}</p>` : ''}
-                ${item.usCitizenOnly ? `<p>🇺🇸 US Citizens Only</p>` : ''}
-                ${item.regions && item.regions.length > 0 ? `<p>📍 Region: ${item.regions.join(', ')}</p>` : ''}
-              </div>
-            </div>
-            <div class="card-actions">
-              <button class="btn btn-primary" onclick="window.open('${item.url}', '_blank')">${translations[currentLang]['official']} ↗</button>
-              <button class="btn btn-outline" onclick="openDrawer('${encodeURIComponent(JSON.stringify(item))}', 'scholarships')">${translations[currentLang]['prep']}</button>
-              <button class="btn btn-icon ${isSaved}" onclick="toggleBookmark('${item.name.replace(/'/g, "\'")}', 'scholarships', '${item.url}', '${item.prestige}', '${encodeURIComponent(JSON.stringify(item))}')">📁</button>
-            </div>
-          `;
-          grid.appendChild(card);
-        }
+        const matchesNC = !ncFilter || isNCOpportunity(item);
+        
+        return matchesSearch && matchesPrestige && matchesEssay && matchesNC;
       });
+      
+      const slicedItems = matchedItems.slice(0, scholarshipsLimit);
+      slicedItems.forEach(item => {
+        const isSaved = bookmarks['scholarships-' + item.name] ? 'bookmarked' : '';
+        const card = document.createElement('div');
+        card.className = `card ${item.prestige === 'Elite' ? 'elite' : ''}`;
+        
+        let badgesHTML = `<span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>`;
+        item.tags.forEach(tag => {
+          badgesHTML += `<span class="badge tag">${tag}</span>`;
+        });
+        if (item.gender && item.gender.length > 0) {
+          badgesHTML += `<span class="badge tag">👩 ${item.gender.join(', ')} Only</span>`;
+        }
+        if (item.ethnicities && item.ethnicities.length > 0) {
+          badgesHTML += `<span class="badge tag">✊ ${item.ethnicities.join(', ')} Heritage</span>`;
+        }
+        
+        card.innerHTML = `
+          <div>
+            <div class="badge-row">${badgesHTML}</div>
+            <h3>${item.name}</h3>
+            <div class="card-meta">
+              <p>💰 Est. Amount: ${item.amount}</p>
+              <p>📄 Document: ${item.essayRequired ? 'Essay Required' : 'No Essay'}</p>
+              ${item.minGpa ? `<p>📈 Min GPA: ${item.minGpa}</p>` : ''}
+              ${item.grades && item.grades.length > 0 ? `<p>🎓 Grades: ${item.grades.map(g => g + 'th').join(', ')}</p>` : ''}
+              ${item.usCitizenOnly ? `<p>🇺🇸 US Citizens Only</p>` : ''}
+              ${item.regions && item.regions.length > 0 ? `<p>📍 Region: ${item.regions.join(', ')}</p>` : ''}
+            </div>
+          </div>
+          <div class="card-actions">
+            <button class="btn btn-primary" onclick="window.open('${item.url}', '_blank')">${translations[currentLang]['official']} ↗</button>
+            <button class="btn btn-outline" onclick="openDrawer('${encodeURIComponent(JSON.stringify(item))}', 'scholarships')">${translations[currentLang]['prep']}</button>
+            <button class="btn btn-icon ${isSaved}" onclick="toggleBookmark('${item.name.replace(/'/g, "\'")}', 'scholarships', '${item.url}', '${item.prestige}', '${encodeURIComponent(JSON.stringify(item))}')">📁</button>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+      
+      const oldBtn = document.getElementById('sch-load-more-btn');
+      if (oldBtn) oldBtn.remove();
+      
+      if (matchedItems.length > scholarshipsLimit) {
+        const btnContainer = document.createElement('div');
+        btnContainer.id = 'sch-load-more-btn';
+        btnContainer.style.display = 'flex';
+        btnContainer.style.justifyContent = 'center';
+        btnContainer.style.marginTop = '24px';
+        btnContainer.style.width = '100%';
+        btnContainer.innerHTML = `
+          <button class="btn btn-outline" onclick="loadMoreScholarships()">➕ ${translations[currentLang]['loadMore'] || 'Load More'}</button>
+        `;
+        grid.parentNode.appendChild(btnContainer);
+      }
     }
 
-    function renderCompetitions() {
+    function loadMoreScholarships() {
+      scholarshipsLimit += 24;
+      renderScholarships(true);
+    }
+
+    function renderCompetitions(keepLimit) {
+      if (!keepLimit) competitionsLimit = 24;
+      
       const grid = document.getElementById('competitions-grid');
       const query = document.getElementById('comp-search').value.toLowerCase();
       const prestigeVal = document.getElementById('comp-prestige').value;
@@ -1458,43 +1845,75 @@
       
       grid.innerHTML = '';
       
-      competitionsData.forEach(item => {
+      const matchedItems = competitionsData.filter(item => {
         const matchesSearch = item.name.toLowerCase().includes(query);
         const matchesPrestige = prestigeVal === 'all' || 
                                 (prestigeVal === 'elite' && item.prestige === 'Elite') || 
                                 (prestigeVal === 'high' && item.prestige !== 'Elite');
         const matchesSubject = subjectVal === 'all' || item.category === subjectVal;
         
-        if (matchesSearch && matchesPrestige && matchesSubject) {
-          const isSaved = bookmarks['competitions-' + item.name] ? 'bookmarked' : '';
-          const card = document.createElement('div');
-          card.className = `card ${item.prestige === 'Elite' ? 'elite' : ''}`;
-          
-          card.innerHTML = `
-            <div>
-              <div class="badge-row">
-                <span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>
-                <span class="badge tag">${item.category}</span>
-              </div>
-              <h3>${item.name}</h3>
-              <div class="card-meta">
-                ${item.minGpa ? `<p>📈 Min GPA: ${item.minGpa}</p>` : ''}
-                ${item.grades && item.grades.length > 0 ? `<p>🎓 Grades: ${item.grades.map(g => g + 'th').join(', ')}</p>` : ''}
-                ${item.usCitizenOnly ? `<p>🇺🇸 US Citizens Only</p>` : ''}
-              </div>
-            </div>
-            <div class="card-actions">
-              <button class="btn btn-primary" onclick="window.open('${item.url}', '_blank')">${translations[currentLang]['official']} ↗</button>
-              <button class="btn btn-outline" onclick="openDrawer('${encodeURIComponent(JSON.stringify(item))}', 'competitions')">${translations[currentLang]['prep']}</button>
-              <button class="btn btn-icon ${isSaved}" onclick="toggleBookmark('${item.name.replace(/'/g, "\'")}', 'competitions', '${item.url}', '${item.prestige}', '${encodeURIComponent(JSON.stringify(item))}')">📁</button>
-            </div>
-          `;
-          grid.appendChild(card);
-        }
+        return matchesSearch && matchesPrestige && matchesSubject;
       });
+      
+      const slicedItems = matchedItems.slice(0, competitionsLimit);
+      slicedItems.forEach(item => {
+        const isSaved = bookmarks['competitions-' + item.name] ? 'bookmarked' : '';
+        const card = document.createElement('div');
+        card.className = `card ${item.prestige === 'Elite' ? 'elite' : ''}`;
+        
+        let badgesHTML = `<span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>
+                          <span class="badge tag">${item.category}</span>`;
+        if (item.isTeam) {
+          badgesHTML += `<span class="badge tag">👥 Team</span>`;
+        }
+        if (item.skillLevel && item.skillLevel !== 'General') {
+          badgesHTML += `<span class="badge tag">🧠 ${item.skillLevel}</span>`;
+        }
+        
+        card.innerHTML = `
+          <div>
+            <div class="badge-row">${badgesHTML}</div>
+            <h3>${item.name}</h3>
+            <div class="card-meta">
+              ${item.minGpa ? `<p>📈 Min GPA: ${item.minGpa}</p>` : ''}
+              ${item.grades && item.grades.length > 0 ? `<p>🎓 Grades: ${item.grades.map(g => g + 'th').join(', ')}</p>` : ''}
+              ${item.usCitizenOnly ? `<p>🇺🇸 US Citizens Only</p>` : ''}
+            </div>
+          </div>
+          <div class="card-actions">
+            <button class="btn btn-primary" onclick="window.open('${item.url}', '_blank')">${translations[currentLang]['official']} ↗</button>
+            <button class="btn btn-outline" onclick="openDrawer('${encodeURIComponent(JSON.stringify(item))}', 'competitions')">${translations[currentLang]['prep']}</button>
+            <button class="btn btn-icon ${isSaved}" onclick="toggleBookmark('${item.name.replace(/'/g, "\'")}', 'competitions', '${item.url}', '${item.prestige}', '${encodeURIComponent(JSON.stringify(item))}')">📁</button>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+      
+      const oldBtn = document.getElementById('comp-load-more-btn');
+      if (oldBtn) oldBtn.remove();
+      
+      if (matchedItems.length > competitionsLimit) {
+        const btnContainer = document.createElement('div');
+        btnContainer.id = 'comp-load-more-btn';
+        btnContainer.style.display = 'flex';
+        btnContainer.style.justifyContent = 'center';
+        btnContainer.style.marginTop = '24px';
+        btnContainer.style.width = '100%';
+        btnContainer.innerHTML = `
+          <button class="btn btn-outline" onclick="loadMoreCompetitions()">➕ ${translations[currentLang]['loadMore'] || 'Load More'}</button>
+        `;
+        grid.parentNode.appendChild(btnContainer);
+      }
     }
 
-    function renderResearch() {
+    function loadMoreCompetitions() {
+      competitionsLimit += 24;
+      renderCompetitions(true);
+    }
+
+    function renderResearch(keepLimit) {
+      if (!keepLimit) researchLimit = 24;
+      
       const grid = document.getElementById('research-grid');
       const query = document.getElementById('res-search').value.toLowerCase();
       const prestigeVal = document.getElementById('res-prestige').value;
@@ -1503,42 +1922,70 @@
       
       grid.innerHTML = '';
       
-      researchData.forEach(item => {
+      const matchedItems = researchData.filter(item => {
         const matchesSearch = item.name.toLowerCase().includes(query);
         const matchesPrestige = prestigeVal === 'all' || 
                                 (prestigeVal === 'elite' && item.prestige === 'Elite') || 
                                 (prestigeVal === 'high' && item.prestige !== 'Elite');
         const matchesSubject = subjectVal === 'all' || item.subject === subjectVal;
         const matchesCost = costVal === 'all' || item.cost === costVal;
+        const matchesNC = !ncFilter || isNCOpportunity(item);
         
-        if (matchesSearch && matchesPrestige && matchesSubject && matchesCost) {
-          const isSaved = bookmarks['research-' + item.name] ? 'bookmarked' : '';
-          const card = document.createElement('div');
-          card.className = `card ${item.prestige === 'Elite' ? 'elite' : ''}`;
-          
-          card.innerHTML = `
-            <div>
-              <div class="badge-row">
-                <span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>
-                <span class="badge tag">${item.subject}</span>
-                <span class="badge tag">${item.cost}</span>
-              </div>
-              <h3>${item.name}</h3>
-              <div class="card-meta">
-                ${item.minGpa ? `<p>📈 Min GPA: ${item.minGpa}</p>` : ''}
-                ${item.grades && item.grades.length > 0 ? `<p>🎓 Grades: ${item.grades.map(g => g + 'th').join(', ')}</p>` : ''}
-                ${item.usCitizenOnly ? `<p>🇺🇸 US Citizens Only</p>` : ''}
-              </div>
-            </div>
-            <div class="card-actions">
-              <button class="btn btn-primary" onclick="window.open('${item.url}', '_blank')">${translations[currentLang]['official']} ↗</button>
-              <button class="btn btn-outline" onclick="openDrawer('${encodeURIComponent(JSON.stringify(item))}', 'research')">${translations[currentLang]['prep']}</button>
-              <button class="btn btn-icon ${isSaved}" onclick="toggleBookmark('${item.name.replace(/'/g, "\'")}', 'research', '${item.url}', '${item.prestige}', '${encodeURIComponent(JSON.stringify(item))}')">📁</button>
-            </div>
-          `;
-          grid.appendChild(card);
-        }
+        return matchesSearch && matchesPrestige && matchesSubject && matchesCost && matchesNC;
       });
+      
+      const slicedItems = matchedItems.slice(0, researchLimit);
+      slicedItems.forEach(item => {
+        const isSaved = bookmarks['research-' + item.name] ? 'bookmarked' : '';
+        const card = document.createElement('div');
+        card.className = `card ${item.prestige === 'Elite' ? 'elite' : ''}`;
+        
+        let badgesHTML = `<span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>
+                          <span class="badge tag">${item.subject}</span>
+                          <span class="badge tag">${item.cost}</span>`;
+        if (item.isVirtual) {
+          badgesHTML += `<span class="badge tag">💻 Virtual</span>`;
+        }
+        
+        card.innerHTML = `
+          <div>
+            <div class="badge-row">${badgesHTML}</div>
+            <h3>${item.name}</h3>
+            <div class="card-meta">
+              ${item.minGpa ? `<p>📈 Min GPA: ${item.minGpa}</p>` : ''}
+              ${item.grades && item.grades.length > 0 ? `<p>🎓 Grades: ${item.grades.map(g => g + 'th').join(', ')}</p>` : ''}
+              ${item.usCitizenOnly ? `<p>🇺🇸 US Citizens Only</p>` : ''}
+            </div>
+          </div>
+          <div class="card-actions">
+            <button class="btn btn-primary" onclick="window.open('${item.url}', '_blank')">${translations[currentLang]['official']} ↗</button>
+            <button class="btn btn-outline" onclick="openDrawer('${encodeURIComponent(JSON.stringify(item))}', 'research')">${translations[currentLang]['prep']}</button>
+            <button class="btn btn-icon ${isSaved}" onclick="toggleBookmark('${item.name.replace(/'/g, "\'")}', 'research', '${item.url}', '${item.prestige}', '${encodeURIComponent(JSON.stringify(item))}')">📁</button>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+      
+      const oldBtn = document.getElementById('res-load-more-btn');
+      if (oldBtn) oldBtn.remove();
+      
+      if (matchedItems.length > researchLimit) {
+        const btnContainer = document.createElement('div');
+        btnContainer.id = 'res-load-more-btn';
+        btnContainer.style.display = 'flex';
+        btnContainer.style.justifyContent = 'center';
+        btnContainer.style.marginTop = '24px';
+        btnContainer.style.width = '100%';
+        btnContainer.innerHTML = `
+          <button class="btn btn-outline" onclick="loadMoreResearch()">➕ ${translations[currentLang]['loadMore'] || 'Load More'}</button>
+        `;
+        grid.parentNode.appendChild(btnContainer);
+      }
+    }
+
+    function loadMoreResearch() {
+      researchLimit += 24;
+      renderResearch(true);
     }
 
     // Questionnaire Controller
@@ -1547,6 +1994,11 @@
       const grade = document.getElementById('q-grade').value;
       const need = document.getElementById('q-need').value;
       const interest = document.getElementById('q-interest').value;
+      const gender = document.getElementById('q-gender').value;
+      const heritage = document.getElementById('q-heritage').value;
+      const format = document.getElementById('q-format').value;
+      const skill = document.getElementById('q-skill').value;
+      const cost = document.getElementById('q-cost').value;
       
       const gpaMap = {
         '3.8-4.0': 3.8,
@@ -1567,54 +2019,120 @@
       
       let matches = [];
       
-      // Match scholarships
-      scholarshipsData.forEach(item => {
-        let eligibilityScore = 0;
-        if (item.minGpa !== null && gpaVal < item.minGpa) return;
-        if (item.grades && item.grades.length > 0 && !item.grades.includes(gradeVal)) return;
+      if (currentTab === 'scholarships') {
+        // Match scholarships only
+        scholarshipsData.forEach(item => {
+          let eligibilityScore = 0;
+          if (item.minGpa !== null && gpaVal < item.minGpa) return;
+          if (item.grades && item.grades.length > 0 && !item.grades.includes(gradeVal)) return;
 
-        if (item.prestige === 'Elite') eligibilityScore += 2;
-        if (needVal && item.needBased) eligibilityScore += 3;
-        if (!needVal && item.needBased) eligibilityScore -= 1;
-        if (interest === 'STEM' && item.tags.includes('STEM')) eligibilityScore += 3;
-        
-        matches.push({ ...item, score: eligibilityScore, group: 'scholarships' });
-      });
-      
-      // Match comps
-      competitionsData.forEach(item => {
-        let eligibilityScore = 0;
-        if (item.minGpa !== null && gpaVal < item.minGpa) return;
-        if (item.grades && item.grades.length > 0 && !item.grades.includes(gradeVal)) return;
+          // Gender check
+          if (item.gender && item.gender.length > 0) {
+            if (gender !== 'Prefer not to say' && !item.gender.includes(gender)) return;
+          }
+          // Ethnicity check
+          if (item.ethnicities && item.ethnicities.length > 0) {
+            if (heritage !== 'Prefer not to say' && !item.ethnicities.includes(heritage)) return;
+          }
 
-        const matchesInterest = 
-          (interest === 'STEM' && (item.category === 'Science/STEM' || item.category === 'Coding' || item.category === 'Robotics')) ||
-          (interest === 'Math' && item.category === 'Math') ||
-          (interest === 'Business' && item.category === 'Business') ||
-          (interest === 'Humanities' && item.category === 'Humanities/Arts');
+          let matchReasons = [];
+          if (item.minGpa !== null && gpaVal >= item.minGpa) {
+            matchReasons.push(currentLang === 'zh' ? 'GPA 符合' : (currentLang === 'es' ? 'GPA compatible' : 'GPA eligible'));
+          }
+          if (needVal && item.needBased) {
+            matchReasons.push(currentLang === 'zh' ? '助学金' : (currentLang === 'es' ? 'Beca necesidad' : 'Need-based'));
+          }
+          if (interest === 'STEM' && item.tags.includes('STEM')) {
+            matchReasons.push(currentLang === 'zh' ? 'STEM 兴趣' : (currentLang === 'es' ? 'Interés STEM' : 'STEM Interest'));
+          }
+          if (item.gender && item.gender.includes(gender) && gender !== 'Prefer not to say') {
+            matchReasons.push(currentLang === 'zh' ? '性别相符' : (currentLang === 'es' ? 'Género' : 'Gender match'));
+          }
+          if (item.ethnicities && item.ethnicities.includes(heritage) && heritage !== 'Prefer not to say') {
+            matchReasons.push(currentLang === 'zh' ? '族裔项目' : (currentLang === 'es' ? 'Etnia' : 'Ethnicity match'));
+          }
+
+          if (item.prestige === 'Elite') eligibilityScore += 2;
+          if (needVal && item.needBased) eligibilityScore += 3;
+          if (!needVal && item.needBased) eligibilityScore -= 1;
+          if (interest === 'STEM' && item.tags.includes('STEM')) eligibilityScore += 3;
+          if (item.gender && item.gender.includes(gender)) eligibilityScore += 4;
+          if (item.ethnicities && item.ethnicities.includes(heritage)) eligibilityScore += 4;
           
-        if (matchesInterest) eligibilityScore += 4;
-        if (item.prestige === 'Elite') eligibilityScore += 2;
-        
-        matches.push({ ...item, score: eligibilityScore, group: 'competitions' });
-      });
-      
-      // Match research
-      researchData.forEach(item => {
-        let eligibilityScore = 0;
-        if (item.minGpa !== null && gpaVal < item.minGpa) return;
-        if (item.grades && item.grades.length > 0 && !item.grades.includes(gradeVal)) return;
+          matches.push({ ...item, score: eligibilityScore, group: 'scholarships', matchReasons });
+        });
 
-        const matchesInterest = 
-          (interest === 'STEM' && item.subject === 'Science/STEM') ||
-          (interest === 'Humanities' && item.subject === 'Leadership/Humanities');
+      } else if (currentTab === 'competitions') {
+        // Match competitions only
+        competitionsData.forEach(item => {
+          let eligibilityScore = 0;
+          if (item.grades && item.grades.length > 0 && !item.grades.includes(gradeVal)) return;
+
+          // Format check
+          if (format !== 'Any') {
+            const isTeamPref = format === 'Team-Based';
+            if (item.isTeam !== isTeamPref) return;
+          }
+          // Skill Level check
+          if (skill !== 'Any') {
+            const isOlympiadPref = skill === 'Advanced / Olympiad';
+            const isOlympiadItem = item.skillLevel === 'Olympiad';
+            if (isOlympiadPref && !isOlympiadItem) return;
+            if (!isOlympiadPref && isOlympiadItem) return;
+          }
+
+          let matchReasons = [];
+          const matchesInterest = 
+            (interest === 'STEM' && (item.category === 'Science/STEM' || item.category === 'Coding' || item.category === 'Robotics')) ||
+            (interest === 'Math' && item.category === 'Math') ||
+            (interest === 'Business' && item.category === 'Business') ||
+            (interest === 'Humanities' && item.category === 'Humanities/Arts');
+            
+          if (matchesInterest) {
+            matchReasons.push(currentLang === 'zh' ? '兴趣契合' : (currentLang === 'es' ? 'Interés compatible' : 'Interest match'));
+          }
+          if (format !== 'Any') {
+            matchReasons.push(currentLang === 'zh' ? '赛制契合' : (currentLang === 'es' ? 'Formato compatible' : 'Format match'));
+          }
+          if (skill !== 'Any') {
+            matchReasons.push(currentLang === 'zh' ? '水平相符' : (currentLang === 'es' ? 'Nivel compatible' : 'Level match'));
+          }
+
+          if (matchesInterest) eligibilityScore += 4;
+          if (item.prestige === 'Elite') eligibilityScore += 2;
           
-        if (matchesInterest) eligibilityScore += 4;
-        if (item.prestige === 'Elite') eligibilityScore += 2;
-        if (interest === 'STEM' && item.cost === 'Free/Stipend') eligibilityScore += 1;
-        
-        matches.push({ ...item, score: eligibilityScore, group: 'research' });
-      });
+          matches.push({ ...item, score: eligibilityScore, group: 'competitions', matchReasons });
+        });
+
+      } else if (currentTab === 'research') {
+        // Match research only
+        researchData.forEach(item => {
+          let eligibilityScore = 0;
+          if (item.minGpa !== null && gpaVal < item.minGpa) return;
+          if (item.grades && item.grades.length > 0 && !item.grades.includes(gradeVal)) return;
+
+          // Cost Preference check
+          if (cost === 'Free / Stipend Only' && item.cost !== 'Free/Stipend') return;
+
+          let matchReasons = [];
+          const matchesInterest = 
+            (interest === 'STEM' && item.subject === 'Science/STEM') ||
+            (interest === 'Humanities' && item.subject === 'Leadership/Humanities');
+            
+          if (matchesInterest) {
+            matchReasons.push(currentLang === 'zh' ? '方向相符' : (currentLang === 'es' ? 'Dirección compatible' : 'Subject match'));
+          }
+          if (cost === 'Free / Stipend Only' && item.cost === 'Free/Stipend') {
+            matchReasons.push(currentLang === 'zh' ? '免学费/津贴' : (currentLang === 'es' ? 'Beca/Gratuito' : 'Free/Stipend'));
+          }
+
+          if (matchesInterest) eligibilityScore += 4;
+          if (item.prestige === 'Elite') eligibilityScore += 2;
+          if (interest === 'STEM' && item.cost === 'Free/Stipend') eligibilityScore += 1;
+          
+          matches.push({ ...item, score: eligibilityScore, group: 'research', matchReasons });
+        });
+      }
       
       // Sort and pick top 8 matches
       matches.sort((a, b) => b.score - a.score);
@@ -1635,14 +2153,39 @@
         const card = document.createElement('div');
         card.className = `card ${item.prestige === 'Elite' ? 'elite' : ''}`;
         
+        const groupLabel = item.group === 'scholarships' ? 
+          translations[currentLang]['btn-lbl-sch'] : 
+          (item.group === 'competitions' ? translations[currentLang]['btn-lbl-comp'] : translations[currentLang]['btn-lbl-res']);
+
+        let badgesHTML = `<span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>
+                          <span class="badge tag">${groupLabel}</span>`;
+        if (item.gender && item.gender.length > 0) {
+          badgesHTML += `<span class="badge tag">👩 ${item.gender.join(', ')}</span>`;
+        }
+        if (item.ethnicities && item.ethnicities.length > 0) {
+          badgesHTML += `<span class="badge tag">✊ ${item.ethnicities.join(', ')}</span>`;
+        }
+        if (item.isTeam) {
+          badgesHTML += `<span class="badge tag">👥 Team</span>`;
+        }
+        if (item.isVirtual) {
+          badgesHTML += `<span class="badge tag">💻 Virtual</span>`;
+        }
+
+        let matchReasonsHtml = '';
+        if (item.matchReasons && item.matchReasons.length > 0) {
+          matchReasonsHtml = `<div class="match-reasons-row" style="margin-top: 8px; font-size: 0.75rem; color: var(--secondary); font-weight: 600; display: flex; flex-wrap: wrap; gap: 4px;">
+            <span style="color: var(--text-muted); font-weight: normal; margin-top: 0px;">✓ Matched:</span>
+            ${item.matchReasons.map(r => `<span style="background: rgba(88,86,214,0.1); padding: 2px 6px; border-radius: 6px; margin-top: 0px;">${r}</span>`).join('')}
+          </div>`;
+        }
+
         card.innerHTML = `
           <div>
-            <div class="badge-row">
-              <span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>
-              <span class="badge tag">${item.group.toUpperCase()}</span>
-            </div>
+            <div class="badge-row">${badgesHTML}</div>
             <h3>${item.name}</h3>
-            <div class="card-meta">
+            ${matchReasonsHtml}
+            <div class="card-meta" style="margin-top: 10px;">
               ${item.minGpa ? `<p>📈 Min GPA: ${item.minGpa}</p>` : ''}
               ${item.grades && item.grades.length > 0 ? `<p>🎓 Grades: ${item.grades.map(g => g + 'th').join(', ')}</p>` : ''}
               ${item.usCitizenOnly ? `<p>🇺🇸 US Citizens Only</p>` : ''}
@@ -1666,13 +2209,36 @@
     // Admissions Predictor calculation (ported engine)
     function runPredictor() {
       if (universitiesData.length === 0) {
-        alert("Admissions database not loaded yet. Check connection.");
+        showToast(currentLang === 'zh' ? "招生数据库尚未加载。请检查连接。" : (currentLang === 'es' ? "La base de datos de admisiones aún no se ha cargado. Verifique la conexión." : "Admissions database not loaded yet. Check connection."));
         return;
       }
       
-      const gpa = parseFloat(document.getElementById('p-gpa').value) || 3.0;
-      const sat = parseInt(document.getElementById('p-sat').value) || null;
-      const act = parseInt(document.getElementById('p-act').value) || null;
+      if (!validatePredictorGpa()) {
+        return;
+      }
+      
+      const gpaInput = document.getElementById('p-gpa');
+      const gpa = parseFloat(gpaInput.value);
+
+      const satVal = document.getElementById('p-sat').value;
+      const actVal = document.getElementById('p-act').value;
+      let sat = null;
+      let act = null;
+      if (satVal.trim() !== '') {
+        sat = parseInt(satVal);
+        if (isNaN(sat) || sat < 400 || sat > 1600) {
+          showToast(currentLang === 'zh' ? "请输入有效的 SAT 分数 (400 到 1600 之间)。" : (currentLang === 'es' ? "Ingrese un puntaje SAT válido (entre 400 y 1600)." : "Please enter a SAT score between 400 and 1600."));
+          return;
+        }
+      }
+      if (actVal.trim() !== '') {
+        act = parseInt(actVal);
+        if (isNaN(act) || act < 1 || act > 36) {
+          showToast(currentLang === 'zh' ? "请输入有效的 ACT 分数 (1 到 36 之间)。" : (currentLang === 'es' ? "Ingrese un puntaje ACT válido (entre 1 y 36)." : "Please enter a valid ACT score between 1 and 36."));
+          return;
+        }
+      }
+      
       const state = document.getElementById('p-state').value;
       const major = document.getElementById('p-major').value;
       const rank = document.getElementById('p-rank').value;
@@ -1755,7 +2321,14 @@
           }
         }
         
-        const finalCategory = rankWarning ? "reach" : category;
+        let finalCategory = rankWarning ? "reach" : category;
+        
+        // Distinguish Reach vs High Reach
+        if (finalCategory === 'reach') {
+          if (univ.selectivity_tier === 'elite' || rankWarning || internalScore <= -3) {
+            finalCategory = 'high-reach';
+          }
+        }
         
         let reasonParts = [];
         if (strategy === "GPA-Centric") {
@@ -1802,7 +2375,7 @@
       predictorResults.sort((a, b) => {
         switch (sortVal) {
           case 'category':
-            const ord = { 'safety': 0, 'match': 1, 'reach': 2 };
+            const ord = { 'safety': 0, 'match': 1, 'reach': 2, 'high-reach': 3 };
             return ord[a.category] - ord[b.category];
           case 'rank':
             return (a.univ.academics.national_ranking ?? 9999) - (b.univ.academics.national_ranking ?? 9999);
@@ -1830,141 +2403,307 @@
       
       list.innerHTML = '';
       
-      predictorResults.forEach(item => {
-        const matchesSearch = item.univ.name.toLowerCase().includes(query) || item.univ.state.toLowerCase().includes(query);
-        if (!matchesSearch) return;
+      const filtered = predictorResults.filter(item => {
+        return item.univ.name.toLowerCase().includes(query) || 
+               item.univ.state.toLowerCase().includes(query) ||
+               (item.univ.meta.city && item.univ.meta.city.toLowerCase().includes(query));
+      });
+      
+      if (filtered.length === 0) {
+        list.innerHTML = `<div style="text-align: center; color: var(--text-muted); padding: 20px;">${currentLang === 'zh' ? '未找到匹配的大学。' : (currentLang === 'es' ? 'No se encontraron universidades.' : 'No matching universities found.')}</div>`;
+        return;
+      }
+      
+      filtered.forEach(item => {
+        const univ = item.univ;
+        const cat = item.category; // safety, match, reach, high-reach
+        
+        let label = '';
+        if (cat === 'safety') label = translations[currentLang]['safety'];
+        else if (cat === 'match') label = translations[currentLang]['match'];
+        else if (cat === 'reach') label = translations[currentLang]['reach'];
+        else if (cat === 'high-reach') label = translations[currentLang]['highReach'] || 'High Reach';
         
         const card = document.createElement('div');
         card.className = 'univ-card';
         
-        const catLbl = item.category === 'safety' ? translations[currentLang]['safety'] : (item.category === 'match' ? translations[currentLang]['match'] : translations[currentLang]['reach']);
+        const tuitionStr = item.tuitionEstimate ? '$' + item.tuitionEstimate.toLocaleString() : 'N/A';
+        const rankStr = univ.academics.national_ranking ? '#' + univ.academics.national_ranking : 'N/A';
+        const acceptanceStr = univ.admissions.acceptance_rate_overall ? Math.round(univ.admissions.acceptance_rate_overall * 100) + '%' : 'N/A';
         
         card.innerHTML = `
           <div class="univ-row-header">
             <div>
-              <span class="univ-title">${item.univ.name}</span>
-              <div class="univ-subtitle">${item.univ.meta.city}, ${item.univ.state} | ${item.univ.type.toUpperCase()}</div>
+              <div class="univ-title">${univ.name}</div>
+              <div class="univ-subtitle">${univ.meta.city || ''}, ${univ.state} | ${univ.type === 'public' ? 'Public' : 'Private'}</div>
             </div>
-            <span class="tag-tier ${item.category}">${catLbl}</span>
+            <span class="tag-tier ${cat}">${label}</span>
           </div>
+          
           <div class="univ-stats">
             <div>
               <div class="stat-lbl">${translations[currentLang]['rank']}</div>
-              <div class="stat-val">${item.univ.academics.national_ranking ? '#' + item.univ.academics.national_ranking : 'N/A'}</div>
+              <div class="stat-val">${rankStr}</div>
             </div>
             <div>
               <div class="stat-lbl">${translations[currentLang]['acceptance']}</div>
-              <div class="stat-val">${Math.round(item.univ.admissions.acceptance_rate_overall * 100)}%</div>
+              <div class="stat-val">${acceptanceStr}</div>
             </div>
             <div>
               <div class="stat-lbl">${translations[currentLang]['tuition']}</div>
-              <div class="stat-val">${item.tuitionEstimate ? '$' + item.tuitionEstimate.toLocaleString() : 'N/A'}</div>
+              <div class="stat-val">${tuitionStr}</div>
             </div>
           </div>
+          
           ${item.reason ? `<div class="reason">💡 ${item.reason}</div>` : ''}
         `;
         list.appendChild(card);
       });
     }
 
+    function handleDrawerChecklistChange(itemKey, actKey) {
+      if (!tracker[itemKey]) {
+        tracker[itemKey] = {
+          status: 'Not Started',
+          notes: '',
+          checklist: {}
+        };
+      }
+      if (!tracker[itemKey].checklist) {
+        tracker[itemKey].checklist = {};
+      }
+      tracker[itemKey].checklist[actKey] = !tracker[itemKey].checklist[actKey];
+      saveToStorage();
+      updateSavedBoard();
+    }
+
+    let toastTimeout = null;
+    function showToast(msg) {
+      const toastEl = document.getElementById('toast-notification');
+      const msgEl = document.getElementById('toast-message');
+      if (toastEl && msgEl) {
+        msgEl.textContent = msg;
+        toastEl.classList.add('show');
+        if (toastTimeout) {
+          clearTimeout(toastTimeout);
+        }
+        toastTimeout = setTimeout(() => {
+          toastEl.classList.remove('show');
+        }, 3000);
+      }
+    }
+
     // Drawer helper
     function openDrawer(itemJsonStr, type) {
       const item = JSON.parse(decodeURIComponent(itemJsonStr));
       selectedDrawerItem = item;
+      selectedDrawerType = type;
       
       document.getElementById('dw-item-name').textContent = item.name;
       document.getElementById('dw-item-prestige').textContent = 'Prestige: ' + item.prestige;
       
-      // Prepare checklists
+      // Load checklist in the drawer
+      refreshDrawerChecklist();
+      
+      // Outline content based on type (personalized & specialized)
+      const essayBox = document.getElementById('dw-essay-box');
+      if (essayBox) {
+        let outlineHtml = '';
+        if (type === 'scholarships') {
+          outlineHtml = `
+            <div style="margin-bottom: 8px;">
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['hook']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `用一个体现你个人价值观、社区关怀或克服经济/社会难关的具体经历作为开头。将此段故事直接与 ${item.name} 设立的初衷和使命结合起来。` : 
+                  (currentLang === 'es' ? `Comience con una historia personal o un obstáculo superado que se alinee directamente con la misión de la beca ${item.name}.` : 
+                  `Connect a personal vignette showing your core values, community care, or resilience directly to the primary mission and criteria of ${item.name}.`)}
+              </div>
+            </div>
+            <div style="margin-bottom: 8px;">
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['strength']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `展示符合该奖学金考核标准的杰出才能（如学术成就、卓越领导力或深远的社区服务成果）。提供具体数据支持，展示你作为 ${item.name} 候选人的代表性实力。` : 
+                  (currentLang === 'es' ? `Destaque sus logros académicos, de liderazgo o servicio comunitario que demuestren por qué merece la beca ${item.name}.` : 
+                  `Highlight outstanding academic accomplishments, leadership roles, or service impacts that directly mirror the selection guidelines of ${item.name}.`)}
+              </div>
+            </div>
+            <div style="margin-bottom: 8px;">
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['growth']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `叙述你在面对挫折、资源匮乏或团队阻碍时的顽强抗挫折与问题解决能力。展现这种品质如何契合 ${item.name} 所倡导的不屈精神。` : 
+                  (currentLang === 'es' ? `Describa cómo superó un desafío significativo y qué aprendió de esa experiencia que le ayudará a tener éxito.` : 
+                  `Discuss a significant challenge or setback. Focus on your resilience and systematic problem-solving process, showing the drive that ${item.name} rewards.`)}
+              </div>
+            </div>
+            <div>
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['why']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `阐述获得 ${item.name} 资助和加入其学者社群对你个人及家庭的深远影响。最后阐明你的学业终极目标和未来的社会回报承诺。` : 
+                  (currentLang === 'es' ? `Explique cómo esta beca ${item.name} le permitirá alcanzar sus metas académicas y profesionales a largo plazo.` : 
+                  `Explain how the financial resources and professional community of ${item.name} will empower your academic track and enable you to create meaningful future contributions.`)}
+              </div>
+            </div>
+          `;
+        } else if (type === 'competitions') {
+          outlineHtml = `
+            <div style="margin-bottom: 8px;">
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['hook']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `描述你最初对本学科（如数学、编程、商科）产生浓厚兴趣的瞬间，以及是什么激发了你接受 ${item.name} 这一高水平学术挑战的渴望。` : 
+                  (currentLang === 'es' ? `Describe el momento en que se despertó tu interés por esta materia y qué te motivó a competir en ${item.name}.` : 
+                  `Describe the spark that ignited your curiosity in this subject area, detailing what drove you to enter the rigorous challenge of ${item.name}.`)}
+              </div>
+            </div>
+            <div style="margin-bottom: 8px;">
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['strength']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `详述为攻克 ${item.name} 所积累的学术底蕴与专业技能（如精通的高级算法、数据建模、往届训练历程），展现解决复杂硬核难题的脑力水平。` : 
+                  (currentLang === 'es' ? `Detalla tus habilidades técnicas, preparación previa o destrezas analíticas que te capacitan para destacar en la competencia.` : 
+                  `Detail your technical arsenal, theoretical knowledge, or previous training regimens that demonstrate your cognitive capacity for ${item.name}.`)}
+              </div>
+            </div>
+            <div style="margin-bottom: 8px;">
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['growth']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `分享在筹备 ${item.name} 中最令你抓狂的技术瓶颈、调试困境或团队分歧。重点论述你如何有逻辑地修正思路或进行有效的团队协作。` : 
+                  (currentLang === 'es' ? `Relata un obstáculo durante la preparación (un error difícil, desacuerdo en el equipo) y cómo tu resiliencia e ingenio lo resolvieron.` : 
+                  `Narrate a major technical bottleneck or team disagreement encountered while preparing for ${item.name}. Emphasize your corrective logic and resilience.`)}
+              </div>
+            </div>
+            <div>
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['why']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `说明参与 ${item.name} 得到的历练和突破如何坚定你在高校深造该领域的决心，并展望其对你长期学术研究的加持。` : 
+                  (currentLang === 'es' ? `Explica cómo competir en ${item.name} acelera tu desarrollo intelectual y define tus aspiraciones profesionales.` : 
+                  `Conclude with how competing in ${item.name} elevates your intellectual horizons, solidifying your ambition to pursue this discipline at a university level.`)}
+            </div>
+          </div>
+          `;
+        } else { // research
+          outlineHtml = `
+            <div style="margin-bottom: 8px;">
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['hook']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `从一个引人入胜的具体学术猜想、社会痛点或科学现象切入。写你是如何被启发并产生通过 ${item.name} 开展深度探索的动力。` : 
+                  (currentLang === 'es' ? `Presenta una hipótesis científica o una problemática de investigación que te apasione y que te guíe en ${item.name}.` : 
+                  `Begin with a compelling academic question, scientific anomaly, or policy issue that inspired your drive to do research in ${item.name}.`)}
+              </div>
+            </div>
+            <div style="margin-bottom: 8px;">
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['strength']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `阐述你所具备的学术素养或实验技巧（如阅读大量文献、修过的高阶AP/IB课程、数据分析工具如R/Python），证明你已为 ${item.name} 做好严谨的科研准备。` : 
+                  (currentLang === 'es' ? `Muestra tus bases metodológicas, lecturas científicas o destrezas de laboratorio que demuestran tu rigor científico.` : 
+                  `Showcase your methodological readiness, familiarity with literature, or technical coding/lab skills that prove you can excel in ${item.name}.`)}
+              </div>
+            </div>
+            <div style="margin-bottom: 8px;">
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['growth']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `详述在自主科研中遇到的“此路不通”或数据偏差。重点突出你的批判性思维、对实验/算法方案的迭代优化，以及对科学挫折的容忍力。` : 
+                  (currentLang === 'es' ? `Analiza un fracaso de hipótesis o error experimental, destacando tu mentalidad analítica para depurar el proceso.` : 
+                  `Detail a failed hypothesis or experimental anomaly during your research. Focus on your analytical troubleshooting process and intellectual grit.`)}
+              </div>
+            </div>
+            <div>
+              <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['why']}</div>
+              <div style="font-size: 0.8rem;">
+                ${currentLang === 'zh' ? 
+                  `明确陈述 ${item.name} 的独特之处（如特定的导师方向、先进实验室设备）。阐述此项目对你成长为青年学者的关键作用。` : 
+                  (currentLang === 'es' ? `Explica por qué investigar en ${item.name} es crucial para tu desarrollo como científico y tu futura carrera.` : 
+                  `Explain why researching in ${item.name} is the vital next step for your growth. Connect it to specific faculty mentors or resources, detailing your long-term research path.`)}
+              </div>
+            </div>
+          `;
+        }
+        essayBox.innerHTML = outlineHtml;
+      }
+      
+      previousActiveElement = document.activeElement;
+      document.getElementById('drawer-overlay').style.display = 'flex';
+      activeTrapContainer = document.getElementById('ai-drawer');
+
+      // Focus the drawer for accessibility
+      setTimeout(() => {
+        const aiDrawer = document.getElementById('ai-drawer');
+        if (aiDrawer) {
+          aiDrawer.focus();
+        }
+      }, 50);
+    }
+
+    function refreshDrawerChecklist() {
+      if (!selectedDrawerItem || !selectedDrawerType) return;
+      const item = selectedDrawerItem;
+      const type = selectedDrawerType;
+      const itemKey = type + '-' + item.name;
+      
       const listEl = document.getElementById('dw-checklist-list');
+      if (!listEl) return;
       listEl.innerHTML = '';
       
       const isElite = item.prestige === 'Elite';
       let actions = [];
       if (type === 'scholarships') {
         actions = [
-          translations[currentLang]['checklistTranscript'],
-          translations[currentLang]['checklistEssay'],
-          translations[currentLang]['checklistLetters'],
-          translations[currentLang]['checklistSubmit'],
-          isElite ? (currentLang === 'zh' ? '提交推荐人详细的学术/领导力评估报告' : 'Submit detailed academic/leadership evaluations') : (currentLang === 'zh' ? '撰写财务状况自述陈情书' : 'Draft brief financial declarations')
+          { key: 'transcript', text: translations[currentLang]['checklistTranscript'] },
+          { key: 'essay', text: translations[currentLang]['checklistEssay'] },
+          { key: 'recommendation', text: translations[currentLang]['checklistLetters'] },
+          { key: 'submit', text: translations[currentLang]['checklistSubmit'] },
+          { key: 'elite-1', text: isElite ? (currentLang === 'zh' ? '提交推荐人详细的学术/领导力评估报告' : 'Submit detailed academic/leadership evaluations') : (currentLang === 'zh' ? '撰写财务状况自述陈情书' : 'Draft brief financial declarations') }
         ];
       } else if (type === 'competitions') {
         actions = [
-          currentLang === 'zh' ? '在官方网站注册参赛席位' : 'Register official slot on portal',
-          currentLang === 'zh' ? '刷历年真题及获取专项训练材料' : 'Solve past exam questions and secure prep guides',
-          currentLang === 'zh' ? '物色并组建参赛三人组 (如需组队)' : 'Assemble teammate trio (if team-based)',
-          currentLang === 'zh' ? '向评委提交最终作品/报告' : 'Submit final deliverables to judges'
+          { key: 'register', text: currentLang === 'zh' ? '在官方网站注册参赛席位' : 'Register official slot on portal' },
+          { key: 'prep', text: currentLang === 'zh' ? '刷历年真题及获取专项训练材料' : 'Solve past exam questions and secure prep guides' },
+          { key: 'team', text: currentLang === 'zh' ? '物色并组建参赛三人组 (如需组队)' : 'Assemble teammate trio (if team-based)' },
+          { key: 'submit', text: currentLang === 'zh' ? '向评委提交最终作品/报告' : 'Submit final deliverables to judges' }
         ];
       } else {
         actions = [
-          currentLang === 'zh' ? '更新并排版您的个人学术简历 (Resume)' : 'Draft and polish academic Resume',
-          currentLang === 'zh' ? '撰写并发送与导师方向匹配 of 引荐信邮件' : 'Compose cold-outreach interest email',
-          currentLang === 'zh' ? '研读该方向最新 3 篇文献并撰写课题意向书' : 'Draft 1-page research proposal based on recent literature',
-          currentLang === 'zh' ? '向大学科研办或导师提交申请表' : 'Submit application package to university office'
+          { key: 'resume', text: currentLang === 'zh' ? '更新并排版您的个人学术简历 (Resume)' : 'Draft and polish academic Resume' },
+          { key: 'cold-email', text: currentLang === 'zh' ? '撰写并发送与导师方向匹配的引荐信邮件' : 'Compose cold-outreach interest email' },
+          { key: 'proposal', text: currentLang === 'zh' ? '研读该方向最新 3 篇文献并撰写课题意向书' : 'Draft 1-page research proposal based on recent literature' },
+          { key: 'submit', text: currentLang === 'zh' ? '向大学科研办或导师提交申请表' : 'Submit application package to university office' }
         ];
       }
       
       actions.forEach(act => {
+        const isChecked = (tracker[itemKey] && tracker[itemKey].checklist && tracker[itemKey].checklist[act.key]) ? 'checked' : '';
         const row = document.createElement('div');
-        row.style.display = 'flex';
-        row.style.alignItems = 'flex-start';
-        row.style.gap = '8px';
-        row.style.fontSize = '0.8rem';
-        row.innerHTML = `<input type="checkbox" style="margin-top:2px;"> <span>${act}</span>`;
+        row.className = 'checklist-item';
+        row.innerHTML = `<input type="checkbox" ${isChecked} onchange="handleDrawerChecklistChange('${itemKey.replace(/'/g, "\'")}', '${act.key}')"> <span class="checklist-text">${act.text}</span>`;
         listEl.appendChild(row);
       });
-      
-      // Outline content
-      const essayBox = document.getElementById('dw-essay-box');
-      essayBox.innerHTML = `
-        <div style="margin-bottom: 8px;">
-          <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['hook']}</div>
-          <div style="font-size: 0.8rem;">
-            ${currentLang === 'zh' ? 
-              '以激发你学术热情的一个具体实验、项目或事件作为开篇故事。' : 
-              'Hook the reader with a personal vignette related to the program. Describe a specific moment of academic curiosity or personal drive.'}
-          </div>
-        </div>
-        <div style="margin-bottom: 8px;">
-          <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['strength']}</div>
-          <div style="font-size: 0.8rem;">
-            ${currentLang === 'zh' ? 
-              '列举你修读过的高阶课程、完成的独立研究项目或竞赛奖项，展示实力储备。' : 
-              'Provide concrete evidence of your expertise. Detail advanced courses taken and projects designed that demonstrate academic readiness.'}
-          </div>
-        </div>
-        <div style="margin-bottom: 8px;">
-          <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['growth']}</div>
-          <div style="font-size: 0.8rem;">
-            ${currentLang === 'zh' ? 
-              '讲述你解决复杂问题或遭遇挫败时的反思，展示你的抗挫力与分析逻辑。' : 
-              'Elaborate on a challenge or project failure. Focus on your problem-solving framework and intellectual resilience.'}
-          </div>
-        </div>
-        <div>
-          <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['why']}</div>
-          <div style="font-size: 0.8rem;">
-            ${currentLang === 'zh' ? 
-              '指出本项目与你长期科学追求或职业抱负之间的逻辑交汇点。' : 
-              'Detail why this specific program is the logical next step. Close with your long-term career impact goals.'}
-          </div>
-        </div>
-      `;
-      
-      document.getElementById('drawer-overlay').style.display = 'flex';
     }
 
     // Close helper
     function closeDrawer() {
       document.getElementById('drawer-overlay').style.display = 'none';
       selectedDrawerItem = null;
+      selectedDrawerType = null;
+      activeTrapContainer = null;
+      if (previousActiveElement) {
+        previousActiveElement.focus();
+        previousActiveElement = null;
+      }
     }
 
     function copyOutline() {
       const text = document.getElementById('dw-essay-box').innerText;
       navigator.clipboard.writeText(text);
-      alert(translations[currentLang]['copied']);
+      showToast(translations[currentLang]['copied']);
     }
 
     function openContributors(e) {
@@ -1975,9 +2714,24 @@
       
       textEl.style.display = 'none';
       loadingEl.style.display = 'block';
+
+      previousActiveElement = document.activeElement;
+      activeTrapContainer = document.getElementById('contributors-drawer');
+
+      // Focus the drawer for accessibility
+      setTimeout(() => {
+        const contDrawer = document.getElementById('contributors-drawer');
+        if (contDrawer) {
+          contDrawer.focus();
+        }
+      }, 50);
+
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 5000);
       
-      fetch('https://qcai-net.github.io/college/contributors.txt')
+      fetch('https://qcai-net.github.io/college/contributors.txt', { signal: controller.signal })
         .then(res => {
+          clearTimeout(timeoutId);
           if (!res.ok) throw new Error("Failed to load");
           return res.text();
         })
@@ -1987,8 +2741,9 @@
           textEl.style.display = 'block';
         })
         .catch(err => {
+          clearTimeout(timeoutId);
           console.error(err);
-          textEl.textContent = currentLang === 'zh' ? '无法加载贡献者信息。' : (currentLang === 'es' ? 'Error al cargar colaboradores.' : 'Failed to load contributors.');
+          textEl.textContent = currentLang === 'zh' ? '无法加载贡献者信息。 (请求超时)' : (currentLang === 'es' ? 'Error al cargar colaboradores (Tiempo de espera agotado).' : 'Failed to load contributors (Request timeout).');
           loadingEl.style.display = 'none';
           textEl.style.display = 'block';
         });
@@ -1996,7 +2751,17 @@
 
     function closeContributors() {
       document.getElementById('contributors-overlay').style.display = 'none';
+      activeTrapContainer = null;
+      if (previousActiveElement) {
+        previousActiveElement.focus();
+        previousActiveElement = null;
+      }
     }
   </script>
+
+  <!-- Custom Toast Notification popup -->
+  <div id="toast-notification" class="toast-notification">
+    <span>ℹ️</span> <span id="toast-message"></span>
+  </div>
 </body>
 </html>
