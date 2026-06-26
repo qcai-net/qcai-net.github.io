@@ -536,6 +536,20 @@
       from { transform: translateX(100%); }
       to { transform: translateX(0); }
     }
+
+    .loader {
+      width: 30px;
+      height: 30px;
+      border: 3px solid var(--border);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 10px auto;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
   </style>
 </head>
 <body>
@@ -819,6 +833,29 @@
         </div>
       </div>
     </div>
+    
+    <!-- Footer -->
+    <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border); text-align: center; font-size: 0.85rem; color: var(--text-muted);">
+      QCAI College Prep Portal &copy; 2026 | 
+      <a href="#" onclick="openContributors(event)" id="contributorsLink" style="color: var(--primary); text-decoration: underline; font-weight: 600; cursor: pointer;">Contributors</a>
+    </footer>
+  </div>
+
+  <!-- Contributors Drawer overlay -->
+  <div id="contributors-overlay" class="drawer-overlay" onclick="closeContributors()">
+    <div class="drawer" onclick="event.stopPropagation()" style="max-width: 500px;">
+      <div class="drawer-top">
+        <h3 id="contributorsTitle">Project Contributors</h3>
+        <button onclick="closeContributors()" style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--text);">✕</button>
+      </div>
+      <div style="flex: 1; display: flex; flex-direction: column; overflow: hidden; margin-top: 10px;">
+        <div id="contributors-loading" style="display: none; text-align: center; padding: 40px;">
+          <div class="loader"></div>
+          <p id="loading">Loading...</p>
+        </div>
+        <pre id="contributors-text" style="white-space: pre-wrap; font-family: inherit; font-size: 0.9rem; line-height: 1.5; padding: 16px; background: rgba(0,0,0,0.02); border: 1px solid var(--border); border-radius: 12px; overflow-y: auto; flex: 1; margin: 0;"></pre>
+      </div>
+    </div>
   </div>
 
   <!-- AI Helper Drawer overlay -->
@@ -929,7 +966,10 @@
         'statusNotStarted': 'Not Started',
         'statusInProgress': 'In Progress',
         'statusReady': 'Ready to Submit',
-        'statusSubmitted': 'Submitted'
+        'statusSubmitted': 'Submitted',
+        'contributorsLink': 'Contributors',
+        'contributorsTitle': 'Project Contributors',
+        'loading': 'Loading...'
       },
       'zh': {
         'lbl-title': '大学规划与录取加速器',
@@ -987,7 +1027,10 @@
         'statusNotStarted': '未开始',
         'statusInProgress': '进行中',
         'statusReady': '准备就绪',
-        'statusSubmitted': '已提交申请'
+        'statusSubmitted': '已提交申请',
+        'contributorsLink': '贡献者信息',
+        'contributorsTitle': '项目贡献者列表',
+        'loading': '正在加载...'
       },
       'es': {
         'lbl-title': 'Preparación Universitaria y Acelerador de Admisiones',
@@ -1045,7 +1088,10 @@
         'statusNotStarted': 'No Iniciado',
         'statusInProgress': 'En Progreso',
         'statusReady': 'Listo para Enviar',
-        'statusSubmitted': 'Enviado'
+        'statusSubmitted': 'Enviado',
+        'contributorsLink': 'Colaboradores',
+        'contributorsTitle': 'Colaboradores del Proyecto',
+        'loading': 'Cargando...'
       }
     };
 
@@ -1772,6 +1818,37 @@
       const text = document.getElementById('dw-essay-box').innerText;
       navigator.clipboard.writeText(text);
       alert(translations[currentLang]['copied']);
+    }
+
+    function openContributors(e) {
+      if (e) e.preventDefault();
+      document.getElementById('contributors-overlay').style.display = 'flex';
+      const textEl = document.getElementById('contributors-text');
+      const loadingEl = document.getElementById('contributors-loading');
+      
+      textEl.style.display = 'none';
+      loadingEl.style.display = 'block';
+      
+      fetch('https://qcai-net.github.io/college/contributors.txt')
+        .then(res => {
+          if (!res.ok) throw new Error("Failed to load");
+          return res.text();
+        })
+        .then(txt => {
+          textEl.textContent = txt;
+          loadingEl.style.display = 'none';
+          textEl.style.display = 'block';
+        })
+        .catch(err => {
+          console.error(err);
+          textEl.textContent = currentLang === 'zh' ? '无法加载贡献者信息。' : (currentLang === 'es' ? 'Error al cargar colaboradores.' : 'Failed to load contributors.');
+          loadingEl.style.display = 'none';
+          textEl.style.display = 'block';
+        });
+    }
+
+    function closeContributors() {
+      document.getElementById('contributors-overlay').style.display = 'none';
     }
   </script>
 </body>
