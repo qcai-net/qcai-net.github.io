@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Prep Admissions Accelerator | QCAI</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --primary: #007AFF;
+      --secondary: #5856D6;
+      --accent: #AF52DE;
+      --bg: #f2f2f7;
+      --card-bg: #ffffff;
+      --text: #1c1c1e;
+      --text-muted: #8e8e93;
+      --radius: 20px;
+      --glass: rgba(255, 255, 255, 0.7);
+      --border: rgba(0, 0, 0, 0.1);
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+      --accent-gradient: linear-gradient(135deg, var(--primary), var(--accent));
+    }
+
+    /* Sleek Dark Mode Styling context based on client theme preferences or OS settings */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --card-bg: #1c1c1e;
+        --text: #ffffff;
+        --text-muted: #aeaea2;
+        --glass: rgba(28, 28, 30, 0.8);
+        --border: rgba(255, 255, 255, 0.15);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding-bottom: 60px;
+    }
+
+    /* Layout structure */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 16px;
+    }
+
+    header {
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .header-info h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: 4px;
+      background: var(--accent-gradient);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .header-info p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .language-selector select {
+      padding: 6px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      color: var(--text);
+      font-weight: 600;
+      font-family: inherit;
+      outline: none;
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .tab-btn {
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      background: var(--card-bg);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3);
+    }
+
+    /* Panels */
+    .panel {
+      display: none;
+    }
+
+    .panel.active {
+      display: block;
+      animation: fadeIn 0.3s ease-out;
+    }
+
+    /* Widgets */
+    .glass-card {
+      background: var(--glass);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    /* Widget specific */
+    .widget-purple {
+      border-left: 4px solid var(--accent);
+    }
+    .widget-blue {
+      border-left: 4px solid var(--primary);
+    }
+
+    .filter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 14px;
+    }
+
+    .filter-grid label {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .filter-group label {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .filter-group select, .filter-group input {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      color: var(--text);
+      font-family: inherit;
+      outline: none;
+    }
+
+    /* Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+
+    /* Cards */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 200px;
+      box-shadow: var(--shadow);
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+    }
+
+    .card.elite {
+      border-left: 4px solid #FFD700;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    .badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 12px;
+      text-transform: uppercase;
+    }
+
+    .badge.elite {
+      background: rgba(255, 215, 0, 0.15);
+      color: #b8860b;
+    }
+
+    .badge.high {
+      background: rgba(88, 86, 214, 0.1);
+      color: var(--secondary);
+    }
+
+    .badge.tag {
+      background: var(--bg);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+
+    .card h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+
+    .card-meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 6px;
+      margin-top: auto;
+    }
+
+    .btn {
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #0063cc;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .btn-outline:hover {
+      background: rgba(0,0,0,0.05);
+    }
+
+    .btn-icon {
+      background: var(--bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 8px;
+    }
+
+    .btn-icon.bookmarked {
+      background: rgba(0, 122, 255, 0.1);
+      color: var(--primary);
+      border-color: var(--primary);
+    }
+
+    /* Saved Board & Checklist */
+    .saved-list-container {
+      margin-top: 14px;
+    }
+
+    .saved-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .saved-details h4 {
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .saved-details span {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .saved-checks {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .saved-checks label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+
+    .tracker-actions select {
+      padding: 4px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      font-size: 0.75rem;
+      font-weight: 600;
+      outline: none;
+    }
+
+    .progress-bar-container {
+      width: 100%;
+      height: 6px;
+      background: var(--bg);
+      border-radius: 3px;
+      margin-top: 8px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--primary);
+      width: 0%;
+      transition: width 0.3s;
+    }
+
+    /* College Predictor */
+    .predictor-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    @media (min-width: 800px) {
+      .predictor-layout {
+        grid-template-columns: 320px 1fr;
+      }
+    }
+
+    .predictor-sidebar {
+      position: sticky;
+      top: 20px;
+      height: fit-content;
+    }
+
+    .predictor-btn {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      background: var(--primary);
+      color: white;
+      font-weight: 700;
+      margin-top: 10px;
+    }
+
+    .results-container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .univ-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .univ-row-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .univ-title {
+      font-weight: 750;
+      font-size: 1rem;
+    }
+
+    .univ-subtitle {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .tag-tier {
+      padding: 3px 8px;
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+    }
+
+    .tag-tier.safety { background: rgba(46,125,50,0.1); color: #2e7d32; }
+    .tag-tier.match { background: rgba(21,101,192,0.1); color: #1565c0; }
+    .tag-tier.reach { background: rgba(198,40,40,0.1); color: #c62828; }
+
+    .univ-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      background: var(--bg);
+      padding: 8px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .stat-lbl { font-size: 0.6rem; color: var(--text-muted); text-transform: uppercase; }
+    .stat-val { font-size: 0.8rem; font-weight: 800; }
+
+    .reason {
+      font-size: 0.75rem;
+      background: rgba(0,0,0,0.02);
+      padding: 8px;
+      border-radius: 6px;
+      border-left: 2px solid var(--border);
+      line-height: 1.4;
+    }
+
+    /* AI Drawer */
+    .drawer-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.4);
+      z-index: 1000;
+      display: none;
+      justify-content: flex-end;
+      align-items: stretch;
+    }
+
+    .drawer {
+      background: var(--card-bg);
+      width: 100%;
+      max-width: 480px;
+      padding: 24px;
+      overflow-y: auto;
+      box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      animation: slideIn 0.25s ease-out;
+    }
+
+    .drawer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    .drawer-h4 {
+      font-weight: 800;
+      color: var(--secondary);
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+    }
+
+    .drawer-box {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px;
+      font-size: 0.85rem;
+      line-height: 1.45;
+      margin-top: 8px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateX(100%); }
+      to { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-info">
+        <h1 id="lbl-title">College Prep & Admissions Accelerator</h1>
+        <p id="lbl-subtitle">Curated activity resources and predictive advisor engine.</p>
+      </div>
+      <div class="language-selector">
+        <select id="select-lang" onchange="changeLanguage(this.value)">
+          <option value="en">🇺🇸 English</option>
+          <option value="zh">🇨🇳 中文</option>
+          <option value="es">🇪🇸 Español</option>
+        </select>
+      </div>
+    </header>
+
+    <!-- Tab navigation -->
+    <div class="tabs">
+      <button id="tab-btn-scholarships" class="tab-btn active" onclick="switchTab('scholarships')">🎓 <span id="btn-lbl-sch">Scholarships</span></button>
+      <button id="tab-btn-competitions" class="tab-btn" onclick="switchTab('competitions')">🏆 <span id="btn-lbl-comp">Competitions</span></button>
+      <button id="tab-btn-research" class="tab-btn" onclick="switchTab('research')">🧪 <span id="btn-lbl-res">Research Ops</span></button>
+      <button id="tab-btn-predictor" class="tab-btn" onclick="switchTab('predictor')">📊 <span id="btn-lbl-pred">College Predictor</span></button>
+    </div>
+
+    <!-- Questionnaire widget -->
+    <div id="quest-widget" class="glass-card widget-purple">
+      <h3 id="quest-title">Find Your Admissions Match</h3>
+      <p id="quest-desc">Answer 4 quick profile questions to find the most matched options.</p>
+      <div id="quest-inputs">
+        <div class="filter-grid">
+          <div class="filter-group">
+            <label id="q-lbl-gpa">GPA Range</label>
+            <select id="q-gpa">
+              <option value="3.8-4.0">3.8 - 4.0</option>
+              <option value="3.5-3.8">3.5 - 3.8</option>
+              <option value="3.0-3.5">3.0 - 3.5</option>
+              <option value="Under 3.0">Under 3.0</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label id="q-lbl-grade">Grade Level</label>
+            <select id="q-grade">
+              <option value="Junior">Junior (11th)</option>
+              <option value="Senior">Senior (12th)</option>
+              <option value="Sophomore">Sophomore (10th)</option>
+              <option value="Freshman">Freshman (9th)</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label id="q-lbl-need">Need-Based Assistance?</label>
+            <select id="q-need">
+              <option value="no">No</option>
+              <option value="yes">Yes</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label id="q-lbl-field">Academic Interest</label>
+            <select id="q-interest">
+              <option value="STEM">Science / STEM</option>
+              <option value="Math">Mathematics</option>
+              <option value="Business">Business & Finance</option>
+              <option value="Humanities">Humanities & Creative Arts</option>
+            </select>
+          </div>
+        </div>
+        <button class="btn btn-primary" style="margin-top: 14px; width: 100%; padding: 10px;" onclick="runQuestionnaire()">🎯 <span id="q-btn-lbl">Match Profile</span></button>
+      </div>
+      <div id="quest-results" style="display: none; margin-top: 16px;">
+        <div id="quest-results-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+          <h4 style="font-weight: 800;" id="matched-title">Matched Recommendations:</h4>
+          <button class="btn btn-outline" onclick="resetQuestionnaire()"><span id="q-btn-reset">Reset Matching</span></button>
+        </div>
+        <div id="quest-matches-grid" class="grid"></div>
+      </div>
+    </div>
+
+    <!-- Saved Board Tracker -->
+    <div id="saved-board" class="glass-card widget-blue" style="display: none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <div>
+          <h3 id="board-title">Admissions Prep Dashboard & Tracker</h3>
+          <p id="board-desc" style="color: var(--text-muted); font-size: 0.85rem;">Manage your bookmarked opportunities and deadlines.</p>
+        </div>
+        <div style="text-align: right;">
+          <span style="font-size: 0.85rem; font-weight: bold;"><span id="board-progress-lbl">Application Progress</span>: <span id="board-percent">0</span>%</span>
+          <div class="progress-bar-container" style="width: 150px;">
+            <div id="board-progress-fill" class="progress-fill"></div>
+          </div>
+        </div>
+      </div>
+      <div id="saved-rows-list" class="saved-list-container"></div>
+    </div>
+
+    <!-- TAB PANELS -->
+    <!-- 1. Scholarships Panel -->
+    <div id="panel-scholarships" class="panel active">
+      <div class="glass-card">
+        <div class="search-input-wrapper" style="margin-bottom: 14px;">
+          <input type="text" id="sch-search" placeholder="Search scholarships..." oninput="renderScholarships()" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); outline: none;">
+        </div>
+        <div class="filter-grid">
+          <div class="filter-group">
+            <label id="lbl-f-prestige">Prestige level</label>
+            <select id="sch-prestige" onchange="renderScholarships()">
+              <option value="all">All Prestige Levels</option>
+              <option value="elite">Elite Programs Only</option>
+              <option value="high">High/Standard Programs</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Essay Requirement</label>
+            <select id="sch-essay" onchange="renderScholarships()">
+              <option value="all">All Essay Formats</option>
+              <option value="required">Essay Required</option>
+              <option value="noessay">No Essay Required</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div id="scholarships-grid" class="grid"></div>
+    </div>
+
+    <!-- 2. Competitions Panel -->
+    <div id="panel-competitions" class="panel">
+      <div class="glass-card">
+        <div class="search-input-wrapper" style="margin-bottom: 14px;">
+          <input type="text" id="comp-search" placeholder="Search competitions..." oninput="renderCompetitions()" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); outline: none;">
+        </div>
+        <div class="filter-grid">
+          <div class="filter-group">
+            <label id="lbl-f-prestige-c">Prestige level</label>
+            <select id="comp-prestige" onchange="renderCompetitions()">
+              <option value="all">All Prestige Levels</option>
+              <option value="elite">Elite Programs Only</option>
+              <option value="high">High/Standard Programs</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Subject Area</label>
+            <select id="comp-subject" onchange="renderCompetitions()">
+              <option value="all">All Subjects</option>
+              <option value="Science/STEM">Science & Engineering</option>
+              <option value="Math">Mathematics</option>
+              <option value="Coding">Software & Coding</option>
+              <option value="Robotics">Robotics</option>
+              <option value="Business">Business & Stock Markets</option>
+              <option value="Humanities/Arts">Humanities, Speech & Writing</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div id="competitions-grid" class="grid"></div>
+    </div>
+
+    <!-- 3. Research Panel -->
+    <div id="panel-research" class="panel">
+      <div class="glass-card">
+        <div class="search-input-wrapper" style="margin-bottom: 14px;">
+          <input type="text" id="res-search" placeholder="Search research opportunities..." oninput="renderResearch()" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); outline: none;">
+        </div>
+        <div class="filter-grid">
+          <div class="filter-group">
+            <label id="lbl-f-prestige-r">Prestige level</label>
+            <select id="res-prestige" onchange="renderResearch()">
+              <option value="all">All Prestige Levels</option>
+              <option value="elite">Elite Programs Only</option>
+              <option value="high">High/Standard Programs</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Subject Area</label>
+            <select id="res-subject" onchange="renderResearch()">
+              <option value="all">All Subjects</option>
+              <option value="Science/STEM">Science & Engineering</option>
+              <option value="Leadership/Humanities">Leadership & Humanities</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Financial Cost</label>
+            <select id="res-cost" onchange="renderResearch()">
+              <option value="all">All Costs</option>
+              <option value="Free/Stipend">Free or Paid Stipend</option>
+              <option value="Tuition-based">Tuition-Based Programs</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div id="research-grid" class="grid"></div>
+    </div>
+
+    <!-- 4. Predictor Panel -->
+    <div id="panel-predictor" class="panel">
+      <div class="predictor-layout">
+        <!-- Form sidebar -->
+        <div class="predictor-sidebar glass-card">
+          <h3 id="form-title" style="margin-bottom: 12px;">Student Profile</h3>
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <div class="filter-group">
+              <label id="lbl-p-gpa">GPA (Scale 4.0)</label>
+              <input type="number" id="p-gpa" step="0.01" min="1.0" max="4.0" value="3.8">
+            </div>
+            <div class="filter-group">
+              <label id="lbl-p-sat">SAT Score (Optional)</label>
+              <input type="number" id="p-sat" min="400" max="1600" placeholder="e.g. 1400">
+            </div>
+            <div class="filter-group">
+              <label id="lbl-p-act">ACT Score (Optional)</label>
+              <input type="number" id="p-act" min="1" max="36" placeholder="e.g. 31">
+            </div>
+            <div class="filter-group">
+              <label id="lbl-p-state">State of Residency</label>
+              <select id="p-state">
+                <option value="NC">NC</option>
+                <option value="CA">CA</option>
+                <option value="NY">NY</option>
+                <option value="TX">TX</option>
+                <option value="GA">GA</option>
+                <option value="FL">FL</option>
+                <option value="MA">MA</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label id="lbl-p-major">Intended Major</label>
+              <select id="p-major">
+                <option value="Computer Science">Computer Science</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Nursing">Nursing</option>
+                <option value="Business">Business</option>
+                <option value="Pre-Med">Pre-Med</option>
+                <option value="Biology">Biology</option>
+                <option value="Finance">Finance</option>
+                <option value="Mechanical Engineering">Mechanical Engineering</option>
+                <option value="Electrical Engineering">Electrical Engineering</option>
+                <option value="Accounting">Accounting</option>
+                <option value="General/Other">General/Other</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label id="lbl-p-rank">Class Rank</label>
+              <select id="p-rank">
+                <option value="notSure">Not Sure</option>
+                <option value="top5">Top 5%</option>
+                <option value="top10">Top 10%</option>
+                <option value="top25">Top 25%</option>
+                <option value="top50">Top 50%</option>
+                <option value="lower">Lower 50%</option>
+              </select>
+            </div>
+            <button class="predictor-btn btn" onclick="runPredictor()"><span id="lbl-p-submit">Predict Admissions Likelihood</span></button>
+          </div>
+        </div>
+
+        <!-- Predictor results sheet -->
+        <div>
+          <div id="predictor-info-box" class="glass-card" style="text-align: center; padding: 40px 20px;">
+            <h3 id="p-welcome-title">Calculate Your Admissions Probability</h3>
+            <p id="p-welcome-desc" style="color: var(--text-muted); margin-top: 8px;">Compute safety, match, and reach classifications across 298 universities.</p>
+          </div>
+
+          <div id="predictor-results-panel" style="display: none;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 12px;">
+              <h3 id="results-headline" style="font-weight: 800;">Admissions Predictor Outcomes</h3>
+              <input type="text" id="pred-search" placeholder="Search universities..." oninput="filterPredictorResults()" style="padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); outline: none;">
+              <div class="filter-group" style="width: 200px;">
+                <select id="pred-sort" onchange="sortPredictorResults()">
+                  <option value="category">Sort by Admissions Tier</option>
+                  <option value="rank">Sort by National Rank</option>
+                  <option value="tuitionLow">Sort by Tuition (Low to High)</option>
+                  <option value="tuitionHigh">Sort by Tuition (High to Low)</option>
+                  <option value="acceptanceHigh">Sort by Acceptance (High to Low)</option>
+                  <option value="acceptanceLow">Sort by Acceptance (Low to High)</option>
+                  <option value="alphabetical">Sort Alphabetically</option>
+                </select>
+              </div>
+            </div>
+
+            <div id="predictor-results-list" class="results-container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI Helper Drawer overlay -->
+  <div id="drawer-overlay" class="drawer-overlay" onclick="closeDrawer()">
+    <div class="drawer" onclick="event.stopPropagation()">
+      <div class="drawer-top">
+        <h3 id="dw-title">QCAI Application Strategist</h3>
+        <button onclick="closeDrawer()" style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--text);">✕</button>
+      </div>
+      <p id="dw-subtitle" style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px;">Action plans and writing guidelines powered by AI logic.</p>
+      
+      <div style="display: flex; align-items: center; gap: 8px; padding: 10px; background: rgba(0,0,0,0.02); border-radius: 8px; margin-bottom: 18px;">
+        <span style="font-size: 1.2rem;">🎯</span>
+        <div>
+          <strong id="dw-item-name" style="font-size: 0.85rem; display: block;">Program Name</strong>
+          <span id="dw-item-prestige" style="font-size: 0.75rem; color: var(--text-muted);">Prestige: Elite</span>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 18px;">
+        <h4 class="drawer-h4">📋 <span id="dw-lbl-plan">Action plan</span></h4>
+        <div id="dw-checklist-list" style="display: flex; flex-direction: column; gap: 6px;"></div>
+      </div>
+
+      <div>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h4 class="drawer-h4">🧠 <span id="dw-lbl-outline">Essay Outline Guidance</span></h4>
+          <button class="btn btn-outline" style="padding: 2px 8px; font-size: 0.7rem;" onclick="copyOutline()">📋 Copy</button>
+        </div>
+        <div id="dw-essay-box" class="drawer-box"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DATA LAYER -->
+  <script>
+    const scholarshipsData = [{"name": "Scholarships.com", "url": "https://www.scholarships.com", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Fastweb", "url": "https://www.fastweb.com", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Bold.org", "url": "https://bold.org", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Going Merry", "url": "https://www.goingmerry.com", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Scholarship Owl", "url": "https://scholarshipowl.com", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "BigFuture Scholarships", "url": "https://bigfuture.collegeboard.org/pay-for-college/scholarships", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Cappex", "url": "https://www.cappex.com", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Unigo", "url": "https://www.unigo.com", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Niche Scholarships", "url": "https://www.niche.com/colleges/scholarships/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Peterson's Scholarship Search", "url": "https://www.petersons.com/scholarship-search.aspx", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Chegg Scholarships", "url": "https://www.chegg.com/scholarships", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Scholarship America", "url": "https://scholarshipamerica.org", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "RaiseMe", "url": "https://www.raise.me", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Hispanic Scholarship Fund", "url": "https://www.hsf.net", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Coca-Cola Scholars Foundation", "url": "https://www.coca-colascholarsfoundation.org", "prestige": "Elite", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Jack Kent Cooke Foundation", "url": "https://www.jkcf.org", "prestige": "Elite", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Elks National Foundation", "url": "https://www.elks.org/enf/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Horatio Alger Association", "url": "https://scholars.horatioalger.org", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Dell Scholars", "url": "https://www.dellscholars.org", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Burger King Scholars", "url": "https://burgerkingfoundation.org/our-programs/burger-king-scholars-program", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Gates Scholarship", "url": "https://www.thegatesscholarship.org", "prestige": "Elite", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Davidson Fellows Scholarship", "url": "https://www.davidsongifted.org/gifted-programs/fellows-scholarship/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "AXA Achievement Scholarship", "url": "https://www.equitable.com/foundation/equitable-excellence-scholarship", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "National Merit Scholarship", "url": "https://www.nationalmerit.org", "prestige": "Elite", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Ron Brown Scholar Program", "url": "https://www.ronbrown.org", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "GE-Reagan Foundation Scholarship", "url": "https://www.reaganfoundation.org/education/scholarship-programs/ge-reagan-foundation-scholarship-program/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Cameron Impact Scholarship", "url": "https://www.bryancameroneducationfoundation.org/cameron-impact-scholarship", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Buick Achievers Scholarship", "url": "https://www.google.com/search?q=Buick+Achievers+Scholarship", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "NSHSS Scholarships", "url": "https://www.nshss.org/scholarships/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Doodle for Google Scholarship", "url": "https://doodles.google.com/d4g/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Amazon Future Engineer Scholarship", "url": "https://www.amazonfutureengineer.com/scholarships", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required", "STEM"]}, {"name": "Society of Women Engineers Scholarships", "url": "https://swe.org/scholarships/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required", "STEM"]}, {"name": "American Legion Scholarships", "url": "https://www.legion.org/scholarships", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "National Society Daughters of the American Revolution Scholarships", "url": "https://www.dar.org/national-society/scholarships", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Asian & Pacific Islander American Scholarship Fund", "url": "https://apiascholars.org", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Thurgood Marshall College Fund Scholarships", "url": "https://www.tmcf.org/students-alumni/scholarship/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "QuestBridge Scholarships", "url": "https://www.questbridge.org", "prestige": "Elite", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "College Board Opportunity Scholarships", "url": "https://bigfuture.collegeboard.org/pay-for-college/bigfuture-scholarships", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "UNCF Scholarships", "url": "https://uncf.org/scholarships", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required", "North Carolina"]}, {"name": "NC Community Foundation Scholarships", "url": "https://www.nccommunityfoundation.org/scholarships", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required", "North Carolina"]}, {"name": "NC State Scholarships", "url": "https://admissions.ncsu.edu/afford/scholarships/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required", "North Carolina"]}, {"name": "UNC Scholarships", "url": "https://studentaid.unc.edu/types-of-aid/scholarships/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required", "North Carolina"]}, {"name": "Duke Merit Scholarships", "url": "https://ousf.duke.edu/merit-scholarships/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required", "North Carolina"]}, {"name": "Clemson Scholarships", "url": "https://www.clemson.edu/financial-aid/types-of-aid/scholarships/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "University of Alabama Scholarships", "url": "https://scholarships.ua.edu", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "University of South Carolina Scholarships", "url": "https://sc.edu/about/offices_and_divisions/financial_aid/scholarships/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Morehead-Cain Scholarship", "url": "https://www.moreheadcain.org", "prestige": "Elite", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Park Scholarship", "url": "https://park.ncsu.edu", "prestige": "Elite", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Robertson Scholars Leadership Program", "url": "https://robertsonscholars.org", "prestige": "Elite", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Stamps Scholarship", "url": "https://www.stampsscholars.org", "prestige": "Elite", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "GEICO Achievement Award", "url": "https://www.geico.com/about/corporate/geico-achievement-award/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "No Essay Scholarship", "url": "https://www.niche.com/colleges/scholarships/no-essay-scholarship/", "prestige": "High", "essayRequired": false, "amount": "Varies", "tags": ["No Essay"]}, {"name": "College JumpStart Scholarship", "url": "https://www.jumpstart-scholarship.net", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Create-A-Greeting-Card Scholarship", "url": "https://www.gallerycollection.com/greetingcards-scholarship.htm", "prestige": "High", "essayRequired": false, "amount": "Varies", "tags": ["No Essay"]}, {"name": "National Co-op Scholarship", "url": "https://www.waceinc.org", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Bryan Cameron Education Foundation Scholarships", "url": "https://www.bryancameroneducationfoundation.org", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Ayn Rand Essay Contests", "url": "https://aynrand.org/students/essay-contests/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "American Indian College Fund Scholarships", "url": "https://collegefund.org/students/scholarships/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Red Thread Scholarship", "url": "https://redthreadfoundation.org/scholarship/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Tallo's $1,000 Scholarship", "url": "https://tallo.com/scholarships/", "prestige": "High", "essayRequired": false, "amount": "Varies", "tags": ["No Essay"]}, {"name": "VFW Voice of Democracy Scholarship", "url": "https://www.vfw.org/community/youth-and-education/youth-scholarships", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "Hagan Scholarship", "url": "https://haganscholarships.org", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}, {"name": "AES Engineering Scholarship", "url": "https://www.aesengineers.com/scholarships.htm", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required", "STEM"]}, {"name": "Sallie Mae Scholarship Sweepstakes", "url": "https://www.salliemae.com/scholarships/", "prestige": "High", "essayRequired": false, "amount": "Varies", "tags": ["No Essay"]}, {"name": "Shawn Carter Foundation Scholarship", "url": "https://www.shawncartersf.com/scholarships/", "prestige": "High", "essayRequired": true, "amount": "Varies", "tags": ["Essay Required"]}];
+    const competitionsData = [{"name": "Science Olympiad", "url": "https://www.soinc.org", "category": "Science/STEM", "prestige": "Elite"}, {"name": "Technology Student Association Competitions", "url": "https://tsaweb.org", "category": "Science/STEM", "prestige": "High"}, {"name": "FIRST Robotics Competition", "url": "https://www.firstinspires.org/robotics/frc", "category": "Robotics", "prestige": "High"}, {"name": "FIRST Tech Challenge", "url": "https://www.firstinspires.org/robotics/ftc", "category": "Robotics", "prestige": "High"}, {"name": "Conrad Challenge", "url": "https://www.conradchallenge.org", "category": "Science/STEM", "prestige": "High"}, {"name": "Blue Ocean Competition", "url": "https://blueoceancompetition.org", "category": "General", "prestige": "High"}, {"name": "MIT THINK Scholars Program", "url": "https://think.mit.edu", "category": "General", "prestige": "High"}, {"name": "Regeneron STS", "url": "https://www.societyforscience.org/regeneron-sts/", "category": "General", "prestige": "Elite"}, {"name": "ISEF", "url": "https://www.societyforscience.org/isef/", "category": "General", "prestige": "Elite"}, {"name": "American Mathematics Competitions", "url": "https://www.maa.org/math-competitions", "category": "Math", "prestige": "High"}, {"name": "AIME", "url": "https://www.maa.org/math-competitions/about-amc#AIME", "category": "Math", "prestige": "Elite"}, {"name": "USA Computing Olympiad", "url": "http://www.usaco.org", "category": "Coding", "prestige": "Elite"}, {"name": "Congressional App Challenge", "url": "https://www.congressionalappchallenge.us", "category": "Coding", "prestige": "High"}, {"name": "CyberPatriot", "url": "https://www.uscyberpatriot.org", "category": "Coding", "prestige": "High"}, {"name": "National Economics Challenge", "url": "https://www.councilforeconed.org/national-economics-challenge/", "category": "Business", "prestige": "High"}, {"name": "Diamond Challenge", "url": "https://diamondchallenge.org", "category": "Business", "prestige": "High"}, {"name": "FBLA Competitive Events", "url": "https://www.fbla-pbl.org", "category": "Business", "prestige": "High"}, {"name": "DECA Competitions", "url": "https://www.deca.org", "category": "Business", "prestige": "High"}, {"name": "Google Science Fair", "url": "https://en.wikipedia.org/wiki/Google_Science_Fair", "category": "Science/STEM", "prestige": "High"}, {"name": "Breakthrough Junior Challenge", "url": "https://breakthroughjuniorchallenge.org", "category": "General", "prestige": "Elite"}, {"name": "Genes in Space", "url": "https://www.genesinspace.org", "category": "General", "prestige": "High"}, {"name": "Toshiba ExploraVision", "url": "https://www.exploravision.org", "category": "General", "prestige": "High"}, {"name": "eCybermission", "url": "https://www.ecybermission.com", "category": "Coding", "prestige": "High"}, {"name": "Future City Competition", "url": "https://futurecity.org", "category": "General", "prestige": "High"}, {"name": "NASA App Development Challenge", "url": "https://www.nasa.gov/learning-resources/nasa-app-development-challenge/", "category": "General", "prestige": "High"}, {"name": "NASA Space Apps Challenge", "url": "https://www.spaceappschallenge.org", "category": "General", "prestige": "High"}, {"name": "National History Day", "url": "https://www.nhd.org", "category": "Humanities/Arts", "prestige": "High"}, {"name": "Model United Nations Conferences", "url": "https://www.un.org/en/mun", "category": "Humanities/Arts", "prestige": "High"}, {"name": "World Scholar's Cup", "url": "https://www.scholarscup.org", "category": "Humanities/Arts", "prestige": "High"}, {"name": "The Stock Market Game", "url": "https://www.stockmarketgame.org", "category": "Business", "prestige": "High"}, {"name": "MathWorks Math Modeling Challenge", "url": "https://m3challenge.siam.org", "category": "Math", "prestige": "High"}, {"name": "Wharton Global High School Investment Competition", "url": "https://globalyouth.wharton.upenn.edu/investment-competition/", "category": "Business", "prestige": "Elite"}, {"name": "International Linguistics Olympiad", "url": "https://www.ioling.org", "category": "General", "prestige": "Elite"}, {"name": "USA Biology Olympiad", "url": "https://www.usabo-trc.org", "category": "Science/STEM", "prestige": "Elite"}, {"name": "USA Chemistry Olympiad", "url": "https://www.acs.org/education/students/highschool/olympiad.html", "category": "Science/STEM", "prestige": "Elite"}, {"name": "USA Physics Olympiad", "url": "https://www.aapt.org/physicsteam/", "category": "Science/STEM", "prestige": "Elite"}, {"name": "American Rocketry Challenge", "url": "https://rocketcontest.org", "category": "Science/STEM", "prestige": "High"}, {"name": "Odyssey of the Mind", "url": "https://www.odysseyofthemind.com", "category": "General", "prestige": "High"}, {"name": "Botball", "url": "https://www.kipr.org/botball", "category": "Robotics", "prestige": "High"}, {"name": "Technovation Girls", "url": "https://technovationchallenge.org", "category": "General", "prestige": "High"}, {"name": "Samsung Solve for Tomorrow", "url": "https://www.samsung.com/us/solvefortomorrow/", "category": "General", "prestige": "High"}, {"name": "National Personal Finance Challenge", "url": "https://www.councilforeconed.org/national-personal-finance-challenge/", "category": "General", "prestige": "High"}, {"name": "International Academic Competitions", "url": "https://www.iacompetitions.com", "category": "General", "prestige": "High"}, {"name": "John Locke Essay Competition", "url": "https://www.johnlockeinstitute.com/essay-competition", "category": "Humanities/Arts", "prestige": "Elite"}, {"name": "The New York Times Student Contests", "url": "https://www.nytimes.com/learning/student-contests", "category": "Humanities/Arts", "prestige": "Elite"}, {"name": "Poetry Out Loud", "url": "https://www.poetryoutloud.org", "category": "Humanities/Arts", "prestige": "High"}, {"name": "C-SPAN StudentCam", "url": "https://www.studentcam.org", "category": "Humanities/Arts", "prestige": "High"}, {"name": "YoungArts Competition", "url": "https://youngarts.org/competition/", "category": "Humanities/Arts", "prestige": "Elite"}, {"name": "National STEM Festival", "url": "https://www.nationalstemfestival.com", "category": "Science/STEM", "prestige": "High"}, {"name": "NC German Day", "url": "https://foreign.chass.ncsu.edu/germanday/", "category": "Humanities/Arts", "prestige": "High"}, {"name": "International Genetically Engineered Machine Competition (iGEM) High School Division", "url": "https://igem.org", "category": "Science/STEM", "prestige": "High"}, {"name": "NASA Lunabotics Junior Competition", "url": "https://www.nasa.gov/learning-resources/nasa-lunabotics-junior/", "category": "General", "prestige": "High"}, {"name": "NC State eGames", "url": "https://entrepreneurship.ncsu.edu/egames/", "category": "General", "prestige": "High"}, {"name": "Stock Pitch Competition by Young Investors Society", "url": "https://younginvestorssociety.org/programs/stock-pitch-competition/", "category": "Business", "prestige": "High"}, {"name": "Technovation Challenge", "url": "https://technovationchallenge.org", "category": "General", "prestige": "High"}, {"name": "Google Code-in Archives Challenges", "url": "https://codein.withgoogle.com", "category": "Coding", "prestige": "High"}, {"name": "American Computer Science League", "url": "https://www.acsl.org", "category": "General", "prestige": "High"}, {"name": "International Geography Bee", "url": "https://www.internationalgeographybee.com", "category": "General", "prestige": "High"}, {"name": "National Spanish Exam Competition", "url": "https://www.nationalspanishexam.org", "category": "General", "prestige": "High"}, {"name": "Future Problem Solving Program International", "url": "https://www.fpspi.org", "category": "General", "prestige": "High"}, {"name": "Math Kangaroo USA", "url": "https://mathkangaroo.org", "category": "Math", "prestige": "High"}, {"name": "Envirothon", "url": "https://www.envirothon.org", "category": "Science/STEM", "prestige": "High"}, {"name": "Brain Bee", "url": "https://www.dental.umaryland.edu/brainbee/", "category": "Science/STEM", "prestige": "High"}, {"name": "Spellman HV Clean Tech Competition", "url": "https://www.cleantechcompetition.org", "category": "Science/STEM", "prestige": "High"}, {"name": "The Earth Prize", "url": "https://www.theearthprize.org", "category": "Science/STEM", "prestige": "High"}];
+    const researchData = [{"name": "MIT PRIMES-USA", "url": "https://math.mit.edu/research/highschool/primes/usa/index.php", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Research Science Institute (RSI)", "url": "https://www.societyforscience.org/rsi/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "George Mason ASSIP", "url": "https://science.gmu.edu/assip", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Pioneer Academics", "url": "https://pioneeracademics.com", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "MITES Summer", "url": "https://mites.mit.edu/discover-mites/mites-summer/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Jackson Laboratory Summer Program", "url": "https://www.jax.org/education-and-learning/high-school-students-and-teachers/summer-student-program", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Rockefeller SSRP", "url": "https://www.rockefeller.edu/outreach/ssrp/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "AFRL Scholars Program", "url": "https://afrlscholars.usra.edu", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Stanford AIMI Summer Research Internship", "url": "https://aimi.stanford.edu/education/high-school-internship", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Stanford SHTEM", "url": "https://shtem.stanford.edu", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "UCSB Research Mentorship Program", "url": "https://www.graddiv.ucsb.edu/prep/rmp", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "UCI x GATI Research Program", "url": "https://gati.uci.edu", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Simons Summer Research Program", "url": "https://www.stonybrook.edu/simons/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "RIPS High School Program", "url": "https://www.ipam.ucla.edu/programs/student-research-programs/", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "NIH High School Summer Internship Program", "url": "https://www.training.nih.gov/hs-sip", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Stony Brook Garcia Program", "url": "https://www.stonybrook.edu/commcms/garcia/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Clark Scholars Program", "url": "https://www.depts.ttu.edu/honors/academics/clarkscholars/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Anson L. Clark Scholars Program", "url": "https://www.depts.ttu.edu/honors/academics/clarkscholars/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Broad Summer Scholars Program", "url": "https://www.broadinstitute.org/bssp", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "UCSC SIP", "url": "https://sip.ucsc.edu", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "UCSD Research Experience Programs", "url": "https://sandiego.edu", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Boston University RISE", "url": "https://www.bu.edu/summer/high-school-programs/rise/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Harvard Secondary School Program Research Courses", "url": "https://summer.harvard.edu/high-school-programs/secondary-school-program/", "cost": "Tuition-based", "prestige": "High", "subject": "Science/STEM"}, {"name": "Princeton Laboratory Learning Program", "url": "https://research.princeton.edu/laboratory-learning-program", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Johns Hopkins Internship in Brain Sciences", "url": "https://hopkinsmedicine.org", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Coriell Summer Experience", "url": "https://www.coriell.org/education/summer-experience", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Indiana University Simon Cancer Center Summer Research", "url": "https://cancer.iu.edu/education/programs/high-school/index.html", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Rosetta Institute Research Program", "url": "https://www.rosettainstitute.org", "cost": "Tuition-based", "prestige": "High", "subject": "Science/STEM"}, {"name": "Veritas AI", "url": "https://www.veritasai.com", "cost": "Tuition-based", "prestige": "High", "subject": "Science/STEM"}, {"name": "Polygence", "url": "https://www.polygence.org", "cost": "Tuition-based", "prestige": "High", "subject": "Science/STEM"}, {"name": "Ladder Internships", "url": "https://www.ladderinternships.com", "cost": "Tuition-based", "prestige": "High", "subject": "Science/STEM"}, {"name": "Spark Summer Mentorship Program", "url": "https://www.sparkmentorship.org", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Yale Young Global Scholars", "url": "https://globalscholars.yale.edu", "cost": "Free/Stipend", "prestige": "High", "subject": "Leadership/Humanities"}, {"name": "Penn Summer Academies Research", "url": "https://www.sas.upenn.edu/summer/programs/high-school/academies", "cost": "Tuition-based", "prestige": "High", "subject": "Science/STEM"}, {"name": "Tufts Research Experience", "url": "https://universitycollege.tufts.edu/high-school/programs/research-experience", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "CMU AI Scholars", "url": "https://www.cmu.edu/pre-college/academic-programs/ai-scholars.html", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "NC State High School Research Programs", "url": "https://www.google.com/search?q=NC+State+High+School+Research+Programs", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Duke STAR Program", "url": "https://starprogram.duke.edu", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "UNC Project Uplift Research", "url": "https://admissions.unc.edu/project-uplift/", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "NCSSM Summer Research", "url": "https://www.ncssm.edu", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Scripps Research High School Internship", "url": "https://www.scripps.edu/education/k-12-outreach/california-outreach/high-school-internship-program/", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Stanford Institutes of Medicine Summer Research Program", "url": "https://simr.stanford.edu", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "NASA SEES Internship", "url": "https://www.csr.utexas.edu/sees-internship/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "AEOP High School Apprenticeships", "url": "https://www.usaeop.com/program/high-school-apprenticeships/", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Bank of America Student Leaders", "url": "https://about.bankofamerica.com/en-us/what-guides-us/student-leaders.html", "cost": "Free/Stipend", "prestige": "High", "subject": "Leadership/Humanities"}, {"name": "Cold Spring Harbor Laboratory DNA Learning Center", "url": "https://dnalc.cshl.edu", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Broad Institute Programs", "url": "https://www.broadinstitute.org/broad-institute-high-school-programs", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Summer Science Program", "url": "https://summerscience.org", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "University of Florida Student Science Training Program", "url": "https://www.cpet.ufl.edu/students/uf-sstp/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Texas Tech Clark Scholars", "url": "https://www.depts.ttu.edu/honors/academics/clarkscholars/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "Aspiring Scholars Directed Research Program (ASDRP)", "url": "https://www.asdrp.org", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Stanford Compression Forum Summer Internship", "url": "https://compression.stanford.edu/high-school-internship", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Purdue Data Mine for High School Students", "url": "https://datamine.purdue.edu/corporate/high-school.html", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "AI4ALL Open Learning Programs", "url": "https://ai4all.org/open-learning/", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "UC Santa Barbara Research Mentorship Program", "url": "https://www.graddiv.ucsb.edu/prep/rmp", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Project SEED by the American Chemical Society", "url": "https://www.acs.org/education/students/highschool/seed.html", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Polygence Core Program", "url": "https://www.polygence.org", "cost": "Tuition-based", "prestige": "High", "subject": "Science/STEM"}, {"name": "Lumiere Research Scholar Program", "url": "https://www.lumiere-education.com", "cost": "Tuition-based", "prestige": "High", "subject": "Science/STEM"}, {"name": "Boston Leadership Institute Research Programs", "url": "https://www.bostonleadershipinstitute.com", "cost": "Tuition-based", "prestige": "High", "subject": "Leadership/Humanities"}, {"name": "Summer STEM Institute (SSI)", "url": "https://www.summersteminstitute.org", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Wake Forest University Summer Immersion Research", "url": "https://immersion.wfu.edu", "cost": "Tuition-based", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "University of Pittsburgh Health Career Scholars Academy", "url": "https://www.hcsa.pitt.edu", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "University of Rochester Pre-College Research Programs", "url": "https://admissions.rochester.edu/pre-college/", "cost": "Free/Stipend", "prestige": "Elite", "subject": "Science/STEM"}, {"name": "NC State Engineering Place Summer Programs", "url": "https://www.engr.ncsu.edu/theengineeringplace/summerprograms/", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}, {"name": "Young Researchers Program (YRP)", "url": "http://youngresearchers.org", "cost": "Free/Stipend", "prestige": "High", "subject": "Science/STEM"}];
+  </script>
+
+  <!-- CONTROLLER LAYER -->
+  <script>
+    // State variables
+    let currentLang = 'en';
+    let currentTab = 'scholarships';
+    let bookmarks = {};
+    let tracker = {};
+    let universitiesData = [];
+    let predictorResults = [];
+    let selectedDrawerItem = null;
+
+    // Translation resource dictionaries
+    const translations = {
+      'en': {
+        'lbl-title': 'College Prep & Admissions Accelerator',
+        'lbl-subtitle': 'Elevate your university profile with curated resources, trackers, and AI predictive engines.',
+        'btn-lbl-sch': 'Scholarships',
+        'btn-lbl-comp': 'Competitions',
+        'btn-lbl-res': 'Research Ops',
+        'btn-lbl-pred': 'College Predictor',
+        'quest-title': 'Find Your Admissions Match',
+        'quest-desc': 'Answer 4 quick profile questions to find the most matched options.',
+        'q-lbl-gpa': 'GPA Range',
+        'q-lbl-grade': 'Grade Level',
+        'q-lbl-need': 'Need-Based Assistance?',
+        'q-lbl-field': 'Academic Interest',
+        'q-btn-lbl': 'Match Profile',
+        'q-btn-reset': 'Reset Matching',
+        'matched-title': 'Matched Recommendations:',
+        'board-title': 'Admissions Prep Dashboard & Tracker',
+        'board-desc': 'Manage your bookmarked opportunities and deadlines.',
+        'board-progress-lbl': 'Application Progress',
+        'lbl-f-prestige': 'Prestige level',
+        'lbl-f-prestige-c': 'Prestige level',
+        'lbl-f-prestige-r': 'Prestige level',
+        'form-title': 'Student Profile',
+        'lbl-p-gpa': 'GPA (Scale 4.0)',
+        'lbl-p-sat': 'SAT Score (Optional)',
+        'lbl-p-act': 'ACT Score (Optional)',
+        'lbl-p-state': 'State of Residency',
+        'lbl-p-major': 'Intended Major',
+        'lbl-p-rank': 'Class Rank',
+        'lbl-p-submit': 'Predict Admissions Likelihood',
+        'p-welcome-title': 'Calculate Your Admissions Probability',
+        'p-welcome-desc': 'Compute safety, match, and reach classifications across 298 universities.',
+        'results-headline': 'Admissions Predictor Outcomes',
+        'dw-title': 'QCAI Application Strategist',
+        'dw-subtitle': 'Action plans and writing guidelines powered by AI logic.',
+        'dw-lbl-plan': 'Action Plan & Checklist',
+        'dw-lbl-outline': 'Suggested Essay Outline & Structure',
+        'official': 'Official Site',
+        'bookmark': 'Bookmark',
+        'bookmarked': 'Bookmarked',
+        'prep': 'AI Prep Outline',
+        'copied': 'Outline copied to clipboard!',
+        'rank': 'National Rank',
+        'acceptance': 'Acceptance Rate',
+        'tuition': 'Tuition Est',
+        'safety': 'Safety School',
+        'match': 'Match School',
+        'reach': 'Reach School',
+        'notes-ph': 'Add private application notes, drafts, or login credentials here...',
+        'hook': 'Hook/Introduction',
+        'strength': 'Core Strength/Academic Depth',
+        'growth': 'Growth/Problem Solving Story',
+        'why': 'Why this program/school & future plans',
+        'statusNotStarted': 'Not Started',
+        'statusInProgress': 'In Progress',
+        'statusReady': 'Ready to Submit',
+        'statusSubmitted': 'Submitted'
+      },
+      'zh': {
+        'lbl-title': '大学规划与录取加速器',
+        'lbl-subtitle': '通过精选的学术奖学金、竞赛、科研项目以及 AI 录取预测引擎提升您的大学申请背景。',
+        'btn-lbl-sch': '奖学金',
+        'btn-lbl-comp': '学术竞赛',
+        'btn-lbl-res': '科研机会',
+        'btn-lbl-pred': '录取概率预测',
+        'quest-title': '精选资源智能匹配',
+        'quest-desc': '只需 10 秒输入基本信息，AI 即可为您推荐最适合您的奖学金与学术活动。',
+        'q-lbl-gpa': '未加权 GPA 范围',
+        'q-lbl-grade': '目前就读年级',
+        'q-lbl-need': '符合经济援助 (Need-Based) 资格？',
+        'q-lbl-field': '学术兴趣方向',
+        'q-btn-lbl': '匹配我的资源',
+        'q-btn-reset': '重置匹配',
+        'matched-title': '匹配推荐结果：',
+        'board-title': '录取申报追踪看板',
+        'board-desc': '追踪您所收藏的申请计划、截止期限和打卡清单。',
+        'board-progress-lbl': '申请表单完成进度',
+        'lbl-f-prestige': '含金量等级',
+        'lbl-f-prestige-c': '含金量等级',
+        'lbl-f-prestige-r': '含金量等级',
+        'form-title': '学生背景评估表',
+        'lbl-p-gpa': 'GPA (4.0 分制)',
+        'lbl-p-sat': 'SAT 成绩 (选填)',
+        'lbl-p-act': 'ACT 成绩 (选填)',
+        'lbl-p-state': '常住居民州',
+        'lbl-p-major': '拟申请专业',
+        'lbl-p-rank': '班级排名',
+        'lbl-p-submit': '评估录取概率',
+        'p-welcome-title': '评估您的大学录取概率',
+        'p-welcome-desc': '输入个人标化与GPA，一键评估 298 所全美高校的安全校、匹配校与冲刺校。',
+        'results-headline': '录取概率评估结果',
+        'dw-title': 'QCAI 申请规划师',
+        'dw-subtitle': '基于大模型的专属备战行动节点与 AI 拟定的文书核心框架。',
+        'dw-lbl-plan': '行动备战节点打卡清单',
+        'dw-lbl-outline': '推荐申请文书大纲思路',
+        'official': '官方网站',
+        'bookmark': '加入清单',
+        'bookmarked': '已收藏',
+        'prep': 'AI 备战',
+        'copied': '文书大纲已成功复制！',
+        'rank': '全美综合排名',
+        'acceptance': '录取率',
+        'tuition': '估算学费',
+        'safety': '保底学校 (Safety)',
+        'match': '匹配学校 (Match)',
+        'reach': '冲刺学校 (Reach)',
+        'notes-ph': '在此处添加私密的申请笔记、网页登录账号、草稿或截止时间打卡记录...',
+        'hook': '引人入胜的开篇个人背景钩子',
+        'strength': '核心优势展示与学术实力阐述',
+        'growth': '个人成长故事与应对挑战经历',
+        'why': '为什么选择本项目研究与未来规划',
+        'statusNotStarted': '未开始',
+        'statusInProgress': '进行中',
+        'statusReady': '准备就绪',
+        'statusSubmitted': '已提交申请'
+      },
+      'es': {
+        'lbl-title': 'Preparación Universitaria y Acelerador de Admisiones',
+        'lbl-subtitle': 'Eleve su perfil universitario con recursos curados, rastreadores y motores de predicción de IA.',
+        'btn-lbl-sch': 'Becas',
+        'btn-lbl-comp': 'Competencias',
+        'btn-lbl-res': 'Inv. Científica',
+        'btn-lbl-pred': 'Evaluador de Admisiones',
+        'quest-title': 'Búsqueda Inteligente de Recursos',
+        'quest-desc': 'Realice una prueba rápida de 10 segundos para curar las mejores becas y actividades para su perfil.',
+        'q-lbl-gpa': 'Rango de GPA',
+        'q-lbl-grade': 'Grado Escolar',
+        'q-lbl-need': '¿Califica para Ayuda Financiera?',
+        'q-lbl-field': 'Interés Académico',
+        'q-btn-lbl': 'Encontrar Mis Recursos',
+        'q-btn-reset': 'Restablecer',
+        'matched-title': 'Recomendaciones Curadas:',
+        'board-title': 'Rastreador de Solicitudes de Admisión',
+        'board-desc': 'Gestione sus oportunidades guardadas y complete las tareas clave de su solicitud.',
+        'board-progress-lbl': 'Progreso de Solicitud',
+        'lbl-f-prestige': 'Nivel de Prestigio',
+        'lbl-f-prestige-c': 'Nivel de Prestigio',
+        'lbl-f-prestige-r': 'Nivel de Prestigio',
+        'form-title': 'Perfil del Estudiante',
+        'lbl-p-gpa': 'GPA (Escala 4.0)',
+        'lbl-p-sat': 'Puntaje SAT (Opcional)',
+        'lbl-p-act': 'Puntaje ACT (Opcional)',
+        'lbl-p-state': 'Estado de Residencia',
+        'lbl-p-major': 'Especialidad',
+        'lbl-p-rank': 'Rango de Clase',
+        'lbl-p-submit': 'Evaluar Admisiones',
+        'p-welcome-title': 'Evalúe sus Probabilidades de Admisión',
+        'p-welcome-desc': 'Calcule sus probabilidades de admisión para 298 universidades de élite.',
+        'results-headline': 'Resultados del Evaluador',
+        'dw-title': 'Especialista en Admisiones de QCAI',
+        'dw-subtitle': 'Planes de acción personalizados y borradores de esquemas generados por IA.',
+        'dw-lbl-plan': 'Plan de Acción y Pasos Clave',
+        'dw-lbl-outline': 'Esquema de Ensayo Sugerido',
+        'official': 'Sitio Oficial',
+        'bookmark': 'Guardar',
+        'bookmarked': 'Guardado',
+        'prep': 'Guía de IA',
+        'copied': '¡Esquema de ensayo copiado!',
+        'rank': 'Clasificación Nacional',
+        'acceptance': 'Tasa de Admisión',
+        'tuition': 'Matrícula Est',
+        'safety': 'Escuela Segura',
+        'match': 'Escuela Probable',
+        'reach': 'Escuela Desafiante',
+        'notes-ph': 'Agregue notas de solicitud privadas, borradores o credenciales aquí...',
+        'hook': 'Gancho Personal e Introducción',
+        'strength': 'Fortaleza y Profundidad Académica',
+        'growth': 'Historia de Crecimiento y Superación',
+        'why': 'Motivación del programa y metas futuras',
+        'statusNotStarted': 'No Iniciado',
+        'statusInProgress': 'En Progreso',
+        'statusReady': 'Listo para Enviar',
+        'statusSubmitted': 'Enviado'
+      }
+    };
+
+    // Initialization
+    window.onload = () => {
+      // Populate residency state selector
+      const pState = document.getElementById('p-state');
+      pState.innerHTML = '';
+      const states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA",
+                      "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ",
+                      "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT",
+                      "VA", "WA", "WV", "WI", "WY"];
+      states.forEach(st => {
+        const opt = document.createElement('option');
+        opt.value = st;
+        opt.textContent = st;
+        if (st === 'NC') opt.selected = true;
+        pState.appendChild(opt);
+      });
+
+      // Auto load parameters
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlLang = urlParams.get('lang') || '';
+      
+      // Auto detect from filename or browser
+      let langToSet = 'en';
+      if (urlLang.startsWith('zh') || window.location.pathname.includes('_cn')) {
+        langToSet = 'zh';
+      } else if (urlLang.startsWith('es') || window.location.pathname.includes('_es')) {
+        langToSet = 'es';
+      }
+      document.getElementById('select-lang').value = langToSet;
+      changeLanguage(langToSet);
+
+      // Load bookmarks
+      const savedBk = localStorage.getItem('qcai_college_prep_bookmarks');
+      if (savedBk) bookmarks = JSON.parse(savedBk);
+      const savedTr = localStorage.getItem('qcai_college_prep_tracker');
+      if (savedTr) tracker = JSON.parse(savedTr);
+      
+      updateSavedBoard();
+      
+      // Load raw university list from GitHub Page endpoint
+      fetch('https://raw.githubusercontent.com/qcai-net/qcai-net.github.io/master/college/universities.json')
+        .then(res => res.json())
+        .then(data => {
+          universitiesData = data;
+        })
+        .catch(err => console.error("Error loading schools database:", err));
+    };
+
+    function changeLanguage(lang) {
+      currentLang = lang;
+      const dict = translations[lang];
+      for (const id in dict) {
+        const el = document.getElementById(id);
+        if (el) el.textContent = dict[id];
+      }
+      
+      // Update place holders
+      const schSearch = document.getElementById('sch-search');
+      if (schSearch) schSearch.placeholder = lang === 'zh' ? '搜索奖学金...' : (lang === 'es' ? 'Buscar becas...' : 'Search scholarships...');
+      
+      const compSearch = document.getElementById('comp-search');
+      if (compSearch) compSearch.placeholder = lang === 'zh' ? '搜索学术竞赛...' : (lang === 'es' ? 'Buscar competencias...' : 'Search competitions...');
+      
+      const resSearch = document.getElementById('res-search');
+      if (resSearch) resSearch.placeholder = lang === 'zh' ? '搜索科研机会...' : (lang === 'es' ? 'Buscar oportunidades...' : 'Search research opportunities...');
+      
+      const predSearch = document.getElementById('pred-search');
+      if (predSearch) predSearch.placeholder = lang === 'zh' ? '搜索大学...' : (lang === 'es' ? 'Buscar universidades...' : 'Search universities...');
+
+      // Render grids under current language
+      renderScholarships();
+      renderCompetitions();
+      renderResearch();
+      updateSavedBoard();
+      if (predictorResults.length > 0) {
+        renderPredictorResults();
+      }
+    }
+
+    function switchTab(tab) {
+      currentTab = tab;
+      // Update active nav button
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.getElementById('tab-btn-' + tab).classList.add('active');
+      
+      // Show active panel
+      document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+      document.getElementById('panel-' + tab).classList.add('active');
+    }
+
+    // State actions: Bookmarks and Checklists
+    function saveToStorage() {
+      localStorage.setItem('qcai_college_prep_bookmarks', JSON.stringify(bookmarks));
+      localStorage.setItem('qcai_college_prep_tracker', JSON.stringify(tracker));
+    }
+
+    function toggleBookmark(name, type, url, prestige, itemJsonStr) {
+      const item = JSON.parse(decodeURIComponent(itemJsonStr));
+      const key = type + '-' + name;
+      if (bookmarks[key]) {
+        delete bookmarks[key];
+        delete tracker[key];
+      } else {
+        bookmarks[key] = { name, type, url, prestige, meta: item };
+        tracker[key] = {
+          status: 'Not Started',
+          notes: '',
+          checklist: { transcript: false, essay: false, recommendation: false, submit: false }
+        };
+      }
+      saveToStorage();
+      
+      // Re-render
+      renderScholarships();
+      renderCompetitions();
+      renderResearch();
+      updateSavedBoard();
+      
+      // If matches recom render match widget
+      if (document.getElementById('quest-results').style.display === 'block') {
+        renderQuestionnaireMatches();
+      }
+    }
+
+    function handleChecklistChange(key, field) {
+      tracker[key].checklist[field] = !tracker[key].checklist[field];
+      saveToStorage();
+      updateSavedBoard();
+    }
+
+    function handleStatusChange(key, status) {
+      tracker[key].status = status;
+      saveToStorage();
+      updateSavedBoard();
+    }
+
+    function handleNotesChange(key, notes) {
+      tracker[key].notes = notes;
+      saveToStorage();
+    }
+
+    function updateSavedBoard() {
+      const board = document.getElementById('saved-board');
+      const listContainer = document.getElementById('saved-rows-list');
+      const keys = Object.keys(bookmarks);
+      
+      if (keys.length === 0) {
+        board.style.display = 'none';
+        return;
+      }
+      
+      board.style.display = 'block';
+      listContainer.innerHTML = '';
+      
+      let totalCompletedScore = 0;
+      
+      keys.forEach(key => {
+        const b = bookmarks[key];
+        const t = tracker[key] || { status: 'Not Started', notes: '', checklist: { transcript: false, essay: false, recommendation: false, submit: false } };
+        
+        let checkedCount = 0;
+        if (t.checklist.transcript) checkedCount++;
+        if (t.checklist.essay) checkedCount++;
+        if (t.checklist.recommendation) checkedCount++;
+        if (t.checklist.submit) checkedCount++;
+        
+        let score = (checkedCount / 4) * 100;
+        if (t.status === 'Submitted') score = 100;
+        totalCompletedScore += score;
+        
+        const row = document.createElement('div');
+        row.className = 'saved-row';
+        
+        const categoryLabel = b.type === 'scholarships' ? 
+          translations[currentLang]['btn-lbl-sch'] : 
+          (b.type === 'competitions' ? translations[currentLang]['btn-lbl-comp'] : translations[currentLang]['btn-lbl-res']);
+          
+        const statusSelected = t.status;
+        
+        row.innerHTML = `
+          <div class="saved-details" style="flex: 1; min-width: 200px;">
+            <h4>${b.name}</h4>
+            <span>${categoryLabel} | ${b.prestige}</span>
+          </div>
+          <div class="saved-checks">
+            <label><input type="checkbox" ${t.checklist.transcript ? 'checked' : ''} onclick="handleChecklistChange('${key}', 'transcript')"> Transcript</label>
+            <label><input type="checkbox" ${t.checklist.essay ? 'checked' : ''} onclick="handleChecklistChange('${key}', 'essay')"> Essay</label>
+            <label><input type="checkbox" ${t.checklist.recommendation ? 'checked' : ''} onclick="handleChecklistChange('${key}', 'recommendation')"> Rec Letter</label>
+          </div>
+          <div class="tracker-actions" style="display: flex; align-items: center; gap: 8px;">
+            <select onchange="handleStatusChange('${key}', this.value)" style="background: ${statusSelected === 'Submitted' ? '#e2f0d9' : (statusSelected === 'Ready to Submit' ? '#fff2cc' : 'white')}">
+              <option value="Not Started" ${statusSelected === 'Not Started' ? 'selected' : ''}>${translations[currentLang]['statusNotStarted'] || 'Not Started'}</option>
+              <option value="In Progress" ${statusSelected === 'In Progress' ? 'selected' : ''}>${translations[currentLang]['statusInProgress'] || 'In Progress'}</option>
+              <option value="Ready to Submit" ${statusSelected === 'Ready to Submit' ? 'selected' : ''}>${translations[currentLang]['statusReady'] || 'Ready to Submit'}</option>
+              <option value="Submitted" ${statusSelected === 'Submitted' ? 'selected' : ''}>${translations[currentLang]['statusSubmitted'] || 'Submitted'}</option>
+            </select>
+            <button class="btn btn-outline" onclick="openDrawer('${encodeURIComponent(JSON.stringify(b.meta))}', '${b.type}')">🧠</button>
+            <button class="btn btn-outline" onclick="toggleBookmark('${b.name.replace(/'/g, "\'")}', '${b.type}', '', '', '${encodeURIComponent(JSON.stringify(b.meta))}')">❌</button>
+          </div>
+          <div style="width: 100%; margin-top: 6px;">
+            <textarea placeholder="${translations[currentLang]['notes-ph']}" oninput="handleNotesChange('${key}', this.value)" style="width:100%; padding:8px; border-radius:6px; border:1px solid var(--border); font-size:0.8rem; background:rgba(0,0,0,0.01); resize:vertical; outline:none; font-family:inherit;">${t.notes || ''}</textarea>
+          </div>
+        `;
+        listContainer.appendChild(row);
+      });
+      
+      const overallPercent = Math.round(totalCompletedScore / keys.length);
+      document.getElementById('board-percent').textContent = overallPercent;
+      document.getElementById('board-progress-fill').style.width = overallPercent + '%';
+    }
+
+    // Render Lists
+    function renderScholarships() {
+      const grid = document.getElementById('scholarships-grid');
+      const query = document.getElementById('sch-search').value.toLowerCase();
+      const prestigeVal = document.getElementById('sch-prestige').value;
+      const essayVal = document.getElementById('sch-essay').value;
+      
+      grid.innerHTML = '';
+      
+      scholarshipsData.forEach(item => {
+        const matchesSearch = item.name.toLowerCase().includes(query);
+        const matchesPrestige = prestigeVal === 'all' || 
+                                (prestigeVal === 'elite' && item.prestige === 'Elite') || 
+                                (prestigeVal === 'high' && item.prestige !== 'Elite');
+        const matchesEssay = essayVal === 'all' ||
+                              (essayVal === 'required' && item.essayRequired) ||
+                              (essayVal === 'noessay' && !item.essayRequired);
+                              
+        if (matchesSearch && matchesPrestige && matchesEssay) {
+          const isSaved = bookmarks['scholarships-' + item.name] ? 'bookmarked' : '';
+          const card = document.createElement('div');
+          card.className = `card ${item.prestige === 'Elite' ? 'elite' : ''}`;
+          
+          let badgesHTML = `<span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>`;
+          item.tags.forEach(tag => {
+            badgesHTML += `<span class="badge tag">${tag}</span>`;
+          });
+          
+          card.innerHTML = `
+            <div>
+              <div class="badge-row">${badgesHTML}</div>
+              <h3>${item.name}</h3>
+              <div class="card-meta">
+                <p>💰 Est. Amount: ${item.amount}</p>
+                <p>📄 Document: ${item.essayRequired ? 'Essay Required' : 'No Essay'}</p>
+              </div>
+            </div>
+            <div class="card-actions">
+              <button class="btn btn-primary" onclick="window.open('${item.url}', '_blank')">${translations[currentLang]['official']} ↗</button>
+              <button class="btn btn-outline" onclick="openDrawer('${encodeURIComponent(JSON.stringify(item))}', 'scholarships')">${translations[currentLang]['prep']}</button>
+              <button class="btn btn-icon ${isSaved}" onclick="toggleBookmark('${item.name.replace(/'/g, "\'")}', 'scholarships', '${item.url}', '${item.prestige}', '${encodeURIComponent(JSON.stringify(item))}')">📁</button>
+            </div>
+          `;
+          grid.appendChild(card);
+        }
+      });
+    }
+
+    function renderCompetitions() {
+      const grid = document.getElementById('competitions-grid');
+      const query = document.getElementById('comp-search').value.toLowerCase();
+      const prestigeVal = document.getElementById('comp-prestige').value;
+      const subjectVal = document.getElementById('comp-subject').value;
+      
+      grid.innerHTML = '';
+      
+      competitionsData.forEach(item => {
+        const matchesSearch = item.name.toLowerCase().includes(query);
+        const matchesPrestige = prestigeVal === 'all' || 
+                                (prestigeVal === 'elite' && item.prestige === 'Elite') || 
+                                (prestigeVal === 'high' && item.prestige !== 'Elite');
+        const matchesSubject = subjectVal === 'all' || item.category === subjectVal;
+        
+        if (matchesSearch && matchesPrestige && matchesSubject) {
+          const isSaved = bookmarks['competitions-' + item.name] ? 'bookmarked' : '';
+          const card = document.createElement('div');
+          card.className = `card ${item.prestige === 'Elite' ? 'elite' : ''}`;
+          
+          card.innerHTML = `
+            <div>
+              <div class="badge-row">
+                <span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>
+                <span class="badge tag">${item.category}</span>
+              </div>
+              <h3>${item.name}</h3>
+            </div>
+            <div class="card-actions">
+              <button class="btn btn-primary" onclick="window.open('${item.url}', '_blank')">${translations[currentLang]['official']} ↗</button>
+              <button class="btn btn-outline" onclick="openDrawer('${encodeURIComponent(JSON.stringify(item))}', 'competitions')">${translations[currentLang]['prep']}</button>
+              <button class="btn btn-icon ${isSaved}" onclick="toggleBookmark('${item.name.replace(/'/g, "\'")}', 'competitions', '${item.url}', '${item.prestige}', '${encodeURIComponent(JSON.stringify(item))}')">📁</button>
+            </div>
+          `;
+          grid.appendChild(card);
+        }
+      });
+    }
+
+    function renderResearch() {
+      const grid = document.getElementById('research-grid');
+      const query = document.getElementById('res-search').value.toLowerCase();
+      const prestigeVal = document.getElementById('res-prestige').value;
+      const subjectVal = document.getElementById('res-subject').value;
+      const costVal = document.getElementById('res-cost').value;
+      
+      grid.innerHTML = '';
+      
+      researchData.forEach(item => {
+        const matchesSearch = item.name.toLowerCase().includes(query);
+        const matchesPrestige = prestigeVal === 'all' || 
+                                (prestigeVal === 'elite' && item.prestige === 'Elite') || 
+                                (prestigeVal === 'high' && item.prestige !== 'Elite');
+        const matchesSubject = subjectVal === 'all' || item.subject === subjectVal;
+        const matchesCost = costVal === 'all' || item.cost === costVal;
+        
+        if (matchesSearch && matchesPrestige && matchesSubject && matchesCost) {
+          const isSaved = bookmarks['research-' + item.name] ? 'bookmarked' : '';
+          const card = document.createElement('div');
+          card.className = `card ${item.prestige === 'Elite' ? 'elite' : ''}`;
+          
+          card.innerHTML = `
+            <div>
+              <div class="badge-row">
+                <span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>
+                <span class="badge tag">${item.subject}</span>
+                <span class="badge tag">${item.cost}</span>
+              </div>
+              <h3>${item.name}</h3>
+            </div>
+            <div class="card-actions">
+              <button class="btn btn-primary" onclick="window.open('${item.url}', '_blank')">${translations[currentLang]['official']} ↗</button>
+              <button class="btn btn-outline" onclick="openDrawer('${encodeURIComponent(JSON.stringify(item))}', 'research')">${translations[currentLang]['prep']}</button>
+              <button class="btn btn-icon ${isSaved}" onclick="toggleBookmark('${item.name.replace(/'/g, "\'")}', 'research', '${item.url}', '${item.prestige}', '${encodeURIComponent(JSON.stringify(item))}')">📁</button>
+            </div>
+          `;
+          grid.appendChild(card);
+        }
+      });
+    }
+
+    // Questionnaire Controller
+    function runQuestionnaire() {
+      const gpa = document.getElementById('q-gpa').value;
+      const grade = document.getElementById('q-grade').value;
+      const need = document.getElementById('q-need').value;
+      const interest = document.getElementById('q-interest').value;
+      
+      const gpaVal = parseFloat(gpa.split('-')[0]) || 3.0;
+      let matches = [];
+      
+      // Match scholarships
+      scholarshipsData.forEach(item => {
+        let score = 0;
+        if (gpaVal >= 3.8 && item.prestige === 'Elite') score += 3;
+        if (need === 'yes' && item.name.toLowerCase().includes('need')) score += 2;
+        if (interest === 'STEM' && item.tags.includes('STEM')) score += 3;
+        if (score >= 2) matches.push({ ...item, group: 'scholarships' });
+      });
+      
+      // Match comps
+      competitionsData.forEach(item => {
+        let score = 0;
+        if (interest === 'STEM' && (item.category === 'Science/STEM' || item.category === 'Coding' || item.category === 'Robotics')) score += 3;
+        if (interest === 'Math' && item.category === 'Math') score += 3;
+        if (interest === 'Business' && item.category === 'Business') score += 3;
+        if (interest === 'Humanities' && item.category === 'Humanities/Arts') score += 3;
+        if (gpaVal >= 3.8 && item.prestige === 'Elite') score += 1;
+        if (score >= 2) matches.push({ ...item, group: 'competitions' });
+      });
+      
+      // Match research
+      researchData.forEach(item => {
+        let score = 0;
+        if (interest === 'STEM' && item.subject === 'Science/STEM') score += 3;
+        if (interest === 'Humanities' && item.subject === 'Leadership/Humanities') score += 3;
+        if (gpaVal >= 3.8 && item.prestige === 'Elite') score += 2;
+        if (interest === 'STEM' && item.cost === 'Free/Stipend') score += 1;
+        if (score >= 2) matches.push({ ...item, group: 'research' });
+      });
+      
+      // Save top 8 matches
+      questMatches = matches.slice(0, 8);
+      
+      document.getElementById('quest-inputs').style.display = 'none';
+      document.getElementById('quest-results').style.display = 'block';
+      
+      renderQuestionnaireMatches();
+    }
+
+    function renderQuestionnaireMatches() {
+      const grid = document.getElementById('quest-matches-grid');
+      grid.innerHTML = '';
+      
+      questMatches.forEach(item => {
+        const isSaved = bookmarks[item.group + '-' + item.name] ? 'bookmarked' : '';
+        const card = document.createElement('div');
+        card.className = `card ${item.prestige === 'Elite' ? 'elite' : ''}`;
+        
+        card.innerHTML = `
+          <div>
+            <div class="badge-row">
+              <span class="badge ${item.prestige === 'Elite' ? 'elite' : 'high'}">${item.prestige}</span>
+              <span class="badge tag">${item.group.toUpperCase()}</span>
+            </div>
+            <h3>${item.name}</h3>
+          </div>
+          <div class="card-actions">
+            <button class="btn btn-primary" onclick="window.open('${item.url}', '_blank')">${translations[currentLang]['official']} ↗</button>
+            <button class="btn btn-outline" onclick="openDrawer('${encodeURIComponent(JSON.stringify(item))}', '${item.group}')">${translations[currentLang]['prep']}</button>
+            <button class="btn btn-icon ${isSaved}" onclick="toggleBookmark('${item.name.replace(/'/g, "\'")}', '${item.group}', '${item.url}', '${item.prestige}', '${encodeURIComponent(JSON.stringify(item))}')">📁</button>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function resetQuestionnaire() {
+      document.getElementById('quest-results').style.display = 'none';
+      document.getElementById('quest-inputs').style.display = 'block';
+    }
+
+    // Admissions Predictor calculation (ported engine)
+    function runPredictor() {
+      if (universitiesData.length === 0) {
+        alert("Admissions database not loaded yet. Check connection.");
+        return;
+      }}
+      
+      const gpa = parseFloat(document.getElementById('p-gpa').value) || 3.0;
+      const sat = parseInt(document.getElementById('p-sat').value) || null;
+      const act = parseInt(document.getElementById('p-act').value) || null;
+      const state = document.getElementById('p-state').value;
+      const major = document.getElementById('p-major').value;
+      const rank = document.getElementById('p-rank').value;
+      
+      predictorResults = universitiesData.map(univ => {
+        const isSameState = state.trim().toUpperCase() === (univ.state || '').trim().toUpperCase();
+        
+        let internalScore = 0;
+        switch (univ.selectivity_tier) {
+          case 'elite': internalScore = -3; break;
+          case 'high': internalScore = -1; break;
+          case 'medium': internalScore = 0; break;
+          case 'low': internalScore = 1; break;
+          default: internalScore = 0;
+        }
+        
+        let strategy = "Test-Centric";
+        const hasUnivTestStats = (univ.scores.sat_25 !== null) || (univ.scores.act_25 !== null);
+        const hasStudentTestStats = (sat !== null) || (act !== null);
+        
+        if (univ.policy.test_policy === 'blind' || !hasUnivTestStats || !hasStudentTestStats) {
+          strategy = "GPA-Centric";
+          const gpa25 = univ.academics.gpa_25 !== null ? univ.academics.gpa_25 : (univ.academics.gpa_avg !== null ? univ.academics.gpa_avg - 0.2 : null);
+          const gpa75 = univ.academics.gpa_75 !== null ? univ.academics.gpa_75 : (univ.academics.gpa_avg !== null ? univ.academics.gpa_avg + 0.1 : null);
+          
+          if (gpa25 !== null && gpa75 !== null) {
+            if (gpa < gpa25) internalScore -= 3;
+            else if (gpa >= gpa75) internalScore += 2;
+          } else {
+            let baseline = 3.5;
+            if (univ.selectivity_tier === 'elite') baseline = 3.9;
+            else if (univ.selectivity_tier === 'high') baseline = 3.7;
+            else if (univ.selectivity_tier === 'medium') baseline = 3.5;
+            else if (univ.selectivity_tier === 'low') baseline = 3.0;
+            
+            if (gpa < baseline) internalScore -= 2;
+            else if (gpa > baseline + 0.2) internalScore += 1;
+          }
+        } else {
+          if (sat !== null && univ.scores.sat_25 !== null && univ.scores.sat_75 !== null) {
+            if (sat < univ.scores.sat_25) internalScore -= 2;
+            else if (sat > univ.scores.sat_75) internalScore += 2;
+          } else if (act !== null && univ.scores.act_25 !== null && univ.scores.act_75 !== null) {
+            if (act < univ.scores.act_25) internalScore -= 2;
+            else if (act > univ.scores.act_75) internalScore += 2;
+          }
+          
+          if (univ.academics.gpa_25 !== null && univ.academics.gpa_75 !== null) {
+            if (gpa < univ.academics.gpa_25) internalScore -= 1;
+            else if (gpa >= univ.academics.gpa_75) internalScore += 1;
+          }
+        }
+        
+        let majorPenalty = 0;
+        let isHighlyImpactedMajor = false;
+        if (univ.meta.admit_by_major === true && major) {
+          const diffMap = univ.academics.major_difficulty || {};
+          const level = diffMap[major];
+          if (level !== undefined && level !== null) {
+            majorPenalty = level * 0.6;
+            if (level >= 4) isHighlyImpactedMajor = true;
+            internalScore -= Math.round(majorPenalty);
+          }
+        }
+        
+        let category = "reach";
+        if (internalScore >= 2) category = "safety";
+        else if (internalScore >= 0) category = "match";
+        
+        let rankWarning = false;
+        if (univ.academics.rank_top_10_percent !== null && univ.academics.rank_top_10_percent > 0.85) {
+          const meetsRank = rank === 'top5' || rank === 'top10';
+          if (!meetsRank && (category === 'match' || category === 'safety')) {
+            rankWarning = true;
+          }
+        } else if (univ.academics.rank_top_25_percent !== null && univ.academics.rank_top_25_percent > 0.85) {
+          const meetsRank = rank === 'top5' || rank === 'top10' || rank === 'top25';
+          if (!meetsRank && (category === 'match' || category === 'safety')) {
+            rankWarning = true;
+          }
+        }
+        
+        const finalCategory = rankWarning ? "reach" : category;
+        
+        let reasonParts = [];
+        if (strategy === "GPA-Centric") {
+          reasonParts.push(currentLang === 'zh' ? "注：评估主要依据您的 GPA 与院校录取门槛。" : (currentLang === 'es' ? "Nota: Clasificación basada principalmente en su GPA." : "Note: Classification based primarily on your GPA and institutional selectivity tiers."));
+        }
+        if (isHighlyImpactedMajor) {
+          reasonParts.push(currentLang === 'zh' ? `注：拟申请专业是该校极其热门的高竞争学科，标准显著高于常规录取。` : `Note: Selected major is highly impacted at this school, with significantly higher admissions criteria.`);
+        }
+        if (univ.selectivity_tier === 'elite') {
+          reasonParts.push(currentLang === 'zh' ? "这是一所顶尖精英院校，常规申请池竞争极其激烈。" : "This is an elite institution with an extremely competitive applicant pool.");
+        }
+        if (rankWarning) {
+          reasonParts.push(currentLang === 'zh' ? "警告：该校绝大多数录取的学生排名前 10%，您的班级排名可能会使这所学校成为高冲刺校。" : "Warning: This school admits the vast majority of students from the top 10% of their class. Given your class rank, this remains a High Reach.");
+        }
+        if (univ.academics.gpa_75 !== null && gpa >= univ.academics.gpa_75) {
+          reasonParts.push(currentLang === 'zh' ? "您的学术记录在该校录取的群体中处于顶尖水平。" : "Your academic record is exceptional compared to recent admits.");
+        }
+        if (univ.policy.test_policy === 'blind') {
+          reasonParts.push(currentLang === 'zh' ? "该校实行完全不看标化考试成绩 (Test-Blind) 的政策。" : "This school follows a test-blind policy.");
+        }
+        if (isSameState && univ.type === 'public') {
+          reasonParts.push(currentLang === 'zh' ? "您在该校享有本州居民录取优势 (In-State Benefit)。" : "In-state residency provides a distinct advantage here.");
+        }
+        
+        const reason = reasonParts.join(' ');
+        const tuitionEst = isSameState ? univ.cost.tuition_in_state : univ.cost.tuition_out_state;
+        
+        return { univ, category: finalCategory, reason, tuitionEstimate: tuitionEst };
+      });
+      
+      document.getElementById('predictor-info-box').style.display = 'none';
+      document.getElementById('predictor-results-panel').style.display = 'block';
+      
+      sortPredictorResults();
+    }
+
+    function filterPredictorResults() {
+      renderPredictorResults();
+    }
+
+    function sortPredictorResults() {
+      const sortVal = document.getElementById('pred-sort').value;
+      
+      predictorResults.sort((a, b) => {
+        switch (sortVal) {
+          case 'category':
+            const ord = { 'safety': 0, 'match': 1, 'reach': 2 };
+            return ord[a.category] - ord[b.category];
+          case 'rank':
+            return (a.univ.academics.national_ranking ?? 9999) - (b.univ.academics.national_ranking ?? 9999);
+          case 'tuitionLow':
+            return (a.tuitionEstimate ?? 999999) - (b.tuitionEstimate ?? 999999);
+          case 'tuitionHigh':
+            return (b.tuitionEstimate ?? 0) - (a.tuitionEstimate ?? 0);
+          case 'acceptanceHigh':
+            return b.univ.admissions.acceptance_rate_overall - a.univ.admissions.acceptance_rate_overall;
+          case 'acceptanceLow':
+            return a.univ.admissions.acceptance_rate_overall - b.univ.admissions.acceptance_rate_overall;
+          case 'alphabetical':
+            return a.univ.name.localeCompare(b.univ.name);
+          default:
+            return 0;
+        }
+      });
+      
+      renderPredictorResults();
+    }
+
+    function renderPredictorResults() {
+      const list = document.getElementById('predictor-results-list');
+      const query = document.getElementById('pred-search').value.toLowerCase();
+      
+      list.innerHTML = '';
+      
+      predictorResults.forEach(item => {
+        const matchesSearch = item.univ.name.toLowerCase().includes(query) || item.univ.state.toLowerCase().includes(query);
+        if (!matchesSearch) return;
+        
+        const card = document.createElement('div');
+        card.className = 'univ-card';
+        
+        const catLbl = item.category === 'safety' ? translations[currentLang]['safety'] : (item.category === 'match' ? translations[currentLang]['match'] : translations[currentLang]['reach']);
+        
+        card.innerHTML = `
+          <div class="univ-row-header">
+            <div>
+              <span class="univ-title">${item.univ.name}</span>
+              <div class="univ-subtitle">${item.univ.meta.city}, ${item.univ.state} | ${item.univ.type.toUpperCase()}</div>
+            </div>
+            <span class="tag-tier ${item.category}">${catLbl}</span>
+          </div>
+          <div class="univ-stats">
+            <div>
+              <div class="stat-lbl">${translations[currentLang]['rank']}</div>
+              <div class="stat-val">${item.univ.academics.national_ranking ? '#' + item.univ.academics.national_ranking : 'N/A'}</div>
+            </div>
+            <div>
+              <div class="stat-lbl">${translations[currentLang]['acceptance']}</div>
+              <div class="stat-val">${Math.round(item.univ.admissions.acceptance_rate_overall * 100)}%</div>
+            </div>
+            <div>
+              <div class="stat-lbl">${translations[currentLang]['tuition']}</div>
+              <div class="stat-val">${item.tuitionEstimate ? '$' + item.tuitionEstimate.toLocaleString() : 'N/A'}</div>
+            </div>
+          </div>
+          ${item.reason ? `<div class="reason">💡 ${item.reason}</div>` : ''}
+        `;
+        list.appendChild(card);
+      });
+    }
+
+    // Drawer helper
+    function openDrawer(itemJsonStr, type) {
+      const item = JSON.parse(decodeURIComponent(itemJsonStr));
+      selectedDrawerItem = item;
+      
+      document.getElementById('dw-item-name').textContent = item.name;
+      document.getElementById('dw-item-prestige').textContent = 'Prestige: ' + item.prestige;
+      
+      // Prepare checklists
+      const listEl = document.getElementById('dw-checklist-list');
+      listEl.innerHTML = '';
+      
+      const isElite = item.prestige === 'Elite';
+      let actions = [];
+      if (type === 'scholarships') {
+        actions = [
+          translations[currentLang]['checklistTranscript'],
+          translations[currentLang]['checklistEssay'],
+          translations[currentLang]['checklistLetters'],
+          translations[currentLang]['checklistSubmit'],
+          isElite ? (currentLang === 'zh' ? '提交推荐人详细的学术/领导力评估报告' : 'Submit detailed academic/leadership evaluations') : (currentLang === 'zh' ? '撰写财务状况自述陈情书' : 'Draft brief financial declarations')
+        ];
+      } else if (type === 'competitions') {
+        actions = [
+          currentLang === 'zh' ? '在官方网站注册参赛席位' : 'Register official slot on portal',
+          currentLang === 'zh' ? '刷历年真题及获取专项训练材料' : 'Solve past exam questions and secure prep guides',
+          currentLang === 'zh' ? '物色并组建参赛三人组 (如需组队)' : 'Assemble teammate trio (if team-based)',
+          currentLang === 'zh' ? '向评委提交最终作品/报告' : 'Submit final deliverables to judges'
+        ];
+      } else {
+        actions = [
+          currentLang === 'zh' ? '更新并排版您的个人学术简历 (Resume)' : 'Draft and polish academic Resume',
+          currentLang === 'zh' ? '撰写并发送与导师方向匹配 of 引荐信邮件' : 'Compose cold-outreach interest email',
+          currentLang === 'zh' ? '研读该方向最新 3 篇文献并撰写课题意向书' : 'Draft 1-page research proposal based on recent literature',
+          currentLang === 'zh' ? '向大学科研办或导师提交申请表' : 'Submit application package to university office'
+        ];
+      }
+      
+      actions.forEach(act => {
+        const row = document.createElement('div');
+        row.style.display = 'flex';
+        row.style.alignItems = 'flex-start';
+        row.style.gap = '8px';
+        row.style.fontSize = '0.8rem';
+        row.innerHTML = `<input type="checkbox" style="margin-top:2px;"> <span>${act}</span>`;
+        listEl.appendChild(row);
+      });
+      
+      // Outline content
+      const essayBox = document.getElementById('dw-essay-box');
+      essayBox.innerHTML = `
+        <div style="margin-bottom: 8px;">
+          <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['hook']}</div>
+          <div style="font-size: 0.8rem;">
+            ${currentLang === 'zh' ? 
+              '以激发你学术热情的一个具体实验、项目或事件作为开篇故事。' : 
+              'Hook the reader with a personal vignette related to the program. Describe a specific moment of academic curiosity or personal drive.'}
+          </div>
+        </div>
+        <div style="margin-bottom: 8px;">
+          <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['strength']}</div>
+          <div style="font-size: 0.8rem;">
+            ${currentLang === 'zh' ? 
+              '列举你修读过的高阶课程、完成的独立研究项目或竞赛奖项，展示实力储备。' : 
+              'Provide concrete evidence of your expertise. Detail advanced courses taken and projects designed that demonstrate academic readiness.'}
+          </div>
+        </div>
+        <div style="margin-bottom: 8px;">
+          <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['growth']}</div>
+          <div style="font-size: 0.8rem;">
+            ${currentLang === 'zh' ? 
+              '讲述你解决复杂问题或遭遇挫败时的反思，展示你的抗挫力与分析逻辑。' : 
+              'Elaborate on a challenge or project failure. Focus on your problem-solving framework and intellectual resilience.'}
+          </div>
+        </div>
+        <div>
+          <div style="font-size: 0.65rem; color: var(--text-muted); font-weight: bold; text-transform: uppercase;">${translations[currentLang]['why']}</div>
+          <div style="font-size: 0.8rem;">
+            ${currentLang === 'zh' ? 
+              '指出本项目与你长期科学追求或职业抱负之间的逻辑交汇点。' : 
+              'Detail why this specific program is the logical next step. Close with your long-term career impact goals.'}
+          </div>
+        </div>
+      `;
+      
+      document.getElementById('drawer-overlay').style.display = 'flex';
+    }
+
+    // Close helper
+    function closeDrawer() {
+      document.getElementById('drawer-overlay').style.display = 'none';
+      selectedDrawerItem = null;
+    }
+
+    function copyOutline() {
+      const text = document.getElementById('dw-essay-box').innerText;
+      navigator.clipboard.writeText(text);
+      alert(translations[currentLang]['copied']);
+    }
+  </script>
+</body>
+</html>
