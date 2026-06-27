@@ -810,6 +810,145 @@
     .mt-12 { margin-top: 12px; }
     .mt-16 { margin-top: 16px; }
     .flex-row { display: flex; gap: 8px; flex-wrap: wrap; }
+
+    /* ─── TODAY'S PRIORITY ─── */
+    .today-priority {
+      background: linear-gradient(135deg, #007AFF, #5856D6);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      color: #fff;
+      margin-bottom: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+    .today-priority::after { content: ''; position: absolute; right: -20px; top: -20px; width: 120px; height: 120px; background: rgba(255,255,255,0.08); border-radius: 50%; }
+    .priority-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; opacity: 0.85; margin-bottom: 4px; }
+    .priority-stars { font-size: 1rem; margin-bottom: 6px; letter-spacing: 2px; }
+    .priority-title { font-size: 1.05rem; font-weight: 800; margin-bottom: 4px; line-height: 1.35; }
+    .priority-impact { font-size: 0.8rem; opacity: 0.85; }
+    .priority-cta { display: inline-block; margin-top: 10px; padding: 6px 14px; background: rgba(255,255,255,0.2); border-radius: 100px; font-size: 0.78rem; font-weight: 700; cursor: pointer; transition: background 0.15s; }
+    .priority-cta:hover { background: rgba(255,255,255,0.35); }
+
+    /* ─── NEXT TASKS ─── */
+    .task-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      background: rgba(0,0,0,0.03);
+      margin-bottom: 8px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .task-item:hover { background: rgba(0,122,255,0.08); }
+    .task-item:last-child { margin-bottom: 0; }
+    .task-icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+    .task-text { font-size: 0.85rem; flex: 1; }
+    .task-impact { font-size: 0.7rem; font-weight: 700; color: var(--success); flex-shrink: 0; white-space: nowrap; }
+
+    /* ─── DASH COMPACT STATS ─── */
+    .dash-stat-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+    .dash-stat-card { background: var(--card-bg); border-radius: 16px; padding: 14px 16px; border: 1px solid var(--border); }
+    .dash-stat-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); font-weight: 700; margin-bottom: 4px; }
+    .dash-stat-value { font-size: 1.8rem; font-weight: 800; background: var(--accent-gradient); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; line-height: 1.1; }
+    .dash-stat-sub { font-size: 0.7rem; color: var(--text-muted); margin-top: 2px; }
+
+    /* ─── ACHIEVEMENTS ─── */
+    .achievements-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .achievement-badge {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      padding: 12px 8px;
+      border-radius: 14px;
+      border: 1.5px solid var(--border);
+      text-align: center;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+    .achievement-badge.unlocked { background: linear-gradient(135deg, rgba(52,199,89,0.08), rgba(0,122,255,0.08)); border-color: rgba(52,199,89,0.5); }
+    .achievement-badge.locked { opacity: 0.38; }
+    .achievement-badge .badge-icon { font-size: 1.6rem; line-height: 1; }
+    .achievement-badge .badge-name { font-size: 0.65rem; font-weight: 700; color: var(--text-muted); line-height: 1.2; }
+    .achievement-badge.unlocked .badge-name { color: var(--success); }
+    .achievement-new { position: absolute; top: -4px; right: -4px; width: 10px; height: 10px; background: var(--danger); border-radius: 50%; }
+
+    /* ─── WHY RECOMMENDED ─── */
+    .why-rec-block {
+      margin-top: 10px;
+      padding: 10px 12px;
+      background: rgba(52,199,89,0.07);
+      border-left: 3px solid var(--success);
+      border-radius: 0 10px 10px 0;
+    }
+    .why-rec-title { font-size: 0.72rem; font-weight: 800; color: var(--success); margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .why-rec-reason { font-size: 0.75rem; color: var(--text-muted); display: flex; align-items: center; gap: 4px; margin-bottom: 2px; }
+    .why-rec-reason::before { content: '✓'; color: var(--success); font-weight: 700; }
+    .confidence-bar { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
+    .confidence-label { font-size: 0.68rem; color: var(--text-muted); }
+    .confidence-pct { font-size: 0.72rem; font-weight: 800; color: var(--success); }
+
+    /* ─── COLLEGE PERSONAS ─── */
+    .persona-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .persona-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 16px;
+      border: 1.5px solid var(--border);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .persona-card:hover { border-color: var(--primary); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,122,255,0.12); }
+    .persona-card.expanded { border-color: var(--primary); }
+    .persona-name { font-weight: 800; font-size: 0.92rem; margin-bottom: 2px; }
+    .persona-accept { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 8px; }
+    .persona-stat-row { display: flex; justify-content: space-between; font-size: 0.75rem; margin-bottom: 3px; }
+    .persona-stat-label { color: var(--text-muted); }
+    .persona-stat-val { font-weight: 700; }
+    .persona-stars { color: #FF9500; }
+    .persona-detail { display: none; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); font-size: 0.75rem; }
+    .persona-card.expanded .persona-detail { display: block; }
+    .persona-majors { color: var(--text-muted); margin-top: 6px; }
+
+    /* ─── WHAT-IF SIMULATOR ─── */
+    .whatif-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .whatif-row:last-child { border-bottom: none; }
+    .whatif-scenario { flex: 1; font-size: 0.83rem; color: var(--text-muted); }
+    .whatif-score-new { font-size: 1rem; font-weight: 800; color: var(--primary); }
+    .whatif-delta { font-size: 0.75rem; font-weight: 700; color: var(--success); background: rgba(52,199,89,0.1); padding: 2px 8px; border-radius: 100px; }
+    .whatif-current-label { font-size: 0.78rem; font-weight: 700; padding: 2px 8px; background: rgba(0,0,0,0.06); border-radius: 100px; color: var(--text-muted); }
+
+    /* ─── PORTFOLIO ANALYSIS ─── */
+    .portfolio-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+    .portfolio-label { font-size: 0.8rem; font-weight: 600; width: 95px; flex-shrink: 0; }
+    .portfolio-bar-bg { flex: 1; height: 9px; background: rgba(0,0,0,0.06); border-radius: 999px; overflow: hidden; }
+    .portfolio-bar-fill { height: 100%; border-radius: 999px; transition: width 0.8s ease; }
+    .portfolio-num { font-size: 0.8rem; font-weight: 700; width: 38px; text-align: right; flex-shrink: 0; }
+    .portfolio-tag { font-size: 0.65rem; font-weight: 700; padding: 1px 7px; border-radius: 6px; flex-shrink: 0; }
+    .portfolio-tag.needs { background: rgba(255,59,48,0.12); color: var(--danger); }
+    .portfolio-tag.good { background: rgba(52,199,89,0.12); color: var(--success); }
+    .portfolio-weakness-block { padding: 12px 14px; background: rgba(255,59,48,0.05); border-left: 3px solid var(--danger); border-radius: 0 12px 12px 0; margin: 12px 0; font-size: 0.83rem; }
+    .portfolio-rec-item { display: flex; align-items: flex-start; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 0.82rem; }
+    .portfolio-rec-item:last-child { border-bottom: none; }
+    .portfolio-rec-arrow { color: var(--primary); font-weight: 800; flex-shrink: 0; }
   </style>
 </head>
 <body>
@@ -821,6 +960,7 @@
       <p id="app-sub">Personalized • AI-powered • Always free</p>
     </div>
     <div class="header-actions">
+      <a href="#" onclick="openContributors(event)" style="font-size:0.78rem;color:var(--text-muted);text-decoration:none;margin-right:12px;display:inline-flex;align-items:center;gap:4px;" id="lnk-contributors-header">👥 <span>Contributors</span></a>
       <div class="lang-selector">
         <button class="lang-btn active" id="lang-en" onclick="setLang('en')">EN</button>
         <button class="lang-btn" id="lang-zh" onclick="setLang('zh')">中</button>
@@ -854,14 +994,43 @@
       <div style="font-size:0.82rem;color:var(--text-muted);" id="dash-sub">Complete your profile to unlock personalized recommendations.</div>
     </div>
 
+    <!-- Today's Priority -->
+    <div class="today-priority" id="today-priority-card">
+      <div class="priority-label">⭐ Today's Priority</div>
+      <div class="priority-stars" id="priority-stars">⭐⭐⭐⭐☆</div>
+      <div class="priority-title" id="priority-title">Complete your profile to unlock personalized guidance</div>
+      <div class="priority-impact" id="priority-impact">Set up your GPA, grade, and interests to get started.</div>
+      <div class="priority-cta" id="priority-cta" onclick="switchTab('profile')">Get Started →</div>
+    </div>
+
+    <!-- Next Three Tasks -->
+    <div class="card" style="margin-bottom:16px;">
+      <div class="section-heading" style="margin-bottom:10px;">✅ <span>Next Steps</span></div>
+      <div id="next-tasks-list"><!-- rendered by JS --></div>
+    </div>
+
+    <!-- Compact Stats Row -->
+    <div class="dash-stat-row">
+      <div class="dash-stat-card">
+        <div class="dash-stat-label">📊 Admissions Strength</div>
+        <div class="dash-stat-value" id="overall-score-compact">--</div>
+        <div class="dash-stat-sub">out of 100</div>
+      </div>
+      <div class="dash-stat-card">
+        <div class="dash-stat-label">🗺️ Roadmap Progress</div>
+        <div class="dash-stat-value" id="roadmap-pct-compact">0%</div>
+        <div class="dash-stat-sub">milestones complete</div>
+      </div>
+    </div>
+
     <div class="dashboard-grid">
 
-      <!-- Admissions Strength Score -->
+      <!-- Detailed Admissions Score -->
       <div class="card score-card">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
           <div>
             <div class="section-heading" style="margin-bottom:4px;">📊 <span id="lbl-strength">Admissions Strength</span></div>
-            <div class="text-sm text-muted" id="lbl-strength-sub">Based on your profile & saved activities</div>
+            <div class="text-sm text-muted" id="lbl-strength-sub">8-factor model · weighted like real admissions</div>
           </div>
           <div style="text-align:right;">
             <div class="overall-score" id="overall-score">--</div>
@@ -869,14 +1038,17 @@
           </div>
         </div>
         <div id="score-bars">
-          <div class="score-row"><span class="score-label">🎓 Academic</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-academic" style="width:0%;background:linear-gradient(90deg,#007AFF,#5856D6);"></div></div><span class="score-num" id="num-academic">--</span></div>
-          <div class="score-row"><span class="score-label">🏆 Activities</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-activities" style="width:0%;background:linear-gradient(90deg,#AF52DE,#5856D6);"></div></div><span class="score-num" id="num-activities">--</span></div>
-          <div class="score-row"><span class="score-label">🏅 Awards</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-awards" style="width:0%;background:linear-gradient(90deg,#FF9500,#FF3B30);"></div></div><span class="score-num" id="num-awards">--</span></div>
-          <div class="score-row"><span class="score-label">🧪 Research</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-research" style="width:0%;background:linear-gradient(90deg,#34C759,#007AFF);"></div></div><span class="score-num" id="num-research">--</span></div>
-          <div class="score-row"><span class="score-label">✍️ Essays</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-essays" style="width:0%;background:linear-gradient(90deg,#FF2D55,#AF52DE);"></div></div><span class="score-num" id="num-essays">--</span></div>
+          <div class="score-row"><span class="score-label" style="width:100px;">🎓 GPA &amp; Rigor</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-academic" style="width:0%;background:linear-gradient(90deg,#007AFF,#5856D6);"></div></div><span class="score-num" id="num-academic">--</span></div>
+          <div class="score-row"><span class="score-label" style="width:100px;">📝 SAT/ACT</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-sat" style="width:0%;background:linear-gradient(90deg,#5856D6,#AF52DE);"></div></div><span class="score-num" id="num-sat">--</span></div>
+          <div class="score-row"><span class="score-label" style="width:100px;">📚 AP/IB</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-ap" style="width:0%;background:linear-gradient(90deg,#007AFF,#34C759);"></div></div><span class="score-num" id="num-ap">--</span></div>
+          <div class="score-row"><span class="score-label" style="width:100px;">👑 Leadership</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-leadership" style="width:0%;background:linear-gradient(90deg,#FF9500,#FF3B30);"></div></div><span class="score-num" id="num-leadership">--</span></div>
+          <div class="score-row"><span class="score-label" style="width:100px;">🧪 Research</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-research" style="width:0%;background:linear-gradient(90deg,#34C759,#007AFF);"></div></div><span class="score-num" id="num-research">--</span></div>
+          <div class="score-row"><span class="score-label" style="width:100px;">🏅 Awards</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-awards" style="width:0%;background:linear-gradient(90deg,#FF9500,#FF2D55);"></div></div><span class="score-num" id="num-awards">--</span></div>
+          <div class="score-row"><span class="score-label" style="width:100px;">🤝 Service</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-service" style="width:0%;background:linear-gradient(90deg,#AF52DE,#5856D6);"></div></div><span class="score-num" id="num-service">--</span></div>
+          <div class="score-row"><span class="score-label" style="width:100px;">✍️ Essays</span><div class="score-bar-bg"><div class="score-bar-fill" id="bar-essays" style="width:0%;background:linear-gradient(90deg,#FF2D55,#AF52DE);"></div></div><span class="score-num" id="num-essays">--</span></div>
         </div>
         <div class="divider"></div>
-        <div style="font-size:0.78rem;color:var(--text-muted);" id="lbl-score-tip">💡 Bookmark competitions and research programs to raise your Activities & Awards scores.</div>
+        <div style="font-size:0.78rem;color:var(--text-muted);" id="lbl-score-tip">💡 Bookmark competitions and research programs to raise your scores.</div>
       </div>
 
       <!-- Daily Missions -->
@@ -886,9 +1058,7 @@
           <div class="xp-row"><span id="xp-label">0 XP — Level 1</span><span id="xp-next">Next: 50 XP</span></div>
           <div class="xp-bar-bg"><div class="xp-bar-fill" id="xp-bar" style="width:0%;"></div></div>
         </div>
-        <div class="mt-12" id="missions-list">
-          <!-- rendered by JS -->
-        </div>
+        <div class="mt-12" id="missions-list"><!-- rendered by JS --></div>
       </div>
 
       <!-- Upcoming Deadlines -->
@@ -1085,6 +1255,14 @@
        PANEL: COLLEGES (predictor)
   ══════════════════════════════════════════════════════ -->
   <div id="panel-colleges" class="panel">
+
+    <!-- College Personas -->
+    <div class="section-heading" style="margin-bottom:4px;">🎓 <span>College Profiles</span></div>
+    <div class="text-sm text-muted" style="margin-bottom:12px;">Tap a school to see what a typical admitted student looks like.</div>
+    <div class="persona-grid" id="persona-grid"><!-- rendered by JS --></div>
+
+    <div class="divider"></div>
+
     <div class="section-heading" style="margin-bottom:4px;">🏫 <span id="lbl-predictor">College Admissions Predictor</span></div>
     <div class="text-sm text-muted" style="margin-bottom:16px;" id="lbl-pred-sub">Enter your profile to see your likely admission outcomes.</div>
 
@@ -1130,6 +1308,13 @@
     <div id="predictor-results-panel" style="display:none;">
       <div class="section-heading" style="margin-bottom:12px;">📋 <span id="lbl-pred-results">Results</span></div>
       <div id="predictor-results-list"></div>
+
+      <!-- What-If Simulator -->
+      <div class="card whatif-card" id="whatif-card" style="margin-top:20px;">
+        <div class="section-heading" style="margin-bottom:4px;">🔮 What If? Scenario Simulator</div>
+        <div class="text-sm text-muted" style="margin-bottom:12px;">See how future improvements would raise your admissions strength score.</div>
+        <div id="whatif-list"><!-- rendered by JS --></div>
+      </div>
     </div>
   </div>
 
@@ -1278,6 +1463,16 @@
             <option value="Individual">Individual</option>
             <option value="Team-Based">Team-Based</option>
           </select></div>
+        <div class="form-group"><label>AP / IB Courses Taken</label>
+          <input type="number" id="prof-ap" placeholder="e.g. 4" min="0" max="15" value="0"></div>
+        <div class="form-group"><label>Community Service Hours</label>
+          <input type="number" id="prof-service" placeholder="e.g. 80" min="0" max="999" value="0"></div>
+        <div class="form-group" style="grid-column:1/-1;">
+          <label style="display:flex;align-items:center;gap:10px;cursor:pointer;">
+            <input type="checkbox" id="prof-leadership" style="accent-color:var(--primary);width:18px;height:18px;">
+            <span>I hold a leadership role in a club or organization</span>
+          </label>
+        </div>
       </div>
       <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap;">
         <button class="btn btn-primary" onclick="saveProfile()">💾 <span id="lbl-save-profile">Save Profile</span></button>
@@ -1286,13 +1481,21 @@
     </div>
 
     <div class="section-heading" style="margin-bottom:12px;">🏅 Your Progress</div>
-    <div class="card">
+    <div class="card" style="margin-bottom:16px;">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
         <div><span id="stat-bookmarks">0</span> Saved items</div>
         <div><span id="stat-roadmap">0%</span> Roadmap done</div>
         <div><span id="stat-xp">0 XP</span></div>
       </div>
       <button class="btn btn-outline" style="color:var(--danger);border-color:var(--danger);" onclick="confirmResetAll()">🗑️ Reset All Data</button>
+    </div>
+
+    <!-- AI Portfolio Analysis -->
+    <div class="section-heading" style="margin-bottom:12px;">🤖 AI Portfolio Analysis</div>
+    <div class="card">
+      <div class="text-sm text-muted" style="margin-bottom:14px;">Save your profile to get an AI-generated breakdown of your strengths and where to improve.</div>
+      <button class="btn btn-primary" onclick="renderPortfolioAnalysis()" style="width:100%;justify-content:center;">🔍 Analyze My Portfolio</button>
+      <div id="portfolio-analysis-result" style="display:none;margin-top:16px;"></div>
     </div>
   </div>
 
@@ -1386,9 +1589,9 @@
   let xpPoints = 0;
   let roadmapProgress = {};
   let essayContent = '';
-  let scholarshipsLimit = 24;
-  let competitionsLimit = 24;
-  let researchLimit = 24;
+  let scholarshipsLimit = 999;
+  let competitionsLimit = 999;
+  let researchLimit = 999;
   let questMatches = [];
   let selectedDrawerItem = null;
   let selectedDrawerType = null;
@@ -1513,6 +1716,9 @@
         studentProfile.need = data.need_based ? 'yes' : 'no';
         studentProfile.format = data.format_pref || 'Any';
         studentProfile.skill = data.skill_level || 'Any';
+        studentProfile.apCourses = data.ap_courses || 0;
+        studentProfile.serviceHours = data.service_hours || 0;
+        studentProfile.leadership = data.leadership || false;
         if (data.bookmarks) { try { bookmarks = JSON.parse(data.bookmarks); } catch(e){} }
         if (data.roadmap_progress) { try { roadmapProgress = JSON.parse(data.roadmap_progress); } catch(e){} }
         xpPoints = data.xp_points || 0;
@@ -1543,6 +1749,9 @@
         need_based: studentProfile.need === 'yes',
         format_pref: studentProfile.format,
         skill_level: studentProfile.skill,
+        ap_courses: studentProfile.apCourses,
+        service_hours: studentProfile.serviceHours,
+        leadership: studentProfile.leadership,
         bookmarks: JSON.stringify(bookmarks),
         roadmap_progress: JSON.stringify(roadmapProgress),
         xp_points: xpPoints,
@@ -1576,19 +1785,26 @@
     set('prof-ethnicity', s.ethnicity);
     set('prof-need', s.need);
     set('prof-format', s.format);
+    set('prof-ap', s.apCourses || 0);
+    set('prof-service', s.serviceHours || 0);
+    const ldrEl = document.getElementById('prof-leadership');
+    if (ldrEl) ldrEl.checked = !!s.leadership;
   }
 
   function saveProfile() {
-    studentProfile.grade    = document.getElementById('prof-grade').value;
-    studentProfile.gpa      = parseFloat(document.getElementById('prof-gpa').value) || 3.5;
-    studentProfile.sat      = parseInt(document.getElementById('prof-sat').value) || null;
-    studentProfile.act      = parseInt(document.getElementById('prof-act').value) || null;
-    studentProfile.interest = document.getElementById('prof-interest').value;
-    studentProfile.state    = document.getElementById('prof-state').value;
-    studentProfile.gender   = document.getElementById('prof-gender').value;
-    studentProfile.ethnicity= document.getElementById('prof-ethnicity').value;
-    studentProfile.need     = document.getElementById('prof-need').value;
-    studentProfile.format   = document.getElementById('prof-format').value;
+    studentProfile.grade       = document.getElementById('prof-grade').value;
+    studentProfile.gpa         = parseFloat(document.getElementById('prof-gpa').value) || 3.5;
+    studentProfile.sat         = parseInt(document.getElementById('prof-sat').value) || null;
+    studentProfile.act         = parseInt(document.getElementById('prof-act').value) || null;
+    studentProfile.interest    = document.getElementById('prof-interest').value;
+    studentProfile.state       = document.getElementById('prof-state').value;
+    studentProfile.gender      = document.getElementById('prof-gender').value;
+    studentProfile.ethnicity   = document.getElementById('prof-ethnicity').value;
+    studentProfile.need        = document.getElementById('prof-need').value;
+    studentProfile.format      = document.getElementById('prof-format').value;
+    studentProfile.apCourses   = parseInt(document.getElementById('prof-ap').value) || 0;
+    studentProfile.serviceHours= parseInt(document.getElementById('prof-service').value) || 0;
+    studentProfile.leadership  = document.getElementById('prof-leadership').checked;
     localStorage.setItem(storageKey('studentProfile'), JSON.stringify(studentProfile));
     saveCollegeProfileToSupabase();
     completeMission('complete_profile');
@@ -1598,6 +1814,11 @@
     applyProfileToFilter();
     showToast(currentLang === 'zh' ? '✅ 资料已保存' : (currentLang === 'es' ? '✅ Perfil guardado' : '✅ Profile saved!'));
     updateProfileStats();
+    // Update portfolio analysis dynamically if it is currently visible
+    const resultDiv = document.getElementById('portfolio-analysis-result');
+    if (resultDiv && resultDiv.style.display !== 'none') {
+      renderPortfolioAnalysis();
+    }
   }
 
   function applyProfileToFilter() {
@@ -1701,57 +1922,114 @@
   }
 
   // ─── Dashboard ───
-  function computeAdmissionsScore() {
-    const s = studentProfile;
-    // Academic: GPA normalized 2.0–5.0 → 0–100, SAT bonus
-    let academic = Math.round(Math.max(0, Math.min(100, ((s.gpa - 2.0) / 3.0) * 85)));
-    if (s.sat) academic = Math.min(100, academic + Math.round((s.sat - 400) / 1200 * 15));
+  function computeAdmissionsScore(overrides) {
+    const s = Object.assign({}, studentProfile, overrides || {});
 
-    // Activities: bookmarks in competitions/research (up to 50)
-    const actBMs = Object.keys(bookmarks).filter(k => k.startsWith('competitions-') || k.startsWith('scholarships-'));
-    let activities = Math.min(100, actBMs.length * 8);
+    // 1. GPA & Rigor (25%) — weighted GPA 2.0–5.0 → 0–100
+    let gpaScore = Math.round(Math.max(0, Math.min(100, ((parseFloat(s.gpa) - 2.0) / 3.0) * 100)));
+    const academic = Math.round(gpaScore * 0.25 + (s.apCourses > 0 ? Math.min(25, s.apCourses * 3) : 0));
+    // Normalize back to 0-100
+    const gpaRigor = Math.min(100, gpaScore + Math.min(15, (s.apCourses || 0) * 2));
 
-    // Awards: elite bookmarks
-    const eliteBMs = Object.keys(bookmarks).filter(k => {
-      const b = bookmarks[k];
-      return b && b.prestige === 'Elite';
-    });
-    let awards = Math.min(100, eliteBMs.length * 15);
+    // 2. SAT/ACT (10%) — 1000–1600 mapped 0–100
+    const satEquiv = s.sat ? parseInt(s.sat) : (s.act ? Math.round(parseInt(s.act) * 43) : 0);
+    const satScore = satEquiv > 0 ? Math.min(100, Math.round(((satEquiv - 1000) / 600) * 100)) : 0;
 
-    // Research: research bookmarks
-    const resBMs = Object.keys(bookmarks).filter(k => k.startsWith('research-'));
-    let research = Math.min(100, resBMs.length * 12);
+    // 3. AP/IB (10%) — 0 courses = 0, 8+ = 100
+    const apScore = Math.min(100, Math.round((s.apCourses || 0) * 12.5));
 
-    // Essays: based on essay word count
+    // 4. Leadership (15%) — binary + competitions boost
+    const actBMs = Object.keys(bookmarks).filter(k => k.startsWith('competitions-') || k.startsWith('scholarships-')).length;
+    const leaderScore = s.leadership ? Math.min(100, 60 + actBMs * 5) : Math.min(40, actBMs * 6);
+
+    // 5. Research (15%) — research bookmarks
+    const resBMs = Object.keys(bookmarks).filter(k => k.startsWith('research-')).length;
+    const resScore = Math.min(100, resBMs * 18);
+
+    // 6. Awards (10%) — elite bookmarks
+    const eliteBMs = Object.keys(bookmarks).filter(k => { const b = bookmarks[k]; return b && b.prestige === 'Elite'; }).length;
+    const awardsScore = Math.min(100, eliteBMs * 20);
+
+    // 7. Service (10%) — service hours
+    const svcHours = parseInt(s.serviceHours) || 0;
+    const serviceScore = Math.min(100, Math.round((svcHours / 150) * 100));
+
+    // 8. Essays (5%) — essay word count
     const wc = (essayContent || '').trim().split(/\s+/).filter(Boolean).length;
-    let essays = wc >= 650 ? 100 : wc >= 300 ? 70 : wc >= 100 ? 40 : wc >= 1 ? 15 : 0;
+    const essayScore = wc >= 650 ? 100 : wc >= 300 ? 70 : wc >= 100 ? 40 : wc >= 1 ? 15 : 0;
 
-    const overall = Math.round((academic * 0.35) + (activities * 0.2) + (awards * 0.15) + (research * 0.15) + (essays * 0.15));
-    return { academic, activities, awards, research, essays, overall };
+    // Weighted overall
+    const overall = Math.round(
+      gpaRigor    * 0.25 +
+      satScore    * 0.10 +
+      apScore     * 0.10 +
+      leaderScore * 0.15 +
+      resScore    * 0.15 +
+      awardsScore * 0.10 +
+      serviceScore* 0.10 +
+      essayScore  * 0.05
+    );
+
+    return { gpaRigor, satScore, apScore, leaderScore, resScore, awardsScore, serviceScore, essayScore, overall };
   }
 
   function renderDashboard() {
     const score = computeAdmissionsScore();
+
+    // Compact top stats
+    const compactEl = document.getElementById('overall-score-compact');
+    if (compactEl) compactEl.textContent = score.overall;
+    const roadmapTotal = Object.values(roadmapData || {}).reduce((a, g) => a + g.items.length, 0) || 28;
+    const roadmapDone  = Object.values(roadmapProgress).filter(Boolean).length;
+    const roadmapPct   = Math.round((roadmapDone / roadmapTotal) * 100);
+    const roadmapEl = document.getElementById('roadmap-pct-compact');
+    if (roadmapEl) roadmapEl.textContent = roadmapPct + '%';
+
+    // Today's priority
+    renderTodayPriority(score);
+    renderNextTasks(score);
+
+    // Achievements
+    checkAchievements();
+    renderAchievements();
+
+    // Detailed score bars
     document.getElementById('overall-score').textContent = score.overall;
-    const setBar = (id, numId, val) => {
+    const setBar = (id, val) => {
       const bar = document.getElementById('bar-' + id);
       const num = document.getElementById('num-' + id);
-      if (bar) bar.style.width = val + '%';
+      if (bar) setTimeout(() => { bar.style.width = val + '%'; }, 80);
       if (num) num.textContent = val;
     };
-    setBar('academic', 'num-academic', score.academic);
-    setBar('activities', 'num-activities', score.activities);
-    setBar('awards', 'num-awards', score.awards);
-    setBar('research', 'num-research', score.research);
-    setBar('essays', 'num-essays', score.essays);
+    setBar('academic',   score.gpaRigor);
+    setBar('sat',        score.satScore);
+    setBar('ap',         score.apScore);
+    setBar('leadership', score.leaderScore);
+    setBar('research',   score.resScore);
+    setBar('awards',     score.awardsScore);
+    setBar('service',    score.serviceScore);
+    setBar('essays',     score.essayScore);
 
-    // Tip
-    let tip = '💡 ';
-    if (score.essays === 0) tip += 'Start your personal statement in the Coach tab to raise your Essay score.';
-    else if (score.research < 30) tip += 'Save research programs to raise your Research score.';
-    else if (score.activities < 40) tip += 'Bookmark competitions and scholarships to raise your Activities score.';
-    else tip += 'Great progress! Keep working on your essays and activities.';
-    document.getElementById('lbl-score-tip').textContent = tip;
+    // Score tip — highlight weakest area
+    const scores8 = [
+      ['Essays',      score.essayScore],    ['Research',    score.resScore],
+      ['SAT/ACT',     score.satScore],      ['AP/IB',       score.apScore],
+      ['Leadership',  score.leaderScore],   ['Service',     score.serviceScore],
+      ['Awards',      score.awardsScore],   ['GPA & Rigor', score.gpaRigor]
+    ];
+    const weakest = [...scores8].sort((a, b) => a[1] - b[1])[0];
+    const tips = {
+      'Essays':      '✍️ Start your personal statement in Essay Studio to raise your essay score.',
+      'Research':    '🧪 Browse Research Opportunities and bookmark 2–3 programs to apply for.',
+      'SAT/ACT':     '📈 Add your SAT/ACT score in Profile to accurately reflect your academic strength.',
+      'AP/IB':       '📚 Update your AP/IB course count in Profile — every course adds to your score.',
+      'Leadership':  '👑 Mark your leadership role in Profile, or bookmark elite competitions.',
+      'Service':     '🤝 Add community service hours in Profile — colleges value consistent service.',
+      'Awards':      '🏅 Bookmark Elite competitions — even registering signals ambition to colleges.',
+      'GPA & Rigor': '📚 Your GPA is the foundation. Focus on AP/IB courses for the biggest impact.'
+    };
+    const tip = document.getElementById('lbl-score-tip');
+    if (tip) tip.textContent = '💡 ' + (tips[weakest[0]] || 'Great progress! Keep building your profile.');
 
     // XP & level
     const level = Math.floor(xpPoints / 50) + 1;
@@ -2217,7 +2495,7 @@
     }
 
     matches.sort((a, b) => b.score - a.score);
-    questMatches = matches.slice(0, 12);
+    questMatches = matches; // No longer slice to 12; display all matching opportunities
 
     document.getElementById('quest-inputs').style.display = 'none';
     document.getElementById('quest-results').style.display = 'block';
@@ -2235,6 +2513,123 @@
     questMatches.forEach(item => {
       grid.appendChild(buildCard(item, item.group));
     });
+  }
+
+  function renderPortfolioAnalysis() {
+    const score = computeAdmissionsScore();
+    const resultDiv = document.getElementById('portfolio-analysis-result');
+    if (!resultDiv) return;
+
+    // Determine strengths and weaknesses
+    const dimensions = [
+      { name: 'GPA & Course Rigor', val: score.gpaRigor, category: 'academic' },
+      { name: 'SAT/ACT Standardized Testing', val: score.satScore, category: 'sat' },
+      { name: 'AP/IB Rigor course count', val: score.apScore, category: 'ap' },
+      { name: 'Leadership & Extracurricular Roles', val: score.leaderScore, category: 'leadership' },
+      { name: 'Research Experience', val: score.resScore, category: 'research' },
+      { name: 'Competitions & Awards', val: score.awardsScore, category: 'awards' },
+      { name: 'Community Service Hours', val: score.serviceScore, category: 'service' },
+      { name: 'College Essays & Outlining', val: score.essayScore, category: 'essays' }
+    ];
+
+    dimensions.sort((a, b) => b.val - a.val);
+    const strengths = dimensions.filter(d => d.val >= 70);
+    const weaknesses = dimensions.filter(d => d.val < 70);
+
+    let html = `
+      <div style="font-weight:700;font-size:0.95rem;margin-bottom:12px;">📊 Portfolio Evaluation Breakdown</div>
+      <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:16px;">
+    `;
+
+    dimensions.forEach(d => {
+      const tagClass = d.val >= 70 ? 'good' : 'needs';
+      const tagText = d.val >= 70 ? 'STRONG' : 'IMPROVEMENT';
+      const color = d.val >= 70 ? 'var(--success)' : 'var(--danger)';
+      html += `
+        <div class="portfolio-row">
+          <span class="portfolio-label">${d.name}</span>
+          <div class="portfolio-bar-bg">
+            <div class="portfolio-bar-fill" style="width:${d.val}%;background:${color};"></div>
+          </div>
+          <span class="portfolio-num">${d.val}</span>
+          <span class="portfolio-tag ${tagClass}">${tagText}</span>
+        </div>
+      `;
+    });
+
+    html += `</div>`;
+
+    if (weaknesses.length > 0) {
+      const weakest = weaknesses[weaknesses.length - 1];
+      const recs = {
+        'academic': 'Focus on maintaining your grade point average and choosing rigorous courses next semester.',
+        'sat': 'Schedule an SAT/ACT prep routine or log your scores in the Profile to optimize predictor odds.',
+        'ap': 'Plan to register for more AP or IB courses next year to show academic curiosity to admissions boards.',
+        'leadership': 'Seek a leadership position in a school club or take charge of a personal project.',
+        'research': 'Apply for summer research programs like MIT PRIMES, RSI, or check the Research pill for options.',
+        'awards': 'Find competitions matching your academic interests and start prepping early to earn certificates.',
+        'service': 'Find local organizations to volunteer with and aim to reach 50-100+ community service hours.',
+        'essays': 'Open the Essay Studio or select essay outlines in the AI Prep strategy drawers to start drafting.'
+      };
+      html += `
+        <div class="portfolio-weakness-block">
+          <strong>⚠️ Focus Area: ${weakest.name}</strong><br>
+          Your score in this area is currently low (${weakest.val}/100). ${recs[weakest.category]}
+        </div>
+      `;
+    }
+
+    // Personalized monthly timeline
+    const s = studentProfile;
+    const grade = parseInt(s.grade) || 11;
+    let timelineHtml = `
+      <div class="divider"></div>
+      <div style="font-weight:700;font-size:0.95rem;margin:16px 0 8px;">📅 Recommended Admissions Timeline</div>
+      <div class="next-steps-list">
+    `;
+
+    const timelineMilestones = {
+      9: [
+        { month: 'September', text: 'Define 2-3 academic and hobby interests; join school clubs.' },
+        { month: 'December', text: 'Review GPA baseline; establish consistent study habits.' },
+        { month: 'March', text: 'Start planning volunteer activities (aim for 20+ hours this year).' },
+        { month: 'June', text: 'Begin a summer reading list and explore coding/design tutorials online.' }
+      ],
+      10: [
+        { month: 'October', text: 'Take the PSAT 10 exam to get a baseline standardized testing score.' },
+        { month: 'January', text: 'Select challenging AP/IB courses for next year\'s schedule.' },
+        { month: 'March', text: 'Research local research lab opportunities or summer programs.' },
+        { month: 'June', text: 'Take the SAT/ACT for practice or work on a custom portfolio project.' }
+      ],
+      11: [
+        { month: 'October', text: 'Take the PSAT/NMSQT exam to qualify for National Merit Scholarships.' },
+        { month: 'January', text: 'Build your initial college list of 10-15 safety, match, and reach schools.' },
+        { month: 'March', text: 'Ask two teachers for recommendation letters before junior year ends.' },
+        { month: 'July', text: 'Begin drafting your Common App personal statement in the Essay Studio.' }
+      ],
+      12: [
+        { month: 'August', text: 'Finalize your college list and write supplemental essays.' },
+        { month: 'October', text: 'Submit Early Action (EA) / Early Decision (ED) applications and submit FAFSA.' },
+        { month: 'December', text: 'Submit all Regular Decision applications before deadlines.' },
+        { month: 'May', text: 'Review college admissions offers and submit enrollment deposit by May 1st.' }
+      ]
+    };
+
+    const milestones = timelineMilestones[grade] || timelineMilestones[11];
+    milestones.forEach(m => {
+      timelineHtml += `
+        <div class="next-step-item" style="background:rgba(88,86,214,0.06);border-left-color:var(--secondary);">
+          <div class="next-step-icon" style="font-size:0.8rem;background:var(--secondary);color:#fff;padding:2px 6px;border-radius:4px;font-weight:700;margin-top:2px;">${m.month.substring(0,3)}</div>
+          <div class="next-step-text"><strong>${m.month}:</strong> ${m.text}</div>
+        </div>
+      `;
+    });
+
+    timelineHtml += `</div>`;
+    html += timelineHtml;
+
+    resultDiv.innerHTML = html;
+    resultDiv.style.display = 'block';
   }
 
   function resetQuestionnaire() {
@@ -2936,7 +3331,7 @@ Conclusion (50 words): End with resonance, not a summary.`;
       textEl.innerHTML = '⏱️ Contributors information timed out. Please try again.';
       textEl.style.display = 'block';
     }, 8000);
-    fetch('https://raw.githubusercontent.com/QueenCityAI/contributors/main/README.md')
+    fetch('https://qcai-net.github.io/college/contributors.txt')
       .then(r => r.text())
       .then(text => {
         clearTimeout(timeoutId);
