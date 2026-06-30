@@ -1,25 +1,17 @@
 [
   {
-    "title": "Por qué todos, desde OpenAI hasta SpaceX, están construyendo sus propios chips (y aumentando la temperatura en Nvidia)",
-    "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
-    "industry": "AI & Technology",
-    "summary": "Nvidia ha dominado el mercado de chips de IA durante años, pero la era de dependencia total podría estar llegando a su fin.&#160;&#160; OpenAI acaba de compartir sus planes para darle vida a &&#160;Jalapeño, su chip de inferencia personalizado creado con Broadcom, uniéndose a Google, Apple y SpaceX en una lista creciente de...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "El chip Jalapeño de OpenAI es el movimiento más atractivo de las grandes tecnologías para alejarse de Nvidia",
-    "url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
-    "industry": "AI & Technology",
-    "summary": "Nvidia ha dominado el mercado de chips de IA durante años, pero la era de dependencia total podría estar llegando a su fin.&#160;&#160; OpenAI acaba de compartir sus planes para darle vida a &&#160;Jalapeño, su chip de inferencia personalizado creado con Broadcom, uniéndose a Google, Apple y SpaceX en una lista creciente de...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
     "title": "OpenAI limita el lanzamiento de GPT-5.6 después de una solicitud del gobierno y dice que las restricciones no deberían ser la norma",
     "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
     "industry": "AI & Technology",
     "summary": "\"No creemos que este tipo de proceso de acceso gubernamental deba convertirse en el estándar a largo plazo\", dice OpenAI. \"Mantiene las mejores herramientas de los usuarios, desarrolladores, empresas, ciberdefensores y socios globales que las necesitan\".",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La plataforma de codificación Vibe Base44 lanza su propio modelo mientras las nuevas empresas de IA buscan defensa",
+    "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+    "industry": "AI & Technology",
+    "summary": "Base44, la plataforma de codificación de vibraciones, propiedad de Wix, ha comenzado a implementar su propio modelo de inteligencia artificial, con la esperanza de que eventualmente supere a los modelos de vanguardia.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -72,18 +64,18 @@
     "impact_score": 5
   },
   {
-    "title": "Ya no se trata de Anthropic versus OpenAI",
-    "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+    "title": "OKX, el exchange de criptomonedas, quiere que los agentes de IA se contraten y se paguen entre sí",
+    "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
     "industry": "AI & Technology",
-    "summary": "Los modelos de IA han progresado hasta el punto en que sus capacidades tienen consecuencias políticas reales. Hacer frente a esas consecuencias requerirá una acción colectiva.",
+    "summary": "OKX está reuniendo pagos, identidad y reputación en un mercado para agentes de IA.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Ford vuelve a contratar ingenieros de “barba gris” después de que la IA se quedara corta",
-    "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+    "title": "El debate sobre el empleo de la IA se ha vuelto más complicado",
+    "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
     "industry": "AI & Technology",
-    "summary": "\"Pensamos erróneamente que con sólo introducir la inteligencia artificial... se produciría un producto de alta calidad\".",
+    "summary": "Un nuevo informe revela que los \"adoptadores de IA de alta intensidad\" experimentaron un aumento de plantilla del 10,2 %. Entre esas empresas, la plantilla de nivel inicial aumentó un 12%, contrarrestando la retórica de que la IA acaba con los empleos junior.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -104,6 +96,14 @@
     "impact_score": 5
   },
   {
+    "title": "Ford vuelve a contratar ingenieros de “barba gris” después de que la IA se quedara corta",
+    "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+    "industry": "AI & Technology",
+    "summary": "\"Pensamos erróneamente que con sólo introducir la inteligencia artificial... se produciría un producto de alta calidad\".",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
     "title": "El fundador más apto de la sala contrajo cáncer. Así es como utilizó la IA para contraatacar.",
     "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
     "industry": "AI & Technology",
@@ -112,50 +112,50 @@
     "impact_score": 5
   },
   {
-    "title": "Metaplataformas versus Snap: comparación de la escala de ingresos y las trayectorias recientes",
-    "url": "https://biztoc.com/x/8f35047e268e1204",
+    "title": "Los ingresos de Tata Motors-Iveco alcanzarán entre 35.000 y 40.000 millones de dólares en cinco años: N Chandrasekaran",
+    "url": "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/tata-motors-iveco-revenue-to-be-35-40-billion-in-5-years-n-chandrasekaran/articleshow/132071896.cms",
     "industry": "AI & Technology",
-    "summary": "Metaplataformas: ampliando su base de ingresos\nMeta Platforms (NASDAQ:META) genera ingresos principalmente ofreciendo publicidad digital en sus aplicaciones sociales, incluidas Facebook e Instagram, y desarrollando hardware de realidad virtual.\nMientras lanza su Mu…",
+    "summary": "Tata Motors proyecta un notable crecimiento de ingresos de entre 35.000 y 40.000 millones de dólares en su sector de vehículos comerciales durante los próximos cinco años a partir de la adquisición del Grupo Iveco, dijo el presidente N Chandrasekaran. Esta decisión estratégica, que se espera que finalice en septiembre,...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Explosiva carta confidencial revela por qué el jefe del LAUSD, Alberto Carvalho, renunció repentinamente",
-    "url": "https://nypost.com/2026/06/28/us-news/explosive-confidential-letter-reveals-why-lausd-chief-alberto-carvalho-suddenly-resigned/",
+    "title": "La IA no es la mayor preocupación regulatoria para las nuevas empresas indias, la gobernanza de datos sí lo es: encuesta",
+    "url": "https://www.livemint.com/companies/news/ai-isnt-the-biggest-regulatory-worry-for-indian-startups-data-governance-is-survey-11782730264762.html",
     "industry": "AI & Technology",
-    "summary": "La información llega cuatro meses después de que agentes del FBI registraron la casa y la oficina de distrito de Carvalho como parte de una investigación federal que involucra a la startup tecnológica AllHere.",
+    "summary": "El estudio, basado en una encuesta a 550 participantes del ecosistema, incluidas 350 nuevas empresas, 100 empresas de capital de riesgo (VC) y 100 incubadoras, muestra que el 44% de los encuestados identificaron la gobernanza de datos y las regulaciones de confianza digital como su principal preocupación regulatoria.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "está evitando adquisiciones en favor del desarrollo orgánico de la IA",
-    "url": "https://biztoc.com/x/defa8e7b9dfc448e",
+    "title": "Booz Allen se asocia con OpenAI para mejorar las soluciones de IA para la seguridad nacional de EE. UU.",
+    "url": "https://cryptobriefing.com/booz-allen-openai-us-national-security/",
     "industry": "AI & Technology",
-    "summary": "Broadcom Inc. (NASDAQ:AVGO) es una de las 10 mejores acciones de semiconductores para comprar según los multimillonarios.\ndesde que el director ejecutivo, Hock Tan, afirmó que acelerar el crecimiento de la inteligencia artificial es un impulsor más fuerte de la rentabilidad. Tan dijo en el Bloomberg...",
+    "summary": "La asociación podría redefinir el papel de la IA en la seguridad nacional, pero también plantea importantes riesgos en materia de precisión y confiabilidad operativa.\nLa publicación Booz Allen se asocia con OpenAI para mejorar las soluciones de inteligencia artificial para la seguridad nacional de EE. UU. apareció por primera vez en Cr...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "AMD acaba de adquirir MEXT para solucionar el problema de optimización de la memoria. ¿Deberían estar nerviosos los inversores de Micron y Sandisk?",
-    "url": "https://biztoc.com/x/aeff7334b8e5e25e",
+    "title": "Los gigantes tecnológicos estadounidenses recurren a los mercados de bonos extranjeros a medida que aumenta la deuda relacionada con la IA",
+    "url": "https://biztoc.com/x/259c70513507590a",
     "industry": "AI & Technology",
-    "summary": "AMD acaba de adquirir MEXT para solucionar el problema de optimización de la memoria. ¿Deberían estar nerviosos los inversores de Micron y Sandisk?\nHace aproximadamente dos semanas, Advanced Micro Devices anunció la adquisición de MEXT, una nueva empresa que ha creado software basado en inteligencia artificial (IA)...",
+    "summary": "Como el endeudamiento corporativo vinculado a la inteligencia artificial no muestra signos de desaceleración, los banqueros están ideando nuevas formas de vender volúmenes cada vez mayores de deuda.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "La playa de Ramsey Creek permanece cerrada antes del 4 de julio debido a que la sequía mantiene bajos los niveles de agua",
-    "url": "https://www.wcnc.com/article/news/local/ramsey-creek-beach-remains-closed-ahead-of-fourth-of-july-as-drought-keeps-water-levels-low/275-58e89849-8209-48ed-9612-f16b148f8fcf",
+    "title": "JPMorgan Chase impulsa despidos en la división de fraude, a pesar del aumento de los ingresos",
+    "url": "https://www.thestreet.com/employment/jpmorgan-chase-pushes-fraud-division-layoffs-despite-rising-revenues",
     "industry": "AI & Technology",
-    "summary": "A pesar de las recientes lluvias, Ramsey Creek Beach permanece cerrada antes del feriado del 4 de julio debido a los bajos niveles de agua causados ​​por las condiciones de sequía en curso.",
+    "summary": "Los grandes bancos están ganando dinero, y si bien estos empleos a menudo se consideran estables, eso no significa automáticamente que todos los empleos bancarios sean seguros. Las empresas financieras tienen...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "¿Para qué sirve la migración? Cómo las necesidades nacionales luchan con un deseo humano básico",
-    "url": "https://theconversation.com/what-is-migration-for-how-national-needs-wrestle-with-a-basic-human-desire-284958",
+    "title": "El FBI ayuda a recuperar el control de la cárcel regional de Carolina del Norte después de la toma de posesión de los reclusos",
+    "url": "https://www.wcnc.com/article/news/local/bertie-martin-nc-north-carolina-regional-jail-incident/291-faa0c592-4589-4501-ab3a-a0c0f7d1ec1c",
     "industry": "AI & Technology",
-    "summary": "En medio del feroz debate político sobre cifras y sistemas, es fácil perder de vista el propósito de la migración, para los gobiernos, los individuos y la sociedad en su conjunto.",
+    "summary": "La toma de posesión de los reclusos en el Centro Regional de Detención Bertie-Martin ha terminado. Las autoridades dicen que todos los reclusos y el personal están a salvo mientras continúa la investigación.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }

@@ -1,25 +1,17 @@
 [
   {
-    "title": "为什么从 OpenAI 到 SpaceX 的每个人都在打造自己的芯片（并加大对 Nvidia 的热度）",
-    "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
-    "industry": "AI & Technology",
-    "summary": "Nvidia 多年来一直主导 AI 芯片市场，但完全依赖的时代可能正在结束。” OpenAI 刚刚分享了其与 Broadcom 合作打造的定制推理芯片 Jalapeo 的计划，加入了 Google、Apple 和 SpaceX 的行列，加入了不断增长的名单。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI 的 Jalapeo 芯片是大型科技公司摆脱 Nvidia 后最辣的举动",
-    "url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
-    "industry": "AI & Technology",
-    "summary": "Nvidia 多年来一直主导 AI 芯片市场，但完全依赖的时代可能正在结束。” OpenAI 刚刚分享了其与 Broadcom 合作打造的定制推理芯片 Jalapeo 的计划，加入了 Google、Apple 和 SpaceX 的行列，加入了不断增长的名单。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
     "title": "OpenAI 应政府要求限制 GPT-5.6 的推出，称限制不应成为常态",
     "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
     "industry": "AI & Technology",
     "summary": "OpenAI 表示：“我们认为这种政府准入流程不应成为长期默认做法。” “它为用户、开发者、企业、网络防御者和需要它们的全球合作伙伴保留了最好的工具。”",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "随着人工智能初创公司寻求防御性，Vibe 编码平台 Base44 推出自己的模型",
+    "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+    "industry": "AI & Technology",
+    "summary": "Wix 旗下的氛围编码平台 Base44 已开始推出自己的人工智能模型，希望它最终能超越前沿模型。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -72,18 +64,18 @@
     "impact_score": 5
   },
   {
-    "title": "这不再是 Anthropic 与 OpenAI 的问题",
-    "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+    "title": "加密货币交易所 OKX 希望人工智能代理相互雇佣并支付报酬",
+    "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
     "industry": "AI & Technology",
-    "summary": "人工智能模型已经发展到其能力能够产生真正的政治后果的程度。应对这些后果需要采取集体行动。",
+    "summary": "OKX 正在将支付、身份和声誉整合到人工智能代理市场中。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "人工智能不足后，福特重新雇用“灰胡子”工程师",
-    "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+    "title": "人工智能就业辩论变得更加混乱",
+    "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
     "industry": "AI & Technology",
-    "summary": "“我们错误地认为，只要引入人工智能……就能生产出高质量的产品。”",
+    "summary": "一份新报告发现，“高强度人工智能采用者”的人数增加了 10.2%。在这些公司中，初级员工数量增加了 12%，反驳了人工智能杀死初级工作岗位的说法。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -104,6 +96,14 @@
     "impact_score": 5
   },
   {
+    "title": "人工智能不足后，福特重新雇用“灰胡子”工程师",
+    "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+    "industry": "AI & Technology",
+    "summary": "“我们错误地认为，只要引入人工智能……就能生产出高质量的产品。”",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "房间里最健康的创始人得了癌症。以下是他如何利用人工智能进行反击。",
     "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
     "industry": "AI & Technology",
@@ -112,50 +112,50 @@
     "impact_score": 5
   },
   {
-    "title": "Meta 平台与 Snap：比较收入规模和近期发展轨迹",
-    "url": "https://biztoc.com/x/8f35047e268e1204",
+    "title": "N Chandrasekaran 表示，塔塔汽车-依维柯的收入将在 5 年内达到 35-400 亿美元",
+    "url": "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/tata-motors-iveco-revenue-to-be-35-40-billion-in-5-years-n-chandrasekaran/articleshow/132071896.cms",
     "industry": "AI & Technology",
-    "summary": "元平台：扩大其收入基础\nMeta Platforms（纳斯达克股票代码：META）主要通过在其社交应用程序（包括 Facebook 和 Instagram）上提供数字广告以及开发虚拟现实硬件来产生收入。\n在推出 Mu 的同时...",
+    "summary": "塔塔汽车公司董事长 N Chandrasekaran 表示，通过收购依维柯集团，塔塔汽车预计未来五年其商用车领域的收入将显着增长 35-400 亿美元。这一战略决定预计将于 9 月完成，……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "爆炸性的机密信揭示了洛杉矶联合学区校长阿尔贝托·卡瓦略突然辞职的原因",
-    "url": "https://nypost.com/2026/06/28/us-news/explosive-confidential-letter-reveals-why-lausd-chief-alberto-carvalho-suddenly-resigned/",
+    "title": "调查显示，人工智能并不是印度初创企业最大的监管担忧，数据治理才是",
+    "url": "https://www.livemint.com/companies/news/ai-isnt-the-biggest-regulatory-worry-for-indian-startups-data-governance-is-survey-11782730264762.html",
     "industry": "AI & Technology",
-    "summary": "四个月前，联邦调查局特工搜查了卡瓦略的家和地区办公室，这是涉及科技初创公司 AllHere 的联邦调查的一部分。",
+    "summary": "该研究基于对 550 个生态系统参与者（包括 350 家初创公司、100 家风险投资 (VC) 公司和 100 家孵化器）的调查，结果显示，44% 的受访者将数据治理和数字信任监管视为他们的主要监管问题。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "正在避免收购以支持人工智能的有机发展",
-    "url": "https://biztoc.com/x/defa8e7b9dfc448e",
+    "title": "博思艾伦与 OpenAI 合作增强美国国家安全的人工智能解决方案",
+    "url": "https://cryptobriefing.com/booz-allen-openai-us-national-security/",
     "industry": "AI & Technology",
-    "summary": "Broadcom Inc.（纳斯达克股票代码：AVGO）是亿万富翁评选的十大最值得购买的半导体股票之一。\n首席执行官 Hock Tan 表示，加速人工智能增长是更强劲的回报驱动力。谭在彭博社表示...",
+    "summary": "此次合作可能会重新定义人工智能在国家安全中的作用，但它也提高了准确性和操作可靠性方面的重大风险。\n博思艾伦与 OpenAI 合作增强美国国家安全人工智能解决方案的帖子首先出现在 Cr…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "AMD 刚刚收购了 MEXT 以解决内存优化问题。美光和闪迪的投资者应该感到紧张吗？",
-    "url": "https://biztoc.com/x/aeff7334b8e5e25e",
+    "title": "随着人工智能相关债务飙升，美国科技巨头纷纷开拓外国债券市场",
+    "url": "https://biztoc.com/x/259c70513507590a",
     "industry": "AI & Technology",
-    "summary": "AMD 刚刚收购了 MEXT 以解决内存优化问题。美光和闪迪的投资者应该感到紧张吗？\n大约两周前，Advanced Micro Devices 宣布收购 MEXT，这是一家开发人工智能 (AI) 驱动软件的初创公司……",
+    "summary": "由于与人工智能相关的企业借贷没有放缓的迹象，银行家们正在想出新的方法来出售更大规模的债务。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "由于干旱导致水位较低，拉姆齐溪海滩在 7 月 4 日之前仍然关闭",
-    "url": "https://www.wcnc.com/article/news/local/ramsey-creek-beach-remains-closed-ahead-of-fourth-of-july-as-drought-keeps-water-levels-low/275-58e89849-8209-48ed-9612-f16b148f8fcf",
+    "title": "尽管收入不断增长，摩根大通仍推动欺诈部门裁员",
+    "url": "https://www.thestreet.com/employment/jpmorgan-chase-pushes-fraud-division-layoffs-despite-rising-revenues",
     "industry": "AI & Technology",
-    "summary": "尽管近期降雨，但由于持续干旱导致水位较低，拉姆齐溪海滩在国庆节假期前仍关闭。",
+    "summary": "大银行正在赚钱，虽然这些工作通常被认为是稳定的，但这并不意味着每个银行工作都是安全的。金融企业有...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "移民是为了什么？国家需求如何与人类基本愿望相抗衡",
-    "url": "https://theconversation.com/what-is-migration-for-how-national-needs-wrestle-with-a-basic-human-desire-284958",
+    "title": "联邦调查局在囚犯接管后帮助重新控制北卡罗来纳州地区监狱",
+    "url": "https://www.wcnc.com/article/news/local/bertie-martin-nc-north-carolina-regional-jail-incident/291-faa0c592-4589-4501-ab3a-a0c0f7d1ec1c",
     "industry": "AI & Technology",
-    "summary": "在关于数字和制度的激烈政治辩论中，人们很容易忽视移民对政府、个人和整个社会的目的。",
+    "summary": "伯蒂-马丁地区拘留中心的囚犯接管工作已经结束。官员们表示，随着调查的继续，所有囚犯和工作人员都很安全。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
