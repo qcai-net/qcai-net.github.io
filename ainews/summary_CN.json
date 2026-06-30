@@ -1,9 +1,25 @@
 [
   {
-    "title": "OpenAI 应政府要求限制 GPT-5.6 的推出，称限制不应成为常态",
-    "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+    "title": "继 OpenAI 和 Anthropic 之后，亚马逊推出价值 10 亿美元的新 FDE 组织",
+    "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
     "industry": "AI & Technology",
-    "summary": "OpenAI 表示：“我们认为这种政府准入流程不应成为长期默认做法。” “它为用户、开发者、企业、网络防御者和需要它们的全球合作伙伴保留了最好的工具。”",
+    "summary": "新团队的工程师将嵌入公司内部部署专门构建的代理，重点关注快速部署和客户自给自足。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Nvidia 竞争对手 Etched 估值达到 50 亿美元，AI 芯片销售额达到 10 亿美元",
+    "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+    "industry": "AI & Technology",
+    "summary": "Nvidia AI 芯片竞争对手 Etched 表示，它已经根据合同预订了 10 亿美元，用于由其芯片驱动的推理系统。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Acti 将人工智能代理直接放入您的智能手机键盘中",
+    "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+    "industry": "AI & Technology",
+    "summary": "Acti 押注智能手机键盘将成为人工智能助手的下一个家。该初创公司适用于 iOS 和 Android 的新键盘可跨应用程序运行，并允许用户使用自然语言创建自定义的人工智能快捷键。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -40,26 +56,18 @@
     "impact_score": 5
   },
   {
-    "title": "据报道，Apple Vision Pro 高管将前往 OpenAI",
-    "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+    "title": "X 现在提供 MCP 服务器，使其平台更易于 AI 工具使用",
+    "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
     "industry": "AI & Technology",
-    "summary": "据报道，负责 Vision Pro 耳机的苹果副总裁 Paul Meade 将离开公司，加入 OpenAI 的硬件团队。",
+    "summary": "X推出了托管MCP服务器，使开发人员可以更轻松地将AI应用程序与公司的API连接起来。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "随着 Anthropic 出口禁令的拖延，亚洲人工智能初创公司推出类似 Mythos 的模型",
-    "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+    "title": "Proton 专注于隐私的人工智能聊天机器人 Lumo 获得升级",
+    "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
     "industry": "AI & Technology",
-    "summary": "新型号正在亚洲推出，承诺具有神话般的功能，而无需担心出口禁令。美国人工智能实验室可能永远无法恢复这个巨大的市场。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI 挖走 Uber 印度首席执行官，领导其美国以外最大市场",
-    "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
-    "industry": "AI & Technology",
-    "summary": "此次招聘标志着 OpenAI 进军印度的最新举措，扩大了办事处、合作伙伴关系和招聘规模。",
+    "summary": "Proton 的 Lumo 2.0 将于本周发布，为用户提供更广泛的功能。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -96,58 +104,34 @@
     "impact_score": 5
   },
   {
-    "title": "人工智能不足后，福特重新雇用“灰胡子”工程师",
-    "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+    "title": "Nvidia 仍然很划算。分析师认为 NVDA 股票上涨 57%",
+    "url": "https://biztoc.com/x/36d81215fb1ebd30",
     "industry": "AI & Technology",
-    "summary": "“我们错误地认为，只要引入人工智能……就能生产出高质量的产品。”",
+    "summary": "尽管在人工智能（AI）芯片市场占据主导地位，但今年迄今为止，该股的表现仍逊于同行。虽然 Advanced Micro Devices (AMD) 的股价飙升超过 150%，英特尔 (INTC) 的股价在 2026 年上涨了 256%，但 Nvidia 的股价仅上涨了……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "房间里最健康的创始人得了癌症。以下是他如何利用人工智能进行反击。",
-    "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+    "title": "上诉法院对 2018 年 CMPD 警察开枪射击男子做出裁决",
+    "url": "https://www.wcnc.com/article/news/local/court-rules-against-man-shot-by-cmpd-officers/275-1a7b8b9a-8ca5-4673-ab37-bded4663c01f",
     "industry": "AI & Technology",
-    "summary": "当面对癌症时，康诺·克里斯托将与他的治疗相关的所有内容——血液结果、扫描数据、可穿戴输出、日记条目——输入给克劳德。",
+    "summary": "枪击事件于 2018 年 12 月 1 日发生在 Winfield Drive。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "N Chandrasekaran 表示，塔塔汽车-依维柯的收入将在 5 年内达到 35-400 亿美元",
-    "url": "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/tata-motors-iveco-revenue-to-be-35-40-billion-in-5-years-n-chandrasekaran/articleshow/132071896.cms",
+    "title": "前坎纳波利斯市学校员工被指控拥有人工智能生成的儿童性虐待图像",
+    "url": "https://www.wcnc.com/article/news/crime/former-kannapolis-city-schools-employee-sexual-exploitation-of-a-minor-charge/275-deabd1e7-3b10-4146-85b7-4e044efa5fdc",
     "industry": "AI & Technology",
-    "summary": "塔塔汽车公司董事长 N Chandrasekaran 表示，通过收购依维柯集团，塔塔汽车预计未来五年其商用车领域的收入将显着增长 35-400 亿美元。这一战略决定预计将于 9 月完成，……",
+    "summary": "据坎纳波利斯市称，肖恩·亨特面临一项轻微指控的三级性剥削。此后，他以 45,000 美元的保释金被释放。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "调查显示，人工智能并不是印度初创企业最大的监管担忧，数据治理才是",
-    "url": "https://www.livemint.com/companies/news/ai-isnt-the-biggest-regulatory-worry-for-indian-startups-data-governance-is-survey-11782730264762.html",
+    "title": "Sustain Charlotte 建议对 I-77 South 高速公路扩建进行运营修复",
+    "url": "https://www.wcnc.com/article/news/local/sustain-charlotte-releases-i-77-south-mobility-report/275-3a5be38a-6b39-409f-9b28-b26b333c10f9",
     "industry": "AI & Technology",
-    "summary": "该研究基于对 550 个生态系统参与者（包括 350 家初创公司、100 家风险投资 (VC) 公司和 100 家孵化器）的调查，结果显示，44% 的受访者将数据治理和数字信任监管视为他们的主要监管问题。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "博思艾伦与 OpenAI 合作增强美国国家安全的人工智能解决方案",
-    "url": "https://cryptobriefing.com/booz-allen-openai-us-national-security/",
-    "industry": "AI & Technology",
-    "summary": "此次合作可能会重新定义人工智能在国家安全中的作用，但它也提高了准确性和操作可靠性方面的重大风险。\n博思艾伦与 OpenAI 合作增强美国国家安全人工智能解决方案的帖子首先出现在 Cr…",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "随着人工智能相关债务飙升，美国科技巨头纷纷开拓外国债券市场",
-    "url": "https://biztoc.com/x/259c70513507590a",
-    "industry": "AI & Technology",
-    "summary": "由于与人工智能相关的企业借贷没有放缓的迹象，银行家们正在想出新的方法来出售更大规模的债务。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "尽管收入不断增长，摩根大通仍推动欺诈部门裁员",
-    "url": "https://www.thestreet.com/employment/jpmorgan-chase-pushes-fraud-division-layoffs-despite-rising-revenues",
-    "industry": "AI & Technology",
-    "summary": "大银行正在赚钱，虽然这些工作通常被认为是稳定的，但这并不意味着每个银行工作都是安全的。金融企业有...",
+    "summary": "一份新报告强调了除车道扩展之外解决 I-77 南段拥堵问题的综合战略，敦促过境投资和区域合作。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -156,6 +140,22 @@
     "url": "https://www.wcnc.com/article/news/local/bertie-martin-nc-north-carolina-regional-jail-incident/291-faa0c592-4589-4501-ab3a-a0c0f7d1ec1c",
     "industry": "AI & Technology",
     "summary": "伯蒂-马丁地区拘留中心的囚犯接管工作已经结束。官员们表示，随着调查的继续，所有囚犯和工作人员都很安全。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "由于干旱导致水位较低，拉姆齐溪海滩在 7 月 4 日之前仍然关闭",
+    "url": "https://www.wcnc.com/article/news/local/ramsey-creek-beach-remains-closed-ahead-of-fourth-of-july-as-drought-keeps-water-levels-low/275-58e89849-8209-48ed-9612-f16b148f8fcf",
+    "industry": "AI & Technology",
+    "summary": "尽管近期降雨，但由于持续干旱导致水位较低，拉姆齐溪海滩在国庆节假期前仍关闭。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "艾伯塔省的一所学校聊天记录列出了要袭击的女孩。回应表明加拿大仍然存在强奸文化问题",
+    "url": "https://theconversation.com/an-alberta-school-chat-listed-girls-to-assault-the-response-shows-canada-still-has-a-rape-culture-problem-285545",
+    "industry": "AI & Technology",
+    "summary": "针对性别暴力所使用的语言抹去了谁在造成伤害以及谁正在经历伤害，这使得报告变得更加困难，也更容易找借口。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
