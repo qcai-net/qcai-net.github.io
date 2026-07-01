@@ -1,9 +1,25 @@
 [
   {
+    "title": "Meta 与 SpaceX 一样，希望将多余的人工智能计算转化为现金",
+    "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+    "industry": "AI & Technology",
+    "summary": "Meta 正在制定云基础设施业务计划，出售人工智能计算能力和模型。此举将使其与亚马逊网络服务、谷歌云和微软Azure等大型云提供商展开竞争。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "继 OpenAI 和 Anthropic 之后，亚马逊推出价值 10 亿美元的新 FDE 组织",
     "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
     "industry": "AI & Technology",
     "summary": "新团队的工程师将嵌入公司内部部署专门构建的代理，重点关注快速部署和客户自给自足。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Google 代理助手 Gemini Spark 现已在 Mac 上推出",
+    "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+    "industry": "AI & Technology",
+    "summary": "Google 的 24/7 代理助手 Gemini Spark 与其他改进一起来到 Mac 上，例如实时跟踪和对更多应用程序的支持。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -24,42 +40,26 @@
     "impact_score": 5
   },
   {
-    "title": "随着人工智能初创公司寻求防御性，Vibe 编码平台 Base44 推出自己的模型",
-    "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+    "title": "SpaceX 有一个人工智能设备原型，听起来确实像手机",
+    "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
     "industry": "AI & Technology",
-    "summary": "Wix 旗下的氛围编码平台 Base44 已开始推出自己的人工智能模型，希望它最终能超越前沿模型。",
+    "summary": "据报道，SpaceX 在上市前向投资者展示了一款“类似手机”的人工智能设备。这可能是 SpaceX 希望扩展到无线领域的另一个信号。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Gemini 的个性化 AI 图像生成现已免费向美国用户开放",
-    "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+    "title": "Cloudflare新政策推动AI公司为出版商的内容付费",
+    "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
     "industry": "AI & Technology",
-    "summary": "谷歌正在将 Gemini 的个性化人工智能图像生成扩展到美国符合条件的免费用户，允许聊天机器人根据您的兴趣和来自连接的谷歌应用程序的数据创建图像。",
+    "summary": "Cloudflare 要求 AI 公司在 9 月 15 日之前将用于搜索的网络爬虫与用于 AI 训练和代理的网络爬虫分开，否则可能会在许多发布商网站上被默认阻止。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "pH7 技术在加拿大自然资源部的支持下推进低品位硫化矿现场阴极铜生产的评估",
-    "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ph7-technologies-to-advance-evaluation-of-on-site-copper-cathode-production-from-low-grade-sulfide-ore-with-support-from-natural-resources-canada",
+    "title": "随着隐私第一的人工智能平台的腾飞，Venice AI 成为独角兽，A 轮融资金额达 6500 万美元",
+    "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
     "industry": "AI & Technology",
-    "summary": "不列颠哥伦比亚省温哥华 — 总部位于温哥华的关键金属加工公司 pH7 Technologies Inc. 很高兴地宣布，加拿大自然资源部通过能源创新计划的采矿脱碳发展计划提供高达 500 万美元的资金支持……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Pie 斥资 1950 万美元推出，为小型企业带来人工智能营销",
-    "url": "https://siliconangle.com/2026/06/30/pie-launches-19-5m-bring-ai-marketing-small-businesses/",
-    "industry": "AI & Technology",
-    "summary": "Pie Tech Inc.是一家利用人工智能为小型企业提供增长工具的初创公司，今天正式成立，并宣布筹集了1950万美元的新资金，以扩大其平台和团队。该公司利用公告...",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "初创公司 OpenMatter 希望让企业证明他们的人工智能代理能做什么",
-    "url": "https://siliconangle.com/2026/06/30/startup-openmatter-wants-make-enterprises-prove-ai-agents/",
-    "industry": "AI & Technology",
-    "summary": "OpenMatter Network Inc. 今天推出了一个平台，据称可以让组织在不完全控制的计算环境中协作、运行敏感工作负载并部署人工智能代理，使用密码学来证明所发生的情况……",
+    "summary": "首席执行官 Erik Voorhees 表示，Venice AI 已经实现盈利，年化运行收入超过 7000 万美元。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -88,50 +88,50 @@
     "impact_score": 5
   },
   {
-    "title": "Proton 专注于隐私的人工智能聊天机器人 Lumo 获得升级",
-    "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
+    "title": "AWS 在公共云和人工智能方面投入数十亿美元",
+    "url": "https://www.pymnts.com/amazon/2026/aws-spending-billions-on-public-cloud-and-ai-efforts/",
     "industry": "AI & Technology",
-    "summary": "Proton 的 Lumo 2.0 将于本周发布，为用户提供更广泛的功能。",
+    "summary": "亚马逊宣布了几项价值数十亿美元的以云/人工智能 (AI) 为重点的公共部门计划。这些公告于周二（6 月 30 日）在华盛顿特区举行的 2026 年亚马逊网络服务 (AWS) 峰会上发布，其中包括专门的基础设施……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "加密货币交易所 OKX 希望人工智能代理相互雇佣并支付报酬",
-    "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+    "title": "认识一下可以在未来 3 年内带来最大收益的人工智能 (AI) 推理股票（提示：它不是 Nvidia 或 Broadcom）",
+    "url": "https://biztoc.com/x/43ad9c9c80e691da",
     "industry": "AI & Technology",
-    "summary": "OKX 正在将支付、身份和声誉整合到人工智能代理市场中。",
+    "summary": "认识一下可以在未来 3 年内带来最大收益的人工智能 (AI) 推理股票（提示：它不是 Nvidia 或 Broadcom）\n数据中心的人工智能 (AI) 计算工作负载现在正在转向推理。德勤预计…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "人工智能就业辩论变得更加混乱",
-    "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+    "title": "Anthropic推出AI药物发现计划，与科技巨头一起押注医疗保健",
+    "url": "https://biztoc.com/x/3a655a30b7a801b7",
     "industry": "AI & Technology",
-    "summary": "一份新报告发现，“高强度人工智能采用者”的人数增加了 10.2%。在这些公司中，初级员工数量增加了 12%，反驳了人工智能杀死初级工作岗位的说法。",
+    "summary": "Anthropic 正在启动一项内部药物发现计划，作为开发专为制药商设计的人工智能工具的一部分，成为最新一家尝试打入医疗保健市场的公司。\n周二在旧金山举行的一次活动中，Anthro…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "IntelePeer 荣获 CUSTOMER 杂志颁发的 2026 年语音 AI 技术卓越奖",
-    "url": "https://www.prnewswire.com/news-releases/intelepeer-receives-2026-voice-ai-technology-excellence-award-from-customer-magazine-302812756.html",
+    "title": "NEON 收购 Guadagnino 的人工智能主题“Artificial”",
+    "url": "https://www.darkhorizons.com/neon-acquires-guadagninos-ai-themed-artificial/",
     "industry": "AI & Technology",
-    "summary": "SmartAgent 预约安排程序因减少缺席、改善患者就诊情况以及为医疗保健组织提供可衡量的投资回报率而受到认可。佛罗里达州丹尼亚海滩，2026 年 6 月 30 日 /美通社/ -- IntelePeer，领先的会话和代理提供商……",
+    "summary": "大约两周前被亚马逊米高梅影业公司抛弃后，NEON 突然介入并收购了卢卡·瓜达尼诺 (Luca Guadagnino) 的《人造人》(Artificial)，并计划在今年晚些时候获得奥斯卡资格。 Puck 的马特·贝洛尼 (Matt Belloni) 证实了这一消息，这表明了其潜力……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Vorlon 首次推出 Guardian，可在危险的 AI 代理操作完成之前阻止它们",
-    "url": "https://siliconangle.com/2026/06/30/vorlon-debuts-guardian-block-risky-ai-agent-actions-complete/",
+    "title": "Anthropic推出AI药物发现计划，与科技巨头一起押注医疗保健",
+    "url": "https://www.cnbc.com/2026/06/30/anthropic-launches-ai-drug-discovery-program-claude-science.html",
     "industry": "AI & Technology",
-    "summary": "代理生态系统安全初创公司 Vorlon Inc. 今天推出了 Guardian，这是一个实时执行网关，旨在在交易完成之前阻止人工智能代理的危险行为，而不是在事后对其进行标记。该产品焦...",
+    "summary": "Anthropic 将启动一项内部药物发现计划，这是向制药商销售人工智能工具的新举措的一部分。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Build 筹集 850 万美元以加速工业基础设施开发项目工作",
-    "url": "https://siliconangle.com/2026/06/30/build-raises-8-5m-accelerate-industrial-infrastructure-development-project-work/",
+    "title": "小型飞机与卡车相撞后罗利机场重新开放",
+    "url": "https://www.wcnc.com/article/news/local/flights-stopped-at-raleigh-airport/275-3b05f218-24b7-4cfa-a879-32965d2fd04a",
     "industry": "AI & Technology",
-    "summary": "Build Inc. 是一家人工智能驱动的初创公司，致力于实现复杂工业房地产开发管理项目的自动化，今天宣布已筹集到由 Index Ventures 领投的 850 万美元种子轮融资。 Pebblebed、Puzzle Ventures 和 Tiny.vc 也...",
+    "summary": "航班已改道至其他机场，包括夏洛特道格拉斯国际机场。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
