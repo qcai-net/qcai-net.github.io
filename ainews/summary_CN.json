@@ -1,13 +1,5 @@
 [
   {
-    "title": "Meta 与 SpaceX 一样，希望将多余的人工智能计算转化为现金",
-    "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
-    "industry": "AI & Technology",
-    "summary": "Meta 正在制定云基础设施业务计划，出售人工智能计算能力和模型。此举将使其与亚马逊网络服务、谷歌云和微软Azure等大型云提供商展开竞争。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
     "title": "微软承诺投入 25 亿美元成立自己的人工智能部署公司",
     "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
     "industry": "AI & Technology",
@@ -16,7 +8,7 @@
     "impact_score": 5
   },
   {
-    "title": "印度科技大亨自掏腰包 3000 万美元打造人工智能替代微软 Office",
+    "title": "印度科技大亨自掏腰包 3000 万美元打造人工智能替代 Microsoft Office",
     "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
     "industry": "AI & Technology",
     "summary": "Neo 是 Bhavin Turakhia 的第五家企业，也是他最新的一家涉及企业软件的企业。这次他用 AI 挑战 Microsoft Office 和 Google Apps。",
@@ -28,6 +20,14 @@
     "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
     "industry": "AI & Technology",
     "summary": "Mistral AI 提供一些开源人工智能模型，自 2023 年创建以来已筹集了大量资金，其雄心是“将前沿人工智能交到每个人的手中”。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "谷歌新广告想象在人工智能的帮助下撰写的《独立宣言》",
+    "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+    "industry": "AI & Technology",
+    "summary": "《独立宣言》签署 250 年后，一则新广告问道：如果开国元勋们能够使用 Google Workspace 会怎样？",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -91,7 +91,7 @@
     "title": "Cloudflare新政策推动AI公司为出版商的内容付费",
     "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
     "industry": "AI & Technology",
-    "summary": "Cloudflare 要求 AI 公司在 9 月 15 日之前将用于搜索的网络爬虫与用于 AI 训练和代理的网络爬虫分开，否则可能会在许多发布商网站上被默认阻止。",
+    "summary": "Cloudflare 要求 AI 公司在 9 月 15 日之前将用于搜索的网络爬虫与用于 AI 训练和代理的网络爬虫分开，否则可能会在许多发布商网站上被默认屏蔽。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -104,10 +104,26 @@
     "impact_score": 5
   },
   {
-    "title": "人工智能的成本高于它所取代的人",
-    "url": "https://freerepublic.com/focus/f-news/4386531/posts",
+    "title": "伯尼·桑德斯希望政府拥有美国每家人工智能公司的一半股份——这对你的钱包可能意味着什么",
+    "url": "https://finance.yahoo.com/technology/ai/articles/bernie-sanders-wants-government-own-114000993.html",
     "industry": "AI & Technology",
-    "summary": "科技行业面临着一场矛盾的危机：公司正在裁员，转而投资人工智能工具，但目前这些工具的成本比它们所取代的工人还要高。 Uber 和微软等主要参与者报告人工智能支出过高，预算耗尽……",
+    "summary": "桑德斯已经与 OpenAI 首席执行官萨姆·奥尔特曼进行了交谈，后者目前正在考虑向特朗普政府授予其公司 5% 的股份。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Strategy首席执行官将公司与亚马逊和特斯拉进行比较，称危机定义了伟大的公司",
+    "url": "https://zycrypto.com/strategy-ceo-compares-firm-to-amazon-and-tesla-says-crises-define-great-companies/",
+    "industry": "AI & Technology",
+    "summary": "Strategy 首席执行官 Phong Le 认为，最终塑造持久企业的是动荡时期，而不是牛市。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "费尔菲尔德县警方现场可能与推测死亡的 SC 4 岁儿童有关",
+    "url": "https://www.wcnc.com/article/news/local/police-scene-may-be-linked-to-4-year-old-presumed-dead/275-4cb9ca3e-c32c-4ddb-9bd1-252b30aa5186",
+    "industry": "AI & Technology",
+    "summary": "调查人员正在南卡罗来纳州大瀑布城附近的水域中进行搜索。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -140,22 +156,6 @@
     "url": "https://www.wcnc.com/article/news/local/serious-crash-catawba-county-head-on-collision-children-injured-people-airlifted/275-cab15b1d-8ca2-4348-bda0-63dda4703a2a",
     "industry": "AI & Technology",
     "summary": "据北卡罗来纳州高速公路巡逻队称，两人被空运到夏洛特医院，其中包括一名儿童。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "以前从未见过！埃及后卫创造了不受欢迎的历史",
-    "url": "https://onefootball.com/en/news/never-seen-before-egypt-defender-makes-unwanted-history-43093414",
-    "industry": "AI & Technology",
-    "summary": "96年的世界杯历史上，发生了很多事情。一大堆。但总有第一次。埃及后卫穆罕默德·哈尼在 16 强对阵澳大利亚的比赛中创造了历史。他打进了第二个...",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "荷兰艺术家推出沉浸式表演，人工智能“有机体”在吉隆坡焕发活力",
-    "url": "https://variety.com/2026/digital/news/algorithmic-organisms-2-0-opens-kuala-lumpur-1236801509/",
-    "industry": "AI & Technology",
-    "summary": "数字生命形式正在占领吉隆坡。荷兰艺术家 Ray Tijssen 举办的人工智能驱动的沉浸式视听展览“算法有机体 2.0”在 7 月 19 日公开展出之前，在吉隆坡 GMBB 的 The Grey Box 开幕。该展览交织在一起……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
