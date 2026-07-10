@@ -1,5 +1,29 @@
 [
   {
+    "title": "Fidji Simo 辞去 OpenAI 二号人物的位置",
+    "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI 的二号高管 Fidji Simo 因病假时间比预期长而辞去全职职务——领导层真空出现在一个棘手的时刻，因为该公司正在考虑可能的 IPO 并竞相在企业市场追赶 Anthropic。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 称 GPT 5.6 是 Microsoft Copilot 365 在分手传闻中的“首选模型”",
+    "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI 的新模型系列将继续为微软的工作场所和生产力应用程序套件提供支持。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "一家人工智能代理初创公司刚刚让其代理进行 1 亿美元的融资",
+    "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+    "industry": "AI & Technology",
+    "summary": "Lyzr 是一家为企业构建人工智能代理的初创公司，它利用自己的人工智能代理筹集了 1 亿美元的资金，这显然证明了该产品确实有效。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "Meta 与 Muse Spark 1.1 一起加入人工智能编码大战",
     "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
     "industry": "AI & Technology",
@@ -20,6 +44,22 @@
     "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
     "industry": "AI & Technology",
     "summary": "三场大型人工智能 IPO 所产生的价值将超过 2000 年以来所有美国风投支持的退出。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 推出采用 GPT-5.6 的新模型系列",
+    "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI 的最新模型系列有望在包括网络安全在内的一系列领域得到改进。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 正在关闭 Atlas，但其 AI 浏览器野心仍在增长",
+    "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+    "industry": "AI & Technology",
+    "summary": "不到一年后，OpenAI 将淘汰其人工智能浏览器。但它正在将一些代理浏览功能转移到其桌面应用程序和 Chrome 扩展程序中。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -64,26 +104,26 @@
     "impact_score": 5
   },
   {
-    "title": "谷歌照片添加了新的人工智能“视频混音”工具",
-    "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+    "title": "Lyzr 使用自己的 AI 代理帮助筹集了 1 亿美元的资金",
+    "url": "https://thenextweb.com/news/lyzr-ai-agent-100-million-series-b/",
     "industry": "AI & Technology",
-    "summary": "该功能可以执行诸如应用电影重新照明来照亮黑暗剪辑、将普通背景替换为有趣的内容或为视频添加艺术风格等操作。",
+    "summary": "一家为大公司构建人工智能代理的初创公司已将该软件用于自身，利用自己的代理之一来帮助筹集 1 亿美元的资金。 Lyzr 是一家由埃森哲支持的企业人工智能代理公司，表示该代理处理了很多……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Meta 希望其人工智能眼镜看起来不那么令人毛骨悚然。它的人工智能战略却另有说法。",
-    "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
+    "title": "埃隆·马斯克赞扬神话/寓言，承诺不会“切断”人类",
+    "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
     "industry": "AI & Technology",
-    "summary": "Meta 正在增加一项新的保护措施，以阻止人们用 AI 眼镜秘密录制他人的视频。但此次更新是在该公司继续扩大其人工智能产品收集和使用的个人数据量之际进行的。",
+    "summary": "Anthropic 应该信任埃隆·马斯克来托管其模型吗？由于涉及约 400 亿美元的收入，马斯克坚称公司可以。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "英伟达股票幻灯片。 DeepSeek开发自己的AI芯片",
-    "url": "https://biztoc.com/x/2cfacbcff47b38ca",
+    "title": "人工智能能否回答 3 万亿美元的问题？",
+    "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
     "industry": "AI & Technology",
-    "summary": "本文首次发表于 GuruFocus。\n英伟达 (NASDAQ:NVDA) 股价在盘前交易中下跌约 0.5%，此前有报道称中国人工智能初创公司 DeepSeek 正在开发自己的用于推理工作负载的人工智能芯片。\nDeepSeek的芯片项目...",
+    "summary": "人工智能投资回报率的争论又回来了，数字甚至更大，其后果也许也是如此。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -112,50 +152,10 @@
     "impact_score": 5
   },
   {
-    "title": "SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”",
-    "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+    "title": "GMEX Robotics 任命 Brian Hartzband 领导美国业务，加速北美扩张",
+    "url": "https://www.globenewswire.com/news-release/2026/07/09/3324781/0/en/GMEX-Robotics-Appoints-Brian-Hartzband-to-Lead-U-S-Operations-Accelerating-North-American-Expansion.html",
     "industry": "AI & Technology",
-    "summary": "埃隆·马斯克 (Elon Musk) 的科技公司周三发布了最新版本的 Grok，承诺提供比其他强大人工智能模型更便宜、更高效的替代方案。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "为什么这位首席执行官认为视频游戏比互联网提供更好的训练数据",
-    "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
-    "industry": "AI & Technology",
-    "summary": "当谈到实现通用人工智能 (AGI) 时，大型语言模型根本不具备所需的能力。像 ChatGPT 和 Claude 这样的模型非常擅长文本，但他们不太擅长理解事物“实际上是如何移动的”……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "被纳入纳斯达克 100 指数后，SpaceX 股价连续两天下跌，收于 148 美元以下",
-    "url": "https://www.cnbc.com/2026/07/08/spacex-stock-nasdaq-100-ipo.html",
-    "industry": "AI & Technology",
-    "summary": "在承销商行使“绿鞋”超额配售后，SpaceX 创纪录的 IPO 共筹集了 857 亿美元。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "最后，ChatGPT 语音将不再打扰您说话",
-    "url": "https://www.ubergizmo.com/2026/07/finally-chatgpt-voice-will-stop-interrupting-you-mid-sentence/",
-    "industry": "AI & Technology",
-    "summary": "OpenAI 通过引入名为 GPT-Live-1 的新模型彻底改革了其 ChatGPT 语音模式。更新后的模型旨在模拟自然的人类对话，旨在最大限度地减少不必要的中断，并在用户暂停时等待用户说完……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Prime Intellect 融资 1.3 亿美元帮助公司培训人工智能代理",
-    "url": "https://www.pymnts.com/news/investment-tracker/2026/prime-intellect-raises-130-million-to-help-companies-train-ai-agents/",
-    "industry": "AI & Technology",
-    "summary": "Prime Intellect 在 A 轮融资中筹集了 1.3 亿美元，以扩大其技术堆栈并通过其“开放超级智能堆栈”解决新问题。该公司训练开放前沿模型，并为客户提供计算、大规模强化……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Meta 将在加拿大建立第一个数据中心，扩大全球机队",
-    "url": "https://financialpost.com/pmn/business-pmn/meta-to-build-first-data-center-in-canada-expanding-global-fleet",
-    "industry": "AI & Technology",
-    "summary": "Meta Platforms Inc. 将投资约 100 亿美元在加拿大建设其第一个数据中心，以扩展其基础设施以支持其人工智能雄心。",
+    "summary": "随着人工智能驱动的自动化需求持续增长，经验丰富的企业和政府业务开发主管将建立并扩大公司在美国的商业运营",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
