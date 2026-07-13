@@ -705,6 +705,21 @@
       z-index: 200;
       backdrop-filter: blur(4px);
     }
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.65);
+      z-index: 10000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
     .drawer {
       position: absolute;
       right: 0;
@@ -1330,7 +1345,10 @@
 
       <!-- AI Counselor chat -->
       <div>
-        <div class="section-heading" style="margin-bottom:8px;">🤖 <span id="lbl-ai-counselor">AI Counselor</span></div>
+        <div class="section-heading" style="margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+          <span>🤖 <span id="lbl-ai-counselor">AI Counselor</span></span>
+          <button class="btn btn-outline" style="padding: 4px 8px; font-size: 0.72rem; border-radius: 6px; font-weight: normal;" onclick="openAISettingsModal()">⚙️ <span id="lbl-ai-settings-btn">AI Settings</span></button>
+        </div>
         <div class="chip-row" id="coach-chips">
           <!-- rendered by JS -->
         </div>
@@ -1361,7 +1379,10 @@
         <div class="divider"></div>
 
         <!-- Essay Studio -->
-        <div class="section-heading" style="margin-bottom:8px;">✍️ <span id="lbl-essay-studio">Essay Studio</span></div>
+        <div class="section-heading" style="margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+          <span>✍️ <span id="lbl-essay-studio">Essay Studio</span></span>
+          <button class="btn btn-outline" style="padding: 4px 8px; font-size: 0.72rem; border-radius: 6px; font-weight: normal;" onclick="openAISettingsModal()">⚙️ <span id="lbl-ai-settings-btn2">AI Settings</span></button>
+        </div>
         <div style="margin-bottom:8px;">
           <select id="essay-prompt-select" style="width:100%;padding:8px 12px;border-radius:12px;border:1.5px solid var(--border);background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;font-size:0.83rem;outline:none;">
             <option value="1">Prompt 1 — Background & Identity</option>
@@ -1508,6 +1529,56 @@
 <!-- ══════════════════════════════════════════════════════
      DRAWERS
 ══════════════════════════════════════════════════════ -->
+
+<!-- AI Settings Modal -->
+<div id="ai-settings-modal" class="modal-overlay" style="display:none;">
+  <div class="card" style="max-width:480px; width:100%; background:var(--card-bg); border-radius:12px; padding:20px; box-shadow:0 8px 30px rgba(0,0,0,0.3); color:var(--text); max-height: 90vh; overflow-y: auto;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+      <h3 style="margin:0; font-family:'Outfit',sans-serif; font-size:1.2rem;" id="lbl-ai-settings-title">Configure Live AI Keys</h3>
+      <button onclick="closeAISettingsModal()" style="background:none; border:none; font-size:1.2rem; cursor:pointer; color:var(--text-muted);">✕</button>
+    </div>
+    
+    <div style="font-size:0.8rem; color:var(--text-muted); margin-bottom:16px;" id="lbl-ai-settings-desc">
+      By default, QCAI uses simulated prompt templates. To unlock live AI feedback with real LLMs, choose a provider, enter your API key, and select a model. Your keys are saved strictly locally on your device.
+    </div>
+
+    <!-- Provider Selection -->
+    <div class="form-group" style="margin-bottom:12px;">
+      <label id="lbl-ai-provider">AI Provider</label>
+      <select id="ai-provider-select" onchange="handleAIProviderChange()">
+        <option value="none">None (Use templates)</option>
+        <option value="openai">OpenAI (ChatGPT)</option>
+        <option value="gemini">Google Gemini</option>
+        <option value="anthropic">Anthropic Claude</option>
+      </select>
+    </div>
+
+    <!-- API Key Input -->
+    <div id="ai-key-group" class="form-group" style="margin-bottom:12px; display:none;">
+      <label id="lbl-ai-key">API Key</label>
+      <input type="password" id="ai-api-key-input" placeholder="sk-..." style="width:100%; box-sizing:border-box;">
+    </div>
+
+    <!-- Model Selection -->
+    <div id="ai-model-group" class="form-group" style="margin-bottom:16px; display:none;">
+      <label id="lbl-ai-model">Model</label>
+      <select id="ai-model-select">
+        <!-- populated dynamically -->
+      </select>
+    </div>
+
+    <!-- Instructions block -->
+    <div id="ai-instructions-block" style="background:rgba(88,86,214,0.06); padding:12px; border-radius:6px; font-size:0.78rem; margin-bottom:16px; display:none;">
+      <strong id="lbl-instruction-title">How to get an API Key:</strong>
+      <div id="ai-instructions-content" style="margin-top:6px; line-height:1.4;"></div>
+    </div>
+
+    <div style="display:flex; gap:8px; justify-content:flex-end;">
+      <button class="btn btn-outline" onclick="closeAISettingsModal()" id="lbl-ai-cancel">Cancel</button>
+      <button class="btn btn-primary" onclick="saveAISettings()" id="lbl-ai-save">Save & Enable</button>
+    </div>
+  </div>
+</div>
 
 <!-- Saved board / AI prep drawer -->
 <div id="drawer-overlay" class="drawer-overlay" onclick="closeDrawer()">
@@ -3306,10 +3377,261 @@
     // Essay draft restore
     const essayEl = document.getElementById('essay-draft');
     if (essayEl && essayContent) { essayEl.value = essayContent; updateWordCount(); }
+  }   // ─── AI Config storage & modals ───
+  function openAISettingsModal() {
+    const modal = document.getElementById('ai-settings-modal');
+    if (modal) modal.style.display = 'flex';
+    
+    // Load existing settings
+    const provider = safeStorage.getItem('ai_provider') || 'none';
+    const apiKey = safeStorage.getItem('ai_api_key') || '';
+    const model = safeStorage.getItem('ai_model') || '';
+
+    const provSelect = document.getElementById('ai-provider-select');
+    const keyInput = document.getElementById('ai-api-key-input');
+    if (provSelect) provSelect.value = provider;
+    if (keyInput) keyInput.value = apiKey;
+    
+    handleAIProviderChange();
+    
+    const modelSelect = document.getElementById('ai-model-select');
+    if (provider !== 'none' && model && modelSelect) {
+      modelSelect.value = model;
+    }
   }
 
-  function handleChip(key, label) {
+  function closeAISettingsModal() {
+    const modal = document.getElementById('ai-settings-modal');
+    if (modal) modal.style.display = 'none';
+  }
+
+  function handleAIProviderChange() {
+    const provSelect = document.getElementById('ai-provider-select');
+    if (!provSelect) return;
+    const provider = provSelect.value;
+    const keyGroup = document.getElementById('ai-key-group');
+    const modelGroup = document.getElementById('ai-model-group');
+    const instrBlock = document.getElementById('ai-instructions-block');
+    const instrContent = document.getElementById('ai-instructions-content');
+    const modelSelect = document.getElementById('ai-model-select');
+
+    if (provider === 'none') {
+      if (keyGroup) keyGroup.style.display = 'none';
+      if (modelGroup) modelGroup.style.display = 'none';
+      if (instrBlock) instrBlock.style.display = 'none';
+      return;
+    }
+
+    if (keyGroup) keyGroup.style.display = 'block';
+    if (modelGroup) modelGroup.style.display = 'block';
+    if (instrBlock) instrBlock.style.display = 'block';
+
+    if (modelSelect) {
+      modelSelect.innerHTML = '';
+      if (provider === 'openai') {
+        const opt1 = document.createElement('option'); opt1.value = 'gpt-4o-mini'; opt1.textContent = 'GPT-4o Mini (Fast & Cheap - Recommended)';
+        const opt2 = document.createElement('option'); opt2.value = 'gpt-4o'; opt2.textContent = 'GPT-4o (Smart)';
+        modelSelect.appendChild(opt1);
+        modelSelect.appendChild(opt2);
+
+        if (instrContent) {
+          instrContent.innerHTML = `
+            1. Go to <a href="https://platform.openai.com" target="_blank" style="color:var(--primary);text-decoration:underline;">OpenAI Platform</a> and sign in.<br>
+            2. Navigate to **API Keys** in the sidebar.<br>
+            3. Create a new secret key (ensure you have credits deposited on your account).<br>
+            4. Copy the key (starting with <code>sk-</code>) and paste it above.
+          `;
+        }
+      } else if (provider === 'gemini') {
+        const opt1 = document.createElement('option'); opt1.value = 'gemini-1.5-flash'; opt1.textContent = 'Gemini 1.5 Flash (Super Fast - Recommended)';
+        const opt2 = document.createElement('option'); opt2.value = 'gemini-1.5-pro'; opt2.textContent = 'Gemini 1.5 Pro (Highly Detailed)';
+        modelSelect.appendChild(opt1);
+        modelSelect.appendChild(opt2);
+
+        if (instrContent) {
+          instrContent.innerHTML = `
+            1. Go to <a href="https://aistudio.google.com" target="_blank" style="color:var(--primary);text-decoration:underline;">Google AI Studio</a> and sign in.<br>
+            2. Click **Get API key** in the top left.<br>
+            3. Create a new API key in a new or existing project.<br>
+            4. Copy the key and paste it above. (Gemini keys have a free tier available!)
+          `;
+        }
+      } else if (provider === 'anthropic') {
+        const opt1 = document.createElement('option'); opt1.value = 'claude-3-5-sonnet-20240620'; opt1.textContent = 'Claude 3.5 Sonnet (Best for Essays - Recommended)';
+        const opt2 = document.createElement('option'); opt2.value = 'claude-3-haiku-20240307'; opt2.textContent = 'Claude 3 Haiku (Fast)';
+        modelSelect.appendChild(opt1);
+        modelSelect.appendChild(opt2);
+
+        if (instrContent) {
+          instrContent.innerHTML = `
+            1. Go to the <a href="https://console.anthropic.com" target="_blank" style="color:var(--primary);text-decoration:underline;">Anthropic Console</a> and sign in.<br>
+            2. Navigate to the **API Keys** section.<br>
+            3. Click **Create Key**, name it, and copy it.<br>
+            4. Paste it above. (Ensure you have funded your billing account in Console).
+          `;
+        }
+      }
+    }
+  }
+
+  function saveAISettings() {
+    const provider = document.getElementById('ai-provider-select').value;
+    const apiKey = document.getElementById('ai-api-key-input').value.trim();
+    const model = document.getElementById('ai-model-select').value;
+
+    if (provider !== 'none' && !apiKey) {
+      showToast('⚠️ Please enter an API key.');
+      return;
+    }
+
+    safeStorage.setItem('ai_provider', provider);
+    safeStorage.setItem('ai_api_key', apiKey);
+    safeStorage.setItem('ai_model', model);
+
+    closeAISettingsModal();
+    showToast(provider === 'none' ? '🤖 Switched to template AI counselor' : `⚡ Live AI Enabled (${model})`);
+  }
+
+  async function callLiveAI(promptText, systemPrompt) {
+    const provider = safeStorage.getItem('ai_provider') || 'none';
+    const apiKey = safeStorage.getItem('ai_api_key');
+    const model = safeStorage.getItem('ai_model');
+
+    if (provider === 'none' || !apiKey) return null;
+
+    try {
+      if (provider === 'gemini') {
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+        const response = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{
+              parts: [{ text: systemPrompt + "
+
+User Question:
+" + promptText }]
+            }]
+          })
+        });
+        if (!response.ok) {
+          const errData = await response.json().catch(() => ({}));
+          throw new Error(errData.error?.message || response.statusText);
+        }
+        const data = await response.json();
+        return data.candidates?.[0]?.content?.parts?.[0]?.text || null;
+      }
+      
+      if (provider === 'openai') {
+        const url = `https://api.openai.com/v1/chat/completions`;
+        const response = await fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${apiKey}`
+          },
+          body: JSON.stringify({
+            model: model,
+            messages: [
+              { role: 'system', content: systemPrompt },
+              { role: 'user', content: promptText }
+            ],
+            temperature: 0.7
+          })
+        });
+        if (!response.ok) {
+          const errData = await response.json().catch(() => ({}));
+          throw new Error(errData.error?.message || response.statusText);
+        }
+        const data = await response.json();
+        return data.choices?.[0]?.message?.content || null;
+      }
+
+      if (provider === 'anthropic') {
+        const url = `https://api.anthropic.com/v1/messages`;
+        const response = await fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': apiKey,
+            'anthropic-version': '2023-06-01',
+            'dangerouslyAllowBrowser': 'true'
+          },
+          body: JSON.stringify({
+            model: model,
+            max_tokens: 1024,
+            system: systemPrompt,
+            messages: [
+              { role: 'user', content: promptText }
+            ]
+          })
+        });
+        if (!response.ok) {
+          const errData = await response.json().catch(() => ({}));
+          throw new Error(errData.error?.message || response.statusText);
+        }
+        const data = await response.json();
+        return data.content?.[0]?.text || null;
+      }
+    } catch (e) {
+      console.error('callLiveAI error:', e);
+      showToast(`❌ AI Error: ${e.message}`);
+      return `Error generating response: ${e.message}. Please verify your API Key and billing status.`;
+    }
+    return null;
+  }
+
+  async function getLiveAIResponse(query) {
+    const s = studentProfile;
+    const systemPrompt = `You are an expert college admissions counselor for QCAI. 
+The student's profile is:
+- Grade: ${s.grade}th
+- GPA: ${s.gpa} (Weighted)
+- SAT: ${s.sat || 'N/A'}
+- ACT: ${s.act || 'N/A'}
+- Intended Major/Interest: ${s.interest}
+- Home State: ${s.state}
+- Gender: ${s.gender || 'Prefer not to say'}
+- Ethnicity: ${s.ethnicity || 'Prefer not to say'}
+- Financial Need: ${s.need === 'yes' ? 'Has Financial Need' : 'No Financial Need'}
+- AP/IB courses taken: ${s.apCourses}
+- Leadership experience: ${s.leadership ? 'Yes (holds leadership role)' : 'No'}
+- Community Service Hours: ${s.serviceHours} hours
+
+Please answer the student's question clearly, constructively, and realistically. If they ask about CMU, MIT, Harvard, or other colleges, offer realistic advice suited to their stats. Do not give false promises. Use bolding (**word**) and linebreaks for readable formatting. Keep response under 300 words.`;
+
+    const loadingId = 'ai-loading-' + Date.now();
+    const messages = document.getElementById('chat-messages');
+    if (messages) {
+      const div = document.createElement('div');
+      div.id = loadingId;
+      div.className = 'chat-msg ai';
+      div.innerHTML = `<div class="chat-avatar ai-av">🤖</div><div class="chat-bubble">Thinking... ⚡</div>`;
+      messages.appendChild(div);
+      messages.scrollTop = messages.scrollHeight;
+    }
+
+    const reply = await callLiveAI(query, systemPrompt);
+    
+    const loadingEl = document.getElementById(loadingId);
+    if (loadingEl) loadingEl.remove();
+
+    if (reply) {
+      appendChatMessage('ai', reply);
+    } else {
+      appendChatMessage('ai', 'Sorry, I encountered an error communicating with the live AI model. Please verify your API Key and billing status.');
+    }
+  }
+
+  async function handleChip(key, label) {
     appendChatMessage('user', label);
+
+    const provider = safeStorage.getItem('ai_provider') || 'none';
+    if (provider !== 'none') {
+      await getLiveAIResponse(label);
+      return;
+    }
+
     const s = studentProfile;
     const grade = parseInt(s.grade);
     const gpa = s.gpa;
@@ -3355,7 +3677,7 @@ Your reaches: CMU, Georgia Tech, Cornell`;
 🏆 **Priority 2:** A research internship, published project, or selective program
 📝 **Priority 3:** Apply to 3+ scholarships using this tool
 
-Specific to ${interest}: ${isSTEM ? 'Look at NSF REU programs for undergrads — some accept exceptional HS students.' : 'Seek leadership roles in community organizations or writing/arts programs.'}`
+Specific to ${interest}: ${isSTEM ? 'Look at NSF REU programs for undergrads — some accept exceptional HS students.' : 'Seek leadership roles in community organizations or writing/arts programs.'}`;
       } else {
         response = `For a ${grade}th grader: focus on exploring broadly this summer. Try an online course in your interest area, volunteer consistently, and build a project or skill you can speak to in applications.`;
       }
@@ -3413,6 +3735,205 @@ Your current SAT: ${s.sat || 'not set in profile'}.`;
 • Regeneron STS (research paper required)
 • Davidson Fellows (significant achievement)
 • QuestBridge (low-income, high-achieving students)
+• Coca-Cola Scholars (community impact)
+• Gates Scholarship (low-income, minority students)
+
+💡 Bookmark at least 5 and use the AI Prep drawer to build your strategy for each.`;
+    } else {
+      response = `That's a great question! Based on your profile:
+
+• GPA: ${gpa}
+• Grade: ${s.grade}th
+• Interest: ${interest}
+
+I'd suggest exploring the **Roadmap** tab for your personalized action plan, and the **Activities** tab for opportunities matched to your profile.
+
+Want me to help with something specific about college admissions?`;
+    }
+
+    setTimeout(() => appendChatMessage('ai', response), 400);
+  }
+
+  function appendChatMessage(role, text) {
+    const messages = document.getElementById('chat-messages');
+    if (!messages) return;
+    const div = document.createElement('div');
+    div.className = `chat-msg ${role}`;
+    const formatted = text.replace(/[*][*](.*?)[*][*]/g, '<strong>$1</strong>').replace(/
+/g, '<br>');
+    if (role === 'ai') {
+      div.innerHTML = `<div class="chat-avatar ai-av">🤖</div><div class="chat-bubble">${formatted}</div>`;
+    } else {
+      div.innerHTML = `<div class="chat-bubble">${formatted}</div><div class="chat-avatar user-av">👤</div>`;
+    }
+    messages.appendChild(div);
+    messages.scrollTop = messages.scrollHeight;
+  }
+
+  async function sendCoachMessage() {
+    const input = document.getElementById('coach-input');
+    const query = input.value.trim();
+    if (!query) return;
+    input.value = '';
+
+    appendChatMessage('user', query);
+
+    const provider = safeStorage.getItem('ai_provider') || 'none';
+    if (provider !== 'none') {
+      await getLiveAIResponse(query);
+      return;
+    }
+
+    // Keyword match for free text
+    const q = query.toLowerCase();
+    let key = 'generic';
+    if (q.includes('cmu') || q.includes('carnegie')) key = 'cmu';
+    else if (q.includes('summer') || q.includes('vacation')) key = 'summer';
+    else if (q.includes('improve') || q.includes('chances') || q.includes('stronger')) key = 'improve';
+    else if (q.includes('activity') || q.includes('extracurricular') || q.includes('club') || q.includes('ec')) key = 'ec';
+    else if (q.includes('sat') || q.includes('act') || q.includes('test')) key = 'sat';
+    else if (q.includes('scholarship') || q.includes('money') || q.includes('financial')) key = 'scholarships';
+    else if (q.includes('essay') || q.includes('personal statement') || q.includes('write')) {
+      setTimeout(() => appendChatMessage('ai', `Head to the Essay Studio section below! Select your Common App prompt, start writing, and click "Generate Outline" when you're ready for a structured plan.
+
+💡 The most important thing is to start — even a rough first draft is much better than a blank page.`), 400);
+      return;
+    } else if (q.includes('roadmap') || q.includes('plan') || q.includes('timeline') || q.includes('next')) {
+      setTimeout(() => { appendChatMessage('ai', `Check the **Roadmap** tab for your personalized 4-year timeline and next steps! I've also generated specific recommendations based on your grade and interests.`); switchTab('roadmap'); }, 400);
+      return;
+    }
+
+    handleChip(key, query);
+  }
+
+  // ─── Essay Studio ───
+  function updateWordCount() {
+    const text = document.getElementById('essay-draft').value;
+    essayContent = text;
+    const words = text.trim().split(/\s+/).filter(Boolean).length;
+    document.getElementById('word-count-display').textContent = `${words} / 650 words`;
+    if (words >= 50) completeMission('write_essay');
+    // Update essay score
+    renderDashboard();
+  }
+
+  function saveEssayDraft() {
+    essayContent = document.getElementById('essay-draft').value;
+    saveToStorage();
+    showToast('✅ Draft saved!');
+  }
+
+  async function generateEssayOutline() {
+    const promptNum = document.getElementById('essay-prompt-select').value;
+    const draft = document.getElementById('essay-draft').value.trim();
+    const s = studentProfile;
+
+    const prompts = {
+      '1': 'Background, identity, interest, or talent that makes you who you are',
+      '2': 'A challenge, setback, or failure you learned from',
+      '3': 'A belief or idea you challenged or questioned',
+      '4': 'Gratitude for someone who made a difference',
+      '5': 'An accomplishment or event that sparked personal growth',
+      '6': 'A topic, idea, or concept that captivates you',
+      '7': 'A topic of your own choice',
+    };
+
+    const promptText = prompts[promptNum] || prompts['7'];
+
+    const provider = safeStorage.getItem('ai_provider') || 'none';
+    if (provider !== 'none') {
+      const resultBox = document.getElementById('essay-outline-result');
+      const textEl = document.getElementById('essay-outline-text');
+      
+      textEl.textContent = 'Generating outline with live AI... ⚡';
+      resultBox.style.display = 'block';
+      resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+      const systemPrompt = `You are an expert college admissions essay coach. Create a customized, highly detailed essay outline.
+Student Profile:
+- Intended Major/Interest: ${s.interest}
+- Grade Level: ${s.grade}th
+Prompt Selected: Common App Prompt #${promptNum}: "${promptText}".`;
+
+      const promptTextToSend = `Draft input by student:
+"${draft || '(No draft entered yet)'}"
+
+Please construct a paragraph-by-paragraph outline with word count suggestions, specific areas to focus on, and questions to guide the student based on their major/interest and selected prompt.`;
+
+      const reply = await callLiveAI(promptTextToSend, systemPrompt);
+      if (reply) {
+        textEl.textContent = reply;
+      } else {
+        textEl.textContent = 'Failed to generate live outline. Please check your API Key settings.';
+      }
+      return;
+    }
+
+    const interest = s.interest || 'CS';
+    const outlines = {
+      '1': `📝 OUTLINE — Prompt 1: ${promptText}
+
+Hook (50 words): Open with a vivid, specific moment that shows who you are.
+
+1. STORY (150 words): The defining experience or background — be concrete and specific.
+
+2. MEANING (100 words): What this background taught you, how it shaped your values or worldview.
+
+3. APPLICATION (150 words): How this identity shows up in your work, especially in ${interest}. Tie to your activities.
+
+4. FUTURE (100 words): What you'll bring to college and beyond because of this. Specific, hopeful, honest.
+
+Conclusion (50 words): Echo the hook image. End with forward momentum, not a summary.`,
+      '2': `📝 OUTLINE — Prompt 2: ${promptText}
+
+Hook (50 words): Drop into the moment of failure/challenge. Present tense, specific detail.
+
+1. CONTEXT (80 words): What you were attempting and why it mattered to you.
+
+2. THE FAILURE (120 words): What went wrong, honestly and specifically. Don't soften it.
+
+3. TURNING POINT (100 words): The moment you decided to respond differently. Internal shift.
+
+4. GROWTH (150 words): Concrete changes you made. What you learned. How you applied it.
+
+5. REFLECTION (100 words): What you'd tell your past self. How this shapes your approach to ${interest} and beyond.
+
+Conclusion (50 words): Connect the lesson to your college goals.`,
+      '5': `📝 OUTLINE — Prompt 5: ${promptText}
+
+Hook (50 words): The moment everything changed — start in the middle of the experience.
+
+1. BEFORE (80 words): Who you were before this event. What you believed or assumed.
+
+2. THE EVENT (150 words): What happened in vivid, specific detail. Show, don't tell.
+
+3. THE SHIFT (120 words): How you processed it. What questions it raised. Internal experience.
+
+4. AFTER (150 words): Specific changes in behavior, thinking, or goals. Concrete evidence.
+
+Conclusion (50 words): Why this growth matters for your future in ${interest} and at college.`,
+    };
+
+    const outline = outlines[promptNum] || `📝 OUTLINE — ${promptText}
+
+Hook (50 words): Start with a specific scene or moment.
+
+1. CONTEXT (100 words): Background that grounds your story.
+
+2. DEVELOPMENT (200 words): The core of your narrative — be specific, honest, and personal.
+
+3. REFLECTION (150 words): What you learned, how you changed.
+
+4. CONNECTION (100 words): Link to your goals in ${interest} and why this college matters to you.
+
+Conclusion (50 words): End with resonance, not a summary.`;
+
+    const resultBox = document.getElementById('essay-outline-result');
+    const textEl = document.getElementById('essay-outline-text');
+    textEl.textContent = outline;
+    resultBox.style.display = 'block';
+    resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }s)
 • Coca-Cola Scholars (community impact)
 • Gates Scholarship (low-income, minority students)
 
