@@ -1406,20 +1406,20 @@
     <div class="section-heading" style="margin-bottom:12px;">📝 <span id="lbl-acad-profile">Academic Profile</span></div>
     <div class="card" style="margin-bottom:16px;">
       <div class="profile-form-grid">
-        <div class="form-group"><label>Grade Level</label>
+        <div class="form-group"><label id="lbl-prof-grade-lvl">Grade Level</label>
           <select id="prof-grade">
             <option value="9">9th — Freshman</option>
             <option value="10">10th — Sophomore</option>
             <option value="11" selected>11th — Junior</option>
             <option value="12">12th — Senior</option>
           </select></div>
-        <div class="form-group"><label>GPA (Weighted)</label>
+        <div class="form-group"><label id="lbl-prof-gpa-lvl">GPA (Weighted)</label>
           <input type="number" id="prof-gpa" placeholder="e.g. 3.9" step="0.05" min="2.0" max="5.0" value="3.5"></div>
-        <div class="form-group"><label>SAT Score (optional)</label>
+        <div class="form-group"><label id="lbl-prof-sat-lvl">SAT Score (optional)</label>
           <input type="number" id="prof-sat" placeholder="400–1600" min="400" max="1600"></div>
-        <div class="form-group"><label>ACT Score (optional)</label>
+        <div class="form-group"><label id="lbl-prof-act-lvl">ACT Score (optional)</label>
           <input type="number" id="prof-act" placeholder="1–36" min="1" max="36"></div>
-        <div class="form-group"><label>Major Interest</label>
+        <div class="form-group"><label id="lbl-prof-major-lvl">Major Interest</label>
           <select id="prof-interest">
             <option value="Any">Not sure yet</option>
             <option value="STEM">STEM (General)</option>
@@ -1430,7 +1430,7 @@
             <option value="Humanities">Humanities / Arts</option>
             <option value="Biology">Biology / Pre-Med</option>
           </select></div>
-        <div class="form-group"><label>Home State</label>
+        <div class="form-group"><label id="lbl-prof-state-lvl">Home State</label>
           <select id="prof-state">
             <option value="NC" selected>North Carolina</option>
             <option value="CA">California</option>
@@ -1439,14 +1439,14 @@
             <option value="FL">Florida</option>
             <option value="Other">Other</option>
           </select></div>
-        <div class="form-group"><label>Gender (optional)</label>
+        <div class="form-group"><label id="lbl-prof-gender-lvl">Gender (optional)</label>
           <select id="prof-gender">
             <option value="Prefer not to say" selected>Prefer not to say</option>
             <option value="Female">Female</option>
             <option value="Male">Male</option>
             <option value="Non-binary">Non-binary</option>
           </select></div>
-        <div class="form-group"><label>Ethnicity (optional)</label>
+        <div class="form-group"><label id="lbl-prof-ethnicity-lvl">Ethnicity (optional)</label>
           <select id="prof-ethnicity">
             <option value="Prefer not to say" selected>Prefer not to say</option>
             <option value="African American">African American</option>
@@ -1456,25 +1456,25 @@
             <option value="White">White / Caucasian</option>
             <option value="Multiracial">Multiracial</option>
           </select></div>
-        <div class="form-group"><label>Financial Need</label>
+        <div class="form-group"><label id="lbl-prof-need-lvl">Financial Need</label>
           <select id="prof-need">
             <option value="no" selected>No</option>
             <option value="yes">Yes — need-based aid important</option>
           </select></div>
-        <div class="form-group"><label>Competition Format Pref</label>
+        <div class="form-group"><label id="lbl-prof-format-lvl">Competition Format Pref</label>
           <select id="prof-format">
             <option value="Any" selected>Any</option>
             <option value="Individual">Individual</option>
             <option value="Team-Based">Team-Based</option>
           </select></div>
-        <div class="form-group"><label>AP / IB Courses Taken</label>
+        <div class="form-group"><label id="lbl-prof-ap-lvl">AP / IB Courses Taken</label>
           <input type="number" id="prof-ap" placeholder="e.g. 4" min="0" max="15" value="0"></div>
-        <div class="form-group"><label>Community Service Hours</label>
+        <div class="form-group"><label id="lbl-prof-service-lvl">Community Service Hours</label>
           <input type="number" id="prof-service" placeholder="e.g. 80" min="0" max="999" value="0"></div>
         <div class="form-group" style="grid-column:1/-1;">
           <label style="display:flex;align-items:center;gap:10px;cursor:pointer;">
             <input type="checkbox" id="prof-leadership" style="accent-color:var(--primary);width:18px;height:18px;">
-            <span>I hold a leadership role in a club or organization</span>
+            <span id="lbl-prof-leadership-text">I hold a leadership role in a club or organization</span>
           </label>
         </div>
       </div>
@@ -1484,21 +1484,21 @@
       </div>
     </div>
 
-    <div class="section-heading" style="margin-bottom:12px;">🏅 Your Progress</div>
+    <div class="section-heading" style="margin-bottom:12px;">🏅 <span id="lbl-progress-title">Your Progress</span></div>
     <div class="card" style="margin-bottom:16px;">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-        <div><span id="stat-bookmarks">0</span> Saved items</div>
-        <div><span id="stat-roadmap">0%</span> Roadmap done</div>
+        <div><span id="stat-bookmarks">0</span> <span id="lbl-stat-bookmarks">Saved items</span></div>
+        <div><span id="stat-roadmap">0%</span> <span id="lbl-stat-roadmap">Roadmap done</span></div>
         <div><span id="stat-xp">0 XP</span></div>
       </div>
-      <button class="btn btn-outline" style="color:var(--danger);border-color:var(--danger);" onclick="confirmResetAll()">🗑️ Reset All Data</button>
+      <button class="btn btn-outline" style="color:var(--danger);border-color:var(--danger);" onclick="confirmResetAll()">🗑️ <span id="lbl-reset-all">Reset All Data</span></button>
     </div>
 
     <!-- AI Portfolio Analysis -->
-    <div class="section-heading" style="margin-bottom:12px;">🤖 AI Portfolio Analysis</div>
+    <div class="section-heading" style="margin-bottom:12px;">🤖 <span id="lbl-portfolio-title">AI Portfolio Analysis</span></div>
     <div class="card">
-      <div class="text-sm text-muted" style="margin-bottom:14px;">Save your profile to get an AI-generated breakdown of your strengths and where to improve.</div>
-      <button class="btn btn-primary" onclick="renderPortfolioAnalysis()" style="width:100%;justify-content:center;">🔍 Analyze My Portfolio</button>
+      <div class="text-sm text-muted" style="margin-bottom:14px;" id="lbl-portfolio-desc">Save your profile to get an AI-generated breakdown of your strengths and where to improve.</div>
+      <button class="btn btn-primary" onclick="renderPortfolioAnalysis()" style="width:100%;justify-content:center;">🔍 <span id="lbl-analyze-portfolio">Analyze My Portfolio</span></button>
       <div id="portfolio-analysis-result" style="display:none;margin-top:16px;"></div>
     </div>
   </div>
@@ -1707,6 +1707,29 @@
       'lbl-acad-profile': 'Academic Profile',
       'lbl-save-profile': 'Save Profile',
       
+      // Profile form labels
+      'lbl-prof-grade-lvl': 'Grade Level',
+      'lbl-prof-gpa-lvl': 'GPA (Weighted)',
+      'lbl-prof-sat-lvl': 'SAT Score (optional)',
+      'lbl-prof-act-lvl': 'ACT Score (optional)',
+      'lbl-prof-major-lvl': 'Major Interest',
+      'lbl-prof-state-lvl': 'Home State',
+      'lbl-prof-gender-lvl': 'Gender (optional)',
+      'lbl-prof-ethnicity-lvl': 'Ethnicity (optional)',
+      'lbl-prof-need-lvl': 'Financial Need',
+      'lbl-prof-format-lvl': 'Competition Format Pref',
+      'lbl-prof-ap-lvl': 'AP / IB Courses Taken',
+      'lbl-prof-service-lvl': 'Community Service Hours',
+      'lbl-prof-leadership-text': 'I hold a leadership role in a club or organization',
+      'lbl-apply-profile': 'Apply to Filters',
+      'lbl-progress-title': 'Your Progress',
+      'lbl-stat-bookmarks': 'Saved items',
+      'lbl-stat-roadmap': 'Roadmap done',
+      'lbl-reset-all': 'Reset All Data',
+      'lbl-portfolio-title': 'AI Portfolio Analysis',
+      'lbl-portfolio-desc': 'Save your profile to get an AI-generated breakdown of your strengths and where to improve.',
+      'lbl-analyze-portfolio': 'Analyze My Portfolio',
+      
       // Placeholders
       'search-placeholder': 'Search scholarships, competitions, research...',
       'essay-placeholder': 'Type or paste your college essay here...'
@@ -1769,6 +1792,29 @@
       'lbl-acad-profile': '学术背景资料',
       'lbl-save-profile': '保存资料',
       
+      // Profile form labels
+      'lbl-prof-grade-lvl': '年级水平',
+      'lbl-prof-gpa-lvl': 'GPA (加权绩点)',
+      'lbl-prof-sat-lvl': 'SAT 成绩 (选填)',
+      'lbl-prof-act-lvl': 'ACT 成绩 (选填)',
+      'lbl-prof-major-lvl': '意向专业',
+      'lbl-prof-state-lvl': '居住州',
+      'lbl-prof-gender-lvl': '性别 (选填)',
+      'lbl-prof-ethnicity-lvl': '族裔 (选填)',
+      'lbl-prof-need-lvl': '助学金需求',
+      'lbl-prof-format-lvl': '竞赛形式偏好',
+      'lbl-prof-ap-lvl': '已修 AP / IB 课程门数',
+      'lbl-prof-service-lvl': '社区服务时长 (小时)',
+      'lbl-prof-leadership-text': '我在社团或组织中担任领导职务',
+      'lbl-apply-profile': '应用到筛选器',
+      'lbl-progress-title': '你的进度',
+      'lbl-stat-bookmarks': '已收藏项目',
+      'lbl-stat-roadmap': '路线图完成度',
+      'lbl-reset-all': '重置所有数据',
+      'lbl-portfolio-title': 'AI 综合背景评估',
+      'lbl-portfolio-desc': '保存个人背景资料以获取由 AI 生成的优劣势分析及提升建议。',
+      'lbl-analyze-portfolio': '开始评估分析',
+      
       'search-placeholder': '搜索奖学金、竞赛、科研项目...',
       'essay-placeholder': '在此输入或粘贴您的大学申请文书...'
     },
@@ -1829,6 +1875,29 @@
       'lbl-save-draft': 'Guardar Borrador',
       'lbl-acad-profile': 'Perfil Académico',
       'lbl-save-profile': 'Guardar Perfil',
+      
+      // Profile form labels
+      'lbl-prof-grade-lvl': 'Nivel de Grado',
+      'lbl-prof-gpa-lvl': 'GPA (Ponderado)',
+      'lbl-prof-sat-lvl': 'Puntaje SAT (opcional)',
+      'lbl-prof-act-lvl': 'Puntaje ACT (opcional)',
+      'lbl-prof-major-lvl': 'Carrera de Interés',
+      'lbl-prof-state-lvl': 'Estado de Residencia',
+      'lbl-prof-gender-lvl': 'Género (opcional)',
+      'lbl-prof-ethnicity-lvl': 'Etnicidad (opcional)',
+      'lbl-prof-need-lvl': 'Necesidad Financiera',
+      'lbl-prof-format-lvl': 'Pref. de Formato de Competencia',
+      'lbl-prof-ap-lvl': 'Cursos AP / IB Tomados',
+      'lbl-prof-service-lvl': 'Horas de Servicio Comunitario',
+      'lbl-prof-leadership-text': 'Tengo un rol de liderazgo en un club u organización',
+      'lbl-apply-profile': 'Aplicar a Filtros',
+      'lbl-progress-title': 'Tu Progreso',
+      'lbl-stat-bookmarks': 'Elementos guardados',
+      'lbl-stat-roadmap': 'Hoja de ruta completada',
+      'lbl-reset-all': 'Restablecer Datos',
+      'lbl-portfolio-title': 'Análisis de Perfil IA',
+      'lbl-portfolio-desc': 'Guarde su perfil para obtener un desglose generado por IA de sus fortalezas y áreas de mejora.',
+      'lbl-analyze-portfolio': 'Analizar mi Perfil',
       
       'search-placeholder': 'Buscar becas, competencias, investigación...',
       'essay-placeholder': 'Escriba o pegue su ensayo universitario aquí...'
@@ -2309,52 +2378,60 @@
   const roadmapData = {
     '9': {
       label: '9th Grade — Freshman',
+      labelZh: '9年级 — 高一',
+      labelEs: 'Grado 9 — Estudiante de Primer Año',
       emoji: '🌱',
       items: [
-        { key: '9_gpa', text: 'Start strong — build your baseline GPA' },
-        { key: '9_clubs', text: 'Join 2–3 clubs that genuinely interest you' },
-        { key: '9_volunteer', text: 'Begin volunteer work (50+ hours by senior year)' },
-        { key: '9_explore', text: 'Explore broad interests: coding, art, science, debate' },
-        { key: '9_read', text: 'Read widely — improves SAT verbal and essay quality' },
-        { key: '9_summer', text: 'Summer: local internship, camp, or online course' },
+        { key: '9_gpa', text: 'Start strong — build your baseline GPA', textZh: '奠定良好基础 — 建立你的基准绩点 (GPA)', textEs: 'Comience fuerte — desarrolle su promedio de calificaciones (GPA) base' },
+        { key: '9_clubs', text: 'Join 2–3 clubs that genuinely interest you', textZh: '加入2-3个你真正感兴趣的社团', textEs: 'Únase a 2-3 clubes que realmente le interesen' },
+        { key: '9_volunteer', text: 'Begin volunteer work (50+ hours by senior year)', textZh: '开始做义工（在12年级前累计50小时以上）', textEs: 'Comience el trabajo voluntario (50+ horas para el último año)' },
+        { key: '9_explore', text: 'Explore broad interests: coding, art, science, debate', textZh: '广泛探索兴趣：编程、艺术、科学、辩论等', textEs: 'Explore intereses amplios: codificación, arte, ciencia, debate' },
+        { key: '9_read', text: 'Read widely — improves SAT verbal and essay quality', textZh: '广泛阅读 — 提升SAT阅读及文书写作水平', textEs: 'Lea ampliamente — mejora el SAT verbal y la calidad del ensayo' },
+        { key: '9_summer', text: 'Summer: local internship, camp, or online course', textZh: '暑假：参加本地实习、夏令营或在线课程学习', textEs: 'Verano: pasantía local, campamento o curso en línea' },
       ]
     },
     '10': {
       label: '10th Grade — Sophomore',
+      labelZh: '10年级 — 高二',
+      labelEs: 'Grado 10 — Estudiante de Segundo Año',
       emoji: '📚',
       items: [
-        { key: '10_psat', text: 'Take PSAT 10 (October)' },
-        { key: '10_amc', text: 'Take AMC 10A/10B if interested in math' },
-        { key: '10_science_fair', text: 'Enter a regional science fair or research project' },
-        { key: '10_ap', text: 'Take first AP or IB courses' },
-        { key: '10_coding', text: 'Start a coding project or USACO preparation' },
-        { key: '10_summer', text: 'Summer: pre-college program or research internship' },
+        { key: '10_psat', text: 'Take PSAT 10 (October)', textZh: '参加 PSAT 10 考试（十月）', textEs: 'Tome el PSAT 10 (octubre)' },
+        { key: '10_amc', text: 'Take AMC 10A/10B if interested in math', textZh: '如对数学感兴趣，可参加 AMC 10A/10B 竞赛', textEs: 'Tome el AMC 10A/10B si está interesado en matemáticas' },
+        { key: '10_science_fair', text: 'Enter a regional science fair or research project', textZh: '参加区域科学展览会或启动科研课题', textEs: 'Participe en una feria de ciencias regional o proyecto de investigación' },
+        { key: '10_ap', text: 'Take first AP or IB courses', textZh: '开始修读第一门 AP 或 IB 课程', textEs: 'Tome sus primeros cursos AP o IB' },
+        { key: '10_coding', text: 'Start a coding project or USACO preparation', textZh: '启动个人编程项目或备考信息学奥赛 (USACO)', textEs: 'Inicie un proyecto de programación o preparación para USACO' },
+        { key: '10_summer', text: 'Summer: pre-college program or research internship', textZh: '暑假：参加大学预科项目或科研实习', textEs: 'Verano: programa preuniversitario o pasantía de investigación' },
       ]
     },
     '11': {
       label: '11th Grade — Junior',
+      labelZh: '11年级 — 高三',
+      labelEs: 'Grado 11 — Estudiante de Tercer Año',
       emoji: '🎯',
       items: [
-        { key: '11_sat', text: 'Take SAT/ACT (aim for March or May)' },
-        { key: '11_psat_nm', text: 'Take PSAT/NMSQT (October — National Merit qualifier)' },
-        { key: '11_college_list', text: 'Build preliminary college list (10–15 schools)' },
-        { key: '11_research', text: 'Pursue a summer research program (RSI, PRIMES, etc.)' },
-        { key: '11_leadership', text: 'Take on a leadership role in a club or activity' },
-        { key: '11_recs', text: 'Identify 2–3 teachers for recommendation letters' },
-        { key: '11_essays', text: 'Begin brainstorming Common App personal statement' },
+        { key: '11_sat', text: 'Take SAT/ACT (aim for March or May)', textZh: '参加 SAT/ACT 考试（争取在三月或五月通过）', textEs: 'Tome el SAT/ACT (apunte a marzo o mayo)' },
+        { key: '11_psat_nm', text: 'Take PSAT/NMSQT (October — National Merit qualifier)', textZh: '参加 PSAT/NMSQT（十月 — 国家荣誉学者奖学金资格赛）', textEs: 'Tome el PSAT/NMSQT (octubre — calificador de National Merit)' },
+        { key: '11_college_list', text: 'Build preliminary college list (10–15 schools)', textZh: '建立初步大学名单（10-15所学校）', textEs: 'Construya la lista preliminar de universidades (10-15 escuelas)' },
+        { key: '11_research', text: 'Pursue a summer research program (RSI, PRIMES, etc.)', textZh: '申请并参加暑期科研夏令营（如 RSI、PRIMES 等）', textEs: 'Solicite un programa de investigación de verano (RSI, PRIMES, etc.)' },
+        { key: '11_leadership', text: 'Take on a leadership role in a club or activity', textZh: '在社团或课外活动中争取担任领导职务', textEs: 'Asuma un rol de liderazgo en un club o actividad' },
+        { key: '11_recs', text: 'Identify 2–3 teachers for recommendation letters', textZh: '物色2-3位适合写大学推荐信的科任老师', textEs: 'Identifique a 2-3 maestros para cartas de recomendación' },
+        { key: '11_essays', text: 'Begin brainstorming Common App personal statement', textZh: '开始构思 Common App 个人陈述（主文书）', textEs: 'Comience a generar ideas para la declaración personal de Common App' },
       ]
     },
     '12': {
       label: '12th Grade — Senior',
+      labelZh: '12年级 — 高四',
+      labelEs: 'Grado 12 — Estudiante de Cuarto Año',
       emoji: '🏁',
       items: [
-        { key: '12_ea_ed', text: 'Submit Early Action / Early Decision apps (Nov 1–15)' },
-        { key: '12_fafsa', text: 'Complete FAFSA as soon as it opens (Oct 1)' },
-        { key: '12_essays', text: 'Finalize and submit all supplemental essays' },
-        { key: '12_scholarships', text: 'Apply to 5+ scholarships (use this tool!)' },
-        { key: '12_rd', text: 'Submit Regular Decision apps by Jan 1–15' },
-        { key: '12_waitlist', text: 'Prepare waitlist appeal letter if needed' },
-        { key: '12_decide', text: 'Compare offers & send enrollment deposit by May 1' },
+        { key: '12_ea_ed', text: 'Submit Early Action / Early Decision apps (Nov 1–15)', textZh: '提交 Early Action (EA) / Early Decision (ED) 申请（11月1日至15日）', textEs: 'Presente solicitudes de Early Action / Early Decision (noviembre 1–15)' },
+        { key: '12_fafsa', text: 'Complete FAFSA as soon as it opens (Oct 1)', textZh: 'FAFSA（联邦助学金申请）开放后尽快完成提交（10月1日）', textEs: 'Complete el FAFSA tan pronto como se abra (octubre 1)' },
+        { key: '12_essays', text: 'Finalize and submit all supplemental essays', textZh: '定稿并提交所有大学的附加文书 (Supplemental Essays)', textEs: 'Finalice y envíe todos los ensayos suplementarios' },
+        { key: '12_scholarships', text: 'Apply to 5+ scholarships (use this tool!)', textZh: '申请5个以上的奖学金项目（可利用本工具进行筛选！）', textEs: 'Solicite 5+ becas (¡use esta herramienta!)' },
+        { key: '12_rd', text: 'Submit Regular Decision apps by Jan 1–15', textZh: '在1月1日至15日前提交 Regular Decision (RD) 常规申请', textEs: 'Presente solicitudes de Regular Decision antes de enero 1–15' },
+        { key: '12_waitlist', text: 'Prepare waitlist appeal letter if needed', textZh: '如有需要，准备候补名单 (Waitlist) 争取信', textEs: 'Prepare una carta de apelación para lista de espera si es necesario' },
+        { key: '12_decide', text: 'Compare offers & send enrollment deposit by May 1', textZh: '对比所有录取通知并在5月1日前提交入学押金', textEs: 'Compare ofertas y envíe el depósito de inscripción antes del 1 de mayo' },
       ]
     }
   };
@@ -2373,10 +2450,14 @@
       const div = document.createElement('div');
       div.className = 'roadmap-grade';
       const doneCount = data.items.filter(i => roadmapProgress[i.key]).length;
+      
+      const label = currentLang === 'zh' ? (data.labelZh || data.label) : (currentLang === 'es' ? (data.labelEs || data.label) : data.label);
+      const currentText = currentLang === 'zh' ? '当前年级' : (currentLang === 'es' ? 'ACTUAL' : 'CURRENT');
+
       div.innerHTML = `
         <div class="roadmap-grade-header ${statusClass}">
-          ${data.emoji} ${data.label}
-          ${isCurrent ? '<span style="margin-left:auto;font-size:0.72rem;background:var(--primary);color:#fff;padding:2px 8px;border-radius:100px;">CURRENT</span>' : ''}
+          ${data.emoji} ${label}
+          ${isCurrent ? `<span style="margin-left:auto;font-size:0.72rem;background:var(--primary);color:#fff;padding:2px 8px;border-radius:100px;">${currentText}</span>` : ''}
           <span style="margin-left:${isCurrent ? '6px' : 'auto'};font-size:0.78rem;color:var(--text-muted);">${doneCount}/${data.items.length}</span>
         </div>
         <div class="roadmap-items" id="roadmap-items-${grade}"></div>
@@ -2389,9 +2470,10 @@
         const isCatchup = isPast && !checked;
         const itemDiv = document.createElement('label');
         itemDiv.className = 'roadmap-item';
+        const text = currentLang === 'zh' ? (item.textZh || item.text) : (currentLang === 'es' ? (item.textEs || item.text) : item.text);
         itemDiv.innerHTML = `
           <input type="checkbox" ${checked ? 'checked' : ''} onchange="toggleRoadmapItem('${item.key}', this.checked)">
-          <span class="roadmap-item-label ${isCatchup ? 'catchup' : ''}">${isCatchup ? '⚠️ ' : ''}${item.text}</span>
+          <span class="roadmap-item-label ${isCatchup ? 'catchup' : ''}">${isCatchup ? '⚠️ ' : ''}${text}</span>
         `;
         itemsEl.appendChild(itemDiv);
       });
@@ -2425,35 +2507,84 @@
     const steps = [];
 
     const isSTEM = ['STEM', 'Computer Science', 'Engineering', 'Math', 'Biology'].includes(s.interest);
-    const isMath = s.interest === 'Math';
     const gpa = s.gpa;
 
     if (grade <= 10 && isSTEM) {
-      steps.push({ icon: '🧪', text: 'Apply to <span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;research&apos;)">summer research programs</span> like MIT PRIMES or RSI (apps open Jan–Feb).' });
+      steps.push({
+        icon: '🧪',
+        text: currentLang === 'zh' ? '申请像 MIT PRIMES 或 RSI 这样的<span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;research&apos;)">暑期科研项目</span>（申请于1-2月开放）。' :
+              currentLang === 'es' ? 'Solicite <span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;research&apos;)">programas de investigación de verano</span> como MIT PRIMES o RSI (las solicitudes abren de enero a febrero).' :
+              'Apply to <span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;research&apos;)">summer research programs</span> like MIT PRIMES or RSI (apps open Jan–Feb).'
+      });
     }
     if (grade <= 11 && isSTEM) {
-      steps.push({ icon: '🏆', text: 'Register for <span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;competitions&apos;)">USACO or AMC</span> competitions — both open November.' });
+      steps.push({
+        icon: '🏆',
+        text: currentLang === 'zh' ? '注册参加 <span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;competitions&apos;)">USACO 或 AMC</span> 竞赛 — 均于11月开放注册。' :
+              currentLang === 'es' ? 'Regístrese para competencias <span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;competitions&apos;)">USACO o AMC</span> — ambas abren en noviembre.' :
+              'Register for <span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;competitions&apos;)">USACO or AMC</span> competitions — both open November.'
+      });
     }
     if (grade === 11) {
-      steps.push({ icon: '📝', text: 'Take the PSAT/NMSQT this October — it qualifies you for National Merit Scholarship.' });
-      steps.push({ icon: '📋', text: 'Start your college list. Run the <span class="next-step-link" onclick="go(&apos;colleges&apos;)">College Predictor</span> to find your safety/match/reach schools.' });
+      steps.push({
+        icon: '📝',
+        text: currentLang === 'zh' ? '今年十月参加 PSAT/NMSQT 考试 — 这能让你获得国家荣誉学者奖学金资格。' :
+              currentLang === 'es' ? 'Tome el PSAT/NMSQT este octubre — lo califica para la beca National Merit.' :
+              'Take the PSAT/NMSQT this October — it qualifies you for National Merit Scholarship.'
+      });
+      steps.push({
+        icon: '📋',
+        text: currentLang === 'zh' ? '开始拟定你的大学名单。运行 <span class="next-step-link" onclick="go(&apos;colleges&apos;)">大学预测器</span> 来找到你的安全/匹配/冲刺学校。' :
+              currentLang === 'es' ? 'Comience su lista de universidades. Ejecute el <span class="next-step-link" onclick="go(&apos;colleges&apos;)">Predictor de Universidades</span> para encontrar sus escuelas de seguridad/coincidencia/alcance.' :
+              'Start your college list. Run the <span class="next-step-link" onclick="go(&apos;colleges&apos;)">College Predictor</span> to find your safety/match/reach schools.'
+      });
     }
     if (grade === 10 || grade === 11) {
-      steps.push({ icon: '📖', text: 'Take at least 1 new AP course this year — aim for 4+ AP exams by senior year.' });
+      steps.push({
+        icon: '📖',
+        text: currentLang === 'zh' ? '今年至少选修一门新的 AP 课程 — 争取在毕业前通过 4 门以上的 AP 考试。' :
+              currentLang === 'es' ? 'Tome al menos 1 nuevo curso AP este año — apunte a 4+ exámenes AP para el último año.' :
+              'Take at least 1 new AP course this year — aim for 4+ AP exams by senior year.'
+      });
     }
     if (grade === 12) {
-      steps.push({ icon: '🚀', text: 'Submit Early Action applications by Nov 1–15. Use the <span class="next-step-link" onclick="go(&apos;coach&apos;)">Essay Studio</span> to finalize your personal statement.' });
-      steps.push({ icon: '💰', text: 'FAFSA opened Oct 1 — complete it ASAP. Browse <span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;scholarships&apos;)">scholarships</span> you qualify for.' });
+      steps.push({
+        icon: '🚀',
+        text: currentLang === 'zh' ? '在11月1-15日前提交提前行动 (Early Action) 申请。使用 <span class="next-step-link" onclick="go(&apos;coach&apos;)">文书工作室</span> 来润色并定稿你的个人陈述。' :
+              currentLang === 'es' ? 'Envíe solicitudes de Early Action antes del 1–15 de noviembre. Use el <span class="next-step-link" onclick="go(&apos;coach&apos;)">Estudio de Ensayos</span> para finalizar su declaración personal.' :
+              'Submit Early Action applications by Nov 1–15. Use the <span class="next-step-link" onclick="go(&apos;coach&apos;)">Essay Studio</span> to finalize your personal statement.'
+      });
+      steps.push({
+        icon: '💵',
+        text: currentLang === 'zh' ? 'FAFSA 于10月1日开放 — 请尽快提交。浏览你符合条件的<span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;scholarships&apos;)">奖学金项目</span>。' :
+              currentLang === 'es' ? 'FAFSA se abrió el 1 de octubre — complételo lo antes posible. Explore las <span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;scholarships&apos;)">becas</span> para las que califica.' :
+              'FAFSA opened Oct 1 — complete it ASAP. Browse <span class="next-step-link" onclick="go(&apos;activities&apos;,&apos;scholarships&apos;)">scholarships</span> you qualify for.'
+      });
     }
     if (gpa >= 3.8 && grade <= 11) {
-      steps.push({ icon: '⭐', text: 'Your GPA is competitive for selective schools. Focus on <span class="next-step-link" onclick="go(&apos;activities&apos;)">elite competitions and research</span> to differentiate yourself.' });
+      steps.push({
+        icon: '⭐',
+        text: currentLang === 'zh' ? '你的绩点对于高竞争性学校非常有优势。集中精力进行 <span class="next-step-link" onclick="go(&apos;activities&apos;)">精英竞赛和科研</span> 来突出自己的特色。' :
+              currentLang === 'es' ? 'Su GPA es competitivo para escuelas selectivas. Concéntrese en <span class="next-step-link" onclick="go(&apos;activities&apos;)">competencias de élite e investigación</span> para diferenciarse.' :
+              'Your GPA is competitive for selective schools. Focus on <span class="next-step-link" onclick="go(&apos;activities&apos;)">elite competitions and research</span> to differentiate yourself.'
+      });
     }
     if (!s.sat && grade >= 10) {
-      steps.push({ icon: '📊', text: 'Add your SAT score to your <span class="next-step-link" onclick="go(&apos;profile&apos;)">Profile</span> to improve your admissions strength score.' });
+      steps.push({
+        icon: '📊',
+        text: currentLang === 'zh' ? '在<span class="next-step-link" onclick="go(&apos;profile&apos;)">个人资料</span>中添加你的 SAT 成绩以提升你的背景申请分。' :
+              currentLang === 'es' ? 'Agregue su puntaje SAT a su <span class="next-step-link" onclick="go(&apos;profile&apos;)">Perfil</span> para mejorar su puntaje de admisión.' :
+              'Add your SAT score to your <span class="next-step-link" onclick="go(&apos;profile&apos;)">Profile</span> to improve your admissions strength score.'
+      });
     }
 
     if (steps.length === 0) {
-      steps.push({ icon: '✅', text: 'Complete your <span class="next-step-link" onclick="go(&apos;profile&apos;)">Profile</span> to get personalized next steps.' });
+      steps.push({
+        icon: '✅',
+        text: currentLang === 'zh' ? '完善你的<span class="next-step-link" onclick="go(&apos;profile&apos;)">个人资料</span>以获取个性化的行动指南。' :
+              currentLang === 'es' ? 'Complete su <span class="next-step-link" onclick="go(&apos;profile&apos;)">Perfil</span> para obtener pasos personalizados.' :
+              'Complete your <span class="next-step-link" onclick="go(&apos;profile&apos;)">Profile</span> to get personalized next steps.'
+      });
     }
 
     steps.slice(0, 5).forEach(step => {
@@ -2745,7 +2876,25 @@
     if (!resultDiv) return;
 
     // Determine strengths and weaknesses
-    const dimensions = [
+    const dimensions = currentLang === 'zh' ? [
+      { name: 'GPA 与课程难度', val: score.gpaRigor, category: 'academic' },
+      { name: 'SAT/ACT 标准化考试', val: score.satScore, category: 'sat' },
+      { name: 'AP/IB 高难度课程数量', val: score.apScore, category: 'ap' },
+      { name: '领导力与课外活动角色', val: score.leaderScore, category: 'leadership' },
+      { name: '科研项目经验', val: score.resScore, category: 'research' },
+      { name: '学科竞赛与奖项', val: score.awardsScore, category: 'awards' },
+      { name: '社区义工服务时长', val: score.serviceScore, category: 'service' },
+      { name: '大学申请文书与大纲', val: score.essayScore, category: 'essays' }
+    ] : currentLang === 'es' ? [
+      { name: 'GPA y Rigor del Curso', val: score.gpaRigor, category: 'academic' },
+      { name: 'Examen Estandarizado SAT/ACT', val: score.satScore, category: 'sat' },
+      { name: 'Cantidad de Cursos AP/IB', val: score.apScore, category: 'ap' },
+      { name: 'Roles de Liderazgo y Extracurriculares', val: score.leaderScore, category: 'leadership' },
+      { name: 'Experiencia en Investigación', val: score.resScore, category: 'research' },
+      { name: 'Competencias y Premios', val: score.awardsScore, category: 'awards' },
+      { name: 'Horas de Servicio Comunitario', val: score.serviceScore, category: 'service' },
+      { name: 'Ensayos Universitarios y Esquemas', val: score.essayScore, category: 'essays' }
+    ] : [
       { name: 'GPA & Course Rigor', val: score.gpaRigor, category: 'academic' },
       { name: 'SAT/ACT Standardized Testing', val: score.satScore, category: 'sat' },
       { name: 'AP/IB Rigor course count', val: score.apScore, category: 'ap' },
@@ -2757,17 +2906,16 @@
     ];
 
     dimensions.sort((a, b) => b.val - a.val);
-    const strengths = dimensions.filter(d => d.val >= 70);
     const weaknesses = dimensions.filter(d => d.val < 70);
 
     let html = `
-      <div style="font-weight:700;font-size:0.95rem;margin-bottom:12px;">📊 Portfolio Evaluation Breakdown</div>
+      <div style="font-weight:700;font-size:0.95rem;margin-bottom:12px;">${currentLang === 'zh' ? '📊 背景综合评估分析' : (currentLang === 'es' ? '📊 Desglose de Evaluación de Perfil' : '📊 Portfolio Evaluation Breakdown')}</div>
       <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:16px;">
     `;
 
     dimensions.forEach(d => {
       const tagClass = d.val >= 70 ? 'good' : 'needs';
-      const tagText = d.val >= 70 ? 'STRONG' : 'IMPROVEMENT';
+      const tagText = d.val >= 70 ? (currentLang === 'zh' ? '优秀' : (currentLang === 'es' ? 'FUERTE' : 'STRONG')) : (currentLang === 'zh' ? '亟待提升' : (currentLang === 'es' ? 'MEJORAR' : 'IMPROVEMENT'));
       const color = d.val >= 70 ? 'var(--success)' : 'var(--danger)';
       html += `
         <div class="portfolio-row">
@@ -2785,7 +2933,25 @@
 
     if (weaknesses.length > 0) {
       const weakest = weaknesses[weaknesses.length - 1];
-      const recs = {
+      const recs = currentLang === 'zh' ? {
+        'academic': '专注于在下个学期保持优良的绩点并选择更具挑战性的课程。',
+        'sat': '制定 SAT/ACT 备考计划，或在个人资料中登记你的成绩以优化预测几率。',
+        'ap': '计划明年选修更多 AP 或 IB 课程，向招生官展示你的学术探索精神。',
+        'leadership': '在学校社团中争取领导职务，或独立负责一个个人项目。',
+        'research': '申请暑期科研项目（如 MIT PRIMES、RSI），或查看课外活动中的“科研学术”了解其他机会。',
+        'awards': '寻找与你学术兴趣相匹配的竞赛，并尽早开始准备以争取证书与奖项。',
+        'service': '联系本地公益组织开展义工服务，争取累计 50-100+ 小时的社区服务时长。',
+        'essays': '打开文书工作室或选择 AI 准备面板中的文书大纲，开始动笔撰写你的申请文书。'
+      } : currentLang === 'es' ? {
+        'academic': 'Concéntrese en mantener su promedio de calificaciones y elegir cursos rigurosos el próximo semestre.',
+        'sat': 'Programe una rutina de preparación para el SAT/ACT o registre sus puntajes en el Perfil para optimizar las probabilidades.',
+        'ap': 'Planifique registrarse en más cursos AP o IB el próximo año para mostrar curiosidad académica.',
+        'leadership': 'Busque una posición de liderazgo en un club escolar o hágase cargo de un proyecto personal.',
+        'research': 'Solicite programas de investigación de verano como MIT PRIMES, RSI, o consulte la pestaña de Investigación.',
+        'awards': 'Encuentre competencias que coincidan con sus intereses académicos y comience a prepararse temprano.',
+        'service': 'Busque organizaciones locales para ser voluntario y apunte a alcanzar más de 50-100 horas de servicio.',
+        'essays': 'Abra el Estudio de Ensayos o seleccione esquemas en los paneles de preparación de IA para comenzar a redactar.'
+      } : {
         'academic': 'Focus on maintaining your grade point average and choosing rigorous courses next semester.',
         'sat': 'Schedule an SAT/ACT prep routine or log your scores in the Profile to optimize predictor odds.',
         'ap': 'Plan to register for more AP or IB courses next year to show academic curiosity to admissions boards.',
@@ -2797,8 +2963,8 @@
       };
       html += `
         <div class="portfolio-weakness-block">
-          <strong>⚠️ Focus Area: ${weakest.name}</strong><br>
-          Your score in this area is currently low (${weakest.val}/100). ${recs[weakest.category]}
+          <strong>${currentLang === 'zh' ? '⚠️ 重点提升领域：' : (currentLang === 'es' ? '⚠️ Área de Enfoque: ' : '⚠️ Focus Area: ')}${weakest.name}</strong><br>
+          ${currentLang === 'zh' ? `你在该领域的评分较低（${weakest.val}/100）。` : (currentLang === 'es' ? `Su puntaje en esta área es actualmente bajo (${weakest.val}/100). ` : `Your score in this area is currently low (${weakest.val}/100). `)}${recs[weakest.category]}
         </div>
       `;
     }
@@ -2808,11 +2974,61 @@
     const grade = parseInt(s.grade) || 11;
     let timelineHtml = `
       <div class="divider"></div>
-      <div style="font-weight:700;font-size:0.95rem;margin:16px 0 8px;">📅 Recommended Admissions Timeline</div>
+      <div style="font-weight:700;font-size:0.95rem;margin:16px 0 8px;">${currentLang === 'zh' ? '📅 推荐申请规划时间线' : (currentLang === 'es' ? '📅 Hoja de Ruta de Admisión Recomendada' : '📅 Recommended Admissions Timeline')}</div>
       <div class="next-steps-list">
     `;
 
-    const timelineMilestones = {
+    const timelineMilestones = currentLang === 'zh' ? {
+      9: [
+        { month: '九月', text: '确定2-3个学术与个人兴趣；加入学校社团。' },
+        { month: '十二月', text: '监督你的 GPA 成绩；建立起规律高效的学习习惯。' },
+        { month: '三月', text: '开始规划义工活动（争取今年累计达到20小时以上）。' },
+        { month: '六月', text: '制订暑期阅读计划，并利用在线平台自学编程/设计等技能。' }
+      ],
+      10: [
+        { month: '十月', text: '参加 PSAT 10 考试，获得你的第一个标准化考试基准成绩。' },
+        { month: '一月', text: '为下个学年挑选具备挑战性的 AP / IB 课程。' },
+        { month: '三月', text: '了解本地高校科研实验室机会或暑期学术项目。' },
+        { month: '六月', text: '参加一次 SAT / ACT 模拟考，或着手开展个人课外项目。' }
+      ],
+      11: [
+        { month: '十月', text: '参加 PSAT/NMSQT 考试以争取入围国家荣誉学者奖学金资格。' },
+        { month: '一月', text: '建立最初的大学申请名单（包含10-15所安全、匹配及冲刺大学）。' },
+        { month: '三月', text: '在学期结束前选定两位科任老师，提前沟通撰写推荐信。' },
+        { month: '七月', text: '开始在文书工作室中构思并撰写你的 Common App 主文书。' }
+      ],
+      12: [
+        { month: '八月', text: '确定最终大学清单并撰写各大学的补充短文书。' },
+        { month: '十月', text: '提交提前行动 (EA) / 提前决定 (ED) 申请，并提交助学金申请 (FAFSA)。' },
+        { month: '十二月', text: '在截止日期前提交所有常规申请 (Regular Decision)。' },
+        { month: '五月', text: '评估所有录取通知，并在5月1日前提交入学押金。' }
+      ]
+    } : currentLang === 'es' ? {
+      9: [
+        { month: 'Septiembre', text: 'Defina 2-3 intereses académicos y pasatiempos; únase a clubes escolares.' },
+        { month: 'Diciembre', text: 'Revise su promedio de calificaciones base; establezca hábitos de estudio consistentes.' },
+        { month: 'Marzo', text: 'Comience a planificar actividades de voluntariado (apunte a 20+ horas este año).' },
+        { month: 'Junio', text: 'Comience una lista de lectura de verano y explore tutoriales en línea.' }
+      ],
+      10: [
+        { month: 'Octubre', text: 'Tome el examen PSAT 10 para obtener un puntaje base de examen estandarizado.' },
+        { month: 'Enero', text: 'Seleccione cursos AP/IB desafiantes para el horario del próximo año.' },
+        { month: 'Marzo', text: 'Investigue oportunidades de laboratorios de investigación locales o programas de verano.' },
+        { month: 'Junio', text: 'Tome el SAT/ACT para practicar o trabaje en un proyecto de perfil personalizado.' }
+      ],
+      11: [
+        { month: 'Octubre', text: 'Tome el examen PSAT/NMSQT para calificar para las becas National Merit.' },
+        { month: 'Enero', text: 'Construya su lista inicial de 10-15 universidades de seguridad, coincidencia y alcance.' },
+        { month: 'Marzo', text: 'Pida cartas de recomendación a dos maestros antes de que termine el tercer año.' },
+        { month: 'Julio', text: 'Comience a redactar su declaración personal de Common App en el Estudio de Ensayos.' }
+      ],
+      12: [
+        { month: 'Agosto', text: 'Finalice su lista de universidades y escriba ensayos suplementarios.' },
+        { month: 'Octubre', text: 'Envíe solicitudes de Early Action (EA) / Early Decision (ED) y presente el FAFSA.' },
+        { month: 'Diciembre', text: 'Envíe todas las solicitudes de Regular Decision antes de los plazos.' },
+        { month: 'Mayo', text: 'Revise las ofertas de admisión y envíe el depósito de inscripción antes del 1 de mayo.' }
+      ]
+    } : {
       9: [
         { month: 'September', text: 'Define 2-3 academic and hobby interests; join school clubs.' },
         { month: 'December', text: 'Review GPA baseline; establish consistent study habits.' },
@@ -2841,9 +3057,10 @@
 
     const milestones = timelineMilestones[grade] || timelineMilestones[11];
     milestones.forEach(m => {
+      const displayMonth = currentLang === 'zh' ? m.month : m.month.substring(0,3);
       timelineHtml += `
         <div class="next-step-item" style="background:rgba(88,86,214,0.06);border-left-color:var(--secondary);">
-          <div class="next-step-icon" style="font-size:0.8rem;background:var(--secondary);color:#fff;padding:2px 6px;border-radius:4px;font-weight:700;margin-top:2px;">${m.month.substring(0,3)}</div>
+          <div class="next-step-icon" style="font-size:0.8rem;background:var(--secondary);color:#fff;padding:2px 6px;border-radius:4px;font-weight:700;margin-top:2px;min-width:40px;text-align:center;">${displayMonth}</div>
           <div class="next-step-text"><strong>${m.month}:</strong> ${m.text}</div>
         </div>
       `;
