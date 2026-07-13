@@ -3507,10 +3507,7 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             contents: [{
-              parts: [{ text: systemPrompt + "
-
-User Question:
-" + promptText }]
+              parts: [{ text: systemPrompt + "\n\nUser Question:\n" + promptText }]
             }]
           })
         });
@@ -3759,8 +3756,7 @@ Want me to help with something specific about college admissions?`;
     if (!messages) return;
     const div = document.createElement('div');
     div.className = `chat-msg ${role}`;
-    const formatted = text.replace(/[*][*](.*?)[*][*]/g, '<strong>$1</strong>').replace(/
-/g, '<br>');
+    const formatted = text.replace(/[*][*](.*?)[*][*]/g, '<strong>$1</strong>').replace(/\\n/g, '<br>');
     if (role === 'ai') {
       div.innerHTML = `<div class="chat-avatar ai-av">🤖</div><div class="chat-bubble">${formatted}</div>`;
     } else {
@@ -3933,175 +3929,6 @@ Conclusion (50 words): End with resonance, not a summary.`;
     textEl.textContent = outline;
     resultBox.style.display = 'block';
     resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  }s)
-• Coca-Cola Scholars (community impact)
-• Gates Scholarship (low-income, minority students)
-
-💡 Bookmark at least 5 and use the AI Prep drawer to build your strategy for each.`;
-    } else {
-      response = `That's a great question! Based on your profile:
-
-• GPA: ${gpa}
-• Grade: ${s.grade}th
-• Interest: ${interest}
-
-I'd suggest exploring the **Roadmap** tab for your personalized action plan, and the **Activities** tab for opportunities matched to your profile.
-
-Want me to help with something specific about college admissions?`;
-    }
-
-    setTimeout(() => appendChatMessage('ai', response), 400);
-  }
-
-  function appendChatMessage(role, text) {
-    const messages = document.getElementById('chat-messages');
-    if (!messages) return;
-    const div = document.createElement('div');
-    div.className = `chat-msg ${role}`;
-    const formatted = text.replace(/[*][*](.*?)[*][*]/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
-    if (role === 'ai') {
-      div.innerHTML = `<div class="chat-avatar ai-av">🤖</div><div class="chat-bubble">${formatted}</div>`;
-    } else {
-      div.innerHTML = `<div class="chat-bubble">${formatted}</div><div class="chat-avatar user-av">👤</div>`;
-    }
-    messages.appendChild(div);
-    messages.scrollTop = messages.scrollHeight;
-  }
-
-  function sendCoachMessage() {
-    const input = document.getElementById('coach-input');
-    const query = input.value.trim();
-    if (!query) return;
-    input.value = '';
-
-    appendChatMessage('user', query);
-
-    // Keyword match for free text
-    const q = query.toLowerCase();
-    let key = 'generic';
-    if (q.includes('cmu') || q.includes('carnegie')) key = 'cmu';
-    else if (q.includes('summer') || q.includes('vacation')) key = 'summer';
-    else if (q.includes('improve') || q.includes('chances') || q.includes('stronger')) key = 'improve';
-    else if (q.includes('activity') || q.includes('extracurricular') || q.includes('club') || q.includes('ec')) key = 'ec';
-    else if (q.includes('sat') || q.includes('act') || q.includes('test')) key = 'sat';
-    else if (q.includes('scholarship') || q.includes('money') || q.includes('financial')) key = 'scholarships';
-    else if (q.includes('essay') || q.includes('personal statement') || q.includes('write')) {
-      setTimeout(() => appendChatMessage('ai', `Head to the Essay Studio section below! Select your Common App prompt, start writing, and click "Generate Outline" when you're ready for a structured plan.
-
-💡 The most important thing is to start — even a rough first draft is much better than a blank page.`), 400);
-      return;
-    } else if (q.includes('roadmap') || q.includes('plan') || q.includes('timeline') || q.includes('next')) {
-      setTimeout(() => { appendChatMessage('ai', `Check the **Roadmap** tab for your personalized 4-year timeline and next steps! I've also generated specific recommendations based on your grade and interests.`); switchTab('roadmap'); }, 400);
-      return;
-    }
-
-    handleChip(key, query);
-  }
-
-  // ─── Essay Studio ───
-  function updateWordCount() {
-    const text = document.getElementById('essay-draft').value;
-    essayContent = text;
-    const words = text.trim().split(/\s+/).filter(Boolean).length;
-    document.getElementById('word-count-display').textContent = `${words} / 650 words`;
-    if (words >= 50) completeMission('write_essay');
-    // Update essay score
-    renderDashboard();
-  }
-
-  function saveEssayDraft() {
-    essayContent = document.getElementById('essay-draft').value;
-    saveToStorage();
-    showToast('✅ Draft saved!');
-  }
-
-  function generateEssayOutline() {
-    const promptNum = document.getElementById('essay-prompt-select').value;
-    const draft = document.getElementById('essay-draft').value.trim();
-    const s = studentProfile;
-
-    const prompts = {
-      '1': 'Background, identity, interest, or talent that makes you who you are',
-      '2': 'A challenge, setback, or failure you learned from',
-      '3': 'A belief or idea you challenged or questioned',
-      '4': 'Gratitude for someone who made a difference',
-      '5': 'An accomplishment or event that sparked personal growth',
-      '6': 'A topic, idea, or concept that captivates you',
-      '7': 'A topic of your own choice',
-    };
-
-    const promptText = prompts[promptNum] || prompts['7'];
-    const interest = s.interest || 'CS';
-    const grade = s.grade;
-
-    const outlines = {
-      '1': `📝 OUTLINE — Prompt 1: ${promptText}
-
-Hook (50 words): Open with a vivid, specific moment that shows who you are.
-
-1. STORY (150 words): The defining experience or background — be concrete and specific.
-
-2. MEANING (100 words): What this background taught you, how it shaped your values or worldview.
-
-3. APPLICATION (150 words): How this identity shows up in your work, especially in ${interest}. Tie to your activities.
-
-4. FUTURE (100 words): What you'll bring to college and beyond because of this. Specific, hopeful, honest.
-
-Conclusion (50 words): Echo the hook image. End with forward momentum, not a summary.`,
-      '2': `📝 OUTLINE — Prompt 2: ${promptText}
-
-Hook (50 words): Drop into the moment of failure/challenge. Present tense, specific detail.
-
-1. CONTEXT (80 words): What you were attempting and why it mattered to you.
-
-2. THE FAILURE (120 words): What went wrong, honestly and specifically. Don't soften it.
-
-3. TURNING POINT (100 words): The moment you decided to respond differently. Internal shift.
-
-4. GROWTH (150 words): Concrete changes you made. What you learned. How you applied it.
-
-5. REFLECTION (100 words): What you'd tell your past self. How this shapes your approach to ${interest} and beyond.
-
-Conclusion (50 words): Connect the lesson to your college goals.`,
-      '5': `📝 OUTLINE — Prompt 5: ${promptText}
-
-Hook (50 words): The moment everything changed — start in the middle of the experience.
-
-1. BEFORE (80 words): Who you were before this event. What you believed or assumed.
-
-2. THE EVENT (150 words): What happened in vivid, specific detail. Show, don't tell.
-
-3. THE SHIFT (120 words): How you processed it. What questions it raised. Internal experience.
-
-4. AFTER (150 words): Specific changes in behavior, thinking, or goals. Concrete evidence.
-
-Conclusion (50 words): Why this growth matters for your future in ${interest} and at college.`,
-    };
-
-    const outline = outlines[promptNum] || `📝 OUTLINE — ${promptText}
-
-Hook (50 words): Start with a specific scene or moment.
-
-1. CONTEXT (100 words): Background that grounds your story.
-
-2. DEVELOPMENT (200 words): The core of your narrative — be specific, honest, and personal.
-
-3. REFLECTION (150 words): What you learned, how you changed.
-
-4. CONNECTION (100 words): Link to your goals in ${interest} and why this college matters to you.
-
-Conclusion (50 words): End with resonance, not a summary.`;
-
-    const resultBox = document.getElementById('essay-outline-result');
-    const textEl = document.getElementById('essay-outline-text');
-    textEl.textContent = outline;
-    resultBox.style.display = 'block';
-    resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  }
-
-  function copyEssayOutline() {
-    const text = document.getElementById('essay-outline-text').textContent;
-    navigator.clipboard.writeText(text).then(() => showToast('📋 Outline copied!')).catch(() => showToast('Copy not supported in this browser.'));
   }
 
   // ─── AI Prep Drawer (per-item strategy) ───
