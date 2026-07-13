@@ -1619,6 +1619,32 @@
     cost: 'Any'
   };
 
+  // ─── Safe Storage Wrapper (prevent crashes in iOS WKWebView) ───
+  const safeStorage = {
+    getItem(key) {
+      try {
+        return localStorage.getItem(key);
+      } catch (e) {
+        console.warn('safeStorage.getItem failed:', e);
+        return null;
+      }
+    },
+    setItem(key, value) {
+      try {
+        localStorage.setItem(key, value);
+      } catch (e) {
+        console.warn('safeStorage.setItem failed:', e);
+      }
+    },
+    removeItem(key) {
+      try {
+        localStorage.removeItem(key);
+      } catch (e) {
+        console.warn('safeStorage.removeItem failed:', e);
+      }
+    }
+  };
+
   // ─── Translations ───
   const translations = {
     en: {
@@ -1628,6 +1654,61 @@
       'loadMore': 'Load More', 'saved': 'Saved',
       'notStarted': 'Not Started', 'inProgress': 'In Progress',
       'applied': 'Applied', 'completed': 'Completed',
+      
+      // Spans & Labels
+      'tl-dash': 'Dashboard',
+      'tl-road': 'Roadmap',
+      'tl-act': 'Activities',
+      'tl-col': 'Colleges',
+      'tl-coach': 'Coach',
+      'tl-prof': 'Profile',
+      'lbl-strength': 'Admissions Strength',
+      'lbl-strength-sub': '8-factor model · weighted like real admissions',
+      'lbl-missions': 'Daily Missions',
+      'lbl-deadlines': 'Upcoming Deadlines',
+      'lbl-roadmap-title': 'Your 4-Year College Roadmap',
+      'lbl-roadmap-sub': 'Check off items as you complete them. Progress is saved automatically.',
+      'lbl-nextsteps': 'Personalized Next Steps',
+      'lbl-smart-filter': 'Smart Filter',
+      'lbl-q-gpa': 'GPA',
+      'lbl-q-grade': 'Grade',
+      'lbl-q-need': 'Financial Need',
+      'lbl-q-interest': 'Interest',
+      'lbl-q-gender': 'Gender',
+      'lbl-q-heritage': 'Ethnicity',
+      'lbl-q-format': 'Format',
+      'lbl-q-skill': 'Skill Level',
+      'lbl-q-cost': 'Research Cost',
+      'lbl-nc': '🌲 NC Students Only',
+      'lbl-matches': 'Your Matches',
+      'lbl-saved-board': 'Saved Board',
+      'lbl-scholarships': 'Scholarships',
+      'lbl-load-more-sch': 'Load More',
+      'lbl-competitions': 'Competitions',
+      'lbl-load-more-comp': 'Load More',
+      'lbl-research': 'Research Opportunities',
+      'lbl-load-more-res': 'Load More',
+      'lbl-predictor': 'College Admissions Predictor',
+      'lbl-pred-sub': 'Enter your profile to see your likely admission outcomes.',
+      'lbl-p-gpa': 'GPA (Weighted)',
+      'lbl-p-sat': 'SAT Score',
+      'lbl-p-act': 'ACT Score (opt)',
+      'lbl-p-major': 'Intended Major',
+      'lbl-p-state': 'Home State',
+      'lbl-p-rank': 'Class Rank',
+      'lbl-p-submit': 'Predict Admissions Likelihood',
+      'lbl-pred-results': 'Results',
+      'lbl-ai-counselor': 'AI Counselor',
+      'lbl-ec-path': 'Your Extracurricular Path',
+      'lbl-essay-studio': 'Essay Studio',
+      'lbl-gen-outline': 'Generate Outline',
+      'lbl-save-draft': 'Save Draft',
+      'lbl-acad-profile': 'Academic Profile',
+      'lbl-save-profile': 'Save Profile',
+      
+      // Placeholders
+      'search-placeholder': 'Search scholarships, competitions, research...',
+      'essay-placeholder': 'Type or paste your college essay here...'
     },
     zh: {
       'btn-lbl-sch': '奖学金', 'btn-lbl-comp': '竞赛',
@@ -1636,6 +1717,59 @@
       'loadMore': '加载更多', 'saved': '已保存',
       'notStarted': '未开始', 'inProgress': '进行中',
       'applied': '已申请', 'completed': '已完成',
+      
+      'tl-dash': '仪表盘',
+      'tl-road': '规划路线',
+      'tl-act': '课外活动',
+      'tl-col': '录取预测',
+      'tl-coach': '导师',
+      'tl-prof': '个人资料',
+      'lbl-strength': '申请背景评估',
+      'lbl-strength-sub': '8维度评估模型 · 模拟真实大学录取标准',
+      'lbl-missions': '每日任务',
+      'lbl-deadlines': '临近截止日期',
+      'lbl-roadmap-title': '你的四年高中规划图',
+      'lbl-roadmap-sub': '完成任务时勾选，进度将自动保存。',
+      'lbl-nextsteps': '个性化推荐后续任务',
+      'lbl-smart-filter': '智能筛选器',
+      'lbl-q-gpa': '绩点',
+      'lbl-q-grade': '年级',
+      'lbl-q-need': '助学金需求',
+      'lbl-q-interest': '兴趣方向',
+      'lbl-q-gender': '性别',
+      'lbl-q-heritage': '族裔背景',
+      'lbl-q-format': '活动形式',
+      'lbl-q-skill': '技能水平',
+      'lbl-q-cost': '科研费用',
+      'lbl-nc': '🌲 仅限北卡罗来纳州学生',
+      'lbl-matches': '匹配推荐',
+      'lbl-saved-board': '收藏夹',
+      'lbl-scholarships': '奖学金',
+      'lbl-load-more-sch': '加载更多',
+      'lbl-competitions': '竞赛项目',
+      'lbl-load-more-comp': '加载更多',
+      'lbl-research': '科研学术机会',
+      'lbl-load-more-res': '加载更多',
+      'lbl-predictor': '大学录取概率预测器',
+      'lbl-pred-sub': '输入你的背景数据以预测录取概率。',
+      'lbl-p-gpa': 'GPA (加权绩点)',
+      'lbl-p-sat': 'SAT 成绩',
+      'lbl-p-act': 'ACT 成绩 (选填)',
+      'lbl-p-major': '意向专业',
+      'lbl-p-state': '居住州',
+      'lbl-p-rank': '班级排名',
+      'lbl-p-submit': '开始概率预测',
+      'lbl-pred-results': '预测结果',
+      'lbl-ai-counselor': 'AI 升学顾问',
+      'lbl-ec-path': '你的课外活动规划',
+      'lbl-essay-studio': '文书工作室',
+      'lbl-gen-outline': '生成大纲',
+      'lbl-save-draft': '保存草稿',
+      'lbl-acad-profile': '学术背景资料',
+      'lbl-save-profile': '保存资料',
+      
+      'search-placeholder': '搜索奖学金、竞赛、科研项目...',
+      'essay-placeholder': '在此输入或粘贴您的大学申请文书...'
     },
     es: {
       'btn-lbl-sch': 'Becas', 'btn-lbl-comp': 'Competencias',
@@ -1644,8 +1778,78 @@
       'loadMore': 'Cargar Más', 'saved': 'Guardado',
       'notStarted': 'No Iniciado', 'inProgress': 'En Progreso',
       'applied': 'Aplicado', 'completed': 'Completado',
+      
+      'tl-dash': 'Tablero',
+      'tl-road': 'Hoja de Ruta',
+      'tl-act': 'Actividades',
+      'tl-col': 'Universidades',
+      'tl-coach': 'Consejero',
+      'tl-prof': 'Perfil',
+      'lbl-strength': 'Fortaleza de Admisión',
+      'lbl-strength-sub': 'Modelo de 8 factores · ponderado como admisiones reales',
+      'lbl-missions': 'Misiones Diarias',
+      'lbl-deadlines': 'Próximos Plazos',
+      'lbl-roadmap-title': 'Tu Hoja de Ruta de 4 Años',
+      'lbl-roadmap-sub': 'Marca los elementos a medida que los completes. El progreso se guarda automáticamente.',
+      'lbl-nextsteps': 'Siguientes Pasos Personalizados',
+      'lbl-smart-filter': 'Filtro Inteligente',
+      'lbl-q-gpa': 'GPA',
+      'lbl-q-grade': 'Grado',
+      'lbl-q-need': 'Necesidad Financiera',
+      'lbl-q-interest': 'Interés',
+      'lbl-q-gender': 'Género',
+      'lbl-q-heritage': 'Etnicidad',
+      'lbl-q-format': 'Formato',
+      'lbl-q-skill': 'Nivel de Habilidad',
+      'lbl-q-cost': 'Costo de Investigación',
+      'lbl-nc': '🌲 Solo Estudiantes de NC',
+      'lbl-matches': 'Tus Coincidencias',
+      'lbl-saved-board': 'Tablero Guardado',
+      'lbl-scholarships': 'Becas',
+      'lbl-load-more-sch': 'Cargar Más',
+      'lbl-competitions': 'Competencias',
+      'lbl-load-more-comp': 'Cargar Más',
+      'lbl-research': 'Oportunidades de Investigación',
+      'lbl-load-more-res': 'Cargar Más',
+      'lbl-predictor': 'Predictor de Admisión',
+      'lbl-pred-sub': 'Ingrese su perfil para ver sus probabilidades de admisión.',
+      'lbl-p-gpa': 'GPA (Ponderado)',
+      'lbl-p-sat': 'Puntaje SAT',
+      'lbl-p-act': 'Puntaje ACT (opt)',
+      'lbl-p-major': 'Carrera de Interés',
+      'lbl-p-state': 'Estado de Residencia',
+      'lbl-p-rank': 'Rango de Clase',
+      'lbl-p-submit': 'Predecir Probabilidad',
+      'lbl-pred-results': 'Resultados',
+      'lbl-ai-counselor': 'Consejero de IA',
+      'lbl-ec-path': 'Tu Ruta Extracurricular',
+      'lbl-essay-studio': 'Estudio de Ensayos',
+      'lbl-gen-outline': 'Generar Esquema',
+      'lbl-save-draft': 'Guardar Borrador',
+      'lbl-acad-profile': 'Perfil Académico',
+      'lbl-save-profile': 'Guardar Perfil',
+      
+      'search-placeholder': 'Buscar becas, competencias, investigación...',
+      'essay-placeholder': 'Escriba o pegue su ensayo universitario aquí...'
     }
   };
+
+  function updatePageLanguage() {
+    const dict = translations[currentLang];
+    if (!dict) return;
+    Object.keys(dict).forEach(key => {
+      const el = document.getElementById(key);
+      if (el) {
+        el.textContent = dict[key];
+      }
+    });
+
+    const searchInput = document.getElementById('global-search');
+    if (searchInput && dict['search-placeholder']) searchInput.placeholder = dict['search-placeholder'];
+
+    const essayDraft = document.getElementById('essay-draft');
+    if (essayDraft && dict['essay-placeholder']) essayDraft.placeholder = dict['essay-placeholder'];
+  }
 
   // ─── Storage key helper ───
   function storageKey(suffix) {
@@ -1654,20 +1858,20 @@
   }
 
   function saveToStorage() {
-    localStorage.setItem(storageKey('bookmarks'), JSON.stringify(bookmarks));
-    localStorage.setItem(storageKey('tracker'), JSON.stringify(tracker));
-    localStorage.setItem(storageKey('xp'), String(xpPoints));
-    localStorage.setItem(storageKey('roadmap'), JSON.stringify(roadmapProgress));
-    localStorage.setItem(storageKey('essay'), essayContent);
-    localStorage.setItem(storageKey('missions'), JSON.stringify(dailyMissions));
+    safeStorage.setItem(storageKey('bookmarks'), JSON.stringify(bookmarks));
+    safeStorage.setItem(storageKey('tracker'), JSON.stringify(tracker));
+    safeStorage.setItem(storageKey('xp'), String(xpPoints));
+    safeStorage.setItem(storageKey('roadmap'), JSON.stringify(roadmapProgress));
+    safeStorage.setItem(storageKey('essay'), essayContent);
+    safeStorage.setItem(storageKey('missions'), JSON.stringify(dailyMissions));
   }
 
   function loadFromStorage() {
-    try { bookmarks = JSON.parse(localStorage.getItem(storageKey('bookmarks')) || '{}'); } catch(e) { bookmarks = {}; }
-    try { tracker = JSON.parse(localStorage.getItem(storageKey('tracker')) || '{}'); } catch(e) { tracker = {}; }
-    try { xpPoints = parseInt(localStorage.getItem(storageKey('xp')) || '0', 10); } catch(e) { xpPoints = 0; }
-    try { roadmapProgress = JSON.parse(localStorage.getItem(storageKey('roadmap')) || '{}'); } catch(e) { roadmapProgress = {}; }
-    try { essayContent = localStorage.getItem(storageKey('essay')) || ''; } catch(e) { essayContent = ''; }
+    try { bookmarks = JSON.parse(safeStorage.getItem(storageKey('bookmarks')) || '{}'); } catch(e) { bookmarks = {}; }
+    try { tracker = JSON.parse(safeStorage.getItem(storageKey('tracker')) || '{}'); } catch(e) { tracker = {}; }
+    try { xpPoints = parseInt(safeStorage.getItem(storageKey('xp')) || '0', 10); } catch(e) { xpPoints = 0; }
+    try { roadmapProgress = JSON.parse(safeStorage.getItem(storageKey('roadmap')) || '{}'); } catch(e) { roadmapProgress = {}; }
+    try { essayContent = safeStorage.getItem(storageKey('essay')) || ''; } catch(e) { essayContent = ''; }
   }
 
   // ─── QCAI User injection (called by native app via evaluateJavaScript) ───
@@ -1769,7 +1973,7 @@
   // ─── Profile ───
   function loadProfile() {
     try {
-      const saved = JSON.parse(localStorage.getItem(storageKey('studentProfile')) || 'null');
+      const saved = JSON.parse(safeStorage.getItem(storageKey('studentProfile')) || 'null');
       if (saved) { studentProfile = { ...studentProfile, ...saved }; }
     } catch(e) {}
     populateProfileForm();
@@ -1808,7 +2012,7 @@
     studentProfile.apCourses   = parseInt(document.getElementById('prof-ap').value) || 0;
     studentProfile.serviceHours= parseInt(document.getElementById('prof-service').value) || 0;
     studentProfile.leadership  = document.getElementById('prof-leadership').checked;
-    localStorage.setItem(storageKey('studentProfile'), JSON.stringify(studentProfile));
+    safeStorage.setItem(storageKey('studentProfile'), JSON.stringify(studentProfile));
     saveCollegeProfileToSupabase();
     completeMission('complete_profile');
     renderDashboard();
@@ -1854,9 +2058,9 @@
       // Reset missions
       dailyMissions.forEach(m => m.done = false);
       saveToStorage();
-      localStorage.removeItem(storageKey('studentProfile'));
+      safeStorage.removeItem(storageKey('studentProfile'));
       renderDashboard(); renderRoadmap(); renderActivities(); updateProfileStats();
-      showToast('🗑️ All data reset');
+      showToast(currentLang === 'zh' ? '🗑️ 所有数据已重置' : (currentLang === 'es' ? '🗑️ Todos los datos restablecidos' : '🗑️ All data reset'));
     }
   }
 
@@ -1865,6 +2069,7 @@
     currentLang = lang;
     document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
     document.getElementById('lang-' + lang).classList.add('active');
+    updatePageLanguage();
     renderActivities();
     renderDashboard();
   }
@@ -1904,14 +2109,14 @@
 
   function loadMissions() {
     const today = new Date().toDateString();
-    const saved = localStorage.getItem(storageKey('missions_date'));
+    const saved = safeStorage.getItem(storageKey('missions_date'));
     if (saved !== today) {
       // Reset daily
       dailyMissions.forEach(m => m.done = false);
-      localStorage.setItem(storageKey('missions_date'), today);
+      safeStorage.setItem(storageKey('missions_date'), today);
     } else {
       try {
-        const savedMissions = JSON.parse(localStorage.getItem(storageKey('missions')) || '[]');
+        const savedMissions = JSON.parse(safeStorage.getItem(storageKey('missions')) || '[]');
         savedMissions.forEach(sm => {
           const m = dailyMissions.find(x => x.id === sm.id);
           if (m) m.done = sm.done;
@@ -2382,7 +2587,7 @@
       <div class="card-meta">${metaParts.join(' · ')}</div>
       ${item.description ? `<div class="text-sm text-muted" style="margin-bottom:10px;">${item.description}</div>` : ''}
       <div class="flex-row">
-        <button class="btn btn-primary" onclick="window.open('${item.url}', '_blank')">${translations[currentLang]['official']} ↗</button>
+        <a href="${item.url}" target="_blank" class="btn btn-primary" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center;">${translations[currentLang]['official']} ↗</a>
         <button class="btn btn-outline" onclick="openDrawer('${itemJsonStr}', '${group}')">${translations[currentLang]['prep']}</button>
         <button class="btn btn-icon ${isSaved}" onclick="toggleBookmark('${safeName}', '${group}', '${item.url}', '${item.prestige}', '${itemJsonStr}')">📁</button>
       </div>
@@ -2766,9 +2971,15 @@
       const score  = (gpaGap * 30) + (satGap * 0.04) + rankBonus + ncBon;
 
       let category, label;
-      if (score >= 15) { category = 'safety'; label = '✅ Safety'; }
-      else if (score >= 0) { category = 'match'; label = '🎯 Match'; }
-      else { category = 'reach'; label = '🚀 Reach'; }
+      if (school.tier === 'Elite') {
+        // Elite schools are never safety. Even with top stats, they are reaches or matches at best.
+        if (score >= 25) { category = 'match'; label = '🎯 Match'; }
+        else { category = 'reach'; label = '🚀 Reach'; }
+      } else {
+        if (score >= 15) { category = 'safety'; label = '✅ Safety'; }
+        else if (score >= 0) { category = 'match'; label = '🎯 Match'; }
+        else { category = 'reach'; label = '🚀 Reach'; }
+      }
 
       return { name: school.name, tier: school.tier, category, label, score };
     }).sort((a, b) => {
@@ -3402,6 +3613,7 @@ Conclusion (50 words): End with resonance, not a summary.`;
   // ─── Init ───
   function initPage() {
     loadFromStorage();
+    updatePageLanguage();
     loadProfile();
     loadMissions();
     populateProfileForm();
@@ -3417,7 +3629,7 @@ Conclusion (50 words): End with resonance, not a summary.`;
     if (essayEl && essayContent) { essayEl.value = essayContent; updateWordCount(); }
 
     // Check if profile is complete
-    const savedProfile = localStorage.getItem(storageKey('studentProfile'));
+    const savedProfile = safeStorage.getItem(storageKey('studentProfile'));
     if (!savedProfile && !qcaiUser) {
       document.getElementById('dash-sub').textContent = '⚡ Go to the Profile tab to set up your profile and unlock personalized recommendations!';
     }
