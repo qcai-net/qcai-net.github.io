@@ -1,5 +1,13 @@
 [
   {
+    "title": "代理编排：企业人工智能组织面临的是部署问题，而不是平台问题——而且大多数都在调用聊天机器人代理",
+    "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+    "industry": "AI & Technology",
+    "summary": "<p>在 101 家企业中，代理编排正在整合到模型提供商平台上（Anthropic 的 Claude 遥遥领先），该平台根据底层模型的重要性进行选择，并根据可靠的多步骤执行进行判断。但野心远远超出了现实：......",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "OpenAI 研究员 Miles Wang 正在洽谈创办估值 20 亿美元的人工智能药物发现初创公司",
     "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
     "industry": "AI & Technology",
@@ -8,10 +16,26 @@
     "impact_score": 5
   },
   {
+    "title": "据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic",
+    "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+    "industry": "AI & Technology",
+    "summary": "微软希望出售其内部人工智能模型，使其比竞争对手的模型更高效、更具成本效益。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "Ode with Anthropic 内部，这家初创公司押注人工智能服务是企业的未来",
     "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
     "industry": "AI & Technology",
     "summary": "少数工程师真的能完成一大群顾问的工作吗？这是 Ode 与 Anthropic 的赌注——这家合资企业致力于在企业公司中嵌入前沿部署的工程师，得到了 Anthropic、Blackstone、Hellman 等公司的支持。弗里德曼...",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "人工智能淘金热有一个隐性成本。 IBM 的初步结果可能刚刚暴露了这一点",
+    "url": "https://biztoc.com/x/5ecd6396bf911209",
+    "industry": "AI & Technology",
+    "summary": "人工智能支出继续以高管预期的速度重塑企业预算。微软 (MSFT)、亚马逊 (AMZN)、Alphabet (GOOG) (GOOGL) 和 Meta Platforms (META) 正在向人工智能基础设施投入数千亿美元……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -72,6 +96,14 @@
     "impact_score": 5
   },
   {
+    "title": "应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型",
+    "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+    "industry": "AI & Technology",
+    "summary": "Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模型。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "Thinking Machines 通过其第一个开放模型 Inkling 加大了对通用人工智能的赌注",
     "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
     "industry": "AI & Technology",
@@ -120,42 +152,10 @@
     "impact_score": 5
   },
   {
-    "title": "苹果通过 iOS 27 公开测试版向所有人开放新的 Siri AI",
-    "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+    "title": "微软的 2026 年 7 月补丁星期二修复了 622 个缺陷和 2 个被利用的零日漏洞",
+    "url": "https://hackread.com/microsoft-july-2026-patch-tuesday-fixes-zero-days/",
     "industry": "AI & Technology",
-    "summary": "如果您一直在等待在不安装开发者测试版的情况下尝试苹果改进的 Siri，那么现在您可以了。该公司周二发布了 iOS 27 公开测试版，让 iPhone 用户可以在该软件正式发布之前抢先体验其人工智能助手和其他新功能……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "诉讼：Meta 使用人工智能进行歧视性裁员",
-    "url": "https://www.motherjones.com/politics/2026/07/meta-lawsuit-ai-layoffs-medical-leave-disability-tech-termination/",
-    "industry": "AI & Technology",
-    "summary": "由 26 名 Meta 现任和前任员工组成的团体周一晚间提起诉讼，指控这家科技公司在 5 月份的大规模裁员中使用人工智能软件来针对残疾员工以及请病假或探亲假的员工。  这些裁员是……的一部分。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "微软修复了创纪录的 570 个安全漏洞",
-    "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-    "industry": "AI & Technology",
-    "summary": "微软公司今天发布了软件更新，以堵塞其 Windows 操作系统和其他软件中的至少 570 个安全漏洞，几乎是该软件巨头上个月在创纪录的星期二补丁中修复的漏洞数量的三倍。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "美联储鲍曼建议银行不要对人工智能进行微观管理",
-    "url": "https://cryptobriefing.com/fed-bowman-banks-ai-regulation/",
-    "industry": "AI & Technology",
-    "summary": "鲍曼的立场可能会通过促进灵活的监管来促进人工智能和加密领域的创新，但它面临着模糊性和合规性挑战的风险。\n美联储鲍曼建议银行不要对人工智能进行微观管理的帖子首先出现在 Crypto Briefing 上。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "通胀降温抵消了 IBM 的低迷、银行盈利和中东紧张局势加剧，道琼斯指数继续上涨",
-    "url": "https://www.ibtimes.com.au/dow-jones-edges-volatile-trading-mixed-earnings-1872271",
-    "industry": "AI & Technology",
-    "summary": "受通胀数据降温和盈利报告好坏参半的推动，道琼斯工业平均指数在波动的交易中小幅上涨，IBM 的下跌和银行业绩影响了市场情绪。",
+    "summary": "Microsoft 的 2026 年 7 月补丁星期二修复了 622 个 CVE，包括被利用的 AD FS 和 SharePoint 缺陷，以及已披露的需要采取紧急行动的 BitLocker 绕过。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
