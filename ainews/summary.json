@@ -1,5 +1,21 @@
 [
   {
+    "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+    "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+    "industry": "AI & Technology",
+    "summary": "<p>Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized compute almost no...",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+    "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+    "industry": "AI & Technology",
+    "summary": "<p>Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; only about a third give every agent its own scoped identit...",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
     "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem \u2014 and most are calling chatbots agents",
     "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
     "industry": "AI & Technology",
@@ -8,10 +24,18 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
-    "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+    "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem \u2014 and most are still building the fix",
+    "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
     "industry": "AI & Technology",
-    "summary": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+    "summary": "<p>Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-native retrieval has quietly overtaken the dedicated vector d...",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem \u2014 and most are shipping to production anyway",
+    "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+    "industry": "AI & Technology",
+    "summary": "<p>Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and then failed a customer in production; only one in twenty fu...",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -32,10 +56,34 @@
     "impact_score": 5
   },
   {
-    "title": "The AI Gold Rush Has a Hidden Cost. IBM\u2019s Preliminary Results May Have Just Exposed It",
-    "url": "https://biztoc.com/x/5ecd6396bf911209",
+    "title": "Google Vids now lets you star in your own AI videos",
+    "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
     "industry": "AI & Technology",
-    "summary": "Artificial intelligence spending continues to reshape corporate budgets at a pace few executives anticipated. Microsoft (MSFT), Amazon (AMZN), Alphabet (GOOG) (GOOGL), and Meta Platforms (META) are committing hundreds of billions of dollars to AI infrastructu\u2026",
+    "summary": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Google\u2019s AI Mode now lets you link and interact with select apps",
+    "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+    "industry": "AI & Technology",
+    "summary": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Why is OpenAI selling a ChatGPT basketball?",
+    "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+    "industry": "AI & Technology",
+    "summary": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Why AMI Labs\u2019 Alexandre LeBrun won\u2019t call his AI \u2018AGI\u2019 or \u2018superintelligence\u2019",
+    "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+    "industry": "AI & Technology",
+    "summary": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun\u2019s world model startup, AMI Labs, dismisses the word.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -56,42 +104,34 @@
     "impact_score": 5
   },
   {
-    "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models",
-    "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+    "title": "Microsoft shakes up security division leadership as AI transformation accelerates",
+    "url": "https://cryptobriefing.com/microsoft-security-executives-ai-overhaul/",
     "industry": "AI & Technology",
-    "summary": "Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
+    "summary": "Microsoft's AI-driven security leadership shift may enhance threat detection and response, impacting enterprise cybersecurity strategies.\nThe post Microsoft shakes up security division leadership as AI transformation accelerates appeared first on Crypto Brief\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C",
-    "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
+    "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
+    "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
     "industry": "AI & Technology",
-    "summary": "The startup has reached a $120 million annualized revenue run rate and more than 200,000 paying customers.",
+    "summary": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "OpenAI\u2019s first hardware device is reportedly a screenless speaker that can move",
-    "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+    "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+    "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
     "industry": "AI & Technology",
-    "summary": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manifestation of OpenAI\u2019s ChatGPT.\"",
+    "summary": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "OpenAI pushes back on Apple trade secret lawsuit",
-    "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+    "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+    "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
     "industry": "AI & Technology",
-    "summary": "OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI\u2019s new flagship model deletes files on its own, people keep warning",
-    "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
-    "industry": "AI & Technology",
-    "summary": "A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.",
+    "summary": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -116,46 +156,6 @@
     "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
     "industry": "AI & Technology",
     "summary": "The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Apple Intelligence approved for launch in China with Alibaba\u2019s Qwen AI",
-    "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-    "industry": "AI & Technology",
-    "summary": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Reelful\u2019s AI turns your camera roll into short-form videos for social media",
-    "url": "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/",
-    "industry": "AI & Technology",
-    "summary": "The app is designed for people who want to create social content, but find traditional video editing tools too complex or time-consuming.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Vint Cerf is working on a plan to unleash AI agents on the open internet",
-    "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
-    "industry": "AI & Technology",
-    "summary": "The guy behind TCP/IP is working on a standard for identifying AI agents in the wild.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Lorde says AI glasses are \u2018not sexy\u2019",
-    "url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
-    "industry": "AI & Technology",
-    "summary": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Microsoft\u2019s July 2026 Patch Tuesday fixes 622 flaws and 2 exploited zero-days",
-    "url": "https://hackread.com/microsoft-july-2026-patch-tuesday-fixes-zero-days/",
-    "industry": "AI & Technology",
-    "summary": "Microsoft\u2019s July 2026 Patch Tuesday fixes 622 CVEs, including exploited AD FS and SharePoint flaws, plus the disclosed BitLocker bypass requiring urgent action.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }

@@ -1,5 +1,21 @@
 [
   {
+    "title": "La brecha informática de la IA: las empresas están comprando infraestructura más rápido de lo que pueden medir su costo",
+    "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+    "industry": "AI & Technology",
+    "summary": "<p>En 107 empresas, el gasto en infraestructura de IA se está acelerando mucho más allá de la capacidad de ver o dirigir su economía. La mayoría de las organizaciones ejecutan su IA sobre una base familiar de hiperescaladores y API de proveedores de modelos, pero el próximo dólar casi no se destina a computación especializada...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La brecha de seguridad de los agentes: el 54% de las empresas ya ha tenido un incidente con un agente de IA y la mayoría todavía permite que los agentes compartan credenciales",
+    "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+    "industry": "AI & Technology",
+    "summary": "<p>En 107 empresas, los agentes de IA tienen acceso real a sistemas y datos, mientras que los controles destinados a contenerlos se quedan atrás. Más de la mitad ya ha tenido un incidente de seguridad de agente confirmado o estuvo a punto de sufrir un accidente; sólo alrededor de un tercio le da a cada agente su propia identidad de alcance...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
     "title": "Orquestación agente: las organizaciones empresariales de IA tienen un problema de implementación, no un problema de plataforma, y ​​la mayoría llama a agentes de chatbots.",
     "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
     "industry": "AI & Technology",
@@ -8,10 +24,18 @@
     "impact_score": 5
   },
   {
-    "title": "Miles Wang, investigador de OpenAI, en conversaciones para lanzar una startup de descubrimiento de fármacos de IA valorada en 2.000 millones de dólares",
-    "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+    "title": "La brecha del contexto de la IA: las organizaciones empresariales de IA tienen un problema de confianza, no un problema de recuperación, y la mayoría todavía está buscando una solución",
+    "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
     "industry": "AI & Technology",
-    "summary": "Las discusiones sobre financiación apuntan al interés de los inversores en aplicar la IA para lograr avances en las ciencias biológicas.",
+    "summary": "<p>En 101 empresas, la infraestructura que alimenta a los agentes de IA en su contexto empresarial se está construyendo más rápido de lo que se puede confiar en ella. La generación de recuperación aumentada ya es la fuente de contexto predeterminada, y la recuperación nativa del proveedor ha superado silenciosamente a la d...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La brecha de evaluación de los agentes: las organizaciones empresariales de IA tienen un problema de alineación con la realidad, no un problema de cobertura, y la mayoría están enviando a producción de todos modos",
+    "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+    "industry": "AI & Technology",
+    "summary": "<p>En 157 empresas, las organizaciones están otorgando a los agentes de IA más autonomía, al tiempo que confían menos en las evaluaciones destinadas a garantizar esa autonomía. La mitad ya envió un agente que pasó sus evaluaciones internas y luego falló a un cliente en producción; sólo uno de cada veinte fu...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -32,10 +56,34 @@
     "impact_score": 5
   },
   {
-    "title": "La fiebre del oro de la IA tiene un costo oculto. Los resultados preliminares de IBM pueden haberlo dejado al descubierto",
-    "url": "https://biztoc.com/x/5ecd6396bf911209",
+    "title": "Google Vids ahora te permite protagonizar tus propios vídeos con IA",
+    "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
     "industry": "AI & Technology",
-    "summary": "El gasto en inteligencia artificial continúa remodelando los presupuestos corporativos a un ritmo que pocos ejecutivos anticiparon. Microsoft (MSFT), Amazon (AMZN), Alphabet (GOOG) (GOOGL) y Meta Platforms (META) están comprometiendo cientos de miles de millones de dólares para infraestructura de IA...",
+    "summary": "Google está agregando avatares de IA personalizados a Vids que permiten a los usuarios crear videos protagonizados por una versión digital de ellos mismos, junto con herramientas impulsadas por Gemini Omni para generar y editar videos a partir de indicaciones e imágenes de referencia.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "El modo AI de Google ahora te permite vincular e interactuar con aplicaciones seleccionadas",
+    "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+    "industry": "AI & Technology",
+    "summary": "Con esta nueva actualización, Google está expandiendo el modo AI más allá de responder preguntas y completar tareas en las aplicaciones que usan regularmente.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "¿Por qué OpenAI vende una pelota de baloncesto ChatGPT?",
+    "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+    "industry": "AI & Technology",
+    "summary": "Es posible que haya escuchado que OpenAI lanzó su primera pieza de hardware esta semana. Quizás no hayas oído hablar del baloncesto ChatGPT.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Por qué Alexandre LeBrun de AMI Labs no llamará a su IA \"AGI\" o \"superinteligencia\"",
+    "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+    "industry": "AI & Technology",
+    "summary": "Mientras todos en la IA persiguen la \"superinteligencia\", Alexandre LeBrun, director ejecutivo de AMI Labs, la startup de modelo mundial de Yann LeCun, descarta la palabra.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -56,42 +104,34 @@
     "impact_score": 5
   },
   {
-    "title": "Antrópico, Blackstone apuesta que el próximo negocio de IA de un billón de dólares es la implementación, no solo los modelos",
-    "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+    "title": "Microsoft renueva el liderazgo de la división de seguridad a medida que se acelera la transformación de la IA",
+    "url": "https://cryptobriefing.com/microsoft-security-executives-ai-overhaul/",
     "industry": "AI & Technology",
-    "summary": "Ode, respaldado por Anthropic, se lanza mientras los laboratorios de IA apuestan a que incorporar ingenieros avanzados dentro de las empresas es la clave para acelerar la adopción de la IA empresarial.",
+    "summary": "El cambio de liderazgo en seguridad impulsado por la IA de Microsoft puede mejorar la detección y respuesta a amenazas, lo que impactará las estrategias de ciberseguridad empresarial.\nLa publicación Microsoft revoluciona el liderazgo de la división de seguridad a medida que se acelera la transformación de la IA apareció por primera vez en Crypto Brief...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "La startup india de codificación de IA Emergent se convierte en un unicornio con la Serie C de 130 millones de dólares",
-    "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
+    "title": "Roblox lanza una función de creación de juegos impulsada por IA en su aplicación móvil",
+    "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
     "industry": "AI & Technology",
-    "summary": "La startup ha alcanzado una tasa de ingresos anualizados de 120 millones de dólares y más de 200.000 clientes de pago.",
+    "summary": "La nueva función \"Construir\" de Roblox permite a los usuarios generar juegos básicos utilizando un solo mensaje de texto.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Se informa que el primer dispositivo de hardware de OpenAI es un altavoz sin pantalla que puede moverse",
-    "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+    "title": "Cómo un ex investigador de DeepMind recaudó una valoración previa a la semilla de 300 millones de dólares antes de lanzar un producto",
+    "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
     "industry": "AI & Technology",
-    "summary": "Se describe extrañamente que el dispositivo incluye \"elementos mecánicos que pueden moverse por sí solos\" y el informe de Bloomberg incluye el detalle de que el dispositivo está diseñado para \"sentirse como un compañero y convertirse en una manifestación física del ChatGPT de OpenAI\".",
+    "summary": "Basándose en más de una década dedicada a ayudar a construir algunos de los sistemas de IA más influyentes del mundo, incluida la investigación que luego informó el desarrollo de ChatGPT, Andrew Dai explica por qué cree que la IA visual es una de las próximas fronteras importantes de la inteligencia artificial.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "OpenAI rechaza la demanda por secretos comerciales de Apple",
-    "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+    "title": "Apple Intelligence aprobado para su lanzamiento en China con Alibaba y Baidu",
+    "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
     "industry": "AI & Technology",
-    "summary": "OpenAI emitió otra declaración sobre la demanda, esta vez sugiriendo que carece de fundamento.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "El nuevo modelo insignia de OpenAI elimina archivos por sí solo, la gente sigue advirtiendo",
-    "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
-    "industry": "AI & Technology",
-    "summary": "Varias publicaciones en las redes sociales afirman que GPT-5.6 Sol eliminó archivos y datos sin previo aviso. OpenAI básicamente había revelado el problema en junio.",
+    "summary": "El acuerdo, que se rumoreaba que estaba en marcha el año pasado, marca un paso importante para las ambiciones de IA de Apple en un mercado clave.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -116,46 +156,6 @@
     "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
     "industry": "AI & Technology",
     "summary": "El hacker utilizó las credenciales de un empleado para acceder al código fuente, lo que reveló cómo Suno extrajo décadas de audio.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Apple Intelligence aprobado para su lanzamiento en China con Qwen AI de Alibaba",
-    "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-    "industry": "AI & Technology",
-    "summary": "El acuerdo, que se rumoreaba que estaba en marcha el año pasado, marca un paso importante para las ambiciones de IA de Apple en un mercado clave.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "La IA de Reelful convierte el carrete de su cámara en videos cortos para las redes sociales",
-    "url": "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/",
-    "industry": "AI & Technology",
-    "summary": "La aplicación está diseñada para personas que desean crear contenido social, pero encuentran que las herramientas tradicionales de edición de video son demasiado complejas o requieren mucho tiempo.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Vint Cerf está trabajando en un plan para liberar agentes de IA en la Internet abierta",
-    "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
-    "industry": "AI & Technology",
-    "summary": "El hombre detrás de TCP/IP está trabajando en un estándar para identificar agentes de IA en la naturaleza.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Lorde dice que las gafas con IA \"no son sexys\"",
-    "url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
-    "industry": "AI & Technology",
-    "summary": "\"En nuestro mundo, cada vez es más difícil saber qué es real\", dijo Lorde en el escenario.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "El martes de parches de julio de 2026 de Microsoft corrige 622 fallas y 2 días cero explotados",
-    "url": "https://hackread.com/microsoft-july-2026-patch-tuesday-fixes-zero-days/",
-    "industry": "AI & Technology",
-    "summary": "El martes de parches de julio de 2026 de Microsoft corrige 622 CVE, incluidas fallas explotadas de AD FS y SharePoint, además de la derivación de BitLocker revelada que requiere una acción urgente.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
