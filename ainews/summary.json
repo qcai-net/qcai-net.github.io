@@ -40,18 +40,26 @@
     "impact_score": 5
   },
   {
-    "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
-    "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+    "title": "How Apple\u2019s big lawsuit could disrupt OpenAI\u2019s IPO plans",
+    "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
     "industry": "AI & Technology",
-    "summary": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
+    "summary": "Apple&#160;filed a trade secrets&#160;lawsuit against OpenAI&#160;last Friday, and&#160;it&#8217;s&#160;not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI&#8217;s chief hardware officer and claims more than 400 former Apple employe...",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
-    "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
+    "title": "Apple\u2019s lawsuit couldn\u2019t come at a worse time for OpenAI",
+    "url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
     "industry": "AI & Technology",
-    "summary": "Can a handful of engineers really do the work of an army of consultants?&#160;That\u2019s&#160;the bet behind Ode with Anthropic \u2014&#160;the joint venture dedicated to embedding forward-deployed engineers in enterprise firms, backed by&#160;Anthropic, Blackstone, Hellman &#38; Friedman...",
+    "summary": "Apple&#160;filed a trade secrets&#160;lawsuit against OpenAI&#160;last Friday, and&#160;it&#8217;s&#160;not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI&#8217;s chief hardware officer and claims more than 400 former Apple employe...",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+    "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+    "industry": "AI & Technology",
+    "summary": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -96,18 +104,18 @@
     "impact_score": 5
   },
   {
-    "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
-    "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+    "title": "Introducing Grok on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/",
     "industry": "AI & Technology",
-    "summary": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.",
+    "summary": "This post covers what makes Grok 4.3 a great fit for agentic and enterprise workloads, how you access it through Amazon Bedrock, and how to use the capabilities most teams reach for first: a basic chat request, configurable reasoning effort, tool calling, str\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "ETtech Explainer: Why AI startups like Emergent, Sarvam, UnifyApps are seeing bigger bets & soaring valuations",
-    "url": "https://economictimes.indiatimes.com/tech/technology/et-tech-explainer-why-ai-startups-like-emergent-sarvam-unifyapps-are-seeing-bigger-bets-soaring-valuations/articleshow/132438043.cms",
+    "title": "Patreon stops asking AI bots not to scrape \u2014 and starts blocking them",
+    "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
     "industry": "AI & Technology",
-    "summary": "Indian artificial intelligence startups are experiencing significant funding and valuation surges. Emergent and Sarvam AI recently achieved unicorn status with large investment rounds. UnifyApps is also in talks for a substantial funding round, increasing its\u2026",
+    "summary": "Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators\u2019 content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -148,14 +156,6 @@
     "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
     "industry": "AI & Technology",
     "summary": "It's the company's first public proof point after a year and a half spent building AI infrastructure largely out of public view.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
-    "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
-    "industry": "AI & Technology",
-    "summary": "The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }

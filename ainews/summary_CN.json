@@ -40,6 +40,22 @@
     "impact_score": 5
   },
   {
+    "title": "苹果的大诉讼如何扰乱 OpenAI 的 IPO 计划",
+    "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+    "industry": "AI & Technology",
+    "summary": "苹果公司上周五对 OpenAI 提起了商业秘密诉讼，而且它并没有闲着。该投诉指控 OpenAI 的首席硬件官存在不当行为，并声称超过 400 名前苹果员工...",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "对于 OpenAI 来说，苹果的诉讼来得正是时候",
+    "url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
+    "industry": "AI & Technology",
+    "summary": "苹果公司上周五对 OpenAI 提起了商业秘密诉讼，而且它并没有闲着。该投诉指控 OpenAI 的首席硬件官存在不当行为，并声称超过 400 名前苹果员工...",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic",
     "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
     "industry": "AI & Technology",
@@ -48,15 +64,7 @@
     "impact_score": 5
   },
   {
-    "title": "Ode with Anthropic 内部，这家初创公司押注人工智能服务是企业的未来",
-    "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
-    "industry": "AI & Technology",
-    "summary": "少数工程师真的能完成一大群顾问的工作吗？这是 Ode 与 Anthropic 的赌注——这家合资企业致力于在企业公司中嵌入前沿部署的工程师，得到了 Anthropic、Blackstone、Hellman 等公司的支持。弗里德曼...",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Google Vids 现在可让您在自己的 AI 视频中担任主演",
+    "title": "Google Vids 现在可让您在自己的 AI 视频中担任主角",
     "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
     "industry": "AI & Technology",
     "summary": "谷歌正在将个性化的人工智能头像添加到视频中，让用户可以创建以自己的数字版本为主角的视频，同时还提供 Gemini Omni 支持的工具，用于根据提示和参考图像生成和编辑视频。",
@@ -96,18 +104,18 @@
     "impact_score": 5
   },
   {
-    "title": "微软补丁记录了安全漏洞的数量，理由是其使用了人工智能",
-    "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+    "title": "在 Amazon Bedrock 上推出 Grok",
+    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/",
     "industry": "AI & Technology",
-    "summary": "得益于人工智能的发现，微软每月发布的安全修复程序（称为“补丁星期二”）解决了该公司产品线中创纪录的 570 个安全漏洞。",
+    "summary": "这篇文章介绍了 Grok 4.3 非常适合代理和企业工作负载的原因、如何通过 Amazon Bedrock 访问它，以及如何使用大多数团队首先获得的功能：基本的聊天请求、可配置的推理工作、工具调用、str…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "ETtech 解释者：为什么像 Emergent、Sarvam、UnifyApps 这样的人工智能初创公司看到了更大的赌注和飙升的估值",
-    "url": "https://economictimes.indiatimes.com/tech/technology/et-tech-explainer-why-ai-startups-like-emergent-sarvam-unifyapps-are-seeing-bigger-bets-soaring-valuations/articleshow/132438043.cms",
+    "title": "Patreon 不再要求人工智能机器人不要抓取数据，而是开始阻止它们",
+    "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
     "industry": "AI & Technology",
-    "summary": "印度人工智能初创公司正在经历显着的融资和估值飙升。 Emergent 和 Sarvam AI 最近通过大笔投资获得了独角兽地位。 UnifyApps 还在就一轮大额融资进行谈判，以增加其……",
+    "summary": "Patreon 正在与 Cloudflare 合作，阻止未经许可在创作者内容上训练 AI 模型的机器人，从而加强对 AI 抓取的防御。此举标志着不再依赖仅使用 robots.txt 的网站来主动阻止未经授权的人工智能训练。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -148,14 +156,6 @@
     "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
     "industry": "AI & Technology",
     "summary": "这是该公司在花了一年半的时间在公众视野之外构建人工智能基础设施后首次公开证明这一点。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Hack 建议 AI 音乐生成器 Suno 抓取 YouTube 上的训练数据",
-    "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
-    "industry": "AI & Technology",
-    "summary": "黑客使用员工的凭据访问源代码，揭示了 Suno 如何窃取数十年的音频。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
