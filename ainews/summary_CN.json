@@ -56,14 +56,6 @@
     "impact_score": 5
   },
   {
-    "title": "据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic",
-    "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
-    "industry": "AI & Technology",
-    "summary": "微软希望出售其内部人工智能模型，使其比竞争对手的模型更高效、更具成本效益。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
     "title": "Google Vids 现在可让您在自己的 AI 视频中担任主角",
     "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
     "industry": "AI & Technology",
@@ -96,18 +88,34 @@
     "impact_score": 5
   },
   {
-    "title": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
-    "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+    "title": "尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归",
+    "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
     "industry": "AI & Technology",
-    "summary": "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用。",
+    "summary": "Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史性财富将不得不重新分配，无论是自愿还是非自愿。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "在 Amazon Bedrock 上推出 Grok",
-    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/",
+    "title": "Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现",
+    "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
     "industry": "AI & Technology",
-    "summary": "这篇文章介绍了 Grok 4.3 非常适合代理和企业工作负载的原因、如何通过 Amazon Bedrock 访问它，以及如何使用大多数团队首先获得的功能：基本的聊天请求、可配置的推理工作、工具调用、str…",
+    "summary": "从人工智能工作流程到电池寿命和安全性，这就是每天使用 Vertu 豪华可折叠手机的真实感受。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Databricks 估值达到 188B 美元，延续了其作为人工智能最受欢迎的第二幕的地位",
+    "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+    "industry": "AI & Technology",
+    "summary": "Databricks 将其形象重塑为一家人工智能公司，并发表了关于开放权重人工智能模型编码成本节省的研究。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "人工智能驱动的内存紧缩震动了印度智能手机市场",
+    "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
+    "industry": "AI & Technology",
+    "summary": "印度智能手机的放缓凸显了人工智能热潮如何重塑消费电子产品，从定价和需求到企业战略。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -136,26 +144,18 @@
     "impact_score": 5
   },
   {
-    "title": "Apple Intelligence 获准与阿里巴巴和百度合作在中国推出",
-    "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+    "title": "印度央行行长桑杰·马尔霍特拉：西亚危机和季风不确定是经济增长的主要风险",
+    "url": "https://economictimes.indiatimes.com/news/economy/policy/west-asia-crisis-uncertain-monsoon-major-risks-for-growth-rbi-governor-sanjay-malhotra/articleshow/132460022.cms",
     "industry": "AI & Technology",
-    "summary": "据传去年正在进行的这项交易标志着苹果在关键市场的人工智能雄心迈出了重要一步。",
+    "summary": "储备银行行长桑杰·马尔霍特拉指出，西亚危机和弱季风带来增长风险。在强劲基本面的支撑下，印度经济近期增长超过 7%。央行预计本财年GDP增​​长6.6%……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型",
-    "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+    "title": "人工智能加速漏洞发现步伐，微软 7 月份修复了创纪录的 570 个安全漏洞",
+    "url": "https://www.ibtimes.com.au/microsoft-record-patch-release-ai-security-fixes-1872463",
     "industry": "AI & Technology",
-    "summary": "Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模型。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Thinking Machines 通过其第一个开放模型 Inkling 加大了对通用人工智能的赌注",
-    "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
-    "industry": "AI & Technology",
-    "summary": "这是该公司在花了一年半的时间在公众视野之外构建人工智能基础设施后首次公开证明这一点。",
+    "summary": "微软 7 月的更新解决了 570 个安全漏洞，这些漏洞是由人工智能在加速缺陷发现方面的作用推动的。这一激增凸显了人工智能对网络安全的双重影响，既为防御者提供帮助，也为攻击者提供帮助。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
