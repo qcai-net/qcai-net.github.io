@@ -57647,6 +57647,65 @@
         "Shape.STArea()": 1530473.8283718543,
         "Shape.STLength()": 6756.012189361004
       }
+    },
+    {
+      "type": "Feature",
+      "id": 554,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.76836813935148,
+              35.27485412826287
+            ],
+            [
+              -80.76849098425748,
+              35.27430930663496
+            ],
+            [
+              -80.7672454823604,
+              35.27447012594828
+            ],
+            [
+              -80.76713088947251,
+              35.2750239850537
+            ],
+            [
+              -80.76836813935148,
+              35.27485412826287
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 554,
+        "Corridor": "BLE",
+        "Station": "TMH",
+        "ProjectName": "Baker Crossing",
+        "ProjectAddress": "6351 N TRYON ST",
+        "Status": "Proposed",
+        "ProjectType": "NEWC",
+        "LandUse": "MTF",
+        "ResidentialUnits": 58,
+        "AffordableUnits": 40,
+        "HotelRooms": null,
+        "WalkDistance": 0.24,
+        "EstimtatedCost": 60000000,
+        "Completed": null,
+        "Developer": "Woda Cooper Companies",
+        "PublicFacing": null,
+        "Notes": null,
+        "ImageURL": null,
+        "OfficeSqFeet": null,
+        "RetailSqFeet": null,
+        "NonResSF": null,
+        "DateCompleted": null,
+        "Parking": 60,
+        "SecCorridor": "BLE",
+        "Shape.STArea()": 71942.29047300103,
+        "Shape.STLength()": 1156.8222452029993
+      }
     }
   ]
 }
