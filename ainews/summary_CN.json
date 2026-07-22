@@ -24,7 +24,7 @@
     "impact_score": 5
   },
   {
-    "title": "人工智能上下文差距：企业人工智能组织存在信任问题，而不是检索问题——而且大多数仍在构建修复程序",
+    "title": "人工智能上下文差距：企业人工智能组织存在信任问题，而不是检索问题 - 大多数仍在构建修复程序",
     "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
     "industry": "AI & Technology",
     "summary": "<p>在 101 家企业中，为 AI 代理提供业务环境的基础设施的构建速度快于可信度。检索增强生成已经是默认的上下文源，而提供者本机检索已经悄然取代了专用矢量d...",
@@ -36,6 +36,46 @@
     "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
     "industry": "AI & Technology",
     "summary": "<p>在 157 家企业中，组织正在授予人工智能代理更多的自主权，同时信任旨在减少自主权的评估。一半已经交付了通过内部评估的代理，但在生产中却未能满足客户的要求；只有十分之一的人...",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "人工智能 Twitter 上掀起“人形智能”谣言",
+    "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+    "industry": "AI & Technology",
+    "summary": "Anthropic 和 OpenAI 在 2026 年大举收购，为周末谣言奠定了基础。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Glow 以 1.2B 美元估值脱颖而出，挑战人工智能时代的端点安全",
+    "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+    "industry": "AI & Technology",
+    "summary": "Glow 的目标是企业内部快速采用人工智能代理和开发工具而产生的一类新型端点风险。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Synthesia 的人工智能培训平台正在从视频转向实时指导",
+    "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
+    "industry": "AI & Technology",
+    "summary": "Synthesia 推出了 AI Roleplay Sessions，这是一个交互式企业培训平台，员工可以在工作场所与 AI 化身练习对话，这些化身提供反馈、评分和分析，帮助公司衡量培训效果。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Meta 正在为没有想象力的人测试一款 AI 睡前故事应用程序",
+    "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
+    "industry": "AI & Technology",
+    "summary": "最后，一家科技公司找到了一种方法来外包人类最古老的消遣：利用我们的想象力。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 表示 Hugging Face 被其预发布模型破坏",
+    "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI 已出面声称对 Hugging Face 漏洞负责，称这是内部测试出错的结果。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -52,14 +92,6 @@
     "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
     "industry": "AI & Technology",
     "summary": "关于禁止中国制造的开放式法学硕士的言论揭示了将人工智能转变为商业的挑战。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "苹果的诉讼会破坏 OpenAI 的硬件计划吗？",
-    "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
-    "industry": "AI & Technology",
-    "summary": "在最新一期的 Equity 节目中，我们讨论了苹果的诉讼是否会给 OpenAi 备受讨论的进军硬件和上市的计划蒙上阴影。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -124,38 +156,6 @@
     "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
     "industry": "AI & Technology",
     "summary": "YouTube 更新了其盈利政策，以更明确地定义人工智能生成的低质量视频，这些视频无法赚取广告收入。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "《奥德赛》导演克里斯托弗·诺兰称人工智能是明显的“特洛伊木马”",
-    "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
-    "industry": "AI & Technology",
-    "summary": "“每个人都知道希腊人在里面。”",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "非营利组织 Current AI 正在竞相构建免费的人工智能万维网",
-    "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
-    "industry": "AI & Technology",
-    "summary": "Current AI 是一个非营利性构建的人工智能，不让任何一种文化落后，在设备、人工智能聊天等方面取得了显着的进步。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "联合县委员将采取下一步行动，就 2 亿美元监狱债券公投",
-    "url": "https://www.wcnc.com/article/news/local/union-county-jail-bond-referendum/275-e7764500-8d03-4139-9fb4-d9937ed78a81",
-    "industry": "AI & Technology",
-    "summary": "在投票之前举行公开听证会将拟议的拘留中心资金提交给选民",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Natural 融资 3000 万美元为人工智能代理建立支付通道",
-    "url": "https://www.pymnts.com/news/investment-tracker/2026/natural-raises-30-million-to-build-payment-rails-for-ai-agents/",
-    "industry": "AI & Technology",
-    "summary": "Natural 是一家成立仅一年的公司，正在为人工智能代理构建基础支付堆栈，在 A 轮融资中筹集了 3000 万美元。该公司在周一（7 月...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
