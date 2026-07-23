@@ -1,57 +1,41 @@
 [
   {
-    "title": "人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度",
-    "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
-    "industry": "AI & Technology",
-    "summary": "<p>在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织在熟悉的超大规模和模型提供商 API 基础上运行人工智能，但下一美元的目标是几乎没有的专业计算……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证",
-    "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-    "industry": "AI & Technology",
-    "summary": "<p>在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全事件或险些发生事故；只有大约三分之一的人为每个代理提供了自己的范围身份......",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "人工智能上下文差距：企业人工智能组织存在信任问题，而不是检索问题——而且大多数仍在构建修复程序",
-    "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
-    "industry": "AI & Technology",
-    "summary": "<p>在 101 家企业中，为 AI 代理提供业务环境的基础设施的构建速度快于可信度。检索增强生成已经是默认的上下文源，而提供者本机检索已经悄然取代了专用矢量d...",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "代理评估差距：企业人工智能组织存在现实一致性问题，而不是覆盖范围问题——而且大多数都已投入生产",
-    "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
-    "industry": "AI & Technology",
-    "summary": "<p>在 157 家企业中，组织正在授予人工智能代理更多的自主权，同时信任旨在减少自主权的评估。一半已经交付了通过内部评估的代理，但在生产中却未能满足客户的要求；只有十分之一的人...",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
     "title": "Yope 筹集了 1230 万美元，用于建立一个没有算法或广告的私人社交网络",
     "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
     "industry": "AI & Technology",
-    "summary": "Yope 是一款快速发展的社交应用程序，专注于朋友和家人的私人团体，已筹集 1230 万美元的种子资金。这家初创公司并没有追逐创作者和算法提要，而是押注社交网络的未来在于小型私人社区，这些社区由......",
+    "summary": "Yope 是一款快速发展的社交应用程序，专注于朋友和家人的私人团体，已筹集 1230 万美元的种子资金。这家初创公司没有追逐创作者和算法提要，而是押注社交网络的未来在于小型私人社区，这些社区由......",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Passionfroot 融资 1500 万美元，将其 B2B 创作者市场扩展到美国",
-    "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/",
+    "title": "由前谷歌安全高管创立的 AegisAI 获得 3600 万美元资金，用于阻止人工智能驱动的鱼叉式网络钓鱼",
+    "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
     "industry": "AI & Technology",
-    "summary": "Passionfroot 是一家德国初创公司，致力于打造一个连接 B2B 创作者与品牌的市场，在 Insight Partners 领投的 A 轮融资中筹集了 1500 万美元。",
+    "summary": "AegisAI 联合创始人开发了人工智能代理，可以像人类一样快速分析每条消息，关注即使是最详尽的检查表也无法捕捉到的小异常情况。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "人工智能 Twitter 上掀起“人形智能”谣言",
-    "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+    "title": "OpenAI 向所有美国用户提供 ChatGPT Health",
+    "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
     "industry": "AI & Technology",
-    "summary": "Anthropic 和 OpenAI 在 2026 年大举收购，为周末谣言奠定了基础。",
+    "summary": "用户还可以集成来自 Apple Health、Function 和 MyFitnessPal 等服务的个人数据。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Meta 推出了新的人工智能乐观广告，广告背景是一首有关人类灭绝的歌曲",
+    "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+    "industry": "AI & Technology",
+    "summary": "大卫·鲍伊 (David Bowie) 的歌曲《五年》(Five Years) 被 Meta 用于一则据称鼓舞人心的广告中，歌曲讲述的是人类得知在世界末日到来之前他们还剩五年的生命。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "AI芯片初创公司Etched无视质疑，大牌投资者估值达到10.3B美元",
+    "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+    "industry": "AI & Technology",
+    "summary": "Etched 由三名哈佛辍学者创立，该公司开发了新的芯片和内存组件，可以加快任何人工智能模型的推理速度，据称无需 GPU。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -80,42 +64,18 @@
     "impact_score": 5
   },
   {
-    "title": "Menlo Ventures 的 Matt Murphy 解释了人工智能初创公司创始人必须采取哪些不同的做法",
-    "url": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/",
+    "title": "OpenAI 计划耗资 300 亿美元建设拥有 3.2 吉瓦电力的人工智能数据中心",
+    "url": "https://biztoc.com/x/fa03f2b7e98ce0bb",
     "industry": "AI & Technology",
-    "summary": "到 5 月份，Anthropic 的收入运行率跃升至“470 亿美元”，而 2025 年的收入为“90 亿美元”。 Ventures 的马特·墨菲 (Matt Murphy) 表示，他在 25 年的投资生涯中从未见过……",
+    "summary": "本文首次发表于 GuruFocus。\n随着对人工智能软件的需求不断增加，ChatGPT 背后的初创公司 OpenAI 计划斥资至少 200 亿美元在佐治亚州萨凡纳附近新建一个大型人工智能数据中心。公司拥有秒…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Glow 以 1.2B 美元估值脱颖而出，挑战人工智能时代的端点安全",
-    "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+    "title": "随着生成媒体变得拥挤，Runway 推出 AI 模型路由器",
+    "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
     "industry": "AI & Technology",
-    "summary": "Glow 的目标是企业内部快速采用人工智能代理和开发工具而产生的一类新型端点风险。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Synthesia 的人工智能培训平台正在从视频转向实时指导",
-    "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
-    "industry": "AI & Technology",
-    "summary": "Synthesia 推出了 AI Roleplay Sessions，这是一个交互式企业培训平台，员工可以在工作场所与 AI 化身练习对话，这些化身提供反馈、评分和分析，帮助公司衡量培训效果。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Meta 正在为没有想象力的人测试一款 AI 睡前故事应用程序",
-    "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
-    "industry": "AI & Technology",
-    "summary": "最后，一家科技公司找到了一种方法来外包人类最古老的消遣：利用我们的想象力。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI 表示 Hugging Face 被其预发布模型破坏",
-    "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
-    "industry": "AI & Technology",
-    "summary": "OpenAI 已出面声称对 Hugging Face 漏洞负责，称这是内部测试出错的结果。",
+    "summary": "媒体路由器是一种工具，可以根据开发人员是否优先考虑质量、速度或成本来自动为请求选择最佳图像、视频或音频生成模型。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -156,6 +116,46 @@
     "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
     "industry": "AI & Technology",
     "summary": "随着中国人工智能模型的能力和在美国公司中越来越受欢迎，关于应该采取什么措施的争论已经达到白热化。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Substack 的新工具告诉您谁在使用 AI 撰写时事通讯",
+    "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+    "industry": "AI & Technology",
+    "summary": "Substack 为读者提供了一种方法来估计一份时事通讯中有多少内容是由人工智能撰写的，这标志着人工智能辅助内容向透明度的更广泛转变。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Aalo Atomics 在人工智能数据中心电力需求中筹集资金",
+    "url": "https://cryptobriefing.com/aalo-atomics-funding-ai-power-demand/",
+    "industry": "AI & Technology",
+    "summary": "Aalo Atomics 筹集了 1 亿美元，用于开发人工智能数据中心的核反应堆，通过创新的能源解决方案满足不断增长的电力需求。\nAalo Atomics 在人工智能数据中心电力需求中筹集资金的帖子首先出现在 Crypto Briefing 上。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "关于流氓 OpenAI 模型引发的 AI 黑客攻击，您需要了解哪些信息",
+    "url": "https://apnews.com/article/openai-rogue-ai-hack-hugging-face-67b151f1ca59851a9234bee110699f05",
+    "industry": "AI & Technology",
+    "summary": "ChatGPT 制造商 OpenAI 表示，仍在调查“前所未有的网络事件”，该事件导致其人工智能系统突破测试环境并侵入另一家人工智能公司。 OpenAI 周二表示，其两个最强大的人工智能模块......",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "美国在 Genesis Mission 下投入 50 亿美元用于人工智能研究，提振科技行业前景",
+    "url": "https://cryptobriefing.com/us-commits-5b-to-ai-research-under-genesis-mission-boosts-tech-sector-prospects/",
+    "industry": "AI & Technology",
+    "summary": "美国在 Genesis Mission 下承诺投入 50 亿美元用于人工智能研究。截至 2026 年 7 月 31 日，NVIDIA 是市值最大的公司，占 86%，是的。\n美国在 Genesis Mission 下承诺向人工智能研究投入 50 亿美元，提振科技行业前景，这一消息首先出现在 Crypto Briefing 上。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "活跃 2 磅。蒸馏器除垢剂柠檬酸清洁剂仅需 13 美元 + Prime 免运费",
+    "url": "https://www.dealnews.com/Active-2-lb-Distiller-Descaler-Citric-Acid-Cleaner-for-13-free-shipping-w-Prime/21920673.html",
+    "industry": "AI & Technology",
+    "summary": "亚马逊提供 Active 2 磅。使用促销代码“K9BRSTAP”后，蒸馏器除垢剂柠檬酸清洁剂现价 13.47 美元。这样就节省了 11 美元。 Prime 会员免运费。  立即在亚马逊购买\r\n 特点\r\n <ul> <li>2 磅。 （32 盎司）散装柠檬酸粉末，最多 2…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }

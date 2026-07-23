@@ -1,37 +1,5 @@
 [
   {
-    "title": "La brecha informática de la IA: las empresas están comprando infraestructura más rápido de lo que pueden medir su costo",
-    "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
-    "industry": "AI & Technology",
-    "summary": "<p>En 107 empresas, el gasto en infraestructura de IA se está acelerando mucho más allá de la capacidad de ver o dirigir su economía. La mayoría de las organizaciones ejecutan su IA sobre una base familiar de hiperescaladores y API de proveedores de modelos, pero el próximo dólar casi no se destina a computación especializada...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "La brecha de seguridad de los agentes: el 54% de las empresas ya ha tenido un incidente con un agente de IA y la mayoría todavía permite que los agentes compartan credenciales",
-    "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-    "industry": "AI & Technology",
-    "summary": "<p>En 107 empresas, los agentes de IA tienen acceso real a sistemas y datos, mientras que los controles destinados a contenerlos se quedan atrás. Más de la mitad ya ha tenido un incidente de seguridad de agente confirmado o estuvo a punto de sufrir un accidente; sólo alrededor de un tercio le da a cada agente su propia identidad de alcance...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "La brecha del contexto de la IA: las organizaciones empresariales de IA tienen un problema de confianza, no un problema de recuperación, y la mayoría todavía está buscando una solución",
-    "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
-    "industry": "AI & Technology",
-    "summary": "<p>En 101 empresas, la infraestructura que alimenta a los agentes de IA en su contexto empresarial se está construyendo más rápido de lo que se puede confiar en ella. La generación de recuperación aumentada ya es la fuente de contexto predeterminada, y la recuperación nativa del proveedor ha superado silenciosamente al vector dedicado...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "La brecha de evaluación de los agentes: las organizaciones empresariales de IA tienen un problema de alineación con la realidad, no un problema de cobertura, y la mayoría están enviando a producción de todos modos",
-    "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
-    "industry": "AI & Technology",
-    "summary": "<p>En 157 empresas, las organizaciones están otorgando a los agentes de IA más autonomía, al tiempo que confían menos en las evaluaciones destinadas a garantizar esa autonomía. La mitad ya envió un agente que pasó sus evaluaciones internas y luego falló a un cliente en producción; sólo uno de cada veinte fu...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
     "title": "Yope recauda 12,3 millones de dólares para construir una red social privada sin algoritmos ni anuncios",
     "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
     "industry": "AI & Technology",
@@ -40,18 +8,34 @@
     "impact_score": 5
   },
   {
-    "title": "Passionfroot recauda 15 millones de dólares para expandir su mercado de creadores B2B a EE. UU.",
-    "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/",
+    "title": "AegisAI, fundada por ex ejecutivos de seguridad de Google, consigue 36 millones de dólares para detener el phishing impulsado por IA",
+    "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
     "industry": "AI & Technology",
-    "summary": "Passionfroot, una startup alemana que está construyendo un mercado que conecta a creadores B2B con marcas, ha recaudado 15 millones de dólares en una ronda Serie A liderada por Insight Partners.",
+    "summary": "Los cofundadores de AegisAI desarrollaron agentes de inteligencia artificial que analizan rápidamente cada mensaje como lo haría un humano, prestando atención a pequeñas anomalías que ni siquiera la lista de verificación más elaborada detectaría.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "El rumor de la inteligencia antrópica-física enturbia la IA en Twitter",
-    "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+    "title": "OpenAI pone ChatGPT Health a disposición de todos los usuarios de EE. UU.",
+    "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
     "industry": "AI & Technology",
-    "summary": "Las agresivas adquisiciones de Anthropic y OpenAI en 2026 prepararon el escenario para un rumor de fin de semana.",
+    "summary": "Los usuarios también pueden integrar sus datos personales de servicios como Apple Health, Function y MyFitnessPal.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Meta lanzó un nuevo anuncio de optimismo sobre IA con una canción sobre la extinción humana",
+    "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+    "industry": "AI & Technology",
+    "summary": "La canción de David Bowie \"Five Years\", que Meta usó en un anuncio supuestamente inspirador, trata sobre los humanos que aprenden que les quedan cinco años de vida antes del apocalipsis.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La startup de chips de IA Etched desafía a los escépticos y alcanza una valoración de 10.300 millones de dólares por parte de inversores de renombre",
+    "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+    "industry": "AI & Technology",
+    "summary": "Etched, fundada por tres desertores de Harvard, ha creado nuevos chips y componentes de memoria que aceleran la inferencia en cualquier modelo de IA, sin necesidad de GPU, dice.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -80,42 +64,18 @@
     "impact_score": 5
   },
   {
-    "title": "Matt Murphy de Menlo Ventures explica qué deben hacer de manera diferente los fundadores de startups de IA",
-    "url": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/",
+    "title": "OpenAI planea un centro de datos de IA de 30 mil millones de dólares con 3,2 gigavatios de potencia",
+    "url": "https://biztoc.com/x/fa03f2b7e98ce0bb",
     "industry": "AI & Technology",
-    "summary": "Anthropic saltó a una tasa de ejecución de ingresos de 47 mil millones de dólares en mayo, en comparación con 9 mil millones de dólares en 2025. Es el tipo de crecimiento que Menlo Ventures Matt Murphy dice que nunca ha visto en 25 años de inversión...",
+    "summary": "Este artículo apareció por primera vez en GuruFocus.\nOpenAI, la startup detrás de ChatGPT, planea gastar al menos 20 mil millones de dólares en un nuevo y enorme centro de datos de inteligencia artificial cerca de Savannah, Georgia, a medida que la demanda de software de inteligencia artificial continúa aumentando. La empresa tiene sec…",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Glow surge del sigilo con una valoración de 1.200 millones de dólares para desafiar la seguridad de los endpoints en la era de la IA",
-    "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+    "title": "Runway lanza un enrutador modelo de IA a medida que los medios generativos se llenan",
+    "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
     "industry": "AI & Technology",
-    "summary": "Glow apunta a una nueva clase de riesgos de endpoints creados por la rápida adopción de agentes de inteligencia artificial y herramientas de desarrollo dentro de las empresas.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "La plataforma de capacitación en inteligencia artificial de Synthesia va más allá de los videos y se convierte en capacitación en vivo",
-    "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
-    "industry": "AI & Technology",
-    "summary": "Synthesia lanzó AI Roleplay Sessions, una plataforma interactiva de capacitación empresarial donde los empleados practican conversaciones en el lugar de trabajo con avatares de IA que brindan retroalimentación, puntuación y análisis para ayudar a las empresas a medir la efectividad de la capacitación.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Meta está probando una aplicación de cuentos con IA para personas sin imaginación",
-    "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
-    "industry": "AI & Technology",
-    "summary": "Por fin, una empresa de tecnología ha encontrado una manera de subcontratar el pasatiempo más antiguo de la humanidad: usar nuestra imaginación.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI dice que Hugging Face fue violado por sus modelos previos al lanzamiento",
-    "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
-    "industry": "AI & Technology",
-    "summary": "OpenAI se ha presentado para asumir la responsabilidad por la violación de Hugging Face, diciendo que fue el resultado de pruebas internas que salieron mal.",
+    "summary": "Media Router es una herramienta que selecciona automáticamente el mejor modelo de generación de imagen, video o audio para una solicitud en función de si un desarrollador prioriza la calidad, la velocidad o el costo.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -156,6 +116,46 @@
     "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
     "industry": "AI & Technology",
     "summary": "A medida que los modelos chinos de IA crecen en capacidad y popularidad entre las empresas estadounidenses, la discusión sobre qué se debe hacer al respecto ha alcanzado un punto álgido.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La nueva herramienta de Substack le dice quién ha estado escribiendo sus boletines con IA",
+    "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+    "industry": "AI & Technology",
+    "summary": "Substack ofrece a los lectores una forma de estimar qué parte de un boletín fue escrito por IA, lo que indica un cambio más amplio hacia la transparencia en torno al contenido asistido por IA.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Aalo Atomics recauda financiación en medio de la demanda de energía del centro de datos de IA",
+    "url": "https://cryptobriefing.com/aalo-atomics-funding-ai-power-demand/",
+    "industry": "AI & Technology",
+    "summary": "Aalo Atomics recauda 100 millones de dólares para desarrollar reactores nucleares para centros de datos de IA, satisfaciendo la creciente demanda de energía con soluciones energéticas innovadoras.\nLa publicación Aalo Atomics recauda fondos en medio de la demanda de energía del centro de datos de IA apareció por primera vez en Crypto Briefing.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Lo que hay que saber sobre el hackeo de IA atribuido a modelos maliciosos de OpenAI",
+    "url": "https://apnews.com/article/openai-rogue-ai-hack-hugging-face-67b151f1ca59851a9234bee110699f05",
+    "industry": "AI & Technology",
+    "summary": "OpenAI, fabricante de ChatGPT, dice que todavía está investigando el “incidente cibernético sin precedentes” que llevó a sus sistemas de inteligencia artificial a salir de un entorno de prueba y piratear otra empresa de inteligencia artificial. OpenAI dijo el martes que dos de sus mods de IA más capaces...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Estados Unidos compromete 5 mil millones de dólares para la investigación de IA en el marco de la Misión Génesis, lo que impulsa las perspectivas del sector tecnológico",
+    "url": "https://cryptobriefing.com/us-commits-5b-to-ai-research-under-genesis-mission-boosts-tech-sector-prospects/",
+    "industry": "AI & Technology",
+    "summary": "Estados Unidos compromete 5.000 millones de dólares para la investigación de la IA en el marco de la Misión Génesis. NVIDIA como empresa más grande por capitalización de mercado el 31 de julio de 2026 con un 86% SÍ.\nLa publicación Estados Unidos compromete 5 mil millones de dólares para la investigación de IA en el marco de la Misión Génesis y aumenta las perspectivas del sector tecnológico apareció por primera vez en Crypto Briefing.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Activo de 2 libras. Limpiador de ácido cítrico Distiller Descaler por $13 + envío gratis con Prime",
+    "url": "https://www.dealnews.com/Active-2-lb-Distiller-Descaler-Citric-Acid-Cleaner-for-13-free-shipping-w-Prime/21920673.html",
+    "industry": "AI & Technology",
+    "summary": "Amazon ofrece el Active de 2 libras. Limpiador de ácido cítrico Distiller Descaler por $13.47 después del código de promoción \"K9BRSTAP\". Eso es un ahorro de $11. El envío es gratuito para los miembros Prime.  Compra ahora en Amazon\r\n Características\r\n <ul> <li>2 libras. (32 onzas) de ácido cítrico en polvo a granel, hasta 2...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }

@@ -1,37 +1,5 @@
 [
   {
-    "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
-    "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
-    "industry": "AI & Technology",
-    "summary": "<p>Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized compute almost no...",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
-    "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-    "industry": "AI & Technology",
-    "summary": "<p>Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; only about a third give every agent its own scoped identit...",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem \u2014 and most are still building the fix",
-    "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
-    "industry": "AI & Technology",
-    "summary": "<p>Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-native retrieval has quietly overtaken the dedicated vector d...",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem \u2014 and most are shipping to production anyway",
-    "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
-    "industry": "AI & Technology",
-    "summary": "<p>Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and then failed a customer in production; only one in twenty fu...",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
     "title": "Yope raises $12.3M to build a private social network without algorithms or ads",
     "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
     "industry": "AI & Technology",
@@ -40,18 +8,34 @@
     "impact_score": 5
   },
   {
-    "title": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
-    "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/",
+    "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+    "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
     "industry": "AI & Technology",
-    "summary": "Passionfroot, a German startup building a marketplace connecting B2B creators with brands, has raised $15M in a Series A round led by Insight Partners.",
+    "summary": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn\u2019t catch.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
-    "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+    "title": "OpenAI makes ChatGPT Health available to all US users",
+    "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
     "industry": "AI & Technology",
-    "summary": "Anthropic and OpenAI's aggressive 2026 acquisition sprees set the stage for a weekend rumor.",
+    "summary": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+    "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+    "industry": "AI & Technology",
+    "summary": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+    "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+    "industry": "AI & Technology",
+    "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -80,42 +64,18 @@
     "impact_score": 5
   },
   {
-    "title": "Menlo Ventures\u2019 Matt Murphy explains what AI startups founders must do differently",
-    "url": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/",
+    "title": "OpenAI Plans $30 Billion AI Data Center With 3.2 Gigawatts of Power",
+    "url": "https://biztoc.com/x/fa03f2b7e98ce0bb",
     "industry": "AI & Technology",
-    "summary": "Anthropic&#160;leaped to&#160;a&#160;$47 billion&#160;revenue run rate&#160;by May,&#160;compared to&#160;$9 billion&#160;in 2025.&#160;It\u2019s&#160;the kind of growth that&#160;Menlo Ventures&#8217;&#160;Matt Murphy&#160;says&#160;he&#8217;s&#160;never seen in 25 years of investing...",
+    "summary": "This article first appeared on GuruFocus.\nOpenAI, the startup behind ChatGPT, plans to spend at least $20 billion on a massive new artificial intelligence data center near Savannah, Georgia, as demand for AI software continues to increase. The company has sec\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
-    "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+    "title": "Runway launches AI model router as generative media gets crowded",
+    "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
     "industry": "AI & Technology",
-    "summary": "Glow is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Synthesia\u2019s AI training platform is moving beyond videos into live coaching",
-    "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
-    "industry": "AI & Technology",
-    "summary": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Meta is testing an AI bedtime story app for people with no imagination",
-    "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
-    "industry": "AI & Technology",
-    "summary": "At last, a tech company has found a way to outsource humanity's oldest pastime: using our imaginations.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI says Hugging Face was breached by its pre-release models",
-    "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
-    "industry": "AI & Technology",
-    "summary": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
+    "summary": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -156,6 +116,46 @@
     "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
     "industry": "AI & Technology",
     "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Substack\u2019s new tool tells you who\u2019s been writing their newsletters with AI",
+    "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+    "industry": "AI & Technology",
+    "summary": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Aalo Atomics raises funding amid AI data center power demand",
+    "url": "https://cryptobriefing.com/aalo-atomics-funding-ai-power-demand/",
+    "industry": "AI & Technology",
+    "summary": "Aalo Atomics raises $100M to develop nuclear reactors for AI data centers, meeting rising power demands with innovative energy solutions.\nThe post Aalo Atomics raises funding amid AI data center power demand appeared first on Crypto Briefing.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "What to know about the AI hacking blamed on rogue OpenAI models",
+    "url": "https://apnews.com/article/openai-rogue-ai-hack-hugging-face-67b151f1ca59851a9234bee110699f05",
+    "industry": "AI & Technology",
+    "summary": "ChatGPT maker OpenAI says it is still investigating the \u201cunprecedented cyber incident\u201d that led its artificial intelligence systems to break out of a testing environment and hack into another AI company. OpenAI said Tuesday that two of its most capable AI mod\u2026",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "US commits $5B to AI research under Genesis Mission, boosts tech sector prospects",
+    "url": "https://cryptobriefing.com/us-commits-5b-to-ai-research-under-genesis-mission-boosts-tech-sector-prospects/",
+    "industry": "AI & Technology",
+    "summary": "US commits $5B to AI research under the Genesis Mission. NVIDIA as largest company by market cap on July 31, 2026 at 86% YES.\nThe post US commits $5B to AI research under Genesis Mission, boosts tech sector prospects appeared first on Crypto Briefing.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Active 2-lb. Distiller Descaler Citric Acid Cleaner for $13 + free shipping w/ Prime",
+    "url": "https://www.dealnews.com/Active-2-lb-Distiller-Descaler-Citric-Acid-Cleaner-for-13-free-shipping-w-Prime/21920673.html",
+    "industry": "AI & Technology",
+    "summary": "Amazon offers the Active 2-lb. Distiller Descaler Citric Acid Cleaner for $13.47 after promo code \"K9BRSTAP\". That's a savings of $11. Shipping is free for Prime members.\u00a0 Buy Now at Amazon\r\n Features\r\n <ul> <li>2-lb. (32-oz.) bulk citric acid powder, up to 2\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
