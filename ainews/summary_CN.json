@@ -16,14 +16,6 @@
     "impact_score": 5
   },
   {
-    "title": "代理编排：企业人工智能组织面临的是部署问题，而不是平台问题——而且大多数都在调用聊天机器人代理",
-    "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-    "industry": "AI & Technology",
-    "summary": "<p>在 101 家企业中，代理编排正在整合到模型提供商平台上（Anthropic 的 Claude 遥遥领先），该平台根据底层模型的重要性进行选择，并根据可靠的多步骤执行进行判断。但野心远远超出了现实：......",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
     "title": "人工智能上下文差距：企业人工智能组织存在信任问题，而不是检索问题——而且大多数仍在构建修复程序",
     "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
     "industry": "AI & Technology",
@@ -60,6 +52,14 @@
     "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
     "industry": "AI & Technology",
     "summary": "Anthropic 和 OpenAI 在 2026 年大举收购，为周末谣言奠定了基础。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "谷歌通过蓬勃发展的云业务证明其大规模人工智能支出的合理性",
+    "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+    "industry": "AI & Technology",
+    "summary": "谷歌的云业务正在蓬勃发展，采用其人工智能和人工智能基础设施服务的公司帮助这家科技巨头公布了创纪录的利润。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -120,10 +120,18 @@
     "impact_score": 5
   },
   {
-    "title": "预测：这只人工智能 (AI) 芯片股是 265 亿美元 SK 海力士 IPO 的最大赢家（提示：不是 Nvidia）",
-    "url": "https://biztoc.com/x/f7d30a2d4fc9e343",
+    "title": "在经历了令人震惊的季度后，IBM 坚称人工智能不会杀死大型机",
+    "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
     "industry": "AI & Technology",
-    "summary": "预测：这只人工智能 (AI) 芯片股是 265 亿美元 SK 海力士 IPO 的最大赢家（提示：不是 Nvidia）\nSK 海力士（纳斯达克股票代码：SKHY）是全球最大的存储半导体生产商之一。公司拥有市场领先地位...",
+    "summary": "上周 IBM 因大型机销售不佳的警告而股价暴跌后，首席执行官解释说人工智能暂时破坏了公司的硬件预算。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "白宫声称登月计划提炼了人类寓言后，财政部威胁实施制裁",
+    "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+    "industry": "AI & Technology",
+    "summary": "这一事件还加剧了华盛顿有关中国开放模式涌入的更广泛辩论。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -148,14 +156,6 @@
     "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
     "industry": "AI & Technology",
     "summary": "随着中国人工智能模型的能力和在美国公司中越来越受欢迎，关于应该采取什么措施的争论已经达到白热化。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Substack 的新工具告诉您谁在使用 AI 撰写时事通讯",
-    "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
-    "industry": "AI & Technology",
-    "summary": "Substack 为读者提供了一种方法来估计一份时事通讯中有多少内容是由人工智能撰写的，这标志着人工智能辅助内容向透明度的更广泛转变。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }

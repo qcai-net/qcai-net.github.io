@@ -16,14 +16,6 @@
     "impact_score": 5
   },
   {
-    "title": "Orquestación agente: las organizaciones empresariales de IA tienen un problema de implementación, no un problema de plataforma, y ​​la mayoría llama a agentes de chatbots.",
-    "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-    "industry": "AI & Technology",
-    "summary": "<p>En 101 empresas, la orquestación de agentes se está consolidando en plataformas de proveedores de modelos (Claude, de Anthropic, lidera por un amplio margen), elegidas por la gravedad del modelo subyacente y juzgadas en función de una ejecución confiable de varios pasos. Pero la ambición va muy por delante de la realidad:...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
     "title": "La brecha del contexto de la IA: las organizaciones empresariales de IA tienen un problema de confianza, no un problema de recuperación, y la mayoría todavía está buscando una solución",
     "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
     "industry": "AI & Technology",
@@ -60,6 +52,14 @@
     "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
     "industry": "AI & Technology",
     "summary": "Las agresivas adquisiciones de Anthropic y OpenAI en 2026 prepararon el escenario para un rumor de fin de semana.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Google justifica su enorme gasto en IA con un negocio en la nube en auge",
+    "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+    "industry": "AI & Technology",
+    "summary": "El negocio de la nube de Google está prosperando, ya que las empresas que adoptan su inteligencia artificial y sus servicios de infraestructura de inteligencia artificial ayudan al gigante tecnológico a reportar ganancias récord.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -120,10 +120,18 @@
     "impact_score": 5
   },
   {
-    "title": "Predicción: este stock de chips de inteligencia artificial (IA) es el mayor ganador de la oferta pública inicial de SK Hynix de 26.500 millones de dólares (pista: no es Nvidia)",
-    "url": "https://biztoc.com/x/f7d30a2d4fc9e343",
+    "title": "Después de un trimestre impactante, IBM insiste en que la IA no está acabando con el mainframe",
+    "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
     "industry": "AI & Technology",
-    "summary": "Predicción: este stock de chips de inteligencia artificial (IA) es el mayor ganador de la oferta pública inicial de SK Hynix de 26.500 millones de dólares (pista: no es Nvidia)\nSK Hynix (NASDAQ: SKHY) se encuentra entre los mayores productores de semiconductores de memoria del mundo. La empresa tiene liderazgo en el mercado...",
+    "summary": "Después de que las acciones de IBM se desplomaran la semana pasada por las advertencias de bajas ventas de mainframe, el CEO explicó que la IA arruinó temporalmente el presupuesto de hardware corporativo.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "El Tesoro amenaza con sanciones después de que la Casa Blanca afirmara que Moonshot destiló la fábula de Anthropic",
+    "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+    "industry": "AI & Technology",
+    "summary": "El episodio también ha intensificado un debate más amplio en Washington sobre la afluencia de modelos abiertos chinos.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -148,14 +156,6 @@
     "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
     "industry": "AI & Technology",
     "summary": "A medida que los modelos chinos de IA crecen en capacidad y popularidad entre las empresas estadounidenses, la discusión sobre qué se debe hacer al respecto ha alcanzado un punto álgido.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "La nueva herramienta de Substack le dice quién ha estado escribiendo sus boletines con IA",
-    "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
-    "industry": "AI & Technology",
-    "summary": "Substack ofrece a los lectores una forma de estimar qué parte de un boletín fue escrito por IA, lo que indica un cambio más amplio hacia la transparencia en torno al contenido asistido por IA.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
