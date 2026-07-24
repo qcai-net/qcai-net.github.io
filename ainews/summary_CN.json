@@ -1,9 +1,33 @@
 [
   {
-    "title": "Yope 筹集了 1230 万美元，用于建立一个没有算法或广告的私人社交网络",
-    "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
+    "title": "Cognition为何收购Poke：AI个性正在成为竞争优势",
+    "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
     "industry": "AI & Technology",
-    "summary": "Yope 是一款快速发展的社交应用程序，专注于朋友和家人的私人团体，已筹集 1230 万美元的种子资金。这家初创公司没有追逐创作者和算法提要，而是押注社交网络的未来在于小型私人社区，这些社区由......",
+    "summary": "人工智能编码初创公司 Cognition 收购了 Poke，你可以像朋友一样发短信的人工智能助手，这笔交易对这家初创公司的估值为九位数。此次收购将 Poke 的对话风格和交互模型带给 Cognition 的编码代理 Devin，反映出人们日益增长的信念……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "随着美国权衡对中国人工智能的反应，业界敦促不要广泛的开放权重限制",
+    "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+    "industry": "AI & Technology",
+    "summary": "在华盛顿就如何应对中国人工智能和所谓的模型蒸馏进行辩论之际，包括英伟达和米斯特拉尔在内的人工智能公司敦促政策制定者避免对开放权重人工智能模型进行广泛限制。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "“人工智能共产主义”、流氓模型以及 Kimi K3 为何令华尔街感到恐慌",
+    "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
+    "industry": "AI & Technology",
+    "summary": "中国人工智能实验室 Moonshot 的开放模型 Kimi 本周迅速走红，其原因与模型本身关系不大，更多的是与美国人工智能行业对此的反应有关。与此同时，一个未发布的 OpenAI 模型走出了其测试环境并导致……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 的新语音模式已登陆 ChatGPT 桌面应用程序",
+    "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+    "industry": "AI & Technology",
+    "summary": "桌面版 ChatGPT Voice 可以与 ChatGPT Work 和 Codex 配合使用来完成任务和控制代理。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -56,18 +80,10 @@
     "impact_score": 5
   },
   {
-    "title": "谷歌通过蓬勃发展的云业务证明其大规模人工智能支出的合理性",
-    "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+    "title": "Bluesky 的 AI 助手 Attie 扩展为开放的社会研究工具",
+    "url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
     "industry": "AI & Technology",
-    "summary": "谷歌的云业务正在蓬勃发展，采用其人工智能和人工智能基础设施服务的公司帮助这家科技巨头公布了创纪录的利润。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI 的人为错误如何导致人工智能驱动的 Hugging Face 黑客攻击",
-    "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
-    "industry": "AI & Technology",
-    "summary": "OpenAI 在设置所谓的“高度隔离”测试环境和沙箱时犯了一个错误。网络安全专家表示，正是这种人为错误使得人工智能对 Hugging Face 的攻击成为可能。",
+    "summary": "用户现在可以在 Bluesky 和 ​​AT 协议上的其他应用程序上向 Attie 询问有关新闻、趋势和对话的问题。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -88,74 +104,58 @@
     "impact_score": 5
   },
   {
-    "title": "白宫声称登月计划提炼了人类寓言后，财政部威胁实施制裁",
-    "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+    "title": "OpenAI 的 Hugging Face 黑客攻击在国会引发“AI Kill Switch”法案",
+    "url": "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html",
     "industry": "AI & Technology",
-    "summary": "这一事件还加剧了华盛顿有关中国开放模式涌入的更广泛辩论。",
+    "summary": "OpenAI 本周披露，其部分人工智能模型出现失控，并被黑客入侵开源开发者平台 Hugging Face。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Travis Kalanick 的机器人公司筹集了 $1.7B，由 a16z 领投",
-    "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+    "title": "两党法案寻求高级人工智能的强制终止开关",
+    "url": "https://biztoc.com/x/e524fbe8fdeffc13",
     "industry": "AI & Technology",
-    "summary": "Uber 还投资了 Travis Kalanick 的公司 Atoms，该公司曾模糊地宣称要利用工业人工智能来实现世界现代化。",
+    "summary": "由于最近涉及 OpenAI 模型的安全事件引发了担忧，美国立法者的一个两党小组提出了立法，要求先进的人工智能系统包括人为控制的“终止开关”。 \n根据…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Monday.com 裁员数百人专注于人工智能",
-    "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+    "title": "人工智能公司正试图逃离屏幕。苹果对 OpenAI 的诉讼可见其难度有多大",
+    "url": "https://theconversation.com/ai-companies-are-trying-to-escape-the-screen-apples-lawsuit-against-openai-shows-how-hard-it-will-be-287674",
     "industry": "AI & Technology",
-    "summary": "该公司表示，将裁员 20%，即约 630 名员工，以“支持更精简、更专注的运营模式”，同时专注于人工智能工作平台。",
+    "summary": "一个发光的小键盘可能预示着我们与人工智能交互方式将发生更大的转变。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "美国开源人工智能实验室 Arcee 表示，中国模式本质上并不危险",
-    "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+    "title": "工党警告称，地区资金困境将推动一国党的支持",
+    "url": "https://www.abc.net.au/news/2026-07-24/labor-push-to-lift-council-funding-amid-voter-frustration/106951850",
     "industry": "AI & Technology",
-    "summary": "随着中国人工智能模型的能力和在美国公司中越来越受欢迎，关于应该采取什么措施的争论已经达到白热化。",
+    "summary": "工党第 50 届全国会议随着一国党的崛起、地方议会预算和地区选民的挫败感而拉开帷幕。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "谷歌发布Gemini 3.5 Flash Cyber​​ AI，专门用于漏洞挖掘的AI模型",
-    "url": "https://securityaffairs.com/195869/security/google-released-gemini-3-5-flash-cyber-ai-a-specialized-ai-model-for-vulnerability-hunting.html",
+    "title": "微软财报预览：为飙升的人工智能支出做好准备，让微软股票下跌",
+    "url": "https://biztoc.com/x/63d839e9ec3cc553",
     "industry": "AI & Technology",
-    "summary": "谷歌 DeepMind 推出了 Gemini 3.5 Flash Cyber​​，这是一种用于漏洞发现和修补的人工智能模型，仅供政府和值得信赖的合作伙伴使用。谷歌 DeepMind 周二宣布推出 Gemini 3.5 Flash Cyber​​，这是一个基于安全的人工智能模型……",
+    "summary": "毫无疑问，人工智能支出——顶级公司为服务器、连接、数据中心和冷却系统投入的数千亿美元——让投资者感到紧张。最近的例子是 Alphabet（GO...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "杰夫·贝佐斯正在推动人工智能优先的 Prime Video 重新设计，工作室最终可能会为此付出代价",
-    "url": "https://thenextweb.com/news/bezos-prime-video-ai-redesign-lighthouse/",
+    "title": "Meta 的 100 亿美元人类交易可能会改变人工智能的故事。如何在这里玩 META 股票",
+    "url": "https://biztoc.com/x/91ca7288cf220004",
     "industry": "AI & Technology",
-    "summary": "杰夫·贝佐斯找到了一个宣传亚马逊人工智能的新地方，而它恰好是你希望看电影的屏幕。亚马逊执行董事长正在推动 Prime Video 的重新设计，内部称为 Lighthouse，旨在……",
+    "summary": "多年来，该公司已在人工智能（AI）领域投入了数百亿美元。投资者基本上接受了这些投资，因为广告利润仍然异常强劲，但有一个问题一直困扰着该股：我什么时候......",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "OpenAI 表示，流氓人工智能模型摆脱了人类的控制。有些人认为这是一次“警告”",
-    "url": "https://abcnews.com/Technology/wireStory/openai-rogue-ai-models-broke-free-human-control-135011334",
+    "title": "乔纳森·布罗克班克：抛开金刚、外星人和恐龙，一个新的怪物已经挣脱束缚......它正在为我们所有人而来",
+    "url": "https://www.dailymail.com/news/article-16000755/JONATHAN-BROCKLEBANK-King-Kong-aliens-dinosaurs-new-monster-broken-loose.html",
     "industry": "AI & Technology",
-    "summary": "这是一种曾经只在科幻小说中出现过的发展：一个经过训练来探测数字漏洞的人工智能系统，摆脱了人类的控制，自行攻击另一家公司",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "比特币面临前所未有的量子计算威胁，多头无法忽视",
-    "url": "https://cryptobriefing.com/bitcoin-quantum-computing-threat-bulls/",
-    "industry": "AI & Technology",
-    "summary": "比特币面临量子计算威胁，可能会暴露其 35% 的供应量，谷歌预计最早将于 2029 年面临加密风险。\n比特币面临空前的量子计算威胁，多头无法忽视这一威胁，这一消息首先出现在《Crypto Briefing》上。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "ZenaTech 的无人机即服务完成了对一家在四个州获得许可的俄亥俄州土地测量公司的第 26 次收购",
-    "url": "https://financialpost.com/globe-newswire/zenatechs-drone-as-a-service-closes-26th-acquisition-of-an-ohio-based-land-surveying-company-licensed-in-four-states",
-    "industry": "AI & Technology",
-    "summary": "第一个地点位于美国第 12 个州俄亥俄州，将 DaaS 扩展到更多建筑、基础设施、能源和公共工程客户机会不列颠哥伦比亚省温哥华，2026 年 7 月 23 日（环球通讯社）— ZenaTech, Inc.（纳斯达克股票代码：ZENA）（FSE：49Q）...",
+    "summary": "如果说 1933 年的电影《金刚》、1979 年的电影《异形》和 1993 年的电影《侏罗纪公园》有什么寓意的话，那就是：别打扰。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }

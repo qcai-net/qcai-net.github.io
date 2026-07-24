@@ -1,9 +1,33 @@
 [
   {
-    "title": "Yope recauda 12,3 millones de dólares para construir una red social privada sin algoritmos ni anuncios",
-    "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
+    "title": "Por qué Cognition compró Poke: la personalidad de la IA se está convirtiendo en una ventaja competitiva",
+    "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
     "industry": "AI & Technology",
-    "summary": "Yope, una aplicación social de rápido crecimiento centrada en grupos privados de amigos y familiares, ha recaudado 12,3 millones de dólares en financiación inicial. En lugar de perseguir creadores y feeds algorítmicos, la startup apuesta a que el futuro de las redes sociales está en comunidades pequeñas y privadas impulsadas por...",
+    "summary": "La startup de codificación de IA Cognition adquirió Poke, el asistente de IA al que envías mensajes de texto como un amigo, en un acuerdo que valora la startup en nueve cifras. La adquisición lleva el estilo conversacional y el modelo de interacción de Poke al agente de codificación de Cognition, Devin, lo que refleja una creciente creencia en...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Mientras EE.UU. sopesa la respuesta a la IA china, la industria insta a no imponer restricciones amplias al peso abierto",
+    "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+    "industry": "AI & Technology",
+    "summary": "Las empresas de IA, incluidas Nvidia y Mistral, instan a los formuladores de políticas a evitar restricciones amplias a los modelos de IA de peso abierto mientras Washington debate las respuestas a la IA china y la supuesta destilación de modelos.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "El “comunismo de la IA”, los modelos deshonestos y el motivo por el que Kimi K3 asustó a Wall Street",
+    "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
+    "industry": "AI & Technology",
+    "summary": "El modelo abierto Kimi del laboratorio chino de IA Moonshot se volvió viral esta semana por razones que tenían menos que ver con el modelo en sí y más con cómo reaccionó la industria de la IA de Estados Unidos. Mientras tanto, un modelo OpenAI inédito salió de su entorno de prueba y en...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "El nuevo modo de voz de OpenAI llega a la aplicación de escritorio ChatGPT",
+    "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+    "industry": "AI & Technology",
+    "summary": "ChatGPT Voice en el escritorio puede funcionar tanto con ChatGPT Work como con Codex para completar tareas y controlar a los agentes.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -56,18 +80,10 @@
     "impact_score": 5
   },
   {
-    "title": "Google justifica su enorme gasto en IA con un negocio en la nube en auge",
-    "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+    "title": "Attie, asistente de inteligencia artificial de Bluesky, se expande hasta convertirse en una herramienta abierta de investigación social",
+    "url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
     "industry": "AI & Technology",
-    "summary": "El negocio de la nube de Google está prosperando, ya que las empresas que adoptan su inteligencia artificial y sus servicios de infraestructura de inteligencia artificial ayudan al gigante tecnológico a reportar ganancias récord.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Cómo el error humano de OpenAI condujo al hackeo impulsado por IA en Hugging Face",
-    "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
-    "industry": "AI & Technology",
-    "summary": "OpenAI cometió un error al configurar lo que llamó un entorno de prueba y una zona de pruebas \"altamente aislados\". Según los expertos en ciberseguridad, ese error humano es lo que hizo posible el ataque impulsado por IA a Hugging Face.",
+    "summary": "Los usuarios ahora pueden hacerle preguntas a Attie sobre noticias, tendencias y conversaciones en Bluesky y otras aplicaciones del Protocolo AT.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -88,74 +104,58 @@
     "impact_score": 5
   },
   {
-    "title": "El Tesoro amenaza con sanciones después de que la Casa Blanca afirmara que Moonshot destiló la fábula de Anthropic",
-    "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+    "title": "El hackeo de Hugging Face de OpenAI desencadena el proyecto de ley 'AI Kill Switch' en el Congreso",
+    "url": "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html",
     "industry": "AI & Technology",
-    "summary": "El episodio también ha intensificado un debate más amplio en Washington sobre la afluencia de modelos abiertos chinos.",
+    "summary": "OpenAI reveló esta semana que algunos de sus modelos de IA se volvieron deshonestos y piratearon la plataforma de desarrollo de código abierto Hugging Face.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "La empresa de robótica de Travis Kalanick recauda 1.700 millones de dólares, liderada por a16z",
-    "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+    "title": "Proyecto de ley bipartidista busca interruptores de apagado obligatorios para la IA avanzada",
+    "url": "https://biztoc.com/x/e524fbe8fdeffc13",
     "industry": "AI & Technology",
-    "summary": "Uber también está invirtiendo en Atoms, la empresa de Travis Kalanick, que ha hecho afirmaciones vagas sobre el uso de la IA industrial para modernizar el mundo.",
+    "summary": "Un grupo bipartidista de legisladores estadounidenses ha presentado una legislación que requeriría que los sistemas avanzados de inteligencia artificial incluyan \"interruptores de apagado\" controlados por humanos, tras las preocupaciones planteadas por un reciente incidente de seguridad que involucraba modelos OpenAI. \nSegún…",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Monday.com despide a cientos para centrarse en la IA",
-    "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+    "title": "Las empresas de inteligencia artificial están intentando escapar de la pantalla. La demanda de Apple contra OpenAI muestra lo difícil que será",
+    "url": "https://theconversation.com/ai-companies-are-trying-to-escape-the-screen-apples-lawsuit-against-openai-shows-how-hard-it-will-be-287674",
     "industry": "AI & Technology",
-    "summary": "La compañía dijo que está reduciendo su plantilla en un 20%, o alrededor de 630 empleados, para \"respaldar un modelo operativo más ágil y centrado\", mientras se centra en su plataforma de trabajo de IA.",
+    "summary": "Un pequeño teclado brillante puede ser un presagio de un cambio mucho mayor en la forma en que interactuamos con la IA.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Arcee, un laboratorio de inteligencia artificial de código abierto de EE. UU., dice que los modelos chinos no son intrínsecamente peligrosos",
-    "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+    "title": "Los laboristas advirtieron que los problemas de financiación regional impulsarán el apoyo a One Nation",
+    "url": "https://www.abc.net.au/news/2026-07-24/labor-push-to-lift-council-funding-amid-voter-frustration/106951850",
     "industry": "AI & Technology",
-    "summary": "A medida que los modelos chinos de IA crecen en capacidad y popularidad entre las empresas estadounidenses, la discusión sobre qué se debe hacer al respecto ha alcanzado un punto álgido.",
+    "summary": "La 50ª Conferencia Nacional del ALP comenzó con el surgimiento de One Nation, los presupuestos de los consejos locales y las frustraciones de los votantes regionales liderando las negociaciones.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Google lanzó Gemini 3.5 Flash Cyber ​​AI, un modelo de IA especializado para la búsqueda de vulnerabilidades",
-    "url": "https://securityaffairs.com/195869/security/google-released-gemini-3-5-flash-cyber-ai-a-specialized-ai-model-for-vulnerability-hunting.html",
+    "title": "Vista previa de las ganancias de Microsoft: prepárese para el aumento vertiginoso del gasto en IA para hundir las acciones de MSFT",
+    "url": "https://biztoc.com/x/63d839e9ec3cc553",
     "industry": "AI & Technology",
-    "summary": "Google DeepMind presentó Gemini 3.5 Flash Cyber, un modelo de inteligencia artificial para el descubrimiento y parcheo de vulnerabilidades, disponible solo para gobiernos y socios confiables. Google DeepMind anunció Gemini 3.5 Flash Cyber ​​el martes, un modelo de inteligencia artificial centrado en la seguridad construido sobre…",
+    "summary": "No hay duda de que el gasto en inteligencia artificial (los cientos de miles de millones de dólares que las principales empresas están repartiendo en servidores, conectividad, centros de datos y sistemas de refrigeración) está poniendo nerviosos a los inversores. El ejemplo más reciente fue Alphabet (GO…",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Jeff Bezos está impulsando un rediseño de Prime Video basado en la IA y los estudios pueden terminar pagando por ello",
-    "url": "https://thenextweb.com/news/bezos-prime-video-ai-redesign-lighthouse/",
+    "title": "El acuerdo antrópico de Meta por valor de 10 mil millones de dólares podría cambiar la historia de la IA. Cómo jugar acciones de META aquí",
+    "url": "https://biztoc.com/x/91ca7288cf220004",
     "industry": "AI & Technology",
-    "summary": "Jeff Bezos ha encontrado un nuevo lugar para publicitar la inteligencia artificial de Amazon, y resulta que es la pantalla donde esperabas ver una película. El presidente ejecutivo de Amazon está impulsando un rediseño de Prime Video, conocido internamente como Lighthouse, destinado a...",
+    "summary": "ha pasado años invirtiendo decenas de miles de millones de dólares en inteligencia artificial (IA). Los inversores han aceptado en gran medida esas inversiones porque los beneficios publicitarios se han mantenido excepcionalmente fuertes, pero una pregunta persiste sobre las acciones: ¿Cuándo...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "OpenAI dice que los modelos de inteligencia artificial no autorizados se liberaron del control humano. Algunos lo ven como un 'disparo de advertencia'",
-    "url": "https://abcnews.com/Technology/wireStory/openai-rogue-ai-models-broke-free-human-control-135011334",
+    "title": "JONATHAN BROCKLEBANK: Deja atrás King Kong, extraterrestres y dinosaurios, un nuevo monstruo se ha desatado... y viene por TODOS nosotros.",
+    "url": "https://www.dailymail.com/news/article-16000755/JONATHAN-BROCKLEBANK-King-Kong-aliens-dinosaurs-new-monster-broken-loose.html",
     "industry": "AI & Technology",
-    "summary": "Es el tipo de desarrollo que antes sólo se veía en la ciencia ficción: un sistema de inteligencia artificial, entrenado para investigar vulnerabilidades digitales, se libera del control humano y actúa por sí solo para hackear a otra empresa.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Bitcoin enfrenta una amenaza de computación cuántica sin precedentes que los alcistas no pueden ignorar",
-    "url": "https://cryptobriefing.com/bitcoin-quantum-computing-threat-bulls/",
-    "industry": "AI & Technology",
-    "summary": "Bitcoin enfrenta una amenaza de computación cuántica que podría exponer el 35% de su suministro, y Google proyecta riesgos de cifrado ya en 2029.\nLa publicación Bitcoin enfrenta una amenaza de computación cuántica sin precedentes que los alcistas no pueden ignorar apareció por primera vez en Crypto Briefing.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "El dron como servicio de ZenaTech cierra la adquisición número 26 de una empresa de topografía con sede en Ohio y licencia en cuatro estados",
-    "url": "https://financialpost.com/globe-newswire/zenatechs-drone-as-a-service-closes-26th-acquisition-of-an-ohio-based-land-surveying-company-licensed-in-four-states",
-    "industry": "AI & Technology",
-    "summary": "La primera ubicación con sede en Ohio y el duodécimo estado de EE. UU. amplía DaaS a oportunidades adicionales para clientes de construcción, infraestructura, energía y obras públicas VANCOUVER, Columbia Británica, 23 de julio de 2026 (GLOBE NEWSWIRE) - ZenaTech, Inc. (Nasdaq: ZENA) (FSE: 49Q)…",
+    "summary": "Si había una moraleja que vinculaba la película King Kong de 1933, la película Alien de 1979 y la película Jurassic Park de 1993, era esta: no te preocupes.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
