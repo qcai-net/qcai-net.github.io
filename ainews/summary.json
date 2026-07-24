@@ -8,6 +8,22 @@
     "impact_score": 5
   },
   {
+    "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+    "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+    "industry": "AI & Technology",
+    "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI\u2019s and Anthropic\u2019s guardrails affect their work.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+    "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+    "industry": "AI & Technology",
+    "summary": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
     "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
     "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
     "industry": "AI & Technology",
@@ -52,22 +68,6 @@
     "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
     "industry": "AI & Technology",
     "summary": "OpenAI made a mistake setting up what it called a \u201chighly isolated\u201d testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Hugging Face possible.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI\u2019s AI spending spree has ballooned to $750B",
-    "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
-    "industry": "AI & Technology",
-    "summary": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI Plans $30 Billion AI Data Center With 3.2 Gigawatts of Power",
-    "url": "https://biztoc.com/x/fa03f2b7e98ce0bb",
-    "industry": "AI & Technology",
-    "summary": "This article first appeared on GuruFocus.\nOpenAI, the startup behind ChatGPT, plans to spend at least $20 billion on a massive new artificial intelligence data center near Savannah, Georgia, as demand for AI software continues to increase. The company has sec\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -120,42 +120,42 @@
     "impact_score": 5
   },
   {
-    "title": "Substack\u2019s new tool tells you who\u2019s been writing their newsletters with AI",
-    "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+    "title": "Google Released Gemini 3.5 Flash Cyber AI, a Specialized AI Model for Vulnerability Hunting",
+    "url": "https://securityaffairs.com/195869/security/google-released-gemini-3-5-flash-cyber-ai-a-specialized-ai-model-for-vulnerability-hunting.html",
     "industry": "AI & Technology",
-    "summary": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
+    "summary": "Google DeepMind unveiled Gemini 3.5 Flash Cyber, an AI model for vulnerability discovery and patching, available only to governments and trusted partners. Google DeepMind announced Gemini 3.5 Flash Cyber on Tuesday, a security-focused AI model built on top of\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Aalo Atomics raises funding amid AI data center power demand",
-    "url": "https://cryptobriefing.com/aalo-atomics-funding-ai-power-demand/",
+    "title": "Jeff Bezos is pushing an AI-first Prime Video redesign, and studios may end up paying for it",
+    "url": "https://thenextweb.com/news/bezos-prime-video-ai-redesign-lighthouse/",
     "industry": "AI & Technology",
-    "summary": "Aalo Atomics raises $100M to develop nuclear reactors for AI data centers, meeting rising power demands with innovative energy solutions.\nThe post Aalo Atomics raises funding amid AI data center power demand appeared first on Crypto Briefing.",
+    "summary": "Jeff Bezos has found a new place to advertise Amazon\u2019s artificial intelligence, and it happens to be the screen where you were hoping to watch a film. Amazon\u2019s executive chairman is pushing a redesign of Prime Video, known internally as Lighthouse, meant to t\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "What to know about the AI hacking blamed on rogue OpenAI models",
-    "url": "https://apnews.com/article/openai-rogue-ai-hack-hugging-face-67b151f1ca59851a9234bee110699f05",
+    "title": "OpenAI says rogue AI models broke free from human control. Some see it as a 'warning shot'",
+    "url": "https://abcnews.com/Technology/wireStory/openai-rogue-ai-models-broke-free-human-control-135011334",
     "industry": "AI & Technology",
-    "summary": "ChatGPT maker OpenAI says it is still investigating the \u201cunprecedented cyber incident\u201d that led its artificial intelligence systems to break out of a testing environment and hack into another AI company. OpenAI said Tuesday that two of its most capable AI mod\u2026",
+    "summary": "It is the kind of development once seen only in science fiction: An artificial intelligence system, trained to probe for digital vulnerabilities, breaks free of human control and acts on its own to hack another company",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "US commits $5B to AI research under Genesis Mission, boosts tech sector prospects",
-    "url": "https://cryptobriefing.com/us-commits-5b-to-ai-research-under-genesis-mission-boosts-tech-sector-prospects/",
+    "title": "Bitcoin faces an unprecedented quantum computing threat that bulls cannot ignore",
+    "url": "https://cryptobriefing.com/bitcoin-quantum-computing-threat-bulls/",
     "industry": "AI & Technology",
-    "summary": "US commits $5B to AI research under the Genesis Mission. NVIDIA as largest company by market cap on July 31, 2026 at 86% YES.\nThe post US commits $5B to AI research under Genesis Mission, boosts tech sector prospects appeared first on Crypto Briefing.",
+    "summary": "Bitcoin faces a quantum computing threat that could expose 35% of its supply, with Google projecting encryption risks as early as 2029.\nThe post Bitcoin faces an unprecedented quantum computing threat that bulls cannot ignore appeared first on Crypto Briefing.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Active 2-lb. Distiller Descaler Citric Acid Cleaner for $13 + free shipping w/ Prime",
-    "url": "https://www.dealnews.com/Active-2-lb-Distiller-Descaler-Citric-Acid-Cleaner-for-13-free-shipping-w-Prime/21920673.html",
+    "title": "ZenaTech\u2019s Drone as a Service Closes 26th Acquisition of an Ohio-based Land Surveying Company Licensed in Four States",
+    "url": "https://financialpost.com/globe-newswire/zenatechs-drone-as-a-service-closes-26th-acquisition-of-an-ohio-based-land-surveying-company-licensed-in-four-states",
     "industry": "AI & Technology",
-    "summary": "Amazon offers the Active 2-lb. Distiller Descaler Citric Acid Cleaner for $13.47 after promo code \"K9BRSTAP\". That's a savings of $11. Shipping is free for Prime members.\u00a0 Buy Now at Amazon\r\n Features\r\n <ul> <li>2-lb. (32-oz.) bulk citric acid powder, up to 2\u2026",
+    "summary": "First location based in Ohio and the 12th U.S. state expands DaaS to additional construction, infrastructure, energy and public works customer opportunities VANCOUVER, British Columbia, July 23, 2026 (GLOBE NEWSWIRE) \u2014 ZenaTech, Inc. (Nasdaq: ZENA) (FSE: 49Q)\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }

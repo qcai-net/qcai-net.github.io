@@ -8,6 +8,22 @@
     "impact_score": 5
   },
   {
+    "title": "Cómo las barreras de seguridad de la IA están impidiendo el trabajo de los investigadores de ciberseguridad ofensiva",
+    "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+    "industry": "AI & Technology",
+    "summary": "Hablamos con varios investigadores de ciberseguridad, que buscan vulnerabilidades desconocidas y desarrollan herramientas para explotarlas, sobre cómo las barreras de seguridad de OpenAI y Anthropic afectan su trabajo.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "AMD se enfrenta a Nvidia con su sistema Helios AI a escala de rack",
+    "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+    "industry": "AI & Technology",
+    "summary": "AMD está desafiando a su rival fabricante de chips con un nuevo sistema a escala de rack que comenzará a enviarse a los clientes a finales de este año.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
     "title": "AegisAI, fundada por ex ejecutivos de seguridad de Google, consigue 36 millones de dólares para detener el phishing impulsado por IA",
     "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
     "industry": "AI & Technology",
@@ -52,22 +68,6 @@
     "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
     "industry": "AI & Technology",
     "summary": "OpenAI cometió un error al configurar lo que llamó un entorno de prueba y una zona de pruebas \"altamente aislados\". Según los expertos en ciberseguridad, ese error humano es lo que hizo posible el ataque impulsado por IA a Hugging Face.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "El gasto excesivo en IA de OpenAI se ha disparado a 750 mil millones de dólares",
-    "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
-    "industry": "AI & Technology",
-    "summary": "OpenAI gastará el equivalente al PIB de Suecia en infraestructura hasta 2030.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI planea un centro de datos de IA de 30 mil millones de dólares con 3,2 gigavatios de potencia",
-    "url": "https://biztoc.com/x/fa03f2b7e98ce0bb",
-    "industry": "AI & Technology",
-    "summary": "Este artículo apareció por primera vez en GuruFocus.\nOpenAI, la startup detrás de ChatGPT, planea gastar al menos 20 mil millones de dólares en un nuevo y enorme centro de datos de inteligencia artificial cerca de Savannah, Georgia, a medida que la demanda de software de inteligencia artificial continúa aumentando. La empresa tiene sec…",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -120,42 +120,42 @@
     "impact_score": 5
   },
   {
-    "title": "La nueva herramienta de Substack le dice quién ha estado escribiendo sus boletines con IA",
-    "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+    "title": "Google lanzó Gemini 3.5 Flash Cyber ​​AI, un modelo de IA especializado para la búsqueda de vulnerabilidades",
+    "url": "https://securityaffairs.com/195869/security/google-released-gemini-3-5-flash-cyber-ai-a-specialized-ai-model-for-vulnerability-hunting.html",
     "industry": "AI & Technology",
-    "summary": "Substack ofrece a los lectores una forma de estimar qué parte de un boletín fue escrito por IA, lo que indica un cambio más amplio hacia la transparencia en torno al contenido asistido por IA.",
+    "summary": "Google DeepMind presentó Gemini 3.5 Flash Cyber, un modelo de inteligencia artificial para el descubrimiento y parcheo de vulnerabilidades, disponible solo para gobiernos y socios confiables. Google DeepMind anunció Gemini 3.5 Flash Cyber ​​el martes, un modelo de inteligencia artificial centrado en la seguridad construido sobre…",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Aalo Atomics recauda financiación en medio de la demanda de energía del centro de datos de IA",
-    "url": "https://cryptobriefing.com/aalo-atomics-funding-ai-power-demand/",
+    "title": "Jeff Bezos está impulsando un rediseño de Prime Video basado en la IA y los estudios pueden terminar pagando por ello",
+    "url": "https://thenextweb.com/news/bezos-prime-video-ai-redesign-lighthouse/",
     "industry": "AI & Technology",
-    "summary": "Aalo Atomics recauda 100 millones de dólares para desarrollar reactores nucleares para centros de datos de IA, satisfaciendo la creciente demanda de energía con soluciones energéticas innovadoras.\nLa publicación Aalo Atomics recauda fondos en medio de la demanda de energía del centro de datos de IA apareció por primera vez en Crypto Briefing.",
+    "summary": "Jeff Bezos ha encontrado un nuevo lugar para publicitar la inteligencia artificial de Amazon, y resulta que es la pantalla donde esperabas ver una película. El presidente ejecutivo de Amazon está impulsando un rediseño de Prime Video, conocido internamente como Lighthouse, destinado a...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Lo que hay que saber sobre el hackeo de IA atribuido a modelos maliciosos de OpenAI",
-    "url": "https://apnews.com/article/openai-rogue-ai-hack-hugging-face-67b151f1ca59851a9234bee110699f05",
+    "title": "OpenAI dice que los modelos de inteligencia artificial no autorizados se liberaron del control humano. Algunos lo ven como un 'disparo de advertencia'",
+    "url": "https://abcnews.com/Technology/wireStory/openai-rogue-ai-models-broke-free-human-control-135011334",
     "industry": "AI & Technology",
-    "summary": "OpenAI, fabricante de ChatGPT, dice que todavía está investigando el “incidente cibernético sin precedentes” que llevó a sus sistemas de inteligencia artificial a salir de un entorno de prueba y piratear otra empresa de inteligencia artificial. OpenAI dijo el martes que dos de sus mods de IA más capaces...",
+    "summary": "Es el tipo de desarrollo que antes sólo se veía en la ciencia ficción: un sistema de inteligencia artificial, entrenado para investigar vulnerabilidades digitales, se libera del control humano y actúa por sí solo para hackear a otra empresa.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Estados Unidos compromete 5 mil millones de dólares para la investigación de IA en el marco de la Misión Génesis, lo que impulsa las perspectivas del sector tecnológico",
-    "url": "https://cryptobriefing.com/us-commits-5b-to-ai-research-under-genesis-mission-boosts-tech-sector-prospects/",
+    "title": "Bitcoin enfrenta una amenaza de computación cuántica sin precedentes que los alcistas no pueden ignorar",
+    "url": "https://cryptobriefing.com/bitcoin-quantum-computing-threat-bulls/",
     "industry": "AI & Technology",
-    "summary": "Estados Unidos compromete 5.000 millones de dólares para la investigación de la IA en el marco de la Misión Génesis. NVIDIA como empresa más grande por capitalización de mercado el 31 de julio de 2026 con un 86% SÍ.\nLa publicación Estados Unidos compromete 5 mil millones de dólares para la investigación de IA en el marco de la Misión Génesis y aumenta las perspectivas del sector tecnológico apareció por primera vez en Crypto Briefing.",
+    "summary": "Bitcoin enfrenta una amenaza de computación cuántica que podría exponer el 35% de su suministro, y Google proyecta riesgos de cifrado ya en 2029.\nLa publicación Bitcoin enfrenta una amenaza de computación cuántica sin precedentes que los alcistas no pueden ignorar apareció por primera vez en Crypto Briefing.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Activo de 2 libras. Limpiador de ácido cítrico Distiller Descaler por $13 + envío gratis con Prime",
-    "url": "https://www.dealnews.com/Active-2-lb-Distiller-Descaler-Citric-Acid-Cleaner-for-13-free-shipping-w-Prime/21920673.html",
+    "title": "El dron como servicio de ZenaTech cierra la adquisición número 26 de una empresa de topografía con sede en Ohio y licencia en cuatro estados",
+    "url": "https://financialpost.com/globe-newswire/zenatechs-drone-as-a-service-closes-26th-acquisition-of-an-ohio-based-land-surveying-company-licensed-in-four-states",
     "industry": "AI & Technology",
-    "summary": "Amazon ofrece el Active de 2 libras. Limpiador de ácido cítrico Distiller Descaler por $13.47 después del código de promoción \"K9BRSTAP\". Eso es un ahorro de $11. El envío es gratuito para los miembros Prime.  Compra ahora en Amazon\r\n Características\r\n <ul> <li>2 libras. (32 onzas) de ácido cítrico en polvo a granel, hasta 2...",
+    "summary": "La primera ubicación con sede en Ohio y el duodécimo estado de EE. UU. amplía DaaS a oportunidades adicionales para clientes de construcción, infraestructura, energía y obras públicas VANCOUVER, Columbia Británica, 23 de julio de 2026 (GLOBE NEWSWIRE) - ZenaTech, Inc. (Nasdaq: ZENA) (FSE: 49Q)…",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
