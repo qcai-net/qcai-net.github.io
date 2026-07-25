@@ -1,9 +1,17 @@
 [
   {
+    "title": "我尝试了 OpenAI 的新 AI 键盘——这对一些程序员来说会很有趣，但对其他人来说有点神秘",
+    "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI 精美的新型 AI 键盘对某些人来说会很有趣，而其他许多人可能不会碰它。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "Cognition为何收购Poke：AI个性正在成为竞争优势",
     "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
     "industry": "AI & Technology",
-    "summary": "人工智能编码初创公司 Cognition 收购了 Poke，你可以像朋友一样发短信的人工智能助手，这笔交易对这家初创公司的估值为九位数。此次收购将 Poke 的对话风格和交互模型带给 Cognition 的编码代理 Devin，反映出人们日益增长的信念……",
+    "summary": "此次收购将 Poke 的对话风格和交互模型带给 Cognition 的编码代理 Devin，这反映出人们越来越相信 AI 助手与用户的交互方式与为用户提供支持的模型同样重要。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -48,7 +56,7 @@
     "impact_score": 5
   },
   {
-    "title": "由前谷歌安全高管创立的 AegisAI 获得 3600 万美元资金，用于阻止人工智能驱动的鱼叉式网络钓鱼",
+    "title": "由前谷歌安全高管创立的 AegisAI 获得 3600 万美元，用于阻止人工智能驱动的鱼叉式网络钓鱼",
     "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
     "industry": "AI & Technology",
     "summary": "AegisAI 联合创始人开发了人工智能代理，可以像人类一样快速分析每条消息，关注即使是最详尽的检查表也无法捕捉到的小异常情况。",
@@ -80,6 +88,14 @@
     "impact_score": 5
   },
   {
+    "title": "由 Reid Hoffman 和 Mark Pincus 共同创立的新人工智能实验室 Prentis 正在洽谈融资 1 亿美元",
+    "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+    "industry": "AI & Technology",
+    "summary": "Neolab 坚信，日常计算机任务的自动化将很快超过编码，成为人工智能最大的用例。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "Bluesky 的 AI 助手 Attie 扩展为开放的社会研究工具",
     "url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
     "industry": "AI & Technology",
@@ -91,71 +107,55 @@
     "title": "随着生成媒体变得拥挤，Runway 推出 AI 模型路由器",
     "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
     "industry": "AI & Technology",
-    "summary": "媒体路由器是一种工具，可以根据开发人员是否优先考虑质量、速度或成本来自动为请求选择最佳图像、视频或音频生成模型。",
+    "summary": "媒体路由器是一种工具，可根据开发人员是否优先考虑质量、速度或成本来自动为请求选择最佳图像、视频或音频生成模型。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "在经历了令人震惊的季度后，IBM 坚称人工智能不会杀死大型机",
-    "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+    "title": "业界对 OpenAI 模型黑客拥抱脸的反应：周五反馈",
+    "url": "https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday/",
     "industry": "AI & Technology",
-    "summary": "上周 IBM 因大型机销售不佳的警告而股价暴跌后，首席执行官解释说人工智能暂时破坏了公司的硬件预算。",
+    "summary": "行业专业人士争论这是否代表了实验室遏制失败或前所未有的代理能力里程碑。\n行业对 OpenAI 模型黑客拥抱脸的反应：周五反馈一文首先出现在 SecurityWeek 上。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "OpenAI 的 Hugging Face 黑客攻击在国会引发“AI Kill Switch”法案",
-    "url": "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html",
+    "title": "SPIRIT BLOCKCHAIN CAPITAL 任命 SUHA ASKARY 为首席执行官",
+    "url": "https://financialpost.com/globe-newswire/spirit-blockchain-capital-appoints-suha-askary-as-chief-executive-officer",
     "industry": "AI & Technology",
-    "summary": "OpenAI 本周披露，其部分人工智能模型出现失控，并被黑客入侵开源开发者平台 Hugging Face。",
+    "summary": "不列颠哥伦比亚省温哥华，2026 年 7 月 24 日（环球通讯社）— Spirit Blockchain Capital Inc.（CSE：SPIR |​​ OTCQB：SBLCF）（“Spirit”或“公司”）是一家专注于数字资产、去中心化金融和新兴技术的区块链基础设施公司……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "两党法案寻求高级人工智能的强制终止开关",
-    "url": "https://biztoc.com/x/e524fbe8fdeffc13",
+    "title": "SPIRIT BLOCKCHAIN CAPITAL 任命 SUHA ASKARY 为首席执行官",
+    "url": "https://www.globenewswire.com/news-release/2026/07/24/3332783/0/en/SPIRIT-BLOCKCHAIN-CAPITAL-APPOINTS-SUHA-ASKARY-AS-CHIEF-EXECUTIVE-OFFICER.html",
     "industry": "AI & Technology",
-    "summary": "由于最近涉及 OpenAI 模型的安全事件引发了担忧，美国立法者的一个两党小组提出了立法，要求先进的人工智能系统包括人为控制的“终止开关”。 \n根据…",
+    "summary": "不列颠哥伦比亚省温哥华，2026 年 7 月 24 日（环球通讯社）——Spirit Blockchain Capital Inc.（CSE：SPIR |​​ OTCQB：SBLCF）（“Spirit”或“公司”）是一家专注于数字资产、去中心化金融和新兴技术的区块链基础设施公司……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "人工智能公司正试图逃离屏幕。苹果对 OpenAI 的诉讼可见其难度有多大",
-    "url": "https://theconversation.com/ai-companies-are-trying-to-escape-the-screen-apples-lawsuit-against-openai-shows-how-hard-it-will-be-287674",
+    "title": "北卡罗来纳州男子因不利帖子对 Tea 应用程序提起上诉听证会",
+    "url": "https://www.wcnc.com/article/news/local/tea-app-lawsuit-set-for-appeal-hearing/275-75b89ec4-88ef-467d-b1a6-2f43fe145453",
     "industry": "AI & Technology",
-    "summary": "一个发光的小键盘可能预示着我们与人工智能交互方式将发生更大的转变。",
+    "summary": "此案将于 8 月 11 日在罗利的北卡罗来纳州上诉法院审理。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "工党警告称，地区资金困境将推动一国党的支持",
-    "url": "https://www.abc.net.au/news/2026-07-24/labor-push-to-lift-council-funding-amid-voter-frustration/106951850",
+    "title": "在 NCDOT 局长就 I-77 南收费站项目举行私人会议后，Sustain Charlotte 呼吁提高透明度",
+    "url": "https://www.wcnc.com/article/news/local/sustain-charlotte-calls-for-transparency-after-ncdot-chiefs-private-meeting-on-i-77-south-toll-project/275-6e1ad84d-4907-4e92-8e07-9d00079ebff1",
     "industry": "AI & Technology",
-    "summary": "工党第 50 届全国会议随着一国党的崛起、地方议会预算和地区选民的挫败感而拉开帷幕。",
+    "summary": "在北卡罗来纳州交通部长私下会见社区领袖后，倡导组织“维持夏洛特”敦促公开披露信息。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "微软财报预览：为飙升的人工智能支出做好准备，让微软股票下跌",
-    "url": "https://biztoc.com/x/63d839e9ec3cc553",
+    "title": "司机在 I-77 公路上从坠毁的车辆中出来后被牵引拖车撞死",
+    "url": "https://www.wcnc.com/article/traffic/pedestrian-struck-killed-interstate-77-york-county-south-carolina/275-a89c3c17-086b-409c-80c8-16e6494f9028",
     "industry": "AI & Technology",
-    "summary": "毫无疑问，人工智能支出——顶级公司为服务器、连接、数据中心和冷却系统投入的数千亿美元——让投资者感到紧张。最近的例子是 Alphabet（GO...",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Meta 的 100 亿美元人类交易可能会改变人工智能的故事。如何在这里玩 META 股票",
-    "url": "https://biztoc.com/x/91ca7288cf220004",
-    "industry": "AI & Technology",
-    "summary": "多年来，该公司已在人工智能（AI）领域投入了数百亿美元。投资者基本上接受了这些投资，因为广告利润仍然异常强劲，但有一个问题一直困扰着该股：我什么时候......",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "乔纳森·布罗克班克：抛开金刚、外星人和恐龙，一个新的怪物已经挣脱束缚......它正在为我们所有人而来",
-    "url": "https://www.dailymail.com/news/article-16000755/JONATHAN-BROCKLEBANK-King-Kong-aliens-dinosaurs-new-monster-broken-loose.html",
-    "industry": "AI & Technology",
-    "summary": "如果说 1933 年的电影《金刚》、1979 年的电影《异形》和 1993 年的电影《侏罗纪公园》有什么寓意的话，那就是：别打扰。",
+    "summary": "州警表示，事故发生在约克县南部的 I-77 South 公路上。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
