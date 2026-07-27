@@ -1,9 +1,41 @@
 [
   {
-    "title": "El auge de la IA está haciendo que la energía nuclear vuelva a ser financiable",
-    "url": "https://www.forbes.com/sites/kensilverstein/2026/07/26/the-ai-boom-is-making-nuclear-power-bankable-again/",
+    "title": "Las ganancias de las grandes tecnológicas chocan contra un mercado en revuelta por el gasto en IA",
+    "url": "https://fortune.com/2026/07/26/big-tech-earnings-meta-microsoft-apple-amazon-market-revolt-ai-spending/",
     "industry": "AI & Technology",
-    "summary": "Microsoft, Meta, Google y Amazon están apostando miles de millones a la energía nuclear para alimentar los centros de datos de IA, reviviendo una industria estancada durante 40 años.",
+    "summary": "Las ganancias de Microsoft y Meta Platforms se publicarán el miércoles, seguidas por las de Apple y Amazon el jueves.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La violación de Hugging Face de OpenAI ha reavivado el debate sobre la alineación y el control",
+    "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+    "industry": "AI & Technology",
+    "summary": "La brecha en Hugging Face de OpenAI ha reavivado el debate sobre la alineación y el control de la IA, exponiendo puntos de vista opuestos sobre si una IA cada vez más capaz debería estar mejor alineada, mejor contenida o ambas cosas.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Los usuarios de Threads ahora pueden chatear con Meta AI en sus DM",
+    "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
+    "industry": "AI & Technology",
+    "summary": "Meta dijo el lunes que está implementando su chatbot Meta AI dentro de los mensajes directos de Threads, brindando a los usuarios una forma de chatear con el asistente de IA.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La búsqueda con IA de Google se está convirtiendo rápidamente en la predeterminada, según muestran nuevos datos",
+    "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+    "industry": "AI & Technology",
+    "summary": "Las descripciones generales de IA de Google aparecen ahora en el 43% de las búsquedas, lo que subraya la rapidez con la que las respuestas generadas por IA se están convirtiendo en la forma predeterminada en que las personas descubren información en línea.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Safe Superintelligence de Ilya Sutskever se asocia con Nvidia para ampliar su investigación en IA",
+    "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+    "industry": "AI & Technology",
+    "summary": "Después de dos años de sigilo, Safe Superintelligence ha anunciado una asociación a largo plazo con Nvidia mientras se prepara para pasar a su siguiente fase.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -40,42 +72,26 @@
     "impact_score": 5
   },
   {
-    "title": "El “comunismo de la IA”, los modelos rebeldes y el motivo por el que Kimi K3 asustó a Wall Street",
-    "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
+    "title": "James Cameron intentó advertirnos: \"Skynet Day\" ahora es la abreviatura de que el agente de OpenAI se vuelve deshonesto y piratea una startup.",
+    "url": "https://biztoc.com/x/9e33a753972876f4",
     "industry": "AI & Technology",
-    "summary": "El modelo abierto Kimi del laboratorio chino de IA Moonshot se volvió viral esta semana por razones que tenían menos que ver con el modelo en sí y más con cómo reaccionó la industria de la IA de Estados Unidos. Mientras tanto, un modelo OpenAI inédito salió de su entorno de prueba y en...",
+    "summary": "Para ser justos, James Cameron nos lo advirtió.\nMucho antes de que OpenAI saliera de su corral de pruebas y pirateara Hugging Face, antes de que nacieran Internet y Sam Altman, Cameron escribió un guión sobre un sistema autónomo de inteligencia artificial que desencadena...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "El nuevo modo de voz de OpenAI llega a la aplicación de escritorio ChatGPT",
-    "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+    "title": "¡Mejora tu infraestructura de IA! Un primer vistazo a la agenda de Smart Systems Stage en TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/",
     "industry": "AI & Technology",
-    "summary": "ChatGPT Voice en el escritorio puede funcionar tanto con ChatGPT Work como con Codex para completar tareas y controlar a los agentes.",
+    "summary": "En TechCrunch Disrupt 2026, la etapa de sistemas inteligentes será donde colisionarán la energía, la infraestructura y la tecnología, abarcando todo, desde los avances en la fusión hasta la tensión de la red que la IA está ejerciendo sobre toda la economía.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Cómo las barreras de seguridad de la IA están impidiendo el trabajo de los investigadores de ciberseguridad ofensiva",
-    "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+    "title": "Enigma recauda 71 millones de dólares para que controlar un robot sea tan fácil como ajustar el volumen",
+    "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
     "industry": "AI & Technology",
-    "summary": "Hablamos con varios investigadores de ciberseguridad, que buscan vulnerabilidades desconocidas y desarrollan herramientas para explotarlas, sobre cómo las barreras de seguridad de OpenAI y Anthropic afectan su trabajo.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "AMD se enfrenta a Nvidia con su sistema Helios AI a escala de rack",
-    "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
-    "industry": "AI & Technology",
-    "summary": "AMD está desafiando a su rival fabricante de chips con un nuevo sistema a escala de rack que comenzará a enviarse a los clientes a finales de este año.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "AegisAI, fundada por ex ejecutivos de seguridad de Google, consigue 36 millones de dólares para detener el phishing impulsado por IA",
-    "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-    "industry": "AI & Technology",
-    "summary": "Los cofundadores de AegisAI desarrollaron agentes de inteligencia artificial que analizan rápidamente cada mensaje como lo haría un humano, prestando atención a pequeñas anomalías que ni siquiera la lista de verificación más elaborada detectaría.",
+    "summary": "La ronda inicial masiva fue dirigida por Index Ventures y Ribbit Capital, con la participación de Conviction Partners de Sarah Guo.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -112,7 +128,7 @@
     "impact_score": 5
   },
   {
-    "title": "Una línea eléctrica caída expuso un creciente problema en el centro de datos de IA. Aquí se explica cómo solucionarlo.",
+    "title": "Una línea eléctrica caída expuso un problema creciente en el centro de datos de IA: aquí se explica cómo solucionarlo",
     "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
     "industry": "AI & Technology",
     "summary": "Una situación cercana en el norte de Virginia reveló cuán mal responden los centros de datos a las interrupciones de la red. A continuación se explica cómo solucionar el problema.",
@@ -136,26 +152,10 @@
     "impact_score": 5
   },
   {
-    "title": "Runway lanza un enrutador modelo de IA a medida que los medios generativos se llenan",
-    "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+    "title": "Nvidia acaba de cerrar un acuerdo que cambia la carrera de la IA",
+    "url": "https://biztoc.com/x/b544b3f39b4efff3",
     "industry": "AI & Technology",
-    "summary": "Media Router es una herramienta que selecciona automáticamente el mejor modelo de generación de imagen, video o audio para una solicitud en función de si un desarrollador prioriza la calidad, la velocidad o el costo.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Lo que realmente significa un importante acuerdo de chips antrópicos para las acciones de AMD",
-    "url": "https://biztoc.com/x/804914833d4cafc7",
-    "industry": "AI & Technology",
-    "summary": "Advanced Micro Devices (AMD) ha añadido este mes otro hito importante a su historia de crecimiento de la inteligencia artificial (IA). El 22 de julio, las acciones de AMD subieron un 1,45% después de que el fabricante de chips anunciara una asociación estratégica multimillonaria con la startup de inteligencia artificial Anth...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Ocupe la primera posición: cómo el marketing de preferencias genera una ventaja competitiva B2B",
-    "url": "https://www.forrester.com/blogs/get-in-pole-position-how-preference-marketing-builds-a-b2b-competitive-edge/",
-    "industry": "AI & Technology",
-    "summary": "En B2B Summit North America, Ian Bruce y Kelvin Gee compartieron una verdad aleccionadora: la mayoría de los equipos B2B están persiguiendo acuerdos que ya han perdido. El remedio es una estrategia de marketing de preferencias. Aprenda lo que eso implica y cómo adoptarlo para seguir adelante.",
+    "summary": "El presidente surcoreano, Lee Jae Myung, voló a San Francisco el 24 de julio para asistir a una cumbre con los nombres más poderosos de la inteligencia artificial. Jensen Huang estaba allí. Sam Altman estaba allí. Llegaron los jefes de Samsung, SK Group, Hyundai Motor y Naver. Por e…",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
