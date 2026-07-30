@@ -1,5 +1,37 @@
 [
   {
+    "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+    "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+    "industry": "AI & Technology",
+    "summary": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+    "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+    "industry": "AI & Technology",
+    "summary": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and competing, AI labs are doing.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Zuckerberg says Meta\u2019s enterprise AI opportunity extends beyond agents",
+    "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
+    "industry": "AI & Technology",
+    "summary": "On the company\u2019s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a \u201clarge enterprise opportunity\u201d spanning AI agents, APIs, compute, and internal software.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Discover\u00a0what\u2019s\u00a0next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
+    "industry": "AI & Technology",
+    "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
     "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
     "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
     "industry": "AI & Technology",
@@ -8,10 +40,18 @@
     "impact_score": 5
   },
   {
-    "title": "The Hugging Face AI break-in, as told through an increasingly committed bear metaphor",
-    "url": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
+    "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+    "url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
     "industry": "AI & Technology",
-    "summary": "Another way to think about the whole thing is to picture a bear at a campsite. (Really, we are going there.)",
+    "summary": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
+    "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
+    "industry": "AI & Technology",
+    "summary": "Weng previously served as the VP of AI Safety Research at OpenAI.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -48,26 +88,10 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI\u2019s Hugging Face breach has reignited the debate over alignment and control",
-    "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+    "title": "The Hugging Face break-in explained",
+    "url": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
     "industry": "AI & Technology",
-    "summary": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Threads users can now chat with Meta AI in their DMs",
-    "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
-    "industry": "AI & Technology",
-    "summary": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Google\u2019s AI search is rapidly becoming the default, new data shows",
-    "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
-    "industry": "AI & Technology",
-    "summary": "Google\u2019s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.",
+    "summary": "Another way to think about the whole thing is to picture a bear at a campsite. (Really, we are going there.)",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -80,82 +104,58 @@
     "impact_score": 5
   },
   {
-    "title": "Satya Nadella says companies that trust one AI for everything may not survive",
-    "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+    "title": "Did SK Hynix\u2019s Record $42 Billion Q2 Profit Just Prove the Memory Boom Went Bust?",
+    "url": "https://247wallst.com/investing/2026/07/29/did-sk-hynixs-record-42-billion-q2-profit-just-prove-the-memory-boom-went-bust/",
     "industry": "AI & Technology",
-    "summary": "Companies without their own models \u2014 or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself \u2014 will be in trouble, Nadella says.",
+    "summary": "SK Hynix just posted the most explosive profit growth any chipmaker has seen in years, yet investors responded by selling the stock below its IPO price. The...",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Amkor Has a Fresh Catalyst With a New Nvidia Deal. How to Play AMKR Stock Here",
-    "url": "https://biztoc.com/x/7b2a582af6c666f1",
+    "title": "Amazon closes S.F. AI lab, lays off 1,100 Florida warehouse workers",
+    "url": "https://biztoc.com/x/c4590d82b91e63bd",
     "industry": "AI & Technology",
-    "summary": "is back in the spotlight after announcing a landmark multi-year partnership with Nvidia (NVDA) on July 23, reinforcing its position as one of the biggest beneficiaries of the artificial intelligence (AI) infrastructure boom. The agreement highlights the growi\u2026",
+    "summary": "Amazon has closed its San Francisco artificial intelligence lab, while also laying off 1,100 Florida warehouse workers as part of a separate renovation project.\nThe e-commerce giant shuttered its lab, which had been seeking to achieve artificial general intel\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "How artificial intelligence is used to streamline corporate travel logistics",
-    "url": "https://thenextweb.com/news/ai-streamline-corporate-travel-logistics/",
+    "title": "Quantum X Labs Demonstrated a Complete End-to-End Quantum-Enabled Clinical Data Analysis Use Case by Using Real-World Clinical Information on a Quantum Computer Simulator",
+    "url": "https://www.globenewswire.com/news-release/2026/07/29/3335188/0/en/Quantum-X-Labs-Demonstrated-a-Complete-End-to-End-Quantum-Enabled-Clinical-Data-Analysis-Use-Case-by-Using-Real-World-Clinical-Information-on-a-Quantum-Computer-Simulator.html",
     "industry": "AI & Technology",
-    "summary": "The evolution of\u00a0enterprise software\u00a0has solved countless operational bottlenecks over the past decade. Supply chains are mapped in real time, and global payrolls execute automatically across dozens of tax jurisdictions with total precision. Yet somehow, arra\u2026",
+    "summary": "The demonstration shows the capability of running real world clinical data on quantum architecture and generating biologically relevant analytical insights",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Global Digital Transformation in Healthcare Market Size/Share Worth USD 270.9 Billion by 2035 at a 14.13% CAGR: Healthcare Foresights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, SWOT Analysis)",
-    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334663/0/en/Global-Digital-Transformation-in-Healthcare-Market-Size-Share-Worth-USD-270-9-Billion-by-2035-at-a-14-13-CAGR-Healthcare-Foresights-Analysis-Outlook-Leaders-Report-Trends-Forecast-.html",
+    "title": "China drafts cyberbullying rules that reach AI-generated abuse",
+    "url": "https://thenextweb.com/news/china-draft-cyberbullying-rules-ai-abuse/",
     "industry": "AI & Technology",
-    "summary": "[220+ Pages Latest Report] According to a market research study published by Healthcare Foresights, the demand analysis of Global Digital Transformation in Healthcare Market size & share revenue was valued at approximately USD 72.3 Billion in 2025 and is expe\u2026",
+    "summary": "China\u2019s internet regulator has published draft rules to combat cyberbullying, and, according to Reuters, the measures are written to reach abuse generated with artificial intelligence. The Cyberspace Administration of China released the draft for public comme\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Parents raise safety concerns as budget cuts eliminate Union County school crossing guards",
-    "url": "https://www.wcnc.com/article/news/education/union-county-public-schools-remove-crossing-guards-budget-cuts/275-32728c76-5e12-43b0-aa20-f7cb0297914e",
+    "title": "Anticipation Is Reshaping America's Halloween Season",
+    "url": "https://www.prnewswire.com/news-releases/anticipation-is-reshaping-americas-halloween-season-302837112.html",
     "industry": "AI & Technology",
-    "summary": "District leaders say budget cuts forced Union County Public Schools to remove crossing guards at 13 campuses. Here's what parents are saying about the change.",
+    "summary": "New Consumer Insights from Hershey and Morning Consult Reveal Halloween Anticipation is Building Earlier, Creating New Moments for Treats, Traditions and Community HERSHEY, Pa., July 29, 2026 /PRNewswire/ -- Halloween anticipation is starting long before Octo\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Monroe moves to voluntary water conservation after rain refills reservoirs",
-    "url": "https://www.wcnc.com/article/news/local/monroe-moves-back-to-stage-1-water-conservation/275-0b96fd0b-549a-4f59-beb7-80baac0b6601",
+    "title": "NextEra, Brookfield plan $100 billion Kentucky data center campus",
+    "url": "https://www.channelnewsasia.com/business/nextera-brookfield-plan-100-billion-kentucky-data-center-campus-6285956",
     "industry": "AI & Technology",
-    "summary": "Monroe shifted from mandatory to voluntary water restrictions after rains boosted reservoirs; however, residents are urged to conserve water responsibly.",
+    "summary": "July 29 : NextEra Energy, Brookfield and other companies are developing a $100 billion data center campus at a former uranium enrichment site in Paducah, Kentucky, the companies said on Wednesday.Soaring U.S. electricity demand is pushing companies to invest \u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Man in Catawba County homicide taken into custody after missing man's remains found",
-    "url": "https://www.wcnc.com/article/news/crime/suspect-identified-in-connection-with-human-remains-discovery/275-7b84cfee-ba85-4b32-9b17-c713092d9fd5",
+    "title": "NextEra, Brookfield plan $100 billion data center at Kentucky uranium site",
+    "url": "https://www.channelnewsasia.com/business/nextera-brookfield-plan-100-billion-data-center-kentucky-uranium-site-6285956",
     "industry": "AI & Technology",
-    "summary": "Joshua Ray Begley faces charges of murder and concealment in the death of Claude Holsclaw. He was captured after a manhunt tied to remains found in Catawba County.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "AI And Screens Fueling A Generation of Depressed, Isolated and Gender-Confused Youth, Experts Warn",
-    "url": "https://dailycaller.com/2026/07/28/moms-for-liberty-ai-screens-depressed-youth-gender-dysphoria",
-    "industry": "AI & Technology",
-    "summary": "The age of AI is fueling a generation of fragile, developmentally stunted and gender-dysphoric children, two analysts warned parents.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "CORZ Stock Alert: Core Scientific Strikes AI Infrastructure Deal With AMD",
-    "url": "https://biztoc.com/x/9474c6b967fae90c",
-    "industry": "AI & Technology",
-    "summary": "stock is in focus today after the company announced a landmark artificial intelligence (AI) infrastructure partnership with Advanced Micro Devices (AMD).\nUnder this deal, CORZ will provide AMD with 530 megawatts of high-density colocation capacity starting in\u2026",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Astronomers Spotted a Wandering Black Hole at the Edge of Its Galaxy. Then It Found a Snack",
-    "url": "https://gizmodo.com/astronomers-spotted-a-wandering-black-hole-on-the-edge-of-its-galaxy-then-it-found-a-snack-2000791910",
-    "industry": "AI & Technology",
-    "summary": "The otherwise invisible object revealed itself with a flash of light as it munched on its stellar dinner.",
+    "summary": "July 29 : A consortium including NextEra Energy and Brookfield plans to develop a $100 billion data center campus at a former uranium enrichment site in Paducah, Kentucky, the companies said on Wednesday.Soaring U.S. electricity demand is driving investment i\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }

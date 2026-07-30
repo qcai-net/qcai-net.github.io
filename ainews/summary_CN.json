@@ -1,5 +1,37 @@
 [
   {
+    "title": "微软比以往任何时候都更加公开地与 OpenAI、Anthropic 竞争",
+    "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+    "industry": "AI & Technology",
+    "summary": "周三，微软推出了自己的本土人工智能模型、工具，甚至还有 Mythos 的竞争对手，告诉华尔街它计划继续增长。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "微软从 Anthropic 获得 3.2B 美元投资，但 OpenAI 好坏参半",
+    "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+    "industry": "AI & Technology",
+    "summary": "当微软公布其 2026 财年（截至 6 月 30 日）第四季度的杀手级收益时，它透露了一个有趣的小花絮，介绍其对两个最大且相互竞争的人工智能实验室的投资进展情况。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "扎克伯格表示 Meta 的企业人工智能机会不仅仅局限于代理",
+    "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
+    "industry": "AI & Technology",
+    "summary": "在周三的公司第​​二季度财报电话会议上，首席执行官马克·扎克伯格表示，Meta 看到了涵盖人工智能代理、API、计算和内部软件的“大型企业机会”。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "在 TechCrunch Disrupt 2026 上了解人工智能的下一步发展，从 SaaS 计算到代理安全漏洞",
+    "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
+    "industry": "AI & Technology",
+    "summary": "在 TechCrunch Disrupt 2026 上，AI Stage 再次深入探讨过去几年社区中最热门的话题，由 Google for Startups 提出。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "Fish Audio 筹集了 5200 万美元种子资金，为创作者和企业构建 AI 语音模型",
     "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
     "industry": "AI & Technology",
@@ -8,15 +40,23 @@
     "impact_score": 5
   },
   {
-    "title": "通过越来越坚定的熊比喻来讲述拥抱脸人工智能的闯入",
-    "url": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
+    "title": "马克·扎克伯格预测五年内数十亿人将拥有个人人工智能代理",
+    "url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
     "industry": "AI & Technology",
-    "summary": "思考整个事情的另一种方式是想象露营地里有一只熊。 （真的，我们要去那里。）",
+    "summary": "随着 Meta 向人工智能基础设施和代理投入数十亿美元，扎克伯格正在努力让投资者相信回报是值得的。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Hint 是一家由 Martha Stewart 联合创立的新人工智能初创公司，为房主提供人工智能助手",
+    "title": "Thinking Machines联合创始人Lilian Weng因健康原因离开公司，随后加入OpenAI",
+    "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
+    "industry": "AI & Technology",
+    "summary": "Weng 此前曾担任 OpenAI 的人工智能安全研究副总裁。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Hint 是一家新的人工智能初创公司，由玛莎·斯图尔特 (Martha Stewart) 联合创立，为房主提供人工智能助手",
     "url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
     "industry": "AI & Technology",
     "summary": "人工智能家庭管理初创公司 Hint 由玛莎·斯图尔特 (Martha Stewart) 联合创立，希望成为“家庭人工智能”，将财产记录、维护计划、家庭文件和人工智能助手整合到一个应用程序中。",
@@ -48,26 +88,10 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI 的 Hugging Face 漏洞重新引发了关于对齐和控制的争论",
-    "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+    "title": "拥抱脸闯入的解释",
+    "url": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
     "industry": "AI & Technology",
-    "summary": "OpenAI 的 Hugging Face 漏洞重新引发了关于人工智能调整和控制的争论，暴露了关于能力日益增强的人工智能是否应该更好地调整、更好地遏制或两者兼而有之的相互竞争的观点。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Threads 用户现在可以在他们的 DM 中与 Meta AI 聊天",
-    "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
-    "industry": "AI & Technology",
-    "summary": "Meta 周一表示，它正在 Threads 的 DM 中推出 Meta AI 聊天机器人，为用户提供与 AI 助手聊天的方式。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "新数据显示，谷歌的人工智能搜索正在迅速成为默认搜索",
-    "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
-    "industry": "AI & Technology",
-    "summary": "谷歌的人工智能概述现在出现在 43% 的搜索中，这突显了人工智能生成的答案正以多么快的速度成为人们在网上发现信息的默认方式。",
+    "summary": "思考整个事情的另一种方式是想象露营地里有一只熊。 （真的，我们要去那里。）",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -80,82 +104,58 @@
     "impact_score": 5
   },
   {
-    "title": "萨蒂亚·纳德拉 (Satya Nadella) 表示，那些相信一种人工智能能解决所有问题的公司可能无法生存",
-    "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+    "title": "SK 海力士第二季度创纪录的 420 亿美元利润是否只是证明内存繁荣已经破灭？",
+    "url": "https://247wallst.com/investing/2026/07/29/did-sk-hynixs-record-42-billion-q2-profit-just-prove-the-memory-boom-went-bust/",
     "industry": "AI & Technology",
-    "summary": "纳德拉表示，没有自己的模型的公司，或者没有被称为人工智能网关的人工智能基础设施层，将其提示与模型本身分开的公司，将会遇到麻烦。",
+    "summary": "SK 海力士刚刚公布了芯片制造商多年来最爆炸性的利润增长，但投资者的反应是以低于 IPO 价格的价格出售该股票。这...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Amkor 与 Nvidia 达成的新协议带来了新的催化剂。如何在这里玩 AMKR 股票",
-    "url": "https://biztoc.com/x/7b2a582af6c666f1",
+    "title": "亚马逊关闭顺丰AI 实验室解雇 1,100 名佛罗里达仓库工人",
+    "url": "https://biztoc.com/x/c4590d82b91e63bd",
     "industry": "AI & Technology",
-    "summary": "7 月 23 日宣布与英伟达 (NVDA) 建立具有里程碑意义的多年合作伙伴关系，巩固了其作为人工智能 (AI) 基础设施热潮的最大受益者之一的地位，再次成为人们关注的焦点。该协议凸显了…的增长",
+    "summary": "亚马逊关闭了其旧金山人工智能实验室，同时还解雇了 1,100 名佛罗里达州仓库工人，作为单独改造项目的一部分。\n这家电子商务巨头关闭了其实验室，该实验室一直在寻求实现通用人工智能……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "如何利用人工智能简化商旅物流",
-    "url": "https://thenextweb.com/news/ai-streamline-corporate-travel-logistics/",
+    "title": "Quantum X Labs 通过在量子计算机模拟器上使用真实世界的临床信息，演示了完整的端到端量子临床数据分析用例",
+    "url": "https://www.globenewswire.com/news-release/2026/07/29/3335188/0/en/Quantum-X-Labs-Demonstrated-a-Complete-End-to-End-Quantum-Enabled-Clinical-Data-Analysis-Use-Case-by-Using-Real-World-Clinical-Information-on-a-Quantum-Computer-Simulator.html",
     "industry": "AI & Technology",
-    "summary": "在过去的十年中，企业软件的发展解决了无数的运营瓶颈。供应链实时绘制，全球薪资在数十个税务管辖区自动执行，完全精确。然而不知何故，阿拉…",
+    "summary": "该演示展示了在量子架构上运行真实世界临床数据并生成生物学相关分析见解的能力",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "到 2035 年，全球医疗保健市场规模/份额价值 2709 亿美元，复合年增长率为 14.13%：医疗保健前瞻（分析、展望、领导者、报告、趋势、预测、细分、增长率、SWOT 分析）",
-    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334663/0/en/Global-Digital-Transformation-in-Healthcare-Market-Size-Share-Worth-USD-270-9-Billion-by-2035-at-a-14-13-CAGR-Healthcare-Foresights-Analysis-Outlook-Leaders-Report-Trends-Forecast-.html",
+    "title": "中国起草网络欺凌规则，打击人工智能引发的滥用行为",
+    "url": "https://thenextweb.com/news/china-draft-cyberbullying-rules-ai-abuse/",
     "industry": "AI & Technology",
-    "summary": "[220+页最新报告]根据Healthcare Foresights发布的市场研究报告，医疗保健市场规模和份额收入的全球数字化转型需求分析预计2025年价值约为723亿美元，预计…",
+    "summary": "中国互联网监管机构发布了打击网络欺凌的规则草案，据路透社报道，这些措施旨在解决人工智能产生的滥用行为。国家互联网信息办公室向社会公开征求意见稿",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "预算削减取消联合县学校过路警卫，家长提出安全担忧",
-    "url": "https://www.wcnc.com/article/news/education/union-county-public-schools-remove-crossing-guards-budget-cuts/275-32728c76-5e12-43b0-aa20-f7cb0297914e",
+    "title": "期待正在重塑美国的万圣节季节",
+    "url": "https://www.prnewswire.com/news-releases/anticipation-is-reshaping-americas-halloween-season-302837112.html",
     "industry": "AI & Technology",
-    "summary": "学区领导人表示，预算削减迫使联合县公立学校取消了 13 个校区的路口警卫。以下是家长们对这一变化的评价。",
+    "summary": "好时和 Morning Consult 的新消费者洞察显示，人们对万圣节的期待正在提前形成，为美食、传统和社区创造新的时刻宾夕法尼亚州好时，2026 年 7 月 29 日 /美通社/ -- 万圣节的期待早在 10 月 10 日之前就开始了……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "雨后水库重新注满，门罗开始自愿节水",
-    "url": "https://www.wcnc.com/article/news/local/monroe-moves-back-to-stage-1-water-conservation/275-0b96fd0b-549a-4f59-beb7-80baac0b6601",
+    "title": "NextEra 和 Brookfield 计划斥资 1000 亿美元建造肯塔基州数据中心园区",
+    "url": "https://www.channelnewsasia.com/business/nextera-brookfield-plan-100-billion-kentucky-data-center-campus-6285956",
     "industry": "AI & Technology",
-    "summary": "降雨使水库水量增加后，门罗从强制限水转向自愿限水；然而，我们敦促居民负责任地节约用水。",
+    "summary": "7 月 29 日：NextEra Energy、Brookfield 和其他公司周三表示，正在肯塔基州帕迪尤卡的一个前铀浓缩基地开发一个价值 1000 亿美元的数据中心园区。美国飙升的电力需求正在推动企业投资……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "卡托巴县凶杀案男子在失踪男子遗体被发现后被拘留",
-    "url": "https://www.wcnc.com/article/news/crime/suspect-identified-in-connection-with-human-remains-discovery/275-7b84cfee-ba85-4b32-9b17-c713092d9fd5",
+    "title": "NextEra 和 Brookfield 计划斥资 1000 亿美元在肯塔基州铀矿基地建设数据中心",
+    "url": "https://www.channelnewsasia.com/business/nextera-brookfield-plan-100-billion-data-center-kentucky-uranium-site-6285956",
     "industry": "AI & Technology",
-    "summary": "约书亚·雷·贝格利因克劳德·霍尔斯克劳之死而面临谋杀和窝藏罪名的指控。在对卡托巴县发现的遗骸进行搜捕后，他被抓获。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "专家警告称，人工智能和屏幕助长了一代抑郁、孤立和性别困惑的年轻人",
-    "url": "https://dailycaller.com/2026/07/28/moms-for-liberty-ai-screens-depressed-youth-gender-dysphoria",
-    "industry": "AI & Technology",
-    "summary": "两位分析师警告家长，人工智能时代正在催生一代脆弱、发育迟缓和性别不安的儿童。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "CORZ 股票提醒：Core Scientific 与 AMD 达成人工智能基础设施交易",
-    "url": "https://biztoc.com/x/9474c6b967fae90c",
-    "industry": "AI & Technology",
-    "summary": "在该公司宣布与 Advanced Micro Devices (AMD) 建立具有里程碑意义的人工智能 (AI) 基础设施合作伙伴关系后，该股今天成为焦点。\n根据这项协议，CORZ将从...开始为AMD提供530兆瓦的高密度托管容量。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "天文学家在银河系边缘发现了一个徘徊的黑洞。然后它发现了零食",
-    "url": "https://gizmodo.com/astronomers-spotted-a-wandering-black-hole-on-the-edge-of-its-galaxy-then-it-found-a-snack-2000791910",
-    "industry": "AI & Technology",
-    "summary": "当这个原本看不见的物体咀嚼着恒星晚餐时，它发出一道闪光，显露出来了。",
+    "summary": "7 月 29 日：包括 NextEra Energy 和 Brookfield 在内的财团周三表示，计划在肯塔基州帕迪尤卡的前铀浓缩基地开发一个价值 1000 亿美元的数据中心园区。 美国飙升的电力需求正在推动投资……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
