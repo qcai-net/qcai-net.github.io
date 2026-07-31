@@ -48,6 +48,38 @@
     "impact_score": 5
   },
   {
+    "title": "Anthropic 表示，其自己的人工智能模型在安全测试中入侵了三家公司",
+    "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI的模型闯入Hugging Face后，Anthropic检查了自己的历史，发现了三起类似事件",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "AI 对冲基金 Situation Awareness 可能已出售其公开投资组合，但仍持有 Anthropic 股票",
+    "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
+    "industry": "AI & Technology",
+    "summary": "在杠杆公共押注暴跌后，这位前 OpenAI 研究人员的基金被迫抛售公共股票。但他还有牌可打。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Reddit 报告季度表现稳健，但显示出人工智能影响的迹象",
+    "url": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
+    "industry": "AI & Technology",
+    "summary": "Reddit 的财务状况看起来不错，但其与谷歌和新的人工智能化网络的关系的不确定性正在引发市场担忧。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "投资者喜欢人工智能，只要你是云主机",
+    "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+    "industry": "AI & Technology",
+    "summary": "亚马逊并没有放缓数据中心支出，但投​​资者似乎并不介意。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "Meta 表示，人工智能正在使构建新应用程序变得更加容易，而且更多应用程序即将推出",
     "url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
     "industry": "AI & Technology",
@@ -88,26 +120,10 @@
     "impact_score": 5
   },
   {
-    "title": "Thinking Machines联合创始人Lilian Weng因健康原因离开公司，随后加入OpenAI",
-    "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
+    "title": "法官称特朗普政府仍缺乏人为“供应链风险”标签的证据",
+    "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
     "industry": "AI & Technology",
-    "summary": "Weng 此前曾担任 OpenAI 的人工智能安全研究副总裁。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Hint 是一家由 Martha Stewart 联合创立的新人工智能初创公司，为房主提供人工智能助手",
-    "url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
-    "industry": "AI & Technology",
-    "summary": "人工智能家庭管理初创公司 Hint 由玛莎·斯图尔特 (Martha Stewart) 联合创立，希望成为“家庭人工智能”，将财产记录、维护计划、家庭文件和人工智能助手整合到一个应用程序中。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Encore AI 融资 3000 万美元，用于构建能够从客户呼叫中学习的人工智能代理",
-    "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
-    "industry": "AI & Technology",
-    "summary": "该初创公司分析电话、消息和 CRM 数据，以确定有效的销售技巧，并将其转化为人工智能代理的手册。",
+    "summary": "一名联邦法官表示，特朗普政府没有提供足够的证据来证明给 Anthropic 贴上供应链风险的标签，这让人们对政府对其人工智能技术的禁令产生了怀疑。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -136,26 +152,10 @@
     "impact_score": 5
   },
   {
-    "title": "拥抱脸闯入的解释",
-    "url": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
+    "title": "“DangleGeddon”：人工智能可以在全球范围内武器化被遗忘的 DNS 记录",
+    "url": "https://www.securityweek.com/danglegeddon-ai-could-weaponize-forgotten-dns-records-at-global-scale/",
     "industry": "AI & Technology",
-    "summary": "思考整个事情的另一种方式是想象露营地里有一只熊。 （真的，我们要去那里。）",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Pearson 任命 Certiport 2026 年 Adob​​e 认证专业世界冠军",
-    "url": "https://financialpost.com/globe-newswire/pearson-names-certiport-2026-adobe-certified-professional-world-champion",
-    "industry": "AI & Technology",
-    "summary": "新泽西州霍博肯，2026 年 7 月 29 日（环球通讯社）— Pearson（富时指数：PSON.L）宣布了年度 Certiport 2026 Adob​​e 认证专业世界锦标赛的获奖者，今年已是第 13 个年头了。 Adobe 认证专业世界锦标赛是一项全球性赛事...",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Pearson 任命 Certiport 2026 年 Adob​​e 认证专业世界冠军",
-    "url": "https://www.globenewswire.com/news-release/2026/07/29/3335536/0/en/Pearson-Names-Certiport-2026-Adobe-Certified-Professional-World-Champion.html",
-    "industry": "AI & Technology",
-    "summary": "新泽西州霍博肯，2026 年 7 月 29 日 (环球通讯社) -- Pearson (FTSE: PSON.L) 宣布了年度 Certiport 2026 Adob​​e 认证专业世界锦标赛的获奖者，今年已是第 13 个年头了。 Adobe 认证专业世界锦标赛是一项全球性赛事…",
+    "summary": "研究人员警告说，人工智能可能会将悬而未决的 DNS 接管变成能够扰乱政府、银行和全球供应链的民族国家武器。\n帖子“DangleGeddon”：人工智能可以在全球范围内武器化被遗忘的 DNS 记录首先出现在 Securi 上......",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
