@@ -51,7 +51,7 @@
     "title": "Anthropic 表示，其自己的人工智能模型在安全测试中入侵了三家公司",
     "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
     "industry": "AI & Technology",
-    "summary": "在 OpenAI 的模型闯入 Hugging Face 后，Anthropic 检查了自己的历史记录，发现了三起类似事件。",
+    "summary": "在 OpenAI 的模型闯入 Hugging Face 之后，Anthropic 检查了自己的历史记录，发现了三起类似的事件。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -76,6 +76,14 @@
     "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
     "industry": "AI & Technology",
     "summary": "亚马逊并没有放缓数据中心支出，但投​​资者似乎并不介意。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "旨在增强太阳能发电的有争议的太空镜",
+    "url": "https://oilprice.com/Energy/Energy-General/The-Controversial-Space-Mirrors-Designed-to-Boost-Solar-Power.html",
+    "industry": "AI & Technology",
+    "summary": "近年来，随着对可再生能源和清洁技术的资金投入增加，一些公司寻求利用创新技术和工艺来提高清洁能源生产。来自世界各地的科技和能源初创公司已筹集资金...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -136,26 +144,18 @@
     "impact_score": 5
   },
   {
-    "title": "250 年前，美国把一切都押在了信任上。这个赌注正在再次受到考验",
-    "url": "https://fortune.com/2026/08/01/america-250-trust-needs-to-be-restored-markets-business-government/",
+    "title": "OpenAI Next 主要模型 Astra 解决主要数学问题",
+    "url": "https://www.nextbigfuture.com/2026/08/openai-next-major-model-astra-solves-major-math-problems.html",
     "industry": "AI & Technology",
-    "summary": "自由企业的未来取决于重建让公民、市场、机构和盟友共同努力的信任。",
+    "summary": "OpenAI 的塞巴斯蒂安·布贝克 (Sebastien Bubeck) 表示，“是的，存在非实体团体”——作为下一个主要 OpenAI 模型 Astra 的“许多新的美丽结果”的一个例子。 OpenAI 发布了一个页面和 PDF，详细介绍了纯数学和理论计算机科学的十项进展。争论...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "OpenAI 首席执行官的育儿秘诀：Sam Altman 分享了他认为可以改善家庭早晨生活的 ChatGPT 技巧。并非所有人都相信",
-    "url": "https://economictimes.indiatimes.com/magazines/panache/parenting-tip-from-openai-ceo-sam-altman-shares-a-chatgpt-trick-he-thinks-could-improve-family-mornings-not-everyone-is-convinced/articleshow/132786540.cms",
+    "title": "高盛表示历史上最需要资金的投资周期已经到来",
+    "url": "https://cryptobriefing.com/goldman-sachs-capital-hungry-investment-cycle/",
     "industry": "AI & Technology",
-    "summary": "OpenAI 首席执行官 Sam Altman 在建议家长在早上上学期间使用 ChatGPT 为孩子创建个性化播客后引发了一场争论。虽然他将其描述为一种让通勤更具吸引力的创造性方式，但许多社交媒体我们……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "由于夏洛特水管破裂，东独立线只剩下一条车道",
-    "url": "https://www.wcnc.com/article/traffic/east-independence-closed-due-to-water-main-break-cmpd-says/275-78fdda75-059d-404f-ad81-b20745c2ba64",
-    "industry": "AI & Technology",
-    "summary": "温多弗路 (Wendover Road) 东独立路 (East Independence) 的交通速度已放缓。从夏洛特出发的司机应采取替代路线。",
+    "summary": "前所未有的资本密集型周期可能会重塑全球经济结构，推动基础设施和金融领域的显着增长。\n高盛称历史上最需要资金的投资周期已经到来的帖子首先出现在……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
