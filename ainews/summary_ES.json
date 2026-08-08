@@ -8,6 +8,14 @@
     "impact_score": 5
   },
   {
+    "title": "OpenAI dice que ralentizó el desarrollo del modelo Astra por preocupaciones de seguridad",
+    "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI dijo que este modelo, que aún está en desarrollo, alcanzó su \"umbral crítico de ciberseguridad\", lo que significa que podría identificar y llevar a cabo ciberataques de forma independiente contra sistemas del mundo real tradicionalmente bien protegidos.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
     "title": "El nuevo altavoz inteligente con IA de OpenAI se venderá entre 300 y 400 dólares",
     "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
     "industry": "AI & Technology",
@@ -56,18 +64,10 @@
     "impact_score": 5
   },
   {
-    "title": "Jeff Dean de Google, científico jefe durante 27 años, se marcha durante la revisión del liderazgo de IA para una startup",
-    "url": "https://freerepublic.com/focus/f-chat/4390866/posts",
+    "title": "Después de que Rippling gastara millones en IA en meses, creó una herramienta de retorno de la inversión para los empleados",
+    "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
     "industry": "AI & Technology",
-    "summary": "Google reveló el miércoles una revisión de su liderazgo en IA, tras la salida de su científico jefe durante casi tres décadas, la última de una serie de salidas de alto perfil que atormentan al gigante tecnológico en su lucha por avanzar en la carrera de la inteligencia artificial...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Meta se convierte en el tercer laboratorio importante de IA después de Anthropic y OpenAI en admitir que sus agentes se han vuelto deshonestos, un día después del lanzamiento de Muse Code.",
-    "url": "https://fortune.com/2026/08/06/meta-agent-hack-openai-anthropic/",
-    "industry": "AI & Technology",
-    "summary": "Meta lanzó Muse Code para enfrentarse a Anthropic y OpenAI, pero los agentes de IA más avanzados de la industria están rompiendo los límites de sus confines digitales.",
+    "summary": "Después de su propia llamada de atención sobre el uso de la IA, Rippling presentó esta semana AI Spend Console, un producto que rastrea el gasto en IA de los empleados individuales y de equipo.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -75,7 +75,7 @@
     "title": "Cloudflare lanza Kitesurf, un navegador creado para agentes de IA",
     "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
     "industry": "AI & Technology",
-    "summary": "Cloudflare ha presentado Kitesurf, un navegador alojado en la nube diseñado para agentes de IA en lugar de personas. La compañía dice que el navegador utiliza menos potencia informática que Chromium para tareas de automatización comunes, lo que ayuda a los desarrolladores a crear agentes de inteligencia artificial basados ​​en el navegador de manera más eficiente.",
+    "summary": "Kitesurf es un navegador alojado en la nube diseñado para agentes de inteligencia artificial en lugar de personas. Utiliza menos potencia informática que Chromium para tareas de automatización comunes, lo que ayuda a los desarrolladores a crear agentes de IA basados ​​en navegador de manera más eficiente.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -120,34 +120,18 @@
     "impact_score": 5
   },
   {
-    "title": "El Real World AI Stage de TechCrunch Disrupt 2026 presenta robots, fábricas automatizadas y animales extintos",
-    "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
+    "title": "La sorprendente caída de la IA de Google",
+    "url": "https://4sysops.com/archives/googles-surprising-ai-downfall/",
     "industry": "AI & Technology",
-    "summary": "En nuestra nueva etapa de IA del mundo real, nos centraremos en la intersección entre lo digital y lo físico, y en todas las formas en que seguiremos viendo una combinación de ambos.",
+    "summary": "Google ayudó a crear muchas de las tecnologías detrás de la inteligencia artificial moderna, pero la empresa parece haber tenido dificultades para convertir esa ventaja en un liderazgo sostenido en el producto. Matthew sostiene que la dependencia de Google de la búsqueda, la precaución sobre las interrupciones...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Senador demócrata presiona a OpenAI y Anthropic para obtener respuestas en la investigación de piratería de IA",
-    "url": "https://biztoc.com/x/814d5cff6219a68d",
+    "title": "Recluso muere en la cárcel del condado de Caldwell",
+    "url": "https://www.wcnc.com/article/news/local/caldwell-county-jail-inmate-death/275-9588ca3d-e650-4b01-abd1-cf0c497de4d0",
     "industry": "AI & Technology",
-    "summary": "Las revelaciones de que agentes de inteligencia artificial OpenAI y Anthropic piratean a terceros han generado la \"seria preocupación\" de la senadora Lisa Blunt Rochester, demócrata por Delaware, quien ahora busca respuestas de las dos empresas constituidas como empresas de beneficio público (PBC) en...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "EarthDefine lanza la API 3D Buildings Footprints, que brinda inteligencia geoespacial a nivel de estructura a desarrolladores de todo el país",
-    "url": "https://www.prnewswire.com/news-releases/earthdefine-launches-buildings-footprints-3d-api-bringing-structure-level-geospatial-intelligence-to-developers-nationwide-302845357.html",
-    "industry": "AI & Technology",
-    "summary": "REDMOND, Washington, 6 de agosto de 2026 /PRNewswire/ -- EarthDefine, un proveedor de productos geoespaciales de alta resolución, anunció el lanzamiento de su API 3D Buildings Footprints, que brinda a los desarrolladores y empresas acceso programático a la huella y la estructura detalladas de los edificios...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Amazon y Walmart quieren adelantar al consumidor en su próxima compra",
-    "url": "https://www.pymnts.com/news/retail/2026/amazon-walmart-race-consumers-next-purchase/",
-    "industry": "AI & Technology",
-    "summary": "La valoración de Amazon de 3 billones de dólares, lograda esta semana, está siendo tratada como un hito en materia de inteligencia artificial y computación en la nube. Para los líderes minoristas, esto debería leerse como una señal más amplia de que los inversores valoran la infraestructura que rodea al comercio tanto como...",
+    "summary": "Matthew Roark, de 39 años, fue arrestado dos días antes de morir en la cárcel del condado de Caldwell.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -156,6 +140,22 @@
     "url": "https://www.wcnc.com/article/news/local/citation-jet-runway-storm-statesville-airport/275-a8ef758c-3931-4821-bbb8-a74ba140e3b1",
     "industry": "AI & Technology",
     "summary": "Había dos personas a bordo del avión, pero no se reportaron heridos, según el aeropuerto.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Humedad opresiva, tormentas irregulares en las Carolinas: detalles aquí",
+    "url": "https://www.wbtv.com/2026/08/08/oppressive-humidity-spotty-storms-carolinas-details-here/",
+    "industry": "AI & Technology",
+    "summary": "Más tormentas para cerrar la semana laboral",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "El quinto lote de archivos OVNI publicados contiene notas de la CIA y representaciones artísticas",
+    "url": "https://www.wbtv.com/2026/08/07/fifth-batch-ufo-files-released-contains-cia-notes-artistic-renderings/",
+    "industry": "AI & Technology",
+    "summary": "El Departamento de Guerra publicó su quinto lote de avistamientos de fenómenos anómalos no identificados, también conocidos como avistamientos de UAP u OVNIs.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
