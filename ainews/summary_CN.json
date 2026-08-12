@@ -1,9 +1,33 @@
 [
   {
-    "title": "OpenAI 收购演示初创公司 NextSlide",
-    "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+    "title": "OpenAI 支持的 Thrive Holdings 筹集了 20 亿美元，将人工智能引入企业",
+    "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
     "industry": "AI & Technology",
-    "summary": "创始人艾哈迈德·贝什里 (Ahmed Beshry) 将这家初创公司的产品描述为“可以将提示、笔记、文档或研究转化为精美的、可编辑的演示文稿”。",
+    "summary": "Thrive Holdings 已从软银、D1 Capital Partners 和 Altimeter Capital 等投资者处筹集了 20 亿美元新资金，估值为 120 亿美元。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Lovable 确认新估值 13.3B 美元，再融资 4 亿美元",
+    "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
+    "industry": "AI & Technology",
+    "summary": "Lovable 告诉 TechCrunch，这笔新融资是在 6 月份年化运行收入达到 5 亿美元之后进行的。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "据报道，人工智能编码初创公司 Cognition 已在就估值 40B 美元的融资进行谈判",
+    "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+    "industry": "AI & Technology",
+    "summary": "在以 260 亿美元的估值筹集 10 亿美元后的几个月，Cognition 可能正在寻求另一轮大型融资。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "AI 代码测试初创公司 Blacksmith 的估值在不到一年的时间里上涨了近 10 倍",
+    "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+    "industry": "AI & Technology",
+    "summary": "布莱克史密斯表示，过去一年的收入增长了十倍多。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -48,26 +72,26 @@
     "impact_score": 5
   },
   {
-    "title": "马克·扎克伯格的人工智能宣言正是人们不喜欢人工智能的原因",
-    "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+    "title": "随着人工智能安全问题的加剧，三位先驱者提出了保持开放的理由",
+    "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
     "industry": "AI & Technology",
-    "summary": "周一，马克·扎克伯格发表了一份关于个人人工智能的 6,500 字宣言，主要是关于 Meta AI 正在构建的“个人超级智能”系统的可能性。",
+    "summary": "在 Ai4 上，世界上最受尊敬的三位人工智能专家——杰弗里·辛顿 (Geoffrey Hinton)、李飞飞和吴恩达 (Andrew Ng)——就监管、开源准入以及美国如何在中国在亚洲取得进步的情况下进行竞争进行了辩论。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Meta 的新 Glimmer AI 模型为扎克伯格的个人智能愿景提供了暗示",
-    "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+    "title": "为什么 Stream 戒指制造商 Sandbar 表示 AI 可穿戴设备的未来是语音",
+    "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
     "industry": "AI & Technology",
-    "summary": "Meta 的新开放权重 Muse Glimmer 模型让我们一睹马克·扎克伯格的个人超级智能愿景，以及人工智能用户可以拥有和访问之间正在出现的鸿沟。",
+    "summary": "人工智能笔记硬件在过去几年里已经取得了飞速发展，信用卡大小的设备、吊坠、别针，甚至转录耳塞都有望捕捉你的会议并将其转化为摘要和行动项目。现在，我们一整波...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "伯尼·桑德斯 (Bernie Sanders) 要求 OpenAI、Anthropic 和 Meta 暂停人工智能开发，否则将面临参议院行动",
-    "url": "https://www.techspot.com/news/113433-bernie-sanders-tells-openai-anthropic-meta-pause-ai.html",
+    "title": "为什么Sandbar认为它的语音戒指可以避免人工智能硬件坟墓",
+    "url": "https://techcrunch.com/podcast/why-sandbar-thinks-its-voice-enabled-ring-can-avoid-the-ai-hardware-graveyard/",
     "industry": "AI & Technology",
-    "summary": "在给 OpenAI、Anthropic 和 Meta 首席执行官的信中，桑德斯写道，几乎每天都会有新的故事讲述这些公司如何失去对其人工智能代理的控制。阅读整篇文章",
+    "summary": "人工智能笔记硬件在过去几年里已经取得了飞速发展，信用卡大小的设备、吊坠、别针，甚至转录耳塞都有望捕捉你的会议并将其转化为摘要和行动项目。现在，我们一整波...",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -88,74 +112,50 @@
     "impact_score": 5
   },
   {
-    "title": "Discovered Materials 正在玩人工智能打地鼠游戏来寻找更酷的芯片",
-    "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+    "title": "英伟达希望其芯片成为华尔街最新的资产类别——这意味着什么",
+    "url": "https://biztoc.com/x/de508422bf8ed279",
     "industry": "AI & Technology",
-    "summary": "Discovered Materials 筹集了 900 万美元，用于资助寻找更多新颖材料来制造更高效的芯片。",
+    "summary": "英伟达正试图将其人工智能芯片转变为华尔街最新的资产类别，与六家大型资产公司合作......",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "AI安全测试正成为安全风险",
-    "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+    "title": "IBM 达成 2.4 亿美元的人工智能推理交易",
+    "url": "https://biztoc.com/x/e257c852828ff5ac",
     "industry": "AI & Technology",
-    "summary": "人工智能代理正在逃离网络安全测试环境并进入现实世界系统，这引发了人们对安全基础设施、行业标准和监管能否跟上日益强大的模型的步伐的疑问。",
+    "summary": "本文首次发表于 GuruFocus。\n企业技术公司国际商业机器公司（IBM，金融）与Together AI签署了一项价值2.4亿美元的多年期协议，以建立一个大规模的人工智能推理集群……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "法国媒体要求法国反垄断监管机构对谷歌人工智能采取行动",
-    "url": "https://www.channelnewsasia.com/business/french-media-asks-french-anti-trust-watchdog-act-googles-ai-6312111",
+    "title": "Anthropic 添加水印来表示人工智能生成的内容",
+    "url": "https://biztoc.com/x/d0f88734393618c2",
     "industry": "AI & Technology",
-    "summary": "巴黎，8 月 11 日：一家新闻行业协会周二表示，法国媒体已要求该国反垄断监管机构对谷歌人工智能生成的文章摘要采取行动，他们称这些文章摘要剥夺了他们的流量。",
+    "summary": "Anthropic 已开始将其模型内容标记为人工智能生成，以遵守新的欧盟法规。\n这家人工智能 (AI) 初创公司周二（8 月 11 日）在其 Claude 模型的支持页面上注意到了这一变化，并表示这是为了回应……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "法国新闻机构要求竞争监管机构对谷歌人工智能采取行动",
-    "url": "https://finance.yahoo.com/media-advertising/articles/french-media-asks-french-anti-111506471.html",
+    "title": "“停止窃取我们的未来”：学生因抗议 OpenAI 大堂办公室而被捕",
+    "url": "https://www.commondreams.org/news/ai-protest",
     "industry": "AI & Technology",
-    "summary": "法国新闻协会已要求该国竞争监管机构对谷歌人工智能生成的文章摘要采取行动，...",
+    "summary": "支持人工智能的超级政治行动委员会“引领未来”预计将在中期选举上花费 2 亿美元，因为该行业正在与法规和对其技术可能造成的危害的责任进行斗争，数十名学生…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "PowerBank 宣布在安大略省北布鲁斯半岛建设 4 兆瓦太阳能项目",
-    "url": "https://www.prnewswire.com/news-releases/powerbank-announces-4-mw-solar-project-in-north-bruce-peninsula-ontario-302847818.html",
+    "title": "6岁女童从公寓窗户跳下，可卡因检测呈阳性，女子被指控",
+    "url": "https://www.wbtv.com/2026/08/12/woman-charged-after-6-year-old-jumps-out-apartment-window-tests-positive-cocaine/",
     "industry": "AI & Technology",
-    "summary": "项目预计将为多伦多约 640 户家庭供电，2026 年 8 月 11 日 /美通社/ -- PowerBank Corporation（纳斯达克股票代码：PBK）（Cboe CA：PBK）（FSE：103）（“PowerBank”或“公司”）是独立能源开发和资产所有者的领导者……",
+    "summary": "西弗吉尼亚州当局表示，一名妇女因一名儿童可卡因检测呈阳性并从公寓窗户跳下而被捕。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "比特币支持的贷款正在进入制度化时代：两个Prime",
-    "url": "https://www.coindesk.com/markets/2026/08/11/bitcoin-backed-lending-is-entering-its-institutional-era-two-prime",
+    "title": "Chick-fil-A 为其秋季产品系列增添了新口味，包括全天供应的三明治",
+    "url": "https://www.wbtv.com/2026/08/12/chick-fil-a-adds-new-flavors-its-fall-lineup-including-sandwich-available-all-day-long/",
     "industry": "AI & Technology",
-    "summary": "上市公司越来越多地以其持有的比特币为抵押借款，为收购和资本支出提供资金，而无需出售资产。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "米尔堡和罗克山的学校在课堂上采用不同的人工智能方法",
-    "url": "https://www.wcnc.com/article/news/education/schools-take-different-approaches-to-ai-in-the-classroom/275-56d5feb1-ec58-40b0-9143-69b4fb0f4b2d",
-    "industry": "AI & Technology",
-    "summary": "米尔堡学校今年将推出新的人工智能指南，而罗克山学校则首先关注屏幕时间。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "拉姆齐溪海滩将在夏季剩余时间保持关闭",
-    "url": "https://www.wcnc.com/article/news/local/ramsey-creek-beach-closed-for-summer-2026-drought-conditions/275-2f572668-24b5-44d0-aa7c-fa360cb06a88",
-    "industry": "AI & Technology",
-    "summary": "尽管最近降雨，梅克伦堡县的拉姆齐溪海滩仍因干旱而关闭，因为水位太低，无法安全游泳。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "穆斯林领导人呼吁公平，打击围绕拟建穆尔斯维尔清真寺的错误信息",
-    "url": "https://www.wbtv.com/2026/08/11/muslim-leaders-combat-misinformation-surrounding-proposed-mooresville-mosque/",
-    "industry": "AI & Technology",
-    "summary": "他们辩称，他们希望在美国宪法的保护下有专门的空间来实践他们的信仰。",
+    "summary": "Chick-fil-A 限时在其菜单中添加鸡肉和华夫饼三明治，以及两款新的 S'mores 饮料。以下是 8 月 24 日上线之前需要了解的信息。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
