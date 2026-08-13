@@ -8,10 +8,42 @@
     "impact_score": 5
   },
   {
+    "title": "OpenAI presenta 'Ultrafast', un nuevo modo que hace que GPT 5.6 Sol funcione a 14 veces más velocidad",
+    "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI está lanzando una vista previa de una versión acelerada de su modelo más reciente y potente, en un esfuerzo por cortejar a los usuarios empresariales.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "IBM se asocia con OpenAI para impulsar el impulso de la IA empresarial",
+    "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+    "industry": "AI & Technology",
+    "summary": "IBM planea capacitar y certificar a decenas y miles de consultores en las tecnologías de OpenAI como parte de este acuerdo.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
     "title": "Lovable confirma una nueva valoración de 13.300 millones de dólares y recauda otros 400 millones de dólares",
     "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
     "industry": "AI & Technology",
     "summary": "Esta nueva financiación se produce después de que Lovable alcanzara los 500 millones de dólares en ingresos por tasa de ejecución anualizada en junio, dijo la startup a TechCrunch.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI contrata a un nuevo CRO mientras continúa la reestructuración ejecutiva",
+    "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
+    "industry": "AI & Technology",
+    "summary": "Dali Rajic asumirá el cargo de principal vendedor de OpenAI.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Microsoft elimina las funciones de IA que no tuvieron éxito mientras fusiona sus aplicaciones Copilot separadas",
+    "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+    "industry": "AI & Technology",
+    "summary": "Microsoft está simplificando Copilot combinando sus aplicaciones comerciales y de consumo, y eliminando los podcasts generados por IA, los chats grupales, la investigación profunda y su carácter Mico.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -40,26 +72,10 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI lanza la aplicación de escritorio ChatGPT para Linux",
-    "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+    "title": "Anthropic liberó a los agentes de IA en la misma tarea. Comenzaron una guerra territorial.",
+    "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
     "industry": "AI & Technology",
-    "summary": "OpenAI finalmente trae una aplicación de escritorio ChatGPT dedicada a los sistemas operativos Linux.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Brad Lightcap, director de operaciones de OpenAI desde hace mucho tiempo, se marcha para \"comenzar algo nuevo\"",
-    "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
-    "industry": "AI & Technology",
-    "summary": "Uno de los ejecutivos con más años de servicio en OpenAI está a punto de salir, aunque el veterano director de operaciones le dijo al personal que estaba \"emocionado de ayudarlos a todos a avanzar en la misión desde un punto de vista diferente\".",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "General Catalyst lidera una ronda de 1.100 millones de dólares en River AI de 2 meses",
-    "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
-    "industry": "AI & Technology",
-    "summary": "River AI, una startup fundada por el cofundador de xAI, Igor Babuschkin, tiene una visión fascinante para los agentes personales y obtuvo 1.100 millones de dólares desde el principio.",
+    "summary": "Los investigadores antrópicos descubrieron que los agentes de IA pueden chocar, confabularse y coordinarse de maneras inesperadas, lo que plantea nuevas preguntas sobre si las pruebas de seguridad actuales capturan los riesgos de los sistemas de múltiples agentes.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -88,22 +104,6 @@
     "impact_score": 5
   },
   {
-    "title": "Spotify etiquetará los perfiles de 'AI Persona' y excluirá su música de las recomendaciones",
-    "url": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/",
-    "industry": "AI & Technology",
-    "summary": "Spotify está introduciendo etiquetas \"AI Persona\" para perfiles de artistas que representan identidades generadas por IA y excluirá su música de las recomendaciones editoriales, algorítmicas y personalizadas de forma predeterminada.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Anthropic dice que marcará con agua el texto generado por sus modelos de IA",
-    "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
-    "industry": "AI & Technology",
-    "summary": "Anthropic también ampliará el soporte para marcas de agua de generaciones de IA para modelos más antiguos.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
     "title": "La junta de la MPTA aprueba la estación Camp North End Red Line y ordena un estudio en West Craighead",
     "url": "https://www.wcnc.com/article/news/local/hidden-valley-sugar-creek-residents-push-for-red-line-train-stop-north-charlotte/275-c3c971e4-5a23-40b0-8385-624f2f6e02e3",
     "industry": "AI & Technology",
@@ -112,50 +112,50 @@
     "impact_score": 5
   },
   {
-    "title": "AMD cotiza a 63 veces las ganancias futuras, mientras que Nvidia cotiza a 24 veces. La historia dice que esta es la mejor compra",
-    "url": "https://biztoc.com/x/ecdcfb30706aee81",
+    "title": "El impulso climático 'neto cero' de Wall Street colapsa a medida que los bancos estadounidenses huyen de las alianzas de bienhechores: informe",
+    "url": "https://nypost.com/2026/08/12/business/wall-streets-net-zero-climate-push-collapses-as-us-banks-flee-do-gooder-alliances-report/",
     "industry": "AI & Technology",
-    "summary": "AMD cotiza a 63 veces las ganancias futuras, mientras que Nvidia cotiza a 24 veces. La historia dice que esta es la mejor compra.\nEn el ecosistema de semiconductores en rápida expansión, Advanced Micro Devices (NASDAQ: AMD) y Nvidia (NASDAQ: NVDA) son actores fundamentales que impulsan la informática...",
+    "summary": "Los seis principales bancos estadounidenses (JPMorgan, Bank of America, Goldman Sachs, Citigroup, Morgan Stanley y Wells Fargo) abandonaron la Net Zero Banking Alliance.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Meta se enfrenta a un ajuste de cuentas de hasta 1,4 billones de dólares al iniciarse un juicio por adicción a jóvenes en Oakland",
-    "url": "https://www.kqed.org/news/12094595/meta-faces-up-to-1-4-trillion-reckoning-as-youth-addiction-trial-opens-in-oakland",
+    "title": "El multimillonario Mark Zuckerberg detalla el plan para que la nueva IA tenga datos sobre \"todo lo que sucede en la vida de la persona\" a través de grandes gafas",
+    "url": "https://biztoc.com/x/d725d99651168712",
     "industry": "AI & Technology",
-    "summary": "Cuatro estados, incluido California, dicen que Meta creó Facebook e Instagram para enganchar a los niños y ocultar lo que sabía. El juicio federal comienza este mes en Oakland.",
+    "summary": "Durante la conferencia telefónica sobre resultados del segundo trimestre de Meta Platforms (META), el director ejecutivo Mark Zuckerberg destacó la posición notable y algo inusual que está tomando la compañía en la carrera de la inteligencia artificial (IA). Zuckerberg aprovechó el momento para argumentar que la industria...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Las acciones japonesas suben a medida que suben las acciones de tecnología y bancos",
-    "url": "https://www.business-standard.com/markets/capital-market-news/japanese-stocks-rise-as-technology-and-bank-shares-gain-126081201124_1.html",
+    "title": "La Coalición por la IA en Salud intensifica sus esfuerzos contra los ciberataques",
+    "url": "https://www.pymnts.com/cybersecurity/2026/coalition-for-health-ai-mounts-effort-against-cyberattacks/",
     "industry": "AI & Technology",
-    "summary": "Las acciones de tecnología ganaron después de que las perspectivas positivas de las empresas estadounidenses CoreWeave y Super Micro Computer impulsaran el optimismo en torno al fuerte gasto en inteligencia artificial.",
+    "summary": "Un grupo sanitario sin fines de lucro centrado en la inteligencia artificial responsable está centrando su atención en la ciberseguridad. La Coalición para la IA en la Salud (CHAI) anunció el miércoles (12 de agosto) la formación de su Grupo de Trabajo de Ciberseguridad en IA en la Salud, cuyo objetivo es brindar salud...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Manolo's Bakery recauda dinero para las víctimas del terremoto de Colombia",
-    "url": "https://www.wcnc.com/article/news/local/bakery-raising-money-for-colombia-earthquake-victims/275-628f12f6-5602-458a-a7fc-f121969b2374",
+    "title": "¿Qué puede hacer la IA por usted? El relanzado Creator Studio de Facebook tiene como objetivo responder esa pregunta.",
+    "url": "https://www.tubefilter.com/2026/08/12/meta-facebook-creator-studio-full-rollout-generative-ai/",
     "industry": "AI & Technology",
-    "summary": "Manolo's Bakery en la Avenida Central está animando a la gente a donar dinero a una organización sin fines de lucro que tiene como objetivo comprar artículos en Colombia para las víctimas del terremoto.",
+    "summary": "Meta está gastando miles de millones en investigación y desarrollo de IA, y un nuevo producto de Facebook transmite algunas de esas innovaciones a los creadores. Después del lanzamiento preliminar de su Creator Studio renovado a principios de verano, Facebook le está dando a ese panel una implementación completa y...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Los tiempos de espera del DMV de Charlotte disminuyen drásticamente, dicen los conductores",
-    "url": "https://www.wcnc.com/article/news/local/charlotte-dmv-wait-times-drop-dramatically/275-b0231d3b-2ff0-4260-945c-f96a3ee5e814",
+    "title": "El nombre de dominio AP.com entra en negociaciones finales y la lista de candidatos para la adquisición está lista para cerrarse",
+    "url": "https://www.prnewswire.com/news-releases/apcom-domain-name-enters-final-negotiations-acquisition-shortlist-set-to-close-302850048.html",
     "industry": "AI & Technology",
-    "summary": "El comisionado Paul Tine atribuye a los cambios de personal y al nuevo sistema de citas un servicio más rápido",
+    "summary": "ATLANTA y PORTLAND, Oregon, 12 de agosto de 2026 /PRNewswire/ -- VPN.com, dirigida por el director ejecutivo Michael Gargiulo y el vicepresidente Sharjil Saleem, ha anunciado una convocatoria final para ofertas de adquisición calificadas para AP.com, uno de los 676 posibles nombres de dominio .com de dos letras disponibles en todo el mundo...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "El Fiscal General de Carolina del Sur contrató a un consultor externo para revisar las cuestiones de zonificación de Silfab Solar",
-    "url": "https://www.wbtv.com/2026/08/13/south-carolina-attorney-general-retained-outside-consultant-review-silfab-solar-zoning-issues/",
+    "title": "La aplicación Gemini llega a mil millones de usuarios más rápido que cualquier otro producto de Google",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/gemini-app-hits-1-billion-users-faster-than-any-other-google-product/",
     "industry": "AI & Technology",
-    "summary": "El juez confirmó la sentencia de 2024 de que la fabricación de energía solar no está permitida según la zonificación actual",
+    "summary": "La aplicación de inteligencia artificial de Google, la aplicación Gemini, tiene ahora más de mil millones de usuarios mensuales y se ha convertido en el producto de más rápido crecimiento en la historia de la compañía, dijo Google en una publicación de blog el martes (11 de agosto). Esa cifra es superior a los 650 millones mensuales...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
