@@ -1,9 +1,9 @@
 [
   {
-    "title": "OpenAI 支持的 Thrive Holdings 筹集了 20 亿美元，将人工智能引入企业",
-    "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+    "title": "阿里巴巴AI模型下载量突破30亿次，超越Meta、Google",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google",
     "industry": "AI & Technology",
-    "summary": "Thrive Holdings 已从软银、D1 Capital Partners 和 Altimeter Capital 等投资者处筹集了 20 亿美元新资金，估值为 120 亿美元。",
+    "summary": "开放模型可以下载、定制并用作新人工智能产品的构建块；这使得下载量和衍生模型数据成为中美人工智能竞赛影响力的衡量标准",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -56,7 +56,7 @@
     "impact_score": 5
   },
   {
-    "title": "微软在合并其独立的 Copilot 应用程序的同时取消了不成功的人工智能功能",
+    "title": "微软在合并其独立的 Copilot 应用程序时取消了不成功的人工智能功能",
     "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
     "industry": "AI & Technology",
     "summary": "微软正在简化 Copilot，将其消费者和商业应用程序结合起来，并放弃人工智能生成的播客、群聊、深度研究及其 Mico 角色。",
@@ -80,10 +80,26 @@
     "impact_score": 5
   },
   {
-    "title": "埃隆·马斯克 (Elon Musk) 旗下 SpaceX 以 600 亿美元完成对人工智能初创公司 Cursor 的收购",
-    "url": "https://www.business-standard.com/world-news/elon-musk-s-spacex-completes-60-billion-acquisition-of-ai-startup-cursor-126081402104_1.html",
+    "title": "阿里巴巴Qwen人工智能模型下载量突破30亿次，超越Meta、谷歌",
+    "url": "https://www.business-standard.com/world-news/alibaba-s-qwen-ai-models-cross-3-billion-downloads-overtake-meta-google-126081501092_1.html",
     "industry": "AI & Technology",
-    "summary": "根据一份监管文件，该交易于 8 月 14 日生效，即 SpaceX 正式宣布同意收购该公司两个月后。",
+    "summary": "阿里巴巴表示，随着中国人工智能在全球范围内的吸引力，其开放权重 Qwen 模型在六个月内下载量已突破 30 亿次，拥有超过 460 个模型和 30 万个衍生品",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "女子声称她的继父使用 Grok 将童年照片变成露骨图像",
+    "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+    "industry": "AI & Technology",
+    "summary": "这位女士声称人工智能工具“正在将日常生活变成儿童性虐待”。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Anthropic 分享了有关克劳德新水印如何运作的更多细节",
+    "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+    "industry": "AI & Technology",
+    "summary": "水印实际上如何发挥作用？可以通过编辑隐藏吗？这对代码有何影响？",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -112,50 +128,34 @@
     "impact_score": 5
   },
   {
-    "title": "随着人工智能安全问题的加剧，三位先驱者提出了保持开放的理由",
-    "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+    "title": "企业人工智能转型：为什么高管教育对企业领导者变得至关重要",
+    "url": "https://economictimes.indiatimes.com/industry/services/education/enterprise-ai-transformation-why-executive-education-is-becoming-essential-for-business-leaders/articleshow/133260051.cms",
     "industry": "AI & Technology",
-    "summary": "在 Ai4 会议上，世界上最受尊敬的三位人工智能专家——杰弗里·辛顿 (Geoffrey Hinton)、李飞飞和吴恩达 (Andrew Ng)——讨论了监管、开源准入以及美国如何在中国在亚洲取得进步的情况下进行竞争。",
+    "summary": "随着企业加速采用人工智能，真正的挑战是让领导者做好准备，就投资、实施和业务影响做出明智的决策。 IIM 班加罗尔 x 《经济时报》人工智能业务转型大师班和 ET 最具创新人工智能产品……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "法院命令 Google 在 7 天内修复 Play 商店提示",
-    "url": "https://www.iphoneincanada.ca/2026/08/14/court-orders-google-to-fix-play-store-prompts-within-7-days/",
+    "title": "莫迪总理敦促年轻人实现远大梦想，并强调设立 10 亿卢比创新基金",
+    "url": "https://www.thehindubusinessline.com/economy/pm-modi-urges-youth-to-dream-big-highlights-1-lakh-crore-innovation-fund/article71349175.ece",
     "industry": "AI & Technology",
-    "summary": "一名联邦法官给谷歌一周的时间来消除人为障碍、令人困惑的搜索结果以及对竞争的 Android 应用商店的可怕警告。\n法院命令 Google 在 7 天内修复 Play 商店提示的帖子首先出现在加拿大的 iPhone 上。",
+    "summary": "印度正在寻求通过扩大新一代企业家获得资金、技术和机会的机会来深化其创新生态系统",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Goodwin Procter 推出人工智能增强型风险投资工具",
-    "url": "https://www.abajournal.com/news/article/goodwin-procter-unveils-ai-enhanced-tool-for-venture-capital-funding",
+    "title": "周末读到：前剑桥教授的悲惨消息；一家“从不人工智能”的研究公司毕竟是人工智能； OpenAI 的数学突破并不重要",
+    "url": "https://retractionwatch.com/2026/08/15/weekend-reads-jason-arday-research-gold-ai-openai-math-breakthroughs/",
     "industry": "AI & Technology",
-    "summary": "Goodwin Procter 推出了自己的风险投资人工智能工具。彭博社法律周四报道称，该工具是多个工具中的第一个......",
+    "summary": "当我们准备本周的周末读物时，我们得知了前剑桥大学教授杰森·阿戴被发现死在家中的悲惨消息。最近几周，阿代一直是多则新闻报道的主题，其中包括《撤稿观察》(Retraction Watch) 报道。我们是……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "BNP 在 ChatGPT-Gemini 之战中标志着新的转折",
-    "url": "https://biztoc.com/x/b6641bb3deb14c59",
+    "title": "为什么 Zerodha 的 Nithin Kamath 要求创始人停止以人工智能为主导",
+    "url": "https://economictimes.indiatimes.com/news/new-updates/why-zarodhas-nithin-kamath-is-asking-founders-to-stop-using-ai/articleshow/133260000.cms",
     "industry": "AI & Technology",
-    "summary": "本文首次发表于 GuruFocus。\nOpenAI 的 ChatGPT 于 7 月份重新获得了对 Alphabet（纳斯达克股票代码：GOOGL）Gemini 的势头，中断了人工智能领域最重要的竞争趋势之一，正当 OpenAI 距离潜在的出版商越来越近之际……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "玛丽·柯林斯的家人正在等待对嫌疑人的审判，质疑为什么不判处死刑",
-    "url": "https://www.wcnc.com/article/news/local/mary-collins-family-awaits-trial/275-2588fa7f-3a12-4275-8a97-bbf3346f31f9",
-    "industry": "AI & Technology",
-    "summary": "本周，玛丽·柯林斯的家人准备在法庭上重温此案，两名被告表示不认罪。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "夏洛特机场轻轨计划将要求乘客转乘“旅客捷运系统”",
-    "url": "https://www.wcnc.com/article/news/local/charlotte-airport-light-rail-plan/275-46c3f40c-97d6-4235-ba83-94a1fe4c6aa5",
-    "industry": "AI & Technology",
-    "summary": "“你得下车，等下一班车。”",
+    "summary": "Zerodha 创始人 Nithin Kamath 警告初创公司创始人，在投资者推介会上简单地强调人工智能已经不再是一个差异化因素。他表示，人工智能已经成为“赌注”，与其展开比拼可能会让投资者失去兴趣。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
