@@ -1,10 +1,18 @@
 [
   {
+    "title": "Nvidia 向 OpenAI 项目背后的软银数据中心开发商投资 1.5B 美元",
+    "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+    "industry": "AI & Technology",
+    "summary": "英伟达对软银数据中心开发商的投资将保证其芯片为 OpenAI 数据中心提供动力。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "OpenAI 推出“超快”新模式，使 GPT-5.6 Sol 的工作速度提高 14 倍",
     "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
     "industry": "AI & Technology",
     "summary": "OpenAI 正在推出其最新、最强大模型的加速版本预览，以吸引企业用户。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
     "impact_score": 5
   },
   {
@@ -12,6 +20,30 @@
     "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
     "industry": "AI & Technology",
     "summary": "作为此次交易的一部分，IBM 计划对数万名 OpenAI 技术顾问进行培训和认证。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "以销售书籍起家的亚马逊正在销毁稀有文本来训练人工智能",
+    "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+    "industry": "AI & Technology",
+    "summary": "善本对于培训法学硕士来说非常有价值，因为这些模型已经根据在线可用的任何内容进行了培训。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Groq 融资 3.5 亿美元，推动从 AI 芯片转向 Neocloud",
+    "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+    "industry": "AI & Technology",
+    "summary": "Groq 以 35 亿美元的估值筹集了 3.5 亿美元，这家前 AI 芯片制造商转向 Neocloud 业务并扩大其由 Nvidia 驱动的数据中心业务。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Wispr 以 20 亿美元估值筹集 2.8 亿美元，因为它看起来超越了指令",
+    "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+    "industry": "AI & Technology",
+    "summary": "Wispr 的总资金现已超过 3.61 亿美元。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -48,22 +80,6 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI 聘请新 CRO，高管变动仍在继续",
-    "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
-    "industry": "AI & Technology",
-    "summary": "OpenAI 在上任仅九个月后就取代了首席营收官 Denise Dresser，任命 Wiz 总裁兼首席运营官 Dali Rajic 接任前沿实验室的最高销售职位。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "微软在合并其独立的 Copilot 应用程序时取消了不成功的人工智能功能",
-    "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
-    "industry": "AI & Technology",
-    "summary": "微软正在简化 Copilot，将其消费者和商业应用程序结合起来，并放弃人工智能生成的播客、群聊、深度研究及其 Mico 角色。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
     "title": "为什么人们不相信马克·扎克伯格的人工智能未来",
     "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
     "industry": "AI & Technology",
@@ -96,6 +112,14 @@
     "impact_score": 5
   },
   {
+    "title": "如何判断您的人工智能平台的帐户是否被黑客入侵",
+    "url": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
+    "industry": "AI & Technology",
+    "summary": "有关如何检查黑客是否在最流行的人工智能平台上侵入您的帐户的指南。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "作者引入了新的人工智能模型和升级的工具来控制代币成本",
     "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
     "industry": "AI & Technology",
@@ -112,34 +136,18 @@
     "impact_score": 5
   },
   {
-    "title": "人类让人工智能代理松散地执行同一任务。他们开始了地盘争夺战。",
-    "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+    "title": "联合创始人 Prateek Maheshwari 表示，PhysicsWallah 预计第三季度 PAT 增长",
+    "url": "https://www.business-standard.com/companies/people/physicswallah-eyes-pat-growth-in-q3-says-cofounder-prateek-maheshwari-126081600249_1.html",
     "industry": "AI & Technology",
-    "summary": "人类研究人员发现人工智能代理可以以意想不到的方式发生冲突、共谋和协调，这引发了新的问题：当今的安全测试是否捕捉到了多代理系统的风险。",
+    "summary": "Maheshwari 还深入探讨了公司的线下扩张、收购和人工智能 (AI) 战略",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Jim Cramer 支持 NVIDIA (NVDA) 计算债券",
-    "url": "https://biztoc.com/x/c974c0fa7d9250a7",
+    "title": "徒步旅行者在祖父山摔倒后被空运",
+    "url": "https://www.wcnc.com/article/news/local/grandfather-mountain-hiker-rescued/275-53f090b7-a3bc-4460-bf6c-8293c17e6443",
     "industry": "AI & Technology",
-    "summary": "金融市场正在发生大规模的结构性转变，人工智能硬件可能越来越多地成为证券化信贷的抵押品。在 8 月 11 日 CNBC 的 Mad Money 节目中，主持人 Jim Cramer 详细介绍了主要投资如何......",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "这 5 只人工智能股票在过去 3 年里回报率超过 300%，其中 1 只看起来仍然非常便宜",
-    "url": "https://biztoc.com/x/b46c6de04d54a4ef",
-    "industry": "AI & Technology",
-    "summary": "随着公司转变产品和服务以进军快速扩张的人工智能市场，许多科技股在过去几年中取得了令人瞩目的涨幅。\n一些最大的赢家——例如 Nvidia（纳斯达克股票代码：NVDA）、M……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "数字平台如何重新定义在线金融的信任",
-    "url": "https://bitcoinfoundation.org/news/opinion/how-digital-platforms-are-redefining-trust-in-online-finance/",
-    "industry": "AI & Technology",
-    "summary": "近年来，对在线金融的信任已成为最重要的资产之一。数百万人正在管理他们的投资，支付他们的账单，......\n数字平台如何重新定义在线金融中的信任一文首先出现在比特币基金会上……",
+    "summary": "多个机构帮助空运了一名周末在祖父山州立公园“严重摔倒”的徒步旅行者。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -148,14 +156,6 @@
     "url": "https://www.wcnc.com/article/news/local/mary-collins-family-awaits-trial/275-2588fa7f-3a12-4275-8a97-bbf3346f31f9",
     "industry": "AI & Technology",
     "summary": "本周，玛丽·柯林斯的家人准备在法庭上重温此案，两名被告表示不认罪。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "夏洛特机场轻轨计划将要求乘客转乘“旅客捷运系统”",
-    "url": "https://www.wcnc.com/article/news/local/charlotte-airport-light-rail-plan/275-46c3f40c-97d6-4235-ba83-94a1fe4c6aa5",
-    "industry": "AI & Technology",
-    "summary": "“你得下车，等下一班车。”",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
