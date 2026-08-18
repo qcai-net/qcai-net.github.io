@@ -16,6 +16,22 @@
     "impact_score": 5
   },
   {
+    "title": "Hugging Face 泄露后 OpenAI 制定了新的保障措施",
+    "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+    "industry": "AI & Technology",
+    "summary": "新的保障措施包括在开发过程中对模型进行更详细的监控，以及在培训后过程中更加强调一致性和安全性。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 为青少年推出了更安全的 ChatGPT——在青少年开始使用几年后",
+    "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+    "industry": "AI & Technology",
+    "summary": "ChatGPT for Teens 增加了适合年龄的安全措施、家长控制和学习工具，旨在引导青少年远离有害内容，并避免使用人工智能在作业上作弊。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "以销售书籍起家的亚马逊正在销毁稀有文本来训练人工智能",
     "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
     "industry": "AI & Technology",
@@ -48,34 +64,42 @@
     "impact_score": 5
   },
   {
-    "title": "马克·扎克伯格真的相信人工智能“适合所有人”吗？",
-    "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+    "title": "Nvidia 为 OpenAI 俄亥俄州大型数据中心提供 105B 美元融资——将成为世界上最大的数据中心之一",
+    "url": "https://nypost.com/2026/08/17/business/nvidia-provides-105b-in-financing-toward-openais-massive-ohio-data-center/",
     "industry": "AI & Technology",
-    "summary": "Meta 本周发布了 Glimmer，这是一个开放式 AI 模型，任何人都可以下载并在自己的硬件上运行，这与该公司更强大的模型 Muse Spark 形成鲜明对比，该模型始终锁定在自己的 API 后面。该新闻稿与一封来自……的信一起发布。",
+    "summary": "OpenAI 已与该网站签署了一份为期 20 年的协议，该网站最终将提供约 8 吉瓦的计算能力，有助于支持 ChatGPT 等产品。就能源而言，一吉瓦可为约 750,000 个家庭供电。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Meta 的“开放”人工智能，以及 2.5 亿美元的交易出了大问题",
-    "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+    "title": "首席执行官表示，五角大楼要求更快推动人工智能发展的压力推动了 Smack 的新一轮融资",
+    "url": "https://www.channelnewsasia.com/business/pentagon-pressure-move-ai-faster-drives-smacks-new-funding-round-ceo-says-6324476",
     "industry": "AI & Technology",
-    "summary": "Meta 本周发布了 Glimmer，这是一个开放式 AI 模型，任何人都可以下载并在自己的硬件上运行，这与该公司更强大的模型 Muse Spark 形成鲜明对比，该模型始终锁定在自己的 API 后面。该新闻稿与一封来自……的信一起发布。",
+    "summary": "华盛顿，8 月 17 日：Smack Technologies 是一家为军队打造人工智能决策工具的国防技术初创公司，正在筹集资金以加快其旗舰产品的生产，并制造专为战斗设计的可穿戴人工智能硬件……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Anthropic 计划以 70 亿美元收购以色列人工智能初创公司 Decart：Ynet 新闻",
-    "url": "https://cryptobriefing.com/anthropic-eyes-7b-acquisition-of-israeli-ai-startup-decart-ynet-news/",
+    "title": "为什么苹果配备摄像头的 AirPods 可能不是消费者担心的“变态 Pod”",
+    "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
     "industry": "AI & Technology",
-    "summary": "Anthropic 对 Decart 的潜在收购可能会显着增强其人工智能能力，影响其市场地位和估值增长。\nAnthropic 计划以 70 亿美元收购以色列人工智能初创公司 Decart：Ynet News 的消息首先出现在 Crypto Briefing 上。",
+    "summary": "苹果泄露的配备摄像头的 AirPods 可能会阻止用户录制照片和视频，从而避免其他人工智能可穿戴设备的隐私陷阱。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "人工智能成为印度 IT 收购的关键驱动力",
-    "url": "https://www.thehindubusinessline.com/economy/ai-emerges-as-key-driver-of-indian-it-acquisitions/article71355837.ece",
+    "title": "Warp 的新系统是一个用于人工智能开发的开箱即用的软件工厂",
+    "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
     "industry": "AI & Technology",
-    "summary": "随着企业对人工智能的需求加速，印度科技公司越来越多地在海外寻找专业人才、平台和知识产权",
+    "summary": "周二，Warp 推出了 Warp Factories，这是一种新的基础设施系统，旨在使构建人工智能软件工厂变得尽可能简单。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Perplexity 的免费人工智能服务使其在印度拥有数百万用户",
+    "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
+    "industry": "AI & Technology",
+    "summary": "Airtel 对新用户的优惠结束后，Perplexity 在印度的收入增长了约 60%，尽管下载量有所下降。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -128,34 +152,10 @@
     "impact_score": 5
   },
   {
-    "title": "作者引入了新的人工智能模型和升级的工具来控制代币成本",
-    "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+    "title": "铜价紧缩，价差飙升，价格接近历史纪录",
+    "url": "https://financialpost.com/commodities/mining/copper-squeeze-builds-spreads-surging-price-near-record",
     "industry": "AI & Technology",
-    "summary": "作为 Z.ai 开源模型 GLM-5.2 的训练后变体，Writer 表示新系统应该以低得多的价格提供部署就绪的功能。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Databricks 想要筹集 1B 美元，投资者想要 15B 美元。其最终估值为 5B 美元，估值为 190B 美元。",
-    "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
-    "industry": "AI & Technology",
-    "summary": "Ali Ghodsi 告诉 TechCrunch，人工智能很昂贵。由于有如此多的投资者想要参与他的最新一轮投资，他对超出计划的投资表示同意。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "算法背后的受众：ET 如何帮助您将 AI 雄心壮志转化为业务战略",
-    "url": "https://economictimes.indiatimes.com/industry/media/entertainment/the-audience-behind-the-algorithm-how-et-helps-turn-your-ai-ambition-into-business-strategy/articleshow/133293312.cms",
-    "industry": "AI & Technology",
-    "summary": "从战略角度审视 ET 的“与我们合作”计划如何帮助 Snowflake 等企业技术品牌接触到有影响力的决策者，围绕人工智能和数据建立权威，并将可见性转化为有意义的业务对话和实质性运营……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "旧的 CRM 会记住您的潜在客户。这家德拉敦初创公司希望赢得他们的青睐。",
-    "url": "https://www.business-standard.com/content/specials/old-crms-remember-your-leads-this-dehradun-startup-wants-to-win-them-126081101135_1.html",
-    "industry": "AI & Technology",
-    "summary": "每个公司老板都知道这种感觉。 WhatsApp 通过网站或广告获得了新的潜在客户。这是每个企业的目标。但这往往是问题开始的地方。潜在客户有兴趣，但",
+    "summary": "伦敦金属交易所铜价升至历史新高，价差凸显近期供应严重紧缩。在这里阅读",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
