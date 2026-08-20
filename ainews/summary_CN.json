@@ -1,25 +1,25 @@
 [
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
-    "industry": "AI & Technology",
-    "summary": "Relay 创始人兼首席执行官 Jacob Bank 表示：“我们有一些非常雄心勃勃的计划来帮助您在 Chrome 中使用人工智能来完成工作，我很快就会分享更多内容。”",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "Nvidia 向 OpenAI 项目背后的软银数据中心开发商投资 1.5B 美元",
-    "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
-    "industry": "AI & Technology",
-    "summary": "英伟达对软银数据中心开发商的投资将保证其芯片为 OpenAI 数据中心提供动力。",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
     "title": "VentureBeat 任命 Rob Strechay 为其首位首席分析师，扩大其企业人工智能研究力度",
     "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "<p>Rob Strechay 直到最近才担任 theCUBE Research 的董事总经理兼首席分析师，现已加入 VentureBeat，担任我们的第一位首席分析师和 VentureBeat Research 的创始分析师。他的到来是 VentureBeat 迈向更深入专业化的深思熟虑的下一步……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 寻求通过新的客户隐私保护来超越 Anthropic",
+    "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI 和 Anthropic 之间正在展开一场竞争，看谁能为企业客户数据提供最好的隐私保护。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "谷歌为搜索和 Gemini 提供新的人工智能研究工具",
+    "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+    "industry": "AI & Technology",
+    "summary": "新学习功能的推出标志着 Google 在继续与 OpenAI 等公司竞争的同时，将 Gemini 打造成学生在学习和学习时可以求助的 AI 助手的最新努力。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -27,7 +27,7 @@
     "title": "研究人员称 OpenAI 撤销了他们对有限网络程序的访问权限",
     "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
     "industry": "AI & Technology",
-    "summary": "多名网络安全研究人员表示，他们突然无法访问 OpenAI 的网络可信访问 (TAC) 计划，该计划为经过审查的用户提供了较少护栏的模型。",
+    "summary": "OpenAI 的可信网络访问计划背后的想法是为受信任的防御者提供更好的模型，以便他们可以向公司报告错误和漏洞，目的是更快地修补缺陷。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -36,7 +36,7 @@
     "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
     "industry": "AI & Technology",
     "summary": "人工智能的发展没有放缓的迹象。随着每年数千亿美元投入数据中心和 GPU，计算已成为构建人工智能产品的最大单一成本。但尽管有这么多支出，仍然没有……",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
@@ -48,7 +48,7 @@
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "人工智能距离治愈癌症还很遥远。这家初创公司表示，它知道需要做什么。",
     "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
     "industry": "AI & Technology",
     "summary": "笨蛋，这就是数据。",
@@ -56,51 +56,43 @@
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "Hugging Face 泄露后 OpenAI 制定了新的保障措施",
     "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "新的保障措施包括在开发过程中对模型进行更详细的监控，以及在培训后过程中更加强调一致性和安全性。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
     "title": "OpenAI 为青少年推出了更安全的 ChatGPT——在青少年开始使用几年后",
     "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "ChatGPT for Teens 增加了适合年龄的安全措施、家长控制和学习工具，旨在引导青少年远离有害内容，并避免使用人工智能在作业上作弊。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+    "title": "币安现在允许人工智能代理进行交易，但控制它们很大程度上取决于用户",
+    "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
     "industry": "AI & Technology",
-    "summary": "善本对于培训法学硕士来说非常有价值，因为这些模型已经根据在线可用的任何内容进行了培训。",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "Groq 融资 3.5 亿美元，推动从 AI 芯片转向 Neocloud",
-    "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
-    "industry": "AI & Technology",
-    "summary": "Groq 以 35 亿美元的估值筹集了 3.5 亿美元，这家前 AI 芯片制造商转向 Neocloud 业务并扩大其由 Nvidia 驱动的数据中心业务。",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "Personetics 合作伙伴计划为银行提供更深入的客户洞察",
-    "url": "https://biztoc.com/x/3588d1381305bf26",
-    "industry": "AI & Technology",
-    "summary": "Personetics 在周二（8 月 18 日）的新闻稿中表示，通过与 Plaid 合作，Personetics 已将开放式金融智能添加到其人工智能 (AI) 支持的银行和信用社个性化平台中。\n这种合作伙伴关系使银行能够……",
+    "summary": "币安的代理操作系统可与 ChatGPT、Claude Code 和 Cursor 等工具配合使用。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "人工智能现在应该赢得人们的支持——但事实并非如此",
+    "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+    "industry": "AI & Technology",
+    "summary": "随着人工智能变得越来越难以避免，消费者对这项技术越来越警惕——而硅谷发现，广泛采用并不一定会带来接受。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "TerraPower 的核反应堆拥有为人工智能数据中心供电的秘密武器",
     "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
     "industry": "AI & Technology",
     "summary": "TerraPower 的核电站比竞争对手拥有战略优势，特别是在追逐数据中心交易时。",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
@@ -115,7 +107,7 @@
     "title": "为什么苹果配备摄像头的 AirPods 可能不是消费者担心的“变态 Pod”",
     "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "苹果泄露的配备摄像头的 AirPods 可能会阻止用户录制照片和视频，从而避免其他人工智能可穿戴设备的隐私陷阱。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -124,38 +116,46 @@
     "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
     "industry": "AI & Technology",
     "summary": "周二，Warp 推出了 Warp Factories，这是一种新的基础设施系统，旨在使构建人工智能软件工厂变得尽可能简单。",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "Perplexity 的免费人工智能服务使其在印度拥有数百万用户",
     "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
     "industry": "AI & Technology",
     "summary": "Airtel 对新用户的优惠结束后，Perplexity 在印度的收入增长了约 60%，尽管下载量有所下降。",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "71% 的印度医疗保健专业人员表示人工智能提高了他们治疗更多患者的能力：飞利浦未来健康指数 2026 年印度报告",
-    "url": "https://www.thehindubusinessline.com/brandhub/pr-release/71-of-healthcare-professionals-in-india-say-ai-has-increased-their-capacity-to-see-more-patients-philips-future-health-index-2026-india-report/article71359947.ece",
-    "industry": "AI & Technology",
-    "summary": "71% 的印度医疗保健专业人员表示人工智能提高了他们治疗更多患者的能力：飞利浦未来健康指数 2026 年印度报告",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "OpenAI 在其人工智能代理失控后彻底修改了安全协议",
-    "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
+    "title": "金融领域的人工智能：从处理数字到做出决策，能走多远？",
+    "url": "https://economictimes.indiatimes.com/industry/banking/finance/ai-in-finance-from-crunching-numbers-to-making-decisions-how-far-can-it-go/articleshow/133345508.cms",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "人工智能越来越多地协助财务任务和决策。  组织报告称，通过人工智能集成提高了决策质量并加快了处理速度。  簿记等日常财务工作正在由人工智能系统实现自动化。  豪…",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "亲爱的 Nvidia 股票粉丝，请在您的日历上标记 8 月 26 日",
-    "url": "https://biztoc.com/x/fca6dd932f44b539",
+    "title": "据报道 OpenAI Astra ChatGPT 6 使用多代理任务委派",
+    "url": "https://www.geeky-gadgets.com/openai-astra-model-rumors/",
     "industry": "AI & Technology",
-    "summary": "考虑到英伟达 (NVDA) 对人工智能 (AI) 革命的重要性，它可能是整个市场上最重要的股票，其季度业绩值得关注。\n这并不是因为英伟达确实有可能错过其数据。这我…",
+    "summary": "OpenAI 即将推出的 ChatGPT 6 代号为“Astra”的模型在 AI 社区中引起了极大的期待，其强调多代理功能，有望重塑人工智能处理复杂任务的方式。据《人工智能世界》报道，阿斯特拉……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "古吉拉特邦首席部长在美国之行会见美光科技、谷歌和 Perplexity 首席执行官；将国家定位为人工智能、半导体中心",
+    "url": "https://www.thehindubusinessline.com/news/national/gujarat-cm-on-us-tour-meets-micron-google-perplexity-ceos-pitches-state-as-ai-semiconductor-hub/article71364355.ece",
+    "industry": "AI & Technology",
+    "summary": "会议重点讨论古吉拉特邦的半导体、人工智能、数据基础设施、技能和潜在投资",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "三人被指控在 2024 年平安夜发生在坎纳波利斯的凶杀案；等待引渡的嫌疑人",
+    "url": "https://www.wcnc.com/article/news/crime/three-charged-in-2024-christmas-eve-homicide-in-kannapolis-suspects-awaiting-extradition/275-4e1f373f-e25a-4683-840a-052e2bc5df51",
+    "industry": "AI & Technology",
+    "summary": "一名嫌疑人在夏洛特被捕。另外两人被关押在加利福尼亚州，并将被引渡到北卡罗来纳州。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
