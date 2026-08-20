@@ -24,6 +24,22 @@
     "impact_score": 5
   },
   {
+    "title": "La gran desagregación del Finance Stack hace que los directores financieros se pregunten qué necesitan poseer",
+    "url": "https://www.pymnts.com/news/b2b-payments/2026/the-finance-stacks-great-unbundling-has-cfos-asking-what-they-need-to-own/",
+    "industry": "AI & Technology",
+    "summary": "Cuanto más grande es la empresa, más extensa tiende a ser su back office. Los sistemas de planificación de recursos empresariales (ERP) se complementan con software de gestión de tesorería, plataformas de cuentas por pagar y por cobrar, herramientas de fraude, capas de conectividad bancaria, sistemas de pago...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La nueva aplicación para Mac de Meta AI quiere que hables con tus aplicaciones",
+    "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+    "industry": "AI & Technology",
+    "summary": "La compañía dijo que la función de dictado funciona en todas las aplicaciones, al igual que otras herramientas como Wispr Flow, Superwhisper y Monologue.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
     "title": "Los investigadores dicen que OpenAI revocó su acceso a un programa cibernético limitado",
     "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
     "industry": "AI & Technology",
@@ -56,18 +72,18 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI instituye nuevas salvaguardas después de la violación de Hugging Face",
-    "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+    "title": "Un tercio de las páginas web publicadas desde el lanzamiento de ChatGPT muestran signos de autoría de IA, según un estudio",
+    "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
     "industry": "AI & Technology",
-    "summary": "Las nuevas salvaguardas incluyen un seguimiento más detallado de los modelos durante el proceso de desarrollo, así como un mayor énfasis en la alineación y la seguridad durante el proceso posterior a la capacitación.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "summary": "ChatGPT y otros modelos de IA ahora crean y editan gran parte de la nueva web.",
+    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
     "impact_score": 5
   },
   {
-    "title": "OpenAI lanza un ChatGPT más seguro para adolescentes, años después de que los adolescentes comenzaran a usarlo",
-    "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+    "title": "Ramp lanza su propio modelo de router con IA, llamado Router",
+    "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
     "industry": "AI & Technology",
-    "summary": "ChatGPT para adolescentes agrega medidas de seguridad, controles parentales y herramientas de aprendizaje apropiadas para la edad diseñadas para alejar a los adolescentes del contenido dañino y del uso de inteligencia artificial para hacer trampa en sus tareas.",
+    "summary": "Ramp ha lanzado su propio servicio de enrutamiento de modelos de IA, denominado Router, que permite a los usuarios y empresas utilizar y cambiar entre varios modelos de lenguaje grandes a través de una API.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -75,7 +91,7 @@
     "title": "Binance ahora permite que los agentes de IA negocien, pero mantenerlos bajo control depende en gran medida de los usuarios",
     "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
     "industry": "AI & Technology",
-    "summary": "El sistema operativo Agent de Binance funciona con herramientas que incluyen ChatGPT, Claude Code y Cursor.",
+    "summary": "El sistema operativo Agent de Binance funciona con herramientas como ChatGPT, Claude Code y Cursor.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -104,58 +120,42 @@
     "impact_score": 5
   },
   {
-    "title": "Por qué los AirPods equipados con cámara de Apple pueden no ser los 'cápsulas pervertidas' que temen los consumidores",
-    "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
+    "title": "Maya Protocol detiene sus operaciones después de un exploit de Bitcoin de 1,7 millones de dólares",
+    "url": "https://cryptobriefing.com/maya-protocol-halts-bitcoin-exploit/",
     "industry": "AI & Technology",
-    "summary": "Los AirPods filtrados de Apple equipados con una cámara podrían evitar los problemas de privacidad de otros dispositivos portátiles con IA al impedir que los usuarios graben fotos y vídeos.",
+    "summary": "El exploit resalta las vulnerabilidades en los sistemas DeFi entre cadenas, lo que potencialmente socava la confianza y la estabilidad en las redes financieras descentralizadas.\nLa publicación El Protocolo Maya detiene sus operaciones después de un exploit de Bitcoin por valor de 1,7 millones de dólares apareció por primera vez en Crypto Briefing.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "El nuevo sistema de Warp es una fábrica de software lista para usar para el desarrollo de IA",
-    "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+    "title": "El director ejecutivo de Jyske Bank dice que la IA reduce la presión para la consolidación bancaria",
+    "url": "https://cryptobriefing.com/jyske-bank-ceo-ai-reduces-bank-consolidation/",
     "industry": "AI & Technology",
-    "summary": "El martes, Warp presentó Warp Factories, un nuevo sistema de infraestructura diseñado para facilitar al máximo la construcción de fábricas de software de IA.",
+    "summary": "El papel de la IA en la banca puede cambiar el enfoque de la consolidación a la innovación, permitiendo a los bancos más pequeños competir eficazmente sin fusionarse.\nLa publicación El CEO de Jyske Bank dice que la IA reduce la presión para la consolidación bancaria apareció por primera vez en Crypto Briefing.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "La oferta gratuita de IA de Perplexity lo dejó con millones de usuarios más en la India",
-    "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
-    "industry": "AI & Technology",
-    "summary": "Los ingresos de Perplexity en India aumentaron alrededor de un 60% después de que finalizó la oferta de Airtel para nuevos usuarios, incluso cuando las descargas disminuyeron.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "IA en las finanzas: desde hacer números hasta tomar decisiones, ¿hasta dónde puede llegar?",
-    "url": "https://economictimes.indiatimes.com/industry/banking/finance/ai-in-finance-from-crunching-numbers-to-making-decisions-how-far-can-it-go/articleshow/133345508.cms",
-    "industry": "AI & Technology",
-    "summary": "La inteligencia artificial ayuda cada vez más en las tareas financieras y en la toma de decisiones.  Las organizaciones informan una mejor calidad de las decisiones y un procesamiento más rápido con la integración de la IA.  Los sistemas de inteligencia artificial están automatizando el trabajo financiero rutinario, como la contabilidad.  Cómo...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI Astra ChatGPT 6 supuestamente utiliza la delegación de tareas de múltiples agentes",
-    "url": "https://www.geeky-gadgets.com/openai-astra-model-rumors/",
-    "industry": "AI & Technology",
-    "summary": "El próximo modelo ChatGPT 6 de OpenAI, denominado modelo “Astra”, está generando una anticipación significativa en la comunidad de IA, con su énfasis en las capacidades de múltiples agentes preparadas para remodelar la forma en que la inteligencia artificial maneja tareas complejas. Según World of AI, Astra…",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Gujarat CM en gira por Estados Unidos se reúne con los directores ejecutivos de Micron, Google y Perplexity; estado de lanzamiento como IA, centro de semiconductores",
-    "url": "https://www.thehindubusinessline.com/news/national/gujarat-cm-on-us-tour-meets-micron-google-perplexity-ceos-pitches-state-as-ai-semiconductor-hub/article71364355.ece",
-    "industry": "AI & Technology",
-    "summary": "Las reuniones se centran en semiconductores, inteligencia artificial, infraestructura de datos, habilidades y posibles inversiones en Gujarat.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Tres acusados ​​de homicidio en Nochebuena de 2024 en Kannapolis; sospechosos en espera de extradición",
+    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
     "url": "https://www.wcnc.com/article/news/crime/three-charged-in-2024-christmas-eve-homicide-in-kannapolis-suspects-awaiting-extradition/275-4e1f373f-e25a-4683-840a-052e2bc5df51",
     "industry": "AI & Technology",
     "summary": "Un sospechoso fue detenido en Charlotte. Otros dos fueron encarcelados en California y serán extraditados a Carolina del Norte.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "url": "https://www.wcnc.com/article/news/local/school-safety-remains-a-concern-for-parents-a-look-into-cms-safety-crime-data/275-76274c6e-d7d2-4f28-ba9d-febacee153db",
+    "industry": "AI & Technology",
+    "summary": "Los datos indican una disminución en los incidentes criminales en las escuelas de Charlotte-Mecklenburg, lo que destaca las mejoras en la seguridad.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Los equipos de bomberos rescatan a 3 de una balsa arrastrada río abajo en el lago Mountain Island",
+    "url": "https://www.wcnc.com/article/news/local/huntersville-fire-department-water-rescue-mountain-island-lake/275-56fe4a83-1a38-41ff-898c-3d190869bc9a",
+    "industry": "AI & Technology",
+    "summary": "Los bomberos rescataron a tres personas cuya balsa fue arrastrada río abajo en el lago Mountain Island.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }
