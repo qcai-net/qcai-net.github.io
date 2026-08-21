@@ -1,9 +1,25 @@
 [
   {
+    "title": "Una startup india pretende competir con OpenAI en un abarrotado campo de voz",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-19/india-startup-aims-to-compete-with-openai-in-crowded-voice-arena",
+    "industry": "AI & Technology",
+    "summary": "Al igual que otros modelos básicos de voz, su objetivo es proporcionar grandes ahorros para usuarios como centros de llamadas, bancos y aerolíneas, que esperan emplear la tecnología para manejar grandes volúmenes de comunicaciones con los clientes.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
     "title": "VentureBeat nombra a Rob Strechay como su primer analista principal, ampliando su impulso de investigación de IA empresarial",
     "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
     "industry": "AI & Technology",
     "summary": "<p>Rob Strechay, hasta hace poco director general y analista principal de theCUBE Research, se unió a VentureBeat como nuestro primer analista principal y analista fundador de VentureBeat Research. Su llegada es el siguiente paso en un movimiento deliberado en VentureBeat hacia una especialización más profunda...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI está ganando terreno a Anthropic entre los usuarios empresariales, según indican nuevos datos",
+    "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+    "industry": "AI & Technology",
+    "summary": "Las empresas están dispuestas a oscilar de un lado a otro a medida que cada laboratorio lanza nuevos modelos, una volatilidad que debería hacer que los inversores de ambas empresas se pregunten cuán \"pegajoso\" es realmente el gasto en IA empresarial.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -24,10 +40,18 @@
     "impact_score": 5
   },
   {
-    "title": "La gran desagregación del Finance Stack hace que los directores financieros se pregunten qué necesitan poseer",
-    "url": "https://www.pymnts.com/news/b2b-payments/2026/the-finance-stacks-great-unbundling-has-cfos-asking-what-they-need-to-own/",
+    "title": "La startup de datos de IA Micro1 alcanza una tasa de ejecución bruta de 500 millones de dólares en medio del auge del entrenamiento de IA",
+    "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
     "industry": "AI & Technology",
-    "summary": "Cuanto más grande es la empresa, más extensa tiende a ser su back office. Los sistemas de planificación de recursos empresariales (ERP) se complementan con software de gestión de tesorería, plataformas de cuentas por pagar y por cobrar, herramientas de fraude, capas de conectividad bancaria, sistemas de pago...",
+    "summary": "La creciente demanda de datos de entrenamiento de IA está impulsando un rápido crecimiento para la startup y sus rivales.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Google ofrece a los editores una nueva forma de luchar contra las pérdidas de tráfico provocadas por la IA",
+    "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+    "industry": "AI & Technology",
+    "summary": "Google está ofreciendo a los editores un nuevo botón que permite a los lectores convertirlos en una fuente preferida en Search, Discover y Google News, lo que potencialmente aumenta su tráfico a medida que la búsqueda con IA envía menos clics a la web.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -48,35 +72,11 @@
     "impact_score": 5
   },
   {
-    "title": "Conozca la startup que ayuda a Wall Street a poner precio a la computación con IA",
-    "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
-    "industry": "AI & Technology",
-    "summary": "El desarrollo de la IA no muestra signos de desaceleración. Y con cientos de miles de millones de dólares al año destinados a centros de datos y GPU, la informática se ha convertido en el mayor coste para cualquiera que cree productos de IA. Pero a pesar de todo ese gasto, todavía no hay...",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Amazon hace que Alexa+ con tecnología de inteligencia artificial sea gratuita en Fire TV, no se requiere Prime",
-    "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
-    "industry": "AI & Technology",
-    "summary": "Amazon está haciendo que su asistente Alexa+ con tecnología de inteligencia artificial sea gratuito en todos los dispositivos Fire TV compatibles en los EE. UU., actualizando automáticamente a los usuarios independientemente de que se suscriban o no a Prime.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "La IA no está ni cerca de curar el cáncer. Esta startup dice que sabe lo que hará falta.",
-    "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
-    "industry": "AI & Technology",
-    "summary": "Son los datos, estúpido.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
     "title": "Un tercio de las páginas web publicadas desde el lanzamiento de ChatGPT muestran signos de autoría de IA, según un estudio",
     "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
     "industry": "AI & Technology",
     "summary": "ChatGPT y otros modelos de IA ahora crean y editan gran parte de la nueva web.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
@@ -104,58 +104,58 @@
     "impact_score": 5
   },
   {
-    "title": "El reactor nuclear de TerraPower tiene un arma secreta para alimentar centros de datos de IA",
-    "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+    "title": "Una demanda afirma que Meta de Zuckerberg utilizó un fraude para solicitar una tarjeta verde para un trabajador con visa china",
+    "url": "https://www.breitbart.com/immigration/2026/08/20/lawsuit-claims-zuckerbergs-meta-used-fraud-to-seek-a-green-card-for-a-chinese-visa-worker/",
     "industry": "AI & Technology",
-    "summary": "La central nuclear de TerraPower posee una ventaja estratégica sobre sus competidores, especialmente cuando busca acuerdos para centros de datos.",
+    "summary": "Un exgerente está demandando a Meta Platforms de Mark Zuckerberg por despido improcedente después de que se negó a validar las reclamaciones destinadas a obtener una tarjeta de residencia para un empleado chino en 2024.\nLa demanda posterior afirma que Meta de Zuckerberg utilizó un fraude para buscar un automóvil ecológico...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Relativity Networks recauda 22 millones de dólares para llevar un tipo de fibra más rápido a los centros de datos",
-    "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
+    "title": "OpenAI frena la formación sobre riesgos de seguridad",
+    "url": "https://www.rt.com/news/644437-openai-ai-altamn-slowdown/",
     "industry": "AI & Technology",
-    "summary": "Relativity Networks se ocupa de fibra de núcleo hueco, una tecnología rara vez implementada que permite que los datos se transmitan un 30% más rápido que la fibra convencional.",
+    "summary": "OpenAI ha dicho que ha ralentizado el desarrollo de sus modelos de IA para aumentar la seguridad de sus sistemas de entrenamiento. Lea el artículo completo en RT.com",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Maya Protocol detiene sus operaciones después de un exploit de Bitcoin de 1,7 millones de dólares",
-    "url": "https://cryptobriefing.com/maya-protocol-halts-bitcoin-exploit/",
+    "title": "La próxima fase de la IA empresarial no se trata de implementar modelos, sino de gestionar su evolución: Informe",
+    "url": "https://www.thehindubusinessline.com/info-tech/next-phase-of-enterprise-ai-not-about-deploying-models-but-managing-their-evolution-report/article71368379.ece",
     "industry": "AI & Technology",
-    "summary": "El exploit resalta las vulnerabilidades en los sistemas DeFi entre cadenas, lo que potencialmente socava la confianza y la estabilidad en las redes financieras descentralizadas.\nLa publicación El Protocolo Maya detiene sus operaciones después de un exploit de Bitcoin por valor de 1,7 millones de dólares apareció por primera vez en Crypto Briefing.",
+    "summary": "El informe dice que cada lanzamiento de un nuevo modelo puede traer mejoras en el razonamiento, las ventanas de contexto, las capacidades multimodales y la precisión, pero también puede cambiar los precios, la calidad de los resultados y el comportamiento del modelo.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "El director ejecutivo de Jyske Bank dice que la IA reduce la presión para la consolidación bancaria",
-    "url": "https://cryptobriefing.com/jyske-bank-ceo-ai-reduces-bank-consolidation/",
+    "title": "Una pareja de Kannapolis aspira a ganar $20,000 en una competencia nacional en medio de batallas contra el cáncer y defensa de la rara condición de su hija",
+    "url": "https://www.wcnc.com/article/life/local-life/ian-and-maggie-adair-americas-favorite-couple-kannapolis-nc/275-6262279d-8f6d-401b-b5b3-8010a8ee671c",
     "industry": "AI & Technology",
-    "summary": "El papel de la IA en la banca puede cambiar el enfoque de la consolidación a la innovación, permitiendo a los bancos más pequeños competir eficazmente sin fusionarse.\nLa publicación El CEO de Jyske Bank dice que la IA reduce la presión para la consolidación bancaria apareció por primera vez en Crypto Briefing.",
+    "summary": "Ian y Maggie Adair son cuartofinalistas en el concurso \"La pareja favorita de Estados Unidos\" después de la batalla contra el cáncer de Maggie y el raro diagnóstico de su hija.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://www.wcnc.com/article/news/crime/three-charged-in-2024-christmas-eve-homicide-in-kannapolis-suspects-awaiting-extradition/275-4e1f373f-e25a-4683-840a-052e2bc5df51",
+    "title": "Numerosas tormentas eléctricas posibles en Carolina el viernes",
+    "url": "https://www.wcnc.com/article/weather/forecast/charlotte-weather-forecast-update/275-50501550",
     "industry": "AI & Technology",
-    "summary": "Un sospechoso fue detenido en Charlotte. Otros dos fueron encarcelados en California y serán extraditados a Carolina del Norte.",
+    "summary": "Las tormentas intermitentes provocarán fuertes lluvias, inundaciones localizadas y ráfagas de viento.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://www.wcnc.com/article/news/local/school-safety-remains-a-concern-for-parents-a-look-into-cms-safety-crime-data/275-76274c6e-d7d2-4f28-ba9d-febacee153db",
+    "title": "Ex oficial de detención del condado de Mecklenburg afirma que fue despedida por denunciar acoso",
+    "url": "https://www.wcnc.com/article/news/local/mecklenburg-county-detention-officer-claims-she-was-fired-for-reporting-harassment/275-c6abbe91-2586-4037-9b29-01d2f1ffe1cd",
     "industry": "AI & Technology",
-    "summary": "Los datos indican una disminución en los incidentes criminales en las escuelas de Charlotte-Mecklenburg, lo que destaca las mejoras en la seguridad.",
+    "summary": "La denuncia de la demanda establece que un capitán supervisor hizo comentarios, preguntas e insinuaciones sexuales no deseados hacia el oficial de detención.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Los equipos de bomberos rescatan a 3 de una balsa arrastrada río abajo en el lago Mountain Island",
-    "url": "https://www.wcnc.com/article/news/local/huntersville-fire-department-water-rescue-mountain-island-lake/275-56fe4a83-1a38-41ff-898c-3d190869bc9a",
+    "title": "Los residentes de casas móviles de Hickory enfrentan incertidumbre ya que a algunos vecinos se les dijo que se mudaran antes del 1 de septiembre.",
+    "url": "https://www.wcnc.com/article/news/local/hickory-mobile-home-residents-face-uncertainty-as-some-neighbors-told-to-move-out-by-sept-1/275-0cff9377-5d8f-426e-9f70-eae63cd7782e",
     "industry": "AI & Technology",
-    "summary": "Los bomberos rescataron a tres personas cuya balsa fue arrastrada río abajo en el lago Mountain Island.",
+    "summary": "Los vecinos dicen que se encuentran en una mala situación.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }

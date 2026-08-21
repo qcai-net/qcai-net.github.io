@@ -1,9 +1,25 @@
 [
   {
+    "title": "印度初创公司旨在在拥挤的语音领域与 OpenAI 竞争",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-19/india-startup-aims-to-compete-with-openai-in-crowded-voice-arena",
+    "industry": "AI & Technology",
+    "summary": "与其他语音基础模型一样，它旨在为呼叫中心、银行和航空公司等希望利用该技术处理大量客户通信的用户提供大量节省",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
     "title": "VentureBeat 任命 Rob Strechay 为其首位首席分析师，扩大其企业人工智能研究力度",
     "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
     "industry": "AI & Technology",
     "summary": "<p>Rob Strechay 直到最近才担任 theCUBE Research 的董事总经理兼首席分析师，现已加入 VentureBeat，担任我们的第一位首席分析师和 VentureBeat Research 的创始分析师。他的到来是 VentureBeat 迈向更深入专业化的深思熟虑的下一步……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "新数据表明，OpenAI 正在赢得商业用户的青睐",
+    "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+    "industry": "AI & Technology",
+    "summary": "随着每个实验室发布新模型，企业愿意来回波动，这种波动应该会让两家公司的投资者对企业人工智能支出到底有多么“粘性”感到犹豫。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -20,14 +36,22 @@
     "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
     "industry": "AI & Technology",
     "summary": "新学习功能的推出标志着 Google 在继续与 OpenAI 等公司竞争的同时，将 Gemini 打造成学生在学习和学习时可以求助的 AI 助手的最新努力。",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "财务堆栈的大分拆让首席财务官们询问他们需要拥有什么",
-    "url": "https://www.pymnts.com/news/b2b-payments/2026/the-finance-stacks-great-unbundling-has-cfos-asking-what-they-need-to-own/",
+    "title": "AI 数据初创公司 Micro1 在 AI 培训热潮中毛运行率达到 5 亿美元",
+    "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
     "industry": "AI & Technology",
-    "summary": "公司越大，其后台往往就越庞大。企业资源规划 (ERP) 系统辅以财务管理软件、应付账款和应收账款平台、欺诈工具、银行连接层、支付平台……",
+    "summary": "对人工智能训练数据的需求激增正在推动这家初创公司及其竞争对手的快速增长。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "谷歌为出版商提供了一种应对人工智能驱动的流量损失的新方法",
+    "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+    "industry": "AI & Technology",
+    "summary": "谷歌为出版商提供了一个新按钮，让读者可以将他们作为搜索、发现和谷歌新闻的首选来源，随着人工智能搜索向网络发送的点击次数减少，这可能会增加他们的流量。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -48,31 +72,7 @@
     "impact_score": 5
   },
   {
-    "title": "认识一下帮助华尔街为人工智能计算定价的初创公司",
-    "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
-    "industry": "AI & Technology",
-    "summary": "人工智能的发展没有放缓的迹象。随着每年数千亿美元投入数据中心和 GPU，计算已成为构建人工智能产品的最大单一成本。但尽管有这么多支出，仍然没有……",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "亚马逊在 Fire TV 上免费提供人工智能驱动的 Alexa+，无需 Prime 会员",
-    "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
-    "industry": "AI & Technology",
-    "summary": "亚马逊正在美国所有兼容的 Fire TV 设备上免费提供人工智能驱动的 Alexa+ 助手，无论用户是否订阅 Prime，都会自动升级。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "人工智能距离治愈癌症还很遥远。这家初创公司表示，它知道需要做什么。",
-    "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
-    "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "研究发现，自 ChatGPT 推出以来发布的网页中有三分之一显示出人工智能作者身份的迹象",
     "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
     "industry": "AI & Technology",
     "summary": "ChatGPT 和其他人工智能模型现在正在创作和编辑新网络的大部分内容。",
@@ -104,58 +104,58 @@
     "impact_score": 5
   },
   {
-    "title": "TerraPower 的核反应堆拥有为人工智能数据中心供电的秘密武器",
-    "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+    "title": "诉讼称扎克伯格的Meta利用欺诈手段为一名中国签证工人寻求绿卡",
+    "url": "https://www.breitbart.com/immigration/2026/08/20/lawsuit-claims-zuckerbergs-meta-used-fraud-to-seek-a-green-card-for-a-chinese-visa-worker/",
     "industry": "AI & Technology",
-    "summary": "TerraPower 的核电站比竞争对手拥有战略优势，特别是在追逐数据中心交易时。",
+    "summary": "一名前经理正在起诉马克·扎克伯格 (Mark Zuckerberg) 的元平台 (Meta Platforms)，称其不公平解雇，因为他拒绝验证旨在为一名中国员工在 2024 年获得绿卡的说法。\n诉讼声称扎克伯格的 Meta 利用欺诈手段寻求绿色汽车……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Relativity Networks 融资 2200 万美元，为数据中心提供更快的光纤",
-    "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
+    "title": "OpenAI 因安全风险而停止培训",
+    "url": "https://www.rt.com/news/644437-openai-ai-altamn-slowdown/",
     "industry": "AI & Technology",
-    "summary": "Relativity Networks 主营空心光纤，这是一种很少部署的技术，其数据传输速度比传统光纤快 30%。",
+    "summary": "OpenAI 表示，它已经放慢了人工智能模型的开发速度，以提高其训练系统的安全性。阅读 RT.com 上的全文",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "价值 170 万美元的比特币被利用后，Maya 协议停止运营",
-    "url": "https://cryptobriefing.com/maya-protocol-halts-bitcoin-exploit/",
+    "title": "企业人工智能的下一阶段不是关于部署模型，而是管理模型的演变：报告",
+    "url": "https://www.thehindubusinessline.com/info-tech/next-phase-of-enterprise-ai-not-about-deploying-models-but-managing-their-evolution-report/article71368379.ece",
     "industry": "AI & Technology",
-    "summary": "该漏洞凸显了跨链 DeFi 系统中的漏洞，可能会破坏去中心化金融网络的信任和稳定性。\n在 Crypto Briefing 首次出现价值 170 万美元的比特币漏洞后，后玛雅协议停止运营。",
+    "summary": "该报告称，每个新模型的发布都可以带来推理、上下文窗口、多模式功能和准确性方面的改进，但也可以改变定价、输出质量和模型的行为方式",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "日德兰银行首席执行官表示人工智能减轻了银行整合的压力",
-    "url": "https://cryptobriefing.com/jyske-bank-ceo-ai-reduces-bank-consolidation/",
+    "title": "坎纳波利斯夫妇的目标是在与癌症作斗争的全国比赛中赢得 20,000 美元，为女儿的罕见病辩护",
+    "url": "https://www.wcnc.com/article/life/local-life/ian-and-maggie-adair-americas-favorite-couple-kannapolis-nc/275-6262279d-8f6d-401b-b5b3-8010a8ee671c",
     "industry": "AI & Technology",
-    "summary": "人工智能在银行业的作用可能会将重点从整合转向创新，使小型银行能够在不合并的情况下有效竞争。\n日德兰银行首席执行官表示人工智能减轻了银行合并的压力，这一消息首先出现在 Crypto Briefing 上。",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "三人被指控在 2024 年平安夜发生在坎纳波利斯的凶杀案；等待引渡的嫌疑人",
-    "url": "https://www.wcnc.com/article/news/crime/three-charged-in-2024-christmas-eve-homicide-in-kannapolis-suspects-awaiting-extradition/275-4e1f373f-e25a-4683-840a-052e2bc5df51",
-    "industry": "AI & Technology",
-    "summary": "一名嫌疑人在夏洛特被捕。另外两人被关押在加利福尼亚州，并将被引渡到北卡罗来纳州。",
+    "summary": "在玛吉与癌症作斗争以及女儿被诊断为罕见疾病后，伊恩·阿代尔和玛吉·阿代尔进入了“美国最受欢迎情侣”竞赛的四分之一决赛。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "学校安全仍然是家长们关心的问题。 CMS 安全、犯罪数据研究",
-    "url": "https://www.wcnc.com/article/news/local/school-safety-remains-a-concern-for-parents-a-look-into-cms-safety-crime-data/275-76274c6e-d7d2-4f28-ba9d-febacee153db",
+    "title": "周五卡罗莱纳州可能出现多场训练性雷暴",
+    "url": "https://www.wcnc.com/article/weather/forecast/charlotte-weather-forecast-update/275-50501550",
     "industry": "AI & Technology",
-    "summary": "数据显示夏洛特-梅克伦堡学校的犯罪事件有所减少，凸显了安全性的改善。",
+    "summary": "断断续续的风暴将导致大雨、局部洪水和阵风。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "消防人员从山岛湖下游冲走的木筏中救出 3 人",
-    "url": "https://www.wcnc.com/article/news/local/huntersville-fire-department-water-rescue-mountain-island-lake/275-56fe4a83-1a38-41ff-898c-3d190869bc9a",
+    "title": "前梅克伦堡县拘留官员声称她因举报骚扰而被解雇",
+    "url": "https://www.wcnc.com/article/news/local/mecklenburg-county-detention-officer-claims-she-was-fired-for-reporting-harassment/275-c6abbe91-2586-4037-9b29-01d2f1ffe1cd",
     "industry": "AI & Technology",
-    "summary": "消防队员救出了三名木筏被冲到山岛湖下游的人。",
+    "summary": "诉讼诉状称，一名监督队长对拘留官提出了不受欢迎的性评论、问题和挑衅。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Hickory 移动房屋居民面临不确定性，一些邻居被告知在 9 月 1 日之前搬出",
+    "url": "https://www.wcnc.com/article/news/local/hickory-mobile-home-residents-face-uncertainty-as-some-neighbors-told-to-move-out-by-sept-1/275-0cff9377-5d8f-426e-9f70-eae63cd7782e",
+    "industry": "AI & Technology",
+    "summary": "居民们表示，他们的处境很糟糕。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
