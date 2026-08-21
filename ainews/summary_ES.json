@@ -1,13 +1,5 @@
 [
   {
-    "title": "Una startup india pretende competir con OpenAI en un abarrotado campo de voz",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-19/india-startup-aims-to-compete-with-openai-in-crowded-voice-arena",
-    "industry": "AI & Technology",
-    "summary": "Al igual que otros modelos básicos de voz, su objetivo es proporcionar grandes ahorros para usuarios como centros de llamadas, bancos y aerolíneas, que esperan emplear la tecnología para manejar grandes volúmenes de comunicaciones con los clientes.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
     "title": "VentureBeat nombra a Rob Strechay como su primer analista principal, ampliando su impulso de investigación de IA empresarial",
     "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
     "industry": "AI & Technology",
@@ -28,14 +20,6 @@
     "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
     "industry": "AI & Technology",
     "summary": "Se está desarrollando una competencia entre OpenAI y Anthropic sobre quién puede proporcionar las mejores protecciones de privacidad para los datos de los clientes empresariales.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Google incluye Search y Gemini con nuevas herramientas de estudio de IA",
-    "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
-    "industry": "AI & Technology",
-    "summary": "El lanzamiento de las nuevas funciones de estudio marca el último esfuerzo de Google para hacer de Gemini el asistente de inteligencia artificial al que recurren los estudiantes cuando aprenden y estudian, mientras continúa compitiendo con empresas como OpenAI.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -64,15 +48,15 @@
     "impact_score": 5
   },
   {
-    "title": "Los investigadores dicen que OpenAI revocó su acceso a un programa cibernético limitado",
-    "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+    "title": "Starcloud recauda 250 millones de dólares para centros de datos orbitales a medida que se agotan las opciones de lanzamiento",
+    "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
     "industry": "AI & Technology",
-    "summary": "La idea detrás del programa Trusted Access for Cyber ​​de OpenAI es brindar a los defensores confiables mejores modelos para que puedan informar errores y vulnerabilidades a las empresas, con el objetivo de corregir las fallas más rápido.",
+    "summary": "Está a punto de haber una gran lucha para asegurar el acceso al espacio.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Un tercio de las páginas web publicadas desde el lanzamiento de ChatGPT muestran signos de autoría de IA, según un estudio",
+    "title": "Un tercio de las páginas web publicadas desde el lanzamiento de ChatGPT fueron escritas por IA, según un estudio",
     "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
     "industry": "AI & Technology",
     "summary": "ChatGPT y otros modelos de IA ahora crean y editan gran parte de la nueva web.",
@@ -104,34 +88,66 @@
     "impact_score": 5
   },
   {
-    "title": "Una demanda afirma que Meta de Zuckerberg utilizó un fraude para solicitar una tarjeta verde para un trabajador con visa china",
-    "url": "https://www.breitbart.com/immigration/2026/08/20/lawsuit-claims-zuckerbergs-meta-used-fraud-to-seek-a-green-card-for-a-chinese-visa-worker/",
+    "title": "Anthropic espera igualar el tamaño récord de IPO de SpaceX o superarlo",
+    "url": "https://financialpost.com/investing/anthropic-expects-to-match-or-beat-spacex-ipo",
     "industry": "AI & Technology",
-    "summary": "Un exgerente está demandando a Meta Platforms de Mark Zuckerberg por despido improcedente después de que se negó a validar las reclamaciones destinadas a obtener una tarjeta de residencia para un empleado chino en 2024.\nLa demanda posterior afirma que Meta de Zuckerberg utilizó un fraude para buscar un automóvil ecológico...",
+    "summary": "Anthropic PBC espera igualar o superar la oferta pública inicial récord de SpaceX, a medida que se aceleran los preparativos para su debut. Leer aquí ahora",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "OpenAI frena la formación sobre riesgos de seguridad",
-    "url": "https://www.rt.com/news/644437-openai-ai-altamn-slowdown/",
+    "title": "Google presenta herramientas de inteligencia artificial para ayudar a las empresas a escalar las campañas de búsqueda",
+    "url": "https://biztoc.com/x/600a4795fe79689a",
     "industry": "AI & Technology",
-    "summary": "OpenAI ha dicho que ha ralentizado el desarrollo de sus modelos de IA para aumentar la seguridad de sus sistemas de entrenamiento. Lea el artículo completo en RT.com",
+    "summary": "Google está presentando herramientas de inteligencia artificial (IA) para ayudar a las empresas a escalar sus campañas de búsqueda.\n“A partir de los experimentos de un solo clic en AI Max, ahora presentamos una forma de probar diferentes presupuestos y objetivos de retorno de la inversión (ROI) en múltiples campañas de búsqueda...",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "La próxima fase de la IA empresarial no se trata de implementar modelos, sino de gestionar su evolución: Informe",
-    "url": "https://www.thehindubusinessline.com/info-tech/next-phase-of-enterprise-ai-not-about-deploying-models-but-managing-their-evolution-report/article71368379.ece",
+    "title": "Necesita un toque humano: el gobierno le dice a Meta que no deje los derribos únicamente en manos de la IA",
+    "url": "https://www.business-standard.com/technology/artificial-intelligence/need-a-human-touch-govt-tells-meta-not-to-leave-takedowns-solely-to-ai-126082100006_1.html",
     "industry": "AI & Technology",
-    "summary": "El informe dice que cada lanzamiento de un nuevo modelo puede traer mejoras en el razonamiento, las ventanas de contexto, las capacidades multimodales y la precisión, pero también puede cambiar los precios, la calidad de los resultados y el comportamiento del modelo.",
+    "summary": "El gobierno ha pedido a Meta que garantice la revisión humana en la moderación de contenido dirigida por IA, advirtiendo que las eliminaciones basadas en palabras clave pueden eliminar publicaciones legítimas sin contexto.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
   {
-    "title": "Una pareja de Kannapolis aspira a ganar $20,000 en una competencia nacional en medio de batallas contra el cáncer y defensa de la rara condición de su hija",
-    "url": "https://www.wcnc.com/article/life/local-life/ian-and-maggie-adair-americas-favorite-couple-kannapolis-nc/275-6262279d-8f6d-401b-b5b3-8010a8ee671c",
+    "title": "El juicio de Meta añade un riesgo de un billón de dólares a sus acciones en dificultades",
+    "url": "https://financialpost.com/investing/metas-trial-adds-trillion-dollar-risk-to-struggling-stock",
     "industry": "AI & Technology",
-    "summary": "Ian y Maggie Adair son cuartofinalistas en el concurso \"La pareja favorita de Estados Unidos\" después de la batalla contra el cáncer de Maggie y el raro diagnóstico de su hija.",
+    "summary": "Las acusaciones de apuntar a niños se suman a los problemas de las acciones de Facebook, matriz de Instagram, que ya está bajo presión por el gasto en inteligencia artificial. Sigue leyendo",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Nvidia se mantiene estable mientras los analistas defienden hasta un 30% de ventaja",
+    "url": "https://biztoc.com/x/8f31c91e7795ba4f",
+    "industry": "AI & Technology",
+    "summary": "Este artículo apareció por primera vez en GuruFocus.\nNvidia (NASDAQ:NVDA), el proveedor dominante de aceleradores de inteligencia artificial, se mantuvo casi estable en 217,55 dólares el jueves por la mañana, negándose a ceder mientras los mayores rendimientos de los bonos del Tesoro presionaban a algunos de los mayores crecimientos del mercado...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La Fundación Lustgarten anuncia nueva financiación para la investigación del cáncer de páncreas por un total de 22,8 millones de dólares en el año fiscal 2026",
+    "url": "https://www.prnewswire.com/news-releases/the-lustgarten-foundation-announces-new-pancreatic-cancer-research-funding-totaling-22-8-million-in-fiscal-year-2026--302856656.html",
+    "industry": "AI & Technology",
+    "summary": "La Fundación aumentó su nueva financiación para investigaciones en 8,6 millones de dólares, año tras año. UNIONDALE, Nueva York, 20 de agosto de 2026 /PRNewswire/ -- La Fundación Lustgarten, el mayor financiador privado del mundo para la investigación del cáncer de páncreas, anunció hoy 22,8 millones de dólares en nuevas investigaciones...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "Hasta casi un 20%, he aquí por qué las acciones de Microsoft podrían subir aún más",
+    "url": "https://biztoc.com/x/f11af01532125b8e",
+    "industry": "AI & Technology",
+    "summary": "Las acciones han experimentado una fuerte recuperación, ganando un 19,8% durante el último mes a medida que los inversores han adquirido más confianza en la estrategia de inversión en inteligencia artificial (IA) de la empresa.\nEl rebote marca un cambio en el sentimiento después de las preocupaciones anteriores de que el fuerte sp...",
+    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
+    "impact_score": 5
+  },
+  {
+    "title": "La 'Ley de Iryna' presiona al condado de Mecklenburg con sobrepoblación y costos crecientes",
+    "url": "https://www.wcnc.com/article/news/investigations/irynas-law-impacts-law-enforcement-mecklenburg-county-jail/275-e826b009-15ff-4f8c-b0a0-81a82665f962",
+    "industry": "AI & Technology",
+    "summary": "La implementación de la Ley Iryna en Carolina del Norte, cuyo objetivo es mejorar la seguridad pública al poner fin a las fianzas sin dinero en efectivo para los delincuentes violentos, ha provocado hacinamiento en las cárceles.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   },
@@ -140,22 +156,6 @@
     "url": "https://www.wcnc.com/article/weather/forecast/charlotte-weather-forecast-update/275-50501550",
     "industry": "AI & Technology",
     "summary": "Las tormentas intermitentes provocarán fuertes lluvias, inundaciones localizadas y ráfagas de viento.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Ex oficial de detención del condado de Mecklenburg afirma que fue despedida por denunciar acoso",
-    "url": "https://www.wcnc.com/article/news/local/mecklenburg-county-detention-officer-claims-she-was-fired-for-reporting-harassment/275-c6abbe91-2586-4037-9b29-01d2f1ffe1cd",
-    "industry": "AI & Technology",
-    "summary": "La denuncia de la demanda establece que un capitán supervisor hizo comentarios, preguntas e insinuaciones sexuales no deseados hacia el oficial de detención.",
-    "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
-    "impact_score": 5
-  },
-  {
-    "title": "Los residentes de casas móviles de Hickory enfrentan incertidumbre ya que a algunos vecinos se les dijo que se mudaran antes del 1 de septiembre.",
-    "url": "https://www.wcnc.com/article/news/local/hickory-mobile-home-residents-face-uncertainty-as-some-neighbors-told-to-move-out-by-sept-1/275-0cff9377-5d8f-426e-9f70-eae63cd7782e",
-    "industry": "AI & Technology",
-    "summary": "Los vecinos dicen que se encuentran en una mala situación.",
     "charlotte_impact": "El análisis de impacto analítico profundo no está disponible temporalmente en modo limitado.",
     "impact_score": 5
   }

@@ -1,13 +1,5 @@
 [
   {
-    "title": "印度初创公司旨在在拥挤的语音领域与 OpenAI 竞争",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-19/india-startup-aims-to-compete-with-openai-in-crowded-voice-arena",
-    "industry": "AI & Technology",
-    "summary": "与其他语音基础模型一样，它旨在为呼叫中心、银行和航空公司等希望利用该技术处理大量客户通信的用户提供大量节省",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
     "title": "VentureBeat 任命 Rob Strechay 为其首位首席分析师，扩大其企业人工智能研究力度",
     "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
     "industry": "AI & Technology",
@@ -28,14 +20,6 @@
     "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
     "industry": "AI & Technology",
     "summary": "OpenAI 和 Anthropic 之间正在展开一场竞争，看谁能为企业客户数据提供最好的隐私保护。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "谷歌为搜索和 Gemini 提供新的人工智能研究工具",
-    "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
-    "industry": "AI & Technology",
-    "summary": "新学习功能的推出标志着 Google 在继续与 OpenAI 等公司竞争的同时，将 Gemini 打造成学生在学习和学习时可以求助的 AI 助手的最新努力。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -64,15 +48,15 @@
     "impact_score": 5
   },
   {
-    "title": "研究人员称 OpenAI 撤销了他们对有限网络程序的访问权限",
-    "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+    "title": "随着发射选择枯竭，Starcloud 为轨道数据中心筹集了 2.5 亿美元",
+    "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
     "industry": "AI & Technology",
-    "summary": "OpenAI 的可信网络访问计划背后的想法是为受信任的防御者提供更好的模型，以便他们可以向公司报告错误和漏洞，目的是更快地修补缺陷。",
+    "summary": "为了确保进入太空的安全，一场大战即将爆发。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "研究发现，自 ChatGPT 推出以来发布的网页中有三分之一显示出人工智能作者身份的迹象",
+    "title": "研究发现，自 ChatGPT 推出以来发布的网页中有三分之一是由人工智能编写的",
     "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
     "industry": "AI & Technology",
     "summary": "ChatGPT 和其他人工智能模型现在正在创作和编辑新网络的大部分内容。",
@@ -104,34 +88,66 @@
     "impact_score": 5
   },
   {
-    "title": "诉讼称扎克伯格的Meta利用欺诈手段为一名中国签证工人寻求绿卡",
-    "url": "https://www.breitbart.com/immigration/2026/08/20/lawsuit-claims-zuckerbergs-meta-used-fraud-to-seek-a-green-card-for-a-chinese-visa-worker/",
+    "title": "Anthropic 预计将追平或超越 SpaceX 创纪录的 IPO 规模",
+    "url": "https://financialpost.com/investing/anthropic-expects-to-match-or-beat-spacex-ipo",
     "industry": "AI & Technology",
-    "summary": "一名前经理正在起诉马克·扎克伯格 (Mark Zuckerberg) 的元平台 (Meta Platforms)，称其不公平解雇，因为他拒绝验证旨在为一名中国员工在 2024 年获得绿卡的说法。\n诉讼声称扎克伯格的 Meta 利用欺诈手段寻求绿色汽车……",
+    "summary": "随着首次公开募股的准备工作加快，Anthropic PBC 预计将追平或超过 SpaceX 创纪录的首次公开募股。现在就读这里",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "OpenAI 因安全风险而停止培训",
-    "url": "https://www.rt.com/news/644437-openai-ai-altamn-slowdown/",
+    "title": "谷歌推出人工智能工具帮助企业扩大搜索营销活动",
+    "url": "https://biztoc.com/x/600a4795fe79689a",
     "industry": "AI & Technology",
-    "summary": "OpenAI 表示，它已经放慢了人工智能模型的开发速度，以提高其训练系统的安全性。阅读 RT.com 上的全文",
+    "summary": "谷歌正在推出人工智能（AI）工具来帮助企业扩大搜索活动规模。\n“基于 AI Max 中的一键式实验，我们现在推出一种方法，供您测试多个搜索广告系列的不同预算和投资回报率目标……",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "企业人工智能的下一阶段不是关于部署模型，而是管理模型的演变：报告",
-    "url": "https://www.thehindubusinessline.com/info-tech/next-phase-of-enterprise-ai-not-about-deploying-models-but-managing-their-evolution-report/article71368379.ece",
+    "title": "需要人性化：政府告诉 Meta 不要只让人工智能来进行拆除",
+    "url": "https://www.business-standard.com/technology/artificial-intelligence/need-a-human-touch-govt-tells-meta-not-to-leave-takedowns-solely-to-ai-126082100006_1.html",
     "industry": "AI & Technology",
-    "summary": "该报告称，每个新模型的发布都可以带来推理、上下文窗口、多模式功能和准确性方面的改进，但也可以改变定价、输出质量和模型的行为方式",
+    "summary": "政府已要求 Meta 确保在人工智能主导的内容审核中进行人工审查，并警告说基于关键字的删除可能会删除没有上下文的合法帖子",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "坎纳波利斯夫妇的目标是在与癌症作斗争的全国比赛中赢得 20,000 美元，为女儿的罕见病辩护",
-    "url": "https://www.wcnc.com/article/life/local-life/ian-and-maggie-adair-americas-favorite-couple-kannapolis-nc/275-6262279d-8f6d-401b-b5b3-8010a8ee671c",
+    "title": "Meta 的试验为其陷入困境的股票增加了数万亿美元的风险",
+    "url": "https://financialpost.com/investing/metas-trial-adds-trillion-dollar-risk-to-struggling-stock",
     "industry": "AI & Technology",
-    "summary": "在玛吉与癌症作斗争以及女儿被诊断为罕见疾病后，伊恩·阿代尔和玛吉·阿代尔进入了“美国最受欢迎情侣”竞赛的四分之一决赛。",
+    "summary": "针对儿童的指控加剧了 Instagram 母公司 Facebook 的股价困境，该公司已经因人工智能支出而面临压力。继续阅读",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Nvidia 持平，分析师坚称其上涨空间高达 30%",
+    "url": "https://biztoc.com/x/8f31c91e7795ba4f",
+    "industry": "AI & Technology",
+    "summary": "本文首次发表于 GuruFocus。\n人工智能加速器的主要供应商英伟达（NASDAQ：NVDA）周四上午几乎持平于 217.55 美元，由于美国国债收益率上升给市场上一些最大的公司带来压力，该公司拒绝崩溃。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Lustgarten 基金会宣布 2026 财年新的胰腺癌研究资助总额达 2280 万美元",
+    "url": "https://www.prnewswire.com/news-releases/the-lustgarten-foundation-announces-new-pancreatic-cancer-research-funding-totaling-22-8-million-in-fiscal-year-2026--302856656.html",
+    "industry": "AI & Technology",
+    "summary": "该基金会的新研究经费同比增加了 860 万美元。纽约州尤宁代尔，2026 年 8 月 20 日 /美通社/ -- 全球最大的胰腺癌研究私人资助者 Lustgarten 基金会今天宣布资助 2,280 万美元用于新研究……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "上涨近 20%，这就是微软股价可能进一步上涨的原因",
+    "url": "https://biztoc.com/x/f11af01532125b8e",
+    "industry": "AI & Technology",
+    "summary": "由于投资者对该公司的人工智能（AI）投资策略变得更加有信心，该股强劲复苏，过去一个月上涨19.8%。\n此次反弹标志着市场情绪的转变，此前人们担心微软金融服务公司（MSFT）的大力扩张……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "“伊琳娜定律”使梅克伦堡县面临过度拥挤和成本上升的压力",
+    "url": "https://www.wcnc.com/article/news/investigations/irynas-law-impacts-law-enforcement-mecklenburg-county-jail/275-e826b009-15ff-4f8c-b0a0-81a82665f962",
+    "industry": "AI & Technology",
+    "summary": "北卡罗来纳州实施的伊琳娜法旨在通过终止暴力犯罪者的无现金保释来加强公共安全，但导致监狱人满为患。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -140,22 +156,6 @@
     "url": "https://www.wcnc.com/article/weather/forecast/charlotte-weather-forecast-update/275-50501550",
     "industry": "AI & Technology",
     "summary": "断断续续的风暴将导致大雨、局部洪水和阵风。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "前梅克伦堡县拘留官员声称她因举报骚扰而被解雇",
-    "url": "https://www.wcnc.com/article/news/local/mecklenburg-county-detention-officer-claims-she-was-fired-for-reporting-harassment/275-c6abbe91-2586-4037-9b29-01d2f1ffe1cd",
-    "industry": "AI & Technology",
-    "summary": "诉讼诉状称，一名监督队长对拘留官提出了不受欢迎的性评论、问题和挑衅。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Hickory 移动房屋居民面临不确定性，一些邻居被告知在 9 月 1 日之前搬出",
-    "url": "https://www.wcnc.com/article/news/local/hickory-mobile-home-residents-face-uncertainty-as-some-neighbors-told-to-move-out-by-sept-1/275-0cff9377-5d8f-426e-9f70-eae63cd7782e",
-    "industry": "AI & Technology",
-    "summary": "居民们表示，他们的处境很糟糕。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
