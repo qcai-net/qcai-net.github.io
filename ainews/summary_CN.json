@@ -1,6 +1,6 @@
 [
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "VentureBeat 任命 Rob Strechay 为其首位首席分析师，扩大其企业人工智能研究力度",
     "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
     "industry": "AI & Technology",
     "summary": "<p>Rob Strechay 直到最近才担任 theCUBE Research 的董事总经理兼首席分析师，现已加入 VentureBeat，担任我们的第一位首席分析师和 VentureBeat Research 的创始分析师。他的到来是 VentureBeat 迈向更深入专业化的深思熟虑的下一步……",
@@ -11,7 +11,23 @@
     "title": "新数据表明，OpenAI 正在赢得商业用户的青睐",
     "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "随着每个实验室发布新模型，企业愿意来回波动，这种波动应该会让两家公司的投资者对企业人工智能支出到底有多么“粘性”感到犹豫。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "哈佛 699 美元的创业训练营提供其讲师的人工智能头像",
+    "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+    "industry": "AI & Technology",
+    "summary": "在 HBS Foundry 计划中，人工智能化身在练习推介和董事会会议期间提供反馈。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "由 DeepMind 校友创立的 Inherent 表示，其 AI“队友”在复制研究方面刚刚超越了 Anthropic 和 OpenAI",
+    "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+    "industry": "AI & Technology",
+    "summary": "由 DeepMind 校友创建的英国人工智能实验室 Inherent 发布了 Faraday，这是一款人工智能代理，其复制科学论文的能力可能成为创新的垫脚石。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -27,12 +43,12 @@
     "title": "英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型",
     "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "英伟达的研究表明，即使人工智能模型在这项任务上表现不佳，通过微调，人工智能代理也可以表现良好，并且不会陷入困境。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "AI 数据初创公司 Micro1 在 AI 培训热潮中毛运行率达到 5 亿美元",
     "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
     "industry": "AI & Technology",
     "summary": "对人工智能训练数据的需求激增正在推动这家初创公司及其竞争对手的快速增长。",
@@ -40,26 +56,10 @@
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "谷歌为出版商提供了一种应对人工智能驱动的流量损失的新方法",
     "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "Meta AI 的新 Mac 应用程序希望您与您的应用程序对话",
-    "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
-    "industry": "AI & Technology",
-    "summary": "该公司表示，听写功能适用于所有应用程序，就像 Wispr Flow、Superwhisper 和 Monologue 等其他工具一样。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "空乘人员对谷歌斥资 1000 万美元从破产的精神航空公司夺取空乘人员数据的计划表示不满",
-    "url": "https://www.dailymail.com/yourmoney/article-16070435/google-spirit-airlines-data-sale.html",
-    "industry": "AI & Technology",
-    "summary": "谷歌计划购买精神航空公司的大量数据——包括数亿条员工消息——来训练他们的人工智能平台。",
+    "summary": "谷歌为出版商提供了一个新按钮，让读者可以将他们作为搜索、发现和谷歌新闻的首选来源，随着人工智能搜索向网络发送的点击次数减少，这可能会增加他们的流量。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -83,7 +83,7 @@
     "title": "研究发现，自 ChatGPT 推出以来发布的网页中有三分之一是由人工智能编写的",
     "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "ChatGPT 和其他人工智能模型现在正在创作和编辑新网络的大部分内容。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -96,18 +96,58 @@
     "impact_score": 5
   },
   {
-    "title": "Nvidia 支付 60 亿美元以获得池畔 AI 模型开发软件许可",
-    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/nvidia-pays-6-billion-to-license-poolside-ai-model-development-software/",
+    "title": "你应该相信人工智能来管理你的财务吗？金融教育家说知道在哪里划清界限",
+    "url": "https://www.livemint.com/money/personal-finance/should-you-trust-ai-with-your-finances-financial-educator-says-know-where-to-draw-a-line-11787391117598.html",
     "industry": "AI & Technology",
-    "summary": "英伟达将支付 60 亿美元来获得 Poolside 人工智能模型开发软件 Model Factory 的许可，并将聘请 109 名 Poolside 员工，这些员工参与了该公司人工智能开源模型 Laguna 的制作，The Information 代表称……",
+    "summary": "这位金融教育家表示，核心问题是投资者没有停下来检查人工智能生成的建议是否确实与他们的财务状况相关。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "尽管对人工智能的功率瓶颈进行了新的押注，英伟达还是下滑了",
-    "url": "https://biztoc.com/x/bbe1cb616008b116",
+    "title": "MoS Health Anupriya Patel 表示，印度制药行业利用人工智能加快药物发现速度",
+    "url": "https://www.fortuneindia.com/business-news/domestic-pharma-industry-deploying-ai-for-drug-discovery-mos-health-anupriya-patel/155303",
     "industry": "AI & Technology",
-    "summary": "本文首发于 GuruFocus。\n人工智能芯片之王英伟达（纳斯达克股票代码：NVDA）尽管持有 Cloverleaf 基础设施公司的少数股权，但周五上午仍下跌约 0.5%，至 215.74 美元。这不仅仅是另一项投资。尼维德…",
+    "summary": "帕特尔在 IIMA 医疗保健峰会上就医疗保健领域的人工智能发表讲话时表示，该技术可以帮助解决该国的医疗保健挑战，同时支持建设健康和发达的印度的雄心。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "预防性医疗保健未来模式对国民经济和安全至关重要：拉杰纳特",
+    "url": "https://www.thehindubusinessline.com/news/preventive-healthcare-future-model-crucial-for-national-economy-security-rajnath/article71377151.ece",
+    "industry": "AI & Technology",
+    "summary": "辛格指出，预防性医疗保健在经济上是明智的，因为治疗晚期疾病可能花费数十万卢比，而年度检查和基本护理仅花费数百或数千卢比",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "预防性医疗保健未来模式是经济和安全的关键：Rajnath",
+    "url": "https://www.business-standard.com/health/preventive-healthcare-future-model-key-to-economy-and-security-rajnath-126082200503_1.html",
+    "industry": "AI & Technology",
+    "summary": "周六，国防部长拉吉纳特·辛格将预防性医疗保健描述为医疗保健系统的“未来模式”，并指出疾病模式的变化、治疗成本的上升和印度人口的老龄化是将重点转向耳朵的关键原因……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "预测：这将是 Palantir 到 2030 年底的股价",
+    "url": "https://biztoc.com/x/811ee3a774620059",
+    "industry": "AI & Technology",
+    "summary": "Palantir Technologies（纳斯达克股票代码：PLTR）是人工智能（AI）时代表现最好的股票之一。该公司在过去几年中已成为非凡的企业软件公司，显示出来自寻求……的企业的巨大收入增长。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "我无法停止观看这架亚马逊无人机将某人的包裹扔进他们的池子里",
+    "url": "http://nymag.com/intelligencer/article/cant-stop-watching-botched-amazon-drone-delivery-videos-swimming-pool.html",
+    "industry": "AI & Technology",
+    "summary": "像亚马逊送货无人机本周在德克萨斯州所做的那样，声音巨大的风力机器将我们冲动购买的商品倾倒到我们的游泳池中，这真的是我们想要的未来吗？",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "一家拥有 60 年历史的地热公司刚刚成为人工智能基础设施公司",
+    "url": "https://thenextweb.com/news/ormat-geothermal-data-centres-google-europe",
+    "industry": "AI & Technology",
+    "summary": "Ormat 是一家成立于 60 年前的地热公司，已与 Google 签署了在内华达州高达 150MW 的电力购买协议，并正在与 Sage Geosystems 和 SLB 合作运行增强型地热试点。欧洲也面临着同样的需求问题，并正在通过……来解决这个问题。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
@@ -116,46 +156,6 @@
     "url": "https://www.wcnc.com/article/news/investigations/irynas-law-impacts-law-enforcement-mecklenburg-county-jail/275-e826b009-15ff-4f8c-b0a0-81a82665f962",
     "industry": "AI & Technology",
     "summary": "北卡罗来纳州实施的伊琳娜法旨在通过终止暴力犯罪者的无现金保释来加强公共安全，但导致监狱人满为患。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "强风暴给夏洛特带来了破坏",
-    "url": "https://www.wcnc.com/article/news/local/severe-storms-leave-trail-of-damage-across-charlotte/275-0e981516-cddf-43aa-963d-8cab962b0263",
-    "industry": "AI & Technology",
-    "summary": "周五晚上，猛烈的暴风雨在夏洛特造成了严重破坏，树木倒塌，道路堵塞，房屋受损，居民开始进行清理工作。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "轻轨刺伤死亡一年后，伊琳娜·扎鲁茨卡 (Iryna Zarutska) 的家人起诉夏洛特市",
-    "url": "https://www.wcnc.com/article/news/local/iryna-zarutska-family-sues-city-of-charlotte/275-940aa37b-7529-4d89-bbc4-9b3f324c7dfb",
-    "industry": "AI & Technology",
-    "summary": "Zarutska 于 2025 年 8 月 22 日在夏洛特南端乘坐 CATS 蓝线时被杀。",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "随着图书馆需求激增，夏洛特-梅克伦堡的读者面临长达数月的等待",
-    "url": "https://www.wcnc.com/article/news/local/charlotte-mecklenburg-library-months-long-waits-readers-demand-books/275-b3e8928e-699c-4b9f-990b-b11f80cc071f",
-    "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "坎纳波利斯夫妇的目标是在与癌症作斗争的全国比赛中赢得 20,000 美元，为女儿的罕见病辩护",
-    "url": "https://www.wcnc.com/article/life/local-life/ian-and-maggie-adair-americas-favorite-couple-kannapolis-nc/275-6262279d-8f6d-401b-b5b3-8010a8ee671c",
-    "industry": "AI & Technology",
-    "summary": "在玛吉与癌症作斗争以及女儿被诊断为罕见疾病后，伊恩·阿代尔和玛吉·阿代尔进入了“美国最受欢迎情侣”竞赛的四分之一决赛。",
-    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
-    "impact_score": 5
-  },
-  {
-    "title": "前梅克伦堡县拘留官员声称她因举报骚扰而被解雇",
-    "url": "https://www.wcnc.com/article/news/local/mecklenburg-county-detention-officer-claims-she-was-fired-for-reporting-harassment/275-c6abbe91-2586-4037-9b29-01d2f1ffe1cd",
-    "industry": "AI & Technology",
-    "summary": "诉讼诉状称，一名监督队长对拘留官提出了不受欢迎的性评论、问题和挑衅。",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
