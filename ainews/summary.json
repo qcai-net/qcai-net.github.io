@@ -8,6 +8,30 @@
     "impact_score": 5
   },
   {
+    "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+    "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+    "industry": "AI & Technology",
+    "summary": "The company's new fundraising total now stands at $232 million.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI\u2019s Jalape\u00f1o chip is built for fast inference at scale, benchmarks show",
+    "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+    "industry": "AI & Technology",
+    "summary": "Tested on SemiAnalysis\u2019 InferenceX benchmark, Jalape\u00f1o registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "\u2018The world seems to be ready\u2019: An interview with OpenAI head of product Thibault Sottiaux",
+    "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
+    "industry": "AI & Technology",
+    "summary": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
     "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
     "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
     "industry": "AI & Technology",
@@ -48,18 +72,18 @@
     "impact_score": 5
   },
   {
-    "title": "Michael Polansky is training an AI model on skin that\u2019s still alive",
-    "url": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
+    "title": "Sitharaman to visit Canada, US from Aug 25 to woo investors",
+    "url": "https://economictimes.indiatimes.com/news/india/sitharaman-to-visit-canada-us-from-aug-25-to-woo-investors/articleshow/133476516.cms",
     "industry": "AI & Technology",
-    "summary": "Michael Polansky \u2014 better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker \u2014 has quietly spent years building an AI-driven startup that keeps living human skin tissue alive for weeks outside the body to discover new skincare compounds, and is only now ...",
+    "summary": "Finance minister Nirmala Sitharaman will visit Canada and the United States soon. She will meet global investors and corporate executives to seek new investments. Sitharaman will also attend key G20 Finance Ministers and Central Bank Governors meetings. The e\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
-    "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+    "title": "Accel-backed Keenable is indexing the web for AI agents",
+    "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
     "industry": "AI & Technology",
-    "summary": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+    "summary": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -88,74 +112,50 @@
     "impact_score": 5
   },
   {
-    "title": "Frontier AI labs still won\u2019t say how they\u2019d contain a rogue model",
-    "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+    "title": "Introducing AWS Glue 6.0 for faster and more cost-effective data integration",
+    "url": "https://aws.amazon.com/blogs/big-data/introducing-aws-glue-6-0-for-apache-spark/",
     "industry": "AI & Technology",
-    "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+    "summary": "AWS Glue 6.0 is now available, lowering AWS Glue pricing by 30%, adding an AWS optimized build of Apache Spark 4.1, and introducing Apache Iceberg V3 capabilities suitable for enterprise adoption. This post covers the key capabilities and performance benefits\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
-    "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+    "title": "OpenAI wants California to toughen the AI law it once fought",
+    "url": "https://thenextweb.com/news/openai-sb-53-california-ai-safety-law-amendments",
     "industry": "AI & Technology",
-    "summary": "There's about to be a big fight to secure access to space.",
+    "summary": "OpenAI has asked California to toughen the AI safety law it once fought. The company published the request on Friday, and Chase DiFeliciantonio reported it for Politico. It is the first major AI lab to call for changes to the transparency law. That law was th\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Protiviti Professionals Named 2026 Top Consultants by Consulting Magazine",
-    "url": "https://www.prnewswire.com/news-releases/protiviti-professionals-named-2026-top-consultants-by-consulting-magazine-302857683.html",
+    "title": "Democratizing institutional knowledge: Building an AI-powered knowledge management system with AWS",
+    "url": "https://aws.amazon.com/blogs/machine-learning/democratizing-institutional-knowledge-building-an-ai-powered-knowledge-management-system-with-aws/",
     "industry": "AI & Technology",
-    "summary": "Honored for leadership in cybersecurity, financial crime compliance, AI-enabled consulting and enterprise transformation MENLO PARK, Calif., Aug. 24, 2026 /PRNewswire/ -- Four Protiviti leaders have been named 2026 Top Consultants by Consulting magazine. The \u2026",
+    "summary": "Learn how to build a customizable, smart-caching knowledge management system on AWS that captures and delivers institutional (tribal) knowledge through a voice-first AI avatar. The accelerator uses Amazon Bedrock Knowledge Bases for retrieval-augmented genera\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Nvidia worker among 9 charged in Taiwan chip smuggling case",
-    "url": "https://www.channelnewsasia.com/business/nvidia-worker-charged-taiwan-chip-smuggling-case-6337651",
+    "title": "Drone Steered by Nvidia Tech Killed 3 Ukrainian Civilians",
+    "url": "https://www.newser.com/story/395194/drone-steered-by-nvidia-tech-killed-3-ukrainian-civilians.html",
     "industry": "AI & Technology",
-    "summary": "TAIPEI: Nine people in Taiwan, including an Nvidia worker, were charged on Monday (Aug 24) over the illegal export of artificial intelligence servers to China, Taiwanese prosecutors said.The indictments follow an investigation into the shipment of \"high-end\" \u2026",
+    "summary": "A small drone's lethal flight in Ukraine is being cited as a first: a weapon that appeared to pick its own target using artificial intelligence. Ukrainian investigators say the drone, which killed 19-year-old student Tetiana Bubynets and two others at a gas s\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "K2view Positioned as a Leader & Ace Performer in the SPARK Matrix\u2122: Enterprise Data Fabric, 2026 by QKS Group",
-    "url": "https://www.prnewswire.com/news-releases/k2view-positioned-as-a-leader--ace-performer-in-the-spark-matrix-enterprise-data-fabric-2026-by-qks-group-302858227.html",
+    "title": "The fight over I-77 toll lanes speeds up again",
+    "url": "https://www.wcnc.com/article/news/local/the-fight-over-i-77-toll-lanes-speeds-up-again/275-e2e552fd-d39e-4ae9-9002-c11ea067f19a",
     "industry": "AI & Technology",
-    "summary": "The QKS Group SPARK Matrix\u2122 provides competitive analysis & ranking of the leading Enterprise Data Fabric vendors. K2view has been recognized as a Leader and Ace Performer for its Micro-Database\u2122-powered Data Product Platform, real-time data virtualization an\u2026",
+    "summary": "Opponents say the plan won\u2019t fix congestion and could disproportionately impact historically Black neighborhoods. They\u2019re calling for a different solution.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Nvidia earnings face a frustrating reality",
-    "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-earnings-face-a-frustrating-reality-103234712.html",
+    "title": "Hundreds of pets adopted during Clear the Shelters campaign",
+    "url": "https://www.wcnc.com/article/news/local/outreach/clear-the-shelters/clear-the-shelters-returns-to-charlotte-in-august-with-adoption-event-aug-22/275-3aeac15e-b645-4f18-90b4-125e85655b4a",
     "industry": "AI & Technology",
-    "summary": "Earnings day hasn't been kind to Nvidia.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "This Nvidia earnings fact will frustrate you",
-    "url": "https://finance.yahoo.com/markets/stocks/article/this-nvidia-earnings-fact-will-frustrate-you-103234712.html",
-    "industry": "AI & Technology",
-    "summary": "Earnings day hasn't been kind to Nvidia.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Triathlon coach training for Ironman fights off alligator attack during practice swim",
-    "url": "https://www.wbtv.com/2026/08/25/triathlon-coach-training-ironman-fights-off-alligator-attack-during-practice-swim/",
-    "industry": "AI & Technology",
-    "summary": "A triathlon coach says instinct and training kicked in when an alligator attacked him during an Ironman practice swim.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Man accused of threatening to \u2018shoot up\u2019 Charlotte-Mecklenburg schools released from jail days before school starts",
-    "url": "https://www.wbtv.com/2026/08/25/man-accused-threatening-shoot-up-charlotte-mecklenburg-schools-released-jail-days-before-school-starts/",
-    "industry": "AI & Technology",
-    "summary": "Man was released on a $60K bond, according to court records",
+    "summary": "You can adopt, donate, foster or volunteer during this year\u2019s Clear the Shelters campaign.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
