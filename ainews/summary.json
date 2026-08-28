@@ -1,6 +1,14 @@
 [
   {
-    "title": "Barret Zoph, the Thinking Machines co-founder who defected to OpenAI, is now at Google",
+    "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+    "industry": "AI & Technology",
+    "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
     "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
     "industry": "AI & Technology",
     "summary": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
@@ -16,10 +24,26 @@
     "impact_score": 5
   },
   {
+    "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+    "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+    "industry": "AI & Technology",
+    "summary": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
     "title": "Here\u2019s all the times AI has gone rogue and hacked other companies",
     "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
     "industry": "AI & Technology",
     "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Open-weight AI companies are the Valley\u2019s hottest acquisition targets",
+    "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+    "industry": "AI & Technology",
+    "summary": "There's a lot of capital pouring into the business of giving models away.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -64,30 +88,6 @@
     "impact_score": 5
   },
   {
-    "title": "How do we explain OpenAI\u2019s executive exodus?",
-    "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
-    "industry": "AI & Technology",
-    "summary": "Was Greg Brockman the right executive all along?",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "OpenAI releases its official report on the Hugging Face breach",
-    "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-    "industry": "AI & Technology",
-    "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
-    "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
-    "industry": "AI & Technology",
-    "summary": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
     "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
     "url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
     "industry": "AI & Technology",
@@ -104,10 +104,18 @@
     "impact_score": 5
   },
   {
-    "title": "When AI Becomes Labor, Governance Becomes the Operating System",
-    "url": "https://www.c-sharpcorner.com/article/when-ai-becomes-labor-governance-becomes-the-operating-system/",
+    "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+    "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
     "industry": "AI & Technology",
-    "summary": "Why Gate2ASI AI\u2019s AgentFactory (Formerly AlpineGate AI's AgentFactory) Challenges Microsoft, Salesforce, ServiceNow, Google and AWS at the Architecture Level\r\n\r\nGate2ASI AI\u2019s AgentFactory \u2014 formerly AlpineGate AI\u2019s AgentFactory \u2014 is not trying to win the ente\u2026",
+    "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Anthropic gets its first court win over the Pentagon\u2019s supply-chain risk label",
+    "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+    "industry": "AI & Technology",
+    "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -115,47 +123,39 @@
     "title": "Plaud\u2019s new earphones come with an eSIM-enabled case for talking to AI agents",
     "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
     "industry": "AI & Technology",
-    "summary": "Plaud's new 'agentic' earbuds are priced at $249.",
+    "summary": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Radar makes podcasts searchable \u2014 and usable by AI agents",
-    "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
+    "title": "Lawmakers remain divided over how to lower healthcare costs",
+    "url": "https://www.wbtv.com/2026/08/28/lawmakers-remain-divided-over-how-lower-healthcare-costs/",
     "industry": "AI & Technology",
-    "summary": "Particle\u2019s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
+    "summary": "Americans are struggling to pay for healthcare, but lawmakers remain divided on how to lower costs. With the 2026 midterms approaching, healthcare affordability is once again taking center stage.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Bill Gates wants to see a robot tax and \u2018Human Reserved\u2019 jobs to mitigate harms from AI",
-    "url": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
+    "title": "TD Bank Unlocks $141 Million in AI Value Months Ahead of Schedule",
+    "url": "https://biztoc.com/x/911dfc937dffa311",
     "industry": "AI & Technology",
-    "summary": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
+    "summary": "TD Bank Group delivered 195 million Canadian dollars (about $141 million) in artificial intelligence value in the first three quarters of its fiscal year 2026, according to a third-quarter earnings presentation released Thursday (Aug. 27).\nThe move puts the c\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
-    "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
+    "title": "Nvidia earnings soar as AI chip demand drives revenue to $96.2 billion",
+    "url": "https://biztoc.com/x/735ff4138576455a",
     "industry": "AI & Technology",
-    "summary": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
+    "summary": "Nvidia's latest quarterly results once again blew past Wall Street's expectations as revenue for the computer chip company's high-end artificial intelligence chips soared, the latest sign that AI infrastructure spending remains strong.\nThe company reported ne\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Robot brain builders are pushing out of their GPT-2 era",
-    "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
+    "title": "OpenAI, Anthropic urge cyber defence action as AI models improve",
+    "url": "https://financialpost.com/cybersecurity/openai-anthropic-urge-cyber-defence-action",
     "industry": "AI & Technology",
-    "summary": "Robot bodies are waiting for their AI brains to catch up.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "AI Startup Thinking Machines Lab Takes 22K SF at 79 Fifth Avenue for First NYC Office",
-    "url": "http://commercialobserver.com/2026/08/thinking-machines-lab-79-fifth-avenue-lease/",
-    "industry": "AI & Technology",
-    "summary": "Artificial intelligence research startup Thinking Machines Lab is coming to New York. Just a year and a half after launching in San Francisco, the company has inked a 21,500-square-foot lease at Kalimian Properties\u2019 79 Fifth Avenue just one block west of Unio\u2026",
+    "summary": "OpenAI and Anthropic PBC warned that businesses and governments must do more to prepare for and defend against AI-enabled hacks. Read here",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
