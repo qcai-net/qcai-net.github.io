@@ -1,55 +1,111 @@
 [
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "谷歌云与埃森哲达成协议，在人工智能部署大战中奋起直追",
+    "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+    "industry": "AI & Technology",
+    "summary": "谷歌云与埃森哲合作扩大其企业人工智能的推动力，押注于前沿部署的工程师来推动采用并克服部署瓶颈。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
     "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "Nvidia CEO：通用人工智能已经“到来”，新的 OpenAI 模型",
+    "url": "https://biztoc.com/x/348e7e7dd5895950",
+    "industry": "AI & Technology",
+    "summary": "英伟达首席执行官黄仁勋再次宣扬通用人工智能（AGI）的到来。\n在 OpenAI 发布了最新的人工智能模型（该模型是在 Nvidia 的芯片上进行训练的）后，黄仁勋在周日（9 月 6 日）社交平台 X 上发布了一篇帖子，对 OpenAI 表示祝贺。\n……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Meta 首次推出 Muse AI 代理。消费者会信任它吗？",
+    "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+    "industry": "AI & Technology",
+    "summary": "Meta 的新个人 AI 代理 Muse 希望访问用户的电子邮件、日历、支付、健康服务等，这是该公司最大的消费者 AI 赌注，也是人们是否仍然信任 Meta 处理其数据的重大考验。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "纽约大学数学家表示，OpenAI 在影响职业生涯的数学问题上进行了肮脏的斗争",
+    "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+    "industry": "AI & Technology",
+    "summary": "第一个提供纳维-斯托克斯存在性和平滑性问题解决方案的人将获得 100 万美元的奖金。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "随着人工智能改变安全格局，Chrome 现在每两周发布一次更新",
+    "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
+    "industry": "AI & Technology",
+    "summary": "谷歌正在加快 Chrome 的发布时间表，以更快地发布安全补丁和新功能。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI 确认“维基事件”，并表示正在“开发一个框架”以进行更多披露",
     "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "OpenAI 承认其在最近报道的一起人工智能代理接管德国维基论坛事件中所扮演的角色。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "OpenAI 的流氓特工不断逃跑，却没有正式的程序来调查他们",
     "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "OpenAI 最新的代理群事件增加了独立调查的紧迫性，因为研究人员和立法者质疑人工智能实验室是否应该控制自己的安全审查范围。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "AI 计算提供商 Nscale 正在寻求 3.5B 美元的 IPO 前融资",
     "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "Nscale 最近与 Anthropic 达成了 450 亿美元的交易，目前正在洽谈筹集更多资金，以应对即将到来的 IPO。",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "另一群 OpenAI 代理在前沿实验室不知情的情况下进入了开放互联网",
     "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
     "industry": "AI & Technology",
     "summary": "这是 OpenAI 内部监控和安全系统的最新一次失败。",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "苹果的 Ternus 时代开始，英伟达押注整个人工智能堆栈",
     "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "Apple 正式进入 Ternus 时代。蒂姆·库克 (Tim Cook) 本周辞去了首席执行官一职，将公司交给了前硬件主管约翰·特努斯 (John Ternus)，他的第一份备忘录承诺“下周将推出大型产品”——这使得苹果公司的下一次 iPhone 发布会将在这个时间点进行……",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
     "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185503702",
+    "industry": "AI & Technology",
+    "summary": "NVIDIA 的 Jensen Huang 表示，OpenAI 价值约 10 亿美元的 GPT-6 Astra 预示着 AGI 时代的到来，但 Anthropic 的 Fable 5.1 仍然在 SWE-Bench Pro 和编码基准测试中击败它Wccftech Nvidia 首席执行官：通用人工智能已经以新的 OpenAI 模式“到来”……",
+    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "impact_score": 5
+  },
+  {
+    "title": "高光谱卫星初创公司 Pixxel 获得 1 亿美元投资",
+    "url": "https://siliconangle.com/2026/09/07/hyperspectral-satellite-startup-pixxel-nabs-100m-investment/",
+    "industry": "AI & Technology",
+    "summary": "Pixxel Space Technologies Inc. 是一家总部位于印度的地球观测卫星开发商，已筹集 1 亿美元资金。新加坡淡马锡财富基金和太空技术投资者 Seraphim 领投了 C 轮融资。 Pixxel 在其公告中表示...",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
+    "impact_score": 5
+  },
+  {
+    "title": "Cognition 估值达到 48B 美元，表明投资者相信人工智能编码远非赢家通吃的市场",
+    "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
     "industry": "AI & Technology",
     "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
     "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
@@ -59,104 +115,48 @@
     "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
     "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "这家法国人工智能实验室在三星、Scaleup Europe 和 PSG Equity 领投的 D 轮融资中筹集了 30 亿欧元，估值为 210 亿欧元。",
     "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "title": "不透明循环以及您可能应该知道的其他人工智能术语",
     "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-    "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-    "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
-    "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
     "industry": "AI & Technology",
     "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
     "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   },
   {
+    "title": "出版商和代理商对人择和解提出索赔，作者予以反击",
+    "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+    "industry": "AI & Technology",
+    "summary": "作者表示，出版商似乎要求支付超过其应得份额的和解金。",
+    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "impact_score": 5
+  },
+  {
     "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+    "url": "https://biztoc.com/x/ee58ec2a7c7f166d",
     "industry": "AI & Technology",
     "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
     "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
     "impact_score": 5
   },
   {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://www.ibtimes.com.au/buffett-investment-principles-spacex-1875148",
+    "title": "OpenAI 首席科学家警告人工智能实验室可能需要放慢速度",
+    "url": "https://decrypt.co/377635/openai-chief-scientist-warns-ai-slow-down",
     "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "summary": "Jakub Pachocki 呼吁制定强制性安全标准，因为 OpenAI 发现监控先进人工智能模型的推理变得更加困难。",
     "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
     "impact_score": 5
   },
   {
     "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://hothardware.com/news/microsoft-engineer-declares-era-of-typing-code-is-absolutely-over",
+    "url": "https://news.slashdot.org/story/26/09/07/0021232/instead-of-fighting-ai-some-teachers-work-it-into-their-lessons",
     "industry": "AI & Technology",
     "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://www.wcnc.com/article/news/history/remembering-911/list-911-ceremonies-25th-anniversary-charlotte-area-2026/275-aaff628f-c794-4048-8096-54dbe483743c",
-    "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://www.wcnc.com/article/news/local/lake-wylie-water-rescue/275-52cdb557-b881-431f-ad28-b77445c10c89",
-    "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://www.wcnc.com/article/money/markets/real-estate/chester-apartment-development-affordable-housing-city-growth-young-professionals/275-c2bf39c5-66da-4ba8-8902-8b735a6b8804",
-    "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://www.wbtv.com/2026/09/08/crunch-time-braves-lead-nl-east-by-4-games-with-18-games-remaining/",
-    "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "impact_score": 5
-  },
-  {
-    "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "url": "https://dailycaller.com/2026/09/07/main-battle-tank-drone-warfare",
-    "industry": "AI & Technology",
-    "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "charlotte_impact": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "charlotte_impact": "在有限模式下暂时无法进行深度分析影响分析。",
     "impact_score": 5
   }
 ]
