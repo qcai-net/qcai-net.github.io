@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "id": 28669,
+      "id": 28755,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -324,8 +324,8 @@
         "created_date": 1763665958000,
         "last_edited_user": "101639",
         "last_edited_date": 1763666290000,
-        "GlobalID": "{F27846C9-6490-4D93-9FBB-D3EDEDB15B41}",
-        "OBJECTID": 28669,
+        "GlobalID": "{CB5A4B2F-4A93-4690-8831-5CF73D21FC71}",
+        "OBJECTID": 28755,
         "Petition": "2025-123",
         "Petitioner": "Sanders Partnership, LLC",
         "ExistZone": "N1-A",
@@ -362,7 +362,7 @@
     },
     {
       "type": "Feature",
-      "id": 28670,
+      "id": 28756,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -799,8 +799,8 @@
         "created_date": 1727129759000,
         "last_edited_user": "101250",
         "last_edited_date": 1782423357000,
-        "GlobalID": "{13741FAF-50B1-48EE-889F-8A7EAC480960}",
-        "OBJECTID": 28670,
+        "GlobalID": "{69C77A3C-890E-4D94-B1C4-B3144ED88EC3}",
+        "OBJECTID": 28756,
         "Petition": "2024-109",
         "Petitioner": "Charlotte Planning, Design and Development ",
         "ExistZone": "N1-A",
@@ -837,7 +837,7 @@
     },
     {
       "type": "Feature",
-      "id": 28671,
+      "id": 28757,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -922,8 +922,8 @@
         "created_date": 1771533838000,
         "last_edited_user": "101639",
         "last_edited_date": 1771534010000,
-        "GlobalID": "{691C6FAF-BADC-47D3-B728-141FA2F8BBDE}",
-        "OBJECTID": 28671,
+        "GlobalID": "{43729B29-2E28-49B0-870E-1A73730887DB}",
+        "OBJECTID": 28757,
         "Petition": "2026-012",
         "Petitioner": "The Charlotte-Mecklenburg Hospital Authority",
         "ExistZone": "TOD-UC",
@@ -960,7 +960,7 @@
     },
     {
       "type": "Feature",
-      "id": 28672,
+      "id": 28758,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1381,8 +1381,8 @@
         "created_date": 1767750365000,
         "last_edited_user": "101639",
         "last_edited_date": 1780006425000,
-        "GlobalID": "{BF0F2471-75B3-4F23-846C-C26944CDB40A}",
-        "OBJECTID": 28672,
+        "GlobalID": "{A3EB225E-D463-4B4D-B70C-B0D1CA55BBFC}",
+        "OBJECTID": 28758,
         "Petition": "2025-133",
         "Petitioner": "Carolinas Properties III, LLC",
         "ExistZone": "N1-B",
@@ -1419,7 +1419,7 @@
     },
     {
       "type": "Feature",
-      "id": 28673,
+      "id": 28759,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1560,8 +1560,8 @@
         "created_date": 1781634279000,
         "last_edited_user": "101250",
         "last_edited_date": 1781634454000,
-        "GlobalID": "{016122B1-207D-48A5-9F99-2C2148CCAC15}",
-        "OBJECTID": 28673,
+        "GlobalID": "{F350F8F6-19D5-4816-8C0D-03986F2B3F7B}",
+        "OBJECTID": 28759,
         "Petition": "2026-041",
         "Petitioner": "Owl Services",
         "ExistZone": "B-2(CD)",
@@ -1598,7 +1598,7 @@
     },
     {
       "type": "Feature",
-      "id": 28674,
+      "id": 28760,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1646,9 +1646,9 @@
         "created_user": "100442",
         "created_date": 1786483704000,
         "last_edited_user": "100442",
-        "last_edited_date": 1786484493000,
-        "GlobalID": "{17B87395-A1BD-41F5-8590-9282CE7ED8BE}",
-        "OBJECTID": 28674,
+        "last_edited_date": 1788887604000,
+        "GlobalID": "{8F676A01-6BBD-4B8A-9485-C9BB2F6AC02B}",
+        "OBJECTID": 28760,
         "Petition": "2026-052",
         "Petitioner": "Lasharee Rogers",
         "ExistZone": "N1-D",
@@ -1662,7 +1662,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "79",
         "ODZ": null,
         "CCW": "Corridor",
         "ServiceArea": "District1",
@@ -1685,7 +1685,7 @@
     },
     {
       "type": "Feature",
-      "id": 28675,
+      "id": 28761,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1922,8 +1922,8 @@
         "created_date": 1767753946000,
         "last_edited_user": "101250",
         "last_edited_date": 1767754097000,
-        "GlobalID": "{55620A66-AB37-48C8-B911-C4D3005F6266}",
-        "OBJECTID": 28675,
+        "GlobalID": "{C0DD4518-5D74-469F-80CE-4D0852310112}",
+        "OBJECTID": 28761,
         "Petition": "2025-137",
         "Petitioner": "Blue Azalea Asset Management, LLC",
         "ExistZone": "R-20MF",
@@ -1960,7 +1960,7 @@
     },
     {
       "type": "Feature",
-      "id": 28676,
+      "id": 28762,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2021,8 +2021,8 @@
         "created_date": 1784587216000,
         "last_edited_user": "101250",
         "last_edited_date": 1784587886000,
-        "GlobalID": "{DB86F398-B158-4A59-927F-0868DD1AED14}",
-        "OBJECTID": 28676,
+        "GlobalID": "{8558E1D1-3096-4A9D-AD7D-6CD8AF314296}",
+        "OBJECTID": 28762,
         "Petition": "2026-048",
         "Petitioner": "RANGEWATER DEVELOPMENT, LLC",
         "ExistZone": "N1-A",
@@ -2059,7 +2059,7 @@
     },
     {
       "type": "Feature",
-      "id": 28677,
+      "id": 28763,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2118,10 +2118,10 @@
       "properties": {
         "created_user": "94977",
         "created_date": 1787071405000,
-        "last_edited_user": "99930",
-        "last_edited_date": 1788208920000,
-        "GlobalID": "{DB78973F-A9DE-4504-A97B-86C83A093925}",
-        "OBJECTID": 28677,
+        "last_edited_user": "100442",
+        "last_edited_date": 1788887649000,
+        "GlobalID": "{100B6055-572F-42F6-8C96-C39A9217F4F1}",
+        "OBJECTID": 28763,
         "Petition": "2026-056",
         "Petitioner": "Eastway-Overlook LLC",
         "ExistZone": "OFC",
@@ -2135,7 +2135,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "112",
         "ODZ": null,
         "CCW": "Wedge",
         "ServiceArea": "District5",
@@ -2158,7 +2158,7 @@
     },
     {
       "type": "Feature",
-      "id": 28678,
+      "id": 28764,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2223,8 +2223,8 @@
         "created_date": 1779225276000,
         "last_edited_user": "101639",
         "last_edited_date": 1779230577000,
-        "GlobalID": "{2444D80E-5D4A-4D68-BC23-0191F7B97BB7}",
-        "OBJECTID": 28678,
+        "GlobalID": "{0BBF1B02-B949-41F8-BF2A-12721E868960}",
+        "OBJECTID": 28764,
         "Petition": "2026-035",
         "Petitioner": "DreamKey Partners",
         "ExistZone": "N1-B",
@@ -2261,7 +2261,7 @@
     },
     {
       "type": "Feature",
-      "id": 28679,
+      "id": 28765,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2393,9 +2393,9 @@
         "created_user": "100442",
         "created_date": 1786994452000,
         "last_edited_user": "100442",
-        "last_edited_date": 1788297728000,
-        "GlobalID": "{7BB47221-5516-4F73-B091-FABE65965792}",
-        "OBJECTID": 28679,
+        "last_edited_date": 1788887673000,
+        "GlobalID": "{C9725555-4AF4-4E8F-BD93-DE0894068726}",
+        "OBJECTID": 28765,
         "Petition": "2026-059",
         "Petitioner": "The United House of Prayer for All People of the C",
         "ExistZone": "CG",
@@ -2409,7 +2409,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "79",
         "ODZ": null,
         "CCW": "Corridor",
         "ServiceArea": "District2",
@@ -2432,7 +2432,7 @@
     },
     {
       "type": "Feature",
-      "id": 28680,
+      "id": 28766,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2717,8 +2717,8 @@
         "created_date": 1773950485000,
         "last_edited_user": "101639",
         "last_edited_date": 1773951240000,
-        "GlobalID": "{7ADF9409-2B3A-45DF-A15F-77D03E666446}",
-        "OBJECTID": 28680,
+        "GlobalID": "{5C3BC254-D218-40E1-A3F0-41C49DB38DA5}",
+        "OBJECTID": 28766,
         "Petition": "2026-024",
         "Petitioner": "Summit Ave Development LLC",
         "ExistZone": "N1-D",
@@ -2755,7 +2755,7 @@
     },
     {
       "type": "Feature",
-      "id": 28681,
+      "id": 28767,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2804,8 +2804,8 @@
         "created_date": 1779137304000,
         "last_edited_user": "101639",
         "last_edited_date": 1779218513000,
-        "GlobalID": "{4A7BEA29-F0AC-44EC-A67A-ACCD330DFFAC}",
-        "OBJECTID": 28681,
+        "GlobalID": "{72DB0181-ACAF-4286-AE8F-59118B8CC250}",
+        "OBJECTID": 28767,
         "Petition": "2026-026",
         "Petitioner": "Nativity of the Holy Virgin Orthodox Church",
         "ExistZone": "N2-B",
@@ -2842,7 +2842,7 @@
     },
     {
       "type": "Feature",
-      "id": 28682,
+      "id": 28768,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3019,8 +3019,8 @@
         "created_date": 1773944334000,
         "last_edited_user": "101639",
         "last_edited_date": 1777588282000,
-        "GlobalID": "{B45AD280-1D7D-4559-96FF-AC627A1576B1}",
-        "OBJECTID": 28682,
+        "GlobalID": "{FFD852F3-F65D-47A7-B79E-B37A601A8207}",
+        "OBJECTID": 28768,
         "Petition": "2026-019",
         "Petitioner": "ACRO Development Services",
         "ExistZone": "N1-A",
@@ -3057,7 +3057,7 @@
     },
     {
       "type": "Feature",
-      "id": 28683,
+      "id": 28769,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3149,9 +3149,9 @@
         "created_user": "100442",
         "created_date": 1786995509000,
         "last_edited_user": "100442",
-        "last_edited_date": 1786997097000,
-        "GlobalID": "{2521BA01-0472-4028-8EC6-EC9802338F21}",
-        "OBJECTID": 28683,
+        "last_edited_date": 1788887682000,
+        "GlobalID": "{A98C2643-30D8-4390-A229-C72E979554A6}",
+        "OBJECTID": 28769,
         "Petition": "2026-060",
         "Petitioner": "2130 North Tryon St. LLC",
         "ExistZone": "MUDD(CDO)",
@@ -3165,7 +3165,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "88, 89",
         "ODZ": null,
         "CCW": "Corridor",
         "ServiceArea": "District1",
@@ -3188,7 +3188,7 @@
     },
     {
       "type": "Feature",
-      "id": 28684,
+      "id": 28770,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3245,8 +3245,8 @@
         "created_date": 1737068240000,
         "last_edited_user": "101639",
         "last_edited_date": 1737585564000,
-        "GlobalID": "{CB194716-0C91-4083-8ADE-530EA308E5F3}",
-        "OBJECTID": 28684,
+        "GlobalID": "{29365E60-D0F3-4D26-B4F1-B80ADF4AD94B}",
+        "OBJECTID": 28770,
         "Petition": "2025-003",
         "Petitioner": "Brandon Pridemore",
         "ExistZone": "N1-A",
@@ -3283,7 +3283,7 @@
     },
     {
       "type": "Feature",
-      "id": 28685,
+      "id": 28771,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3352,8 +3352,8 @@
         "created_date": 1722287753000,
         "last_edited_user": "101250",
         "last_edited_date": 1722287865000,
-        "GlobalID": "{1E08F22A-5793-420D-B046-7A9D0A39809D}",
-        "OBJECTID": 28685,
+        "GlobalID": "{55541B77-06DF-4C9E-ADC4-7C5E8B6C8EB7}",
+        "OBJECTID": 28771,
         "Petition": "2024-091",
         "Petitioner": "Belmont Development Partners LLC",
         "ExistZone": "UR-3",
@@ -3390,7 +3390,7 @@
     },
     {
       "type": "Feature",
-      "id": 28686,
+      "id": 28772,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3835,8 +3835,8 @@
         "created_date": 1761173306000,
         "last_edited_user": "101639",
         "last_edited_date": 1761173871000,
-        "GlobalID": "{62BE039B-A39E-4EE3-8A54-1C54C0C1BE90}",
-        "OBJECTID": 28686,
+        "GlobalID": "{5B89A75E-6656-4C7F-94D3-84FBD5CC9908}",
+        "OBJECTID": 28772,
         "Petition": "2025-120",
         "Petitioner": "American Tower Asset Sub LLC",
         "ExistZone": "N1-A",
@@ -3873,7 +3873,7 @@
     },
     {
       "type": "Feature",
-      "id": 28687,
+      "id": 28773,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3958,8 +3958,8 @@
         "created_date": 1761173640000,
         "last_edited_user": "101639",
         "last_edited_date": 1761173871000,
-        "GlobalID": "{921C483E-593D-446D-A7D9-85395A31783C}",
-        "OBJECTID": 28687,
+        "GlobalID": "{5896C563-9C08-433C-AD15-2228CF92DB31}",
+        "OBJECTID": 28773,
         "Petition": "2025-120",
         "Petitioner": "American Tower Asset Sub LLC",
         "ExistZone": "O-9(CD)",
@@ -3996,7 +3996,7 @@
     },
     {
       "type": "Feature",
-      "id": 28688,
+      "id": 28774,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4129,8 +4129,8 @@
         "created_date": 1781636222000,
         "last_edited_user": "101250",
         "last_edited_date": 1781716553000,
-        "GlobalID": "{B000F9EB-4C41-417E-B3E1-9AFEC54A0E41}",
-        "OBJECTID": 28688,
+        "GlobalID": "{AD6196A0-CF23-408B-87E2-835E153705B8}",
+        "OBJECTID": 28774,
         "Petition": "2026-043",
         "Petitioner": "Golden Ventures IX, LLC",
         "ExistZone": "NS",
@@ -4167,7 +4167,7 @@
     },
     {
       "type": "Feature",
-      "id": 28689,
+      "id": 28775,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4251,9 +4251,9 @@
         "created_user": "100442",
         "created_date": 1786646441000,
         "last_edited_user": "100442",
-        "last_edited_date": 1786646732000,
-        "GlobalID": "{65C16317-A5A8-4212-B7EB-1512E69C2E4D}",
-        "OBJECTID": 28689,
+        "last_edited_date": 1788887625000,
+        "GlobalID": "{2B77CA07-B40D-426F-B4DF-0C3FBCA7CFE6}",
+        "OBJECTID": 28775,
         "Petition": "2026-054",
         "Petitioner": "Chisolm Communities, LLC",
         "ExistZone": "N1-A",
@@ -4267,7 +4267,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "53",
         "ODZ": null,
         "CCW": "Wedge",
         "ServiceArea": "District4",
@@ -4290,7 +4290,7 @@
     },
     {
       "type": "Feature",
-      "id": 28690,
+      "id": 28776,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4391,8 +4391,8 @@
         "created_date": 1735082899000,
         "last_edited_user": "101639",
         "last_edited_date": 1770942862000,
-        "GlobalID": "{0A63015B-7C69-485A-8F3B-E0263250F074}",
-        "OBJECTID": 28690,
+        "GlobalID": "{F5574029-C849-4266-885F-92EFC360E641}",
+        "OBJECTID": 28776,
         "Petition": "2024-143",
         "Petitioner": "Panorama Development, LLC",
         "ExistZone": "ML-2(ANDO)",
@@ -4429,7 +4429,7 @@
     },
     {
       "type": "Feature",
-      "id": 28691,
+      "id": 28777,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4506,8 +4506,8 @@
         "created_date": 1781638470000,
         "last_edited_user": "100442",
         "last_edited_date": 1788282859000,
-        "GlobalID": "{E94C3A95-9A7C-4130-9A45-571FC1E24765}",
-        "OBJECTID": 28691,
+        "GlobalID": "{C34F9580-A8F7-46C2-AC1C-D1B942155E9F}",
+        "OBJECTID": 28777,
         "Petition": "2026-044",
         "Petitioner": "Hendrick Automotive Group",
         "ExistZone": "OFC",
@@ -4544,7 +4544,7 @@
     },
     {
       "type": "Feature",
-      "id": 28692,
+      "id": 28778,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4733,8 +4733,8 @@
         "created_date": 1770933882000,
         "last_edited_user": "101639",
         "last_edited_date": 1770934188000,
-        "GlobalID": "{47AE56D5-5A64-4C0D-A99E-223E56DA5BCE}",
-        "OBJECTID": 28692,
+        "GlobalID": "{130492E6-9DD6-43CD-BB64-D99A7FF7D503}",
+        "OBJECTID": 28778,
         "Petition": "2025-134",
         "Petitioner": "Stuart Hair",
         "ExistZone": "CG",
@@ -4771,7 +4771,7 @@
     },
     {
       "type": "Feature",
-      "id": 28693,
+      "id": 28779,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4872,8 +4872,8 @@
         "created_date": 1739492859000,
         "last_edited_user": "101250",
         "last_edited_date": 1784059616000,
-        "GlobalID": "{FDFF30DA-066E-40A8-825E-ACEC74E951CE}",
-        "OBJECTID": 28693,
+        "GlobalID": "{3454EC01-A4DD-4EA6-89B2-48099EB1EEDF}",
+        "OBJECTID": 28779,
         "Petition": "2025-011",
         "Petitioner": "Garrison Road Holding, LLC",
         "ExistZone": "N1-A(ANDO)",
@@ -4910,7 +4910,7 @@
     },
     {
       "type": "Feature",
-      "id": 28694,
+      "id": 28780,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -5095,8 +5095,8 @@
         "created_date": 1674759100000,
         "last_edited_user": "101250",
         "last_edited_date": 1782494561000,
-        "GlobalID": "{19832419-F09C-4516-8795-D2FBCEA0577A}",
-        "OBJECTID": 28694,
+        "GlobalID": "{0356E579-213F-4846-9B0D-6C4E35212FD7}",
+        "OBJECTID": 28780,
         "Petition": "2022-159",
         "Petitioner": "Hopper Communities ",
         "ExistZone": "R-3",
@@ -5133,7 +5133,7 @@
     },
     {
       "type": "Feature",
-      "id": 28695,
+      "id": 28781,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -5370,8 +5370,8 @@
         "created_date": 1753145135000,
         "last_edited_user": "101639",
         "last_edited_date": 1753204967000,
-        "GlobalID": "{B1991ECF-690F-43A7-A46B-02FC17B55F07}",
-        "OBJECTID": 28695,
+        "GlobalID": "{14409C50-2276-46E0-BB06-6E5D80BC1D77}",
+        "OBJECTID": 28781,
         "Petition": "2025-086",
         "Petitioner": "Pence Road Development LLC",
         "ExistZone": "ML-1",
@@ -5408,7 +5408,130 @@
     },
     {
       "type": "Feature",
-      "id": 28696,
+      "id": 28782,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.95577629946757,
+              35.27275023538312
+            ],
+            [
+              -80.95579441325035,
+              35.272749143991994
+            ],
+            [
+              -80.95597107345,
+              35.27273850497088
+            ],
+            [
+              -80.95591986420224,
+              35.272166882812584
+            ],
+            [
+              -80.95575298174872,
+              35.2721767248308
+            ],
+            [
+              -80.95559580098626,
+              35.27218623123125
+            ],
+            [
+              -80.9555844363423,
+              35.27218691811641
+            ],
+            [
+              -80.95549296716956,
+              35.27219245127728
+            ],
+            [
+              -80.9554349663449,
+              35.27219595104514
+            ],
+            [
+              -80.95542728673857,
+              35.272196415205826
+            ],
+            [
+              -80.9554154431477,
+              35.27219713042439
+            ],
+            [
+              -80.95550325223333,
+              35.273140706597836
+            ],
+            [
+              -80.95550882451094,
+              35.27322540311436
+            ],
+            [
+              -80.95581016900881,
+              35.273202215680676
+            ],
+            [
+              -80.95580280569436,
+              35.273111941823935
+            ],
+            [
+              -80.95578320318982,
+              35.27294647281334
+            ],
+            [
+              -80.95577836176801,
+              35.27280887058343
+            ],
+            [
+              -80.95577629946757,
+              35.27275023538312
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "created_user": "100442",
+        "created_date": 1788887858000,
+        "last_edited_user": "100442",
+        "last_edited_date": 1788888153000,
+        "GlobalID": "{6CF77F9F-5122-4761-8D1E-82AEC524F2F4}",
+        "OBJECTID": 28782,
+        "Petition": "2026-064",
+        "Petitioner": "GE Royal Eagle Businesses LLC",
+        "ExistZone": "N1-B",
+        "ReqZone": "N1-D",
+        "Type": "CV",
+        "SPA": "no",
+        "Overlay": "LLW-PA",
+        "INNOV": "NO",
+        "Acres": 1.02,
+        "PetAcres": 1.02,
+        "Water": "CMUD",
+        "Sewer": "CMUD",
+        "CityLimit": "YES",
+        "ZoningMap": "82",
+        "ODZ": null,
+        "CCW": "Wedge",
+        "ServiceArea": "District3",
+        "LuseStaff": null,
+        "UrbanDesign": null,
+        "RezoneStaff": null,
+        "Consistent": null,
+        "ProtestPet": null,
+        "Received": 1788321600000,
+        "Approved": null,
+        "Status": "Pen",
+        "Hyperlink": "https://www.charlottenc.gov/Growth-and-Development/Planning-and-Development/Rezoning/2026/2026-064",
+        "Corrective": null,
+        "Verified": null,
+        "Propluse": null,
+        "Split": null,
+        "SHAPE.STArea()": 46338.48477597656,
+        "SHAPE.STLength()": 1048.3470307497441
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28783,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -5457,8 +5580,8 @@
         "created_date": 1779137840000,
         "last_edited_user": "101639",
         "last_edited_date": 1779223594000,
-        "GlobalID": "{6D95C356-3DF1-48F0-86A1-69458FC5478F}",
-        "OBJECTID": 28696,
+        "GlobalID": "{098D8981-F846-44DA-AC78-60D36D796C7A}",
+        "OBJECTID": 28783,
         "Petition": "2026-030",
         "Petitioner": "Olympia & Wright LLC",
         "ExistZone": "CG",
@@ -5495,7 +5618,7 @@
     },
     {
       "type": "Feature",
-      "id": 28697,
+      "id": 28784,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -5588,8 +5711,8 @@
         "created_date": 1779225582000,
         "last_edited_user": "101639",
         "last_edited_date": 1779225698000,
-        "GlobalID": "{24EA75CE-C7BF-4AD4-8C78-111090C46811}",
-        "OBJECTID": 28697,
+        "GlobalID": "{D83C3EB2-0786-472D-9673-6DE9E1342061}",
+        "OBJECTID": 28784,
         "Petition": "2026-036",
         "Petitioner": "Culp Road Materials, LLC",
         "ExistZone": "ML-2(CD)",
@@ -5626,7 +5749,7 @@
     },
     {
       "type": "Feature",
-      "id": 28698,
+      "id": 28785,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -5731,8 +5854,8 @@
         "created_date": 1742426241000,
         "last_edited_user": "101250",
         "last_edited_date": 1742426438000,
-        "GlobalID": "{36E85B54-078F-4901-A4D1-B9BA878BD2AE}",
-        "OBJECTID": 28698,
+        "GlobalID": "{4B16AC3B-5109-4807-AC7F-84C2BF64F36F}",
+        "OBJECTID": 28785,
         "Petition": "2025-035",
         "Petitioner": "Jose Anaya",
         "ExistZone": "MHP",
@@ -5769,7 +5892,7 @@
     },
     {
       "type": "Feature",
-      "id": 28699,
+      "id": 28786,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -5846,8 +5969,8 @@
         "created_date": 1735082969000,
         "last_edited_user": "101639",
         "last_edited_date": 1770942866000,
-        "GlobalID": "{4B7511BD-4F76-4E3B-906A-A74AA4594933}",
-        "OBJECTID": 28699,
+        "GlobalID": "{7C83664B-8834-45E4-A10D-96871259557F}",
+        "OBJECTID": 28786,
         "Petition": "2024-143",
         "Petitioner": "Panorama Development, LLC",
         "ExistZone": "ML-1",
@@ -5884,7 +6007,7 @@
     },
     {
       "type": "Feature",
-      "id": 28700,
+      "id": 28787,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -6105,8 +6228,8 @@
         "created_date": 1781634612000,
         "last_edited_user": "101250",
         "last_edited_date": 1781635943000,
-        "GlobalID": "{5CABBA53-D882-49F0-921A-317E9B53FC46}",
-        "OBJECTID": 28700,
+        "GlobalID": "{4845B39F-7AC3-4DDF-B15E-7E7202E4FCD6}",
+        "OBJECTID": 28787,
         "Petition": "2026-042",
         "Petitioner": "Eminent Investments LLC",
         "ExistZone": "O-2(CD)",
@@ -6143,7 +6266,7 @@
     },
     {
       "type": "Feature",
-      "id": 28701,
+      "id": 28788,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -6479,9 +6602,9 @@
         "created_user": "100442",
         "created_date": 1786993041000,
         "last_edited_user": "100442",
-        "last_edited_date": 1786993703000,
-        "GlobalID": "{1D47E0C8-3934-430A-95EC-AAEE1E461F75}",
-        "OBJECTID": 28701,
+        "last_edited_date": 1788887664000,
+        "GlobalID": "{F2830991-20C3-46D4-BC5B-98CDF81523F2}",
+        "OBJECTID": 28788,
         "Petition": "2026-058",
         "Petitioner": "Pappas Properties Development LLC",
         "ExistZone": "ML-2",
@@ -6495,7 +6618,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "126",
         "ODZ": null,
         "CCW": "Corridor",
         "ServiceArea": "District3",
@@ -6518,7 +6641,7 @@
     },
     {
       "type": "Feature",
-      "id": 28702,
+      "id": 28789,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -6595,8 +6718,8 @@
         "created_date": 1780420437000,
         "last_edited_user": "101639",
         "last_edited_date": 1780421641000,
-        "GlobalID": "{0E1E2D20-A8C7-44C7-8D95-FAAEFD60D79B}",
-        "OBJECTID": 28702,
+        "GlobalID": "{5FBC10D3-C332-406A-B0DF-C0AE4B1827CA}",
+        "OBJECTID": 28789,
         "Petition": "2026-037",
         "Petitioner": "Historical Excelsior Inc.",
         "ExistZone": "NC",
@@ -6633,7 +6756,7 @@
     },
     {
       "type": "Feature",
-      "id": 28703,
+      "id": 28790,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -6694,8 +6817,8 @@
         "created_date": 1773950514000,
         "last_edited_user": "101639",
         "last_edited_date": 1773951285000,
-        "GlobalID": "{E0189943-1EAD-487E-A9CD-C870731030BA}",
-        "OBJECTID": 28703,
+        "GlobalID": "{E6677EF4-DF64-4A22-979C-DFA7253CD180}",
+        "OBJECTID": 28790,
         "Petition": "2026-024",
         "Petitioner": "Summit Ave Development LLC",
         "ExistZone": "OFC",
@@ -6732,7 +6855,7 @@
     },
     {
       "type": "Feature",
-      "id": 28704,
+      "id": 28791,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -6853,8 +6976,8 @@
         "created_date": 1680630607000,
         "last_edited_user": "101250",
         "last_edited_date": 1782494567000,
-        "GlobalID": "{1E3B408B-5FE3-4796-9408-2271017E4F4A}",
-        "OBJECTID": 28704,
+        "GlobalID": "{B3F281FA-57EF-4473-84C4-2A294A8C4331}",
+        "OBJECTID": 28791,
         "Petition": "2022-203",
         "Petitioner": "Stavya, LLC",
         "ExistZone": "R-3",
@@ -6891,7 +7014,7 @@
     },
     {
       "type": "Feature",
-      "id": 28705,
+      "id": 28792,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -6956,8 +7079,8 @@
         "created_date": 1722275222000,
         "last_edited_user": "101250",
         "last_edited_date": 1722276478000,
-        "GlobalID": "{79E319BD-934A-4DCF-A4B8-7773C39B267E}",
-        "OBJECTID": 28705,
+        "GlobalID": "{6BCF83A3-89F3-4554-BBFE-49B934510677}",
+        "OBJECTID": 28792,
         "Petition": "2024-079",
         "Petitioner": "Merancas Holdings LLC",
         "ExistZone": "R-15PUD",
@@ -6994,7 +7117,7 @@
     },
     {
       "type": "Feature",
-      "id": 28706,
+      "id": 28793,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -7059,8 +7182,8 @@
         "created_date": 1780420342000,
         "last_edited_user": "101639",
         "last_edited_date": 1780421620000,
-        "GlobalID": "{B78BBC84-5A11-4EBC-A286-AAF82E9FA4B3}",
-        "OBJECTID": 28706,
+        "GlobalID": "{6DD03121-C4F3-4AD1-826F-689E572323AB}",
+        "OBJECTID": 28793,
         "Petition": "2026-037",
         "Petitioner": "Historical Excelsior Inc.",
         "ExistZone": "N1-C",
@@ -7097,7 +7220,7 @@
     },
     {
       "type": "Feature",
-      "id": 28707,
+      "id": 28794,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8004,8 +8127,8 @@
         "created_date": 1770933675000,
         "last_edited_user": "101250",
         "last_edited_date": 1782494183000,
-        "GlobalID": "{E5537441-3335-4476-B72A-EB424DDFFC6C}",
-        "OBJECTID": 28707,
+        "GlobalID": "{A343CA65-C615-45CB-AC3F-CADCE72A361E}",
+        "OBJECTID": 28794,
         "Petition": "2025-134",
         "Petitioner": "Stuart Hair",
         "ExistZone": "N1-A(ANDO)",
@@ -8042,7 +8165,7 @@
     },
     {
       "type": "Feature",
-      "id": 28708,
+      "id": 28795,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8107,8 +8230,8 @@
         "created_date": 1748980757000,
         "last_edited_user": "101250",
         "last_edited_date": 1748980869000,
-        "GlobalID": "{5AA07E16-E7F9-4078-A52E-D92822325108}",
-        "OBJECTID": 28708,
+        "GlobalID": "{85AA58EA-0932-4405-BB2B-3D6DEBF20C31}",
+        "OBJECTID": 28795,
         "Petition": "2025-062",
         "Petitioner": " Wal-Mart Real Estate Business Trust",
         "ExistZone": "B-1(SCD)",
@@ -8145,7 +8268,7 @@
     },
     {
       "type": "Feature",
-      "id": 28709,
+      "id": 28796,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8262,8 +8385,8 @@
         "created_date": 1763666462000,
         "last_edited_user": "101639",
         "last_edited_date": 1763666663000,
-        "GlobalID": "{CA8180A3-1BCD-42B5-BB4E-0AAF0D61A0E5}",
-        "OBJECTID": 28709,
+        "GlobalID": "{D0903239-7479-4483-B5C6-48995ACA1249}",
+        "OBJECTID": 28796,
         "Petition": "2025-124",
         "Petitioner": "Graham Drury",
         "ExistZone": "N1-A",
@@ -8300,7 +8423,7 @@
     },
     {
       "type": "Feature",
-      "id": 28710,
+      "id": 28797,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8349,8 +8472,8 @@
         "created_date": 1771533548000,
         "last_edited_user": "101639",
         "last_edited_date": 1771533687000,
-        "GlobalID": "{94FDE0E1-1269-416C-B22F-78380E8E9162}",
-        "OBJECTID": 28710,
+        "GlobalID": "{FD8BF020-1AFE-4A32-89EC-081625D06370}",
+        "OBJECTID": 28797,
         "Petition": "2026-011",
         "Petitioner": "Tribute Companies Inc",
         "ExistZone": "R-12MF(CD)",
@@ -8387,7 +8510,7 @@
     },
     {
       "type": "Feature",
-      "id": 28711,
+      "id": 28798,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8496,8 +8619,8 @@
         "created_date": 1779138166000,
         "last_edited_user": "101639",
         "last_edited_date": 1779142784000,
-        "GlobalID": "{B7CC632E-7639-4C36-A5A2-75F0E1630BE8}",
-        "OBJECTID": 28711,
+        "GlobalID": "{C798D694-4DF7-4163-862C-866A4616935E}",
+        "OBJECTID": 28798,
         "Petition": "2026-032",
         "Petitioner": "SAVALEX HOMES LLC",
         "ExistZone": "N1-C",
@@ -8534,7 +8657,7 @@
     },
     {
       "type": "Feature",
-      "id": 28712,
+      "id": 28799,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8623,8 +8746,8 @@
         "created_date": 1755731402000,
         "last_edited_user": "101639",
         "last_edited_date": 1755731655000,
-        "GlobalID": "{A42DACED-570D-4BF2-A0F4-FACE60354419}",
-        "OBJECTID": 28712,
+        "GlobalID": "{378508F4-1EC5-4448-8504-29591AC3A41D}",
+        "OBJECTID": 28799,
         "Petition": "2025-086",
         "Petitioner": "Pence Road Development LLC",
         "ExistZone": "B-2(CD)",
@@ -8661,7 +8784,7 @@
     },
     {
       "type": "Feature",
-      "id": 28713,
+      "id": 28800,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8754,8 +8877,8 @@
         "created_date": 1763666808000,
         "last_edited_user": "101639",
         "last_edited_date": 1763672027000,
-        "GlobalID": "{57FDE186-EA85-4E5D-9D2D-107DDF239CE9}",
-        "OBJECTID": 28713,
+        "GlobalID": "{2A32D39C-EBE7-4E38-9C59-6D4304428F75}",
+        "OBJECTID": 28800,
         "Petition": "2025-125",
         "Petitioner": "Josh Gill",
         "ExistZone": "N1-A",
@@ -8792,7 +8915,7 @@
     },
     {
       "type": "Feature",
-      "id": 28714,
+      "id": 28801,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -8997,8 +9120,8 @@
         "created_date": 1773942648000,
         "last_edited_user": "101639",
         "last_edited_date": 1773942788000,
-        "GlobalID": "{F502D8DD-89DC-4D76-AFC3-A25353A72B77}",
-        "OBJECTID": 28714,
+        "GlobalID": "{14345D15-DDB2-4382-ADDF-004BCE189AE7}",
+        "OBJECTID": 28801,
         "Petition": "2026-014",
         "Petitioner": "TRUE HOMES, LLC.",
         "ExistZone": "B-1(CD)",
@@ -9035,7 +9158,7 @@
     },
     {
       "type": "Feature",
-      "id": 28715,
+      "id": 28802,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -9095,9 +9218,9 @@
         "created_user": "100442",
         "created_date": 1785870836000,
         "last_edited_user": "100442",
-        "last_edited_date": 1785872798000,
-        "GlobalID": "{F662C5F2-5D46-4E31-B60E-65F6A5D98558}",
-        "OBJECTID": 28715,
+        "last_edited_date": 1788887617000,
+        "GlobalID": "{F2495343-C880-4AFC-A7E9-9CBF2BFDD8B0}",
+        "OBJECTID": 28802,
         "Petition": "2026-053",
         "Petitioner": "Preferred Parking Service, LLC",
         "ExistZone": "N2-C",
@@ -9111,7 +9234,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "102",
         "ODZ": null,
         "CCW": "Center City Activity Center",
         "ServiceArea": "District1",
@@ -9134,7 +9257,7 @@
     },
     {
       "type": "Feature",
-      "id": 28716,
+      "id": 28803,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -9226,9 +9349,9 @@
         "created_user": "100442",
         "created_date": 1786742501000,
         "last_edited_user": "100442",
-        "last_edited_date": 1786742975000,
-        "GlobalID": "{CB2B1788-7965-4DC3-8454-43E5CD13C5CC}",
-        "OBJECTID": 28716,
+        "last_edited_date": 1788887657000,
+        "GlobalID": "{A7039FC0-403D-4E83-A882-BA513C64C6F4}",
+        "OBJECTID": 28803,
         "Petition": "2026-057",
         "Petitioner": "Dash In Food Stores, Inc.",
         "ExistZone": "B-1(CD)(ANDO)",
@@ -9242,7 +9365,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "133",
         "ODZ": null,
         "CCW": "Mixed Use Activity Center",
         "ServiceArea": "District3",
@@ -9265,7 +9388,7 @@
     },
     {
       "type": "Feature",
-      "id": 28717,
+      "id": 28804,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -9406,8 +9529,8 @@
         "created_date": 1748980980000,
         "last_edited_user": "101250",
         "last_edited_date": 1748992933000,
-        "GlobalID": "{2C8D2127-132F-4BD0-BFCF-DDB43BDE620B}",
-        "OBJECTID": 28717,
+        "GlobalID": "{5BEE8171-4BC6-4B93-8AAC-3E1E0BE15B8D}",
+        "OBJECTID": 28804,
         "Petition": "2025-063",
         "Petitioner": "Northwood Ravin",
         "ExistZone": "OFC",
@@ -9444,7 +9567,7 @@
     },
     {
       "type": "Feature",
-      "id": 28718,
+      "id": 28805,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -9569,8 +9692,8 @@
         "created_date": 1784581462000,
         "last_edited_user": "101250",
         "last_edited_date": 1784581569000,
-        "GlobalID": "{71919684-47E2-4354-A3F0-DBCBDA4C4BF0}",
-        "OBJECTID": 28718,
+        "GlobalID": "{1B777E73-EBC5-45F9-AA48-5D25B965B279}",
+        "OBJECTID": 28805,
         "Petition": "2026-051",
         "Petitioner": "Kittle Property Group, Inc.",
         "ExistZone": "N1-A",
@@ -9607,7 +9730,7 @@
     },
     {
       "type": "Feature",
-      "id": 28719,
+      "id": 28806,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -9664,8 +9787,8 @@
         "created_date": 1753203168000,
         "last_edited_user": "101639",
         "last_edited_date": 1753203357000,
-        "GlobalID": "{E350242E-B1A6-4DD3-B6A5-55C5F8C15B26}",
-        "OBJECTID": 28719,
+        "GlobalID": "{C2616D81-7EE1-4A52-89EF-F2A1E8C7B9F1}",
+        "OBJECTID": 28806,
         "Petition": "2025-086",
         "Petitioner": "Pence Road Development LLC",
         "ExistZone": "I-1(CD)",
@@ -9702,7 +9825,7 @@
     },
     {
       "type": "Feature",
-      "id": 28720,
+      "id": 28807,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -9755,8 +9878,8 @@
         "created_date": 1779138005000,
         "last_edited_user": "101639",
         "last_edited_date": 1779142784000,
-        "GlobalID": "{93BDA73C-B188-4710-ACAE-6E12FCE5DD8C}",
-        "OBJECTID": 28720,
+        "GlobalID": "{C3E5047B-30D5-47FB-99FB-916199100D02}",
+        "OBJECTID": 28807,
         "Petition": "2026-031",
         "Petitioner": "Charlotte Pipe and Foundry Co",
         "ExistZone": "N1-C",
@@ -9793,7 +9916,7 @@
     },
     {
       "type": "Feature",
-      "id": 28721,
+      "id": 28808,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -9874,8 +9997,8 @@
         "created_date": 1781638777000,
         "last_edited_user": "99930",
         "last_edited_date": 1781810731000,
-        "GlobalID": "{608F96AD-45AE-4886-9C55-CD6BD42A7352}",
-        "OBJECTID": 28721,
+        "GlobalID": "{E8F97D66-E134-4D70-9289-E33CF07FB674}",
+        "OBJECTID": 28808,
         "Petition": "2026-045",
         "Petitioner": "Saraya Investment Holdings, LLC",
         "ExistZone": "N1-A",
@@ -9912,7 +10035,7 @@
     },
     {
       "type": "Feature",
-      "id": 28722,
+      "id": 28809,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -10221,8 +10344,8 @@
         "created_date": 1784159211000,
         "last_edited_user": "101250",
         "last_edited_date": 1784587912000,
-        "GlobalID": "{8F349C3A-A6FF-4553-BBCA-2C1C379DA036}",
-        "OBJECTID": 28722,
+        "GlobalID": "{387F5BDC-038F-4FD9-9351-117CBBC73031}",
+        "OBJECTID": 28809,
         "Petition": "2026-048",
         "Petitioner": "RANGEWATER DEVELOPMENT, LLC",
         "ExistZone": "N1-A",
@@ -10259,7 +10382,210 @@
     },
     {
       "type": "Feature",
-      "id": 28723,
+      "id": 28810,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.72914496575072,
+              35.18730051893968
+            ],
+            [
+              -80.72919686728379,
+              35.1873170433431
+            ],
+            [
+              -80.72924871647676,
+              35.187333565037946
+            ],
+            [
+              -80.7293910422881,
+              35.187377439884
+            ],
+            [
+              -80.72942991302686,
+              35.187312988795036
+            ],
+            [
+              -80.72943878435869,
+              35.1872899478792
+            ],
+            [
+              -80.72944495512421,
+              35.18727392577158
+            ],
+            [
+              -80.72997215367458,
+              35.1859048411338
+            ],
+            [
+              -80.72993289706555,
+              35.18588227581652
+            ],
+            [
+              -80.72989671765265,
+              35.18585989146004
+            ],
+            [
+              -80.72986137209918,
+              35.18583726672647
+            ],
+            [
+              -80.72982600574781,
+              35.185813956972
+            ],
+            [
+              -80.72979174378388,
+              35.185789944381234
+            ],
+            [
+              -80.72975719878825,
+              35.18576570567652
+            ],
+            [
+              -80.72972375675324,
+              35.185740992593125
+            ],
+            [
+              -80.72969086064212,
+              35.185715582947196
+            ],
+            [
+              -80.72965795764932,
+              35.18568994667247
+            ],
+            [
+              -80.72962615486108,
+              35.18566360762412
+            ],
+            [
+              -80.72959518868734,
+              35.18563725659961
+            ],
+            [
+              -80.72956392710635,
+              35.18560999776636
+            ],
+            [
+              -80.7295340534816,
+              35.18558248376442
+            ],
+            [
+              -80.72950417021991,
+              35.18555451473857
+            ],
+            [
+              -80.72948721710482,
+              35.185537921675525
+            ],
+            [
+              -80.72933903737095,
+              35.18564570921351
+            ],
+            [
+              -80.72933788133957,
+              35.18564417478765
+            ],
+            [
+              -80.7293364506388,
+              35.18564280917659
+            ],
+            [
+              -80.72933477722393,
+              35.18564163940428
+            ],
+            [
+              -80.72933290570852,
+              35.185640697466404
+            ],
+            [
+              -80.72933087630443,
+              35.18564000511605
+            ],
+            [
+              -80.72932874169963,
+              35.18563958049287
+            ],
+            [
+              -80.72932655436337,
+              35.18563943143421
+            ],
+            [
+              -80.72932436463702,
+              35.185639564090245
+            ],
+            [
+              -80.72930927636546,
+              35.185638582754926
+            ],
+            [
+              -80.72928923133327,
+              35.18563728070843
+            ],
+            [
+              -80.7292130534332,
+              35.186335325244464
+            ],
+            [
+              -80.72923845796221,
+              35.1863371844347
+            ],
+            [
+              -80.72917378374508,
+              35.18700318634157
+            ],
+            [
+              -80.72914496575072,
+              35.18730051893968
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "created_user": "100442",
+        "created_date": 1788887282000,
+        "last_edited_user": "100442",
+        "last_edited_date": 1788887558000,
+        "GlobalID": "{2F9FF379-F8B4-417F-9662-282C23A76B32}",
+        "OBJECTID": 28810,
+        "Petition": "2026-063",
+        "Petitioner": "Eugene Kim",
+        "ExistZone": "N1-B",
+        "ReqZone": "NC-CD",
+        "Type": "CD",
+        "SPA": "no",
+        "Overlay": "none",
+        "INNOV": "NO",
+        "Acres": 1.239,
+        "PetAcres": 1.239,
+        "Water": "CMUD",
+        "Sewer": "CMUD",
+        "CityLimit": "YES",
+        "ZoningMap": "122",
+        "ODZ": null,
+        "CCW": "Wedge",
+        "ServiceArea": "District5",
+        "LuseStaff": null,
+        "UrbanDesign": null,
+        "RezoneStaff": null,
+        "Consistent": null,
+        "ProtestPet": null,
+        "Received": 1787198400000,
+        "Approved": null,
+        "Status": "Pen",
+        "Hyperlink": "https://www.charlottenc.gov/Growth-and-Development/Planning-and-Development/Rezoning/2026/2026-063",
+        "Corrective": null,
+        "Verified": null,
+        "Propluse": null,
+        "Split": null,
+        "SHAPE.STArea()": 92521.1210392578,
+        "SHAPE.STLength()": 1529.271538571772
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28811,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -10372,8 +10698,8 @@
         "created_date": 1784580959000,
         "last_edited_user": "101250",
         "last_edited_date": 1784581111000,
-        "GlobalID": "{94150E0B-30BE-4FFD-8BE8-6D8B8AD7A6B8}",
-        "OBJECTID": 28723,
+        "GlobalID": "{C63E30B7-F35C-4DA2-A4FC-23BD1D32334F}",
+        "OBJECTID": 28811,
         "Petition": "2026-050",
         "Petitioner": "Mid-America Apartments, L.P.",
         "ExistZone": "MUDD-O",
@@ -10410,7 +10736,7 @@
     },
     {
       "type": "Feature",
-      "id": 28724,
+      "id": 28812,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -10643,8 +10969,8 @@
         "created_date": 1773949678000,
         "last_edited_user": "101639",
         "last_edited_date": 1773951274000,
-        "GlobalID": "{8A385D89-F278-4380-814D-155C2AEBBA82}",
-        "OBJECTID": 28724,
+        "GlobalID": "{F9035534-BCB8-4E91-924A-FB63D38928AF}",
+        "OBJECTID": 28812,
         "Petition": "2026-024",
         "Petitioner": "Summit Ave Development LLC",
         "ExistZone": "ML-1",
@@ -10681,7 +11007,7 @@
     },
     {
       "type": "Feature",
-      "id": 28725,
+      "id": 28813,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -10737,9 +11063,9 @@
         "created_user": "100442",
         "created_date": 1786647202000,
         "last_edited_user": "100442",
-        "last_edited_date": 1786647482000,
-        "GlobalID": "{39770CF7-6237-425F-BED5-DEA959E0FC52}",
-        "OBJECTID": 28725,
+        "last_edited_date": 1788887633000,
+        "GlobalID": "{74E1D4A2-9992-4014-8404-11BA4FDE310B}",
+        "OBJECTID": 28813,
         "Petition": "2026-055",
         "Petitioner": "Sameer Gupta",
         "ExistZone": "N1-A",
@@ -10753,7 +11079,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "71",
         "ODZ": null,
         "CCW": "Wedge",
         "ServiceArea": "District4",
@@ -10776,7 +11102,7 @@
     },
     {
       "type": "Feature",
-      "id": 28726,
+      "id": 28814,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11144,9 +11470,9 @@
         "created_user": "100442",
         "created_date": 1787073768000,
         "last_edited_user": "100442",
-        "last_edited_date": 1787075935000,
-        "GlobalID": "{010630EC-6093-4B36-BA35-08D3D1D12B09}",
-        "OBJECTID": 28726,
+        "last_edited_date": 1788887571000,
+        "GlobalID": "{34A520F7-3D83-45A5-828E-1B237834EA27}",
+        "OBJECTID": 28814,
         "Petition": "2026-062",
         "Petitioner": "AAC Moody Lake Land, LLC",
         "ExistZone": "MUDD-O(ANDO)",
@@ -11160,7 +11486,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "132, 133",
         "ODZ": null,
         "CCW": "Mixed Use Activity Center",
         "ServiceArea": "District3",
@@ -11183,7 +11509,7 @@
     },
     {
       "type": "Feature",
-      "id": 28727,
+      "id": 28815,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11396,8 +11722,8 @@
         "created_date": 1722275165000,
         "last_edited_user": "101250",
         "last_edited_date": 1722276440000,
-        "GlobalID": "{1D43E79C-C521-4653-BB8A-C6E25FC640A5}",
-        "OBJECTID": 28727,
+        "GlobalID": "{B2C98149-084D-47BA-BC7F-0FB93A8535F7}",
+        "OBJECTID": 28815,
         "Petition": "2024-079",
         "Petitioner": "Merancas Holdings LLC",
         "ExistZone": "N1-A",
@@ -11434,7 +11760,7 @@
     },
     {
       "type": "Feature",
-      "id": 28728,
+      "id": 28816,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11471,8 +11797,8 @@
         "created_date": 1758045016000,
         "last_edited_user": "101250",
         "last_edited_date": 1758045194000,
-        "GlobalID": "{BF148021-7699-45FA-8CD4-68B7EBFFFFC4}",
-        "OBJECTID": 28728,
+        "GlobalID": "{0A1AB17A-0203-450B-BF22-45DE193C1414}",
+        "OBJECTID": 28816,
         "Petition": "2025-106",
         "Petitioner": "Mary Martin",
         "ExistZone": "I-2(CD)",
@@ -11509,7 +11835,7 @@
     },
     {
       "type": "Feature",
-      "id": 28729,
+      "id": 28817,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11584,10 +11910,10 @@
       "properties": {
         "created_user": "100442",
         "created_date": 1786736408000,
-        "last_edited_user": "99930",
-        "last_edited_date": 1788208916000,
-        "GlobalID": "{1DEBA2D9-4B63-42D4-90BE-7F970F5563C1}",
-        "OBJECTID": 28729,
+        "last_edited_user": "100442",
+        "last_edited_date": 1788887642000,
+        "GlobalID": "{0D4D48E7-9021-415D-8E8B-320E4C84BC82}",
+        "OBJECTID": 28817,
         "Petition": "2026-056",
         "Petitioner": "Eastway-Overlook LLC",
         "ExistZone": "N2-B",
@@ -11601,7 +11927,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "112",
         "ODZ": null,
         "CCW": "Wedge",
         "ServiceArea": "District5",
@@ -11624,7 +11950,7 @@
     },
     {
       "type": "Feature",
-      "id": 28730,
+      "id": 28818,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11685,8 +12011,8 @@
         "created_date": 1770940020000,
         "last_edited_user": "101250",
         "last_edited_date": 1782494511000,
-        "GlobalID": "{456A33A0-7FAF-41E7-AC09-8795A4C7F868}",
-        "OBJECTID": 28730,
+        "GlobalID": "{260D0180-9227-451C-A3A7-EFF91F4876B6}",
+        "OBJECTID": 28818,
         "Petition": "2026-007",
         "Petitioner": "Ramana Atmakuru",
         "ExistZone": "R-3",
@@ -11723,7 +12049,7 @@
     },
     {
       "type": "Feature",
-      "id": 28731,
+      "id": 28819,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11847,9 +12173,9 @@
         "created_user": "100442",
         "created_date": 1786997572000,
         "last_edited_user": "100442",
-        "last_edited_date": 1786997800000,
-        "GlobalID": "{CA760896-443C-4EC2-9B34-820F21A1AACC}",
-        "OBJECTID": 28731,
+        "last_edited_date": 1788887689000,
+        "GlobalID": "{B3BE32DD-E5F8-486E-B5F6-0F5E4AE1EA1F}",
+        "OBJECTID": 28819,
         "Petition": "2026-061",
         "Petitioner": "Advisory Services LLC",
         "ExistZone": "N1-A",
@@ -11863,7 +12189,7 @@
         "Water": "CMUD",
         "Sewer": "CMUD",
         "CityLimit": "YES",
-        "ZoningMap": null,
+        "ZoningMap": "180",
         "ODZ": null,
         "CCW": "Mixed Use Activity Center",
         "ServiceArea": "District7",
@@ -11886,7 +12212,7 @@
     },
     {
       "type": "Feature",
-      "id": 28732,
+      "id": 28820,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -11975,8 +12301,8 @@
         "created_date": 1781554154000,
         "last_edited_user": "101250",
         "last_edited_date": 1781554846000,
-        "GlobalID": "{49CFB45E-62E6-4489-8257-E4B95332B600}",
-        "OBJECTID": 28732,
+        "GlobalID": "{602125CD-5F5B-4453-93AE-AFDFF9A00E17}",
+        "OBJECTID": 28820,
         "Petition": "2026-038",
         "Petitioner": "Milan Real Estate LLC",
         "ExistZone": "ML-1",
@@ -12013,7 +12339,7 @@
     },
     {
       "type": "Feature",
-      "id": 28733,
+      "id": 28821,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -12110,8 +12436,8 @@
         "created_date": 1773950537000,
         "last_edited_user": "101639",
         "last_edited_date": 1773951280000,
-        "GlobalID": "{357F119B-69F9-44FB-85DD-9BF11963BADB}",
-        "OBJECTID": 28733,
+        "GlobalID": "{BA8D2500-A317-4990-8DAE-03457B5F5817}",
+        "OBJECTID": 28821,
         "Petition": "2026-024",
         "Petitioner": "Summit Ave Development LLC",
         "ExistZone": "ML-2",
@@ -12148,7 +12474,7 @@
     },
     {
       "type": "Feature",
-      "id": 28734,
+      "id": 28822,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -12349,8 +12675,8 @@
         "created_date": 1773943238000,
         "last_edited_user": "101639",
         "last_edited_date": 1773943334000,
-        "GlobalID": "{836324CD-C69B-4B8E-85F8-6F9AC3476B6F}",
-        "OBJECTID": 28734,
+        "GlobalID": "{CB66D56E-3184-4B40-BBB3-9090C8F6F513}",
+        "OBJECTID": 28822,
         "Petition": "2026-016",
         "Petitioner": "Edgehill Valley, LLC",
         "ExistZone": "N2-B",
@@ -12387,7 +12713,7 @@
     },
     {
       "type": "Feature",
-      "id": 28735,
+      "id": 28823,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -12556,8 +12882,8 @@
         "created_date": 1773952042000,
         "last_edited_user": "101639",
         "last_edited_date": 1773952177000,
-        "GlobalID": "{78D030AA-4D1B-4154-BF5C-79FE919A0227}",
-        "OBJECTID": 28735,
+        "GlobalID": "{9D63189B-5E71-4A74-A265-5CB516AF1AF3}",
+        "OBJECTID": 28823,
         "Petition": "2026-025",
         "Petitioner": "Olympia & Wright Homes",
         "ExistZone": "INST(CD)",
@@ -12594,7 +12920,7 @@
     },
     {
       "type": "Feature",
-      "id": 28736,
+      "id": 28824,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -12703,8 +13029,8 @@
         "created_date": 1742583634000,
         "last_edited_user": "101250",
         "last_edited_date": 1742584405000,
-        "GlobalID": "{33716926-5D8D-4325-868A-7076E943FCAE}",
-        "OBJECTID": 28736,
+        "GlobalID": "{75505F4B-9463-4131-A6E7-3C0448802989}",
+        "OBJECTID": 28824,
         "Petition": "2025-036",
         "Petitioner": "Rangeworks",
         "ExistZone": "NC",
@@ -12741,7 +13067,7 @@
     },
     {
       "type": "Feature",
-      "id": 28737,
+      "id": 28825,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -12846,8 +13172,8 @@
         "created_date": 1738103196000,
         "last_edited_user": "101250",
         "last_edited_date": 1740091318000,
-        "GlobalID": "{34BDBAD7-8356-446C-8EB0-4D8350F2813C}",
-        "OBJECTID": 28737,
+        "GlobalID": "{A026F820-4427-48A0-B674-E51DC0156BEB}",
+        "OBJECTID": 28825,
         "Petition": "2025-008",
         "Petitioner": "RR Parkwood, LLC",
         "ExistZone": "NS",
@@ -12884,7 +13210,7 @@
     },
     {
       "type": "Feature",
-      "id": 28738,
+      "id": 28826,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -12933,8 +13259,8 @@
         "created_date": 1753204777000,
         "last_edited_user": "101639",
         "last_edited_date": 1753204967000,
-        "GlobalID": "{66108E84-16E8-4202-92DA-F1393863055E}",
-        "OBJECTID": 28738,
+        "GlobalID": "{341B5D0B-4D98-474E-889E-2AD49132EB7F}",
+        "OBJECTID": 28826,
         "Petition": "2025-086",
         "Petitioner": "Pence Road Development LLC",
         "ExistZone": "N1-A",
@@ -12971,7 +13297,7 @@
     },
     {
       "type": "Feature",
-      "id": 28739,
+      "id": 28827,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -13032,8 +13358,8 @@
         "created_date": 1749769883000,
         "last_edited_user": "101250",
         "last_edited_date": 1782422741000,
-        "GlobalID": "{D3C70EFA-3512-4434-913A-75A7CD0749FA}",
-        "OBJECTID": 28739,
+        "GlobalID": "{4B45B82E-0EA4-4017-A3C0-0E8188227B6B}",
+        "OBJECTID": 28827,
         "Petition": "2025-059",
         "Petitioner": "StudioOne9 Architecture, PLLC",
         "ExistZone": "N1-A",
@@ -13070,7 +13396,7 @@
     },
     {
       "type": "Feature",
-      "id": 28740,
+      "id": 28828,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -13131,8 +13457,8 @@
         "created_date": 1737067797000,
         "last_edited_user": "101250",
         "last_edited_date": 1737068368000,
-        "GlobalID": "{D3CAA7B4-76A6-44A2-A123-83362ABC90D9}",
-        "OBJECTID": 28740,
+        "GlobalID": "{22A71A02-24F4-40E2-9DB3-EFD167AA0533}",
+        "OBJECTID": 28828,
         "Petition": "2025-003",
         "Petitioner": "Brandon Pridemore",
         "ExistZone": "B-1(CD)",
@@ -13169,7 +13495,7 @@
     },
     {
       "type": "Feature",
-      "id": 28741,
+      "id": 28829,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -13238,8 +13564,8 @@
         "created_date": 1779224532000,
         "last_edited_user": "101639",
         "last_edited_date": 1779230747000,
-        "GlobalID": "{A377130F-135C-4E71-8301-D1CE4493742B}",
-        "OBJECTID": 28741,
+        "GlobalID": "{BF33BC8B-C4D5-4AC8-BEDA-518D25E451D9}",
+        "OBJECTID": 28829,
         "Petition": "2026-033",
         "Petitioner": "The Drox Group LLC",
         "ExistZone": "N1-A(ANDO)",
@@ -13276,7 +13602,7 @@
     },
     {
       "type": "Feature",
-      "id": 28742,
+      "id": 28830,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -13381,8 +13707,8 @@
         "created_date": 1779225441000,
         "last_edited_user": "101639",
         "last_edited_date": 1780439151000,
-        "GlobalID": "{B1C9F5D1-8B1F-4BE2-BA67-85FCCAA2C0BA}",
-        "OBJECTID": 28742,
+        "GlobalID": "{917CF651-8553-4CD0-AD1F-10E5B64D6B8D}",
+        "OBJECTID": 28830,
         "Petition": "2026-036",
         "Petitioner": "Culp Road Materials, LLC",
         "ExistZone": "N1-A",
@@ -13419,7 +13745,7 @@
     },
     {
       "type": "Feature",
-      "id": 28743,
+      "id": 28831,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -14000,8 +14326,8 @@
         "created_date": 1770932147000,
         "last_edited_user": "101250",
         "last_edited_date": 1782494185000,
-        "GlobalID": "{8D094AEF-E871-4DE2-A80C-630545AE88AF}",
-        "OBJECTID": 28743,
+        "GlobalID": "{123593B1-2363-4F7E-A388-3F78D626A3B4}",
+        "OBJECTID": 28831,
         "Petition": "2025-134",
         "Petitioner": "Stuart Hair",
         "ExistZone": "N1-A",
@@ -14038,7 +14364,7 @@
     },
     {
       "type": "Feature",
-      "id": 28744,
+      "id": 28832,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -14307,8 +14633,8 @@
         "created_date": 1753146101000,
         "last_edited_user": "101639",
         "last_edited_date": 1755288128000,
-        "GlobalID": "{DDAEF6D9-D944-430C-BFC3-552FA18CE79D}",
-        "OBJECTID": 28744,
+        "GlobalID": "{901375FF-A4D5-4B0B-A702-110554F6D87E}",
+        "OBJECTID": 28832,
         "Petition": "2025-089",
         "Petitioner": "American Asset Corporation",
         "ExistZone": "CC",
@@ -14345,7 +14671,7 @@
     },
     {
       "type": "Feature",
-      "id": 28745,
+      "id": 28833,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -14546,8 +14872,8 @@
         "created_date": 1750716685000,
         "last_edited_user": "101250",
         "last_edited_date": 1750716886000,
-        "GlobalID": "{F2141DAF-B3CE-4699-97B3-E774361917B4}",
-        "OBJECTID": 28745,
+        "GlobalID": "{5A771463-5506-4ED7-BE6C-3063B738EB03}",
+        "OBJECTID": 28833,
         "Petition": "2025-072",
         "Petitioner": "Lincoln Property Company",
         "ExistZone": "OFC",
@@ -14584,7 +14910,7 @@
     },
     {
       "type": "Feature",
-      "id": 28746,
+      "id": 28834,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -15041,8 +15367,8 @@
         "created_date": 1779225073000,
         "last_edited_user": "101250",
         "last_edited_date": 1780952727000,
-        "GlobalID": "{D2733228-1AAE-4CEE-A08A-94CE720A832E}",
-        "OBJECTID": 28746,
+        "GlobalID": "{12069EE4-A47F-4A7F-A828-0EECEF3DDD1F}",
+        "OBJECTID": 28834,
         "Petition": "2026-034",
         "Petitioner": "Sam's Mart, LLC",
         "ExistZone": "N1-A",
@@ -15079,7 +15405,7 @@
     },
     {
       "type": "Feature",
-      "id": 28747,
+      "id": 28835,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -15128,8 +15454,8 @@
         "created_date": 1779137739000,
         "last_edited_user": "101639",
         "last_edited_date": 1779142784000,
-        "GlobalID": "{3D699257-D9CF-4F5C-9C52-BDB1DA3EF5FE}",
-        "OBJECTID": 28747,
+        "GlobalID": "{065897AA-E2CB-4782-B6C6-BE61A3623DF4}",
+        "OBJECTID": 28835,
         "Petition": "2026-029",
         "Petitioner": "Rachel Regalado",
         "ExistZone": "MHP",
@@ -15166,7 +15492,7 @@
     },
     {
       "type": "Feature",
-      "id": 28748,
+      "id": 28836,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -15307,8 +15633,8 @@
         "created_date": 1770940297000,
         "last_edited_user": "101250",
         "last_edited_date": 1782494537000,
-        "GlobalID": "{D777441C-13E7-4E2A-B725-FDA756F91C79}",
-        "OBJECTID": 28748,
+        "GlobalID": "{BBDD0B90-1D94-4DB3-B3FA-AEE791E8FB2E}",
+        "OBJECTID": 28836,
         "Petition": "2026-008",
         "Petitioner": "COLLABDEV6 LLC",
         "ExistZone": "I-1(CD)",
@@ -15345,7 +15671,7 @@
     },
     {
       "type": "Feature",
-      "id": 28749,
+      "id": 28837,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -15446,8 +15772,8 @@
         "created_date": 1784156531000,
         "last_edited_user": "101250",
         "last_edited_date": 1784156891000,
-        "GlobalID": "{6A2C5CDA-4466-4FE2-A7C5-D6B9EB765251}",
-        "OBJECTID": 28749,
+        "GlobalID": "{0F058069-351C-4B68-8E5E-74C9EDD82806}",
+        "OBJECTID": 28837,
         "Petition": "2026-047",
         "Petitioner": "Kinship Plot, Inc.",
         "ExistZone": "N1-A",
@@ -15484,7 +15810,7 @@
     },
     {
       "type": "Feature",
-      "id": 28750,
+      "id": 28838,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -15741,8 +16067,8 @@
         "created_date": 1776124979000,
         "last_edited_user": "101639",
         "last_edited_date": 1776150984000,
-        "GlobalID": "{C099B80F-F224-4D26-94CE-4987C608626A}",
-        "OBJECTID": 28750,
+        "GlobalID": "{0DBF9F91-FD4D-42F7-AEFF-F0C1B8D23D8A}",
+        "OBJECTID": 28838,
         "Petition": "2026-027",
         "Petitioner": "C4 Investments, LLC dba Crosland Southeast",
         "ExistZone": "RAC",
@@ -15779,7 +16105,7 @@
     },
     {
       "type": "Feature",
-      "id": 28751,
+      "id": 28839,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -15908,8 +16234,8 @@
         "created_date": 1773949315000,
         "last_edited_user": "101639",
         "last_edited_date": 1773949499000,
-        "GlobalID": "{7530B896-96B7-4841-9357-DAD7F577CE00}",
-        "OBJECTID": 28751,
+        "GlobalID": "{3AB21E23-C69F-41BC-B5E6-5529EAFA7C4C}",
+        "OBJECTID": 28839,
         "Petition": "2026-023",
         "Petitioner": "Middleburg",
         "ExistZone": "CG",
@@ -15946,7 +16272,7 @@
     },
     {
       "type": "Feature",
-      "id": 28752,
+      "id": 28840,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -16055,8 +16381,8 @@
         "created_date": 1767753726000,
         "last_edited_user": "101250",
         "last_edited_date": 1767754079000,
-        "GlobalID": "{AF2ECCA9-5FE7-4BCB-997C-9B5372119BA7}",
-        "OBJECTID": 28752,
+        "GlobalID": "{C6000E6E-9A67-4FBD-92BE-3889C95850CF}",
+        "OBJECTID": 28840,
         "Petition": "2025-137",
         "Petitioner": "Blue Azalea Asset Management, LLC",
         "ExistZone": "N1-A",
@@ -16093,7 +16419,7 @@
     },
     {
       "type": "Feature",
-      "id": 28753,
+      "id": 28841,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -16142,8 +16468,8 @@
         "created_date": 1758044960000,
         "last_edited_user": "101250",
         "last_edited_date": 1758045176000,
-        "GlobalID": "{D7C8D776-FB90-42D7-A3A5-37D343A87578}",
-        "OBJECTID": 28753,
+        "GlobalID": "{8DBF6F80-8BC0-407E-A8C9-FA97B173B401}",
+        "OBJECTID": 28841,
         "Petition": "2025-106",
         "Petitioner": "Mary Martin",
         "ExistZone": "N1-B",
@@ -16180,7 +16506,7 @@
     },
     {
       "type": "Feature",
-      "id": 28754,
+      "id": 28842,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -16397,8 +16723,8 @@
         "created_date": 1779137546000,
         "last_edited_user": "101639",
         "last_edited_date": 1779142784000,
-        "GlobalID": "{3AEF11B2-D7D4-4E48-9931-DA5584957D35}",
-        "OBJECTID": 28754,
+        "GlobalID": "{9DFFCD7A-2D5D-40CF-BA2C-42200658906E}",
+        "OBJECTID": 28842,
         "Petition": "2026-028",
         "Petitioner": "Barnhardt Manufacturing Co.",
         "ExistZone": "ML-2",
