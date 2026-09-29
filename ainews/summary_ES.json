@@ -1,9 +1,17 @@
 [
   {
-    "title": "US stock market crash today: Why are Google, Amazon, Microsoft, Meta and AMD stocks falling as Nasdaq 100 drops 1.6%? Reasons behind Wall Street selloff",
-    "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-crash-today-why-are-google-amazon-microsoft-meta-and-amd-stocks-falling-as-nasdaq-100-drops-1-6-reasons-behind-wall-street-selloff/articleshow/134546233.cms",
+    "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
+    "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
     "industry": "AI & Technology",
-    "summary": "US stock market crash today:  Nasdaq, S&P 500 and Dow Jones fall as rising oil prices, Treasury yields and renewed geopolitical tensions pressure Wall Street. The Nasdaq 100 has fallen 1.6%, while the S&P 500 has lost nearly $700 billion in market value durin…",
+    "summary": "OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+    "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -16,10 +24,58 @@
     "impact_score": 5
   },
   {
-    "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-    "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+    "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+    "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
     "industry": "AI & Technology",
-    "summary": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
+    "summary": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI’s latest features take direct aim at the app store model",
+    "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+    "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+    "industry": "AI & Technology",
+    "summary": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI launches Dots, its bubbly agentic avatar",
+    "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+    "industry": "AI & Technology",
+    "summary": "Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+    "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multi-step business workflows.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI expands ChatGPT’s plugins with app-like interfaces and automations",
+    "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI is expanding ChatGPT plugins with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "OpenAI gives Codex reusable cloud environments that work across devices",
+    "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools, and a security-focused product for scanning repositories and preparing fixes.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -48,34 +104,18 @@
     "impact_score": 5
   },
   {
-    "title": "Nvidia launches new platform for reining in rogue AI agents",
-    "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+    "title": "In 2024, Fei-Fei Li raised USD 230 million to launch World Labs, years later Chip maker AMD acquires artificial intelligence company for USD 8.2 billion, abrupt shift from China to New Jersey changes everything for 'Godmother of AI'",
+    "url": "https://economictimes.indiatimes.com/news/international/us/in-2024-fei-fei-li-raised-usd-230-million-to-launch-world-labs-years-later-chip-maker-amd-acquires-artificial-intelligence-company-for-usd-8-2-billion-abrupt-shift-from-china-to-new-jersey-changes-everything-for-godmother-of-ai/articleshow/134550365.cms",
     "industry": "AI & Technology",
-    "summary": "Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even if they attempt to break out.",
+    "summary": "Earlier in February, 2026, Fei-Fei Li's World Labs raised $1 billion in a funding round as the startup accelerates its efforts to advance \"spatial intelligence.\"",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "OpenAI still doesn’t seem to have a handle on all of its rogue AI activity",
-    "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+    "title": "AI-powered app maker Wabi pivots to a messaging experience",
+    "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
     "industry": "AI & Technology",
-    "summary": "On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
-    "url": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
-    "industry": "AI & Technology",
-    "summary": "Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Chip stocks fall as AI breach fuels safety concerns, but Nvidia bucks the trend: Chart of the Day",
-    "url": "https://biztoc.com/x/d070fec12029cb9d",
-    "industry": "AI & Technology",
-    "summary": "Chip stocks slipped on Monday as bond yields rose and concerns over artificial intelligence safety intensified.\nThe PHLX Semiconductor Index (^SOX) fell by over 2% after OpenAI (OPAI.PVT) said an agentic AI model escaped its container and accessed the interne…",
+    "summary": "Wabi is repositioning its prompt-based app builder as a personal AI agent that can create interfaces on demand, combining chat, apps and ongoing tasks.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -96,66 +136,26 @@
     "impact_score": 5
   },
   {
-    "title": "Shopify opens checkout to browser-based AI agents",
-    "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+    "title": "Grok 4.7 is now available on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
     "industry": "AI & Technology",
-    "summary": "Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization.",
+    "summary": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable reasoning effort levels, reachable through the Responses, Chat Completions, an…",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "The AI boom took over Climate Week and not everyone is happy about it",
-    "url": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
+    "title": "AMD Acquires Fei-Fei Li's World Labs For $8.2 Billion",
+    "url": "https://slashdot.org/story/26/09/28/2042235/amd-acquires-fei-fei-lis-world-labs-for-82-billion",
     "industry": "AI & Technology",
-    "summary": "Just like the rest of the U.S., data centers and AI are dividing climate tech founders and investors.",
+    "summary": "AMD has agreed to acquire Fei-Fei Li's World Labs for about $8.2 billion in stock, making it the chipmaker's second-largest acquisition and giving it a major foothold in \"world models\" that simulate 3D environments for robotics and other physically grounded A…",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Nvidia's board increases chipmaker's share buyback plan by $150 billion",
-    "url": "https://wirehub.medianewsgroup.com/2026/09/28/nvidias-board-increases-chipmakers-share-buyback-plan-by-150-billion/",
+    "title": "Authorities searching for human remains at Catawba County home",
+    "url": "https://www.wcnc.com/article/news/crime/human-remains-catawba-county-home-search/275-b6ffe16f-6f0a-4339-be85-5e7de39bfb79",
     "industry": "AI & Technology",
-    "summary": "Nvidia's board increases chipmaker's share buyback plan by $150 billionbostonherald.com",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Nvidia unveils security platform to rein in AI agents and $150bn stock buyback",
-    "url": "https://biztoc.com/x/a2d601dc56537a9f",
-    "industry": "AI & Technology",
-    "summary": "Chipmaker says new system was designed to prevent AI agents from going rogue amid incidents at top companies\nNvidia on Monday unveiled a new security platform that the chipmaker said can stop artificial intelligence agents from going rogue.\nThe company announ…",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Florida authorities ask court to block OpenAI’s ChatGPT over safety issues",
-    "url": "https://www.aljazeera.com/news/2026/9/28/florida-authorities-ask-court-to-block-openais-chatgpt-over-safety-issues",
-    "industry": "AI & Technology",
-    "summary": "The Republican-led US state says the AI should be blocked from development until safeguards are put in place.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Super Micro and Dell Drop 5% as AI Server Rally Reverses; Hewlett Packard Enterprise Falls 3%",
-    "url": "https://biztoc.com/x/690abd534bbdf1bb",
-    "industry": "AI & Technology",
-    "summary": "The post Super Micro and Dell Drop 5% as AI Server Rally Reverses; Hewlett Packard Enterprise Falls 3% appeared first on 24/7 Wall St..\nArtificial intelligence (AI) server hardware is giving back a powerful run in one sharp reversal, and Super Micro Computer …",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Davidson County woman awarded $850k in alienation of affection lawsuit against former NASCAR driver",
-    "url": "https://www.wcnc.com/article/news/local/davidson-county-woman-awarded-850k-in-alienation-of-affection-lawsuit-against-former-nascar-driver/83-99eb5a33-6077-4d9a-927b-dcc720607775",
-    "industry": "AI & Technology",
-    "summary": "The jury awarded Tracey Hughes $800,000 on her claim of criminal conversation and $50,000 on her claim of alienation of affection.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Hatteras Island placed under State of Emergency as N.C. 12 remains closed",
-    "url": "https://www.wcnc.com/article/news/local/hatteras-island-placed-under-state-of-emergency-as-nc-12-remains-closed/291-f8556dd8-67a6-4c6d-831e-7e582972e317",
-    "industry": "AI & Technology",
-    "summary": "Hatteras Island is under a State of Emergency after N.C. Highway 12's closure. Officials are working to establish ferry service to the island.",
+    "summary": "The search is taking place at a home on 7th Avenue Southwest, according to the Long View Police Department.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
