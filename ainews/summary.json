@@ -1,5 +1,13 @@
 [
   {
+    "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+    "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+    "industry": "AI & Technology",
+    "summary": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
     "title": "Hearing tech startup Legato launches its AI hearing glasses",
     "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
     "industry": "AI & Technology",
@@ -48,10 +56,34 @@
     "impact_score": 5
   },
   {
-    "title": "Michael Burry says it would be for the 'good of humanity' if a market crash stops OpenAI and Anthropic from going public",
-    "url": "https://www.businessinsider.com/michael-burry-warns-against-openai-anthropic-going-public-2026-9#article",
+    "title": "OpenAI\u2019s Muse Rival Arrives Half-Baked",
+    "url": "https://biztoc.com/x/2a5e8f9948c1a098",
     "industry": "AI & Technology",
-    "summary": "Michael Burry says it would benefit humanity if markets tanked and blocked OpenAI and Anthropic IPOs, warning they could destroy trillions in capital.",
+    "summary": "Artificial intelligence agents are showing up everywhere. Meta released its Muse personal AI agent on Sept. 8, and it reached the top of Apple\u2019s free app chart 10 days later. Now it\u2019s OpenAI\u2019s turn.\nOpenAI launched Dots on Tuesday (Sept. 29). Dots are AI agen\u2026",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Google\u2019s new frontier AI model Gemini 4 Argon goes to cybersecurity defenders first",
+    "url": "https://siliconangle.com/2026/09/30/googles-new-frontier-ai-model-gemini-4-argon-goes-to-cybersecurity-defenders-first/",
+    "industry": "AI & Technology",
+    "summary": "Google LLC today began rolling out Gemini 4 Argon, a frontier artificial intelligence model that beats rival models from Anthropic PBC and OpenAI Group PBC on most of Google\u2019s benchmarks, to vetted cybersecurity defenders. Outside Google\u2019s own teams, only mem\u2026",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Musk\u2019s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela\u2019s president",
+    "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+    "industry": "AI & Technology",
+    "summary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicol\u00e1s Maduro.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Opus 5.5 loves to tell you \u2018this matters\u2019 (and other AI writing tells)",
+    "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+    "industry": "AI & Technology",
+    "summary": "Opus 5.5\u2019s biggest tell is the word \u201cdependable,\u201d which pops up 23 times more often than in human samples.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -96,58 +128,26 @@
     "impact_score": 5
   },
   {
-    "title": "Destro AI\u2019s secret sauce is getting robots and humans on the same page",
-    "url": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/",
+    "title": "Why the Fed Thinks B2B Payments Are Already Built for Agentic",
+    "url": "https://www.pymnts.com/news/b2b-payments/2026/why-the-fed-thinks-b2b-payments-are-already-built-for-agentic/",
     "industry": "AI & Technology",
-    "summary": "\"One of the biggest reasons we are winning against robotics companies is because we are not a robotics company.\"",
+    "summary": "The biggest obstacle to agentic payments isn\u2019t teaching artificial intelligence how to buy something. It\u2019s giving software permission to spend money without giving it permission to make expensive mistakes. Corporate procurement may already have the answer. Fe\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Cerebras Systems\u2019 Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
-    "url": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/",
+    "title": "Google restricts new AI model access over safety concerns",
+    "url": "https://www.rte.ie/news/world/2026/0930/1593573-google-ai-model/",
     "industry": "AI & Technology",
-    "summary": "At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will explore the growing demand for compute, energy, and infrastructure, how Cerebras is approaching those constraints differently, and what comes next if today\u2019s AI hardware reaches its limits.",
+    "summary": "Google said it would withhold its most powerful artificial intelligence model from the public for now, releasing Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
-    "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+    "title": "Tech CEOs said to question Amodei about AI warnings",
+    "url": "https://biztoc.com/x/e8b8d10d3df43a2b",
     "industry": "AI & Technology",
-    "summary": "Instead of building its durable execution engine on top of an external database, the company developed its own storage, replication, and redundancy layers. This architecture allows Restate to be exceptionally fast and lightweight.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Christine Lagarde: Interview with La Croix",
-    "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260930~10084a5f3d.en.html",
-    "industry": "AI & Technology",
-    "summary": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "How AI is becoming Hollywood\u2019s newest star, changing work on and off camera",
-    "url": "https://fortune.com/2026/09/30/cio-intelligence-sept-30/",
-    "industry": "AI & Technology",
-    "summary": "Higgsfield AI, Runway, and Luma are among the startups that are using AI to reshape Hollywood's production process.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "FTC Investigating Tech Giants Over AI\u2019s Potential Threat to Consumers",
-    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ftc-investigating-tech-giants-over-ais-potential-threat-to-consumers/",
-    "industry": "AI & Technology",
-    "summary": "OpenAI\u00a0and\u00a0Anthropic\u00a0are reportedly facing a regulatory investigation over their tech\u2019s safety. The investigation by the\u00a0Federal Trade Commission\u00a0(FTC) focuses on the potential dangers artificial intelligence (AI) poses to consumers, a senior commission offic\u2026",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Gong adds auto-enrichment and event-driven agents to its revenue intelligence platform",
-    "url": "https://siliconangle.com/2026/09/30/gong-adds-auto-enrichment-and-event-driven-agents-to-its-revenue-intelligence-platform/",
-    "industry": "AI & Technology",
-    "summary": "Revenue intelligence startup Gong is expanding its platform with third-party account and contact data, deeper artificial intelligence analysis and tools for building agents that automatically execute sales workflows. The company today launched Mission Callist\u2026",
+    "summary": "Artificial intelligence (AI) industry leaders, including Nvidia's Jensen Huang, questioned Anthropic CEO Dario Amodei on his warnings about the dangers of the technology, the Wall Street Journal repor...",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
