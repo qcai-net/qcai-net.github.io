@@ -1,5 +1,29 @@
 [
   {
+    "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+    "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+    "industry": "AI & Technology",
+    "summary": "Microsoft wants enterprises to closely watch the agents employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+    "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+    "industry": "AI & Technology",
+    "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+    "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+    "industry": "AI & Technology",
+    "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
     "title": "Meta removes language that raised scraping and AI training concerns",
     "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
     "industry": "AI & Technology",
@@ -11,7 +35,7 @@
     "title": "Replit makes OpenAI its default over Anthropic, CEO says",
     "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
     "industry": "AI & Technology",
-    "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+    "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer partnering with Anthropic.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -24,18 +48,26 @@
     "impact_score": 5
   },
   {
-    "title": "Meta launches an open-weight AI model that runs on Macs",
-    "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+    "title": "Anthropic Co-Founder Predicts AI Will Bring US GDP to $44 Trillion",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-co-founder-predicts-ai-will-bring-us-gdp-to-44-trillion/",
     "industry": "AI & Technology",
-    "summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+    "summary": "Anthropic’s co-founder predicts that artificial intelligence could boost America’s economic output by nearly 50% by 2030. That forecast comes from one of the AI startup’s internal models, Jack Clark said Saturday (Oct. 17) at the IMF and World Bank annual mee…",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-    "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+    "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+    "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
     "industry": "AI & Technology",
-    "summary": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
+    "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+    "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+    "industry": "AI & Technology",
+    "summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -43,12 +75,12 @@
     "title": "People are using AI to make their smart TVs dumb again",
     "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
     "industry": "AI & Technology",
-    "summary": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+    "summary": "Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+    "title": "Disney agrees to hire the majority of Character AI’s workforce",
     "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
     "industry": "AI & Technology",
     "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
@@ -88,50 +120,10 @@
     "impact_score": 5
   },
   {
-    "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-    "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+    "title": "Some Investors Are Questioning the AI Trade. Microsoft Is Bucking the Trend",
+    "url": "https://biztoc.com/x/d5b8d3e7ddb5dc4c",
     "industry": "AI & Technology",
-    "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
-    "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-    "industry": "AI & Technology",
-    "summary": "Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Evercore raises Alphabet estimates on potential TPU hardware sales (GOOG:NASDAQ)",
-    "url": "https://biztoc.com/x/2297b37ec1c2d89a",
-    "industry": "AI & Technology",
-    "summary": "Evercore ISI reiterated its Outperform rating and $450 price target on Alphabet, projecting that external sales of Google's (GOOG) artificial intelligence chips could generate $75 billion in revenue in 2027 and $113 billion in 2028.\nPT represents about a 30% …",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Two Decades Of Mass Financial Delusion Ends Now",
-    "url": "https://biztoc.com/x/6d6350bed28d29c6",
-    "industry": "AI & Technology",
-    "summary": "Two Decades Of Mass Financial Delusion Ends Now\n \nSubmitted by QTR's Fringe Finance\nFriday’s selloff was not a surprise.\nBetween deteriorating credit markets, rising Treasury yields, increasingly absurd artificial intelligence valuations, enormous amounts of …",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Rise Only 19% While Its Suppliers Did Far Better?",
-    "url": "https://biztoc.com/x/c6063478ecf2892d",
-    "industry": "AI & Technology",
-    "summary": "NVIDIA Corporation (NASDAQ:NVDA) closed at $217.23 on October 15. The stock has returned 9.52% over the last six months, compared to a 15.4% return for the Insider Monkey Billionaire Index and 11.4% for the State Street SPDR S&P 500 ETF Trust.\nNVIDIA designs …",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Why Upstart Banks May Have to Keep Raising Money",
-    "url": "https://www.theinformation.com/articles/upstart-banks-may-keep-raising-money",
-    "industry": "AI & Technology",
-    "summary": "Details unavailable.",
+    "summary": "Artificial intelligence (AI) stocks are having a rough time lately as some investors question the high costs of building data center infrastructure. And it likely won't slow down any time soon. Estimates from S&P Global show that AI infrastructure spending co…",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -152,10 +144,18 @@
     "impact_score": 5
   },
   {
-    "title": "Aging Untold: Here’s what you should know if you’re raising grandkids full-time",
-    "url": "https://www.wbtv.com/2026/10/19/aging-untold-heres-what-you-should-know-if-youre-raising-grandkids-full-time/",
+    "title": "Safety system can stop planes that overshoot runways, but most airports don’t have it",
+    "url": "https://www.wbtv.com/2026/10/19/safety-system-can-stop-planes-that-overshoot-runways-most-airports-dont-have-it/",
     "industry": "AI & Technology",
-    "summary": "On this episode of Aging Untold, we look into the emotional and financial realities grandparents face when stepping in to raise their grandchildren full-time.",
+    "summary": "NTSB investigates Miami cargo plane overrun as data shows thousands of runway excursions.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Anthropic to commit 5% stake to new public benefit fund",
+    "url": "https://nypost.com/2026/10/18/business/anthropic-to-commit-5-stake-to-new-public-benefit-fund/",
+    "industry": "AI & Technology",
+    "summary": "The proposed fund would be established as a wholly owned limited liability company and would receive an additional 2% of Anthropic's shares, at the board's discretion, for every 50% increase in the company's value above a baseline that has yet to be disclosed.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
