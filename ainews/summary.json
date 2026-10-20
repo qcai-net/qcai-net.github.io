@@ -3,7 +3,15 @@
     "title": "Microsoft says AI agents are like insider threats as \u2018frontier models can\u2019t be trusted\u2019",
     "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
     "industry": "AI & Technology",
-    "summary": "Microsoft wants enterprises to closely watch the agents employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+    "summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Otter.ai raises $320 million from General Catalyst\u2019s growth fund for its meeting tool",
+    "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+    "industry": "AI & Technology",
+    "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst&#8217;s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it wil...",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -32,26 +40,42 @@
     "impact_score": 5
   },
   {
-    "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-    "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "title": "US orders federal agencies to remove China\u2019s DeepSeek AI from their systems",
+    "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
     "industry": "AI & Technology",
-    "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer partnering with Anthropic.",
+    "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-    "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+    "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+    "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
     "industry": "AI & Technology",
-    "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view...",
+    "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Anthropic Co-Founder Predicts AI Will Bring US GDP to $44 Trillion",
-    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-co-founder-predicts-ai-will-bring-us-gdp-to-44-trillion/",
+    "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+    "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
     "industry": "AI & Technology",
-    "summary": "Anthropic\u2019s co-founder predicts that artificial intelligence could boost America\u2019s economic output by nearly 50% by 2030. That forecast comes from one of the AI startup\u2019s internal models, Jack Clark said Saturday (Oct. 17) at the IMF and World Bank annual mee\u2026",
+    "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+    "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+    "industry": "AI & Technology",
+    "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Embedded AI evaluators won\u2019t be an easy solution, Hugging Face\u2019s policy chief says",
+    "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+    "industry": "AI & Technology",
+    "summary": "The idea of embedded evaluators \u2014 in which supposedly \"neutral\" third-party observers are placed inside AI organizations \u2014 has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of ...",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -88,74 +112,50 @@
     "impact_score": 5
   },
   {
-    "title": "India becomes the latest country to report rogue AI agent activity",
-    "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+    "title": "As Millions Struggle to Get By, Plutocrat Working to Kill California Billionaire Tax Dines With Trump",
+    "url": "https://www.commondreams.org/news/sergey-brin-donald-trump",
     "industry": "AI & Technology",
-    "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+    "summary": "Billionaire Google co-founder Sergey Brin, who has spent more than $100 million fighting a proposed wealth tax in California, shared a lavish dinner with billionaire US President Donald Trump over the weekend at his Mar-a-Lago estate in Palm Beach, Florida as\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Elorian\u2019s first AI model wants to reason with images, not just about them",
-    "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+    "title": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine",
+    "url": "https://www.regionalmedianews.com/news/national/business/fed-sees-ai-boom-adding-to-inflation-headache-but-others-may-pay-for-the-medicine/",
     "industry": "AI & Technology",
-    "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+    "summary": "By Howard Schneider CLEVELAND, Oct 19 (Reuters) \u2013 The artificial intelligence boom, increasingly acknowledged at the Federal Reserve as helping drive inflation, has left central bankers faced with cooling the rest of the economy to lower price pressures ampli\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Jev is Vercel\u2019s fastest-adopted AI model ever",
-    "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+    "title": "Sony\u2019s Gaurav Banerjee dismisses concerns over foreign investment in India\u2019s media sector",
+    "url": "https://economictimes.indiatimes.com/industry/media/entertainment/sonys-gaurav-banerjee-dismisses-concerns-over-foreign-investment-in-indias-media-sector/articleshow/135051217.cms",
     "industry": "AI & Technology",
-    "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+    "summary": "Citing the presence of YouTube, Netflix and Amazon, Banerjee said global media companies recognise India\u2019s long-term growth potential and continue to invest billions of dollars in the market.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Mark Wahlberg on using AI in film \u2018the right way\u2019 and being open to an AI clone carrying on his legacy",
-    "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+    "title": "UK\u2019s FCA Plans Regulatory Framework for Agentic Finance",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/united-kingdom-financial-conduct-authority-plans-regulatory-framework-agentic-finance/",
     "industry": "AI & Technology",
-    "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+    "summary": "The United Kingdom\u2019s Financial Conduct Authority plans to develop a framework for agentic finance that encompasses agent identity, delegated authority, accountability and execution, Jessica Rusu, chief data, information and intelligence officer at the FCA, sa\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Some Investors Are Questioning the AI Trade. Microsoft Is Bucking the Trend",
-    "url": "https://biztoc.com/x/d5b8d3e7ddb5dc4c",
+    "title": "12-Count 8-Oz Annie's Organic S'mores Graham Sandwich Cookies $3.92 w/ S&S + Free Shipping w/ Prime or on $35+",
+    "url": "https://slickdeals.net/f/20178477-12-count-8-oz-annie-s-organic-s-mores-graham-sandwich-cookies-3-92-w-s-s-free-shipping-w-prime-or-on-35",
     "industry": "AI & Technology",
-    "summary": "Artificial intelligence (AI) stocks are having a rough time lately as some investors question the high costs of building data center infrastructure. And it likely won't slow down any time soon. Estimates from S&P Global show that AI infrastructure spending co\u2026",
+    "summary": "Amazon [amazon.com] has *12-Count 8-Oz **Annie's Organic S'mores Graham Sandwich Cookies * on sale for $4.89 - 15% off when you checkout via Subscribe & Save [amazon.com] - 5% off when you checkout...",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Human skeletal remains discovered in Lancaster County Saturday near Bear Creek Park",
-    "url": "https://www.wcnc.com/article/news/local/human-skeletal-remains-discovered-in-lancaster-county-saturday-near-bear-creek-park/275-8abb6c90-974a-4ae4-a736-ff41a73de7b4",
+    "title": "An AI agent sent a stranger to a man\u2019s house without telling him\u2014and exposed the privacy risks of AI assistants",
+    "url": "https://biztoc.com/x/94770b1668ba7962",
     "industry": "AI & Technology",
-    "summary": "The Lancaster County Sheriff's Office is investigating the remains that were found on private land. Investigators have not found evidence of foul play at this point.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Mecklenburg County reopens Jail North to house federal detainees amid overcrowding concerns",
-    "url": "https://www.wcnc.com/article/news/crime/mecklenburg-county-reopens-jail-north-to-house-federal-detainees-amid-overcrowding-concerns-finance-staffing/275-73e5749d-fb2a-46b0-b0f2-67e411da23f2",
-    "industry": "AI & Technology",
-    "summary": "Mecklenburg County is reopening Jail North to house federal detainees and ease overcrowding, but staffing shortages raise concerns about capacity.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Safety system can stop planes that overshoot runways, but most airports don\u2019t have it",
-    "url": "https://www.wbtv.com/2026/10/19/safety-system-can-stop-planes-that-overshoot-runways-most-airports-dont-have-it/",
-    "industry": "AI & Technology",
-    "summary": "NTSB investigates Miami cargo plane overrun as data shows thousands of runway excursions.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Anthropic to commit 5% stake to new public benefit fund",
-    "url": "https://nypost.com/2026/10/18/business/anthropic-to-commit-5-stake-to-new-public-benefit-fund/",
-    "industry": "AI & Technology",
-    "summary": "The proposed fund would be established as a wholly owned limited liability company and would receive an additional 2% of Anthropic's shares, at the board's discretion, for every 50% increase in the company's value above a baseline that has yet to be disclosed.",
+    "summary": "Matt Robb wanted to sell his computer keyboard.\nSo he made a listing on Facebook Marketplace \u2014 and, as an experiment late last month, he put Meta\u2019s new artificial intelligence agent Muse in the driver\u2019s seat.\n\u201cI kind of went into it like a guinea pig,\u201d said R\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
