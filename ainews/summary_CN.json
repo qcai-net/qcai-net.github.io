@@ -8,14 +8,6 @@
     "impact_score": 5
   },
   {
-    "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
-    "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-    "industry": "AI & Technology",
-    "summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
     "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
     "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
     "industry": "AI & Technology",
@@ -24,10 +16,18 @@
     "impact_score": 5
   },
   {
-    "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
-    "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+    "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+    "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
     "industry": "AI & Technology",
-    "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst&#8217;s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it wil...",
+    "summary": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
+    "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+    "industry": "AI & Technology",
+    "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -40,10 +40,34 @@
     "impact_score": 5
   },
   {
+    "title": "Otter AI raises $320M from General Catalyst’s growth fund for its meeting tool",
+    "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+    "industry": "AI & Technology",
+    "summary": "Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+    "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+    "industry": "AI & Technology",
+    "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+    "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+    "industry": "AI & Technology",
+    "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
     "title": "SpaceX’s AI business is beating expectations",
     "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
     "industry": "AI & Technology",
-    "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+    "summary": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -51,7 +75,7 @@
     "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
     "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
     "industry": "AI & Technology",
-    "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+    "summary": "The U.S. has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -59,7 +83,7 @@
     "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
     "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
     "industry": "AI & Technology",
-    "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
+    "summary": "Eka Robotics may be the first robotic arm that is actually good at picking up a wide range of objects, and it is so smooth and human-like, it is wowing the industry.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -88,50 +112,18 @@
     "impact_score": 5
   },
   {
-    "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-    "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+    "title": "Clover schools block most AI tools on student devices, with one exception",
+    "url": "https://www.wcnc.com/article/news/education/clover-schools-ai-tools-student-devices/275-c75002f2-ea54-4f1d-95ac-f66b79271756",
     "industry": "AI & Technology",
-    "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+    "summary": "The district’s technology team will block publicly available AI tools to the best of its ability.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-    "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+    "title": "Mooresville holds off on 50-townhome project as hundreds of additional homes await review",
+    "url": "https://www.wcnc.com/article/news/local/mooresville-holds-off-on-townhome-project/275-f6ee5e06-5378-4673-9fe3-bfbc66146ea9",
     "industry": "AI & Technology",
-    "summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Nvidia CEO urges German manufacturers to adopt AI",
-    "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/19/nvidia-ceo-urges-german-manufacturers-to-adopt-ai-saying-digital-tech-wont-replace-heavy-industry/",
-    "industry": "AI & Technology",
-    "summary": "Nvidia CEO Jensen Huang urged Germany’s makers of cars and industrial machines to quickly adopt artificial intelligence to “re-engineer” the country’s economy",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Amazon SageMaker JumpStart: 2026 year-to-date in review",
-    "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/",
-    "industry": "AI & Technology",
-    "summary": "Amazon SageMaker JumpStart onboarded over 100 new models from 30 providers in the first three quarters of 2026. This recap covers the model-onboarding highlights and JumpStart enhancements, including the simplified Model Hub, pre-configured deployment options…",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "NEXTBIGFUTURE Kalshi Daily Review #1 | Science- Tech Energy Questions from Top Metaculus Forecaster",
-    "url": "https://www.nextbigfuture.com/2026/10/skip-navigation-create-9-avatar-image-nextbigfuture-kalshi-daily-review-1-science-tech-energy-questions-from-top-metaculus-forecaster.html",
-    "industry": "AI & Technology",
-    "summary": "Nextbigfuture is starting regular Kalshi market reviews alongside our usual science, technology and business coverage. Each day I will look at two or three Kalshi markets, mostly in the technology, science and energy categories, where a deeper understanding o…",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Olanly Bathroom 30x20\" Chenille Non-Slip Bath Rug for $9 + free shipping w/ Prime",
-    "url": "https://www.dealnews.com/Olanly-Bathroom-30-x20-Chenille-Non-Slip-Bath-Rug-for-9-free-shipping-w-Prime/22297090.html",
-    "industry": "AI & Technology",
-    "summary": "This OLANLY chenille bath rug is $8.99, down from $9.99 at Amazon. It's made from OEKO-TEX certified chenille with a non-slip TPR rubber backing, and it's machine washable for easy care. Buy Now at Amazon\r\n Features\r\n <ul> <li>Measures 30\" L x 20\" W</li> <li>…",
+    "summary": "Town leaders delayed a proposed North Gibbs Road development as three additional housing projects totaling 546 units could come before commissioners in November.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -152,10 +144,18 @@
     "impact_score": 5
   },
   {
-    "title": "Human remains identified as missing Hickory man",
-    "url": "https://www.wcnc.com/article/news/local/human-remains-identified-after-discovery-in-southeastern-catawba-county/275-3516f89f-125b-4ad0-9a71-10bda3b980bd",
+    "title": "NASCAR legend flies on Air Force One, joins Trump onstage at North Carolina campaign rally",
+    "url": "https://www.wbtv.com/2026/10/21/nascar-legend-flies-air-force-one-joins-trump-onstage-north-carolina-campaign-rally/",
     "industry": "AI & Technology",
-    "summary": "Sheriff's deputies were called Wednesday, Oct. 14 to investigate a report of human remains near Catawba Valley Boulevard.",
+    "summary": "Richard Petty attended a rally with Trump in Greenville, N.C. on Oct. 20.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "True Friends Hall restoration aims to save Louisiana music landmark",
+    "url": "https://www.wbtv.com/2026/10/21/true-friends-hall-restoration-aims-save-louisiana-music-landmark/",
+    "industry": "AI & Technology",
+    "summary": "True Friends Hall was part of the Chitlin’ Circuit, a network of performance venues across the United States for Black musicians, comedians and other entertainers.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
