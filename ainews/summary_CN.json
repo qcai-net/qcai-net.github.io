@@ -1,13 +1,5 @@
 [
   {
-    "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
-    "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
-    "industry": "AI & Technology",
-    "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
     "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
     "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
     "industry": "AI & Technology",
@@ -16,10 +8,18 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-    "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+    "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+    "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
     "industry": "AI & Technology",
-    "summary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+    "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+    "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+    "industry": "AI & Technology",
+    "summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -27,7 +27,15 @@
     "title": "DeepSeek reportedly raises $15B days after US restrictions",
     "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
     "industry": "AI & Technology",
-    "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the US ordered federal agencies to remove its technology over national security concerns.",
+    "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
+    "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
+    "industry": "AI & Technology",
+    "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -48,18 +56,18 @@
     "impact_score": 5
   },
   {
-    "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
-    "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+    "title": "Anthropic announces preview of Claude Duet, a personal AI agent to take on Muse, Dots",
+    "url": "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html",
     "industry": "AI & Technology",
-    "summary": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+    "summary": "Claude Duet follows the launch of competing products from Meta and OpenAI, which have shown traction with users.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Red Hat and Nvidia expand their partnership to secure autonomous AI agents",
-    "url": "https://siliconangle.com/2026/10/21/red-hat-and-nvidia-expand-their-partnership-to-secure-autonomous-ai-agents/",
+    "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+    "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
     "industry": "AI & Technology",
-    "summary": "Red Hat Inc. today expanded its collaboration with Nvidia Corp. to help enterprises secure autonomous artificial intelligence agents, govern access to AI models and deploy workloads on Nvidia’s upcoming Vera Rubin data center infrastructure. Announced at Nvid…",
+    "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -104,18 +112,34 @@
     "impact_score": 5
   },
   {
-    "title": "SpaceX’s AI business is beating expectations",
-    "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+    "title": "NDDC, UNIPORT partner to promote Niger Delta creative industry",
+    "url": "https://punchng.com/nddc-uniport-partner-to-promote-niger-delta-creative-industry/",
     "industry": "AI & Technology",
-    "summary": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
+    "summary": "The NDDC is partnering with the University of Port Harcourt to promote the Niger Delta’s creative industry through a technical training programme for filmm\n\nRead More: https://punchng.com/nddc-uniport-partner-to-promote-niger-delta-creative-industry/",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "OpenAI says its AI agents disabled their own safety monitors",
-    "url": "https://www.digitaljournal.com/article/openai-says-its-ai-agents-disabled-their-own-safety-monitors/",
+    "title": "News of the day: Ice highway ends, tax system redo, food bank use doubles, supporting defence companies, Scotiabank’s AI hire and more",
+    "url": "https://financialpost.com/uncategorized/news-of-the-day-7",
     "industry": "AI & Technology",
-    "summary": "The cases are the latest in a string of safety scares at the world's top AI developers involving agents, AI programs that carry out tasks without human involvement.\nThe post OpenAI says its AI agents disabled their own safety monitors appeared first on Digita…",
+    "summary": "It’s Wednesday, Oct. 21. Here are the top stories we’re following today.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Boeing, Microsoft Aim AI at Airlines’ $3.1 Billion Repair Bill",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/boeing-microsoft-aim-ai-airlines-3-billion-dollar-repair-bill/",
+    "industry": "AI & Technology",
+    "summary": "Boeing wants airlines to catch mechanical problems before they ground a jet. The aircraft maker announced in a Tuesday (Oct. 20) press release the launch of Dataliner, an artificial intelligence-powered platform built with Microsoft that pulls an airline’s ma…",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "stock is up, what you need to know",
+    "url": "https://biztoc.com/x/7c9b2ce40209dd75",
+    "industry": "AI & Technology",
+    "summary": "What happened?\nShares of data center products and services company Vertiv (NYSE:VRT) jumped 4.2% in the afternoon session after the company and NVIDIA launched an artificial intelligence factory framework aimed at accelerating deployment and increasing token …",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -132,30 +156,6 @@
     "url": "https://www.wcnc.com/article/money/consumer/walmart-drone-deliveries-take-flight-in-charlotte-area-raising-privacy-safety-questions/275-363fc373-ed7a-4eb6-bd4d-ebf8b6c6a34b",
     "industry": "AI & Technology",
     "summary": "Walmart drone deliveries are taking off in Charlotte. What does that mean for your privacy and safety? We asked Wing.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "North Carolina gas stations face complaints over prices after gas tax suspension",
-    "url": "https://www.wcnc.com/article/traffic/gas-prices/north-carolina-gas-station-complaints-prices-gas-tax-suspension/275-60a9eeb6-683f-49d5-b1cd-5ab7fd0f0af5",
-    "industry": "AI & Technology",
-    "summary": "The most common complaint was that stations did not lower prices enough after the tax suspension or charged more than nearby competitors.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Woman injured when SUV collides with train in Belmont",
-    "url": "https://www.wcnc.com/article/traffic/train-collision-belmont-north-carolina-suv/275-0cf86c73-172d-4820-925d-d2f392a74012",
-    "industry": "AI & Technology",
-    "summary": "Investigators say the SUV was traveling south when the driver crashed into the front of the train.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Mooresville holds off on 50-townhome project as hundreds of additional homes await review",
-    "url": "https://www.wcnc.com/article/news/local/mooresville-holds-off-on-townhome-project/275-f6ee5e06-5378-4673-9fe3-bfbc66146ea9",
-    "industry": "AI & Technology",
-    "summary": "Town leaders delayed a proposed North Gibbs Road development as three additional housing projects totaling 546 units could come before commissioners in November.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
