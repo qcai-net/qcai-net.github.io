@@ -8,10 +8,26 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI reportedly lowers funding target for new round",
-    "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+    "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+    "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
     "industry": "AI & Technology",
-    "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+    "summary": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+    "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+    "industry": "AI & Technology",
+    "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+    "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+    "industry": "AI & Technology",
+    "summary": "The one-year-old startup is now valued at $300 million.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -32,10 +48,50 @@
     "impact_score": 5
   },
   {
-    "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-    "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+    "title": "Migrate Google BigQuery to an open lakehouse on AWS with Apache Iceberg",
+    "url": "https://aws.amazon.com/blogs/big-data/migrate-google-bigquery-to-an-open-lakehouse-on-aws-with-apache-iceberg/",
     "industry": "AI & Technology",
-    "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+    "summary": "Learn how to migrate Google BigQuery workloads to an open lakehouse on AWS built on Apache Iceberg and Amazon S3. This post explains why an open lakehouse future-proofs your data, presents the target architecture on AWS, and walks through a step-by-step migra…",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Apple restricts dating apps and AI companions to users 18 and up",
+    "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+    "industry": "AI & Technology",
+    "summary": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+    "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+    "industry": "AI & Technology",
+    "summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+    "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+    "industry": "AI & Technology",
+    "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+    "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+    "industry": "AI & Technology",
+    "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+    "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+    "industry": "AI & Technology",
+    "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -64,98 +120,42 @@
     "impact_score": 5
   },
   {
-    "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-    "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+    "title": "Enterprises Brush Off Wall Street Jitters and Double Down on AI Deployment",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/enterprises-brush-off-wall-street-jitters-double-down-on-ai-deployment/",
     "industry": "AI & Technology",
-    "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+    "summary": "Market jitters around artificial intelligence will not slow enterprise demand for the technology, although it may lead corporations to sharpen their focus on outcomes, The Wall Street Journal reported Monday (Nov. 2). Chief information officers and tech insid…",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-    "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+    "title": "Anthropic posts $17B quarterly revenue but losses continue in fresh IPO filing",
+    "url": "https://abcnews.com/Technology/wireStory/anthropic-posts-17b-quarterly-revenue-losses-continue-fresh-137775250",
     "industry": "AI & Technology",
-    "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+    "summary": "Anthropic reports quarterly revenue swelling to $17 billion but still posts a net loss for the latest three months",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Ollie, a privacy-focused AI assistant, is shutting down",
-    "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+    "title": "Late-week rain chances going up as wet weather returns to Charlotte: Forecast here",
+    "url": "https://www.wbtv.com/2026/11/03/late-week-rain-chances-going-up-wet-weather-returns-charlotte-forecast-here/",
     "industry": "AI & Technology",
-    "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+    "summary": "The rain will move out in time for the weekend.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Cracks are emerging in the AI spending boom",
-    "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+    "title": "Charlotte-Mecklenburg police, genetic experts work to identify remains of ‘Boxcar Boy’",
+    "url": "https://www.wbtv.com/2026/11/03/charlotte-mecklenburg-police-genetic-experts-work-identify-remains-boxcar-boy/",
     "industry": "AI & Technology",
-    "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+    "summary": "After 94 years Charlotte-Mecklenburg police says Monday, under a tarp and a tent, they started the process of trying to find the name and family of the unknown boy",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Zest’s new AI agent finds restaurants and books reservations over text",
-    "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+    "title": "Lubin, Adams help usher in Gainey era for NC State with 83-64 win over Campbell",
+    "url": "https://www.wbtv.com/2026/11/03/lubin-adams-help-usher-gainey-era-nc-state-with-83-64-win-over-campbell/",
     "industry": "AI & Technology",
-    "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Adds James Flanagan To Its Board And Audit Committee",
-    "url": "https://biztoc.com/x/c3e0258b2a035866",
-    "industry": "AI & Technology",
-    "summary": "Citigroup (NYSE:C) has appointed former PwC executive James Flanagan to its board of directors and Audit Committee.\n- The bank has brought in several senior leaders focused on artificial intelligence, including hires from large technology firms.\n- Citi has re…",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Scarrigan Farms’ haunted trail in Mooresville gives a terrifying close-up the last weekend of spooky season",
-    "url": "https://www.wcnc.com/article/life/holidays/scarrigan-farms-haunted-trail-mooresville-weekend-spooky-season/275-6600154d-d4b4-4243-9785-cf317b1ce514",
-    "industry": "AI & Technology",
-    "summary": "Scarrigan Farms is wrapping up its haunted trail season with a nearly mile-long walk featuring clowns, an insane asylum, a serial killer house, a corn maze.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "CATS light rail fare enforcement program starts Friday",
-    "url": "https://www.wcnc.com/article/news/local/charlotte-light-rail-fare-evasion-program-launch-iryna-zarutska/275-abbd9da4-de3d-4e26-9dc8-ad02afd702b7",
-    "industry": "AI & Technology",
-    "summary": "Starting Oct. 30, Charlotte's $5 million fare ambassador program will work to ensure light rail riders purchase tickets.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Live stream: Remains of ‘Boxcar Boy’ exhumed at Charlotte cemetery after nearly 100 years",
-    "url": "https://www.wbtv.com/2026/11/02/live-stream-remains-boxcar-boy-dug-up-charlotte-cemetery-after-nearly-100-years/",
-    "industry": "AI & Technology",
-    "summary": "The teen’s remains were dug up in hopes of identifying him.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Kid Rock Reveals He Used AI on New Song with Eminem",
-    "url": "https://consequence.net/2026/11/kid-rock-reveals-he-used-ai-on-song/",
-    "industry": "AI & Technology",
-    "summary": "The newly minted Christian music artist told Bill Maher that using AI saved time when making the song.\nKid Rock Reveals He Used AI on New Song with Eminem\nTravis Bland",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "After wild derby,  giants seal Libertadores spot; see list",
-    "url": "https://onefootball.com/en/news/after-wild-derby-giants-seal-libertadores-spot-see-list-43709992",
-    "industry": "AI & Technology",
-    "summary": "Boca Juniors beat River Plate 1-0 in a CRAZY derby at La Bombonera to seal their spot in the 2027 Libertadores.Lautaro Di Lollo scored the decisive goal this Sunday (1), taking the Argentine giants to...",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": " Coach, I need your hat! No one will believe this story",
-    "url": "https://onefootball.com/en/news/coach-i-need-your-hat-no-one-will-believe-this-story-43709983",
-    "industry": "AI & Technology",
-    "summary": "Lev Yashin rocked one 50 years ago, and now it’s made an unexpected return to professional football – the flat cap.Swindon Town keeper Connor Ripley had an apparently unexpected problem yesterday....",
+    "summary": "Ven-Allen Lubin recorded a double-double, Darius Adams scored 16 points and N.C. State beat Campbell 83-64 in a season opener on Monday night.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
