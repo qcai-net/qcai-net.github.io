@@ -1,9 +1,41 @@
 [
   {
-    "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-    "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+    "title": "Meta releases Muse Ember, a new lightweight model for agent execution | TechCrunch",
+    "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
     "industry": "AI & Technology",
-    "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+    "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+    "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "industry": "AI & Technology",
+    "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+    "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+    "industry": "AI & Technology",
+    "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+    "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+    "industry": "AI & Technology",
+    "summary": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+    "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+    "industry": "AI & Technology",
+    "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -16,10 +48,34 @@
     "impact_score": 5
   },
   {
-    "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-    "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+    "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+    "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
     "industry": "AI & Technology",
-    "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+    "summary": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+    "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+    "industry": "AI & Technology",
+    "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+    "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+    "industry": "AI & Technology",
+    "summary": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Otter AI can now follow conversations across 30+ languages",
+    "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+    "industry": "AI & Technology",
+    "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -32,130 +88,74 @@
     "impact_score": 5
   },
   {
-    "title": "Medium’s new TK app brings AI assistance directly into the writing process",
-    "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+    "title": "Bank of England’s Bailey sees early signs of an AI-driven positive supply shock",
+    "url": "https://cryptobriefing.com/bailey-ai-positive-supply-shock-uk/",
     "industry": "AI & Technology",
-    "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+    "summary": "AI's potential to boost UK growth is promising, but financial stability risks loom if productivity gains don't meet expectations.\nThe post Bank of England’s Bailey sees early signs of an AI-driven positive supply shock appeared first on Crypto Briefing.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-    "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+    "title": "Is Credo Technology Stock a Buy Right Now?",
+    "url": "https://biztoc.com/x/d60c0ddec4861bd5",
     "industry": "AI & Technology",
-    "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+    "summary": "Credo Technology (NASDAQ: CRDO) has been a huge winner over the past several years. Artificial intelligence (AI) hyperscalers are using its connectivity hardware products in their data centers. Shares have risen by more than 880% since its IPO in early 2022.\n…",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "How a Blue Wave midterm might reshape the AI industry",
-    "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+    "title": "Commerce Dept. Chip Inquiry Was Halted After Nvidia Intervention",
+    "url": "https://slashdot.org/submission/17352183/commerce-dept-chip-inquiry-was-halted-after-nvidia-intervention",
     "industry": "AI & Technology",
-    "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even ...",
+    "summary": "Investigators at the Commerce Department were deep into a monthslong investigation of a Singaporean company that they suspected of smuggling Nvidia’s artificial intelligence chips into China when their work came to a sudden halt late last year. The investigat…",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "After the midterms, is the AI industry in for a rough two years?",
-    "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+    "title": "Instagram Expands AI Age Estimation to Teen Accounts Worldwide",
+    "url": "https://www.iphoneincanada.ca/2026/11/09/instagram-expands-ai-age-estimation-to-teen-accounts-worldwide/",
     "industry": "AI & Technology",
-    "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even ...",
+    "summary": "Meta is rolling out its AI age-detection technology globally on Instagram to find teenagers who have listed an adult birthday on their profiles.\nThe post Instagram Expands AI Age Estimation to Teen Accounts Worldwide first appeared on iPhone in Canada.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Nvidia launches investigation into CEO Jensen Huang over foreign intelligence concerns | CNN Business",
-    "url": "https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang",
+    "title": "Nvidia shares open down more than 8% after it announces probe of CEO",
+    "url": "https://www.nzherald.co.nz/business/nvidia-shares-open-down-more-than-8-after-it-announces-probe-of-ceo/GPSDM76PNZE3NAM4INFEFHLNIE/",
     "industry": "AI & Technology",
-    "summary": "Nvidia announced Sunday that it is launching an independent investigation into its chief executive and founder Jensen Huang over concerns that he was the “target of a foreign intelligence effort.”",
+    "summary": "Nvidia shares fell more than 8% in opening trading on Monday.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Parents Sue Google Over AI Safety Risks On School Chromebooks",
-    "url": "https://tech.slashdot.org/story/26/11/08/1936228/parents-sue-google-over-ai-safety-risks-on-school-chromebooks",
+    "title": "Morbido 2026 Review: FAMILY FEARS ANOTHER NIGHT OF TERROR, A Pitch-Black Meta-Nightmare Trapped Inside the Television Box",
+    "url": "https://screenanarchy.com/2026/11/morbido-2026-review-family-fears-another-night-of-terror.html",
     "industry": "AI & Technology",
-    "summary": "The New York Times reports:\n\n\nAfter chatting for months with Google's artificial intelligence on a school-issued Chromebook laptop, a 13-year-old student made plans to end her life, according to a lawsuit filed in California Superior Court on Monday, the late…",
+    "summary": "A slow-burn existential nightmare that trades standard jump scares for analog glitches, trapping a family inside a pitch-black TV studio loop where they can't tell if they are living a haunting or performing a permanent breakdown.\n \n [Read the whole post on s…",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Nvidia opens investigation after reports CEO Jensen Huang was targeted by Chinese intelligence",
-    "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148",
+    "title": "Google Adds Two New Systems to its Eighth-Generation TPU Lineup",
+    "url": "https://www.iphoneincanada.ca/2026/11/09/google-adds-two-new-systems-to-its-eighth-generation-tpu-lineup/",
     "industry": "AI & Technology",
-    "summary": "The board of Nvidia on Sunday said that it was opening an independent investigation following reports that CEO Jensen Huang had been targeted by a foreign intelligence effort.",
+    "summary": "Google has rolled out two brand new custom AI processors under its eighth-generation Tensor Processing Unit lineup.\nThe post Google Adds Two New Systems to its Eighth-Generation TPU Lineup first appeared on iPhone in Canada.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Nvidia Board to Probe Spying Case After CEO Admits Infidelity",
-    "url": "https://www.livemint.com/companies/nvidia-board-to-probe-spying-case-after-ceo-admits-infidelity-11794169375335.html",
+    "title": "Who is Alice Huang: Power broker or alleged 'Chinese spy' linked to Nvidia?",
+    "url": "https://www.business-standard.com/world-news/who-is-alice-huang-power-broker-or-alleged-chinese-spy-linked-to-nvidia-126110901581_1.html",
     "industry": "AI & Technology",
-    "summary": "Nvidia Corp.’s board is launching an investigation into whether Chief Executive Officer Jensen Huang was targeted by a foreign espionage plot after he admitted to employees that he was unfaithful to his wife.",
+    "summary": "Nvidia's board has launched an independent probe following reports of alleged Chinese espionage targeting CEO Jensen Huang and questions over AI chip supplies through Megaspeed",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "This is the cheapest RTX 5090 PC we could find — and why we'd pick it over a similarly-powered laptop",
-    "url": "https://www.techradar.com/pro/this-is-the-cheapest-rtx-5090-pc-i-could-find-rtx-5090-laptops-are-far-cheaper-but-they-are-not-the-real-deal",
+    "title": "BoE's Bailey: AI increased risk of cyber attacks",
+    "url": "https://biztoc.com/x/151dac403bbf7171",
     "industry": "AI & Technology",
-    "summary": "This CyberPowerPC desktop pairs an RTX 5090 with capable components, costing $70 less than Amazon's listed standalone ASUS card today.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Luigi Mangione’s cousin trails in Baltimore County Council race as results change",
-    "url": "https://www.wbtv.com/2026/11/08/luigi-mangiones-cousin-wins-election-baltimore/",
-    "industry": "AI & Technology",
-    "summary": "Nino Mangione, Luigi Mangione’s cousin, trails Shawn McIntosh in the Baltimore County Council District 5 race, according to unofficial results.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Charlotte teen arrested for driving while impaired, causing crash that injured 5",
-    "url": "https://www.wbtv.com/2026/11/09/charlotte-teen-arrested-driving-while-impaired-causing-crash-that-injured-5/",
-    "industry": "AI & Technology",
-    "summary": "One woman was found unresponsive and with serious injuries, medics said.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Water main break leaves multiple Iredell County neighborhoods without water",
-    "url": "https://www.wbtv.com/2026/11/09/water-main-break-leaves-multiple-iredell-county-neighborhoods-without-water/",
-    "industry": "AI & Technology",
-    "summary": "Residents reported the break around 9 a.m. Monday, Nov. 9, near the Highway 21 crossing at Third Creek in Statesville.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Statesville water main break leaves multiple neighborhoods without water",
-    "url": "https://www.wcnc.com/article/news/local/water-main-break-statesville-neighborhoods-service-outage/275-29e34293-2999-45e6-8cc7-d3464a5f6bf1",
-    "industry": "AI & Technology",
-    "summary": "A significant water main break caused outages in multiple neighborhoods on Monday, Statesville officials said.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Crews contain Peaceful Acres Fire in Watauga County after threatening about 10 structures",
-    "url": "https://www.wcnc.com/article/news/local/wildfire/peaceful-acres-fire-watauga-county-nc/275-936354e4-d0d4-41f2-8bf4-61b3f8b42f2e",
-    "industry": "AI & Technology",
-    "summary": "Crews contained the wildfire near Todd, NC, around 8 a.m. About 10 structures were threatened, but no evacuations were made.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Charlotte City Council to vote Monday on 10-year airline lease amid airport control debate",
-    "url": "https://www.wcnc.com/article/news/community/transportation/charlotte-city-council-to-vote-monday-on-10-year-airline-lease-amid-airport-control-debate/275-64eb27e4-4657-4e8f-82ca-5d7eb852d48d",
-    "industry": "AI & Technology",
-    "summary": "If approved, the lease would support $2.1 billion in airport improvements and development.",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Argentina's president greets Pope Leo as tensions loom over austerity and Iran",
-    "url": "https://uk.news.yahoo.com/pope-leo-heads-mileis-argentina-100345344.html",
-    "industry": "AI & Technology",
-    "summary": "By Joshua McElwee and Leila Miller BUENOS AIRES, Nov 8 (Reuters) - Pope Leo arrived in Argentina from Uruguay on Sunday for the second leg of a 12-day tour across South America, ahead of a closely watched speech to Argentine President Javier Milei, a libertar…",
+    "summary": "Bank of England Governor Andrew Bailey stated on Monday that frontier artificial intelligence has increased the risk of cyber-attacks, a problem that was already \"prominent.\"More to come......",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
