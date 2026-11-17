@@ -1,17 +1,33 @@
 [
   {
-    "title": "Jensen Huang\u2019s departure blasts big hole in AI startup funding, VCs and founders say",
-    "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+    "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+    "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
     "industry": "AI & Technology",
-    "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+    "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google\u2019s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "The AI graveyard: a running list of projects and startups that didn\u2019t make it",
-    "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "title": "AI models can be tricked into identifying civilians as military targets by telling them it\u2019s a game",
+    "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
     "industry": "AI & Technology",
-    "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Science Corporation\u2019s brain tech is worth $3.5 billion after new funding",
+    "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+    "industry": "AI & Technology",
+    "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
+    "impact_score": 5
+  },
+  {
+    "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+    "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+    "industry": "AI & Technology",
+    "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -19,7 +35,7 @@
     "title": "California state AG sues OpenAI over rogue agent incidents",
     "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
     "industry": "AI & Technology",
-    "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
+    "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
@@ -40,122 +56,106 @@
     "impact_score": 5
   },
   {
-    "title": "OpenAI will embed safety researchers to investigate AI subversion",
-    "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+    "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+    "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
     "industry": "AI & Technology",
-    "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+    "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
-    "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+    "title": "Daydream\u2019s new AI agent acts as your personal stylist \u2014 and can shop for you, too",
+    "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
     "industry": "AI & Technology",
-    "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning",
+    "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Google Maps can now build trip itineraries with real-time details about each stop",
-    "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+    "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+    "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
     "industry": "AI & Technology",
-    "summary": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
+    "summary": "Voyage Labs\u2019 flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
-    "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+    "title": "Spotify\u2019s new tool aims to stop deepfakes from being attributed to real artists",
+    "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
     "industry": "AI & Technology",
-    "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+    "summary": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
-    "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
-    "industry": "AI & Technology",
-    "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "FBI says Artex AI open-source hacking tool used to breach networks in \u2018under three hours\u2019",
+    "title": "FBI says Artex AI open source hacking tool used to breach networks in \u2018under three hours\u2019",
     "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
     "industry": "AI & Technology",
-    "summary": "The FBI says that the open-source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+    "summary": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Audible turns to AI to help users discover audiobooks",
-    "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+    "title": "California sues OpenAI over AI agent test incidents",
+    "url": "https://biztoc.com/x/ef31c0743fc53608",
     "industry": "AI & Technology",
-    "summary": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
+    "summary": "California sued OpenAI on Monday over several incidents in which the company allowed its artificial intelligence (AI) agents to break out of testing platforms.Rob Bonta, the Golden State's Attorney Ge...",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
-    "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+    "title": "China \u2018full stop, is ahead of us\u2019: SpaceX alum building a $13 billion defense startup warns of Beijing\u2019s hypersonic weapons",
+    "url": "https://biztoc.com/x/302ea7e85a849881",
     "industry": "AI & Technology",
-    "summary": "Under the interim rule, the U.S. will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
+    "summary": "While Jensen Huang\u2019s resignation has put a renewed spotlight on the U.S.-China race for dominance in chips and artificial intelligence, another technological contest could have even more direct national security implications: hypersonic weapons.\nAnd the U.S. \u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
-    "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+    "title": "Nvidia faces extraordinary push to restore Huang days after his exit",
+    "url": "https://www.livemint.com/companies/nvidia-faces-extraordinary-push-to-restore-huang-days-after-his-exit-11794855915717.html",
     "industry": "AI & Technology",
-    "summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+    "summary": "NVIDIA-CEO-SUPPORT:Nvidia faces extraordinary push to restore Huang days after his exit",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Apple launches new app to study how people use AI for health",
-    "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+    "title": "California sues OpenAI over Hugging Face, other AI model loss of control",
+    "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
     "industry": "AI & Technology",
-    "summary": "Apple's new app for a study will answer everyday medical questions",
+    "summary": "Two OpenAI models gained unauthorized access Hugging Face's internal systems. The models were trying to find information for use in cheating on an evaluation.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Your next desktop PC for the price of a Ferrari? HP ZGX Fury packs in 748GB RAM and Nvidia GB300 \u2014 but prices start at $132,000",
-    "url": "https://www.techradar.com/pro/your-next-desktop-pc-for-the-price-of-a-ferrari-hp-zgx-fury-packs-in-748gb-ram-and-nvidia-gb300-but-starts-at-usd132-000",
+    "title": "Nvidia board not considering Huang's return despite mounting pressure, source says",
+    "url": "https://finance.yahoo.com/technology/articles/silicon-valley-leaders-back-call-145909540.html",
     "industry": "AI & Technology",
-    "summary": "HP's $132,000 ZGX Fury combines Nvidia's GB300 processor, 748GB memory, liquid cooling, and high-speed networking for demanding artificial intelligence workloads.",
+    "summary": "By Jaspreet Singh and Ross Kerber Nov 16 (Reuters) - Four days after Jensen Huang resigned from Nvidia, felled by revelations of affairs including one with a woman suspected of ties to Chinese intelligence, an extraordinary campaign is underway to restore him\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "\u2018Nvidia needs a dramatic shake-up\u2019: Why Scott Bessent wants an outsider as CEO after Jensen Huang scandal",
-    "url": "https://www.livemint.com/companies/news/nvidia-needs-a-dramatic-shake-up-why-scott-bessent-wants-an-outsider-as-ceo-after-jensen-huang-scandal-11794766164762.html",
+    "title": "Nvidia faces challenges as US export controls tighten on China sales",
+    "url": "https://cryptobriefing.com/nvidia-faces-challenges-as-us-export-controls-tighten-on-china-sales/",
     "industry": "AI & Technology",
-    "summary": "Bessent questioned Nvidia\u2019s corporate culture and its alleged role in facilitating the sale of advanced artificial intelligence (AI) chips to Chinese entities through shell companies, including those based in Singapore.",
+    "summary": "Tightened US export controls on China could significantly impact Nvidia's market valuation and global competitiveness by 2026.\nThe post Nvidia faces challenges as US export controls tighten on China sales appeared first on Crypto Briefing.",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+    "title": "As industry steps up activity, corporate borrowing follows",
+    "url": "https://m.economictimes.com/news/company/corporate-trends/as-industry-steps-up-activity-corporate-borrowing-follows/articleshow/135900744.cms",
     "industry": "AI & Technology",
-    "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environment\u2026",
+    "summary": "Corporate loan demand is increasing as companies in various sectors seek financing to support growth. The Reserve Bank of India's survey shows significant improvements in manufacturing capacity utilisation and order books. Public sector banks reported an incr\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   },
   {
-    "title": "Meta Fined \u20ac805 Million in Italy Over Facebook\u2019s Default Photo Gallery Access",
-    "url": "https://securityaffairs.com/203174/laws-and-regulations/meta-fined-e805-million-in-italy-over-facebooks-default-photo-gallery-access.html",
+    "title": "California sues OpenAI over Hugging Face, other AI model loss of control",
+    "url": "https://biztoc.com/x/d0b286cffddd6fe1",
     "industry": "AI & Technology",
-    "summary": "Italy fines Meta \u20ac805 million over Facebook\u2019s access to Android users\u2019 photo galleries without specific consent, affecting around 20 million people. Italy\u2019s data protection authority, the Garante, has fined Meta Platforms Ireland Limited \u20ac805 million. The rea\u2026",
-    "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
-    "impact_score": 5
-  },
-  {
-    "title": "Which North Carolina counties had the most gas tax complaints?",
-    "url": "https://www.wbtv.com/2026/11/16/which-north-carolina-counties-had-most-gas-tax-complaints/",
-    "industry": "AI & Technology",
-    "summary": "The tax break began Oct. 10 and is scheduled to expire Nov. 30.",
+    "summary": "California Attorney General Rob Bonta on Monday sued artificial intelligence giant OpenAI for putting public safety at risk by failing to contain AI models in testing environments.\n\"They put us all at risk,\" Bonta said at a press conference announcing the law\u2026",
     "charlotte_impact": "Deep analytical impact analysis is temporarily unavailable in limited mode.",
     "impact_score": 5
   }
