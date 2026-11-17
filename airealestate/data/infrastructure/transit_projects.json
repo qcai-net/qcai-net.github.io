@@ -32552,7 +32552,7 @@
         "Station": "SCB",
         "ProjectName": "East Cama Townhomes",
         "ProjectAddress": "4101 S Tryon St",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "TWHM",
         "ResidentialUnits": 16,
@@ -32615,7 +32615,7 @@
         "Station": "SCB",
         "ProjectName": "Tryon Fence",
         "ProjectAddress": "3601 S Tryon St",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "TWHM",
         "ResidentialUnits": 79,
@@ -41895,7 +41895,7 @@
         "ResidentialUnits": 165,
         "AffordableUnits": 0,
         "HotelRooms": 0,
-        "WalkDistance": 0.3,
+        "WalkDistance": 0.5,
         "EstimtatedCost": 35000000,
         "Completed": null,
         "Developer": "Ardent Companies",
@@ -44446,7 +44446,7 @@
         "Station": "SCB",
         "ProjectName": "Scaleybark Affordable Housing",
         "ProjectAddress": "Dewitt Ln.",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "MTF",
         "ResidentialUnits": 82,
@@ -45530,11 +45530,11 @@
         "Status": "Proposed",
         "ProjectType": "NEWC",
         "LandUse": "MTF",
-        "ResidentialUnits": 342,
-        "AffordableUnits": null,
-        "HotelRooms": null,
+        "ResidentialUnits": 335,
+        "AffordableUnits": 0,
+        "HotelRooms": 0,
         "WalkDistance": 0.01,
-        "EstimtatedCost": null,
+        "EstimtatedCost": 100500000,
         "Completed": null,
         "Developer": "McKinney Holdings",
         "PublicFacing": "Yes",
@@ -45544,7 +45544,7 @@
         "RetailSqFeet": null,
         "NonResSF": null,
         "DateCompleted": null,
-        "Parking": 538,
+        "Parking": 549,
         "SecCorridor": null,
         "Shape.STArea()": 191391.8762813151,
         "Shape.STLength()": 1785.5529864000812
@@ -46327,27 +46327,27 @@
         "OBJECTID": 413,
         "Corridor": "BLE",
         "Station": "25",
-        "ProjectName": "Bladerunner Mixed Use",
+        "ProjectName": "Bladerunner Mixed Use (Mira)",
         "ProjectAddress": "2321 N. Davidson St.",
-        "Status": "Proposed",
+        "Status": "Under Construction",
         "ProjectType": "NEWC",
         "LandUse": "MIXU",
-        "ResidentialUnits": 396,
+        "ResidentialUnits": 371,
         "AffordableUnits": null,
         "HotelRooms": null,
-        "WalkDistance": 0.18,
-        "EstimtatedCost": null,
+        "WalkDistance": 23,
+        "EstimtatedCost": 122000000,
         "Completed": null,
         "Developer": "Spacecraft City",
         "PublicFacing": null,
         "Notes": null,
         "ImageURL": null,
         "OfficeSqFeet": null,
-        "RetailSqFeet": 8578,
-        "NonResSF": 8578,
+        "RetailSqFeet": 9765,
+        "NonResSF": 9765,
         "DateCompleted": null,
-        "Parking": 70,
-        "SecCorridor": null,
+        "Parking": 146,
+        "SecCorridor": "BLE",
         "Shape.STArea()": 100448.33519296249,
         "Shape.STLength()": 1497.438351183493
       }
@@ -46652,7 +46652,7 @@
         "Station": "36",
         "ProjectName": "31st Street Townhomes",
         "ProjectAddress": "124 W 31st St.",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "TWHM",
         "ResidentialUnits": 43,
@@ -46711,7 +46711,7 @@
         "Station": "36",
         "ProjectName": "32nd Street Townhomes",
         "ProjectAddress": "210 W. 32nd St.",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "TWHM",
         "ResidentialUnits": 43,
@@ -50729,7 +50729,7 @@
         "Station": "36",
         "ProjectName": "Embrey North Tryon",
         "ProjectAddress": "3027 TRYON ST CHARLOTTE",
-        "Status": "Under Construction",
+        "Status": "Complete",
         "ProjectType": "NEWC",
         "LandUse": "MTF",
         "ResidentialUnits": 410,
@@ -57682,6 +57682,196 @@
         "SecCorridor": null,
         "Shape.STArea()": 1613794.3363433713,
         "Shape.STLength()": 5728.86253988045
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 562,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.75582551831535,
+              35.29234144123598
+            ],
+            [
+              -80.7559679467352,
+              35.291947607793546
+            ],
+            [
+              -80.75588682371512,
+              35.291876112166364
+            ],
+            [
+              -80.75534402962414,
+              35.29159362991498
+            ],
+            [
+              -80.75492818916008,
+              35.29153884861638
+            ],
+            [
+              -80.7547491669113,
+              35.291869216848504
+            ],
+            [
+              -80.75533094966293,
+              35.29203654184361
+            ],
+            [
+              -80.75582551831535,
+              35.29234144123598
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 562,
+        "Corridor": "BLE",
+        "Station": "UVC",
+        "ProjectName": "Tryon Self-storage",
+        "ProjectAddress": "7630 N Tryon St.",
+        "Status": "Under Construction",
+        "ProjectType": "NEWC",
+        "LandUse": "IND",
+        "ResidentialUnits": 0,
+        "AffordableUnits": null,
+        "HotelRooms": null,
+        "WalkDistance": 0.23,
+        "EstimtatedCost": 14000000,
+        "Completed": null,
+        "Developer": null,
+        "PublicFacing": null,
+        "Notes": null,
+        "ImageURL": null,
+        "OfficeSqFeet": null,
+        "RetailSqFeet": null,
+        "NonResSF": 94375,
+        "DateCompleted": null,
+        "Parking": 20,
+        "SecCorridor": "BLE",
+        "Shape.STArea()": 51157.53014473679,
+        "Shape.STLength()": 1002.7461656886684
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 563,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.88155121665885,
+              35.13991257377735
+            ],
+            [
+              -80.8807917413585,
+              35.1380925161718
+            ],
+            [
+              -80.87953302527391,
+              35.13795061133645
+            ],
+            [
+              -80.87940370117799,
+              35.138003220998336
+            ],
+            [
+              -80.87937267032666,
+              35.138164830819576
+            ],
+            [
+              -80.87927697804189,
+              35.1383527444557
+            ],
+            [
+              -80.87908662889704,
+              35.13853594662677
+            ],
+            [
+              -80.87888144909361,
+              35.13863760957311
+            ],
+            [
+              -80.8786524162362,
+              35.138702347681736
+            ],
+            [
+              -80.87838616331406,
+              35.13873104754924
+            ],
+            [
+              -80.87815387183188,
+              35.13876299140974
+            ],
+            [
+              -80.87784447156844,
+              35.13889908934665
+            ],
+            [
+              -80.87769438954702,
+              35.13901359524483
+            ],
+            [
+              -80.87761222838667,
+              35.13913458865945
+            ],
+            [
+              -80.87751995959043,
+              35.13928926374353
+            ],
+            [
+              -80.87790021075551,
+              35.139324507348114
+            ],
+            [
+              -80.87787569759445,
+              35.139551699691125
+            ],
+            [
+              -80.87936561964399,
+              35.13965072755931
+            ],
+            [
+              -80.87936474746868,
+              35.13977732022021
+            ],
+            [
+              -80.88155121665885,
+              35.13991257377735
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 563,
+        "Corridor": "BL",
+        "Station": "ARWW",
+        "ProjectName": "Arrowood Rd Apartments",
+        "ProjectAddress": "801 E Arrowood Rd.",
+        "Status": "Under Construction",
+        "ProjectType": "NEWC",
+        "LandUse": "MTF",
+        "ResidentialUnits": 336,
+        "AffordableUnits": 0,
+        "HotelRooms": 0,
+        "WalkDistance": 0.27,
+        "EstimtatedCost": 96000000,
+        "Completed": null,
+        "Developer": null,
+        "PublicFacing": null,
+        "Notes": null,
+        "ImageURL": null,
+        "OfficeSqFeet": null,
+        "RetailSqFeet": null,
+        "NonResSF": null,
+        "DateCompleted": null,
+        "Parking": 470,
+        "SecCorridor": "BL",
+        "Shape.STArea()": 516088.7871066511,
+        "Shape.STLength()": 3264.400167588547
       }
     }
   ]
